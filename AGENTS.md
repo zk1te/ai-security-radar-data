@@ -20,9 +20,9 @@ ai-security-radar-data/
 
 ## Git 配置
 
-- **Remote**: `git@github-radar-data:zk1te/ai-security-radar-data.git`
+- **Remote**: `git@ssh.github.com:zk1te/ai-security-radar-data.git`
 - **认证方式**: Deploy Key（`~/.ssh/radar_data_deploy`，ed25519，不过期）
-- **SSH Host**: `github-radar-data` → `ssh.github.com:443`（22 端口被封，走 443）
+- **SSH**: 直接连接 `ssh.github.com:443`（22 端口被封，走 443），密钥 `~/.ssh/radar_data_deploy`
 - **Git 用户**: `AI Security Radar <radar-data@local>`（仅 commit 署名，不影响认证）
 
 ## 标准推送流程（外网侧 Agent 使用）
@@ -135,7 +135,7 @@ git pull origin main
 
 | 问题 | 解决方案 |
 |------|---------|
-| `Host key verification failed` | `ssh -o StrictHostKeyChecking=accept-new -T git@github-radar-data` |
+| `Host key verification failed` | `ssh -o StrictHostKeyChecking=accept-new -T git@ssh.github.com` |
 | `Connection closed by x.x.x.x port 22` | 确认 SSH config 用 `ssh.github.com:443` 而非 `github.com:22` |
 | `Permission denied (publickey)` | 确认 `~/.ssh/radar_data_deploy` 存在且 SSH config 中 `IdentityFile` 指向它 |
 | `fatal: detected dubious ownership` | `git config --global --add safe.directory <仓库路径>` |
