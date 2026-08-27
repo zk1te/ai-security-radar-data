@@ -23,6 +23,7 @@ ai-security-radar-data/
 - **Remote**: `git@ssh.github.com:zk1te/ai-security-radar-data.git`
 - **认证方式**: Deploy Key（`~/.ssh/radar_data_deploy`，ed25519，不过期）
 - **SSH**: 直接连接 `ssh.github.com:443`（22 端口被封，走 443），密钥 `~/.ssh/radar_data_deploy`
+- **core.sshCommand**: `ssh -i ~/.ssh/radar_data_deploy -p 443 -o IdentitiesOnly=yes`（已写入 git config local，push 时自动生效）
 - **Git 用户**: `AI Security Radar <radar-data@local>`（仅 commit 署名，不影响认证）
 
 ## 标准推送流程（外网侧 Agent 使用）
