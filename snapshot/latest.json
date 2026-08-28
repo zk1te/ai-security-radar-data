@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T15:14:09+08:00",
+  "updated_at": "2026-08-28T15:47:11+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
@@ -176,23 +176,23 @@
       "first_seen_at": "2026-08-27T13:20:26.037384"
     },
     {
-      "id": 3507,
-      "title": "RedEvoAgent：具备经验驱动技能演进的自动红队Agent",
-      "original_title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "summary": "提出一种黑盒红队测试Agent，通过将攻击轨迹提炼为可读技能并自适应演进，提升对LLM Agent的越狱测试效率与跨场景迁移能力。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 83.77,
+      "id": 3555,
+      "title": "X-WAD：基于 Transformer 的 Web 异常检测与训练数据污染分析",
+      "original_title": "X-WAD: eXplainable Web Anomaly Detection",
+      "summary": "本论文提出使用 Transformer 语言模型进行 HTTP 请求异常检测，通过 token 级别的 surprisal 映射提供可解释的异常分数，并借此发现了公开数据集中的标签污染问题，揭示了数据投毒如何导致检测模型产生后门式的误判。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "malware_detection",
+      "score_total": 83.8,
       "include_status": "highlight",
       "item_type": "paper",
-      "recommendation_reason": "做AI安全攻防和红队测试的同学必看。它给出了Agent自动从攻击经验中学习并演进技能的实操思路，对设计自动化安全评测平台有直接参考价值。",
+      "recommendation_reason": "做 WAF 和 Web 异常检测的兄弟必看：这篇不仅用 Transformer 算 surprisal 给出可解释的异常打分，还顺手扒出了公开数据集的标签投毒——训练集混进几个攻击样本，模型就能学会装瞎。赶紧自查你们自研检测模型的训练数据。",
       "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2608.27439",
-      "reader_url": "http://70.181.2.43:8888/open?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2608.27439",
+      "canonical_url": "https://arxiv.org/abs/2608.27172",
+      "reader_url": "http://70.181.2.43:8888/open?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2608.27172",
       "image_url": null,
       "author": null,
       "published_at": "2026-08-28T00:00:00",
-      "first_seen_at": "2026-08-28T06:48:17.049679"
+      "first_seen_at": "2026-08-28T07:20:44.817890"
     }
   ]
 }
