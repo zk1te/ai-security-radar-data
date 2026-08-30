@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T08:01:43+08:00",
+  "updated_at": "2026-08-30T08:36:58+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
@@ -135,29 +135,6 @@
       "first_seen_at": "2026-08-29T13:52:18.862295"
     },
     {
-      "id": 3569,
-      "title": "Wiz 蜜罐研究：提示注入已触及操作系统层，AI 基础设施成活跃攻击面",
-      "original_title": "🚨 AI INFRASTRUCTURE IS NOW AN ACTIVE ATTACK SURFACE — PROMPT INJECTION IS REACHING THE OPERATING SYSTEM  Wiz observed attackers targeting LiteLLM, MCP servers and AI frameworks — i",
-      "summary": "Wiz 通过 90 天 AI 蜜罐观测发现，攻击者已针对 LiteLLM、MCP 服务器等实施盲提示注入和 RCE，甚至从进程内存提取主密钥，AI 基础设施正成为专业攻击面。",
-      "primary_category": "Sec for AI",
-      "sub_category": "prompt_injection",
-      "score_total": 78.22,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队若自建 AI 基础设施必须看：攻击者已专门研究 AI 平台内部架构，从内存提取主密钥。立即盘点暴露面、限制 AI 进程 shell 权限和出网能力，监控异常子进程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2093245885584994794",
-      "reader_url": null,
-      "image_url": null,
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity News",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-28T07:54:44",
-      "first_seen_at": "2026-08-28T08:22:58.363115"
-    },
-    {
       "id": 3625,
       "title": "澳警方指控两名 TeamPCP 黑客涉嫌攻击 Trivy 与 LiteLLM 供应链",
       "original_title": "‼️ BREAKING: Two Alleged TeamPCP hackers charged in Australia.  Police link them to the Trivy, KICS, and LiteLLM supply chain compromises. AFP says the malicious code potentially h",
@@ -221,6 +198,25 @@
       },
       "published_at": "2026-08-29T12:50:23",
       "first_seen_at": "2026-08-29T13:21:45.600014"
+    },
+    {
+      "id": 4114,
+      "title": "英国 AISI 开源 Inspect Cyber：标准化 AI 安全代理能力评测",
+      "original_title": "Inspect Cyber: A New Standard for Agentic Cyber Evaluations  | AISI Work",
+      "summary": "英国 AISI 推出开源框架 Inspect Cyber，旨在通过双配置文件标准化 AI 代理在 CTF 和网络靶场等安全任务中的评测流程，解决现有测试重复造轮子、难以复现的痛点。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 76.04,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 评测的团队可以直接拿这个开源框架搭靶场和跑分。它省去了繁琐的环境配置代码，让你专注设计安全场景，且结果可复现可比对，是提升 AI 安全评测效率的利器。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/inspect-cyber",
+      "reader_url": null,
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-08-29T08:43:25.900540"
     }
   ]
 }
