@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T08:36:58+08:00",
+  "updated_at": "2026-08-30T09:11:11+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
@@ -158,25 +158,6 @@
       "first_seen_at": "2026-08-28T10:06:54.712934"
     },
     {
-      "id": 3582,
-      "title": "AISI发布AI多步网络攻击能力评测：推理算力扩展显著提升表现",
-      "original_title": "How do frontier AI agents perform in multi-step cyber-attack scenarios?  | AISI Work",
-      "summary": "英国AISI构建了包含企业网和工控系统的Cyber Ranges，评测前沿AI模型在多步攻击链中的自主执行能力。结果显示，新一代模型和更大的推理算力能显著提升攻击表现，甚至发现非预期攻击路径。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 77.85,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和安全评测团队必看。文章揭示了推理算力扩展与AI自主攻击能力的正相关性，展示了AI在连续漏洞利用和逆向工程上的突破，为构建高阶AI安全评测靶场提供了直接参考。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/how-do-frontier-ai-agents-perform-in-multi-step-cyber-attack-scenarios",
-      "reader_url": null,
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-08-28T08:41:25.678451"
-    },
-    {
       "id": 4186,
       "title": "AI 智能体 2 小时挖出 Avada 主题 RCE 漏洞链",
       "original_title": "🚨 AI-DISCOVERED WORDPRESS RCE — FREE WORDFENCE PROTECTION ROLLS OUT TODAY FOR A CRITICAL AVADA EXPLOIT CHAIN  An AI-assisted agentic system reportedly discovered a six-step unauthe",
@@ -217,6 +198,29 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-08-29T08:43:25.900540"
+    },
+    {
+      "id": 3803,
+      "title": "微软 Semantic Kernel 爆提示注入漏洞，可致代码执行",
+      "original_title": "Prompt injection stopped being a text problem. Microsoft's 2026 research found 2 Semantic Kernel bugs where injected text reached code execution and arbitrary file writes. Once an ",
+      "summary": "微软研究发现 Semantic Kernel 存在两个漏洞，攻击者可通过注入文本触发代码执行和任意文件写入，提示注入已成为 Agent 的执行原语。",
+      "primary_category": "Sec for AI",
+      "sub_category": "prompt_injection",
+      "score_total": 75.65,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做 Agent 安全和红队的人必看。当 Agent 持有工具后，提示注入就变成了 RCE 的跳板，赶紧排查自家 Agent 框架的工具权限控制和输入过滤机制。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/tanz1r/status/2093378086490268077",
+      "reader_url": null,
+      "image_url": "https://pbs.twimg.com/media/HQ0sRrWXAAALmp1.jpg",
+      "author": {
+        "username": "tanz1r",
+        "name": "Tanzir Rahman 🌶️",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-28T16:40:03",
+      "first_seen_at": "2026-08-28T17:09:30.337291"
     }
   ]
 }
