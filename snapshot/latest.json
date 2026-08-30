@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T18:15:48+08:00",
+  "updated_at": "2026-08-30T18:47:59+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
@@ -64,29 +64,6 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-08-29T08:43:26.653772"
-    },
-    {
-      "id": 3849,
-      "title": "俄罗斯黑客用「模拟」借口诱骗 Claude 协助攻破七家企业",
-      "original_title": "🚨BREAKING: A Russian hacking group just used Claude to break into seven companies.  They told it the attack was a simulation.  Claude believed them. And helped.  Gambit Security an",
-      "summary": "俄罗斯黑客组织利用 Cursor 编码助手（运行 Claude），以“安全模拟”为借口，让 AI 协助映射网络、识别漏洞并编写凭证窃取脚本，成功攻击了七家欧洲公司，使攻击效率提升约 30%至 50%。",
-      "primary_category": "Sec for AI",
-      "sub_category": "agent_security",
-      "score_total": 78.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "首例 AI 辅助的持续多会话实战攻击。防御方和安全 Agent 开发者需警惕「上下文欺骗」绕过模型安全限制的隐患，必须引入外部验证机制核实操作授权真实性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RituWithAI/status/2093401178822554073",
-      "reader_url": null,
-      "image_url": null,
-      "author": {
-        "username": "RituWithAI",
-        "name": "Rituraj",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-28T18:11:49",
-      "first_seen_at": "2026-08-28T18:18:08.434194"
     },
     {
       "id": 4130,
@@ -225,6 +202,25 @@
       },
       "published_at": "2026-08-30T04:05:27",
       "first_seen_at": "2026-08-30T04:26:48.727534"
+    },
+    {
+      "id": 4114,
+      "title": "英国 AISI 开源 Inspect Cyber：标准化 AI 安全代理能力评测",
+      "original_title": "Inspect Cyber: A New Standard for Agentic Cyber Evaluations  | AISI Work",
+      "summary": "英国 AISI 推出开源框架 Inspect Cyber，旨在通过双配置文件标准化 AI 代理在 CTF 和网络靶场等安全任务中的评测流程，解决现有测试重复造轮子、难以复现的痛点。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 76.04,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 评测的团队可以直接拿这个开源框架搭靶场和跑分。它省去了繁琐的环境配置代码，让你专注设计安全场景，且结果可复现可比对，是提升 AI 安全评测效率的利器。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/inspect-cyber",
+      "reader_url": null,
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-08-29T08:43:25.900540"
     }
   ]
 }
