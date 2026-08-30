@@ -1,28 +1,9 @@
 {
-  "updated_at": "2026-08-30T07:30:15+08:00",
+  "updated_at": "2026-08-30T08:01:43+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 3558,
-      "title": "PrismWF：基于多粒度Transformer的多标签页网站指纹攻击",
-      "original_title": "PrismWF: A Multi-Granularity Patch-Based Transformer for Robust Website Fingerprinting Attack",
-      "summary": "该研究提出PrismWF模型，利用多粒度补丁Transformer解决Tor网络中多标签页并发浏览产生的混合流量识别问题，在多数据集下达到SOTA效果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "traffic_analysis",
-      "score_total": 81.27,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做流量分析和匿名通信安全的研究者必看。该方法突破了传统单标签页限制，提出针对混合流量的特征融合机制，为真实场景下的流量安全分析提供了新思路。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2603.21117",
-      "reader_url": "http://70.181.2.43:8888/open?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2603.21117",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-28T00:00:00",
-      "first_seen_at": "2026-08-28T07:32:10.755056"
-    },
     {
       "id": 3966,
       "title": "AI 代理十分钟内挖洞并尝试利用，开源安全披露流程面临失效",
@@ -217,6 +198,29 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-08-28T08:41:25.678451"
+    },
+    {
+      "id": 4186,
+      "title": "AI 智能体 2 小时挖出 Avada 主题 RCE 漏洞链",
+      "original_title": "🚨 AI-DISCOVERED WORDPRESS RCE — FREE WORDFENCE PROTECTION ROLLS OUT TODAY FOR A CRITICAL AVADA EXPLOIT CHAIN  An AI-assisted agentic system reportedly discovered a six-step unauthe",
+      "summary": "Wordfence 的 AI 系统 Argus 约两小时内发现并复现了 Avada 主题中六步未授权 RCE 链，展示 AI 辅助漏洞研究从孤立 Bug 发现迈向复杂利用链构建的能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.4,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应立刻更新 Avada 主题并排查后门。对从业者而言，这标志着 AI 智能体已能自主推理并连接多步漏洞链，攻防双方自动化对抗正在加速。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/XQOPTRX/status/2093682674799927321",
+      "reader_url": null,
+      "image_url": null,
+      "author": {
+        "username": "XQOPTRX",
+        "name": "CyberSignal | Cybersecurity News",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-29T12:50:23",
+      "first_seen_at": "2026-08-29T13:21:45.600014"
     }
   ]
 }
