@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T10:15:58+08:00",
+  "updated_at": "2026-08-30T10:48:57+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
@@ -135,6 +135,29 @@
       "first_seen_at": "2026-08-29T13:52:18.862295"
     },
     {
+      "id": 4400,
+      "title": "Reverse-Skill：为安全 AI Agent 打造的逆向与渗透技能路由系统",
+      "original_title": "🚢 Reverse-Skill: o \"GPS\" para agentes de IA em cibersegurança  Quando um agente (Claude Code, Cursor, Codex, Cline, OpenCode) recebe um APK suspeito, um ELF binário, um JS com parâ",
+      "summary": "Reverse-Skill 是一个面向安全 AI Agent 的技能路由器，通过 43 条规则自动识别目标类型并调度 IDA、Frida 等安全工具链，覆盖逆向分析到漏洞利用全流程，已在 GitHub 开源。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 和自动化逆向的必看项目。它直接解决了 AI 调用安全工具时的编排混乱痛点，提供了可复用的路由规则和 MCP 集成思路，落地价值极高。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Trorram/status/2093882581393526922",
+      "reader_url": null,
+      "image_url": "https://pbs.twimg.com/media/HQ73FG0WAAAjazK.jpg",
+      "author": {
+        "username": "Trorram",
+        "name": "Trorram",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-30T02:04:44",
+      "first_seen_at": "2026-08-30T02:18:20.674580"
+    },
+    {
       "id": 4186,
       "title": "AI 智能体 2 小时挖出 Avada 主题 RCE 漏洞链",
       "original_title": "🚨 AI-DISCOVERED WORDPRESS RCE — FREE WORDFENCE PROTECTION ROLLS OUT TODAY FOR A CRITICAL AVADA EXPLOIT CHAIN  An AI-assisted agentic system reportedly discovered a six-step unauthe",
@@ -198,29 +221,6 @@
       },
       "published_at": "2026-08-28T16:40:03",
       "first_seen_at": "2026-08-28T17:09:30.337291"
-    },
-    {
-      "id": 4196,
-      "title": "Claude Computer Use 正式发布背后的 Agent 安全风险",
-      "original_title": "Claude's computer use and browser use tools just went GA. Agents are officially production tech now.  Here's what the launch posts skip: an agent with your service key is a user yo",
-      "summary": "Claude 计算机和浏览器使用工具已正式发布，但面临网页提示注入、工具调用高权限及缺乏审计日志等风险，建议严格限制密钥权限、记录工具调用并沙箱化浏览器。",
-      "primary_category": "Sec for AI",
-      "sub_category": "agent_security",
-      "score_total": 75.2,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需立即关注 Claude 新功能的权限与审计盲区。把 Agent 当作拥有 root 权限的实习生很危险，必须从沙箱隔离和日志记录入手限制其行为。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/codewprince/status/2093692801334575164",
-      "reader_url": null,
-      "image_url": null,
-      "author": {
-        "username": "codewprince",
-        "name": "Prince | Ships AI Products in 21 Days",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-29T13:30:37",
-      "first_seen_at": "2026-08-29T13:51:59.128729"
     }
   ]
 }
