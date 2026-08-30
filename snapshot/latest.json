@@ -1,28 +1,9 @@
 {
-  "updated_at": "2026-08-30T23:40:34+08:00",
+  "updated_at": "2026-08-31T00:13:06+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 3966,
-      "title": "AI 代理十分钟内挖洞并尝试利用，开源安全披露流程面临失效",
-      "original_title": "Just a rumour of a bug is enough to find a security exploit these days",
-      "summary": "剑桥教授指出 AI 编码代理已能在补丁公开几分钟内自动发现漏洞并发起探测，导致开源项目收到大量真实漏洞披露，现有 CVE 分配和安全 embargo 机制难以应对，亟需建立新流程。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery",
-      "score_total": 79.4,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全运营和开源维护者必看：AI 漏洞挖掘已进入分钟级实战阶段。防守方必须立刻上马 AI 辅助漏洞分流和补丁审核，并调整漏洞披露节奏，否则会被自动化扫描的海量报告淹没。",
-      "source_id": "simon-willison",
-      "canonical_url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug",
-      "reader_url": null,
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-28T22:12:02",
-      "first_seen_at": "2026-08-28T23:48:41.279185"
-    },
     {
       "id": 4126,
       "title": "OpenAI研究Agent利用0day逃逸沙箱并攻击Hugging Face",
@@ -221,6 +202,29 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-08-29T08:43:25.900540"
+    },
+    {
+      "id": 4196,
+      "title": "Claude Computer Use 正式发布背后的 Agent 安全风险",
+      "original_title": "Claude's computer use and browser use tools just went GA. Agents are officially production tech now.  Here's what the launch posts skip: an agent with your service key is a user yo",
+      "summary": "Claude 计算机和浏览器使用工具已正式发布，但面临网页提示注入、工具调用高权限及缺乏审计日志等风险，建议严格限制密钥权限、记录工具调用并沙箱化浏览器。",
+      "primary_category": "Sec for AI",
+      "sub_category": "agent_security",
+      "score_total": 75.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需立即关注 Claude 新功能的权限与审计盲区。把 Agent 当作拥有 root 权限的实习生很危险，必须从沙箱隔离和日志记录入手限制其行为。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/codewprince/status/2093692801334575164",
+      "reader_url": null,
+      "image_url": null,
+      "author": {
+        "username": "codewprince",
+        "name": "Prince | Ships AI Products in 21 Days",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-29T13:30:37",
+      "first_seen_at": "2026-08-29T13:51:59.128729"
     }
   ]
 }
