@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T05:34:43+08:00",
+  "updated_at": "2026-08-31T06:06:17+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
@@ -139,6 +139,29 @@
       "first_seen_at": "2026-08-29T13:21:45.600014"
     },
     {
+      "id": 4656,
+      "title": "CoreBreak：伪造工具调用绕过 Agent 模型决策",
+      "original_title": "Agent guardrails fail when the model never runs.  In a typical agent stack, the model selects a tool and the runtime executes it. Security controls usually sit on that decision ste",
+      "summary": "Black Hat 2026 披露 \"CoreBreak\" 漏洞，攻击者可通过伪造工具调用数据绕过模型决策层，致使 AWS Bedrock、Google ADK 等主流 Agent 框架的安全护栏失效。",
+      "primary_category": "Sec for AI",
+      "sub_category": "agent_security",
+      "score_total": 77.15,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "如果你在用 Agent 做安全自动化，赶紧查你的 AWS Bedrock 或 Vercel SDK 版本。护栏不能只盯 Prompt，工具分发层必须绑定可信的模型决策。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xManan/status/2094173029584847183",
+      "reader_url": null,
+      "image_url": null,
+      "author": {
+        "username": "0xManan",
+        "name": "!Manan",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-30T21:18:52",
+      "first_seen_at": "2026-08-30T21:35:36.652642"
+    },
+    {
       "id": 4434,
       "title": "OpenAI 悬赏 10 万美元征集 Agent 安全漏洞",
       "original_title": "openai is paying $100k to whoever breaks their agents first  not api credits. not compute tokens. real cash wired to your account. and the scope is dead honest about what they're s",
@@ -202,29 +225,6 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-08-29T08:43:25.900540"
-    },
-    {
-      "id": 4196,
-      "title": "Claude Computer Use 正式发布背后的 Agent 安全风险",
-      "original_title": "Claude's computer use and browser use tools just went GA. Agents are officially production tech now.  Here's what the launch posts skip: an agent with your service key is a user yo",
-      "summary": "Claude 计算机和浏览器使用工具已正式发布，但面临网页提示注入、工具调用高权限及缺乏审计日志等风险，建议严格限制密钥权限、记录工具调用并沙箱化浏览器。",
-      "primary_category": "Sec for AI",
-      "sub_category": "agent_security",
-      "score_total": 75.2,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需立即关注 Claude 新功能的权限与审计盲区。把 Agent 当作拥有 root 权限的实习生很危险，必须从沙箱隔离和日志记录入手限制其行为。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/codewprince/status/2093692801334575164",
-      "reader_url": null,
-      "image_url": null,
-      "author": {
-        "username": "codewprince",
-        "name": "Prince | Ships AI Products in 21 Days",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-29T13:30:37",
-      "first_seen_at": "2026-08-29T13:51:59.128729"
     }
   ]
 }
