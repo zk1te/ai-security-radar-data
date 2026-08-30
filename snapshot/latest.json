@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T12:24:50+08:00",
+  "updated_at": "2026-08-30T12:57:32+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
@@ -181,6 +181,29 @@
       "first_seen_at": "2026-08-29T13:21:45.600014"
     },
     {
+      "id": 4423,
+      "title": "强化 AI 安全审计 Agent：需证明无漏洞而非仅报告发现",
+      "original_title": "Tooling AGENTROPOLIS-SENTINEL-6 will make repo public.   This is a strong audit loop, but I think it’s still missing the layer that audits the audit itself. 🔍⚡  “Zero new findings”",
+      "summary": "作者指出 AI 审计 Agent 在「零新发现」时易陷入虚假停止，建议在审计前做全量系统盘点，明确不变量与爆炸半径图，并加入 Agent/MCP 安全测试，将审计升级为持续验证的基础设施。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent | agent_security",
+      "score_total": 76.36,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做自动化代码审计的安全工程师必看。它点破了「无新发现不等于安全」的盲区，并提供了落地到 Agent 审计流程的爆炸半径图和缺失证据验证清单，可直接抄作业加固安全 Agent。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/neurometax/status/2093912960473452980",
+      "reader_url": null,
+      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HQ8Su21bkAAWQy5.jpg",
+      "author": {
+        "username": "neurometax",
+        "name": "Neuro",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-30T04:05:27",
+      "first_seen_at": "2026-08-30T04:26:48.727534"
+    },
+    {
       "id": 4114,
       "title": "英国 AISI 开源 Inspect Cyber：标准化 AI 安全代理能力评测",
       "original_title": "Inspect Cyber: A New Standard for Agentic Cyber Evaluations  | AISI Work",
@@ -198,29 +221,6 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-08-29T08:43:25.900540"
-    },
-    {
-      "id": 3803,
-      "title": "微软 Semantic Kernel 爆提示注入漏洞，可致代码执行",
-      "original_title": "Prompt injection stopped being a text problem. Microsoft's 2026 research found 2 Semantic Kernel bugs where injected text reached code execution and arbitrary file writes. Once an ",
-      "summary": "微软研究发现 Semantic Kernel 存在两个漏洞，攻击者可通过注入文本触发代码执行和任意文件写入，提示注入已成为 Agent 的执行原语。",
-      "primary_category": "Sec for AI",
-      "sub_category": "prompt_injection",
-      "score_total": 75.65,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做 Agent 安全和红队的人必看。当 Agent 持有工具后，提示注入就变成了 RCE 的跳板，赶紧排查自家 Agent 框架的工具权限控制和输入过滤机制。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/tanz1r/status/2093378086490268077",
-      "reader_url": null,
-      "image_url": "https://pbs.twimg.com/media/HQ0sRrWXAAALmp1.jpg",
-      "author": {
-        "username": "tanz1r",
-        "name": "Tanzir Rahman 🌶️",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-28T16:40:03",
-      "first_seen_at": "2026-08-28T17:09:30.337291"
     }
   ]
 }
