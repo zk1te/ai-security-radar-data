@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T09:43:23+08:00",
+  "updated_at": "2026-08-30T10:15:58+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
@@ -135,29 +135,6 @@
       "first_seen_at": "2026-08-29T13:52:18.862295"
     },
     {
-      "id": 3625,
-      "title": "澳警方指控两名 TeamPCP 黑客涉嫌攻击 Trivy 与 LiteLLM 供应链",
-      "original_title": "‼️ BREAKING: Two Alleged TeamPCP hackers charged in Australia.  Police link them to the Trivy, KICS, and LiteLLM supply chain compromises. AFP says the malicious code potentially h",
-      "summary": "两名 TeamPCP 黑客被澳大利亚警方指控，其发起的供应链攻击涉及 Trivy、KICS 和 LiteLLM，可能影响上千组织并窃取超 50 万凭证。",
-      "primary_category": "Sec for AI",
-      "sub_category": "ai_supply_chain",
-      "score_total": 77.9,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需立即排查内部是否使用受影响的 Trivy、KICS 及 LiteLLM 版本。这不仅是安全工具链被污染的问题，更是大模型网关面临供应链风险的实战警示。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2092948081197400289",
-      "reader_url": null,
-      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HQukKE0b0AAmc6o.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-27T12:11:22",
-      "first_seen_at": "2026-08-28T10:06:54.712934"
-    },
-    {
       "id": 4186,
       "title": "AI 智能体 2 小时挖出 Avada 主题 RCE 漏洞链",
       "original_title": "🚨 AI-DISCOVERED WORDPRESS RCE — FREE WORDFENCE PROTECTION ROLLS OUT TODAY FOR A CRITICAL AVADA EXPLOIT CHAIN  An AI-assisted agentic system reportedly discovered a six-step unauthe",
@@ -221,6 +198,29 @@
       },
       "published_at": "2026-08-28T16:40:03",
       "first_seen_at": "2026-08-28T17:09:30.337291"
+    },
+    {
+      "id": 4196,
+      "title": "Claude Computer Use 正式发布背后的 Agent 安全风险",
+      "original_title": "Claude's computer use and browser use tools just went GA. Agents are officially production tech now.  Here's what the launch posts skip: an agent with your service key is a user yo",
+      "summary": "Claude 计算机和浏览器使用工具已正式发布，但面临网页提示注入、工具调用高权限及缺乏审计日志等风险，建议严格限制密钥权限、记录工具调用并沙箱化浏览器。",
+      "primary_category": "Sec for AI",
+      "sub_category": "agent_security",
+      "score_total": 75.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需立即关注 Claude 新功能的权限与审计盲区。把 Agent 当作拥有 root 权限的实习生很危险，必须从沙箱隔离和日志记录入手限制其行为。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/codewprince/status/2093692801334575164",
+      "reader_url": null,
+      "image_url": null,
+      "author": {
+        "username": "codewprince",
+        "name": "Prince | Ships AI Products in 21 Days",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-29T13:30:37",
+      "first_seen_at": "2026-08-29T13:51:59.128729"
     }
   ]
 }
