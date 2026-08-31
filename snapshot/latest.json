@@ -1,32 +1,9 @@
 {
-  "updated_at": "2026-09-01T01:18:06+08:00",
+  "updated_at": "2026-09-01T02:23:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
-    {
-      "id": 5133,
-      "title": "AI 驱动代码审计对比传统 Fuzzing：用数十亿 Token 穷尽代码库",
-      "original_title": "Team A uses tried and true auditing methods: Expert manual review and deep invariant fuzzing to cover every possible application state.  Team B drives billions of AI tokens into ev",
-      "summary": "该推文对比了传统人工审查加深度 Fuzzing 与利用前沿 AI 模型消耗数十亿 Token 穷尽代码库的两种安全审计范式。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "直击当前 AI 代码审计的落地痛点：传统 Fuzzing 与大模型暴力扫 Token 孰强孰弱。想引入 LLM 做漏洞挖掘的团队必看，思考如何结合两者边界而非盲从 AI。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/GuardianAudits/status/2094417575837048992",
-      "reader_url": "https://x.com/GuardianAudits/status/2094417575837048992",
-      "image_url": "https://pbs.twimg.com/media/HRDdr7MaEAADih1.jpg",
-      "author": {
-        "username": "GuardianAudits",
-        "name": "Guardian",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T13:30:37",
-      "first_seen_at": "2026-08-31T14:01:09.324379"
-    },
     {
       "id": 5173,
       "title": "Aurora勒索团伙滥用Cursor AI执行自动化内网渗透",
