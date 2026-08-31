@@ -1,32 +1,9 @@
 {
-  "updated_at": "2026-09-01T02:53:56+08:00",
+  "updated_at": "2026-09-01T03:27:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 6,
   "items": [
-    {
-      "id": 5173,
-      "title": "Aurora勒索团伙滥用Cursor AI执行自动化内网渗透",
-      "original_title": "⚠️ Aurora ransomware operators gave Cursor AI credentials or an existing route into victim networks.  The agent handled exploitation tasks against 10 targets, including network sca",
-      "summary": "Aurora勒索软件运营者向Cursor AI提供凭证，使其对10个目标自动执行网络扫描、权限检查、NTLM中继和证书攻击等渗透任务。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 72.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "勒索团伙已开始用Cursor AI执行内网扫描和漏洞利用。防御方需关注AI自动化攻击趋势，评估现有安全设备能否拦截此类AI驱动的自动化行为。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2094391830314172761",
-      "reader_url": "https://x.com/TheHackersNews/status/2094391830314172761",
-      "image_url": "https://pbs.twimg.com/media/HRDGOo_bgAEVOay.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T11:48:18",
-      "first_seen_at": "2026-08-31T15:09:55.453350"
-    },
     {
       "id": 5183,
       "title": "谷歌用Gemini重写C库为Rust，大规模Fuzzing验证避坑",
@@ -51,27 +28,27 @@
       "first_seen_at": "2026-08-31T16:13:53.027962"
     },
     {
-      "id": 5170,
-      "title": "简单提示词找漏洞热潮退散？harness 重新成为关键",
-      "original_title": "Several weeks ago, everyone’s grandparents and non-technical friends and family were finding vulns with the prompt “find my vulns plz.”  How’s that going? Harnesses matter again ye",
-      "summary": "推文反思仅靠简单提示词让 AI 找漏洞的局限性，指出测试套件（harness）在 AI 辅助漏洞挖掘中重新变得至关重要。",
+      "id": 5230,
+      "title": "漏洞研究策略：AI 介入时机与工作流选型",
+      "original_title": "chrome / apple / zdi style scope is crowded now.  do you lean closed source fuzzing or open source code review when you pick where to spend a week?  and on AI: at what stage do you",
+      "summary": "讨论在闭源模糊测试与开源代码审计之间的选择，以及在实际漏洞研究流程中何时引入 AI，并对比自定义技能与 MCP 工具的应用偏好。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 70.75,
+      "score_total": 69.3,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 安全从业者必看：别再迷信「一句话找漏洞」，工具链和 harness 才是决定 AI 挖洞效果的下限。现在该把精力花在构建可靠的测试套件上。",
+      "recommendation_reason": "值得漏洞挖掘和红队工具开发者关注：讨论了 AI 在实际安全工作流中落地时的痛点与选型（MCP vs 自定义技能），能帮助判断当前 AI 辅助漏洞挖掘的最佳实践路径。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2094405801955721289",
-      "reader_url": "https://x.com/HackingLZ/status/2094405801955721289",
+      "canonical_url": "https://x.com/_MrNiko/status/2094494964701147277",
+      "reader_url": "https://x.com/_MrNiko/status/2094494964701147277",
       "image_url": null,
       "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
+        "username": "_MrNiko",
+        "name": "Mr.Niko",
         "avatar_url": null
       },
-      "published_at": "2026-08-31T12:43:50",
-      "first_seen_at": "2026-08-31T15:09:14.597367"
+      "published_at": "2026-08-31T18:38:08",
+      "first_seen_at": "2026-08-31T19:00:12.030091"
     },
     {
       "id": 5180,
@@ -97,27 +74,27 @@
       "first_seen_at": "2026-08-31T15:41:48.506832"
     },
     {
-      "id": 5161,
-      "title": "Vulnify：为安全Agent装上「CVE大脑」",
-      "original_title": "Vulnify: Giving Your Agents a CVE Brain - Brandon McGrath https://t.co/xc9HztV4GS",
-      "summary": "介绍名为 Vulnify 的项目，旨在为安全智能体提供 CVE 漏洞情报支持，增强其在漏洞分析任务中的上下文能力。",
+      "id": 5233,
+      "title": "探讨 Fuzzing 实战：目标选择、Harness 构建与覆盖率引导技巧",
+      "original_title": "@thedawgyg how do you choose the target for fuzzing do you build custom harness for fuzzing and how you manage to pipe codebase to coverage which is making you different then other",
+      "summary": "推文讨论了漏洞挖掘中的模糊测试实践，涉及目标选择、自定义 Harness 构建、代码覆盖率引导机制以及特定平台的标志发现技巧。",
       "primary_category": "AI for Sec",
-      "sub_category": "knowledge_enhanced",
-      "score_total": 65.6,
+      "sub_category": "fuzzing",
+      "score_total": 66.75,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做安全Agent的同行可以关注，这能解决Agent处理漏洞时缺乏实时情报上下文的痛点，看看别人是怎么把CVE数据喂给大模型的。",
+      "recommendation_reason": "虽然只是推文问答，但直击 Fuzzing 实战中的痛点：Harness 构建和覆盖率引导。做漏洞挖掘的安全团队可以借此对齐业界高级猎手的实践思路，优化自己的 Fuzzing 工作流。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pentest_swissky/status/2094437553910976966",
-      "reader_url": "https://x.com/pentest_swissky/status/2094437553910976966",
+      "canonical_url": "https://x.com/Mdhsan19/status/2094492192626942380",
+      "reader_url": "https://x.com/Mdhsan19/status/2094492192626942380",
       "image_url": null,
       "author": {
-        "username": "pentest_swissky",
-        "name": "Swissky",
+        "username": "Mdhsan19",
+        "name": "Jerry",
         "avatar_url": null
       },
-      "published_at": "2026-08-31T14:50:00",
-      "first_seen_at": "2026-08-31T15:07:29.255028"
+      "published_at": "2026-08-31T18:27:07",
+      "first_seen_at": "2026-08-31T19:00:40.224265"
     },
     {
       "id": 5191,
@@ -141,52 +118,6 @@
       },
       "published_at": "2026-08-31T16:25:44",
       "first_seen_at": "2026-08-31T16:46:15.321287"
-    },
-    {
-      "id": 5169,
-      "title": "当前AI漏洞挖掘仍需专家编写harness引导模型",
-      "original_title": "That couldn't exist forever. At some point, you’re going to be back to needing skilled people or skilled harness writers who know how to point the models at the right problems unti",
-      "summary": "作者指出AI模型目前无法完全自主工作，仍需要熟练的安全专家或harness编写者引导模型解决正确的问题，直到模型能力真正成熟。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 65.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给盲目相信AI能全自动挖洞的团队泼冷水：现阶段AI挖洞仍需懂行的安全工程师编写高质量harness来定向引导，别急着裁掉你的fuzzing专家。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2094407768685883708",
-      "reader_url": "https://x.com/HackingLZ/status/2094407768685883708",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T12:51:38",
-      "first_seen_at": "2026-08-31T15:09:11.826906"
-    },
-    {
-      "id": 5162,
-      "title": "自主AI代理宣称5分钟内挖出0day漏洞",
-      "original_title": "I work on an autonomous cyber security agent which is a fancy way to say \"ai hacker\" and the capabilities are truly insane  <5 minutes to find exploitable 0days (!!) in one of the ",
-      "summary": "某研究员声称其开发的自主网络安全代理能在数分钟甚至数秒内发现可利用的0day漏洞，并警告AI能力快速演进将带来严重威胁，呼吁各界协作保护关键基础设施。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 62.8,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "推文虽有情绪渲染，但点出了自主漏洞挖掘代理在速度上的惊人进展。安全团队应警惕这类能力从演示走向实战的潜在威胁，同时需辨识其中的营销夸大成分。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hanan_beer/status/2094435810728645110",
-      "reader_url": "https://x.com/hanan_beer/status/2094435810728645110",
-      "image_url": null,
-      "author": {
-        "username": "hanan_beer",
-        "name": "Hanan Beer",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T14:43:04",
-      "first_seen_at": "2026-08-31T15:07:59.206437"
     },
     {
       "id": 5214,
