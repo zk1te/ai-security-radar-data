@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T05:01:48+08:00",
+  "updated_at": "2026-09-01T05:33:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 5250,
@@ -118,6 +118,29 @@
       },
       "published_at": "2026-08-31T19:16:38",
       "first_seen_at": "2026-08-31T19:33:17.467698"
+    },
+    {
+      "id": 5266,
+      "title": "前沿AI实验室或将推企业安全Agent引发网安行业震动",
+      "original_title": "Frontier AI labs are putting cybersecurity in focus.   If say a lab launches an enterprise security agent, it could put real pressure on cybersecurity names, kind of like SaaS apoc",
+      "summary": "分析了前沿AI实验室可能利用模型自主寻找漏洞并发布企业级安全产品，从而对传统网络安全公司估值和行业格局产生巨大冲击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "预测了AI安全Agent自主挖掘漏洞的商业化趋势。安全团队管理者应关注AI实验室下场安全赛道的可能，提前评估现有工具链与原生AI安全产品的代差风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Franny8/status/2094527581253247054",
+      "reader_url": "https://x.com/Franny8/status/2094527581253247054",
+      "image_url": null,
+      "author": {
+        "username": "Franny8",
+        "name": "Franny",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T20:47:44",
+      "first_seen_at": "2026-08-31T21:08:45.387108"
     },
     {
       "id": 5257,
