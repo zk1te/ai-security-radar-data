@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T15:26:22+08:00",
+  "updated_at": "2026-08-31T18:14:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -22,25 +22,6 @@
       "author": null,
       "published_at": "2026-08-31T00:00:00",
       "first_seen_at": "2026-08-31T07:08:46.092937"
-    },
-    {
-      "id": 4818,
-      "title": "ReSource：抗混淆与优化的反编译代码恢复LLM框架",
-      "original_title": "Decoupling is a Necessity: Transformation-Agnostic Decompiled Code Recovery under Optimization and Obfuscation",
-      "summary": "ReSource 是首个多阶段 LLM 反编译框架，通过解耦词汇、语法和语义差异，在强优化和混淆环境下仍能可靠恢复源码，为下游安全分析提供基础。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 86.57,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "二进制安全与逆向分析人员必看。现有 LLM 反编译工具遇混淆就出现结构崩塌和语义幻觉，ReSource 用解耦思路分阶段恢复代码，大幅提升鲁棒性。建议在逆向工程工作流中尝试复现并适配该框架。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2608.27889",
-      "reader_url": "https://arxiv.org/pdf/2608.27889",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-31T00:00:00",
-      "first_seen_at": "2026-08-31T06:05:33.043133"
     },
     {
       "id": 5003,
@@ -138,25 +119,6 @@
       "first_seen_at": "2026-08-31T07:08:01.522151"
     },
     {
-      "id": 4799,
-      "title": "EvoRepair：基于经验自进化的漏洞修复Agent框架",
-      "original_title": "EvoRepair: Enhancing Vulnerability Repair Agents Through Experience-Based Self-Evolution",
-      "summary": "论文提出 EvoRepair，首个基于经验自进化的漏洞修复 Agent 框架，能跨漏洞复用修复知识并避免重复错误，在 PATCHEVAL 和 SEC-bench 上显著优于现有方法。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vulnerability_repair",
-      "score_total": 84.02,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做漏洞修复或代码安全Agent的团队必看。这篇展示了如何通过经验积累和跨漏洞复用提升Agent修复能力，直接给出了提升自动化修复效果的新思路，可借鉴其经验库设计。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2605.30105",
-      "reader_url": "https://arxiv.org/pdf/2605.30105",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-31T00:00:00",
-      "first_seen_at": "2026-08-31T06:01:05.296712"
-    },
-    {
       "id": 4999,
       "title": "安全领域LLM智能体综述：应用现状与评估局限",
       "original_title": "LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",
@@ -193,6 +155,44 @@
       "author": null,
       "published_at": "2026-08-31T00:00:00",
       "first_seen_at": "2026-08-31T07:07:22.791431"
+    },
+    {
+      "id": 5014,
+      "title": "CHISEL：无测试套件依赖的AI迭代反编译框架",
+      "original_title": "CHISEL-ing Back Source Code with AI-enabled Iterative Recovery",
+      "summary": "CHISEL框架利用编译器和覆盖引导Fuzzer的反馈，结合LLM从Ghidra伪C代码中迭代恢复源代码，无需测试套件即可实现96.1%的编译率和79.8%的可执行率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 83.19,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "二进制安全研究者必看。CHISEL抛弃了传统依赖测试套件的思路，用Fuzzer做差分反馈给LLM纠错，解决了AI反编译代码「能看不能跑」的痛点，为逆向工程提供了高可落地的新范式。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.27981",
+      "reader_url": "https://arxiv.org/pdf/2608.27981",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-08-31T00:00:00",
+      "first_seen_at": "2026-08-31T07:08:25.480993"
+    },
+    {
+      "id": 4991,
+      "title": "REPLICANT：用深度强化学习生成黑盒恶意软件规避策略",
+      "original_title": "REPLICANT: Learning Policies for Evading and Hardening Malware Detectors",
+      "summary": "提出 Replicant 深度强化学习框架，在纯黑盒条件下学习可迁移的恶意样本修改策略以规避检测，攻击成功率达 78.8%，同时可通过对抗训练显著增强检测器鲁棒性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 83.08,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "用强化学习生成跨检测器迁移的规避策略，比传统攻击更贴近真实威胁。防守方需评估自家 ML 检测模型对此类黑盒攻击的承受力，并可借鉴其对抗训练思路加固模型。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.28499",
+      "reader_url": "https://arxiv.org/pdf/2608.28499",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-08-31T00:00:00",
+      "first_seen_at": "2026-08-31T06:59:42.772707"
     }
   ]
 }
