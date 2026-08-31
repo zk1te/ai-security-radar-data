@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T04:30:24+08:00",
+  "updated_at": "2026-09-01T05:01:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
     {
       "id": 5250,
@@ -26,6 +26,29 @@
       },
       "published_at": "2026-08-31T19:56:15",
       "first_seen_at": "2026-08-31T20:04:54.056297"
+    },
+    {
+      "id": 5259,
+      "title": "CLAUDE-OSINT：将 Claude 转化为结构化侦察助手",
+      "original_title": "🔎🤖 CLAUDE-OSINT — AI-POWERED RECON  A powerful OSINT toolkit that turns Claude into a structured reconnaissance assistant, combining 100+ recon capabilities, dorks, validators and ",
+      "summary": "介绍 CLAUDE-OSINT 工具包，结合 100 多种侦察能力和攻击路径模板，将 Claude 变成用于授权安全研究的结构化侦察助手。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和侦察人员值得一看，该工具展示了如何利用大模型将零散的 OSINT 技术结构化。可直接获取仓库并尝试将其集成到现有的侦察流程中。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Anastasis_King/status/2094515570167484436",
+      "reader_url": "https://x.com/Anastasis_King/status/2094515570167484436",
+      "image_url": "https://pbs.twimg.com/media/HRE2zwMWcAAtETT.jpg",
+      "author": {
+        "username": "Anastasis_King",
+        "name": "Anastasis Vasileiadis",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T20:00:00",
+      "first_seen_at": "2026-08-31T20:36:31.766416"
     },
     {
       "id": 5230,
@@ -74,29 +97,6 @@
       "first_seen_at": "2026-08-31T19:00:40.224265"
     },
     {
-      "id": 5191,
-      "title": "Magma 基准测试论文：用 Ground-Truth 衡量模糊测试真实效果",
-      "original_title": "The Impact of Magma: A Ground-Truth Fuzzing Benchmark  Ahmad Hazimeh, Adrian Herrera, Srividya Subramanian, Thaqiya Aman, Sara Vaccino, Qiang Liu, Mathias Payer https://t.co/DH76cY",
-      "summary": "论文评估 Magma 模糊测试基准测试的影响，该基准提供 ground-truth 标注，用于更准确衡量 fuzzer 的真实漏洞发现能力而非单纯覆盖率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 65.31,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 AI Fuzzing 评测的人该看，Magma 的 ground-truth 设计思路可直接借鉴到 AI 模糊测试效果评估中，避免刷榜水分。评估自家 AI 安全工具时也值得参考其方法论。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/FSFG/status/2094461648698294748",
-      "reader_url": "https://x.com/FSFG/status/2094461648698294748",
-      "image_url": "https://pbs.twimg.com/media/HREFxVbXcAAll-0.png",
-      "author": {
-        "username": "FSFG",
-        "name": "Cryptography and Security Papers",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T16:25:44",
-      "first_seen_at": "2026-08-31T16:46:15.321287"
-    },
-    {
       "id": 5246,
       "title": "观点：覆盖引导模糊测试时代终结，AI引导模糊测试兴起",
       "original_title": "there are 10 types of people (who can fuzz and who can't)  but it's right on one thing - the era of coverage-guided grey-box fuzzers is over  now is the era of human/ai manually-gu",
@@ -118,6 +118,29 @@
       },
       "published_at": "2026-08-31T19:16:38",
       "first_seen_at": "2026-08-31T19:33:17.467698"
+    },
+    {
+      "id": 5257,
+      "title": "CYBERSTRIKEAI：面向授权安全运营的AI原生工作空间",
+      "original_title": "🐈‍⬛🤖 CYBERSTRIKEAI — AI-NATIVE CYBERSECURITY  An AI-powered cybersecurity workspace combining intelligent agents, automated workflows, knowledge retrieval and attack-chain analysis",
+      "summary": "该推文推广了名为 CYBERSTRIKEAI 的安全工具，其集成了智能体、自动化工作流、知识检索与攻击链分析能力，面向授权安全运营场景。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.15,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "作为安全从业者可留意此类集成智能体与攻击链分析的AI原生安全平台趋势，但当前内容仅为引流推文，缺乏技术细节，需获取实际工具验证落地效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Anastasis_King/status/2094515767198781947",
+      "reader_url": "https://x.com/Anastasis_King/status/2094515767198781947",
+      "image_url": "https://pbs.twimg.com/media/HRE2_P4XsAACSzk.jpg",
+      "author": {
+        "username": "Anastasis_King",
+        "name": "Anastasis Vasileiadis",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T20:00:47",
+      "first_seen_at": "2026-08-31T20:36:11.305723"
     },
     {
       "id": 5214,
