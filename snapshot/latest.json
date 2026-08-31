@@ -1,28 +1,9 @@
 {
-  "updated_at": "2026-08-31T23:05:42+08:00",
+  "updated_at": "2026-08-31T23:40:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 9,
   "items": [
-    {
-      "id": 5101,
-      "title": "AI 安全技能路由包 reverse-skill 走红",
-      "original_title": "GitHub Trending: zhaoxuya520/reverse-skill gained 1439 stars today",
-      "summary": "逆向与渗透测试技能路由工具 reverse-skill 获得大量关注，该工具集成 AI 自动路由、按需自举工具链和自动进化经验库，支持 Claude Code、Cursor 等主流 AI 编码客户端。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "将 AI 编码客户端变成渗透与逆向助手的现成落地范例。安全团队可直接接入 Claude Code 等工具，快速搭建定制化安全 Agent，值得研究其路由与知识库构建思路。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-08-31&since=daily",
-      "reader_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-08-31&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-31T07:23:08",
-      "first_seen_at": "2026-08-31T11:34:59.856229"
-    },
     {
       "id": 5133,
       "title": "AI 驱动代码审计对比传统 Fuzzing：用数十亿 Token 穷尽代码库",
@@ -70,6 +51,29 @@
       "first_seen_at": "2026-08-31T12:23:16.767767"
     },
     {
+      "id": 5173,
+      "title": "Aurora勒索团伙滥用Cursor AI执行自动化内网渗透",
+      "original_title": "⚠️ Aurora ransomware operators gave Cursor AI credentials or an existing route into victim networks.  The agent handled exploitation tasks against 10 targets, including network sca",
+      "summary": "Aurora勒索软件运营者向Cursor AI提供凭证，使其对10个目标自动执行网络扫描、权限检查、NTLM中继和证书攻击等渗透任务。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 72.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "勒索团伙已开始用Cursor AI执行内网扫描和漏洞利用。防御方需关注AI自动化攻击趋势，评估现有安全设备能否拦截此类AI驱动的自动化行为。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2094391830314172761",
+      "reader_url": "https://x.com/TheHackersNews/status/2094391830314172761",
+      "image_url": "https://pbs.twimg.com/media/HRDGOo_bgAEVOay.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T11:48:18",
+      "first_seen_at": "2026-08-31T15:09:55.453350"
+    },
+    {
       "id": 5112,
       "title": "AI安全审计新视角：从「能否出结果」转向「人类可否核验」",
       "original_title": "This is one of the rare AI-audit reviews that tests the right thing: not “can it produce findings,” but “can it finish a job a human can actually check.”   The mid-run threat-model",
@@ -91,6 +95,29 @@
       },
       "published_at": "2026-08-31T11:56:20",
       "first_seen_at": "2026-08-31T12:23:55.405829"
+    },
+    {
+      "id": 5170,
+      "title": "简单提示词找漏洞热潮退散？harness 重新成为关键",
+      "original_title": "Several weeks ago, everyone’s grandparents and non-technical friends and family were finding vulns with the prompt “find my vulns plz.”  How’s that going? Harnesses matter again ye",
+      "summary": "推文反思仅靠简单提示词让 AI 找漏洞的局限性，指出测试套件（harness）在 AI 辅助漏洞挖掘中重新变得至关重要。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 安全从业者必看：别再迷信「一句话找漏洞」，工具链和 harness 才是决定 AI 挖洞效果的下限。现在该把精力花在构建可靠的测试套件上。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2094405801955721289",
+      "reader_url": "https://x.com/HackingLZ/status/2094405801955721289",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T12:43:50",
+      "first_seen_at": "2026-08-31T15:09:14.597367"
     },
     {
       "id": 5150,
@@ -116,46 +143,73 @@
       "first_seen_at": "2026-08-31T14:34:45.656216"
     },
     {
-      "id": 5146,
-      "title": "LoopArena：评估模型控制编码代理的运行时能力基准",
-      "original_title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
-      "summary": "本文提出 LoopArena 基准，评估模型作为控制器指导编码代理完成长期任务的能力，发现当前最佳模型在完整任务上的严格成功率仅为24.69%，揭示了长期任务控制中的不足。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 62.14,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "虽是通用编码任务评测，但其 Controller-Worker 架构对构建长期安全自动化 Agent（如持续漏洞挖掘与修复流程）有直接参考价值。安全团队可借鉴该评测框架，量化控制模型在复杂任务流中的可靠性，避免因编排不当导致的安全检查遗漏。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2608.28281",
-      "reader_url": "https://arxiv.org/pdf/2608.28281",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-31T00:00:00",
-      "first_seen_at": "2026-08-31T14:13:16.464040"
-    },
-    {
-      "id": 5126,
-      "title": "安全Agent在未签名可执行文件审计中的应用流程",
-      "original_title": "A corporate security control blocking an unsigned executable is not merely an installation inconvenience. It is the environment refusing software whose publisher and integrity it c",
-      "summary": "建议在遇到未签名可执行文件被拦截时，不要轻易放行，而是指派安全Agent验证其发布者身份、构件完整性和来源对应关系，以维护软件供应链信任链。",
+      "id": 5161,
+      "title": "Vulnify：为安全Agent装上「CVE大脑」",
+      "original_title": "Vulnify: Giving Your Agents a CVE Brain - Brandon McGrath https://t.co/xc9HztV4GS",
+      "summary": "介绍名为 Vulnify 的项目，旨在为安全智能体提供 CVE 漏洞情报支持，增强其在漏洞分析任务中的上下文能力。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 61.55,
+      "sub_category": "knowledge_enhanced",
+      "score_total": 65.6,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "提供了一套可直接复用的安全Agent审计Prompt模板，适合需要将软件供应链验证自动化的企业安全团队参考，避免为图方便而破坏机器级安全策略。",
+      "recommendation_reason": "做安全Agent的同行可以关注，这能解决Agent处理漏洞时缺乏实时情报上下文的痛点，看看别人是怎么把CVE数据喂给大模型的。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Secondmindsys/status/2094415641717481866",
-      "reader_url": "https://x.com/Secondmindsys/status/2094415641717481866",
+      "canonical_url": "https://x.com/pentest_swissky/status/2094437553910976966",
+      "reader_url": "https://x.com/pentest_swissky/status/2094437553910976966",
       "image_url": null,
       "author": {
-        "username": "Secondmindsys",
-        "name": "Nash | Second Mind",
+        "username": "pentest_swissky",
+        "name": "Swissky",
         "avatar_url": null
       },
-      "published_at": "2026-08-31T13:22:56",
-      "first_seen_at": "2026-08-31T13:28:43.496603"
+      "published_at": "2026-08-31T14:50:00",
+      "first_seen_at": "2026-08-31T15:07:29.255028"
+    },
+    {
+      "id": 5169,
+      "title": "当前AI漏洞挖掘仍需专家编写harness引导模型",
+      "original_title": "That couldn't exist forever. At some point, you’re going to be back to needing skilled people or skilled harness writers who know how to point the models at the right problems unti",
+      "summary": "作者指出AI模型目前无法完全自主工作，仍需要熟练的安全专家或harness编写者引导模型解决正确的问题，直到模型能力真正成熟。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 65.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给盲目相信AI能全自动挖洞的团队泼冷水：现阶段AI挖洞仍需懂行的安全工程师编写高质量harness来定向引导，别急着裁掉你的fuzzing专家。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2094407768685883708",
+      "reader_url": "https://x.com/HackingLZ/status/2094407768685883708",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T12:51:38",
+      "first_seen_at": "2026-08-31T15:09:11.826906"
+    },
+    {
+      "id": 5162,
+      "title": "自主AI代理宣称5分钟内挖出0day漏洞",
+      "original_title": "I work on an autonomous cyber security agent which is a fancy way to say \"ai hacker\" and the capabilities are truly insane  <5 minutes to find exploitable 0days (!!) in one of the ",
+      "summary": "某研究员声称其开发的自主网络安全代理能在数分钟甚至数秒内发现可利用的0day漏洞，并警告AI能力快速演进将带来严重威胁，呼吁各界协作保护关键基础设施。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "推文虽有情绪渲染，但点出了自主漏洞挖掘代理在速度上的惊人进展。安全团队应警惕这类能力从演示走向实战的潜在威胁，同时需辨识其中的营销夸大成分。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/hanan_beer/status/2094435810728645110",
+      "reader_url": "https://x.com/hanan_beer/status/2094435810728645110",
+      "image_url": null,
+      "author": {
+        "username": "hanan_beer",
+        "name": "Hanan Beer",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T14:43:04",
+      "first_seen_at": "2026-08-31T15:07:59.206437"
     }
   ]
 }
