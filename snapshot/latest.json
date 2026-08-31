@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-31T20:54:37+08:00",
+  "updated_at": "2026-08-31T21:27:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 5,
   "items": [
     {
       "id": 5101,
@@ -70,29 +70,6 @@
       "first_seen_at": "2026-08-31T12:23:55.405829"
     },
     {
-      "id": 5056,
-      "title": "tmux 接受三个由 Antithesis Bombadil 发现的漏洞修复",
-      "original_title": "Not a bad Monday.  Three more tmux fixes accepted upstream today, all found fuzzing with Bombadil by @antithesis.  Heap OOB, memcpy(NULL, 0) UB, and a use-after-free.  At this poin",
-      "summary": "开发者宣布 tmux 上游已接受三个由 Antithesis 的 Bombadil 模糊测试发现的漏洞修复，包括堆越界、空指针解引用和释放后使用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 69.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "实战案例！知名终端复用器 tmux 被 Fuzzer 挖出高危真实漏洞。安全团队可关注 Antithesis Bombadil 的自动化挖掘效果，评估其在 C 语言开源项目测试中的实际落地价值。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/UzaAft/status/2094346485445869765",
-      "reader_url": "https://x.com/UzaAft/status/2094346485445869765",
-      "image_url": null,
-      "author": {
-        "username": "UzaAft",
-        "name": "Uzair Aftab",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T08:48:07",
-      "first_seen_at": "2026-08-31T09:08:14.707865"
-    },
-    {
       "id": 5066,
       "title": "evilsocket 让 Kimi K3 持有 root 和 WiFi 接口过夜，自主摸索出 WiFi 暴力破解新路径",
       "original_title": "RT @evilsocket: Yesterday night I left Kimi K3 with a monitor WiFi interface and root access. This morning I woke up to a new way to brutef…",
@@ -114,29 +91,6 @@
       },
       "published_at": "2026-08-12T10:09:34",
       "first_seen_at": "2026-08-31T09:41:01.893262"
-    },
-    {
-      "id": 5060,
-      "title": "AI 应用安全工具安全发现一致性仅 5%",
-      "original_title": "AI AppSec tools agree on just 5% of security findings - https://t.co/zTekgBZReY - @contrastsec - #AI #ApplicationSecurity #VulnerabilityManagement #PatchManagement #Cybersecurity #",
-      "summary": "研究显示多个 AI 驱动的应用安全工具在安全发现上的共识率仅约 5%，凸显 AI 安全工具检测结果的高度不一致性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 67.35,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队选型 AI AppSec 工具时必看——工具间共识率极低意味着单一工具的误报漏报风险巨大，建议交叉验证并建立人工复核流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/helpnetsecurity/status/2094319275637153940",
-      "reader_url": "https://x.com/helpnetsecurity/status/2094319275637153940",
-      "image_url": null,
-      "author": {
-        "username": "helpnetsecurity",
-        "name": "Help Net Security",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T07:00:00",
-      "first_seen_at": "2026-08-31T09:08:53.613864"
     },
     {
       "id": 5085,
