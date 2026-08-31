@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-31T23:40:40+08:00",
+  "updated_at": "2026-09-01T00:12:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 5133,
@@ -141,6 +141,29 @@
       },
       "published_at": "2026-08-31T14:01:12",
       "first_seen_at": "2026-08-31T14:34:45.656216"
+    },
+    {
+      "id": 5180,
+      "title": "LLM 在 0-day 漏洞利用中的局限性：能绕过问题但未真正解决",
+      "original_title": "So .. when doing 0-day exploitation with LLM, it's kind of tough. You can clearly see that one 0-day works fine for one device, but fails for the other, even with the same DA Loade",
+      "summary": "实战测试发现 LLM 进行 0-day 漏洞利用时，面对相同环境的不同设备成功率不一，表明其目前仅能绕过问题而非彻底解决。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.15,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给期望 LLM 全自动打洞的兄弟泼盆冷水：当前大模型在漏洞利用环节缺乏稳定性和泛化能力。别盲目信任 LLM 生成的 exploit，人工验证和环境适配依然不可替代。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/viperbjk/status/2094445137115881519",
+      "reader_url": "https://x.com/viperbjk/status/2094445137115881519",
+      "image_url": null,
+      "author": {
+        "username": "viperbjk",
+        "name": "Bjoern Kerler",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T15:20:08",
+      "first_seen_at": "2026-08-31T15:41:48.506832"
     },
     {
       "id": 5161,
