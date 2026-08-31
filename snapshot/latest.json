@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T06:37:34+08:00",
+  "updated_at": "2026-09-01T07:09:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 6,
   "items": [
     {
       "id": 5276,
@@ -72,52 +72,6 @@
       },
       "published_at": "2026-08-31T20:00:00",
       "first_seen_at": "2026-08-31T20:36:31.766416"
-    },
-    {
-      "id": 5230,
-      "title": "漏洞研究策略：AI 介入时机与工作流选型",
-      "original_title": "chrome / apple / zdi style scope is crowded now.  do you lean closed source fuzzing or open source code review when you pick where to spend a week?  and on AI: at what stage do you",
-      "summary": "讨论在闭源模糊测试与开源代码审计之间的选择，以及在实际漏洞研究流程中何时引入 AI，并对比自定义技能与 MCP 工具的应用偏好。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "值得漏洞挖掘和红队工具开发者关注：讨论了 AI 在实际安全工作流中落地时的痛点与选型（MCP vs 自定义技能），能帮助判断当前 AI 辅助漏洞挖掘的最佳实践路径。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/_MrNiko/status/2094494964701147277",
-      "reader_url": "https://x.com/_MrNiko/status/2094494964701147277",
-      "image_url": null,
-      "author": {
-        "username": "_MrNiko",
-        "name": "Mr.Niko",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T18:38:08",
-      "first_seen_at": "2026-08-31T19:00:12.030091"
-    },
-    {
-      "id": 5233,
-      "title": "探讨 Fuzzing 实战：目标选择、Harness 构建与覆盖率引导技巧",
-      "original_title": "@thedawgyg how do you choose the target for fuzzing do you build custom harness for fuzzing and how you manage to pipe codebase to coverage which is making you different then other",
-      "summary": "推文讨论了漏洞挖掘中的模糊测试实践，涉及目标选择、自定义 Harness 构建、代码覆盖率引导机制以及特定平台的标志发现技巧。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 66.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "虽然只是推文问答，但直击 Fuzzing 实战中的痛点：Harness 构建和覆盖率引导。做漏洞挖掘的安全团队可以借此对齐业界高级猎手的实践思路，优化自己的 Fuzzing 工作流。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Mdhsan19/status/2094492192626942380",
-      "reader_url": "https://x.com/Mdhsan19/status/2094492192626942380",
-      "image_url": null,
-      "author": {
-        "username": "Mdhsan19",
-        "name": "Jerry",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T18:27:07",
-      "first_seen_at": "2026-08-31T19:00:40.224265"
     },
     {
       "id": 5246,
