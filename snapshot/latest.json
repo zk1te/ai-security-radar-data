@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T00:44:59+08:00",
+  "updated_at": "2026-09-01T01:18:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -166,6 +166,29 @@
       "first_seen_at": "2026-08-31T15:07:29.255028"
     },
     {
+      "id": 5191,
+      "title": "Magma 基准测试论文：用 Ground-Truth 衡量模糊测试真实效果",
+      "original_title": "The Impact of Magma: A Ground-Truth Fuzzing Benchmark  Ahmad Hazimeh, Adrian Herrera, Srividya Subramanian, Thaqiya Aman, Sara Vaccino, Qiang Liu, Mathias Payer https://t.co/DH76cY",
+      "summary": "论文评估 Magma 模糊测试基准测试的影响，该基准提供 ground-truth 标注，用于更准确衡量 fuzzer 的真实漏洞发现能力而非单纯覆盖率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 65.31,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI Fuzzing 评测的人该看，Magma 的 ground-truth 设计思路可直接借鉴到 AI 模糊测试效果评估中，避免刷榜水分。评估自家 AI 安全工具时也值得参考其方法论。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/FSFG/status/2094461648698294748",
+      "reader_url": "https://x.com/FSFG/status/2094461648698294748",
+      "image_url": "https://pbs.twimg.com/media/HREFxVbXcAAll-0.png",
+      "author": {
+        "username": "FSFG",
+        "name": "Cryptography and Security Papers",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T16:25:44",
+      "first_seen_at": "2026-08-31T16:46:15.321287"
+    },
+    {
       "id": 5169,
       "title": "当前AI漏洞挖掘仍需专家编写harness引导模型",
       "original_title": "That couldn't exist forever. At some point, you’re going to be back to needing skilled people or skilled harness writers who know how to point the models at the right problems unti",
@@ -210,25 +233,6 @@
       },
       "published_at": "2026-08-31T14:43:04",
       "first_seen_at": "2026-08-31T15:07:59.206437"
-    },
-    {
-      "id": 5146,
-      "title": "LoopArena：评估模型控制编码代理的运行时能力基准",
-      "original_title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
-      "summary": "本文提出 LoopArena 基准，评估模型作为控制器指导编码代理完成长期任务的能力，发现当前最佳模型在完整任务上的严格成功率仅为24.69%，揭示了长期任务控制中的不足。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 62.14,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "虽是通用编码任务评测，但其 Controller-Worker 架构对构建长期安全自动化 Agent（如持续漏洞挖掘与修复流程）有直接参考价值。安全团队可借鉴该评测框架，量化控制模型在复杂任务流中的可靠性，避免因编排不当导致的安全检查遗漏。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2608.28281",
-      "reader_url": "https://arxiv.org/pdf/2608.28281",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-31T00:00:00",
-      "first_seen_at": "2026-08-31T14:13:16.464040"
     }
   ]
 }
