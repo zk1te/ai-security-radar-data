@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-31T22:33:17+08:00",
+  "updated_at": "2026-08-31T23:05:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
     {
       "id": 5101,
@@ -91,6 +91,29 @@
       },
       "published_at": "2026-08-31T11:56:20",
       "first_seen_at": "2026-08-31T12:23:55.405829"
+    },
+    {
+      "id": 5150,
+      "title": "智能合约传统模糊测试与 AI 模糊器实测对比",
+      "original_title": "is traditional smart contract fuzzing still relevant? we measured it for @michprev's talk at @Web3SecSummit.  fuzzers echidna, foundry and wake on daedaluzz maze contracts vs AI-ge",
+      "summary": "实测对比传统智能合约模糊器与 AI 生成的 Fuzzer，发现 AI 生成 Fuzzer 在效率上可远超传统工具，但从有 bug 代码派生的 AI harness 会继承 bug 导致漏报，人类仍需主导定义正确的断言。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给尝试用 AI 辅助 Fuzzing 的团队提了个醒：AI 生成 harness 虽然效率惊人，但容易继承漏洞逻辑导致断言失效。实际落地时，仍需人工定义正确的安全边界，把 AI 当成维护 Fuzzing 模型的助手而非替代品。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jgattermayer/status/2094425273190256917",
+      "reader_url": "https://x.com/jgattermayer/status/2094425273190256917",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2094425260972294144/img/-XYReKxy1l9I2J5R.jpg",
+      "author": {
+        "username": "jgattermayer",
+        "name": "Josef Gattermayer | ack3▮",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T14:01:12",
+      "first_seen_at": "2026-08-31T14:34:45.656216"
     },
     {
       "id": 5146,
