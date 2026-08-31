@@ -1,9 +1,32 @@
 {
-  "updated_at": "2026-09-01T05:33:51+08:00",
+  "updated_at": "2026-09-01T06:37:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
+    {
+      "id": 5276,
+      "title": "安全Agent评测新思路：从攻击能力转向验证预防率",
+      "original_title": "The interesting next benchmark is whether the same capability transfers from exploitation to prevention.  Take the vulnerabilities these models successfully exploited and give a fr",
+      "summary": "探讨安全Agent评测的新方向，建议将AI成功利用的漏洞交由防御型Agent修复，以此区分攻击与防御能力，寻找能将进攻能力转化为最高验证预防率的模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 76.65,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全评测设计者必看。当前榜单都在卷「AI能攻破多少系统」，但真正的落地价值在于防御。这条推文给出了攻防转化的具体评测设计思路，直接指明了下一阶段安全Agent Benchmark的演进方向。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Secondmindsys/status/2094545852899770661",
+      "reader_url": "https://x.com/Secondmindsys/status/2094545852899770661",
+      "image_url": null,
+      "author": {
+        "username": "Secondmindsys",
+        "name": "Nash | Second Mind",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T22:00:20",
+      "first_seen_at": "2026-08-31T22:11:51.412150"
+    },
     {
       "id": 5250,
       "title": "CrowdStrike发布Falcon IQ：50+AI Agent自动化漏洞验证与修复",
@@ -164,29 +187,6 @@
       },
       "published_at": "2026-08-31T20:00:47",
       "first_seen_at": "2026-08-31T20:36:11.305723"
-    },
-    {
-      "id": 5214,
-      "title": "FireCompass 网络研讨会探讨 Agentic AI 在渗透测试中的应用与风险",
-      "original_title": "Agentic AI is changing how penetration testing works. Discover what’s next for AI-powered penetration testing.  Register now: https://t.co/2sYsfaFbN0  AI pentest agents can improve",
-      "summary": "FireCompass 联合创始人将举办网络研讨会，探讨如何使用 Agentic AI 提升渗透测试效率并管理其带来的治理与安全风险。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 61.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "面向 CISO 和渗透测试团队，点出 Agentic AI 在提升测试速度和覆盖率时引入的安全与治理挑战。适合关注 AI 安全工具落地风险的管理者了解前沿动态。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ECCOUNCIL/status/2094489929828941845",
-      "reader_url": "https://x.com/ECCOUNCIL/status/2094489929828941845",
-      "image_url": "https://pbs.twimg.com/media/HREfeabWMAAukgz.jpg",
-      "author": {
-        "username": "ECCOUNCIL",
-        "name": "EC-COUNCIL",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T18:18:07",
-      "first_seen_at": "2026-08-31T18:26:13.347281"
     }
   ]
 }
