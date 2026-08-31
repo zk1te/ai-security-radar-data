@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T21:27:35+08:00",
+  "updated_at": "2026-08-31T21:59:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 5,
@@ -70,29 +70,6 @@
       "first_seen_at": "2026-08-31T12:23:55.405829"
     },
     {
-      "id": 5066,
-      "title": "evilsocket 让 Kimi K3 持有 root 和 WiFi 接口过夜，自主摸索出 WiFi 暴力破解新路径",
-      "original_title": "RT @evilsocket: Yesterday night I left Kimi K3 with a monitor WiFi interface and root access. This morning I woke up to a new way to brutef…",
-      "summary": "知名安全研究者 evilsocket 给 Kimi K3 模型挂载 monitor 模式无线网卡和 root 权限，让其通宵自主探索，次日发现模型自己找到了一条新的 WiFi 暴力破解方法。这展示了 LLM Agent 在真实渗透场景下的自主探索潜力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透工具开发者该看：这是「给 LLM 一个 shell 和 root，看它能干什么」的实战信号，说明当前模型已能在无线安全场景自主试错并产出新思路。建议尽早搭建隔离环境复现类似实验，评估自家攻防 Agent 的边界。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pwnagotchi/status/2087481613433049214",
-      "reader_url": "https://x.com/pwnagotchi/status/2087481613433049214",
-      "image_url": null,
-      "author": {
-        "username": "pwnagotchi",
-        "name": "pwnagotchi",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-12T10:09:34",
-      "first_seen_at": "2026-08-31T09:41:01.893262"
-    },
-    {
       "id": 5085,
       "title": "DART-SD: 钻石拓扑感知的多轮工具调用 Agent 自蒸馏框架",
       "original_title": "DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents",
@@ -110,6 +87,29 @@
       "author": null,
       "published_at": "2026-08-31T00:00:00",
       "first_seen_at": "2026-08-31T10:09:31.675558"
+    },
+    {
+      "id": 5126,
+      "title": "安全Agent在未签名可执行文件审计中的应用流程",
+      "original_title": "A corporate security control blocking an unsigned executable is not merely an installation inconvenience. It is the environment refusing software whose publisher and integrity it c",
+      "summary": "建议在遇到未签名可执行文件被拦截时，不要轻易放行，而是指派安全Agent验证其发布者身份、构件完整性和来源对应关系，以维护软件供应链信任链。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 61.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "提供了一套可直接复用的安全Agent审计Prompt模板，适合需要将软件供应链验证自动化的企业安全团队参考，避免为图方便而破坏机器级安全策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Secondmindsys/status/2094415641717481866",
+      "reader_url": "https://x.com/Secondmindsys/status/2094415641717481866",
+      "image_url": null,
+      "author": {
+        "username": "Secondmindsys",
+        "name": "Nash | Second Mind",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T13:22:56",
+      "first_seen_at": "2026-08-31T13:28:43.496603"
     }
   ]
 }
