@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T07:09:47+08:00",
+  "updated_at": "2026-09-01T07:40:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 5276,
@@ -72,29 +72,6 @@
       },
       "published_at": "2026-08-31T20:00:00",
       "first_seen_at": "2026-08-31T20:36:31.766416"
-    },
-    {
-      "id": 5246,
-      "title": "观点：覆盖引导模糊测试时代终结，AI引导模糊测试兴起",
-      "original_title": "there are 10 types of people (who can fuzz and who can't)  but it's right on one thing - the era of coverage-guided grey-box fuzzers is over  now is the era of human/ai manually-gu",
-      "summary": "推文指出覆盖引导的灰盒模糊测试时代已结束，当前正进入由人类和 AI 手动引导的模糊测试新阶段。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 63.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队应关注此趋势判断：传统覆盖引导 fuzzing 可能遭遇瓶颈，AI 辅助的定向 fuzzing 或成新方向，值得评估现有工具链的演进路径。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jgattermayer/status/2094504653979345159",
-      "reader_url": "https://x.com/jgattermayer/status/2094504653979345159",
-      "image_url": null,
-      "author": {
-        "username": "jgattermayer",
-        "name": "Josef Gattermayer | ack3▮",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T19:16:38",
-      "first_seen_at": "2026-08-31T19:33:17.467698"
     },
     {
       "id": 5266,
