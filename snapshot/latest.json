@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T00:12:52+08:00",
+  "updated_at": "2026-09-01T00:44:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -28,29 +28,6 @@
       "first_seen_at": "2026-08-31T14:01:09.324379"
     },
     {
-      "id": 5110,
-      "title": "GCSA Agent 在 CyberGym 取得 91.3%，展示自主漏洞挖掘潜力",
-      "original_title": "这次 GCSA Agent 在 CyberGym 拿到 91.3%，我觉得一个很重要的信号是：  AI Security 正在从辅助工具往自主研究能力发展。  真实漏洞分析其实很复杂，不是找到一个可疑函数就结束了。  要在大型代码库里建立漏洞假设，找到实际攻击路径，再生成 PoC 并执行验证，整个过程需要大量试错和反馈。  CyberGym 把这些环节放进真",
-      "summary": "GCSA Agent 在 CyberGym 真实漏洞环境中达到 91.3% 得分，证明 AI Agent 已具备从建立假设到生成并执行 PoC 的连续安全任务执行能力，正从辅助工具向自主研究演进。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘 Agent 在真实基准上的表现值得关注。安全团队应密切跟踪这类能自主完成「假设-路径-PoC」全流程的 Agent，它们将显著扩大代码审计覆盖面并改变现有研究模式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Jimduizhang1/status/2094399090092363850",
-      "reader_url": "https://x.com/Jimduizhang1/status/2094399090092363850",
-      "image_url": null,
-      "author": {
-        "username": "Jimduizhang1",
-        "name": "Captain Jim｜火币TradFi负费率",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T12:17:09",
-      "first_seen_at": "2026-08-31T12:23:16.767767"
-    },
-    {
       "id": 5173,
       "title": "Aurora勒索团伙滥用Cursor AI执行自动化内网渗透",
       "original_title": "⚠️ Aurora ransomware operators gave Cursor AI credentials or an existing route into victim networks.  The agent handled exploitation tasks against 10 targets, including network sca",
@@ -74,27 +51,27 @@
       "first_seen_at": "2026-08-31T15:09:55.453350"
     },
     {
-      "id": 5112,
-      "title": "AI安全审计新视角：从「能否出结果」转向「人类可否核验」",
-      "original_title": "This is one of the rare AI-audit reviews that tests the right thing: not “can it produce findings,” but “can it finish a job a human can actually check.”   The mid-run threat-model",
-      "summary": "这篇评论指出，评估安全Agent不应只看发现数量，而应关注其能否完成人类可核验的工作，并推崇运行中切换威胁模型与独立验证器的设计。",
+      "id": 5183,
+      "title": "谷歌用Gemini重写C库为Rust，大规模Fuzzing验证避坑",
+      "original_title": "Google used Gemini to rewrite a production C library in Rust — then actually shipped it. 🦀  The interesting part isn't the AI-generated code.  It's the verification:  30M+ GIF regr",
+      "summary": "Google 使用 Gemini 将生产级 C 语言 giflib 库重写为 Rust，并通过 2 亿次差分 Fuzzing 和 3000 万次回归测试验证。随后原 C 库爆出堆越界写入 CVE，而迁移后的系统未受影响。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.5,
+      "sub_category": "fuzzing",
+      "score_total": 70.85,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做安全Agent的同学必看：文章点破了当前AI安全审计的通病（只管输出不管验证）。直接抄作业——加上独立verifier拦截低级错误，强制「未验证」标签，能让你的Agent落地靠谱度直线上升。",
+      "recommendation_reason": "这展示了AI做安全代码迁移的标准姿势：生成后必须跟上大规模差分Fuzzing和专家审查。做代码审计和安全重构的团队值得借鉴这个验证闭环，别光信AI生成的代码，验证才是保命符。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/PinnacleCrypt/status/2094393851548979282",
-      "reader_url": "https://x.com/PinnacleCrypt/status/2094393851548979282",
+      "canonical_url": "https://x.com/nicherio/status/2094455172365795480",
+      "reader_url": "https://x.com/nicherio/status/2094455172365795480",
       "image_url": null,
       "author": {
-        "username": "PinnacleCrypt",
-        "name": "Pinnacle Crypt 💎🥷🦾",
+        "username": "nicherio",
+        "name": "RustBite",
         "avatar_url": null
       },
-      "published_at": "2026-08-31T11:56:20",
-      "first_seen_at": "2026-08-31T12:23:55.405829"
+      "published_at": "2026-08-31T16:00:00",
+      "first_seen_at": "2026-08-31T16:13:53.027962"
     },
     {
       "id": 5170,
@@ -233,6 +210,25 @@
       },
       "published_at": "2026-08-31T14:43:04",
       "first_seen_at": "2026-08-31T15:07:59.206437"
+    },
+    {
+      "id": 5146,
+      "title": "LoopArena：评估模型控制编码代理的运行时能力基准",
+      "original_title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+      "summary": "本文提出 LoopArena 基准，评估模型作为控制器指导编码代理完成长期任务的能力，发现当前最佳模型在完整任务上的严格成功率仅为24.69%，揭示了长期任务控制中的不足。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 62.14,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "虽是通用编码任务评测，但其 Controller-Worker 架构对构建长期安全自动化 Agent（如持续漏洞挖掘与修复流程）有直接参考价值。安全团队可借鉴该评测框架，量化控制模型在复杂任务流中的可靠性，避免因编排不当导致的安全检查遗漏。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2608.28281",
+      "reader_url": "https://arxiv.org/pdf/2608.28281",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-08-31T00:00:00",
+      "first_seen_at": "2026-08-31T14:13:16.464040"
     }
   ]
 }
