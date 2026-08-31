@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T19:17:54+08:00",
+  "updated_at": "2026-08-31T19:50:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -41,6 +41,25 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-08-31T08:50:15.736387"
+    },
+    {
+      "id": 5101,
+      "title": "AI 安全技能路由包 reverse-skill 走红",
+      "original_title": "GitHub Trending: zhaoxuya520/reverse-skill gained 1439 stars today",
+      "summary": "逆向与渗透测试技能路由工具 reverse-skill 获得大量关注，该工具集成 AI 自动路由、按需自举工具链和自动进化经验库，支持 Claude Code、Cursor 等主流 AI 编码客户端。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "将 AI 编码客户端变成渗透与逆向助手的现成落地范例。安全团队可直接接入 Claude Code 等工具，快速搭建定制化安全 Agent，值得研究其路由与知识库构建思路。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-08-31&since=daily",
+      "reader_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-08-31&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-08-31T07:23:08",
+      "first_seen_at": "2026-08-31T11:34:59.856229"
     },
     {
       "id": 5052,
@@ -152,25 +171,6 @@
       },
       "published_at": "2026-08-31T07:00:00",
       "first_seen_at": "2026-08-31T09:08:53.613864"
-    },
-    {
-      "id": 5085,
-      "title": "DART-SD: 钻石拓扑感知的多轮工具调用 Agent 自蒸馏框架",
-      "original_title": "DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents",
-      "summary": "本文提出 DART-SD 框架，通过交互状态转换图建模多轮工具调用过程，识别关键拓扑断点并进行局部自蒸馏监督，解决传统全轨迹模仿导致的策略多样性退化问题。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 63.09,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做自动化安全 Agent 时常面临多步骤探索路径单一化的问题，这篇提出的拓扑感知局部修正思路值得借鉴，能有效避免训练时惩罚合理的安全测试分支。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2608.18524",
-      "reader_url": "https://arxiv.org/pdf/2608.18524",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-31T00:00:00",
-      "first_seen_at": "2026-08-31T10:09:31.675558"
     }
   ]
 }
