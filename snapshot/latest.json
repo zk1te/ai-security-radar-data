@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-08-31T21:59:19+08:00",
+  "updated_at": "2026-08-31T22:33:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 5101,
@@ -22,6 +22,29 @@
       "author": null,
       "published_at": "2026-08-31T07:23:08",
       "first_seen_at": "2026-08-31T11:34:59.856229"
+    },
+    {
+      "id": 5133,
+      "title": "AI 驱动代码审计对比传统 Fuzzing：用数十亿 Token 穷尽代码库",
+      "original_title": "Team A uses tried and true auditing methods: Expert manual review and deep invariant fuzzing to cover every possible application state.  Team B drives billions of AI tokens into ev",
+      "summary": "该推文对比了传统人工审查加深度 Fuzzing 与利用前沿 AI 模型消耗数十亿 Token 穷尽代码库的两种安全审计范式。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "直击当前 AI 代码审计的落地痛点：传统 Fuzzing 与大模型暴力扫 Token 孰强孰弱。想引入 LLM 做漏洞挖掘的团队必看，思考如何结合两者边界而非盲从 AI。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/GuardianAudits/status/2094417575837048992",
+      "reader_url": "https://x.com/GuardianAudits/status/2094417575837048992",
+      "image_url": "https://pbs.twimg.com/media/HRDdr7MaEAADih1.jpg",
+      "author": {
+        "username": "GuardianAudits",
+        "name": "Guardian",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T13:30:37",
+      "first_seen_at": "2026-08-31T14:01:09.324379"
     },
     {
       "id": 5110,
@@ -70,23 +93,23 @@
       "first_seen_at": "2026-08-31T12:23:55.405829"
     },
     {
-      "id": 5085,
-      "title": "DART-SD: 钻石拓扑感知的多轮工具调用 Agent 自蒸馏框架",
-      "original_title": "DART-SD: Diamond-topology Aware Retrieval and Tuning for Self-Distillation of Multi-Turn Tool-Calling Agents",
-      "summary": "本文提出 DART-SD 框架，通过交互状态转换图建模多轮工具调用过程，识别关键拓扑断点并进行局部自蒸馏监督，解决传统全轨迹模仿导致的策略多样性退化问题。",
+      "id": 5146,
+      "title": "LoopArena：评估模型控制编码代理的运行时能力基准",
+      "original_title": "LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering",
+      "summary": "本文提出 LoopArena 基准，评估模型作为控制器指导编码代理完成长期任务的能力，发现当前最佳模型在完整任务上的严格成功率仅为24.69%，揭示了长期任务控制中的不足。",
       "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 63.09,
+      "sub_category": "model_evaluation",
+      "score_total": 62.14,
       "include_status": "included",
       "item_type": "paper",
-      "recommendation_reason": "做自动化安全 Agent 时常面临多步骤探索路径单一化的问题，这篇提出的拓扑感知局部修正思路值得借鉴，能有效避免训练时惩罚合理的安全测试分支。",
+      "recommendation_reason": "虽是通用编码任务评测，但其 Controller-Worker 架构对构建长期安全自动化 Agent（如持续漏洞挖掘与修复流程）有直接参考价值。安全团队可借鉴该评测框架，量化控制模型在复杂任务流中的可靠性，避免因编排不当导致的安全检查遗漏。",
       "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2608.18524",
-      "reader_url": "https://arxiv.org/pdf/2608.18524",
+      "canonical_url": "https://huggingface.co/papers/2608.28281",
+      "reader_url": "https://arxiv.org/pdf/2608.28281",
       "image_url": null,
       "author": null,
       "published_at": "2026-08-31T00:00:00",
-      "first_seen_at": "2026-08-31T10:09:31.675558"
+      "first_seen_at": "2026-08-31T14:13:16.464040"
     },
     {
       "id": 5126,
