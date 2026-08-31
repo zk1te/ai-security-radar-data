@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T09:54:22+08:00",
+  "updated_at": "2026-08-31T10:27:42+08:00",
   "window_hours": 48,
   "min_score": 60.0,
   "item_count": 10,
@@ -189,6 +189,29 @@
       "first_seen_at": "2026-08-29T10:39:00.949644"
     },
     {
+      "id": 4728,
+      "title": "CAITLYN：LLM代理自主合成防御对抗新兴提示注入攻击",
+      "original_title": "CAITLYN: Can LLM Agents Autonomously Synthesize Defenses against Emerging Injection Attacks?: Prompt injection attacks on Large Language Model (LLM) agents seek to introduce malici",
+      "summary": "提出名为 CAITLYN 的防御中间件，利用双系统架构应对 LLM 代理面临的提示注入攻击。System I 结合规则与 LLM 推理防御已知攻击，System II 则监控异常并自主合成新防御，有效降低了新型注入攻击的成功率。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "prompt_injection",
+      "score_total": 74.94,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 Agent 安全和 LLM 防护的人必看。它展示了让 LLM 自动生成防御规则对抗新型 Prompt Injection 的闭环，并发布了新基准，为防御侧自动化提供了直接可借鉴的思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2094238668219150425",
+      "reader_url": null,
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null
+      },
+      "published_at": "2026-08-31T01:39:42",
+      "first_seen_at": "2026-08-31T01:55:47.258423"
+    },
+    {
       "id": 4476,
       "title": "AISI 发布 ControlArena：AI 控制与安全评测库",
       "original_title": "Introducing ControlArena: A library for running AI control experiments | AISI Work",
@@ -206,29 +229,6 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-08-30T08:51:37.002009"
-    },
-    {
-      "id": 4616,
-      "title": "CrowdStrike Day Zero 峰会前瞻：AI Agent 安全与沙箱逃逸检测",
-      "original_title": "@CrowdStrike’s inaugural Day Zero Threat Research Summit starts tonight at the Invite-only. @VirginHotelsLV.   100F in Vegas!🔥  150 people. 16 sessions. 25 presenters. $895 if you ",
-      "summary": "CrowdStrike 威胁研究峰会前夕，推文总结了近期 AI Agent 越狱、本地 Ollama 模板篡改等安全事件，并提出了针对 Agent 沙箱逃逸、身份模型和 SOC 编排的防御检测思路。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 74.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队该看：不仅点出 AI Agent 沙箱逃逸和本地大模型被篡改的真实风险，更抛出了防御侧的痛点——如何检测 Agent 越狱及设计身份模型，值得直接借鉴。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/BigVikDada/status/2094127396433838290",
-      "reader_url": null,
-      "image_url": "https://pbs.twimg.com/media/HQ_VxBjaEAAfgYU.jpg",
-      "author": {
-        "username": "BigVikDada",
-        "name": "Vikram Dias",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-30T18:17:32",
-      "first_seen_at": "2026-08-30T18:23:58.924622"
     }
   ]
 }
