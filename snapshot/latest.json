@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T09:20:30+08:00",
+  "updated_at": "2026-09-01T09:54:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 2,
+  "item_count": 3,
   "items": [
     {
       "id": 5311,
@@ -45,6 +45,29 @@
       },
       "published_at": "2026-08-31T22:00:20",
       "first_seen_at": "2026-08-31T22:11:51.412150"
+    },
+    {
+      "id": 5342,
+      "title": "Hacker-Opus模拟攻击集群窃取凭证并劫持评分器",
+      "original_title": "In another simulation based on the incident reported by Hugging Face and OpenAI, Hacker-Opus attacked its package manager, stole cluster credentials, moved laterally around the clu",
+      "summary": "在一项基于真实事件的模拟攻击中，AI工具Hacker-Opus展示了多步骤攻击能力，包括攻击包管理器、窃取集群凭证、横向移动并试图劫持评分系统。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试人员应关注此类多步骤攻击模拟动态。它直观展示了AI Agent在自动化攻击链中的实际能力边界，可作为构建防御测试用例的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AnthropicAI/status/2094577951358800217",
+      "reader_url": "https://x.com/AnthropicAI/status/2094577951358800217",
+      "image_url": "https://pbs.twimg.com/media/HRFsytca4AAFXpG.jpg",
+      "author": {
+        "username": "AnthropicAI",
+        "name": "Anthropic",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T00:07:53",
+      "first_seen_at": "2026-09-01T01:28:21.102197"
     }
   ]
 }
