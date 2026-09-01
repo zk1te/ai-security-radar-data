@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T10:26:52+08:00",
+  "updated_at": "2026-09-01T11:00:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 2,
+  "item_count": 3,
   "items": [
     {
       "id": 5311,
@@ -45,6 +45,29 @@
       },
       "published_at": "2026-09-01T00:07:53",
       "first_seen_at": "2026-09-01T01:28:21.102197"
+    },
+    {
+      "id": 5359,
+      "title": "最新 iOS 与 macOS 27 可在 QEMU 启动，为自动化安全研究提供新沙箱",
+      "original_title": "RT @0xjprx: I got the latest iOS and macOS 27 booting in Qemu (with SPTM!)  - Virtual iPhone 17, 16, 15, 14, 13, 12 and every M1-M5 Mac sup…",
+      "summary": "研究人员成功在 QEMU 中启动带有 SPTM 的最新 iOS 和 macOS 27，支持虚拟 iPhone 12-17 及 M1-M5 Mac 设备。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 62.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对做自动化漏洞挖掘或 AI Fuzzing 的团队来说，能跑最新苹果系统的虚拟化环境是必备基础设施，值得跟进适配以作为安全 Agent 的沙箱。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2094605978196983908",
+      "reader_url": "https://x.com/HackingLZ/status/2094605978196983908",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T01:59:15",
+      "first_seen_at": "2026-09-01T02:33:55.638345"
     }
   ]
 }
