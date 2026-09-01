@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-09-01T08:13:03+08:00",
+  "updated_at": "2026-09-01T08:46:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 4,
+  "item_count": 3,
   "items": [
+    {
+      "id": 5311,
+      "title": "逆向与渗透技能路由包 reverse-skill 获热榜关注",
+      "original_title": "GitHub Trending: zhaoxuya520/reverse-skill gained 1401 stars today",
+      "summary": "GitHub 项目 reverse-skill 单日获 1401 星，提供 AI 驱动的逆向与渗透测试技能路由、按需工具链自举及自动进化经验库，支持 Claude Code 等主流客户端。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员该看，它展示了如何用主流 AI 编码助手整合逆向与渗透工具链，能直接下载体验或作为构建个人 AI 安全 Agent 的架构参考。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-01&since=daily",
+      "reader_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-01&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-08-31T07:23:08",
+      "first_seen_at": "2026-09-01T00:21:20.146010"
+    },
     {
       "id": 5276,
       "title": "安全Agent评测新思路：从攻击能力转向验证预防率",
@@ -28,29 +47,6 @@
       "first_seen_at": "2026-08-31T22:11:51.412150"
     },
     {
-      "id": 5259,
-      "title": "CLAUDE-OSINT：将 Claude 转化为结构化侦察助手",
-      "original_title": "🔎🤖 CLAUDE-OSINT — AI-POWERED RECON  A powerful OSINT toolkit that turns Claude into a structured reconnaissance assistant, combining 100+ recon capabilities, dorks, validators and ",
-      "summary": "介绍 CLAUDE-OSINT 工具包，结合 100 多种侦察能力和攻击路径模板，将 Claude 变成用于授权安全研究的结构化侦察助手。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和侦察人员值得一看，该工具展示了如何利用大模型将零散的 OSINT 技术结构化。可直接获取仓库并尝试将其集成到现有的侦察流程中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Anastasis_King/status/2094515570167484436",
-      "reader_url": "https://x.com/Anastasis_King/status/2094515570167484436",
-      "image_url": "https://pbs.twimg.com/media/HRE2zwMWcAAtETT.jpg",
-      "author": {
-        "username": "Anastasis_King",
-        "name": "Anastasis Vasileiadis",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T20:00:00",
-      "first_seen_at": "2026-08-31T20:36:31.766416"
-    },
-    {
       "id": 5266,
       "title": "前沿AI实验室或将推企业安全Agent引发网安行业震动",
       "original_title": "Frontier AI labs are putting cybersecurity in focus.   If say a lab launches an enterprise security agent, it could put real pressure on cybersecurity names, kind of like SaaS apoc",
@@ -72,29 +68,6 @@
       },
       "published_at": "2026-08-31T20:47:44",
       "first_seen_at": "2026-08-31T21:08:45.387108"
-    },
-    {
-      "id": 5257,
-      "title": "CYBERSTRIKEAI：面向授权安全运营的AI原生工作空间",
-      "original_title": "🐈‍⬛🤖 CYBERSTRIKEAI — AI-NATIVE CYBERSECURITY  An AI-powered cybersecurity workspace combining intelligent agents, automated workflows, knowledge retrieval and attack-chain analysis",
-      "summary": "该推文推广了名为 CYBERSTRIKEAI 的安全工具，其集成了智能体、自动化工作流、知识检索与攻击链分析能力，面向授权安全运营场景。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 62.15,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "作为安全从业者可留意此类集成智能体与攻击链分析的AI原生安全平台趋势，但当前内容仅为引流推文，缺乏技术细节，需获取实际工具验证落地效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Anastasis_King/status/2094515767198781947",
-      "reader_url": "https://x.com/Anastasis_King/status/2094515767198781947",
-      "image_url": "https://pbs.twimg.com/media/HRE2_P4XsAACSzk.jpg",
-      "author": {
-        "username": "Anastasis_King",
-        "name": "Anastasis Vasileiadis",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T20:00:47",
-      "first_seen_at": "2026-08-31T20:36:11.305723"
     }
   ]
 }
