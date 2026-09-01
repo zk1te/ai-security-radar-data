@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T07:40:53+08:00",
+  "updated_at": "2026-09-01T08:13:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 4,
   "items": [
     {
       "id": 5276,
@@ -26,29 +26,6 @@
       },
       "published_at": "2026-08-31T22:00:20",
       "first_seen_at": "2026-08-31T22:11:51.412150"
-    },
-    {
-      "id": 5250,
-      "title": "CrowdStrike发布Falcon IQ：50+AI Agent自动化漏洞验证与修复",
-      "original_title": "🚨 [AGENTIC CYBER DEFENSE] — CROWDSTRIKE JUST LAUNCHED FALCON IQ WITH 50+ SPECIALIZED AI AGENTS DESIGNED TO ASSESS, PRIORITIZE AND REMEDIATE SECURITY EXPOSURE  The agentic engine us",
-      "summary": "CrowdStrike推出基于NVIDIA Nemotron模型的Falcon IQ平台，通过50多个专用AI Agent自动化执行漏洞验证、优先级排序和运行时修复，旨在以机器速度加速SOC防御闭环。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.65,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "关注大型安全厂商如何将多Agent架构落地到SOC运营和漏洞修复闭环。防御者需重点评估其Agent权限管控和提示注入抗性，避免因引入特权身份而放大系统风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2094514624863613250",
-      "reader_url": "https://x.com/XQOPTRX/status/2094514624863613250",
-      "image_url": null,
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity News",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T19:56:15",
-      "first_seen_at": "2026-08-31T20:04:54.056297"
     },
     {
       "id": 5259,
