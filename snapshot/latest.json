@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T09:54:45+08:00",
+  "updated_at": "2026-09-01T10:26:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 3,
+  "item_count": 2,
   "items": [
     {
       "id": 5311,
@@ -22,29 +22,6 @@
       "author": null,
       "published_at": "2026-08-31T07:23:08",
       "first_seen_at": "2026-09-01T00:21:20.146010"
-    },
-    {
-      "id": 5276,
-      "title": "安全Agent评测新思路：从攻击能力转向验证预防率",
-      "original_title": "The interesting next benchmark is whether the same capability transfers from exploitation to prevention.  Take the vulnerabilities these models successfully exploited and give a fr",
-      "summary": "探讨安全Agent评测的新方向，建议将AI成功利用的漏洞交由防御型Agent修复，以此区分攻击与防御能力，寻找能将进攻能力转化为最高验证预防率的模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 76.65,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全评测设计者必看。当前榜单都在卷「AI能攻破多少系统」，但真正的落地价值在于防御。这条推文给出了攻防转化的具体评测设计思路，直接指明了下一阶段安全Agent Benchmark的演进方向。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Secondmindsys/status/2094545852899770661",
-      "reader_url": "https://x.com/Secondmindsys/status/2094545852899770661",
-      "image_url": null,
-      "author": {
-        "username": "Secondmindsys",
-        "name": "Nash | Second Mind",
-        "avatar_url": null
-      },
-      "published_at": "2026-08-31T22:00:20",
-      "first_seen_at": "2026-08-31T22:11:51.412150"
     },
     {
       "id": 5342,
