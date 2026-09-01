@@ -1,28 +1,9 @@
 {
-  "updated_at": "2026-09-01T11:00:24+08:00",
+  "updated_at": "2026-09-01T12:36:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 3,
   "items": [
-    {
-      "id": 5311,
-      "title": "逆向与渗透技能路由包 reverse-skill 获热榜关注",
-      "original_title": "GitHub Trending: zhaoxuya520/reverse-skill gained 1401 stars today",
-      "summary": "GitHub 项目 reverse-skill 单日获 1401 星，提供 AI 驱动的逆向与渗透测试技能路由、按需工具链自举及自动进化经验库，支持 Claude Code 等主流客户端。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全研究员该看，它展示了如何用主流 AI 编码助手整合逆向与渗透工具链，能直接下载体验或作为构建个人 AI 安全 Agent 的架构参考。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-01&since=daily",
-      "reader_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-01&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-31T07:23:08",
-      "first_seen_at": "2026-09-01T00:21:20.146010"
-    },
     {
       "id": 5342,
       "title": "Hacker-Opus模拟攻击集群窃取凭证并劫持评分器",
@@ -45,6 +26,29 @@
       },
       "published_at": "2026-09-01T00:07:53",
       "first_seen_at": "2026-09-01T01:28:21.102197"
+    },
+    {
+      "id": 5373,
+      "title": "AI 安全技能路由包：支持 Claude Code 等客户端的渗透/逆向工具链",
+      "original_title": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Sup",
+      "summary": "该工具包为逆向工程和授权渗透测试提供 AI 自动路由、按需工具链自举和自进化知识库，适配 Claude Code、Cursor、Cline 等主流 AI 编码客户端。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.38,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "渗透和逆向团队可直接尝试将现有 AI 编码客户端升级为安全研究助手，重点关注其工具链自举与经验库进化机制是否适配自身工作流。prefilter 命中不足但内容确实与 AI 赋能安全直接相关，故保留。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/LoveAIbrain/status/2094630792488226883",
+      "reader_url": "https://x.com/LoveAIbrain/status/2094630792488226883",
+      "image_url": null,
+      "author": {
+        "username": "LoveAIbrain",
+        "name": "0xAIBrain",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T03:37:51",
+      "first_seen_at": "2026-09-01T04:10:43.880567"
     },
     {
       "id": 5359,
