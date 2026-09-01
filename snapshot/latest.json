@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-01T14:44:28+08:00",
+  "updated_at": "2026-09-01T15:24:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 5428,
@@ -100,6 +100,48 @@
       "first_seen_at": "2026-09-01T06:24:58.192707"
     },
     {
+      "id": 5515,
+      "title": "安全Agent动态执行规范：VM身份验证与命令分级门控",
+      "original_title": "8. expected VM marker file, when available  9. expected VM hostname allowlist  10. expected VM build/version allowlist  The dynamic trigger MUST NOT execute unless ALL required ide",
+      "summary": "该文档定义了一套严格的安全Agent执行护栏，涵盖VM身份验证、命令分级分类、执行边界控制和审计日志，确保动态安全测试仅在隔离VM内进行且严禁本地回退。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.1,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "构建自主漏洞挖掘或Fuzzing Agent的团队必读：这份规范直接解决了Agent误操作物理主机的核心风险，提供从命令分类到快照恢复的完整落地清单，可立即用于约束你的Agent执行层。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheMsterDoctor1/status/2094673676725572068",
+      "reader_url": "https://x.com/TheMsterDoctor1/status/2094673676725572068",
+      "image_url": null,
+      "author": {
+        "username": "TheMsterDoctor1",
+        "name": "X",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T06:28:16",
+      "first_seen_at": "2026-09-01T06:54:59.585905"
+    },
+    {
+      "id": 5554,
+      "title": "RankShift：基于数据库的日志类别偏移检测方法",
+      "original_title": "RankShift: In-Database Detection and Explanation of Categorical Shifts",
+      "summary": "提出一种在数据库内使用统计方法检测日志类别比例偏移的方案，效果媲美自编码器且无需模型训练，大幅降低资源消耗。",
+      "primary_category": "AI for Sec",
+      "sub_category": "log_anomaly_detection",
+      "score_total": 74.53,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做日志异常检测的团队该看。它用纯统计方法在数据库里检测类别比例偏移，效果媲美甚至超越自编码器，还省了 137 倍的模型状态。这提醒我们不是所有日志异常都得硬塞给深度学习，直接 SQL 搞定可能更香。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.28922",
+      "reader_url": "https://arxiv.org/pdf/2608.28922",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-01T00:00:00",
+      "first_seen_at": "2026-09-01T07:05:50.210459"
+    },
+    {
       "id": 5433,
       "title": "AgentLogs：揭示 GitHub Copilot 云端 Agent 行为的大规模日志数据集",
       "original_title": "AgentLogs: A Dataset for Opening the Black Box of GitHub's Cloud Agent",
@@ -136,63 +178,6 @@
       "author": null,
       "published_at": "2026-09-01T00:00:00",
       "first_seen_at": "2026-09-01T06:17:39.510162"
-    },
-    {
-      "id": 5404,
-      "title": "数据库增强RAG在REST API误用自动修复中的应用研究",
-      "original_title": "Database-Augmented RAG for Automated Repair of REST API Misuses",
-      "summary": "本研究探讨了不同 RAG 数据库配置对修复 REST API 误用的效果，发现按版本和内容类型组织规范可将修复率从 54.3% 提升至 88.6%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "knowledge_enhanced",
-      "score_total": 71.18,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做代码审计或自动修复工具的开发者该看，文章给出了如何有效组织知识库以提升 LLM 代码修复能力的实战经验，避坑价值高。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2608.29290",
-      "reader_url": "https://arxiv.org/pdf/2608.29290",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-01T00:00:00",
-      "first_seen_at": "2026-09-01T06:15:05.181466"
-    },
-    {
-      "id": 5461,
-      "title": "AutoSciRub：评估优先的自主研究Agent框架",
-      "original_title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
-      "summary": "提出 AutoSciRub 框架，在自主研究Agent执行任务前自动生成可验证的评估准则，并利用该准则引导执行和迭代修正，显著提升研究质量与任务完成率。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "agent_architecture",
-      "score_total": 69.15,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "安全Agent常面临任务完成标准模糊和结果验证难的问题，AutoSciRub 的「先评估再执行」范式和准则自动归纳方法可直接借鉴用于漏洞挖掘Agent的自我验证和迭代修正，建议相关开发者参考其开源代码。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2608.31076",
-      "reader_url": "https://arxiv.org/pdf/2608.31076",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-01T00:00:00",
-      "first_seen_at": "2026-09-01T06:36:35.034196"
-    },
-    {
-      "id": 5405,
-      "title": "APIFlow-Bench：测量智能体在长依赖API工作流中的生存力",
-      "original_title": "APIFlow-Bench: Measuring Whether Agents Survive Long, Dependent API Workflows",
-      "summary": "本文提出 APIFlow-Bench 基准，用于评估智能体在长链路 API 调用中的表现。研究发现随着依赖链变长任务成功率显著下降，且可靠性差异比最佳表现更能区分模型。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 69.02,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全自动化编排常需多步 API 组合，本文揭示了长链路 API 工作流中 Agent 的衰减率和「最后一步交付失误」问题，开发安全 Agent 的必须看，别只盯单点能力测试。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2608.29128",
-      "reader_url": "https://arxiv.org/pdf/2608.29128",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-01T00:00:00",
-      "first_seen_at": "2026-09-01T06:15:32.984215"
     }
   ]
 }
