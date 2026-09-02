@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T06:57:49+08:00",
+  "updated_at": "2026-09-03T07:30:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -51,29 +51,6 @@
       "first_seen_at": "2026-09-02T22:52:47.950745"
     },
     {
-      "id": 6404,
-      "title": "Gemini 3.8 Flash Cyber 宣称实现代码漏洞自动检测与修复",
-      "original_title": "This is the $20,000/month static analysis tool gone for anyone shipping code in common languages.  🛠️ Gemini 3.8 Flash Cyber isn't just detecting vulnerabilities; it's autonomously",
-      "summary": "推文介绍了 Gemini 3.8 Flash Cyber 模型，宣称其不仅能检测代码漏洞，还能自主修复，旨在替代昂贵的传统静态分析工具，降低中小企业安全开发门槛。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 71.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 自动修复代码漏洞是安全开发的重要趋势。如果你在评估 AI 辅助代码审计与修复工具，可关注其宣称的分钟级响应能力。但需警惕营销夸大，建议实测其对复杂逻辑漏洞的误报率和修复可用性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Ai_Trend_/status/2095224148729688169",
-      "reader_url": "https://x.com/Ai_Trend_/status/2095224148729688169",
-      "image_url": null,
-      "author": {
-        "username": "Ai_Trend_",
-        "name": "Ai Trend",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T18:55:39",
-      "first_seen_at": "2026-09-02T18:59:32.572938"
-    },
-    {
       "id": 6429,
       "title": "Google推出Fairwind计划：用AI自主挖掘并修复漏洞",
       "original_title": "Google has launched the Fairwind Program, a limited-access program giving trusted Google Cloud customers, government agencies and cybersecurity partners access to advanced AI cyber",
@@ -120,29 +97,6 @@
       "first_seen_at": "2026-09-02T21:47:44.286441"
     },
     {
-      "id": 6406,
-      "title": "OpenAI Astra 评估中发现并利用两个零日漏洞",
-      "original_title": "⚠️ OpenAI says Astra found and used two zero-days in an evaluation exploit chain.  Google’s Gemini 3.8 Flash Cyber and Anthropic’s Claude 5.1 models also arrived with tiered access",
-      "summary": "OpenAI 称 Astra 模型在评估中成功发现并利用了两个零日漏洞，Google 和 Anthropic 的新模型也引入了分层访问机制与安全防护。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery | model_security",
-      "score_total": 70.15,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 发现并利用 0day 是自主漏洞挖掘能力走向实战的硬指标，安全团队应密切关注大厂安全评测中 AI 利用链的演进，评估其工具化潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2095217526699622443",
-      "reader_url": "https://x.com/TheHackersNews/status/2095217526699622443",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T18:29:20",
-      "first_seen_at": "2026-09-02T18:59:34.971613"
-    },
-    {
       "id": 6448,
       "title": "AgentJudgeBench：评估LLM作为Agent工具调用评审的可靠性",
       "original_title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
@@ -183,6 +137,29 @@
       },
       "published_at": "2026-09-02T21:29:27",
       "first_seen_at": "2026-09-02T22:21:01.501826"
+    },
+    {
+      "id": 6464,
+      "title": "Codex安全Agent实测：Golang项目威胁建模成本超2美元",
+      "original_title": "running the Codex Security agent harness through a code base and btw just its Threat Modeling scope of work exceeded $2 in cost for a typical Golang application using Sol on High r",
+      "summary": "实测显示使用 Codex Security agent harness 对典型 Golang 应用进行威胁建模，在高推理模式下单次成本超过 2 美元。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 67.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "关注 AI 安全 Agent 落地成本的安全工程师该看。提供了实际运行数据，可用于评估 AI 安全工具的 ROI 和预算规划。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/liran_tal/status/2095286912499995091",
+      "reader_url": "https://x.com/liran_tal/status/2095286912499995091",
+      "image_url": "https://pbs.twimg.com/media/HRP0V1YXMAEbmVB.jpg",
+      "author": {
+        "username": "liran_tal",
+        "name": "Liran Tal",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T23:05:03",
+      "first_seen_at": "2026-09-02T23:25:09.772445"
     },
     {
       "id": 6458,
@@ -229,6 +206,29 @@
       },
       "published_at": "2026-09-02T17:22:06",
       "first_seen_at": "2026-09-02T19:32:18.117670"
+    },
+    {
+      "id": 6413,
+      "title": "安全Agent权限问题被低估：证据强不等于有权干预",
+      "original_title": "@high_bee25 The authority question is underrated here. Even if the security agent has stronger evidence, the system still needs to know whether it actually has the authority to ove",
+      "summary": "讨论指出安全Agent在拥有更强证据时，系统仍需判断其是否真正具备覆盖工作流的权限。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全Agent落地的同行必看：权限设计是落地第一道坎。不能只看Agent能力，必须定义清楚它在什么场景能「踩刹车」或「越权」，否则就是定时炸弹。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TessyWeb3/status/2095232218956177811",
+      "reader_url": "https://x.com/TessyWeb3/status/2095232218956177811",
+      "image_url": null,
+      "author": {
+        "username": "TessyWeb3",
+        "name": "Tessy",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T19:27:43",
+      "first_seen_at": "2026-09-02T19:32:00.814474"
     }
   ]
 }
