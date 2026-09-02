@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T00:29:09+08:00",
+  "updated_at": "2026-09-03T01:00:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -49,29 +49,6 @@
       },
       "published_at": "2026-09-02T16:05:07",
       "first_seen_at": "2026-09-02T16:13:21.374672"
-    },
-    {
-      "id": 6272,
-      "title": "HackerDummy：评估AI Agent渗透测试能力的开源基准",
-      "original_title": "HackerDummy is out — an open benchmark for evaluating AI/LLM agents on penetration testing.  20 deliberately vulnerable labs (web + Android) shipped with machine-readable answer ke",
-      "summary": "HackerDummy 发布开源渗透测试基准，包含 20 个 Web 和 Android 靶场及 134 个植入漏洞，通过机器可读的答案文件量化评估 AI 智能体的漏洞发现能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 73.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全Agent开发者必看。它自带靶场和机器可读答案，零依赖直接跑分，能立刻拿来做智能体渗透能力的横向对比与微调评测。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/renatoborbolla/status/2095126404060897670",
-      "reader_url": "https://x.com/renatoborbolla/status/2095126404060897670",
-      "image_url": null,
-      "author": {
-        "username": "renatoborbolla",
-        "name": "A.k.a. Borbolla",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T12:27:14",
-      "first_seen_at": "2026-09-02T12:52:55.726590"
     },
     {
       "id": 6297,
@@ -233,6 +210,29 @@
       },
       "published_at": "2026-09-02T16:04:15",
       "first_seen_at": "2026-09-02T16:13:23.559006"
+    },
+    {
+      "id": 6281,
+      "title": "研究人员用 Claude 为 WAGO PLC 编写预认证 RCE 漏洞利用",
+      "original_title": "🛡️  Claude AI Builds Pre-Auth RCE Exploit for WAGO PLC to Execute ARM Shellcode  Read more: https://t.co/fI2w99rQaX  Researchers used Claude AI to help port a pre-authentication re",
+      "summary": "研究人员利用 Claude AI 辅助将预认证 RCE 漏洞移植到 WAGO PLC，成功执行任意 ARM shellcode，但过程需大量人工干预且最终导致测试设备变砖。",
+      "primary_category": "AI for Sec",
+      "sub_category": "exploit_development",
+      "score_total": 67.35,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 辅助漏洞利用开发的硬核实验。红队和渗透测试人员应关注 AI 在底层 OT/Exploit 移植中的能力边界和局限，目前仍需大量人工引导，但在降低 Exploit 开发门槛上已展现出明确潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2095138539625382135",
+      "reader_url": "https://x.com/The_Cyber_News/status/2095138539625382135",
+      "image_url": "https://pbs.twimg.com/media/HRNtX73acAAUmsZ.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T13:15:28",
+      "first_seen_at": "2026-09-02T13:24:57.052408"
     }
   ]
 }
