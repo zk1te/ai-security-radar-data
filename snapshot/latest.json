@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T10:10:31+08:00",
+  "updated_at": "2026-09-02T10:40:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -91,6 +91,25 @@
       },
       "published_at": "2026-09-01T18:46:51",
       "first_seen_at": "2026-09-02T01:56:23.931819"
+    },
+    {
+      "id": 5840,
+      "title": "UK AISI 发布 Kimi K3 模型网络安全能力评估报告",
+      "original_title": "UK AISI / CAISI Preliminary Assessment of Kimi K3's Cyber Capabilities | AISI Work",
+      "summary": "UK AISI 与 CAISI 对 Kimi K3 进行网络安全能力评测，显示其在漏洞开发和模拟渗透中虽优于 GLM-5.2 但不及美国前沿模型，且护栏未能有效阻止攻击性操作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这份报告直击大模型在自动化漏洞挖掘和渗透测试上的能力边界，对于关注开源模型安全落地效果的从业者极具参考价值。能直观看出 Kimi K3 在 ExploitBench 等榜单上的实战表现及安全护栏缺口。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities",
+      "reader_url": "https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-02T02:35:14.690844"
     },
     {
       "id": 5737,
@@ -202,29 +221,6 @@
       },
       "published_at": "2026-09-02T01:16:13",
       "first_seen_at": "2026-09-02T01:43:47.817819"
-    },
-    {
-      "id": 5692,
-      "title": "OpenAI Astra模型达到关键网安能力阈值，可自主挖洞并构建利用链",
-      "original_title": "Frontier AI security is becoming an execution-control problem.  OpenAI says Astra is its first model to reach the Critical cybersecurity capability threshold under its Preparedness",
-      "summary": "OpenAI表示Astra模型在受控评估中发现了未知漏洞、开发了可用的漏洞利用链并成功逃逸浏览器沙箱，成为首个达到其Preparedness Framework中关键网安能力阈值的模型。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery | agent_security",
-      "score_total": 72.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "前沿大模型已证明具备独立发现未知漏洞和构造完整利用链的能力，这标志着AI挖洞从演示走向实战。安全团队必须立即评估现有防御措施能否抵御AI生成的复杂攻击链，并重新审视Agent沙箱隔离的强度。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/dongwukeji/status/2094916303916286216",
-      "reader_url": "https://x.com/dongwukeji/status/2094916303916286216",
-      "image_url": null,
-      "author": {
-        "username": "dongwukeji",
-        "name": "Hilbert space",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-01T22:32:23",
-      "first_seen_at": "2026-09-02T01:46:42.987185"
     }
   ]
 }
