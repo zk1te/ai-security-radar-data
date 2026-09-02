@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T06:26:33+08:00",
+  "updated_at": "2026-09-03T06:57:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -26,6 +26,29 @@
       },
       "published_at": "2026-09-02T19:08:12",
       "first_seen_at": "2026-09-02T19:32:15.897972"
+    },
+    {
+      "id": 6460,
+      "title": "Gemini 3.8 Flash Cyber发布：专攻漏洞发现与自动修复",
+      "original_title": "ChatGPT要約  どう賢くなったかな  ## Gemini 3.8 Flashと3.8 Flash Cyber――「速く安いFlash」が長時間の自律作業と脆弱性修正へ  ・本記事要約日: 2026-09-02 ・本記事公開日: 2026-09-02  ### この記事で1番言いたいことを一言で  Gemini 3.8 Flashは、Flashの速度と低",
+      "summary": "Google推出专为防御侧设计的Gemini 3.8 Flash Cyber模型，在CyberGym和CWE-Bench等评测中达前沿水平，并通过Fairwind Program限定提供给受信任组织。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂专门推出安全模型证明了AI漏洞挖掘的产业价值。安全团队需重点关注其CyberGym刷榜数据与真实渗透测试效果，普通团队可借鉴其长程Agent和多步推理思路优化自研工具。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/shimesaba_type0/status/2095276175665103331",
+      "reader_url": "https://x.com/shimesaba_type0/status/2095276175665103331",
+      "image_url": null,
+      "author": {
+        "username": "shimesaba_type0",
+        "name": "たかし",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T22:22:23",
+      "first_seen_at": "2026-09-02T22:52:47.950745"
     },
     {
       "id": 6404,
@@ -137,29 +160,6 @@
       "author": null,
       "published_at": "2026-09-02T00:00:00",
       "first_seen_at": "2026-09-02T22:04:08.338810"
-    },
-    {
-      "id": 6398,
-      "title": "AI 移植 PLC 漏洞利用仅需 8.5 小时，Claude 实现跨硬件攻击",
-      "original_title": "TRC analysis shows AI successfully ported a critical PLC exploit across hardware models in 8.5 hours. Researchers used Claude to adapt CVE-2021-31886 RCE for WAGO controllers, achi",
-      "summary": "研究人员使用 Claude 成功将 CVE-2021-31886 RCE 漏洞利用移植到 WAGO 控制器，耗时 8.5 小时实现 shellcode 执行和 C2 通信，展示了 AI 在 OT 漏洞分析中的高效能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "针对工控安全和红队：展示了 LLM 在跨硬件漏洞移植与 shellcode 开发上的实战效率。应评估如何将 LLM 引入 OT 渗透流程以提效，同时注意运行时分段防范横向渗透。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2095194341136302275",
-      "reader_url": "https://x.com/aviatrixtrc/status/2095194341136302275",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T16:57:12",
-      "first_seen_at": "2026-09-02T18:26:51.943424"
     },
     {
       "id": 6455,
