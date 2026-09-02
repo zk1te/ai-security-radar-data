@@ -1,9 +1,28 @@
 {
-  "updated_at": "2026-09-03T01:00:51+08:00",
+  "updated_at": "2026-09-03T01:34:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 6353,
+      "title": "谷歌发布 Gemini 3.8 Flash 及网络安全专用模型 Flash Cyber",
+      "original_title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "Google DeepMind 推出 Gemini 3.8 Flash，并发布了专为网络安全场景设计的 Gemini 3.8 Flash Cyber 模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "cyber_llm",
+      "score_total": 79.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "谷歌亲自下场做专用安全模型，说明 AI 赋能安全已成巨头共识。安全团队应关注其在威胁检测和代码审计中的实际表现，评估是否接入当前工具链。",
+      "source_id": "deepmind-blog",
+      "canonical_url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "reader_url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-02T16:18:31",
+      "first_seen_at": "2026-09-02T17:01:33.164630"
+    },
     {
       "id": 6345,
       "title": "Google 发布 Gemini 3.8 Flash Cyber 专注自主漏洞挖掘与修复",
@@ -51,6 +70,29 @@
       "first_seen_at": "2026-09-02T16:13:21.374672"
     },
     {
+      "id": 6362,
+      "title": "AI安全Agent评测需转向真实漏洞裁定",
+      "original_title": "Codex Security and Anthropic Mythos found zero curl vulnerabilities. AISLE then submitted 29 reports; maintainers accepted 6 low-severity CVEs. Security-agent evals need the same c",
+      "summary": "Codex和Anthropic Mythos在curl项目中未发现漏洞，AISLE提交29份报告仅6个低危CVE获认。安全Agent评测应摒弃品牌迷信，转而依据真实的代码提交与维护者裁定结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全评测从业者必看：AI漏洞挖掘的真实命中率远低于厂商宣传。别只看模型跑分，赶紧把维护者实际接受的CVE数量纳入你们的Agent评测标准。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/leetllm/status/2095195264281641295",
+      "reader_url": "https://x.com/leetllm/status/2095195264281641295",
+      "image_url": null,
+      "author": {
+        "username": "leetllm",
+        "name": "LeetLLM.com",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T17:00:52",
+      "first_seen_at": "2026-09-02T17:18:11.955918"
+    },
+    {
       "id": 6297,
       "title": "V8 模糊测试中的代码定向突变技术",
       "original_title": "New post: Code Targeting in V8 Fuzzing  A mutation can produce a perfectly valid JavaScript sample while moving execution away from the engine code we actually want to investigate.",
@@ -72,6 +114,29 @@
       },
       "published_at": "2026-09-02T14:14:14",
       "first_seen_at": "2026-09-02T14:30:55.703120"
+    },
+    {
+      "id": 6361,
+      "title": "谷歌发布 Gemini 3.8 Flash Cyber 模型专攻漏洞挖掘与修补",
+      "original_title": "⚡️ Google Launches Gemini 3.8 Flash Cyber to Identify Vulnerabilities and Auto-Patch Security Flaws  More Details: https://t.co/Uq9bK5PRJD  Google has unveiled Gemini 3.8, its late",
+      "summary": "谷歌推出最新 Gemini 3.8 模型家族，包含专为网络安全场景调优的「Gemini 3.8 Flash Cyber」变体，可自主发现软件漏洞并生成可用补丁。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂直接推出面向安全的专有模型，说明 AI 自动化漏洞挖掘与修补正加速进入产业落地。安全团队应关注其实际修补能力与误报率，评估接入自身 SAST/SCM 流水线的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2095196773476393329",
+      "reader_url": "https://x.com/The_Cyber_News/status/2095196773476393329",
+      "image_url": "https://pbs.twimg.com/media/HROiDiwa4AAARs6.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T17:06:52",
+      "first_seen_at": "2026-09-02T17:18:09.564953"
     },
     {
       "id": 6308,
@@ -164,75 +229,6 @@
       },
       "published_at": "2026-09-02T13:43:14",
       "first_seen_at": "2026-09-02T14:37:08.340990"
-    },
-    {
-      "id": 6284,
-      "title": "Cybernexis Burp Agent：集成Burp的AI安全Agent",
-      "original_title": "Cybernexis Burp Agent 🚀  ✅ Request/response analysis ✅ Fuzzing and password spraying ✅ Scope enforcement ✅ JWT, CSRF, and token analysis ✅ AI passive scanner ✅ Burp issue integrati",
-      "summary": "开源Burp Suite插件，用AI Agent实现请求响应分析、Fuzzing、密码喷洒、JWT/CSRF令牌分析和被动扫描，支持本地模型与流式输出。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.56,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试和红队同学可以直接装来试，把Burp工作流接上本地LLM做自动化分析。重点看它的scope enforcement和JWT/token分析是否真的能减少手动排雷时间，别指望全自动挖洞，当辅助提效工具用。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cybernexisuk/status/2095133433252978776",
-      "reader_url": "https://x.com/cybernexisuk/status/2095133433252978776",
-      "image_url": null,
-      "author": {
-        "username": "cybernexisuk",
-        "name": "CyberNexis",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T12:55:10",
-      "first_seen_at": "2026-09-02T13:25:15.502564"
-    },
-    {
-      "id": 6344,
-      "title": "Google DeepMind 发布 Cyber Gemini，提升 Bug Bounty 与渗透测试能力",
-      "original_title": "Excited to collaborate with the @GoogleDeepMind team on evaluating the latest Cyber Gemini model! It’s a significant leap forward in Bug Bounty Hunting and Penetration Testing - wh",
-      "summary": "Google DeepMind 团队联合测试了最新的 Cyber Gemini 模型，称其在 Bug Bounty 挖掘和渗透测试方面取得重大进展，且作为 Flash 模型速度更快、成本更低。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "攻防从业者应关注大厂网安模型在实网攻防中的落地表现。Cyber Gemini 若真如所言在速度和成本上取得平衡，将直接影响红队和漏洞赏金自动化的投资回报率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/galnagli/status/2095181017275314535",
-      "reader_url": "https://x.com/galnagli/status/2095181017275314535",
-      "image_url": "https://pbs.twimg.com/media/HROSvmtWMAI5GoC.jpg",
-      "author": {
-        "username": "galnagli",
-        "name": "Nagli",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T16:04:15",
-      "first_seen_at": "2026-09-02T16:13:23.559006"
-    },
-    {
-      "id": 6281,
-      "title": "研究人员用 Claude 为 WAGO PLC 编写预认证 RCE 漏洞利用",
-      "original_title": "🛡️  Claude AI Builds Pre-Auth RCE Exploit for WAGO PLC to Execute ARM Shellcode  Read more: https://t.co/fI2w99rQaX  Researchers used Claude AI to help port a pre-authentication re",
-      "summary": "研究人员利用 Claude AI 辅助将预认证 RCE 漏洞移植到 WAGO PLC，成功执行任意 ARM shellcode，但过程需大量人工干预且最终导致测试设备变砖。",
-      "primary_category": "AI for Sec",
-      "sub_category": "exploit_development",
-      "score_total": 67.35,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 辅助漏洞利用开发的硬核实验。红队和渗透测试人员应关注 AI 在底层 OT/Exploit 移植中的能力边界和局限，目前仍需大量人工引导，但在降低 Exploit 开发门槛上已展现出明确潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2095138539625382135",
-      "reader_url": "https://x.com/The_Cyber_News/status/2095138539625382135",
-      "image_url": "https://pbs.twimg.com/media/HRNtX73acAAUmsZ.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T13:15:28",
-      "first_seen_at": "2026-09-02T13:24:57.052408"
     }
   ]
 }
