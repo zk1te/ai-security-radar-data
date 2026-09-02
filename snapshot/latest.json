@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T22:47:55+08:00",
+  "updated_at": "2026-09-02T23:22:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -28,29 +28,6 @@
       "first_seen_at": "2026-09-02T12:52:55.726590"
     },
     {
-      "id": 6239,
-      "title": "Claude 成功移植 WAGO PLC RCE 漏洞，但后续 C2 尝试致设备变砖",
-      "original_title": "🚨 [AI + INDUSTRIAL CYBER] — RESEARCHERS USED CLAUDE TO PORT A PRE-AUTH RCE EXPLOIT FROM ONE WAGO PLC TO ANOTHER — THEN A LATER AI-ASSISTED C2 ATTEMPT PERMANENTLY BRICKED THE CONTRO",
-      "summary": "研究人员使用 Claude 分析固件并调整 exploit 序列，成功将 WAGO PLC 预认证 RCE 移植至新硬件；但后续 AI 辅助的 C2 开发因误写闪存导致设备变砖，揭示了 OT 场景下 AI 行为不可控的物理风险。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和漏洞研究员必看：AI 不仅能加速跨硬件 exploit 移植，还能辅助挖到新漏洞。但在 OT 环境下务必引入数字孪生和审批门，避免 AI 的不可控行为造成物理损坏。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2095100911211135463",
-      "reader_url": "https://x.com/XQOPTRX/status/2095100911211135463",
-      "image_url": null,
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T10:45:56",
-      "first_seen_at": "2026-09-02T11:13:47.804810"
-    },
-    {
       "id": 6297,
       "title": "V8 模糊测试中的代码定向突变技术",
       "original_title": "New post: Code Targeting in V8 Fuzzing  A mutation can produce a perfectly valid JavaScript sample while moving execution away from the engine code we actually want to investigate.",
@@ -72,6 +49,29 @@
       },
       "published_at": "2026-09-02T14:14:14",
       "first_seen_at": "2026-09-02T14:30:55.703120"
+    },
+    {
+      "id": 6308,
+      "title": "VulnClaw：基于 LLM 与 MCP 的 AI 渗透测试 Agent",
+      "original_title": "👾 VulnClaw - This project is a standalone AI penetration testing Agent.  Built on LLM Agent + MCP Toolchain + optional Skill reference material, compatible with OpenAI / Anthropic ",
+      "summary": "VulnClaw 是一款独立 AI 渗透测试 Agent，结合 LLM Agent 与 MCP 工具链，支持多模型，可实现从侦察到漏洞利用与报告的自动化流程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "渗透测试和红队人员该看，它展示了 LLM 结合 MCP 在自动化攻防流程中的落地。可拉取代码跑通流程，评估其实战中的漏洞挖掘与利用效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/bountywriteups/status/2095165156301185088",
+      "reader_url": "https://x.com/bountywriteups/status/2095165156301185088",
+      "image_url": "https://pbs.twimg.com/media/HROFmMqacAA3Ysr.jpg",
+      "author": {
+        "username": "bountywriteups",
+        "name": "𝕏 Bug Bounty Writeups 𝕏",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T15:01:14",
+      "first_seen_at": "2026-09-02T15:03:49.064825"
     },
     {
       "id": 6248,
