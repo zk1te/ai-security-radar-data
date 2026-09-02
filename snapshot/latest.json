@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T01:34:00+08:00",
+  "updated_at": "2026-09-03T02:06:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -185,29 +185,6 @@
       "first_seen_at": "2026-09-02T15:39:20.611028"
     },
     {
-      "id": 6287,
-      "title": "开源红队AI Agent「Cyberstrike」实现终端自动化渗透测试",
-      "original_title": "👾 Cyberstrike - The first open-source AI agent built for offensive security.  Automated penetration testing from your terminal — plug in your Claude, GPT, or any LLM subscription a",
-      "summary": "Cyberstrike 是一款开源的进攻性安全 AI Agent，支持接入多种大模型实现自动化渗透测试，内置大量专用 Agent、安全技能和 OWASP 测试用例。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可直接在终端接入现有 LLM 订阅将其转化为自动化红队 Agent，适合关注自动化攻防落地的从业者快速试用与集成，评估其实战效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/bountywriteups/status/2095142679764226142",
-      "reader_url": "https://x.com/bountywriteups/status/2095142679764226142",
-      "image_url": null,
-      "author": {
-        "username": "bountywriteups",
-        "name": "𝕏 Bug Bounty Writeups 𝕏",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T13:31:55",
-      "first_seen_at": "2026-09-02T13:58:35.027295"
-    },
-    {
       "id": 6302,
       "title": "OpenAI与Anthropic零发现后，Aisle挖出六个curl CVE",
       "original_title": "HN Hot Discussion: Six curl CVEs after OpenAI and Anthropic came back with zero",
@@ -229,6 +206,29 @@
       },
       "published_at": "2026-09-02T13:43:14",
       "first_seen_at": "2026-09-02T14:37:08.340990"
+    },
+    {
+      "id": 6344,
+      "title": "Google DeepMind 发布 Cyber Gemini，提升 Bug Bounty 与渗透测试能力",
+      "original_title": "Excited to collaborate with the @GoogleDeepMind team on evaluating the latest Cyber Gemini model! It’s a significant leap forward in Bug Bounty Hunting and Penetration Testing - wh",
+      "summary": "Google DeepMind 团队联合测试了最新的 Cyber Gemini 模型，称其在 Bug Bounty 挖掘和渗透测试方面取得重大进展，且作为 Flash 模型速度更快、成本更低。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "攻防从业者应关注大厂网安模型在实网攻防中的落地表现。Cyber Gemini 若真如所言在速度和成本上取得平衡，将直接影响红队和漏洞赏金自动化的投资回报率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/galnagli/status/2095181017275314535",
+      "reader_url": "https://x.com/galnagli/status/2095181017275314535",
+      "image_url": "https://pbs.twimg.com/media/HROSvmtWMAI5GoC.jpg",
+      "author": {
+        "username": "galnagli",
+        "name": "Nagli",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T16:04:15",
+      "first_seen_at": "2026-09-02T16:13:23.559006"
     }
   ]
 }
