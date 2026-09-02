@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-02T15:04:34+08:00",
+  "updated_at": "2026-09-02T15:37:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
     {
       "id": 5906,
@@ -49,6 +49,29 @@
       },
       "published_at": "2026-09-02T06:05:18",
       "first_seen_at": "2026-09-02T06:12:09.692135"
+    },
+    {
+      "id": 5950,
+      "title": "活跃维护的红队工具清单发布，涵盖 AI 红队与 Fuzzing 方向",
+      "original_title": "Most \"Awesome Red Teaming\" lists are filled with dead projects from 2018.  This one is actually maintained: https://t.co/aQcCmuNz6n  It cuts out the generic fluff and maps tools di",
+      "summary": "推文推荐了一份持续更新的「Awesome Red Teaming」工具列表，按现代攻击阶段分类，并明确纳入了 AI 红队与 Fuzzing 赛道，适合安全团队构建工具链。",
+      "primary_category": "AI for Sec",
+      "sub_category": "red_team_toolkit",
+      "score_total": 64.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和紫队从业者该看：这份清单过滤了陈年死链，直接给出现代攻击路径下的可用工具，特别是 AI 红队和 Fuzzing 分类，能帮你快速补齐工具箱。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/PadhiyarRushi/status/2095043114067263543",
+      "reader_url": "https://x.com/PadhiyarRushi/status/2095043114067263543",
+      "image_url": null,
+      "author": {
+        "username": "PadhiyarRushi",
+        "name": "Ryx",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T06:56:17",
+      "first_seen_at": "2026-09-02T07:16:44.285543"
     },
     {
       "id": 5914,
