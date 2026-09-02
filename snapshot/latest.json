@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T02:37:27+08:00",
+  "updated_at": "2026-09-03T03:11:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -116,27 +116,27 @@
       "first_seen_at": "2026-09-02T17:18:09.564953"
     },
     {
-      "id": 6308,
-      "title": "VulnClaw：基于 LLM 与 MCP 的 AI 渗透测试 Agent",
-      "original_title": "👾 VulnClaw - This project is a standalone AI penetration testing Agent.  Built on LLM Agent + MCP Toolchain + optional Skill reference material, compatible with OpenAI / Anthropic ",
-      "summary": "VulnClaw 是一款独立 AI 渗透测试 Agent，结合 LLM Agent 与 MCP 工具链，支持多模型，可实现从侦察到漏洞利用与报告的自动化流程。",
+      "id": 6404,
+      "title": "Gemini 3.8 Flash Cyber 宣称实现代码漏洞自动检测与修复",
+      "original_title": "This is the $20,000/month static analysis tool gone for anyone shipping code in common languages.  🛠️ Gemini 3.8 Flash Cyber isn't just detecting vulnerabilities; it's autonomously",
+      "summary": "推文介绍了 Gemini 3.8 Flash Cyber 模型，宣称其不仅能检测代码漏洞，还能自主修复，旨在替代昂贵的传统静态分析工具，降低中小企业安全开发门槛。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.9,
+      "sub_category": "vuln_discovery",
+      "score_total": 71.75,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "渗透测试和红队人员该看，它展示了 LLM 结合 MCP 在自动化攻防流程中的落地。可拉取代码跑通流程，评估其实战中的漏洞挖掘与利用效果。",
+      "recommendation_reason": "AI 自动修复代码漏洞是安全开发的重要趋势。如果你在评估 AI 辅助代码审计与修复工具，可关注其宣称的分钟级响应能力。但需警惕营销夸大，建议实测其对复杂逻辑漏洞的误报率和修复可用性。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/bountywriteups/status/2095165156301185088",
-      "reader_url": "https://x.com/bountywriteups/status/2095165156301185088",
-      "image_url": "https://pbs.twimg.com/media/HROFmMqacAA3Ysr.jpg",
+      "canonical_url": "https://x.com/Ai_Trend_/status/2095224148729688169",
+      "reader_url": "https://x.com/Ai_Trend_/status/2095224148729688169",
+      "image_url": null,
       "author": {
-        "username": "bountywriteups",
-        "name": "𝕏 Bug Bounty Writeups 𝕏",
+        "username": "Ai_Trend_",
+        "name": "Ai Trend",
         "avatar_url": null
       },
-      "published_at": "2026-09-02T15:01:14",
-      "first_seen_at": "2026-09-02T15:03:49.064825"
+      "published_at": "2026-09-02T18:55:39",
+      "first_seen_at": "2026-09-02T18:59:32.572938"
     },
     {
       "id": 6330,
@@ -160,6 +160,29 @@
       },
       "published_at": "2026-09-02T15:15:00",
       "first_seen_at": "2026-09-02T15:39:20.611028"
+    },
+    {
+      "id": 6406,
+      "title": "OpenAI Astra 评估中发现并利用两个零日漏洞",
+      "original_title": "⚠️ OpenAI says Astra found and used two zero-days in an evaluation exploit chain.  Google’s Gemini 3.8 Flash Cyber and Anthropic’s Claude 5.1 models also arrived with tiered access",
+      "summary": "OpenAI 称 Astra 模型在评估中成功发现并利用了两个零日漏洞，Google 和 Anthropic 的新模型也引入了分层访问机制与安全防护。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery | model_security",
+      "score_total": 70.15,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 发现并利用 0day 是自主漏洞挖掘能力走向实战的硬指标，安全团队应密切关注大厂安全评测中 AI 利用链的演进，评估其工具化潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2095217526699622443",
+      "reader_url": "https://x.com/TheHackersNews/status/2095217526699622443",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T18:29:20",
+      "first_seen_at": "2026-09-02T18:59:34.971613"
     },
     {
       "id": 6344,
@@ -206,29 +229,6 @@
       },
       "published_at": "2026-09-02T16:57:12",
       "first_seen_at": "2026-09-02T18:26:51.943424"
-    },
-    {
-      "id": 6387,
-      "title": "Google DeepMind 与 Chrome 合作：AI 辅助安全修复有效产出提升 2.6 倍",
-      "original_title": "@GoogleDeepMind @googlechrome 2.6x more valid fixes is pretty wild. Actually super useful application of AI for security. Love to see it.",
-      "summary": "有评论指出 Google DeepMind 与 Chrome 团队应用 AI 进行安全修复，有效修复数量提升 2.6 倍，被视为 AI 赋能安全的实用案例。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_remediation",
-      "score_total": 65.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞修复自动化是 AI for Sec 落地的硬指标，Google 在 Chrome 上的 2.6 倍提升说明大模型已能产出可用 patch。安全团队应关注 AI 辅助修复的工程化实践与效果边界。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Ai_Trend_/status/2095210928539058395",
-      "reader_url": "https://x.com/Ai_Trend_/status/2095210928539058395",
-      "image_url": null,
-      "author": {
-        "username": "Ai_Trend_",
-        "name": "Ai Trend",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T18:03:07",
-      "first_seen_at": "2026-09-02T18:23:57.970969"
     }
   ]
 }
