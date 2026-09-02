@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-02T21:40:44+08:00",
+  "updated_at": "2026-09-02T22:14:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 6272,
@@ -72,6 +72,29 @@
       },
       "published_at": "2026-09-02T11:38:48",
       "first_seen_at": "2026-09-02T11:46:29.445820"
+    },
+    {
+      "id": 6287,
+      "title": "开源红队AI Agent「Cyberstrike」实现终端自动化渗透测试",
+      "original_title": "👾 Cyberstrike - The first open-source AI agent built for offensive security.  Automated penetration testing from your terminal — plug in your Claude, GPT, or any LLM subscription a",
+      "summary": "Cyberstrike 是一款开源的进攻性安全 AI Agent，支持接入多种大模型实现自动化渗透测试，内置大量专用 Agent、安全技能和 OWASP 测试用例。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可直接在终端接入现有 LLM 订阅将其转化为自动化红队 Agent，适合关注自动化攻防落地的从业者快速试用与集成，评估其实战效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/bountywriteups/status/2095142679764226142",
+      "reader_url": "https://x.com/bountywriteups/status/2095142679764226142",
+      "image_url": null,
+      "author": {
+        "username": "bountywriteups",
+        "name": "𝕏 Bug Bounty Writeups 𝕏",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T13:31:55",
+      "first_seen_at": "2026-09-02T13:58:35.027295"
     },
     {
       "id": 6284,
