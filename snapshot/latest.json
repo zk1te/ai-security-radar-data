@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T05:52:46+08:00",
+  "updated_at": "2026-09-03T06:26:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -120,6 +120,25 @@
       "first_seen_at": "2026-09-02T18:59:34.971613"
     },
     {
+      "id": 6448,
+      "title": "AgentJudgeBench：评估LLM作为Agent工具调用评审的可靠性",
+      "original_title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
+      "summary": "该研究提出首个系统评估LLM在Agent工作流中作为评审可靠性的基准，发现任务难度增加会导致评审对齐度下降，且模型规模无法突破这一结构性瓶颈。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.79,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "对构建安全Agent或评测自动化安全任务的团队，此研究揭示了LLM-as-a-judge在复杂工作流中的局限，提醒在构建安全评测榜单时不能盲目依赖大模型做自动裁判。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2608.26623",
+      "reader_url": "https://arxiv.org/pdf/2608.26623",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-02T00:00:00",
+      "first_seen_at": "2026-09-02T22:04:08.338810"
+    },
+    {
       "id": 6398,
       "title": "AI 移植 PLC 漏洞利用仅需 8.5 小时，Claude 实现跨硬件攻击",
       "original_title": "TRC analysis shows AI successfully ported a critical PLC exploit across hardware models in 8.5 hours. Researchers used Claude to adapt CVE-2021-31886 RCE for WAGO controllers, achi",
@@ -143,27 +162,50 @@
       "first_seen_at": "2026-09-02T18:26:51.943424"
     },
     {
-      "id": 6387,
-      "title": "Google DeepMind 与 Chrome 合作：AI 辅助安全修复有效产出提升 2.6 倍",
-      "original_title": "@GoogleDeepMind @googlechrome 2.6x more valid fixes is pretty wild. Actually super useful application of AI for security. Love to see it.",
-      "summary": "有评论指出 Google DeepMind 与 Chrome 团队应用 AI 进行安全修复，有效修复数量提升 2.6 倍，被视为 AI 赋能安全的实用案例。",
+      "id": 6455,
+      "title": "RevEng_AI 发布新一代 AI 反编译器 Ventris",
+      "original_title": "RT @pr0me: today, we @RevEng_AI released the next generation of our decompiler: Ventris  the new model comes with improved struct layout re…",
+      "summary": "RevEng_AI 推出名为 Ventris 的新一代 AI 反编译器模型，重点提升了结构布局恢复能力。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_remediation",
-      "score_total": 65.7,
+      "sub_category": "binary_security",
+      "score_total": 68.25,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "漏洞修复自动化是 AI for Sec 落地的硬指标，Google 在 Chrome 上的 2.6 倍提升说明大模型已能产出可用 patch。安全团队应关注 AI 辅助修复的工程化实践与效果边界。",
+      "recommendation_reason": "二进制安全从业者应关注，AI 反编译器在结构体恢复上的进展可能显著提升逆向分析效率，值得评估其与传统工具的差距。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Ai_Trend_/status/2095210928539058395",
-      "reader_url": "https://x.com/Ai_Trend_/status/2095210928539058395",
+      "canonical_url": "https://x.com/HackingLZ/status/2095262857541669350",
+      "reader_url": "https://x.com/HackingLZ/status/2095262857541669350",
       "image_url": null,
       "author": {
-        "username": "Ai_Trend_",
-        "name": "Ai Trend",
+        "username": "HackingLZ",
+        "name": "Justin Elze",
         "avatar_url": null
       },
-      "published_at": "2026-09-02T18:03:07",
-      "first_seen_at": "2026-09-02T18:23:57.970969"
+      "published_at": "2026-09-02T21:29:27",
+      "first_seen_at": "2026-09-02T22:21:01.501826"
+    },
+    {
+      "id": 6458,
+      "title": "谷歌发布 Gemini 3.8 Flash Cyber 安全专用模型",
+      "original_title": "RT @sundarpichai: We’re also introducing Gemini 3.8 Flash Cyber, our most capable cybersecurity model. It shows frontier-level performance…",
+      "summary": "谷歌 CEO 宣布推出 Gemini 3.8 Flash Cyber 网络安全模型，称其展现出前沿水平的性能表现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_model",
+      "score_total": 67.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂推出安全专用大模型，标志着 AI 深入安全垂直场景。安全团队应关注其能力上限，评估能否接入现有威胁检测与安全运营工作流。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2095235306706387229",
+      "reader_url": "https://x.com/pentest_swissky/status/2095235306706387229",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T19:39:59",
+      "first_seen_at": "2026-09-02T22:21:33.031461"
     },
     {
       "id": 6417,
@@ -187,52 +229,6 @@
       },
       "published_at": "2026-09-02T17:22:06",
       "first_seen_at": "2026-09-02T19:32:18.117670"
-    },
-    {
-      "id": 6413,
-      "title": "安全Agent权限问题被低估：证据强不等于有权干预",
-      "original_title": "@high_bee25 The authority question is underrated here. Even if the security agent has stronger evidence, the system still needs to know whether it actually has the authority to ove",
-      "summary": "讨论指出安全Agent在拥有更强证据时，系统仍需判断其是否真正具备覆盖工作流的权限。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 62.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全Agent落地的同行必看：权限设计是落地第一道坎。不能只看Agent能力，必须定义清楚它在什么场景能「踩刹车」或「越权」，否则就是定时炸弹。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TessyWeb3/status/2095232218956177811",
-      "reader_url": "https://x.com/TessyWeb3/status/2095232218956177811",
-      "image_url": null,
-      "author": {
-        "username": "TessyWeb3",
-        "name": "Tessy",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T19:27:43",
-      "first_seen_at": "2026-09-02T19:32:00.814474"
-    },
-    {
-      "id": 6436,
-      "title": "利用 AI 迭代改写 Fuzzilli Profile 优化模糊测试的思路",
-      "original_title": "I took some time to read this article (finally had some time today), and it was really cool to see this research. Last year, I tried something similar, where I used AI to rewrite F",
-      "summary": "推文作者分享了用 AI 改写并迭代 Fuzzilli 配置以提升模糊测试效果的研究，并提到自己去年曾因 token 成本过高而搁置类似尝试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 61.8,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Fuzzing 从业者可关注此方向。随着大模型 token 成本下降，用 LLM 自动迭代生成 fuzzing profile 的想法变得更具可操作性，值得在 JS 引擎等复杂目标上探索落地。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/davi1337_/status/2095254306316550591",
-      "reader_url": "https://x.com/davi1337_/status/2095254306316550591",
-      "image_url": null,
-      "author": {
-        "username": "davi1337_",
-        "name": "DaviMatsuyama",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T20:55:29",
-      "first_seen_at": "2026-09-02T21:15:08.230532"
     }
   ]
 }
