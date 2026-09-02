@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T23:22:01+08:00",
+  "updated_at": "2026-09-02T23:54:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -74,27 +74,27 @@
       "first_seen_at": "2026-09-02T15:03:49.064825"
     },
     {
-      "id": 6248,
-      "title": "Palo Alto 收购 Console 推进 SOC Agent 化，自动化处置引入新风险",
-      "original_title": "🚨 [AGENTIC SOC] — PALO ALTO NETWORKS ACQUIRES CONSOLE TO PUSH CORTEX FROM “AI THAT RECOMMENDS” TOWARD **AI AGENTS THAT INVESTIGATE AND ACT ACROSS ENTERPRISE SYSTEMS**  The vision: ",
-      "summary": "Palo Alto Networks 收购 AI 平台 Console，推动 Cortex 从被动推荐走向自主调查与执行处置的 Agentic SOC，同时带来 Agent 鉴权与越权等新安全挑战。",
-      "primary_category": "AI for Sec | Sec for AI",
+      "id": 6330,
+      "title": "自主AI安全代理发现6个curl CVE，超越OpenAI与Anthropic工具",
+      "original_title": "An autonomous AI security agent just found 6 curl CVEs that Anthropic and OpenAI's tools missed. If your dependency scanners still feel like checkbox theater, this is the wake-up.",
+      "summary": "一个自主AI安全代理发现了6个curl漏洞（CVE），而这些漏洞是Anthropic和OpenAI的安全工具所遗漏的，凸显了AI在漏洞挖掘领域的潜力与现有工具的盲区。",
+      "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 71.9,
+      "score_total": 71.7,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "SOC 负责人和安全平台建设者必看。AI Agent 正接管动态响应，但无限制的处置权限相当于「实时写剧本的特权管理员」，落地前务必先划清权限边界和回滚机制。",
+      "recommendation_reason": "做漏洞研究和开源安全的兄弟必须看，AI Agent 在真实项目 curl 中挖出6个0day级别CVE，直接打脸大厂通用工具。这预示着专用安全Agent将逐步取代传统依赖扫描器的流水线位置。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2095114215371497680",
-      "reader_url": "https://x.com/XQOPTRX/status/2095114215371497680",
+      "canonical_url": "https://x.com/contentbuffer/status/2095168622188798283",
+      "reader_url": "https://x.com/contentbuffer/status/2095168622188798283",
       "image_url": null,
       "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
+        "username": "contentbuffer",
+        "name": "ContentBuffer",
         "avatar_url": null
       },
-      "published_at": "2026-09-02T11:38:48",
-      "first_seen_at": "2026-09-02T11:46:29.445820"
+      "published_at": "2026-09-02T15:15:00",
+      "first_seen_at": "2026-09-02T15:39:20.611028"
     },
     {
       "id": 6287,
