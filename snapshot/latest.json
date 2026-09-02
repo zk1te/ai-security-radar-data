@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T04:15:44+08:00",
+  "updated_at": "2026-09-03T04:48:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -116,6 +116,29 @@
       "first_seen_at": "2026-09-02T18:59:32.572938"
     },
     {
+      "id": 6429,
+      "title": "Google推出Fairwind计划：用AI自主挖掘并修复漏洞",
+      "original_title": "Google has launched the Fairwind Program, a limited-access program giving trusted Google Cloud customers, government agencies and cybersecurity partners access to advanced AI cyber",
+      "summary": "Google推出限量访问的Fairwind计划，结合Gemini大模型与CodeMender工具，帮助政府及关键基础设施客户自主发现、验证软件漏洞并生成可部署补丁。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂开始把 AI 漏洞修复打包成闭环安全服务。安全团队应关注这种 Agent 化的自动化运营模式，提前思考自身漏洞响应流程如何与 AI 工具结合。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rubbletag/status/2095248632467603537",
+      "reader_url": "https://x.com/rubbletag/status/2095248632467603537",
+      "image_url": "https://pbs.twimg.com/media/HRPRg-WaYAAPQgQ.png",
+      "author": {
+        "username": "rubbletag",
+        "name": "Rubbletag",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T20:32:56",
+      "first_seen_at": "2026-09-02T20:42:46.908678"
+    },
+    {
       "id": 6406,
       "title": "OpenAI Astra 评估中发现并利用两个零日漏洞",
       "original_title": "⚠️ OpenAI says Astra found and used two zero-days in an evaluation exploit chain.  Google’s Gemini 3.8 Flash Cyber and Anthropic’s Claude 5.1 models also arrived with tiered access",
@@ -206,29 +229,6 @@
       },
       "published_at": "2026-09-02T17:22:06",
       "first_seen_at": "2026-09-02T19:32:18.117670"
-    },
-    {
-      "id": 6365,
-      "title": "HN 热议：Google 推出 Gemini 3.8 Flash 及网络安全专用版 Cyber",
-      "original_title": "HN Hot Discussion: Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "Google 发布了 Gemini 3.8 Flash 模型及针对网络安全领域的 3.8 Flash Cyber 变体，在 Hacker News 引发热议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_llm",
-      "score_total": 65.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "大厂专门推出安全领域的模型变体，说明 AI 赋能安全的商业落地正在加速。安全团队应密切关注其在漏洞挖掘或威胁检测上的实际表现与评测基准。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-02",
-      "reader_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-02",
-      "image_url": null,
-      "author": {
-        "username": "bratao",
-        "name": "bratao",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T15:12:40",
-      "first_seen_at": "2026-09-02T17:23:59.621553"
     }
   ]
 }
