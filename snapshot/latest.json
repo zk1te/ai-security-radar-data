@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T16:10:30+08:00",
+  "updated_at": "2026-09-02T16:50:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -119,6 +119,25 @@
       "first_seen_at": "2026-09-02T07:45:00.059359"
     },
     {
+      "id": 6049,
+      "title": "揭示 LLM Agent 轨迹评估盲点：结果导向易漏报静默故障",
+      "original_title": "trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories",
+      "summary": "本文研究了仅依赖最终结果评估 LLM Agent 时的盲点，发现该方法容易漏掉静默故障和被注入的虚假承诺，并开源了相关评测环境与注入工具。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation | security_benchmark",
+      "score_total": 74.58,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全 Agent 评测和红队的朋友建议看。它指出仅看结果的评测会被注入内容轻易绕过，且开源了故障注入环境和轨迹分析工具，可直接拿来做 Agent 安全审计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.00038",
+      "reader_url": "https://arxiv.org/pdf/2609.00038",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-02T00:00:00",
+      "first_seen_at": "2026-09-02T08:22:48.862373"
+    },
+    {
       "id": 5994,
       "title": "不让模型直接写YAML：确定性的GitOps自动化修复方案",
       "original_title": "Don't Let the Model Write the YAML: Deterministic, Minimal-Diff GitOps Remediation from LLM-Proposed Field Changes",
@@ -136,25 +155,6 @@
       "author": null,
       "published_at": "2026-09-02T00:00:00",
       "first_seen_at": "2026-09-02T08:01:35.883524"
-    },
-    {
-      "id": 5952,
-      "title": "ChainSWE：评估编码 Agent 连续修复多 Bug 的新基准",
-      "original_title": "ChainSWE: Benchmarking Coding Agents on Multi-Bug Software Maintenance",
-      "summary": "ChainSWE 提出首个评估编码 Agent 在共享代码库中顺序修复依赖性缺陷的基准，发现随着修复链延长，Agent 性能下降达 70%。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "model_evaluation",
-      "score_total": 73.83,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "安全团队若用 AI Agent 持续修复漏洞，需警惕上下文累积导致的性能衰减。该评测思路可直接借鉴到漏洞修复 Agent 的长周期能力评估中。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2607.02606",
-      "reader_url": "https://arxiv.org/pdf/2607.02606",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-02T00:00:00",
-      "first_seen_at": "2026-09-02T07:43:08.273273"
     }
   ]
 }
