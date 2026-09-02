@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-02T22:14:57+08:00",
+  "updated_at": "2026-09-02T22:47:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 6272,
@@ -51,6 +51,29 @@
       "first_seen_at": "2026-09-02T11:13:47.804810"
     },
     {
+      "id": 6297,
+      "title": "V8 模糊测试中的代码定向突变技术",
+      "original_title": "New post: Code Targeting in V8 Fuzzing  A mutation can produce a perfectly valid JavaScript sample while moving execution away from the engine code we actually want to investigate.",
+      "summary": "探讨了如何让 V8 引擎模糊测试中的突变保持在特定函数、文件或源代码行上，避免执行偏离目标代码。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 72.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "搞浏览器和引擎漏洞挖掘的人必看。Fuzzing 容易跑偏出无效路径，这篇给了让突变聚焦目标代码的实操思路，可以直接拿去优化现有 Fuzzing harness。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TashitaSoftSec/status/2095153328950747442",
+      "reader_url": "https://x.com/TashitaSoftSec/status/2095153328950747442",
+      "image_url": null,
+      "author": {
+        "username": "TashitaSoftSec",
+        "name": "Tashita Software Security",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T14:14:14",
+      "first_seen_at": "2026-09-02T14:30:55.703120"
+    },
+    {
       "id": 6248,
       "title": "Palo Alto 收购 Console 推进 SOC Agent 化，自动化处置引入新风险",
       "original_title": "🚨 [AGENTIC SOC] — PALO ALTO NETWORKS ACQUIRES CONSOLE TO PUSH CORTEX FROM “AI THAT RECOMMENDS” TOWARD **AI AGENTS THAT INVESTIGATE AND ACT ACROSS ENTERPRISE SYSTEMS**  The vision: ",
@@ -95,6 +118,29 @@
       },
       "published_at": "2026-09-02T13:31:55",
       "first_seen_at": "2026-09-02T13:58:35.027295"
+    },
+    {
+      "id": 6302,
+      "title": "OpenAI与Anthropic零发现后，Aisle挖出六个curl CVE",
+      "original_title": "HN Hot Discussion: Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "summary": "在 OpenAI 和 Anthropic 的模型未发现任何 curl 漏洞后，Aisle 团队成功挖掘出六个 curl CVE，引发 Hacker News 热议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 71.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 漏洞挖掘实战风向标：大厂模型未必包打天下，安全团队在引入 AI 辅助审计时应关注具体 harness 与工作流设计，而非唯模型论。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-02",
+      "reader_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-02",
+      "image_url": null,
+      "author": {
+        "username": "goobreee",
+        "name": "goobreee",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T13:43:14",
+      "first_seen_at": "2026-09-02T14:37:08.340990"
     },
     {
       "id": 6284,
@@ -164,29 +210,6 @@
       },
       "published_at": "2026-09-02T13:21:10",
       "first_seen_at": "2026-09-02T13:24:53.380787"
-    },
-    {
-      "id": 6253,
-      "title": "X Space回顾：2026年AI驱动的LLM漏洞发现",
-      "original_title": "X Space 精华回顾：2026 年 AI 驱动的 LLM 漏洞发现",
-      "summary": "这是一篇关于利用AI技术发现LLM漏洞的X Space讨论精华回顾。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 62.15,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "虽然内容仅含标题且未命中预筛关键词，但明确指向AI驱动的漏洞发现，是安全从业者应持续关注的前沿方向。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SuiNetworkCN/status/2095122663090069638",
-      "reader_url": "https://x.com/SuiNetworkCN/status/2095122663090069638",
-      "image_url": null,
-      "author": {
-        "username": "SuiNetworkCN",
-        "name": "Sui 中文｜10月7-8日Sui Basecamp🚢",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T12:12:23",
-      "first_seen_at": "2026-09-02T12:18:45.145766"
     }
   ]
 }
