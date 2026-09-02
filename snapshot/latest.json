@@ -1,28 +1,9 @@
 {
-  "updated_at": "2026-09-03T04:48:26+08:00",
+  "updated_at": "2026-09-03T05:20:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 6353,
-      "title": "谷歌发布 Gemini 3.8 Flash 及网络安全专用模型 Flash Cyber",
-      "original_title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "Google DeepMind 推出 Gemini 3.8 Flash，并发布了专为网络安全场景设计的 Gemini 3.8 Flash Cyber 模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "cyber_llm",
-      "score_total": 79.2,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "谷歌亲自下场做专用安全模型，说明 AI 赋能安全已成巨头共识。安全团队应关注其在威胁检测和代码审计中的实际表现，评估是否接入当前工具链。",
-      "source_id": "deepmind-blog",
-      "canonical_url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
-      "reader_url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-02T16:18:31",
-      "first_seen_at": "2026-09-02T17:01:33.164630"
-    },
     {
       "id": 6416,
       "title": "Google发布Gemini 3.8 Flash Cyber专攻漏洞挖掘与修复",
@@ -45,52 +26,6 @@
       },
       "published_at": "2026-09-02T19:08:12",
       "first_seen_at": "2026-09-02T19:32:15.897972"
-    },
-    {
-      "id": 6362,
-      "title": "AI安全Agent评测需转向真实漏洞裁定",
-      "original_title": "Codex Security and Anthropic Mythos found zero curl vulnerabilities. AISLE then submitted 29 reports; maintainers accepted 6 low-severity CVEs. Security-agent evals need the same c",
-      "summary": "Codex和Anthropic Mythos在curl项目中未发现漏洞，AISLE提交29份报告仅6个低危CVE获认。安全Agent评测应摒弃品牌迷信，转而依据真实的代码提交与维护者裁定结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全评测从业者必看：AI漏洞挖掘的真实命中率远低于厂商宣传。别只看模型跑分，赶紧把维护者实际接受的CVE数量纳入你们的Agent评测标准。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/leetllm/status/2095195264281641295",
-      "reader_url": "https://x.com/leetllm/status/2095195264281641295",
-      "image_url": null,
-      "author": {
-        "username": "leetllm",
-        "name": "LeetLLM.com",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T17:00:52",
-      "first_seen_at": "2026-09-02T17:18:11.955918"
-    },
-    {
-      "id": 6361,
-      "title": "谷歌发布 Gemini 3.8 Flash Cyber 模型专攻漏洞挖掘与修补",
-      "original_title": "⚡️ Google Launches Gemini 3.8 Flash Cyber to Identify Vulnerabilities and Auto-Patch Security Flaws  More Details: https://t.co/Uq9bK5PRJD  Google has unveiled Gemini 3.8, its late",
-      "summary": "谷歌推出最新 Gemini 3.8 模型家族，包含专为网络安全场景调优的「Gemini 3.8 Flash Cyber」变体，可自主发现软件漏洞并生成可用补丁。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "大厂直接推出面向安全的专有模型，说明 AI 自动化漏洞挖掘与修补正加速进入产业落地。安全团队应关注其实际修补能力与误报率，评估接入自身 SAST/SCM 流水线的可行性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2095196773476393329",
-      "reader_url": "https://x.com/The_Cyber_News/status/2095196773476393329",
-      "image_url": "https://pbs.twimg.com/media/HROiDiwa4AAARs6.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T17:06:52",
-      "first_seen_at": "2026-09-02T17:18:09.564953"
     },
     {
       "id": 6404,
@@ -229,6 +164,75 @@
       },
       "published_at": "2026-09-02T17:22:06",
       "first_seen_at": "2026-09-02T19:32:18.117670"
+    },
+    {
+      "id": 6365,
+      "title": "HN 热议：Google 推出 Gemini 3.8 Flash 及网络安全专用版 Cyber",
+      "original_title": "HN Hot Discussion: Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "Google 发布了 Gemini 3.8 Flash 模型及针对网络安全领域的 3.8 Flash Cyber 变体，在 Hacker News 引发热议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_llm",
+      "score_total": 65.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂专门推出安全领域的模型变体，说明 AI 赋能安全的商业落地正在加速。安全团队应密切关注其在漏洞挖掘或威胁检测上的实际表现与评测基准。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-02",
+      "reader_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-02",
+      "image_url": null,
+      "author": {
+        "username": "bratao",
+        "name": "bratao",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T15:12:40",
+      "first_seen_at": "2026-09-02T17:23:59.621553"
+    },
+    {
+      "id": 6413,
+      "title": "安全Agent权限问题被低估：证据强不等于有权干预",
+      "original_title": "@high_bee25 The authority question is underrated here. Even if the security agent has stronger evidence, the system still needs to know whether it actually has the authority to ove",
+      "summary": "讨论指出安全Agent在拥有更强证据时，系统仍需判断其是否真正具备覆盖工作流的权限。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全Agent落地的同行必看：权限设计是落地第一道坎。不能只看Agent能力，必须定义清楚它在什么场景能「踩刹车」或「越权」，否则就是定时炸弹。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TessyWeb3/status/2095232218956177811",
+      "reader_url": "https://x.com/TessyWeb3/status/2095232218956177811",
+      "image_url": null,
+      "author": {
+        "username": "TessyWeb3",
+        "name": "Tessy",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T19:27:43",
+      "first_seen_at": "2026-09-02T19:32:00.814474"
+    },
+    {
+      "id": 6436,
+      "title": "利用 AI 迭代改写 Fuzzilli Profile 优化模糊测试的思路",
+      "original_title": "I took some time to read this article (finally had some time today), and it was really cool to see this research. Last year, I tried something similar, where I used AI to rewrite F",
+      "summary": "推文作者分享了用 AI 改写并迭代 Fuzzilli 配置以提升模糊测试效果的研究，并提到自己去年曾因 token 成本过高而搁置类似尝试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 61.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Fuzzing 从业者可关注此方向。随着大模型 token 成本下降，用 LLM 自动迭代生成 fuzzing profile 的想法变得更具可操作性，值得在 JS 引擎等复杂目标上探索落地。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/davi1337_/status/2095254306316550591",
+      "reader_url": "https://x.com/davi1337_/status/2095254306316550591",
+      "image_url": null,
+      "author": {
+        "username": "davi1337_",
+        "name": "DaviMatsuyama",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T20:55:29",
+      "first_seen_at": "2026-09-02T21:15:08.230532"
     }
   ]
 }
