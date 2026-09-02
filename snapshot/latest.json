@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T03:42:29+08:00",
+  "updated_at": "2026-09-03T04:15:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -22,52 +22,6 @@
       "author": null,
       "published_at": "2026-09-02T16:18:31",
       "first_seen_at": "2026-09-02T17:01:33.164630"
-    },
-    {
-      "id": 6345,
-      "title": "Google 发布 Gemini 3.8 Flash Cyber 专注自主漏洞挖掘与修复",
-      "original_title": "🚨 [AI MODEL RELEASE] — GOOGLE JUST RELEASED GEMINI 3.8 FLASH — PLUS A CYBER-ONLY VARIANT BUILT FOR AUTONOMOUS VULNERABILITY DISCOVERY AND PATCHING  Gemini 3.8 Flash scores 54.9% on",
-      "summary": "Google 推出专为网络安全设计的 Gemini 3.8 Flash Cyber 模型，在内部漏洞挖掘基准上取得超 70% 成功率，并在 Chrome 安全团队测试中生成正确补丁数量达大模型两倍以上。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.76,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "专用低成本安全模型的出现意味着自主漏洞挖掘将大规模落地。安全团队应立即评估其评测基准，并准备好沙箱环境与审计流程来接入这类新型安全 Agent。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2095181004352753773",
-      "reader_url": "https://x.com/XQOPTRX/status/2095181004352753773",
-      "image_url": "https://pbs.twimg.com/media/HROUArDXQAUFHL8.jpg",
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T16:04:12",
-      "first_seen_at": "2026-09-02T16:13:24.758369"
-    },
-    {
-      "id": 6343,
-      "title": "OpenAI Astra模型在测试中发现两个0day并构建利用链",
-      "original_title": "🚨 [AI CYBER CAPABILITY UPDATE] — OPENAI SAYS ASTRA HIT 100% ON EXPLOITBENCH, DISCOVERED TWO ZERO-DAYS DURING EVALUATION AND BUILT WORKING BROWSER + ROOT-ESCALATION EXPLOIT CHAINS  ",
-      "summary": "OpenAI宣布其Astra模型在ExploitBench上达到100%成功率，并在安全评估中自主发现两个未知漏洞，成功组合成浏览器逃逸与本地提权攻击链，成为首个获评Critical级别的模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI漏洞挖掘从「已知漏洞复现」迈向「自主发现0day并组链」的实战边界。安全团队应立刻审视Agent运行环境的隔离与权限控制，防范高能力自动化攻击工具落地带来的基础设施级威胁。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2095181233323901038",
-      "reader_url": "https://x.com/XQOPTRX/status/2095181233323901038",
-      "image_url": null,
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T16:05:07",
-      "first_seen_at": "2026-09-02T16:13:21.374672"
     },
     {
       "id": 6416,
@@ -185,29 +139,6 @@
       "first_seen_at": "2026-09-02T18:59:34.971613"
     },
     {
-      "id": 6344,
-      "title": "Google DeepMind 发布 Cyber Gemini，提升 Bug Bounty 与渗透测试能力",
-      "original_title": "Excited to collaborate with the @GoogleDeepMind team on evaluating the latest Cyber Gemini model! It’s a significant leap forward in Bug Bounty Hunting and Penetration Testing - wh",
-      "summary": "Google DeepMind 团队联合测试了最新的 Cyber Gemini 模型，称其在 Bug Bounty 挖掘和渗透测试方面取得重大进展，且作为 Flash 模型速度更快、成本更低。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "攻防从业者应关注大厂网安模型在实网攻防中的落地表现。Cyber Gemini 若真如所言在速度和成本上取得平衡，将直接影响红队和漏洞赏金自动化的投资回报率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/galnagli/status/2095181017275314535",
-      "reader_url": "https://x.com/galnagli/status/2095181017275314535",
-      "image_url": "https://pbs.twimg.com/media/HROSvmtWMAI5GoC.jpg",
-      "author": {
-        "username": "galnagli",
-        "name": "Nagli",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T16:04:15",
-      "first_seen_at": "2026-09-02T16:13:23.559006"
-    },
-    {
       "id": 6398,
       "title": "AI 移植 PLC 漏洞利用仅需 8.5 小时，Claude 实现跨硬件攻击",
       "original_title": "TRC analysis shows AI successfully ported a critical PLC exploit across hardware models in 8.5 hours. Researchers used Claude to adapt CVE-2021-31886 RCE for WAGO controllers, achi",
@@ -229,6 +160,75 @@
       },
       "published_at": "2026-09-02T16:57:12",
       "first_seen_at": "2026-09-02T18:26:51.943424"
+    },
+    {
+      "id": 6387,
+      "title": "Google DeepMind 与 Chrome 合作：AI 辅助安全修复有效产出提升 2.6 倍",
+      "original_title": "@GoogleDeepMind @googlechrome 2.6x more valid fixes is pretty wild. Actually super useful application of AI for security. Love to see it.",
+      "summary": "有评论指出 Google DeepMind 与 Chrome 团队应用 AI 进行安全修复，有效修复数量提升 2.6 倍，被视为 AI 赋能安全的实用案例。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_remediation",
+      "score_total": 65.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞修复自动化是 AI for Sec 落地的硬指标，Google 在 Chrome 上的 2.6 倍提升说明大模型已能产出可用 patch。安全团队应关注 AI 辅助修复的工程化实践与效果边界。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Ai_Trend_/status/2095210928539058395",
+      "reader_url": "https://x.com/Ai_Trend_/status/2095210928539058395",
+      "image_url": null,
+      "author": {
+        "username": "Ai_Trend_",
+        "name": "Ai Trend",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T18:03:07",
+      "first_seen_at": "2026-09-02T18:23:57.970969"
+    },
+    {
+      "id": 6417,
+      "title": "SAIST：AI 驱动的静态代码扫描工具，加速漏洞识别",
+      "original_title": "Looking for new ways to strengthen application security?  \"SAIST - Static AI-powered Scanning Tool\" showcases how AI can help identify vulnerabilities faster and enhance code analy",
+      "summary": "SAIST 是一款静态 AI 扫描工具，利用 AI 帮助更快识别漏洞并增强代码分析工作流，将在 SecTor Arsenal 进行现场演示。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 65.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做代码审计和 SAST 的同学可以关注，看 AI 如何嵌入静态分析流水线降低误报。去不了现场也可以留意会后是否开源或公开技术细节。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/BlackHatEvents/status/2095200606340239845",
+      "reader_url": "https://x.com/BlackHatEvents/status/2095200606340239845",
+      "image_url": "https://pbs.twimg.com/media/HROl1O1XMAcM_9P.jpg",
+      "author": {
+        "username": "BlackHatEvents",
+        "name": "Black Hat",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T17:22:06",
+      "first_seen_at": "2026-09-02T19:32:18.117670"
+    },
+    {
+      "id": 6365,
+      "title": "HN 热议：Google 推出 Gemini 3.8 Flash 及网络安全专用版 Cyber",
+      "original_title": "HN Hot Discussion: Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "Google 发布了 Gemini 3.8 Flash 模型及针对网络安全领域的 3.8 Flash Cyber 变体，在 Hacker News 引发热议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_llm",
+      "score_total": 65.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂专门推出安全领域的模型变体，说明 AI 赋能安全的商业落地正在加速。安全团队应密切关注其在漏洞挖掘或威胁检测上的实际表现与评测基准。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-02",
+      "reader_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-02",
+      "image_url": null,
+      "author": {
+        "username": "bratao",
+        "name": "bratao",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T15:12:40",
+      "first_seen_at": "2026-09-02T17:23:59.621553"
     }
   ]
 }
