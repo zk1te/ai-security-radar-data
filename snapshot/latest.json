@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-02T20:06:53+08:00",
+  "updated_at": "2026-09-02T20:37:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 6182,
@@ -174,25 +174,6 @@
       "author": null,
       "published_at": "2026-09-02T00:00:00",
       "first_seen_at": "2026-09-02T08:55:27.677048"
-    },
-    {
-      "id": 6049,
-      "title": "揭示 LLM Agent 轨迹评估盲点：结果导向易漏报静默故障",
-      "original_title": "trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories",
-      "summary": "本文研究了仅依赖最终结果评估 LLM Agent 时的盲点，发现该方法容易漏掉静默故障和被注入的虚假承诺，并开源了相关评测环境与注入工具。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "model_evaluation | security_benchmark",
-      "score_total": 74.58,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全 Agent 评测和红队的朋友建议看。它指出仅看结果的评测会被注入内容轻易绕过，且开源了故障注入环境和轨迹分析工具，可直接拿来做 Agent 安全审计。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.00038",
-      "reader_url": "https://arxiv.org/pdf/2609.00038",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-02T00:00:00",
-      "first_seen_at": "2026-09-02T08:22:48.862373"
     }
   ]
 }
