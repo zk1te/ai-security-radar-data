@@ -1,7 +1,169 @@
 {
-  "updated_at": "2026-09-02T09:39:36+08:00",
+  "updated_at": "2026-09-02T09:47:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 0,
-  "items": []
+  "item_count": 7,
+  "items": [
+    {
+      "id": 5678,
+      "title": "Claude二分与Astra「Critical」：访问控制决定AI网安能力",
+      "original_title": "【同じモデルでも、全員に同じ能力は渡さない――Claude二層化とAstra「Critical」が示したアクセス別AI】  調査期間：2026年9月1日9:45～9月2日9:45 JST 確認件数：10件（重要3/3、開発2/2、話題3/3、専門2/2）  全体の結論：この24時間に具体化した新しい境界は、モデル名ではなくアクセス条件で能力を分ける設計である",
+      "summary": "Anthropic 将同一基座模型拆分为能力受限的 Fable 和保留高级网安能力的 Mythos；OpenAI 则将 Astra 指定为首个「Critical」级别的网安模型，限制高级漏洞挖掘与 exploit 开发能力的访问。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需关注头部 AI 厂商如何通过访问控制而非单纯削弱模型来管控高级网安能力（如 0-day 挖掘）。这预示着未来企业获取高级漏洞挖掘与安全 Agent 能力将面临严格审查与合规限制。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/shimizu_ai01/status/2094957535384179192",
+      "reader_url": "https://x.com/shimizu_ai01/status/2094957535384179192",
+      "image_url": "https://pbs.twimg.com/media/HRLIScDbUAAsuD1.jpg",
+      "author": {
+        "username": "shimizu_ai01",
+        "name": "シミズ/AGI開発者×元汎用系エンジニア×生成AI",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T01:16:13",
+      "first_seen_at": "2026-09-02T01:43:47.817819"
+    },
+    {
+      "id": 5692,
+      "title": "OpenAI Astra模型达到关键网安能力阈值，可自主挖洞并构建利用链",
+      "original_title": "Frontier AI security is becoming an execution-control problem.  OpenAI says Astra is its first model to reach the Critical cybersecurity capability threshold under its Preparedness",
+      "summary": "OpenAI表示Astra模型在受控评估中发现了未知漏洞、开发了可用的漏洞利用链并成功逃逸浏览器沙箱，成为首个达到其Preparedness Framework中关键网安能力阈值的模型。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery | agent_security",
+      "score_total": 72.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "前沿大模型已证明具备独立发现未知漏洞和构造完整利用链的能力，这标志着AI挖洞从演示走向实战。安全团队必须立即评估现有防御措施能否抵御AI生成的复杂攻击链，并重新审视Agent沙箱隔离的强度。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/dongwukeji/status/2094916303916286216",
+      "reader_url": "https://x.com/dongwukeji/status/2094916303916286216",
+      "image_url": null,
+      "author": {
+        "username": "dongwukeji",
+        "name": "Hilbert space",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T22:32:23",
+      "first_seen_at": "2026-09-02T01:46:42.987185"
+    },
+    {
+      "id": 5676,
+      "title": "给 AI Agent 装上 160+ 个 DevOps 安全技能包",
+      "original_title": "3/ 安装方法  几秒钟就能装好这 160+ 个 skills：  → 安装全部 skills：  `npx skills add bagelhole/DevOps-Security-Agent-Skills`  → 查看有哪些可用：  `npx skills add bagelhole/DevOps-Security-Agent-Skills --list",
+      "summary": "介绍了一个包含 160+ 个 DevOps 安全技能的集合，支持一键安装到 Claude Code、Cursor 等 AI Agent 中，帮助开发者快速处理 Kubernetes、Vault 等安全运维任务。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全运维人员可以直接用这个 skill 包武装手头的 AI Agent，秒级接入 Kubernetes、Vault 等运维安全技能。值得立刻克隆试用，看看 AI Agent 在 DevOps 安全场景下的实际效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AIExplorerTim/status/2094958755557626132",
+      "reader_url": "https://x.com/AIExplorerTim/status/2094958755557626132",
+      "image_url": null,
+      "author": {
+        "username": "AIExplorerTim",
+        "name": "AI探路者Tim",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T01:21:04",
+      "first_seen_at": "2026-09-02T01:42:27.646506"
+    },
+    {
+      "id": 5688,
+      "title": "TurboPentest 发布 AI 自主渗透测试产品",
+      "original_title": "🚀 We’re live on Product Hunt!  Meet TurboPentest — autonomous AI-powered penetration testing that delivers a full pentest report in hours, not weeks.  Built for teams shipping fast",
+      "summary": "TurboPentest 在 Product Hunt 上线，主打 AI 驱动的自主渗透测试，声称能在数小时内交付完整测试报告，起价为 99 美元/目标。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 67.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给甲方安全团队看。这标志着 AI 渗透测试工具正加速商业化落地，可评估其在快速迭代场景下能否替代部分初级人工测试。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/integ_sec/status/2094923256306242006",
+      "reader_url": "https://x.com/integ_sec/status/2094923256306242006",
+      "image_url": "https://pbs.twimg.com/media/HRKpmVXWAAAJGFA.jpg",
+      "author": {
+        "username": "integ_sec",
+        "name": "IntegSec",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T23:00:00",
+      "first_seen_at": "2026-09-02T01:45:24.034776"
+    },
+    {
+      "id": 5674,
+      "title": "探讨 AI Agent 在验证与 Fuzzing 框架中的架构规划",
+      "original_title": "@matviy Architectural planning across a wider scope of components with performance in mind.  All the other agents make really convincing plans, but no match.  Verification &amp; Fu",
+      "summary": "讨论了 AI Agent 在更广泛组件上进行架构规划时需考虑性能，指出部分 Agent 规划看似合理但实际不匹配，并提及验证与 Fuzzing 框架。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 63.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 的同学该看，其他 Agent 架构规划虽看似合理但难落地，真在 Fuzzing 框架起效需关注组件性能与验证闭环。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/mkovavoda/status/2094960122078359922",
+      "reader_url": "https://x.com/mkovavoda/status/2094960122078359922",
+      "image_url": null,
+      "author": {
+        "username": "mkovavoda",
+        "name": "ricochet",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T01:26:30",
+      "first_seen_at": "2026-09-02T01:42:08.505979"
+    },
+    {
+      "id": 5681,
+      "title": "PaperGym：基于论文构建低泄露训练与评测环境",
+      "original_title": "PaperGym: Low-leakage training from research papers  Turns each arXiv paper into a training environment with rubric-based scoring. Cuts criterion leakage to 3.7% (vs 12–34% in exis",
+      "summary": "PaperGym 将 arXiv 论文转化为带评分标准的训练环境，将评测标准泄露率降至 3.7%，显著提升了模型在 ResearchQA 上的表现。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation",
+      "score_total": 63.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全评测和 Agent 训练常因数据泄露导致分数虚高，PaperGym 的低泄露环境构建思路值得借鉴，能直接用于防刷榜作弊。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HuggingPapers/status/2094945013541023957",
+      "reader_url": "https://x.com/HuggingPapers/status/2094945013541023957",
+      "image_url": "https://pbs.twimg.com/media/HRK9YxWW4AMg3jS.jpg",
+      "author": {
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T00:26:28",
+      "first_seen_at": "2026-09-02T01:44:16.264812"
+    },
+    {
+      "id": 5682,
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1，Fable 将辅助漏洞发现",
+      "original_title": "EVENING GLOBAL AI ANALYSIS REPORT By Ed Hernandez | KEYSTONE PULSE MEDIA / Global Media Center Tuesday, September 1, 2026 | Executive Evening Pulse Edition: Three Ships  Good eveni",
+      "summary": "Anthropic 同日发布 Claude Fable 5.1 和 Mythos 5.1，前者面向通用并允许辅助查找软件漏洞，后者限定于受信网络安全与生命科学项目。渗透测试仍由 Opus 负责。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation",
+      "score_total": 62.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注 Fable 5.1 的漏洞辅助能力边界——Anthropic 明确渗透测试仍交 Opus，说明 Fable 定位是漏洞发现而非完整渗透流程。现在可评估其在代码审计和漏洞挖掘工作流中的实际增益。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Edtech4ultimate/status/2094941391029715182",
+      "reader_url": "https://x.com/Edtech4ultimate/status/2094941391029715182",
+      "image_url": "https://pbs.twimg.com/media/HRK6E4zXEAADbB0.jpg",
+      "author": {
+        "username": "Edtech4ultimate",
+        "name": "Ed Hernandez🇺🇲 🇸🇻🌎(张 赵)CEO/Keystone NetBay Global",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T00:12:04",
+      "first_seen_at": "2026-09-02T01:44:17.492973"
+    }
+  ]
 }
