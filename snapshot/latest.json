@@ -1,32 +1,9 @@
 {
-  "updated_at": "2026-09-02T14:00:40+08:00",
+  "updated_at": "2026-09-02T14:32:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
-    {
-      "id": 5732,
-      "title": "Anthropic 发布 Fable 5.1 与 Mythos 5.1，放宽漏洞挖掘等网络能力",
-      "original_title": "🚨 [JUST IN] — ANTHROPIC LAUNCHES CLAUDE FABLE 5.1 + MYTHOS 5.1, ITS MOST ADVANCED MODELS YET  Fable 5.1 scores 52.6% on Terminal-Bench-Science — more than DOUBLE Fable 5's 24.7% — ",
-      "summary": "Anthropic 推出 Claude Fable 5.1 和 Mythos 5.1 模型，Fable 5.1 放宽防御限制可用于识别漏洞，而 Mythos 5.1 面向受信任用户提供更强的渗透测试和二进制漏洞扫描等安全能力。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "vuln_discovery",
-      "score_total": 78.25,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应重点关注 Mythos 5.1 在漏洞挖掘和二进制逆向分析上的能力跃升。可立即通过 API 测试其在长时间自主代码审计和复杂崩溃根因分析中的表现，评估落地价值。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2094858107780223090",
-      "reader_url": "https://x.com/XQOPTRX/status/2094858107780223090",
-      "image_url": "https://pbs.twimg.com/media/HRJuV5yXUAA8VPc.png",
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-01T18:41:08",
-      "first_seen_at": "2026-09-02T02:01:59.340004"
-    },
     {
       "id": 5840,
       "title": "UK AISI 发布 Kimi K3 模型网络安全能力评估报告",
@@ -45,94 +22,6 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-09-02T02:35:14.690844"
-    },
-    {
-      "id": 5737,
-      "title": "Claude 5.1 更新：降低安全误报并允许漏洞发现",
-      "original_title": "Claude Fable 5.1 is cheaper, substantially stronger on several agentic benchmarks, more concise, and apparently far less trigger-happy (says Anthropic).  the tl;dr   How much cheap",
-      "summary": "Anthropic 发布 Claude 5.1，其在 Agent 基准测试中表现大幅提升且成本降低，同时减少了网络安全拦截误报，明确允许漏洞发现但继续限制漏洞利用生成与渗透测试。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "vuln_discovery",
-      "score_total": 75.6,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队现在可以直接用 Claude 5.1 探索漏洞，无需像过去那样频繁绕过安全拦截。但要注意它仍禁止生成 exploit 和做渗透测试，别越界。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/kimmonismus/status/2094852023673872701",
-      "reader_url": "https://x.com/kimmonismus/status/2094852023673872701",
-      "image_url": "https://pbs.twimg.com/media/HRJogUUWYAASL7o.jpg",
-      "author": {
-        "username": "kimmonismus",
-        "name": "Chubby♨️",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-01T18:16:57",
-      "first_seen_at": "2026-09-02T02:02:33.265200"
-    },
-    {
-      "id": 5733,
-      "title": "Anthropic 发布 Fable 5.1 与 Mythos 5.1，专为安全防御设计",
-      "original_title": "Anthropic เปิดตัว Claude Fable 5.1 และ Mythos 5.1 ดัน AI สู่ยุคทำงานระยะยาวและวิจัยวิทยาศาสตร์จริง  Anthropic เปิดตัว Claude Fable 5.1 และ Claude Mythos 5.1 โมเดล AI รุ่นล่าสุดที่บ",
-      "summary": "Anthropic 推出通用模型 Fable 5.1 和专用于网络安全的 Mythos 5.1，大幅提升 Agentic 编码能力，并调整安全策略允许进行防御性漏洞挖掘。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 75.4,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应关注 Mythos 5.1 面向 Cyber Defense 的专属访问权限，以及 Fable 5.1 在防御性漏洞挖掘限制上的放宽。这标志着大模型安全能力正从基础评测走向实际防御落地，可评估其在代码审计或漏洞分析工作流中的潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AITensibility/status/2094857888116465750",
-      "reader_url": "https://x.com/AITensibility/status/2094857888116465750",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2094857669245091840/img/rYtWjpznds2N7onK.jpg",
-      "author": {
-        "username": "AITensibility",
-        "name": "AI Tensibility",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-01T18:40:15",
-      "first_seen_at": "2026-09-02T02:02:01.167961"
-    },
-    {
-      "id": 5736,
-      "title": "北航等机构将真实漏洞炼入模型参数以增强AI挖洞能力",
-      "original_title": "AI能挖漏洞吗？北航等机构把真实漏洞炼进了模型参数",
-      "summary": "北航等机构提出将真实漏洞知识融入模型参数的方法，探索大模型在漏洞挖掘任务中的实际能力提升。",
-      "primary_category": "AI for Sec",
-      "sub_category": "knowledge_enhanced",
-      "score_total": 75.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队该看：把真实漏洞知识内化进模型参数，比单纯外挂RAG可能更有效。值得跟进其论文和评估方法，评估能否移植到自家代码审计Agent中。",
-      "source_id": "jiqizhixin-rss",
-      "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-01-9?source=rss",
-      "reader_url": "https://www.jiqizhixin.com/articles/2026-09-01-9?source=rss",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-01T18:29:17",
-      "first_seen_at": "2026-09-02T02:02:32.227791"
-    },
-    {
-      "id": 5747,
-      "title": "Anthropic 发布 Claude Fable 与 Mythos 5.1 引发热议",
-      "original_title": "HN Hot Discussion: Claude Fable 5.1 and Claude Mythos 5.1",
-      "summary": "Hacker News 热议 Anthropic 新发布的 Claude Fable 5.1 和 Claude Mythos 5.1 模型，讨论重点为模型更新内容及 System Card。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全研究员需重点关注 Claude Mythos 的网络能力边界及 System Card 披露，评估其在自动化漏洞挖掘和代码审计中的实际效用。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49525378&hn_hot_date=2026-09-02",
-      "reader_url": "https://news.ycombinator.com/item?id=49525378&hn_hot_date=2026-09-02",
-      "image_url": null,
-      "author": {
-        "username": "denysvitali",
-        "name": "denysvitali",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-01T17:53:53",
-      "first_seen_at": "2026-09-02T02:03:59.953069"
     },
     {
       "id": 5834,
@@ -194,6 +83,98 @@
       },
       "published_at": "2026-09-01T20:46:17",
       "first_seen_at": "2026-09-02T02:53:54.415661"
+    },
+    {
+      "id": 5856,
+      "title": "Astra 或可实现全链路漏洞利用",
+      "original_title": "RT @moyix: Apparently Astra can full chain https://t.co/veLDdBVKGZ",
+      "summary": "知名安全研究员推文提到名为 Astra 的系统疑似能够实现完整的漏洞利用链。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 67.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员提及 Astra 可完成 full chain，暗示 AI 自动化漏洞挖掘或渗透测试有新进展，建议跟进确认其技术路径与实际效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2094890646330827087",
+      "reader_url": "https://x.com/HackingLZ/status/2094890646330827087",
+      "image_url": "https://pbs.twimg.com/media/HRKLhjsXYAApN3l.jpg",
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T20:50:25",
+      "first_seen_at": "2026-09-02T02:53:53.379011"
+    },
+    {
+      "id": 5906,
+      "title": "将定向 Fuzzing 视为潜在空间中的路径规划问题",
+      "original_title": "Directed Fuzzing Is Path Finding in Latent Space",
+      "summary": "提出将定向模糊测试转化为潜在空间中的路径规划问题，引入机器学习表示学习视角来优化 Fuzzing 过程中的种子调度与目标路径探索。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 67.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "将传统 Fuzzing 的路径规划与潜在空间表示结合，思路极具启发性。Fuzzing 研究者和漏洞挖掘 Agent 开发者应关注这种范式转变，它可能为种子调度提供全新的优化视角。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/laosong/status/2095013132859256945",
+      "reader_url": "https://x.com/laosong/status/2095013132859256945",
+      "image_url": null,
+      "author": {
+        "username": "laosong",
+        "name": "Chengyu Song",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T04:57:08",
+      "first_seen_at": "2026-09-02T05:07:28.465348"
+    },
+    {
+      "id": 5945,
+      "title": "Anthropic Fable 5.1 调整安全策略：开放源码漏洞识别",
+      "original_title": "Anthropic Fable 5.1 Changes the Cost and Safety Trade-Off  Anthropic's Fable 5.1 changes more than model performance. It changes some of the practical trade-offs developers and ent",
+      "summary": "Anthropic Fable 5.1 降低缓存成本并调整安全护栏，允许模型协助识别源码漏洞，但仍限制渗透测试与 exploit 生成。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "safety_alignment",
+      "score_total": 65.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队设计 Agent 时需留意：新版放开了源码审计能力但依然封禁渗透和利用生成，可借缓存降价优化高频扫描任务。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/tchsignal/status/2095030285226393803",
+      "reader_url": "https://x.com/tchsignal/status/2095030285226393803",
+      "image_url": "https://pbs.twimg.com/media/HRMK7bRacAEvJv1.jpg",
+      "author": {
+        "username": "tchsignal",
+        "name": "TechSignal",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T06:05:18",
+      "first_seen_at": "2026-09-02T06:12:09.692135"
+    },
+    {
+      "id": 5914,
+      "title": "Askeal 推出提供可验证答案的 AI 网络安全助手",
+      "original_title": "Askeal, the AI cybersecurity assistant that gives verifiable, expert-backed answers - https://t.co/wZVThmZtnv - #CyberSecurity #InfoSec #ThreatIntel #SOC #AI https://t.co/OR7rS6PUB",
+      "summary": "Askeal 是一款面向网络安全领域的 AI 助手，主打在 SOC 和威胁情报场景中提供可验证、专家背书的问答答案。",
+      "primary_category": "AI for Sec",
+      "sub_category": "knowledge_enhanced",
+      "score_total": 63.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全运营团队可关注此类知识增强型 AI 助手，若其专家背书机制靠谱，能有效降低威胁情报分析中的大模型幻觉风险，值得评估接入 SOC 工作流的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/helpnetsecurity/status/2094726973998190773",
+      "reader_url": "https://x.com/helpnetsecurity/status/2094726973998190773",
+      "image_url": "https://pbs.twimg.com/media/HRG_yLNWwAATEmi.jpg",
+      "author": {
+        "username": "helpnetsecurity",
+        "name": "Help Net Security",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T10:00:03",
+      "first_seen_at": "2026-09-02T05:08:54.535270"
     }
   ]
 }
