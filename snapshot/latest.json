@@ -1,9 +1,55 @@
 {
-  "updated_at": "2026-09-02T23:54:36+08:00",
+  "updated_at": "2026-09-03T00:29:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
+    {
+      "id": 6345,
+      "title": "Google 发布 Gemini 3.8 Flash Cyber 专注自主漏洞挖掘与修复",
+      "original_title": "🚨 [AI MODEL RELEASE] — GOOGLE JUST RELEASED GEMINI 3.8 FLASH — PLUS A CYBER-ONLY VARIANT BUILT FOR AUTONOMOUS VULNERABILITY DISCOVERY AND PATCHING  Gemini 3.8 Flash scores 54.9% on",
+      "summary": "Google 推出专为网络安全设计的 Gemini 3.8 Flash Cyber 模型，在内部漏洞挖掘基准上取得超 70% 成功率，并在 Chrome 安全团队测试中生成正确补丁数量达大模型两倍以上。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.76,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "专用低成本安全模型的出现意味着自主漏洞挖掘将大规模落地。安全团队应立即评估其评测基准，并准备好沙箱环境与审计流程来接入这类新型安全 Agent。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/XQOPTRX/status/2095181004352753773",
+      "reader_url": "https://x.com/XQOPTRX/status/2095181004352753773",
+      "image_url": "https://pbs.twimg.com/media/HROUArDXQAUFHL8.jpg",
+      "author": {
+        "username": "XQOPTRX",
+        "name": "CyberSignal | Cybersecurity & AI News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T16:04:12",
+      "first_seen_at": "2026-09-02T16:13:24.758369"
+    },
+    {
+      "id": 6343,
+      "title": "OpenAI Astra模型在测试中发现两个0day并构建利用链",
+      "original_title": "🚨 [AI CYBER CAPABILITY UPDATE] — OPENAI SAYS ASTRA HIT 100% ON EXPLOITBENCH, DISCOVERED TWO ZERO-DAYS DURING EVALUATION AND BUILT WORKING BROWSER + ROOT-ESCALATION EXPLOIT CHAINS  ",
+      "summary": "OpenAI宣布其Astra模型在ExploitBench上达到100%成功率，并在安全评估中自主发现两个未知漏洞，成功组合成浏览器逃逸与本地提权攻击链，成为首个获评Critical级别的模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI漏洞挖掘从「已知漏洞复现」迈向「自主发现0day并组链」的实战边界。安全团队应立刻审视Agent运行环境的隔离与权限控制，防范高能力自动化攻击工具落地带来的基础设施级威胁。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/XQOPTRX/status/2095181233323901038",
+      "reader_url": "https://x.com/XQOPTRX/status/2095181233323901038",
+      "image_url": null,
+      "author": {
+        "username": "XQOPTRX",
+        "name": "CyberSignal | Cybersecurity & AI News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T16:05:07",
+      "first_seen_at": "2026-09-02T16:13:21.374672"
+    },
     {
       "id": 6272,
       "title": "HackerDummy：评估AI Agent渗透测试能力的开源基准",
@@ -166,50 +212,27 @@
       "first_seen_at": "2026-09-02T13:25:15.502564"
     },
     {
-      "id": 6281,
-      "title": "研究人员用 Claude 为 WAGO PLC 编写预认证 RCE 漏洞利用",
-      "original_title": "🛡️  Claude AI Builds Pre-Auth RCE Exploit for WAGO PLC to Execute ARM Shellcode  Read more: https://t.co/fI2w99rQaX  Researchers used Claude AI to help port a pre-authentication re",
-      "summary": "研究人员利用 Claude AI 辅助将预认证 RCE 漏洞移植到 WAGO PLC，成功执行任意 ARM shellcode，但过程需大量人工干预且最终导致测试设备变砖。",
-      "primary_category": "AI for Sec",
-      "sub_category": "exploit_development",
-      "score_total": 67.35,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 辅助漏洞利用开发的硬核实验。红队和渗透测试人员应关注 AI 在底层 OT/Exploit 移植中的能力边界和局限，目前仍需大量人工引导，但在降低 Exploit 开发门槛上已展现出明确潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2095138539625382135",
-      "reader_url": "https://x.com/The_Cyber_News/status/2095138539625382135",
-      "image_url": "https://pbs.twimg.com/media/HRNtX73acAAUmsZ.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T13:15:28",
-      "first_seen_at": "2026-09-02T13:24:57.052408"
-    },
-    {
-      "id": 6279,
-      "title": "XSS进阶到RCE视频教程：包含微调AI模型检测XSS实战",
-      "original_title": "I created a FREE 30+ video XSS playlist that takes you from the basics of XSS all the way to XSS → RCE!  I’ve always felt that XSS is one of those vulnerabilities that people learn",
-      "summary": "作者发布了包含 30 多个视频的免费 XSS 教程，涵盖从基础知识到 RCE 的高级利用，并介绍如何使用 AI 进行安全研究及微调模型检测 XSS。",
+      "id": 6344,
+      "title": "Google DeepMind 发布 Cyber Gemini，提升 Bug Bounty 与渗透测试能力",
+      "original_title": "Excited to collaborate with the @GoogleDeepMind team on evaluating the latest Cyber Gemini model! It’s a significant leap forward in Bug Bounty Hunting and Penetration Testing - wh",
+      "summary": "Google DeepMind 团队联合测试了最新的 Cyber Gemini 模型，称其在 Bug Bounty 挖掘和渗透测试方面取得重大进展，且作为 Flash 模型速度更快、成本更低。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 62.4,
+      "score_total": 70.1,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "结合传统 Web 漏洞与 AI 微调实战的免费视频教程，适合想入门 AI 赋能漏洞挖掘的安全人员，可直接跟着实操微调 XSS 检测模型。",
+      "recommendation_reason": "攻防从业者应关注大厂网安模型在实网攻防中的落地表现。Cyber Gemini 若真如所言在速度和成本上取得平衡，将直接影响红队和漏洞赏金自动化的投资回报率。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/thehacktivator/status/2095139976275230941",
-      "reader_url": "https://x.com/thehacktivator/status/2095139976275230941",
-      "image_url": "https://pbs.twimg.com/media/HRNur8xbcAAMtq8.jpg",
+      "canonical_url": "https://x.com/galnagli/status/2095181017275314535",
+      "reader_url": "https://x.com/galnagli/status/2095181017275314535",
+      "image_url": "https://pbs.twimg.com/media/HROSvmtWMAI5GoC.jpg",
       "author": {
-        "username": "thehacktivator",
-        "name": "Faiyaz Ahmad",
+        "username": "galnagli",
+        "name": "Nagli",
         "avatar_url": null
       },
-      "published_at": "2026-09-02T13:21:10",
-      "first_seen_at": "2026-09-02T13:24:53.380787"
+      "published_at": "2026-09-02T16:04:15",
+      "first_seen_at": "2026-09-02T16:13:23.559006"
     }
   ]
 }
