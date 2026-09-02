@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T03:11:09+08:00",
+  "updated_at": "2026-09-03T03:42:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -70,6 +70,29 @@
       "first_seen_at": "2026-09-02T16:13:21.374672"
     },
     {
+      "id": 6416,
+      "title": "Google发布Gemini 3.8 Flash Cyber专攻漏洞挖掘与修复",
+      "original_title": "Hey Wednesday, Tech Enthusiasts!  Hey there, Wednesday readers! Today’s the day Google drops some serious tech news with the release of Gemini 3.8 Flash and Gemini 3.8 Flash Cyber.",
+      "summary": "Google发布面向安全人员的Gemini 3.8 Flash Cyber模型，在CyberGym等漏洞挖掘基准中表现达前沿水平，并在Chrome补丁生成和Wiz内部渗透测试中取得优异结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和漏洞研究员应密切关注。Gemini Cyber模型在自动化补丁和漏洞挖掘上展示了产业级效果，值得评估作为现有代码审计和渗透测试流程的增强工具。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MrSkyAI/status/2095227307719815422",
+      "reader_url": "https://x.com/MrSkyAI/status/2095227307719815422",
+      "image_url": "https://pbs.twimg.com/media/HRO-IRBXIAMVrCL.jpg",
+      "author": {
+        "username": "MrSkyAI",
+        "name": "mr.sky | AI & Last News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T19:08:12",
+      "first_seen_at": "2026-09-02T19:32:15.897972"
+    },
+    {
       "id": 6362,
       "title": "AI安全Agent评测需转向真实漏洞裁定",
       "original_title": "Codex Security and Anthropic Mythos found zero curl vulnerabilities. AISLE then submitted 29 reports; maintainers accepted 6 low-severity CVEs. Security-agent evals need the same c",
@@ -137,29 +160,6 @@
       },
       "published_at": "2026-09-02T18:55:39",
       "first_seen_at": "2026-09-02T18:59:32.572938"
-    },
-    {
-      "id": 6330,
-      "title": "自主AI安全代理发现6个curl CVE，超越OpenAI与Anthropic工具",
-      "original_title": "An autonomous AI security agent just found 6 curl CVEs that Anthropic and OpenAI's tools missed. If your dependency scanners still feel like checkbox theater, this is the wake-up.",
-      "summary": "一个自主AI安全代理发现了6个curl漏洞（CVE），而这些漏洞是Anthropic和OpenAI的安全工具所遗漏的，凸显了AI在漏洞挖掘领域的潜力与现有工具的盲区。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做漏洞研究和开源安全的兄弟必须看，AI Agent 在真实项目 curl 中挖出6个0day级别CVE，直接打脸大厂通用工具。这预示着专用安全Agent将逐步取代传统依赖扫描器的流水线位置。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/contentbuffer/status/2095168622188798283",
-      "reader_url": "https://x.com/contentbuffer/status/2095168622188798283",
-      "image_url": null,
-      "author": {
-        "username": "contentbuffer",
-        "name": "ContentBuffer",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T15:15:00",
-      "first_seen_at": "2026-09-02T15:39:20.611028"
     },
     {
       "id": 6406,
