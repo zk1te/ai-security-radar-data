@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T01:09:06+08:00",
+  "updated_at": "2026-09-04T01:44:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 6941,
@@ -77,28 +77,28 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 6881,
-      "title": "CREST启动首批AI渗透测试资质认证服务商",
-      "original_title": "CREST Onboards First Cohort for AI-Enabled Pentesting Accreditation: CREST’s new AI-enabled penetration testing accreditation welcomes its first 10 providers https://t.co/f6iMkRvZU",
-      "summary": "国际安全认证机构CREST的AI辅助渗透测试资质认证迎来首批10家服务商，标志着AI驱动的渗透测试开始走向行业标准化与合规化。",
+      "id": 6973,
+      "title": "「Agent化逆向工程时代」的去混淆实践分享",
+      "original_title": "RT @mr_phrazer: The recording of \"Deobfuscation in the Age of Agentic Reverse Engineering\" is now public:  https://t.co/jMO0GHRM8l  We (CC…",
+      "summary": "《「Agent化逆向工程时代」的去混淆》演讲录像已公开，探讨 AI Agent 在逆向工程与去混淆中的实际应用。",
       "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 67.0,
+      "sub_category": "binary_security",
+      "score_total": 66.5,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全服务商和甲方团队都该看：CREST的认证代表AI渗透测试从实验走向合规落地，可借此评估自研或采购的AI渗透工具是否满足国际行业基准。",
+      "recommendation_reason": "逆向分析和去混淆一直耗时费力，本分享探讨 AI Agent 如何切入该场景。对搞二进制安全的从业者来说，值得了解其思路与潜在落地效果，寻找自动化提效的新方向。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/shah_sheikh/status/2095498093500522513",
-      "reader_url": "https://x.com/shah_sheikh/status/2095498093500522513",
-      "image_url": "https://pbs.twimg.com/media/HRS0aTda8AA4-Yq.jpg",
+      "canonical_url": "https://x.com/HackingLZ/status/2095520823192760762",
+      "reader_url": "https://x.com/HackingLZ/status/2095520823192760762",
+      "image_url": null,
       "author": {
-        "username": "shah_sheikh",
-        "name": "Shah Sheikh",
+        "username": "HackingLZ",
+        "name": "Justin Elze",
         "avatar_url": null
       },
-      "published_at": "2026-09-03T13:04:12",
-      "first_seen_at": "2026-09-03T13:20:03.035012",
-      "sub_category_label": "渗透测试"
+      "published_at": "2026-09-03T14:34:31",
+      "first_seen_at": "2026-09-03T17:20:39.205420",
+      "sub_category_label": "二进制安全"
     },
     {
       "id": 6917,
@@ -122,30 +122,6 @@
       },
       "published_at": "2026-09-03T15:32:14",
       "first_seen_at": "2026-09-03T15:34:27.831002",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6884,
-      "title": "Filigran为OpenAEV引入攻击链以支持自动化渗透测试",
-      "original_title": "Breaking 🚨  Filigran adds attack chaining to OpenAEV for automated penetration testing  https://t.co/iBTerWGIzb  Thoughts? 💬  #AytasTech #TestAutomation #QA #AI #SoftwareTesting",
-      "summary": "Filigran 宣布为其 OpenAEV 平台增加攻击链功能，以实现自动化渗透测试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 62.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "攻击链自动化是安全Agent能力落地的关键拼图。红队和自动化防御人员可关注其如何串联单点动作，评估当前自动化渗透的成熟度与可复用性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AytasInc/status/2095495588775137677",
-      "reader_url": "https://x.com/AytasInc/status/2095495588775137677",
-      "image_url": null,
-      "author": {
-        "username": "AytasInc",
-        "name": "AYTAS-Tech Solutions INC",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T12:54:15",
-      "first_seen_at": "2026-09-03T13:20:26.575439",
       "sub_category_label": "安全Agent"
     },
     {
