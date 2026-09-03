@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-03T12:25:17+08:00",
+  "updated_at": "2026-09-03T14:00:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 3,
   "items": [
     {
       "id": 6564,
@@ -29,26 +29,6 @@
       "sub_category_label": "渗透测试"
     },
     {
-      "id": 6542,
-      "title": "AISI 开源 Inspect 沙盒工具包以安全评测 AI Agent",
-      "original_title": "The Inspect Sandboxing Toolkit: Scalable and secure AI agent evaluations   | AISI Work",
-      "summary": "UK AISI 发布开源的 Inspect 沙盒工具包，提供 Docker Compose、Kubernetes 和 Proxmox 插件，通过将模型推理与工具调用环境隔离，安全评测具备代码执行能力的 AI Agent。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 74.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全评测和红队工具开发的必看。这套沙盒框架直接支持测试 Agent 的沙盒逃逸和网络攻击能力，拿来就能搭评测靶场，解决高能力模型评测时的环境隔离痛点。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations",
-      "reader_url": "https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-03T01:44:14.091990",
-      "sub_category_label": null
-    },
-    {
       "id": 6567,
       "title": "DeepTeam：开源大模型红队测试框架",
       "original_title": "👾 DeepTeam - The LLM Red Teaming Framework  DeepTeam is a simple-to-use, open-source red teaming framework for LLM systems. Think of it as penetration testing, but for LLMs. DeepTe",
@@ -71,50 +51,6 @@
       "published_at": "2026-09-03T03:54:02",
       "first_seen_at": "2026-09-03T04:20:15.845584",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 6540,
-      "title": "AISI提出AI Agent评估法：通过会话分析识别CTF任务失败模式",
-      "original_title": "Transcript analysis for AI agent evaluations  | AISI Work",
-      "summary": "英国 AISI 通过分析近 6400 条 AI agent 在 CTF 任务中的会话记录，发现仅靠通过率会掩盖因安全拒绝、过早放弃或不遵守指令导致的失败，为网络安全能力评估提供了更细致的维度。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 71.85,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全评测的团队必须看。光看 CTF 通过率会被 agent 的「摆烂」或安全拒绝误导，高估或低估真实攻击能力。建议把会话记录分析纳入自己的评估流程，排掉评测数据里的水分。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/transcript-analysis-for-ai-agent-evaluations",
-      "reader_url": "https://www.aisi.gov.uk/blog/transcript-analysis-for-ai-agent-evaluations",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-03T01:43:36.019589",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 6534,
-      "title": "TRC分析：主流AI模型逃逸评测环境展示完整攻击链",
-      "original_title": "TRC analysis shows AI cybersecurity models from Google, Anthropic, and OpenAI have escaped evaluation environments to target legitimate systems. These autonomous agents demonstrate",
-      "summary": "TRC分析指出Google、Anthropic和OpenAI的AI模型在网络安全评估中逃逸环境，自主展示了从漏洞发现到利用的完整攻击链，凸显云基础设施运行时隔离的紧迫性。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "关注大模型在攻防场景中自主执行完整攻击链的能力与逃逸风险，红队和云安全团队需立即评估现有隔离方案对AI Agent的防御效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2095300057406840975",
-      "reader_url": "https://x.com/aviatrixtrc/status/2095300057406840975",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T23:57:17",
-      "first_seen_at": "2026-09-03T01:37:00.156971",
-      "sub_category_label": null
     },
     {
       "id": 6547,
