@@ -1,32 +1,9 @@
 {
-  "updated_at": "2026-09-03T07:30:12+08:00",
+  "updated_at": "2026-09-03T08:02:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 8,
   "items": [
-    {
-      "id": 6416,
-      "title": "Google发布Gemini 3.8 Flash Cyber专攻漏洞挖掘与修复",
-      "original_title": "Hey Wednesday, Tech Enthusiasts!  Hey there, Wednesday readers! Today’s the day Google drops some serious tech news with the release of Gemini 3.8 Flash and Gemini 3.8 Flash Cyber.",
-      "summary": "Google发布面向安全人员的Gemini 3.8 Flash Cyber模型，在CyberGym等漏洞挖掘基准中表现达前沿水平，并在Chrome补丁生成和Wiz内部渗透测试中取得优异结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队和漏洞研究员应密切关注。Gemini Cyber模型在自动化补丁和漏洞挖掘上展示了产业级效果，值得评估作为现有代码审计和渗透测试流程的增强工具。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MrSkyAI/status/2095227307719815422",
-      "reader_url": "https://x.com/MrSkyAI/status/2095227307719815422",
-      "image_url": "https://pbs.twimg.com/media/HRO-IRBXIAMVrCL.jpg",
-      "author": {
-        "username": "MrSkyAI",
-        "name": "mr.sky | AI & Last News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T19:08:12",
-      "first_seen_at": "2026-09-02T19:32:15.897972"
-    },
     {
       "id": 6460,
       "title": "Gemini 3.8 Flash Cyber发布：专攻漏洞发现与自动修复",
@@ -185,50 +162,27 @@
       "first_seen_at": "2026-09-02T22:21:33.031461"
     },
     {
-      "id": 6417,
-      "title": "SAIST：AI 驱动的静态代码扫描工具，加速漏洞识别",
-      "original_title": "Looking for new ways to strengthen application security?  \"SAIST - Static AI-powered Scanning Tool\" showcases how AI can help identify vulnerabilities faster and enhance code analy",
-      "summary": "SAIST 是一款静态 AI 扫描工具，利用 AI 帮助更快识别漏洞并增强代码分析工作流，将在 SecTor Arsenal 进行现场演示。",
+      "id": 6436,
+      "title": "利用 AI 迭代改写 Fuzzilli Profile 优化模糊测试的思路",
+      "original_title": "I took some time to read this article (finally had some time today), and it was really cool to see this research. Last year, I tried something similar, where I used AI to rewrite F",
+      "summary": "推文作者分享了用 AI 改写并迭代 Fuzzilli 配置以提升模糊测试效果的研究，并提到自己去年曾因 token 成本过高而搁置类似尝试。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 65.3,
+      "sub_category": "fuzzing",
+      "score_total": 61.8,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做代码审计和 SAST 的同学可以关注，看 AI 如何嵌入静态分析流水线降低误报。去不了现场也可以留意会后是否开源或公开技术细节。",
+      "recommendation_reason": "Fuzzing 从业者可关注此方向。随着大模型 token 成本下降，用 LLM 自动迭代生成 fuzzing profile 的想法变得更具可操作性，值得在 JS 引擎等复杂目标上探索落地。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/BlackHatEvents/status/2095200606340239845",
-      "reader_url": "https://x.com/BlackHatEvents/status/2095200606340239845",
-      "image_url": "https://pbs.twimg.com/media/HROl1O1XMAcM_9P.jpg",
-      "author": {
-        "username": "BlackHatEvents",
-        "name": "Black Hat",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T17:22:06",
-      "first_seen_at": "2026-09-02T19:32:18.117670"
-    },
-    {
-      "id": 6413,
-      "title": "安全Agent权限问题被低估：证据强不等于有权干预",
-      "original_title": "@high_bee25 The authority question is underrated here. Even if the security agent has stronger evidence, the system still needs to know whether it actually has the authority to ove",
-      "summary": "讨论指出安全Agent在拥有更强证据时，系统仍需判断其是否真正具备覆盖工作流的权限。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 62.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全Agent落地的同行必看：权限设计是落地第一道坎。不能只看Agent能力，必须定义清楚它在什么场景能「踩刹车」或「越权」，否则就是定时炸弹。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TessyWeb3/status/2095232218956177811",
-      "reader_url": "https://x.com/TessyWeb3/status/2095232218956177811",
+      "canonical_url": "https://x.com/davi1337_/status/2095254306316550591",
+      "reader_url": "https://x.com/davi1337_/status/2095254306316550591",
       "image_url": null,
       "author": {
-        "username": "TessyWeb3",
-        "name": "Tessy",
+        "username": "davi1337_",
+        "name": "DaviMatsuyama",
         "avatar_url": null
       },
-      "published_at": "2026-09-02T19:27:43",
-      "first_seen_at": "2026-09-02T19:32:00.814474"
+      "published_at": "2026-09-02T20:55:29",
+      "first_seen_at": "2026-09-02T21:15:08.230532"
     }
   ]
 }
