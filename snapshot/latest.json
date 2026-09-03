@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T05:02:27+08:00",
+  "updated_at": "2026-09-04T05:35:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -27,6 +27,30 @@
       "published_at": "2026-09-03T20:19:34",
       "first_seen_at": "2026-09-03T20:35:52.412878",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7041,
+      "title": "AI 工具加速漏洞发现：CVE 月增 145% 且 PoC 成本骤降",
+      "original_title": "TRC analysis shows AI tools like Claude Mythos are accelerating vulnerability discovery, with monthly CVE disclosures surging 145% to 7,765 by June 2026. Attackers can now develop ",
+      "summary": "TRC 分析显示，Claude Mythos 等 AI 工具使月度 CVE 披露量激增 145% 达 7765 个，攻击者生成可用 PoC 的时间缩短至 1 天内、成本不足 2000 美元。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 76.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需立即关注 AI 驱动的漏洞挖掘效率爆发，传统补丁周期已无法应对。应评估运行时分段等缓解策略以降低未修补漏洞被利用时的爆炸半径。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2095565617059213413",
+      "reader_url": "https://x.com/aviatrixtrc/status/2095565617059213413",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T17:32:31",
+      "first_seen_at": "2026-09-03T21:08:40.766082",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 7001,
@@ -119,30 +143,6 @@
       "published_at": "2026-09-03T20:18:41",
       "first_seen_at": "2026-09-03T20:41:47.285826",
       "sub_category_label": null
-    },
-    {
-      "id": 6973,
-      "title": "「Agent化逆向工程时代」的去混淆实践分享",
-      "original_title": "RT @mr_phrazer: The recording of \"Deobfuscation in the Age of Agentic Reverse Engineering\" is now public:  https://t.co/jMO0GHRM8l  We (CC…",
-      "summary": "《「Agent化逆向工程时代」的去混淆》演讲录像已公开，探讨 AI Agent 在逆向工程与去混淆中的实际应用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 66.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "逆向分析和去混淆一直耗时费力，本分享探讨 AI Agent 如何切入该场景。对搞二进制安全的从业者来说，值得了解其思路与潜在落地效果，寻找自动化提效的新方向。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2095520823192760762",
-      "reader_url": "https://x.com/HackingLZ/status/2095520823192760762",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T14:34:31",
-      "first_seen_at": "2026-09-03T17:20:39.205420",
-      "sub_category_label": "二进制安全"
     },
     {
       "id": 6994,
