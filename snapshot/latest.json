@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-03T23:28:10+08:00",
+  "updated_at": "2026-09-04T00:00:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 4,
+  "item_count": 6,
   "items": [
     {
       "id": 6892,
@@ -29,6 +29,30 @@
       "sub_category_label": "二进制安全"
     },
     {
+      "id": 6918,
+      "title": "CHISEL：用差分模糊测试验证LLM二进制反编译语义",
+      "original_title": "LLMs can produce increasingly pleasant-looking C, but whether that code still describes the binary remains tough to answer.  CHISEL is the newest paper in a line of iterative appro",
+      "summary": "CHISEL提出结合编译器引导的语法修复和差分模糊测试，解决大语言模型反编译C代码时的语义漂移问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 68.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "LLM反编译常出现看着对但逻辑不对的语义漂移，CHISEL用差分模糊测试做验证很务实。逆向和漏洞挖掘人员可评估将其集成到现有分析流程中，提高反编译准确率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pr0me/status/2095533745654628740",
+      "reader_url": "https://x.com/pr0me/status/2095533745654628740",
+      "image_url": "https://pbs.twimg.com/media/HRTITKfawAAbnqf.jpg",
+      "author": {
+        "username": "pr0me",
+        "name": "lukas seidel",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T15:25:52",
+      "first_seen_at": "2026-09-03T15:34:31.606392",
+      "sub_category_label": "二进制安全"
+    },
+    {
       "id": 6881,
       "title": "CREST启动首批AI渗透测试资质认证服务商",
       "original_title": "CREST Onboards First Cohort for AI-Enabled Pentesting Accreditation: CREST’s new AI-enabled penetration testing accreditation welcomes its first 10 providers https://t.co/f6iMkRvZU",
@@ -51,6 +75,30 @@
       "published_at": "2026-09-03T13:04:12",
       "first_seen_at": "2026-09-03T13:20:03.035012",
       "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 6917,
+      "title": "CREST 授予 10 家公司 AI 渗透测试责任使用认证",
+      "original_title": "Cybersecurity industry body CREST has granted 10 companies with its newly established accreditation that recognizes responsible use of AI within penetration testing services. https",
+      "summary": "网络安全行业组织 CREST 推出新认证体系，向 10 家公司授予在渗透测试服务中负责任使用 AI 的资质认可，标志着 AI 渗透测试开始进入行业标准化阶段。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 渗透测试或安全自动化的团队该看：CREST 认证意味着 AI 辅助渗透正在从实验走向合规化交付，提前了解认证要求可以在投标和客户沟通中占先机。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/M_Miho_JPN/status/2095535346222338367",
+      "reader_url": "https://x.com/M_Miho_JPN/status/2095535346222338367",
+      "image_url": null,
+      "author": {
+        "username": "M_Miho_JPN",
+        "name": "Mihoko Matsubara　松原実穂子",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T15:32:14",
+      "first_seen_at": "2026-09-03T15:34:27.831002",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 6884,
