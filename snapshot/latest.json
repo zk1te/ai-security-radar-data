@@ -1,33 +1,9 @@
 {
-  "updated_at": "2026-09-03T22:25:42+08:00",
+  "updated_at": "2026-09-03T22:55:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
-    {
-      "id": 6847,
-      "title": "Google 发布安全专用模型 Gemini 3.8 Flash Cyber",
-      "original_title": "🚨 [CYBER AI MODEL] — GOOGLE JUST RELEASED GEMINI 3.8 FLASH CYBER, A SECURITY-SPECIALIZED MODEL BUILT TO AUTONOMOUSLY FIND AND PATCH SOFTWARE VULNERABILITIES  Google says the model ",
-      "summary": "Google 发布专为漏洞发现和自动补丁生成定制的 Gemini 3.8 Flash Cyber 模型，在内部基准测试中成功率超 70%，CWE-Bench 补丁通过率达 47.2%，并通过 Fairwind 项目限制分发给可信防御者。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 79.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应关注 AI 原生漏洞管理趋势，将 AI 发现与人工审批分离，重点布局漏洞验证和优先级排序能力，以应对 AI 漏洞发现成本下降带来的补丁堆积风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2095453518320611440",
-      "reader_url": "https://x.com/XQOPTRX/status/2095453518320611440",
-      "image_url": null,
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T10:07:05",
-      "first_seen_at": "2026-09-03T10:35:40.238548",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 6853,
       "title": "XBOW 团队斩获今年首个 Chrome 全链漏洞利用奖金",
