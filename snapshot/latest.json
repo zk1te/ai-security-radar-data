@@ -1,9 +1,33 @@
 {
-  "updated_at": "2026-09-03T11:18:04+08:00",
+  "updated_at": "2026-09-03T11:52:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
+    {
+      "id": 6564,
+      "title": "Deep Eye：多模型协同的 AI 驱动渗透测试工具",
+      "original_title": "👾 Deep Eye - Advanced AI-Driven Penetration Testing Tool  Deep Eye orchestrates multiple AI providers (OpenAI, Claude, Grok, Gemini, OLLAMA, Groq, Mistral, OpenRouter, OrcaRouter, ",
+      "summary": "Deep Eye 整合多个大模型提供商生成测试载荷，支持 50 余种漏洞检测并自动生成合规报告。",
+      "primary_category": "AI for Sec",
+      "sub_category": "penetration_testing",
+      "score_total": 75.35,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "一线红队和渗透测试人员必看。该工具展示了如何编排多模型生成 payload 并自动化漏洞扫描，是构建内部 AI 渗透流水线的高价值参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/bountywriteups/status/2095356778435465232",
+      "reader_url": "https://x.com/bountywriteups/status/2095356778435465232",
+      "image_url": "https://pbs.twimg.com/media/HRQz4SIbYAA61IA.jpg",
+      "author": {
+        "username": "bountywriteups",
+        "name": "𝕏 Bug Bounty Writeups 𝕏",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T03:42:40",
+      "first_seen_at": "2026-09-03T03:47:40.794404",
+      "sub_category_label": "渗透测试"
+    },
     {
       "id": 6482,
       "title": "HN 热议：谷歌发布 Gemini 3.8 Flash 及 Cyber 安全专用模型",
@@ -115,30 +139,6 @@
       "published_at": "2026-09-02T23:57:17",
       "first_seen_at": "2026-09-03T01:37:00.156971",
       "sub_category_label": null
-    },
-    {
-      "id": 6464,
-      "title": "Codex安全Agent实测：Golang项目威胁建模成本超2美元",
-      "original_title": "running the Codex Security agent harness through a code base and btw just its Threat Modeling scope of work exceeded $2 in cost for a typical Golang application using Sol on High r",
-      "summary": "实测显示使用 Codex Security agent harness 对典型 Golang 应用进行威胁建模，在高推理模式下单次成本超过 2 美元。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "关注 AI 安全 Agent 落地成本的安全工程师该看。提供了实际运行数据，可用于评估 AI 安全工具的 ROI 和预算规划。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/liran_tal/status/2095286912499995091",
-      "reader_url": "https://x.com/liran_tal/status/2095286912499995091",
-      "image_url": "https://pbs.twimg.com/media/HRP0V1YXMAEbmVB.jpg",
-      "author": {
-        "username": "liran_tal",
-        "name": "Liran Tal",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T23:05:03",
-      "first_seen_at": "2026-09-02T23:25:09.772445",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 6547,
