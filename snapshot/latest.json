@@ -1,32 +1,32 @@
 {
-  "updated_at": "2026-09-04T04:28:33+08:00",
+  "updated_at": "2026-09-04T05:02:27+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
     {
-      "id": 6941,
-      "title": "研究称 LLM 生成的 Fuzzing Harness 多含死代码",
-      "original_title": "Paper: https://t.co/svGI20rxvk  Project page: https://t.co/sid9wv7qVa  Full findings: most generated harnesses contain dead state/memory mechanisms—code that never executes at runt",
-      "summary": "研究发现 LLM 自动生成的 Fuzzing harness 普遍包含在运行时从不执行的死状态或内存机制，影响测试效果。",
+      "id": 7033,
+      "title": "AI红队测试发现：最强模型不等于最佳自主黑客",
+      "original_title": "🚨 [AI RED TEAMING BENCHMARK] — AN 8-MODEL TEST FINDS THE “SMARTEST” LLM IS NOT NECESSARILY THE BEST AUTONOMOUS HACKER  Ridge Security tested eight frontier and open models across 9",
+      "summary": "Ridge Security 对8个模型进行了96次自主渗透测试，发现Grok 4.5覆盖率最高，但Agent架构和工具编排比模型本身能力更关键。",
       "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 75.8,
+      "sub_category": "security_agent",
+      "score_total": 77.0,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "用 LLM 自动生成 Fuzzing harness 的安全团队必看，揭示了生成代码中普遍存在的死代码陷阱，直接关系到漏洞挖掘的真实覆盖率，排查 harness 有效性时务必留意此问题。",
+      "recommendation_reason": "面向评估和采购 AI 渗透工具的安全管理者。不要只盯着模型跑分，Agent 的记忆、工具编排和验证循环才是决定实战效果的核心。选型时重点考察 harness 设计。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2095545775765791028",
-      "reader_url": "https://x.com/HuggingPapers/status/2095545775765791028",
+      "canonical_url": "https://x.com/XQOPTRX/status/2095607655398089116",
+      "reader_url": "https://x.com/XQOPTRX/status/2095607655398089116",
       "image_url": null,
       "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
+        "username": "XQOPTRX",
+        "name": "CyberSignal | Cybersecurity & AI News",
         "avatar_url": null
       },
-      "published_at": "2026-09-03T16:13:40",
-      "first_seen_at": "2026-09-03T16:41:47.671128",
-      "sub_category_label": "AI Fuzzing"
+      "published_at": "2026-09-03T20:19:34",
+      "first_seen_at": "2026-09-03T20:35:52.412878",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 7001,
@@ -101,6 +101,26 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 7035,
+      "title": "GPT-6 Astra 发布：安全评测表现强劲",
+      "original_title": "GPT‑6 Astra",
+      "summary": "OpenAI 发布 GPT-6 Astra 模型，在 ExploitBench、SRE-Bench 等安全评测榜单上得分大幅超越前代，并采用自定义 harness 取得 ARC-AGI 3 高分。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation",
+      "score_total": 72.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队该看：GPT-6 Astra 在 ExploitBench 和 SRE-Bench 逆向上得分爆表，模型辅助漏洞挖掘和代码审计能力又上一台阶。赶紧拿 API 在自家靶场跑跑，看能否替代部分人工逆向工作。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+      "reader_url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T20:18:41",
+      "first_seen_at": "2026-09-03T20:41:47.285826",
+      "sub_category_label": null
+    },
+    {
       "id": 6973,
       "title": "「Agent化逆向工程时代」的去混淆实践分享",
       "original_title": "RT @mr_phrazer: The recording of \"Deobfuscation in the Age of Agentic Reverse Engineering\" is now public:  https://t.co/jMO0GHRM8l  We (CC…",
@@ -171,30 +191,6 @@
       "published_at": "2026-09-03T19:41:33",
       "first_seen_at": "2026-09-03T20:00:46.371968",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 6938,
-      "title": "Google CodeMender AI代码安全Agent会议",
-      "original_title": "Attending #Google #CodeMender: #AI #Code #Security #Agent session :  https://t.co/Z0zJZvzeMw",
-      "summary": "该推文分享了一个关于 Google CodeMender 的 AI 代码安全 Agent 会议链接，未提供更多技术细节。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 61.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "虽然只是个会议链接，但提及 Google 在做代码安全 Agent，值得相关从业者关注后续是否有开源或落地动作。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/qalg/status/2095547472521351491",
-      "reader_url": "https://x.com/qalg/status/2095547472521351491",
-      "image_url": null,
-      "author": {
-        "username": "qalg",
-        "name": "testerlg",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T16:20:25",
-      "first_seen_at": "2026-09-03T16:41:23.978636",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
