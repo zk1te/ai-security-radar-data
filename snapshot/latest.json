@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T06:09:03+08:00",
+  "updated_at": "2026-09-04T06:42:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 7033,
@@ -29,6 +29,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 7068,
+      "title": "OpenAI 投资 10 亿美元推出「Daybreak」网络安全 AI 赋能计划",
+      "original_title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "summary": "OpenAI 宣布推出「Daybreak for Frontline Defenders」计划，承诺投资 10 亿美元，为关键基础设施服务扩大前沿网络安全 AI、培训和支持的获取渠道。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "10 亿美元级别的安全 AI 投入预示着大厂对 AI 赋能网络安全的战略决心。安全团队管理者应密切关注其后续工具和培训资源的落地情况，评估能否引入自身防御体系。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "reader_url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T13:15:00",
+      "first_seen_at": "2026-09-03T22:16:01.669732",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 7041,
       "title": "AI 工具加速漏洞发现：CVE 月增 145% 且 PoC 成本骤降",
       "original_title": "TRC analysis shows AI tools like Claude Mythos are accelerating vulnerability discovery, with monthly CVE disclosures surging 145% to 7,765 by June 2026. Attackers can now develop ",
@@ -51,30 +71,6 @@
       "published_at": "2026-09-03T17:32:31",
       "first_seen_at": "2026-09-03T21:08:40.766082",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 7001,
-      "title": "OpenAI拟向关键基础设施开放前沿AI安全工具",
-      "original_title": "🚨 [AI CYBER DEFENSE] — OPENAI IS CONVENING ~300 SECURITY LEADERS TODAY AS IT PREPARES TO EXPAND FRONTIER AI ACCESS FOR CRITICAL INFRASTRUCTURE DEFENDERS  Fortune 100 CISOs and ente",
-      "summary": "OpenAI 召集数百名安全高管，拟扩大 Daybreak 等安全工具在关键基础设施的访问权限，其即将推出的 Astra 模型已越过自主发现未知漏洞的网络安全能力阈值。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.6,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "前沿模型在漏洞发现和红队测试上达到新阈值，安全团队需立即关注如何受控引入这些 AI 防御工具。从业者应借此审视现有 AI 访问控制与审计机制，避免双刃剑风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2095570891337769000",
-      "reader_url": "https://x.com/XQOPTRX/status/2095570891337769000",
-      "image_url": null,
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T17:53:28",
-      "first_seen_at": "2026-09-03T18:25:14.479118",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 7035,
@@ -119,6 +115,26 @@
       "published_at": "2026-09-03T19:41:33",
       "first_seen_at": "2026-09-03T20:00:46.371968",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 7072,
+      "title": "WHALE：联合优化 Agent 权重与 Harness 的交替学习方案",
+      "original_title": "WHALE: A Simple Recipe for Joint Harness-Weight Optimization",
+      "summary": "提出一种交替优化模型权重与执行 Harness 的方法（WHALE），在多个推理任务上显著优于单独优化方案。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 61.84,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "虽未直接用于安全场景，但其对 Agent 架构中控制流与模型权重联合优化的探讨，对后续构建高性能安全自动化 Agent 具有一定架构参考价值。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.00196",
+      "reader_url": "https://arxiv.org/pdf/2609.00196",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T22:16:27.392904",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
