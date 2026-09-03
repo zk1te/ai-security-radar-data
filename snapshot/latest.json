@@ -1,9 +1,33 @@
 {
-  "updated_at": "2026-09-04T00:00:41+08:00",
+  "updated_at": "2026-09-04T01:09:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 8,
   "items": [
+    {
+      "id": 6941,
+      "title": "研究称 LLM 生成的 Fuzzing Harness 多含死代码",
+      "original_title": "Paper: https://t.co/svGI20rxvk  Project page: https://t.co/sid9wv7qVa  Full findings: most generated harnesses contain dead state/memory mechanisms—code that never executes at runt",
+      "summary": "研究发现 LLM 自动生成的 Fuzzing harness 普遍包含在运行时从不执行的死状态或内存机制，影响测试效果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 75.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "用 LLM 自动生成 Fuzzing harness 的安全团队必看，揭示了生成代码中普遍存在的死代码陷阱，直接关系到漏洞挖掘的真实覆盖率，排查 harness 有效性时务必留意此问题。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HuggingPapers/status/2095545775765791028",
+      "reader_url": "https://x.com/HuggingPapers/status/2095545775765791028",
+      "image_url": null,
+      "author": {
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T16:13:40",
+      "first_seen_at": "2026-09-03T16:41:47.671128",
+      "sub_category_label": "AI Fuzzing"
+    },
     {
       "id": 6892,
       "title": "Mega Bite推出专用AI模型提升二进制分析能力",
@@ -146,6 +170,30 @@
       },
       "published_at": "2026-09-03T13:21:06",
       "first_seen_at": "2026-09-03T13:51:54.269297",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6938,
+      "title": "Google CodeMender AI代码安全Agent会议",
+      "original_title": "Attending #Google #CodeMender: #AI #Code #Security #Agent session :  https://t.co/Z0zJZvzeMw",
+      "summary": "该推文分享了一个关于 Google CodeMender 的 AI 代码安全 Agent 会议链接，未提供更多技术细节。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 61.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "虽然只是个会议链接，但提及 Google 在做代码安全 Agent，值得相关从业者关注后续是否有开源或落地动作。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/qalg/status/2095547472521351491",
+      "reader_url": "https://x.com/qalg/status/2095547472521351491",
+      "image_url": null,
+      "author": {
+        "username": "qalg",
+        "name": "testerlg",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T16:20:25",
+      "first_seen_at": "2026-09-03T16:41:23.978636",
       "sub_category_label": "安全Agent"
     }
   ]
