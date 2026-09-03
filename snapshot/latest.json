@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T01:44:20+08:00",
+  "updated_at": "2026-09-04T02:19:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 6941,
@@ -29,28 +29,52 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 6892,
-      "title": "Mega Bite推出专用AI模型提升二进制分析能力",
-      "original_title": "Organizations are increasingly relying on AI-generated and third-party code across the software supply chain. But once that code is compiled into a stripped binary, much of the ori",
-      "summary": "Mega Bite发布包含WilBERT和Ventris的专用AI模型套件，无需源码即可分析二进制软件，帮助安全团队发现传统反编译器遗漏的恶意代码。",
+      "id": 6989,
+      "title": "AI红队测试洞察：模型规模非决定因素，测试框架工程才是关键",
+      "original_title": "The raw benchmark numbers from our latest study tell a compelling story, but the real takeaway goes way beyond model leaderboards: the future of offensive AI isn't about model scal",
+      "summary": "对8个大模型在Metasploitable3等环境下的红队测试表明，高参数并不等于好的攻击效果。文章呼吁将推理与执行分离，构建专门的测试框架以实现可靠的漏洞验证。",
       "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 68.65,
+      "sub_category": "security_agent",
+      "score_total": 74.2,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "针对软件供应链安全痛点，用专用AI模型分析stripped binary填补了传统工具盲区。做漏洞挖掘和逆向分析的同学可以关注其在真实环境中的检出率。",
+      "recommendation_reason": "做AI红队和自动化渗透的人必看。别再盯着模型排行榜卷参数了，把精力放在构建可靠的执行harness上，解决安全拒绝和确定性执行的痛点，才能真正落地。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2095494820118880326",
-      "reader_url": "https://x.com/TheHackersNews/status/2095494820118880326",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2095493357342740480/img/fExxyXqUOPzj_4z6.jpg",
+      "canonical_url": "https://x.com/RidgeSecurityAI/status/2095564121315901635",
+      "reader_url": "https://x.com/RidgeSecurityAI/status/2095564121315901635",
+      "image_url": null,
       "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
+        "username": "RidgeSecurityAI",
+        "name": "Ridge Security Technology Inc.",
         "avatar_url": null
       },
-      "published_at": "2026-09-03T12:51:12",
-      "first_seen_at": "2026-09-03T13:52:21.635612",
-      "sub_category_label": "二进制安全"
+      "published_at": "2026-09-03T17:26:34",
+      "first_seen_at": "2026-09-03T17:50:31.103067",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6988,
+      "title": "首个LLM自主渗透测试基准发布：架构与效率成关键",
+      "original_title": "Today, we published the industry's first public benchmark comparing leading LLMs in autonomous penetration-testing workflows. Key takeaways from the benchmark:  🔹 Architecture matt",
+      "summary": "Ridge Security发布行业首个对比主流LLM在自主渗透测试中表现的基准，指出LLM需配合专用agent harness才能执行复杂攻击路径，并对比了各模型的覆盖率与成本效率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 72.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这篇内容为渗透测试团队选型提供参考：单靠LLM推理不够，agent架构和成本控制同样关键，但需注意其中含有RidgeGen产品推广色彩。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RidgeSecurityAI/status/2095566169000276123",
+      "reader_url": "https://x.com/RidgeSecurityAI/status/2095566169000276123",
+      "image_url": "https://pbs.twimg.com/media/HRTyUo8WQAIpxKE.png",
+      "author": {
+        "username": "RidgeSecurityAI",
+        "name": "Ridge Security Technology Inc.",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T17:34:43",
+      "first_seen_at": "2026-09-03T17:50:29.153551",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 6918,
@@ -125,28 +149,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 6890,
-      "title": "Black Hat Europe 培训：用多 Agent 架构构建 AI 威胁情报系统",
-      "original_title": "AI is reshaping threat intelligence, but building effective agentic systems requires more than prompting.  Build AI workflows using MCP, Agent Skills, multi-agent architectures, Ge",
-      "summary": "Black Hat Europe 推出两天实战培训，教授如何用 MCP、多 Agent 架构、微调等技术构建 AI 驱动的威胁情报系统，含结课实战项目。",
+      "id": 6994,
+      "title": "BraZetsu 恶意软件利用 AI 筛选高价值目标",
+      "original_title": "⚠️ Criminals can buy access to Windows hosts compromised by BraZetsu.  The Python malware uses AI to prioritize high-value systems, collects browser and financial data, and lets bu",
+      "summary": "BraZetsu Python 木马利用 AI 自动识别并优先攻击高价值 Windows 系统，窃取金融数据并出售系统访问权限，展示了 AI 在实战攻击中的落地。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 62.05,
+      "sub_category": "malware_detection",
+      "score_total": 64.3,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "威胁情报团队若想从单轮提示词升级到 Agent 化工作流，这场培训的 MCP + 多 Agent + 微调技术栈值得参考，且有端到端实战项目，不是纸上谈兵。",
+      "recommendation_reason": "威胁检测和应急响应团队应高度警惕。攻击者已开始在木马中用 AI 做目标价值筛选与自动化决策，这意味着传统静态特征检测将加速失效，防守侧需引入行为分析与 AI 驱动的威胁狩猎来应对。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/BlackHatEvents/status/2095502345635234227",
-      "reader_url": "https://x.com/BlackHatEvents/status/2095502345635234227",
-      "image_url": "https://pbs.twimg.com/media/HRS4Qw5W8AQ6FDP.jpg",
+      "canonical_url": "https://x.com/TheHackersNews/status/2095535049844330676",
+      "reader_url": "https://x.com/TheHackersNews/status/2095535049844330676",
+      "image_url": null,
       "author": {
-        "username": "BlackHatEvents",
-        "name": "Black Hat",
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
         "avatar_url": null
       },
-      "published_at": "2026-09-03T13:21:06",
-      "first_seen_at": "2026-09-03T13:51:54.269297",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-09-03T15:31:03",
+      "first_seen_at": "2026-09-03T17:52:12.222685",
+      "sub_category_label": "恶意软件与威胁检测"
     },
     {
       "id": 6938,
