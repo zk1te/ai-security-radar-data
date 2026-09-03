@@ -1,9 +1,32 @@
 {
-  "updated_at": "2026-09-03T08:02:51+08:00",
+  "updated_at": "2026-09-03T08:36:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 10,
   "items": [
+    {
+      "id": 6482,
+      "title": "HN 热议：谷歌发布 Gemini 3.8 Flash 及 Cyber 安全专用模型",
+      "original_title": "HN Hot Discussion: Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "谷歌发布了 Gemini 3.8 Flash 基础模型及面向网络安全的 3.8 Flash Cyber 变体，在 Hacker News 引发热烈讨论。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 74.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂专门针对网络安全场景推出模型变体，标志着 AI 辅助安全工作的工具链正快速成熟。安全团队应密切关注其在漏洞挖掘和威胁检测等实际任务中的表现及可用性。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-03",
+      "reader_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-03",
+      "image_url": null,
+      "author": {
+        "username": "bratao",
+        "name": "bratao",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T15:12:40",
+      "first_seen_at": "2026-09-03T00:10:36.369611"
+    },
     {
       "id": 6460,
       "title": "Gemini 3.8 Flash Cyber发布：专攻漏洞发现与自动修复",
@@ -26,6 +49,29 @@
       },
       "published_at": "2026-09-02T22:22:23",
       "first_seen_at": "2026-09-02T22:52:47.950745"
+    },
+    {
+      "id": 6485,
+      "title": "Aisle 发现六个 curl CVE，OpenAI 与 Anthropic 却一无所获",
+      "original_title": "HN Hot Discussion: Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "summary": "Aisle 团队在 curl 项目中挖掘出六个 CVE，而此前 OpenAI 和 Anthropic 的 AI 挖掘均返回零结果，引发社区对 AI 漏洞挖掘实际能力的重新审视。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 安全工具选型的人必看。这揭示了当前大厂 AI 漏洞挖掘在真实开源项目上的能力边界，选型别看 demo 要看真实 CVE 产出。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-03",
+      "reader_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-03",
+      "image_url": null,
+      "author": {
+        "username": "goobreee",
+        "name": "goobreee",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T13:43:14",
+      "first_seen_at": "2026-09-03T00:11:01.804446"
     },
     {
       "id": 6429,
@@ -162,27 +208,27 @@
       "first_seen_at": "2026-09-02T22:21:33.031461"
     },
     {
-      "id": 6436,
-      "title": "利用 AI 迭代改写 Fuzzilli Profile 优化模糊测试的思路",
-      "original_title": "I took some time to read this article (finally had some time today), and it was really cool to see this research. Last year, I tried something similar, where I used AI to rewrite F",
-      "summary": "推文作者分享了用 AI 改写并迭代 Fuzzilli 配置以提升模糊测试效果的研究，并提到自己去年曾因 token 成本过高而搁置类似尝试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 61.8,
+      "id": 6494,
+      "title": "HN 热议：Anthropic 发布 Claude Fable 与 Mythos 5.1",
+      "original_title": "HN Hot Discussion: Claude Fable 5.1 and Claude Mythos 5.1",
+      "summary": "Hacker News 热门讨论 Anthropic 最新发布的 Claude Fable 5.1 和 Claude Mythos 5.1 模型。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "vuln_discovery | model_evaluation",
+      "score_total": 64.5,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "Fuzzing 从业者可关注此方向。随着大模型 token 成本下降，用 LLM 自动迭代生成 fuzzing profile 的想法变得更具可操作性，值得在 JS 引擎等复杂目标上探索落地。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/davi1337_/status/2095254306316550591",
-      "reader_url": "https://x.com/davi1337_/status/2095254306316550591",
+      "recommendation_reason": "Claude Mythos 的网络能力跃迁直接关系到 AI 辅助漏洞挖掘的产业化进程，安全团队应密切关注其漏洞发现能力及潜在防御应对策略。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-03",
+      "reader_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-03",
       "image_url": null,
       "author": {
-        "username": "davi1337_",
-        "name": "DaviMatsuyama",
+        "username": "meetpateltech",
+        "name": "meetpateltech",
         "avatar_url": null
       },
-      "published_at": "2026-09-02T20:55:29",
-      "first_seen_at": "2026-09-02T21:15:08.230532"
+      "published_at": "2026-09-01T18:01:24",
+      "first_seen_at": "2026-09-03T00:12:03.515422"
     }
   ]
 }
