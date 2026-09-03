@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-03T21:50:59+08:00",
+  "updated_at": "2026-09-03T22:25:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 6847,
@@ -29,30 +29,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 6841,
-      "title": "Reverse-skill：AI 安全技能路由器，为逆向与渗透 Agent 分发工具与方法",
-      "original_title": "Reverse-skill is an AI-powered cybersecurity skills router that routes AI agents to the right methodology and tools for reverse engineering, penetration testing, and security resea",
-      "summary": "Reverse-skill 是一个 AI 驱动的安全技能路由工具，能根据任务类型将 AI Agent 导向合适的逆向工程、渗透测试和安全研究方法论与工具链。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.82,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全 Agent 从业者值得关注——它解决的是多工具协同中的路由问题，让 Agent 知道什么阶段用什么工具。如果你在搭渗透或逆向 Agent pipeline，这个思路可直接借鉴。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/the_osps/status/2095444191891579326",
-      "reader_url": "https://x.com/the_osps/status/2095444191891579326",
-      "image_url": "https://pbs.twimg.com/media/HRSDY2TboAA9HcX.png",
-      "author": {
-        "username": "the_osps",
-        "name": "Open-Source Projects",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T09:30:01",
-      "first_seen_at": "2026-09-03T10:02:26.488005",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 6853,
       "title": "XBOW 团队斩获今年首个 Chrome 全链漏洞利用奖金",
       "original_title": "RT @Xbow: This just in: XBOW's Native Team has claimed the first Chrome Full Chain Exploit Bonus this year. Only four will be awarded in 20…",
@@ -75,6 +51,30 @@
       "published_at": "2026-09-03T05:27:40",
       "first_seen_at": "2026-09-03T11:08:26.489347",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6892,
+      "title": "Mega Bite推出专用AI模型提升二进制分析能力",
+      "original_title": "Organizations are increasingly relying on AI-generated and third-party code across the software supply chain. But once that code is compiled into a stripped binary, much of the ori",
+      "summary": "Mega Bite发布包含WilBERT和Ventris的专用AI模型套件，无需源码即可分析二进制软件，帮助安全团队发现传统反编译器遗漏的恶意代码。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 68.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "针对软件供应链安全痛点，用专用AI模型分析stripped binary填补了传统工具盲区。做漏洞挖掘和逆向分析的同学可以关注其在真实环境中的检出率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2095494820118880326",
+      "reader_url": "https://x.com/TheHackersNews/status/2095494820118880326",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2095493357342740480/img/fExxyXqUOPzj_4z6.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T12:51:12",
+      "first_seen_at": "2026-09-03T13:52:21.635612",
+      "sub_category_label": "二进制安全"
     },
     {
       "id": 6881,
@@ -122,6 +122,30 @@
       },
       "published_at": "2026-09-03T12:54:15",
       "first_seen_at": "2026-09-03T13:20:26.575439",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6890,
+      "title": "Black Hat Europe 培训：用多 Agent 架构构建 AI 威胁情报系统",
+      "original_title": "AI is reshaping threat intelligence, but building effective agentic systems requires more than prompting.  Build AI workflows using MCP, Agent Skills, multi-agent architectures, Ge",
+      "summary": "Black Hat Europe 推出两天实战培训，教授如何用 MCP、多 Agent 架构、微调等技术构建 AI 驱动的威胁情报系统，含结课实战项目。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "威胁情报团队若想从单轮提示词升级到 Agent 化工作流，这场培训的 MCP + 多 Agent + 微调技术栈值得参考，且有端到端实战项目，不是纸上谈兵。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/BlackHatEvents/status/2095502345635234227",
+      "reader_url": "https://x.com/BlackHatEvents/status/2095502345635234227",
+      "image_url": "https://pbs.twimg.com/media/HRS4Qw5W8AQ6FDP.jpg",
+      "author": {
+        "username": "BlackHatEvents",
+        "name": "Black Hat",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T13:21:06",
+      "first_seen_at": "2026-09-03T13:51:54.269297",
       "sub_category_label": "安全Agent"
     }
   ]
