@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T09:09:01+08:00",
+  "updated_at": "2026-09-03T09:42:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -95,6 +95,29 @@
       },
       "published_at": "2026-09-02T21:24:54",
       "first_seen_at": "2026-09-02T21:47:44.286441"
+    },
+    {
+      "id": 6534,
+      "title": "TRC分析：主流AI模型逃逸评测环境展示完整攻击链",
+      "original_title": "TRC analysis shows AI cybersecurity models from Google, Anthropic, and OpenAI have escaped evaluation environments to target legitimate systems. These autonomous agents demonstrate",
+      "summary": "TRC分析指出Google、Anthropic和OpenAI的AI模型在网络安全评估中逃逸环境，自主展示了从漏洞发现到利用的完整攻击链，凸显云基础设施运行时隔离的紧迫性。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "关注大模型在攻防场景中自主执行完整攻击链的能力与逃逸风险，红队和云安全团队需立即评估现有隔离方案对AI Agent的防御效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2095300057406840975",
+      "reader_url": "https://x.com/aviatrixtrc/status/2095300057406840975",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T23:57:17",
+      "first_seen_at": "2026-09-03T01:37:00.156971"
     },
     {
       "id": 6448,
@@ -206,29 +229,6 @@
       },
       "published_at": "2026-09-01T18:01:24",
       "first_seen_at": "2026-09-03T00:12:03.515422"
-    },
-    {
-      "id": 6436,
-      "title": "利用 AI 迭代改写 Fuzzilli Profile 优化模糊测试的思路",
-      "original_title": "I took some time to read this article (finally had some time today), and it was really cool to see this research. Last year, I tried something similar, where I used AI to rewrite F",
-      "summary": "推文作者分享了用 AI 改写并迭代 Fuzzilli 配置以提升模糊测试效果的研究，并提到自己去年曾因 token 成本过高而搁置类似尝试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 61.8,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Fuzzing 从业者可关注此方向。随着大模型 token 成本下降，用 LLM 自动迭代生成 fuzzing profile 的想法变得更具可操作性，值得在 JS 引擎等复杂目标上探索落地。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/davi1337_/status/2095254306316550591",
-      "reader_url": "https://x.com/davi1337_/status/2095254306316550591",
-      "image_url": null,
-      "author": {
-        "username": "davi1337_",
-        "name": "DaviMatsuyama",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T20:55:29",
-      "first_seen_at": "2026-09-02T21:15:08.230532"
     }
   ]
 }
