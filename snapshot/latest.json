@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-03T14:31:38+08:00",
+  "updated_at": "2026-09-03T15:39:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 6564,
@@ -131,6 +131,30 @@
       "published_at": "2026-09-03T00:00:00",
       "first_seen_at": "2026-09-03T06:10:01.590050",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 6600,
+      "title": "CyberStrike：集成多Agent与MCP的开源AI渗透测试平台",
+      "original_title": "🚨 CYBERSTRIKE SHOWS EXACTLY WHY internet-computer:native MATTERS  CyberStrike is an impressive open-source AI penetration-testing platform: 13+ specialised agents, 7,600+ security ",
+      "summary": "推文介绍了开源AI渗透测试平台 CyberStrike，该平台包含13+个专业Agent、7600+安全技能和176+ MCP工具，针对Web2攻击面。作者借此对比并引出互联网计算机（ICP）架构的防攻击性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "虽夹带区块链私货，但 CyberStrike 展示的 13+ 多Agent协同与 176+ MCP 工具集成思路，对构建自动化安全测试平台极具参考价值，安全研发团队可关注其安全技能编排落地。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ICPLEGEND1966/status/2095403016912314406",
+      "reader_url": "https://x.com/ICPLEGEND1966/status/2095403016912314406",
+      "image_url": null,
+      "author": {
+        "username": "ICPLEGEND1966",
+        "name": "Welsh ICP Conviction 🏴󠁧󠁢󠁷󠁬󠁳󠁿🏉",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T06:46:24",
+      "first_seen_at": "2026-09-03T07:07:32.175425",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 6592,
