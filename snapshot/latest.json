@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T03:54:33+08:00",
+  "updated_at": "2026-09-04T04:28:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 6941,
@@ -147,6 +147,30 @@
       "published_at": "2026-09-03T15:31:03",
       "first_seen_at": "2026-09-03T17:52:12.222685",
       "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 7014,
+      "title": "实战反馈：使用 LLM 辅助 Odin 与 Fuzzing 挖掘漏洞",
+      "original_title": "We are using LLMs for Odin, especially for the `rexcode` stuff. And LLMs have been a great form of fuzzing too finding bugs that we would not have found otherwise.  I am not agains",
+      "summary": "作者分享了在 Odin 项目中使用 LLM 辅助代码逆向与 Fuzzing 的经验，指出 LLM 能有效发现常规手段遗漏的漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 64.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是来自一线实战对 LLM 辅助 Fuzzing 效果的正面反馈。安全研究员可借此评估将 LLM 引入自有工具链进行漏洞挖掘的实际收益与落地可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheGingerBill/status/2095598090426429643",
+      "reader_url": "https://x.com/TheGingerBill/status/2095598090426429643",
+      "image_url": null,
+      "author": {
+        "username": "TheGingerBill",
+        "name": "gingerBill",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T19:41:33",
+      "first_seen_at": "2026-09-03T20:00:46.371968",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 6938,
