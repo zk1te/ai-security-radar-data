@@ -1,0 +1,1261 @@
+{
+  "date": "2026-09-03",
+  "candidate_count": 21,
+  "selected_count": 3,
+  "cover_title": "PrimSynth：基于多智能体的内核漏洞利用原语合成框架",
+  "lead_takeaway": "今天的情报全在漏洞挖掘这一个点上，大模型正从代码审计、内核利用原语到黑盒Web扫描全面接管那些吃人工经验的脏活累活。AI搞安全的重心已经从理论探讨转向真正能跑通闭环的实战工具。",
+  "digest_points": [
+    "01 对漏洞挖掘研究员而言，PrimSynth 展示了 LLM Agent 在弥合抽象策略与具体内核操作鸿沟上的极高价值。它提供了一个可复现的闭环多智能体范式，直接指明了自动化漏洞利用的落地方向。",
+    "02 直接面向代码审计与漏洞挖掘场景，将静态分析与LLM推理结合的思路值得借鉴。安全团队可参考其上下文提取与元提示方法，改进现有LLM漏洞检测流程，提升误报过滤能力。",
+    "03 适合Web安全工程师和工具开发者。它展示了LLM如何突破传统爬虫在动态页面的瓶颈，解决了表单识别难题。可借鉴其LLM填表思路优化现有DAST工具链。"
+  ],
+  "judgement": [
+    "01 对漏洞挖掘研究员而言，PrimSynth 展示了 LLM Agent 在弥合抽象策略与具体内核操作鸿沟上的极高价值。它提供了一个可复现的闭环多智能体范式，直接指明了自动化漏洞利用的落地方向。",
+    "02 直接面向代码审计与漏洞挖掘场景，将静态分析与LLM推理结合的思路值得借鉴。安全团队可参考其上下文提取与元提示方法，改进现有LLM漏洞检测流程，提升误报过滤能力。",
+    "03 适合Web安全工程师和工具开发者。它展示了LLM如何突破传统爬虫在动态页面的瓶颈，解决了表单识别难题。可借鉴其LLM填表思路优化现有DAST工具链。"
+  ],
+  "top_items": [
+    {
+      "id": 6810,
+      "title": "PrimSynth：基于多智能体的内核漏洞利用原语合成框架",
+      "original_title": "PrimSynth: An Agentic Approach to Discover, Validate, and Synthesize Exploit Primitives for Linux Kernel Vulnerabilities",
+      "summary": "该论文提出 PrimSynth 多智能体框架，自动发现、验证并合成 Linux 内核内存破坏漏洞的利用原语。在 16 个真实 CVE 上实现了 100% 的原语匹配率及 61.3% 的无 PoC 策略合成率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 86.32,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对漏洞挖掘研究员而言，PrimSynth 展示了 LLM Agent 在弥合抽象策略与具体内核操作鸿沟上的极高价值。它提供了一个可复现的闭环多智能体范式，直接指明了自动化漏洞利用的落地方向。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.02647",
+      "reader_url": "https://arxiv.org/pdf/2609.02647",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:07:16.264178",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6618,
+      "title": "VulWeaver：通过语义编织增强LLM漏洞检测的上下文推理",
+      "original_title": "VulWeaver: Weaving Broken Semantics for Grounded Vulnerability Detection",
+      "summary": "VulWeaver结合静态分析规则与LLM语义推断构建统一依赖图，提取显隐式漏洞上下文并用元提示引导LLM推理，在PrimeVul4J数据集上F1达0.76，显著优于现有方法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 86.07,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "直接面向代码审计与漏洞挖掘场景，将静态分析与LLM推理结合的思路值得借鉴。安全团队可参考其上下文提取与元提示方法，改进现有LLM漏洞检测流程，提升误报过滤能力。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2604.10767",
+      "reader_url": "https://arxiv.org/pdf/2604.10767",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T07:53:30.081666",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6814,
+      "title": "SpiderSapien：结合 LLM 的黑盒 Web 扫描器提升漏洞挖掘深度",
+      "original_title": "SpiderSapien: Client-Centric Web Crawler and Security Scanner",
+      "summary": "论文提出SpiderSapien爬虫与安全扫描器，利用LLM解决表单填充与UI交互排序，提升黑盒Web应用测试的沉浸式交互能力，代码覆盖率提高46%并发现更多XSS漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 85.54,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "适合Web安全工程师和工具开发者。它展示了LLM如何突破传统爬虫在动态页面的瓶颈，解决了表单识别难题。可借鉴其LLM填表思路优化现有DAST工具链。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.02532",
+      "reader_url": "https://arxiv.org/pdf/2609.02532",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:08:25.894837",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 6835,
+      "title": "威胁情报知识图谱抽取评测的可重复性审计",
+      "original_title": "Ranked by the Matcher: A Reproducibility Audit of Knowledge Graph Extraction from Threat Reports",
+      "summary": "论文审查12个威胁情报知识图谱抽取系统，仅5个可复现匹配规则；重新评分逆转11/45成对排序，同一预测集F1跨度达0.16-0.70。作者构建CTIForge工具隔离组件效应，并发布完整管道与审计记录。",
+      "primary_category": "AI for Sec",
+      "sub_category": "knowledge_enhanced",
+      "score_total": 84.16,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做威胁情报知识图谱选型的团队必看：F1 分数因匹配规则差异可跨 0.16-0.70，排名随时反转。CTIForge 提供可复现验证层，直接用于校准 CTI pipeline 评测。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.01671",
+      "reader_url": "https://arxiv.org/pdf/2609.01671",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:21:08.386049",
+      "sub_category_label": "知识增强安全"
+    },
+    {
+      "id": 6620,
+      "title": "PoC-Gym：基于 LLM 的 Java 漏洞 PoC 可靠生成与验证流水线",
+      "original_title": "PoC-Gym: Towards More Reliable LLM-Assisted Proof-of-Concept Exploit Generation",
+      "summary": "本文提出 PoC-Gym，结合 CVE 定制提示、静态追踪和覆盖率反馈迭代生成 Java 漏洞 PoC，并引入多阶段验证机制。在 20 个 Java CVE 上覆盖 12 个，超越 FaultLine，同时深入分析了「运行时有效但事后无效」的 PoC 失败根源。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.56,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘 Agent 的人必看。PoC 验证信号不可靠是当前 LLM exploit 生成的核心痛点，这篇论文对失败案例的深度分析比成功率数字更有价值，能直接指导你改进 Agent 的验证逻辑和 sink 触发判定。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2602.04165",
+      "reader_url": "https://arxiv.org/pdf/2602.04165",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T07:53:31.448329",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6816,
+      "title": "RBA缓解安全告警疲劳的系统评估及LLM基线",
+      "original_title": "Can Risk-Based Alerting Mitigate Cybersecurity Alert Fatigue?",
+      "summary": "论文首次系统性评估了基于风险的告警（RBA）方法，将其模块化并在新工具套件CATS中进行测试，发现其能显著减少误报并作为基于LLM的告警分流的强力基线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "alert_triage",
+      "score_total": 83.23,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做SOC自动化和告警分流Agent的团队必看。想用大模型替你筛告警？先拿这篇的RBA基线打个分，别盲目上LLM踩了性能不如传统方法的坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.02465",
+      "reader_url": "https://arxiv.org/pdf/2609.02465",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:08:27.117528",
+      "sub_category_label": null
+    },
+    {
+      "id": 6807,
+      "title": "SPADE：面向车联网 SPaT 攻击检测的多模态数据集",
+      "original_title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
+      "summary": "本文提出 SPADE，一个用于车联网 SPaT 消息应用层攻击检测的多模态模拟数据集。该数据集融合了 SPaT 消息、车载摄像头和 V2V 数据，并已开源以支持可复现的深度学习入侵检测研究。",
+      "primary_category": "AI for Sec",
+      "sub_category": "intrusion_detection",
+      "score_total": 82.25,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做车联网安全的同学值得看。开源了多模态数据集和生成工具，可以直接拿来做入侵检测模型的基准测试，省去自己造数据的麻烦。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.02741",
+      "reader_url": "https://arxiv.org/pdf/2609.02741",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:06:33.610244",
+      "sub_category_label": null
+    },
+    {
+      "id": 6628,
+      "title": "固件层自动化漏洞修复：从提交历史挖掘修复模板并定位安全缺陷",
+      "original_title": "From Silicon to Boot Code: Extending Automated Program Repair to Firmware-Layer Security Workarounds",
+      "summary": "研究将字典引导的 APR 方法扩展到 UEFI 固件层，通过自动化提交聚类挖掘器从 EDK II 仓库中发现修复模板，构建四个漏洞定位器均实现 100% 召回率，并发现两个新候选漏洞族。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 81.66,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做固件安全和代码审计的人该看，它证明了从提交历史中自动挖掘漏洞模式并精确定位缺失安全机制的可行性。C 语言族精度偏低是落地障碍，但方法论值得借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.01769",
+      "reader_url": "https://arxiv.org/pdf/2609.01769",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T07:56:13.617650",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6795,
+      "title": "用 LLM 自动注入智能合约漏洞以评估检测工具",
+      "original_title": "Automated Vulnerability Injection in Smart Contracts Using Large Language Models",
+      "summary": "该论文提出使用大语言模型自动向 Solidity 智能合约注入漏洞以构建评测数据集，通过多步流水线验证生成合约，并利用存活合约评估三种静态分析器的检测能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 81.58,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "用 LLM 自动造漏洞数据集这条路被验证可行，但 16% 的存活率说明语义保持仍是硬骨头。做智能合约安全评测和 fuzzing 的人可以参考其验证流水线设计，避坑 LLM 非确定性带来的语义破坏。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.02624",
+      "reader_url": "https://arxiv.org/pdf/2609.02624",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:04:15.133513",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 6830,
+      "title": "行为树引导的轻量级 LLM 漏洞检测方法",
+      "original_title": "Towards Behavior Tree-Guided Vulnerability Detection with Lightweight LLMs",
+      "summary": "该论文提出将源代码转换为行为树（BT）表示，以在轻量级量化本地大模型上提升漏洞检测的召回率和整体性能，解决了 AST 超出上下文窗口的问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 81.48,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计和本地大模型落地的安全人员必看。文章验证了行为树比 AST 更省 token 且在长代码上效果更好，为你用轻量模型做漏洞挖掘提供了实用的代码预处理新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.01758",
+      "reader_url": "https://arxiv.org/pdf/2609.01758",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:20:27.650237",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 6810,
+        "title": "PrimSynth：基于多智能体的内核漏洞利用原语合成框架",
+        "original_title": "PrimSynth: An Agentic Approach to Discover, Validate, and Synthesize Exploit Primitives for Linux Kernel Vulnerabilities",
+        "summary": "该论文提出 PrimSynth 多智能体框架，自动发现、验证并合成 Linux 内核内存破坏漏洞的利用原语。在 16 个真实 CVE 上实现了 100% 的原语匹配率及 61.3% 的无 PoC 策略合成率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 86.32,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "对漏洞挖掘研究员而言，PrimSynth 展示了 LLM Agent 在弥合抽象策略与具体内核操作鸿沟上的极高价值。它提供了一个可复现的闭环多智能体范式，直接指明了自动化漏洞利用的落地方向。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.02647",
+        "reader_url": "https://arxiv.org/pdf/2609.02647",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T09:07:16.264178",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 6618,
+        "title": "VulWeaver：通过语义编织增强LLM漏洞检测的上下文推理",
+        "original_title": "VulWeaver: Weaving Broken Semantics for Grounded Vulnerability Detection",
+        "summary": "VulWeaver结合静态分析规则与LLM语义推断构建统一依赖图，提取显隐式漏洞上下文并用元提示引导LLM推理，在PrimeVul4J数据集上F1达0.76，显著优于现有方法。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 86.07,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "直接面向代码审计与漏洞挖掘场景，将静态分析与LLM推理结合的思路值得借鉴。安全团队可参考其上下文提取与元提示方法，改进现有LLM漏洞检测流程，提升误报过滤能力。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2604.10767",
+        "reader_url": "https://arxiv.org/pdf/2604.10767",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T07:53:30.081666",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 6814,
+        "title": "SpiderSapien：结合 LLM 的黑盒 Web 扫描器提升漏洞挖掘深度",
+        "original_title": "SpiderSapien: Client-Centric Web Crawler and Security Scanner",
+        "summary": "论文提出SpiderSapien爬虫与安全扫描器，利用LLM解决表单填充与UI交互排序，提升黑盒Web应用测试的沉浸式交互能力，代码覆盖率提高46%并发现更多XSS漏洞。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 85.54,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "适合Web安全工程师和工具开发者。它展示了LLM如何突破传统爬虫在动态页面的瓶颈，解决了表单识别难题。可借鉴其LLM填表思路优化现有DAST工具链。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.02532",
+        "reader_url": "https://arxiv.org/pdf/2609.02532",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T09:08:25.894837",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 6835,
+        "title": "威胁情报知识图谱抽取评测的可重复性审计",
+        "original_title": "Ranked by the Matcher: A Reproducibility Audit of Knowledge Graph Extraction from Threat Reports",
+        "summary": "论文审查12个威胁情报知识图谱抽取系统，仅5个可复现匹配规则；重新评分逆转11/45成对排序，同一预测集F1跨度达0.16-0.70。作者构建CTIForge工具隔离组件效应，并发布完整管道与审计记录。",
+        "primary_category": "AI for Sec",
+        "sub_category": "knowledge_enhanced",
+        "score_total": 84.16,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做威胁情报知识图谱选型的团队必看：F1 分数因匹配规则差异可跨 0.16-0.70，排名随时反转。CTIForge 提供可复现验证层，直接用于校准 CTI pipeline 评测。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.01671",
+        "reader_url": "https://arxiv.org/pdf/2609.01671",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T09:21:08.386049",
+        "sub_category_label": "知识增强安全"
+      },
+      {
+        "id": 6620,
+        "title": "PoC-Gym：基于 LLM 的 Java 漏洞 PoC 可靠生成与验证流水线",
+        "original_title": "PoC-Gym: Towards More Reliable LLM-Assisted Proof-of-Concept Exploit Generation",
+        "summary": "本文提出 PoC-Gym，结合 CVE 定制提示、静态追踪和覆盖率反馈迭代生成 Java 漏洞 PoC，并引入多阶段验证机制。在 20 个 Java CVE 上覆盖 12 个，超越 FaultLine，同时深入分析了「运行时有效但事后无效」的 PoC 失败根源。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 83.56,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做漏洞挖掘 Agent 的人必看。PoC 验证信号不可靠是当前 LLM exploit 生成的核心痛点，这篇论文对失败案例的深度分析比成功率数字更有价值，能直接指导你改进 Agent 的验证逻辑和 sink 触发判定。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2602.04165",
+        "reader_url": "https://arxiv.org/pdf/2602.04165",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T07:53:31.448329",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 6816,
+        "title": "RBA缓解安全告警疲劳的系统评估及LLM基线",
+        "original_title": "Can Risk-Based Alerting Mitigate Cybersecurity Alert Fatigue?",
+        "summary": "论文首次系统性评估了基于风险的告警（RBA）方法，将其模块化并在新工具套件CATS中进行测试，发现其能显著减少误报并作为基于LLM的告警分流的强力基线。",
+        "primary_category": "AI for Sec",
+        "sub_category": "alert_triage",
+        "score_total": 83.23,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做SOC自动化和告警分流Agent的团队必看。想用大模型替你筛告警？先拿这篇的RBA基线打个分，别盲目上LLM踩了性能不如传统方法的坑。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.02465",
+        "reader_url": "https://arxiv.org/pdf/2609.02465",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T09:08:27.117528",
+        "sub_category_label": null
+      },
+      {
+        "id": 6807,
+        "title": "SPADE：面向车联网 SPaT 攻击检测的多模态数据集",
+        "original_title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
+        "summary": "本文提出 SPADE，一个用于车联网 SPaT 消息应用层攻击检测的多模态模拟数据集。该数据集融合了 SPaT 消息、车载摄像头和 V2V 数据，并已开源以支持可复现的深度学习入侵检测研究。",
+        "primary_category": "AI for Sec",
+        "sub_category": "intrusion_detection",
+        "score_total": 82.25,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做车联网安全的同学值得看。开源了多模态数据集和生成工具，可以直接拿来做入侵检测模型的基准测试，省去自己造数据的麻烦。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.02741",
+        "reader_url": "https://arxiv.org/pdf/2609.02741",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T09:06:33.610244",
+        "sub_category_label": null
+      },
+      {
+        "id": 6628,
+        "title": "固件层自动化漏洞修复：从提交历史挖掘修复模板并定位安全缺陷",
+        "original_title": "From Silicon to Boot Code: Extending Automated Program Repair to Firmware-Layer Security Workarounds",
+        "summary": "研究将字典引导的 APR 方法扩展到 UEFI 固件层，通过自动化提交聚类挖掘器从 EDK II 仓库中发现修复模板，构建四个漏洞定位器均实现 100% 召回率，并发现两个新候选漏洞族。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 81.66,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做固件安全和代码审计的人该看，它证明了从提交历史中自动挖掘漏洞模式并精确定位缺失安全机制的可行性。C 语言族精度偏低是落地障碍，但方法论值得借鉴。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.01769",
+        "reader_url": "https://arxiv.org/pdf/2609.01769",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T07:56:13.617650",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 6765,
+        "title": "READY框架：评估企业级AI Agent部署的可靠性",
+        "original_title": "READY or Not: Reliable Enterprise Agent Deployment",
+        "summary": "提出READY框架，通过评估可靠性、监督成本和运行成本，为企业部署AI Agent提供资格认证，并在临床审计案例中验证。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 73.57,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做安全Agent落地别只盯着跑分，真实部署的监督成本和可靠性才是关键。这篇的开源评测框架能直接帮你算清安全运营中「人机协同」的账。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.02095",
+        "reader_url": "https://arxiv.org/pdf/2609.02095",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T08:51:52.024551",
+        "sub_category_label": "模型评测"
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 6630,
+        "title": "RosettaBitcoin经验报告：使用验证设施审计Agent辅助代码",
+        "original_title": "RosettaBitcoin: An Artifact-Backed Experience Report on Verification Infrastructure for Agent-Assisted Consensus Validators",
+        "summary": "本文以RosettaBitcoin项目为例，研究了如何使用证据数据库、测试夹具和突变测试等验证基础设施，对AI Agent辅助生成的比特币共识节点进行安全审计与正确性验证。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_benchmark | agent_security",
+        "score_total": 77.58,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "如果你的团队在用AI写代码，这篇报告的验证和审计设施构建思路值得借鉴。它展示了如何用严格的测试夹具和突变测试来卡住AI生成的复杂密码学代码，帮你避开代码不可控的坑。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.01702",
+        "reader_url": "https://arxiv.org/pdf/2609.01702",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T07:56:15.146454",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 6542,
+        "title": "AISI 开源 Inspect 沙盒工具包以安全评测 AI Agent",
+        "original_title": "The Inspect Sandboxing Toolkit: Scalable and secure AI agent evaluations   | AISI Work",
+        "summary": "UK AISI 发布开源的 Inspect 沙盒工具包，提供 Docker Compose、Kubernetes 和 Proxmox 插件，通过将模型推理与工具调用环境隔离，安全评测具备代码执行能力的 AI Agent。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_benchmark",
+        "score_total": 74.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做安全评测和红队工具开发的必看。这套沙盒框架直接支持测试 Agent 的沙盒逃逸和网络攻击能力，拿来就能搭评测靶场，解决高能力模型评测时的环境隔离痛点。",
+        "source_id": "aisi-blog",
+        "canonical_url": "https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations",
+        "reader_url": "https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations",
+        "image_url": null,
+        "author": null,
+        "published_at": null,
+        "first_seen_at": "2026-09-03T01:44:14.091990",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 6593,
+        "title": "EarlyEval：通过早期结果预测降低Agent评估成本",
+        "original_title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
+        "summary": "该论文提出EarlyEval框架，通过训练轻量级分类器在Agent执行任务早期预测其最终成败，并在注定失败时提前终止，从而在SWE-bench等基准测试中减少最高26%的步骤和大量Token消耗。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "model_evaluation",
+        "score_total": 73.45,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "安全团队在评估自主漏洞挖掘或渗透测试Agent时常面临高昂的评测成本。EarlyEval的早期预测机制可直接复用，帮你砍掉冗余失败任务的Token开销，让昂贵的安全Benchmark跑得更省更高效。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2609.02783",
+        "reader_url": "https://arxiv.org/pdf/2609.02783",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-03T00:00:00",
+        "first_seen_at": "2026-09-03T06:10:31.729113",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 6810,
+            "title": "PrimSynth：基于多智能体的内核漏洞利用原语合成框架",
+            "original_title": "PrimSynth: An Agentic Approach to Discover, Validate, and Synthesize Exploit Primitives for Linux Kernel Vulnerabilities",
+            "summary": "该论文提出 PrimSynth 多智能体框架，自动发现、验证并合成 Linux 内核内存破坏漏洞的利用原语。在 16 个真实 CVE 上实现了 100% 的原语匹配率及 61.3% 的无 PoC 策略合成率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 86.32,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "对漏洞挖掘研究员而言，PrimSynth 展示了 LLM Agent 在弥合抽象策略与具体内核操作鸿沟上的极高价值。它提供了一个可复现的闭环多智能体范式，直接指明了自动化漏洞利用的落地方向。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.02647",
+            "reader_url": "https://arxiv.org/pdf/2609.02647",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T09:07:16.264178",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 6618,
+            "title": "VulWeaver：通过语义编织增强LLM漏洞检测的上下文推理",
+            "original_title": "VulWeaver: Weaving Broken Semantics for Grounded Vulnerability Detection",
+            "summary": "VulWeaver结合静态分析规则与LLM语义推断构建统一依赖图，提取显隐式漏洞上下文并用元提示引导LLM推理，在PrimeVul4J数据集上F1达0.76，显著优于现有方法。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 86.07,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "直接面向代码审计与漏洞挖掘场景，将静态分析与LLM推理结合的思路值得借鉴。安全团队可参考其上下文提取与元提示方法，改进现有LLM漏洞检测流程，提升误报过滤能力。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2604.10767",
+            "reader_url": "https://arxiv.org/pdf/2604.10767",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T07:53:30.081666",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 6814,
+            "title": "SpiderSapien：结合 LLM 的黑盒 Web 扫描器提升漏洞挖掘深度",
+            "original_title": "SpiderSapien: Client-Centric Web Crawler and Security Scanner",
+            "summary": "论文提出SpiderSapien爬虫与安全扫描器，利用LLM解决表单填充与UI交互排序，提升黑盒Web应用测试的沉浸式交互能力，代码覆盖率提高46%并发现更多XSS漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 85.54,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "适合Web安全工程师和工具开发者。它展示了LLM如何突破传统爬虫在动态页面的瓶颈，解决了表单识别难题。可借鉴其LLM填表思路优化现有DAST工具链。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.02532",
+            "reader_url": "https://arxiv.org/pdf/2609.02532",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T09:08:25.894837",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 6620,
+            "title": "PoC-Gym：基于 LLM 的 Java 漏洞 PoC 可靠生成与验证流水线",
+            "original_title": "PoC-Gym: Towards More Reliable LLM-Assisted Proof-of-Concept Exploit Generation",
+            "summary": "本文提出 PoC-Gym，结合 CVE 定制提示、静态追踪和覆盖率反馈迭代生成 Java 漏洞 PoC，并引入多阶段验证机制。在 20 个 Java CVE 上覆盖 12 个，超越 FaultLine，同时深入分析了「运行时有效但事后无效」的 PoC 失败根源。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 83.56,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞挖掘 Agent 的人必看。PoC 验证信号不可靠是当前 LLM exploit 生成的核心痛点，这篇论文对失败案例的深度分析比成功率数字更有价值，能直接指导你改进 Agent 的验证逻辑和 sink 触发判定。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2602.04165",
+            "reader_url": "https://arxiv.org/pdf/2602.04165",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T07:53:31.448329",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 6628,
+            "title": "固件层自动化漏洞修复：从提交历史挖掘修复模板并定位安全缺陷",
+            "original_title": "From Silicon to Boot Code: Extending Automated Program Repair to Firmware-Layer Security Workarounds",
+            "summary": "研究将字典引导的 APR 方法扩展到 UEFI 固件层，通过自动化提交聚类挖掘器从 EDK II 仓库中发现修复模板，构建四个漏洞定位器均实现 100% 召回率，并发现两个新候选漏洞族。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 81.66,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做固件安全和代码审计的人该看，它证明了从提交历史中自动挖掘漏洞模式并精确定位缺失安全机制的可行性。C 语言族精度偏低是落地障碍，但方法论值得借鉴。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.01769",
+            "reader_url": "https://arxiv.org/pdf/2609.01769",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T07:56:13.617650",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 6830,
+            "title": "行为树引导的轻量级 LLM 漏洞检测方法",
+            "original_title": "Towards Behavior Tree-Guided Vulnerability Detection with Lightweight LLMs",
+            "summary": "该论文提出将源代码转换为行为树（BT）表示，以在轻量级量化本地大模型上提升漏洞检测的召回率和整体性能，解决了 AST 超出上下文窗口的问题。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 81.48,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做代码审计和本地大模型落地的安全人员必看。文章验证了行为树比 AST 更省 token 且在长代码上效果更好，为你用轻量模型做漏洞挖掘提供了实用的代码预处理新思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.01758",
+            "reader_url": "https://arxiv.org/pdf/2609.01758",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T09:20:27.650237",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 6847,
+            "title": "Google 发布安全专用模型 Gemini 3.8 Flash Cyber",
+            "original_title": "🚨 [CYBER AI MODEL] — GOOGLE JUST RELEASED GEMINI 3.8 FLASH CYBER, A SECURITY-SPECIALIZED MODEL BUILT TO AUTONOMOUSLY FIND AND PATCH SOFTWARE VULNERABILITIES  Google says the model ",
+            "summary": "Google 发布专为漏洞发现和自动补丁生成定制的 Gemini 3.8 Flash Cyber 模型，在内部基准测试中成功率超 70%，CWE-Bench 补丁通过率达 47.2%，并通过 Fairwind 项目限制分发给可信防御者。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 79.0,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全团队应关注 AI 原生漏洞管理趋势，将 AI 发现与人工审批分离，重点布局漏洞验证和优先级排序能力，以应对 AI 漏洞发现成本下降带来的补丁堆积风险。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/XQOPTRX/status/2095453518320611440",
+            "reader_url": "https://x.com/XQOPTRX/status/2095453518320611440",
+            "image_url": null,
+            "author": {
+              "username": "XQOPTRX",
+              "name": "CyberSignal | Cybersecurity & AI News",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-03T10:07:05",
+            "first_seen_at": "2026-09-03T10:35:40.238548",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 6343,
+            "title": "OpenAI Astra模型在测试中发现两个0day并构建利用链",
+            "original_title": "🚨 [AI CYBER CAPABILITY UPDATE] — OPENAI SAYS ASTRA HIT 100% ON EXPLOITBENCH, DISCOVERED TWO ZERO-DAYS DURING EVALUATION AND BUILT WORKING BROWSER + ROOT-ESCALATION EXPLOIT CHAINS  ",
+            "summary": "OpenAI宣布其Astra模型在ExploitBench上达到100%成功率，并在安全评估中自主发现两个未知漏洞，成功组合成浏览器逃逸与本地提权攻击链，成为首个获评Critical级别的模型。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 74.7,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI漏洞挖掘从「已知漏洞复现」迈向「自主发现0day并组链」的实战边界。安全团队应立刻审视Agent运行环境的隔离与权限控制，防范高能力自动化攻击工具落地带来的基础设施级威胁。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/XQOPTRX/status/2095181233323901038",
+            "reader_url": "https://x.com/XQOPTRX/status/2095181233323901038",
+            "image_url": null,
+            "author": {
+              "username": "XQOPTRX",
+              "name": "CyberSignal | Cybersecurity & AI News",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-02T16:05:07",
+            "first_seen_at": "2026-09-02T16:13:21.374672",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "knowledge_enhanced": {
+        "label": "知识增强安全",
+        "items": [
+          {
+            "id": 6835,
+            "title": "威胁情报知识图谱抽取评测的可重复性审计",
+            "original_title": "Ranked by the Matcher: A Reproducibility Audit of Knowledge Graph Extraction from Threat Reports",
+            "summary": "论文审查12个威胁情报知识图谱抽取系统，仅5个可复现匹配规则；重新评分逆转11/45成对排序，同一预测集F1跨度达0.16-0.70。作者构建CTIForge工具隔离组件效应，并发布完整管道与审计记录。",
+            "primary_category": "AI for Sec",
+            "sub_category": "knowledge_enhanced",
+            "score_total": 84.16,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做威胁情报知识图谱选型的团队必看：F1 分数因匹配规则差异可跨 0.16-0.70，排名随时反转。CTIForge 提供可复现验证层，直接用于校准 CTI pipeline 评测。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.01671",
+            "reader_url": "https://arxiv.org/pdf/2609.01671",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T09:21:08.386049",
+            "sub_category_label": "知识增强安全"
+          }
+        ]
+      },
+      "alert_triage": {
+        "label": "alert_triage",
+        "items": [
+          {
+            "id": 6816,
+            "title": "RBA缓解安全告警疲劳的系统评估及LLM基线",
+            "original_title": "Can Risk-Based Alerting Mitigate Cybersecurity Alert Fatigue?",
+            "summary": "论文首次系统性评估了基于风险的告警（RBA）方法，将其模块化并在新工具套件CATS中进行测试，发现其能显著减少误报并作为基于LLM的告警分流的强力基线。",
+            "primary_category": "AI for Sec",
+            "sub_category": "alert_triage",
+            "score_total": 83.23,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做SOC自动化和告警分流Agent的团队必看。想用大模型替你筛告警？先拿这篇的RBA基线打个分，别盲目上LLM踩了性能不如传统方法的坑。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.02465",
+            "reader_url": "https://arxiv.org/pdf/2609.02465",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T09:08:27.117528",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "intrusion_detection": {
+        "label": "intrusion_detection",
+        "items": [
+          {
+            "id": 6807,
+            "title": "SPADE：面向车联网 SPaT 攻击检测的多模态数据集",
+            "original_title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
+            "summary": "本文提出 SPADE，一个用于车联网 SPaT 消息应用层攻击检测的多模态模拟数据集。该数据集融合了 SPaT 消息、车载摄像头和 V2V 数据，并已开源以支持可复现的深度学习入侵检测研究。",
+            "primary_category": "AI for Sec",
+            "sub_category": "intrusion_detection",
+            "score_total": 82.25,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做车联网安全的同学值得看。开源了多模态数据集和生成工具，可以直接拿来做入侵检测模型的基准测试，省去自己造数据的麻烦。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.02741",
+            "reader_url": "https://arxiv.org/pdf/2609.02741",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T09:06:33.610244",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 6795,
+            "title": "用 LLM 自动注入智能合约漏洞以评估检测工具",
+            "original_title": "Automated Vulnerability Injection in Smart Contracts Using Large Language Models",
+            "summary": "该论文提出使用大语言模型自动向 Solidity 智能合约注入漏洞以构建评测数据集，通过多步流水线验证生成合约，并利用存活合约评估三种静态分析器的检测能力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 81.58,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "用 LLM 自动造漏洞数据集这条路被验证可行，但 16% 的存活率说明语义保持仍是硬骨头。做智能合约安全评测和 fuzzing 的人可以参考其验证流水线设计，避坑 LLM 非确定性带来的语义破坏。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.02624",
+            "reader_url": "https://arxiv.org/pdf/2609.02624",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T09:04:15.133513",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 6815,
+            "title": "警惕ML入侵检测系统的「有效性错觉」与泛化短板",
+            "original_title": "Evaluating ML-based Intrusion Detection Systems: The Illusion of Model Efficacy",
+            "summary": "论文指出基于机器学习的入侵检测系统在未见过的新型攻击上泛化能力差，揭示了现有评估方法的结构性弱点，并提出了七项评估标准。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 78.26,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "搞检测引擎和买安全产品的都该看。别被刷榜指标骗了，拿这七条标准测一测你的ML-IDS面对未知攻击还剩几成功力，免得上线就被打穿。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.02469",
+            "reader_url": "https://arxiv.org/pdf/2609.02469",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T09:08:26.526635",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "cyber_llm": {
+        "label": "cyber_llm",
+        "items": [
+          {
+            "id": 6353,
+            "title": "谷歌发布 Gemini 3.8 Flash 及网络安全专用模型 Flash Cyber",
+            "original_title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+            "summary": "Google DeepMind 推出 Gemini 3.8 Flash，并发布了专为网络安全场景设计的 Gemini 3.8 Flash Cyber 模型。",
+            "primary_category": "AI for Sec",
+            "sub_category": "cyber_llm",
+            "score_total": 79.2,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "谷歌亲自下场做专用安全模型，说明 AI 赋能安全已成巨头共识。安全团队应关注其在威胁检测和代码审计中的实际表现，评估是否接入当前工具链。",
+            "source_id": "deepmind-blog",
+            "canonical_url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+            "reader_url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-02T16:18:31",
+            "first_seen_at": "2026-09-02T17:01:33.164630",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "threat_intel_analysis": {
+        "label": "threat_intel_analysis",
+        "items": [
+          {
+            "id": 6715,
+            "title": "用图神经网络优化比特币地址聚类启发式方法",
+            "original_title": "Refining Heuristic-Based Bitcoin Address Clustering with Graph Neural Networks",
+            "summary": "本文提出利用图神经网络生成的对比嵌入来改进比特币地址聚类，解决传统启发式方法易误合并用户的问题，并发布了公开交易图数据集。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_intel_analysis",
+            "score_total": 77.83,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "将 GNN 引入比特币交易图谱分析，为减少启发式聚类误报提供了可量化标准。做区块链威胁情报和资金追踪的分析师可直接参考其公开数据集，提升地址归因准确度。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.01942",
+            "reader_url": "https://arxiv.org/pdf/2609.01942",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T08:29:38.476231",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "wireless_security": {
+        "label": "wireless_security",
+        "items": [
+          {
+            "id": 6823,
+            "title": "C2T-OpenMax：基于中心约束的WiFi射频指纹开集识别新方法",
+            "original_title": "C$^2$T-OpenMax: A Novel Open-Set WiFi RF Fingerprinting Method via Center Constrained Learning and Confidence-Guided Tail Modeling",
+            "summary": "提出C2T-OpenMax框架，结合中心约束学习与置信度引导尾部建模，解决WiFi射频指纹在跨环境开集识别中的特征分散问题，显著提升了识别准确率和鲁棒性。",
+            "primary_category": "AI for Sec",
+            "sub_category": "wireless_security",
+            "score_total": 77.13,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做物联网和无线安全的研究者可以关注，该方法解决了数据增强导致的类表示分散问题，为射频指纹识别在复杂环境下的落地提供了新思路，可直接在公开数据集上复现验证。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.02007",
+            "reader_url": "https://arxiv.org/pdf/2609.02007",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T09:17:29.101924",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "penetration_testing": {
+        "label": "渗透测试",
+        "items": [
+          {
+            "id": 6564,
+            "title": "Deep Eye：多模型协同的 AI 驱动渗透测试工具",
+            "original_title": "👾 Deep Eye - Advanced AI-Driven Penetration Testing Tool  Deep Eye orchestrates multiple AI providers (OpenAI, Claude, Grok, Gemini, OLLAMA, Groq, Mistral, OpenRouter, OrcaRouter, ",
+            "summary": "Deep Eye 整合多个大模型提供商生成测试载荷，支持 50 余种漏洞检测并自动生成合规报告。",
+            "primary_category": "AI for Sec",
+            "sub_category": "penetration_testing",
+            "score_total": 75.35,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "一线红队和渗透测试人员必看。该工具展示了如何编排多模型生成 payload 并自动化漏洞扫描，是构建内部 AI 渗透流水线的高价值参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/bountywriteups/status/2095356778435465232",
+            "reader_url": "https://x.com/bountywriteups/status/2095356778435465232",
+            "image_url": "https://pbs.twimg.com/media/HRQz4SIbYAA61IA.jpg",
+            "author": {
+              "username": "bountywriteups",
+              "name": "𝕏 Bug Bounty Writeups 𝕏",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-03T03:42:40",
+            "first_seen_at": "2026-09-03T03:47:40.794404",
+            "sub_category_label": "渗透测试"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_benchmark | agent_security": {
+        "label": "security_benchmark | agent_security",
+        "items": [
+          {
+            "id": 6630,
+            "title": "RosettaBitcoin经验报告：使用验证设施审计Agent辅助代码",
+            "original_title": "RosettaBitcoin: An Artifact-Backed Experience Report on Verification Infrastructure for Agent-Assisted Consensus Validators",
+            "summary": "本文以RosettaBitcoin项目为例，研究了如何使用证据数据库、测试夹具和突变测试等验证基础设施，对AI Agent辅助生成的比特币共识节点进行安全审计与正确性验证。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_benchmark | agent_security",
+            "score_total": 77.58,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "如果你的团队在用AI写代码，这篇报告的验证和审计设施构建思路值得借鉴。它展示了如何用严格的测试夹具和突变测试来卡住AI生成的复杂密码学代码，帮你避开代码不可控的坑。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.01702",
+            "reader_url": "https://arxiv.org/pdf/2609.01702",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T07:56:15.146454",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 6542,
+            "title": "AISI 开源 Inspect 沙盒工具包以安全评测 AI Agent",
+            "original_title": "The Inspect Sandboxing Toolkit: Scalable and secure AI agent evaluations   | AISI Work",
+            "summary": "UK AISI 发布开源的 Inspect 沙盒工具包，提供 Docker Compose、Kubernetes 和 Proxmox 插件，通过将模型推理与工具调用环境隔离，安全评测具备代码执行能力的 AI Agent。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_benchmark",
+            "score_total": 74.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全评测和红队工具开发的必看。这套沙盒框架直接支持测试 Agent 的沙盒逃逸和网络攻击能力，拿来就能搭评测靶场，解决高能力模型评测时的环境隔离痛点。",
+            "source_id": "aisi-blog",
+            "canonical_url": "https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations",
+            "reader_url": "https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations",
+            "image_url": null,
+            "author": null,
+            "published_at": null,
+            "first_seen_at": "2026-09-03T01:44:14.091990",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 6765,
+            "title": "READY框架：评估企业级AI Agent部署的可靠性",
+            "original_title": "READY or Not: Reliable Enterprise Agent Deployment",
+            "summary": "提出READY框架，通过评估可靠性、监督成本和运行成本，为企业部署AI Agent提供资格认证，并在临床审计案例中验证。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 73.57,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做安全Agent落地别只盯着跑分，真实部署的监督成本和可靠性才是关键。这篇的开源评测框架能直接帮你算清安全运营中「人机协同」的账。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.02095",
+            "reader_url": "https://arxiv.org/pdf/2609.02095",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T08:51:52.024551",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 6593,
+            "title": "EarlyEval：通过早期结果预测降低Agent评估成本",
+            "original_title": "EarlyEval: Cheaper Agent Evaluation via Early Outcome Prediction",
+            "summary": "该论文提出EarlyEval框架，通过训练轻量级分类器在Agent执行任务早期预测其最终成败，并在注定失败时提前终止，从而在SWE-bench等基准测试中减少最高26%的步骤和大量Token消耗。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "model_evaluation",
+            "score_total": 73.45,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "安全团队在评估自主漏洞挖掘或渗透测试Agent时常面临高昂的评测成本。EarlyEval的早期预测机制可直接复用，帮你砍掉冗余失败任务的Token开销，让昂贵的安全Benchmark跑得更省更高效。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2609.02783",
+            "reader_url": "https://arxiv.org/pdf/2609.02783",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-03T00:00:00",
+            "first_seen_at": "2026-09-03T06:10:31.729113",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 6810,
+      "title": "PrimSynth：基于多智能体的内核漏洞利用原语合成框架",
+      "original_title": "PrimSynth: An Agentic Approach to Discover, Validate, and Synthesize Exploit Primitives for Linux Kernel Vulnerabilities",
+      "summary": "该论文提出 PrimSynth 多智能体框架，自动发现、验证并合成 Linux 内核内存破坏漏洞的利用原语。在 16 个真实 CVE 上实现了 100% 的原语匹配率及 61.3% 的无 PoC 策略合成率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 86.32,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对漏洞挖掘研究员而言，PrimSynth 展示了 LLM Agent 在弥合抽象策略与具体内核操作鸿沟上的极高价值。它提供了一个可复现的闭环多智能体范式，直接指明了自动化漏洞利用的落地方向。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.02647",
+      "reader_url": "https://arxiv.org/pdf/2609.02647",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:07:16.264178",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6618,
+      "title": "VulWeaver：通过语义编织增强LLM漏洞检测的上下文推理",
+      "original_title": "VulWeaver: Weaving Broken Semantics for Grounded Vulnerability Detection",
+      "summary": "VulWeaver结合静态分析规则与LLM语义推断构建统一依赖图，提取显隐式漏洞上下文并用元提示引导LLM推理，在PrimeVul4J数据集上F1达0.76，显著优于现有方法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 86.07,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "直接面向代码审计与漏洞挖掘场景，将静态分析与LLM推理结合的思路值得借鉴。安全团队可参考其上下文提取与元提示方法，改进现有LLM漏洞检测流程，提升误报过滤能力。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2604.10767",
+      "reader_url": "https://arxiv.org/pdf/2604.10767",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T07:53:30.081666",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6814,
+      "title": "SpiderSapien：结合 LLM 的黑盒 Web 扫描器提升漏洞挖掘深度",
+      "original_title": "SpiderSapien: Client-Centric Web Crawler and Security Scanner",
+      "summary": "论文提出SpiderSapien爬虫与安全扫描器，利用LLM解决表单填充与UI交互排序，提升黑盒Web应用测试的沉浸式交互能力，代码覆盖率提高46%并发现更多XSS漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 85.54,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "适合Web安全工程师和工具开发者。它展示了LLM如何突破传统爬虫在动态页面的瓶颈，解决了表单识别难题。可借鉴其LLM填表思路优化现有DAST工具链。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.02532",
+      "reader_url": "https://arxiv.org/pdf/2609.02532",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:08:25.894837",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6835,
+      "title": "威胁情报知识图谱抽取评测的可重复性审计",
+      "original_title": "Ranked by the Matcher: A Reproducibility Audit of Knowledge Graph Extraction from Threat Reports",
+      "summary": "论文审查12个威胁情报知识图谱抽取系统，仅5个可复现匹配规则；重新评分逆转11/45成对排序，同一预测集F1跨度达0.16-0.70。作者构建CTIForge工具隔离组件效应，并发布完整管道与审计记录。",
+      "primary_category": "AI for Sec",
+      "sub_category": "knowledge_enhanced",
+      "score_total": 84.16,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做威胁情报知识图谱选型的团队必看：F1 分数因匹配规则差异可跨 0.16-0.70，排名随时反转。CTIForge 提供可复现验证层，直接用于校准 CTI pipeline 评测。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.01671",
+      "reader_url": "https://arxiv.org/pdf/2609.01671",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:21:08.386049",
+      "sub_category_label": "知识增强安全"
+    },
+    {
+      "id": 6620,
+      "title": "PoC-Gym：基于 LLM 的 Java 漏洞 PoC 可靠生成与验证流水线",
+      "original_title": "PoC-Gym: Towards More Reliable LLM-Assisted Proof-of-Concept Exploit Generation",
+      "summary": "本文提出 PoC-Gym，结合 CVE 定制提示、静态追踪和覆盖率反馈迭代生成 Java 漏洞 PoC，并引入多阶段验证机制。在 20 个 Java CVE 上覆盖 12 个，超越 FaultLine，同时深入分析了「运行时有效但事后无效」的 PoC 失败根源。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.56,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘 Agent 的人必看。PoC 验证信号不可靠是当前 LLM exploit 生成的核心痛点，这篇论文对失败案例的深度分析比成功率数字更有价值，能直接指导你改进 Agent 的验证逻辑和 sink 触发判定。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2602.04165",
+      "reader_url": "https://arxiv.org/pdf/2602.04165",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T07:53:31.448329",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6816,
+      "title": "RBA缓解安全告警疲劳的系统评估及LLM基线",
+      "original_title": "Can Risk-Based Alerting Mitigate Cybersecurity Alert Fatigue?",
+      "summary": "论文首次系统性评估了基于风险的告警（RBA）方法，将其模块化并在新工具套件CATS中进行测试，发现其能显著减少误报并作为基于LLM的告警分流的强力基线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "alert_triage",
+      "score_total": 83.23,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做SOC自动化和告警分流Agent的团队必看。想用大模型替你筛告警？先拿这篇的RBA基线打个分，别盲目上LLM踩了性能不如传统方法的坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.02465",
+      "reader_url": "https://arxiv.org/pdf/2609.02465",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:08:27.117528",
+      "sub_category_label": null
+    },
+    {
+      "id": 6807,
+      "title": "SPADE：面向车联网 SPaT 攻击检测的多模态数据集",
+      "original_title": "SPADE: SPaT Attack Detection from the Connected Vehicle's Perspective",
+      "summary": "本文提出 SPADE，一个用于车联网 SPaT 消息应用层攻击检测的多模态模拟数据集。该数据集融合了 SPaT 消息、车载摄像头和 V2V 数据，并已开源以支持可复现的深度学习入侵检测研究。",
+      "primary_category": "AI for Sec",
+      "sub_category": "intrusion_detection",
+      "score_total": 82.25,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做车联网安全的同学值得看。开源了多模态数据集和生成工具，可以直接拿来做入侵检测模型的基准测试，省去自己造数据的麻烦。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.02741",
+      "reader_url": "https://arxiv.org/pdf/2609.02741",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T09:06:33.610244",
+      "sub_category_label": null
+    },
+    {
+      "id": 6628,
+      "title": "固件层自动化漏洞修复：从提交历史挖掘修复模板并定位安全缺陷",
+      "original_title": "From Silicon to Boot Code: Extending Automated Program Repair to Firmware-Layer Security Workarounds",
+      "summary": "研究将字典引导的 APR 方法扩展到 UEFI 固件层，通过自动化提交聚类挖掘器从 EDK II 仓库中发现修复模板，构建四个漏洞定位器均实现 100% 召回率，并发现两个新候选漏洞族。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 81.66,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做固件安全和代码审计的人该看，它证明了从提交历史中自动挖掘漏洞模式并精确定位缺失安全机制的可行性。C 语言族精度偏低是落地障碍，但方法论值得借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.01769",
+      "reader_url": "https://arxiv.org/pdf/2609.01769",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T07:56:13.617650",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 21,
+    "highlight_count": 10,
+    "paper_count": 16,
+    "source_count": 5,
+    "top_score": 86,
+    "category_count": {
+      "AI for Sec": 17,
+      "AI Tech": 1,
+      "AI for Sec | Sec for AI": 1,
+      "AI for Sec | AI Tech": 1,
+      "AI Tech | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 8
+        },
+        "knowledge_enhanced": {
+          "label": "知识增强安全",
+          "count": 1
+        },
+        "alert_triage": {
+          "label": "alert_triage",
+          "count": 1
+        },
+        "intrusion_detection": {
+          "label": "intrusion_detection",
+          "count": 1
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 2
+        },
+        "cyber_llm": {
+          "label": "cyber_llm",
+          "count": 1
+        },
+        "threat_intel_analysis": {
+          "label": "threat_intel_analysis",
+          "count": 1
+        },
+        "wireless_security": {
+          "label": "wireless_security",
+          "count": 1
+        },
+        "penetration_testing": {
+          "label": "渗透测试",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_benchmark | agent_security": {
+          "label": "security_benchmark | agent_security",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 17,
+      "top_score": 86,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 1,
+      "top_score": 74,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "得分最高的PrimSynth证明了多智能体在搞内核级漏洞利用时已经能打出真实CVE，团队得赶紧研究怎么用Agent编排打通从发现到利用的全链路。另外用大模型解决Web扫描里的表单填充和静态分析里的上下文提取也是能直接落地提效的点，建议马上在自研工具链里试试水。",
+  "method_note": "按北京时间 2026-09-03 的系统入库窗口筛选，从 21 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "aisi-blog",
+    "arxiv-ai-security",
+    "deepmind-blog",
+    "huggingface-daily-papers",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# PrimSynth：基于多智能体的内核漏洞利用原语合成框架\n\n顶部图：未生成\n\n## 今日概览\n- 今天的情报全在漏洞挖掘这一个点上，大模型正从代码审计、内核利用原语到黑盒Web扫描全面接管那些吃人工经验的脏活累活。AI搞安全的重心已经从理论探讨转向真正能跑通闭环的实战工具。\n- 01 对漏洞挖掘研究员而言，PrimSynth 展示了 LLM Agent 在弥合抽象策略与具体内核操作鸿沟上的极高价值。它提供了一个可复现的闭环多智能体范式，直接指明了自动化漏洞利用的落地方向。\n- 02 直接面向代码审计与漏洞挖掘场景，将静态分析与LLM推理结合的思路值得借鉴。安全团队可参考其上下文提取与元提示方法，改进现有LLM漏洞检测流程，提升误报过滤能力。\n- 03 适合Web安全工程师和工具开发者。它展示了LLM如何突破传统爬虫在动态页面的瓶颈，解决了表单识别难题。可借鉴其LLM填表思路优化现有DAST工具链。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **PrimSynth：基于多智能体的内核漏洞利用原语合成框架**：对漏洞挖掘研究员而言，PrimSynth 展示了 LLM Agent 在弥合抽象策略与具体内核操作鸿沟上的极高价值。它提供了一个可复现的闭环多智能体范式，直接指明了自动化漏洞利用的落地方向。 来源：arxiv-ai-security\n- **VulWeaver：通过语义编织增强LLM漏洞检测的上下文推理**：直接面向代码审计与漏洞挖掘场景，将静态分析与LLM推理结合的思路值得借鉴。安全团队可参考其上下文提取与元提示方法，改进现有LLM漏洞检测流程，提升误报过滤能力。 来源：arxiv-ai-security\n- **SpiderSapien：结合 LLM 的黑盒 Web 扫描器提升漏洞挖掘深度**：适合Web安全工程师和工具开发者。它展示了LLM如何突破传统爬虫在动态页面的瓶颈，解决了表单识别难题。可借鉴其LLM填表思路优化现有DAST工具链。 来源：arxiv-ai-security\n\n## 也值得关注\n- 威胁情报知识图谱抽取评测的可重复性审计（84.16）\n- PoC-Gym：基于 LLM 的 Java 漏洞 PoC 可靠生成与验证流水线（83.56）\n- RBA缓解安全告警疲劳的系统评估及LLM基线（83.23）\n- SPADE：面向车联网 SPaT 攻击检测的多模态数据集（82.25）\n- 固件层自动化漏洞修复：从提交历史挖掘修复模板并定位安全缺陷（81.66）\n- 用 LLM 自动注入智能合约漏洞以评估检测工具（81.58）\n\n## AI for Sec\n\n### 漏洞挖掘\n- PrimSynth：基于多智能体的内核漏洞利用原语合成框架（86.32）\n- VulWeaver：通过语义编织增强LLM漏洞检测的上下文推理（86.07）\n- SpiderSapien：结合 LLM 的黑盒 Web 扫描器提升漏洞挖掘深度（85.54）\n- PoC-Gym：基于 LLM 的 Java 漏洞 PoC 可靠生成与验证流水线（83.56）\n- 固件层自动化漏洞修复：从提交历史挖掘修复模板并定位安全缺陷（81.66）\n\n### 知识增强安全\n- 威胁情报知识图谱抽取评测的可重复性审计（84.16）\n\n### alert_triage\n- RBA缓解安全告警疲劳的系统评估及LLM基线（83.23）\n\n### intrusion_detection\n- SPADE：面向车联网 SPaT 攻击检测的多模态数据集（82.25）\n\n### 安全评测与Benchmark\n- 用 LLM 自动注入智能合约漏洞以评估检测工具（81.58）\n- 警惕ML入侵检测系统的「有效性错觉」与泛化短板（78.26）\n\n### cyber_llm\n- 谷歌发布 Gemini 3.8 Flash 及网络安全专用模型 Flash Cyber（79.2）\n\n### threat_intel_analysis\n- 用图神经网络优化比特币地址聚类启发式方法（77.83）\n\n### wireless_security\n- C2T-OpenMax：基于中心约束的WiFi射频指纹开集识别新方法（77.13）\n\n### 渗透测试\n- Deep Eye：多模型协同的 AI 驱动渗透测试工具（75.35）\n\n## AI Tech\n\n### 模型评测\n- READY框架：评估企业级AI Agent部署的可靠性（73.57）\n\n## 今日论文\n- PrimSynth：基于多智能体的内核漏洞利用原语合成框架\n- VulWeaver：通过语义编织增强LLM漏洞检测的上下文推理\n- SpiderSapien：结合 LLM 的黑盒 Web 扫描器提升漏洞挖掘深度\n- 威胁情报知识图谱抽取评测的可重复性审计\n- PoC-Gym：基于 LLM 的 Java 漏洞 PoC 可靠生成与验证流水线\n- RBA缓解安全告警疲劳的系统评估及LLM基线\n- SPADE：面向车联网 SPaT 攻击检测的多模态数据集\n- 固件层自动化漏洞修复：从提交历史挖掘修复模板并定位安全缺陷\n\n## 今日观察\n得分最高的PrimSynth证明了多智能体在搞内核级漏洞利用时已经能打出真实CVE，团队得赶紧研究怎么用Agent编排打通从发现到利用的全链路。另外用大模型解决Web扫描里的表单填充和静态分析里的上下文提取也是能直接落地提效的点，建议马上在自研工具链里试试水。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n\n方法说明：按北京时间 2026-09-03 的系统入库窗口筛选，从 21 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-04T00:01:22+08:00"
+}
