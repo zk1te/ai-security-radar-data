@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T20:13:54+08:00",
+  "updated_at": "2026-09-03T20:47:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -189,23 +189,23 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 6715,
-      "title": "用图神经网络优化比特币地址聚类启发式方法",
-      "original_title": "Refining Heuristic-Based Bitcoin Address Clustering with Graph Neural Networks",
-      "summary": "本文提出利用图神经网络生成的对比嵌入来改进比特币地址聚类，解决传统启发式方法易误合并用户的问题，并发布了公开交易图数据集。",
+      "id": 6823,
+      "title": "C2T-OpenMax：基于中心约束的WiFi射频指纹开集识别新方法",
+      "original_title": "C$^2$T-OpenMax: A Novel Open-Set WiFi RF Fingerprinting Method via Center Constrained Learning and Confidence-Guided Tail Modeling",
+      "summary": "提出C2T-OpenMax框架，结合中心约束学习与置信度引导尾部建模，解决WiFi射频指纹在跨环境开集识别中的特征分散问题，显著提升了识别准确率和鲁棒性。",
       "primary_category": "AI for Sec",
-      "sub_category": "threat_intel_analysis",
-      "score_total": 77.83,
+      "sub_category": "wireless_security",
+      "score_total": 77.13,
       "include_status": "highlight",
       "item_type": "paper",
-      "recommendation_reason": "将 GNN 引入比特币交易图谱分析，为减少启发式聚类误报提供了可量化标准。做区块链威胁情报和资金追踪的分析师可直接参考其公开数据集，提升地址归因准确度。",
+      "recommendation_reason": "做物联网和无线安全的研究者可以关注，该方法解决了数据增强导致的类表示分散问题，为射频指纹识别在复杂环境下的落地提供了新思路，可直接在公开数据集上复现验证。",
       "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.01942",
-      "reader_url": "https://arxiv.org/pdf/2609.01942",
+      "canonical_url": "https://arxiv.org/abs/2609.02007",
+      "reader_url": "https://arxiv.org/pdf/2609.02007",
       "image_url": null,
       "author": null,
       "published_at": "2026-09-03T00:00:00",
-      "first_seen_at": "2026-09-03T08:29:38.476231",
+      "first_seen_at": "2026-09-03T09:17:29.101924",
       "sub_category_label": null
     }
   ]
