@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-03T10:12:46+08:00",
+  "updated_at": "2026-09-03T10:45:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 6482,
@@ -135,29 +135,6 @@
       "first_seen_at": "2026-09-03T01:37:00.156971"
     },
     {
-      "id": 6455,
-      "title": "RevEng_AI 发布新一代 AI 反编译器 Ventris",
-      "original_title": "RT @pr0me: today, we @RevEng_AI released the next generation of our decompiler: Ventris  the new model comes with improved struct layout re…",
-      "summary": "RevEng_AI 推出名为 Ventris 的新一代 AI 反编译器模型，重点提升了结构布局恢复能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 68.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "二进制安全从业者应关注，AI 反编译器在结构体恢复上的进展可能显著提升逆向分析效率，值得评估其与传统工具的差距。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2095262857541669350",
-      "reader_url": "https://x.com/HackingLZ/status/2095262857541669350",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T21:29:27",
-      "first_seen_at": "2026-09-02T22:21:01.501826"
-    },
-    {
       "id": 6464,
       "title": "Codex安全Agent实测：Golang项目威胁建模成本超2美元",
       "original_title": "running the Codex Security agent harness through a code base and btw just its Threat Modeling scope of work exceeded $2 in cost for a typical Golang application using Sol on High r",
@@ -181,29 +158,6 @@
       "first_seen_at": "2026-09-02T23:25:09.772445"
     },
     {
-      "id": 6458,
-      "title": "谷歌发布 Gemini 3.8 Flash Cyber 安全专用模型",
-      "original_title": "RT @sundarpichai: We’re also introducing Gemini 3.8 Flash Cyber, our most capable cybersecurity model. It shows frontier-level performance…",
-      "summary": "谷歌 CEO 宣布推出 Gemini 3.8 Flash Cyber 网络安全模型，称其展现出前沿水平的性能表现。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_model",
-      "score_total": 67.05,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "大厂推出安全专用大模型，标志着 AI 深入安全垂直场景。安全团队应关注其能力上限，评估能否接入现有威胁检测与安全运营工作流。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pentest_swissky/status/2095235306706387229",
-      "reader_url": "https://x.com/pentest_swissky/status/2095235306706387229",
-      "image_url": null,
-      "author": {
-        "username": "pentest_swissky",
-        "name": "Swissky",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T19:39:59",
-      "first_seen_at": "2026-09-02T22:21:33.031461"
-    },
-    {
       "id": 6547,
       "title": "Packt 出版《Agentic AI for Offensive Cybersecurity》：用 AI 驱动 Agent 构建自动化渗透测试流程",
       "original_title": "Agentic AI for Offensive Cybersecurity — Build and Automate Smarter Penetration Testing Workflows using AI-driven Agents: https://t.co/szCbmoFltS via @PacktPublishing https://t.co/",
@@ -225,6 +179,29 @@
       },
       "published_at": "2026-09-03T02:05:05",
       "first_seen_at": "2026-09-03T02:06:17.638104"
+    },
+    {
+      "id": 6494,
+      "title": "HN 热议：Anthropic 发布 Claude Fable 与 Mythos 5.1",
+      "original_title": "HN Hot Discussion: Claude Fable 5.1 and Claude Mythos 5.1",
+      "summary": "Hacker News 热门讨论 Anthropic 最新发布的 Claude Fable 5.1 和 Claude Mythos 5.1 模型。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "vuln_discovery | model_evaluation",
+      "score_total": 64.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Claude Mythos 的网络能力跃迁直接关系到 AI 辅助漏洞挖掘的产业化进程，安全团队应密切关注其漏洞发现能力及潜在防御应对策略。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-03",
+      "reader_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-03",
+      "image_url": null,
+      "author": {
+        "username": "meetpateltech",
+        "name": "meetpateltech",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T18:01:24",
+      "first_seen_at": "2026-09-03T00:12:03.515422"
     }
   ]
 }
