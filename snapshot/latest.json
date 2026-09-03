@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T08:36:03+08:00",
+  "updated_at": "2026-09-03T09:09:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -72,29 +72,6 @@
       },
       "published_at": "2026-09-02T13:43:14",
       "first_seen_at": "2026-09-03T00:11:01.804446"
-    },
-    {
-      "id": 6429,
-      "title": "Google推出Fairwind计划：用AI自主挖掘并修复漏洞",
-      "original_title": "Google has launched the Fairwind Program, a limited-access program giving trusted Google Cloud customers, government agencies and cybersecurity partners access to advanced AI cyber",
-      "summary": "Google推出限量访问的Fairwind计划，结合Gemini大模型与CodeMender工具，帮助政府及关键基础设施客户自主发现、验证软件漏洞并生成可部署补丁。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "大厂开始把 AI 漏洞修复打包成闭环安全服务。安全团队应关注这种 Agent 化的自动化运营模式，提前思考自身漏洞响应流程如何与 AI 工具结合。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rubbletag/status/2095248632467603537",
-      "reader_url": "https://x.com/rubbletag/status/2095248632467603537",
-      "image_url": "https://pbs.twimg.com/media/HRPRg-WaYAAPQgQ.png",
-      "author": {
-        "username": "rubbletag",
-        "name": "Rubbletag",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T20:32:56",
-      "first_seen_at": "2026-09-02T20:42:46.908678"
     },
     {
       "id": 6443,
@@ -229,6 +206,29 @@
       },
       "published_at": "2026-09-01T18:01:24",
       "first_seen_at": "2026-09-03T00:12:03.515422"
+    },
+    {
+      "id": 6436,
+      "title": "利用 AI 迭代改写 Fuzzilli Profile 优化模糊测试的思路",
+      "original_title": "I took some time to read this article (finally had some time today), and it was really cool to see this research. Last year, I tried something similar, where I used AI to rewrite F",
+      "summary": "推文作者分享了用 AI 改写并迭代 Fuzzilli 配置以提升模糊测试效果的研究，并提到自己去年曾因 token 成本过高而搁置类似尝试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 61.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Fuzzing 从业者可关注此方向。随着大模型 token 成本下降，用 LLM 自动迭代生成 fuzzing profile 的想法变得更具可操作性，值得在 JS 引擎等复杂目标上探索落地。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/davi1337_/status/2095254306316550591",
+      "reader_url": "https://x.com/davi1337_/status/2095254306316550591",
+      "image_url": null,
+      "author": {
+        "username": "davi1337_",
+        "name": "DaviMatsuyama",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T20:55:29",
+      "first_seen_at": "2026-09-02T21:15:08.230532"
     }
   ]
 }
