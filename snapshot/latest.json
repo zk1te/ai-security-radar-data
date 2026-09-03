@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-03T16:14:32+08:00",
+  "updated_at": "2026-09-03T16:50:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 6618,
@@ -65,6 +65,26 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 6715,
+      "title": "用图神经网络优化比特币地址聚类启发式方法",
+      "original_title": "Refining Heuristic-Based Bitcoin Address Clustering with Graph Neural Networks",
+      "summary": "本文提出利用图神经网络生成的对比嵌入来改进比特币地址聚类，解决传统启发式方法易误合并用户的问题，并发布了公开交易图数据集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_intel_analysis",
+      "score_total": 77.83,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "将 GNN 引入比特币交易图谱分析，为减少启发式聚类误报提供了可量化标准。做区块链威胁情报和资金追踪的分析师可直接参考其公开数据集，提升地址归因准确度。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.01942",
+      "reader_url": "https://arxiv.org/pdf/2609.01942",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-03T00:00:00",
+      "first_seen_at": "2026-09-03T08:29:38.476231",
+      "sub_category_label": null
+    },
+    {
       "id": 6630,
       "title": "RosettaBitcoin经验报告：使用验证设施审计Agent辅助代码",
       "original_title": "RosettaBitcoin: An Artifact-Backed Experience Report on Verification Infrastructure for Agent-Assisted Consensus Validators",
@@ -103,30 +123,6 @@
       "published_at": "2026-09-03T00:00:00",
       "first_seen_at": "2026-09-03T06:10:31.729113",
       "sub_category_label": null
-    },
-    {
-      "id": 6567,
-      "title": "DeepTeam：开源大模型红队测试框架",
-      "original_title": "👾 DeepTeam - The LLM Red Teaming Framework  DeepTeam is a simple-to-use, open-source red teaming framework for LLM systems. Think of it as penetration testing, but for LLMs. DeepTe",
-      "summary": "DeepTeam 是一款开源的 LLM 红队测试框架，支持模拟越狱、提示注入和多轮攻击，帮助发现 AI 智能体和 RAG 管道中的漏洞并提供防护。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 72.8,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全测试人员可直接本地部署该工具，对自研大模型应用进行自动化漏洞挖掘，快速验证 PII 泄露和注入等风险面。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/bountywriteups/status/2095359640930508898",
-      "reader_url": "https://x.com/bountywriteups/status/2095359640930508898",
-      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HRQ2cTebUAAG9tC.jpg",
-      "author": {
-        "username": "bountywriteups",
-        "name": "𝕏 Bug Bounty Writeups 𝕏",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T03:54:02",
-      "first_seen_at": "2026-09-03T04:20:15.845584",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 6629,
@@ -187,26 +183,6 @@
       "published_at": "2026-09-03T00:00:00",
       "first_seen_at": "2026-09-03T07:53:10.736747",
       "sub_category_label": null
-    },
-    {
-      "id": 6582,
-      "title": "ExecRetrieval：评估代码嵌入检索的功能正确性差距",
-      "original_title": "ExecRetrieval: Measuring the Functional-Correctness Gap in Code-Embedding Retrieval",
-      "summary": "该论文提出ExecRetrieval基准测试，通过引入执行验证的微小变异错误代码作为干扰项，评估23种代码嵌入模型。结果显示顶级模型在首位检索中极易被功能不正确的近克隆代码误导。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 70.64,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "代码检索模型难以区分近克隆错误代码，这对基于RAG的安全代码审计或漏洞挖掘Agent是重要预警。做安全分析工具的开发者需关注此评测，重新评估检索增强方案在安全场景下的可靠性。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.01865",
-      "reader_url": "https://arxiv.org/pdf/2609.01865",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-03T00:00:00",
-      "first_seen_at": "2026-09-03T06:08:52.926256",
-      "sub_category_label": "模型评测"
     }
   ]
 }
