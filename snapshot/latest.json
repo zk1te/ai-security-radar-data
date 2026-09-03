@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T02:19:13+08:00",
+  "updated_at": "2026-09-04T02:50:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 6941,
@@ -27,6 +27,30 @@
       "published_at": "2026-09-03T16:13:40",
       "first_seen_at": "2026-09-03T16:41:47.671128",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 7001,
+      "title": "OpenAI拟向关键基础设施开放前沿AI安全工具",
+      "original_title": "🚨 [AI CYBER DEFENSE] — OPENAI IS CONVENING ~300 SECURITY LEADERS TODAY AS IT PREPARES TO EXPAND FRONTIER AI ACCESS FOR CRITICAL INFRASTRUCTURE DEFENDERS  Fortune 100 CISOs and ente",
+      "summary": "OpenAI 召集数百名安全高管，拟扩大 Daybreak 等安全工具在关键基础设施的访问权限，其即将推出的 Astra 模型已越过自主发现未知漏洞的网络安全能力阈值。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.6,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "前沿模型在漏洞发现和红队测试上达到新阈值，安全团队需立即关注如何受控引入这些 AI 防御工具。从业者应借此审视现有 AI 访问控制与审计机制，避免双刃剑风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/XQOPTRX/status/2095570891337769000",
+      "reader_url": "https://x.com/XQOPTRX/status/2095570891337769000",
+      "image_url": null,
+      "author": {
+        "username": "XQOPTRX",
+        "name": "CyberSignal | Cybersecurity & AI News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T17:53:28",
+      "first_seen_at": "2026-09-03T18:25:14.479118",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 6989,
