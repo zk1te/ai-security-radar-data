@@ -1,49 +1,9 @@
 {
-  "updated_at": "2026-09-03T21:19:14+08:00",
+  "updated_at": "2026-09-03T21:50:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 5,
   "items": [
-    {
-      "id": 6835,
-      "title": "威胁情报知识图谱抽取评测的可重复性审计",
-      "original_title": "Ranked by the Matcher: A Reproducibility Audit of Knowledge Graph Extraction from Threat Reports",
-      "summary": "论文审查12个威胁情报知识图谱抽取系统，仅5个可复现匹配规则；重新评分逆转11/45成对排序，同一预测集F1跨度达0.16-0.70。作者构建CTIForge工具隔离组件效应，并发布完整管道与审计记录。",
-      "primary_category": "AI for Sec",
-      "sub_category": "knowledge_enhanced",
-      "score_total": 84.16,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做威胁情报知识图谱选型的团队必看：F1 分数因匹配规则差异可跨 0.16-0.70，排名随时反转。CTIForge 提供可复现验证层，直接用于校准 CTI pipeline 评测。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.01671",
-      "reader_url": "https://arxiv.org/pdf/2609.01671",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-03T00:00:00",
-      "first_seen_at": "2026-09-03T09:21:08.386049",
-      "sub_category_label": "知识增强安全"
-    },
-    {
-      "id": 6830,
-      "title": "行为树引导的轻量级 LLM 漏洞检测方法",
-      "original_title": "Towards Behavior Tree-Guided Vulnerability Detection with Lightweight LLMs",
-      "summary": "该论文提出将源代码转换为行为树（BT）表示，以在轻量级量化本地大模型上提升漏洞检测的召回率和整体性能，解决了 AST 超出上下文窗口的问题。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 81.48,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做代码审计和本地大模型落地的安全人员必看。文章验证了行为树比 AST 更省 token 且在长代码上效果更好，为你用轻量模型做漏洞挖掘提供了实用的代码预处理新思路。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.01758",
-      "reader_url": "https://arxiv.org/pdf/2609.01758",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-03T00:00:00",
-      "first_seen_at": "2026-09-03T09:20:27.650237",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 6847,
       "title": "Google 发布安全专用模型 Gemini 3.8 Flash Cyber",
@@ -115,6 +75,54 @@
       "published_at": "2026-09-03T05:27:40",
       "first_seen_at": "2026-09-03T11:08:26.489347",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6881,
+      "title": "CREST启动首批AI渗透测试资质认证服务商",
+      "original_title": "CREST Onboards First Cohort for AI-Enabled Pentesting Accreditation: CREST’s new AI-enabled penetration testing accreditation welcomes its first 10 providers https://t.co/f6iMkRvZU",
+      "summary": "国际安全认证机构CREST的AI辅助渗透测试资质认证迎来首批10家服务商，标志着AI驱动的渗透测试开始走向行业标准化与合规化。",
+      "primary_category": "AI for Sec",
+      "sub_category": "penetration_testing",
+      "score_total": 67.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全服务商和甲方团队都该看：CREST的认证代表AI渗透测试从实验走向合规落地，可借此评估自研或采购的AI渗透工具是否满足国际行业基准。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/shah_sheikh/status/2095498093500522513",
+      "reader_url": "https://x.com/shah_sheikh/status/2095498093500522513",
+      "image_url": "https://pbs.twimg.com/media/HRS0aTda8AA4-Yq.jpg",
+      "author": {
+        "username": "shah_sheikh",
+        "name": "Shah Sheikh",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T13:04:12",
+      "first_seen_at": "2026-09-03T13:20:03.035012",
+      "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 6884,
+      "title": "Filigran为OpenAEV引入攻击链以支持自动化渗透测试",
+      "original_title": "Breaking 🚨  Filigran adds attack chaining to OpenAEV for automated penetration testing  https://t.co/iBTerWGIzb  Thoughts? 💬  #AytasTech #TestAutomation #QA #AI #SoftwareTesting",
+      "summary": "Filigran 宣布为其 OpenAEV 平台增加攻击链功能，以实现自动化渗透测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "攻击链自动化是安全Agent能力落地的关键拼图。红队和自动化防御人员可关注其如何串联单点动作，评估当前自动化渗透的成熟度与可复用性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AytasInc/status/2095495588775137677",
+      "reader_url": "https://x.com/AytasInc/status/2095495588775137677",
+      "image_url": null,
+      "author": {
+        "username": "AytasInc",
+        "name": "AYTAS-Tech Solutions INC",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T12:54:15",
+      "first_seen_at": "2026-09-03T13:20:26.575439",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
