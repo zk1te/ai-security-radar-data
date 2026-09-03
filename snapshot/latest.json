@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-03T11:52:41+08:00",
+  "updated_at": "2026-09-03T12:25:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 6,
   "items": [
     {
       "id": 6564,
@@ -29,30 +29,6 @@
       "sub_category_label": "渗透测试"
     },
     {
-      "id": 6482,
-      "title": "HN 热议：谷歌发布 Gemini 3.8 Flash 及 Cyber 安全专用模型",
-      "original_title": "HN Hot Discussion: Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "谷歌发布了 Gemini 3.8 Flash 基础模型及面向网络安全的 3.8 Flash Cyber 变体，在 Hacker News 引发热烈讨论。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 74.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "大厂专门针对网络安全场景推出模型变体，标志着 AI 辅助安全工作的工具链正快速成熟。安全团队应密切关注其在漏洞挖掘和威胁检测等实际任务中的表现及可用性。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-03",
-      "reader_url": "https://news.ycombinator.com/item?id=49537553&hn_hot_date=2026-09-03",
-      "image_url": null,
-      "author": {
-        "username": "bratao",
-        "name": "bratao",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T15:12:40",
-      "first_seen_at": "2026-09-03T00:10:36.369611",
-      "sub_category_label": null
-    },
-    {
       "id": 6542,
       "title": "AISI 开源 Inspect 沙盒工具包以安全评测 AI Agent",
       "original_title": "The Inspect Sandboxing Toolkit: Scalable and secure AI agent evaluations   | AISI Work",
@@ -73,28 +49,28 @@
       "sub_category_label": null
     },
     {
-      "id": 6485,
-      "title": "Aisle 发现六个 curl CVE，OpenAI 与 Anthropic 却一无所获",
-      "original_title": "HN Hot Discussion: Six curl CVEs after OpenAI and Anthropic came back with zero",
-      "summary": "Aisle 团队在 curl 项目中挖掘出六个 CVE，而此前 OpenAI 和 Anthropic 的 AI 挖掘均返回零结果，引发社区对 AI 漏洞挖掘实际能力的重新审视。",
+      "id": 6567,
+      "title": "DeepTeam：开源大模型红队测试框架",
+      "original_title": "👾 DeepTeam - The LLM Red Teaming Framework  DeepTeam is a simple-to-use, open-source red teaming framework for LLM systems. Think of it as penetration testing, but for LLMs. DeepTe",
+      "summary": "DeepTeam 是一款开源的 LLM 红队测试框架，支持模拟越狱、提示注入和多轮攻击，帮助发现 AI 智能体和 RAG 管道中的漏洞并提供防护。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.4,
+      "sub_category": "security_benchmark",
+      "score_total": 72.8,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做 AI 安全工具选型的人必看。这揭示了当前大厂 AI 漏洞挖掘在真实开源项目上的能力边界，选型别看 demo 要看真实 CVE 产出。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-03",
-      "reader_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-03",
-      "image_url": null,
+      "recommendation_reason": "安全测试人员可直接本地部署该工具，对自研大模型应用进行自动化漏洞挖掘，快速验证 PII 泄露和注入等风险面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/bountywriteups/status/2095359640930508898",
+      "reader_url": "https://x.com/bountywriteups/status/2095359640930508898",
+      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HRQ2cTebUAAG9tC.jpg",
       "author": {
-        "username": "goobreee",
-        "name": "goobreee",
+        "username": "bountywriteups",
+        "name": "𝕏 Bug Bounty Writeups 𝕏",
         "avatar_url": null
       },
-      "published_at": "2026-09-02T13:43:14",
-      "first_seen_at": "2026-09-03T00:11:01.804446",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-09-03T03:54:02",
+      "first_seen_at": "2026-09-03T04:20:15.845584",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 6540,
@@ -163,30 +139,6 @@
       "published_at": "2026-09-03T02:05:05",
       "first_seen_at": "2026-09-03T02:06:17.638104",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6494,
-      "title": "HN 热议：Anthropic 发布 Claude Fable 与 Mythos 5.1",
-      "original_title": "HN Hot Discussion: Claude Fable 5.1 and Claude Mythos 5.1",
-      "summary": "Hacker News 热门讨论 Anthropic 最新发布的 Claude Fable 5.1 和 Claude Mythos 5.1 模型。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "vuln_discovery | model_evaluation",
-      "score_total": 64.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Claude Mythos 的网络能力跃迁直接关系到 AI 辅助漏洞挖掘的产业化进程，安全团队应密切关注其漏洞发现能力及潜在防御应对策略。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-03",
-      "reader_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-03",
-      "image_url": null,
-      "author": {
-        "username": "meetpateltech",
-        "name": "meetpateltech",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-01T18:01:24",
-      "first_seen_at": "2026-09-03T00:12:03.515422",
-      "sub_category_label": null
     }
   ]
 }
