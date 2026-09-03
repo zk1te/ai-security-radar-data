@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T05:35:04+08:00",
+  "updated_at": "2026-09-04T06:09:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 5,
   "items": [
     {
       "id": 7033,
@@ -77,54 +77,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 6989,
-      "title": "AI红队测试洞察：模型规模非决定因素，测试框架工程才是关键",
-      "original_title": "The raw benchmark numbers from our latest study tell a compelling story, but the real takeaway goes way beyond model leaderboards: the future of offensive AI isn't about model scal",
-      "summary": "对8个大模型在Metasploitable3等环境下的红队测试表明，高参数并不等于好的攻击效果。文章呼吁将推理与执行分离，构建专门的测试框架以实现可靠的漏洞验证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做AI红队和自动化渗透的人必看。别再盯着模型排行榜卷参数了，把精力放在构建可靠的执行harness上，解决安全拒绝和确定性执行的痛点，才能真正落地。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RidgeSecurityAI/status/2095564121315901635",
-      "reader_url": "https://x.com/RidgeSecurityAI/status/2095564121315901635",
-      "image_url": null,
-      "author": {
-        "username": "RidgeSecurityAI",
-        "name": "Ridge Security Technology Inc.",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T17:26:34",
-      "first_seen_at": "2026-09-03T17:50:31.103067",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6988,
-      "title": "首个LLM自主渗透测试基准发布：架构与效率成关键",
-      "original_title": "Today, we published the industry's first public benchmark comparing leading LLMs in autonomous penetration-testing workflows. Key takeaways from the benchmark:  🔹 Architecture matt",
-      "summary": "Ridge Security发布行业首个对比主流LLM在自主渗透测试中表现的基准，指出LLM需配合专用agent harness才能执行复杂攻击路径，并对比了各模型的覆盖率与成本效率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 72.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这篇内容为渗透测试团队选型提供参考：单靠LLM推理不够，agent架构和成本控制同样关键，但需注意其中含有RidgeGen产品推广色彩。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RidgeSecurityAI/status/2095566169000276123",
-      "reader_url": "https://x.com/RidgeSecurityAI/status/2095566169000276123",
-      "image_url": "https://pbs.twimg.com/media/HRTyUo8WQAIpxKE.png",
-      "author": {
-        "username": "RidgeSecurityAI",
-        "name": "Ridge Security Technology Inc.",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T17:34:43",
-      "first_seen_at": "2026-09-03T17:50:29.153551",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 7035,
       "title": "GPT-6 Astra 发布：安全评测表现强劲",
       "original_title": "GPT‑6 Astra",
@@ -143,30 +95,6 @@
       "published_at": "2026-09-03T20:18:41",
       "first_seen_at": "2026-09-03T20:41:47.285826",
       "sub_category_label": null
-    },
-    {
-      "id": 6994,
-      "title": "BraZetsu 恶意软件利用 AI 筛选高价值目标",
-      "original_title": "⚠️ Criminals can buy access to Windows hosts compromised by BraZetsu.  The Python malware uses AI to prioritize high-value systems, collects browser and financial data, and lets bu",
-      "summary": "BraZetsu Python 木马利用 AI 自动识别并优先攻击高价值 Windows 系统，窃取金融数据并出售系统访问权限，展示了 AI 在实战攻击中的落地。",
-      "primary_category": "AI for Sec",
-      "sub_category": "malware_detection",
-      "score_total": 64.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "威胁检测和应急响应团队应高度警惕。攻击者已开始在木马中用 AI 做目标价值筛选与自动化决策，这意味着传统静态特征检测将加速失效，防守侧需引入行为分析与 AI 驱动的威胁狩猎来应对。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2095535049844330676",
-      "reader_url": "https://x.com/TheHackersNews/status/2095535049844330676",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T15:31:03",
-      "first_seen_at": "2026-09-03T17:52:12.222685",
-      "sub_category_label": "恶意软件与威胁检测"
     },
     {
       "id": 7014,
