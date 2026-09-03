@@ -1,33 +1,9 @@
 {
-  "updated_at": "2026-09-03T22:55:59+08:00",
+  "updated_at": "2026-09-03T23:28:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 4,
   "items": [
-    {
-      "id": 6853,
-      "title": "XBOW 团队斩获今年首个 Chrome 全链漏洞利用奖金",
-      "original_title": "RT @Xbow: This just in: XBOW's Native Team has claimed the first Chrome Full Chain Exploit Bonus this year. Only four will be awarded in 20…",
-      "summary": "XBOW Native Team 获得今年首个 Chrome 全链漏洞利用奖金（全年仅四席），体现 AI 安全公司在顶级浏览器漏洞挖掘中的实战能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "XBOW 是 AI 漏洞挖掘标杆，拿下 Chrome 全链奖金直接验证 AI for Sec 在真实高危漏洞场景的落地价值。建议跟踪其后续技术披露，判断 AI 辅助漏洞挖掘的实战边界和天花板。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2095383203037208648",
-      "reader_url": "https://x.com/soaphornseuo/status/2095383203037208648",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T05:27:40",
-      "first_seen_at": "2026-09-03T11:08:26.489347",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 6892,
       "title": "Mega Bite推出专用AI模型提升二进制分析能力",
