@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T09:42:02+08:00",
+  "updated_at": "2026-09-03T10:12:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -26,6 +26,25 @@
       },
       "published_at": "2026-09-02T15:12:40",
       "first_seen_at": "2026-09-03T00:10:36.369611"
+    },
+    {
+      "id": 6542,
+      "title": "AISI 开源 Inspect 沙盒工具包以安全评测 AI Agent",
+      "original_title": "The Inspect Sandboxing Toolkit: Scalable and secure AI agent evaluations   | AISI Work",
+      "summary": "UK AISI 发布开源的 Inspect 沙盒工具包，提供 Docker Compose、Kubernetes 和 Proxmox 插件，通过将模型推理与工具调用环境隔离，安全评测具备代码执行能力的 AI Agent。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 74.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全评测和红队工具开发的必看。这套沙盒框架直接支持测试 Agent 的沙盒逃逸和网络攻击能力，拿来就能搭评测靶场，解决高能力模型评测时的环境隔离痛点。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations",
+      "reader_url": "https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-03T01:44:14.091990"
     },
     {
       "id": 6460,
@@ -74,27 +93,23 @@
       "first_seen_at": "2026-09-03T00:11:01.804446"
     },
     {
-      "id": 6443,
-      "title": "CrowdStrike 推出跨域并行多 Agent SOC 调查架构",
-      "original_title": "🚨 [AGENTIC SOC] — CROWDSTRIKE JUST INTRODUCED PARALLEL MULTI-AGENT INVESTIGATIONS ACROSS ENDPOINT, IDENTITY, SAAS, CLOUD AND NETWORK  Instead of:  ENDPOINT AGENT FINISHES ↓ IDENTIT",
-      "summary": "CrowdStrike 发布 Charlotte AI 多 Agent 并行调查架构，跨端点、身份、云、SaaS 和网络域同步分析，通过共享上下文层实现证据共享与假设收敛，支持可配置响应自主级别和 MCP 第三方集成。",
+      "id": 6540,
+      "title": "AISI提出AI Agent评估法：通过会话分析识别CTF任务失败模式",
+      "original_title": "Transcript analysis for AI agent evaluations  | AISI Work",
+      "summary": "英国 AISI 通过分析近 6400 条 AI agent 在 CTF 任务中的会话记录，发现仅靠通过率会掩盖因安全拒绝、过早放弃或不遵守指令导致的失败，为网络安全能力评估提供了更细致的维度。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.88,
+      "sub_category": "security_benchmark",
+      "score_total": 71.85,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "SOC 自动化从业者必看：多 Agent 共享记忆+并行调查是安全运营的新范式，直接对标攻击者的并发攻击模式。落地时务必拆分读、查、建议、执行四层权限，别给每个调查 Agent 自动响应权。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2095261709044781261",
-      "reader_url": "https://x.com/XQOPTRX/status/2095261709044781261",
+      "recommendation_reason": "做安全评测的团队必须看。光看 CTF 通过率会被 agent 的「摆烂」或安全拒绝误导，高估或低估真实攻击能力。建议把会话记录分析纳入自己的评估流程，排掉评测数据里的水分。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/transcript-analysis-for-ai-agent-evaluations",
+      "reader_url": "https://www.aisi.gov.uk/blog/transcript-analysis-for-ai-agent-evaluations",
       "image_url": null,
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-02T21:24:54",
-      "first_seen_at": "2026-09-02T21:47:44.286441"
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-03T01:43:36.019589"
     },
     {
       "id": 6534,
@@ -118,25 +133,6 @@
       },
       "published_at": "2026-09-02T23:57:17",
       "first_seen_at": "2026-09-03T01:37:00.156971"
-    },
-    {
-      "id": 6448,
-      "title": "AgentJudgeBench：评估LLM作为Agent工具调用评审的可靠性",
-      "original_title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
-      "summary": "该研究提出首个系统评估LLM在Agent工作流中作为评审可靠性的基准，发现任务难度增加会导致评审对齐度下降，且模型规模无法突破这一结构性瓶颈。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 68.79,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "对构建安全Agent或评测自动化安全任务的团队，此研究揭示了LLM-as-a-judge在复杂工作流中的局限，提醒在构建安全评测榜单时不能盲目依赖大模型做自动裁判。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2608.26623",
-      "reader_url": "https://arxiv.org/pdf/2608.26623",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-02T00:00:00",
-      "first_seen_at": "2026-09-02T22:04:08.338810"
     },
     {
       "id": 6455,
@@ -208,27 +204,27 @@
       "first_seen_at": "2026-09-02T22:21:33.031461"
     },
     {
-      "id": 6494,
-      "title": "HN 热议：Anthropic 发布 Claude Fable 与 Mythos 5.1",
-      "original_title": "HN Hot Discussion: Claude Fable 5.1 and Claude Mythos 5.1",
-      "summary": "Hacker News 热门讨论 Anthropic 最新发布的 Claude Fable 5.1 和 Claude Mythos 5.1 模型。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "vuln_discovery | model_evaluation",
-      "score_total": 64.5,
+      "id": 6547,
+      "title": "Packt 出版《Agentic AI for Offensive Cybersecurity》：用 AI 驱动 Agent 构建自动化渗透测试流程",
+      "original_title": "Agentic AI for Offensive Cybersecurity — Build and Automate Smarter Penetration Testing Workflows using AI-driven Agents: https://t.co/szCbmoFltS via @PacktPublishing https://t.co/",
+      "summary": "Packt 出版新书，聚焦使用 AI 驱动的 Agent 构建和自动化更智能的渗透测试工作流，覆盖攻击性安全场景中的 Agent 应用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.9,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "Claude Mythos 的网络能力跃迁直接关系到 AI 辅助漏洞挖掘的产业化进程，安全团队应密切关注其漏洞发现能力及潜在防御应对策略。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-03",
-      "reader_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-03",
-      "image_url": null,
+      "recommendation_reason": "渗透测试团队和红队该关注：这本书把 Agentic AI 落地到攻击性安全工作流，从自动化渗透流程切入。目前只是出版公告，没看到技术细节，但方向值得跟踪——想用 Agent 自动化渗透流程的人可以留意后续书评和代码配套。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/KirkDBorne/status/2095332219212423629",
+      "reader_url": "https://x.com/KirkDBorne/status/2095332219212423629",
+      "image_url": "https://pbs.twimg.com/media/HRQdjDHbcAAZrcv.jpg",
       "author": {
-        "username": "meetpateltech",
-        "name": "meetpateltech",
+        "username": "KirkDBorne",
+        "name": "Kirk Borne",
         "avatar_url": null
       },
-      "published_at": "2026-09-01T18:01:24",
-      "first_seen_at": "2026-09-03T00:12:03.515422"
+      "published_at": "2026-09-03T02:05:05",
+      "first_seen_at": "2026-09-03T02:06:17.638104"
     }
   ]
 }
