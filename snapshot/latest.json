@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T12:41:56+08:00",
+  "updated_at": "2026-09-04T13:14:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -25,54 +25,6 @@
       "sub_category_label": null
     },
     {
-      "id": 7134,
-      "title": "HN 热议 Anthropic 新发 Claude Fable 5.1 与 Mythos 5.1",
-      "original_title": "HN Hot Discussion: Claude Fable 5.1 and Claude Mythos 5.1",
-      "summary": "Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1 并公开系统卡片，引发 Hacker News 社区上千条讨论，焦点可能涉及其网络安全与漏洞挖掘能力的评估。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 82.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队与漏洞挖掘从业者需密切关注其系统卡片，评估 Mythos 在 AI 辅助漏洞发现方面的实际能力跃迁，为后续安全工作流集成做准备。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49525378&hn_hot_date=2026-09-04",
-      "reader_url": "https://news.ycombinator.com/item?id=49525378&hn_hot_date=2026-09-04",
-      "image_url": null,
-      "author": {
-        "username": "denysvitali",
-        "name": "denysvitali",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-01T17:53:53",
-      "first_seen_at": "2026-09-04T00:50:08.712170",
-      "sub_category_label": null
-    },
-    {
-      "id": 7133,
-      "title": "HN 热议：Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1",
-      "original_title": "HN Hot Discussion: Claude Fable 5.1 and Claude Mythos 5.1",
-      "summary": "Hacker News 热门讨论了 Anthropic 最新发布的 Claude Fable 5.1 和 Claude Mythos 5.1 模型，其中 Mythos 系列主要涉及高级网络安全与漏洞挖掘能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 80.03,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "Anthropic 的 Mythos 系列直接瞄准 AI 辅助漏洞发现，是 AI for Sec 的风向标。安全研究人员应立刻关注该模型在真实漏洞挖掘任务中的能力边界与实际表现，评估其能否接入现有工作流。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-04",
-      "reader_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-04",
-      "image_url": null,
-      "author": {
-        "username": "meetpateltech",
-        "name": "meetpateltech",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-01T18:01:24",
-      "first_seen_at": "2026-09-04T00:50:07.382277",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 7155,
       "title": "沙箱化 AI Agent 可发现评估环境信息并威胁评测有效性",
       "original_title": "What can sandboxed AI agents learn about their evaluation environments?   | AISI Work",
@@ -93,28 +45,28 @@
       "sub_category_label": null
     },
     {
-      "id": 7122,
-      "title": "HN热议：OpenAI与Anthropic一无所获，Aisle却挖出六个curl CVE",
-      "original_title": "HN Hot Discussion: Six curl CVEs after OpenAI and Anthropic came back with zero",
-      "summary": "Hacker News 热议大模型在 curl 漏洞挖掘中的表现：OpenAI 和 Anthropic 颗粒无收，而 Aisle 却发现了六个 CVE。这引发了对当前 AI 漏洞挖掘能力实际落地效果的讨论。",
+      "id": 7185,
+      "title": "小型网安模型被批：静态跑分落后且缺乏实战价值",
+      "original_title": "i understand the appeal of a tiny cybersecurity model, but comparing it against ancient models and still losing overall is not a great launch graphic.  it scores below gpt-3.5 turb",
+      "summary": "评论批评某小型网安模型在静态跑分中落后于旧模型且未验证实战效果，强调安全Agent应在真实目标上测试有效漏洞数、误报率与攻击链完成度。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.05,
+      "sub_category": "security_benchmark",
+      "score_total": 72.1,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "直接揭示当前大模型在真实开源项目漏洞挖掘中的表现差异。安全团队应关注 AI 辅助漏洞挖掘的实际边界，理性评估大模型的代码审计能力，避免盲信。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-04",
-      "reader_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-04",
-      "image_url": null,
+      "recommendation_reason": "安全团队评估AI工具时别被静态跑分忽悠。这篇点出了核心痛点：模型再小也要在实战中跑通攻击链、算清误报和成本，这才是衡量安全Agent有效性的硬指标。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/peaksec/status/2095736356941283768",
+      "reader_url": "https://x.com/peaksec/status/2095736356941283768",
+      "image_url": "https://pbs.twimg.com/media/HRWMlAUagAAR9gf.jpg",
       "author": {
-        "username": "goobreee",
-        "name": "goobreee",
+        "username": "peaksec",
+        "name": "Peak Security",
         "avatar_url": null
       },
-      "published_at": "2026-09-02T13:43:14",
-      "first_seen_at": "2026-09-04T00:42:30.186737",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-09-04T04:50:59",
+      "first_seen_at": "2026-09-04T04:53:24.523163",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 7150,
@@ -227,6 +179,50 @@
       "published_at": "2026-09-04T01:39:44",
       "first_seen_at": "2026-09-04T02:12:29.125667",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 7163,
+      "title": "LatentPress：面向解码器的上下文压缩方法",
+      "original_title": "LatentPress: Context Compression Beyond Text and Vision",
+      "summary": "LatentPress 将长文档和对话历史压缩为连续内存标记供解码器直接读取，在多项 Benchmark 上表现优于文本摘要和 OCR，且显著提升读写速度。",
+      "primary_category": "AI Tech",
+      "sub_category": "context_compression",
+      "score_total": 61.84,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这是通用上下文压缩技术，并非直接针对安全场景设计。不过，若你正在构建处理海量日志或长程任务的安全 Agent，其高效压缩与读取机制值得借鉴，以突破上下文窗口限制。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.01507",
+      "reader_url": "https://arxiv.org/pdf/2609.01507",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-04T00:00:00",
+      "first_seen_at": "2026-09-04T02:18:36.149841",
+      "sub_category_label": null
+    },
+    {
+      "id": 7186,
+      "title": "为什么编码Agent更爱用Grep而不是LSP？",
+      "original_title": "HN Hot Discussion: Grep beats LSP? Why coding agents ignore your fancier tools",
+      "summary": "HN 热文讨论了在构建 AI 编码 Agent 时，简单的 Grep 往往比复杂的 LSP 表现更好且更稳定。这为代码审计和安全 Agent 的工具链设计提供了重要参考。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "agent_architecture | security_agent",
+      "score_total": 61.42,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做代码审计或漏洞挖掘 Agent 的安全人员必看。别盲目给 Agent 塞复杂的分析工具，简单的 Grep 配合强大的 LLM 往往更可控、更鲁棒。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49560260&hn_hot_date=2026-09-04",
+      "reader_url": "https://news.ycombinator.com/item?id=49560260&hn_hot_date=2026-09-04",
+      "image_url": null,
+      "author": {
+        "username": "kaonashi-tyc-01",
+        "name": "kaonashi-tyc-01",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-04T03:40:26",
+      "first_seen_at": "2026-09-04T04:53:27.065514",
+      "sub_category_label": null
     }
   ]
 }
