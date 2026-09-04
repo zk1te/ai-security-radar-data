@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T14:19:45+08:00",
+  "updated_at": "2026-09-04T14:52:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 4,
+  "item_count": 5,
   "items": [
     {
       "id": 7198,
@@ -27,6 +27,26 @@
       "published_at": "2026-09-04T03:43:57",
       "first_seen_at": "2026-09-04T06:04:34.292262",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7205,
+      "title": "RealSWE评测揭示真实输入降低LLM代码修复成功率",
+      "original_title": "RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests",
+      "summary": "RealSWE基准测试发现，相比结构化的基准数据，真实随意的用户请求会使LLM解决率下降6.4个百分点。在提示词中明确期望行为和动机能显著提升其软件工程表现。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation | security_agent",
+      "score_total": 73.55,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全代码审计或漏洞修复 Agent 的同学必看。输入上下文直接决定 Agent 效率，测试时别只拿结构化 prompt 跑分，务必在提示中明确「期望行为与动机」以提升修复成功率。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2608.27831",
+      "reader_url": "https://arxiv.org/pdf/2608.27831",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-04T00:00:00",
+      "first_seen_at": "2026-09-04T06:21:14.945383",
+      "sub_category_label": null
     },
     {
       "id": 7185,
