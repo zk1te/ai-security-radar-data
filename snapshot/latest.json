@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T14:52:41+08:00",
+  "updated_at": "2026-09-04T15:24:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 7198,
@@ -71,6 +71,30 @@
       "published_at": "2026-09-04T04:50:59",
       "first_seen_at": "2026-09-04T04:53:24.523163",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 7218,
+      "title": "Cyberstrike：基于 LLM 的开源自动化红队 Agent",
+      "original_title": "🚨 SOMEONE JUST TURNED AN LLM INTO AN AUTONOMOUS RED TEAM   Cyberstrike is an open source AI security agent built to automate penetration testing from your terminal.  Plug in your C",
+      "summary": "Cyberstrike 是一款开源的 AI 安全 Agent，可将 Claude 或 GPT 等 LLM 接入终端，通过调度多个专业化安全代理来自动化执行渗透测试和 OWASP 漏洞验证。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "开源自动化红队工具，集成了大量安全技能与 MCP 工具，适合安全团队直接上手评估大模型在真实渗透场景下的落地效果与能力边界。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MAXdeg0/status/2095764945853988952",
+      "reader_url": "https://x.com/MAXdeg0/status/2095764945853988952",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2095761439722262528/img/SGHSCItpUSO4zEjo.jpg",
+      "author": {
+        "username": "MAXdeg0",
+        "name": "MAX",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-04T06:44:35",
+      "first_seen_at": "2026-09-04T07:09:29.483726",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 7183,
