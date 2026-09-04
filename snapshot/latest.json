@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T10:33:38+08:00",
+  "updated_at": "2026-09-04T12:41:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -161,30 +161,6 @@
       "sub_category_label": null
     },
     {
-      "id": 7101,
-      "title": "实战测试：使用GLM模型驱动自定义红队安全Agent",
-      "original_title": "RT @bohops: In today's adventure with AI, I was testing a custom offsec agent in an Internet-connected lab environment (using GLM 5.3) and…",
-      "summary": "安全研究员bohops在联网实验室中测试基于GLM 5.3的自定义攻击安全Agent，分享其实战表现与发现。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "针对红队安全Agent的实战测试分享，AI安全从业者可借此了解GLM模型在自动化攻击任务中的实际效果与坑点。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2095660096868999423",
-      "reader_url": "https://x.com/HackingLZ/status/2095660096868999423",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-03T23:47:57",
-      "first_seen_at": "2026-09-04T00:38:51.596116",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 7159,
       "title": "Terminal-Universe：将 Agent 轨迹转化为可扩展终端环境",
       "original_title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
@@ -203,6 +179,30 @@
       "published_at": "2026-09-04T00:00:00",
       "first_seen_at": "2026-09-04T02:18:15.195385",
       "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 7183,
+      "title": "安全圈讽刺：基础补丁都没做好就恐慌 Mythos 漏洞大爆炸",
+      "original_title": "RT @0xTriboulet: &gt; haven’t figured out patching, least privilege, basic security controls &gt; number 1 priority is the post-Mythos vulnpocaly…",
+      "summary": "0xTriboulet 发推讽刺行业现状——企业连补丁、最小权限和基础安全控制都没落地，却把 Claude Mythos 引发的 AI 漏洞挖掘浪潮当作头号优先事项。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 62.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "戳中了 AI for Sec 落地的核心矛盾：与其恐慌 AI 挖洞，不如先补好基础卫生。安全团队该看，因为它提醒你在追逐 Mythos 热点前先评估自身基础防御水位。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2095677205829349855",
+      "reader_url": "https://x.com/HackingLZ/status/2095677205829349855",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-04T00:55:56",
+      "first_seen_at": "2026-09-04T04:21:19.526647",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 7158,
