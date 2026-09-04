@@ -1,32 +1,56 @@
 {
-  "updated_at": "2026-09-04T08:19:18+08:00",
+  "updated_at": "2026-09-04T08:55:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 8,
   "items": [
     {
-      "id": 7033,
-      "title": "AI红队测试发现：最强模型不等于最佳自主黑客",
-      "original_title": "🚨 [AI RED TEAMING BENCHMARK] — AN 8-MODEL TEST FINDS THE “SMARTEST” LLM IS NOT NECESSARILY THE BEST AUTONOMOUS HACKER  Ridge Security tested eight frontier and open models across 9",
-      "summary": "Ridge Security 对8个模型进行了96次自主渗透测试，发现Grok 4.5覆盖率最高，但Agent架构和工具编排比模型本身能力更关键。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.0,
+      "id": 7134,
+      "title": "HN 热议 Anthropic 新发 Claude Fable 5.1 与 Mythos 5.1",
+      "original_title": "HN Hot Discussion: Claude Fable 5.1 and Claude Mythos 5.1",
+      "summary": "Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1 并公开系统卡片，引发 Hacker News 社区上千条讨论，焦点可能涉及其网络安全与漏洞挖掘能力的评估。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 82.45,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "面向评估和采购 AI 渗透工具的安全管理者。不要只盯着模型跑分，Agent 的记忆、工具编排和验证循环才是决定实战效果的核心。选型时重点考察 harness 设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2095607655398089116",
-      "reader_url": "https://x.com/XQOPTRX/status/2095607655398089116",
+      "recommendation_reason": "安全团队与漏洞挖掘从业者需密切关注其系统卡片，评估 Mythos 在 AI 辅助漏洞发现方面的实际能力跃迁，为后续安全工作流集成做准备。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49525378&hn_hot_date=2026-09-04",
+      "reader_url": "https://news.ycombinator.com/item?id=49525378&hn_hot_date=2026-09-04",
       "image_url": null,
       "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
+        "username": "denysvitali",
+        "name": "denysvitali",
         "avatar_url": null
       },
-      "published_at": "2026-09-03T20:19:34",
-      "first_seen_at": "2026-09-03T20:35:52.412878",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-09-01T17:53:53",
+      "first_seen_at": "2026-09-04T00:50:08.712170",
+      "sub_category_label": null
+    },
+    {
+      "id": 7133,
+      "title": "HN 热议：Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1",
+      "original_title": "HN Hot Discussion: Claude Fable 5.1 and Claude Mythos 5.1",
+      "summary": "Hacker News 热门讨论了 Anthropic 最新发布的 Claude Fable 5.1 和 Claude Mythos 5.1 模型，其中 Mythos 系列主要涉及高级网络安全与漏洞挖掘能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 80.03,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic 的 Mythos 系列直接瞄准 AI 辅助漏洞发现，是 AI for Sec 的风向标。安全研究人员应立刻关注该模型在真实漏洞挖掘任务中的能力边界与实际表现，评估其能否接入现有工作流。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-04",
+      "reader_url": "https://news.ycombinator.com/item?id=49525496&hn_hot_date=2026-09-04",
+      "image_url": null,
+      "author": {
+        "username": "meetpateltech",
+        "name": "meetpateltech",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-01T18:01:24",
+      "first_seen_at": "2026-09-04T00:50:07.382277",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 7068,
@@ -73,24 +97,52 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 7035,
-      "title": "GPT-6 Astra 发布：安全评测表现强劲",
-      "original_title": "GPT‑6 Astra",
-      "summary": "OpenAI 发布 GPT-6 Astra 模型，在 ExploitBench、SRE-Bench 等安全评测榜单上得分大幅超越前代，并采用自定义 harness 取得 ARC-AGI 3 高分。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "model_evaluation",
-      "score_total": 72.85,
+      "id": 7122,
+      "title": "HN热议：OpenAI与Anthropic一无所获，Aisle却挖出六个curl CVE",
+      "original_title": "HN Hot Discussion: Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "summary": "Hacker News 热议大模型在 curl 漏洞挖掘中的表现：OpenAI 和 Anthropic 颗粒无收，而 Aisle 却发现了六个 CVE。这引发了对当前 AI 漏洞挖掘能力实际落地效果的讨论。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.05,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全团队该看：GPT-6 Astra 在 ExploitBench 和 SRE-Bench 逆向上得分爆表，模型辅助漏洞挖掘和代码审计能力又上一台阶。赶紧拿 API 在自家靶场跑跑，看能否替代部分人工逆向工作。",
-      "source_id": "simon-willison",
-      "canonical_url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
-      "reader_url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+      "recommendation_reason": "直接揭示当前大模型在真实开源项目漏洞挖掘中的表现差异。安全团队应关注 AI 辅助漏洞挖掘的实际边界，理性评估大模型的代码审计能力，避免盲信。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-04",
+      "reader_url": "https://news.ycombinator.com/item?id=49536114&hn_hot_date=2026-09-04",
       "image_url": null,
-      "author": null,
-      "published_at": "2026-09-03T20:18:41",
-      "first_seen_at": "2026-09-03T20:41:47.285826",
-      "sub_category_label": null
+      "author": {
+        "username": "goobreee",
+        "name": "goobreee",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-02T13:43:14",
+      "first_seen_at": "2026-09-04T00:42:30.186737",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7101,
+      "title": "实战测试：使用GLM模型驱动自定义红队安全Agent",
+      "original_title": "RT @bohops: In today's adventure with AI, I was testing a custom offsec agent in an Internet-connected lab environment (using GLM 5.3) and…",
+      "summary": "安全研究员bohops在联网实验室中测试基于GLM 5.3的自定义攻击安全Agent，分享其实战表现与发现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "针对红队安全Agent的实战测试分享，AI安全从业者可借此了解GLM模型在自动化攻击任务中的实际效果与坑点。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2095660096868999423",
+      "reader_url": "https://x.com/HackingLZ/status/2095660096868999423",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T23:47:57",
+      "first_seen_at": "2026-09-04T00:38:51.596116",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 7072,
@@ -111,6 +163,30 @@
       "published_at": "2026-09-03T00:00:00",
       "first_seen_at": "2026-09-03T22:16:27.392904",
       "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 7119,
+      "title": "LLM 辅助逆向 1993 年 Amiga 游戏汇编代码的实践",
+      "original_title": "HN Hot Discussion: Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "summary": "开发者使用 Claude 辅助将 1993 年用 MC68000 汇编编写的游戏移植到 Godot，通过汇编器重编译并验证二进制一致性，展示了 LLM 在汇编代码理解和逆向转换上的实际能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 60.13,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "逆向工程师和二进制安全人员该看：这篇展示了用 LLM 辅助理解旧架构汇编代码并重写的实战。其「用汇编器重编译比对字节差异」的验证思路，可直接迁移到恶意代码分析或漏洞逆向中验证 LLM 输出准确性。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49550375&hn_hot_date=2026-09-04",
+      "reader_url": "https://news.ycombinator.com/item?id=49550375&hn_hot_date=2026-09-04",
+      "image_url": null,
+      "author": {
+        "username": "rabahs",
+        "name": "rabahs",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-03T14:28:18",
+      "first_seen_at": "2026-09-04T00:42:07.586574",
+      "sub_category_label": "二进制安全"
     }
   ]
 }
