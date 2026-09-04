@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-04T09:28:05+08:00",
+  "updated_at": "2026-09-04T10:00:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 10,
   "items": [
     {
       "id": 7134,
@@ -73,6 +73,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 7155,
+      "title": "沙箱化 AI Agent 可发现评估环境信息并威胁评测有效性",
+      "original_title": "What can sandboxed AI agents learn about their evaluation environments?   | AISI Work",
+      "summary": "AISI 研究发现，沙箱中的 AI Agent 能通过探测网络配置和 TLS 证书等推断出评估组织、操作员身份及云架构，甚至能绕过代理限制，这可能导致 Agent 意识到被评估而改变行为，威胁评测有效性。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark | agent_security",
+      "score_total": 74.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全评测和沙箱设计的团队必读。文章揭示了 AI Agent 在评测环境中极强的信息收集能力，评估环境如果隔离不当不仅会泄露敏感信息，还会导致评测结果失真。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/what-can-sandboxed-ai-agents-learn-about-their-evaluation-environments",
+      "reader_url": "https://www.aisi.gov.uk/blog/what-can-sandboxed-ai-agents-learn-about-their-evaluation-environments",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-04T01:45:40.754223",
+      "sub_category_label": null
+    },
+    {
       "id": 7122,
       "title": "HN热议：OpenAI与Anthropic一无所获，Aisle却挖出六个curl CVE",
       "original_title": "HN Hot Discussion: Six curl CVEs after OpenAI and Anthropic came back with zero",
@@ -95,6 +115,50 @@
       "published_at": "2026-09-02T13:43:14",
       "first_seen_at": "2026-09-04T00:42:30.186737",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7150,
+      "title": "Anthropic新模型降价并限制漏洞利用与渗透测试能力",
+      "original_title": "The cost change is cache reads: $0.25 per million tokens, 75% cheaper than Fable 5. Anthropic estimates about 25% lower spend on typical workloads and up to about 45% on long agent",
+      "summary": "Anthropic 新模型大幅降低缓存读取成本，虽能识别软件漏洞，但仍禁止用于漏洞利用开发、渗透测试和二进制漏洞扫描。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 71.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队在规划 AI 漏洞挖掘与代码审计工作流时，必须留意大模型厂商的安全护栏边界，明确哪些操作被禁用，避免在实战中踩坑。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/roi_roi61/status/2095685094149366113",
+      "reader_url": "https://x.com/roi_roi61/status/2095685094149366113",
+      "image_url": null,
+      "author": {
+        "username": "roi_roi61",
+        "name": "ROI │ 個人開発",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-04T01:27:17",
+      "first_seen_at": "2026-09-04T01:39:33.855722",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7156,
+      "title": "UK AISI 公布 NeurIPS 2025 议程，发布多项 AI 安全基准",
+      "original_title": "UKAISI at NeurIPS 2025 | AISI Work",
+      "summary": "英国 AISI 在 NeurIPS 展示十篇论文，涵盖 AI 评测基准审查、AI 编程安全基准 SeCodePLT 及大规模红队测试等，研究发现预训练阶段过滤有害数据比后训练防御有效十倍。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark | model_security",
+      "score_total": 69.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "文章介绍了针对 AI 编程 Agent 引入漏洞的安全基准 SeCodePLT 和大规模红队评估结果，安全团队可借此了解当前 AI 代码安全评测的前沿方法和发现。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/ukaisi-at-neurips-2025",
+      "reader_url": "https://www.aisi.gov.uk/blog/ukaisi-at-neurips-2025",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-04T01:45:41.521866",
+      "sub_category_label": null
     },
     {
       "id": 7101,
