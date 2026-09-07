@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-07T10:45:16+08:00",
+  "updated_at": "2026-09-07T11:16:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 7654,
@@ -23,6 +23,26 @@
       "published_at": "2026-09-04T00:00:00",
       "first_seen_at": "2026-09-07T02:37:42.173386",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 7705,
+      "title": "基于双虚拟枢纽与多任务图学习的二进制长距离间接控制流预测",
+      "original_title": "Long-Range Indirect Control-Flow Prediction in Stripped Binaries via Dual Virtual Hubs and Multi-Task Graph Learning",
+      "summary": "提出ICFlowNet框架，利用双虚拟枢纽和多任务图学习解决剥离符号二进制文件中的长距离间接控制流预测问题，并构建防数据泄漏的评估管道，长距离间接调用F1提升超13个百分点。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 85.41,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "逆向和漏洞挖掘团队值得关注。论文不仅用图学习显著提升了长距离间接调用的恢复精度，还提出了一套防数据泄漏的评估方法论，对构建更可靠的二进制分析AI模型有直接参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.03280",
+      "reader_url": "https://arxiv.org/pdf/2609.03280",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-04T00:00:00",
+      "first_seen_at": "2026-09-07T02:57:46.655091",
+      "sub_category_label": "二进制安全"
     },
     {
       "id": 7652,
@@ -63,6 +83,26 @@
       "published_at": "2026-09-04T00:00:00",
       "first_seen_at": "2026-09-07T02:38:18.964524",
       "sub_category_label": null
+    },
+    {
+      "id": 7712,
+      "title": "基于8.35亿节点图的区块链合规筛查与跨链无标签迁移检测",
+      "original_title": "Population-Calibrated Graph Screening at 835-Million-Address Scale, with Label-Free Transfer to New Chains",
+      "summary": "该论文描述了一个已部署的大规模区块链交易图筛查系统，通过共享归纳编码器对地址进行评分，实现跨链无标签迁移检测，并使用强化学习生成的对抗原型暴露了系统盲区。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 78.63,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做区块链威胁检测或图神经网络安全应用的从业者必看。其针对部署系统的强化学习对抗测试框架（8种退化审计）对评估AI安全检测模型的鲁棒性极具参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.03036",
+      "reader_url": "https://arxiv.org/pdf/2609.03036",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-04T00:00:00",
+      "first_seen_at": "2026-09-07T02:59:56.396346",
+      "sub_category_label": "威胁检测"
     },
     {
       "id": 7614,
@@ -129,52 +169,24 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 7559,
-      "title": "AI Agent 十小时内攻破企业网络并窃取 Root 凭据",
-      "original_title": "🚨  AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials   Details: https://t.co/OmhwUqIwb8  A human attacker armed with frontier artificial intelligence mo",
-      "summary": "攻击者利用前沿 AI 模型与攻击性 Agent 框架，在 10 小时内完成通常人类红队需两周的入侵并窃取 root 凭据，展现了 AI 自动化渗透的实战能力。",
+      "id": 7706,
+      "title": "AI 漏洞挖掘的下一步：关注「已知未修复」漏洞",
+      "original_title": "After Cheap Discovery: From unknown to known-and-unfixed",
+      "summary": "文章指出自动化漏洞发现降低了发现成本，但真正的风险在于组织决定带病上线的「已知但未修复」漏洞积压，这带来了法律、市场与合规层面的暴露。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "真实勒索事件印证了 AI 攻击性 Agent 的实战威力，将攻击周期从两周压缩至十小时。安全团队需正视自动化攻防的时间差，尽快评估防御体系对 AI 自动化侦察与横向移动的抵抗力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2096144456299016477",
-      "reader_url": "https://x.com/The_Cyber_News/status/2096144456299016477",
-      "image_url": "https://pbs.twimg.com/media/HRcAN2gakAA8jZ3.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-05T07:52:37",
-      "first_seen_at": "2026-09-07T02:09:03.137067",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7451,
-      "title": "传统应用安全工具无法适配AI时代，需同步发现与修复",
-      "original_title": "The uncomfortable truth is that almost everything we built for application security was designed for a different threat model, one where a human had days to think. At this scale an",
-      "summary": "作者指出传统应用安全工具基于人类有充足时间思考的威胁模型，在AI驱动的攻击速度下已失效；让AI agent驱动旧工具并不能解决问题，发现与修复需同步进行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全从业者必读。旧工具加AI代理的“缝合怪”模式行不通，发现和修复必须同步，这直接挑战了现有AppSec工作流，值得重新思考工具链和流程设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/matrosov/status/2096700347452678292",
-      "reader_url": "https://x.com/matrosov/status/2096700347452678292",
+      "sub_category": "vulnerability_management",
+      "score_total": 75.18,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 漏洞挖掘的团队必须看这篇。AI 挖洞越猛，企业「已知未修复」的漏洞积压就越严重，合规风险越大。别只盯着挖洞，得提前布局修复和免责机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.03266",
+      "reader_url": "https://arxiv.org/pdf/2609.03266",
       "image_url": null,
-      "author": {
-        "username": "matrosov",
-        "name": "Alex Matrosov",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-06T20:41:32",
-      "first_seen_at": "2026-09-07T01:32:05.174065",
-      "sub_category_label": "安全Agent"
+      "author": null,
+      "published_at": "2026-09-04T00:00:00",
+      "first_seen_at": "2026-09-07T02:57:47.328110",
+      "sub_category_label": null
     }
   ]
 }
