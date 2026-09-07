@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T11:16:15+08:00",
+  "updated_at": "2026-09-07T11:47:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -85,6 +85,30 @@
       "sub_category_label": null
     },
     {
+      "id": 7721,
+      "title": "Google 测试 Gemini 生成漏洞补丁：正确率提升 2.6 倍",
+      "original_title": "Can AI turn vulnerability research into a patch pipeline? Google says Chrome tests found Gemini 3.8 Flash Cyber produced 2.6 times more correct patches than larger commercial model",
+      "summary": "Google 在 Chrome 测试中发现，Gemini 3.8 Flash Cyber 模型生成的正确漏洞补丁数量是大型商业模型的 2.6 倍，表明 AI 安全代理正从告警向自动化修复演进。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.1,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "漏洞修复自动化是安全团队的痛点。Google 的实测数据证明了专用 AI 模型在补丁生成上的潜力，安全工程团队应关注「AI 驱动补丁生成」在流水线中的落地可能。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheTechFuse/status/2096798107937944009",
+      "reader_url": "https://x.com/TheTechFuse/status/2096798107937944009",
+      "image_url": null,
+      "author": {
+        "username": "TheTechFuse",
+        "name": "The Tech Fuse",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-07T03:10:00",
+      "first_seen_at": "2026-09-07T03:17:30.000121",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 7712,
       "title": "基于8.35亿节点图的区块链合规筛查与跨链无标签迁移检测",
       "original_title": "Population-Calibrated Graph Screening at 835-Million-Address Scale, with Label-Free Transfer to New Chains",
@@ -145,48 +169,28 @@
       "sub_category_label": "威胁检测"
     },
     {
-      "id": 7553,
-      "title": "CrowdStrike发布SafeMind：首个防御侧网络安全Agent",
-      "original_title": "🛡️ CrowdStrike Launches SafeMind - First Agentic Cybersecurity Solution Built for Defenders   Details: https://t.co/T7Zmy6UGFo  CrowdStrike has unveiled SafeMind, a family of purpo",
-      "summary": "CrowdStrike推出SafeMind系列专用安全模型和harness，称其为首款专为网络防御者打造的智能体系统，标志着从通用AI向原生安全攻防框架的战略转移。",
+      "id": 7722,
+      "title": "Qwen 模型结合 Kali Linux 构建本地渗透测试工作站",
+      "original_title": "Qwen3.8-27B is now being packaged for a very different kind of local workflow:  Cybersecurity and penetration testing inside a Kali Linux environment.  The setup combines several c",
+      "summary": "介绍 `kimocoder/kali` 模型在 Kali Linux 环境下的本地化部署，结合无审查、长上下文和视觉能力，构建接近自主渗透测试工作站的安全环境。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 75.5,
+      "score_total": 76.18,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "顶级安全厂商下场做安全Agent，从通用大模型转向专用安全模型+harness架构。值得安全团队关注其落地模式和能力边界，思考自身安全运营的Agent化路径。",
+      "recommendation_reason": "给红队和安全人员的实操提示：别只盯着模型参数量。直接用 Ollama 拉「kimocoder/kali」在 Kali 环境跑跑看，重点验证本地 Agent 结合工具链在真实渗透任务中的边界和可靠性。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2096594188003676213",
-      "reader_url": "https://x.com/The_Cyber_News/status/2096594188003676213",
-      "image_url": "https://pbs.twimg.com/media/HRiZPcTboAEWFhL.jpg",
+      "canonical_url": "https://x.com/Oluwaphilemon1/status/2096795465366786175",
+      "reader_url": "https://x.com/Oluwaphilemon1/status/2096795465366786175",
+      "image_url": null,
       "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
+        "username": "Oluwaphilemon1",
+        "name": "FHILY👑",
         "avatar_url": null
       },
-      "published_at": "2026-09-06T13:39:41",
-      "first_seen_at": "2026-09-07T02:08:00.578647",
+      "published_at": "2026-09-07T02:59:30",
+      "first_seen_at": "2026-09-07T03:17:32.334748",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7706,
-      "title": "AI 漏洞挖掘的下一步：关注「已知未修复」漏洞",
-      "original_title": "After Cheap Discovery: From unknown to known-and-unfixed",
-      "summary": "文章指出自动化漏洞发现降低了发现成本，但真正的风险在于组织决定带病上线的「已知但未修复」漏洞积压，这带来了法律、市场与合规层面的暴露。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vulnerability_management",
-      "score_total": 75.18,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做 AI 漏洞挖掘的团队必须看这篇。AI 挖洞越猛，企业「已知未修复」的漏洞积压就越严重，合规风险越大。别只盯着挖洞，得提前布局修复和免责机制。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.03266",
-      "reader_url": "https://arxiv.org/pdf/2609.03266",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-04T00:00:00",
-      "first_seen_at": "2026-09-07T02:57:47.328110",
-      "sub_category_label": null
     }
   ]
 }
