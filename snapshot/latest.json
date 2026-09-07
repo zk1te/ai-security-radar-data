@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-07T11:47:51+08:00",
+  "updated_at": "2026-09-07T13:57:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 7654,
@@ -190,6 +190,30 @@
       },
       "published_at": "2026-09-07T02:59:30",
       "first_seen_at": "2026-09-07T03:17:32.334748",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7553,
+      "title": "CrowdStrike发布SafeMind：首个防御侧网络安全Agent",
+      "original_title": "🛡️ CrowdStrike Launches SafeMind - First Agentic Cybersecurity Solution Built for Defenders   Details: https://t.co/T7Zmy6UGFo  CrowdStrike has unveiled SafeMind, a family of purpo",
+      "summary": "CrowdStrike推出SafeMind系列专用安全模型和harness，称其为首款专为网络防御者打造的智能体系统，标志着从通用AI向原生安全攻防框架的战略转移。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "顶级安全厂商下场做安全Agent，从通用大模型转向专用安全模型+harness架构。值得安全团队关注其落地模式和能力边界，思考自身安全运营的Agent化路径。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2096594188003676213",
+      "reader_url": "https://x.com/The_Cyber_News/status/2096594188003676213",
+      "image_url": "https://pbs.twimg.com/media/HRiZPcTboAEWFhL.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-06T13:39:41",
+      "first_seen_at": "2026-09-07T02:08:00.578647",
       "sub_category_label": "安全Agent"
     }
   ]
