@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T15:03:42+08:00",
+  "updated_at": "2026-09-09T15:33:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 1716,
@@ -119,30 +119,6 @@
       "published_at": "2026-09-09T03:00:01",
       "first_seen_at": "2026-09-09T03:34:19.255010",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 1705,
-      "title": "用户部署 Rito 安全 Agent 保护人类与 AI 混合员工",
-      "original_title": "@Shaughnessy119 Totally! today I implemented Rito (Security agent for a workforce of ppl &amp; agents)  I helped him mounting his linux server + hermes as OS + Rito as security for",
-      "summary": "某用户在 Linux 服务器上部署 Hermes OS 和名为 Rito 的安全 Agent，用于保护由人类和 AI Agent 组成的业务团队。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 63.85,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了安全 Agent 在真实业务场景中保护人机协同的早期落地案例。虽然缺乏技术细节，但对于关注 Agent 安全与自动化防御落地的从业者具有动态参考价值。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HeyJuano/status/2097520546359419355",
-      "reader_url": "https://x.com/HeyJuano/status/2097520546359419355",
-      "image_url": null,
-      "author": {
-        "username": "HeyJuano",
-        "name": "Juan Oliva",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-09T03:00:42",
-      "first_seen_at": "2026-09-09T03:33:45.629792",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 1738,
