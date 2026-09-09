@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T16:04:19+08:00",
+  "updated_at": "2026-09-09T16:34:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
     {
       "id": 1716,
@@ -53,28 +53,52 @@
       "sub_category_label": null
     },
     {
-      "id": 1710,
-      "title": "基于图与LLM提取的O-RAN安全分析框架",
-      "original_title": "A Queryable Graph-Based Security Analysis Framework for O-RAN: The Open Radio Access Network (O-RAN) replaces vendor-locked RANs with a modular and interoperable architecture that ",
-      "summary": "本文提出一个针对O-RAN的可查询图框架，利用LLM辅助提取非结构化规范和文献构建安全知识图谱，发现关键基础设施存在大量规范级威胁但缺乏经验覆盖，且模糊测试发现了大部分已知CVE。",
+      "id": 1778,
+      "title": "Gartner 预测七成 SOC 将试点 AI Agent，但仅 15% 能见效",
+      "original_title": "Gartner: 70% of SOCs will pilot AI agents. Only 15% will see results - https://t.co/yKts5f7oFC - @ProphetSec #AISOC #AIAgents #CyberSecurity #SecurityOperations #SOC #AgenticAI #Cy",
+      "summary": "Gartner 预测 70% 的安全运营中心会试点 AI Agent，但仅 15% 能取得实际成果，暗示当前 AI Agent 在 SOC 落地仍面临显著成效落差。",
       "primary_category": "AI for Sec",
-      "sub_category": "knowledge_enhanced",
-      "score_total": 66.6,
+      "sub_category": "security_agent",
+      "score_total": 64.35,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "论文展示了LLM在安全知识图谱构建中的落地用法，通过混合提取管线将静态规范转为可查询威胁库。安全团队可直接使用其开源图数据库分析O-RAN安全，或借鉴该思路构建其他领域的安全知识库。",
+      "recommendation_reason": "SOC 负责人和安全团队负责人该看：别盲目跟风上 Agent，Gartner 的 15% 成功率说明大部分试点会沦为玩具。现在该做的是明确场景边界、设好可量化评估指标，再决定是否扩量。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/gastronomy/status/2097536638943371567",
-      "reader_url": "https://x.com/gastronomy/status/2097536638943371567",
+      "canonical_url": "https://x.com/helpnetsecurity/status/2097588316153561207",
+      "reader_url": "https://x.com/helpnetsecurity/status/2097588316153561207",
       "image_url": null,
       "author": {
-        "username": "gastronomy",
-        "name": "Tanat Tonguthaisri",
+        "username": "helpnetsecurity",
+        "name": "Help Net Security",
         "avatar_url": null
       },
-      "published_at": "2026-09-09T04:04:39",
-      "first_seen_at": "2026-09-09T04:09:26.584649",
-      "sub_category_label": "知识增强安全"
+      "published_at": "2026-09-09T07:30:00",
+      "first_seen_at": "2026-09-09T08:09:50.173845",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 1780,
+      "title": "AI 时代下入侵与攻击模拟（BAS）的演进方向",
+      "original_title": "What breach and attack simulation needs to become in the AI era - https://t.co/maOZ865xrE - @PicusSecurity #BAS #AISecurity #ThreatDetection #SecurityValidation #Cybersecurity #Cyb",
+      "summary": "Picus Security 探讨了在 AI 时代下，入侵与攻击模拟（BAS）技术需要如何演进以适应新的威胁检测和安全验证需求。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_validation",
+      "score_total": 64.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全验证和蓝队人员必看。文章指出了 BAS 结合 AI 的发展趋势，帮助团队思考如何升级现有的自动化安全验证流程，避免被新时代威胁抛下。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/helpnetsecurity/status/2097573215216488911",
+      "reader_url": "https://x.com/helpnetsecurity/status/2097573215216488911",
+      "image_url": null,
+      "author": {
+        "username": "helpnetsecurity",
+        "name": "Help Net Security",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-09T06:30:00",
+      "first_seen_at": "2026-09-09T08:09:51.609288",
+      "sub_category_label": null
     },
     {
       "id": 1736,
