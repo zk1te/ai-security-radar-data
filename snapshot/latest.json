@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T12:02:11+08:00",
+  "updated_at": "2026-09-09T12:32:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 1658,
@@ -71,6 +71,30 @@
       "published_at": "2026-09-08T22:13:16",
       "first_seen_at": "2026-09-09T01:56:49.440624",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 1710,
+      "title": "基于图与LLM提取的O-RAN安全分析框架",
+      "original_title": "A Queryable Graph-Based Security Analysis Framework for O-RAN: The Open Radio Access Network (O-RAN) replaces vendor-locked RANs with a modular and interoperable architecture that ",
+      "summary": "本文提出一个针对O-RAN的可查询图框架，利用LLM辅助提取非结构化规范和文献构建安全知识图谱，发现关键基础设施存在大量规范级威胁但缺乏经验覆盖，且模糊测试发现了大部分已知CVE。",
+      "primary_category": "AI for Sec",
+      "sub_category": "knowledge_enhanced",
+      "score_total": 66.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "论文展示了LLM在安全知识图谱构建中的落地用法，通过混合提取管线将静态规范转为可查询威胁库。安全团队可直接使用其开源图数据库分析O-RAN安全，或借鉴该思路构建其他领域的安全知识库。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2097536638943371567",
+      "reader_url": "https://x.com/gastronomy/status/2097536638943371567",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-09T04:04:39",
+      "first_seen_at": "2026-09-09T04:09:26.584649",
+      "sub_category_label": "知识增强安全"
     },
     {
       "id": 1679,
