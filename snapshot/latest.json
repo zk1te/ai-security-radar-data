@@ -1,28 +1,32 @@
 {
-  "updated_at": "2026-09-09T12:32:29+08:00",
+  "updated_at": "2026-09-09T13:02:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
     {
-      "id": 1658,
-      "title": "Camofox：面向 AI Agent 的反检测隐身浏览器",
-      "original_title": "GitHub Trending: jo-inc/camofox-browser gained 871 stars today",
-      "summary": "Camofox 是专为 AI 代理设计的无头浏览器，作为 Puppeteer/Playwright 的替代品，可绕过 Cloudflare 等反爬与机器人检测机制，单日涨星 871。",
+      "id": 1716,
+      "title": "Strix AI：开源多智能体自主渗透测试平台",
+      "original_title": "If you vibe code you should definitely check this tool.  Strix AI is an open-source, autonomous AI penetration testing platform. It uses a team of collaborative AI agents to act li",
+      "summary": "Strix AI 是一个开源自主 AI 渗透测试平台，采用多智能体协作架构在隔离 Docker 中执行从侦察到漏洞验证的全流程，覆盖 OWASP Top 10 并提供 CI/CD 集成与 PoC 输出。",
       "primary_category": "AI for Sec",
-      "sub_category": "anti_detection",
-      "score_total": 74.45,
+      "sub_category": "security_agent",
+      "score_total": 72.8,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做红队或资产收集 Agent 常受困于反爬机制，这款隐蔽浏览器工具可直接集成进自动化流程中绕过目标检测，值得拿来评估其对抗效果。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/jo-inc/camofox-browser?github_trending_date=2026-09-09&since=daily",
-      "reader_url": "https://github.com/jo-inc/camofox-browser?github_trending_date=2026-09-09&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-06T03:30:20",
-      "first_seen_at": "2026-09-09T00:52:38.799467",
-      "sub_category_label": null
+      "recommendation_reason": "渗透测试和 DevSecOps 团队值得关注：它把多 Agent 协作加动态漏洞验证做成开箱即用的开源工具，能挂进 CI/CD 做 PR 级安全审查，大幅降低静态扫描误报噪音。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/IdrishiSarfaraz/status/2097539942725681528",
+      "reader_url": "https://x.com/IdrishiSarfaraz/status/2097539942725681528",
+      "image_url": "https://pbs.twimg.com/media/HRv1czcasAANugR.jpg",
+      "author": {
+        "username": "IdrishiSarfaraz",
+        "name": "sudo Revolt ⚡",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-09T04:17:47",
+      "first_seen_at": "2026-09-09T04:44:31.760209",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 1692,
