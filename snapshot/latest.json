@@ -1,33 +1,9 @@
 {
-  "updated_at": "2026-09-09T10:01:03+08:00",
+  "updated_at": "2026-09-09T11:01:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
-    {
-      "id": 1611,
-      "title": "PentAGI：自主渗透测试 AI Agent 系统",
-      "original_title": "PentAGI is a fully autonomous AI agent system that performs complex penetration testing tasks in a secure, isolated Docker environment. https://t.co/4FDYmV1SU8",
-      "summary": "PentAGI 是一个在隔离 Docker 环境中执行复杂渗透测试任务的完全自主 AI 代理系统，旨在自动化红队与渗透测试流程。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做红队和渗透测试的同行该看，这是又一个开源自主渗透 Agent。可以直接拉 Docker 跑，评估它能否替代部分初级渗透工作流。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/the_osps/status/2097454940633579558",
-      "reader_url": "https://x.com/the_osps/status/2097454940633579558",
-      "image_url": "https://pbs.twimg.com/media/HRuoJ2KbYAEk9V3.png",
-      "author": {
-        "username": "the_osps",
-        "name": "Open-Source Projects",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-08T22:40:01",
-      "first_seen_at": "2026-09-08T22:59:21.244841",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 1658,
       "title": "Camofox：面向 AI Agent 的反检测隐身浏览器",
