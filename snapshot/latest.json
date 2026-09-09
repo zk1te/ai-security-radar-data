@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T11:01:49+08:00",
+  "updated_at": "2026-09-09T12:02:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 7,
   "items": [
     {
       "id": 1658,
@@ -94,6 +94,54 @@
       },
       "published_at": "2026-09-09T01:35:07",
       "first_seen_at": "2026-09-09T01:54:59.903453",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 1707,
+      "title": "AI Agent 测试能力评测：指定 Fuzzing 等手法未必提升质量",
+      "original_title": "AIエージェントにテスト手法を指示しても、必ずしもコードの品質は向上しないよ、という内容だった。  ・AIエージェントに特定のテスト手法を指示して、実装の質が上がるかを検証した ・Zstdの実装タスクを対象として、26種類のプロンプト条件を用いて実験 ・その結果として、どの手法も特に優れた成果を出すことはなかった ・むしろ、追加の指示なしのほうが平均以上の成",
+      "summary": "研究以 Zstd 实现为靶标，用 26 种提示条件测试 AI Agent 在不同测试手法下的表现。结果显示 AI 普遍不擅长写测试，多数手法效果不佳甚至负面；唯有人工预设框架后 Fuzzing 生成结构化输入才有效发现 Bug。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 64.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "想用 AI Agent 自动写测试或做 Fuzzing 的人必看。别指望光靠提示词指定「用 Fuzzing」就能让 Agent 干活——你得先把测试框架和输入结构搭好，Agent 才可能在其中发现真实 Bug。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/iwashi86/status/2097520372849446977",
+      "reader_url": "https://x.com/iwashi86/status/2097520372849446977",
+      "image_url": null,
+      "author": {
+        "username": "iwashi86",
+        "name": "iwashi / Yoshimasa Iwase",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-09T03:00:01",
+      "first_seen_at": "2026-09-09T03:34:19.255010",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 1705,
+      "title": "用户部署 Rito 安全 Agent 保护人类与 AI 混合员工",
+      "original_title": "@Shaughnessy119 Totally! today I implemented Rito (Security agent for a workforce of ppl &amp; agents)  I helped him mounting his linux server + hermes as OS + Rito as security for",
+      "summary": "某用户在 Linux 服务器上部署 Hermes OS 和名为 Rito 的安全 Agent，用于保护由人类和 AI Agent 组成的业务团队。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 63.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了安全 Agent 在真实业务场景中保护人机协同的早期落地案例。虽然缺乏技术细节，但对于关注 Agent 安全与自动化防御落地的从业者具有动态参考价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HeyJuano/status/2097520546359419355",
+      "reader_url": "https://x.com/HeyJuano/status/2097520546359419355",
+      "image_url": null,
+      "author": {
+        "username": "HeyJuano",
+        "name": "Juan Oliva",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-09T03:00:42",
+      "first_seen_at": "2026-09-09T03:33:45.629792",
       "sub_category_label": "安全Agent"
     },
     {
