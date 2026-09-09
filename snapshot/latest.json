@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T17:34:42+08:00",
+  "updated_at": "2026-09-09T18:04:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 1788,
@@ -51,6 +51,30 @@
       "published_at": "2026-09-09T06:34:34",
       "first_seen_at": "2026-09-09T07:02:00.231939",
       "sub_category_label": null
+    },
+    {
+      "id": 1794,
+      "title": "多 Agent 协作实现智能合约自动化审计的构想",
+      "original_title": "Một AI cần smart-contract audit.  Nó tìm một Security Agent. Agent nhận nhiệm vụ. Escrow khóa payment. Kết quả được giao. Một agent khác xác minh. Con người không cần đứng giữa mọi",
+      "summary": "探讨利用多 AI Agent 协作完成智能合约审计：由安全代理执行任务、第三方代理验证结果，并结合 Escrow 锁定支付，构建无需人类全程介入的安全审计代理经济。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 64.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "为安全自动化展示了一种多代理协作的经济模型，适合关注智能合约审计和 Agent 编排的团队参考，可启发构建自动化审计流水线并设计验证机制。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Samiyw65/status/2097617472115654779",
+      "reader_url": "https://x.com/Samiyw65/status/2097617472115654779",
+      "image_url": null,
+      "author": {
+        "username": "Samiyw65",
+        "name": "Sami",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-09T09:25:51",
+      "first_seen_at": "2026-09-09T09:43:20.939835",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 1778,
