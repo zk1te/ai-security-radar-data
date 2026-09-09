@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T14:33:32+08:00",
+  "updated_at": "2026-09-09T15:03:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 1716,
@@ -27,6 +27,30 @@
       "published_at": "2026-09-09T04:17:47",
       "first_seen_at": "2026-09-09T04:44:31.760209",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 1761,
+      "title": "ProgramBench：干净室条件下 AI 逆向重建程序能力评测",
+      "original_title": "ProgramBench asks a blunt question.  Can a model rebuild a real program from scratch when it only sees a compiled binary and the docs.  No source. No decompiler. No internet. Probe",
+      "summary": "ProgramBench 要求模型在无源码、无反编译、无网络的干净室条件下，仅凭二进制和文档重建 jq、FFmpeg、SQLite 等真实程序，200 个任务共 248,853 个检查点，测试由 agent-driven fuzzing 生成。最强模型 Claude Opus 5 仅完全解决 4.5% 任务，揭示了 AI 在逆向工程重建场景的能力上限。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 67.28,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做二进制安全和逆向的该看——干净室规则下逼模型从二进制重建 SQLite、FFmpeg，直接暴露 AI 逆向重建能力天花板。agent-driven fuzzing 生成行为测试的方法对构建安全评测 harness 有直接参考价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Kisalay_/status/2097574365584032143",
+      "reader_url": "https://x.com/Kisalay_/status/2097574365584032143",
+      "image_url": "https://pbs.twimg.com/media/HRwUwcZakAA4rDs.jpg",
+      "author": {
+        "username": "Kisalay_",
+        "name": "Kisalay",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-09T06:34:34",
+      "first_seen_at": "2026-09-09T07:02:00.231939",
+      "sub_category_label": null
     },
     {
       "id": 1710,
