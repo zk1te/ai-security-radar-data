@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T09:30:50+08:00",
+  "updated_at": "2026-09-09T10:01:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 3,
+  "item_count": 6,
   "items": [
     {
       "id": 1611,
@@ -47,6 +47,78 @@
       "published_at": "2026-09-06T03:30:20",
       "first_seen_at": "2026-09-09T00:52:38.799467",
       "sub_category_label": null
+    },
+    {
+      "id": 1692,
+      "title": "评论称用简单提示词即可从 Windows 挖出 LPE 漏洞",
+      "original_title": "I struggle with Microsoft spending far too little on security for decades, then somehow turning the resulting flood of CVEs into positive PR about doing the right thing and leading",
+      "summary": "推文指出微软长期安全投入不足导致大量 CVE，而 Project Glasswing 等项目显示，仅需简单提示词即可从 Windows 中发现本地提权漏洞，AI 辅助漏洞挖掘门槛已大幅降低。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞研究者和红队必看：连「find me bugs」级别的 prompt 都能从 Windows 摇出 LPE，说明 AI 辅助漏洞发现的门槛已暴跌。安全团队应立刻评估自家产品在 AI 辅助攻击下的暴露面，并跟踪 Glasswing 后续动态。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2097445455470960785",
+      "reader_url": "https://x.com/HackingLZ/status/2097445455470960785",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-08T22:02:19",
+      "first_seen_at": "2026-09-09T01:56:49.819243",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 1691,
+      "title": "推文讨论 ChatGPT 耗费数百万算力赢取百万美元安全竞赛",
+      "original_title": "ChatGPT spending millions in compute to beat someone else to a $1 million prize is the most Elon “love of the game” thing they’ve done in a while.",
+      "summary": "该推文提及 ChatGPT 花费数百万美元算力击败对手赢取百万美元奖金，疑似指向大模型在网络安全 CTF 或漏洞挖掘竞赛中的重磅赛事动态。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "虽然推文信息量极少，但透露出大模型在顶级安全竞赛（如 AIxCC）中冲击百万美元奖金的动向。安全从业者需关注 AI Agent 在实战 CTF 中的烧钱模式与战力上限，这直接预示着自动化攻防的商业化拐点。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2097448211019370891",
+      "reader_url": "https://x.com/HackingLZ/status/2097448211019370891",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-08T22:13:16",
+      "first_seen_at": "2026-09-09T01:56:49.440624",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 1679,
+      "title": "使用 Grok AI 加速渗透测试流程",
+      "original_title": "🚨 Grok #AI for Penetration Testing: Accelerating Reconnaissance, Analysis, and Exploitation Workflows + Video  -Prediction: 📈 2 Positive | 📉 2 Negative  https://t.co/tTYISIjetp  Ed",
+      "summary": "探讨如何利用 Grok AI 辅助渗透测试，以加快侦察、分析和漏洞利用阶段的工作效率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可关注 Grok 在渗透测试各环节的实际表现，评估其作为攻击辅助工具的潜力与局限性，为引入 AI 自动化红队工具提供参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/UndercodeUpdate/status/2097499006603571661",
+      "reader_url": "https://x.com/UndercodeUpdate/status/2097499006603571661",
+      "image_url": null,
+      "author": {
+        "username": "UndercodeUpdate",
+        "name": "UNDERCODE TESTING",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-09T01:35:07",
+      "first_seen_at": "2026-09-09T01:54:59.903453",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 1669,
