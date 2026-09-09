@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T18:04:44+08:00",
+  "updated_at": "2026-09-09T18:34:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 5,
   "items": [
     {
       "id": 1788,
@@ -123,70 +123,6 @@
       "published_at": "2026-09-09T06:30:00",
       "first_seen_at": "2026-09-09T08:09:51.609288",
       "sub_category_label": null
-    },
-    {
-      "id": 1736,
-      "title": "过程图：让 LLM Agent 自演化的执行结构框架",
-      "original_title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
-      "summary": "论文提出 Procedural Graph，将过程知识组织为图三元组并在每步决策时提供局部引导，通过 LLM 对比成败轨迹自演化图拓扑，解决长任务中 Agent 目标丢失和工具误用问题。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 64.24,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全 Agent 的人该看：长链路渗透或审计任务里 Agent 同样会跑偏、乱调工具，这种显式过程图＋自演化约束的思路可直接借鉴来提升可靠性。但论文未在安全场景验证，需自行适配落地。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.09153",
-      "reader_url": "https://arxiv.org/pdf/2609.09153",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-09T00:00:00",
-      "first_seen_at": "2026-09-09T06:06:46.666554",
-      "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 1738,
-      "title": "用环境反馈丰化强化学习：长周期任务中的自进化 Agent 训练",
-      "original_title": "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
-      "summary": "该论文提出反馈丰富环境（FEEs）范式，通过在长周期任务探索后期将动作指导转为观测增强，解决强化学习中的奖励稀疏问题。实验表明该方法能稳定训练动态并提升 Agent 性能。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 63.49,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "环境反馈丰化思路对未来构建长周期安全测试 Agent 有启发。安全团队可关注这类 RL 训练优化方法如何迁移到复杂自动化渗透任务中。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.08404",
-      "reader_url": "https://arxiv.org/pdf/2609.08404",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-09T00:00:00",
-      "first_seen_at": "2026-09-09T06:07:16.100962",
-      "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 1759,
-      "title": "Fuzzing with AI 高级课程发布",
-      "original_title": "Code review catches mistakes humans can reason about.  Fuzzing finds the weird cases: malformed inputs, state transitions, parser edges, etc.  Our new advanced course, Fuzzing with",
-      "summary": "推出名为「Fuzzing with AI」的高级课程，教授如何使用 AI 进行模糊测试，涵盖基本原理与实践实现。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 63.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "适合关注 AI Fuzzing 落地的人员。课程声称覆盖基本原理与实践，可作为了解 AI 在模糊测试中具体实现路径的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/secdim/status/2097564066772656492",
-      "reader_url": "https://x.com/secdim/status/2097564066772656492",
-      "image_url": "https://pbs.twimg.com/media/HRwLYNba4AA4JbU.jpg",
-      "author": {
-        "username": "secdim",
-        "name": "SecDim",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-09T05:53:39",
-      "first_seen_at": "2026-09-09T06:27:59.942350",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
