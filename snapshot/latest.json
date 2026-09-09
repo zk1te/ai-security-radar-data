@@ -1,9 +1,33 @@
 {
-  "updated_at": "2026-09-09T17:04:40+08:00",
+  "updated_at": "2026-09-09T17:34:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
+    {
+      "id": 1788,
+      "title": "实验表明强塞 TDD/Fuzzing 指令反降 Agent 正确率",
+      "original_title": "给 coding agent 多塞几个“请用 TDD / fuzzing / formal methods”，结果可能更差。  Dan Luu 做了一个 26 条测试条件、每条约 80 次运行的实验：默认不加测试指令的 agent，正确率反而高于很多“指定方法”的版本。TDD 会写更多测试，却更容易把错误行为固定下来；形式化工具也常被用成漂亮的摆设。  我更",
+      "summary": "Dan Luu 实验发现给 coding agent 强加 TDD、fuzzing 指令反而降低正确率，测试数量易刷但覆盖失败路径难。作者建议先让 agent 列风险面并提供独立 oracle，再决定测试方法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 69.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 或自动化 Fuzzing 的从业者必看。别盲目让 Agent 套用测试方法，先给风险边界和独立 oracle 才是提效关键，避免刷测试数量的自嗨。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/troubleisfff/status/2097612222923145650",
+      "reader_url": "https://x.com/troubleisfff/status/2097612222923145650",
+      "image_url": null,
+      "author": {
+        "username": "troubleisfff",
+        "name": "Rik Shaw",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-09T09:05:00",
+      "first_seen_at": "2026-09-09T09:11:28.600767",
+      "sub_category_label": "AI Fuzzing"
+    },
     {
       "id": 1761,
       "title": "ProgramBench：干净室条件下 AI 逆向重建程序能力评测",
