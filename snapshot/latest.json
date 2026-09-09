@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-09T13:02:51+08:00",
+  "updated_at": "2026-09-09T13:33:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 1716,
@@ -171,30 +171,6 @@
       "published_at": "2026-09-09T03:00:42",
       "first_seen_at": "2026-09-09T03:33:45.629792",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 1669,
-      "title": "疑似 Claude Mythos 技术报告链接分享",
-      "original_title": "Get it here: https://t.co/CiMSC53VF4  Technical report: https://t.co/J1XHCOpilU",
-      "summary": "该推文分享了疑似 Claude Mythos 的获取链接与技术报告，可能涉及 AI 网络安全能力评测与漏洞挖掘。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 62.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "推文仅含链接，信息极少。但结合来源推断为 Claude Mythos 技术报告，安全团队应关注后续完整报告内容，以评估其在漏洞挖掘等安全任务中的实际表现。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2097461972313014561",
-      "reader_url": "https://x.com/HuggingPapers/status/2097461972313014561",
-      "image_url": null,
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-08T23:07:57",
-      "first_seen_at": "2026-09-09T01:22:28.733969",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
