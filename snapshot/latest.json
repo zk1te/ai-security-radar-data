@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T01:07:50+08:00",
+  "updated_at": "2026-09-11T01:38:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 9,
   "items": [
     {
       "id": 2430,
@@ -23,6 +23,30 @@
       "published_at": "2026-09-07T00:58:01",
       "first_seen_at": "2026-09-10T13:49:34.202044",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 2485,
+      "title": "开源渗透测试管理平台 red-clippy 引入 AI Agent",
+      "original_title": "red-clippy is an open-source pentest management platform built to be operated by an AI agent, bringing automation into penetration testing workflows.  📖 Read here: [https://t.co/O5",
+      "summary": "red-clippy 是一个开源的渗透测试管理平台，支持由 AI Agent 进行操作，旨在将自动化引入渗透测试工作流中。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.85,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试人员必看，red-clippy 探索了 AI Agent 在测试流程管理中的实际落地，可直接拉取代码试用评估其自动化潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/chandrusecurity/status/2098094686657523762",
+      "reader_url": "https://x.com/chandrusecurity/status/2098094686657523762",
+      "image_url": "https://pbs.twimg.com/media/HR3t_hfaAAAk8dz.jpg",
+      "author": {
+        "username": "chandrusecurity",
+        "name": "Chandrasekar Rathinam",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T17:02:08",
+      "first_seen_at": "2026-09-10T17:08:03.787332",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 2454,
@@ -46,6 +70,30 @@
       },
       "published_at": "2026-09-10T11:42:29",
       "first_seen_at": "2026-09-10T14:49:57.356724",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 2487,
+      "title": "俄威胁者武器化数百AI Agent利用PaperCut漏洞，7分钟内拿下域管权限",
+      "original_title": "Russian threat actor weaponized hundreds of AI agents to exploit PaperCut vulnerabilities, achieving domain admin access in some cases within 7 minutes across 440+ instances. The A",
+      "summary": "俄罗斯威胁者将数百个AI Agent武器化，对440+个PaperCut实例发起自动化漏洞利用，部分案例在7分钟内实现域管理员权限接管，展示了AI编排攻击对横向移动速度的指数级提升。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队蓝队都该看：攻击者已在实战中用AI Agent编排漏洞利用链，7分钟拿域管意味着传统应急响应窗口被彻底压缩。防御方需重新评估检测阻断时效要求和PaperCut暴露面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2098093502307426305",
+      "reader_url": "https://x.com/aviatrixtrc/status/2098093502307426305",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T16:57:26",
+      "first_seen_at": "2026-09-10T17:08:05.433650",
       "sub_category_label": "安全Agent"
     },
     {
