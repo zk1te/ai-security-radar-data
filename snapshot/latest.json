@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T04:09:10+08:00",
+  "updated_at": "2026-09-11T04:39:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -77,30 +77,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 2461,
-      "title": "XBOW 用 AI 发现 Chrome 250k 美金 RCE，核心问题是 Token 成本",
-      "original_title": "$250k worth RCE in Chrome by @Xbow  but the real question that stands is how many tokens ($$$) they burnt to find this?  #bugbounty #bugbountytips",
-      "summary": "XBOW 团队利用 AI 发现 Chrome 中价值 25 万美元的 RCE 漏洞，推文关注的焦点是发现该漏洞消耗了多少 Token、花了多少钱，直击 AI 漏洞挖掘的成本效益比问题。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 71.34,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队和漏洞猎手都该关注：XBOW 已经在实战中用 AI 挖到 Chrome 级 RCE，说明自主漏洞挖掘已从演示进入真实赏金赛道。关键问题已不是「能不能挖到」，而是「Token 成本能否覆盖赏金回报」——这直接决定 AI 漏洞挖掘能否规模化商用。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/payloadartist/status/2098056402954580039",
-      "reader_url": "https://x.com/payloadartist/status/2098056402954580039",
-      "image_url": null,
-      "author": {
-        "username": "payloadartist",
-        "name": "payloadartist",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T14:30:01",
-      "first_seen_at": "2026-09-10T16:12:35.059831",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 2539,
       "title": "讨论 Mythos 辅助模糊测试与浏览器漏洞作为内网入口",
       "original_title": "@Polydamas @PulpLiberal Pour le coup c'était un effort conjoint entre une équipe humaine compétente (notamment en méthodo de fuzzing) et l'utilisation de Mythos. Par contre \"pourri",
@@ -122,6 +98,30 @@
       },
       "published_at": "2026-09-10T18:48:38",
       "first_seen_at": "2026-09-10T19:19:27.731974",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 2547,
+      "title": "多模型辅助 Fuzzing 实践：GPT 因护栏问题被弃用",
+      "original_title": "@Valistheaeth @GodwinXbt @Da7_Tech Okay noted. Thank you!!  Actually I have been using opus with gpt and DeepSeek for fuzzing through an agent behind then but gpt is really great b",
+      "summary": "用户分享使用 Claude Opus、GPT 和 DeepSeek 通过 Agent 进行 Fuzzing 的实践经验，指出 GPT 效果虽好但受限于安全护栏难以使用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 63.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给做 AI Fuzzing 的同行提个醒：GPT 系模型在直接用于 fuzzing 任务时容易触发 guardrail 中断流程，实操中可能需切换限制较宽的模型作为主力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/cryptos_finders/status/2098141232060842090",
+      "reader_url": "https://x.com/cryptos_finders/status/2098141232060842090",
+      "image_url": null,
+      "author": {
+        "username": "cryptos_finders",
+        "name": "cryptofinder.btc",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T20:07:05",
+      "first_seen_at": "2026-09-10T20:27:09.494562",
       "sub_category_label": "AI Fuzzing"
     },
     {
