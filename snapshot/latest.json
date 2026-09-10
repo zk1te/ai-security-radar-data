@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T05:39:22+08:00",
+  "updated_at": "2026-09-11T06:39:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -125,6 +125,26 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
+      "id": 2593,
+      "title": "PARSER：面向长上下文LLM代理的并行阅读与深度推理解耦架构",
+      "original_title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
+      "summary": "该论文提出 PARSER 架构，将长文档阅读与推理过程解耦，利用轻量级子代理并行读取文档块，主代理通过强化学习优化进行迭代式深度推理，显著提升了长上下文 QA 准确率并降低延迟。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 64.74,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该架构对处理超长代码库审计或海量安全日志分析的安全Agent有直接参考价值。其抗证据位置干扰特性可解决传统顺序读取在长文本漏洞挖掘中遗漏关键线索的痛点。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.06702",
+      "reader_url": "https://arxiv.org/pdf/2609.06702",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-10T00:00:00",
+      "first_seen_at": "2026-09-10T22:21:32.444225",
+      "sub_category_label": "Agent 架构"
+    },
+    {
       "id": 2562,
       "title": "用 LLM 控制树莓派继电器进行硬件 Fuzzing",
       "original_title": "LLM wireguard into Pi, controlling the relay powering the board while fuzzing any(every)thing possible. I'm sure this will work out fine 🫠 https://t.co/QQX5I8G1O3",
@@ -171,30 +191,6 @@
       "published_at": "2026-09-10T20:07:05",
       "first_seen_at": "2026-09-10T20:27:09.494562",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 2541,
-      "title": "安全负责人将预算从传统渗透测试转向 AI 安全工具",
-      "original_title": "Security chiefs are redirecting money from traditional penetration testing and legacy scanners toward Anthropic, OpenAI and a new crop of AI security startups.   Read more: https:/",
-      "summary": "安全负责人正在将预算从传统渗透测试和遗留扫描器转移到 Anthropic、OpenAI 及新一代 AI 安全初创公司，反映 AI 赋能安全正从概念走向采购决策。",
-      "primary_category": "AI for Sec",
-      "sub_category": "industry_adoption",
-      "score_total": 61.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "值得关注的行业信号：安全团队真金白银地从传统工具向 AI 安全工具迁移，说明 AI for Sec 已进入采购周期。安全从业者应关注哪些 AI 安全场景最先落地，提前评估替代传统工具的 ROI。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/theinformation/status/2098131925688811792",
-      "reader_url": "https://x.com/theinformation/status/2098131925688811792",
-      "image_url": null,
-      "author": {
-        "username": "theinformation",
-        "name": "The Information",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T19:30:07",
-      "first_seen_at": "2026-09-10T19:52:40.740420",
-      "sub_category_label": null
     }
   ]
 }
