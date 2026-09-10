@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T03:38:48+08:00",
+  "updated_at": "2026-09-11T04:09:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 4,
+  "item_count": 6,
   "items": [
     {
       "id": 2485,
@@ -53,6 +53,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 2540,
+      "title": "Deception Benchmark：测试AI模型识别虚假漏洞的能力",
+      "original_title": "AI models are getting better at finding vulnerabilities. Can they spot when one isn’t real?  We tested 12 frontier models from 5 providers, check out our results.  Deception Benchm",
+      "summary": "Deception Benchmark 开源发布，测试了来自5家厂商的12款前沿模型能否区分真实与虚假漏洞，并提供公开测试入口。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 71.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全评测榜单又添新成员。Deception Bench 直接测模型在漏洞发现中的误报率——如果模型连假漏洞都分不清，谈何自动化漏洞挖掘。建议拿自己的模型跑一遍。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ChetKapoor/status/2098133467100037165",
+      "reader_url": "https://x.com/ChetKapoor/status/2098133467100037165",
+      "image_url": null,
+      "author": {
+        "username": "ChetKapoor",
+        "name": "Chet Kapoor",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T19:36:14",
+      "first_seen_at": "2026-09-10T19:52:40.372137",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 2461,
       "title": "XBOW 用 AI 发现 Chrome 250k 美金 RCE，核心问题是 Token 成本",
       "original_title": "$250k worth RCE in Chrome by @Xbow  but the real question that stands is how many tokens ($$$) they burnt to find this?  #bugbounty #bugbountytips",
@@ -99,6 +123,30 @@
       "published_at": "2026-09-10T18:48:38",
       "first_seen_at": "2026-09-10T19:19:27.731974",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 2541,
+      "title": "安全负责人将预算从传统渗透测试转向 AI 安全工具",
+      "original_title": "Security chiefs are redirecting money from traditional penetration testing and legacy scanners toward Anthropic, OpenAI and a new crop of AI security startups.   Read more: https:/",
+      "summary": "安全负责人正在将预算从传统渗透测试和遗留扫描器转移到 Anthropic、OpenAI 及新一代 AI 安全初创公司，反映 AI 赋能安全正从概念走向采购决策。",
+      "primary_category": "AI for Sec",
+      "sub_category": "industry_adoption",
+      "score_total": 61.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "值得关注的行业信号：安全团队真金白银地从传统工具向 AI 安全工具迁移，说明 AI for Sec 已进入采购周期。安全从业者应关注哪些 AI 安全场景最先落地，提前评估替代传统工具的 ROI。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/theinformation/status/2098131925688811792",
+      "reader_url": "https://x.com/theinformation/status/2098131925688811792",
+      "image_url": null,
+      "author": {
+        "username": "theinformation",
+        "name": "The Information",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T19:30:07",
+      "first_seen_at": "2026-09-10T19:52:40.740420",
+      "sub_category_label": null
     }
   ]
 }
