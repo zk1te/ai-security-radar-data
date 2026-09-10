@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T00:07:23+08:00",
+  "updated_at": "2026-09-11T00:37:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -95,6 +95,30 @@
       "published_at": "2026-09-10T12:31:36",
       "first_seen_at": "2026-09-10T13:02:34.616440",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 2461,
+      "title": "XBOW 用 AI 发现 Chrome 250k 美金 RCE，核心问题是 Token 成本",
+      "original_title": "$250k worth RCE in Chrome by @Xbow  but the real question that stands is how many tokens ($$$) they burnt to find this?  #bugbounty #bugbountytips",
+      "summary": "XBOW 团队利用 AI 发现 Chrome 中价值 25 万美元的 RCE 漏洞，推文关注的焦点是发现该漏洞消耗了多少 Token、花了多少钱，直击 AI 漏洞挖掘的成本效益比问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 71.34,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和漏洞猎手都该关注：XBOW 已经在实战中用 AI 挖到 Chrome 级 RCE，说明自主漏洞挖掘已从演示进入真实赏金赛道。关键问题已不是「能不能挖到」，而是「Token 成本能否覆盖赏金回报」——这直接决定 AI 漏洞挖掘能否规模化商用。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/payloadartist/status/2098056402954580039",
+      "reader_url": "https://x.com/payloadartist/status/2098056402954580039",
+      "image_url": null,
+      "author": {
+        "username": "payloadartist",
+        "name": "payloadartist",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T14:30:01",
+      "first_seen_at": "2026-09-10T16:12:35.059831",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 2407,
@@ -215,26 +239,6 @@
       "published_at": "2026-09-10T12:52:12",
       "first_seen_at": "2026-09-10T13:02:02.724710",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 2445,
-      "title": "AgentGrad：多智能体系统的干预引导提示优化",
-      "original_title": "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
-      "summary": "论文提出 AgentGrad 框架，通过顺序干预识别目标 Agent 并利用语义文本梯度抽象解决多智能体系统的提示优化问题，在多个基准上达到 SOTA 并显著减少优化时间。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 60.04,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "面向 AI for Sec 从业者：虽非安全研究，但多智能体提示优化技术对构建复杂安全自动化 Agent 流有参考价值，可关注其干预和梯度抽象思路以提升安全 Agent 调试效率。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.08572",
-      "reader_url": "https://arxiv.org/pdf/2609.08572",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-10T00:00:00",
-      "first_seen_at": "2026-09-10T14:15:47.921913",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
