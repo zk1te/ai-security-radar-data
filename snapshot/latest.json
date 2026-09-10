@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T03:08:32+08:00",
+  "updated_at": "2026-09-11T03:38:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 3,
+  "item_count": 4,
   "items": [
     {
       "id": 2485,
@@ -75,6 +75,30 @@
       "published_at": "2026-09-10T14:30:01",
       "first_seen_at": "2026-09-10T16:12:35.059831",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 2539,
+      "title": "讨论 Mythos 辅助模糊测试与浏览器漏洞作为内网入口",
+      "original_title": "@Polydamas @PulpLiberal Pour le coup c'était un effort conjoint entre une équipe humaine compétente (notamment en méthodo de fuzzing) et l'utilisation de Mythos. Par contre \"pourri",
+      "summary": "推文讨论了一次漏洞发现中人类模糊测试方法论团队与 Mythos AI 的协作，并指出浏览器被网页攻破是进入内网的常见路径。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 69.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全从业者应关注：这是 Mythos 从研究演示走向实际漏洞挖掘流程的一手信号，人机协作中的 fuzzing 方法论分工值得借鉴。但信息量有限，需持续追踪 Mythos 在真实漏洞披露中的角色。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Clementeubreux/status/2098121488817590587",
+      "reader_url": "https://x.com/Clementeubreux/status/2098121488817590587",
+      "image_url": null,
+      "author": {
+        "username": "Clementeubreux",
+        "name": "Clément",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T18:48:38",
+      "first_seen_at": "2026-09-10T19:19:27.731974",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
