@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T00:37:46+08:00",
+  "updated_at": "2026-09-11T01:07:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 7,
   "items": [
     {
       "id": 2430,
@@ -23,30 +23,6 @@
       "published_at": "2026-09-07T00:58:01",
       "first_seen_at": "2026-09-10T13:49:34.202044",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 2405,
-      "title": "AI辅助漏洞研究实战：MCP+Agent编排的300+工具安全流水线",
-      "original_title": "Vulnerability researchers, exploit devs and reverse engineers: before paying for another AI security course, read these two FREE posts by @ZephrFish.  This is what AI-assisted vuln",
-      "summary": "安全研究员@ZephrFish分享了基于MCP架构和Agent编排的AI辅助漏洞研究流水线，集成Ghidra、radare2、Frida等300+工具覆盖补丁比对、Fuzzing与崩溃分析，已通过赏金覆盖成本并产出有效发现。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.28,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘和逆向团队必看：这套流水线把补丁比对、Fuzzing、崩溃分析全串起来了，不是玩具demo而是真出过赏金漏洞的实操方案，直接抄作业或拿来做自研Agent的参照系都行。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cr3ghost/status/2098033761317446083",
-      "reader_url": "https://x.com/cr3ghost/status/2098033761317446083",
-      "image_url": "https://pbs.twimg.com/media/HRw7fIJasAA5KBL.jpg",
-      "author": {
-        "username": "cr3ghost",
-        "name": "cr3ghost",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T13:00:02",
-      "first_seen_at": "2026-09-10T13:02:01.608728",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 2454,
@@ -73,30 +49,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 2408,
-      "title": "AI安全Agent登Immunefi赏金榜第17名",
-      "original_title": "AGI WATCH 🐛  AN AI SECURITY AGENT NOW RANKS #17 ON THE IMMUNEFI LEADERBOARD, HAVING FOUND 3 VALID CRITICAL AND 5 HIGH VULNERABILITIES IN 2026 ALONE AND EARNED OVER $197,000 IN BOUN",
-      "summary": "某AI安全Agent在Immunefi排行榜位列第17，已发现3个严重和5个高危漏洞，获得超19.7万美元赏金。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.9,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI Agent在真实赏金平台打出名次，标志AI挖洞已具备实战变现能力。安全团队应关注AI在漏洞挖掘自动化中的落地进展及潜在威胁面。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Trueo_/status/2098026605465805127",
-      "reader_url": "https://x.com/Trueo_/status/2098026605465805127",
-      "image_url": null,
-      "author": {
-        "username": "Trueo_",
-        "name": "Trueo",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T12:31:36",
-      "first_seen_at": "2026-09-10T13:02:34.616440",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 2461,
       "title": "XBOW 用 AI 发现 Chrome 250k 美金 RCE，核心问题是 Token 成本",
       "original_title": "$250k worth RCE in Chrome by @Xbow  but the real question that stands is how many tokens ($$$) they burnt to find this?  #bugbounty #bugbountytips",
@@ -119,30 +71,6 @@
       "published_at": "2026-09-10T14:30:01",
       "first_seen_at": "2026-09-10T16:12:35.059831",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 2407,
-      "title": "构建攻击型AI容易，教它边界难：OffSec专家谈红队代理评测",
-      "original_title": "\"I built an autonomous security agent\" is a demo. \"I built an eval that shows where it breaks\" is engineering. 🛠️🧠  OffSec Community Member Ali Abdollahi just published a brilliant",
-      "summary": "OffSec 社区成员 Ali Abdollahi 指出，开发强大的攻击性 AI 代理很简单，但构建能暴露其盲区和边界的评估体系才是真正的工程挑战。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全 Agent 开者别光顾着跑分，得建 eval 找边界。这篇点破了攻防 AI 的工程化痛点：教它不碰什么比能打什么更难，红队和自动化防御工具开发者避坑必读。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/offsectraining/status/2098031741243953211",
-      "reader_url": "https://x.com/offsectraining/status/2098031741243953211",
-      "image_url": null,
-      "author": {
-        "username": "offsectraining",
-        "name": "OffSec",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T12:52:01",
-      "first_seen_at": "2026-09-10T13:02:03.736184",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 2438,
@@ -217,28 +145,24 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 2406,
-      "title": "测试 Flash v4.1 在智能合约审计与模糊测试中的表现",
-      "original_title": "@opencode Nice! Time to see how well Flash v4.1 handles smart contract auditing and fuzzing workflows. Let's see if it can spot the edge cases before the exploiters do. 🔍🕵️‍♂️",
-      "summary": "作者计划测试 Flash v4.1 模型在智能合约审计和模糊测试工作流中能否在攻击者之前发现边缘案例。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 60.85,
+      "id": 2445,
+      "title": "AgentGrad：多智能体系统的干预引导提示优化",
+      "original_title": "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
+      "summary": "论文提出 AgentGrad 框架，通过顺序干预识别目标 Agent 并利用语义文本梯度抽象解决多智能体系统的提示优化问题，在多个基准上达到 SOTA 并显著减少优化时间。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 60.04,
       "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "适合关注 AI 辅助漏洞挖掘的从业者跟进。虽只是测试计划，但可观察新模型在智能合约安全场景的实际能力，为工具选型提供早期参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xghost_dev/status/2098031787377095027",
-      "reader_url": "https://x.com/0xghost_dev/status/2098031787377095027",
+      "item_type": "paper",
+      "recommendation_reason": "面向 AI for Sec 从业者：虽非安全研究，但多智能体提示优化技术对构建复杂安全自动化 Agent 流有参考价值，可关注其干预和梯度抽象思路以提升安全 Agent 调试效率。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.08572",
+      "reader_url": "https://arxiv.org/pdf/2609.08572",
       "image_url": null,
-      "author": {
-        "username": "0xghost_dev",
-        "name": "0xGhost_Dev 🛠️👻",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T12:52:12",
-      "first_seen_at": "2026-09-10T13:02:02.724710",
-      "sub_category_label": "AI Fuzzing"
+      "author": null,
+      "published_at": "2026-09-10T00:00:00",
+      "first_seen_at": "2026-09-10T14:15:47.921913",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
