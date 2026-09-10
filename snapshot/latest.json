@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T02:38:11+08:00",
+  "updated_at": "2026-09-11T03:08:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 4,
+  "item_count": 3,
   "items": [
     {
       "id": 2485,
@@ -26,30 +26,6 @@
       },
       "published_at": "2026-09-10T17:02:08",
       "first_seen_at": "2026-09-10T17:08:03.787332",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 2454,
-      "title": "数百AI Agent协同攻击440余PaperCut实例并获域管权限",
-      "original_title": "⚡ Hundreds of AI agents were used to compromise at least 440 PaperCut instances across 48 countries.  The attacks chained authentication bypass and RCE, reaching domain admin acces",
-      "summary": "攻击者利用数百个AI agent自动化组合认证绕过与RCE漏洞，成功攻陷全球多国数百个PaperCut实例，并在12个组织获取了域管权限。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.9,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红蓝队都该看。AI协同攻击已具备实战破坏力，自动化漏洞链利用与提权不再是理论。安全团队需警惕AI驱动的规模化攻击，重新审视防御策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2098014244751192234",
-      "reader_url": "https://x.com/TheHackersNews/status/2098014244751192234",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T11:42:29",
-      "first_seen_at": "2026-09-10T14:49:57.356724",
       "sub_category_label": "安全Agent"
     },
     {
