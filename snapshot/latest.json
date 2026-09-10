@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T06:39:37+08:00",
+  "updated_at": "2026-09-11T07:40:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -101,28 +101,28 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 2539,
-      "title": "讨论 Mythos 辅助模糊测试与浏览器漏洞作为内网入口",
-      "original_title": "@Polydamas @PulpLiberal Pour le coup c'était un effort conjoint entre une équipe humaine compétente (notamment en méthodo de fuzzing) et l'utilisation de Mythos. Par contre \"pourri",
-      "summary": "推文讨论了一次漏洞发现中人类模糊测试方法论团队与 Mythos AI 的协作，并指出浏览器被网页攻破是进入内网的常见路径。",
+      "id": 2608,
+      "title": "RecallGuard: 记忆历史漏洞的智能合约安全Agent",
+      "original_title": "Built RecallGuard for the @sibylcap hackathon:  A security agent that remembers past smart-contract vulnerabilities and blocks regressions. Built with Sibyl Memory + @base  https:/",
+      "summary": "在Sibylcap黑客松上开发的RecallGuard，利用Sibyl Memory构建，能记住过往智能合约漏洞并阻止代码回归问题。",
       "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 69.05,
+      "sub_category": "security_agent",
+      "score_total": 66.45,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全从业者应关注：这是 Mythos 从研究演示走向实际漏洞挖掘流程的一手信号，人机协作中的 fuzzing 方法论分工值得借鉴。但信息量有限，需持续追踪 Mythos 在真实漏洞披露中的角色。",
+      "recommendation_reason": "智能合约安全审计团队值得关注，它展示了Agent如何利用历史漏洞记忆做自动化回归防御。思路可作为安全Agent设计参考，但实际效果待验证。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Clementeubreux/status/2098121488817590587",
-      "reader_url": "https://x.com/Clementeubreux/status/2098121488817590587",
+      "canonical_url": "https://x.com/Dominion_10_10/status/2098179982342115717",
+      "reader_url": "https://x.com/Dominion_10_10/status/2098179982342115717",
       "image_url": null,
       "author": {
-        "username": "Clementeubreux",
-        "name": "Clément",
+        "username": "Dominion_10_10",
+        "name": "Dominion",
         "avatar_url": null
       },
-      "published_at": "2026-09-10T18:48:38",
-      "first_seen_at": "2026-09-10T19:19:27.731974",
-      "sub_category_label": "AI Fuzzing"
+      "published_at": "2026-09-10T22:41:04",
+      "first_seen_at": "2026-09-10T23:14:11.083070",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 2593,
