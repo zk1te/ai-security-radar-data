@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-10T14:41:15+08:00",
+  "updated_at": "2026-09-10T15:11:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 4,
   "items": [
     {
       "id": 1992,
@@ -67,30 +67,6 @@
       "published_at": "2026-09-10T00:00:00",
       "first_seen_at": "2026-09-10T05:50:05.118518",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 1980,
-      "title": "多 AI 协作安全工作流：Daybreak 做 fuzzing/PoC，Astra 审查并泛化修复",
-      "original_title": "My strategy for getting Astra to do security work: have Daybreak handle fuzzing and POC; then patch issues and ask Astra to review/generalise/expand the fixes in a sanitized repo w",
-      "summary": "介绍一种双 AI 工具协作策略——Daybreak 负责 fuzzing 和 PoC 生成，Astra 在去除 harness 的隔离仓库中审查和泛化修复方案，两者迭代互促改进 PoC 与补丁质量。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 70.07,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这套路子比单 Agent 硬刚要聪明：用 sanitized repo 隔离攻击代码再让审查型 AI 介入，既防滥用又提质量。安全团队可直接照搬这个分工+隔离模式做自动化漏洞修复流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cortesi/status/2097873477214806175",
-      "reader_url": "https://x.com/cortesi/status/2097873477214806175",
-      "image_url": null,
-      "author": {
-        "username": "cortesi",
-        "name": "Aldo Cortesi",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T02:23:08",
-      "first_seen_at": "2026-09-10T02:49:46.591194",
-      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 2045,
