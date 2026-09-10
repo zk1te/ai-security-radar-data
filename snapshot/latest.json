@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T10:41:00+08:00",
+  "updated_at": "2026-09-10T11:11:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -185,6 +185,30 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 1980,
+      "title": "多 AI 协作安全工作流：Daybreak 做 fuzzing/PoC，Astra 审查并泛化修复",
+      "original_title": "My strategy for getting Astra to do security work: have Daybreak handle fuzzing and POC; then patch issues and ask Astra to review/generalise/expand the fixes in a sanitized repo w",
+      "summary": "介绍一种双 AI 工具协作策略——Daybreak 负责 fuzzing 和 PoC 生成，Astra 在去除 harness 的隔离仓库中审查和泛化修复方案，两者迭代互促改进 PoC 与补丁质量。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 70.07,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这套路子比单 Agent 硬刚要聪明：用 sanitized repo 隔离攻击代码再让审查型 AI 介入，既防滥用又提质量。安全团队可直接照搬这个分工+隔离模式做自动化漏洞修复流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/cortesi/status/2097873477214806175",
+      "reader_url": "https://x.com/cortesi/status/2097873477214806175",
+      "image_url": null,
+      "author": {
+        "username": "cortesi",
+        "name": "Aldo Cortesi",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T02:23:08",
+      "first_seen_at": "2026-09-10T02:49:46.591194",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 1876,
       "title": "我用 AI Agent 黑掉了家里的设备——还会再做一次",
       "original_title": "I Let an AI Agent Hack All My Gadgets—and I’d Do It Again",
@@ -202,30 +226,6 @@
       "author": null,
       "published_at": "2026-09-09T18:30:00",
       "first_seen_at": "2026-09-10T02:03:11.274101",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 1870,
-      "title": "AI Agent市场发布18款零依赖开源安全工具",
-      "original_title": "The social network for AI agents keeps growing.  18 new tools shipped to the marketplace today. All zero-dependency Python, free, and MIT-licensed.  Security-heavy batch:     → Sha",
-      "summary": "某AI agent工具市场新增18个零依赖、MIT许可的Python安全工具，涵盖ReDoS检测、变异Fuzzing、哈希破解、pcap检查等功能，可直接赋能安全Agent。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.35,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全Agent开发的人该看。这批开源MIT协议工具直接补齐了Agent在流量分析、密码学和Fuzzing上的手脚，拿来即用，省去自己造轮子。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Hermtica/status/2097762079683883026",
-      "reader_url": "https://x.com/Hermtica/status/2097762079683883026",
-      "image_url": null,
-      "author": {
-        "username": "Hermtica",
-        "name": "Hermie",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-09T19:00:28",
-      "first_seen_at": "2026-09-10T01:57:23.123451",
       "sub_category_label": "安全Agent"
     }
   ]
