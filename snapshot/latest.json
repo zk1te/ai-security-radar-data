@@ -1,9 +1,57 @@
 {
-  "updated_at": "2026-09-11T05:09:15+08:00",
+  "updated_at": "2026-09-11T05:39:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 8,
   "items": [
+    {
+      "id": 2565,
+      "title": "reburp：让 AI Agent 全权操控 Burp Suite 的桥接扩展",
+      "original_title": "My tweets haven't gone viral in a while now, so I must drop this banger: reburp  And yes, it's a game changer in applicative pentest and bug bounty. Following me was worth it.  Kno",
+      "summary": "reburp 是一个 Burp 扩展，通过 localhost OpenAPI REST API 将 Burp 内部 Montoya API 暴露给 AI agent，使其能执行主动扫描、fuzzing、turbo intruder、遍历 sitemap、WebSocket、生成 CSRF PoC 及调用其他扩展等功能。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 79.42,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做 Web 渗透和 bug bounty 的团队该立刻看这个。它绕开 Burp 官方 MCP 的能力限制，让 AI Agent 真正能驱动 Burp 执行扫描、fuzzing 和 PoC 生成。可作为构建自动化渗透 Agent 的现成工具链基础。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/forefy/status/2098160999719211488",
+      "reader_url": "https://x.com/forefy/status/2098160999719211488",
+      "image_url": "https://pbs.twimg.com/media/HR3OeHcXcAMi8-_.jpg",
+      "author": {
+        "username": "forefy",
+        "name": "forefy",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T21:25:38",
+      "first_seen_at": "2026-09-10T21:36:12.889242",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 2581,
+      "title": "AI漏洞扫描器引发验证瓶颈：Glasswing项目修补率仅0.8%",
+      "original_title": "TRC analysis shows AI vulnerability scanners are creating dangerous operational blind spots. Anthropic's Project Glasswing generated 26,153 findings but only 202 were patched - a 0",
+      "summary": "TRC 分析指出 Anthropic 的 Project Glasswing 生成了超 2.6 万条漏洞发现，但仅 202 条被修补，海量误报导致真正的威胁被淹没，削弱了运行时威胁检测能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.26,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队引入 AI 漏洞扫描器时必看。这直接点破了「发现多但无法验证」的落地痛点，提醒各位在评估 AI 安全工具时必须把误报率和验证成本作为核心指标，而不是盲目追求发现数量。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2098101021905965199",
+      "reader_url": "https://x.com/aviatrixtrc/status/2098101021905965199",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T17:27:19",
+      "first_seen_at": "2026-09-10T21:38:31.404363",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 2540,
       "title": "Deception Benchmark：测试AI模型识别虚假漏洞的能力",
@@ -27,6 +75,30 @@
       "published_at": "2026-09-10T19:36:14",
       "first_seen_at": "2026-09-10T19:52:40.372137",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 2570,
+      "title": "AI辅助嵌入式目标漏洞研究分享",
+      "original_title": "AI Assisted Vulnerability Research on Embedded Targets - @qkaiser  https://t.co/wM4eFuZqhp",
+      "summary": "介绍了如何利用AI辅助技术针对嵌入式目标进行漏洞挖掘与研究。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "嵌入式漏洞挖掘通常耗时且门槛高，AI辅助能显著降低成本。安全研究员可关注此方向，探索AI在固件分析和硬件安全中的落地潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2098152784151630297",
+      "reader_url": "https://x.com/pentest_swissky/status/2098152784151630297",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-10T20:53:00",
+      "first_seen_at": "2026-09-10T21:36:53.315203",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 2539,
