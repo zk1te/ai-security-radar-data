@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T02:08:02+08:00",
+  "updated_at": "2026-09-11T02:38:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 4,
   "items": [
     {
       "id": 2485,
@@ -99,98 +99,6 @@
       "published_at": "2026-09-10T14:30:01",
       "first_seen_at": "2026-09-10T16:12:35.059831",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 2438,
-      "title": "别神话也别轻视：LLM 在安全工作中的务实定位",
-      "original_title": "People here seem very defeatist about LLMs and cyber, and it usually comes from either end of the spectrum people who don’t understand hacking at all but work in or around infosec,",
-      "summary": "批评了业界对 LLM 安全能力的两种极端态度——过度神话或只盯漏洞本身，指出真正有价值的做法是将 LLM 融入从测试到监控的完整安全生命周期。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 64.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 AI 安全容易陷入「能自动挖 0day 吗」的执念。这篇短文点破了现实：别盯着单点漏洞，把 LLM 用在分类、修补、监控这些 lifecycle 环节才是正经事。适合正在规划 AI 安全落地的团队负责人看。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2098034319570661417",
-      "reader_url": "https://x.com/HackingLZ/status/2098034319570661417",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T13:02:16",
-      "first_seen_at": "2026-09-10T14:14:11.796497",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 2440,
-      "title": "AI 自动化攻击仍依赖传统渗透工具，EDR 可有效防御",
-      "original_title": "How will we defend against attackers automating with AI?  Look at the tool list below. The models mostly follow pentesting 101 and arrive at the same common tools attackers have us",
-      "summary": "该推文指出，AI 模型在进行自动化攻击时通常仍遵循基础渗透流程并使用常见传统工具，这些行为并未脱离现代 EDR 的检测范围，LLM 并未使底层攻击技术发生本质变化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 63.8,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给恐慌 AI 自动化攻击的防御者泼冷水：目前 AI 驱动的攻击仍依赖传统工具链，现有 EDR 即可覆盖大部分。安全团队应关注如何强化基础检测能力，而非盲目追逐「AI 威胁」概念。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2098029345054785813",
-      "reader_url": "https://x.com/HackingLZ/status/2098029345054785813",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T12:42:30",
-      "first_seen_at": "2026-09-10T14:15:18.099596",
-      "sub_category_label": "渗透测试"
-    },
-    {
-      "id": 2436,
-      "title": "LLM发现漏洞不等于可靠RCE：AI辅助漏洞挖掘的能力边界",
-      "original_title": "Something to consider when ranking vulnerabilities CVE-2026-72982 has been public for a couple of days, so why aren’t attackers already using it to pop shells on DCs? Everyone has ",
-      "summary": "推文探讨为何公开漏洞未被攻击者迅速武器化，指出虽然LLM已普及，但发现Bug并产生崩溃与构建可靠RCE之间存在巨大鸿沟。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 62.15,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和漏洞研究人员应看，它点破了当前AI辅助漏洞挖掘的真实水位——发现崩溃容易，但构建稳定利用仍需人工干预。这提醒团队在引入AI做漏洞挖掘时，别指望它一键出PoC，利用链构建仍是硬骨头。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2098044480431526176",
-      "reader_url": "https://x.com/HackingLZ/status/2098044480431526176",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T13:42:38",
-      "first_seen_at": "2026-09-10T14:13:50.521122",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 2445,
-      "title": "AgentGrad：多智能体系统的干预引导提示优化",
-      "original_title": "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
-      "summary": "论文提出 AgentGrad 框架，通过顺序干预识别目标 Agent 并利用语义文本梯度抽象解决多智能体系统的提示优化问题，在多个基准上达到 SOTA 并显著减少优化时间。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 60.04,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "面向 AI for Sec 从业者：虽非安全研究，但多智能体提示优化技术对构建复杂安全自动化 Agent 流有参考价值，可关注其干预和梯度抽象思路以提升安全 Agent 调试效率。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.08572",
-      "reader_url": "https://arxiv.org/pdf/2609.08572",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-10T00:00:00",
-      "first_seen_at": "2026-09-10T14:15:47.921913",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
