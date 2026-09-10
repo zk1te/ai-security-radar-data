@@ -1,49 +1,9 @@
 {
-  "updated_at": "2026-09-10T14:11:12+08:00",
+  "updated_at": "2026-09-10T14:41:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 5,
   "items": [
-    {
-      "id": 1971,
-      "title": "AISI 案例：前沿 AI 自主挖掘云环境配置漏洞",
-      "original_title": "Finding Cloud Misconfigurations with Frontier AI: A Case Study | AISI Work",
-      "summary": "英国 AISI 发布最新案例，使用前沿 AI 模型结合代码审计、自动化探测与人在环红队三种方法在真实云环境中成功挖掘出权限提升等未公开漏洞，展示了 AI 驱动安全评测低成本高回报的实战价值。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 80.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队必看。文章详细拆解了用 AI Agent 做红队和代码审计的三种落地形态，并给出真实的 Token 成本与误报体验，想引入 AI 漏扫的团队可直接抄作业避坑。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/finding-cloud-misconfigurations-with-frontier-ai-a-case-study",
-      "reader_url": "https://www.aisi.gov.uk/blog/finding-cloud-misconfigurations-with-frontier-ai-a-case-study",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-10T02:36:32.246716",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 1973,
-      "title": "AISI研究：增加推理预算揭示AI网络能力上限",
-      "original_title": "Evidence for inference scaling in AI cyber tasks: Increased evaluation budgets reveal higher success rates | AISI Work",
-      "summary": "AISI 与 Irregular 的评估发现，前沿模型能有效利用 10-50 倍的推理预算来显著提高网络任务成功率，标准评估设置可能严重低估了模型能力。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 80.2,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做安全评测和红队的人必须看：你以为模型做不出的高危任务，可能只是 token 不够。预算上限直接决定能力天花板，刷榜和买模型前先算清楚成本/成功率曲线。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/evidence-for-inference-scaling-in-ai-cyber-tasks-increased-evaluation-budgets-reveal-higher-success-rates",
-      "reader_url": "https://www.aisi.gov.uk/blog/evidence-for-inference-scaling-in-ai-cyber-tasks-increased-evaluation-budgets-reveal-higher-success-rates",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-10T02:36:33.172164",
-      "sub_category_label": null
-    },
     {
       "id": 1992,
       "title": "AI Agent 漏洞挖掘实战：250人规模的防御工厂实践",
@@ -89,30 +49,6 @@
       "sub_category_label": null
     },
     {
-      "id": 1906,
-      "title": "LLMSec-AV：面向自动驾驶的LLM驱动漏洞发现框架",
-      "original_title": "LLMSec-AV: A Vulnerability Taxonomy and LLM-Driven Software Weakness Discovery Framework for Autonomous Vehicles: Automated vehicles rely on millions of lines of safety-critical so",
-      "summary": "本文提出面向自动驾驶软件的漏洞发现框架LLMSec-AV，结合特定漏洞分类法和LLM分析代码，在已知漏洞召回率上显著优于传统静态分析工具，并生成了Fuzzing harness进行验证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.34,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "针对垂直领域用LLM结合知识库做漏洞挖掘的范例，展示了LLM在补充传统静态分析工具上的巨大潜力。做代码审计和安全自动化的人值得参考其分类法构建和多步分析思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/gastronomy/status/2097867601426760122",
-      "reader_url": "https://x.com/gastronomy/status/2097867601426760122",
-      "image_url": null,
-      "author": {
-        "username": "gastronomy",
-        "name": "Tanat Tonguthaisri",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T01:59:47",
-      "first_seen_at": "2026-09-10T02:13:23.466139",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 2088,
       "title": "审计 AI 研究智能体发现真实性的 DCP 协议",
       "original_title": "Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents",
@@ -155,30 +91,6 @@
       "published_at": "2026-09-10T02:23:08",
       "first_seen_at": "2026-09-10T02:49:46.591194",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 1914,
-      "title": "ImmuniWeb 获 CREST 首批 AI 安全技术认证",
-      "original_title": "@immuniweb  is among the first 10 companies in the world to receive the brand-new accreditation by CREST after a thorough verification and assessment of our AI technology, people a",
-      "summary": "安全公司 ImmuniWeb 宣布通过 CREST 的严格审核，成为全球首批获得 AI 技术认证的十家公司之一，标志着 AI 安全服务走向合规化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_certification",
-      "score_total": 65.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "CREST 推出 AI 技术认证意味着行业对「AI 用于安全」的标准化评测已起步。甲方安全团队在采购 AI 驱动的安全服务时，可将此类认证作为供应商筛选的参考维度。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/stephanekoch/status/2097709944732631183",
-      "reader_url": "https://x.com/stephanekoch/status/2097709944732631183",
-      "image_url": null,
-      "author": {
-        "username": "stephanekoch",
-        "name": "stéphane koch",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-09T15:33:19",
-      "first_seen_at": "2026-09-10T02:14:39.767613",
-      "sub_category_label": null
     },
     {
       "id": 2045,
