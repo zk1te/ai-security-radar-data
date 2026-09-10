@@ -1,33 +1,9 @@
 {
-  "updated_at": "2026-09-10T15:11:23+08:00",
+  "updated_at": "2026-09-10T15:41:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 4,
+  "item_count": 3,
   "items": [
-    {
-      "id": 1992,
-      "title": "AI Agent 漏洞挖掘实战：250人规模的防御工厂实践",
-      "original_title": "We mobilized 250+ people to strengthen our defenses across hundreds of systems. Our latest cyber models helped us find and fix vulnerabilities we might never have discovered otherw",
-      "summary": "某团队动员 250+ 人，利用 AI cyber 模型在数百系统中发现并修复漏洞。他们分享了 AI Agent 持续发现、验证漏洞及确认修复的「防御工厂」架构与实战 playbook。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.3,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队负责人必看：这是 AI Agent 从研究走向大规模产业级漏洞挖掘的真实案例。可直接参考其架构和 playbook，评估自身 AI 安全流程的闭环建设。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2097786616311840853",
-      "reader_url": "https://x.com/OpenAI/status/2097786616311840853",
-      "image_url": "https://pbs.twimg.com/media/HRzVoTSbcAAWpe5.jpg",
-      "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-09T20:37:58",
-      "first_seen_at": "2026-09-10T03:23:51.246752",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 2078,
       "title": "DF26基准：现有深伪检测器对AI生成视频识别接近盲猜",
