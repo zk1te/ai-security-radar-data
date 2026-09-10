@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-11T01:38:00+08:00",
+  "updated_at": "2026-09-11T02:08:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
-    {
-      "id": 2430,
-      "title": "阿里开源 AI 代码审查工具 open-code-review",
-      "original_title": "阿里开源了一个神级Agent项目",
-      "summary": "阿里开源其内部 AI 代码审查工具 open-code-review，采用确定性工程与 Agent 混合架构，内置 SQL 注入和 XSS 等安全检测规则，实现行级精准定位且误报极低。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 77.54,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做代码审计和 SAST 的同学必看。它用工程约束解决了纯 LLM 审查行号漂移和误报高的痛点，内置常见漏洞规则，接 CI/CD 就能当安全门禁用。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7681931232724910122",
-      "reader_url": "https://juejin.cn/post/7681931232724910122",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-07T00:58:01",
-      "first_seen_at": "2026-09-10T13:49:34.202044",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 2485,
       "title": "开源渗透测试管理平台 red-clippy 引入 AI Agent",
