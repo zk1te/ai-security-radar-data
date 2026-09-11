@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T08:10:21+08:00",
+  "updated_at": "2026-09-11T08:40:25+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 2565,
@@ -142,30 +142,6 @@
       },
       "published_at": "2026-09-10T20:39:01",
       "first_seen_at": "2026-09-10T21:03:02.747221",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 2547,
-      "title": "多模型辅助 Fuzzing 实践：GPT 因护栏问题被弃用",
-      "original_title": "@Valistheaeth @GodwinXbt @Da7_Tech Okay noted. Thank you!!  Actually I have been using opus with gpt and DeepSeek for fuzzing through an agent behind then but gpt is really great b",
-      "summary": "用户分享使用 Claude Opus、GPT 和 DeepSeek 通过 Agent 进行 Fuzzing 的实践经验，指出 GPT 效果虽好但受限于安全护栏难以使用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 63.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给做 AI Fuzzing 的同行提个醒：GPT 系模型在直接用于 fuzzing 任务时容易触发 guardrail 中断流程，实操中可能需切换限制较宽的模型作为主力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cryptos_finders/status/2098141232060842090",
-      "reader_url": "https://x.com/cryptos_finders/status/2098141232060842090",
-      "image_url": null,
-      "author": {
-        "username": "cryptos_finders",
-        "name": "cryptofinder.btc",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T20:07:05",
-      "first_seen_at": "2026-09-10T20:27:09.494562",
       "sub_category_label": "AI Fuzzing"
     }
   ]
