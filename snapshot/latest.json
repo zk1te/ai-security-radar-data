@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T13:12:46+08:00",
+  "updated_at": "2026-09-11T13:43:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -105,6 +105,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 2911,
+      "title": "Belief-State Engine：用 POMDP 信念状态增强 LLM 红队规划能力",
+      "original_title": "Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Observability",
+      "summary": "该论文提出了一种外置于 LLM 的 Belief-State Engine (BSE)，通过维护贝叶斯后验来解决 LLM Agent 在部分可观测环境下的规划漂移问题。在红队攻击图任务上的评测表明，该架构显著提升了决策一致性与信念校准。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent | agent_architecture",
+      "score_total": 82.78,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做红队 Agent 或自动化渗透的必看。LLM 面对未知信息容易瞎猜，这篇给出了用 POMDP 信念状态约束 LLM 的硬核解法，且附带代码和测试集，直接抄作业能少走很多弯路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.10036",
+      "reader_url": "https://arxiv.org/pdf/2609.10036",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-11T00:00:00",
+      "first_seen_at": "2026-09-11T05:28:42.266324",
+      "sub_category_label": null
+    },
+    {
       "id": 2707,
       "title": "Black Hat Asia：利用LLM推理大规模挖掘macOS PID域漏洞",
       "original_title": "Black Hat Asia 2026 | Large-Scale macOS PID-Domain Vulnerability Discovery with LLM Reasoning",
@@ -183,30 +203,6 @@
       "published_at": "2026-09-11T00:00:00",
       "first_seen_at": "2026-09-11T04:30:11.653454",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 2659,
-      "title": "俄AI Agent 7分钟攻破395个组织域控",
-      "original_title": "TRC analysis shows Russian AI agents compressed traditional attack timelines from weeks to minutes, achieving domain admin in just 7 minutes across 395 organizations. The campaign ",
-      "summary": "TRC分析称，俄罗斯AI代理将传统攻击时间压缩至数分钟，7分钟内即获取395个组织的域管理员权限，自动化利用PaperCut漏洞并收集凭证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.76,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "真实攻击案例展示了AI在自动化渗透中的恐怖效率。防守方需立即审视自身对自动化横向移动的检测与响应能力，并评估运行时微隔离技术以限制爆炸半径。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2098201659637690424",
-      "reader_url": "https://x.com/aviatrixtrc/status/2098201659637690424",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-11T00:07:13",
-      "first_seen_at": "2026-09-11T01:34:00.475109",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
