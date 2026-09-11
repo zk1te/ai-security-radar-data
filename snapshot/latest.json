@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-11T17:52:58+08:00",
+  "updated_at": "2026-09-11T22:29:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
-    {
-      "id": 2684,
-      "title": "Black Hat 2026议题：HTTP Terminator自主漏洞挖掘系统",
-      "original_title": "Can AI Do Novel Security Research? Meet the HTTP Terminator",
-      "summary": "该议题介绍了名为 HTTP Terminator 的自主系统，展示了其发现的新型 HTTP desync 触发器及漏洞利用，并探讨了 AI 在安全研究中的能力边界，同时开源了该工具。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 86.49,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这不仅是又一个 AI 找洞工具，而是探索了 AI 能否「发明」新攻击技术。安全团队应立即关注开源的 HTTP Terminator，评估其自动化攻击能力对现有防御体系的冲击。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/us-26/briefings/schedule/index.html#can-ai-do-novel-security-research-meet-the-http-terminator-51894",
-      "reader_url": "https://blackhat.com/us-26/briefings/schedule/index.html#can-ai-do-novel-security-research-meet-the-http-terminator-51894",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-05T12:00:00",
-      "first_seen_at": "2026-09-11T02:00:14.031031",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 3004,
       "title": "LLM 驱动的三阶段漏洞验证管道揭示静态分析盲区",
@@ -165,24 +145,24 @@
       "sub_category_label": null
     },
     {
-      "id": 2691,
-      "title": "Roblox 公开 AI 检测工程与威胁狩猎双 Agent 框架",
-      "original_title": "From Prompts to Pipelines: Building Agentic Detection Engineering and Threat Hunting",
-      "summary": "Black Hat USA 2026 议题介绍两个生产级安全 Agent 框架：AI Detection Engineer 五阶段检测规则编写流水线与 Threat Hunter Graph 自主威胁狩猎状态机，均基于 LangGraph 与 Tree-of-Thought 推理，已在 Roblox 生产环境部署。",
+      "id": 3005,
+      "title": "多模态Transformer在LEO卫星网络攻击检测中的应用研究",
+      "original_title": "Temporal and Multimodal Deep Learning for Cyberattack Detection in LEO Satellite Systems",
+      "summary": "本文利用UNSW-IoTSAT数据集，提出了一种分层多模态Transformer模型来捕捉低轨道卫星跨子系统的时间交互特征，在抗泄漏评估协议下检测准确率达91.66%。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 83.13,
+      "sub_category": "threat_detection",
+      "score_total": 82.5,
       "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做检测和狩猎的安全团队该看：Roblox 生产级多 Agent 框架，公开了 agent 契约和 graph 定义。重点看为何放弃无约束 Agent 自主性改用 LangGraph 有界模型，五阶段信任边界设计值得借鉴。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/us-26/briefings/schedule/index.html#from-prompts-to-pipelines-building-agentic-detection-engineering-and-threat-hunting-52947",
-      "reader_url": "https://blackhat.com/us-26/briefings/schedule/index.html#from-prompts-to-pipelines-building-agentic-detection-engineering-and-threat-hunting-52947",
+      "item_type": "paper",
+      "recommendation_reason": "结合了LEO卫星特有的硬件、轨道和射频异构信息进行时序建模，对做物联网和工控安全的同学很有借鉴意义，其抗泄漏评估协议也值得直接借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.10746",
+      "reader_url": "https://arxiv.org/pdf/2609.10746",
       "image_url": null,
       "author": null,
-      "published_at": "2026-08-05T11:05:00",
-      "first_seen_at": "2026-09-11T02:04:28.393437",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-09-11T04:00:00",
+      "first_seen_at": "2026-09-11T05:57:17.732454",
+      "sub_category_label": "威胁检测"
     }
   ]
 }
