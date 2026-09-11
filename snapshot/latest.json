@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-12T04:00:42+08:00",
+  "updated_at": "2026-09-12T04:30:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 3133,
@@ -47,6 +47,30 @@
       "published_at": "2026-09-11T19:29:02",
       "first_seen_at": "2026-09-11T19:45:44.498525",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3256,
+      "title": "俄黑客部署数百AI代理自动化利用PaperCut漏洞",
+      "original_title": "Russian threat actors deployed hundreds of AI agents to automate exploitation of PaperCut vulnerabilities CVE-2026-81578 and CVE-2026-82078. The campaign compromised 395 organizati",
+      "summary": "俄罗斯威胁行为者部署数百个AI代理自动化利用PaperCut漏洞，攻破48国395个组织，防御方可通过运行时分段限制爆炸半径。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 74.69,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了攻击者规模化使用AI Agent自动化漏洞利用的最新威胁动向，防守团队需高度警惕AI自动化攻击，并验证零信任和运行时隔离机制的有效性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2098458335041216641",
+      "reader_url": "https://x.com/aviatrixtrc/status/2098458335041216641",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-11T17:07:09",
+      "first_seen_at": "2026-09-11T20:20:37.492394",
+      "sub_category_label": null
     },
     {
       "id": 3176,
@@ -143,54 +167,6 @@
       "published_at": "2026-09-11T08:15:18",
       "first_seen_at": "2026-09-11T12:10:33.824428",
       "sub_category_label": null
-    },
-    {
-      "id": 3131,
-      "title": "开源智能合约 Fuzzing 与威胁狩猎 Agent 工具 Ultrafuzz",
-      "original_title": "Today we are open sourcing Ultrafuzz, an agentic smart-contract fuzzing and threat-hunting orchestrator. https://t.co/ukNRum2gka",
-      "summary": "Ultrafuzz 是一款开源的智能合约 Fuzzing 与威胁狩猎 Agent 编排器，旨在自动化发现智能合约漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 70.35,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "从事 Web3 或智能合约安全审计的同学必看。直接开源可用，研究其 Agent 编排逻辑能快速复用到自己的安全工作流中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviggiano/status/2098401332897931555",
-      "reader_url": "https://x.com/aviggiano/status/2098401332897931555",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2098400783205113865/img/bxBYawhUFXO-eiPf.jpg",
-      "author": {
-        "username": "aviggiano",
-        "name": "Antonio Viggiano",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-11T13:20:38",
-      "first_seen_at": "2026-09-11T13:47:31.532038",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 3152,
-      "title": "盘点7款值得关注的AI网络安全工具",
-      "original_title": "THIS IS F**CKING DANGEROUS.  7 AI CYBERSECURITY TOOLS EVERY BUILDER SHOULD KNOW BEFORE SHIPPING THEIR NEXT PRODUCT:  → PentestGPT — autonomous penetration testing → BurpGPT — AI-po",
-      "summary": "推文盘点了7款覆盖进攻性安全、防御、代码审计及LLM红队等环节的AI安全工具，强调AI在安全栈中的全面普及。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "适合需要快速了解AI在安全各环节落地形态的安全团队，可据此筛选渗透测试、代码扫描及LLM防护工具。虽偏盘点，但工具箱可直接参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/He1s_Sammy/status/2098420131181351083",
-      "reader_url": "https://x.com/He1s_Sammy/status/2098420131181351083",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2098420113448022016/img/o6tJTWbLLEz_SMIO.jpg",
-      "author": {
-        "username": "He1s_Sammy",
-        "name": "S✧ᜰ",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-11T14:35:20",
-      "first_seen_at": "2026-09-11T14:53:55.504213",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
