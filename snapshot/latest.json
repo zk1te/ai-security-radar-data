@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-12T02:00:34+08:00",
+  "updated_at": "2026-09-12T03:00:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 3133,
@@ -167,6 +167,30 @@
       "published_at": "2026-09-11T14:35:20",
       "first_seen_at": "2026-09-11T14:53:55.504213",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3079,
+      "title": "GreyNoise 发现 AI 代理利用 PaperCut 漏洞攻破 395 个组织",
+      "original_title": "AI agents exploited PaperCut flaws to breach 395 organizations - https://t.co/HuSRiBfotH - @GreyNoiseIO - #PaperCut #AI #AIagents #CVE #Vulnerability #Cybersecurity #CyberSecurityN",
+      "summary": "GreyNoise 报告称，AI 代理已利用 PaperCut 漏洞成功入侵 395 个组织，表明 AI 驱动的自动化攻击已在野外发生。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_intelligence",
+      "score_total": 68.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这不是理论推演，而是 AI 自动化工具在野外实施漏洞利用的真实威胁情报。安全团队应关注此类 AI 行为特征，并排查内网 PaperCut 漏洞修复情况。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/helpnetsecurity/status/2098353405450158403",
+      "reader_url": "https://x.com/helpnetsecurity/status/2098353405450158403",
+      "image_url": "https://pbs.twimg.com/media/HR7ZTKgXEAITW0v.jpg",
+      "author": {
+        "username": "helpnetsecurity",
+        "name": "Help Net Security",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-11T10:10:12",
+      "first_seen_at": "2026-09-11T11:04:53.618747",
+      "sub_category_label": null
     }
   ]
 }
