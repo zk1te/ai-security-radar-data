@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T08:40:25+08:00",
+  "updated_at": "2026-09-11T09:10:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 2565,
@@ -119,30 +119,6 @@
       "published_at": "2026-09-10T00:00:00",
       "first_seen_at": "2026-09-10T22:21:32.444225",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 2562,
-      "title": "用 LLM 控制树莓派继电器进行硬件 Fuzzing",
-      "original_title": "LLM wireguard into Pi, controlling the relay powering the board while fuzzing any(every)thing possible. I'm sure this will work out fine 🫠 https://t.co/QQX5I8G1O3",
-      "summary": "推文展示了使用 LLM 在树莓派上控制继电器供电，并同时尝试对目标硬件进行各种 Fuzzing 测试的实验。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 64.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全研究员展示了用 LLM 驱动硬件 Fuzzing 的有趣思路，结合物理继电器控制实现自动化测试。做物联网或硬件安全的团队可关注此类 AI 结合物理控制的测试方法，或许能启发新的硬件漏洞挖掘方式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hexpwn/status/2098149265499656669",
-      "reader_url": "https://x.com/hexpwn/status/2098149265499656669",
-      "image_url": "https://pbs.twimg.com/media/HR4fm4SXMBYHVVD.jpg",
-      "author": {
-        "username": "hexpwn",
-        "name": "⡷⡇⡱⢎⢸⠽⢸⢼",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T20:39:01",
-      "first_seen_at": "2026-09-10T21:03:02.747221",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
