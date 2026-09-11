@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T10:11:02+08:00",
+  "updated_at": "2026-09-11T10:41:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 9,
   "items": [
     {
       "id": 2684,
@@ -43,6 +43,46 @@
       "published_at": "2026-08-05T11:05:00",
       "first_seen_at": "2026-09-11T02:04:28.393437",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 2707,
+      "title": "Black Hat Asia：利用LLM推理大规模挖掘macOS PID域漏洞",
+      "original_title": "Black Hat Asia 2026 | Large-Scale macOS PID-Domain Vulnerability Discovery with LLM Reasoning",
+      "summary": "该研究提出首个基于LLM辅助静态分析的macOS PID域服务漏洞挖掘框架，结合语义推理与污点分析发现了12个未知漏洞，包含多个沙箱逃逸和TCC隐私绕过。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 81.96,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "给做macOS安全和自动化漏洞挖掘的团队看。本研究展示了LLM在闭源生态漏洞挖掘中的实际落地路径，将语义推理与污点分析结合，值得借鉴其方法论评估自身产品攻击面。",
+      "source_id": "blackhat-youtube",
+      "canonical_url": "https://www.youtube.com/watch?v=uFgB_aMw5-g",
+      "reader_url": "https://www.youtube.com/watch?v=uFgB_aMw5-g",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-08-29T14:30:03",
+      "first_seen_at": "2026-09-11T02:24:57.406352",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 2708,
+      "title": "Black Hat Asia 2026：用大模型增强以太坊差异测试挖掘漏洞",
+      "original_title": "Black Hat Asia 2026 | LLM-Empowered Differential Testing for the Ethereum Infrastructure",
+      "summary": "该议题提出一种结合大模型与差异测试的框架，利用 LLM 生成语义有效的测试输入并过滤误报，在 11 个以太坊客户端中发现 98 个未知漏洞，获以太坊基金会认可。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 81.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "用 LLM 做 Web3 基础设施漏洞挖掘的实战标杆。不仅用 AI 生成测试用例，还用 AI 过滤误报，直击差异测试痛点，安全团队可借鉴此双引擎思路到其他多实现协议的测试中。",
+      "source_id": "blackhat-youtube",
+      "canonical_url": "https://www.youtube.com/watch?v=btaJkpmFs4s",
+      "reader_url": "https://www.youtube.com/watch?v=btaJkpmFs4s",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-08-28T23:00:32",
+      "first_seen_at": "2026-09-11T02:27:02.365439",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 2671,
@@ -109,6 +149,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 2714,
+      "title": "T1：用于长程任务的终端 Agent 强化学习方法",
+      "original_title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+      "summary": "T1 是一个 122B 参数的 MoE 模型，通过强化学习训练以在真实 shell 中执行多达 300 轮工具调用的长程任务。该方法采用 TITO 和 R3 技术稳定训练，在 Terminal-Bench 2.1 上表现优异。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "agent_architecture",
+      "score_total": 74.2,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "终端 Agent 是构建自动化渗透和安全任务 Agent 的底层基础。其长程任务强化学习配方及评测基准，对开发能自主执行复杂 shell 操作的安全 Agent 具有直接参考价值。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.11042",
+      "reader_url": "https://arxiv.org/pdf/2609.11042",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-10T00:00:00",
+      "first_seen_at": "2026-09-11T02:34:28.512048",
+      "sub_category_label": null
+    },
+    {
       "id": 2679,
       "title": "Black Hat 2026 议程：AI 赋能攻防能力的不对称性",
       "original_title": "The Good, the Bad, and the Ugly of AI Security",
@@ -127,26 +187,6 @@
       "published_at": "2026-08-05T12:00:00",
       "first_seen_at": "2026-09-11T01:58:00.475182",
       "sub_category_label": null
-    },
-    {
-      "id": 2676,
-      "title": "AISI 与 NCSC 联合探讨：利用前沿 AI 赋能网络防御",
-      "original_title": "Harnessing frontier AI for cyber defence | AISI Work",
-      "summary": "英国 AISI 联合 NCSC 发文，探讨如何利用前沿 AI 在系统加固、威胁检测与调查、自动化响应三方面提升防御能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "官方机构对 AI 防御落地路径的权威解读，安全团队可据此评估现有安全运营流程，并规划 AI Agent 在威胁检测与响应中的切入点。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/harnessing-frontier-ai-for-cyber-defence",
-      "reader_url": "https://www.aisi.gov.uk/blog/harnessing-frontier-ai-for-cyber-defence",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-11T01:51:04.986092",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
