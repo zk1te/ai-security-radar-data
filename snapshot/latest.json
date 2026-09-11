@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T03:00:38+08:00",
+  "updated_at": "2026-09-12T04:00:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -23,6 +23,30 @@
       "published_at": "2026-09-10T09:16:09",
       "first_seen_at": "2026-09-11T13:53:22.730629",
       "sub_category_label": null
+    },
+    {
+      "id": 3243,
+      "title": "Immunefi 推出 AI 安全 Agent 评测榜，已有 Agent 排名超人类第 17 位",
+      "original_title": "If you are building an AI security agent, Immunefi is where it gets graded.  Live programs, real bounties, and an accuracy rate on your submissions.  Studio Review even gives you f",
+      "summary": "Immunefi 漏洞赏金平台宣布支持 AI 安全 Agent 参与真实漏洞挖掘并纳入排名，目前已有 Agent 在 2026 榜单位列第 17 名，超越众多人类研究员。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.1,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做漏洞挖掘 Agent 的团队必须看。这不仅是实战 benchmark，还有真实赏金验证，直接告诉你 Agent 在真实业务里能打到哪里。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/immunefi/status/2098494040618770874",
+      "reader_url": "https://x.com/immunefi/status/2098494040618770874",
+      "image_url": "https://pbs.twimg.com/media/HR9ZNWMaAAINLhy.jpg",
+      "author": {
+        "username": "immunefi",
+        "name": "Immunefi",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-11T19:29:02",
+      "first_seen_at": "2026-09-11T19:45:44.498525",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 3176,
@@ -167,30 +191,6 @@
       "published_at": "2026-09-11T14:35:20",
       "first_seen_at": "2026-09-11T14:53:55.504213",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3079,
-      "title": "GreyNoise 发现 AI 代理利用 PaperCut 漏洞攻破 395 个组织",
-      "original_title": "AI agents exploited PaperCut flaws to breach 395 organizations - https://t.co/HuSRiBfotH - @GreyNoiseIO - #PaperCut #AI #AIagents #CVE #Vulnerability #Cybersecurity #CyberSecurityN",
-      "summary": "GreyNoise 报告称，AI 代理已利用 PaperCut 漏洞成功入侵 395 个组织，表明 AI 驱动的自动化攻击已在野外发生。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_intelligence",
-      "score_total": 68.46,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这不是理论推演，而是 AI 自动化工具在野外实施漏洞利用的真实威胁情报。安全团队应关注此类 AI 行为特征，并排查内网 PaperCut 漏洞修复情况。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/helpnetsecurity/status/2098353405450158403",
-      "reader_url": "https://x.com/helpnetsecurity/status/2098353405450158403",
-      "image_url": "https://pbs.twimg.com/media/HR7ZTKgXEAITW0v.jpg",
-      "author": {
-        "username": "helpnetsecurity",
-        "name": "Help Net Security",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-11T10:10:12",
-      "first_seen_at": "2026-09-11T11:04:53.618747",
-      "sub_category_label": null
     }
   ]
 }
