@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-11T07:40:06+08:00",
+  "updated_at": "2026-09-11T08:10:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 2565,
@@ -51,30 +51,6 @@
       "published_at": "2026-09-10T17:27:19",
       "first_seen_at": "2026-09-10T21:38:31.404363",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 2540,
-      "title": "Deception Benchmark：测试AI模型识别虚假漏洞的能力",
-      "original_title": "AI models are getting better at finding vulnerabilities. Can they spot when one isn’t real?  We tested 12 frontier models from 5 providers, check out our results.  Deception Benchm",
-      "summary": "Deception Benchmark 开源发布，测试了来自5家厂商的12款前沿模型能否区分真实与虚假漏洞，并提供公开测试入口。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 71.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全评测榜单又添新成员。Deception Bench 直接测模型在漏洞发现中的误报率——如果模型连假漏洞都分不清，谈何自动化漏洞挖掘。建议拿自己的模型跑一遍。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ChetKapoor/status/2098133467100037165",
-      "reader_url": "https://x.com/ChetKapoor/status/2098133467100037165",
-      "image_url": null,
-      "author": {
-        "username": "ChetKapoor",
-        "name": "Chet Kapoor",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-10T19:36:14",
-      "first_seen_at": "2026-09-10T19:52:40.372137",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 2570,
