@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T00:30:22+08:00",
+  "updated_at": "2026-09-12T01:00:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -23,26 +23,6 @@
       "published_at": "2026-09-11T04:00:00",
       "first_seen_at": "2026-09-11T05:57:16.973546",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 2787,
-      "title": "LLMVul：真实生产仓库中LLM生成C/C++代码的漏洞数据集",
-      "original_title": "LLMVul: A Vulnerability-Labeled Dataset of LLM-Generated C/C++ Functions from Real Production Repositories",
-      "summary": "LLMVul 数据集从 GitHub 真实仓库中挖掘了 LLM 生成的 C/C++ 代码，并利用静态分析和模式匹配技术标记了 1,540 个漏洞函数，涵盖 17 类 CWE，为评估 AI 生成代码的安全性提供了可复现的研究基础。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 85.68,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "安全评测人员应重点关注，该数据集提供了真实环境下 AI 生成代码的漏洞分布，可用于测试和改进现有代码安全检测工具，避免在脱离真实场景的合成数据上自嗨。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.10945",
-      "reader_url": "https://arxiv.org/pdf/2609.10945",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-11T04:00:00",
-      "first_seen_at": "2026-09-11T04:37:29.550236",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 2972,
@@ -162,6 +142,26 @@
       "author": null,
       "published_at": "2026-09-10T09:16:09",
       "first_seen_at": "2026-09-11T13:53:22.730629",
+      "sub_category_label": null
+    },
+    {
+      "id": 2986,
+      "title": "针对Solana跨链桥的异构交易追踪方法SolTracer",
+      "original_title": "Heterogeneous Cross-Chain Transaction Tracing for Solana Bridges via Candidate-Set Selective Decision",
+      "summary": "提出基于候选集选择性决策的SolTracer，通过统一事件空间解决Solana跨链交易语义鸿沟，在开放世界设置下F1提升超20%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "transaction_tracing",
+      "score_total": 79.55,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做Web3安全和链上威胁追踪的人该看。针对Solana异构执行语义导致的追踪盲区给出了解法，复现这套候选集决策机制可直接提升跨链洗钱资金的关联准确率。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.11413",
+      "reader_url": "https://arxiv.org/pdf/2609.11413",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-11T04:00:00",
+      "first_seen_at": "2026-09-11T05:47:28.968866",
       "sub_category_label": null
     }
   ]
