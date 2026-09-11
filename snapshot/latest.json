@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T22:29:50+08:00",
+  "updated_at": "2026-09-12T00:30:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -23,26 +23,6 @@
       "published_at": "2026-09-11T04:00:00",
       "first_seen_at": "2026-09-11T05:57:16.973546",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 2764,
-      "title": "DeFiFlowBench：大模型驱动DeFi工作流安全评测基准与防护框架",
-      "original_title": "DeFiFlowBench: Benchmarking and Improving Safe Executability in Natural-Language DeFi Workflow Synthesis",
-      "summary": "提出 DeFiFlowBench 基准，评估自然语言生成 DeFi 工作流的安全性，并在本地 EVM 上测试执行风险。提出 Koan-Safe 框架结合意图解析与结构修复，显著降低不安全交易执行率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 85.85,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "DeFi 安全和 Agent 结合的硬核研究。做 Web3 安全 Agent 的同学必看，它直接展示了如何用 EVM 测试集评估大模型生成的交易工作流，并给出了可落地的安全护栏设计方案，防止 Agent 搞出灾难性交易。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.11504",
-      "reader_url": "https://arxiv.org/pdf/2609.11504",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-11T04:00:00",
-      "first_seen_at": "2026-09-11T04:27:31.328804",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 2787,
@@ -163,6 +143,26 @@
       "published_at": "2026-09-11T04:00:00",
       "first_seen_at": "2026-09-11T05:57:17.732454",
       "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 3133,
+      "title": "DeepSeek V4.1 Flash 发布：非对称架构与CyberGym跑分",
+      "original_title": "DeepSeek V4.1 Flash：一次把自家旗舰送走的发布",
+      "summary": "DeepSeek 发布 V4.1 Flash，采用非对称激活新架构并大幅压缩 KV Cache，在 CyberGym 等安全评测中得分创新高，且 API 价格大降。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "llm_architecture | security_benchmark",
+      "score_total": 80.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent开发者留意：V4.1 Flash在CyberGym拿下88.1分且调用成本极低，是低成本构建安全自动化工具的优选基座。注意9月14日前完成模型名切换与回归测试。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7683722642071470130",
+      "reader_url": "https://juejin.cn/post/7683722642071470130",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-10T09:16:09",
+      "first_seen_at": "2026-09-11T13:53:22.730629",
+      "sub_category_label": null
     }
   ]
 }
