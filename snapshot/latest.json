@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T23:31:31+08:00",
+  "updated_at": "2026-09-13T01:01:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -113,26 +113,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 3547,
-      "title": "LLM Agent 任务无关环境预处理方法研究",
-      "original_title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
-      "summary": "论文形式化了任务无关环境预处理，让 LLM Agent 在面对未知任务前自主探索环境并构建可复用资源，有效降低测试时计算开销。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "agent_architecture",
-      "score_total": 73.88,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做自动化安全 Agent（如渗透或漏洞挖掘）的人该看。研究展示了让 Agent 在陌生环境里提前侦察并造工具库，能显著降低运行时试错成本，适合优化前期准备策略。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.10824",
-      "reader_url": "https://arxiv.org/pdf/2609.10824",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-12T04:00:00",
-      "first_seen_at": "2026-09-12T04:50:59.501193",
-      "sub_category_label": null
-    },
-    {
       "id": 3559,
       "title": "智能体安全审计的瓶颈在于编写意图不变式",
       "original_title": "Another week, another agentic audit tool with dozens of nodes fuzzing and threat-modeling. The bottleneck was never agent count. It's writing an invariant that reflects intent, not",
@@ -226,6 +206,30 @@
       },
       "published_at": "2026-09-12T14:25:56",
       "first_seen_at": "2026-09-12T14:51:19.070058",
+      "sub_category_label": null
+    },
+    {
+      "id": 3661,
+      "title": "基于 XMTP 的去中心化安全代理情报共享账本",
+      "original_title": "I just added a new feature to Nexus for @xmtp_ :  The Shared Claim Ledger a security database that nobody owns.  When a Nexus security agent finds something suspicious, it can publ",
+      "summary": "Nexus 安全代理新增 Shared Claim Ledger 功能，利用 XMTP 协议实现无中心数据库的威胁情报共享。各代理独立判断并发布发现，其他代理可读取作为参考，并通过信任机制验证来源。",
+      "primary_category": "AI for Sec",
+      "sub_category": "agent_intel_sharing",
+      "score_total": 67.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "去中心化安全 Agent 协同的新思路。做安全 Agent 的团队可以参考这种基于信任和溯源的情报共享架构，解决多 Agent 协作时的信息孤岛和单点信任问题。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/baerra124412/status/2098805695722209482",
+      "reader_url": "https://x.com/baerra124412/status/2098805695722209482",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2098805378972536837/img/BNgemqbvTtmaEjGI.jpg",
+      "author": {
+        "username": "baerra124412",
+        "name": "alexunitt",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T16:07:26",
+      "first_seen_at": "2026-09-12T16:27:39.575698",
       "sub_category_label": null
     }
   ]
