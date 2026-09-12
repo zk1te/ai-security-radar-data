@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T04:01:56+08:00",
+  "updated_at": "2026-09-13T05:32:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -42,6 +42,30 @@
       "author": null,
       "published_at": "2026-09-12T11:05:18.715613",
       "first_seen_at": "2026-09-12T11:05:53.601036",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3714,
+      "title": "PentAGI：开源 AI 自主渗透测试平台",
+      "original_title": "📛 pentagi 🧠 PentAGI is an AI-powered autonomous penetration testing platform that conducts automated security assessments in isolated Docker environments. 💻 Go ⭐ 23373 🍴 3054 🔎 vxc",
+      "summary": "PentAGI 是一款基于 Go 开发的 AI 驱动自主渗透测试平台，能在隔离的 Docker 环境中执行自动化安全评估，目前在 GitHub 上获得较高关注度。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.46,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "开源自主渗透测试 Agent 的又一力作，对安全团队而言是构建自动化红队工具链的优质参考。建议立即拉取代码研究其架构与 Docker 隔离方案，评估集成到现有安全流程的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/GitHubGPT/status/2098883156506190210",
+      "reader_url": "https://x.com/GitHubGPT/status/2098883156506190210",
+      "image_url": null,
+      "author": {
+        "username": "GitHubGPT",
+        "name": "GitHubGPT",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T21:15:14",
+      "first_seen_at": "2026-09-12T21:28:03.556293",
       "sub_category_label": "安全Agent"
     },
     {
@@ -206,30 +230,6 @@
       },
       "published_at": "2026-09-12T14:25:56",
       "first_seen_at": "2026-09-12T14:51:19.070058",
-      "sub_category_label": null
-    },
-    {
-      "id": 3661,
-      "title": "基于 XMTP 的去中心化安全代理情报共享账本",
-      "original_title": "I just added a new feature to Nexus for @xmtp_ :  The Shared Claim Ledger a security database that nobody owns.  When a Nexus security agent finds something suspicious, it can publ",
-      "summary": "Nexus 安全代理新增 Shared Claim Ledger 功能，利用 XMTP 协议实现无中心数据库的威胁情报共享。各代理独立判断并发布发现，其他代理可读取作为参考，并通过信任机制验证来源。",
-      "primary_category": "AI for Sec",
-      "sub_category": "agent_intel_sharing",
-      "score_total": 67.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "去中心化安全 Agent 协同的新思路。做安全 Agent 的团队可以参考这种基于信任和溯源的情报共享架构，解决多 Agent 协作时的信息孤岛和单点信任问题。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/baerra124412/status/2098805695722209482",
-      "reader_url": "https://x.com/baerra124412/status/2098805695722209482",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2098805378972536837/img/BNgemqbvTtmaEjGI.jpg",
-      "author": {
-        "username": "baerra124412",
-        "name": "alexunitt",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T16:07:26",
-      "first_seen_at": "2026-09-12T16:27:39.575698",
       "sub_category_label": null
     }
   ]
