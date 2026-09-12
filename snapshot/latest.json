@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-12T04:30:46+08:00",
+  "updated_at": "2026-09-12T08:30:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 3133,
@@ -143,30 +143,6 @@
       "published_at": "2026-09-11T13:51:09",
       "first_seen_at": "2026-09-11T14:20:59.768103",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 3110,
-      "title": "T1终端Agent强化学习：122B MoE模型专攻长周期任务",
-      "original_title": "RT @Yucheng__Shi: Introducing T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks—a 122B MoE with 10B active parameters, train…",
-      "summary": "T1是一个122B参数的MoE模型，通过强化学习训练以执行长周期的终端任务，可能是自主安全操作的潜在基础模型。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 70.76,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "大模型+终端Agent+强化学习，这套组合直接指向自动化渗透和安全运维场景。搞安全Agent的人该关注它怎么处理长周期任务和工具链调度，别等别人跑通了再看。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2098324493240352964",
-      "reader_url": "https://x.com/HuggingPapers/status/2098324493240352964",
-      "image_url": null,
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-11T08:15:18",
-      "first_seen_at": "2026-09-11T12:10:33.824428",
-      "sub_category_label": null
     }
   ]
 }
