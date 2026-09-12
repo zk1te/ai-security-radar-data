@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-12T23:01:27+08:00",
+  "updated_at": "2026-09-12T23:31:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 10,
   "items": [
     {
       "id": 3596,
@@ -45,26 +45,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 3492,
-      "title": "macOS内核利用链剖析：AI如何在一周内加速漏洞开发",
-      "original_title": "Apple macOS Kernel Exploitation with MIE: Building on the Ashes of 100 Vulnerabilities",
-      "summary": "该 Black Hat 演讲将剖析针对现代 macOS XNU 内核的完整漏洞利用链，探讨如何绕过 kalloc_type、MTE、PAC 等缓解措施，并分享 AI 如何将利用链开发时间缩短至不到一周。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 80.65,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "漏洞利用开发正被 AI 重塑。红队和漏洞研究员应关注此议题，了解 AI 如何大幅压缩从内存泄露到提权的开发周期，评估现有缓解措施在 AI 辅助攻击下的实际防线。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/us-26/briefings/schedule/index.html#apple-macos-kernel-exploitation-with-mie-building-on-the-ashes-of-100-vulnerabilities-55845",
-      "reader_url": "https://blackhat.com/us-26/briefings/schedule/index.html#apple-macos-kernel-exploitation-with-mie-building-on-the-ashes-of-100-vulnerabilities-55845",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-05T21:35:00",
-      "first_seen_at": "2026-09-12T03:10:12.412939",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 3632,
       "title": "PentAGI：开源自主 AI 渗透测试平台",
       "original_title": "PentAGI: Autonomous AI-powered penetration testing platform 🤗🔐 Multi-agent system with 20+ security tools, memory graphs, 10+ LLM providers, and full API access. Run in isolated Do",
@@ -89,28 +69,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 3498,
-      "title": "GCSA Agent 在 CyberGym 基准测试取得 91.3% 成绩",
-      "original_title": "GCSA Agent 在 CyberGym 取得 91.3% 成績，躋身全球領先 AI 網路安全智能體行列  GCSA Agent 在全球高難度真實漏洞基準測試中展現自主漏洞分析與 PoC 生成能力  全球網路安全聯盟（Global Cybersecurity Alliance，GCSA）今日宣布，GCSA Agent 在 CyberGym 基準測試中取得 ",
-      "summary": "GCSA Agent 在真实漏洞分析评测框架 CyberGym 中取得 91.3% 的成功率，展现了 AI 安全智能体在自主代码分析、漏洞定位及 PoC 生成与验证方面的闭环能力。",
-      "primary_category": "AI for Sec",
+      "id": 3647,
+      "title": "OpenAI GPT-6 Astra 获评「Critical」网络安全分类，ExploitBench 满分",
+      "original_title": "Capability 8: He showed him the cybersecurity classification that made OpenAI gate its own model.  He told him GPT-6 Astra is the first OpenAI model to receive a \"Critical\" cyberse",
+      "summary": "GPT-6 Astra 在 ExploitBench（测试模型能否将已知漏洞转化为可用 exploit 的基准）上获得 100% 分数，成为首个获得「Critical」网络安全分类的 OpenAI 模型。OpenAI 通过 Daybreak 可信访问计划对审查组织提供未受限版本，公开版本拒绝生成攻击代码。",
+      "primary_category": "AI for Sec | Sec for AI",
       "sub_category": "security_benchmark",
-      "score_total": 74.8,
-      "include_status": "included",
+      "score_total": 76.76,
+      "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "CyberGym 是评估 AI 安全智能体真实漏洞研究能力的核心基准。安全团队应关注 GCSA Agent 此次刷榜展示的自主分析与 PoC 生成闭环能力，及其对传统漏洞验证流程的替代潜力。",
+      "recommendation_reason": "ExploitBench 直接测试 AI 的漏洞利用能力，GPT-6 满分值得安全评测从业者警惕。前沿模型的分级访问机制可能是未来 AI 安全治理的范式。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/kinfoome/status/2098612735412195468",
-      "reader_url": "https://x.com/kinfoome/status/2098612735412195468",
-      "image_url": "https://pbs.twimg.com/media/HR_FJm4a4AAJHOH.jpg",
+      "canonical_url": "https://x.com/sadhna6389/status/2098789459739435419",
+      "reader_url": "https://x.com/sadhna6389/status/2098789459739435419",
+      "image_url": null,
       "author": {
-        "username": "kinfoome",
-        "name": "Kinfoome Presswire",
+        "username": "sadhna6389",
+        "name": "Sadhna",
         "avatar_url": null
       },
-      "published_at": "2026-09-12T03:20:41",
-      "first_seen_at": "2026-09-12T03:23:05.751453",
-      "sub_category_label": "安全评测与Benchmark"
+      "published_at": "2026-09-12T15:02:55",
+      "first_seen_at": "2026-09-12T15:23:11.561156",
+      "sub_category_label": null
     },
     {
       "id": 3623,
@@ -150,6 +130,102 @@
       "author": null,
       "published_at": "2026-09-12T04:00:00",
       "first_seen_at": "2026-09-12T04:50:59.501193",
+      "sub_category_label": null
+    },
+    {
+      "id": 3559,
+      "title": "智能体安全审计的瓶颈在于编写意图不变式",
+      "original_title": "Another week, another agentic audit tool with dozens of nodes fuzzing and threat-modeling. The bottleneck was never agent count. It's writing an invariant that reflects intent, not",
+      "summary": "作者指出当前多智能体安全审计和模糊测试工具的瓶颈不在于智能体数量，而在于如何编写能准确反映业务意图而非仅代码逻辑的不变式。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 72.15,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给安全Agent开发者：别再卷节点数和编排了。Fuzzing真正卡点是写「意图不变式」——若Oracle只看代码不看业务意图，再多Agent也是无效测试。做安全工具应优先解决意图表达。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/clawdit_xyz/status/2098647817199768005",
+      "reader_url": "https://x.com/clawdit_xyz/status/2098647817199768005",
+      "image_url": null,
+      "author": {
+        "username": "clawdit_xyz",
+        "name": "clawdit.xyz",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T05:40:05",
+      "first_seen_at": "2026-09-12T06:07:12.801201",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 3561,
+      "title": "AI Fuzzing Agent 价值在于可量化指标而非演示",
+      "original_title": "@keoneHD This is the kind of agent narrative worth tracking: fuzzing is measurable — coverage, bug classes, false positives — not just a chatbot demo. The open-source corpus and in",
+      "summary": "推文指出评估 AI Fuzzing Agent 应关注覆盖率、漏洞类型和误报率等可量化指标，而非单纯的聊天机器人演示效果，开源语料库和集成能力比 Agent 品牌包装更重要。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 71.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队选购 AI Fuzzing 工具时别被 Agent 概念忽悠，紧抓覆盖率和误报率硬指标；关注能真正融入现有工具链的开源方案，而非孤立的 Demo。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/bdpadmain/status/2098660311771599197",
+      "reader_url": "https://x.com/bdpadmain/status/2098660311771599197",
+      "image_url": null,
+      "author": {
+        "username": "bdpadmain",
+        "name": "lvelvelve",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T06:29:44",
+      "first_seen_at": "2026-09-12T06:38:35.564831",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 3643,
+      "title": "Raptor 将 Claude Code 改造为攻防安全 Agent",
+      "original_title": "Claude Code works alone. Raptor turns it into an offensive security agent.  Raptor adds adversarial workflows to Claude Code: - Built-in rules and sub-agents for attack/defense - O",
+      "summary": "Raptor 为 Claude Code 添加对抗工作流，内置攻防规则与子 Agent，统一编排安全工具，通过 Claude.md 实现可复用的安全测试配置。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.88,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试从业者该看这个，它展示了如何用 Claude Code 的 Agent 架构做实战安全编排，思路可直接拿来改造自己的工具链。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/so_sthbryan/status/2098781678600904738",
+      "reader_url": "https://x.com/so_sthbryan/status/2098781678600904738",
+      "image_url": null,
+      "author": {
+        "username": "so_sthbryan",
+        "name": "Bryan",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T14:32:00",
+      "first_seen_at": "2026-09-12T14:51:17.064004",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3644,
+      "title": "评测显示让编码Agent用TDD并不能提升测试效果，Fuzzing/PBT表现更优",
+      "original_title": "Telling your coding agent to \"use TDD\" doesn't make it test better. New eval (HN 190 pts, Sep 8): 26 test techniques × ~80 runs each on a Zstd eval in Rust. • Default beat most add",
+      "summary": "对编码Agent在Rust的Zstd库上测试26种测试技术的评测发现，默认表现优于多数额外指令，TDD表现不佳，而Fuzzing/基于属性的测试(PBT)优于形式化方法。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "fuzzing",
+      "score_total": 69.31,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "用AI Agent做安全测试的人必看：别迷信让Agent用TDD就能提高质量。实测表明Fuzzing/PBT才是让Agent发挥测试价值的有效路径，需警惕Agent「自欺欺人」让测试通过。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ontoiq/status/2098780152042000582",
+      "reader_url": "https://x.com/ontoiq/status/2098780152042000582",
+      "image_url": null,
+      "author": {
+        "username": "ontoiq",
+        "name": "พี่เอก | AI & Lifestyle",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T14:25:56",
+      "first_seen_at": "2026-09-12T14:51:19.070058",
       "sub_category_label": null
     }
   ]
