@@ -1,49 +1,9 @@
 {
-  "updated_at": "2026-09-13T06:32:05+08:00",
+  "updated_at": "2026-09-13T07:32:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 3596,
-      "title": "Claude-Red：面向 Claude 系统的红队攻防技能库",
-      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 99 stars today",
-      "summary": "Claude-Red 是一个专为 Claude 技能系统设计的攻防技能库，通过结构化 SKILL.md 文件为 Claude 注入从 SQLi 到 EDR 绕过等专家级攻击方法论。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 84.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队人员该看，直接展示了如何利用大模型技能机制构建专业攻击助手，可快速适配到渗透测试流程中，但需注意模型自身的安全策略限制。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-12&since=daily",
-      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-12&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-12T11:05:18.486032",
-      "first_seen_at": "2026-09-12T11:06:07.516116",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3593,
-      "title": "全自主渗透测试AI系统pentagi登上GitHub Trending",
-      "original_title": "GitHub Trending: vxcontrol/pentagi gained 250 stars today",
-      "summary": "vxcontrol/pentagi 是一个基于 Go 开发的全自主 AI Agent 系统，专注于执行复杂的渗透测试任务，近期在 GitHub 上获得超 2.3 万星标。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 82.16,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试与红队自动化从业者必看。该项目展示了 AI Agent 在复杂攻击链中的落地实践，可直接克隆研究其 Agent 架构设计与安全工具链编排方式。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-12&since=daily",
-      "reader_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-12&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-12T11:05:18.715613",
-      "first_seen_at": "2026-09-12T11:05:53.601036",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 3714,
       "title": "PentAGI：开源 AI 自主渗透测试平台",
@@ -185,6 +145,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 3731,
+      "title": "122B 终端代理 T1 开源，真实 Shell 操作超 300 轮",
+      "original_title": "T1: a 122B MoE terminal agent trained with RL  Operates a real shell for up to 300+ turns, scoring 64% on Terminal-Bench 2.1 and beating models twice its size. The model is now on ",
+      "summary": "使用 RL 训练的 122B MoE 终端代理 T1 已开源，能在真实 shell 中连续操作超过 300 轮，并在 Terminal-Bench 2.1 上取得 64% 的得分，超越了两倍参数量的模型。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 73.71,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "能连续操作真实 Shell 的开源 Agent 是安全自动化的极佳基座。安全团队可直接在 Hugging Face 上拉取测试，评估其在自动化渗透或应急响应等终端任务中的多轮执行与纠错能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HuggingPapers/status/2098866990962073986",
+      "reader_url": "https://x.com/HuggingPapers/status/2098866990962073986",
+      "image_url": "https://pbs.twimg.com/media/HSCsZ2wbIAAW7cl.png",
+      "author": {
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T20:11:00",
+      "first_seen_at": "2026-09-12T23:03:05.127664",
+      "sub_category_label": null
+    },
+    {
       "id": 3692,
       "title": "StarLabs 用 AI 发现 Linux net/sched UAF 漏洞并实现本地提权",
       "original_title": "AI based vulnerability research: UAF bug in Linux net/sched + LPE exploit (@starlabs_sg)  https://t.co/zAOvcguUAn  #infosec https://t.co/y3XqE6ayWE",
@@ -231,6 +215,30 @@
       "published_at": "2026-09-12T17:27:19",
       "first_seen_at": "2026-09-12T19:53:33.191351",
       "sub_category_label": null
+    },
+    {
+      "id": 3643,
+      "title": "Raptor 将 Claude Code 改造为攻防安全 Agent",
+      "original_title": "Claude Code works alone. Raptor turns it into an offensive security agent.  Raptor adds adversarial workflows to Claude Code: - Built-in rules and sub-agents for attack/defense - O",
+      "summary": "Raptor 为 Claude Code 添加对抗工作流，内置攻防规则与子 Agent，统一编排安全工具，通过 Claude.md 实现可复用的安全测试配置。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.88,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试从业者该看这个，它展示了如何用 Claude Code 的 Agent 架构做实战安全编排，思路可直接拿来改造自己的工具链。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/so_sthbryan/status/2098781678600904738",
+      "reader_url": "https://x.com/so_sthbryan/status/2098781678600904738",
+      "image_url": null,
+      "author": {
+        "username": "so_sthbryan",
+        "name": "Bryan",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T14:32:00",
+      "first_seen_at": "2026-09-12T14:51:17.064004",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
