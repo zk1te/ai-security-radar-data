@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T05:32:01+08:00",
+  "updated_at": "2026-09-13T06:32:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -93,6 +93,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 3727,
+      "title": "通过渗透测试痕迹检测 AI 驱动的攻击",
+      "original_title": "You can detect some AI-enabled attacks by searching for explicit indications of penetration testing. This happens because threat actors tell their LLMs they are performing authoriz",
+      "summary": "攻击者在使用 LLM 或渗透测试框架进行攻击时常留下「pentest」字样痕迹，安全团队可通过搜索这些特征来检测 AI 驱动的入侵行为。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 76.91,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "威胁狩猎和蓝队必看。攻击者用大模型生成 Payload 时常带入「pentest」等授权测试痕迹，直接拿这些 IoC 去日志里搜，能快速捞出隐藏的 AI 辅助攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/eyalsela/status/2098894602363109629",
+      "reader_url": "https://x.com/eyalsela/status/2098894602363109629",
+      "image_url": null,
+      "author": {
+        "username": "eyalsela",
+        "name": "Eyal Sela",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T22:00:43",
+      "first_seen_at": "2026-09-12T22:31:14.679152",
+      "sub_category_label": "威胁检测"
+    },
+    {
       "id": 3647,
       "title": "OpenAI GPT-6 Astra 获评「Critical」网络安全分类，ExploitBench 满分",
       "original_title": "Capability 8: He showed him the cybersecurity classification that made OpenAI gate its own model.  He told him GPT-6 Astra is the first OpenAI model to receive a \"Critical\" cyberse",
@@ -134,6 +158,30 @@
       "author": null,
       "published_at": "2026-09-12T13:00:44",
       "first_seen_at": "2026-09-12T13:29:50.787379",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3724,
+      "title": "claude-red：为 Claude 注入红队与安全研究专业知识",
+      "original_title": "🔥 Trending on GitHub: claude-red  claude-red gives Claude ready-to-load security expertise for exploring attack surfaces more methodically.  It helps reduce the friction of switchi",
+      "summary": "GitHub 开源项目 claude-red 为 Claude 提供按需加载的安全技能库，涵盖 Web、云、IoT 及 Fuzzing 等领域，旨在降低红队和安全研究中的上下文切换成本。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和安全研究人员值得关注。它把分散的安全域知识打包成 Claude 可调用的技能，减少了频繁切换 Prompt 的麻烦，可直接拿来做 CTF 或漏洞预研。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ainotesus/status/2098897104332607662",
+      "reader_url": "https://x.com/ainotesus/status/2098897104332607662",
+      "image_url": "https://pbs.twimg.com/media/HSDHyvsWUAMY4S1.jpg",
+      "author": {
+        "username": "ainotesus",
+        "name": "AINotes",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T22:10:39",
+      "first_seen_at": "2026-09-12T22:30:59.158642",
       "sub_category_label": "安全Agent"
     },
     {
@@ -182,54 +230,6 @@
       },
       "published_at": "2026-09-12T17:27:19",
       "first_seen_at": "2026-09-12T19:53:33.191351",
-      "sub_category_label": null
-    },
-    {
-      "id": 3643,
-      "title": "Raptor 将 Claude Code 改造为攻防安全 Agent",
-      "original_title": "Claude Code works alone. Raptor turns it into an offensive security agent.  Raptor adds adversarial workflows to Claude Code: - Built-in rules and sub-agents for attack/defense - O",
-      "summary": "Raptor 为 Claude Code 添加对抗工作流，内置攻防规则与子 Agent，统一编排安全工具，通过 Claude.md 实现可复用的安全测试配置。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.88,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试从业者该看这个，它展示了如何用 Claude Code 的 Agent 架构做实战安全编排，思路可直接拿来改造自己的工具链。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/so_sthbryan/status/2098781678600904738",
-      "reader_url": "https://x.com/so_sthbryan/status/2098781678600904738",
-      "image_url": null,
-      "author": {
-        "username": "so_sthbryan",
-        "name": "Bryan",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T14:32:00",
-      "first_seen_at": "2026-09-12T14:51:17.064004",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3644,
-      "title": "评测显示让编码Agent用TDD并不能提升测试效果，Fuzzing/PBT表现更优",
-      "original_title": "Telling your coding agent to \"use TDD\" doesn't make it test better. New eval (HN 190 pts, Sep 8): 26 test techniques × ~80 runs each on a Zstd eval in Rust. • Default beat most add",
-      "summary": "对编码Agent在Rust的Zstd库上测试26种测试技术的评测发现，默认表现优于多数额外指令，TDD表现不佳，而Fuzzing/基于属性的测试(PBT)优于形式化方法。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "fuzzing",
-      "score_total": 69.31,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "用AI Agent做安全测试的人必看：别迷信让Agent用TDD就能提高质量。实测表明Fuzzing/PBT才是让Agent发挥测试价值的有效路径，需警惕Agent「自欺欺人」让测试通过。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ontoiq/status/2098780152042000582",
-      "reader_url": "https://x.com/ontoiq/status/2098780152042000582",
-      "image_url": null,
-      "author": {
-        "username": "ontoiq",
-        "name": "พี่เอก | AI & Lifestyle",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T14:25:56",
-      "first_seen_at": "2026-09-12T14:51:19.070058",
       "sub_category_label": null
     }
   ]
