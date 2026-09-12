@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T11:01:05+08:00",
+  "updated_at": "2026-09-12T19:31:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -105,6 +105,26 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 3596,
+      "title": "Claude-Red：面向 Claude 系统的红队攻防技能库",
+      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 99 stars today",
+      "summary": "Claude-Red 是一个专为 Claude 技能系统设计的攻防技能库，通过结构化 SKILL.md 文件为 Claude 注入从 SQLi 到 EDR 绕过等专家级攻击方法论。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队人员该看，直接展示了如何利用大模型技能机制构建专业攻击助手，可快速适配到渗透测试流程中，但需注意模型自身的安全策略限制。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-12&since=daily",
+      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-12&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-12T11:05:18.486032",
+      "first_seen_at": "2026-09-12T11:06:07.516116",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 3444,
       "title": "大模型驱动的攻防闭环系统5分钟内完成漏洞利用与防御部署",
       "original_title": "Closed Loop: From Autonomous Exploit to Deployed Defense in Under 5 Minutes",
@@ -183,26 +203,6 @@
       "published_at": "2026-08-06T19:00:00",
       "first_seen_at": "2026-09-12T02:29:03.976300",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 3451,
-      "title": "Black Hat 2026：SiftRank 利用 LLM 排序反编译函数挖掘漏洞",
-      "original_title": "Sift or Get Off the PoC: Applying Information Retrieval to Vulnerability Research",
-      "summary": "SiftRank 算法将二进制漏洞挖掘转化为信息检索问题，利用 LLM 批量排序反编译函数以提取潜在漏洞。该算法在 BinPool 数据集上精度较 zero-shot 提升 2.26 倍，并成功在商用设备中发现 RCE 漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 83.3,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "展示了小模型结合信息检索在二进制漏洞挖掘中超越大模型的潜力。适合关注 AI 辅助漏洞挖掘的安全研究员参考，可直接启发逆向提效工具设计。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/us-26/briefings/schedule/index.html#sift-or-get-off-the-poc-applying-information-retrieval-to-vulnerability-research-52775",
-      "reader_url": "https://blackhat.com/us-26/briefings/schedule/index.html#sift-or-get-off-the-poc-applying-information-retrieval-to-vulnerability-research-52775",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-08-06T17:15:00",
-      "first_seen_at": "2026-09-12T02:43:33.080181",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
