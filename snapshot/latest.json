@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T03:01:52+08:00",
+  "updated_at": "2026-09-13T04:01:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -137,6 +137,30 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 3702,
+      "title": "攻击者利用AI在72小时内生成百万级个性化钓鱼邮件",
+      "original_title": "TRC analysis reveals threat actors weaponized AI to generate 1M+ personalized phishing emails in just 72 hours, targeting accounts payable with fake ServiceNow invoices. Each messa",
+      "summary": "TRC分析发现，攻击者利用AI在72小时内生成超百万封个性化钓鱼邮件，通过抓取高管信息伪造邮件线程，成功绕过传统邮件过滤器。",
+      "primary_category": "AI for Sec",
+      "sub_category": "phishing_detection",
+      "score_total": 72.92,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了AI规模化生成钓鱼邮件的实战能力，传统规则防御已失效。安全团队需关注基于行为和AI的邮件检测方案，以应对大规模个性化攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
+      "reader_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T17:27:19",
+      "first_seen_at": "2026-09-12T19:53:33.191351",
+      "sub_category_label": null
+    },
+    {
       "id": 3643,
       "title": "Raptor 将 Claude Code 改造为攻防安全 Agent",
       "original_title": "Claude Code works alone. Raptor turns it into an offensive security agent.  Raptor adds adversarial workflows to Claude Code: - Built-in rules and sub-agents for attack/defense - O",
@@ -206,30 +230,6 @@
       },
       "published_at": "2026-09-12T16:07:26",
       "first_seen_at": "2026-09-12T16:27:39.575698",
-      "sub_category_label": null
-    },
-    {
-      "id": 3572,
-      "title": "ASC：号称替代 Jadx MCP 的快速 Android 反编译工具",
-      "original_title": "RT @MGAldys4: Guys, I built a super fast Android decompiler called ASC.  It completely replaced Jadx MCP for me and lets me analyze 10+ APK…",
-      "summary": "开发者推出名为 ASC 的 Android 反编译工具，声称速度极快且已取代 Jadx MCP，支持批量分析 APK。",
-      "primary_category": "AI for Sec",
-      "sub_category": "reverse_engineering",
-      "score_total": 66.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "结合 MCP 的 APK 逆向分析工具对移动安全审计团队有直接价值，值得关注其是否开源及实际反编译效果，但目前信息太少需谨慎评估。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/viperbjk/status/2098669059084628407",
-      "reader_url": "https://x.com/viperbjk/status/2098669059084628407",
-      "image_url": null,
-      "author": {
-        "username": "viperbjk",
-        "name": "Bjoern Kerler",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T07:04:29",
-      "first_seen_at": "2026-09-12T08:12:40.368004",
       "sub_category_label": null
     }
   ]
