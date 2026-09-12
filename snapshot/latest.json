@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T01:01:42+08:00",
+  "updated_at": "2026-09-13T02:31:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -113,28 +113,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 3559,
-      "title": "智能体安全审计的瓶颈在于编写意图不变式",
-      "original_title": "Another week, another agentic audit tool with dozens of nodes fuzzing and threat-modeling. The bottleneck was never agent count. It's writing an invariant that reflects intent, not",
-      "summary": "作者指出当前多智能体安全审计和模糊测试工具的瓶颈不在于智能体数量，而在于如何编写能准确反映业务意图而非仅代码逻辑的不变式。",
+      "id": 3692,
+      "title": "StarLabs 用 AI 发现 Linux net/sched UAF 漏洞并实现本地提权",
+      "original_title": "AI based vulnerability research: UAF bug in Linux net/sched + LPE exploit (@starlabs_sg)  https://t.co/zAOvcguUAn  #infosec https://t.co/y3XqE6ayWE",
+      "summary": "StarLabs 利用 AI 辅助漏洞研究，在 Linux net/sched 子系统中发现 UAF 漏洞，并完成本地权限提升利用。",
       "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 72.15,
+      "sub_category": "vuln_discovery",
+      "score_total": 73.6,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "给安全Agent开发者：别再卷节点数和编排了。Fuzzing真正卡点是写「意图不变式」——若Oracle只看代码不看业务意图，再多Agent也是无效测试。做安全工具应优先解决意图表达。",
+      "recommendation_reason": "AI 漏洞挖掘实战案例：Linux 内核 UAF 加提权利用，证明 AI 辅助已能产出高质量成果。内核漏洞团队应评估引入 AI 辅助流程。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/clawdit_xyz/status/2098647817199768005",
-      "reader_url": "https://x.com/clawdit_xyz/status/2098647817199768005",
-      "image_url": null,
+      "canonical_url": "https://x.com/0xor0ne/status/2098796358081593718",
+      "reader_url": "https://x.com/0xor0ne/status/2098796358081593718",
+      "image_url": "https://pbs.twimg.com/media/HSBsKl0XEAAxHL4.jpg",
       "author": {
-        "username": "clawdit_xyz",
-        "name": "clawdit.xyz",
+        "username": "0xor0ne",
+        "name": "0xor0ne",
         "avatar_url": null
       },
-      "published_at": "2026-09-12T05:40:05",
-      "first_seen_at": "2026-09-12T06:07:12.801201",
-      "sub_category_label": "AI Fuzzing"
+      "published_at": "2026-09-12T15:30:20",
+      "first_seen_at": "2026-09-12T18:07:08.674976",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 3561,
