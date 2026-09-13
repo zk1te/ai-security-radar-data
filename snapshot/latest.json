@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T19:02:58+08:00",
+  "updated_at": "2026-09-13T19:33:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -45,6 +45,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 3862,
+      "title": "阿里开源混合架构代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 264 stars today",
+      "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级代码评论，内置 XSS、SQL 注入等安全规则集，兼容 OpenAI 与 Anthropic。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 82.88,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "结合规则和 LLM 是落地安全代码审查的有效路径，安全团队可直接参考其多语言规则集和行级评论设计，快速提升现有代码审计流程的效率。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-13T11:08:44.321307",
+      "first_seen_at": "2026-09-13T11:09:10.427600",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 3800,
       "title": "多国 AISI 联合开展 Agent 测试演练，聚焦网络安全与信息泄露",
       "original_title": "International joint testing exercise: Agentic testing | AISI Work",
@@ -87,30 +107,6 @@
       "published_at": "2026-09-13T01:27:44",
       "first_seen_at": "2026-09-13T01:29:38.328649",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3731,
-      "title": "122B 终端代理 T1 开源，真实 Shell 操作超 300 轮",
-      "original_title": "T1: a 122B MoE terminal agent trained with RL  Operates a real shell for up to 300+ turns, scoring 64% on Terminal-Bench 2.1 and beating models twice its size. The model is now on ",
-      "summary": "使用 RL 训练的 122B MoE 终端代理 T1 已开源，能在真实 shell 中连续操作超过 300 轮，并在 Terminal-Bench 2.1 上取得 64% 的得分，超越了两倍参数量的模型。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 73.71,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "能连续操作真实 Shell 的开源 Agent 是安全自动化的极佳基座。安全团队可直接在 Hugging Face 上拉取测试，评估其在自动化渗透或应急响应等终端任务中的多轮执行与纠错能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2098866990962073986",
-      "reader_url": "https://x.com/HuggingPapers/status/2098866990962073986",
-      "image_url": "https://pbs.twimg.com/media/HSCsZ2wbIAAW7cl.png",
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T20:11:00",
-      "first_seen_at": "2026-09-12T23:03:05.127664",
-      "sub_category_label": null
     },
     {
       "id": 3826,
