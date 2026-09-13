@@ -1,9 +1,49 @@
 {
-  "updated_at": "2026-09-13T07:32:10+08:00",
+  "updated_at": "2026-09-13T09:02:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 3779,
+      "title": "Claude-Red：为 Claude 打造的进攻性安全技能库",
+      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 113 stars today",
+      "summary": "Claude-Red 是一个面向 Claude skills 系统的进攻性安全技能库，通过结构化 SKILL.md 文件为 Claude 注入 SQLi、shellcode、EDR 规避、漏洞开发等专家级方法论，当前已获 3591 星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.73,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "用 Claude skills 做「攻击面知识注入」的思路很新，安全团队可直接复用这些 SKILL.md 模板来快速搭建内部红队 Agent；值得关注的是这种「技能文件即 Prompt」模式能否稳定迁移到其他 LLM。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-13&since=daily",
+      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-13T00:40:51.418635",
+      "first_seen_at": "2026-09-13T00:42:15.518054",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3776,
+      "title": "渗透测试 AI Agent 框架 PENTAGI GitHub 星标快速增长",
+      "original_title": "GitHub Trending: vxcontrol/pentagi gained 189 stars today",
+      "summary": "vxcontrol/pentagi 是一个基于 Go 语言的全自主 AI Agent 渗透测试系统，近期在 GitHub Trending 日榜新增 189 星，总星标超 2.3 万。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.63,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试从业者应关注，开源自主 AI Agent 在实战渗透场景的落地进展迅速，可立即克隆评估其能力边界与集成潜力，但要警惕过度依赖带来的误报和失控风险。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-13&since=daily",
+      "reader_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-13T00:40:51.649523",
+      "first_seen_at": "2026-09-13T00:42:01.184876",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 3714,
       "title": "PentAGI：开源 AI 自主渗透测试平台",
@@ -191,54 +231,6 @@
       "published_at": "2026-09-12T15:30:20",
       "first_seen_at": "2026-09-12T18:07:08.674976",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 3702,
-      "title": "攻击者利用AI在72小时内生成百万级个性化钓鱼邮件",
-      "original_title": "TRC analysis reveals threat actors weaponized AI to generate 1M+ personalized phishing emails in just 72 hours, targeting accounts payable with fake ServiceNow invoices. Each messa",
-      "summary": "TRC分析发现，攻击者利用AI在72小时内生成超百万封个性化钓鱼邮件，通过抓取高管信息伪造邮件线程，成功绕过传统邮件过滤器。",
-      "primary_category": "AI for Sec",
-      "sub_category": "phishing_detection",
-      "score_total": 72.92,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了AI规模化生成钓鱼邮件的实战能力，传统规则防御已失效。安全团队需关注基于行为和AI的邮件检测方案，以应对大规模个性化攻击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
-      "reader_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T17:27:19",
-      "first_seen_at": "2026-09-12T19:53:33.191351",
-      "sub_category_label": null
-    },
-    {
-      "id": 3643,
-      "title": "Raptor 将 Claude Code 改造为攻防安全 Agent",
-      "original_title": "Claude Code works alone. Raptor turns it into an offensive security agent.  Raptor adds adversarial workflows to Claude Code: - Built-in rules and sub-agents for attack/defense - O",
-      "summary": "Raptor 为 Claude Code 添加对抗工作流，内置攻防规则与子 Agent，统一编排安全工具，通过 Claude.md 实现可复用的安全测试配置。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.88,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试从业者该看这个，它展示了如何用 Claude Code 的 Agent 架构做实战安全编排，思路可直接拿来改造自己的工具链。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/so_sthbryan/status/2098781678600904738",
-      "reader_url": "https://x.com/so_sthbryan/status/2098781678600904738",
-      "image_url": null,
-      "author": {
-        "username": "so_sthbryan",
-        "name": "Bryan",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T14:32:00",
-      "first_seen_at": "2026-09-12T14:51:17.064004",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
