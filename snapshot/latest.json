@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T02:34:10+08:00",
+  "updated_at": "2026-09-14T03:04:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -169,6 +169,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 3939,
+      "title": "AI 辅助嵌入式目标漏洞研究分享",
+      "original_title": "AI Assisted Vulnerability Research on Embedded Targets (@qkaiser)  https://t.co/cvus79BMWD  #infosec #llm",
+      "summary": "@qkaiser 分享了关于在嵌入式目标中使用 AI 辅助进行漏洞研究的探讨与经验。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "嵌入式设备的漏洞挖掘门槛通常较高，结合大模型有望提升逆向和审计效率。搞固件安全和漏洞研究的兄弟可以看看这篇分享有没有能直接复用的思路或工作流。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2099166498442887621",
+      "reader_url": "https://x.com/0xor0ne/status/2099166498442887621",
+      "image_url": null,
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T16:01:08",
+      "first_seen_at": "2026-09-13T18:59:13.649340",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 3932,
       "title": "使用 AI 分析 Windows Paint 堆溢出漏洞 CVE-2026-70586",
       "original_title": "It's Sunday lets burn some tokens on CVE-2026-70586 \"Heap-based buffer overflow in Windows Paint allows an unauthorized attacker to execute code\"",
@@ -214,30 +238,6 @@
       },
       "published_at": "2026-09-13T13:40:46",
       "first_seen_at": "2026-09-13T14:13:42.147332",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 3918,
-      "title": "高性能记录技术使模糊测试更实用，助力复现疑难 Bug",
-      "original_title": "@lcfr_eth One of the initial goals was high-perf recording to make fuzzing of a recorded target practical (this was achieved). This is particularly useful for hard-to-repro bugs. P",
-      "summary": "该推文探讨了高性能记录技术在模糊测试中的应用，指出该技术已实现，特别适合复现难以重现的漏洞，并省去了保留测试用例的麻烦。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 60.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "对做 fuzzing 和漏洞挖掘的安全团队有参考价值。高性能记录回放能解决「bug 难复现」的老大难问题，值得关注其后续工具化进展。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ergot86/status/2099183578361868472",
-      "reader_url": "https://x.com/ergot86/status/2099183578361868472",
-      "image_url": null,
-      "author": {
-        "username": "ergot86",
-        "name": "Daniel",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-13T17:09:00",
-      "first_seen_at": "2026-09-13T17:23:51.962041",
       "sub_category_label": "AI Fuzzing"
     }
   ]
