@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13T23:03:25+08:00",
+  "updated_at": "2026-09-14T00:03:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 3862,
@@ -47,6 +47,30 @@
       "published_at": "2026-09-13T14:18:42",
       "first_seen_at": "2026-09-13T14:45:46.775126",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3907,
+      "title": "实战分享：用于逆向工程与漏洞挖掘的本地 LLM 模型及技能推荐",
+      "original_title": "Now that everyone is an expert on KI threats, let's combine that with RE, shall we ?  For all my followers what is your best experience in using local LLM models so far ... which c",
+      "summary": "安全研究员总结了在逆向工程和漏洞挖掘中表现较好的本地大语言模型（如Ornith-1.5、Qwen系列等），并推荐了ida-rpc等实用技能。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 72.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "逆向和漏洞挖掘人员可以参考这份本地 LLM 清单及配套技能。它直接点出了适合逆向和找 Bug 的模型，也提到了 ida-rpc 这类将大模型接入反汇编器的实战思路，值得借鉴并尝试复现。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/viperbjk/status/2099155744645939525",
+      "reader_url": "https://x.com/viperbjk/status/2099155744645939525",
+      "image_url": null,
+      "author": {
+        "username": "viperbjk",
+        "name": "Bjoern Kerler",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T15:18:24",
+      "first_seen_at": "2026-09-13T15:49:54.452522",
+      "sub_category_label": "二进制安全"
     },
     {
       "id": 3826,
