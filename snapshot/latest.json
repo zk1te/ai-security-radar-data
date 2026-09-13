@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13T22:03:15+08:00",
+  "updated_at": "2026-09-13T22:33:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 3,
+  "item_count": 4,
   "items": [
     {
       "id": 3862,
@@ -47,6 +47,30 @@
       "published_at": "2026-09-13T07:40:58",
       "first_seen_at": "2026-09-13T07:43:37.230194",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3889,
+      "title": "AI 生成代码的安全门槛应高于人工：机械化验证成关键",
+      "original_title": "Boris Cherny's bar for AI-written production code is higher than a human's, not lower -- extensive linting, testing, automated review, security checks, daily fuzzing, layered on to",
+      "summary": "Boris Cherny 指出 AI 生成的生产代码需要比人工代码更严格的验证流程，包括 linting、测试、自动审查、安全检查和每日 fuzzing，因为移除人工判断后机械过滤器必须更努力工作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 61.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "直接回答了「AI 代码上线怎么验」的问题——把 fuzzing 和自动化安全检查提到日常流程里，别依赖人工 review。正在引入 AI 编程工具的安全团队应据此设计验证流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xJ4yD3v/status/2099131172379058309",
+      "reader_url": "https://x.com/0xJ4yD3v/status/2099131172379058309",
+      "image_url": null,
+      "author": {
+        "username": "0xJ4yD3v",
+        "name": "Jay Dev",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T13:40:46",
+      "first_seen_at": "2026-09-13T14:13:42.147332",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 3878,
