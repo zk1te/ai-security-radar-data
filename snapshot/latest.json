@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T03:04:14+08:00",
+  "updated_at": "2026-09-14T04:04:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -121,30 +121,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 3826,
-      "title": "Agent 化漏洞利用不是脚本化 Fuzzing，动态攻击链才是真正风险",
-      "original_title": "@joshua_saxe Agreed. Dismissing agentic exploitation as just scripted fuzzing is shortsighted. The actual risk begins when agents dynamically chain multi-step attack surfaces and a",
-      "summary": "作者指出将 agentic exploitation 等同于脚本化 fuzzing 是短视的，真正风险在于 agent 能动态链式组合多步攻击面并根据防御响应自适应调整，而非依赖固定 payload。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 AI 安全工具的团队别把 agent 当高级 fuzzer，它的核心价值在于动态组装攻击链和自适应对抗。评估 AI 攻击能力时，重点关注多步推理和上下文适应能力，而非单点 payload 命中率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/thaibithope/status/2099040629049467250",
-      "reader_url": "https://x.com/thaibithope/status/2099040629049467250",
-      "image_url": null,
-      "author": {
-        "username": "thaibithope",
-        "name": "Bithope",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-13T07:40:58",
-      "first_seen_at": "2026-09-13T07:43:37.230194",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 3930,
       "title": "AI在内网渗透中受困于环境未知与动态防御",
       "original_title": "AI may have eliminated some of the advantage of obscure technology, but the inside of most networks is still obscure to the model. It doesn’t know the identity structure, workstati",
@@ -238,6 +214,30 @@
       },
       "published_at": "2026-09-13T13:40:46",
       "first_seen_at": "2026-09-13T14:13:42.147332",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 3918,
+      "title": "高性能记录技术使模糊测试更实用，助力复现疑难 Bug",
+      "original_title": "@lcfr_eth One of the initial goals was high-perf recording to make fuzzing of a recorded target practical (this was achieved). This is particularly useful for hard-to-repro bugs. P",
+      "summary": "该推文探讨了高性能记录技术在模糊测试中的应用，指出该技术已实现，特别适合复现难以重现的漏洞，并省去了保留测试用例的麻烦。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 60.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对做 fuzzing 和漏洞挖掘的安全团队有参考价值。高性能记录回放能解决「bug 难复现」的老大难问题，值得关注其后续工具化进展。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ergot86/status/2099183578361868472",
+      "reader_url": "https://x.com/ergot86/status/2099183578361868472",
+      "image_url": null,
+      "author": {
+        "username": "ergot86",
+        "name": "Daniel",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T17:09:00",
+      "first_seen_at": "2026-09-13T17:23:51.962041",
       "sub_category_label": "AI Fuzzing"
     }
   ]
