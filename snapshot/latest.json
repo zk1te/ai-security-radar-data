@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13T11:32:31+08:00",
+  "updated_at": "2026-09-13T14:32:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 3779,
@@ -183,30 +183,6 @@
       "published_at": "2026-09-12T20:11:00",
       "first_seen_at": "2026-09-12T23:03:05.127664",
       "sub_category_label": null
-    },
-    {
-      "id": 3692,
-      "title": "StarLabs 用 AI 发现 Linux net/sched UAF 漏洞并实现本地提权",
-      "original_title": "AI based vulnerability research: UAF bug in Linux net/sched + LPE exploit (@starlabs_sg)  https://t.co/zAOvcguUAn  #infosec https://t.co/y3XqE6ayWE",
-      "summary": "StarLabs 利用 AI 辅助漏洞研究，在 Linux net/sched 子系统中发现 UAF 漏洞，并完成本地权限提升利用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 漏洞挖掘实战案例：Linux 内核 UAF 加提权利用，证明 AI 辅助已能产出高质量成果。内核漏洞团队应评估引入 AI 辅助流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xor0ne/status/2098796358081593718",
-      "reader_url": "https://x.com/0xor0ne/status/2098796358081593718",
-      "image_url": "https://pbs.twimg.com/media/HSBsKl0XEAAxHL4.jpg",
-      "author": {
-        "username": "0xor0ne",
-        "name": "0xor0ne",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T15:30:20",
-      "first_seen_at": "2026-09-12T18:07:08.674976",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 3702,
