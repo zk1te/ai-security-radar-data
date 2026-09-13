@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T10:02:26+08:00",
+  "updated_at": "2026-09-13T11:32:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -113,30 +113,6 @@
       "sub_category_label": "威胁检测"
     },
     {
-      "id": 3647,
-      "title": "OpenAI GPT-6 Astra 获评「Critical」网络安全分类，ExploitBench 满分",
-      "original_title": "Capability 8: He showed him the cybersecurity classification that made OpenAI gate its own model.  He told him GPT-6 Astra is the first OpenAI model to receive a \"Critical\" cyberse",
-      "summary": "GPT-6 Astra 在 ExploitBench（测试模型能否将已知漏洞转化为可用 exploit 的基准）上获得 100% 分数，成为首个获得「Critical」网络安全分类的 OpenAI 模型。OpenAI 通过 Daybreak 可信访问计划对审查组织提供未受限版本，公开版本拒绝生成攻击代码。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_benchmark",
-      "score_total": 76.76,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "ExploitBench 直接测试 AI 的漏洞利用能力，GPT-6 满分值得安全评测从业者警惕。前沿模型的分级访问机制可能是未来 AI 安全治理的范式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/sadhna6389/status/2098789459739435419",
-      "reader_url": "https://x.com/sadhna6389/status/2098789459739435419",
-      "image_url": null,
-      "author": {
-        "username": "sadhna6389",
-        "name": "Sadhna",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T15:02:55",
-      "first_seen_at": "2026-09-12T15:23:11.561156",
-      "sub_category_label": null
-    },
-    {
       "id": 3786,
       "title": "HuntProxy：为 AI Agent 构建的 Web 安全工作台",
       "original_title": "📋 #HuntProxy is an #opensource web security workbench built for #AI agents — connect it over #MCP and drive capture, replay, fuzzing and evidence collection in plain English  ⚡ Pro",
@@ -231,6 +207,30 @@
       "published_at": "2026-09-12T15:30:20",
       "first_seen_at": "2026-09-12T18:07:08.674976",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 3702,
+      "title": "攻击者利用AI在72小时内生成百万级个性化钓鱼邮件",
+      "original_title": "TRC analysis reveals threat actors weaponized AI to generate 1M+ personalized phishing emails in just 72 hours, targeting accounts payable with fake ServiceNow invoices. Each messa",
+      "summary": "TRC分析发现，攻击者利用AI在72小时内生成超百万封个性化钓鱼邮件，通过抓取高管信息伪造邮件线程，成功绕过传统邮件过滤器。",
+      "primary_category": "AI for Sec",
+      "sub_category": "phishing_detection",
+      "score_total": 72.92,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了AI规模化生成钓鱼邮件的实战能力，传统规则防御已失效。安全团队需关注基于行为和AI的邮件检测方案，以应对大规模个性化攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
+      "reader_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T17:27:19",
+      "first_seen_at": "2026-09-12T19:53:33.191351",
+      "sub_category_label": null
     }
   ]
 }
