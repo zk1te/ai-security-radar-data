@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T09:32:22+08:00",
+  "updated_at": "2026-09-13T10:02:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -45,6 +45,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 3800,
+      "title": "多国 AISI 联合开展 Agent 测试演练，聚焦网络安全与信息泄露",
+      "original_title": "International joint testing exercise: Agentic testing | AISI Work",
+      "summary": "多国 AISI 机构联合开展第三轮 Agent 评测演练，其中英国 AISI 使用 Cybench 和 Intercode 基准评估开源模型的网络安全能力，并探讨了参数变化对评估稳健性的影响。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark",
+      "score_total": 80.52,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全评测团队必读。报告详述了使用 Cybench 等基准测试 Agent 网络安全能力的方法学，揭示了温度和 token 限制等参数对评估稳健性的影响，对构建安全评测体系有直接参考价值。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+      "reader_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-13T01:58:10.362929",
+      "sub_category_label": null
+    },
+    {
       "id": 3714,
       "title": "PentAGI：开源 AI 自主渗透测试平台",
       "original_title": "📛 pentagi 🧠 PentAGI is an AI-powered autonomous penetration testing platform that conducts automated security assessments in isolated Docker environments. 💻 Go ⭐ 23373 🍴 3054 🔎 vxc",
@@ -66,30 +86,6 @@
       },
       "published_at": "2026-09-12T21:15:14",
       "first_seen_at": "2026-09-12T21:28:03.556293",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3632,
-      "title": "PentAGI：开源自主 AI 渗透测试平台",
-      "original_title": "PentAGI: Autonomous AI-powered penetration testing platform 🤗🔐 Multi-agent system with 20+ security tools, memory graphs, 10+ LLM providers, and full API access. Run in isolated Do",
-      "summary": "PentAGI 是一个基于多智能体架构的开源自主 AI 渗透测试平台，集成了 20 多种安全工具和记忆图谱，支持自托管和隔离 Docker 运行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.4,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试从业者必看。该平台将多智能体、记忆图谱与主流大模型结合为可落地的自动化测试 Agent，支持直接拉取 Docker 部署，是评估 AI 自动化攻击能力与落地效果的优质靶标。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/LFrefman/status/2098764814457975027",
-      "reader_url": "https://x.com/LFrefman/status/2098764814457975027",
-      "image_url": null,
-      "author": {
-        "username": "LFrefman",
-        "name": "Git_Shark",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T13:24:59",
-      "first_seen_at": "2026-09-12T13:46:23.218800",
       "sub_category_label": "安全Agent"
     },
     {
