@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T16:02:43+08:00",
+  "updated_at": "2026-09-13T17:32:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -63,30 +63,6 @@
       "published_at": null,
       "first_seen_at": "2026-09-13T01:58:10.362929",
       "sub_category_label": null
-    },
-    {
-      "id": 3714,
-      "title": "PentAGI：开源 AI 自主渗透测试平台",
-      "original_title": "📛 pentagi 🧠 PentAGI is an AI-powered autonomous penetration testing platform that conducts automated security assessments in isolated Docker environments. 💻 Go ⭐ 23373 🍴 3054 🔎 vxc",
-      "summary": "PentAGI 是一款基于 Go 开发的 AI 驱动自主渗透测试平台，能在隔离的 Docker 环境中执行自动化安全评估，目前在 GitHub 上获得较高关注度。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.46,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "开源自主渗透测试 Agent 的又一力作，对安全团队而言是构建自动化红队工具链的优质参考。建议立即拉取代码研究其架构与 Docker 隔离方案，评估集成到现有安全流程的可行性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/GitHubGPT/status/2098883156506190210",
-      "reader_url": "https://x.com/GitHubGPT/status/2098883156506190210",
-      "image_url": null,
-      "author": {
-        "username": "GitHubGPT",
-        "name": "GitHubGPT",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T21:15:14",
-      "first_seen_at": "2026-09-12T21:28:03.556293",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 3727,
@@ -206,6 +182,30 @@
       },
       "published_at": "2026-09-12T22:53:00",
       "first_seen_at": "2026-09-12T23:02:37.031601",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3826,
+      "title": "Agent 化漏洞利用不是脚本化 Fuzzing，动态攻击链才是真正风险",
+      "original_title": "@joshua_saxe Agreed. Dismissing agentic exploitation as just scripted fuzzing is shortsighted. The actual risk begins when agents dynamically chain multi-step attack surfaces and a",
+      "summary": "作者指出将 agentic exploitation 等同于脚本化 fuzzing 是短视的，真正风险在于 agent 能动态链式组合多步攻击面并根据防御响应自适应调整，而非依赖固定 payload。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 安全工具的团队别把 agent 当高级 fuzzer，它的核心价值在于动态组装攻击链和自适应对抗。评估 AI 攻击能力时，重点关注多步推理和上下文适应能力，而非单点 payload 命中率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/thaibithope/status/2099040629049467250",
+      "reader_url": "https://x.com/thaibithope/status/2099040629049467250",
+      "image_url": null,
+      "author": {
+        "username": "thaibithope",
+        "name": "Bithope",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T07:40:58",
+      "first_seen_at": "2026-09-13T07:43:37.230194",
       "sub_category_label": "安全Agent"
     }
   ]
