@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13T18:32:54+08:00",
+  "updated_at": "2026-09-13T19:02:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 3779,
@@ -111,30 +111,6 @@
       "published_at": "2026-09-12T20:11:00",
       "first_seen_at": "2026-09-12T23:03:05.127664",
       "sub_category_label": null
-    },
-    {
-      "id": 3728,
-      "title": "METATRON：基于本地 LLM 的渗透测试助手",
-      "original_title": "Penetration testing still relies heavily on manual recon and chained tool calls.  METATRON is an AI-powered pentesting assistant that runs on a local LLM: - Built for Parrot OS - O",
-      "summary": "METATRON 是一款运行在本地 LLM 上的 AI 渗透测试助手，专为 Parrot OS 打造，支持离线红队工作流，无需依赖云端模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试人员值得关注。它主打本地化、离线运行，解决了敏感红队作业中不能用云端大模型的数据合规痛点，可作为研究本地安全 Agent 落地的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/so_sthbryan/status/2098907759089520754",
-      "reader_url": "https://x.com/so_sthbryan/status/2098907759089520754",
-      "image_url": null,
-      "author": {
-        "username": "so_sthbryan",
-        "name": "Bryan",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-12T22:53:00",
-      "first_seen_at": "2026-09-12T23:02:37.031601",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 3826,
