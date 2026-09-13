@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-13T21:33:11+08:00",
+  "updated_at": "2026-09-13T22:03:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 4,
+  "item_count": 3,
   "items": [
     {
       "id": 3862,
@@ -23,26 +23,6 @@
       "published_at": "2026-09-13T11:08:44.321307",
       "first_seen_at": "2026-09-13T11:09:10.427600",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3800,
-      "title": "多国 AISI 联合开展 Agent 测试演练，聚焦网络安全与信息泄露",
-      "original_title": "International joint testing exercise: Agentic testing | AISI Work",
-      "summary": "多国 AISI 机构联合开展第三轮 Agent 评测演练，其中英国 AISI 使用 Cybench 和 Intercode 基准评估开源模型的网络安全能力，并探讨了参数变化对评估稳健性的影响。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_benchmark",
-      "score_total": 80.52,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全评测团队必读。报告详述了使用 Cybench 等基准测试 Agent 网络安全能力的方法学，揭示了温度和 token 限制等参数对评估稳健性的影响，对构建安全评测体系有直接参考价值。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
-      "reader_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-13T01:58:10.362929",
-      "sub_category_label": null
     },
     {
       "id": 3826,
