@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-14T06:04:29+08:00",
+  "updated_at": "2026-09-14T07:34:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 3862,
-      "title": "阿里开源混合架构代码审查工具 open-code-review",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 264 stars today",
-      "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级代码评论，内置 XSS、SQL 注入等安全规则集，兼容 OpenAI 与 Anthropic。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 82.88,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "结合规则和 LLM 是落地安全代码审查的有效路径，安全团队可直接参考其多语言规则集和行级评论设计，快速提升现有代码审计流程的效率。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-13T11:08:44.321307",
-      "first_seen_at": "2026-09-13T11:09:10.427600",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 3958,
       "title": "PentAGI：开源自主AI渗透测试平台",
@@ -238,6 +218,30 @@
       },
       "published_at": "2026-09-13T20:32:14",
       "first_seen_at": "2026-09-13T20:33:28.036721",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3953,
+      "title": "探索基于 Muse 的个人邮件安全 Agent 构想",
+      "original_title": "I connected my Gmail to my @Muse and started wondering:  Could I turn Muse into a personal email security agent?  Modern ICES platforms already do this at the enterprise level, but",
+      "summary": "作者提出将 Gmail 接入 Muse 模型，通过学习历史邮件基线并结合 VT 情报，构建一个能自主识别钓鱼邮件、伪造域名及 BEC 攻击的个人安全 Agent。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "将企业级 ICES 平台思路降维到个人安全场景，展示了 AI Agent 编排检测流程的落地潜力。安全产品经理和 Agent 开发者可从中借鉴轻量化威胁情报富化与自动化响应的设计思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OffZeroCyber/status/2099242255533936761",
+      "reader_url": "https://x.com/OffZeroCyber/status/2099242255533936761",
+      "image_url": null,
+      "author": {
+        "username": "OffZeroCyber",
+        "name": "Michael",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T21:02:10",
+      "first_seen_at": "2026-09-13T21:04:47.239774",
       "sub_category_label": "安全Agent"
     }
   ]
