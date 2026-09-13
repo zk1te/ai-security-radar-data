@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-14T00:03:55+08:00",
+  "updated_at": "2026-09-14T01:34:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
     {
       "id": 3862,
@@ -118,6 +118,30 @@
       },
       "published_at": "2026-09-13T13:40:46",
       "first_seen_at": "2026-09-13T14:13:42.147332",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 3918,
+      "title": "高性能记录技术使模糊测试更实用，助力复现疑难 Bug",
+      "original_title": "@lcfr_eth One of the initial goals was high-perf recording to make fuzzing of a recorded target practical (this was achieved). This is particularly useful for hard-to-repro bugs. P",
+      "summary": "该推文探讨了高性能记录技术在模糊测试中的应用，指出该技术已实现，特别适合复现难以重现的漏洞，并省去了保留测试用例的麻烦。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 60.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对做 fuzzing 和漏洞挖掘的安全团队有参考价值。高性能记录回放能解决「bug 难复现」的老大难问题，值得关注其后续工具化进展。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ergot86/status/2099183578361868472",
+      "reader_url": "https://x.com/ergot86/status/2099183578361868472",
+      "image_url": null,
+      "author": {
+        "username": "ergot86",
+        "name": "Daniel",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T17:09:00",
+      "first_seen_at": "2026-09-13T17:23:51.962041",
       "sub_category_label": "AI Fuzzing"
     },
     {
