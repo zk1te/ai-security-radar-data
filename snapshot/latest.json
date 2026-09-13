@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-14T01:34:06+08:00",
+  "updated_at": "2026-09-14T02:34:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 10,
   "items": [
     {
       "id": 3862,
@@ -49,6 +49,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 3929,
+      "title": "LLM攻击未来：环境镜像与隐性反馈闭环",
+      "original_title": "The magic sauce for LLM driven offense is going to be automatically mirroring a target environment using everything you can quietly learn about it, while other groups of agents are",
+      "summary": "作者指出，LLM驱动的红队攻击将依赖自动镜像目标环境、持续逆向防御产品和沉淀私有知识库，从而在防守方不可见处完成枚举与调试，显著降低实战噪音。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试从业者必看。这不仅是攻击自动化构想，更指明了防守盲区：攻击者正通过离线环境镜像和反馈闭环提升隐蔽性。防守方需警惕配置泄露和防守设备被逆向的风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2099173904648671692",
+      "reader_url": "https://x.com/HackingLZ/status/2099173904648671692",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T16:30:34",
+      "first_seen_at": "2026-09-13T18:27:11.406399",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 3907,
       "title": "实战分享：用于逆向工程与漏洞挖掘的本地 LLM 模型及技能推荐",
       "original_title": "Now that everyone is an expert on KI threats, let's combine that with RE, shall we ?  For all my followers what is your best experience in using local LLM models so far ... which c",
@@ -73,6 +97,30 @@
       "sub_category_label": "二进制安全"
     },
     {
+      "id": 3935,
+      "title": "对AI网络安全评测公信力的质疑：评测者经验与利益冲突",
+      "original_title": "Everything you don’t like isn’t a psyop. There are legitimate concerns about the depth of hands on cyber experience among some of these evaluators, as well as their relationships w",
+      "summary": "质疑部分 AI 安全评测人员缺乏实战攻防经验，且与被评测的 AI 实验室存在潜在利益冲突，呼吁审查其方法论与独立性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 71.35,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec 从业者看榜选型要避坑，别盲信大厂的安全评测分数，需警惕评测方与模型方的利益绑定，重点关注有实战红队背景的独立评测结果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2099152370693181745",
+      "reader_url": "https://x.com/HackingLZ/status/2099152370693181745",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T15:05:00",
+      "first_seen_at": "2026-09-13T18:27:49.689831",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 3826,
       "title": "Agent 化漏洞利用不是脚本化 Fuzzing，动态攻击链才是真正风险",
       "original_title": "@joshua_saxe Agreed. Dismissing agentic exploitation as just scripted fuzzing is shortsighted. The actual risk begins when agents dynamically chain multi-step attack surfaces and a",
@@ -95,6 +143,54 @@
       "published_at": "2026-09-13T07:40:58",
       "first_seen_at": "2026-09-13T07:43:37.230194",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3930,
+      "title": "AI在内网渗透中受困于环境未知与动态防御",
+      "original_title": "AI may have eliminated some of the advantage of obscure technology, but the inside of most networks is still obscure to the model. It doesn’t know the identity structure, workstati",
+      "summary": "指出AI模型对内网结构、身份体系及防御栈缺乏认知，在渗透时需经历易触发检测的枚举过程；同时EDR等防御技术持续演进，使AI难以有效应对内网入侵的动态挑战。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和安全Agent开发者必读：盲目迷信AI做内网渗透行不通。AI缺乏环境感知且难以对抗动态EDR，自动化渗透仍需解决枚举噪音和情报获取难题。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2099171249846968552",
+      "reader_url": "https://x.com/HackingLZ/status/2099171249846968552",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T16:20:01",
+      "first_seen_at": "2026-09-13T18:27:12.274812",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3932,
+      "title": "使用 AI 分析 Windows Paint 堆溢出漏洞 CVE-2026-70586",
+      "original_title": "It's Sunday lets burn some tokens on CVE-2026-70586 \"Heap-based buffer overflow in Windows Paint allows an unauthorized attacker to execute code\"",
+      "summary": "作者计划消耗 token 使用大模型分析 Windows Paint 中的堆溢出漏洞（CVE-2026-70586），该漏洞可导致远程代码执行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 64.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示 AI 在真实 CVE 漏洞分析中的具体应用方向，安全团队可借此观察大模型在漏洞挖掘和利用分析中的实际表现与潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2099168670530351283",
+      "reader_url": "https://x.com/HackingLZ/status/2099168670530351283",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T16:09:46",
+      "first_seen_at": "2026-09-13T18:27:32.200319",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 3889,
@@ -143,30 +239,6 @@
       "published_at": "2026-09-13T17:09:00",
       "first_seen_at": "2026-09-13T17:23:51.962041",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 3878,
-      "title": "Latchveil 预告持续安全测试 AI Agent，对标年度扫描模式",
-      "original_title": "Annual security scans miss what changes tomorrow. Latchveil is an authorized AI security agent that continuously tests websites, applications, cloud, identities, and connected syst",
-      "summary": "Latchveil 是一款授权型 AI 安全 Agent，持续测试网站、应用、云、身份和连接系统，输出已验证的发现、修复建议和审计证据，即将上线。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 60.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可关注这类「持续验证+自动修复指引」的 Agent 产品方向，但当前仅为预热，无技术细节可评估，建议等产品上线后验证其实际检测能力和误报率再考虑引入。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/polsia/status/2099109791545393427",
-      "reader_url": "https://x.com/polsia/status/2099109791545393427",
-      "image_url": null,
-      "author": {
-        "username": "polsia",
-        "name": "Polsia",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-13T12:15:48",
-      "first_seen_at": "2026-09-13T12:39:02.772018",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
