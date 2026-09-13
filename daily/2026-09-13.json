@@ -1,0 +1,1189 @@
+{
+  "date": "2026-09-13",
+  "candidate_count": 22,
+  "selected_count": 3,
+  "cover_title": "Claude-Red：为 Claude 打造的进攻性安全技能库",
+  "lead_takeaway": "今天的主线很明确：安全 Agent 正在从概念走向实战工具化。Claude-Red 用技能文件给大模型注入攻防知识、PENTAGI 做全自主渗透、阿里开源混合架构代码审查，三条都是把 LLM Agent 往实际安全流程里塞的具体尝试，说明这个方向已经过了造词阶段，开始比拼谁的工程化更扎实。",
+  "digest_points": [
+    "01 用 Claude skills 做「攻击面知识注入」的思路很新，安全团队可直接复用这些 SKILL.md 模板来快速搭建内部红队 Agent；值得关注的是这种「技能文件即 Prompt」模式能否稳定迁移到其他 LLM。",
+    "02 红队和渗透测试从业者应关注，开源自主 AI Agent 在实战渗透场景的落地进展迅速，可立即克隆评估其能力边界与集成潜力，但要警惕过度依赖带来的误报和失控风险。",
+    "03 结合规则和 LLM 是落地安全代码审查的有效路径，安全团队可直接参考其多语言规则集和行级评论设计，快速提升现有代码审计流程的效率。"
+  ],
+  "judgement": [
+    "01 用 Claude skills 做「攻击面知识注入」的思路很新，安全团队可直接复用这些 SKILL.md 模板来快速搭建内部红队 Agent；值得关注的是这种「技能文件即 Prompt」模式能否稳定迁移到其他 LLM。",
+    "02 红队和渗透测试从业者应关注，开源自主 AI Agent 在实战渗透场景的落地进展迅速，可立即克隆评估其能力边界与集成潜力，但要警惕过度依赖带来的误报和失控风险。",
+    "03 结合规则和 LLM 是落地安全代码审查的有效路径，安全团队可直接参考其多语言规则集和行级评论设计，快速提升现有代码审计流程的效率。"
+  ],
+  "top_items": [
+    {
+      "id": 3779,
+      "title": "Claude-Red：为 Claude 打造的进攻性安全技能库",
+      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 113 stars today",
+      "summary": "Claude-Red 是一个面向 Claude skills 系统的进攻性安全技能库，通过结构化 SKILL.md 文件为 Claude 注入 SQLi、shellcode、EDR 规避、漏洞开发等专家级方法论，当前已获 3591 星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.73,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "用 Claude skills 做「攻击面知识注入」的思路很新，安全团队可直接复用这些 SKILL.md 模板来快速搭建内部红队 Agent；值得关注的是这种「技能文件即 Prompt」模式能否稳定迁移到其他 LLM。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-13&since=daily",
+      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-13T00:40:51.418635",
+      "first_seen_at": "2026-09-13T00:42:15.518054",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3776,
+      "title": "渗透测试 AI Agent 框架 PENTAGI GitHub 星标快速增长",
+      "original_title": "GitHub Trending: vxcontrol/pentagi gained 189 stars today",
+      "summary": "vxcontrol/pentagi 是一个基于 Go 语言的全自主 AI Agent 渗透测试系统，近期在 GitHub Trending 日榜新增 189 星，总星标超 2.3 万。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.63,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试从业者应关注，开源自主 AI Agent 在实战渗透场景的落地进展迅速，可立即克隆评估其能力边界与集成潜力，但要警惕过度依赖带来的误报和失控风险。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-13&since=daily",
+      "reader_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-13T00:40:51.649523",
+      "first_seen_at": "2026-09-13T00:42:01.184876",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3862,
+      "title": "阿里开源混合架构代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 264 stars today",
+      "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级代码评论，内置 XSS、SQL 注入等安全规则集，兼容 OpenAI 与 Anthropic。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 82.88,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "结合规则和 LLM 是落地安全代码审查的有效路径，安全团队可直接参考其多语言规则集和行级评论设计，快速提升现有代码审计流程的效率。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-13T11:08:44.321307",
+      "first_seen_at": "2026-09-13T11:09:10.427600",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 3800,
+      "title": "多国 AISI 联合开展 Agent 测试演练，聚焦网络安全与信息泄露",
+      "original_title": "International joint testing exercise: Agentic testing | AISI Work",
+      "summary": "多国 AISI 机构联合开展第三轮 Agent 评测演练，其中英国 AISI 使用 Cybench 和 Intercode 基准评估开源模型的网络安全能力，并探讨了参数变化对评估稳健性的影响。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark",
+      "score_total": 80.52,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全评测团队必读。报告详述了使用 Cybench 等基准测试 Agent 网络安全能力的方法学，揭示了温度和 token 限制等参数对评估稳健性的影响，对构建安全评测体系有直接参考价值。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+      "reader_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-13T01:58:10.362929",
+      "sub_category_label": null
+    },
+    {
+      "id": 3896,
+      "title": "Claude-Red 开源 78 个攻防技能包，让 Claude 秒变红队助手",
+      "original_title": "Claude-Red: 78 skills de segurança ofensiva para o Claude, em 23 categorias  O projeto SnailSploit/Claude-Red, do pesquisador Kai Aizen (SnailSploit) — mais de 50 CVEs e atuação em",
+      "summary": "SnailSploit 的 Claude-Red 项目将 78 个结构化安全技能文档分为 23 类，涵盖 Web 攻击、漏洞挖掘、Fuzzing、内网渗透等，通过 Claude Skills 机制按需加载，保持低 token 消耗。仓库已获 3900 星，采用 MIT 许可证。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 79.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和 bug bounty 猎人现在有了一个现成的 Claude 技能库，clone 下来就能用。这代表了「AI 赋能安全」从理论走向实操的趋势，值得安全团队评估是否纳入工作流。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Trorram/status/2099140721328488871",
+      "reader_url": "https://x.com/Trorram/status/2099140721328488871",
+      "image_url": "https://pbs.twimg.com/media/HSGlN-xXgAQMqM3.jpg",
+      "author": {
+        "username": "Trorram",
+        "name": "Trorram",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T14:18:42",
+      "first_seen_at": "2026-09-13T14:45:46.775126",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3727,
+      "title": "通过渗透测试痕迹检测 AI 驱动的攻击",
+      "original_title": "You can detect some AI-enabled attacks by searching for explicit indications of penetration testing. This happens because threat actors tell their LLMs they are performing authoriz",
+      "summary": "攻击者在使用 LLM 或渗透测试框架进行攻击时常留下「pentest」字样痕迹，安全团队可通过搜索这些特征来检测 AI 驱动的入侵行为。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 76.91,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "威胁狩猎和蓝队必看。攻击者用大模型生成 Payload 时常带入「pentest」等授权测试痕迹，直接拿这些 IoC 去日志里搜，能快速捞出隐藏的 AI 辅助攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/eyalsela/status/2098894602363109629",
+      "reader_url": "https://x.com/eyalsela/status/2098894602363109629",
+      "image_url": null,
+      "author": {
+        "username": "eyalsela",
+        "name": "Eyal Sela",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T22:00:43",
+      "first_seen_at": "2026-09-12T22:31:14.679152",
+      "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 3786,
+      "title": "HuntProxy：为 AI Agent 构建的 Web 安全工作台",
+      "original_title": "📋 #HuntProxy is an #opensource web security workbench built for #AI agents — connect it over #MCP and drive capture, replay, fuzzing and evidence collection in plain English  ⚡ Pro",
+      "summary": "HuntProxy 是一款开源 Web 安全工作台，可通过 MCP 协议连接 AI Agent，用自然语言驱动流量捕获、重放、模糊测试和证据收集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给红队和安全工程师看：这是原生支持 MCP 的本地 Web 安全工作台。能直接让 LLM 操控抓包和 Fuzz，建议立即接入你的安全 Agent 测试自动化挖洞效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/michabbb/status/2098946698118935035",
+      "reader_url": "https://x.com/michabbb/status/2098946698118935035",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2098946684659363840/img/i5PLW-QEUSb9nDAr.jpg",
+      "author": {
+        "username": "michabbb",
+        "name": "Micha(el) Bladowski 🇩🇪 🇺🇦",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T01:27:44",
+      "first_seen_at": "2026-09-13T01:29:38.328649",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3724,
+      "title": "claude-red：为 Claude 注入红队与安全研究专业知识",
+      "original_title": "🔥 Trending on GitHub: claude-red  claude-red gives Claude ready-to-load security expertise for exploring attack surfaces more methodically.  It helps reduce the friction of switchi",
+      "summary": "GitHub 开源项目 claude-red 为 Claude 提供按需加载的安全技能库，涵盖 Web、云、IoT 及 Fuzzing 等领域，旨在降低红队和安全研究中的上下文切换成本。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和安全研究人员值得关注。它把分散的安全域知识打包成 Claude 可调用的技能，减少了频繁切换 Prompt 的麻烦，可直接拿来做 CTF 或漏洞预研。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ainotesus/status/2098897104332607662",
+      "reader_url": "https://x.com/ainotesus/status/2098897104332607662",
+      "image_url": "https://pbs.twimg.com/media/HSDHyvsWUAMY4S1.jpg",
+      "author": {
+        "username": "ainotesus",
+        "name": "AINotes",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T22:10:39",
+      "first_seen_at": "2026-09-12T22:30:59.158642",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3731,
+      "title": "122B 终端代理 T1 开源，真实 Shell 操作超 300 轮",
+      "original_title": "T1: a 122B MoE terminal agent trained with RL  Operates a real shell for up to 300+ turns, scoring 64% on Terminal-Bench 2.1 and beating models twice its size. The model is now on ",
+      "summary": "使用 RL 训练的 122B MoE 终端代理 T1 已开源，能在真实 shell 中连续操作超过 300 轮，并在 Terminal-Bench 2.1 上取得 64% 的得分，超越了两倍参数量的模型。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 73.71,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "能连续操作真实 Shell 的开源 Agent 是安全自动化的极佳基座。安全团队可直接在 Hugging Face 上拉取测试，评估其在自动化渗透或应急响应等终端任务中的多轮执行与纠错能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HuggingPapers/status/2098866990962073986",
+      "reader_url": "https://x.com/HuggingPapers/status/2098866990962073986",
+      "image_url": "https://pbs.twimg.com/media/HSCsZ2wbIAAW7cl.png",
+      "author": {
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T20:11:00",
+      "first_seen_at": "2026-09-12T23:03:05.127664",
+      "sub_category_label": null
+    },
+    {
+      "id": 3692,
+      "title": "StarLabs 用 AI 发现 Linux net/sched UAF 漏洞并实现本地提权",
+      "original_title": "AI based vulnerability research: UAF bug in Linux net/sched + LPE exploit (@starlabs_sg)  https://t.co/zAOvcguUAn  #infosec https://t.co/y3XqE6ayWE",
+      "summary": "StarLabs 利用 AI 辅助漏洞研究，在 Linux net/sched 子系统中发现 UAF 漏洞，并完成本地权限提升利用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 漏洞挖掘实战案例：Linux 内核 UAF 加提权利用，证明 AI 辅助已能产出高质量成果。内核漏洞团队应评估引入 AI 辅助流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2098796358081593718",
+      "reader_url": "https://x.com/0xor0ne/status/2098796358081593718",
+      "image_url": "https://pbs.twimg.com/media/HSBsKl0XEAAxHL4.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-12T15:30:20",
+      "first_seen_at": "2026-09-12T18:07:08.674976",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 3779,
+        "title": "Claude-Red：为 Claude 打造的进攻性安全技能库",
+        "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 113 stars today",
+        "summary": "Claude-Red 是一个面向 Claude skills 系统的进攻性安全技能库，通过结构化 SKILL.md 文件为 Claude 注入 SQLi、shellcode、EDR 规避、漏洞开发等专家级方法论，当前已获 3591 星。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 84.73,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "用 Claude skills 做「攻击面知识注入」的思路很新，安全团队可直接复用这些 SKILL.md 模板来快速搭建内部红队 Agent；值得关注的是这种「技能文件即 Prompt」模式能否稳定迁移到其他 LLM。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-13&since=daily",
+        "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-13&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-13T00:40:51.418635",
+        "first_seen_at": "2026-09-13T00:42:15.518054",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 3776,
+        "title": "渗透测试 AI Agent 框架 PENTAGI GitHub 星标快速增长",
+        "original_title": "GitHub Trending: vxcontrol/pentagi gained 189 stars today",
+        "summary": "vxcontrol/pentagi 是一个基于 Go 语言的全自主 AI Agent 渗透测试系统，近期在 GitHub Trending 日榜新增 189 星，总星标超 2.3 万。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 83.63,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "红队和渗透测试从业者应关注，开源自主 AI Agent 在实战渗透场景的落地进展迅速，可立即克隆评估其能力边界与集成潜力，但要警惕过度依赖带来的误报和失控风险。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-13&since=daily",
+        "reader_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-13&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-13T00:40:51.649523",
+        "first_seen_at": "2026-09-13T00:42:01.184876",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 3862,
+        "title": "阿里开源混合架构代码审查工具 open-code-review",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 264 stars today",
+        "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级代码评论，内置 XSS、SQL 注入等安全规则集，兼容 OpenAI 与 Anthropic。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 82.88,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "结合规则和 LLM 是落地安全代码审查的有效路径，安全团队可直接参考其多语言规则集和行级评论设计，快速提升现有代码审计流程的效率。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-13T11:08:44.321307",
+        "first_seen_at": "2026-09-13T11:09:10.427600",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 3896,
+        "title": "Claude-Red 开源 78 个攻防技能包，让 Claude 秒变红队助手",
+        "original_title": "Claude-Red: 78 skills de segurança ofensiva para o Claude, em 23 categorias  O projeto SnailSploit/Claude-Red, do pesquisador Kai Aizen (SnailSploit) — mais de 50 CVEs e atuação em",
+        "summary": "SnailSploit 的 Claude-Red 项目将 78 个结构化安全技能文档分为 23 类，涵盖 Web 攻击、漏洞挖掘、Fuzzing、内网渗透等，通过 Claude Skills 机制按需加载，保持低 token 消耗。仓库已获 3900 星，采用 MIT 许可证。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 79.5,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "红队和 bug bounty 猎人现在有了一个现成的 Claude 技能库，clone 下来就能用。这代表了「AI 赋能安全」从理论走向实操的趋势，值得安全团队评估是否纳入工作流。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Trorram/status/2099140721328488871",
+        "reader_url": "https://x.com/Trorram/status/2099140721328488871",
+        "image_url": "https://pbs.twimg.com/media/HSGlN-xXgAQMqM3.jpg",
+        "author": {
+          "username": "Trorram",
+          "name": "Trorram",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-13T14:18:42",
+        "first_seen_at": "2026-09-13T14:45:46.775126",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 3727,
+        "title": "通过渗透测试痕迹检测 AI 驱动的攻击",
+        "original_title": "You can detect some AI-enabled attacks by searching for explicit indications of penetration testing. This happens because threat actors tell their LLMs they are performing authoriz",
+        "summary": "攻击者在使用 LLM 或渗透测试框架进行攻击时常留下「pentest」字样痕迹，安全团队可通过搜索这些特征来检测 AI 驱动的入侵行为。",
+        "primary_category": "AI for Sec",
+        "sub_category": "threat_detection",
+        "score_total": 76.91,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "威胁狩猎和蓝队必看。攻击者用大模型生成 Payload 时常带入「pentest」等授权测试痕迹，直接拿这些 IoC 去日志里搜，能快速捞出隐藏的 AI 辅助攻击。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/eyalsela/status/2098894602363109629",
+        "reader_url": "https://x.com/eyalsela/status/2098894602363109629",
+        "image_url": null,
+        "author": {
+          "username": "eyalsela",
+          "name": "Eyal Sela",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-12T22:00:43",
+        "first_seen_at": "2026-09-12T22:31:14.679152",
+        "sub_category_label": "威胁检测"
+      },
+      {
+        "id": 3786,
+        "title": "HuntProxy：为 AI Agent 构建的 Web 安全工作台",
+        "original_title": "📋 #HuntProxy is an #opensource web security workbench built for #AI agents — connect it over #MCP and drive capture, replay, fuzzing and evidence collection in plain English  ⚡ Pro",
+        "summary": "HuntProxy 是一款开源 Web 安全工作台，可通过 MCP 协议连接 AI Agent，用自然语言驱动流量捕获、重放、模糊测试和证据收集。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 74.8,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "给红队和安全工程师看：这是原生支持 MCP 的本地 Web 安全工作台。能直接让 LLM 操控抓包和 Fuzz，建议立即接入你的安全 Agent 测试自动化挖洞效果。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/michabbb/status/2098946698118935035",
+        "reader_url": "https://x.com/michabbb/status/2098946698118935035",
+        "image_url": "https://pbs.twimg.com/amplify_video_thumb/2098946684659363840/img/i5PLW-QEUSb9nDAr.jpg",
+        "author": {
+          "username": "michabbb",
+          "name": "Micha(el) Bladowski 🇩🇪 🇺🇦",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-13T01:27:44",
+        "first_seen_at": "2026-09-13T01:29:38.328649",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 3724,
+        "title": "claude-red：为 Claude 注入红队与安全研究专业知识",
+        "original_title": "🔥 Trending on GitHub: claude-red  claude-red gives Claude ready-to-load security expertise for exploring attack surfaces more methodically.  It helps reduce the friction of switchi",
+        "summary": "GitHub 开源项目 claude-red 为 Claude 提供按需加载的安全技能库，涵盖 Web、云、IoT 及 Fuzzing 等领域，旨在降低红队和安全研究中的上下文切换成本。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 74.2,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "红队和安全研究人员值得关注。它把分散的安全域知识打包成 Claude 可调用的技能，减少了频繁切换 Prompt 的麻烦，可直接拿来做 CTF 或漏洞预研。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/ainotesus/status/2098897104332607662",
+        "reader_url": "https://x.com/ainotesus/status/2098897104332607662",
+        "image_url": "https://pbs.twimg.com/media/HSDHyvsWUAMY4S1.jpg",
+        "author": {
+          "username": "ainotesus",
+          "name": "AINotes",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-12T22:10:39",
+        "first_seen_at": "2026-09-12T22:30:59.158642",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 3692,
+        "title": "StarLabs 用 AI 发现 Linux net/sched UAF 漏洞并实现本地提权",
+        "original_title": "AI based vulnerability research: UAF bug in Linux net/sched + LPE exploit (@starlabs_sg)  https://t.co/zAOvcguUAn  #infosec https://t.co/y3XqE6ayWE",
+        "summary": "StarLabs 利用 AI 辅助漏洞研究，在 Linux net/sched 子系统中发现 UAF 漏洞，并完成本地权限提升利用。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 73.6,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "AI 漏洞挖掘实战案例：Linux 内核 UAF 加提权利用，证明 AI 辅助已能产出高质量成果。内核漏洞团队应评估引入 AI 辅助流程。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/0xor0ne/status/2098796358081593718",
+        "reader_url": "https://x.com/0xor0ne/status/2098796358081593718",
+        "image_url": "https://pbs.twimg.com/media/HSBsKl0XEAAxHL4.jpg",
+        "author": {
+          "username": "0xor0ne",
+          "name": "0xor0ne",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-12T15:30:20",
+        "first_seen_at": "2026-09-12T18:07:08.674976",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 3752,
+        "title": "Real-SWE：在真实企业代码库上评测 AI 模型",
+        "original_title": "HN Hot Discussion: Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+        "summary": "HN 热议 Real-SWE 基准测试，该测试评估 AI 模型在私有真实企业代码库中的表现，为衡量 AI 工程能力提供新视角。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 56.76,
+        "include_status": "pending",
+        "item_type": "news",
+        "recommendation_reason": "安全团队评估 AI 代码审计或漏洞修复 Agent 时常受限于公开测试集与真实环境的差异。Real-SWE 的评测思路值得借鉴，可用于构建内部安全场景的评测基准。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=49676820&hn_hot_date=2026-09-13",
+        "reader_url": "https://news.ycombinator.com/item?id=49676820&hn_hot_date=2026-09-13",
+        "image_url": null,
+        "author": {
+          "username": "theanonymousone",
+          "name": "theanonymousone",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-12T20:25:48",
+        "first_seen_at": "2026-09-13T00:33:30.250809",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 3803,
+        "title": "英国 AISI 提出 Long-Form Task 评估法，测量大模型科学辅助能力",
+        "original_title": "Long-Form Tasks | AISI Work",
+        "summary": "英国 AI 安全研究所（AISI）发布长格式任务（LFT）评估方法论，通过专家编写的评分标准自动评估大模型在科学场景中提供分步指导的能力，作为人力提升实验（HUS）的可规模化替代方案。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 56.2,
+        "include_status": "pending",
+        "item_type": "news",
+        "recommendation_reason": "虽然面向科学助手评估而非直接安全场景，但其自动评分框架和长格式任务设计思路对安全评测 Benchmark 构建有直接参考价值，做安全能力评估的人值得借鉴其评估范式。",
+        "source_id": "aisi-blog",
+        "canonical_url": "https://www.aisi.gov.uk/blog/long-form-tasks",
+        "reader_url": "https://www.aisi.gov.uk/blog/long-form-tasks",
+        "image_url": null,
+        "author": null,
+        "published_at": "2025-02-14T00:00:00",
+        "first_seen_at": "2026-09-13T01:58:24.612292",
+        "sub_category_label": "模型评测"
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 3800,
+        "title": "多国 AISI 联合开展 Agent 测试演练，聚焦网络安全与信息泄露",
+        "original_title": "International joint testing exercise: Agentic testing | AISI Work",
+        "summary": "多国 AISI 机构联合开展第三轮 Agent 评测演练，其中英国 AISI 使用 Cybench 和 Intercode 基准评估开源模型的网络安全能力，并探讨了参数变化对评估稳健性的影响。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_benchmark",
+        "score_total": 80.52,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全评测团队必读。报告详述了使用 Cybench 等基准测试 Agent 网络安全能力的方法学，揭示了温度和 token 限制等参数对评估稳健性的影响，对构建安全评测体系有直接参考价值。",
+        "source_id": "aisi-blog",
+        "canonical_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+        "reader_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+        "image_url": null,
+        "author": null,
+        "published_at": null,
+        "first_seen_at": "2026-09-13T01:58:10.362929",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 3731,
+        "title": "122B 终端代理 T1 开源，真实 Shell 操作超 300 轮",
+        "original_title": "T1: a 122B MoE terminal agent trained with RL  Operates a real shell for up to 300+ turns, scoring 64% on Terminal-Bench 2.1 and beating models twice its size. The model is now on ",
+        "summary": "使用 RL 训练的 122B MoE 终端代理 T1 已开源，能在真实 shell 中连续操作超过 300 轮，并在 Terminal-Bench 2.1 上取得 64% 的得分，超越了两倍参数量的模型。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_agent",
+        "score_total": 73.71,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "能连续操作真实 Shell 的开源 Agent 是安全自动化的极佳基座。安全团队可直接在 Hugging Face 上拉取测试，评估其在自动化渗透或应急响应等终端任务中的多轮执行与纠错能力。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/HuggingPapers/status/2098866990962073986",
+        "reader_url": "https://x.com/HuggingPapers/status/2098866990962073986",
+        "image_url": "https://pbs.twimg.com/media/HSCsZ2wbIAAW7cl.png",
+        "author": {
+          "username": "HuggingPapers",
+          "name": "DailyPapers",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-12T20:11:00",
+        "first_seen_at": "2026-09-12T23:03:05.127664",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 3721,
+        "title": "AI Coding 验证瓶颈与 Delta Intelligence 审查范式",
+        "original_title": "兄弟，你挑的这两个热点其实表面上相距很远，底层却碰到了同一个问题：  AI 的生成能力正在快速超过人类原有的验证、治理和组织能力。  AI Coding 中，它表现为 Generation > Review / Verification；AI Safety 中，则表现为 Capability > Control / Governance。  我刚查了一下这几",
+        "summary": "文章指出 AI 生成能力超越人类验证能力导致 Code Review 瓶颈，提出利用 Delta Intelligence 分析代码的结构、行为与安全变化，构建机器验证、AI 分析与人工审查的三层架构。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "agent_architecture",
+        "score_total": 56.9,
+        "include_status": "pending",
+        "item_type": "news",
+        "recommendation_reason": "安全团队应重点关注文中提出的「Security Brain Unit」和「Policy/Security Delta」概念。它预示着未来的安全审查将不再依赖逐行代码审查，而是转向基于变更影响面和风险边界变化的自动化验证，这正是安全 Agent 落地的重要切入点。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/sizhet/status/2098889773037543684",
+        "reader_url": "https://x.com/sizhet/status/2098889773037543684",
+        "image_url": null,
+        "author": {
+          "username": "sizhet",
+          "name": "Shangyin Li",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-12T21:41:32",
+        "first_seen_at": "2026-09-12T21:59:38.492048",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 3779,
+            "title": "Claude-Red：为 Claude 打造的进攻性安全技能库",
+            "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 113 stars today",
+            "summary": "Claude-Red 是一个面向 Claude skills 系统的进攻性安全技能库，通过结构化 SKILL.md 文件为 Claude 注入 SQLi、shellcode、EDR 规避、漏洞开发等专家级方法论，当前已获 3591 星。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 84.73,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "用 Claude skills 做「攻击面知识注入」的思路很新，安全团队可直接复用这些 SKILL.md 模板来快速搭建内部红队 Agent；值得关注的是这种「技能文件即 Prompt」模式能否稳定迁移到其他 LLM。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-13&since=daily",
+            "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-13&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-13T00:40:51.418635",
+            "first_seen_at": "2026-09-13T00:42:15.518054",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 3776,
+            "title": "渗透测试 AI Agent 框架 PENTAGI GitHub 星标快速增长",
+            "original_title": "GitHub Trending: vxcontrol/pentagi gained 189 stars today",
+            "summary": "vxcontrol/pentagi 是一个基于 Go 语言的全自主 AI Agent 渗透测试系统，近期在 GitHub Trending 日榜新增 189 星，总星标超 2.3 万。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 83.63,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "红队和渗透测试从业者应关注，开源自主 AI Agent 在实战渗透场景的落地进展迅速，可立即克隆评估其能力边界与集成潜力，但要警惕过度依赖带来的误报和失控风险。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-13&since=daily",
+            "reader_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-09-13&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-13T00:40:51.649523",
+            "first_seen_at": "2026-09-13T00:42:01.184876",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 3862,
+            "title": "阿里开源混合架构代码审查工具 open-code-review",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 264 stars today",
+            "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级代码评论，内置 XSS、SQL 注入等安全规则集，兼容 OpenAI 与 Anthropic。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 82.88,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "结合规则和 LLM 是落地安全代码审查的有效路径，安全团队可直接参考其多语言规则集和行级评论设计，快速提升现有代码审计流程的效率。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-13&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-13T11:08:44.321307",
+            "first_seen_at": "2026-09-13T11:09:10.427600",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 3896,
+            "title": "Claude-Red 开源 78 个攻防技能包，让 Claude 秒变红队助手",
+            "original_title": "Claude-Red: 78 skills de segurança ofensiva para o Claude, em 23 categorias  O projeto SnailSploit/Claude-Red, do pesquisador Kai Aizen (SnailSploit) — mais de 50 CVEs e atuação em",
+            "summary": "SnailSploit 的 Claude-Red 项目将 78 个结构化安全技能文档分为 23 类，涵盖 Web 攻击、漏洞挖掘、Fuzzing、内网渗透等，通过 Claude Skills 机制按需加载，保持低 token 消耗。仓库已获 3900 星，采用 MIT 许可证。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 79.5,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "红队和 bug bounty 猎人现在有了一个现成的 Claude 技能库，clone 下来就能用。这代表了「AI 赋能安全」从理论走向实操的趋势，值得安全团队评估是否纳入工作流。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Trorram/status/2099140721328488871",
+            "reader_url": "https://x.com/Trorram/status/2099140721328488871",
+            "image_url": "https://pbs.twimg.com/media/HSGlN-xXgAQMqM3.jpg",
+            "author": {
+              "username": "Trorram",
+              "name": "Trorram",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-13T14:18:42",
+            "first_seen_at": "2026-09-13T14:45:46.775126",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 3786,
+            "title": "HuntProxy：为 AI Agent 构建的 Web 安全工作台",
+            "original_title": "📋 #HuntProxy is an #opensource web security workbench built for #AI agents — connect it over #MCP and drive capture, replay, fuzzing and evidence collection in plain English  ⚡ Pro",
+            "summary": "HuntProxy 是一款开源 Web 安全工作台，可通过 MCP 协议连接 AI Agent，用自然语言驱动流量捕获、重放、模糊测试和证据收集。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.8,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "给红队和安全工程师看：这是原生支持 MCP 的本地 Web 安全工作台。能直接让 LLM 操控抓包和 Fuzz，建议立即接入你的安全 Agent 测试自动化挖洞效果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/michabbb/status/2098946698118935035",
+            "reader_url": "https://x.com/michabbb/status/2098946698118935035",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2098946684659363840/img/i5PLW-QEUSb9nDAr.jpg",
+            "author": {
+              "username": "michabbb",
+              "name": "Micha(el) Bladowski 🇩🇪 🇺🇦",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-13T01:27:44",
+            "first_seen_at": "2026-09-13T01:29:38.328649",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 3724,
+            "title": "claude-red：为 Claude 注入红队与安全研究专业知识",
+            "original_title": "🔥 Trending on GitHub: claude-red  claude-red gives Claude ready-to-load security expertise for exploring attack surfaces more methodically.  It helps reduce the friction of switchi",
+            "summary": "GitHub 开源项目 claude-red 为 Claude 提供按需加载的安全技能库，涵盖 Web、云、IoT 及 Fuzzing 等领域，旨在降低红队和安全研究中的上下文切换成本。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "红队和安全研究人员值得关注。它把分散的安全域知识打包成 Claude 可调用的技能，减少了频繁切换 Prompt 的麻烦，可直接拿来做 CTF 或漏洞预研。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/ainotesus/status/2098897104332607662",
+            "reader_url": "https://x.com/ainotesus/status/2098897104332607662",
+            "image_url": "https://pbs.twimg.com/media/HSDHyvsWUAMY4S1.jpg",
+            "author": {
+              "username": "ainotesus",
+              "name": "AINotes",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-12T22:10:39",
+            "first_seen_at": "2026-09-12T22:30:59.158642",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 3728,
+            "title": "METATRON：基于本地 LLM 的渗透测试助手",
+            "original_title": "Penetration testing still relies heavily on manual recon and chained tool calls.  METATRON is an AI-powered pentesting assistant that runs on a local LLM: - Built for Parrot OS - O",
+            "summary": "METATRON 是一款运行在本地 LLM 上的 AI 渗透测试助手，专为 Parrot OS 打造，支持离线红队工作流，无需依赖云端模型。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "红队和渗透测试人员值得关注。它主打本地化、离线运行，解决了敏感红队作业中不能用云端大模型的数据合规痛点，可作为研究本地安全 Agent 落地的参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/so_sthbryan/status/2098907759089520754",
+            "reader_url": "https://x.com/so_sthbryan/status/2098907759089520754",
+            "image_url": null,
+            "author": {
+              "username": "so_sthbryan",
+              "name": "Bryan",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-12T22:53:00",
+            "first_seen_at": "2026-09-12T23:02:37.031601",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 3826,
+            "title": "Agent 化漏洞利用不是脚本化 Fuzzing，动态攻击链才是真正风险",
+            "original_title": "@joshua_saxe Agreed. Dismissing agentic exploitation as just scripted fuzzing is shortsighted. The actual risk begins when agents dynamically chain multi-step attack surfaces and a",
+            "summary": "作者指出将 agentic exploitation 等同于脚本化 fuzzing 是短视的，真正风险在于 agent 能动态链式组合多步攻击面并根据防御响应自适应调整，而非依赖固定 payload。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.1,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 AI 安全工具的团队别把 agent 当高级 fuzzer，它的核心价值在于动态组装攻击链和自适应对抗。评估 AI 攻击能力时，重点关注多步推理和上下文适应能力，而非单点 payload 命中率。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/thaibithope/status/2099040629049467250",
+            "reader_url": "https://x.com/thaibithope/status/2099040629049467250",
+            "image_url": null,
+            "author": {
+              "username": "thaibithope",
+              "name": "Bithope",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-13T07:40:58",
+            "first_seen_at": "2026-09-13T07:43:37.230194",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "threat_detection": {
+        "label": "威胁检测",
+        "items": [
+          {
+            "id": 3727,
+            "title": "通过渗透测试痕迹检测 AI 驱动的攻击",
+            "original_title": "You can detect some AI-enabled attacks by searching for explicit indications of penetration testing. This happens because threat actors tell their LLMs they are performing authoriz",
+            "summary": "攻击者在使用 LLM 或渗透测试框架进行攻击时常留下「pentest」字样痕迹，安全团队可通过搜索这些特征来检测 AI 驱动的入侵行为。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 76.91,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "威胁狩猎和蓝队必看。攻击者用大模型生成 Payload 时常带入「pentest」等授权测试痕迹，直接拿这些 IoC 去日志里搜，能快速捞出隐藏的 AI 辅助攻击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/eyalsela/status/2098894602363109629",
+            "reader_url": "https://x.com/eyalsela/status/2098894602363109629",
+            "image_url": null,
+            "author": {
+              "username": "eyalsela",
+              "name": "Eyal Sela",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-12T22:00:43",
+            "first_seen_at": "2026-09-12T22:31:14.679152",
+            "sub_category_label": "威胁检测"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 3692,
+            "title": "StarLabs 用 AI 发现 Linux net/sched UAF 漏洞并实现本地提权",
+            "original_title": "AI based vulnerability research: UAF bug in Linux net/sched + LPE exploit (@starlabs_sg)  https://t.co/zAOvcguUAn  #infosec https://t.co/y3XqE6ayWE",
+            "summary": "StarLabs 利用 AI 辅助漏洞研究，在 Linux net/sched 子系统中发现 UAF 漏洞，并完成本地权限提升利用。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.6,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI 漏洞挖掘实战案例：Linux 内核 UAF 加提权利用，证明 AI 辅助已能产出高质量成果。内核漏洞团队应评估引入 AI 辅助流程。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xor0ne/status/2098796358081593718",
+            "reader_url": "https://x.com/0xor0ne/status/2098796358081593718",
+            "image_url": "https://pbs.twimg.com/media/HSBsKl0XEAAxHL4.jpg",
+            "author": {
+              "username": "0xor0ne",
+              "name": "0xor0ne",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-12T15:30:20",
+            "first_seen_at": "2026-09-12T18:07:08.674976",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "binary_security": {
+        "label": "二进制安全",
+        "items": [
+          {
+            "id": 3907,
+            "title": "实战分享：用于逆向工程与漏洞挖掘的本地 LLM 模型及技能推荐",
+            "original_title": "Now that everyone is an expert on KI threats, let's combine that with RE, shall we ?  For all my followers what is your best experience in using local LLM models so far ... which c",
+            "summary": "安全研究员总结了在逆向工程和漏洞挖掘中表现较好的本地大语言模型（如Ornith-1.5、Qwen系列等），并推荐了ida-rpc等实用技能。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 72.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "逆向和漏洞挖掘人员可以参考这份本地 LLM 清单及配套技能。它直接点出了适合逆向和找 Bug 的模型，也提到了 ida-rpc 这类将大模型接入反汇编器的实战思路，值得借鉴并尝试复现。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/viperbjk/status/2099155744645939525",
+            "reader_url": "https://x.com/viperbjk/status/2099155744645939525",
+            "image_url": null,
+            "author": {
+              "username": "viperbjk",
+              "name": "Bjoern Kerler",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-13T15:18:24",
+            "first_seen_at": "2026-09-13T15:49:54.452522",
+            "sub_category_label": "二进制安全"
+          }
+        ]
+      },
+      "phishing_detection": {
+        "label": "phishing_detection",
+        "items": [
+          {
+            "id": 3702,
+            "title": "攻击者利用AI在72小时内生成百万级个性化钓鱼邮件",
+            "original_title": "TRC analysis reveals threat actors weaponized AI to generate 1M+ personalized phishing emails in just 72 hours, targeting accounts payable with fake ServiceNow invoices. Each messa",
+            "summary": "TRC分析发现，攻击者利用AI在72小时内生成超百万封个性化钓鱼邮件，通过抓取高管信息伪造邮件线程，成功绕过传统邮件过滤器。",
+            "primary_category": "AI for Sec",
+            "sub_category": "phishing_detection",
+            "score_total": 72.92,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "展示了AI规模化生成钓鱼邮件的实战能力，传统规则防御已失效。安全团队需关注基于行为和AI的邮件检测方案，以应对大规模个性化攻击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
+            "reader_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
+            "image_url": null,
+            "author": {
+              "username": "aviatrixtrc",
+              "name": "Aviatrix Threat Research Center",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-12T17:27:19",
+            "first_seen_at": "2026-09-12T19:53:33.191351",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_intel_sharing": {
+        "label": "agent_intel_sharing",
+        "items": [
+          {
+            "id": 3661,
+            "title": "基于 XMTP 的去中心化安全代理情报共享账本",
+            "original_title": "I just added a new feature to Nexus for @xmtp_ :  The Shared Claim Ledger a security database that nobody owns.  When a Nexus security agent finds something suspicious, it can publ",
+            "summary": "Nexus 安全代理新增 Shared Claim Ledger 功能，利用 XMTP 协议实现无中心数据库的威胁情报共享。各代理独立判断并发布发现，其他代理可读取作为参考，并通过信任机制验证来源。",
+            "primary_category": "AI for Sec",
+            "sub_category": "agent_intel_sharing",
+            "score_total": 67.6,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "去中心化安全 Agent 协同的新思路。做安全 Agent 的团队可以参考这种基于信任和溯源的情报共享架构，解决多 Agent 协作时的信息孤岛和单点信任问题。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/baerra124412/status/2098805695722209482",
+            "reader_url": "https://x.com/baerra124412/status/2098805695722209482",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2098805378972536837/img/BNgemqbvTtmaEjGI.jpg",
+            "author": {
+              "username": "baerra124412",
+              "name": "alexunitt",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-12T16:07:26",
+            "first_seen_at": "2026-09-12T16:27:39.575698",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 3889,
+            "title": "AI 生成代码的安全门槛应高于人工：机械化验证成关键",
+            "original_title": "Boris Cherny's bar for AI-written production code is higher than a human's, not lower -- extensive linting, testing, automated review, security checks, daily fuzzing, layered on to",
+            "summary": "Boris Cherny 指出 AI 生成的生产代码需要比人工代码更严格的验证流程，包括 linting、测试、自动审查、安全检查和每日 fuzzing，因为移除人工判断后机械过滤器必须更努力工作。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 61.4,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "直接回答了「AI 代码上线怎么验」的问题——把 fuzzing 和自动化安全检查提到日常流程里，别依赖人工 review。正在引入 AI 编程工具的安全团队应据此设计验证流水线。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xJ4yD3v/status/2099131172379058309",
+            "reader_url": "https://x.com/0xJ4yD3v/status/2099131172379058309",
+            "image_url": null,
+            "author": {
+              "username": "0xJ4yD3v",
+              "name": "Jay Dev",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-13T13:40:46",
+            "first_seen_at": "2026-09-13T14:13:42.147332",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 3813,
+            "title": "AMM 不变性 Fuzzing 的价值在于舍入边界而非正常路径",
+            "original_title": "@joshyvibe AMM invariant fuzzing earns its keep on the rounding edge, not the happy path: what happens when a swap leaves the pool one wei short of the constant product. Unit tests",
+            "summary": "探讨 AMM 自动做市商在进行不变性 Fuzzing 测试时，应重点关注交易导致池子差一个 wei 的舍入边界情况，而非仅测试正常流程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 58.95,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "智能合约审计人员应看，提醒我们在 DeFi 安全测试中，Fuzzing 的真正价值在于发现舍入误差等极端边界缺陷，不能只靠单元测试覆盖正常路径。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/clawdit_xyz/status/2098957261620044257",
+            "reader_url": "https://x.com/clawdit_xyz/status/2098957261620044257",
+            "image_url": null,
+            "author": {
+              "username": "clawdit_xyz",
+              "name": "clawdit.xyz",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-13T02:09:42",
+            "first_seen_at": "2026-09-13T02:42:09.364514",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 3800,
+            "title": "多国 AISI 联合开展 Agent 测试演练，聚焦网络安全与信息泄露",
+            "original_title": "International joint testing exercise: Agentic testing | AISI Work",
+            "summary": "多国 AISI 机构联合开展第三轮 Agent 评测演练，其中英国 AISI 使用 Cybench 和 Intercode 基准评估开源模型的网络安全能力，并探讨了参数变化对评估稳健性的影响。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_benchmark",
+            "score_total": 80.52,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全评测团队必读。报告详述了使用 Cybench 等基准测试 Agent 网络安全能力的方法学，揭示了温度和 token 限制等参数对评估稳健性的影响，对构建安全评测体系有直接参考价值。",
+            "source_id": "aisi-blog",
+            "canonical_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+            "reader_url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+            "image_url": null,
+            "author": null,
+            "published_at": null,
+            "first_seen_at": "2026-09-13T01:58:10.362929",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 3731,
+            "title": "122B 终端代理 T1 开源，真实 Shell 操作超 300 轮",
+            "original_title": "T1: a 122B MoE terminal agent trained with RL  Operates a real shell for up to 300+ turns, scoring 64% on Terminal-Bench 2.1 and beating models twice its size. The model is now on ",
+            "summary": "使用 RL 训练的 122B MoE 终端代理 T1 已开源，能在真实 shell 中连续操作超过 300 轮，并在 Terminal-Bench 2.1 上取得 64% 的得分，超越了两倍参数量的模型。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_agent",
+            "score_total": 73.71,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "能连续操作真实 Shell 的开源 Agent 是安全自动化的极佳基座。安全团队可直接在 Hugging Face 上拉取测试，评估其在自动化渗透或应急响应等终端任务中的多轮执行与纠错能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HuggingPapers/status/2098866990962073986",
+            "reader_url": "https://x.com/HuggingPapers/status/2098866990962073986",
+            "image_url": "https://pbs.twimg.com/media/HSCsZ2wbIAAW7cl.png",
+            "author": {
+              "username": "HuggingPapers",
+              "name": "DailyPapers",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-12T20:11:00",
+            "first_seen_at": "2026-09-12T23:03:05.127664",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "agent_architecture": {
+        "label": "agent_architecture",
+        "items": [
+          {
+            "id": 3721,
+            "title": "AI Coding 验证瓶颈与 Delta Intelligence 审查范式",
+            "original_title": "兄弟，你挑的这两个热点其实表面上相距很远，底层却碰到了同一个问题：  AI 的生成能力正在快速超过人类原有的验证、治理和组织能力。  AI Coding 中，它表现为 Generation > Review / Verification；AI Safety 中，则表现为 Capability > Control / Governance。  我刚查了一下这几",
+            "summary": "文章指出 AI 生成能力超越人类验证能力导致 Code Review 瓶颈，提出利用 Delta Intelligence 分析代码的结构、行为与安全变化，构建机器验证、AI 分析与人工审查的三层架构。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "agent_architecture",
+            "score_total": 56.9,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "安全团队应重点关注文中提出的「Security Brain Unit」和「Policy/Security Delta」概念。它预示着未来的安全审查将不再依赖逐行代码审查，而是转向基于变更影响面和风险边界变化的自动化验证，这正是安全 Agent 落地的重要切入点。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/sizhet/status/2098889773037543684",
+            "reader_url": "https://x.com/sizhet/status/2098889773037543684",
+            "image_url": null,
+            "author": {
+              "username": "sizhet",
+              "name": "Shangyin Li",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-12T21:41:32",
+            "first_seen_at": "2026-09-12T21:59:38.492048",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 3752,
+            "title": "Real-SWE：在真实企业代码库上评测 AI 模型",
+            "original_title": "HN Hot Discussion: Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+            "summary": "HN 热议 Real-SWE 基准测试，该测试评估 AI 模型在私有真实企业代码库中的表现，为衡量 AI 工程能力提供新视角。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 56.76,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "安全团队评估 AI 代码审计或漏洞修复 Agent 时常受限于公开测试集与真实环境的差异。Real-SWE 的评测思路值得借鉴，可用于构建内部安全场景的评测基准。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=49676820&hn_hot_date=2026-09-13",
+            "reader_url": "https://news.ycombinator.com/item?id=49676820&hn_hot_date=2026-09-13",
+            "image_url": null,
+            "author": {
+              "username": "theanonymousone",
+              "name": "theanonymousone",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-12T20:25:48",
+            "first_seen_at": "2026-09-13T00:33:30.250809",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 3803,
+            "title": "英国 AISI 提出 Long-Form Task 评估法，测量大模型科学辅助能力",
+            "original_title": "Long-Form Tasks | AISI Work",
+            "summary": "英国 AI 安全研究所（AISI）发布长格式任务（LFT）评估方法论，通过专家编写的评分标准自动评估大模型在科学场景中提供分步指导的能力，作为人力提升实验（HUS）的可规模化替代方案。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 56.2,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "虽然面向科学助手评估而非直接安全场景，但其自动评分框架和长格式任务设计思路对安全评测 Benchmark 构建有直接参考价值，做安全能力评估的人值得借鉴其评估范式。",
+            "source_id": "aisi-blog",
+            "canonical_url": "https://www.aisi.gov.uk/blog/long-form-tasks",
+            "reader_url": "https://www.aisi.gov.uk/blog/long-form-tasks",
+            "image_url": null,
+            "author": null,
+            "published_at": "2025-02-14T00:00:00",
+            "first_seen_at": "2026-09-13T01:58:24.612292",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      }
+    }
+  },
+  "papers": [],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 22,
+    "highlight_count": 4,
+    "paper_count": 0,
+    "source_count": 4,
+    "top_score": 85,
+    "category_count": {
+      "AI for Sec": 17,
+      "AI Tech": 2,
+      "AI for Sec | Sec for AI": 1,
+      "AI for Sec | AI Tech": 1,
+      "AI Tech | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 10
+        },
+        "threat_detection": {
+          "label": "威胁检测",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 1
+        },
+        "binary_security": {
+          "label": "二进制安全",
+          "count": 1
+        },
+        "phishing_detection": {
+          "label": "phishing_detection",
+          "count": 1
+        },
+        "agent_intel_sharing": {
+          "label": "agent_intel_sharing",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "agent_architecture": {
+          "label": "agent_architecture",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 2
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 17,
+      "top_score": 85,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 2,
+      "top_score": 57,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分的 Claude-Red 值得重点看，它用 SKILL.md 文件做攻击面知识注入的思路很巧妙，安全团队可以直接拿来改造内部红队 Agent 的知识管理方式。建议团队这周抽时间跑一下 Claude-Red 和 PENTAGI 的技能模板，重点验证两个问题：技能文件在不同模型上的迁移稳定性，以及自主渗透 Agent 在真实环境里的可控边界。代码审查工具的规则加 LLM 混合路径已比较成熟，可以优先集成到 CI 流程里见效。",
+  "method_note": "按北京时间 2026-09-13 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "aisi-blog",
+    "github-ai-security",
+    "hn-ai-tech",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# Claude-Red：为 Claude 打造的进攻性安全技能库\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线很明确：安全 Agent 正在从概念走向实战工具化。Claude-Red 用技能文件给大模型注入攻防知识、PENTAGI 做全自主渗透、阿里开源混合架构代码审查，三条都是把 LLM Agent 往实际安全流程里塞的具体尝试，说明这个方向已经过了造词阶段，开始比拼谁的工程化更扎实。\n- 01 用 Claude skills 做「攻击面知识注入」的思路很新，安全团队可直接复用这些 SKILL.md 模板来快速搭建内部红队 Agent；值得关注的是这种「技能文件即 Prompt」模式能否稳定迁移到其他 LLM。\n- 02 红队和渗透测试从业者应关注，开源自主 AI Agent 在实战渗透场景的落地进展迅速，可立即克隆评估其能力边界与集成潜力，但要警惕过度依赖带来的误报和失控风险。\n- 03 结合规则和 LLM 是落地安全代码审查的有效路径，安全团队可直接参考其多语言规则集和行级评论设计，快速提升现有代码审计流程的效率。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **Claude-Red：为 Claude 打造的进攻性安全技能库**：用 Claude skills 做「攻击面知识注入」的思路很新，安全团队可直接复用这些 SKILL.md 模板来快速搭建内部红队 Agent；值得关注的是这种「技能文件即 Prompt」模式能否稳定迁移到其他 LLM。 来源：github-ai-security\n- **渗透测试 AI Agent 框架 PENTAGI GitHub 星标快速增长**：红队和渗透测试从业者应关注，开源自主 AI Agent 在实战渗透场景的落地进展迅速，可立即克隆评估其能力边界与集成潜力，但要警惕过度依赖带来的误报和失控风险。 来源：github-ai-security\n- **阿里开源混合架构代码审查工具 open-code-review**：结合规则和 LLM 是落地安全代码审查的有效路径，安全团队可直接参考其多语言规则集和行级评论设计，快速提升现有代码审计流程的效率。 来源：github-ai-security\n\n## 也值得关注\n- 多国 AISI 联合开展 Agent 测试演练，聚焦网络安全与信息泄露（80.52）\n- Claude-Red 开源 78 个攻防技能包，让 Claude 秒变红队助手（79.5）\n- 通过渗透测试痕迹检测 AI 驱动的攻击（76.91）\n- HuntProxy：为 AI Agent 构建的 Web 安全工作台（74.8）\n- claude-red：为 Claude 注入红队与安全研究专业知识（74.2）\n- 122B 终端代理 T1 开源，真实 Shell 操作超 300 轮（73.71）\n\n## AI for Sec\n\n### 安全Agent\n- Claude-Red：为 Claude 打造的进攻性安全技能库（84.73）\n- 渗透测试 AI Agent 框架 PENTAGI GitHub 星标快速增长（83.63）\n- 阿里开源混合架构代码审查工具 open-code-review（82.88）\n- Claude-Red 开源 78 个攻防技能包，让 Claude 秒变红队助手（79.5）\n- HuntProxy：为 AI Agent 构建的 Web 安全工作台（74.8）\n\n### 威胁检测\n- 通过渗透测试痕迹检测 AI 驱动的攻击（76.91）\n\n### 漏洞挖掘\n- StarLabs 用 AI 发现 Linux net/sched UAF 漏洞并实现本地提权（73.6）\n\n### 二进制安全\n- 实战分享：用于逆向工程与漏洞挖掘的本地 LLM 模型及技能推荐（72.95）\n\n### phishing_detection\n- 攻击者利用AI在72小时内生成百万级个性化钓鱼邮件（72.92）\n\n### agent_intel_sharing\n- 基于 XMTP 的去中心化安全代理情报共享账本（67.6）\n\n### AI Fuzzing\n- AI 生成代码的安全门槛应高于人工：机械化验证成关键（61.4）\n- AMM 不变性 Fuzzing 的价值在于舍入边界而非正常路径（58.95）\n\n## AI Tech\n\n### 模型评测\n- Real-SWE：在真实企业代码库上评测 AI 模型（56.76）\n- 英国 AISI 提出 Long-Form Task 评估法，测量大模型科学辅助能力（56.2）\n\n## 今日论文\n\n## 今日观察\n最高分的 Claude-Red 值得重点看，它用 SKILL.md 文件做攻击面知识注入的思路很巧妙，安全团队可以直接拿来改造内部红队 Agent 的知识管理方式。建议团队这周抽时间跑一下 Claude-Red 和 PENTAGI 的技能模板，重点验证两个问题：技能文件在不同模型上的迁移稳定性，以及自主渗透 Agent 在真实环境里的可控边界。代码审查工具的规则加 LLM 混合路径已比较成熟，可以优先集成到 CI 流程里见效。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-09-13 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-14T00:00:12+08:00"
+}
