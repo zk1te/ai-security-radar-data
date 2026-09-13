@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T14:32:38+08:00",
+  "updated_at": "2026-09-13T16:02:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -185,28 +185,28 @@
       "sub_category_label": null
     },
     {
-      "id": 3702,
-      "title": "攻击者利用AI在72小时内生成百万级个性化钓鱼邮件",
-      "original_title": "TRC analysis reveals threat actors weaponized AI to generate 1M+ personalized phishing emails in just 72 hours, targeting accounts payable with fake ServiceNow invoices. Each messa",
-      "summary": "TRC分析发现，攻击者利用AI在72小时内生成超百万封个性化钓鱼邮件，通过抓取高管信息伪造邮件线程，成功绕过传统邮件过滤器。",
+      "id": 3728,
+      "title": "METATRON：基于本地 LLM 的渗透测试助手",
+      "original_title": "Penetration testing still relies heavily on manual recon and chained tool calls.  METATRON is an AI-powered pentesting assistant that runs on a local LLM: - Built for Parrot OS - O",
+      "summary": "METATRON 是一款运行在本地 LLM 上的 AI 渗透测试助手，专为 Parrot OS 打造，支持离线红队工作流，无需依赖云端模型。",
       "primary_category": "AI for Sec",
-      "sub_category": "phishing_detection",
-      "score_total": 72.92,
+      "sub_category": "security_agent",
+      "score_total": 69.5,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "展示了AI规模化生成钓鱼邮件的实战能力，传统规则防御已失效。安全团队需关注基于行为和AI的邮件检测方案，以应对大规模个性化攻击。",
+      "recommendation_reason": "红队和渗透测试人员值得关注。它主打本地化、离线运行，解决了敏感红队作业中不能用云端大模型的数据合规痛点，可作为研究本地安全 Agent 落地的参考。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
-      "reader_url": "https://x.com/aviatrixtrc/status/2098825798090183140",
+      "canonical_url": "https://x.com/so_sthbryan/status/2098907759089520754",
+      "reader_url": "https://x.com/so_sthbryan/status/2098907759089520754",
       "image_url": null,
       "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
+        "username": "so_sthbryan",
+        "name": "Bryan",
         "avatar_url": null
       },
-      "published_at": "2026-09-12T17:27:19",
-      "first_seen_at": "2026-09-12T19:53:33.191351",
-      "sub_category_label": null
+      "published_at": "2026-09-12T22:53:00",
+      "first_seen_at": "2026-09-12T23:02:37.031601",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
