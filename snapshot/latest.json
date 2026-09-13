@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T05:34:26+08:00",
+  "updated_at": "2026-09-14T06:04:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -22,6 +22,30 @@
       "author": null,
       "published_at": "2026-09-13T11:08:44.321307",
       "first_seen_at": "2026-09-13T11:09:10.427600",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3958,
+      "title": "PentAGI：开源自主AI渗透测试平台",
+      "original_title": "📛 pentagi 🧠 PentAGI is an autonomous AI platform that automates security assessments and penetration testing within isolated Docker environments. 💻 Go ⭐ 23897 🍴 3092 🔎 vxcontrol/pe",
+      "summary": "PentAGI 是一款开源的自主 AI 安全评估与渗透测试平台，在隔离的 Docker 环境中运行，目前在 GitHub 已获得超两万星标。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红蓝对抗和安全自动化团队应重点关注，可直接评估或借鉴其自主 Agent 在隔离环境中的实战表现，为构建内部自动化渗透工具提供现成参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/GitHubGPT/status/2099245823687311669",
+      "reader_url": "https://x.com/GitHubGPT/status/2099245823687311669",
+      "image_url": null,
+      "author": {
+        "username": "GitHubGPT",
+        "name": "GitHubGPT",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T21:16:21",
+      "first_seen_at": "2026-09-13T21:36:08.322684",
       "sub_category_label": "安全Agent"
     },
     {
@@ -121,6 +145,30 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 3961,
+      "title": "用 AI 助手搭建个人邮件安全代理：从学习基线到钓鱼隔离",
+      "original_title": "Here is how I started the conversation with my @muse:   I want to experiment with turning you into a personal email security agent for my Gmail.  The goal is to see how far you can",
+      "summary": "作者将 Muse AI 助手接入 Gmail，让其学习个人邮件正常行为基线，监控并调查可疑邮件（钓鱼、BEC、冒充域名等），实现三级分类与隔离机制，同时明确将邮件内容视为不可信数据以防提示注入。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.12,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "邮件安全和 SOC 团队都该看——这个轻量级安全 Agent 的实战探索展示了用上下文而非硬规则判断异常的思路，可直接借鉴到企业邮件安全运营。特别注意作者对邮件内容作不可信处理防注入的设计，是构建安全 Agent 的基本操作。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OffZeroCyber/status/2099243350708892129",
+      "reader_url": "https://x.com/OffZeroCyber/status/2099243350708892129",
+      "image_url": null,
+      "author": {
+        "username": "OffZeroCyber",
+        "name": "Michael",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T21:06:31",
+      "first_seen_at": "2026-09-13T21:36:24.839088",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 3930,
       "title": "AI在内网渗透中受困于环境未知与动态防御",
       "original_title": "AI may have eliminated some of the advantage of obscure technology, but the inside of most networks is still obscure to the model. It doesn’t know the identity structure, workstati",
@@ -191,54 +239,6 @@
       "published_at": "2026-09-13T20:32:14",
       "first_seen_at": "2026-09-13T20:33:28.036721",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3953,
-      "title": "探索基于 Muse 的个人邮件安全 Agent 构想",
-      "original_title": "I connected my Gmail to my @Muse and started wondering:  Could I turn Muse into a personal email security agent?  Modern ICES platforms already do this at the enterprise level, but",
-      "summary": "作者提出将 Gmail 接入 Muse 模型，通过学习历史邮件基线并结合 VT 情报，构建一个能自主识别钓鱼邮件、伪造域名及 BEC 攻击的个人安全 Agent。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "将企业级 ICES 平台思路降维到个人安全场景，展示了 AI Agent 编排检测流程的落地潜力。安全产品经理和 Agent 开发者可从中借鉴轻量化威胁情报富化与自动化响应的设计思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OffZeroCyber/status/2099242255533936761",
-      "reader_url": "https://x.com/OffZeroCyber/status/2099242255533936761",
-      "image_url": null,
-      "author": {
-        "username": "OffZeroCyber",
-        "name": "Michael",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-13T21:02:10",
-      "first_seen_at": "2026-09-13T21:04:47.239774",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3932,
-      "title": "使用 AI 分析 Windows Paint 堆溢出漏洞 CVE-2026-70586",
-      "original_title": "It's Sunday lets burn some tokens on CVE-2026-70586 \"Heap-based buffer overflow in Windows Paint allows an unauthorized attacker to execute code\"",
-      "summary": "作者计划消耗 token 使用大模型分析 Windows Paint 中的堆溢出漏洞（CVE-2026-70586），该漏洞可导致远程代码执行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 64.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示 AI 在真实 CVE 漏洞分析中的具体应用方向，安全团队可借此观察大模型在漏洞挖掘和利用分析中的实际表现与潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2099168670530351283",
-      "reader_url": "https://x.com/HackingLZ/status/2099168670530351283",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-13T16:09:46",
-      "first_seen_at": "2026-09-13T18:27:32.200319",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
