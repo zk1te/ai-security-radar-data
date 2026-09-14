@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T07:34:34+08:00",
+  "updated_at": "2026-09-14T08:04:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -50,6 +50,30 @@
       },
       "published_at": "2026-09-13T14:18:42",
       "first_seen_at": "2026-09-13T14:45:46.775126",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 3974,
+      "title": "自主 AI 渗透测试框架 pentagi：多代理协作探索",
+      "original_title": "vxcontrol/pentagi — fully autonomous AI agents performing complex penetration testing. Multi-agent coordination in the security domain. Not enterprise-grade orchestration.",
+      "summary": "vxcontrol 开源的 pentagi 框架利用多代理协作执行复杂渗透测试，提供自主安全测试新思路，但目前尚非企业级编排方案。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.06,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试人员可研究其多代理协作模式，探索 AI 自动化攻防的落地可行性。但需注意其目前不具备企业级可用性，需自行评估风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/FenjuFu/status/2099281476718309534",
+      "reader_url": "https://x.com/FenjuFu/status/2099281476718309534",
+      "image_url": null,
+      "author": {
+        "username": "FenjuFu",
+        "name": "Fenju Fu",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T23:38:01",
+      "first_seen_at": "2026-09-13T23:42:36.030362",
       "sub_category_label": "安全Agent"
     },
     {
@@ -218,30 +242,6 @@
       },
       "published_at": "2026-09-13T20:32:14",
       "first_seen_at": "2026-09-13T20:33:28.036721",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3953,
-      "title": "探索基于 Muse 的个人邮件安全 Agent 构想",
-      "original_title": "I connected my Gmail to my @Muse and started wondering:  Could I turn Muse into a personal email security agent?  Modern ICES platforms already do this at the enterprise level, but",
-      "summary": "作者提出将 Gmail 接入 Muse 模型，通过学习历史邮件基线并结合 VT 情报，构建一个能自主识别钓鱼邮件、伪造域名及 BEC 攻击的个人安全 Agent。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "将企业级 ICES 平台思路降维到个人安全场景，展示了 AI Agent 编排检测流程的落地潜力。安全产品经理和 Agent 开发者可从中借鉴轻量化威胁情报富化与自动化响应的设计思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OffZeroCyber/status/2099242255533936761",
-      "reader_url": "https://x.com/OffZeroCyber/status/2099242255533936761",
-      "image_url": null,
-      "author": {
-        "username": "OffZeroCyber",
-        "name": "Michael",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-13T21:02:10",
-      "first_seen_at": "2026-09-13T21:04:47.239774",
       "sub_category_label": "安全Agent"
     }
   ]
