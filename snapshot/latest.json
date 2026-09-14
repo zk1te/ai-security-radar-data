@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T21:06:22+08:00",
+  "updated_at": "2026-09-15T01:06:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -105,26 +105,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 4086,
-      "title": "人类与AI生成代码的质量与安全差异评测",
-      "original_title": "What is the Difference Between Me and You? Benchmarking the Quality Gap Between Human-Written and AI-Generated Code",
-      "summary": "对比78万函数对后发现，AI代码在Python和Java中存在更多严重漏洞，但在C语言中高严重性内存安全问题少于人类代码；研究同步发布了用于安全测试的CQBench基准。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 83.75,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "安全评测团队可直接拿CQBench测评内部LLM编码助手的缺陷分布。重点关注AI代码在Python/Java上的高频漏洞，别被C语言的表面安全迷惑。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.12708",
-      "reader_url": "https://arxiv.org/pdf/2609.12708",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-14T04:00:00",
-      "first_seen_at": "2026-09-14T04:59:12.638748",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 4124,
       "title": "Meddies-PII：多语言临床PII提取与去标识化框架",
       "original_title": "Meddies-PII: A Multilingual Framework for Personally Identifiable Information Extraction in Clinical De-identification",
@@ -203,6 +183,26 @@
       "published_at": "2026-09-14T04:00:00",
       "first_seen_at": "2026-09-14T05:48:53.932775",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 4234,
+      "title": "基于 eBPF/XDP 与 Isolation Forest 的 DDoS 检测架构权衡",
+      "original_title": "A Feature-Rich Embedded NIDS with eBPF/XDP: Detector and Architecture Trade-offs",
+      "summary": "本文提出结合 eBPF/XDP 与 Isolation Forest 的 NIDS 用于 DDoS 检测，并在树莓派上对比了单体、Kafka 和 gRPC 架构的性能，发现 gRPC 在保持高准确率的同时延迟最低。",
+      "primary_category": "AI for Sec",
+      "sub_category": "network_threat_detection",
+      "score_total": 80.68,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全工程师和架构师必看，文章不仅开源了流量特征提取器 GoFlowMeter，还实测了在树莓派等边缘设备上部署 ML 检测引擎的架构选型。落地时优先考虑 gRPC 架构，避开 Kafka 带来的高延迟与精度下降坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.12605",
+      "reader_url": "https://arxiv.org/pdf/2609.12605",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-14T04:00:00",
+      "first_seen_at": "2026-09-14T05:48:19.903181",
+      "sub_category_label": null
     }
   ]
 }
