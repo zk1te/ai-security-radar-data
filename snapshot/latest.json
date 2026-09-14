@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-14T09:04:42+08:00",
+  "updated_at": "2026-09-14T10:04:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 4011,
@@ -111,6 +111,26 @@
       "published_at": "2026-09-13T14:18:42",
       "first_seen_at": "2026-09-13T14:45:46.775126",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 4038,
+      "title": "AISI：测试时计算预算不足会系统性低估AI代理安全能力",
+      "original_title": "More compute, more capability: Why AI agent evaluations need to account for test-time compute | AISI Work",
+      "summary": "英国AI安全研究所发现，固定计算预算的评估方法会严重低估AI代理在网络安全和软件工程任务上的真实能力，且新模型在高预算下表现提升更显著。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation",
+      "score_total": 77.59,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做AI安全评测和红蓝对抗的人必看。固定预算跑Benchmark会让你误判模型真实能力，跑复杂CTF时模型可能不是没能力，只是算得不够久。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/more-compute-more-capability-why-ai-agent-evals-need-to-account-for-test-time-compute",
+      "reader_url": "https://www.aisi.gov.uk/blog/more-compute-more-capability-why-ai-agent-evals-need-to-account-for-test-time-compute",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-14T02:03:39.291902",
+      "sub_category_label": null
     },
     {
       "id": 3974,
