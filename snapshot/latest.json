@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T11:07:16+08:00",
+  "updated_at": "2026-09-14T12:14:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -157,30 +157,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 3907,
-      "title": "实战分享：用于逆向工程与漏洞挖掘的本地 LLM 模型及技能推荐",
-      "original_title": "Now that everyone is an expert on KI threats, let's combine that with RE, shall we ?  For all my followers what is your best experience in using local LLM models so far ... which c",
-      "summary": "安全研究员总结了在逆向工程和漏洞挖掘中表现较好的本地大语言模型（如Ornith-1.5、Qwen系列等），并推荐了ida-rpc等实用技能。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 72.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "逆向和漏洞挖掘人员可以参考这份本地 LLM 清单及配套技能。它直接点出了适合逆向和找 Bug 的模型，也提到了 ida-rpc 这类将大模型接入反汇编器的实战思路，值得借鉴并尝试复现。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/viperbjk/status/2099155744645939525",
-      "reader_url": "https://x.com/viperbjk/status/2099155744645939525",
-      "image_url": null,
-      "author": {
-        "username": "viperbjk",
-        "name": "Bjoern Kerler",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-13T15:18:24",
-      "first_seen_at": "2026-09-13T15:49:54.452522",
-      "sub_category_label": "二进制安全"
-    },
-    {
       "id": 3935,
       "title": "对AI网络安全评测公信力的质疑：评测者经验与利益冲突",
       "original_title": "Everything you don’t like isn’t a psyop. There are legitimate concerns about the depth of hands on cyber experience among some of these evaluators, as well as their relationships w",
@@ -203,6 +179,30 @@
       "published_at": "2026-09-13T15:05:00",
       "first_seen_at": "2026-09-13T18:27:49.689831",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 3961,
+      "title": "用 AI 助手搭建个人邮件安全代理：从学习基线到钓鱼隔离",
+      "original_title": "Here is how I started the conversation with my @muse:   I want to experiment with turning you into a personal email security agent for my Gmail.  The goal is to see how far you can",
+      "summary": "作者将 Muse AI 助手接入 Gmail，让其学习个人邮件正常行为基线，监控并调查可疑邮件（钓鱼、BEC、冒充域名等），实现三级分类与隔离机制，同时明确将邮件内容视为不可信数据以防提示注入。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.12,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "邮件安全和 SOC 团队都该看——这个轻量级安全 Agent 的实战探索展示了用上下文而非硬规则判断异常的思路，可直接借鉴到企业邮件安全运营。特别注意作者对邮件内容作不可信处理防注入的设计，是构建安全 Agent 的基本操作。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OffZeroCyber/status/2099243350708892129",
+      "reader_url": "https://x.com/OffZeroCyber/status/2099243350708892129",
+      "image_url": null,
+      "author": {
+        "username": "OffZeroCyber",
+        "name": "Michael",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-13T21:06:31",
+      "first_seen_at": "2026-09-13T21:36:24.839088",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
