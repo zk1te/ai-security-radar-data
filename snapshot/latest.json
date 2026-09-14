@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T04:07:15+08:00",
+  "updated_at": "2026-09-15T05:07:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -101,6 +101,30 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 4502,
+      "title": "运行安全Agent前需明确可达范围与凭据控制",
+      "original_title": "Before running a security agent, I want three answers:  What can it reach? What credentials can it use? What actually stops it leaving scope?  The scope written in the task needs t",
+      "summary": "推文指出在执行安全Agent前，必须确认其可达范围、可用凭据及防止越界的实际控制措施，确保任务范围与环境相匹配。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent落地实操必看。在让Agent动起来前，把可达性、凭据和越界控制这三个问题问清楚，能避免自动化任务失控造成破坏。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/sb_chadi/status/2099601837435359611",
+      "reader_url": "https://x.com/sb_chadi/status/2099601837435359611",
+      "image_url": null,
+      "author": {
+        "username": "sb_chadi",
+        "name": "Chadi",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-14T20:51:01",
+      "first_seen_at": "2026-09-14T21:07:09.622645",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 4481,
       "title": "AWS发布AI安全评测报告：如何衡量并建立信任",
       "original_title": "Source: AWS Security Blog, \"The state of AI for security: Measuring what matters most for building trust,\" September 9, 2026. The visual is AWS's original Figure 1 from the benchma",
@@ -195,30 +219,6 @@
       "published_at": "2026-09-14T15:57:33",
       "first_seen_at": "2026-09-14T16:47:18.398660",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 4471,
-      "title": "AI Agent 自写测试为何漏掉 Bug：回文位流案例揭示测试盲区",
-      "original_title": "this lands. a passing suite can preserve the agent’s mistake. Luu’s palindromic bitstream case is perfect: the agent named the risk, wrote a “relevant” test, and still couldn’t sep",
-      "summary": "讨论 AI Agent 生成的测试套件即使全绿也可能漏掉真实 Bug，以回文位流案例说明 fixture 如何掩盖预期行为与错误操作的差异，并提出用「能拒绝哪种错误行为」作为测试质量判断标准。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 67.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全Agent的人必看：AI写的全绿测试可能在自我欺骗。回文位流案例证明，Agent能命名风险、写相关测试，却仍无法区分正误行为。别轻信自写测试，用「能拒绝哪种错误行为」作为质量门槛。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Shay_Benshabtay/status/2099580634863902980",
-      "reader_url": "https://x.com/Shay_Benshabtay/status/2099580634863902980",
-      "image_url": null,
-      "author": {
-        "username": "Shay_Benshabtay",
-        "name": "Shay Ben Shabtay",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T19:26:46",
-      "first_seen_at": "2026-09-14T19:30:20.737003",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
