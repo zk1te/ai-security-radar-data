@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-14T10:04:33+08:00",
+  "updated_at": "2026-09-14T11:07:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 4011,
@@ -86,30 +86,6 @@
       },
       "published_at": "2026-09-13T21:16:21",
       "first_seen_at": "2026-09-13T21:36:08.322684",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 3896,
-      "title": "Claude-Red 开源 78 个攻防技能包，让 Claude 秒变红队助手",
-      "original_title": "Claude-Red: 78 skills de segurança ofensiva para o Claude, em 23 categorias  O projeto SnailSploit/Claude-Red, do pesquisador Kai Aizen (SnailSploit) — mais de 50 CVEs e atuação em",
-      "summary": "SnailSploit 的 Claude-Red 项目将 78 个结构化安全技能文档分为 23 类，涵盖 Web 攻击、漏洞挖掘、Fuzzing、内网渗透等，通过 Claude Skills 机制按需加载，保持低 token 消耗。仓库已获 3900 星，采用 MIT 许可证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 79.5,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和 bug bounty 猎人现在有了一个现成的 Claude 技能库，clone 下来就能用。这代表了「AI 赋能安全」从理论走向实操的趋势，值得安全团队评估是否纳入工作流。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Trorram/status/2099140721328488871",
-      "reader_url": "https://x.com/Trorram/status/2099140721328488871",
-      "image_url": "https://pbs.twimg.com/media/HSGlN-xXgAQMqM3.jpg",
-      "author": {
-        "username": "Trorram",
-        "name": "Trorram",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-13T14:18:42",
-      "first_seen_at": "2026-09-13T14:45:46.775126",
       "sub_category_label": "安全Agent"
     },
     {
