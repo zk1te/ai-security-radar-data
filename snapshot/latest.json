@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T14:14:58+08:00",
+  "updated_at": "2026-09-14T15:36:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -42,6 +42,26 @@
       "author": null,
       "published_at": "2026-09-14T00:52:45.498624",
       "first_seen_at": "2026-09-14T00:54:11.708495",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 4262,
+      "title": "7人团队训练开源网络攻防Agent，CyberGym同规模模型登顶",
+      "original_title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+      "summary": "该论文提出以数据为中心的训练框架，通过五个互补系统（含推理签名分析、教师采样降本、能力恢复等）和可执行安全环境，构建16万条经验证轨迹用于SFT，三个检查点在CyberGym榜单同参数规模模型中均排名第一，总榜第十。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 87.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "小团队靠数据工程而非堆算力，训练出CyberGym同量级最强开源模型，直接证明环境构建和轨迹验证是训练安全Agent的关键瓶颈。做红队自动化或安全Agent的团队应重点研究其环境设计方法，尤其是如何低成本复现教师模型能力。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.08418",
+      "reader_url": "https://arxiv.org/pdf/2609.08418",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-14T00:00:00",
+      "first_seen_at": "2026-09-14T07:21:51.783526",
       "sub_category_label": "安全Agent"
     },
     {
@@ -183,26 +203,6 @@
       "published_at": "2026-09-14T04:00:00",
       "first_seen_at": "2026-09-14T05:29:32.239346",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 4010,
-      "title": "阿里开源混合架构代码审查工具 open-code-review",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 443 stars today",
-      "summary": "该工具结合确定性管道与 LLM Agent，支持精确到行级别的代码评论，内置 XSS、SQL 注入等安全规则集，兼容 OpenAI 和 Anthropic 模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "code_review_agent",
-      "score_total": 82.14,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "将 LLM Agent 融入 CI/CD 代码审查流水线，内置安全规则，适合安全团队直接集成以自动化挖掘代码漏洞，阿里大规模验证过，落地价值高。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-14&since=daily",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-14&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-14T00:52:45.587548",
-      "first_seen_at": "2026-09-14T00:54:10.440375",
-      "sub_category_label": null
     }
   ]
 }
