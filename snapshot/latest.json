@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T03:37:12+08:00",
+  "updated_at": "2026-09-15T04:07:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -53,27 +53,27 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 4269,
-      "title": "AWS发布漏洞误报识别基准，12个大模型均未达生产标准",
-      "original_title": "AWS publie le Deception Benchmark : 12 modèles IA pour distinguer vraie faille et faux positif. Aucun ne passe le seuil prod (FP et FN &lt; 10 %). Pour les CTO : l'IA accélère le t",
-      "summary": "AWS发布Deception Benchmark，评估12个AI模型区分真实漏洞和误报的能力。结果显示所有模型均未达到生产环境标准（误报和漏报率<10%），表明AI可加速漏洞分诊但仍需人工判断。",
+      "id": 4482,
+      "title": "AWS新基准揭示大模型代码审计高假阳性陷阱",
+      "original_title": "On AWS's new AI security benchmark, GPT-5.6 Sol missed just 0.9% of real vulnerabilities. It achieved that by falsely flagging 92.5% of safe code.  That is the uncomfortable failur",
+      "summary": "AWS发布对抗性AI安全基准测试，揭示模型为压低漏报率会导致极高假阳性。GPT-5.6 Sol漏报率仅0.9%但误报安全代码高达92.5%，且无模型达到生产可用标准。",
       "primary_category": "AI for Sec",
       "sub_category": "security_benchmark",
-      "score_total": 74.2,
+      "score_total": 73.8,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全团队引入AI做漏洞分诊时必看：AWS实测表明当前大模型区分真假漏洞的误报/漏报率仍超标。现阶段别盲目自动化，AI只能当加速器，拍板还得靠人。",
+      "recommendation_reason": "想做AI代码审计和自动PR Review的安全团队必看。它指出大模型看似高检出率背后是用海量误报换来的，直接用会搞垮警报信任度，选型时必须盯住误报率指标。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/kamel_laimene/status/2099403273719402535",
-      "reader_url": "https://x.com/kamel_laimene/status/2099403273719402535",
-      "image_url": null,
+      "canonical_url": "https://x.com/CorvusXBT/status/2099582809887179157",
+      "reader_url": "https://x.com/CorvusXBT/status/2099582809887179157",
+      "image_url": "https://pbs.twimg.com/media/HSM3Wf3XEAAlNb_.jpg",
       "author": {
-        "username": "kamel_laimene",
-        "name": "Kamel – CTO as a Service - Expert IT",
+        "username": "CorvusXBT",
+        "name": "Corvus",
         "avatar_url": null
       },
-      "published_at": "2026-09-14T07:42:00",
-      "first_seen_at": "2026-09-14T07:59:23.365464",
+      "published_at": "2026-09-14T19:35:24",
+      "first_seen_at": "2026-09-14T20:02:15.936883",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
@@ -98,6 +98,30 @@
       },
       "published_at": "2026-09-14T12:16:19",
       "first_seen_at": "2026-09-14T12:21:42.426050",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 4481,
+      "title": "AWS发布AI安全评测报告：如何衡量并建立信任",
+      "original_title": "Source: AWS Security Blog, \"The state of AI for security: Measuring what matters most for building trust,\" September 9, 2026. The visual is AWS's original Figure 1 from the benchma",
+      "summary": "AWS安全博客发布「AI for Security」基准测试报告，探讨如何衡量AI在安全领域的应用效果并建立信任。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 71.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需要关注大厂在AI安全评测上的指标体系设计，这直接关系到未来选型和落地AI安全工具的衡量标准。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CorvusXBT/status/2099582913486492095",
+      "reader_url": "https://x.com/CorvusXBT/status/2099582913486492095",
+      "image_url": null,
+      "author": {
+        "username": "CorvusXBT",
+        "name": "Corvus",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-14T19:35:49",
+      "first_seen_at": "2026-09-14T20:02:15.315766",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
@@ -147,30 +171,6 @@
       "published_at": "2026-09-14T17:07:58",
       "first_seen_at": "2026-09-14T17:16:00.239816",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 4273,
-      "title": "AWS 测试 AI 漏洞检测工具，发现误报问题严重",
-      "original_title": "AWS puts AI vulnerability detection to the test, and false positives pile up - https://t.co/SQW3dQImqb - @awscloud #AI #Benchmark #Cybersecurity #CybersecurityNews",
-      "summary": "AWS 对 AI 漏洞检测能力进行测试，结果显示当前 AI 工具存在大量误报，实际落地效果仍待提升。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 69.35,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "打算用 AI 做自动化漏洞挖掘的团队必看。AWS 的实测提醒我们，现阶段 AI 漏洞检测的误报率仍然很高，引入时必须配套人工审核和结果过滤机制。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/helpnetsecurity/status/2099385156125487579",
-      "reader_url": "https://x.com/helpnetsecurity/status/2099385156125487579",
-      "image_url": null,
-      "author": {
-        "username": "helpnetsecurity",
-        "name": "Help Net Security",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T06:30:00",
-      "first_seen_at": "2026-09-14T07:59:44.127979",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 4429,
