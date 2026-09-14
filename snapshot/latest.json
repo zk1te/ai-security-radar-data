@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-15T02:07:07+08:00",
+  "updated_at": "2026-09-15T03:37:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
-    {
-      "id": 4262,
-      "title": "7人团队训练开源网络攻防Agent，CyberGym同规模模型登顶",
-      "original_title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
-      "summary": "该论文提出以数据为中心的训练框架，通过五个互补系统（含推理签名分析、教师采样降本、能力恢复等）和可执行安全环境，构建16万条经验证轨迹用于SFT，三个检查点在CyberGym榜单同参数规模模型中均排名第一，总榜第十。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 87.1,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "小团队靠数据工程而非堆算力，训练出CyberGym同量级最强开源模型，直接证明环境构建和轨迹验证是训练安全Agent的关键瓶颈。做红队自动化或安全Agent的团队应重点研究其环境设计方法，尤其是如何低成本复现教师模型能力。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.08418",
-      "reader_url": "https://arxiv.org/pdf/2609.08418",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-14T00:00:00",
-      "first_seen_at": "2026-09-14T07:21:51.783526",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 4334,
       "title": "AWS 发布 AI 安全基准测试，衡量各模型发现漏洞的误报率",
@@ -121,30 +101,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 4266,
-      "title": "PentAGI 发布：13 个专用 AI Agent 实现渗透测试自动化",
-      "original_title": "PentAGI is here! Discover how 13 specialized AI agents transform penetration testing from a manual expert-dependent process into an automated, scalable capability.  https://t.co/0n",
-      "summary": "PentAGI 使用 13 个专业化 AI Agent，将渗透测试从依赖人工专家的手动流程转变为自动化、可扩展的安全能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试自动化是 AI for Sec 的高价值赛道，多 Agent 分工协作做 pentest 值得关注。红队和攻防团队应评估其 Agent 分工架构是否能落地到现有流程，而非停留在 demo 阶段。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MongkolchaiTue/status/2099392846071799945",
-      "reader_url": "https://x.com/MongkolchaiTue/status/2099392846071799945",
-      "image_url": null,
-      "author": {
-        "username": "MongkolchaiTue",
-        "name": "มะตู่",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T07:00:33",
-      "first_seen_at": "2026-09-14T07:27:52.887797",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 4444,
       "title": "WordPress 引入 AI 审查插件发布，自动拦截后门",
       "original_title": "🔥 WordPress is adding a new security gate to every plugin release.  Before distribution, each release will be reviewed with AI models and Jetpack Scan, and high-risk updates will b",
@@ -193,30 +149,6 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 4268,
-      "title": "Offbyone会议演讲：用LLM进行一年黑客攻击的经验总结",
-      "original_title": "RT @edwardzpeng: Sharing my for keynote talk for Offbyone security conference #OB12026 : &lt;A year of hacking with LLMs&gt;   https://t.co/W7NFS…",
-      "summary": "edwardzpeng 在 Offbyone 安全会议分享了主题演讲《A year of hacking with LLMs》，总结了使用大语言模型进行黑客攻击一年的实践与经验。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "真实黑客视角的一年LLM实战总结，极具参考价值。红队和漏洞挖掘团队应关注，了解当前LLM在实战攻防中的真实效果与边界，启发后续工具链建设。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2099376316554641802",
-      "reader_url": "https://x.com/soaphornseuo/status/2099376316554641802",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T05:54:53",
-      "first_seen_at": "2026-09-14T07:28:13.484062",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 4273,
       "title": "AWS 测试 AI 漏洞检测工具，发现误报问题严重",
       "original_title": "AWS puts AI vulnerability detection to the test, and false positives pile up - https://t.co/SQW3dQImqb - @awscloud #AI #Benchmark #Cybersecurity #CybersecurityNews",
@@ -239,6 +171,54 @@
       "published_at": "2026-09-14T06:30:00",
       "first_seen_at": "2026-09-14T07:59:44.127979",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 4429,
+      "title": "TRC 分析：AI 攻击者数小时内逆向微软补丁生成漏洞利用",
+      "original_title": "TRC analysis shows AI-powered attackers are reverse-engineering exploits from Microsoft's record 972 vulnerability patch within hours of release. The compressed patching window cre",
+      "summary": "TRC 分析指出，AI 驱动的攻击者能在微软补丁发布数小时内逆向生成 exploit，大幅压缩防御窗口，对未分段网络构成横向移动风险。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.15,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需警惕，AI 正大幅缩短从补丁发布到武器化利用的时间差。传统补丁周期已不够用，应优先修补高危漏洞并加强网络分段。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2099527986177356076",
+      "reader_url": "https://x.com/aviatrixtrc/status/2099527986177356076",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-14T15:57:33",
+      "first_seen_at": "2026-09-14T16:47:18.398660",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 4471,
+      "title": "AI Agent 自写测试为何漏掉 Bug：回文位流案例揭示测试盲区",
+      "original_title": "this lands. a passing suite can preserve the agent’s mistake. Luu’s palindromic bitstream case is perfect: the agent named the risk, wrote a “relevant” test, and still couldn’t sep",
+      "summary": "讨论 AI Agent 生成的测试套件即使全绿也可能漏掉真实 Bug，以回文位流案例说明 fixture 如何掩盖预期行为与错误操作的差异，并提出用「能拒绝哪种错误行为」作为测试质量判断标准。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 67.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全Agent的人必看：AI写的全绿测试可能在自我欺骗。回文位流案例证明，Agent能命名风险、写相关测试，却仍无法区分正误行为。别轻信自写测试，用「能拒绝哪种错误行为」作为质量门槛。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Shay_Benshabtay/status/2099580634863902980",
+      "reader_url": "https://x.com/Shay_Benshabtay/status/2099580634863902980",
+      "image_url": null,
+      "author": {
+        "username": "Shay_Benshabtay",
+        "name": "Shay Ben Shabtay",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-14T19:26:46",
+      "first_seen_at": "2026-09-14T19:30:20.737003",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
