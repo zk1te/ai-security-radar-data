@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T13:44:54+08:00",
+  "updated_at": "2026-09-14T14:14:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -63,6 +63,26 @@
       "published_at": "2026-09-14T04:00:00",
       "first_seen_at": "2026-09-14T05:41:01.959485",
       "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 4246,
+      "title": "从第一性原理评估基于图的网络入侵检测系统",
+      "original_title": "A First-Principles Evaluation of Graph-Based Network Intrusion Detection Systems",
+      "summary": "论文提出 GIDS-Eval 评估框架，将图基网络入侵检测系统分解为六个阶段进行统一评估，发现现有系统存在严重评估缺陷，仅两条伪造边即可实现完全规避，且复杂的架构并未带来一致的检测质量提升。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 84.03,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "从事基于图和AI的威胁检测团队必看。该研究揭露了现有检测系统在评估和实际部署中的盲区，指出了简单规避攻击的巨大威胁，为评估和选择安全检测工具提供了重要参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.12263",
+      "reader_url": "https://arxiv.org/pdf/2609.12263",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-14T04:00:00",
+      "first_seen_at": "2026-09-14T05:49:46.618272",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 4014,
@@ -183,26 +203,6 @@
       "published_at": "2026-09-14T00:52:45.587548",
       "first_seen_at": "2026-09-14T00:54:10.440375",
       "sub_category_label": null
-    },
-    {
-      "id": 4089,
-      "title": "Hieronym：利用层级多源信息的二进制函数重命名框架",
-      "original_title": "Hieronym: Leveraging Hierarchical Multi-Source Information for Function Renaming in Stripped Binary",
-      "summary": "提出基于 LLM 的 Hieronym 框架，通过整合全局、调用和内部语义等层级信息对无符号二进制进行函数重命名，在多架构和编译优化级别下表现优异且能应用于真实恶意软件分析。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 80.83,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "逆向工程师和恶意软件分析师应关注，该框架证明了 LLM 在多架构二进制语义恢复中的实用性，可为自动化反编译工具链提供直接的增强思路。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.12457",
-      "reader_url": "https://arxiv.org/pdf/2609.12457",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-14T04:00:00",
-      "first_seen_at": "2026-09-14T04:59:33.757454",
-      "sub_category_label": "二进制安全"
     }
   ]
 }
