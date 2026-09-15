@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T14:32:28+08:00",
+  "updated_at": "2026-09-15T20:02:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -165,24 +165,24 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 4609,
-      "title": "UK AISI 评测 GPT-5.5：AI 自动化网络攻击能力持续跃升",
-      "original_title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities | AISI Work",
-      "summary": "UK AISI 对 GPT-5.5 进行网络安全能力评测，发现其在高级 CTF 任务和企业内网攻击模拟靶场中表现显著提升，成为第二个能端到端完成 32 步企业网络攻击链的模型，表明 AI 自动化攻击能力正作为通用能力提升的副产品而快速增长。",
+      "id": 4973,
+      "title": "为 Agent 设计的极速 Android 反编译前端 ASC",
+      "original_title": "GitHub Trending: MG1937/ASC gained 122 stars today",
+      "summary": "ASC 是一款专为智能体和移动安全研究员设计的超快 Android 反编译器前端，目前在 GitHub 趋势榜上受到关注。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 81.6,
+      "sub_category": "binary_security",
+      "score_total": 81.65,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "红队和攻防从业者需密切关注。GPT-5.5 在 AISI 的 TLO 靶场中自主完成了 32 步企业网攻击链，说明大模型在长周期渗透测试中的能力已突破临界点，防御方需加速引入 AI 进行安全评测和红蓝对抗演练。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
-      "reader_url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
+      "recommendation_reason": "安全自动化正深入反编译等底层场景，移动安全及自动化逆向团队应关注其与 Agent 的集成方式，探索自动化逆向分析的新路径。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/MG1937/ASC?github_trending_date=2026-09-15&since=daily",
+      "reader_url": "https://github.com/MG1937/ASC?github_trending_date=2026-09-15&since=daily",
       "image_url": null,
       "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-15T02:02:56.058284",
-      "sub_category_label": "安全评测与Benchmark"
+      "published_at": "2026-09-15T11:34:06.880142",
+      "first_seen_at": "2026-09-15T11:35:10.739116",
+      "sub_category_label": "二进制安全"
     }
   ]
 }
