@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T03:10:29+08:00",
+  "updated_at": "2026-09-16T03:42:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -121,26 +121,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 4925,
-      "title": "RSIAgent：面向新环境的自主探索与递归自我改进框架",
-      "original_title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
-      "summary": "提出一种免训练的多智能体框架 RSIAgent，通过自主探索构建环境特定记忆（如因果关系），无需更新模型参数即可在下游任务复用，在 OSWorld 等基准上表现优异。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "agent_architecture",
-      "score_total": 71.85,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "对搞自动化渗透和漏洞挖掘 Agent 的同学有直接启发：它解决的是 Agent 在未知环境中自主摸清边界和因果链的问题，且免训练即可复用经验，非常贴合实战安全场景。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.15364",
-      "reader_url": "https://arxiv.org/pdf/2609.15364",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-15T00:00:00",
-      "first_seen_at": "2026-09-15T07:40:52.205830",
-      "sub_category_label": null
-    },
-    {
       "id": 5130,
       "title": "Trail of Bits 批驳 1Password 报告：AI 安全修复评测存在缺陷",
       "original_title": "RT @trailofbits: .@1Password's FLAWED report says AI models produce a clean security fix only 26% of the time.  Defenders shouldn't take th…",
@@ -234,6 +214,30 @@
       },
       "published_at": "2026-09-15T17:02:26",
       "first_seen_at": "2026-09-15T17:06:41.897603",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 5114,
+      "title": "AI 安全 Agent 构建系列教程发布",
+      "original_title": "Huge alpha on building your own AI Security agent, useful for both devs and security researchers  Thanks to @asen_sec - one of the best AI security harness builders, make sure you ",
+      "summary": "推荐 @asen_sec 撰写的 AI 安全 Agent 构建系列博客，面向开发者和安全研究人员，本文为系列第一部分。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全从业者想自建 AI 安全 Agent 而非依赖现成产品，这个系列值得跟。作者是实战派 harness 构建者，内容偏落地思路，适合想动手做 Agent 的人。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pashov/status/2099920709506199844",
+      "reader_url": "https://x.com/pashov/status/2099920709506199844",
+      "image_url": null,
+      "author": {
+        "username": "pashov",
+        "name": "pashov",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-15T17:58:06",
+      "first_seen_at": "2026-09-15T18:17:15.639938",
       "sub_category_label": "安全Agent"
     }
   ]
