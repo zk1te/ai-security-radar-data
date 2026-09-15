@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-15T09:07:33+08:00",
+  "updated_at": "2026-09-15T10:07:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 4578,
@@ -25,6 +25,46 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 4609,
+      "title": "UK AISI 评测 GPT-5.5：AI 自动化网络攻击能力持续跃升",
+      "original_title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities | AISI Work",
+      "summary": "UK AISI 对 GPT-5.5 进行网络安全能力评测，发现其在高级 CTF 任务和企业内网攻击模拟靶场中表现显著提升，成为第二个能端到端完成 32 步企业网络攻击链的模型，表明 AI 自动化攻击能力正作为通用能力提升的副产品而快速增长。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 81.6,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和攻防从业者需密切关注。GPT-5.5 在 AISI 的 TLO 靶场中自主完成了 32 步企业网攻击链，说明大模型在长周期渗透测试中的能力已突破临界点，防御方需加速引入 AI 进行安全评测和红蓝对抗演练。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
+      "reader_url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-15T02:02:56.058284",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 4610,
+      "title": "AISI评估Claude Mythos网络能力：AI首次端到端完成32步攻击",
+      "original_title": "Our evaluation of Claude Mythos Preview’s cyber capabilities | AISI Work",
+      "summary": "英国AISI评估发现，Anthropic的Claude Mythos Preview在CTF和多步攻击靶场测试中表现大幅提升，成为首个能端到端解决32步复杂网络攻击模拟的模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 81.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "攻防从业者必看：AI已能自主完成32步复杂攻击链，红队工具链将迎巨变。防御侧需立即审视基础安全基线，带外漏洞管理失效在即。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "reader_url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-15T02:02:57.209033",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 4586,
       "title": "阿里开源混合架构代码审查工具 open-code-review",
       "original_title": "GitHub Trending: alibaba/open-code-review gained 1571 stars today",
@@ -43,6 +83,26 @@
       "published_at": "2026-09-15T00:23:06.661113",
       "first_seen_at": "2026-09-15T00:25:42.801167",
       "sub_category_label": null
+    },
+    {
+      "id": 4607,
+      "title": "UK AISI 评测 Kimi K3 网络安全能力：攻击链表现优于同类开源模型",
+      "original_title": "UK AISI / CAISI Preliminary Assessment of Kimi K3's Cyber Capabilities | AISI Work",
+      "summary": "UK AISI 与 CAISI 联合评测 Moonshot AI 的 Kimi K3 模型，发现其在 ExploitBench 漏洞利用和 TLO 模拟攻击链中表现优于 GLM-5.2，但显著弱于美国前沿闭源模型，且安全护栏未有效拦截其攻击行为。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 79.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需关注开源模型在自动化攻击和漏洞利用上的能力边界。Kimi K3 虽未实现任意代码执行，但已能自主完成部分端到端攻击链，可作为评估内部防御体系对抗 AI Agent 攻击的参考基准。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities",
+      "reader_url": "https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-15T02:02:17.279694",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 4558,
@@ -139,102 +199,6 @@
       "published_at": "2026-09-14T20:51:01",
       "first_seen_at": "2026-09-14T21:07:09.622645",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 4481,
-      "title": "AWS发布AI安全评测报告：如何衡量并建立信任",
-      "original_title": "Source: AWS Security Blog, \"The state of AI for security: Measuring what matters most for building trust,\" September 9, 2026. The visual is AWS's original Figure 1 from the benchma",
-      "summary": "AWS安全博客发布「AI for Security」基准测试报告，探讨如何衡量AI在安全领域的应用效果并建立信任。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 71.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需要关注大厂在AI安全评测上的指标体系设计，这直接关系到未来选型和落地AI安全工具的衡量标准。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CorvusXBT/status/2099582913486492095",
-      "reader_url": "https://x.com/CorvusXBT/status/2099582913486492095",
-      "image_url": null,
-      "author": {
-        "username": "CorvusXBT",
-        "name": "Corvus",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T19:35:49",
-      "first_seen_at": "2026-09-14T20:02:15.315766",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 4444,
-      "title": "WordPress 引入 AI 审查插件发布，自动拦截后门",
-      "original_title": "🔥 WordPress is adding a new security gate to every plugin release.  Before distribution, each release will be reviewed with AI models and Jetpack Scan, and high-risk updates will b",
-      "summary": "WordPress 在插件发布前增加 AI 与 Jetpack Scan 联合审查，自动拦截高风险更新，近期成功拦截一起后门插件。",
-      "primary_category": "AI for Sec",
-      "sub_category": "malware_detection",
-      "score_total": 70.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 与扫描器结合做大规模自动化供应链审查是典型落地。安全团队可关注其审查策略与误报控制，作为设计 CI/CD 安全门控的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2099529334784721037",
-      "reader_url": "https://x.com/TheHackersNews/status/2099529334784721037",
-      "image_url": "https://pbs.twimg.com/media/HSMGzEnagAEAnau.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T16:02:55",
-      "first_seen_at": "2026-09-14T17:18:18.984088",
-      "sub_category_label": "恶意软件与威胁检测"
-    },
-    {
-      "id": 4435,
-      "title": "使用 Codex 进行二进制 Fuzzing 与逆向：AI 辅助 0day 挖掘实战",
-      "original_title": "Codex on a binary target tonight.  fuzzing + harness + AI in the loop. not vibes. actual crash triage and RE on the target.  hunting 0days the slow way with a fast model.  #AIRedTe",
-      "summary": "推文记录了利用 OpenAI Codex 模型结合 Fuzzing、Harness 编写与逆向工程，在实际二进制目标上进行 crash 分类和 0day 挖掘的过程。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 70.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了大模型在二进制安全中的真实落地场景。安全研究员可参考此 AI-in-the-loop 工作流，将大模型用于自动化 harness 生成和 crash triage，提升挖洞效率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/_MrNiko/status/2099545704700269004",
-      "reader_url": "https://x.com/_MrNiko/status/2099545704700269004",
-      "image_url": "https://pbs.twimg.com/media/HSMVrZYawAA-R6P.png",
-      "author": {
-        "username": "_MrNiko",
-        "name": "Mr.Niko",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T17:07:58",
-      "first_seen_at": "2026-09-14T17:16:00.239816",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 4429,
-      "title": "TRC 分析：AI 攻击者数小时内逆向微软补丁生成漏洞利用",
-      "original_title": "TRC analysis shows AI-powered attackers are reverse-engineering exploits from Microsoft's record 972 vulnerability patch within hours of release. The compressed patching window cre",
-      "summary": "TRC 分析指出，AI 驱动的攻击者能在微软补丁发布数小时内逆向生成 exploit，大幅压缩防御窗口，对未分段网络构成横向移动风险。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.15,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需警惕，AI 正大幅缩短从补丁发布到武器化利用的时间差。传统补丁周期已不够用，应优先修补高危漏洞并加强网络分段。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2099527986177356076",
-      "reader_url": "https://x.com/aviatrixtrc/status/2099527986177356076",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T15:57:33",
-      "first_seen_at": "2026-09-14T16:47:18.398660",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
