@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T02:40:25+08:00",
+  "updated_at": "2026-09-16T03:10:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -141,6 +141,30 @@
       "sub_category_label": null
     },
     {
+      "id": 5130,
+      "title": "Trail of Bits 批驳 1Password 报告：AI 安全修复评测存在缺陷",
+      "original_title": "RT @trailofbits: .@1Password's FLAWED report says AI models produce a clean security fix only 26% of the time.  Defenders shouldn't take th…",
+      "summary": "Trail of Bits 指出 1Password 的 FLAWED 报告在评估 AI 模型安全修复能力时方法存在缺陷，提醒防御者不应盲目采信仅 26% 修复率的结论。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 71.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "评估 AI 修复漏洞能力的报告层出不穷，但评测方法论未必靠谱。安全团队在引入 AI 辅助修复工具时，应审慎对待厂商评测，重点关注测试集和评估标准是否贴合实际安全场景。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/disconnect3d_pl/status/2099875031367012406",
+      "reader_url": "https://x.com/disconnect3d_pl/status/2099875031367012406",
+      "image_url": null,
+      "author": {
+        "username": "disconnect3d_pl",
+        "name": "Disconnect3d",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-15T14:56:35",
+      "first_seen_at": "2026-09-15T18:49:52.209149",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 5001,
       "title": "AI Web3 安全实战系列开篇：从零构建安全 Agent",
       "original_title": "Kicking off a hands-on series: AI for Web3 Security, Zero to Hero.    Meant to be your starting point: build a real AI security agent, module by module, until you have a full harne",
@@ -210,30 +234,6 @@
       },
       "published_at": "2026-09-15T17:02:26",
       "first_seen_at": "2026-09-15T17:06:41.897603",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 5114,
-      "title": "AI 安全 Agent 构建系列教程发布",
-      "original_title": "Huge alpha on building your own AI Security agent, useful for both devs and security researchers  Thanks to @asen_sec - one of the best AI security harness builders, make sure you ",
-      "summary": "推荐 @asen_sec 撰写的 AI 安全 Agent 构建系列博客，面向开发者和安全研究人员，本文为系列第一部分。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全从业者想自建 AI 安全 Agent 而非依赖现成产品，这个系列值得跟。作者是实战派 harness 构建者，内容偏落地思路，适合想动手做 Agent 的人。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pashov/status/2099920709506199844",
-      "reader_url": "https://x.com/pashov/status/2099920709506199844",
-      "image_url": null,
-      "author": {
-        "username": "pashov",
-        "name": "pashov",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-15T17:58:06",
-      "first_seen_at": "2026-09-15T18:17:15.639938",
       "sub_category_label": "安全Agent"
     }
   ]
