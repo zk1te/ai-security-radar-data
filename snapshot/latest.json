@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T06:42:06+08:00",
+  "updated_at": "2026-09-16T07:12:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -145,6 +145,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 5197,
+      "title": "AI 辅助 Fuzzing 与代码加固重塑 C 语言遗留系统安全",
+      "original_title": "11/ This isn't theory. It's already happening.  DARPA's \"Hardening Legacy C Systems\" program is using AI to retrofit memory safety onto existing C codebases — billions of lines of ",
+      "summary": "推文指出 AI 辅助 Fuzzing 正在发现人工审查遗漏的 C 代码漏洞，DARPA 与微软等正利用 AI 加固遗留 C 代码并制定相应安全规范。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 71.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这不仅是 AI Fuzzing 发挥作用的证明，更提示了 AI 在遗留系统内存安全加固上的落地机会。做代码审计和漏洞挖掘的团队应密切关注相关工具链和 MISRA C:2025 的新规范，尽早将 AI 融入安全流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/details_with_ai/status/2099996077323886889",
+      "reader_url": "https://x.com/details_with_ai/status/2099996077323886889",
+      "image_url": null,
+      "author": {
+        "username": "details_with_ai",
+        "name": "Rasel Hosen",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-15T22:57:35",
+      "first_seen_at": "2026-09-15T23:09:44.977544",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 5130,
       "title": "Trail of Bits 批驳 1Password 报告：AI 安全修复评测存在缺陷",
       "original_title": "RT @trailofbits: .@1Password's FLAWED report says AI models produce a clean security fix only 26% of the time.  Defenders shouldn't take th…",
@@ -215,30 +239,6 @@
       "published_at": "2026-09-15T13:59:32",
       "first_seen_at": "2026-09-15T14:12:40.587313",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 5077,
-      "title": "防御型产品安全助手：自动化基线检查与加固指南",
-      "original_title": "Defensive product-security assistant. When fully active it runs authorized smoke checks (HTTPS/HSTS, security headers, public secret leaks, cookies, mixed content, forms), then dee",
-      "summary": "该 Agent 授权后可执行安全冒烟检查（如HTTPS/HSTS、密钥泄露等）并提供带有修复建议的明文检查结果，明确不执行攻击性测试或模糊测试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "它清晰地定义了 AI 安全 Agent 的工作边界：专做被动基线扫描，绝不碰主动渗透。安全团队可直接借鉴其 Prompt 约束与工作流设计，快速落地产品线的基础合规与自检任务。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Rynok90/status/2099906700665033127",
-      "reader_url": "https://x.com/Rynok90/status/2099906700665033127",
-      "image_url": null,
-      "author": {
-        "username": "Rynok90",
-        "name": "Manuel Mercado",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-15T17:02:26",
-      "first_seen_at": "2026-09-15T17:06:41.897603",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
