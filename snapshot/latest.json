@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T08:37:30+08:00",
+  "updated_at": "2026-09-15T09:07:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,30 +43,6 @@
       "published_at": "2026-09-15T00:23:06.661113",
       "first_seen_at": "2026-09-15T00:25:42.801167",
       "sub_category_label": null
-    },
-    {
-      "id": 4334,
-      "title": "AWS 发布 AI 安全基准测试，衡量各模型发现漏洞的误报率",
-      "original_title": "AIが脆弱性などを見つける際の誤検出の割合について各モデルごとに測定したベンチマークをAWSが初公開。  The state of AI for security: Measuring what matters most for building trust | AWS Security Blog https://t.co/u494CiN166",
-      "summary": "AWS 安全博客首次公开衡量 AI 在发现漏洞等安全任务中误报比例的基准测试，探讨构建 AI 安全信任的关键因素。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 77.35,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者必看，直接提供了各模型在漏洞挖掘场景下的误报率横评数据，有助于在选型和安全流程设计时设定合理预期，避免盲目信任。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/autumn_good_35/status/2099481087596712438",
-      "reader_url": "https://x.com/autumn_good_35/status/2099481087596712438",
-      "image_url": null,
-      "author": {
-        "username": "autumn_good_35",
-        "name": "Autumn Good",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T12:51:12",
-      "first_seen_at": "2026-09-14T12:54:09.023317",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 4558,
@@ -235,6 +211,30 @@
       "published_at": "2026-09-14T17:07:58",
       "first_seen_at": "2026-09-14T17:16:00.239816",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 4429,
+      "title": "TRC 分析：AI 攻击者数小时内逆向微软补丁生成漏洞利用",
+      "original_title": "TRC analysis shows AI-powered attackers are reverse-engineering exploits from Microsoft's record 972 vulnerability patch within hours of release. The compressed patching window cre",
+      "summary": "TRC 分析指出，AI 驱动的攻击者能在微软补丁发布数小时内逆向生成 exploit，大幅压缩防御窗口，对未分段网络构成横向移动风险。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.15,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需警惕，AI 正大幅缩短从补丁发布到武器化利用的时间差。传统补丁周期已不够用，应优先修补高危漏洞并加强网络分段。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2099527986177356076",
+      "reader_url": "https://x.com/aviatrixtrc/status/2099527986177356076",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-14T15:57:33",
+      "first_seen_at": "2026-09-14T16:47:18.398660",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
