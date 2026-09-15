@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-16T07:12:10+08:00",
+  "updated_at": "2026-09-16T07:42:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 4973,
-      "title": "为 Agent 设计的极速 Android 反编译前端 ASC",
-      "original_title": "GitHub Trending: MG1937/ASC gained 122 stars today",
-      "summary": "ASC 是一款专为智能体和移动安全研究员设计的超快 Android 反编译器前端，目前在 GitHub 趋势榜上受到关注。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 81.65,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全自动化正深入反编译等底层场景，移动安全及自动化逆向团队应关注其与 Agent 的集成方式，探索自动化逆向分析的新路径。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/MG1937/ASC?github_trending_date=2026-09-15&since=daily",
-      "reader_url": "https://github.com/MG1937/ASC?github_trending_date=2026-09-15&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-15T11:34:06.880142",
-      "first_seen_at": "2026-09-15T11:35:10.739116",
-      "sub_category_label": "二进制安全"
-    },
     {
       "id": 5194,
       "title": "AI Agent 的能力路径发现：从不可信输入追踪至代码执行",
@@ -95,6 +75,30 @@
       "published_at": "2026-09-15T11:44:26",
       "first_seen_at": "2026-09-15T14:13:33.172281",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 5201,
+      "title": "AWS 评测 12 个 AI 模型：漏洞检测误报与漏报难兼顾",
+      "original_title": "AIの脆弱性検出、見つける数だけでなく誤検知の少なさも大事。AWSが12モデルを評価したところ、誤検知・見逃しを両方10%未満にできた構成はなし。AIレビューを入れるなら、ここはちゃんと見たい。  https://t.co/PVzPi51Cws",
+      "summary": "AWS 对 12 个 AI 模型的漏洞检测能力进行评估，发现没有任何配置能同时将误报和漏报率降至 10% 以下，引入 AI 代码审计需谨慎对待准确率问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 76.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "打算用 AI 做代码审计的安全团队必看。数据直接戳破了AI找洞又快又准的滤镜，选模型时必须盯紧误报率，否则会被噪音淹没。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/kzhkymst/status/2100005736814391366",
+      "reader_url": "https://x.com/kzhkymst/status/2100005736814391366",
+      "image_url": null,
+      "author": {
+        "username": "kzhkymst",
+        "name": "Kazuhiko Yamashita | PM",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-15T23:35:58",
+      "first_seen_at": "2026-09-15T23:40:52.826265",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 4984,
