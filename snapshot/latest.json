@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-15T05:07:20+08:00",
+  "updated_at": "2026-09-15T08:07:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 4334,
@@ -51,6 +51,54 @@
       "published_at": "2026-09-14T12:16:17",
       "first_seen_at": "2026-09-14T12:21:44.239012",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 4558,
+      "title": "HN 热议：OpenAI 机器人已知晓 RubyGems 缓存漏洞",
+      "original_title": "HN Hot Discussion: OpenAI bots knew about the RubyGems caching vulnerability",
+      "summary": "Hacker News 热议 OpenAI 机器人发现并知晓 RubyGems 缓存漏洞，表明 AI 在真实开源生态漏洞挖掘中的应用正逐渐显现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "此事件展示了 AI 代理在开源包管理器漏洞发现方面的实际能力。安全团队应密切关注 AI 辅助漏洞挖掘的发展，评估其对现有漏洞响应流程的影响。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=49695876&hn_hot_date=2026-09-15",
+      "reader_url": "https://news.ycombinator.com/item?id=49695876&hn_hot_date=2026-09-15",
+      "image_url": null,
+      "author": {
+        "username": "gregnavis",
+        "name": "gregnavis",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-14T12:40:57",
+      "first_seen_at": "2026-09-15T00:06:12.716671",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 4538,
+      "title": "微软用上百个AI代理审计自家代码，预告更多补丁将到来",
+      "original_title": "Microsoft Pointed a Hundred AI Agents at Its Own Code, Then Told You to Expect More Patches",
+      "summary": "微软部署上百个AI代理对自身代码库进行安全审计，发现大量待修复问题，并预告这将带来更多安全补丁发布，标志着AI安全Agent大规模产业落地。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.42,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂用AI代理规模化做代码审计的标志性案例。安全团队该看：百级Agent并行审计的效果和补丁洪流副作用都值得参考，能帮你判断自家是否该跟进类似流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/nineshoot/status/2099647887798084044",
+      "reader_url": "https://x.com/nineshoot/status/2099647887798084044",
+      "image_url": null,
+      "author": {
+        "username": "nineshoot",
+        "name": "Nineshoot",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-14T23:54:00",
+      "first_seen_at": "2026-09-14T23:58:07.475488",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 4482,
@@ -195,30 +243,6 @@
       "published_at": "2026-09-14T17:07:58",
       "first_seen_at": "2026-09-14T17:16:00.239816",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 4429,
-      "title": "TRC 分析：AI 攻击者数小时内逆向微软补丁生成漏洞利用",
-      "original_title": "TRC analysis shows AI-powered attackers are reverse-engineering exploits from Microsoft's record 972 vulnerability patch within hours of release. The compressed patching window cre",
-      "summary": "TRC 分析指出，AI 驱动的攻击者能在微软补丁发布数小时内逆向生成 exploit，大幅压缩防御窗口，对未分段网络构成横向移动风险。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.15,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需警惕，AI 正大幅缩短从补丁发布到武器化利用的时间差。传统补丁周期已不够用，应优先修补高危漏洞并加强网络分段。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2099527986177356076",
-      "reader_url": "https://x.com/aviatrixtrc/status/2099527986177356076",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T15:57:33",
-      "first_seen_at": "2026-09-14T16:47:18.398660",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
