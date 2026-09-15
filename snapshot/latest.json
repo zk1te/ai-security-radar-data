@@ -1,9 +1,49 @@
 {
-  "updated_at": "2026-09-15T08:07:26+08:00",
+  "updated_at": "2026-09-15T08:37:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 4578,
+      "title": "Claude-Red 聚焦用 Claude Skills 构建红队攻击技能库",
+      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 579 stars today",
+      "summary": "Claude-Red 是一个为 Claude skills 系统设计的攻击性安全技能库，通过结构化的 SKILL.md 文件为 Claude 注入 SQLi、Shellcode、EDR 规避、漏洞利用等专家级方法论，日增 579 星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.42,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试人员值得立刻看，它展示了如何利用大模型 Agent 的 Skills 机制将零散攻击知识结构化并注入 AI。可直接拉取仓库测试 Claude 在实际攻击面下的能力边界与可用性。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-15&since=daily",
+      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-15&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-15T00:23:07.318011",
+      "first_seen_at": "2026-09-15T00:25:05.163578",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 4586,
+      "title": "阿里开源混合架构代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 1571 stars today",
+      "summary": "阿里巴巴开源的代码审查工具结合确定性管道与 LLM Agent，提供精准行级评论，内置 XSS、SQL注入等安全规则集，兼容 OpenAI 与 Anthropic 模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_auditing",
+      "score_total": 79.94,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可直接将其集成进 CI/CD 流程，利用混合架构兼顾规则检测的确定性与 LLM 理解复杂逻辑的能力，低成本提升代码安全审计效率。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-15&since=daily",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-15&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-15T00:23:06.661113",
+      "first_seen_at": "2026-09-15T00:25:42.801167",
+      "sub_category_label": null
+    },
     {
       "id": 4334,
       "title": "AWS 发布 AI 安全基准测试，衡量各模型发现漏洞的误报率",
@@ -26,30 +66,6 @@
       },
       "published_at": "2026-09-14T12:51:12",
       "first_seen_at": "2026-09-14T12:54:09.023317",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 4323,
-      "title": "Feyospace-v1 以数据驱动后训练框架显著提升开源网络安全模型能力",
-      "original_title": "Feyospace-v1: the Cyber Mercury Seven trained frontier cyber models  A data-centric post-training framework turns expert interventions into 164,269 verified trajectories, boosting ",
-      "summary": "Feyospace-v1 通过将专家干预转化为 16.4 万条已验证轨迹进行后训练，使开源模型在 CyberGym 上提升 23.76%、在 CTF 套件上提升 10.49%，展示了数据中心的网络安全模型训练方法论。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 76.38,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全Agent团队该看：它证明了「专家轨迹数据」比单纯堆模型参数更能提升安全任务表现。如果你在做安全评测或训练安全Agent，这套从专家干预中提取已验证轨迹的思路可以直接借鉴，尤其是CTF和攻防场景的数据构造方式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2099472299988828580",
-      "reader_url": "https://x.com/HuggingPapers/status/2099472299988828580",
-      "image_url": "https://pbs.twimg.com/media/HSLS7jmb0AA5KMw.jpg",
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T12:16:17",
-      "first_seen_at": "2026-09-14T12:21:44.239012",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
@@ -122,30 +138,6 @@
       },
       "published_at": "2026-09-14T19:35:24",
       "first_seen_at": "2026-09-14T20:02:15.936883",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 4322,
-      "title": "Feyospace-s1 在 CyberGym 榜单开源模型中登顶",
-      "original_title": "Paper: https://t.co/NfNHXcc2UC  Project: https://t.co/S0uDJ9bGTr  Feyospace-s1 hits 63.24% verified success on CyberGym, ranking 10th overall and 1st among open models at comparabl",
-      "summary": "Feyospace-s1 在 CyberGym 安全评测中取得 63.24% 验证成功率，总榜排名第十，并在同等规模开源模型中位列第一。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 73.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "关注开源模型在 CyberGym 刷榜的最新动态，可评估当前开源安全智能体能力上限，为安全自动化工具选型提供数据参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2099472309778301095",
-      "reader_url": "https://x.com/HuggingPapers/status/2099472309778301095",
-      "image_url": null,
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-14T12:16:19",
-      "first_seen_at": "2026-09-14T12:21:42.426050",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
