@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T01:37:23+08:00",
+  "updated_at": "2026-09-16T02:08:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -62,26 +62,6 @@
       "author": null,
       "published_at": "2026-09-15T04:00:00",
       "first_seen_at": "2026-09-15T06:21:06.906375",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 4781,
-      "title": "三轴压力测试：LLM与经典ML在入侵检测中的鲁棒性对比",
-      "original_title": "A Three-Axis Stress Test of LLM vs Classical ML for Network Intrusion Detection under Distribution Shift and Adversarial Evasion",
-      "summary": "通过在多维度下对比XGBoost与RoBERTa-LoRA在网络入侵检测中的表现，发现两者在不同场景下各有利弊，强调仅凭同数据集准确率不足以评估模型安全实战能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 81.98,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "搞NIDS检测的兄弟要看：别只看同数据集准确率了！实测证明大模型虽抗对抗逃避稍好，但换网络环境误报率就崩盘。评估AI安全模型必须多维交叉，避坑必读。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.13511",
-      "reader_url": "https://arxiv.org/pdf/2609.13511",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-15T04:00:00",
-      "first_seen_at": "2026-09-15T05:49:19.889491",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
@@ -186,6 +166,30 @@
       },
       "published_at": "2026-09-15T13:00:34",
       "first_seen_at": "2026-09-15T13:05:08.486570",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 5020,
+      "title": "OpenAEV推出攻击链功能：基于实时发现动态调整测试路径",
+      "original_title": "One attack step can now decide what gets tested next.  OpenAEV’s Attack Chaining feeds live findings like credentials, tokens, and open ports into the next stage, while XTM One can",
+      "summary": "OpenAEV的攻击链功能可将前一步获取的凭证、令牌和开放端口等结果输入下一阶段，由XTM One在限定范围内规划并自适应攻击路径。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.1,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "渗透测试和红队自动化从业者必看。动态攻击链是安全Agent走向实战的核心能力，可评估OpenAEV与XTM One能否替代部分人工测试规划。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2099826674196189277",
+      "reader_url": "https://x.com/TheHackersNews/status/2099826674196189277",
+      "image_url": "https://pbs.twimg.com/media/HSQVOj4agAA4mN3.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-15T11:44:26",
+      "first_seen_at": "2026-09-15T14:13:33.172281",
       "sub_category_label": "安全Agent"
     }
   ]
