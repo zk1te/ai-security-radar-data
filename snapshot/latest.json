@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T20:34:10+08:00",
+  "updated_at": "2026-09-15T22:04:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -165,24 +165,24 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 4609,
-      "title": "UK AISI 评测 GPT-5.5：AI 自动化网络攻击能力持续跃升",
-      "original_title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities | AISI Work",
-      "summary": "UK AISI 对 GPT-5.5 进行网络安全能力评测，发现其在高级 CTF 任务和企业内网攻击模拟靶场中表现显著提升，成为第二个能端到端完成 32 步企业网络攻击链的模型，表明 AI 自动化攻击能力正作为通用能力提升的副产品而快速增长。",
+      "id": 4880,
+      "title": "SENTINEL：基于多通路架构的Windows LOTL攻击检测",
+      "original_title": "SENTINEL: A Multi-Pathway Architecture for Detecting Living-Off-the-Land APT Attacks on Windows Command Lines",
+      "summary": "提出集成BERT、字符级CNN和注意力机制的SENTINEL架构，用于检测Volt Typhoon等APT组织使用的LOTL攻击，在混淆命令和多阶段攻击检测上显著优于单一模型，并构建了平衡的对抗测试基准。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 81.6,
+      "sub_category": "malware_detection",
+      "score_total": 80.83,
       "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和攻防从业者需密切关注。GPT-5.5 在 AISI 的 TLO 靶场中自主完成了 32 步企业网攻击链，说明大模型在长周期渗透测试中的能力已突破临界点，防御方需加速引入 AI 进行安全评测和红蓝对抗演练。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
-      "reader_url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
+      "item_type": "paper",
+      "recommendation_reason": "蓝队和威胁狩猎人员必看。SENTINEL针对Volt Typhoon等LOTL攻击，融合多模型检测混淆命令，并揭示了传统模型在平衡对抗集上召回率骤降的隐患，为构建鲁棒命令行检测系统提供直接参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.14593",
+      "reader_url": "https://arxiv.org/pdf/2609.14593",
       "image_url": null,
       "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-15T02:02:56.058284",
-      "sub_category_label": "安全评测与Benchmark"
+      "published_at": "2026-09-15T04:00:00",
+      "first_seen_at": "2026-09-15T06:18:15.066186",
+      "sub_category_label": "恶意软件与威胁检测"
     }
   ]
 }
