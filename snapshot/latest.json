@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T13:32:19+08:00",
+  "updated_at": "2026-09-15T14:02:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -85,6 +85,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 4781,
+      "title": "三轴压力测试：LLM与经典ML在入侵检测中的鲁棒性对比",
+      "original_title": "A Three-Axis Stress Test of LLM vs Classical ML for Network Intrusion Detection under Distribution Shift and Adversarial Evasion",
+      "summary": "通过在多维度下对比XGBoost与RoBERTa-LoRA在网络入侵检测中的表现，发现两者在不同场景下各有利弊，强调仅凭同数据集准确率不足以评估模型安全实战能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 81.98,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "搞NIDS检测的兄弟要看：别只看同数据集准确率了！实测证明大模型虽抗对抗逃避稍好，但换网络环境误报率就崩盘。评估AI安全模型必须多维交叉，避坑必读。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.13511",
+      "reader_url": "https://arxiv.org/pdf/2609.13511",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-15T04:00:00",
+      "first_seen_at": "2026-09-15T05:49:19.889491",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 4609,
       "title": "UK AISI 评测 GPT-5.5：AI 自动化网络攻击能力持续跃升",
       "original_title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities | AISI Work",
@@ -122,6 +142,26 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-09-15T02:02:57.209033",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 4748,
+      "title": "评估 LLM 的网络协议状态机推理能力",
+      "original_title": "RFCLLM: Evaluating LLMs' Reasoning Ability of Network Protocol State Machines",
+      "summary": "本文通过设计针对 16 种协议的 1482 个查询任务，评估了 LLM 在网络协议有限状态机（FSM）推理中的准确性与可靠性，揭示了其在安全测试场景下的局限性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 79.98,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做协议 Fuzzing 或网络安全的从业者该看，论文直接测了 LLM 解析协议状态机的准确度。别盲信大模型生成的协议模型，先看看这篇里踩了哪些坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.13389",
+      "reader_url": "https://arxiv.org/pdf/2609.13389",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-15T04:00:00",
+      "first_seen_at": "2026-09-15T05:34:48.762183",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
@@ -163,46 +203,6 @@
       "published_at": "2026-09-15T04:00:00",
       "first_seen_at": "2026-09-15T05:16:42.351976",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 4607,
-      "title": "UK AISI 评测 Kimi K3 网络安全能力：攻击链表现优于同类开源模型",
-      "original_title": "UK AISI / CAISI Preliminary Assessment of Kimi K3's Cyber Capabilities | AISI Work",
-      "summary": "UK AISI 与 CAISI 联合评测 Moonshot AI 的 Kimi K3 模型，发现其在 ExploitBench 漏洞利用和 TLO 模拟攻击链中表现优于 GLM-5.2，但显著弱于美国前沿闭源模型，且安全护栏未有效拦截其攻击行为。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 79.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需关注开源模型在自动化攻击和漏洞利用上的能力边界。Kimi K3 虽未实现任意代码执行，但已能自主完成部分端到端攻击链，可作为评估内部防御体系对抗 AI Agent 攻击的参考基准。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities",
-      "reader_url": "https://www.aisi.gov.uk/blog/preliminary-assessment-of-kimi-k3s-cyber-capabilities",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-15T02:02:17.279694",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 4671,
-      "title": "爱立信基于多智能体的上下文感知代码审查实践",
-      "original_title": "Using Agentic AI for contextualized and multifaceted code review at Ericsson",
-      "summary": "该研究提出一种结合特定上下文知识的多智能体代码审查方案，在爱立信工业环境中实现了 96% 的问题识别准确率，有效提升代码质量与可靠性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.78,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做代码审计和 SDL 的同学可以看，这篇验证了多 Agent 结合项目上下文在工业级代码审查中的有效性，能直接指导内部安全编码助手的落地，别只盯着单纯漏扫。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.15877",
-      "reader_url": "https://arxiv.org/pdf/2609.15877",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-15T04:00:00",
-      "first_seen_at": "2026-09-15T05:14:19.367573",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
