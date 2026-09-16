@@ -1,49 +1,9 @@
 {
-  "updated_at": "2026-09-17T06:23:00+08:00",
+  "updated_at": "2026-09-17T07:54:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 5659,
-      "title": "Cloudflare 开源安全审计 Agent 技能，日增千星",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 1434 stars today",
-      "summary": "Cloudflare 发布了名为 security-audit-skill 的 coding-agent 技能，支持多阶段安全审计并输出独立验证、机器可读的结果，该项目在 GitHub 上日增 1434 星。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 83.46,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是可直接落地的 AI 安全审计组件，安全团队应立即关注其多阶段审计与可验证输出设计，评估是否可集成进现有代码审计流水线。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-16&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-16&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-16T11:36:03.322138",
-      "first_seen_at": "2026-09-16T11:38:16.608009",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 5653,
-      "title": "Claude-Red 开源攻击安全技能库冲上 GitHub Trending",
-      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 699 stars today",
-      "summary": "SnailSploit 的 Claude-Red 项目为 Claude skills 系统整理了涵盖 SQLi、EDR 绕过与漏洞利用开发的攻击安全技能库，单日获星近 700。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 80.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "给红队和渗透测试 Agent 开发者看：该项目把 Claude 的 Skills 系统武装成攻击助手，直接提供 SQLi 和 EDR 绕过等专家级 SKILL.md，能直接抄作业并集成进你的安全工作流。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-16&since=daily",
-      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-16&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-16T11:36:04.013401",
-      "first_seen_at": "2026-09-16T11:37:30.811328",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 5666,
       "title": "ModularRSI：模块化与可泛化的 Agent Harness 自我改进框架",
@@ -207,6 +167,54 @@
       "published_at": "2026-09-16T16:47:34",
       "first_seen_at": "2026-09-16T16:50:13.448180",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 5784,
+      "title": "推文分享 Anthropic 最新网络安全报告",
+      "original_title": "RT @endingwithali: About @AnthropicAI's latest cybersecurity report https://t.co/2THVE1kbSQ",
+      "summary": "@endingwithali 转发并分享了关于 Anthropic 最新网络安全报告的链接。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 67.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic 的网络安全报告通常涉及 AI 在攻防两端的能力评估，对关注 AI 辅助安全工作的人员有重要参考价值，建议查看原文获取细节。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2100243773049446854",
+      "reader_url": "https://x.com/HackingLZ/status/2100243773049446854",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2100237093662265344/img/_9P1Yly0-e-R37mH.jpg",
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-16T15:21:50",
+      "first_seen_at": "2026-09-16T16:54:13.307483",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 5734,
+      "title": "DeepSeek v4.1 被评为最佳黑客模型引发热议",
+      "original_title": "HN Hot Discussion: DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
+      "summary": "Hacker News 热议 enclave.ai 的博客文章，指出 DeepSeek v4.1 Flash 在安全与黑客任务中表现卓越，成为目前最佳的安全模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 67.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注 DeepSeek 等开源大模型在攻击侧的能力跃升，评估其能否直接赋能日常渗透测试或红队工作，及时更新工具链中的模型选型。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49725800&hn_hot_date=2026-09-16",
+      "reader_url": "https://news.ycombinator.com/item?id=49725800&hn_hot_date=2026-09-16",
+      "image_url": null,
+      "author": {
+        "username": "talhof8",
+        "name": "talhof8",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-16T12:19:55",
+      "first_seen_at": "2026-09-16T14:45:53.867082",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
