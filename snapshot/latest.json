@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-17T03:49:53+08:00",
+  "updated_at": "2026-09-17T04:19:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 5659,
@@ -207,6 +207,30 @@
       "published_at": "2026-09-16T19:15:05",
       "first_seen_at": "2026-09-16T19:34:07.299995",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 5767,
+      "title": "Apex 在形式化验证编译器 CompCert 中发现新漏洞",
+      "original_title": "In 2011, researchers spent six CPU years stress testing CompCert and found zero bugs in its formally verified core. CompCert later added new x86-64 code.  15 years after, Apex foun",
+      "summary": "Apex 工具在 CompCert 新增的 x86-64 代码中发现因寄存器残留数据导致的漏洞，证明即使经过形式化验证和长期模糊测试，新代码仍需持续测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 69.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对于 Fuzzing 和漏洞挖掘从业者，这展示了持续测试在真实开源项目中的落地价值，即使是经过形式化验证的核心也需要持续挑战新代码。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/cantinasecurity/status/2100265347865805124",
+      "reader_url": "https://x.com/cantinasecurity/status/2100265347865805124",
+      "image_url": "https://pbs.twimg.com/media/HSWkNCpbQAA3ssb.png",
+      "author": {
+        "username": "cantinasecurity",
+        "name": "Cantina 🪐",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-16T16:47:34",
+      "first_seen_at": "2026-09-16T16:50:13.448180",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
