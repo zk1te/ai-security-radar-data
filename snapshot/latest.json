@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-16T09:12:23+08:00",
+  "updated_at": "2026-09-16T10:42:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 5220,
@@ -67,30 +67,6 @@
       "published_at": "2026-09-15T22:32:39",
       "first_seen_at": "2026-09-15T22:37:58.272542",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 5020,
-      "title": "OpenAEV推出攻击链功能：基于实时发现动态调整测试路径",
-      "original_title": "One attack step can now decide what gets tested next.  OpenAEV’s Attack Chaining feeds live findings like credentials, tokens, and open ports into the next stage, while XTM One can",
-      "summary": "OpenAEV的攻击链功能可将前一步获取的凭证、令牌和开放端口等结果输入下一阶段，由XTM One在限定范围内规划并自适应攻击路径。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.1,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试和红队自动化从业者必看。动态攻击链是安全Agent走向实战的核心能力，可评估OpenAEV与XTM One能否替代部分人工测试规划。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2099826674196189277",
-      "reader_url": "https://x.com/TheHackersNews/status/2099826674196189277",
-      "image_url": "https://pbs.twimg.com/media/HSQVOj4agAA4mN3.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-15T11:44:26",
-      "first_seen_at": "2026-09-15T14:13:33.172281",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 5201,
@@ -189,30 +165,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 5015,
-      "title": "安全Agent Benchmark 应公开完整任务协议而非单一修复率",
-      "original_title": "@trailofbits @1Password Security-agent benchmarks should publish the full task protocol: bug selection, prompt constraints, build access, grading rubric, and failure taxonomy. A si",
-      "summary": "推文指出当前安全Agent评测仅公布一个「clean-fix 百分比」远远不够，应完整披露漏洞选取标准、Prompt 约束、构建访问权限、评分规则和失败分类法，否则评测结果缺乏可解读性和可比性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 70.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全Agent评测或选型的人必看：没有失败分类和评分细节的榜单数字几乎无法横向比较，团队在采纳榜单结论前应先审查其任务协议透明度，否则容易被单一指标误导。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/liuzhao_666/status/2099860670867279970",
-      "reader_url": "https://x.com/liuzhao_666/status/2099860670867279970",
-      "image_url": null,
-      "author": {
-        "username": "liuzhao_666",
-        "name": "刘朝 Zhao Liu",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-15T13:59:32",
-      "first_seen_at": "2026-09-15T14:12:40.587313",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 5077,
       "title": "防御型产品安全助手：自动化基线检查与加固指南",
       "original_title": "Defensive product-security assistant. When fully active it runs authorized smoke checks (HTTPS/HSTS, security headers, public secret leaks, cookies, mixed content, forms), then dee",
@@ -234,6 +186,30 @@
       },
       "published_at": "2026-09-15T17:02:26",
       "first_seen_at": "2026-09-15T17:06:41.897603",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 5114,
+      "title": "AI 安全 Agent 构建系列教程发布",
+      "original_title": "Huge alpha on building your own AI Security agent, useful for both devs and security researchers  Thanks to @asen_sec - one of the best AI security harness builders, make sure you ",
+      "summary": "推荐 @asen_sec 撰写的 AI 安全 Agent 构建系列博客，面向开发者和安全研究人员，本文为系列第一部分。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全从业者想自建 AI 安全 Agent 而非依赖现成产品，这个系列值得跟。作者是实战派 harness 构建者，内容偏落地思路，适合想动手做 Agent 的人。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pashov/status/2099920709506199844",
+      "reader_url": "https://x.com/pashov/status/2099920709506199844",
+      "image_url": null,
+      "author": {
+        "username": "pashov",
+        "name": "pashov",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-15T17:58:06",
+      "first_seen_at": "2026-09-15T18:17:15.639938",
       "sub_category_label": "安全Agent"
     }
   ]
