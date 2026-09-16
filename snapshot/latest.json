@@ -1,9 +1,49 @@
 {
-  "updated_at": "2026-09-16T07:42:14+08:00",
+  "updated_at": "2026-09-16T08:12:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 5220,
+      "title": "阿里开源 open-code-review：LLM与确定性规则结合的代码审查工具",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 2756 stars today",
+      "summary": "阿里巴巴开源混合架构代码审查工具，结合确定性管线与 LLM Agent，内置 XSS、SQL 注入等多语言安全规则集，支持行级漏洞提示。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全开发团队可关注，该工具结合大模型与静态规则提升了代码审计效率，支持快速接入 OpenAI/Anthropic 模型实现自动化安全审查与漏洞拦截。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-16&since=daily",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-16&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-16T00:06:27.553328",
+      "first_seen_at": "2026-09-16T00:09:05.390267",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 5214,
+      "title": "专为 Agent 设计的 Android 反编译器前端 ASC 获关注",
+      "original_title": "GitHub Trending: MG1937/ASC gained 129 stars today",
+      "summary": "ASC 是一款面向移动安全研究员和智能体设计的超快 Android 反编译器前端，用 Python 编写，可直接集成到自动化逆向分析任务中。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 79.87,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "对做移动安全或构建自动化逆向 Agent 的团队来说，ASC 提供了一个直接可用的前端工具，值得接入测试其反编译速度与 Agent 集成效果。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/MG1937/ASC?github_trending_date=2026-09-16&since=daily",
+      "reader_url": "https://github.com/MG1937/ASC?github_trending_date=2026-09-16&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-16T00:06:28.073708",
+      "first_seen_at": "2026-09-16T00:07:57.047340",
+      "sub_category_label": "二进制安全"
+    },
     {
       "id": 5194,
       "title": "AI Agent 的能力路径发现：从不可信输入追踪至代码执行",
@@ -101,30 +141,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 4984,
-      "title": "AutoProver 自动生成不变量，桥接设计与 Fuzzing 工具",
-      "original_title": "The main challange in Fuzzing and FV is coming up with invariants.  AutoProver bridges the gap between high-level design properties and tools like Foundry, Crucible, and the Certor",
-      "summary": "AutoProver 解决 Fuzzing 和形式化验证中不变量难提出的问题，桥接高层设计属性与 Foundry、Certora Prover 等安全工具。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 73.8,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "智能合约安全从业者必看。自动化生成不变量是 Fuzzing 和形式化验证的核心痛点，该工具能直接集成进现有审计工作流，显著提升漏洞挖掘效率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SagivMooly/status/2099821075647389985",
-      "reader_url": "https://x.com/SagivMooly/status/2099821075647389985",
-      "image_url": null,
-      "author": {
-        "username": "SagivMooly",
-        "name": "Mooly Sagiv",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-15T11:22:11",
-      "first_seen_at": "2026-09-15T11:59:23.377625",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 5028,
       "title": "CyberKimi结合Hermes Agent实现无人值守漏洞挖掘与崩溃分诊",
       "original_title": "🐺 vuln research is evolving.  I just demonstrated a modern vulnerability-research workflow built on CyberKimi running inside Hermes Agent @NousResearch   From a WhatsApp message th",
@@ -219,30 +235,6 @@
       "published_at": "2026-09-15T12:53:20",
       "first_seen_at": "2026-09-15T13:06:15.955826",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 5015,
-      "title": "安全Agent Benchmark 应公开完整任务协议而非单一修复率",
-      "original_title": "@trailofbits @1Password Security-agent benchmarks should publish the full task protocol: bug selection, prompt constraints, build access, grading rubric, and failure taxonomy. A si",
-      "summary": "推文指出当前安全Agent评测仅公布一个「clean-fix 百分比」远远不够，应完整披露漏洞选取标准、Prompt 约束、构建访问权限、评分规则和失败分类法，否则评测结果缺乏可解读性和可比性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 70.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全Agent评测或选型的人必看：没有失败分类和评分细节的榜单数字几乎无法横向比较，团队在采纳榜单结论前应先审查其任务协议透明度，否则容易被单一指标误导。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/liuzhao_666/status/2099860670867279970",
-      "reader_url": "https://x.com/liuzhao_666/status/2099860670867279970",
-      "image_url": null,
-      "author": {
-        "username": "liuzhao_666",
-        "name": "刘朝 Zhao Liu",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-15T13:59:32",
-      "first_seen_at": "2026-09-15T14:12:40.587313",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
