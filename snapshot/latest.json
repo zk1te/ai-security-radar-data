@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T16:13:02+08:00",
+  "updated_at": "2026-09-16T19:43:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -125,6 +125,26 @@
       "sub_category_label": null
     },
     {
+      "id": 5659,
+      "title": "Cloudflare 开源安全审计 Agent 技能，日增千星",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 1434 stars today",
+      "summary": "Cloudflare 发布了名为 security-audit-skill 的 coding-agent 技能，支持多阶段安全审计并输出独立验证、机器可读的结果，该项目在 GitHub 上日增 1434 星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.46,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是可直接落地的 AI 安全审计组件，安全团队应立即关注其多阶段审计与可验证输出设计，评估是否可集成进现有代码审计流水线。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-16&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-16&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-16T11:36:03.322138",
+      "first_seen_at": "2026-09-16T11:38:16.608009",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 5575,
       "title": "RECAL：用于溯源入侵检测的关系平衡图学习",
       "original_title": "Not All Relations Are Equal: Relation-Balanced and Calibrated Graph Learning for Provenance-Based Intrusion Detection",
@@ -183,26 +203,6 @@
       "published_at": "2026-09-16T04:00:00",
       "first_seen_at": "2026-09-16T07:24:13.686704",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 5537,
-      "title": "基于语音表示学习模型的声学侧信道攻击影响分析",
-      "original_title": "Impact Analysis of Speech Representation Learning Models for Acoustic Side-Channel Attack",
-      "summary": "本文提出 KEYAC 数据集评估语音表示模型在键盘声学侧信道攻击（ASCA）中的表现，发现 Kolmogorov-Arnold Networks（KAN）在微调中克服了 VoIP 编解码器泛化难题并达到 SOTA。",
-      "primary_category": "AI for Sec",
-      "sub_category": "side_channel_attack",
-      "score_total": 82.43,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "展示了 AI 模型在物理侧信道攻击中的实战潜力。引入 KAN 解决跨编解码器泛化问题的思路值得红队和侧信道研究人员直接借鉴。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2606.21210",
-      "reader_url": "https://arxiv.org/pdf/2606.21210",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-16T04:00:00",
-      "first_seen_at": "2026-09-16T07:16:55.909618",
-      "sub_category_label": null
     }
   ]
 }
