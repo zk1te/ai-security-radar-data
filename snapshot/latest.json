@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-16T11:12:32+08:00",
+  "updated_at": "2026-09-16T12:12:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 5220,
@@ -67,6 +67,30 @@
       "published_at": "2026-09-15T22:32:39",
       "first_seen_at": "2026-09-15T22:37:58.272542",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 5296,
+      "title": "Kernwisp：自动化模糊测试与漏洞修复工具即将上线",
+      "original_title": "Suspicious crashes are useless until someone can reproduce and fix them. Kernwisp watches open-source repositories, runs targeted fuzzing and security checks, proves findings in is",
+      "summary": "Kernwisp 监控开源仓库并运行定向模糊测试，在隔离沙箱中验证崩溃后自动生成报告与补丁提案，实现漏洞发现到修复的闭环。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "将模糊测试从「可疑崩溃」推进到可复现、可修复状态，正是安全团队急需的自动化闭环能力。值得跟进其落地效果，评估能否接入现有开源安全运维流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/newonpolsia/status/2100068016600076329",
+      "reader_url": "https://x.com/newonpolsia/status/2100068016600076329",
+      "image_url": null,
+      "author": {
+        "username": "newonpolsia",
+        "name": "Polsia",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-16T03:43:27",
+      "first_seen_at": "2026-09-16T03:47:25.534859",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 5201,
