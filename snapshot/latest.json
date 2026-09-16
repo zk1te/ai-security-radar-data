@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T02:15:17+08:00",
+  "updated_at": "2026-09-17T02:45:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,26 +43,6 @@
       "published_at": "2026-09-16T04:00:00",
       "first_seen_at": "2026-09-16T07:42:29.879369",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 5378,
-      "title": "RiskChainBench：评测 AI Agent 恢复混淆消息与 Web 证据调查的 Benchmark",
-      "original_title": "RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation",
-      "summary": "RiskChainBench 发布，包含 3600 条混淆文本恢复数据和 600 个对应的本地 Web 环境，评测 VLM 驱动的 Web Agent 在恢复恶意消息、调查相关网站并生成证据报告的能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 86.27,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "直接针对反诈骗和恶意内容调查场景的安全评测基准，填补了端到端调查 Agent 的评测空白。做自动化威胁调查和安全 Agent 的团队可直接用其开源沙箱评测自身模型在复杂环境下的证据收集能力。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.16900",
-      "reader_url": "https://arxiv.org/pdf/2609.16900",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-16T04:00:00",
-      "first_seen_at": "2026-09-16T06:21:49.539715",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 5582,
@@ -202,6 +182,26 @@
       "author": null,
       "published_at": "2026-09-16T04:00:00",
       "first_seen_at": "2026-09-16T07:16:55.909618",
+      "sub_category_label": null
+    },
+    {
+      "id": 5528,
+      "title": "Columbus-1 利用元认知引导发现 BlueZ 漏洞",
+      "original_title": "Metacognitive Steering: Learning the Structure of Scientific Judgment",
+      "summary": "研究提出 Metacognitive Steering 方法，在推理时动态控制大模型的推理策略。该方法应用于 Columbus-1 自主研究系统，成功在 BlueZ 中发现8个可复现漏洞。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "vuln_discovery | llm_architecture",
+      "score_total": 81.43,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "面向自主漏洞挖掘系统开发者。该论文展示了通过干预模型内部计算层来优化推理策略，并在实际漏洞挖掘中验证了有效性。Columbus-1 的落地成果表明可控的大模型认知机制对提升自动化安全任务表现极具参考价值，值得深入研究其控制原理。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.16245",
+      "reader_url": "https://arxiv.org/pdf/2609.16245",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-16T04:00:00",
+      "first_seen_at": "2026-09-16T07:14:17.007524",
       "sub_category_label": null
     }
   ]
