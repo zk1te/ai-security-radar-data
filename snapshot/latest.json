@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T08:12:18+08:00",
+  "updated_at": "2026-09-16T09:12:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -67,30 +67,6 @@
       "published_at": "2026-09-15T22:32:39",
       "first_seen_at": "2026-09-15T22:37:58.272542",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 4997,
-      "title": "tandem：面向渗透测试的 AI Agent 群体工具",
-      "original_title": "🤖 tandem — AI Agent Swarm for Pentesting  A terminal interface for using a swarm of AI agents during penetration testing engagements.  📋 RoE.md support 🤖 Multiple AI agents 💻 Termi",
-      "summary": "tandem 是一款开源终端工具，利用多 AI Agent 协同辅助渗透测试，支持通过 RoE.md 定义交战规则，实现结构化的安全测试工作流。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.87,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试团队可直接试用这款多 Agent 协同工具，看看 AI 群体在实战中能否提升效率。关注其 RoE 约束机制如何控制 Agent 行为边界，这对自动化红队工具的设计有参考价值。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/chandrusecurity/status/2099845831205454040",
-      "reader_url": "https://x.com/chandrusecurity/status/2099845831205454040",
-      "image_url": "https://pbs.twimg.com/media/HSQmo-Za0AAnMd6.jpg",
-      "author": {
-        "username": "chandrusecurity",
-        "name": "Chandrasekar Rathinam",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-15T13:00:34",
-      "first_seen_at": "2026-09-15T13:05:08.486570",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 5020,
@@ -213,27 +189,51 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 5001,
-      "title": "AI Web3 安全实战系列开篇：从零构建安全 Agent",
-      "original_title": "Kicking off a hands-on series: AI for Web3 Security, Zero to Hero.    Meant to be your starting point: build a real AI security agent, module by module, until you have a full harne",
-      "summary": "该系列教程旨在从零开始，模块化地指导开发者构建用于 Web3 安全的 AI Agent，最终完成一个完整的安全测试 harness，首期模块已发布。",
+      "id": 5015,
+      "title": "安全Agent Benchmark 应公开完整任务协议而非单一修复率",
+      "original_title": "@trailofbits @1Password Security-agent benchmarks should publish the full task protocol: bug selection, prompt constraints, build access, grading rubric, and failure taxonomy. A si",
+      "summary": "推文指出当前安全Agent评测仅公布一个「clean-fix 百分比」远远不够，应完整披露漏洞选取标准、Prompt 约束、构建访问权限、评分规则和失败分类法，否则评测结果缺乏可解读性和可比性。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.0,
+      "sub_category": "security_benchmark",
+      "score_total": 70.9,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "想做 Web3 安全自动化的团队可以直接跟进这个实战系列，跟着模块一步步搭自己的 Agent harness，比看纯理论强。",
+      "recommendation_reason": "做安全Agent评测或选型的人必看：没有失败分类和评分细节的榜单数字几乎无法横向比较，团队在采纳榜单结论前应先审查其任务协议透明度，否则容易被单一指标误导。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/asen_sec/status/2099844013482299404",
-      "reader_url": "https://x.com/asen_sec/status/2099844013482299404",
+      "canonical_url": "https://x.com/liuzhao_666/status/2099860670867279970",
+      "reader_url": "https://x.com/liuzhao_666/status/2099860670867279970",
       "image_url": null,
       "author": {
-        "username": "asen_sec",
-        "name": "0xasen",
+        "username": "liuzhao_666",
+        "name": "刘朝 Zhao Liu",
         "avatar_url": null
       },
-      "published_at": "2026-09-15T12:53:20",
-      "first_seen_at": "2026-09-15T13:06:15.955826",
+      "published_at": "2026-09-15T13:59:32",
+      "first_seen_at": "2026-09-15T14:12:40.587313",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 5077,
+      "title": "防御型产品安全助手：自动化基线检查与加固指南",
+      "original_title": "Defensive product-security assistant. When fully active it runs authorized smoke checks (HTTPS/HSTS, security headers, public secret leaks, cookies, mixed content, forms), then dee",
+      "summary": "该 Agent 授权后可执行安全冒烟检查（如HTTPS/HSTS、密钥泄露等）并提供带有修复建议的明文检查结果，明确不执行攻击性测试或模糊测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "它清晰地定义了 AI 安全 Agent 的工作边界：专做被动基线扫描，绝不碰主动渗透。安全团队可直接借鉴其 Prompt 约束与工作流设计，快速落地产品线的基础合规与自检任务。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Rynok90/status/2099906700665033127",
+      "reader_url": "https://x.com/Rynok90/status/2099906700665033127",
+      "image_url": null,
+      "author": {
+        "username": "Rynok90",
+        "name": "Manuel Mercado",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-15T17:02:26",
+      "first_seen_at": "2026-09-15T17:06:41.897603",
       "sub_category_label": "安全Agent"
     }
   ]
