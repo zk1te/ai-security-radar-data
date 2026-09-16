@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T02:45:21+08:00",
+  "updated_at": "2026-09-17T03:16:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -185,24 +185,24 @@
       "sub_category_label": null
     },
     {
-      "id": 5528,
-      "title": "Columbus-1 利用元认知引导发现 BlueZ 漏洞",
-      "original_title": "Metacognitive Steering: Learning the Structure of Scientific Judgment",
-      "summary": "研究提出 Metacognitive Steering 方法，在推理时动态控制大模型的推理策略。该方法应用于 Columbus-1 自主研究系统，成功在 BlueZ 中发现8个可复现漏洞。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "vuln_discovery | llm_architecture",
-      "score_total": 81.43,
+      "id": 5653,
+      "title": "Claude-Red 开源攻击安全技能库冲上 GitHub Trending",
+      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 699 stars today",
+      "summary": "SnailSploit 的 Claude-Red 项目为 Claude skills 系统整理了涵盖 SQLi、EDR 绕过与漏洞利用开发的攻击安全技能库，单日获星近 700。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.95,
       "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "面向自主漏洞挖掘系统开发者。该论文展示了通过干预模型内部计算层来优化推理策略，并在实际漏洞挖掘中验证了有效性。Columbus-1 的落地成果表明可控的大模型认知机制对提升自动化安全任务表现极具参考价值，值得深入研究其控制原理。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.16245",
-      "reader_url": "https://arxiv.org/pdf/2609.16245",
+      "item_type": "news",
+      "recommendation_reason": "给红队和渗透测试 Agent 开发者看：该项目把 Claude 的 Skills 系统武装成攻击助手，直接提供 SQLi 和 EDR 绕过等专家级 SKILL.md，能直接抄作业并集成进你的安全工作流。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-16&since=daily",
+      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-16&since=daily",
       "image_url": null,
       "author": null,
-      "published_at": "2026-09-16T04:00:00",
-      "first_seen_at": "2026-09-16T07:14:17.007524",
-      "sub_category_label": null
+      "published_at": "2026-09-16T11:36:04.013401",
+      "first_seen_at": "2026-09-16T11:37:30.811328",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
