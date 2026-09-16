@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-16T12:42:40+08:00",
+  "updated_at": "2026-09-16T13:12:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 5220,
@@ -183,30 +183,6 @@
       "published_at": "2026-09-15T14:56:35",
       "first_seen_at": "2026-09-15T18:49:52.209149",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 5077,
-      "title": "防御型产品安全助手：自动化基线检查与加固指南",
-      "original_title": "Defensive product-security assistant. When fully active it runs authorized smoke checks (HTTPS/HSTS, security headers, public secret leaks, cookies, mixed content, forms), then dee",
-      "summary": "该 Agent 授权后可执行安全冒烟检查（如HTTPS/HSTS、密钥泄露等）并提供带有修复建议的明文检查结果，明确不执行攻击性测试或模糊测试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "它清晰地定义了 AI 安全 Agent 的工作边界：专做被动基线扫描，绝不碰主动渗透。安全团队可直接借鉴其 Prompt 约束与工作流设计，快速落地产品线的基础合规与自检任务。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Rynok90/status/2099906700665033127",
-      "reader_url": "https://x.com/Rynok90/status/2099906700665033127",
-      "image_url": null,
-      "author": {
-        "username": "Rynok90",
-        "name": "Manuel Mercado",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-15T17:02:26",
-      "first_seen_at": "2026-09-15T17:06:41.897603",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 5114,
