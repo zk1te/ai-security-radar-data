@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-16T10:42:28+08:00",
+  "updated_at": "2026-09-16T11:12:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 5220,
@@ -91,30 +91,6 @@
       "published_at": "2026-09-15T23:35:58",
       "first_seen_at": "2026-09-15T23:40:52.826265",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 5028,
-      "title": "CyberKimi结合Hermes Agent实现无人值守漏洞挖掘与崩溃分诊",
-      "original_title": "🐺 vuln research is evolving.  I just demonstrated a modern vulnerability-research workflow built on CyberKimi running inside Hermes Agent @NousResearch   From a WhatsApp message th",
-      "summary": "展示了基于Hermes Agent的CyberKimi自动化漏洞研究工作流，能够根据指令自动恢复V8 Fuzzilli Fuzzing任务，并对历史崩溃进行自动分诊和隔离，实现无人值守的高效漏洞挖掘。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队必看，展示了AI Agent接管Fuzzing基础设施管理和Crash自动分诊的实战场景，能极大缓解人工分析疲劳。可参考其工作流设计自己的自动化漏洞挖掘Agent。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/lordx64/status/2099860924177764800",
-      "reader_url": "https://x.com/lordx64/status/2099860924177764800",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2099860249851072512/img/h5u8Yv2JfiJCPpR6.jpg",
-      "author": {
-        "username": "lordx64",
-        "name": "Taha ז",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-15T14:00:32",
-      "first_seen_at": "2026-09-15T14:47:48.636443",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 5197,
