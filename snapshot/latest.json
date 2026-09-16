@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-16T12:12:36+08:00",
+  "updated_at": "2026-09-16T12:42:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 5220,
@@ -67,6 +67,26 @@
       "published_at": "2026-09-15T22:32:39",
       "first_seen_at": "2026-09-15T22:37:58.272542",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 5310,
+      "title": "DM0.5 横扫 RoboColiseum 安全评测四榜",
+      "original_title": "换题还是第一！DM0.5横扫RoboColiseum四榜",
+      "summary": "DM0.5 在 RoboColiseum 安全评测的四个榜单中均取得第一，展示了 AI Agent 在网络安全攻防任务中的强大表现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 78.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全评测榜单又现刷榜动态，RoboColiseum 是评估 AI 网络实战能力的重要测试场。安全团队应密切关注其任务设置与评测维度，以准确衡量当前 Agent 在自动化攻防领域的真实水平。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-16-4?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-09-16-4?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-16T02:52:08",
+      "first_seen_at": "2026-09-16T04:14:41.045522",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 5296,
