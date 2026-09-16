@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T19:43:10+08:00",
+  "updated_at": "2026-09-17T02:15:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -165,26 +165,6 @@
       "sub_category_label": "威胁检测"
     },
     {
-      "id": 5357,
-      "title": "评估大模型反编译代码优化的记忆底限",
-      "original_title": "A Memorization Floor for LLM Refinement of Decompiled Code",
-      "summary": "研究提出「记忆底限」评估法，发现LLM改进反编译代码的可读性提升多源于模型先验知识而非对当前输入的分析，揭示了评测盲区。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 82.88,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做逆向的安全研究员别被LLM优化的反编译代码骗了，这可能是模型「记忆」而非真理解。评估AI辅助逆向工具时需引入此类消融对照以防偏差。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.17236",
-      "reader_url": "https://arxiv.org/pdf/2609.17236",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-16T04:00:00",
-      "first_seen_at": "2026-09-16T06:13:16.175586",
-      "sub_category_label": "二进制安全"
-    },
-    {
       "id": 5543,
       "title": "Sockeye：基于参考手册的硬件漏洞挖掘与形式化证明工具",
       "original_title": "Sockeye: Bug-finding and proofs for platform configurations and hardware based on reference manuals",
@@ -203,6 +183,26 @@
       "published_at": "2026-09-16T04:00:00",
       "first_seen_at": "2026-09-16T07:24:13.686704",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 5537,
+      "title": "基于语音表示学习模型的声学侧信道攻击影响分析",
+      "original_title": "Impact Analysis of Speech Representation Learning Models for Acoustic Side-Channel Attack",
+      "summary": "本文提出 KEYAC 数据集评估语音表示模型在键盘声学侧信道攻击（ASCA）中的表现，发现 Kolmogorov-Arnold Networks（KAN）在微调中克服了 VoIP 编解码器泛化难题并达到 SOTA。",
+      "primary_category": "AI for Sec",
+      "sub_category": "side_channel_attack",
+      "score_total": 82.43,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "展示了 AI 模型在物理侧信道攻击中的实战潜力。引入 KAN 解决跨编解码器泛化问题的思路值得红队和侧信道研究人员直接借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2606.21210",
+      "reader_url": "https://arxiv.org/pdf/2606.21210",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-16T04:00:00",
+      "first_seen_at": "2026-09-16T07:16:55.909618",
+      "sub_category_label": null
     }
   ]
 }
