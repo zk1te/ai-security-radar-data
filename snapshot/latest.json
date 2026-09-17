@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T10:59:14+08:00",
+  "updated_at": "2026-09-17T11:59:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -205,27 +205,27 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 5741,
-      "title": "EchoFuzz：用大模型增强智能合约模糊测试，已被ICSE 2026接收",
-      "original_title": "EchoFuzz: Empowering Smart Contract Fuzzing with Large Language Models  Juanen Li, Peng Qian, Guanyan Li, Rui Wang, Peixin Wang, Zhiqing Tang, Fuchen Ma, Yuanliang Chen, Lun Zhang ",
-      "summary": "EchoFuzz 将 LLM 引入智能合约 Fuzzing 流程，旨在解决传统模糊测试在种子生成与路径覆盖上的瓶颈，论文已被 ICSE 2026 接收。",
+      "id": 5797,
+      "title": "内核并发漏洞复现：MAccConc如何补充Fuzzing的不足",
+      "original_title": "Fuzzing is excellent at finding strange states. It is less reliable at recreating the exact thread schedule that made one of those states dangerous.  MAccConc complements fuzzing r",
+      "summary": "指出Fuzzing擅长发现状态但难复现线程调度，介绍MAccConc通过内存访问模式和延迟注入补充KCOV，并提供内核并发测试实践建议。",
       "primary_category": "AI for Sec",
       "sub_category": "fuzzing",
-      "score_total": 71.07,
+      "score_total": 70.2,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做 Web3 安全和智能合约审计的人该看，LLM 辅助 Fuzzing 在合约场景的落地思路值得借鉴，可对比自家工具的种子策略和覆盖率短板找改进点。",
+      "recommendation_reason": "做AI Fuzzing的人必看：并发漏洞复现一直是痛点。这篇总结了MAccConc思路和内核测试实操建议，能帮你把发现竞态的能力落地到确定性回归测试里。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ComputerPapers/status/2100235208951730362",
-      "reader_url": "https://x.com/ComputerPapers/status/2100235208951730362",
-      "image_url": "https://pbs.twimg.com/media/HSWIywTXEAAylT9.png",
+      "canonical_url": "https://x.com/lnxsec/status/2100266503677296911",
+      "reader_url": "https://x.com/lnxsec/status/2100266503677296911",
+      "image_url": "https://pbs.twimg.com/media/HSWlQVGXIAAjasc.jpg",
       "author": {
-        "username": "ComputerPapers",
-        "name": "Software Engineering Papers",
+        "username": "lnxsec",
+        "name": "LinuxSecurity",
         "avatar_url": null
       },
-      "published_at": "2026-09-16T14:47:48",
-      "first_seen_at": "2026-09-16T15:42:09.719207",
+      "published_at": "2026-09-16T16:52:10",
+      "first_seen_at": "2026-09-16T17:26:05.412995",
       "sub_category_label": "AI Fuzzing"
     }
   ]
