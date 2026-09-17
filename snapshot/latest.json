@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T08:24:36+08:00",
+  "updated_at": "2026-09-17T08:56:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -27,6 +27,30 @@
       "published_at": "2026-09-16T19:28:20",
       "first_seen_at": "2026-09-16T19:34:06.156069",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 5881,
+      "title": "TRC分析首例AI Agent自主漏洞挖掘与利用攻击",
+      "original_title": "TRC analysis shows the first documented AI agent cyberattack conducted autonomous vulnerability discovery and exploitation at machine speed. The agent systematically probed applica",
+      "summary": "TRC分析披露首例AI Agent网络攻击事件，该Agent以机器速度自主完成漏洞发现、利用、提权与数据修改。运行时分段可遏制此类自主横向移动。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI Agent 已能自主完成从漏洞发现到利用的完整攻击链，安全团队需立即关注防御侧对抗能力，评估 Runtime 分段等手段对自主横向移动的遏制效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2100376288804446494",
+      "reader_url": "https://x.com/aviatrixtrc/status/2100376288804446494",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-17T00:08:25",
+      "first_seen_at": "2026-09-17T00:32:25.575862",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 5760,
@@ -195,30 +219,6 @@
       "published_at": "2026-09-16T12:19:55",
       "first_seen_at": "2026-09-16T14:45:53.867082",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 5727,
-      "title": "CERT Polska 演讲展示 AI 代理结合 Fuzzing 发现开源漏洞",
-      "original_title": "Obejrzyj prelekcję Kamila i Bartosza z zespołu testów bezpieczeństwa CERT Polska. Pokazali, jak w praktyce połączyć automatyczny fuzzing z agentami AI w celu wykrywania błędów w op",
-      "summary": "CERT Polska 安全测试团队分享了在开源软件测试中结合自动 fuzzing 与 AI agent 的实战经验。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 66.85,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 辅助 Fuzzing 正在从研究走向实战，安全团队和开源维护者可以关注这种将 Agent 引入漏洞挖掘流程的落地尝试，评估其在现有测试流水线中的可行性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OMHconf/status/2100223187044769900",
-      "reader_url": "https://x.com/OMHconf/status/2100223187044769900",
-      "image_url": null,
-      "author": {
-        "username": "OMHconf",
-        "name": "Oh My Hack",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-16T14:00:02",
-      "first_seen_at": "2026-09-16T14:33:51.729102",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
