@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-17T11:59:18+08:00",
+  "updated_at": "2026-09-17T12:29:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 5926,
@@ -178,30 +178,6 @@
       },
       "published_at": "2026-09-17T01:01:22",
       "first_seen_at": "2026-09-17T01:52:06.036028",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 5760,
-      "title": "Immunefi为AI安全Agent提供真实世界基准测试",
-      "original_title": "Thank you to every AI agent builder who has reached out to test and benchmark their agents on Immunefi.  We are committed to building better infrastructure for the growing number o",
-      "summary": "漏洞赏金平台Immunefi宣布正为使用AI Agent的安全研究员构建更好的基础设施，帮助他们在真实场景中测试、对标和提升Agent性能。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Web3安全团队和漏洞挖掘Agent开发者注意，Immunefi正搭建真实世界的AI安全Agent基准测试设施，可直接对接获取实战漏洞反馈，这是检验Agent落地能力的试金石。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/immunefi/status/2100253889824272483",
-      "reader_url": "https://x.com/immunefi/status/2100253889824272483",
-      "image_url": "https://pbs.twimg.com/media/HSWZx-BaIAA88fv.jpg",
-      "author": {
-        "username": "immunefi",
-        "name": "Immunefi",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-16T16:02:02",
-      "first_seen_at": "2026-09-16T16:16:21.933898",
       "sub_category_label": "安全Agent"
     },
     {
