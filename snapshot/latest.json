@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T21:37:13+08:00",
+  "updated_at": "2026-09-18T02:39:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -125,26 +125,6 @@
       "sub_category_label": "威胁检测"
     },
     {
-      "id": 6010,
-      "title": "VeriBugBench：基于LLM构建Verilog RTL调试基准的框架",
-      "original_title": "VeriBugBench: An Empirically Grounded Framework for Constructing Verilog RTL Debugging Benchmarks",
-      "summary": "提出一种基于LLM测试台增强和经验性故障构造的Verilog RTL调试基准构建框架VeriBugBench，生成了2608个可执行单故障实例，显著提升了故障可观测性与覆盖率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 83.68,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "硬件安全研究员和代码审计工具开发者必看。它不仅提供可用的 RTL 调试基准，还演示了如何用 LLM 自动增强测试激励以提升漏洞可观测性，可直接复用到硬件漏洞挖掘流程中。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.18022",
-      "reader_url": "https://arxiv.org/pdf/2609.18022",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-17T04:00:00",
-      "first_seen_at": "2026-09-17T06:38:42.771118",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 6207,
       "title": "Echo系统：利用编译反馈引导匹配反编译以提升准确性",
       "original_title": "Echo: Learning-based Matching Decompilation using Trusted Back Translation",
@@ -183,6 +163,26 @@
       "published_at": "2026-09-17T04:00:00",
       "first_seen_at": "2026-09-17T08:16:57.879733",
       "sub_category_label": null
+    },
+    {
+      "id": 6022,
+      "title": "BugProbe：基于上下文增强代码表示检测Python参数顺序缺陷",
+      "original_title": "Detecting Argument-Swap Bugs Using Context-Enhanced Code Representations",
+      "summary": "论文提出 BugProbe，利用机器学习和多源上下文信息检测 Python 方法调用中的参数顺序错误，无需显式调用到定义的映射。构建了包含 55 个真实漏洞的 Benchmark，准确率优于现有基线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 82.08,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "针对动态语言参数顺序缺陷的 AI 检测方案，无需类型解析即可运行，适合做代码审计和安全扫描的工程师参考。其真实 bug benchmark 可直接用于验证检测效果。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.17844",
+      "reader_url": "https://arxiv.org/pdf/2609.17844",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-17T04:00:00",
+      "first_seen_at": "2026-09-17T06:42:19.708492",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
