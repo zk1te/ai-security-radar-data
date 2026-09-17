@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-17T09:57:38+08:00",
+  "updated_at": "2026-09-17T10:27:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 5926,
@@ -87,6 +87,26 @@
       "published_at": "2026-09-16T19:28:20",
       "first_seen_at": "2026-09-16T19:34:06.156069",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 5950,
+      "title": "AISI 提出超越通过率的 AI Agent 安全评测法",
+      "original_title": "Transcript analysis for AI agent evaluations  | AISI Work",
+      "summary": "英国 AISI 通过分析 6400 条 CTF 任务测试日志，发现仅看通过率会掩盖 AI agent 拒绝任务、轻易放弃等真实能力表现，建议安全评测引入系统性日志分析。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 75.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 安全评测和 Benchmark 的团队必看。只看 pass rate 容易被模型「摆烂」或「拒绝执行」骗到，真实能力评估需要深挖 transcript。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/transcript-analysis-for-ai-agent-evaluations",
+      "reader_url": "https://www.aisi.gov.uk/blog/transcript-analysis-for-ai-agent-evaluations",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-17T02:10:38.011761",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 5881,
