@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T04:41:03+08:00",
+  "updated_at": "2026-09-18T06:12:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -98,30 +98,6 @@
       },
       "published_at": "2026-09-17T10:52:08",
       "first_seen_at": "2026-09-17T13:53:04.284793",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6251,
-      "title": "AI代理10小时执行50余项ATT&CK技术，暴露MTTD响应滞后",
-      "original_title": "50+ techniques ATT&amp;CK en 10h, sans zero-day, par des agents IA. Votre MTTD à 24h mesure le mauvais budget-temps.  https://t.co/HCLN87UK4w",
-      "summary": "AI代理在10小时内无需0day即可执行50多种ATT&CK攻击技术，凸显防御侧24小时的MTTD已无法应对当前自动化攻击速度。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防守方和红队必看。这直接表明AI驱动的自动化攻击大幅压缩了防御响应窗口，需立刻反思现有的MTTD指标是否还跟得上AI攻击速度。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SPoint/status/2100520638024671648",
-      "reader_url": "https://x.com/SPoint/status/2100520638024671648",
-      "image_url": null,
-      "author": {
-        "username": "SPoint",
-        "name": "Sebastien Gioria",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T09:42:00",
-      "first_seen_at": "2026-09-17T09:58:56.785940",
       "sub_category_label": "安全Agent"
     },
     {
@@ -243,6 +219,30 @@
       "published_at": "2026-09-17T17:30:01",
       "first_seen_at": "2026-09-17T17:51:16.163575",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6340,
+      "title": "OmniSec-Hex：浏览器端一体化安全工具集成AI威胁评分",
+      "original_title": "OmniSec-Hex: análisis local de APK/IPA, fuzzing DAST, OSINT, scoring de amenazas con IA y auditoría de puertos y CSP, todo en el navegador.  Fuente: https://t.co/8EvwBF3Xgn https:/",
+      "summary": "OmniSec-Hex是一个在浏览器中运行的综合性安全工具，集成了APK/IPA本地分析、DAST模糊测试、OSINT、AI威胁评分以及端口与CSP审计功能。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_toolkit",
+      "score_total": 69.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "工具把移动应用分析、Web fuzzing和OSINT整合到浏览器端，并引入AI做威胁评分。做甲方安全或红队工具链的人可以看看，把繁杂的本地分析流程轻量化。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Jayson_security/status/2100596145609126218",
+      "reader_url": "https://x.com/Jayson_security/status/2100596145609126218",
+      "image_url": "https://pbs.twimg.com/media/HSbRECfW8AA42bi.jpg",
+      "author": {
+        "username": "Jayson_security",
+        "name": "Jayson Jose",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-17T14:42:02",
+      "first_seen_at": "2026-09-17T15:02:37.457935",
+      "sub_category_label": null
     }
   ]
 }
