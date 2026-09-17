@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T16:37:01+08:00",
+  "updated_at": "2026-09-17T21:37:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -165,24 +165,24 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 5926,
-      "title": "Cloudflare 开源安全审计 Agent 技能，登顶 GitHub Trending",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 927 stars today",
-      "summary": "Cloudflare 开源了一款用于编码 Agent 的多阶段安全审计技能，能生成独立验证、机器可读的结果，在 GitHub 上单日涨星近千。",
+      "id": 6213,
+      "title": "零成本零样本破解 reCAPTCHA：开源模型使攻击门槛归零",
+      "original_title": "Robot Visions: Breaking reCAPTCHA at Zero Cost and Zero Shot",
+      "summary": "论文利用开源本地模型（如 CLIP 和 OWLv2）零样本破解 Google reCAPTCHA，端到端成功率达 92.6%。该方法无需训练和 API 费用，且仅凭自然语言指令即可驱动 AI 助手完成攻击，大幅降低攻击者技术门槛。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 83.34,
+      "sub_category": "automated_attack",
+      "score_total": 83.21,
       "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做安全审计和 Agent 落地的必看项目。它提供了安全 Agent 审计技能的标准化范式，尤其强调发现的独立验证，直接解决了 AI 审计结果可信度痛点，可拉取源码学习其 harness 设计。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-17&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-17&since=daily",
+      "item_type": "paper",
+      "recommendation_reason": "红队和业务安全人员必看。开源视觉语言模型已能零成本击穿传统验证码防线，可立即复现此方法评估自有系统的抗 Bot 能力，并重新审视纯挑战型 CAPTCHA 的实际防御价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.18518",
+      "reader_url": "https://arxiv.org/pdf/2609.18518",
       "image_url": null,
       "author": null,
-      "published_at": "2026-09-17T01:29:00.218619",
-      "first_seen_at": "2026-09-17T01:34:21.674554",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-09-17T04:00:00",
+      "first_seen_at": "2026-09-17T08:16:57.879733",
+      "sub_category_label": null
     }
   ]
 }
