@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T12:29:23+08:00",
+  "updated_at": "2026-09-17T13:30:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -181,28 +181,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 5797,
-      "title": "内核并发漏洞复现：MAccConc如何补充Fuzzing的不足",
-      "original_title": "Fuzzing is excellent at finding strange states. It is less reliable at recreating the exact thread schedule that made one of those states dangerous.  MAccConc complements fuzzing r",
-      "summary": "指出Fuzzing擅长发现状态但难复现线程调度，介绍MAccConc通过内存访问模式和延迟注入补充KCOV，并提供内核并发测试实践建议。",
+      "id": 5834,
+      "title": "LLM 漏洞挖掘热潮堪比当年 AFL，维护者需主动用 AI 先发制人",
+      "original_title": "> LLMs can actively seek out exploits at a fantastic rate  That’s only temporary.  A similar thing happened when AFL first came out. There were a flurry of bugs in lots of software",
+      "summary": "作者指出 LLM 挖掘漏洞的能力将像 AFL Fuzzing 一样被安全维护者广泛采纳以先发制人，从而逐步降低攻击者的成功率。",
       "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 70.2,
+      "sub_category": "vuln_discovery",
+      "score_total": 69.15,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做AI Fuzzing的人必看：并发漏洞复现一直是痛点。这篇总结了MAccConc思路和内核测试实操建议，能帮你把发现竞态的能力落地到确定性回归测试里。",
+      "recommendation_reason": "LLM 挖洞正从攻击红利期转入防御常规化，安全团队应尽早将 AI 漏洞挖掘整合进 SDL 流程，避免被动挨打。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/lnxsec/status/2100266503677296911",
-      "reader_url": "https://x.com/lnxsec/status/2100266503677296911",
-      "image_url": "https://pbs.twimg.com/media/HSWlQVGXIAAjasc.jpg",
+      "canonical_url": "https://x.com/kssreeram/status/2100302472820699636",
+      "reader_url": "https://x.com/kssreeram/status/2100302472820699636",
+      "image_url": null,
       "author": {
-        "username": "lnxsec",
-        "name": "LinuxSecurity",
+        "username": "kssreeram",
+        "name": "KS Sreeram",
         "avatar_url": null
       },
-      "published_at": "2026-09-16T16:52:10",
-      "first_seen_at": "2026-09-16T17:26:05.412995",
-      "sub_category_label": "AI Fuzzing"
+      "published_at": "2026-09-16T19:15:05",
+      "first_seen_at": "2026-09-16T19:34:07.299995",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
