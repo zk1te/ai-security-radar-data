@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-17T07:54:32+08:00",
+  "updated_at": "2026-09-17T08:24:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 5666,
-      "title": "ModularRSI：模块化与可泛化的 Agent Harness 自我改进框架",
-      "original_title": "ModularRSI: Modular and Generalizable Recursive Harness Self-Improvement",
-      "summary": "该论文提出 ModularRSI 框架，通过对比任务成功与失败轨迹，将 Agent 套件分解为五个功能模块独立进化，以解决长期任务中套件改进难以泛化的问题。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 77.7,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做安全Agent的同学必看。长期渗透或挖洞任务中Agent工具调用极易崩溃，本文的模块化自改进方法直接提供了一套解耦和增强Harness泛化能力的思路，值得借鉴。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.14857",
-      "reader_url": "https://arxiv.org/pdf/2609.14857",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-16T00:00:00",
-      "first_seen_at": "2026-09-16T12:16:33.560549",
-      "sub_category_label": null
-    },
     {
       "id": 5832,
       "title": "安全Agent修漏洞过测试却破坏接口，暴露确定性评测盲区",
@@ -215,6 +195,30 @@
       "published_at": "2026-09-16T12:19:55",
       "first_seen_at": "2026-09-16T14:45:53.867082",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 5727,
+      "title": "CERT Polska 演讲展示 AI 代理结合 Fuzzing 发现开源漏洞",
+      "original_title": "Obejrzyj prelekcję Kamila i Bartosza z zespołu testów bezpieczeństwa CERT Polska. Pokazali, jak w praktyce połączyć automatyczny fuzzing z agentami AI w celu wykrywania błędów w op",
+      "summary": "CERT Polska 安全测试团队分享了在开源软件测试中结合自动 fuzzing 与 AI agent 的实战经验。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 66.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 辅助 Fuzzing 正在从研究走向实战，安全团队和开源维护者可以关注这种将 Agent 引入漏洞挖掘流程的落地尝试，评估其在现有测试流水线中的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OMHconf/status/2100223187044769900",
+      "reader_url": "https://x.com/OMHconf/status/2100223187044769900",
+      "image_url": null,
+      "author": {
+        "username": "OMHconf",
+        "name": "Oh My Hack",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-16T14:00:02",
+      "first_seen_at": "2026-09-16T14:33:51.729102",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
