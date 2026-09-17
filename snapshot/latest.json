@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T10:27:42+08:00",
+  "updated_at": "2026-09-17T10:59:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -109,6 +109,30 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 5958,
+      "title": "PentestChain：基于MCP的低成本自动化渗透测试框架",
+      "original_title": "PentestChain: A Cost-Aware, MCP-Orchestrated Framework for Automated Penetration Testing with Free-Tier LLMs: AI-driven penetration testing has been demonstrated with premium front",
+      "summary": "该论文提出 PentestChain，结合本地小模型和免费 API 通过 MCP 协议实现零成本的自动化渗透测试。同时分析了 MCP 自身引入的攻击面并给出缓解措施。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.1,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "对于想落地大模型自动化渗透的团队极具参考价值，既提供低成本 MCP 架构落地方案，又反向审视 MCP 自身安全坑点，可直接借鉴其多试验统计复现协议。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2100404190765867116",
+      "reader_url": "https://x.com/gastronomy/status/2100404190765867116",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-17T01:59:17",
+      "first_seen_at": "2026-09-17T02:47:09.134494",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 5881,
       "title": "TRC分析首例AI Agent自主漏洞挖掘与利用攻击",
       "original_title": "TRC analysis shows the first documented AI agent cyberattack conducted autonomous vulnerability discovery and exploitation at machine speed. The agent systematically probed applica",
@@ -202,30 +226,6 @@
       },
       "published_at": "2026-09-16T14:47:48",
       "first_seen_at": "2026-09-16T15:42:09.719207",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 5797,
-      "title": "内核并发漏洞复现：MAccConc如何补充Fuzzing的不足",
-      "original_title": "Fuzzing is excellent at finding strange states. It is less reliable at recreating the exact thread schedule that made one of those states dangerous.  MAccConc complements fuzzing r",
-      "summary": "指出Fuzzing擅长发现状态但难复现线程调度，介绍MAccConc通过内存访问模式和延迟注入补充KCOV，并提供内核并发测试实践建议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 70.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做AI Fuzzing的人必看：并发漏洞复现一直是痛点。这篇总结了MAccConc思路和内核测试实操建议，能帮你把发现竞态的能力落地到确定性回归测试里。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/lnxsec/status/2100266503677296911",
-      "reader_url": "https://x.com/lnxsec/status/2100266503677296911",
-      "image_url": "https://pbs.twimg.com/media/HSWlQVGXIAAjasc.jpg",
-      "author": {
-        "username": "lnxsec",
-        "name": "LinuxSecurity",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-16T16:52:10",
-      "first_seen_at": "2026-09-16T17:26:05.412995",
       "sub_category_label": "AI Fuzzing"
     }
   ]
