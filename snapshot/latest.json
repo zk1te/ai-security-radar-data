@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T16:04:00+08:00",
+  "updated_at": "2026-09-17T16:05:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -45,6 +45,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 6203,
+      "title": "CASHEWS：针对 LLM 恶意包检测的源码预处理器",
+      "original_title": "CASHEWS: Source Preprocessor for LLM-based Malicious Package Detection",
+      "summary": "CASHEWS 通过反混淆、提取打包模块和计算反向切片等预处理手段，有效解决 LLM 检测恶意 npm 包时的上下文窗口限制，将分析覆盖率提升至近 100% 并显著降低假阴性率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 85.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对做基于 LLM 的恶意代码检测的团队来说，这篇论文给出了非常实用的工程优化思路：用源码预处理绕过上下文窗口限制。方法落地性强且数据亮眼，值得直接集成到现有检测流水线中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.18862",
+      "reader_url": "https://arxiv.org/pdf/2609.18862",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-17T04:00:00",
+      "first_seen_at": "2026-09-17T08:04:08.996716",
+      "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
       "id": 6187,
       "title": "FoundAna：用于图异常检测的GNN辅助基础模型",
       "original_title": "FoundAna: A GNN-assisted Foundation Model for Graph Anomaly Detection",
@@ -83,6 +103,26 @@
       "published_at": "2026-09-17T04:00:00",
       "first_seen_at": "2026-09-17T06:38:42.771118",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 6207,
+      "title": "Echo系统：利用编译反馈引导匹配反编译以提升准确性",
+      "original_title": "Echo: Learning-based Matching Decompilation using Trusted Back Translation",
+      "summary": "提出 Echo 匹配反编译系统，将编译过程作为可信反馈来引导迭代搜索与代码修复，在优化二进制和 Mirai 恶意样本上的精确匹配率显著优于 GPT-4 和 Codex。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 83.46,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "二进制安全研究员和逆向工程师必看。Echo 展示了如何将神经反编译与编译验证深度结合，解决 AI 生成代码不可信的痛点，为高保真二进制自动化分析提供了新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.18706",
+      "reader_url": "https://arxiv.org/pdf/2609.18706",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-17T04:00:00",
+      "first_seen_at": "2026-09-17T08:04:40.823083",
+      "sub_category_label": "二进制安全"
     },
     {
       "id": 5926,
@@ -143,46 +183,6 @@
       "published_at": "2026-09-17T04:00:00",
       "first_seen_at": "2026-09-17T06:38:41.976701",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 6003,
-      "title": "SWE-Bench Pro Verified：修复奖励作弊的代码评测基准",
-      "original_title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
-      "summary": "研究发现 SWE-Bench Pro 存在奖励作弊和测试数据泄露问题，导致 Agent 编码能力被高估。论文提出 SWE-Bench Pro Verified 版本，通过防黑客机制和任务修正提供更可靠的评测。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 81.43,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做安全 Agent 评测和漏洞修复自动化的人必须看。这揭示了当前主流代码评测榜存在 reward hacking，容易导致「AI 编码或修漏洞能力虚高」的错觉，自研安全 Agent 评测时务必避坑。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.08149",
-      "reader_url": "https://arxiv.org/pdf/2609.08149",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-17T04:00:00",
-      "first_seen_at": "2026-09-17T06:36:40.601834",
-      "sub_category_label": null
-    },
-    {
-      "id": 5918,
-      "title": "Claude-Red 攻击技能库登 GitHub Trending，为 Claude 注入专家级渗透测试方法论",
-      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 367 stars today",
-      "summary": "Claude-Red 是一个为 Claude skills 系统设计的攻击安全技能库，通过结构化 SKILL.md 文件让 Claude 掌握从 SQLi 到 EDR 规避、漏洞利用开发等专家级攻击方法论，单日获星 367。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 80.18,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试从业者必看，这是将 Claude Agent 结构化用于攻击面覆盖的现成模板。可直接拉取复用，或作为自建安全 Agent 技能库设计的参考架构。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-17&since=daily",
-      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-09-17&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-17T01:29:00.869602",
-      "first_seen_at": "2026-09-17T01:33:12.710534",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
