@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T06:12:35+08:00",
+  "updated_at": "2026-09-18T08:14:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -29,6 +29,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 6498,
+      "title": "commit-miner：基于AI极速分类OSS安全补丁的挖掘工具",
+      "original_title": "alpha drop for OSS vulnerability research  commit-miner: classify commits at the speed of light ⚡️ (powered by jev by typesafe)  mine commits → filter commits labeled as security f",
+      "summary": "commit-miner 利用 AI 技术在数秒内完成数百条代码提交的分类，筛选出安全修复补丁，进而帮助研究员挖掘代码不变量或绕过逻辑以发现新漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 76.65,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "面向开源漏洞研究员的提效工具。通过 AI 快速过滤海量提交记录并定位安全修复，能显著缩短补丁分析和变体漏洞挖掘的时间。处于 Alpha 阶段，适合挖洞团队跟进验证效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2100518573118779547",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2100518573118779547",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2100517612954529792/img/9VCo4-92cfwhI2qy.jpg",
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-17T09:33:48",
+      "first_seen_at": "2026-09-17T23:52:12.374308",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 6436,
       "title": "Google Big Sleep 发现 SQLite 栈缓冲区下溢漏洞",
       "original_title": "AI agent finding ‼️ an unknown exploitable bug in real-world software in SQLite.  Google’s Big Sleep caught a stack buffer underflow in generate_series before release.  Trigger 🔥: ",
@@ -50,6 +74,54 @@
       },
       "published_at": "2026-09-17T19:39:44",
       "first_seen_at": "2026-09-17T20:12:23.296098",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6494,
+      "title": "LLM攻击安全Agent验证器阶段消融研究",
+      "original_title": "The Model Proposes, the Code Disposes: A Pre-Registered Ablation of a Verifier-and-Acceptance Stage in an LLM-Orchestrated Offensive-Security Agent  Theodoros Moutesidis https://t.",
+      "summary": "研究对LLM编排的攻击性安全Agent中的验证与接受阶段进行了预注册消融实验，探讨了模型生成与代码执行在Agent效果中的实际作用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做攻击性安全Agent的团队必看，这篇预注册消融实验直接拆解了验证阶段到底有没有用。别盲目给Agent加验证层，先看这里的实证数据再决定架构设计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/FSFG/status/2100733781053259898",
+      "reader_url": "https://x.com/FSFG/status/2100733781053259898",
+      "image_url": "https://pbs.twimg.com/media/HSdOPeXXkAAKg7W.png",
+      "author": {
+        "username": "FSFG",
+        "name": "Cryptography and Security Papers",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-17T23:48:57",
+      "first_seen_at": "2026-09-17T23:51:54.177700",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6496,
+      "title": "commit-miner：快速分类OSS漏洞提交的研究工具",
+      "original_title": "RT @0xAsm0d3us: alpha drop for OSS vulnerability research  commit-miner: classify commits at the speed of light ⚡️ (powered by jev by types…",
+      "summary": "安全研究员发布开源漏洞研究新工具 commit-miner 的 alpha 版本，旨在利用极快的速度对代码提交进行分类，辅助挖掘漏洞修复记录。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做漏洞挖掘和情报补全的同学可以关注这个新工具，它可能加速从海量 commit 中筛选安全修复记录的过程。建议测试其在真实 OSS 项目中的分类准确度和漏报率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2100586823814705175",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2100586823814705175",
+      "image_url": null,
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-17T14:05:00",
+      "first_seen_at": "2026-09-17T23:51:55.907373",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -171,78 +243,6 @@
       "published_at": "2026-09-17T12:41:12",
       "first_seen_at": "2026-09-17T12:46:24.182566",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6413,
-      "title": "AI 代理生产前置门控：先复现 Bug 再用集群验证",
-      "original_title": "gate before bots touch prod: reproduce the bug first. if the agent can't repro, you don't trust it understood the ticket.  then verification swarms. a swarm skill spins a bunch of ",
-      "summary": "提出在让 AI 代理接触生产环境前设置门控，先要求代理复现 Bug 以验证其理解，随后利用多 Cursor Cloud Agent 集群模拟用户操作进行模糊测试以尝试破坏应用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "提供了一套落地性极强的 AI 安全测试工作流：先复现再验证，避免盲目信任 Agent。适合正在构建安全自动化流水线的团队参考，可直接借鉴其 Agent 集群验证思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/realSamHu/status/2100649025536246267",
-      "reader_url": "https://x.com/realSamHu/status/2100649025536246267",
-      "image_url": null,
-      "author": {
-        "username": "realSamHu",
-        "name": "Samuel Hu",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T18:12:10",
-      "first_seen_at": "2026-09-17T19:05:03.172979",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6387,
-      "title": "Comp AI 获3400万美元A轮融资，推进安全合规与渗透测试自动化",
-      "original_title": "🚨 COMP AI RAISES $34M SERIES A FOR AGENTIC SECURITY  Comp AI has raised a $34M Series A led by Roo Capital and Grand Ventures, bringing total funding to $37.5M.  The startup is bui",
-      "summary": "初创公司 Comp AI 获得 3400 万美元 A 轮融资，致力于构建用于自动化安全合规审计和基础设施渗透测试的 AI Agent，人类保持在审批环节中。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应关注这家公司的 Agent 自动化合规与渗透测试落地模式，它代表了合规自动化与安全运营结合的新趋势，可作为安全工具链选型的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RocketTerminal/status/2100638416241324182",
-      "reader_url": "https://x.com/RocketTerminal/status/2100638416241324182",
-      "image_url": "https://pbs.twimg.com/media/HSbonAxW0AAQVEv.jpg",
-      "author": {
-        "username": "RocketTerminal",
-        "name": "Rocket Terminal",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T17:30:01",
-      "first_seen_at": "2026-09-17T17:51:16.163575",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6340,
-      "title": "OmniSec-Hex：浏览器端一体化安全工具集成AI威胁评分",
-      "original_title": "OmniSec-Hex: análisis local de APK/IPA, fuzzing DAST, OSINT, scoring de amenazas con IA y auditoría de puertos y CSP, todo en el navegador.  Fuente: https://t.co/8EvwBF3Xgn https:/",
-      "summary": "OmniSec-Hex是一个在浏览器中运行的综合性安全工具，集成了APK/IPA本地分析、DAST模糊测试、OSINT、AI威胁评分以及端口与CSP审计功能。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_toolkit",
-      "score_total": 69.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "工具把移动应用分析、Web fuzzing和OSINT整合到浏览器端，并引入AI做威胁评分。做甲方安全或红队工具链的人可以看看，把繁杂的本地分析流程轻量化。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Jayson_security/status/2100596145609126218",
-      "reader_url": "https://x.com/Jayson_security/status/2100596145609126218",
-      "image_url": "https://pbs.twimg.com/media/HSbRECfW8AA42bi.jpg",
-      "author": {
-        "username": "Jayson_security",
-        "name": "Jayson Jose",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T14:42:02",
-      "first_seen_at": "2026-09-17T15:02:37.457935",
-      "sub_category_label": null
     }
   ]
 }
