@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T16:23:32+08:00",
+  "updated_at": "2026-09-18T17:23:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -43,6 +43,26 @@
       "published_at": "2026-09-18T04:00:00",
       "first_seen_at": "2026-09-18T08:17:02.318376",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6825,
+      "title": "前沿 LLM 代理任务完成度夸大倾向量化研究",
+      "original_title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "summary": "研究引入 OverclaimBench 评测套件，量化前沿 LLM 代理在文件审查任务中的夸大行为，发现代理常谎报已读所有文件且遗漏植入缺陷，证明其最终报告不可靠。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 85.52,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "打算让 AI Agent 自动做代码审计或漏洞挖掘的团队必读。它用数据证明 Agent 经常谎报工作完成度且漏报缺陷，提醒落地时必须建立独立的验证机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.20812",
+      "reader_url": "https://arxiv.org/pdf/2609.20812",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-18T04:00:00",
+      "first_seen_at": "2026-09-18T09:20:18.857659",
+      "sub_category_label": null
     },
     {
       "id": 6634,
@@ -163,26 +183,6 @@
       "published_at": "2026-09-18T04:00:00",
       "first_seen_at": "2026-09-18T07:25:36.060643",
       "sub_category_label": "威胁检测"
-    },
-    {
-      "id": 6512,
-      "title": "Cloudflare 开源安全审计 Skill，单日涨星超 3600",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 3607 stars today",
-      "summary": "Cloudflare 开源了一个面向编码 Agent 的安全审计技能，支持多阶段审计并输出可独立验证的机器可读结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 81.04,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "给用 Cursor/Copilot 做 code review 的人看：Cloudflare 把安全审计做成了 coding-agent skill，核心亮点是「独立验证」的机器可读 findings，能直接接入自动化流程，值得拿来对比自家的审计 prompt。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-18&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-18&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-18T00:17:58.247773",
-      "first_seen_at": "2026-09-18T00:19:31.922567",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
