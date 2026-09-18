@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T15:52:01+08:00",
+  "updated_at": "2026-09-18T16:23:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -23,6 +23,26 @@
       "published_at": "2026-09-18T00:00:00",
       "first_seen_at": "2026-09-18T05:04:54.564202",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 6689,
+      "title": "符号执行新法高效揪出AI生成CUDA内核漏洞",
+      "original_title": "The Output-Space Hypothesis: Enumerative Equivalence Checking for Tensor Programs",
+      "summary": "论文提出 Dirigo 系统，通过翻转量词的符号执行策略检查单输出位置等价性，在6988个被差分测试标记为正确的AI生成CUDA内核中找出了600个隐蔽bug。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 85.78,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "AI 生成代码日益普遍，差分测试已难捕捉隐蔽 bug。该研究通过符号执行找到大量被传统测试判为正确的 AI 生成漏洞，做代码审计和安全评测的团队可重点关注此思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.19611",
+      "reader_url": "https://arxiv.org/pdf/2609.19611",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-18T04:00:00",
+      "first_seen_at": "2026-09-18T08:17:02.318376",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 6634,
@@ -163,26 +183,6 @@
       "published_at": "2026-09-18T00:17:58.247773",
       "first_seen_at": "2026-09-18T00:19:31.922567",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6628,
-      "title": "评估大模型在符号安全协议分析中的能力",
-      "original_title": "Evaluating Large Language Models for Symbolic Security Protocol Analysis",
-      "summary": "研究评估了GPT和DeepSeek在130个混淆协议上的安全分析能力，发现其表现不及ProVerif等形式化工具，且判决不稳定、自报置信度与正确性无关，目前仅适合作为预筛工具。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 80.88,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "安全团队不可轻信LLM在形式化协议验证中的表现。当前模型在认证攻击检测上漏报严重且跨次运行极不稳定，远不能替代ProVerif等工具。若要用作辅助预筛，务必警惕其高假阳性和虚高自报置信度。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2607.20712",
-      "reader_url": "https://arxiv.org/pdf/2607.20712",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-18T04:00:00",
-      "first_seen_at": "2026-09-18T07:07:06.240175",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
