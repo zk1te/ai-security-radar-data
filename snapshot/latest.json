@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T07:28:54+08:00",
+  "updated_at": "2026-09-19T07:58:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -89,6 +89,30 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 7090,
+      "title": "Anthropic 与埃森哲合作投入10亿美元评估前沿AI",
+      "original_title": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at l",
+      "summary": "Anthropic 与埃森哲宣布合作，计划在未来五年内投资至少10亿美元，用于前沿AI的独立评估能力建设。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "model_evaluation",
+      "score_total": 69.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "前沿AI评估的商业化投入和第三方评估员嵌入机制值得安全评测从业者关注，可能预示未来模型安全评估的规模化趋势。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AnthropicAI/status/2101039819870937247",
+      "reader_url": "https://x.com/AnthropicAI/status/2101039819870937247",
+      "image_url": null,
+      "author": {
+        "username": "AnthropicAI",
+        "name": "Anthropic",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-18T20:05:03",
+      "first_seen_at": "2026-09-18T23:33:38.726348",
+      "sub_category_label": null
+    },
+    {
       "id": 6931,
       "title": "Claude 涉足渗透测试发现 OpenAI 漏洞",
       "original_title": "“Good morning, New York.  Coffee: ready. Markets: open. OpenAI: breached. Claude: apparently doing penetration testing at the competition.  Nothing says ‘healthy AI competition’ qu",
@@ -111,30 +135,6 @@
       "published_at": "2026-09-18T12:37:46",
       "first_seen_at": "2026-09-18T13:40:52.092888",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 7083,
-      "title": "Claude Code 新增对 AGENTS.md 文件的支持",
-      "original_title": "HN Hot Discussion: Claude Code now reads AGENTS.md if there is no Claude.md",
-      "summary": "Claude Code 更新，在缺少 Claude.md 时会自动读取 AGENTS.md 作为上下文指令，引发 Hacker News 社区对 Agent 配置标准化的讨论。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 64.58,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "属于通用 AI 编程助手更新，非直接安全工具。但做安全代码审计自动化的从业者可关注 Agent 上下文指令文件的标准演进趋势。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-18",
-      "reader_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-18",
-      "image_url": null,
-      "author": {
-        "username": "datadrivenangel",
-        "name": "datadrivenangel",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-18T21:00:32",
-      "first_seen_at": "2026-09-18T22:28:32.153753",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
