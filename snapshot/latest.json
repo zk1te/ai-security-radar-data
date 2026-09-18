@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T09:15:44+08:00",
+  "updated_at": "2026-09-18T10:15:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -165,30 +165,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 6329,
-      "title": "AI Agent 自主利用 87% 一日漏洞，攻防时间差进一步拉大",
-      "original_title": "Attackers weaponize new vulnerabilities in ~5 days. The median org takes 43 days to patch known-exploited flaws.  Peer-reviewed AI agents exploited 87% of one-day vulnerabilities u",
-      "summary": "推文指出攻击者武器化漏洞仅需约 5 天，而企业中位补丁周期为 43 天；经同行评审的 AI Agent 已能自主利用 87% 的一日漏洞，凸显 AI 驱动漏洞挖掘从研究走向实战的紧迫性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和漏洞管理团队必看：87% 一日漏洞利用率意味着 AI Agent 已具备实战级漏洞利用能力，你的补丁 SLA 可能需要重新校准。建议立刻关注「可证明覆盖」「独立验证」「安全停止」三类生产级控制机制。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2100538287115100635",
-      "reader_url": "https://x.com/TheHackersNews/status/2100538287115100635",
-      "image_url": "https://pbs.twimg.com/media/HSacb4Zb0AAAlpK.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T10:52:08",
-      "first_seen_at": "2026-09-17T13:53:04.284793",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 6527,
       "title": "AI 渗透测试工具 Strix：自动化漏洞验证与修复",
       "original_title": "Stop paying $15k per manual pentest audit or drowning in hundreds of useless static scanner false positives. 🛡️  Meet usestrix/strix (63k⭐)  Most security scanners just regex your ",
@@ -213,28 +189,52 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 6322,
-      "title": "安全Agent被假flag诱饵带偏，多耗20轮对话仍自信提交错答",
-      "original_title": "Attackers don't need to hack your security agent. Baiting it works.  New research ran six models against web hacking challenges, then planted fake flags, decoy endpoints and mislea",
-      "summary": "研究对6个模型跑Web hacking挑战时植入假flag、诱饵端点和误导提示，Agent未被拦截而是被分散注意力，平均多耗约20轮对话和2000推理token，部分自信提交错误答案。攻击者无需破解Agent，只需在它会读取的位置放置看似合理的垃圾信息即可。",
-      "primary_category": "AI for Sec | Sec for AI",
+      "id": 6413,
+      "title": "AI 代理生产前置门控：先复现 Bug 再用集群验证",
+      "original_title": "gate before bots touch prod: reproduce the bug first. if the agent can't repro, you don't trust it understood the ticket.  then verification swarms. a swarm skill spins a bunch of ",
+      "summary": "提出在让 AI 代理接触生产环境前设置门控，先要求代理复现 Bug 以验证其理解，随后利用多 Cursor Cloud Agent 集群模拟用户操作进行模糊测试以尝试破坏应用。",
+      "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 71.22,
+      "score_total": 69.25,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做安全Agent落地的必须看：你的Agent不会被挡住但会被诱饵带偏，浪费token还自信地交错答案。Read Guard的「标注外部数据为不可信」是第一层缓解，但逼真诱饵仍能穿透，需在Agent决策环节加结果验证而非仅靠输入标注。",
+      "recommendation_reason": "提供了一套落地性极强的 AI 安全测试工作流：先复现再验证，避免盲目信任 Agent。适合正在构建安全自动化流水线的团队参考，可直接借鉴其 Agent 集群验证思路。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/agentwormhole/status/2100579022597959770",
-      "reader_url": "https://x.com/agentwormhole/status/2100579022597959770",
-      "image_url": "https://pbs.twimg.com/media/HSa5WBRWcAA8Olz.jpg",
+      "canonical_url": "https://x.com/realSamHu/status/2100649025536246267",
+      "reader_url": "https://x.com/realSamHu/status/2100649025536246267",
+      "image_url": null,
       "author": {
-        "username": "agentwormhole",
-        "name": "Agent Wormhole",
+        "username": "realSamHu",
+        "name": "Samuel Hu",
         "avatar_url": null
       },
-      "published_at": "2026-09-17T13:34:00",
-      "first_seen_at": "2026-09-17T13:52:01.416277",
-      "sub_category_label": null
+      "published_at": "2026-09-17T18:12:10",
+      "first_seen_at": "2026-09-17T19:05:03.172979",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6387,
+      "title": "Comp AI 获3400万美元A轮融资，推进安全合规与渗透测试自动化",
+      "original_title": "🚨 COMP AI RAISES $34M SERIES A FOR AGENTIC SECURITY  Comp AI has raised a $34M Series A led by Roo Capital and Grand Ventures, bringing total funding to $37.5M.  The startup is bui",
+      "summary": "初创公司 Comp AI 获得 3400 万美元 A 轮融资，致力于构建用于自动化安全合规审计和基础设施渗透测试的 AI Agent，人类保持在审批环节中。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注这家公司的 Agent 自动化合规与渗透测试落地模式，它代表了合规自动化与安全运营结合的新趋势，可作为安全工具链选型的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RocketTerminal/status/2100638416241324182",
+      "reader_url": "https://x.com/RocketTerminal/status/2100638416241324182",
+      "image_url": "https://pbs.twimg.com/media/HSbonAxW0AAQVEv.jpg",
+      "author": {
+        "username": "RocketTerminal",
+        "name": "Rocket Terminal",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-17T17:30:01",
+      "first_seen_at": "2026-09-17T17:51:16.163575",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
