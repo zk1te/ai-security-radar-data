@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T05:28:28+08:00",
+  "updated_at": "2026-09-19T06:28:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 7048,
@@ -86,30 +86,6 @@
       },
       "published_at": "2026-09-18T13:00:08",
       "first_seen_at": "2026-09-18T20:07:01.393225",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 6874,
-      "title": "网传研究者利用「Claude 5」攻破 OpenAI 内部代码库",
-      "original_title": "Hackers breach OpenAI using Claude 5  How do you feel when you hear that an AI model was used to break into another company's internal systems? What if I told you it actually happe",
-      "summary": "网传 Hacktron 研究员利用未发布的「Claude 5」在3小时内绕过 ASLR 生成可用 exploit，进而通过已知漏洞接管 OpenAI 员工账号访问内部 GitHub。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 67.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "真实性存疑（Claude 5 尚未发布），但描述的 AI 绕过 ASLR 并快速生成多架构 exploit 的场景值得安全团队警惕，反映了 AI 在攻防两端自动化漏洞利用能力上的预期与讨论热度。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MrSkyAI/status/2100883171545870681",
-      "reader_url": "https://x.com/MrSkyAI/status/2100883171545870681",
-      "image_url": "https://pbs.twimg.com/media/HSfWG8bW4AED0yu.jpg",
-      "author": {
-        "username": "MrSkyAI",
-        "name": "mr.sky | AI & Last News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-18T09:42:35",
-      "first_seen_at": "2026-09-18T10:16:27.760118",
       "sub_category_label": "漏洞挖掘"
     },
     {
