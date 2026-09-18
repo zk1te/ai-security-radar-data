@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T15:21:57+08:00",
+  "updated_at": "2026-09-18T15:52:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -85,6 +85,26 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 6662,
+      "title": "SecTB-RTL：审计AI生成硬件安全验证计划的执行有效性",
+      "original_title": "Trust, but Validate the Instrument: Auditing AI-Generated RTL Verification Plans on Authored Security-Regression Proxies",
+      "summary": "SecTB-RTL 框架覆盖 31 个任务和 124 个硬件安全回归测试，发现 AI 生成的 RTL 验证计划虽能通过 provider schema 校验，但在实际执行边界处大规模失败——1860 次调用中仅 9 次通过生产语义验证器，证明 schema 通过不等于执行有效。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 83.13,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全团队和 AI 安全评测从业者必看。该框架揭示 AI 生成的验证计划在 schema 层通过后仍可能在执行层全面崩溃，提醒安全团队不要把基础设施故障误判为模型能力。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.19844",
+      "reader_url": "https://arxiv.org/pdf/2609.19844",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-18T04:00:00",
+      "first_seen_at": "2026-09-18T07:23:13.533237",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 6632,
       "title": "AutoMIA：利用 LLM Agent 自动化设计成员推理攻击",
       "original_title": "Automated Membership Inference Attacks (AutoMIA): Discovering MIA Signal Computations using LLM Agents",
@@ -103,6 +123,26 @@
       "published_at": "2026-09-18T04:00:00",
       "first_seen_at": "2026-09-18T07:08:50.582440",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6671,
+      "title": "鲁棒保形入侵检测：流量感知校准与攻击轨道不变性",
+      "original_title": "Robust Conformal Intrusion Detection via Traffic-Aware Calibration and Attack-Orbit Invariance",
+      "summary": "针对微调用于入侵检测的 LLM 在对抗扰动下失效的问题，本文提出流量感知保形预测和攻击轨道不变性方法，通过排除攻击者可控特征恢复路径覆盖率保证，代价是7-14个点的精度下降。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 81.18,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 入侵检测的人必看。这篇文章揭示了对抗样本如何绕过 AI 检测器的置信度，并给出了带统计保证的防御思路。落地时需权衡精度代价。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.19241",
+      "reader_url": "https://arxiv.org/pdf/2609.19241",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-18T04:00:00",
+      "first_seen_at": "2026-09-18T07:25:36.060643",
+      "sub_category_label": "威胁检测"
     },
     {
       "id": 6512,
@@ -143,50 +183,6 @@
       "published_at": "2026-09-18T04:00:00",
       "first_seen_at": "2026-09-18T07:07:06.240175",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 6618,
-      "title": "研究员用 Claude 攻破 OpenAI 论坛并触及内部代码库",
-      "original_title": "🔥  Researchers Use Claude Opus 5 to Hack OpenAI Forum and Reach Internal Repositories    Details: https://t.co/2qrx6rrGYl Researchers used Anthropic’s Claude Opus 5 to help weaponi",
-      "summary": "研究人员利用 Claude 辅助武器化图像解码器漏洞，通过 OpenAI 社区论坛的 RCE 打穿 SSO，接管员工账户并访问内部源代码仓库。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery",
-      "score_total": 79.84,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "展示了 AI 辅助攻击从外网边缘服务一路打穿到内部核心资产的完整链路。安全团队需重点关注外围服务的边界隔离和 SSO 安全，防御方也应尽快引入 AI 辅助攻击面梳理。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2100814991402188862",
-      "reader_url": "https://x.com/The_Cyber_News/status/2100814991402188862",
-      "image_url": "https://pbs.twimg.com/media/HSeXrEmbQAA8ZMN.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-18T05:11:39",
-      "first_seen_at": "2026-09-18T05:54:12.293462",
-      "sub_category_label": null
-    },
-    {
-      "id": 6650,
-      "title": "DRL引导的勒索软件检测框架DDQN-MLP",
-      "original_title": "DDQN-MLP: An Explainable and Adversarially Robust DRL-Guided Adaptive Learning Framework for Ransomware Detection",
-      "summary": "该论文提出DDQN-MLP框架，利用深度强化学习作为自适应样本权重控制器，引导轻量级MLP进行勒索软件行为检测，并验证了其高准确率与对抗鲁棒性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "malware_detection",
-      "score_total": 79.48,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "安全检测团队可以关注这种将DRL用于动态调整样本权重的新思路，它展示了在不牺牲推理性能的前提下提升勒索软件检测鲁棒性的可能。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.20314",
-      "reader_url": "https://arxiv.org/pdf/2609.20314",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-18T04:00:00",
-      "first_seen_at": "2026-09-18T07:13:58.302910",
-      "sub_category_label": "恶意软件与威胁检测"
     }
   ]
 }
