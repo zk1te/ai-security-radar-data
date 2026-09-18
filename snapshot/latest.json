@@ -1,9 +1,49 @@
 {
-  "updated_at": "2026-09-18T08:14:09+08:00",
+  "updated_at": "2026-09-18T08:44:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 6512,
+      "title": "Cloudflare 开源安全审计 Skill，单日涨星超 3600",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 3607 stars today",
+      "summary": "Cloudflare 开源了一个面向编码 Agent 的安全审计技能，支持多阶段审计并输出可独立验证的机器可读结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.04,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "给用 Cursor/Copilot 做 code review 的人看：Cloudflare 把安全审计做成了 coding-agent skill，核心亮点是「独立验证」的机器可读 findings，能直接接入自动化流程，值得拿来对比自家的审计 prompt。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-18&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-18&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-18T00:17:58.247773",
+      "first_seen_at": "2026-09-18T00:19:31.922567",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6513,
+      "title": "阿里开源 open-code-review：LLM 驱动的代码审查工具",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 3286 stars today",
+      "summary": "该项目采用确定性流水线结合 LLM Agent，提供行级代码评论，内置 XSS、SQL 注入等安全规则，兼容 OpenAI 与 Anthropic。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_audit",
+      "score_total": 78.41,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是一款可直接落地的 AI 代码审查工具，覆盖常见安全漏洞检测。安全团队应关注其 LLM+规则混合架构的实战效果，评估是否可集成到 CI/CD 流程中替代部分人工审计。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-18&since=daily",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-18&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-18T00:17:57.802693",
+      "first_seen_at": "2026-09-18T00:19:32.265425",
+      "sub_category_label": null
+    },
     {
       "id": 6293,
       "title": "PentestChain利用免费LLM与MCP编排实现自动化渗透测试",
@@ -195,54 +235,6 @@
       "published_at": "2026-09-17T13:34:00",
       "first_seen_at": "2026-09-17T13:52:01.416277",
       "sub_category_label": null
-    },
-    {
-      "id": 6292,
-      "title": "Nebula：AI 驱动的渗透测试助手工具",
-      "original_title": "berylliumsec/nebula (1.1k stars) AI-powered penetration testing assistant for automating recon, note-taking, and vulnerability  https://t.co/6DoiQTO53s",
-      "summary": "开源项目 Nebula 是一款 AI 驱动的渗透测试助手，支持自动化侦察、笔记记录和漏洞发现，目前在 GitHub 上已获 1.1k 星。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试和红队人员可以关注此工具，利用 AI 自动化处理耗时的侦察和笔记工作，提升测试效率。可以直接去 GitHub 试用接入现有工作流。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ChintanVibes/status/2100565736997687727",
-      "reader_url": "https://x.com/ChintanVibes/status/2100565736997687727",
-      "image_url": null,
-      "author": {
-        "username": "ChintanVibes",
-        "name": "ChintanVibes",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T12:41:12",
-      "first_seen_at": "2026-09-17T12:46:25.437911",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6291,
-      "title": "AI 渗透测试助手 Nebula：自动化侦察与漏洞发现",
-      "original_title": "berylliumsec/nebula (1.1k stars) AI-powered penetration testing assistant for automating recon, note-taking, and vulnerability  https://t.co/6DoiQTO53s",
-      "summary": "Nebula 是一款 AI 驱动的开源渗透测试助手，旨在自动化执行侦察、笔记记录和漏洞发现流程，目前在 GitHub 已获超千星。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试团队可关注这款集成大模型的开源助手，能直接接入现有工作流提升侦察与记录效率，开箱即用值得一试。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ChintanVibes/status/2100565734363725989",
-      "reader_url": "https://x.com/ChintanVibes/status/2100565734363725989",
-      "image_url": null,
-      "author": {
-        "username": "ChintanVibes",
-        "name": "ChintanVibes",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T12:41:12",
-      "first_seen_at": "2026-09-17T12:46:24.182566",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
