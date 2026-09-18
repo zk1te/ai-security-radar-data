@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T13:18:53+08:00",
+  "updated_at": "2026-09-18T14:20:25+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,6 +43,30 @@
       "published_at": "2026-09-18T00:17:58.247773",
       "first_seen_at": "2026-09-18T00:19:31.922567",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6618,
+      "title": "研究员用 Claude 攻破 OpenAI 论坛并触及内部代码库",
+      "original_title": "🔥  Researchers Use Claude Opus 5 to Hack OpenAI Forum and Reach Internal Repositories    Details: https://t.co/2qrx6rrGYl Researchers used Anthropic’s Claude Opus 5 to help weaponi",
+      "summary": "研究人员利用 Claude 辅助武器化图像解码器漏洞，通过 OpenAI 社区论坛的 RCE 打穿 SSO，接管员工账户并访问内部源代码仓库。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery",
+      "score_total": 79.84,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI 辅助攻击从外网边缘服务一路打穿到内部核心资产的完整链路。安全团队需重点关注外围服务的边界隔离和 SSO 安全，防御方也应尽快引入 AI 辅助攻击面梳理。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2100814991402188862",
+      "reader_url": "https://x.com/The_Cyber_News/status/2100814991402188862",
+      "image_url": "https://pbs.twimg.com/media/HSeXrEmbQAA8ZMN.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-18T05:11:39",
+      "first_seen_at": "2026-09-18T05:54:12.293462",
+      "sub_category_label": null
     },
     {
       "id": 6513,
@@ -207,30 +231,6 @@
       "published_at": "2026-09-17T19:27:24",
       "first_seen_at": "2026-09-17T19:38:33.415711",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 6527,
-      "title": "AI 渗透测试工具 Strix：自动化漏洞验证与修复",
-      "original_title": "Stop paying $15k per manual pentest audit or drowning in hundreds of useless static scanner false positives. 🛡️  Meet usestrix/strix (63k⭐)  Most security scanners just regex your ",
-      "summary": "Strix 是一款开源 AI 渗透测试工具，利用多 Agent 协作动态发现并验证漏洞，生成可用 PoC，并支持自动生成补丁和审计报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试人员应关注，它展示了多 Agent 如何结合 Caido 与 Playwright 进行动态验证以减少误报。可直接克隆测试其 PoC 生成能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/dasepmochly/status/2100734410576502970",
-      "reader_url": "https://x.com/dasepmochly/status/2100734410576502970",
-      "image_url": null,
-      "author": {
-        "username": "dasepmochly",
-        "name": "Dasep Moch Luay",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T23:51:27",
-      "first_seen_at": "2026-09-18T01:02:25.416929",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
