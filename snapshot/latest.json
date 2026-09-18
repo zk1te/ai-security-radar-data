@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T10:15:48+08:00",
+  "updated_at": "2026-09-18T12:17:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -91,6 +91,30 @@
       "published_at": "2026-09-17T19:39:44",
       "first_seen_at": "2026-09-17T20:12:23.296098",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 6582,
+      "title": "TRC 分析称多智能体攻击框架 6 小时内完成凭据收集",
+      "original_title": "TRC analysis shows AI-powered attack frameworks completed full credential harvesting operations in under 6 hours with minimal human oversight. Multi-agent systems managed lateral m",
+      "summary": "TRC 分析显示，AI 驱动的多智能体攻击框架在极少人工干预下，于 6 小时内完成凭据收集，自主实现了云环境横向移动、漏洞扫描和 C2 轮换。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "防御方需警惕 AI 驱动的自动化攻击在速度和复杂度上的跃升。红队可研究其多智能体协作模式，蓝队则应关注运行时隔离以限制爆炸半径。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2100737423265181745",
+      "reader_url": "https://x.com/aviatrixtrc/status/2100737423265181745",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-18T00:03:26",
+      "first_seen_at": "2026-09-18T03:53:13.097727",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 6494,
@@ -210,30 +234,6 @@
       },
       "published_at": "2026-09-17T18:12:10",
       "first_seen_at": "2026-09-17T19:05:03.172979",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 6387,
-      "title": "Comp AI 获3400万美元A轮融资，推进安全合规与渗透测试自动化",
-      "original_title": "🚨 COMP AI RAISES $34M SERIES A FOR AGENTIC SECURITY  Comp AI has raised a $34M Series A led by Roo Capital and Grand Ventures, bringing total funding to $37.5M.  The startup is bui",
-      "summary": "初创公司 Comp AI 获得 3400 万美元 A 轮融资，致力于构建用于自动化安全合规审计和基础设施渗透测试的 AI Agent，人类保持在审批环节中。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应关注这家公司的 Agent 自动化合规与渗透测试落地模式，它代表了合规自动化与安全运营结合的新趋势，可作为安全工具链选型的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RocketTerminal/status/2100638416241324182",
-      "reader_url": "https://x.com/RocketTerminal/status/2100638416241324182",
-      "image_url": "https://pbs.twimg.com/media/HSbonAxW0AAQVEv.jpg",
-      "author": {
-        "username": "RocketTerminal",
-        "name": "Rocket Terminal",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T17:30:01",
-      "first_seen_at": "2026-09-17T17:51:16.163575",
       "sub_category_label": "安全Agent"
     }
   ]
