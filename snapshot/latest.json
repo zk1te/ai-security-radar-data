@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T06:28:49+08:00",
+  "updated_at": "2026-09-19T07:28:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 7048,
@@ -111,6 +111,30 @@
       "published_at": "2026-09-18T12:37:46",
       "first_seen_at": "2026-09-18T13:40:52.092888",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7083,
+      "title": "Claude Code 新增对 AGENTS.md 文件的支持",
+      "original_title": "HN Hot Discussion: Claude Code now reads AGENTS.md if there is no Claude.md",
+      "summary": "Claude Code 更新，在缺少 Claude.md 时会自动读取 AGENTS.md 作为上下文指令，引发 Hacker News 社区对 Agent 配置标准化的讨论。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 64.58,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "属于通用 AI 编程助手更新，非直接安全工具。但做安全代码审计自动化的从业者可关注 Agent 上下文指令文件的标准演进趋势。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-18",
+      "reader_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-18",
+      "image_url": null,
+      "author": {
+        "username": "datadrivenangel",
+        "name": "datadrivenangel",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-18T21:00:32",
+      "first_seen_at": "2026-09-18T22:28:32.153753",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
