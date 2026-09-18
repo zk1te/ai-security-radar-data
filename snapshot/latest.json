@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T08:44:13+08:00",
+  "updated_at": "2026-09-18T09:15:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,30 +43,6 @@
       "published_at": "2026-09-18T00:17:57.802693",
       "first_seen_at": "2026-09-18T00:19:32.265425",
       "sub_category_label": null
-    },
-    {
-      "id": 6293,
-      "title": "PentestChain利用免费LLM与MCP编排实现自动化渗透测试",
-      "original_title": "PentestChain automates penetration testing using free-tier LLMs orchestrated via MCP.  Free tier.  The cost of an automated pentest run is now bounded by the rate limits of service",
-      "summary": "PentestChain通过MCP调度免费层级的大语言模型完成自动化渗透测试，证明自动化攻击无需依赖昂贵的前沿模型，挑战了基于算力成本的传统威胁模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队和威胁建模人员必看。它证明了只要编排得当，免费小模型就能胜任大部分脚本化渗透工作，攻击成本底线实际为零。建议立即重新评估现有威胁模型中关于AI攻击成本的假设。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/4A4556494C/status/2100559852011393452",
-      "reader_url": "https://x.com/4A4556494C/status/2100559852011393452",
-      "image_url": null,
-      "author": {
-        "username": "4A4556494C",
-        "name": "4A 45 56 49 4C",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-17T12:17:49",
-      "first_seen_at": "2026-09-17T12:46:26.166079",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 6498,
@@ -210,6 +186,30 @@
       },
       "published_at": "2026-09-17T10:52:08",
       "first_seen_at": "2026-09-17T13:53:04.284793",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 6527,
+      "title": "AI 渗透测试工具 Strix：自动化漏洞验证与修复",
+      "original_title": "Stop paying $15k per manual pentest audit or drowning in hundreds of useless static scanner false positives. 🛡️  Meet usestrix/strix (63k⭐)  Most security scanners just regex your ",
+      "summary": "Strix 是一款开源 AI 渗透测试工具，利用多 Agent 协作动态发现并验证漏洞，生成可用 PoC，并支持自动生成补丁和审计报告。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试人员应关注，它展示了多 Agent 如何结合 Caido 与 Playwright 进行动态验证以减少误报。可直接克隆测试其 PoC 生成能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/dasepmochly/status/2100734410576502970",
+      "reader_url": "https://x.com/dasepmochly/status/2100734410576502970",
+      "image_url": null,
+      "author": {
+        "username": "dasepmochly",
+        "name": "Dasep Moch Luay",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-17T23:51:27",
+      "first_seen_at": "2026-09-18T01:02:25.416929",
       "sub_category_label": "安全Agent"
     },
     {
