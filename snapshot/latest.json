@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-18T17:23:37+08:00",
+  "updated_at": "2026-09-19T01:25:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 6611,
-      "title": "RiskChainBench：评估Agent对抗混淆消息与Web取证的基准",
-      "original_title": "RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation",
-      "summary": "论文提出RiskChainBench，用于评估多模态大模型在还原平台滥用混淆消息及自动化Web风险调查取证中的能力，发现当前模型在稳定探索和风险判断上存在明显瓶颈。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 87.34,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做威胁情报和自动化Web调查的安全研究员必看。该基准打通了从混淆文本恢复到Web站点取证的端到端评测，且提供了本地沙箱，可直接用于Agent安全能力的实战压测。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.16900",
-      "reader_url": "https://arxiv.org/pdf/2609.16900",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-18T00:00:00",
-      "first_seen_at": "2026-09-18T05:04:54.564202",
-      "sub_category_label": "安全评测与Benchmark"
-    },
     {
       "id": 6689,
       "title": "符号执行新法高效揪出AI生成CUDA内核漏洞",
@@ -183,6 +163,26 @@
       "published_at": "2026-09-18T04:00:00",
       "first_seen_at": "2026-09-18T07:25:36.060643",
       "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 6628,
+      "title": "评估大模型在符号安全协议分析中的能力",
+      "original_title": "Evaluating Large Language Models for Symbolic Security Protocol Analysis",
+      "summary": "研究评估了GPT和DeepSeek在130个混淆协议上的安全分析能力，发现其表现不及ProVerif等形式化工具，且判决不稳定、自报置信度与正确性无关，目前仅适合作为预筛工具。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 80.88,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队不可轻信LLM在形式化协议验证中的表现。当前模型在认证攻击检测上漏报严重且跨次运行极不稳定，远不能替代ProVerif等工具。若要用作辅助预筛，务必警惕其高假阳性和虚高自报置信度。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.20712",
+      "reader_url": "https://arxiv.org/pdf/2607.20712",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-18T04:00:00",
+      "first_seen_at": "2026-09-18T07:07:06.240175",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
