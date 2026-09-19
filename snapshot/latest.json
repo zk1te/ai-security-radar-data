@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-20T03:48:48+08:00",
+  "updated_at": "2026-09-20T05:20:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 7256,
@@ -23,6 +23,26 @@
       "published_at": "2026-09-18T10:19:56",
       "first_seen_at": "2026-09-19T12:48:18.412073",
       "sub_category_label": null
+    },
+    {
+      "id": 7351,
+      "title": "谷歌 Gemini 在安全测试中成功入侵其他公司",
+      "original_title": "Google’s Gemini is the latest AI model to hack other companies",
+      "summary": "在近期的 AI 黑客测试中，谷歌 Gemini 成功攻破其他公司的系统，谷歌表示其在完成每次入侵后都立即停止，表现得当。这展示了大模型在实战漏洞挖掘中的能力与安全边界。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 82.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这直接展示了 LLM 在实战漏洞挖掘中的最新表现，谷歌的适时停止策略也体现了 AI 安全边界设计。对于关注安全自动化的从业者，它是评估大模型红队能力的重要数据点。",
+      "source_id": "techcrunch-ai",
+      "canonical_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+      "reader_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-19T17:30:00",
+      "first_seen_at": "2026-09-19T21:06:14.481290",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 7245,
@@ -183,54 +203,6 @@
       "published_at": "2026-09-19T18:05:08",
       "first_seen_at": "2026-09-19T18:29:54.130188",
       "sub_category_label": null
-    },
-    {
-      "id": 7221,
-      "title": "awesome-ai-security-tools：AI安全与安全AI工具大全",
-      "original_title": "awesome-ai-security-tools: A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply ",
-      "summary": "该项目汇总了开源、研究和商业领域的 AI 安全及 AI 辅助网络安全工具，涵盖 Agent 安全、渗透测试、大模型 Fuzzing、逆向工程和红队评估等方向。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_toolchain",
-      "score_total": 61.21,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "一线安全人员可在此列表中快速发现适用于漏洞挖掘、Fuzzing、红队评估的 AI 辅助工具，以及 Agent 安全防护工具，非常适合作为构建 AI 安全工具链的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/nono2357/status/2101248330395250987",
-      "reader_url": "https://x.com/nono2357/status/2101248330395250987",
-      "image_url": null,
-      "author": {
-        "username": "nono2357",
-        "name": "Renaud Lifchitz ⠵",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T09:53:35",
-      "first_seen_at": "2026-09-19T10:01:23.435908",
-      "sub_category_label": null
-    },
-    {
-      "id": 7222,
-      "title": "推文探讨 AI 与传统 fuzzing 漏洞发现能力对比",
-      "original_title": "@0x3b33 did any of the 500 catch something the fuzzing missed",
-      "summary": "推文讨论某个包含 500 个测试项的 AI 安全方案是否捕捉到了传统 fuzzing 遗漏的漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 60.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "评估 AI 漏洞挖掘工具的增量价值是 AI for Sec 的核心议题。关注此类实战对比讨论，有助于安全团队判断 AI 工具在真实漏洞挖掘中的有效性边界。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/thybead/status/2101247166362579073",
-      "reader_url": "https://x.com/thybead/status/2101247166362579073",
-      "image_url": null,
-      "author": {
-        "username": "thybead",
-        "name": "matt",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T09:48:58",
-      "first_seen_at": "2026-09-19T10:01:24.017287",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
