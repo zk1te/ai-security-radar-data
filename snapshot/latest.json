@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T16:34:08+08:00",
+  "updated_at": "2026-09-19T19:34:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -133,28 +133,24 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 7090,
-      "title": "Anthropic 与埃森哲合作投入10亿美元评估前沿AI",
-      "original_title": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at l",
-      "summary": "Anthropic 与埃森哲宣布合作，计划在未来五年内投资至少10亿美元，用于前沿AI的独立评估能力建设。",
-      "primary_category": "AI Tech | Sec for AI",
-      "sub_category": "model_evaluation",
-      "score_total": 69.0,
+      "id": 7239,
+      "title": "阿里开源混合架构代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+      "summary": "该工具采用确定性管道与 LLM Agent 混合架构，支持行级精准评论，并内置 XSS、SQL 注入等多语言安全规则集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 67.95,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "前沿AI评估的商业化投入和第三方评估员嵌入机制值得安全评测从业者关注，可能预示未来模型安全评估的规模化趋势。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AnthropicAI/status/2101039819870937247",
-      "reader_url": "https://x.com/AnthropicAI/status/2101039819870937247",
+      "recommendation_reason": "展示了大模型与确定性规则结合在代码安全审计中的落地实践。安全团队可参考其架构，探索如何利用 LLM 提升代码审计的覆盖面与效率，减少误报。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-19&since=weekly",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-19&since=weekly",
       "image_url": null,
-      "author": {
-        "username": "AnthropicAI",
-        "name": "Anthropic",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-18T20:05:03",
-      "first_seen_at": "2026-09-18T23:33:38.726348",
-      "sub_category_label": null
+      "author": null,
+      "published_at": "2026-09-19T11:29:42.497688",
+      "first_seen_at": "2026-09-19T11:30:47.194918",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
