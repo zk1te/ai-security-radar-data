@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T23:10:30+08:00",
+  "updated_at": "2026-09-19T23:42:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 7196,
@@ -109,6 +109,30 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 7268,
+      "title": "Codex安全代理在VulnBench 2新测试中结果存在差异",
+      "original_title": "@nisedo_ I see different results with the Codex Security agent / plugin for a new VulnBench 2 iteration (no threat model, just vanilla repo and run). Do you want to compare note? 😁",
+      "summary": "有推文指出在使用 Codex Security 代理针对 VulnBench 2 新版进行测试时得出不同结果，并寻求交流比对。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 65.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "从事 AI 安全评测的人员应关注，VulnBench 2 新迭代可能会影响现有安全代理的评测结论，建议跟进复现对比测试结果以校准你的 Agent。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/liran_tal/status/2101327314269176216",
+      "reader_url": "https://x.com/liran_tal/status/2101327314269176216",
+      "image_url": null,
+      "author": {
+        "username": "liran_tal",
+        "name": "Liran Tal",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T15:07:27",
+      "first_seen_at": "2026-09-19T15:28:29.555742",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 7179,
       "title": "TermiX 推出 GoPlus 安全审计 Agent，探索 Agent 经济落地",
       "original_title": "Happy Weekend X fam ☕   The next milestone for the agent economy is not more AI agents sitting idle, It's more agents getting real work.  @termix_ai is pushing this shift with live",
@@ -130,6 +154,30 @@
       },
       "published_at": "2026-09-19T05:37:37",
       "first_seen_at": "2026-09-19T06:05:28.315614",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7270,
+      "title": "Agent自主雇佣安全Agent执行智能合约检查",
+      "original_title": "1/ Imagine this:  An agent needs a smart contract checked.  It doesn’t ask a human.  It finds a security agent on https://t.co/0VBxLO1Lh7, hires it, sends the task and waits for th",
+      "summary": "描述了一个Agent自动寻找并雇佣安全Agent执行智能合约检查，展示了A2A自动化协作在安全审计中的应用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 63.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展现了Agent间自动雇佣与协作在安全审计中的落地雏形。安全工具开发者可关注此类A2A交易协议与任务分发模式，评估将自身工具Agent化并接入开放平台的商业机会。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Amano_M4/status/2101322288692117666",
+      "reader_url": "https://x.com/Amano_M4/status/2101322288692117666",
+      "image_url": null,
+      "author": {
+        "username": "Amano_M4",
+        "name": "Amano Moises 🐬",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T14:47:28",
+      "first_seen_at": "2026-09-19T15:28:35.586504",
       "sub_category_label": "安全Agent"
     },
     {
@@ -155,30 +203,6 @@
       "published_at": "2026-09-19T06:09:23",
       "first_seen_at": "2026-09-19T07:24:22.771461",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7221,
-      "title": "awesome-ai-security-tools：AI安全与安全AI工具大全",
-      "original_title": "awesome-ai-security-tools: A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply ",
-      "summary": "该项目汇总了开源、研究和商业领域的 AI 安全及 AI 辅助网络安全工具，涵盖 Agent 安全、渗透测试、大模型 Fuzzing、逆向工程和红队评估等方向。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_toolchain",
-      "score_total": 61.21,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "一线安全人员可在此列表中快速发现适用于漏洞挖掘、Fuzzing、红队评估的 AI 辅助工具，以及 Agent 安全防护工具，非常适合作为构建 AI 安全工具链的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/nono2357/status/2101248330395250987",
-      "reader_url": "https://x.com/nono2357/status/2101248330395250987",
-      "image_url": null,
-      "author": {
-        "username": "nono2357",
-        "name": "Renaud Lifchitz ⠵",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T09:53:35",
-      "first_seen_at": "2026-09-19T10:01:23.435908",
-      "sub_category_label": null
     }
   ]
 }
