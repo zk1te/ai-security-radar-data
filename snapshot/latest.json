@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T23:42:01+08:00",
+  "updated_at": "2026-09-20T01:15:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -63,30 +63,6 @@
       "published_at": "2026-09-19T11:00:00",
       "first_seen_at": "2026-09-19T12:40:38.575956",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 7170,
-      "title": "OrcaBonsai 推理时去审查，助力本地恶意样本与漏洞分析",
-      "original_title": "把恶意样本丢给模型分析，它先回你一段\"我不能协助\"。😂  这个项目在推理时把这层拒答直接拿掉，权重一个 bit 都不动。  OrcaBonsai-27B-Uncensored，我翻完了仓库。它没有改原始三值权重，也没有重新量化，只在推理时消掉与拒答相关的那个方向。alpha=0 是原始模型，alpha=1 全开，中间值调强度，还能指定干预层。用完关掉，模型恢",
-      "summary": "OrcaBonsai-27B-Uncensored 在推理时消除模型拒答方向且不改权重，大幅降低安全场景下的拒答率，适合用于本地分析恶意样本和漏洞复现。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全工程师常被通用模型拒答困扰。此法不改权重即可解锁模型分析恶意 payload 的能力，适合接入工具链后端做上下文分析。务必在沙箱内运行并人工确认结果，防误报和幻觉。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/xiangxiang103/status/2101169712210305356",
-      "reader_url": "https://x.com/xiangxiang103/status/2101169712210305356",
-      "image_url": null,
-      "author": {
-        "username": "xiangxiang103",
-        "name": "雨哥向前冲",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T04:41:11",
-      "first_seen_at": "2026-09-19T04:48:48.282143",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 7239,
@@ -203,6 +179,30 @@
       "published_at": "2026-09-19T06:09:23",
       "first_seen_at": "2026-09-19T07:24:22.771461",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7221,
+      "title": "awesome-ai-security-tools：AI安全与安全AI工具大全",
+      "original_title": "awesome-ai-security-tools: A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply ",
+      "summary": "该项目汇总了开源、研究和商业领域的 AI 安全及 AI 辅助网络安全工具，涵盖 Agent 安全、渗透测试、大模型 Fuzzing、逆向工程和红队评估等方向。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_toolchain",
+      "score_total": 61.21,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "一线安全人员可在此列表中快速发现适用于漏洞挖掘、Fuzzing、红队评估的 AI 辅助工具，以及 Agent 安全防护工具，非常适合作为构建 AI 安全工具链的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/nono2357/status/2101248330395250987",
+      "reader_url": "https://x.com/nono2357/status/2101248330395250987",
+      "image_url": null,
+      "author": {
+        "username": "nono2357",
+        "name": "Renaud Lifchitz ⠵",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T09:53:35",
+      "first_seen_at": "2026-09-19T10:01:23.435908",
+      "sub_category_label": null
     }
   ]
 }
