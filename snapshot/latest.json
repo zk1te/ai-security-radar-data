@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T01:15:38+08:00",
+  "updated_at": "2026-09-20T02:15:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -109,30 +109,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 7179,
-      "title": "TermiX 推出 GoPlus 安全审计 Agent，探索 Agent 经济落地",
-      "original_title": "Happy Weekend X fam ☕   The next milestone for the agent economy is not more AI agents sitting idle, It's more agents getting real work.  @termix_ai is pushing this shift with live",
-      "summary": "TermiX 平台推出 GoPlus 安全 Agent，允许用户发布安全审计任务并按链上结算，推动 AI Agent 从注册转向实际雇佣与工作交付。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.43,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "TermiX 试图通过任务分发和链上结算让安全 Agent 真正干活，这展示了安全 Agent 商业化落地的一种新形态。安全团队可关注这种自动化任务分发与结算机制如何应用到实际安全工作中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AkadexCrypto/status/2101183914324718017",
-      "reader_url": "https://x.com/AkadexCrypto/status/2101183914324718017",
-      "image_url": "https://pbs.twimg.com/media/HSjnnGfXEAAJrwa.jpg",
-      "author": {
-        "username": "AkadexCrypto",
-        "name": "Akadex ⚓",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T05:37:37",
-      "first_seen_at": "2026-09-19T06:05:28.315614",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 7270,
       "title": "Agent自主雇佣安全Agent执行智能合约检查",
       "original_title": "1/ Imagine this:  An agent needs a smart contract checked.  It doesn’t ask a human.  It finds a security agent on https://t.co/0VBxLO1Lh7, hires it, sends the task and waits for th",
@@ -203,6 +179,30 @@
       "published_at": "2026-09-19T09:53:35",
       "first_seen_at": "2026-09-19T10:01:23.435908",
       "sub_category_label": null
+    },
+    {
+      "id": 7222,
+      "title": "推文探讨 AI 与传统 fuzzing 漏洞发现能力对比",
+      "original_title": "@0x3b33 did any of the 500 catch something the fuzzing missed",
+      "summary": "推文讨论某个包含 500 个测试项的 AI 安全方案是否捕捉到了传统 fuzzing 遗漏的漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 60.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "评估 AI 漏洞挖掘工具的增量价值是 AI for Sec 的核心议题。关注此类实战对比讨论，有助于安全团队判断 AI 工具在真实漏洞挖掘中的有效性边界。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/thybead/status/2101247166362579073",
+      "reader_url": "https://x.com/thybead/status/2101247166362579073",
+      "image_url": null,
+      "author": {
+        "username": "thybead",
+        "name": "matt",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T09:48:58",
+      "first_seen_at": "2026-09-19T10:01:24.017287",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
