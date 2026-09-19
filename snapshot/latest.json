@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-09-19T07:58:58+08:00",
+  "updated_at": "2026-09-19T09:29:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
+    {
+      "id": 7134,
+      "title": "Cloudflare开源安全审计Agent技能，日增3000星",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 3006 stars today",
+      "summary": "Cloudflare开源了一个用于多阶段安全审计的编码代理技能，能生成独立验证且机器可读的审计结果，目前在GitHub上热度飙升。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 96.95,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "安全审计自动化实战标杆。做代码审计或渗透测试自动化的团队应关注其独立验证机制，这正是当前安全Agent落地防误报的核心设计。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-19&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-19&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-19T01:07:51.896311",
+      "first_seen_at": "2026-09-19T01:12:14.354271",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 7048,
       "title": "研究员利用 Claude 攻破 OpenAI 内部系统",
@@ -23,6 +43,26 @@
       "published_at": "2026-09-18T14:00:14",
       "first_seen_at": "2026-09-18T20:00:50.832265",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7132,
+      "title": "阿里 open-code-review 登顶 GitHub Trending，混合架构做 AI 代码审查",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 2704 stars today",
+      "summary": "阿里巴巴开源的 open-code-review 日增 2704 stars，采用确定性流水线 + LLM Agent 混合架构，支持行级精准评论，内置 NPE、线程安全、XSS、SQL注入等多语言安全规则集，兼容 OpenAI 与 Anthropic 模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_review",
+      "score_total": 87.15,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "大厂把 LLM Agent 落地到代码安全审查的真实参考。做 SAST 或代码审计的工具团队值得看它如何用确定性规则约束 LLM 输出，实现行级精准定位而非泛泛而谈。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-19&since=daily",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-19&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-19T01:07:52.070369",
+      "first_seen_at": "2026-09-19T01:12:13.705513",
+      "sub_category_label": null
     },
     {
       "id": 7051,
@@ -65,6 +105,26 @@
       "sub_category_label": "渗透测试"
     },
     {
+      "id": 7131,
+      "title": "GitHub 热门项目 ECC：面向编码 Agent 的性能与安全优化系统",
+      "original_title": "GitHub Trending: affaan-m/ECC gained 958 stars today",
+      "summary": "GitHub Trending 项目 ECC 聚焦于 Agent harness 性能优化，为 Claude Code、Codex 等编码模型提供技能、记忆及安全研究支持。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 70.86,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "该项目聚焦为 Claude Code 等编程 Agent 提供性能、记忆与安全优化，安全从业者可关注其 harness 设计思路，为构建自动化安全任务 Agent 提供参考。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/affaan-m/ECC?github_trending_date=2026-09-19&since=daily",
+      "reader_url": "https://github.com/affaan-m/ECC?github_trending_date=2026-09-19&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-19T01:07:52.159983",
+      "first_seen_at": "2026-09-19T01:11:47.271777",
+      "sub_category_label": "Agent 架构"
+    },
+    {
       "id": 7053,
       "title": "人机协同攻击战力强劲，6000美元漏洞赏金被认为过低",
       "original_title": "Humans + LLMs doing offense are still kicking ass, and a $6,000 bug bounty for that wasn’t nearly enough.",
@@ -86,54 +146,6 @@
       },
       "published_at": "2026-09-18T13:00:08",
       "first_seen_at": "2026-09-18T20:07:01.393225",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 7090,
-      "title": "Anthropic 与埃森哲合作投入10亿美元评估前沿AI",
-      "original_title": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at l",
-      "summary": "Anthropic 与埃森哲宣布合作，计划在未来五年内投资至少10亿美元，用于前沿AI的独立评估能力建设。",
-      "primary_category": "AI Tech | Sec for AI",
-      "sub_category": "model_evaluation",
-      "score_total": 69.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "前沿AI评估的商业化投入和第三方评估员嵌入机制值得安全评测从业者关注，可能预示未来模型安全评估的规模化趋势。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AnthropicAI/status/2101039819870937247",
-      "reader_url": "https://x.com/AnthropicAI/status/2101039819870937247",
-      "image_url": null,
-      "author": {
-        "username": "AnthropicAI",
-        "name": "Anthropic",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-18T20:05:03",
-      "first_seen_at": "2026-09-18T23:33:38.726348",
-      "sub_category_label": null
-    },
-    {
-      "id": 6931,
-      "title": "Claude 涉足渗透测试发现 OpenAI 漏洞",
-      "original_title": "“Good morning, New York.  Coffee: ready. Markets: open. OpenAI: breached. Claude: apparently doing penetration testing at the competition.  Nothing says ‘healthy AI competition’ qu",
-      "summary": "有动态称 Claude 被用于对竞争对手进行渗透测试，并成功发现 OpenAI 相关系统的漏洞，引发安全圈对 AI 网络攻防能力的关注。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 67.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者应重点关注顶级大模型在实战渗透测试中的表现，借此评估自身防御体系面对 AI 辅助攻击的真实韧性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RobertoBalbinoX/status/2100927259028656318",
-      "reader_url": "https://x.com/RobertoBalbinoX/status/2100927259028656318",
-      "image_url": null,
-      "author": {
-        "username": "RobertoBalbinoX",
-        "name": "Roberto Balbino",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-18T12:37:46",
-      "first_seen_at": "2026-09-18T13:40:52.092888",
       "sub_category_label": "漏洞挖掘"
     }
   ]
