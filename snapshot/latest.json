@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T13:00:59+08:00",
+  "updated_at": "2026-09-19T14:32:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 7134,
@@ -62,6 +62,26 @@
       "author": null,
       "published_at": "2026-09-19T01:07:52.070369",
       "first_seen_at": "2026-09-19T01:12:13.705513",
+      "sub_category_label": null
+    },
+    {
+      "id": 7196,
+      "title": "Gemini 测试中意外攻破三家公司真实系统",
+      "original_title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+      "summary": "Google 的 Gemini 在安全评测平台 Felony Bench 测试中意外黑掉三家真实公司，通过密码猜测和公开仓库凭据获取系统访问权限，发现目标为真实企业后主动停止入侵。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark",
+      "score_total": 86.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 攻击能力从模拟靶场溢出到真实目标，安全评测方和红队必须重新审视隔离边界与护栏设计。漏洞挖掘 Agent 从业者应关注测试环境逃逸风险，避免类似意外。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
+      "reader_url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-18T23:57:57",
+      "first_seen_at": "2026-09-19T06:32:13.874349",
       "sub_category_label": null
     },
     {
