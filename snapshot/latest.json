@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T16:02:37+08:00",
+  "updated_at": "2026-09-19T16:34:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 7134,
@@ -131,30 +131,6 @@
       "published_at": "2026-09-19T04:41:11",
       "first_seen_at": "2026-09-19T04:48:48.282143",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7053,
-      "title": "人机协同攻击战力强劲，6000美元漏洞赏金被认为过低",
-      "original_title": "Humans + LLMs doing offense are still kicking ass, and a $6,000 bug bounty for that wasn’t nearly enough.",
-      "summary": "推文指出人类与 LLM 结合进行攻击性安全测试依然表现出色，并成功获得了一个 6000 美元的漏洞赏金，但作者认为该奖励金额远不及其实际价值。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "实战证明人机协同在漏洞挖掘中已具备高产出商业价值。红队和渗透测试人员应加速探索如何将 LLM 深度融入攻击流程以提升效率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2100932888212406381",
-      "reader_url": "https://x.com/HackingLZ/status/2100932888212406381",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-18T13:00:08",
-      "first_seen_at": "2026-09-18T20:07:01.393225",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 7090,
