@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T03:18:44+08:00",
+  "updated_at": "2026-09-20T03:48:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -185,30 +185,6 @@
       "sub_category_label": null
     },
     {
-      "id": 7209,
-      "title": "Google Gemini 在安全测试中攻破三家公司",
-      "original_title": "HN Hot Discussion: Google's Gemini AI hacked three companies in security test",
-      "summary": "Google 的 Gemini AI 在安全测试中成功入侵三家公司，引发 HN 社区讨论，展示了 AI 在攻击性安全任务中的实战能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 61.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 攻击能力从实验室演示走向实战测试的又一里程碑。红队和蓝队都该看：攻击侧关注 AI Agent 自动化渗透的成熟度，防御侧评估自身暴露面能否抵挡 AI 驱动的多步骤攻击链。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=49763822&hn_hot_date=2026-09-19",
-      "reader_url": "https://news.ycombinator.com/item?id=49763822&hn_hot_date=2026-09-19",
-      "image_url": null,
-      "author": {
-        "username": "luxpir",
-        "name": "luxpir",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T06:09:23",
-      "first_seen_at": "2026-09-19T07:24:22.771461",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 7221,
       "title": "awesome-ai-security-tools：AI安全与安全AI工具大全",
       "original_title": "awesome-ai-security-tools: A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply ",
@@ -231,6 +207,30 @@
       "published_at": "2026-09-19T09:53:35",
       "first_seen_at": "2026-09-19T10:01:23.435908",
       "sub_category_label": null
+    },
+    {
+      "id": 7222,
+      "title": "推文探讨 AI 与传统 fuzzing 漏洞发现能力对比",
+      "original_title": "@0x3b33 did any of the 500 catch something the fuzzing missed",
+      "summary": "推文讨论某个包含 500 个测试项的 AI 安全方案是否捕捉到了传统 fuzzing 遗漏的漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 60.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "评估 AI 漏洞挖掘工具的增量价值是 AI for Sec 的核心议题。关注此类实战对比讨论，有助于安全团队判断 AI 工具在真实漏洞挖掘中的有效性边界。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/thybead/status/2101247166362579073",
+      "reader_url": "https://x.com/thybead/status/2101247166362579073",
+      "image_url": null,
+      "author": {
+        "username": "thybead",
+        "name": "matt",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T09:48:58",
+      "first_seen_at": "2026-09-19T10:01:24.017287",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
