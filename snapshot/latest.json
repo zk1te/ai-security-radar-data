@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T14:32:31+08:00",
+  "updated_at": "2026-09-19T16:02:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 7134,
@@ -23,26 +23,6 @@
       "published_at": "2026-09-19T01:07:51.896311",
       "first_seen_at": "2026-09-19T01:12:14.354271",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7048,
-      "title": "研究员利用 Claude 攻破 OpenAI 内部系统",
-      "original_title": "Researchers used Anthropic’s Claude to hack into OpenAI",
-      "summary": "安全研究员利用 Anthropic 的 Claude 发现并利用了 OpenAI 系统漏洞，接管员工账户并访问内部代码库，随后进行了漏洞报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 87.6,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是极具标志性的「AI 攻击 AI 公司」实战案例，直接验证了大模型在自动化漏洞挖掘与渗透测试中的实战破坏力。红队和安全评估团队必须重点关注其攻击路径与 AI 赋能效果。",
-      "source_id": "techcrunch-ai",
-      "canonical_url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
-      "reader_url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-18T14:00:14",
-      "first_seen_at": "2026-09-18T20:00:50.832265",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 7132,
@@ -83,46 +63,6 @@
       "published_at": "2026-09-18T23:57:57",
       "first_seen_at": "2026-09-19T06:32:13.874349",
       "sub_category_label": null
-    },
-    {
-      "id": 7051,
-      "title": "研究人员使用 Claude 入侵 OpenAI 获取 GitHub 数据",
-      "original_title": "Researchers used Claude to hack OpenAI",
-      "summary": "研究人员利用 Claude 成功入侵 OpenAI 员工账户并访问敏感 GitHub 数据，展示了大模型在实战攻击中的潜力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 85.2,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这起事件证明大模型已能执行账户接管与数据窃取等复杂攻击，防守方需重新评估现有访问控制的强度。AI 安全从业者应关注大模型在实际渗透中的边界与威胁。",
-      "source_id": "ars-technica-ai",
-      "canonical_url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai",
-      "reader_url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-18T13:30:12",
-      "first_seen_at": "2026-09-18T20:01:23.254214",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7041,
-      "title": "安全团队用 Claude 72 小时攻破 OpenAI 内部账户",
-      "original_title": "Security researchers used Claude to help them hack into OpenAI",
-      "summary": "安全研究人员利用 Anthropic Claude 辅助，在不到 72 小时内成功攻入 OpenAI 员工账户并访问其 GitHub 仓库。",
-      "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 83.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "首次公开的大模型辅助实战攻防案例，红队从业者应密切关注 AI 如何缩短攻击链时间，评估现有防御体系面对 AI 加速攻击的暴露面。",
-      "source_id": "the-verge-ai",
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-      "reader_url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-18T15:30:16",
-      "first_seen_at": "2026-09-18T20:00:27.954106",
-      "sub_category_label": "渗透测试"
     },
     {
       "id": 7160,
@@ -191,6 +131,54 @@
       "published_at": "2026-09-19T04:41:11",
       "first_seen_at": "2026-09-19T04:48:48.282143",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7053,
+      "title": "人机协同攻击战力强劲，6000美元漏洞赏金被认为过低",
+      "original_title": "Humans + LLMs doing offense are still kicking ass, and a $6,000 bug bounty for that wasn’t nearly enough.",
+      "summary": "推文指出人类与 LLM 结合进行攻击性安全测试依然表现出色，并成功获得了一个 6000 美元的漏洞赏金，但作者认为该奖励金额远不及其实际价值。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "实战证明人机协同在漏洞挖掘中已具备高产出商业价值。红队和渗透测试人员应加速探索如何将 LLM 深度融入攻击流程以提升效率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2100932888212406381",
+      "reader_url": "https://x.com/HackingLZ/status/2100932888212406381",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-18T13:00:08",
+      "first_seen_at": "2026-09-18T20:07:01.393225",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7090,
+      "title": "Anthropic 与埃森哲合作投入10亿美元评估前沿AI",
+      "original_title": "We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at l",
+      "summary": "Anthropic 与埃森哲宣布合作，计划在未来五年内投资至少10亿美元，用于前沿AI的独立评估能力建设。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "model_evaluation",
+      "score_total": 69.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "前沿AI评估的商业化投入和第三方评估员嵌入机制值得安全评测从业者关注，可能预示未来模型安全评估的规模化趋势。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AnthropicAI/status/2101039819870937247",
+      "reader_url": "https://x.com/AnthropicAI/status/2101039819870937247",
+      "image_url": null,
+      "author": {
+        "username": "AnthropicAI",
+        "name": "Anthropic",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-18T20:05:03",
+      "first_seen_at": "2026-09-18T23:33:38.726348",
+      "sub_category_label": null
     }
   ]
 }
