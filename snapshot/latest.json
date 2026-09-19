@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-20T05:20:20+08:00",
+  "updated_at": "2026-09-20T07:51:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 7256,
@@ -111,26 +111,6 @@
       "published_at": "2026-09-19T16:22:00",
       "first_seen_at": "2026-09-19T18:33:13.315958",
       "sub_category_label": "渗透测试"
-    },
-    {
-      "id": 7239,
-      "title": "阿里开源混合架构代码审查工具 open-code-review",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "该工具采用确定性管道与 LLM Agent 混合架构，支持行级精准评论，并内置 XSS、SQL 注入等多语言安全规则集。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 67.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了大模型与确定性规则结合在代码安全审计中的落地实践。安全团队可参考其架构，探索如何利用 LLM 提升代码审计的覆盖面与效率，减少误报。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-19&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-19&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-19T11:29:42.497688",
-      "first_seen_at": "2026-09-19T11:30:47.194918",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 7268,
