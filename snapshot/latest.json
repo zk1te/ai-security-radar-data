@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T19:34:21+08:00",
+  "updated_at": "2026-09-19T21:04:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 7134,
@@ -63,6 +63,46 @@
       "published_at": "2026-09-18T23:57:57",
       "first_seen_at": "2026-09-19T06:32:13.874349",
       "sub_category_label": null
+    },
+    {
+      "id": 7256,
+      "title": "报道指出 Claude 成功黑入 OpenAI 系统",
+      "original_title": "Claude，黑进了OpenAI",
+      "summary": "该新闻称 Anthropic 的 Claude 模型成功黑入 OpenAI 系统，展示了大模型在漏洞挖掘与网络攻击方面的实战能力。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery",
+      "score_total": 82.35,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "大模型实战攻防能力的直接验证。安全从业者需关注 AI 辅助漏洞挖掘的实际破坏力，并加速引入 AI 开展防御性评测与红队演练。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-18-12?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-09-18-12?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-18T10:19:56",
+      "first_seen_at": "2026-09-19T12:48:18.412073",
+      "sub_category_label": null
+    },
+    {
+      "id": 7245,
+      "title": "AI 开发放缓争议背后：漏洞挖掘能力已在爆发",
+      "original_title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+      "summary": "尽管 AI 行业讨论放缓开发，但广泛可用的 AI 聊天机器人已在帮助发现海量安全漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "给还在观望 AI 辅助漏洞挖掘落地效果的安全从业者：趋势已成事实，别纠结是否尝试，赶紧评估现有大模型漏洞发现能力并接入日常审计工作流。",
+      "source_id": "wired-ai",
+      "canonical_url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion",
+      "reader_url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-19T11:00:00",
+      "first_seen_at": "2026-09-19T12:40:38.575956",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 7160,
@@ -131,26 +171,6 @@
       "published_at": "2026-09-19T04:41:11",
       "first_seen_at": "2026-09-19T04:48:48.282143",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7239,
-      "title": "阿里开源混合架构代码审查工具 open-code-review",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "该工具采用确定性管道与 LLM Agent 混合架构，支持行级精准评论，并内置 XSS、SQL 注入等多语言安全规则集。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 67.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了大模型与确定性规则结合在代码安全审计中的落地实践。安全团队可参考其架构，探索如何利用 LLM 提升代码审计的覆盖面与效率，减少误报。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-19&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-19&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-19T11:29:42.497688",
-      "first_seen_at": "2026-09-19T11:30:47.194918",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
