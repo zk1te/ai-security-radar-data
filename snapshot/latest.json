@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T22:38:59+08:00",
+  "updated_at": "2026-09-19T23:10:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -133,30 +133,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 7161,
-      "title": "AIJon：基于AI自动生成Fuzzing注释",
-      "original_title": "AIJon: Automated Generation of Annotations for Fuzzing  Jayakrishna Menon Vadayath, Hulin Wang, Moritz Schloegel, Jie Hu, Wil Gibbs, Tiffany Bao, Adam Doupé, Ruoyu \"Fish\" Wang, Yan",
-      "summary": "本文介绍AIJon，一种利用AI自动生成模糊测试所需注释的新方法，旨在降低人工编写注释的成本并提升模糊测试效率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 62.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "针对Fuzzing痛点——人工写harness和注释费时费力。做漏洞挖掘或代码审计的安全工程师可以直接看这篇论文，评估能否将AIJon集成到现有Fuzzing流水线中，提升自动化挖掘效率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/FSFG/status/2101127810580398288",
-      "reader_url": "https://x.com/FSFG/status/2101127810580398288",
-      "image_url": "https://pbs.twimg.com/media/HSi0nAwXcAAw7JQ.png",
-      "author": {
-        "username": "FSFG",
-        "name": "Cryptography and Security Papers",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T01:54:41",
-      "first_seen_at": "2026-09-19T03:06:53.025371",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 7209,
       "title": "Google Gemini 在安全测试中攻破三家公司",
       "original_title": "HN Hot Discussion: Google's Gemini AI hacked three companies in security test",
@@ -179,6 +155,30 @@
       "published_at": "2026-09-19T06:09:23",
       "first_seen_at": "2026-09-19T07:24:22.771461",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7221,
+      "title": "awesome-ai-security-tools：AI安全与安全AI工具大全",
+      "original_title": "awesome-ai-security-tools: A curated list of public-source, research, and commercial tools for AI security and AI-assisted cybersecurity — autotriage, agent security, AI/ML supply ",
+      "summary": "该项目汇总了开源、研究和商业领域的 AI 安全及 AI 辅助网络安全工具，涵盖 Agent 安全、渗透测试、大模型 Fuzzing、逆向工程和红队评估等方向。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_toolchain",
+      "score_total": 61.21,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "一线安全人员可在此列表中快速发现适用于漏洞挖掘、Fuzzing、红队评估的 AI 辅助工具，以及 Agent 安全防护工具，非常适合作为构建 AI 安全工具链的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/nono2357/status/2101248330395250987",
+      "reader_url": "https://x.com/nono2357/status/2101248330395250987",
+      "image_url": null,
+      "author": {
+        "username": "nono2357",
+        "name": "Renaud Lifchitz ⠵",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T09:53:35",
+      "first_seen_at": "2026-09-19T10:01:23.435908",
+      "sub_category_label": null
     }
   ]
 }
