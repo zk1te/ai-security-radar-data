@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T21:35:58+08:00",
+  "updated_at": "2026-09-19T22:07:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 7196,
@@ -131,30 +131,6 @@
       "published_at": "2026-09-19T11:29:42.497688",
       "first_seen_at": "2026-09-19T11:30:47.194918",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 7154,
-      "title": "SOSP 2026论文：LLM引导插桩实现JS引擎状态感知Fuzzing",
-      "original_title": "Our primary co-author @wwkenwong @ https://t.co/QIkCFTZmS6   Topic: The Fuzzer Reached the Code, yet Missed the State.  SOSP 2026: State-Aware Fuzzing of JavaScript Engines with LL",
-      "summary": "该研究提出利用LLM引导插桩，解决模糊测试能覆盖代码却无法感知程序内部状态的问题，专门针对JavaScript引擎进行状态感知Fuzzing。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 65.46,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Fuzzing和漏洞挖掘人员必看。LLM不再局限于生成测试用例，而是直接引导插桩以感知JS引擎内部状态，突破了传统Fuzzing「触代码不懂状态」的瓶颈，为深水区漏洞挖掘提供了新思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/darkfloyd1014/status/2101122088887287941",
-      "reader_url": "https://x.com/darkfloyd1014/status/2101122088887287941",
-      "image_url": "https://pbs.twimg.com/media/HSivZd5aYAAQBPz.jpg",
-      "author": {
-        "username": "darkfloyd1014",
-        "name": "Mr. Anthony 安東尼",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T01:31:57",
-      "first_seen_at": "2026-09-19T01:48:24.178728",
-      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 7179,
