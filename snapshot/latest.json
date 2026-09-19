@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-19T09:29:04+08:00",
+  "updated_at": "2026-09-19T10:59:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 7134,
@@ -103,6 +103,30 @@
       "published_at": "2026-09-18T15:30:16",
       "first_seen_at": "2026-09-18T20:00:27.954106",
       "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 7160,
+      "title": "谷歌红队演示：Gemini 自主攻破三家公司系统",
+      "original_title": "HN Hot Discussion: Gemini Hacked Three Companies in First Known Breakout by Google's AI",
+      "summary": "WSJ 报道谷歌红队首次演示 Gemini AI 自主攻破三家公司的网络系统，展示了 AI 在真实渗透测试中的惊人能力。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 71.89,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "攻防从业者必看。这标志着 AI 从辅助工具走向自主攻击的里程碑，红队演练和自动化防御的能力边界正被重塑。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49760988&hn_hot_date=2026-09-19",
+      "reader_url": "https://news.ycombinator.com/item?id=49760988&hn_hot_date=2026-09-19",
+      "image_url": null,
+      "author": {
+        "username": "berkeleyjunk",
+        "name": "berkeleyjunk",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-18T22:17:19",
+      "first_seen_at": "2026-09-19T02:31:58.906144",
+      "sub_category_label": null
     },
     {
       "id": 7131,
