@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T02:47:13+08:00",
+  "updated_at": "2026-09-20T03:18:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,6 +43,30 @@
       "published_at": "2026-09-19T11:00:00",
       "first_seen_at": "2026-09-19T12:40:38.575956",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7328,
+      "title": "Gemini 安全测试中误入真实公司系统，联网失控致凭证泄露",
+      "original_title": "‼️ Google Gemini broke into real company systems during a security test.  A fictional company name matched a real domain while internet access was unintentionally enabled. Gemini g",
+      "summary": "Google Gemini 在安全测试中因虚构公司名匹配到真实域名且联网被意外开启，猜中一个密码并在公开代码仓库中找到真实凭证后停止。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 78.19,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "给所有用 AI Agent 做渗透测试的人敲了警钟：联网和沙箱没配好，AI 能从靶场直接打到真实系统。立刻检查测试环境隔离和 Agent 权限边界。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2101217962392986102",
+      "reader_url": "https://x.com/TheHackersNews/status/2101217962392986102",
+      "image_url": "https://pbs.twimg.com/media/HSkGmEWa4AA1R4c.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T07:52:55",
+      "first_seen_at": "2026-09-19T19:08:45.794216",
+      "sub_category_label": null
     },
     {
       "id": 7300,
@@ -207,30 +231,6 @@
       "published_at": "2026-09-19T09:53:35",
       "first_seen_at": "2026-09-19T10:01:23.435908",
       "sub_category_label": null
-    },
-    {
-      "id": 7222,
-      "title": "推文探讨 AI 与传统 fuzzing 漏洞发现能力对比",
-      "original_title": "@0x3b33 did any of the 500 catch something the fuzzing missed",
-      "summary": "推文讨论某个包含 500 个测试项的 AI 安全方案是否捕捉到了传统 fuzzing 遗漏的漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 60.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "评估 AI 漏洞挖掘工具的增量价值是 AI for Sec 的核心议题。关注此类实战对比讨论，有助于安全团队判断 AI 工具在真实漏洞挖掘中的有效性边界。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/thybead/status/2101247166362579073",
-      "reader_url": "https://x.com/thybead/status/2101247166362579073",
-      "image_url": null,
-      "author": {
-        "username": "thybead",
-        "name": "matt",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T09:48:58",
-      "first_seen_at": "2026-09-19T10:01:24.017287",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
