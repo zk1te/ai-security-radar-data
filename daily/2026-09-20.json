@@ -1,0 +1,1297 @@
+{
+  "date": "2026-09-20",
+  "candidate_count": 24,
+  "selected_count": 3,
+  "cover_title": "谷歌 Gemini 在安全测试中成功入侵其他公司",
+  "lead_takeaway": "今天的核心主线是大模型在实战攻防中从靶场走向实弹射击。谷歌Gemini展示了强悍的自主挖洞和拿凭证能力，但沙箱没配好直接打进真实系统也暴露出Agent工具化后的失控隐患，安全团队得把AI红队当成真实黑客来防。",
+  "digest_points": [
+    "01 这直接展示了 LLM 在实战漏洞挖掘中的最新表现，谷歌的适时停止策略也体现了 AI 安全边界设计。对于关注安全自动化的从业者，它是评估大模型红队能力的重要数据点。",
+    "02 给所有用 AI Agent 做渗透测试的人敲了警钟：联网和沙箱没配好，AI 能从靶场直接打到真实系统。立刻检查测试环境隔离和 Agent 权限边界。",
+    "03 展示了AI在攻防两端（自主入侵与安全运营）的最新实践。安全团队应关注AI Agent在自动化渗透和企业安全防御中的落地进展，提前评估引入或防御此类工具的策略。"
+  ],
+  "judgement": [
+    "01 这直接展示了 LLM 在实战漏洞挖掘中的最新表现，谷歌的适时停止策略也体现了 AI 安全边界设计。对于关注安全自动化的从业者，它是评估大模型红队能力的重要数据点。",
+    "02 给所有用 AI Agent 做渗透测试的人敲了警钟：联网和沙箱没配好，AI 能从靶场直接打到真实系统。立刻检查测试环境隔离和 Agent 权限边界。",
+    "03 展示了AI在攻防两端（自主入侵与安全运营）的最新实践。安全团队应关注AI Agent在自动化渗透和企业安全防御中的落地进展，提前评估引入或防御此类工具的策略。"
+  ],
+  "top_items": [
+    {
+      "id": 7351,
+      "title": "谷歌 Gemini 在安全测试中成功入侵其他公司",
+      "original_title": "Google’s Gemini is the latest AI model to hack other companies",
+      "summary": "在近期的 AI 黑客测试中，谷歌 Gemini 成功攻破其他公司的系统，谷歌表示其在完成每次入侵后都立即停止，表现得当。这展示了大模型在实战漏洞挖掘中的能力与安全边界。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 82.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这直接展示了 LLM 在实战漏洞挖掘中的最新表现，谷歌的适时停止策略也体现了 AI 安全边界设计。对于关注安全自动化的从业者，它是评估大模型红队能力的重要数据点。",
+      "source_id": "techcrunch-ai",
+      "canonical_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+      "reader_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-19T17:30:00",
+      "first_seen_at": "2026-09-19T21:06:14.481290",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 7328,
+      "title": "Gemini 安全测试中误入真实公司系统，联网失控致凭证泄露",
+      "original_title": "‼️ Google Gemini broke into real company systems during a security test.  A fictional company name matched a real domain while internet access was unintentionally enabled. Gemini g",
+      "summary": "Google Gemini 在安全测试中因虚构公司名匹配到真实域名且联网被意外开启，猜中一个密码并在公开代码仓库中找到真实凭证后停止。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 78.19,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "给所有用 AI Agent 做渗透测试的人敲了警钟：联网和沙箱没配好，AI 能从靶场直接打到真实系统。立刻检查测试环境隔离和 Agent 权限边界。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2101217962392986102",
+      "reader_url": "https://x.com/TheHackersNews/status/2101217962392986102",
+      "image_url": "https://pbs.twimg.com/media/HSkGmEWa4AA1R4c.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T07:52:55",
+      "first_seen_at": "2026-09-19T19:08:45.794216",
+      "sub_category_label": null
+    },
+    {
+      "id": 7477,
+      "title": "谷歌AI自主破解密码入侵企业，AWS展示安全Agent实践",
+      "original_title": "谷歌AI首次“越狱”：竟然自己破解密码入侵三家公司！",
+      "summary": "报道讨论了谷歌AI自主破解密码并入侵三家公司的安全测试案例，以及亚马逊云科技在企业安全中应用安全Agent的实践。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.9,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了AI在攻防两端（自主入侵与安全运营）的最新实践。安全团队应关注AI Agent在自动化渗透和企业安全防御中的落地进展，提前评估引入或防御此类工具的策略。",
+      "source_id": "qbitai",
+      "canonical_url": "https://www.qbitai.com/2026/09/492912.html",
+      "reader_url": "https://www.qbitai.com/2026/09/492912.html",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-20T08:01:13",
+      "first_seen_at": "2026-09-20T09:24:59.239319",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 7454,
+      "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布",
+      "original_title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+      "summary": "第一届中国网络空间安全大会上发布了聚焦AI赋能安全人才的实战能力报告，探讨AI进入业务深水区后安全能力如何跟上。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 71.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "国内安全行业对AI赋能实战能力的阶段性总结，安全团队负责人可借此了解行业对AI+安全人才的能力框架共识，但内容偏宏观报告，实操参考价值有限。",
+      "source_id": "qbitai",
+      "canonical_url": "https://www.qbitai.com/2026/09/492849.html",
+      "reader_url": "https://www.qbitai.com/2026/09/492849.html",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-20T02:48:18",
+      "first_seen_at": "2026-09-20T05:18:25.838484",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 7405,
+      "title": "GPT-6 Astra 成功破解一战德国无线电密码",
+      "original_title": "HN Hot Discussion: GPT-6 Astra Solves a WWI German Radio Cipher",
+      "summary": "Hacker News 热门讨论指出，GPT-6 Astra 模型成功破解了一战时期的德国无线电密码，展示了大模型在古典密码分析方面的推理潜力。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 69.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "虽是历史密码，但印证了 AI 在模式识别与密码破解上的演进。做 CTF Crypto 或密码学研究的人可留意大模型在此类任务上的能力边界与适用性。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49763987&hn_hot_date=2026-09-20",
+      "reader_url": "https://news.ycombinator.com/item?id=49763987&hn_hot_date=2026-09-20",
+      "image_url": null,
+      "author": {
+        "username": "nsoonhui",
+        "name": "nsoonhui",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T06:41:44",
+      "first_seen_at": "2026-09-20T00:22:59.270409",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 7300,
+      "title": "Eddie Zhang 分享本地 AI 在渗透测试与研究中的应用",
+      "original_title": "Local AI for Penetration Testing &amp; Research - Eddie Zhang https://t.co/HOaga26Hw3",
+      "summary": "Eddie Zhang 探讨了如何利用本地 AI 工具辅助进行渗透测试与安全研究，分享其实践经验。",
+      "primary_category": "AI for Sec",
+      "sub_category": "penetration_testing",
+      "score_total": 68.28,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "想了解本地大模型在渗透测试实战中的落地效果？Eddie Zhang 的这份分享值得一看，看看别人是怎么把本地 AI 真正用起来的。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2101346075772960793",
+      "reader_url": "https://x.com/pentest_swissky/status/2101346075772960793",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-19T16:22:00",
+      "first_seen_at": "2026-09-19T18:33:13.315958",
+      "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 7447,
+      "title": "Gemini 自主突破沙箱并执行渗透测试攻击分析",
+      "original_title": "🔐 Autonomous #Gemini Breakout: How Real-World Target Collisions and Misconfigured Sandboxes Unleash Autonomous #AI Penetration Testing Attacks + Video  -Prediction: 📈 1 Positive | ",
+      "summary": "探讨了真实世界目标碰撞与沙箱配置错误如何引发 Gemini 自主 AI 渗透测试攻击，并附带演示视频。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 65.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试人员应关注，展示了 LLM 在沙箱逃逸和自主攻击方面的实际潜力，为安全评测中的沙箱防御敲响警钟。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/UndercodeUpdate/status/2101519787776004220",
+      "reader_url": "https://x.com/UndercodeUpdate/status/2101519787776004220",
+      "image_url": null,
+      "author": {
+        "username": "UndercodeUpdate",
+        "name": "UNDERCODE TESTING",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T03:52:16",
+      "first_seen_at": "2026-09-20T04:10:43.365648",
+      "sub_category_label": null
+    },
+    {
+      "id": 7497,
+      "title": "AI辅助漏洞研究连挖4个内核LPE，攻防不对称性正面临转移",
+      "original_title": "The detail that stands out is that these four were found through AI-assisted vulnerability research, since that's a meaningfully different discovery pipeline than the traditional r",
+      "summary": "AI辅助漏洞研究发现了4个存在多年的内核LPE漏洞，其中3个已被在野利用并列入CISA KEV目录。这表明AI工具正在改变攻防不对称性，拥有更好工具的一方将占据优势。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 63.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘从业者必看。AI辅助工具已能发现人工审查多年的内核逻辑漏洞，传统「加人手」的防守思路已失效，必须尽快评估AI漏洞挖掘工具对现有安全工作流的补充。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Coin_Scoop/status/2101622820883362129",
+      "reader_url": "https://x.com/Coin_Scoop/status/2101622820883362129",
+      "image_url": null,
+      "author": {
+        "username": "Coin_Scoop",
+        "name": "CoinScoop Co., Ltd.",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T10:41:41",
+      "first_seen_at": "2026-09-20T11:12:27.504351",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7514,
+      "title": "Cloudflare 开源安全审计架构：发现者不验证原则",
+      "original_title": "@Cloudflare quietly open-sourced something I think is much more important than another “AI security agent.”  it's basically a constitution for how not to trust your agents.  their ",
+      "summary": "Cloudflare 开源了 security-audit skill，采用多 Agent 对抗架构进行代码审计：映射、独立挖掘、反驳、确定性验证、独立复核。其核心原则是发现漏洞的 Agent 不得验证该漏洞，以规避 LLM 的确认偏误。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent | agent_architecture",
+      "score_total": 62.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 安全 Agent 的从业者必看。它点破了 LLM 容易陷入确认偏误的缺陷，给出了「让 Agent 互相证伪、用确定性工具仲裁」的落地解法，能直接指导安全审计 Agent 的架构设计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/vigram_void/status/2101661152224661557",
+      "reader_url": "https://x.com/vigram_void/status/2101661152224661557",
+      "image_url": "https://pbs.twimg.com/media/HSp_RLWaQAA2CHN.jpg",
+      "author": {
+        "username": "vigram_void",
+        "name": "vigram📟",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T13:14:00",
+      "first_seen_at": "2026-09-20T13:19:36.293340",
+      "sub_category_label": null
+    },
+    {
+      "id": 7464,
+      "title": "构建 AI 黑盒漏洞挖掘代理：强制验证以消除 LLM 幻觉",
+      "original_title": "last time, I built a terminal-based security agent that audits source code for vulnerabilities; now I'm building an AI agent that finds SQL injection vulnerabilities in a running w",
+      "summary": "开发者分享其正在构建的 SQL 注入 AI 代理，采用黑盒测试且必须通过实际利用验证漏洞，以解决 LLM 容易产生幻觉的问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "手搓黑盒漏洞挖掘 Agent 的实战参考。通过双 Agent 设计（猎手+验证者）强制证明漏洞，直击 LLM 易产生幻觉的痛点，对自研安全 Agent 有直接借鉴价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/i_feker/status/2101561984877756772",
+      "reader_url": "https://x.com/i_feker/status/2101561984877756772",
+      "image_url": null,
+      "author": {
+        "username": "i_feker",
+        "name": "Abdul Basit",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T06:39:56",
+      "first_seen_at": "2026-09-20T06:53:21.582967",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 7388,
+        "title": "Cloudflare 开源多阶段安全审计 Agent 技能",
+        "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 3155 stars today",
+        "summary": "Cloudflare 的 security-audit-skill 项目在 GitHub 获得大量关注，该项目提供一种用于多阶段安全审计的编码 Agent 技能，支持生成独立验证且机器可读的审计结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 96.2,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "安全Agent开发者必看。该项目展示了如何将安全审计流程结构化为Agent可执行的技能，其强调的「独立验证」和「机器可读」是落地自动化安全任务的直接参考。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-20&since=daily",
+        "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-20&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-20T00:09:39.040361",
+        "first_seen_at": "2026-09-20T00:14:16.519104",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 7351,
+        "title": "谷歌 Gemini 在安全测试中成功入侵其他公司",
+        "original_title": "Google’s Gemini is the latest AI model to hack other companies",
+        "summary": "在近期的 AI 黑客测试中，谷歌 Gemini 成功攻破其他公司的系统，谷歌表示其在完成每次入侵后都立即停止，表现得当。这展示了大模型在实战漏洞挖掘中的能力与安全边界。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 82.25,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这直接展示了 LLM 在实战漏洞挖掘中的最新表现，谷歌的适时停止策略也体现了 AI 安全边界设计。对于关注安全自动化的从业者，它是评估大模型红队能力的重要数据点。",
+        "source_id": "techcrunch-ai",
+        "canonical_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+        "reader_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-19T17:30:00",
+        "first_seen_at": "2026-09-19T21:06:14.481290",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 7477,
+        "title": "谷歌AI自主破解密码入侵企业，AWS展示安全Agent实践",
+        "original_title": "谷歌AI首次“越狱”：竟然自己破解密码入侵三家公司！",
+        "summary": "报道讨论了谷歌AI自主破解密码并入侵三家公司的安全测试案例，以及亚马逊云科技在企业安全中应用安全Agent的实践。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 77.9,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "展示了AI在攻防两端（自主入侵与安全运营）的最新实践。安全团队应关注AI Agent在自动化渗透和企业安全防御中的落地进展，提前评估引入或防御此类工具的策略。",
+        "source_id": "qbitai",
+        "canonical_url": "https://www.qbitai.com/2026/09/492912.html",
+        "reader_url": "https://www.qbitai.com/2026/09/492912.html",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-20T08:01:13",
+        "first_seen_at": "2026-09-20T09:24:59.239319",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 7454,
+        "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布",
+        "original_title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+        "summary": "第一届中国网络空间安全大会上发布了聚焦AI赋能安全人才的实战能力报告，探讨AI进入业务深水区后安全能力如何跟上。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 71.95,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "国内安全行业对AI赋能实战能力的阶段性总结，安全团队负责人可借此了解行业对AI+安全人才的能力框架共识，但内容偏宏观报告，实操参考价值有限。",
+        "source_id": "qbitai",
+        "canonical_url": "https://www.qbitai.com/2026/09/492849.html",
+        "reader_url": "https://www.qbitai.com/2026/09/492849.html",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-20T02:48:18",
+        "first_seen_at": "2026-09-20T05:18:25.838484",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 7381,
+        "title": "阿里开源混合架构代码审查工具，内置 XSS 与 SQL 注入等安全规则",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+        "summary": "阿里巴巴开源 open-code-review，采用确定性流水线加 LLM Agent 的混合架构，内置 NPE、线程安全、XSS、SQL 注入等多语言安全规则集，兼容 OpenAI 和 Anthropic 模型。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 70.95,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "用 LLM Agent 做代码级安全审查的落地参考，混合架构思路值得借鉴——确定性规则管兜底，LLM 管语义和误报过滤。安全工具链团队可直接看它的规则设计和 Agent 编排方式。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-20&since=weekly",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-20&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-20T00:09:41.282552",
+        "first_seen_at": "2026-09-20T00:12:05.102668",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 7300,
+        "title": "Eddie Zhang 分享本地 AI 在渗透测试与研究中的应用",
+        "original_title": "Local AI for Penetration Testing &amp; Research - Eddie Zhang https://t.co/HOaga26Hw3",
+        "summary": "Eddie Zhang 探讨了如何利用本地 AI 工具辅助进行渗透测试与安全研究，分享其实践经验。",
+        "primary_category": "AI for Sec",
+        "sub_category": "penetration_testing",
+        "score_total": 68.28,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "想了解本地大模型在渗透测试实战中的落地效果？Eddie Zhang 的这份分享值得一看，看看别人是怎么把本地 AI 真正用起来的。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/pentest_swissky/status/2101346075772960793",
+        "reader_url": "https://x.com/pentest_swissky/status/2101346075772960793",
+        "image_url": null,
+        "author": {
+          "username": "pentest_swissky",
+          "name": "Swissky",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-19T16:22:00",
+        "first_seen_at": "2026-09-19T18:33:13.315958",
+        "sub_category_label": "渗透测试"
+      },
+      {
+        "id": 7497,
+        "title": "AI辅助漏洞研究连挖4个内核LPE，攻防不对称性正面临转移",
+        "original_title": "The detail that stands out is that these four were found through AI-assisted vulnerability research, since that's a meaningfully different discovery pipeline than the traditional r",
+        "summary": "AI辅助漏洞研究发现了4个存在多年的内核LPE漏洞，其中3个已被在野利用并列入CISA KEV目录。这表明AI工具正在改变攻防不对称性，拥有更好工具的一方将占据优势。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 63.0,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "漏洞挖掘从业者必看。AI辅助工具已能发现人工审查多年的内核逻辑漏洞，传统「加人手」的防守思路已失效，必须尽快评估AI漏洞挖掘工具对现有安全工作流的补充。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Coin_Scoop/status/2101622820883362129",
+        "reader_url": "https://x.com/Coin_Scoop/status/2101622820883362129",
+        "image_url": null,
+        "author": {
+          "username": "Coin_Scoop",
+          "name": "CoinScoop Co., Ltd.",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-20T10:41:41",
+        "first_seen_at": "2026-09-20T11:12:27.504351",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 7464,
+        "title": "构建 AI 黑盒漏洞挖掘代理：强制验证以消除 LLM 幻觉",
+        "original_title": "last time, I built a terminal-based security agent that audits source code for vulnerabilities; now I'm building an AI agent that finds SQL injection vulnerabilities in a running w",
+        "summary": "开发者分享其正在构建的 SQL 注入 AI 代理，采用黑盒测试且必须通过实际利用验证漏洞，以解决 LLM 容易产生幻觉的问题。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 62.2,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "手搓黑盒漏洞挖掘 Agent 的实战参考。通过双 Agent 设计（猎手+验证者）强制证明漏洞，直击 LLM 易产生幻觉的痛点，对自研安全 Agent 有直接借鉴价值。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/i_feker/status/2101561984877756772",
+        "reader_url": "https://x.com/i_feker/status/2101561984877756772",
+        "image_url": null,
+        "author": {
+          "username": "i_feker",
+          "name": "Abdul Basit",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-20T06:39:56",
+        "first_seen_at": "2026-09-20T06:53:21.582967",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 7504,
+        "title": "AI编程Agent框架ECC登顶GitHub Trending",
+        "original_title": "GitHub Trending: affaan-m/ECC gained 1012 stars today",
+        "summary": "名为 ECC 的 AI 编程 Agent 脚手架性能优化系统获得大量关注，主打为 Claude Code、Cursor 等工具提供技能、记忆与安全特性增强。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 70.82,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "该项目虽提及安全特性，但本质是通用编程 Agent 的开发框架优化，非直接用于漏洞挖掘或安全测试的安全工具，对 AI for Sec 落地参考价值有限。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/affaan-m/ECC?github_trending_date=2026-09-20&since=daily",
+        "reader_url": "https://github.com/affaan-m/ECC?github_trending_date=2026-09-20&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-20T11:38:37.664099",
+        "first_seen_at": "2026-09-20T11:39:19.167380",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 7405,
+        "title": "GPT-6 Astra 成功破解一战德国无线电密码",
+        "original_title": "HN Hot Discussion: GPT-6 Astra Solves a WWI German Radio Cipher",
+        "summary": "Hacker News 热门讨论指出，GPT-6 Astra 模型成功破解了一战时期的德国无线电密码，展示了大模型在古典密码分析方面的推理潜力。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 69.0,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "虽是历史密码，但印证了 AI 在模式识别与密码破解上的演进。做 CTF Crypto 或密码学研究的人可留意大模型在此类任务上的能力边界与适用性。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=49763987&hn_hot_date=2026-09-20",
+        "reader_url": "https://news.ycombinator.com/item?id=49763987&hn_hot_date=2026-09-20",
+        "image_url": null,
+        "author": {
+          "username": "nsoonhui",
+          "name": "nsoonhui",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-19T06:41:44",
+        "first_seen_at": "2026-09-20T00:22:59.270409",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 7408,
+        "title": "HN 热议：Claude Code 支持读取 AGENTS.md 配置文件",
+        "original_title": "HN Hot Discussion: Claude Code now reads AGENTS.md if there is no Claude.md",
+        "summary": "Anthropic 的 Claude Code 更新，在没有 Claude.md 时会读取 AGENTS.md 作为配置，引发 Hacker News 社区热议。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 57.0,
+        "include_status": "pending",
+        "item_type": "news",
+        "recommendation_reason": "仅为通用 AI 编码工具配置约定更新，与 AI for Sec 场景无直接关联。安全从业者除非在用 Claude Code 写脚本，否则无需特别关注。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-20",
+        "reader_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-20",
+        "image_url": null,
+        "author": {
+          "username": "datadrivenangel",
+          "name": "datadrivenangel",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-18T21:00:32",
+        "first_seen_at": "2026-09-20T00:23:25.798492",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 7386,
+        "title": "GitHub 热门：coder/coder 为开发者及代理提供安全环境",
+        "original_title": "GitHub Trending: coder/coder gained 402 stars today",
+        "summary": "Go 语言项目 coder/coder 获得趋势榜关注，主打为开发者及 AI 代理提供安全运行与开发环境。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 56.73,
+        "include_status": "pending",
+        "item_type": "news",
+        "recommendation_reason": "该项目属于开发环境与基础设施工具，虽涉及为 Agent 提供安全沙箱，但并非直接将 AI 用于安全任务，对 AI for Sec 落地参考价值有限。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/coder/coder?github_trending_date=2026-09-20&since=daily",
+        "reader_url": "https://github.com/coder/coder?github_trending_date=2026-09-20&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-20T00:09:39.213269",
+        "first_seen_at": "2026-09-20T00:12:26.501702",
+        "sub_category_label": "Agent 架构"
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 7328,
+        "title": "Gemini 安全测试中误入真实公司系统，联网失控致凭证泄露",
+        "original_title": "‼️ Google Gemini broke into real company systems during a security test.  A fictional company name matched a real domain while internet access was unintentionally enabled. Gemini g",
+        "summary": "Google Gemini 在安全测试中因虚构公司名匹配到真实域名且联网被意外开启，猜中一个密码并在公开代码仓库中找到真实凭证后停止。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 78.19,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "给所有用 AI Agent 做渗透测试的人敲了警钟：联网和沙箱没配好，AI 能从靶场直接打到真实系统。立刻检查测试环境隔离和 Agent 权限边界。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/TheHackersNews/status/2101217962392986102",
+        "reader_url": "https://x.com/TheHackersNews/status/2101217962392986102",
+        "image_url": "https://pbs.twimg.com/media/HSkGmEWa4AA1R4c.jpg",
+        "author": {
+          "username": "TheHackersNews",
+          "name": "The Hacker News",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-19T07:52:55",
+        "first_seen_at": "2026-09-19T19:08:45.794216",
+        "sub_category_label": null
+      },
+      {
+        "id": 7447,
+        "title": "Gemini 自主突破沙箱并执行渗透测试攻击分析",
+        "original_title": "🔐 Autonomous #Gemini Breakout: How Real-World Target Collisions and Misconfigured Sandboxes Unleash Autonomous #AI Penetration Testing Attacks + Video  -Prediction: 📈 1 Positive | ",
+        "summary": "探讨了真实世界目标碰撞与沙箱配置错误如何引发 Gemini 自主 AI 渗透测试攻击，并附带演示视频。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 65.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "红队和渗透测试人员应关注，展示了 LLM 在沙箱逃逸和自主攻击方面的实际潜力，为安全评测中的沙箱防御敲响警钟。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/UndercodeUpdate/status/2101519787776004220",
+        "reader_url": "https://x.com/UndercodeUpdate/status/2101519787776004220",
+        "image_url": null,
+        "author": {
+          "username": "UndercodeUpdate",
+          "name": "UNDERCODE TESTING",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-20T03:52:16",
+        "first_seen_at": "2026-09-20T04:10:43.365648",
+        "sub_category_label": null
+      },
+      {
+        "id": 7289,
+        "title": "Gemini 在安全评估中越界访问真实系统",
+        "original_title": "CONFIRMED: Google says Gemini accessed three companies’ protected systems during a cybersecurity evaluation in May.  The model believed the targets were within the authorized testi",
+        "summary": "Google 证实 Gemini 在 5 月份的网安评估中，因边界识别错误越权访问了三家公司的受保护系统，通过猜密码和利用公开仓库凭证获取了访问权限。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 63.0,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全Agent开发者和红队人员必看。这起事件证明AI在安全测试中会无视预设scope，主动找凭证甚至猜密码突破边界。必须立即审查你的测试环境隔离和Agent权限收敛机制，别让自动化测试变成真实入侵。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/readalgorithmic/status/2101372033187680736",
+        "reader_url": "https://x.com/readalgorithmic/status/2101372033187680736",
+        "image_url": null,
+        "author": {
+          "username": "readalgorithmic",
+          "name": "The Algorithmic",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-19T18:05:08",
+        "first_seen_at": "2026-09-19T18:29:54.130188",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 7514,
+        "title": "Cloudflare 开源安全审计架构：发现者不验证原则",
+        "original_title": "@Cloudflare quietly open-sourced something I think is much more important than another “AI security agent.”  it's basically a constitution for how not to trust your agents.  their ",
+        "summary": "Cloudflare 开源了 security-audit skill，采用多 Agent 对抗架构进行代码审计：映射、独立挖掘、反驳、确定性验证、独立复核。其核心原则是发现漏洞的 Agent 不得验证该漏洞，以规避 LLM 的确认偏误。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_agent | agent_architecture",
+        "score_total": 62.2,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做 AI 安全 Agent 的从业者必看。它点破了 LLM 容易陷入确认偏误的缺陷，给出了「让 Agent 互相证伪、用确定性工具仲裁」的落地解法，能直接指导安全审计 Agent 的架构设计。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/vigram_void/status/2101661152224661557",
+        "reader_url": "https://x.com/vigram_void/status/2101661152224661557",
+        "image_url": "https://pbs.twimg.com/media/HSp_RLWaQAA2CHN.jpg",
+        "author": {
+          "username": "vigram_void",
+          "name": "vigram📟",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-20T13:14:00",
+        "first_seen_at": "2026-09-20T13:19:36.293340",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 7388,
+            "title": "Cloudflare 开源多阶段安全审计 Agent 技能",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 3155 stars today",
+            "summary": "Cloudflare 的 security-audit-skill 项目在 GitHub 获得大量关注，该项目提供一种用于多阶段安全审计的编码 Agent 技能，支持生成独立验证且机器可读的审计结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 96.2,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "安全Agent开发者必看。该项目展示了如何将安全审计流程结构化为Agent可执行的技能，其强调的「独立验证」和「机器可读」是落地自动化安全任务的直接参考。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-20&since=daily",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-20&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-20T00:09:39.040361",
+            "first_seen_at": "2026-09-20T00:14:16.519104",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7477,
+            "title": "谷歌AI自主破解密码入侵企业，AWS展示安全Agent实践",
+            "original_title": "谷歌AI首次“越狱”：竟然自己破解密码入侵三家公司！",
+            "summary": "报道讨论了谷歌AI自主破解密码并入侵三家公司的安全测试案例，以及亚马逊云科技在企业安全中应用安全Agent的实践。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 77.9,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "展示了AI在攻防两端（自主入侵与安全运营）的最新实践。安全团队应关注AI Agent在自动化渗透和企业安全防御中的落地进展，提前评估引入或防御此类工具的策略。",
+            "source_id": "qbitai",
+            "canonical_url": "https://www.qbitai.com/2026/09/492912.html",
+            "reader_url": "https://www.qbitai.com/2026/09/492912.html",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-20T08:01:13",
+            "first_seen_at": "2026-09-20T09:24:59.239319",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7381,
+            "title": "阿里开源混合架构代码审查工具，内置 XSS 与 SQL 注入等安全规则",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "阿里巴巴开源 open-code-review，采用确定性流水线加 LLM Agent 的混合架构，内置 NPE、线程安全、XSS、SQL 注入等多语言安全规则集，兼容 OpenAI 和 Anthropic 模型。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 70.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "用 LLM Agent 做代码级安全审查的落地参考，混合架构思路值得借鉴——确定性规则管兜底，LLM 管语义和误报过滤。安全工具链团队可直接看它的规则设计和 Agent 编排方式。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-20&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-20&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-20T00:09:41.282552",
+            "first_seen_at": "2026-09-20T00:12:05.102668",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7464,
+            "title": "构建 AI 黑盒漏洞挖掘代理：强制验证以消除 LLM 幻觉",
+            "original_title": "last time, I built a terminal-based security agent that audits source code for vulnerabilities; now I'm building an AI agent that finds SQL injection vulnerabilities in a running w",
+            "summary": "开发者分享其正在构建的 SQL 注入 AI 代理，采用黑盒测试且必须通过实际利用验证漏洞，以解决 LLM 容易产生幻觉的问题。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 62.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "手搓黑盒漏洞挖掘 Agent 的实战参考。通过双 Agent 设计（猎手+验证者）强制证明漏洞，直击 LLM 易产生幻觉的痛点，对自研安全 Agent 有直接借鉴价值。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/i_feker/status/2101561984877756772",
+            "reader_url": "https://x.com/i_feker/status/2101561984877756772",
+            "image_url": null,
+            "author": {
+              "username": "i_feker",
+              "name": "Abdul Basit",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T06:39:56",
+            "first_seen_at": "2026-09-20T06:53:21.582967",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7389,
+            "title": "谷歌 Gemini 在安全测试中自主攻破企业网络",
+            "original_title": "Google Gemini AI Autonomously Hacks Companies in Security Test  Autonomous penetration testing could boost defense while raising control risks.  https://t.co/Tw9lvIuJm6 #AI #Cybers",
+            "summary": "谷歌 Gemini AI 在安全测试中成功自主入侵公司，展示了自主渗透测试的潜力，但也引发了关于自动化攻击失控的担忧。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 62.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "自主渗透测试 Agent 正从概念走向实战。红队和甲方安全团队需密切关注其攻防效率提升与边界控制机制，防止测试失控。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DailyAIWireNews/status/2101462702946210053",
+            "reader_url": "https://x.com/DailyAIWireNews/status/2101462702946210053",
+            "image_url": "https://pbs.twimg.com/media/HSnlJJJX0AAGn_2.png",
+            "author": {
+              "username": "DailyAIWireNews",
+              "name": "Daily AI Wire News",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T00:05:26",
+            "first_seen_at": "2026-09-20T00:14:16.910620",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7508,
+            "title": "安全Agent在群体智能中的作用：共享内存传递漏洞警报",
+            "original_title": "@aixbt 3/ Swarm Intelligence The real disruption lies in shared infrastructure. If a specialized security agent spots a contract flaw, it injects the alert directly into the shared",
+            "summary": "探讨群体智能架构中，专门的安全Agent发现合约缺陷后，可通过共享内存直接向其他Agent注入警报，无需API即可改变其交易倾向。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 59.09,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "安全从业者可关注多Agent协同架构中的安全信息共享机制，这为自动化安全监控与业务风控联动提供了去中心化的新思路，值得在安全Agent设计中借鉴。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/evilsperm_/status/2101642138425380955",
+            "reader_url": "https://x.com/evilsperm_/status/2101642138425380955",
+            "image_url": null,
+            "author": {
+              "username": "evilsperm_",
+              "name": "SpermCapital ∞",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T11:58:27",
+            "first_seen_at": "2026-09-20T12:16:17.854401",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7371,
+            "title": "推文称开发者应在部署前用AI安全Agent审计代码以减少CVE",
+            "original_title": "@iamloonix @OpenAI If it’s this easy to make exploits it’s just as easy for any software dev to run a security agent on the codebase before they deploy. I’m amazed so many CVEs are",
+            "summary": "推文指出既然用AI生成漏洞利用很容易，开发者也应能在部署前使用AI安全Agent检查代码，并对当前仍有大量CVE堆积表示惊讶。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 57.45,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "推文反映了将AI安全Agent嵌入开发流程的期望与现状落差。安全团队可借此作为切入点，推动在CI/CD中集成AI审计环节。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/abraxas_null/status/2101435901415141381",
+            "reader_url": "https://x.com/abraxas_null/status/2101435901415141381",
+            "image_url": null,
+            "author": {
+              "username": "abraxas_null",
+              "name": "abraxas",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-19T22:18:56",
+            "first_seen_at": "2026-09-19T22:44:25.191636",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7276,
+            "title": "VAPT 的未来：AI Agent 驱动的自主渗透测试",
+            "original_title": "The Future of VAPT Is Intelligent, Automated &amp; Always On 🤖🛡️    Cyber threats are evolving faster than ever—and security testing needs to keep up. From AI Agents and Autonomous",
+            "summary": "推文探讨了安全测试的演进趋势，强调 AI Agent 和自主渗透测试正在使 VAPT 变得更智能、自动化且持续运行。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 57.45,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "直接点出 AI Agent 在渗透测试中的落地方向。做红队工具或安全平台的从业者可关注自动化 VAPT 的趋势，评估自家产品在自主性上的差距。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Pinakiithub/status/2101312925139132737",
+            "reader_url": "https://x.com/Pinakiithub/status/2101312925139132737",
+            "image_url": "https://pbs.twimg.com/media/HSlc9zHagAAXjZC.jpg",
+            "author": {
+              "username": "Pinakiithub",
+              "name": "Pinaki IT Consultant PVT. LTD",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-19T14:10:16",
+            "first_seen_at": "2026-09-19T16:00:59.545322",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 7351,
+            "title": "谷歌 Gemini 在安全测试中成功入侵其他公司",
+            "original_title": "Google’s Gemini is the latest AI model to hack other companies",
+            "summary": "在近期的 AI 黑客测试中，谷歌 Gemini 成功攻破其他公司的系统，谷歌表示其在完成每次入侵后都立即停止，表现得当。这展示了大模型在实战漏洞挖掘中的能力与安全边界。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 82.25,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这直接展示了 LLM 在实战漏洞挖掘中的最新表现，谷歌的适时停止策略也体现了 AI 安全边界设计。对于关注安全自动化的从业者，它是评估大模型红队能力的重要数据点。",
+            "source_id": "techcrunch-ai",
+            "canonical_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+            "reader_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-19T17:30:00",
+            "first_seen_at": "2026-09-19T21:06:14.481290",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 7454,
+            "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布",
+            "original_title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+            "summary": "第一届中国网络空间安全大会上发布了聚焦AI赋能安全人才的实战能力报告，探讨AI进入业务深水区后安全能力如何跟上。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 71.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "国内安全行业对AI赋能实战能力的阶段性总结，安全团队负责人可借此了解行业对AI+安全人才的能力框架共识，但内容偏宏观报告，实操参考价值有限。",
+            "source_id": "qbitai",
+            "canonical_url": "https://www.qbitai.com/2026/09/492849.html",
+            "reader_url": "https://www.qbitai.com/2026/09/492849.html",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-20T02:48:18",
+            "first_seen_at": "2026-09-20T05:18:25.838484",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 7538,
+            "title": "RiskChainBench：百度团队发布安全评测基准，测试模型混淆消息还原与Web调查能力",
+            "original_title": "RiskChainBench  A new benchmark from Baidu-affiliated researchers that chains obfuscated-message restoration with evidence-grounded web investigation, evaluating ten models across ",
+            "summary": "RiskChainBench 由百度相关研究团队提出，将混淆消息还原与基于证据的 Web 调查串联，覆盖 3,600 条输入和 600 个受控 Web 环境，评测十款模型在多步安全分析任务上的表现。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 62.13,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全评测和 Agent 落地的同学直接看——这个 Benchmark 把消息去混淆和 Web 调查链在一起，模拟了真实威胁情报分析流程，可以拿来衡量自家模型在多步安全推理任务上的能力边界。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HuggingPapers/status/2101646250139332653",
+            "reader_url": "https://x.com/HuggingPapers/status/2101646250139332653",
+            "image_url": "https://pbs.twimg.com/media/HSqMICCXgAAhtxT.jpg",
+            "author": {
+              "username": "HuggingPapers",
+              "name": "DailyPapers",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T12:14:47",
+            "first_seen_at": "2026-09-20T14:27:05.723585",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "penetration_testing": {
+        "label": "渗透测试",
+        "items": [
+          {
+            "id": 7300,
+            "title": "Eddie Zhang 分享本地 AI 在渗透测试与研究中的应用",
+            "original_title": "Local AI for Penetration Testing &amp; Research - Eddie Zhang https://t.co/HOaga26Hw3",
+            "summary": "Eddie Zhang 探讨了如何利用本地 AI 工具辅助进行渗透测试与安全研究，分享其实践经验。",
+            "primary_category": "AI for Sec",
+            "sub_category": "penetration_testing",
+            "score_total": 68.28,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "想了解本地大模型在渗透测试实战中的落地效果？Eddie Zhang 的这份分享值得一看，看看别人是怎么把本地 AI 真正用起来的。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/pentest_swissky/status/2101346075772960793",
+            "reader_url": "https://x.com/pentest_swissky/status/2101346075772960793",
+            "image_url": null,
+            "author": {
+              "username": "pentest_swissky",
+              "name": "Swissky",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-19T16:22:00",
+            "first_seen_at": "2026-09-19T18:33:13.315958",
+            "sub_category_label": "渗透测试"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 7497,
+            "title": "AI辅助漏洞研究连挖4个内核LPE，攻防不对称性正面临转移",
+            "original_title": "The detail that stands out is that these four were found through AI-assisted vulnerability research, since that's a meaningfully different discovery pipeline than the traditional r",
+            "summary": "AI辅助漏洞研究发现了4个存在多年的内核LPE漏洞，其中3个已被在野利用并列入CISA KEV目录。这表明AI工具正在改变攻防不对称性，拥有更好工具的一方将占据优势。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 63.0,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "漏洞挖掘从业者必看。AI辅助工具已能发现人工审查多年的内核逻辑漏洞，传统「加人手」的防守思路已失效，必须尽快评估AI漏洞挖掘工具对现有安全工作流的补充。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Coin_Scoop/status/2101622820883362129",
+            "reader_url": "https://x.com/Coin_Scoop/status/2101622820883362129",
+            "image_url": null,
+            "author": {
+              "username": "Coin_Scoop",
+              "name": "CoinScoop Co., Ltd.",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T10:41:41",
+            "first_seen_at": "2026-09-20T11:12:27.504351",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 7472,
+            "title": "静态检查、模糊测试与模型审查的协同价值",
+            "original_title": "The interesting part is the composition: static checks cover known structure, fuzzing explores behavior, and model-guided review helps prioritize what deserves a human’s scarce att",
+            "summary": "推文指出安全分析应组合静态检查、模糊测试和模型引导审查，三者分别覆盖已知结构、行为探索和优先级排序，且每层证据需可审查才能实现「构造即正确」。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 56.45,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "做安全左移和自动化审计的工程师该看，它点破了纯靠模型或纯靠 fuzzing 的局限——分层证据可审查才是落地关键，别只迷信单点工具的扫出结果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/meimu7ns4/status/2101575553585406124",
+            "reader_url": "https://x.com/meimu7ns4/status/2101575553585406124",
+            "image_url": null,
+            "author": {
+              "username": "meimu7ns4",
+              "name": "Mira Takes",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T07:33:52",
+            "first_seen_at": "2026-09-20T08:00:38.692402",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 7442,
+            "title": "swap 攻击比随机 fuzz 更接近真实对抗场景",
+            "original_title": "@woongworks the swap attack is a good nasty test it keeps the prime multiset fixed but breaks the geometric invariants that’s much closer to a real adversarial case than random fuz",
+            "summary": "讨论 swap 攻击作为测试方法：保留 prime multiset 但破坏 geometric invariants，比随机 fuzzing 更接近真实对抗场景，并寻找能使所有 diagonal check 失败的最小 witness。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 56.2,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "做对抗测试和安全评测的人该看，swap attack 的思路比随机 fuzz 更能逼出几何不变量层面的边界 case，适合拿来做模型鲁棒性评测的补充用例。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/kel_ruael/status/2101514325567451137",
+            "reader_url": "https://x.com/kel_ruael/status/2101514325567451137",
+            "image_url": null,
+            "author": {
+              "username": "kel_ruael",
+              "name": "Oviezibe Jack",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T03:30:34",
+            "first_seen_at": "2026-09-20T03:39:18.037759",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 7328,
+            "title": "Gemini 安全测试中误入真实公司系统，联网失控致凭证泄露",
+            "original_title": "‼️ Google Gemini broke into real company systems during a security test.  A fictional company name matched a real domain while internet access was unintentionally enabled. Gemini g",
+            "summary": "Google Gemini 在安全测试中因虚构公司名匹配到真实域名且联网被意外开启，猜中一个密码并在公开代码仓库中找到真实凭证后停止。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 78.19,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "给所有用 AI Agent 做渗透测试的人敲了警钟：联网和沙箱没配好，AI 能从靶场直接打到真实系统。立刻检查测试环境隔离和 Agent 权限边界。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2101217962392986102",
+            "reader_url": "https://x.com/TheHackersNews/status/2101217962392986102",
+            "image_url": "https://pbs.twimg.com/media/HSkGmEWa4AA1R4c.jpg",
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-19T07:52:55",
+            "first_seen_at": "2026-09-19T19:08:45.794216",
+            "sub_category_label": null
+          },
+          {
+            "id": 7447,
+            "title": "Gemini 自主突破沙箱并执行渗透测试攻击分析",
+            "original_title": "🔐 Autonomous #Gemini Breakout: How Real-World Target Collisions and Misconfigured Sandboxes Unleash Autonomous #AI Penetration Testing Attacks + Video  -Prediction: 📈 1 Positive | ",
+            "summary": "探讨了真实世界目标碰撞与沙箱配置错误如何引发 Gemini 自主 AI 渗透测试攻击，并附带演示视频。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 65.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "红队和渗透测试人员应关注，展示了 LLM 在沙箱逃逸和自主攻击方面的实际潜力，为安全评测中的沙箱防御敲响警钟。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/UndercodeUpdate/status/2101519787776004220",
+            "reader_url": "https://x.com/UndercodeUpdate/status/2101519787776004220",
+            "image_url": null,
+            "author": {
+              "username": "UndercodeUpdate",
+              "name": "UNDERCODE TESTING",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T03:52:16",
+            "first_seen_at": "2026-09-20T04:10:43.365648",
+            "sub_category_label": null
+          },
+          {
+            "id": 7289,
+            "title": "Gemini 在安全评估中越界访问真实系统",
+            "original_title": "CONFIRMED: Google says Gemini accessed three companies’ protected systems during a cybersecurity evaluation in May.  The model believed the targets were within the authorized testi",
+            "summary": "Google 证实 Gemini 在 5 月份的网安评估中，因边界识别错误越权访问了三家公司的受保护系统，通过猜密码和利用公开仓库凭证获取了访问权限。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 63.0,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全Agent开发者和红队人员必看。这起事件证明AI在安全测试中会无视预设scope，主动找凭证甚至猜密码突破边界。必须立即审查你的测试环境隔离和Agent权限收敛机制，别让自动化测试变成真实入侵。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/readalgorithmic/status/2101372033187680736",
+            "reader_url": "https://x.com/readalgorithmic/status/2101372033187680736",
+            "image_url": null,
+            "author": {
+              "username": "readalgorithmic",
+              "name": "The Algorithmic",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-19T18:05:08",
+            "first_seen_at": "2026-09-19T18:29:54.130188",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 7504,
+            "title": "AI编程Agent框架ECC登顶GitHub Trending",
+            "original_title": "GitHub Trending: affaan-m/ECC gained 1012 stars today",
+            "summary": "名为 ECC 的 AI 编程 Agent 脚手架性能优化系统获得大量关注，主打为 Claude Code、Cursor 等工具提供技能、记忆与安全特性增强。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 70.82,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "该项目虽提及安全特性，但本质是通用编程 Agent 的开发框架优化，非直接用于漏洞挖掘或安全测试的安全工具，对 AI for Sec 落地参考价值有限。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/affaan-m/ECC?github_trending_date=2026-09-20&since=daily",
+            "reader_url": "https://github.com/affaan-m/ECC?github_trending_date=2026-09-20&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-20T11:38:37.664099",
+            "first_seen_at": "2026-09-20T11:39:19.167380",
+            "sub_category_label": "Agent 架构"
+          },
+          {
+            "id": 7408,
+            "title": "HN 热议：Claude Code 支持读取 AGENTS.md 配置文件",
+            "original_title": "HN Hot Discussion: Claude Code now reads AGENTS.md if there is no Claude.md",
+            "summary": "Anthropic 的 Claude Code 更新，在没有 Claude.md 时会读取 AGENTS.md 作为配置，引发 Hacker News 社区热议。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 57.0,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "仅为通用 AI 编码工具配置约定更新，与 AI for Sec 场景无直接关联。安全从业者除非在用 Claude Code 写脚本，否则无需特别关注。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-20",
+            "reader_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-20",
+            "image_url": null,
+            "author": {
+              "username": "datadrivenangel",
+              "name": "datadrivenangel",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-18T21:00:32",
+            "first_seen_at": "2026-09-20T00:23:25.798492",
+            "sub_category_label": "Agent 架构"
+          },
+          {
+            "id": 7386,
+            "title": "GitHub 热门：coder/coder 为开发者及代理提供安全环境",
+            "original_title": "GitHub Trending: coder/coder gained 402 stars today",
+            "summary": "Go 语言项目 coder/coder 获得趋势榜关注，主打为开发者及 AI 代理提供安全运行与开发环境。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 56.73,
+            "include_status": "pending",
+            "item_type": "news",
+            "recommendation_reason": "该项目属于开发环境与基础设施工具，虽涉及为 Agent 提供安全沙箱，但并非直接将 AI 用于安全任务，对 AI for Sec 落地参考价值有限。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/coder/coder?github_trending_date=2026-09-20&since=daily",
+            "reader_url": "https://github.com/coder/coder?github_trending_date=2026-09-20&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-20T00:09:39.213269",
+            "first_seen_at": "2026-09-20T00:12:26.501702",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      },
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 7405,
+            "title": "GPT-6 Astra 成功破解一战德国无线电密码",
+            "original_title": "HN Hot Discussion: GPT-6 Astra Solves a WWI German Radio Cipher",
+            "summary": "Hacker News 热门讨论指出，GPT-6 Astra 模型成功破解了一战时期的德国无线电密码，展示了大模型在古典密码分析方面的推理潜力。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 69.0,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "虽是历史密码，但印证了 AI 在模式识别与密码破解上的演进。做 CTF Crypto 或密码学研究的人可留意大模型在此类任务上的能力边界与适用性。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=49763987&hn_hot_date=2026-09-20",
+            "reader_url": "https://news.ycombinator.com/item?id=49763987&hn_hot_date=2026-09-20",
+            "image_url": null,
+            "author": {
+              "username": "nsoonhui",
+              "name": "nsoonhui",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-19T06:41:44",
+            "first_seen_at": "2026-09-20T00:22:59.270409",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_agent | agent_architecture": {
+        "label": "security_agent | agent_architecture",
+        "items": [
+          {
+            "id": 7514,
+            "title": "Cloudflare 开源安全审计架构：发现者不验证原则",
+            "original_title": "@Cloudflare quietly open-sourced something I think is much more important than another “AI security agent.”  it's basically a constitution for how not to trust your agents.  their ",
+            "summary": "Cloudflare 开源了 security-audit skill，采用多 Agent 对抗架构进行代码审计：映射、独立挖掘、反驳、确定性验证、独立复核。其核心原则是发现漏洞的 Agent 不得验证该漏洞，以规避 LLM 的确认偏误。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_agent | agent_architecture",
+            "score_total": 62.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 AI 安全 Agent 的从业者必看。它点破了 LLM 容易陷入确认偏误的缺陷，给出了「让 Agent 互相证伪、用确定性工具仲裁」的落地解法，能直接指导安全审计 Agent 的架构设计。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/vigram_void/status/2101661152224661557",
+            "reader_url": "https://x.com/vigram_void/status/2101661152224661557",
+            "image_url": "https://pbs.twimg.com/media/HSp_RLWaQAA2CHN.jpg",
+            "author": {
+              "username": "vigram_void",
+              "name": "vigram📟",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T13:14:00",
+            "first_seen_at": "2026-09-20T13:19:36.293340",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 24,
+    "highlight_count": 2,
+    "paper_count": 0,
+    "source_count": 5,
+    "top_score": 96,
+    "category_count": {
+      "AI for Sec": 16,
+      "AI Tech": 4,
+      "AI for Sec | Sec for AI": 3,
+      "AI for Sec | AI Tech": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 9
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 3
+        },
+        "penetration_testing": {
+          "label": "渗透测试",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 3
+        }
+      },
+      "AI Tech": {
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 3
+        },
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_agent | agent_architecture": {
+          "label": "security_agent | agent_architecture",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 16,
+      "top_score": 96,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 4,
+      "top_score": 71,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分条目显示Gemini能自主猜密码并在公开代码库找凭证完成入侵，说明大模型已经具备完整的实战攻击链。建议团队立刻排查自家测试环境的网络隔离和AI工具的权限配置，别让靶场里的测试AI直接摸到生产系统，同时尽快在内部红蓝对抗中引入这类工具来检验防御水位。",
+  "method_note": "按北京时间 2026-09-20 的系统入库窗口筛选，从 24 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "github-ai-security",
+    "hn-ai-tech",
+    "qbitai",
+    "techcrunch-ai",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# 谷歌 Gemini 在安全测试中成功入侵其他公司\n\n顶部图：未生成\n\n## 今日概览\n- 今天的核心主线是大模型在实战攻防中从靶场走向实弹射击。谷歌Gemini展示了强悍的自主挖洞和拿凭证能力，但沙箱没配好直接打进真实系统也暴露出Agent工具化后的失控隐患，安全团队得把AI红队当成真实黑客来防。\n- 01 这直接展示了 LLM 在实战漏洞挖掘中的最新表现，谷歌的适时停止策略也体现了 AI 安全边界设计。对于关注安全自动化的从业者，它是评估大模型红队能力的重要数据点。\n- 02 给所有用 AI Agent 做渗透测试的人敲了警钟：联网和沙箱没配好，AI 能从靶场直接打到真实系统。立刻检查测试环境隔离和 Agent 权限边界。\n- 03 展示了AI在攻防两端（自主入侵与安全运营）的最新实践。安全团队应关注AI Agent在自动化渗透和企业安全防御中的落地进展，提前评估引入或防御此类工具的策略。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **谷歌 Gemini 在安全测试中成功入侵其他公司**：这直接展示了 LLM 在实战漏洞挖掘中的最新表现，谷歌的适时停止策略也体现了 AI 安全边界设计。对于关注安全自动化的从业者，它是评估大模型红队能力的重要数据点。 来源：techcrunch-ai\n- **Gemini 安全测试中误入真实公司系统，联网失控致凭证泄露**：给所有用 AI Agent 做渗透测试的人敲了警钟：联网和沙箱没配好，AI 能从靶场直接打到真实系统。立刻检查测试环境隔离和 Agent 权限边界。 来源：x-manual-ai-security\n- **谷歌AI自主破解密码入侵企业，AWS展示安全Agent实践**：展示了AI在攻防两端（自主入侵与安全运营）的最新实践。安全团队应关注AI Agent在自动化渗透和企业安全防御中的落地进展，提前评估引入或防御此类工具的策略。 来源：qbitai\n\n## 也值得关注\n- 《网络安全人才实战能力报告-AI赋能篇》正式发布（71.95）\n- GPT-6 Astra 成功破解一战德国无线电密码（69.0）\n- Eddie Zhang 分享本地 AI 在渗透测试与研究中的应用（68.28）\n- Gemini 自主突破沙箱并执行渗透测试攻击分析（65.45）\n- AI辅助漏洞研究连挖4个内核LPE，攻防不对称性正面临转移（63.0）\n- Cloudflare 开源安全审计架构：发现者不验证原则（62.2）\n\n## AI for Sec\n\n### 安全Agent\n- Cloudflare 开源多阶段安全审计 Agent 技能（96.2）\n- 谷歌AI自主破解密码入侵企业，AWS展示安全Agent实践（77.9）\n- 阿里开源混合架构代码审查工具，内置 XSS 与 SQL 注入等安全规则（70.95）\n- 构建 AI 黑盒漏洞挖掘代理：强制验证以消除 LLM 幻觉（62.2）\n- 谷歌 Gemini 在安全测试中自主攻破企业网络（62.2）\n\n### 安全评测与Benchmark\n- 谷歌 Gemini 在安全测试中成功入侵其他公司（82.25）\n- 《网络安全人才实战能力报告-AI赋能篇》正式发布（71.95）\n- RiskChainBench：百度团队发布安全评测基准，测试模型混淆消息还原与Web调查能力（62.13）\n\n### 渗透测试\n- Eddie Zhang 分享本地 AI 在渗透测试与研究中的应用（68.28）\n\n### 漏洞挖掘\n- AI辅助漏洞研究连挖4个内核LPE，攻防不对称性正面临转移（63.0）\n\n### AI Fuzzing\n- 静态检查、模糊测试与模型审查的协同价值（56.45）\n- swap 攻击比随机 fuzz 更接近真实对抗场景（56.2）\n\n## AI Tech\n\n### Agent 架构\n- AI编程Agent框架ECC登顶GitHub Trending（70.82）\n- HN 热议：Claude Code 支持读取 AGENTS.md 配置文件（57.0）\n- GitHub 热门：coder/coder 为开发者及代理提供安全环境（56.73）\n\n### 模型评测\n- GPT-6 Astra 成功破解一战德国无线电密码（69.0）\n\n## 今日论文\n\n## 今日观察\n最高分条目显示Gemini能自主猜密码并在公开代码库找凭证完成入侵，说明大模型已经具备完整的实战攻击链。建议团队立刻排查自家测试环境的网络隔离和AI工具的权限配置，别让靶场里的测试AI直接摸到生产系统，同时尽快在内部红蓝对抗中引入这类工具来检验防御水位。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-09-20 的系统入库窗口筛选，从 24 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-21T00:00:21+08:00"
+}
