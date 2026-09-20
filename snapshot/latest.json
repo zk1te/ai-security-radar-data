@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-21T05:50:32+08:00",
+  "updated_at": "2026-09-21T07:20:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 4,
   "items": [
     {
       "id": 7504,
@@ -47,30 +47,6 @@
       "published_at": "2026-09-20T17:42:08",
       "first_seen_at": "2026-09-20T18:14:42.260108",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7497,
-      "title": "AI辅助漏洞研究连挖4个内核LPE，攻防不对称性正面临转移",
-      "original_title": "The detail that stands out is that these four were found through AI-assisted vulnerability research, since that's a meaningfully different discovery pipeline than the traditional r",
-      "summary": "AI辅助漏洞研究发现了4个存在多年的内核LPE漏洞，其中3个已被在野利用并列入CISA KEV目录。这表明AI工具正在改变攻防不对称性，拥有更好工具的一方将占据优势。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 63.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘从业者必看。AI辅助工具已能发现人工审查多年的内核逻辑漏洞，传统「加人手」的防守思路已失效，必须尽快评估AI漏洞挖掘工具对现有安全工作流的补充。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Coin_Scoop/status/2101622820883362129",
-      "reader_url": "https://x.com/Coin_Scoop/status/2101622820883362129",
-      "image_url": null,
-      "author": {
-        "username": "Coin_Scoop",
-        "name": "CoinScoop Co., Ltd.",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-20T10:41:41",
-      "first_seen_at": "2026-09-20T11:12:27.504351",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 7514,
