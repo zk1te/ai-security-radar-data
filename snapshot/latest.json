@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-21T07:20:38+08:00",
+  "updated_at": "2026-09-21T07:50:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 4,
+  "item_count": 3,
   "items": [
-    {
-      "id": 7504,
-      "title": "AI编程Agent框架ECC登顶GitHub Trending",
-      "original_title": "GitHub Trending: affaan-m/ECC gained 1012 stars today",
-      "summary": "名为 ECC 的 AI 编程 Agent 脚手架性能优化系统获得大量关注，主打为 Claude Code、Cursor 等工具提供技能、记忆与安全特性增强。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 70.82,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "该项目虽提及安全特性，但本质是通用编程 Agent 的开发框架优化，非直接用于漏洞挖掘或安全测试的安全工具，对 AI for Sec 落地参考价值有限。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/affaan-m/ECC?github_trending_date=2026-09-20&since=daily",
-      "reader_url": "https://github.com/affaan-m/ECC?github_trending_date=2026-09-20&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-20T11:38:37.664099",
-      "first_seen_at": "2026-09-20T11:39:19.167380",
-      "sub_category_label": "Agent 架构"
-    },
     {
       "id": 7585,
       "title": "构建 AI 安全 Agent：上下文管理与循环执行实践",
