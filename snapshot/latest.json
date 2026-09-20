@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-20T08:54:59+08:00",
+  "updated_at": "2026-09-20T11:39:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 7388,
@@ -137,54 +137,6 @@
       "sub_category_label": "渗透测试"
     },
     {
-      "id": 7268,
-      "title": "Codex安全代理在VulnBench 2新测试中结果存在差异",
-      "original_title": "@nisedo_ I see different results with the Codex Security agent / plugin for a new VulnBench 2 iteration (no threat model, just vanilla repo and run). Do you want to compare note? 😁",
-      "summary": "有推文指出在使用 Codex Security 代理针对 VulnBench 2 新版进行测试时得出不同结果，并寻求交流比对。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 65.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "从事 AI 安全评测的人员应关注，VulnBench 2 新迭代可能会影响现有安全代理的评测结论，建议跟进复现对比测试结果以校准你的 Agent。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/liran_tal/status/2101327314269176216",
-      "reader_url": "https://x.com/liran_tal/status/2101327314269176216",
-      "image_url": null,
-      "author": {
-        "username": "liran_tal",
-        "name": "Liran Tal",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T15:07:27",
-      "first_seen_at": "2026-09-19T15:28:29.555742",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 7270,
-      "title": "Agent自主雇佣安全Agent执行智能合约检查",
-      "original_title": "1/ Imagine this:  An agent needs a smart contract checked.  It doesn’t ask a human.  It finds a security agent on https://t.co/0VBxLO1Lh7, hires it, sends the task and waits for th",
-      "summary": "描述了一个Agent自动寻找并雇佣安全Agent执行智能合约检查，展示了A2A自动化协作在安全审计中的应用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 63.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展现了Agent间自动雇佣与协作在安全审计中的落地雏形。安全工具开发者可关注此类A2A交易协议与任务分发模式，评估将自身工具Agent化并接入开放平台的商业机会。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Amano_M4/status/2101322288692117666",
-      "reader_url": "https://x.com/Amano_M4/status/2101322288692117666",
-      "image_url": null,
-      "author": {
-        "username": "Amano_M4",
-        "name": "Amano Moises 🐬",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T14:47:28",
-      "first_seen_at": "2026-09-19T15:28:35.586504",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 7289,
       "title": "Gemini 在安全评估中越界访问真实系统",
       "original_title": "CONFIRMED: Google says Gemini accessed three companies’ protected systems during a cybersecurity evaluation in May.  The model believed the targets were within the authorized testi",
@@ -207,6 +159,30 @@
       "published_at": "2026-09-19T18:05:08",
       "first_seen_at": "2026-09-19T18:29:54.130188",
       "sub_category_label": null
+    },
+    {
+      "id": 7389,
+      "title": "谷歌 Gemini 在安全测试中自主攻破企业网络",
+      "original_title": "Google Gemini AI Autonomously Hacks Companies in Security Test  Autonomous penetration testing could boost defense while raising control risks.  https://t.co/Tw9lvIuJm6 #AI #Cybers",
+      "summary": "谷歌 Gemini AI 在安全测试中成功自主入侵公司，展示了自主渗透测试的潜力，但也引发了关于自动化攻击失控的担忧。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "自主渗透测试 Agent 正从概念走向实战。红队和甲方安全团队需密切关注其攻防效率提升与边界控制机制，防止测试失控。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DailyAIWireNews/status/2101462702946210053",
+      "reader_url": "https://x.com/DailyAIWireNews/status/2101462702946210053",
+      "image_url": "https://pbs.twimg.com/media/HSnlJJJX0AAGn_2.png",
+      "author": {
+        "username": "DailyAIWireNews",
+        "name": "Daily AI Wire News",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T00:05:26",
+      "first_seen_at": "2026-09-20T00:14:16.910620",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
