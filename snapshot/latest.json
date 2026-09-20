@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-20T19:49:32+08:00",
+  "updated_at": "2026-09-20T20:19:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 7,
   "items": [
-    {
-      "id": 7388,
-      "title": "Cloudflare 开源多阶段安全审计 Agent 技能",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 3155 stars today",
-      "summary": "Cloudflare 的 security-audit-skill 项目在 GitHub 获得大量关注，该项目提供一种用于多阶段安全审计的编码 Agent 技能，支持生成独立验证且机器可读的审计结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 96.2,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "安全Agent开发者必看。该项目展示了如何将安全审计流程结构化为Agent可执行的技能，其强调的「独立验证」和「机器可读」是落地自动化安全任务的直接参考。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-20&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-20&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-20T00:09:39.040361",
-      "first_seen_at": "2026-09-20T00:14:16.519104",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 7477,
       "title": "谷歌AI自主破解密码入侵企业，AWS展示安全Agent实践",
@@ -63,26 +43,6 @@
       "published_at": "2026-09-20T02:48:18",
       "first_seen_at": "2026-09-20T05:18:25.838484",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 7381,
-      "title": "阿里开源混合架构代码审查工具，内置 XSS 与 SQL 注入等安全规则",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "阿里巴巴开源 open-code-review，采用确定性流水线加 LLM Agent 的混合架构，内置 NPE、线程安全、XSS、SQL 注入等多语言安全规则集，兼容 OpenAI 和 Anthropic 模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "用 LLM Agent 做代码级安全审查的落地参考，混合架构思路值得借鉴——确定性规则管兜底，LLM 管语义和误报过滤。安全工具链团队可直接看它的规则设计和 Agent 编排方式。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-20&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-20&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-20T00:09:41.282552",
-      "first_seen_at": "2026-09-20T00:12:05.102668",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 7504,
@@ -198,30 +158,6 @@
       },
       "published_at": "2026-09-20T06:39:56",
       "first_seen_at": "2026-09-20T06:53:21.582967",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7389,
-      "title": "谷歌 Gemini 在安全测试中自主攻破企业网络",
-      "original_title": "Google Gemini AI Autonomously Hacks Companies in Security Test  Autonomous penetration testing could boost defense while raising control risks.  https://t.co/Tw9lvIuJm6 #AI #Cybers",
-      "summary": "谷歌 Gemini AI 在安全测试中成功自主入侵公司，展示了自主渗透测试的潜力，但也引发了关于自动化攻击失控的担忧。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 62.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "自主渗透测试 Agent 正从概念走向实战。红队和甲方安全团队需密切关注其攻防效率提升与边界控制机制，防止测试失控。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DailyAIWireNews/status/2101462702946210053",
-      "reader_url": "https://x.com/DailyAIWireNews/status/2101462702946210053",
-      "image_url": "https://pbs.twimg.com/media/HSnlJJJX0AAGn_2.png",
-      "author": {
-        "username": "DailyAIWireNews",
-        "name": "Daily AI Wire News",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-20T00:05:26",
-      "first_seen_at": "2026-09-20T00:14:16.910620",
       "sub_category_label": "安全Agent"
     }
   ]
