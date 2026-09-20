@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-21T00:20:04+08:00",
+  "updated_at": "2026-09-21T01:20:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 7477,
@@ -23,26 +23,6 @@
       "published_at": "2026-09-20T08:01:13",
       "first_seen_at": "2026-09-20T09:24:59.239319",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7454,
-      "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布",
-      "original_title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
-      "summary": "第一届中国网络空间安全大会上发布了聚焦AI赋能安全人才的实战能力报告，探讨AI进入业务深水区后安全能力如何跟上。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 71.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "国内安全行业对AI赋能实战能力的阶段性总结，安全团队负责人可借此了解行业对AI+安全人才的能力框架共识，但内容偏宏观报告，实操参考价值有限。",
-      "source_id": "qbitai",
-      "canonical_url": "https://www.qbitai.com/2026/09/492849.html",
-      "reader_url": "https://www.qbitai.com/2026/09/492849.html",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-20T02:48:18",
-      "first_seen_at": "2026-09-20T05:18:25.838484",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 7504,
