@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-20T20:19:37+08:00",
+  "updated_at": "2026-09-20T20:49:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 7477,
@@ -63,30 +63,6 @@
       "published_at": "2026-09-20T11:38:37.664099",
       "first_seen_at": "2026-09-20T11:39:19.167380",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 7405,
-      "title": "GPT-6 Astra 成功破解一战德国无线电密码",
-      "original_title": "HN Hot Discussion: GPT-6 Astra Solves a WWI German Radio Cipher",
-      "summary": "Hacker News 热门讨论指出，GPT-6 Astra 模型成功破解了一战时期的德国无线电密码，展示了大模型在古典密码分析方面的推理潜力。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 69.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "虽是历史密码，但印证了 AI 在模式识别与密码破解上的演进。做 CTF Crypto 或密码学研究的人可留意大模型在此类任务上的能力边界与适用性。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49763987&hn_hot_date=2026-09-20",
-      "reader_url": "https://news.ycombinator.com/item?id=49763987&hn_hot_date=2026-09-20",
-      "image_url": null,
-      "author": {
-        "username": "nsoonhui",
-        "name": "nsoonhui",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T06:41:44",
-      "first_seen_at": "2026-09-20T00:22:59.270409",
-      "sub_category_label": "模型评测"
     },
     {
       "id": 7447,
