@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-21T03:20:22+08:00",
+  "updated_at": "2026-09-21T05:50:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
-    {
-      "id": 7477,
-      "title": "谷歌AI自主破解密码入侵企业，AWS展示安全Agent实践",
-      "original_title": "谷歌AI首次“越狱”：竟然自己破解密码入侵三家公司！",
-      "summary": "报道讨论了谷歌AI自主破解密码并入侵三家公司的安全测试案例，以及亚马逊云科技在企业安全中应用安全Agent的实践。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.9,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "展示了AI在攻防两端（自主入侵与安全运营）的最新实践。安全团队应关注AI Agent在自动化渗透和企业安全防御中的落地进展，提前评估引入或防御此类工具的策略。",
-      "source_id": "qbitai",
-      "canonical_url": "https://www.qbitai.com/2026/09/492912.html",
-      "reader_url": "https://www.qbitai.com/2026/09/492912.html",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-20T08:01:13",
-      "first_seen_at": "2026-09-20T09:24:59.239319",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 7504,
       "title": "AI编程Agent框架ECC登顶GitHub Trending",
