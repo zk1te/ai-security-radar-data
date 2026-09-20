@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-20T20:49:41+08:00",
+  "updated_at": "2026-09-20T21:19:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
     {
       "id": 7477,
@@ -111,6 +111,30 @@
       "published_at": "2026-09-20T10:41:41",
       "first_seen_at": "2026-09-20T11:12:27.504351",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7514,
+      "title": "Cloudflare 开源安全审计架构：发现者不验证原则",
+      "original_title": "@Cloudflare quietly open-sourced something I think is much more important than another “AI security agent.”  it's basically a constitution for how not to trust your agents.  their ",
+      "summary": "Cloudflare 开源了 security-audit skill，采用多 Agent 对抗架构进行代码审计：映射、独立挖掘、反驳、确定性验证、独立复核。其核心原则是发现漏洞的 Agent 不得验证该漏洞，以规避 LLM 的确认偏误。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent | agent_architecture",
+      "score_total": 62.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 安全 Agent 的从业者必看。它点破了 LLM 容易陷入确认偏误的缺陷，给出了「让 Agent 互相证伪、用确定性工具仲裁」的落地解法，能直接指导安全审计 Agent 的架构设计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/vigram_void/status/2101661152224661557",
+      "reader_url": "https://x.com/vigram_void/status/2101661152224661557",
+      "image_url": "https://pbs.twimg.com/media/HSp_RLWaQAA2CHN.jpg",
+      "author": {
+        "username": "vigram_void",
+        "name": "vigram📟",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T13:14:00",
+      "first_seen_at": "2026-09-20T13:19:36.293340",
+      "sub_category_label": null
     },
     {
       "id": 7464,
