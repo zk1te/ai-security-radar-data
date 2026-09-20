@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T14:31:07+08:00",
+  "updated_at": "2026-09-20T15:01:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -133,30 +133,6 @@
       "sub_category_label": "模型评测"
     },
     {
-      "id": 7300,
-      "title": "Eddie Zhang 分享本地 AI 在渗透测试与研究中的应用",
-      "original_title": "Local AI for Penetration Testing &amp; Research - Eddie Zhang https://t.co/HOaga26Hw3",
-      "summary": "Eddie Zhang 探讨了如何利用本地 AI 工具辅助进行渗透测试与安全研究，分享其实践经验。",
-      "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 68.28,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "想了解本地大模型在渗透测试实战中的落地效果？Eddie Zhang 的这份分享值得一看，看看别人是怎么把本地 AI 真正用起来的。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pentest_swissky/status/2101346075772960793",
-      "reader_url": "https://x.com/pentest_swissky/status/2101346075772960793",
-      "image_url": null,
-      "author": {
-        "username": "pentest_swissky",
-        "name": "Swissky",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-19T16:22:00",
-      "first_seen_at": "2026-09-19T18:33:13.315958",
-      "sub_category_label": "渗透测试"
-    },
-    {
       "id": 7447,
       "title": "Gemini 自主突破沙箱并执行渗透测试攻击分析",
       "original_title": "🔐 Autonomous #Gemini Breakout: How Real-World Target Collisions and Misconfigured Sandboxes Unleash Autonomous #AI Penetration Testing Attacks + Video  -Prediction: 📈 1 Positive | ",
@@ -179,6 +155,30 @@
       "published_at": "2026-09-20T03:52:16",
       "first_seen_at": "2026-09-20T04:10:43.365648",
       "sub_category_label": null
+    },
+    {
+      "id": 7464,
+      "title": "构建 AI 黑盒漏洞挖掘代理：强制验证以消除 LLM 幻觉",
+      "original_title": "last time, I built a terminal-based security agent that audits source code for vulnerabilities; now I'm building an AI agent that finds SQL injection vulnerabilities in a running w",
+      "summary": "开发者分享其正在构建的 SQL 注入 AI 代理，采用黑盒测试且必须通过实际利用验证漏洞，以解决 LLM 容易产生幻觉的问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "手搓黑盒漏洞挖掘 Agent 的实战参考。通过双 Agent 设计（猎手+验证者）强制证明漏洞，直击 LLM 易产生幻觉的痛点，对自研安全 Agent 有直接借鉴价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/i_feker/status/2101561984877756772",
+      "reader_url": "https://x.com/i_feker/status/2101561984877756772",
+      "image_url": null,
+      "author": {
+        "username": "i_feker",
+        "name": "Abdul Basit",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T06:39:56",
+      "first_seen_at": "2026-09-20T06:53:21.582967",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 7389,
