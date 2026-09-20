@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-21T02:20:17+08:00",
+  "updated_at": "2026-09-21T03:20:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 7477,
@@ -115,30 +115,6 @@
       "published_at": "2026-09-20T13:14:00",
       "first_seen_at": "2026-09-20T13:19:36.293340",
       "sub_category_label": null
-    },
-    {
-      "id": 7464,
-      "title": "构建 AI 黑盒漏洞挖掘代理：强制验证以消除 LLM 幻觉",
-      "original_title": "last time, I built a terminal-based security agent that audits source code for vulnerabilities; now I'm building an AI agent that finds SQL injection vulnerabilities in a running w",
-      "summary": "开发者分享其正在构建的 SQL 注入 AI 代理，采用黑盒测试且必须通过实际利用验证漏洞，以解决 LLM 容易产生幻觉的问题。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 62.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "手搓黑盒漏洞挖掘 Agent 的实战参考。通过双 Agent 设计（猎手+验证者）强制证明漏洞，直击 LLM 易产生幻觉的痛点，对自研安全 Agent 有直接借鉴价值。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/i_feker/status/2101561984877756772",
-      "reader_url": "https://x.com/i_feker/status/2101561984877756772",
-      "image_url": null,
-      "author": {
-        "username": "i_feker",
-        "name": "Abdul Basit",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-20T06:39:56",
-      "first_seen_at": "2026-09-20T06:53:21.582967",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 7538,
