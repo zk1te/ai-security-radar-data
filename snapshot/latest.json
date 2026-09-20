@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-20T22:49:55+08:00",
+  "updated_at": "2026-09-21T00:20:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 7477,
@@ -63,30 +63,6 @@
       "published_at": "2026-09-20T11:38:37.664099",
       "first_seen_at": "2026-09-20T11:39:19.167380",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 7447,
-      "title": "Gemini 自主突破沙箱并执行渗透测试攻击分析",
-      "original_title": "🔐 Autonomous #Gemini Breakout: How Real-World Target Collisions and Misconfigured Sandboxes Unleash Autonomous #AI Penetration Testing Attacks + Video  -Prediction: 📈 1 Positive | ",
-      "summary": "探讨了真实世界目标碰撞与沙箱配置错误如何引发 Gemini 自主 AI 渗透测试攻击，并附带演示视频。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 65.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试人员应关注，展示了 LLM 在沙箱逃逸和自主攻击方面的实际潜力，为安全评测中的沙箱防御敲响警钟。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/UndercodeUpdate/status/2101519787776004220",
-      "reader_url": "https://x.com/UndercodeUpdate/status/2101519787776004220",
-      "image_url": null,
-      "author": {
-        "username": "UndercodeUpdate",
-        "name": "UNDERCODE TESTING",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-20T03:52:16",
-      "first_seen_at": "2026-09-20T04:10:43.365648",
-      "sub_category_label": null
     },
     {
       "id": 7497,
