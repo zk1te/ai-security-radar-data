@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-21T09:51:03+08:00",
+  "updated_at": "2026-09-21T10:24:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 7680,
@@ -67,6 +67,30 @@
       "published_at": "2026-09-18T21:00:32",
       "first_seen_at": "2026-09-21T00:15:10.793067",
       "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 7695,
+      "title": "安全Agent评测应重证据链而非仅看回答",
+      "original_title": "Security agents should not be evaluated like writing assistants.  A good answer is not enough.  The agent needs to leave proof:  1. what environment it touched 2. which tools it ca",
+      "summary": "作者指出安全Agent不能像写作助手那样评估，需提供环境交互、工具调用和证据变更等可复现证明。微软ACESEvals等基准正推动安全任务评测向证据可重放方向发展。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 66.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent评测需从「听起来对」转向「证据可复现」，构建不信任Agent本身的验证体系。做Agent落地和安全评测的同行必须看，能避坑只看LLM输出的虚假繁荣。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/LoveAIbrain/status/2101854734202331339",
+      "reader_url": "https://x.com/LoveAIbrain/status/2101854734202331339",
+      "image_url": null,
+      "author": {
+        "username": "LoveAIbrain",
+        "name": "0xAIBrain",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-21T02:03:13",
+      "first_seen_at": "2026-09-21T02:24:24.701366",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 7676,
@@ -157,28 +181,28 @@
       "sub_category_label": "Agent 架构"
     },
     {
-      "id": 7690,
-      "title": "PentestChain：基于免费LLM与MCP编排的零成本自动化渗透测试框架",
-      "original_title": "PentestChain: A Cost-Aware, MCP-Orchestrated Framework for Automated Penetration Testing with Free-Tier LLMs: AI-driven penetration testing has been demonstrated with premium front",
-      "summary": "PentestChain 提出一种成本感知的 AI 级联渗透测试框架，利用本地 7B 模型与免费层 API 实现零 API 成本的端到端自动化测试，并分析了 MCP 暴露的攻击引擎引入的攻击面及缓解方案。",
+      "id": 7694,
+      "title": "利用 Claude 进行 AI 渗透测试发现 OpenAI 关键漏洞",
+      "original_title": "🔍 #AI-Powered Penetration Testing: How Researchers Leveraged Claude to Uncover Critical Flaws in #OpenAI + Video  -Prediction: 📈 0 Positive | 📉 1 Negative  https://t.co/GpYNf36NRG ",
+      "summary": "研究人员展示了如何利用 Claude 进行 AI 驱动的渗透测试，并声称成功发现了 OpenAI 的关键漏洞。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 63.0,
+      "sub_category": "penetration_testing",
+      "score_total": 63.15,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "该框架让中小团队也能跑得起 AI 自动化渗透测试，同时直面 MCP 工具链的安全风险并给出缓解措施。渗透测试工程师和安全 Agent 开发者应关注其成本控制策略与对齐 AutoPenBench 等基准的评估方法。",
+      "recommendation_reason": "展示了大模型在实战渗透测试中的最新应用案例。安全研究员和红队人员可关注其具体测试手法与漏洞发现过程，评估 AI 辅助安全测试的实战边界与效果。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/gastronomy/status/2101847536948367745",
-      "reader_url": "https://x.com/gastronomy/status/2101847536948367745",
+      "canonical_url": "https://x.com/UndercodeUpdate/status/2101855446504026115",
+      "reader_url": "https://x.com/UndercodeUpdate/status/2101855446504026115",
       "image_url": null,
       "author": {
-        "username": "gastronomy",
-        "name": "Tanat Tonguthaisri",
+        "username": "UndercodeUpdate",
+        "name": "UNDERCODE TESTING",
         "avatar_url": null
       },
-      "published_at": "2026-09-21T01:34:37",
-      "first_seen_at": "2026-09-21T01:47:48.368358",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-09-21T02:06:03",
+      "first_seen_at": "2026-09-21T02:24:23.039750",
+      "sub_category_label": "渗透测试"
     }
   ]
 }
