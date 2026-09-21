@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-09-21T17:45:01+08:00",
+  "updated_at": "2026-09-21T18:02:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 10,
   "items": [
+    {
+      "id": 8000,
+      "title": "TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准",
+      "original_title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
+      "summary": "提出可刷新的音频基准 TeleAntiFraud 2.0，引入近域负样本和混合树生成方法，揭示了现有 ASR+LLM 模型在真实混淆条件下的预测崩溃和分类捷径问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 87.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.18748",
+      "reader_url": "https://arxiv.org/pdf/2609.18748",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T00:00:00",
+      "first_seen_at": "2026-09-21T09:57:35.698398",
+      "sub_category_label": "安全评测与Benchmark"
+    },
     {
       "id": 7680,
       "title": "Cloudflare 开源安全审计 Agent Skill",
@@ -105,6 +125,74 @@
       "sub_category_label": null
     },
     {
+      "id": 7690,
+      "title": "PentestChain：基于免费LLM与MCP编排的零成本自动化渗透测试框架",
+      "original_title": "PentestChain: A Cost-Aware, MCP-Orchestrated Framework for Automated Penetration Testing with Free-Tier LLMs: AI-driven penetration testing has been demonstrated with premium front",
+      "summary": "PentestChain 提出一种成本感知的 AI 级联渗透测试框架，利用本地 7B 模型与免费层 API 实现零 API 成本的端到端自动化测试，并分析了 MCP 暴露的攻击引擎引入的攻击面及缓解方案。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 78.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "该框架让中小团队也能跑得起 AI 自动化渗透测试，同时直面 MCP 工具链的安全风险并给出缓解措施。渗透测试工程师和安全 Agent 开发者应关注其成本控制策略与对齐 AutoPenBench 等基准的评估方法。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2101847536948367745",
+      "reader_url": "https://x.com/gastronomy/status/2101847536948367745",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-21T01:34:37",
+      "first_seen_at": "2026-09-21T01:47:48.368358",
+      "sub_category_label": null
+    },
+    {
+      "id": 8001,
+      "title": "FRAUDSkill：冻结权重音频反欺诈技能优化框架",
+      "original_title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
+      "summary": "提出一种用于音频反欺诈检测的冻结权重适应框架 FRAUDSkill，通过优化外部技能程序和路由策略，在 TeleAntiFraud 基准上显著提升检测效果并减少无效输出。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 76.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做威胁检测和反欺诈的同行建议看。该框架不改底层模型仅调外部技能，在电信诈骗场景下效果显著，为 LLM 落地安全检测提供了高可适应性的低成本部署思路。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.18766",
+      "reader_url": "https://arxiv.org/pdf/2609.18766",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T00:00:00",
+      "first_seen_at": "2026-09-21T09:57:39.063197",
+      "sub_category_label": "欺诈检测"
+    },
+    {
+      "id": 7704,
+      "title": "STEALIEN AI 防御智能体在 APEX 2026 夺冠，得分超人类三倍",
+      "original_title": "[Media Coverage] AI Outperforms Human Teams in Cyber Defense… STEALIEN Ranks 1st in International Cyber Exercise APEX 2026 https://t.co/J9jbY20o44  #STEALIEN #APEX2026 #AISecurity ",
+      "summary": "STEALIEN 开发的自主 AI 蓝队智能体在 APEX 2026 国际网络演练中排名第一，通过多智能体并行分析攻击场景并自动化决策，得分达到人类队伍的三倍。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.96,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "多智能体协同自动化防御已从概念走向实战演练验证。安全运营团队应关注此架构在真实对抗中的效率表现，思考如何引入并行分析提升蓝队响应速度。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/stealien/status/2101869081154732266",
+      "reader_url": "https://x.com/stealien/status/2101869081154732266",
+      "image_url": null,
+      "author": {
+        "username": "stealien",
+        "name": "STEALIEN",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-21T03:00:14",
+      "first_seen_at": "2026-09-21T03:28:02.247655",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 7675,
       "title": "阿里开源混合架构代码审查工具，内置 XSS 与 SQL 注入等安全规则",
       "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
@@ -123,26 +211,6 @@
       "published_at": "2026-09-21T00:20:48.580195",
       "first_seen_at": "2026-09-21T00:22:18.886132",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 7770,
-      "title": "LLM Agent 代码生成的约束衰减现象评测",
-      "original_title": "Constraint Decay: The Fragility of LLM Agents in Backend Code Generation",
-      "summary": "本文系统评估 LLM Agent 在多文件后端代码生成中对结构约束的遵守能力，发现随结构要求积累，Agent 断言通过率平均下降 27.28 分，数据层缺陷如 ORM 运行时违规是首要根因。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 69.65,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做 AI 代码审计和安全 review 的人该看：它揭示了 Agent 生成代码在数据层和结构约束上的系统性缺陷模式，正是 SQL 注入、数据泄露类漏洞的高发区，审计时可作为重点检查方向。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2605.06445",
-      "reader_url": "https://arxiv.org/pdf/2605.06445",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-21T04:00:00",
-      "first_seen_at": "2026-09-21T08:25:24.595282",
-      "sub_category_label": "模型评测"
     }
   ]
 }
