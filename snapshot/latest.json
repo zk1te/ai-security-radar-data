@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T10:24:44+08:00",
+  "updated_at": "2026-09-21T14:42:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -113,30 +113,6 @@
       "sub_category_label": "Agent 架构"
     },
     {
-      "id": 7585,
-      "title": "构建 AI 安全 Agent：上下文管理与循环执行实践",
-      "original_title": "Another great blogpost on building your AI security agent, this time on how to give it context the right way and running a loop  Lucky to be working with @asen_sec for our AI tooli",
-      "summary": "介绍如何为 AI 安全 Agent 正确提供上下文并运行执行循环，该工具已在实践中发现数百个漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 64.61,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了安全 Agent 上下文工程和循环设计的实战经验，适合正在开发自动化安全工具的团队参考，直接验证了 AI 漏洞挖掘的落地效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pashov/status/2101728631068275114",
-      "reader_url": "https://x.com/pashov/status/2101728631068275114",
-      "image_url": null,
-      "author": {
-        "username": "pashov",
-        "name": "pashov",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-20T17:42:08",
-      "first_seen_at": "2026-09-20T18:14:42.260108",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 7652,
       "title": "HN 热议通义千问图像模型 Qwen Image 2.1",
       "original_title": "HN Hot Discussion: Qwen Image 2.1",
@@ -203,6 +179,30 @@
       "published_at": "2026-09-21T02:06:03",
       "first_seen_at": "2026-09-21T02:24:23.039750",
       "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 7690,
+      "title": "PentestChain：基于免费LLM与MCP编排的零成本自动化渗透测试框架",
+      "original_title": "PentestChain: A Cost-Aware, MCP-Orchestrated Framework for Automated Penetration Testing with Free-Tier LLMs: AI-driven penetration testing has been demonstrated with premium front",
+      "summary": "PentestChain 提出一种成本感知的 AI 级联渗透测试框架，利用本地 7B 模型与免费层 API 实现零 API 成本的端到端自动化测试，并分析了 MCP 暴露的攻击引擎引入的攻击面及缓解方案。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 63.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "该框架让中小团队也能跑得起 AI 自动化渗透测试，同时直面 MCP 工具链的安全风险并给出缓解措施。渗透测试工程师和安全 Agent 开发者应关注其成本控制策略与对齐 AutoPenBench 等基准的评估方法。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2101847536948367745",
+      "reader_url": "https://x.com/gastronomy/status/2101847536948367745",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-21T01:34:37",
+      "first_seen_at": "2026-09-21T01:47:48.368358",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
