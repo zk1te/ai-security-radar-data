@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T22:10:06+08:00",
+  "updated_at": "2026-09-21T23:40:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -125,30 +125,6 @@
       "sub_category_label": "欺诈检测"
     },
     {
-      "id": 7704,
-      "title": "STEALIEN AI 防御智能体在 APEX 2026 夺冠，得分超人类三倍",
-      "original_title": "[Media Coverage] AI Outperforms Human Teams in Cyber Defense… STEALIEN Ranks 1st in International Cyber Exercise APEX 2026 https://t.co/J9jbY20o44  #STEALIEN #APEX2026 #AISecurity ",
-      "summary": "STEALIEN 开发的自主 AI 蓝队智能体在 APEX 2026 国际网络演练中排名第一，通过多智能体并行分析攻击场景并自动化决策，得分达到人类队伍的三倍。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.96,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "多智能体协同自动化防御已从概念走向实战演练验证。安全运营团队应关注此架构在真实对抗中的效率表现，思考如何引入并行分析提升蓝队响应速度。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/stealien/status/2101869081154732266",
-      "reader_url": "https://x.com/stealien/status/2101869081154732266",
-      "image_url": null,
-      "author": {
-        "username": "stealien",
-        "name": "STEALIEN",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-21T03:00:14",
-      "first_seen_at": "2026-09-21T03:28:02.247655",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 8014,
       "title": "Cloudflare开源多阶段安全审计Agent技能",
       "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
@@ -187,6 +163,26 @@
       "published_at": "2026-09-21T04:00:00",
       "first_seen_at": "2026-09-21T08:25:24.595282",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 8028,
+      "title": "ForgeryVCR 用视觉中心推理重塑图像取证范式",
+      "original_title": "ACM Multimedia 2026 Oral｜从「转述痕迹」到「看见证据」：ForgeryVCR用视觉中心推理重塑图像取证范式",
+      "summary": "ForgeryVCR 提出以视觉中心推理进行图像伪造检测的框架，从依赖转述痕迹转向直接定位证据，提升取证可解释性与准确率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "image_forensics",
+      "score_total": 66.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做多媒体取证和伪造检测的同学值得看，它提供了可解释推理新范式，可借鉴到安全场景中需要证据定位的检测任务。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-21-12?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-09-21-12?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T10:32:39",
+      "first_seen_at": "2026-09-21T11:40:55.155197",
+      "sub_category_label": null
     }
   ]
 }
