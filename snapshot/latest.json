@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-22T05:41:57+08:00",
+  "updated_at": "2026-09-22T06:16:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 6,
   "items": [
     {
       "id": 8154,
@@ -23,46 +23,6 @@
       "published_at": "2026-09-21T16:33:16",
       "first_seen_at": "2026-09-21T18:49:35.659794",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 8000,
-      "title": "TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准",
-      "original_title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
-      "summary": "提出可刷新的音频基准 TeleAntiFraud 2.0，引入近域负样本和混合树生成方法，揭示了现有 ASR+LLM 模型在真实混淆条件下的预测崩溃和分类捷径问题。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 87.6,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.18748",
-      "reader_url": "https://arxiv.org/pdf/2609.18748",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-21T00:00:00",
-      "first_seen_at": "2026-09-21T09:57:35.698398",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 8001,
-      "title": "FRAUDSkill：冻结权重音频反欺诈技能优化框架",
-      "original_title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
-      "summary": "提出一种用于音频反欺诈检测的冻结权重适应框架 FRAUDSkill，通过优化外部技能程序和路由策略，在 TeleAntiFraud 基准上显著提升检测效果并减少无效输出。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fraud_detection",
-      "score_total": 76.4,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做威胁检测和反欺诈的同行建议看。该框架不改底层模型仅调外部技能，在电信诈骗场景下效果显著，为 LLM 落地安全检测提供了高可适应性的低成本部署思路。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.18766",
-      "reader_url": "https://arxiv.org/pdf/2609.18766",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-21T00:00:00",
-      "first_seen_at": "2026-09-21T09:57:39.063197",
-      "sub_category_label": "欺诈检测"
     },
     {
       "id": 8014,
