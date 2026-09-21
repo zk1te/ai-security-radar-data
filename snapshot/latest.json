@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T19:09:53+08:00",
+  "updated_at": "2026-09-21T20:40:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,26 +23,6 @@
       "published_at": "2026-09-21T00:00:00",
       "first_seen_at": "2026-09-21T09:57:35.698398",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 7680,
-      "title": "Cloudflare 开源安全审计 Agent Skill",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2428 stars today",
-      "summary": "Cloudflare 发布用于编码代理的安全审计技能，支持多阶段审计并生成可独立验证的机器可读结果，GitHub 日增 2400+ 星。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 85.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做安全审计和自动化扫描的开发者必看。它展示了如何将安全审计流程标准化为 Agent Skill，能直接集成到开发流程中提升效率。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-21&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-21&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-21T00:20:46.687443",
-      "first_seen_at": "2026-09-21T00:22:45.990361",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 7767,
@@ -211,6 +191,26 @@
       "published_at": "2026-09-21T10:52:04.044628",
       "first_seen_at": "2026-09-21T10:52:48.970767",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7770,
+      "title": "LLM Agent 代码生成的约束衰减现象评测",
+      "original_title": "Constraint Decay: The Fragility of LLM Agents in Backend Code Generation",
+      "summary": "本文系统评估 LLM Agent 在多文件后端代码生成中对结构约束的遵守能力，发现随结构要求积累，Agent 断言通过率平均下降 27.28 分，数据层缺陷如 ORM 运行时违规是首要根因。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 69.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 代码审计和安全 review 的人该看：它揭示了 Agent 生成代码在数据层和结构约束上的系统性缺陷模式，正是 SQL 注入、数据泄露类漏洞的高发区，审计时可作为重点检查方向。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.06445",
+      "reader_url": "https://arxiv.org/pdf/2605.06445",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T08:25:24.595282",
+      "sub_category_label": "模型评测"
     }
   ]
 }
