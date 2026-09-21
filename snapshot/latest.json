@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T09:20:55+08:00",
+  "updated_at": "2026-09-21T09:51:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -157,28 +157,28 @@
       "sub_category_label": "Agent 架构"
     },
     {
-      "id": 7538,
-      "title": "RiskChainBench：百度团队发布安全评测基准，测试模型混淆消息还原与Web调查能力",
-      "original_title": "RiskChainBench  A new benchmark from Baidu-affiliated researchers that chains obfuscated-message restoration with evidence-grounded web investigation, evaluating ten models across ",
-      "summary": "RiskChainBench 由百度相关研究团队提出，将混淆消息还原与基于证据的 Web 调查串联，覆盖 3,600 条输入和 600 个受控 Web 环境，评测十款模型在多步安全分析任务上的表现。",
+      "id": 7690,
+      "title": "PentestChain：基于免费LLM与MCP编排的零成本自动化渗透测试框架",
+      "original_title": "PentestChain: A Cost-Aware, MCP-Orchestrated Framework for Automated Penetration Testing with Free-Tier LLMs: AI-driven penetration testing has been demonstrated with premium front",
+      "summary": "PentestChain 提出一种成本感知的 AI 级联渗透测试框架，利用本地 7B 模型与免费层 API 实现零 API 成本的端到端自动化测试，并分析了 MCP 暴露的攻击引擎引入的攻击面及缓解方案。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 62.13,
+      "sub_category": "security_agent",
+      "score_total": 63.0,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做安全评测和 Agent 落地的同学直接看——这个 Benchmark 把消息去混淆和 Web 调查链在一起，模拟了真实威胁情报分析流程，可以拿来衡量自家模型在多步安全推理任务上的能力边界。",
+      "recommendation_reason": "该框架让中小团队也能跑得起 AI 自动化渗透测试，同时直面 MCP 工具链的安全风险并给出缓解措施。渗透测试工程师和安全 Agent 开发者应关注其成本控制策略与对齐 AutoPenBench 等基准的评估方法。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2101646250139332653",
-      "reader_url": "https://x.com/HuggingPapers/status/2101646250139332653",
-      "image_url": "https://pbs.twimg.com/media/HSqMICCXgAAhtxT.jpg",
+      "canonical_url": "https://x.com/gastronomy/status/2101847536948367745",
+      "reader_url": "https://x.com/gastronomy/status/2101847536948367745",
+      "image_url": null,
       "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
         "avatar_url": null
       },
-      "published_at": "2026-09-20T12:14:47",
-      "first_seen_at": "2026-09-20T14:27:05.723585",
-      "sub_category_label": "安全评测与Benchmark"
+      "published_at": "2026-09-21T01:34:37",
+      "first_seen_at": "2026-09-21T01:47:48.368358",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
