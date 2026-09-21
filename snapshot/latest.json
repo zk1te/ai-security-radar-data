@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-21T16:49:55+08:00",
+  "updated_at": "2026-09-21T17:20:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 7680,
@@ -11,8 +11,8 @@
       "summary": "Cloudflare 发布用于编码代理的安全审计技能，支持多阶段审计并生成可独立验证的机器可读结果，GitHub 日增 2400+ 星。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 96.95,
-      "include_status": "breaking",
+      "score_total": 85.7,
+      "include_status": "highlight",
       "item_type": "news",
       "recommendation_reason": "做安全审计和自动化扫描的开发者必看。它展示了如何将安全审计流程标准化为 Agent Skill，能直接集成到开发流程中提升效率。",
       "source_id": "github-ai-security",
@@ -65,6 +65,54 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
+      "id": 7690,
+      "title": "PentestChain：基于免费LLM与MCP编排的零成本自动化渗透测试框架",
+      "original_title": "PentestChain: A Cost-Aware, MCP-Orchestrated Framework for Automated Penetration Testing with Free-Tier LLMs: AI-driven penetration testing has been demonstrated with premium front",
+      "summary": "PentestChain 提出一种成本感知的 AI 级联渗透测试框架，利用本地 7B 模型与免费层 API 实现零 API 成本的端到端自动化测试，并分析了 MCP 暴露的攻击引擎引入的攻击面及缓解方案。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 78.0,
+      "include_status": "pending",
+      "item_type": "news",
+      "recommendation_reason": "该框架让中小团队也能跑得起 AI 自动化渗透测试，同时直面 MCP 工具链的安全风险并给出缓解措施。渗透测试工程师和安全 Agent 开发者应关注其成本控制策略与对齐 AutoPenBench 等基准的评估方法。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2101847536948367745",
+      "reader_url": "https://x.com/gastronomy/status/2101847536948367745",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-21T01:34:37",
+      "first_seen_at": "2026-09-21T01:47:48.368358",
+      "sub_category_label": null
+    },
+    {
+      "id": 7704,
+      "title": "STEALIEN AI 防御智能体在 APEX 2026 夺冠，得分超人类三倍",
+      "original_title": "[Media Coverage] AI Outperforms Human Teams in Cyber Defense… STEALIEN Ranks 1st in International Cyber Exercise APEX 2026 https://t.co/J9jbY20o44  #STEALIEN #APEX2026 #AISecurity ",
+      "summary": "STEALIEN 开发的自主 AI 蓝队智能体在 APEX 2026 国际网络演练中排名第一，通过多智能体并行分析攻击场景并自动化决策，得分达到人类队伍的三倍。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.96,
+      "include_status": "pending",
+      "item_type": "news",
+      "recommendation_reason": "多智能体协同自动化防御已从概念走向实战演练验证。安全运营团队应关注此架构在真实对抗中的效率表现，思考如何引入并行分析提升蓝队响应速度。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/stealien/status/2101869081154732266",
+      "reader_url": "https://x.com/stealien/status/2101869081154732266",
+      "image_url": null,
+      "author": {
+        "username": "stealien",
+        "name": "STEALIEN",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-21T03:00:14",
+      "first_seen_at": "2026-09-21T03:28:02.247655",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 7781,
       "title": "基于本地开源大模型的 Bug 修复提交自动标记",
       "original_title": "Labelling Bug-Fixing Commits with Local Open-Weight Language Models",
@@ -91,8 +139,8 @@
       "summary": "alibaba/open-code-review 采用确定性管道与 LLM Agent 混合架构，提供行级精准评论，内置多语言安全规则集（如 XSS、SQL 注入、NPE），兼容 OpenAI 与 Anthropic 模型。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 70.95,
-      "include_status": "included",
+      "score_total": 72.9,
+      "include_status": "highlight",
       "item_type": "news",
       "recommendation_reason": "做 SAST 和代码审计的同行值得关注，它展示了规则引擎与 LLM Agent 混合的工程实践，内置漏洞规则集可直接拿来验证 AI 在实际代码安全审查中的落地效果与误报率。",
       "source_id": "github-ai-security",
@@ -145,52 +193,24 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 7661,
-      "title": "Claude Code 新增读取 AGENTS.md 配置文件功能",
-      "original_title": "HN Hot Discussion: Claude Code now reads AGENTS.md if there is no Claude.md",
-      "summary": "Anthropic 的编程助手 Claude Code 现在在找不到 Claude.md 时会读取 AGENTS.md 文件，该特性在 Hacker News 引发热议。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 67.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "虽然主要是 AI 编程工具配置更新，但 AGENTS.md 可能成为新的提示注入攻击面，安全团队在使用 AI 编程助手时需注意此配置文件的加载行为。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-21",
-      "reader_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-21",
-      "image_url": null,
-      "author": {
-        "username": "datadrivenangel",
-        "name": "datadrivenangel",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-18T21:00:32",
-      "first_seen_at": "2026-09-21T00:15:10.793067",
-      "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 7695,
-      "title": "安全Agent评测应重证据链而非仅看回答",
-      "original_title": "Security agents should not be evaluated like writing assistants.  A good answer is not enough.  The agent needs to leave proof:  1. what environment it touched 2. which tools it ca",
-      "summary": "作者指出安全Agent不能像写作助手那样评估，需提供环境交互、工具调用和证据变更等可复现证明。微软ACESEvals等基准正推动安全任务评测向证据可重放方向发展。",
+      "id": 7862,
+      "title": "快速准确的文本内容文件类型识别模型",
+      "original_title": "Fast And Accurate Text Content File Type Identification",
+      "summary": "本文提出一种用于识别文本内容文件类型（尤其是源代码）的神经网络模型，平均准确率优于现有工具，且速度比 Magika 快约 4 倍，模型体积小 28%。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 66.65,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全Agent评测需从「听起来对」转向「证据可复现」，构建不信任Agent本身的验证体系。做Agent落地和安全评测的同行必须看，能避坑只看LLM输出的虚假繁荣。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/LoveAIbrain/status/2101854734202331339",
-      "reader_url": "https://x.com/LoveAIbrain/status/2101854734202331339",
+      "sub_category": "file_type_identification",
+      "score_total": 67.45,
+      "include_status": "pending",
+      "item_type": "paper",
+      "recommendation_reason": "文件类型识别是安全分析的基础环节。该模型在准确率和速度上超越谷歌 Magika，适合安全工具链开发者评估集成，以提升大规模文件处理和威胁检测效率。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.21306",
+      "reader_url": "https://arxiv.org/pdf/2609.21306",
       "image_url": null,
-      "author": {
-        "username": "LoveAIbrain",
-        "name": "0xAIBrain",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-21T02:03:13",
-      "first_seen_at": "2026-09-21T02:24:24.701366",
-      "sub_category_label": "安全评测与Benchmark"
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T09:02:47.024287",
+      "sub_category_label": null
     }
   ]
 }
