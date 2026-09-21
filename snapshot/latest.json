@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-22T06:16:43+08:00",
+  "updated_at": "2026-09-22T07:16:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 8154,
@@ -23,26 +23,6 @@
       "published_at": "2026-09-21T16:33:16",
       "first_seen_at": "2026-09-21T18:49:35.659794",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 8014,
-      "title": "Cloudflare开源多阶段安全审计Agent技能",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare开源了一个用于多阶段安全审计的coding-agent技能，能生成可独立验证、机器可读的审计结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做代码审计和安全Agent落地的人该看。它展示了如何让Agent产出机器可读、可验证的审计结果，直接拿来改进你的安全Agent工作流。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-21&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-21&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-21T10:52:04.044628",
-      "first_seen_at": "2026-09-21T10:52:48.970767",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 8164,
