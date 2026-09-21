@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T18:02:21+08:00",
+  "updated_at": "2026-09-21T19:09:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -193,23 +193,23 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 7675,
-      "title": "阿里开源混合架构代码审查工具，内置 XSS 与 SQL 注入等安全规则",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "alibaba/open-code-review 采用确定性管道与 LLM Agent 混合架构，提供行级精准评论，内置多语言安全规则集（如 XSS、SQL 注入、NPE），兼容 OpenAI 与 Anthropic 模型。",
+      "id": 8014,
+      "title": "Cloudflare开源多阶段安全审计Agent技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare开源了一个用于多阶段安全审计的coding-agent技能，能生成可独立验证、机器可读的审计结果。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 72.9,
-      "include_status": "highlight",
+      "score_total": 73.2,
+      "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做 SAST 和代码审计的同行值得关注，它展示了规则引擎与 LLM Agent 混合的工程实践，内置漏洞规则集可直接拿来验证 AI 在实际代码安全审查中的落地效果与误报率。",
+      "recommendation_reason": "做代码审计和安全Agent落地的人该看。它展示了如何让Agent产出机器可读、可验证的审计结果，直接拿来改进你的安全Agent工作流。",
       "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-21&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-21&since=weekly",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-21&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-21&since=weekly",
       "image_url": null,
       "author": null,
-      "published_at": "2026-09-21T00:20:48.580195",
-      "first_seen_at": "2026-09-21T00:22:18.886132",
+      "published_at": "2026-09-21T10:52:04.044628",
+      "first_seen_at": "2026-09-21T10:52:48.970767",
       "sub_category_label": "安全Agent"
     }
   ]
