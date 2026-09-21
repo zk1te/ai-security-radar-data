@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-22T07:16:48+08:00",
+  "updated_at": "2026-09-22T07:46:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 4,
   "items": [
     {
       "id": 8154,
@@ -73,26 +73,6 @@
       "published_at": "2026-09-21T15:56:14",
       "first_seen_at": "2026-09-21T16:12:20.130905",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 8028,
-      "title": "ForgeryVCR 用视觉中心推理重塑图像取证范式",
-      "original_title": "ACM Multimedia 2026 Oral｜从「转述痕迹」到「看见证据」：ForgeryVCR用视觉中心推理重塑图像取证范式",
-      "summary": "ForgeryVCR 提出以视觉中心推理进行图像伪造检测的框架，从依赖转述痕迹转向直接定位证据，提升取证可解释性与准确率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "image_forensics",
-      "score_total": 66.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做多媒体取证和伪造检测的同学值得看，它提供了可解释推理新范式，可借鉴到安全场景中需要证据定位的检测任务。",
-      "source_id": "jiqizhixin-rss",
-      "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-21-12?source=rss",
-      "reader_url": "https://www.jiqizhixin.com/articles/2026-09-21-12?source=rss",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-21T10:32:39",
-      "first_seen_at": "2026-09-21T11:40:55.155197",
-      "sub_category_label": null
     },
     {
       "id": 8067,
