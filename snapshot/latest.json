@@ -1,9 +1,33 @@
 {
-  "updated_at": "2026-09-21T07:50:43+08:00",
+  "updated_at": "2026-09-21T08:20:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 3,
+  "item_count": 6,
   "items": [
+    {
+      "id": 7661,
+      "title": "Claude Code 新增读取 AGENTS.md 配置文件功能",
+      "original_title": "HN Hot Discussion: Claude Code now reads AGENTS.md if there is no Claude.md",
+      "summary": "Anthropic 的编程助手 Claude Code 现在在找不到 Claude.md 时会读取 AGENTS.md 文件，该特性在 Hacker News 引发热议。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 67.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "虽然主要是 AI 编程工具配置更新，但 AGENTS.md 可能成为新的提示注入攻击面，安全团队在使用 AI 编程助手时需注意此配置文件的加载行为。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-21",
+      "reader_url": "https://news.ycombinator.com/item?id=49760187&hn_hot_date=2026-09-21",
+      "image_url": null,
+      "author": {
+        "username": "datadrivenangel",
+        "name": "datadrivenangel",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-18T21:00:32",
+      "first_seen_at": "2026-09-21T00:15:10.793067",
+      "sub_category_label": "Agent 架构"
+    },
     {
       "id": 7585,
       "title": "构建 AI 安全 Agent：上下文管理与循环执行实践",
@@ -27,6 +51,30 @@
       "published_at": "2026-09-20T17:42:08",
       "first_seen_at": "2026-09-20T18:14:42.260108",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7652,
+      "title": "HN 热议通义千问图像模型 Qwen Image 2.1",
+      "original_title": "HN Hot Discussion: Qwen Image 2.1",
+      "summary": "通义千问发布图像模型 Qwen Image 2.1，在 Hacker News 引起热议并登顶首页，关注度大幅上升。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 63.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "通用多模态模型更新，对安全工作无直接落地价值，仅供了解 AI 技术发展动态。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49775499&hn_hot_date=2026-09-21",
+      "reader_url": "https://news.ycombinator.com/item?id=49775499&hn_hot_date=2026-09-21",
+      "image_url": null,
+      "author": {
+        "username": "jmillikin",
+        "name": "jmillikin",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T13:09:25",
+      "first_seen_at": "2026-09-21T00:13:35.851799",
+      "sub_category_label": "模型评测"
     },
     {
       "id": 7514,
@@ -75,6 +123,30 @@
       "published_at": "2026-09-20T12:14:47",
       "first_seen_at": "2026-09-20T14:27:05.723585",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 7648,
+      "title": "HN 热门：Google 开源 Agentic Orchestrator",
+      "original_title": "HN Hot Discussion: Google's Open Agentic Orchestrator",
+      "summary": "Google 开源的 Agentic Orchestrator 在 Hacker News 引起热议，该项目旨在提供智能体编排能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 60.49,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "作为通用 Agent 编排框架，其架构设计可为安全自动化任务编排提供参考，但目前无直接安全落地场景，安全从业者可保持观望。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49780797&hn_hot_date=2026-09-21",
+      "reader_url": "https://news.ycombinator.com/item?id=49780797&hn_hot_date=2026-09-21",
+      "image_url": null,
+      "author": {
+        "username": "blazarquasar",
+        "name": "blazarquasar",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T22:32:43",
+      "first_seen_at": "2026-09-21T00:13:08.744421",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
