@@ -1,0 +1,1253 @@
+{
+  "date": "2026-09-21",
+  "candidate_count": 17,
+  "selected_count": 3,
+  "cover_title": "TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准",
+  "lead_takeaway": "今天的主线是AI安全工具链在工程落地上的查漏补缺。大家不再只谈模型能力，而是开始补齐防欺诈模型在真实对抗下的鲁棒性短板，并用强化学习和类型推断细化代码修复与Fuzzing的颗粒度，解决好看不好用的问题。",
+  "digest_points": [
+    "01 防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。",
+    "02 提出行级信用分配的强化学习修复思路，给做漏洞修复的团队参考——行级奖励分配可迁移到需精准定位修改位置的代码安全场景。",
+    "03 针对动态类型语言的安全测试一直缺乏好用的工具。本文扩展了 Pynguin，用运行时类型推断大幅提升 Python 代码覆盖率，做 Python 代码审计和 Fuzzing 的安全研究员值得一看，能直接借鉴到测试 harness 设计中。"
+  ],
+  "judgement": [
+    "01 防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。",
+    "02 提出行级信用分配的强化学习修复思路，给做漏洞修复的团队参考——行级奖励分配可迁移到需精准定位修改位置的代码安全场景。",
+    "03 针对动态类型语言的安全测试一直缺乏好用的工具。本文扩展了 Pynguin，用运行时类型推断大幅提升 Python 代码覆盖率，做 Python 代码审计和 Fuzzing 的安全研究员值得一看，能直接借鉴到测试 harness 设计中。"
+  ],
+  "top_items": [
+    {
+      "id": 8000,
+      "title": "TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准",
+      "original_title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
+      "summary": "提出可刷新的音频基准 TeleAntiFraud 2.0，引入近域负样本和混合树生成方法，揭示了现有 ASR+LLM 模型在真实混淆条件下的预测崩溃和分类捷径问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 87.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.18748",
+      "reader_url": "https://arxiv.org/pdf/2609.18748",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T00:00:00",
+      "first_seen_at": "2026-09-21T09:57:35.698398",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 7767,
+      "title": "BoostAPR：基于双奖励模型强化学习的自动程序修复",
+      "original_title": "BoostAPR: Boosting Automated Program Repair via Execution-Grounded Reinforcement Learning with Dual Reward Models",
+      "summary": "提出 BoostAPR 框架，利用双奖励模型解决自动程序修复中的稀疏执行反馈问题，在 SWE-bench 等基准上取得有竞争力的跨语言修复效果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 81.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "提出行级信用分配的强化学习修复思路，给做漏洞修复的团队参考——行级奖励分配可迁移到需精准定位修改位置的代码安全场景。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.09134",
+      "reader_url": "https://arxiv.org/pdf/2605.09134",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T08:23:56.443626",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7773,
+      "title": "结合类型推断的 Python 自动化单元测试生成技术",
+      "original_title": "Combining Type Inference and Automated Unit Test Generation for Python",
+      "summary": "本文提出在 Pynguin 测试生成框架中引入「类型追踪」机制，通过运行时观察动态提取并细化类型信息，解决了 Python 等动态语言缺乏类型信息导致测试生成困难的问题，使分支覆盖率最高提升 87.8%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 80.2,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "针对动态类型语言的安全测试一直缺乏好用的工具。本文扩展了 Pynguin，用运行时类型推断大幅提升 Python 代码覆盖率，做 Python 代码审计和 Fuzzing 的安全研究员值得一看，能直接借鉴到测试 harness 设计中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2507.01477",
+      "reader_url": "https://arxiv.org/pdf/2507.01477",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T08:26:01.150774",
+      "sub_category_label": "AI Fuzzing"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 7948,
+      "title": "Intentest：基于意图图的自动化渗透测试Agent",
+      "original_title": "Staying on the Attack Path: Structured State for Long-Horizon Automated Penetration Testing",
+      "summary": "本文提出意图图引导的自动化渗透测试Agent「Intentest」，通过持久化事实-意图DAG外化长程状态，解决LLM长程安全任务中的上下文遗忘和意图漂移问题，在CTF基准上总体成功率达88.2%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.05,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做安全Agent的人必看：用持久化DAG解决LLM长程渗透测试中的上下文遗忘和意图漂移，比基线提升近50个百分点，直接展示了Agent状态管理架构的最佳实践。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.07344",
+      "reader_url": "https://arxiv.org/pdf/2609.07344",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T09:38:51.873631",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7952,
+      "title": "Chameleon：利用机器学习代理模型从内存破坏攻击中恢复CPS",
+      "original_title": "Chameleon: Recovering Cyber-Physical Systems from Memory Corruption Attacks via ML Surrogates",
+      "summary": "论文提出 Chameleon 框架，在信息物理系统遭受内存破坏攻击时，利用训练好的机器学习代理模型替换受损组件，在不中断任务的前提下实现安全恢复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "system_resilience",
+      "score_total": 78.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "创新性地将 ML 代理模型用于攻击后的系统弹性恢复，而非传统的检测或阻断。对于从事 CPS 或高可用系统安全防护的从业者，提供了一种在无法宕机场景下缓解内存破坏的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.01356",
+      "reader_url": "https://arxiv.org/pdf/2607.01356",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T09:41:21.304984",
+      "sub_category_label": null
+    },
+    {
+      "id": 8001,
+      "title": "FRAUDSkill：冻结权重音频反欺诈技能优化框架",
+      "original_title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
+      "summary": "提出一种用于音频反欺诈检测的冻结权重适应框架 FRAUDSkill，通过优化外部技能程序和路由策略，在 TeleAntiFraud 基准上显著提升检测效果并减少无效输出。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 76.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做威胁检测和反欺诈的同行建议看。该框架不改底层模型仅调外部技能，在电信诈骗场景下效果显著，为 LLM 落地安全检测提供了高可适应性的低成本部署思路。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.18766",
+      "reader_url": "https://arxiv.org/pdf/2609.18766",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T00:00:00",
+      "first_seen_at": "2026-09-21T09:57:39.063197",
+      "sub_category_label": "欺诈检测"
+    },
+    {
+      "id": 7704,
+      "title": "STEALIEN AI 防御智能体在 APEX 2026 夺冠，得分超人类三倍",
+      "original_title": "[Media Coverage] AI Outperforms Human Teams in Cyber Defense… STEALIEN Ranks 1st in International Cyber Exercise APEX 2026 https://t.co/J9jbY20o44  #STEALIEN #APEX2026 #AISecurity ",
+      "summary": "STEALIEN 开发的自主 AI 蓝队智能体在 APEX 2026 国际网络演练中排名第一，通过多智能体并行分析攻击场景并自动化决策，得分达到人类队伍的三倍。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.96,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "多智能体协同自动化防御已从概念走向实战演练验证。安全运营团队应关注此架构在真实对抗中的效率表现，思考如何引入并行分析提升蓝队响应速度。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/stealien/status/2101869081154732266",
+      "reader_url": "https://x.com/stealien/status/2101869081154732266",
+      "image_url": null,
+      "author": {
+        "username": "stealien",
+        "name": "STEALIEN",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-21T03:00:14",
+      "first_seen_at": "2026-09-21T03:28:02.247655",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7585,
+      "title": "构建 AI 安全 Agent：上下文管理与循环执行实践",
+      "original_title": "Another great blogpost on building your AI security agent, this time on how to give it context the right way and running a loop  Lucky to be working with @asen_sec for our AI tooli",
+      "summary": "介绍如何为 AI 安全 Agent 正确提供上下文并运行执行循环，该工具已在实践中发现数百个漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.56,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了安全 Agent 上下文工程和循环设计的实战经验，适合正在开发自动化安全工具的团队参考，直接验证了 AI 漏洞挖掘的落地效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pashov/status/2101728631068275114",
+      "reader_url": "https://x.com/pashov/status/2101728631068275114",
+      "image_url": null,
+      "author": {
+        "username": "pashov",
+        "name": "pashov",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-20T17:42:08",
+      "first_seen_at": "2026-09-20T18:14:42.260108",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7770,
+      "title": "LLM Agent 代码生成的约束衰减现象评测",
+      "original_title": "Constraint Decay: The Fragility of LLM Agents in Backend Code Generation",
+      "summary": "本文系统评估 LLM Agent 在多文件后端代码生成中对结构约束的遵守能力，发现随结构要求积累，Agent 断言通过率平均下降 27.28 分，数据层缺陷如 ORM 运行时违规是首要根因。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 69.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 代码审计和安全 review 的人该看：它揭示了 Agent 生成代码在数据层和结构约束上的系统性缺陷模式，正是 SQL 注入、数据泄露类漏洞的高发区，审计时可作为重点检查方向。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.06445",
+      "reader_url": "https://arxiv.org/pdf/2605.06445",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T08:25:24.595282",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 8028,
+      "title": "ForgeryVCR 用视觉中心推理重塑图像取证范式",
+      "original_title": "ACM Multimedia 2026 Oral｜从「转述痕迹」到「看见证据」：ForgeryVCR用视觉中心推理重塑图像取证范式",
+      "summary": "ForgeryVCR 提出以视觉中心推理进行图像伪造检测的框架，从依赖转述痕迹转向直接定位证据，提升取证可解释性与准确率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "image_forensics",
+      "score_total": 66.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做多媒体取证和伪造检测的同学值得看，它提供了可解释推理新范式，可借鉴到安全场景中需要证据定位的检测任务。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-21-12?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-09-21-12?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T10:32:39",
+      "first_seen_at": "2026-09-21T11:40:55.155197",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 8000,
+        "title": "TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准",
+        "original_title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
+        "summary": "提出可刷新的音频基准 TeleAntiFraud 2.0，引入近域负样本和混合树生成方法，揭示了现有 ASR+LLM 模型在真实混淆条件下的预测崩溃和分类捷径问题。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 87.6,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2609.18748",
+        "reader_url": "https://arxiv.org/pdf/2609.18748",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T00:00:00",
+        "first_seen_at": "2026-09-21T09:57:35.698398",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 7767,
+        "title": "BoostAPR：基于双奖励模型强化学习的自动程序修复",
+        "original_title": "BoostAPR: Boosting Automated Program Repair via Execution-Grounded Reinforcement Learning with Dual Reward Models",
+        "summary": "提出 BoostAPR 框架，利用双奖励模型解决自动程序修复中的稀疏执行反馈问题，在 SWE-bench 等基准上取得有竞争力的跨语言修复效果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 81.6,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "提出行级信用分配的强化学习修复思路，给做漏洞修复的团队参考——行级奖励分配可迁移到需精准定位修改位置的代码安全场景。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2605.09134",
+        "reader_url": "https://arxiv.org/pdf/2605.09134",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T04:00:00",
+        "first_seen_at": "2026-09-21T08:23:56.443626",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 7773,
+        "title": "结合类型推断的 Python 自动化单元测试生成技术",
+        "original_title": "Combining Type Inference and Automated Unit Test Generation for Python",
+        "summary": "本文提出在 Pynguin 测试生成框架中引入「类型追踪」机制，通过运行时观察动态提取并细化类型信息，解决了 Python 等动态语言缺乏类型信息导致测试生成困难的问题，使分支覆盖率最高提升 87.8%。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 80.2,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "针对动态类型语言的安全测试一直缺乏好用的工具。本文扩展了 Pynguin，用运行时类型推断大幅提升 Python 代码覆盖率，做 Python 代码审计和 Fuzzing 的安全研究员值得一看，能直接借鉴到测试 harness 设计中。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2507.01477",
+        "reader_url": "https://arxiv.org/pdf/2507.01477",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T04:00:00",
+        "first_seen_at": "2026-09-21T08:26:01.150774",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 7948,
+        "title": "Intentest：基于意图图的自动化渗透测试Agent",
+        "original_title": "Staying on the Attack Path: Structured State for Long-Horizon Automated Penetration Testing",
+        "summary": "本文提出意图图引导的自动化渗透测试Agent「Intentest」，通过持久化事实-意图DAG外化长程状态，解决LLM长程安全任务中的上下文遗忘和意图漂移问题，在CTF基准上总体成功率达88.2%。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 80.05,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做安全Agent的人必看：用持久化DAG解决LLM长程渗透测试中的上下文遗忘和意图漂移，比基线提升近50个百分点，直接展示了Agent状态管理架构的最佳实践。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.07344",
+        "reader_url": "https://arxiv.org/pdf/2609.07344",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T04:00:00",
+        "first_seen_at": "2026-09-21T09:38:51.873631",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 7952,
+        "title": "Chameleon：利用机器学习代理模型从内存破坏攻击中恢复CPS",
+        "original_title": "Chameleon: Recovering Cyber-Physical Systems from Memory Corruption Attacks via ML Surrogates",
+        "summary": "论文提出 Chameleon 框架，在信息物理系统遭受内存破坏攻击时，利用训练好的机器学习代理模型替换受损组件，在不中断任务的前提下实现安全恢复。",
+        "primary_category": "AI for Sec",
+        "sub_category": "system_resilience",
+        "score_total": 78.85,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "创新性地将 ML 代理模型用于攻击后的系统弹性恢复，而非传统的检测或阻断。对于从事 CPS 或高可用系统安全防护的从业者，提供了一种在无法宕机场景下缓解内存破坏的新思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2607.01356",
+        "reader_url": "https://arxiv.org/pdf/2607.01356",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T04:00:00",
+        "first_seen_at": "2026-09-21T09:41:21.304984",
+        "sub_category_label": null
+      },
+      {
+        "id": 8001,
+        "title": "FRAUDSkill：冻结权重音频反欺诈技能优化框架",
+        "original_title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
+        "summary": "提出一种用于音频反欺诈检测的冻结权重适应框架 FRAUDSkill，通过优化外部技能程序和路由策略，在 TeleAntiFraud 基准上显著提升检测效果并减少无效输出。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fraud_detection",
+        "score_total": 76.4,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做威胁检测和反欺诈的同行建议看。该框架不改底层模型仅调外部技能，在电信诈骗场景下效果显著，为 LLM 落地安全检测提供了高可适应性的低成本部署思路。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2609.18766",
+        "reader_url": "https://arxiv.org/pdf/2609.18766",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T00:00:00",
+        "first_seen_at": "2026-09-21T09:57:39.063197",
+        "sub_category_label": "欺诈检测"
+      },
+      {
+        "id": 7704,
+        "title": "STEALIEN AI 防御智能体在 APEX 2026 夺冠，得分超人类三倍",
+        "original_title": "[Media Coverage] AI Outperforms Human Teams in Cyber Defense… STEALIEN Ranks 1st in International Cyber Exercise APEX 2026 https://t.co/J9jbY20o44  #STEALIEN #APEX2026 #AISecurity ",
+        "summary": "STEALIEN 开发的自主 AI 蓝队智能体在 APEX 2026 国际网络演练中排名第一，通过多智能体并行分析攻击场景并自动化决策，得分达到人类队伍的三倍。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 73.96,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "多智能体协同自动化防御已从概念走向实战演练验证。安全运营团队应关注此架构在真实对抗中的效率表现，思考如何引入并行分析提升蓝队响应速度。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/stealien/status/2101869081154732266",
+        "reader_url": "https://x.com/stealien/status/2101869081154732266",
+        "image_url": null,
+        "author": {
+          "username": "stealien",
+          "name": "STEALIEN",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-21T03:00:14",
+        "first_seen_at": "2026-09-21T03:28:02.247655",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 7585,
+        "title": "构建 AI 安全 Agent：上下文管理与循环执行实践",
+        "original_title": "Another great blogpost on building your AI security agent, this time on how to give it context the right way and running a loop  Lucky to be working with @asen_sec for our AI tooli",
+        "summary": "介绍如何为 AI 安全 Agent 正确提供上下文并运行执行循环，该工具已在实践中发现数百个漏洞。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 72.56,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "展示了安全 Agent 上下文工程和循环设计的实战经验，适合正在开发自动化安全工具的团队参考，直接验证了 AI 漏洞挖掘的落地效果。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/pashov/status/2101728631068275114",
+        "reader_url": "https://x.com/pashov/status/2101728631068275114",
+        "image_url": null,
+        "author": {
+          "username": "pashov",
+          "name": "pashov",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-20T17:42:08",
+        "first_seen_at": "2026-09-20T18:14:42.260108",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 7770,
+        "title": "LLM Agent 代码生成的约束衰减现象评测",
+        "original_title": "Constraint Decay: The Fragility of LLM Agents in Backend Code Generation",
+        "summary": "本文系统评估 LLM Agent 在多文件后端代码生成中对结构约束的遵守能力，发现随结构要求积累，Agent 断言通过率平均下降 27.28 分，数据层缺陷如 ORM 运行时违规是首要根因。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 69.65,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做 AI 代码审计和安全 review 的人该看：它揭示了 Agent 生成代码在数据层和结构约束上的系统性缺陷模式，正是 SQL 注入、数据泄露类漏洞的高发区，审计时可作为重点检查方向。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2605.06445",
+        "reader_url": "https://arxiv.org/pdf/2605.06445",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T04:00:00",
+        "first_seen_at": "2026-09-21T08:25:24.595282",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 7772,
+        "title": "MigrateLib：基于 LLM 的端到端 Python 库自动迁移工具",
+        "original_title": "MigrateLib: a tool for end-to-end Python library migration",
+        "summary": "该论文提出 MigrateLib，结合大语言模型与静态、动态分析，实现任意 Python 库间的端到端自动迁移，在真实应用中完全正确迁移率达 32%。",
+        "primary_category": "AI Tech",
+        "sub_category": "code_transformation",
+        "score_total": 62.45,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "虽然非直接安全工具，但 LLM 结合静态分析的代码转换范式对自动化安全补丁应用和依赖升级有借鉴意义，安全工具开发者可关注其架构设计。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2510.08810",
+        "reader_url": "https://arxiv.org/pdf/2510.08810",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T04:00:00",
+        "first_seen_at": "2026-09-21T08:25:56.657226",
+        "sub_category_label": null
+      },
+      {
+        "id": 7663,
+        "title": "Amazon 内部项目开源：Pizza Bot 后台 AI Agent 收件箱式桌面应用",
+        "original_title": "HN Hot Discussion: Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+        "summary": "Pizza Bot 是从 Amazon 内部孵化的开源桌面应用，以邮件收件箱 UI 管理后台 AI Agent，支持 MCP server 接入技能、沙盒化 QuickJS 解释器、多设备断点续跑，面向知识工作者自动化日常任务。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 61.56,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "Agent 架构参考值在于：沙盒解释器+显式工具调用审批+LangGraph checkpoint 断点续跑，做安全自动化 Agent 时可借鉴其人机协作和权限模型设计。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=49713894&hn_hot_date=2026-09-21",
+        "reader_url": "https://news.ycombinator.com/item?id=49713894&hn_hot_date=2026-09-21",
+        "image_url": null,
+        "author": {
+          "username": "jd_",
+          "name": "jd_",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-15T15:20:26",
+        "first_seen_at": "2026-09-21T00:15:12.172373",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 7728,
+        "title": "EvoOntology：面向数据Agent的自进化本体层",
+        "original_title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+        "summary": "论文提出EvoOntology，将本体封装为MCP server，通过builder agent自主构建并持续自进化，解决数据Agent在处理异构数据时的扩展与适配问题。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 55.95,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "该研究虽属通用数据Agent领域，但其基于MCP server的自进化本体思路，对构建安全分析Agent时处理异构安全数据源有架构参考价值。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2609.15779",
+        "reader_url": "https://arxiv.org/pdf/2609.15779",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T00:00:00",
+        "first_seen_at": "2026-09-21T04:40:21.028845",
+        "sub_category_label": "Agent 架构"
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 7695,
+        "title": "安全Agent评测应重证据链而非仅看回答",
+        "original_title": "Security agents should not be evaluated like writing assistants.  A good answer is not enough.  The agent needs to leave proof:  1. what environment it touched 2. which tools it ca",
+        "summary": "作者指出安全Agent不能像写作助手那样评估，需提供环境交互、工具调用和证据变更等可复现证明。微软ACESEvals等基准正推动安全任务评测向证据可重放方向发展。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_benchmark",
+        "score_total": 65.7,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全Agent评测需从「听起来对」转向「证据可复现」，构建不信任Agent本身的验证体系。做Agent落地和安全评测的同行必须看，能避坑只看LLM输出的虚假繁荣。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/LoveAIbrain/status/2101854734202331339",
+        "reader_url": "https://x.com/LoveAIbrain/status/2101854734202331339",
+        "image_url": null,
+        "author": {
+          "username": "LoveAIbrain",
+          "name": "0xAIBrain",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-21T02:03:13",
+        "first_seen_at": "2026-09-21T02:24:24.701366",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 7658,
+        "title": "CUA-S1：专用于UI操作的极小决策模型",
+        "original_title": "HN Hot Discussion: Show HN: CUA-S1 – A System One Model for Computer Use",
+        "summary": "开源项目 CUA-S1 提出使用极小的专用模型对 UI 表单操作进行打分决策，以此替代在特定自动化任务中调用通用大模型，显著提高速度与准确率。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "agent_architecture",
+        "score_total": 62.88,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "虽然这是通用UI自动化探索，但其小模型打分决策与大模型规划结合的分层架构，对设计自动化安全测试Agent有直接的架构参考价值。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=49767564&hn_hot_date=2026-09-21",
+        "reader_url": "https://news.ycombinator.com/item?id=49767564&hn_hot_date=2026-09-21",
+        "image_url": null,
+        "author": {
+          "username": "frabonacci",
+          "name": "frabonacci",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-19T15:52:51",
+        "first_seen_at": "2026-09-21T00:14:35.573323",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 8000,
+            "title": "TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准",
+            "original_title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
+            "summary": "提出可刷新的音频基准 TeleAntiFraud 2.0，引入近域负样本和混合树生成方法，揭示了现有 ASR+LLM 模型在真实混淆条件下的预测崩溃和分类捷径问题。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 87.6,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2609.18748",
+            "reader_url": "https://arxiv.org/pdf/2609.18748",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T00:00:00",
+            "first_seen_at": "2026-09-21T09:57:35.698398",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 7767,
+            "title": "BoostAPR：基于双奖励模型强化学习的自动程序修复",
+            "original_title": "BoostAPR: Boosting Automated Program Repair via Execution-Grounded Reinforcement Learning with Dual Reward Models",
+            "summary": "提出 BoostAPR 框架，利用双奖励模型解决自动程序修复中的稀疏执行反馈问题，在 SWE-bench 等基准上取得有竞争力的跨语言修复效果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 81.6,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "提出行级信用分配的强化学习修复思路，给做漏洞修复的团队参考——行级奖励分配可迁移到需精准定位修改位置的代码安全场景。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2605.09134",
+            "reader_url": "https://arxiv.org/pdf/2605.09134",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T04:00:00",
+            "first_seen_at": "2026-09-21T08:23:56.443626",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 7773,
+            "title": "结合类型推断的 Python 自动化单元测试生成技术",
+            "original_title": "Combining Type Inference and Automated Unit Test Generation for Python",
+            "summary": "本文提出在 Pynguin 测试生成框架中引入「类型追踪」机制，通过运行时观察动态提取并细化类型信息，解决了 Python 等动态语言缺乏类型信息导致测试生成困难的问题，使分支覆盖率最高提升 87.8%。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 80.2,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "针对动态类型语言的安全测试一直缺乏好用的工具。本文扩展了 Pynguin，用运行时类型推断大幅提升 Python 代码覆盖率，做 Python 代码审计和 Fuzzing 的安全研究员值得一看，能直接借鉴到测试 harness 设计中。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2507.01477",
+            "reader_url": "https://arxiv.org/pdf/2507.01477",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T04:00:00",
+            "first_seen_at": "2026-09-21T08:26:01.150774",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 7609,
+            "title": "AI 辅助 Fuzzing 与形式化验证成为高价值安全实践",
+            "original_title": "It’s the same experience building on top of Percolator.  We code heavily with AI, but the highest-value use has been research, fuzzing and formal verification with Kani.  Writing c",
+            "summary": "开发者分享在 Percolator 上使用 AI 编码的经验，认为最高价值的用途是结合 Kani 进行 fuzzing 和形式化验证，能发现潜在的高成本漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 61.83,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 Rust 项目或底层基础设施的安全工程师该看。AI 写代码不稀奇，但用 Kani 做形式化验证找深层 bug 才是真金白银的价值——值得考虑把 Kani 纳入你的 CI 安全门禁。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/PercolatorTrade/status/2101759180977701161",
+            "reader_url": "https://x.com/PercolatorTrade/status/2101759180977701161",
+            "image_url": null,
+            "author": {
+              "username": "PercolatorTrade",
+              "name": "Percolator",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T19:43:32",
+            "first_seen_at": "2026-09-20T19:50:35.260528",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 7948,
+            "title": "Intentest：基于意图图的自动化渗透测试Agent",
+            "original_title": "Staying on the Attack Path: Structured State for Long-Horizon Automated Penetration Testing",
+            "summary": "本文提出意图图引导的自动化渗透测试Agent「Intentest」，通过持久化事实-意图DAG外化长程状态，解决LLM长程安全任务中的上下文遗忘和意图漂移问题，在CTF基准上总体成功率达88.2%。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 80.05,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做安全Agent的人必看：用持久化DAG解决LLM长程渗透测试中的上下文遗忘和意图漂移，比基线提升近50个百分点，直接展示了Agent状态管理架构的最佳实践。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.07344",
+            "reader_url": "https://arxiv.org/pdf/2609.07344",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T04:00:00",
+            "first_seen_at": "2026-09-21T09:38:51.873631",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7704,
+            "title": "STEALIEN AI 防御智能体在 APEX 2026 夺冠，得分超人类三倍",
+            "original_title": "[Media Coverage] AI Outperforms Human Teams in Cyber Defense… STEALIEN Ranks 1st in International Cyber Exercise APEX 2026 https://t.co/J9jbY20o44  #STEALIEN #APEX2026 #AISecurity ",
+            "summary": "STEALIEN 开发的自主 AI 蓝队智能体在 APEX 2026 国际网络演练中排名第一，通过多智能体并行分析攻击场景并自动化决策，得分达到人类队伍的三倍。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 73.96,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "多智能体协同自动化防御已从概念走向实战演练验证。安全运营团队应关注此架构在真实对抗中的效率表现，思考如何引入并行分析提升蓝队响应速度。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/stealien/status/2101869081154732266",
+            "reader_url": "https://x.com/stealien/status/2101869081154732266",
+            "image_url": null,
+            "author": {
+              "username": "stealien",
+              "name": "STEALIEN",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-21T03:00:14",
+            "first_seen_at": "2026-09-21T03:28:02.247655",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7585,
+            "title": "构建 AI 安全 Agent：上下文管理与循环执行实践",
+            "original_title": "Another great blogpost on building your AI security agent, this time on how to give it context the right way and running a loop  Lucky to be working with @asen_sec for our AI tooli",
+            "summary": "介绍如何为 AI 安全 Agent 正确提供上下文并运行执行循环，该工具已在实践中发现数百个漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 72.56,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "展示了安全 Agent 上下文工程和循环设计的实战经验，适合正在开发自动化安全工具的团队参考，直接验证了 AI 漏洞挖掘的落地效果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/pashov/status/2101728631068275114",
+            "reader_url": "https://x.com/pashov/status/2101728631068275114",
+            "image_url": null,
+            "author": {
+              "username": "pashov",
+              "name": "pashov",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-20T17:42:08",
+            "first_seen_at": "2026-09-20T18:14:42.260108",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 7759,
+            "title": "PentestCode 多智能体自动化渗透测试及本周赏金动态",
+            "original_title": "FROM INTERNET 1)300$ ETag Bounty https://t.co/o31rIQP2Rf  2)The Bug Bounty Recon Cheat Sheet: A Practical Workflow From Domain to Attack Surface https://t.co/wh7UFv4Oee  3)🕷️The Or",
+            "summary": "推文汇总了多个 Bug Bounty 实战案例，并重点提及了 PentestCode 这款基于多智能体 AI 的自动化渗透测试工具。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 61.03,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做甲方蓝军或渗透测试的同行可以看看 PentestCode 的多智能体落地思路，评估自动化渗透的实际效果；其余几条常规赏金实战案例也适合作为技术分享素材。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/viehgroup/status/2101941453744480565",
+            "reader_url": "https://x.com/viehgroup/status/2101941453744480565",
+            "image_url": null,
+            "author": {
+              "username": "viehgroup",
+              "name": "VIEH Group",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-21T07:47:49",
+            "first_seen_at": "2026-09-21T08:18:53.058764",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "system_resilience": {
+        "label": "system_resilience",
+        "items": [
+          {
+            "id": 7952,
+            "title": "Chameleon：利用机器学习代理模型从内存破坏攻击中恢复CPS",
+            "original_title": "Chameleon: Recovering Cyber-Physical Systems from Memory Corruption Attacks via ML Surrogates",
+            "summary": "论文提出 Chameleon 框架，在信息物理系统遭受内存破坏攻击时，利用训练好的机器学习代理模型替换受损组件，在不中断任务的前提下实现安全恢复。",
+            "primary_category": "AI for Sec",
+            "sub_category": "system_resilience",
+            "score_total": 78.85,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "创新性地将 ML 代理模型用于攻击后的系统弹性恢复，而非传统的检测或阻断。对于从事 CPS 或高可用系统安全防护的从业者，提供了一种在无法宕机场景下缓解内存破坏的新思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2607.01356",
+            "reader_url": "https://arxiv.org/pdf/2607.01356",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T04:00:00",
+            "first_seen_at": "2026-09-21T09:41:21.304984",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "fraud_detection": {
+        "label": "欺诈检测",
+        "items": [
+          {
+            "id": 8001,
+            "title": "FRAUDSkill：冻结权重音频反欺诈技能优化框架",
+            "original_title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
+            "summary": "提出一种用于音频反欺诈检测的冻结权重适应框架 FRAUDSkill，通过优化外部技能程序和路由策略，在 TeleAntiFraud 基准上显著提升检测效果并减少无效输出。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fraud_detection",
+            "score_total": 76.4,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做威胁检测和反欺诈的同行建议看。该框架不改底层模型仅调外部技能，在电信诈骗场景下效果显著，为 LLM 落地安全检测提供了高可适应性的低成本部署思路。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2609.18766",
+            "reader_url": "https://arxiv.org/pdf/2609.18766",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T00:00:00",
+            "first_seen_at": "2026-09-21T09:57:39.063197",
+            "sub_category_label": "欺诈检测"
+          }
+        ]
+      },
+      "image_forensics": {
+        "label": "image_forensics",
+        "items": [
+          {
+            "id": 8028,
+            "title": "ForgeryVCR 用视觉中心推理重塑图像取证范式",
+            "original_title": "ACM Multimedia 2026 Oral｜从「转述痕迹」到「看见证据」：ForgeryVCR用视觉中心推理重塑图像取证范式",
+            "summary": "ForgeryVCR 提出以视觉中心推理进行图像伪造检测的框架，从依赖转述痕迹转向直接定位证据，提升取证可解释性与准确率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "image_forensics",
+            "score_total": 66.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做多媒体取证和伪造检测的同学值得看，它提供了可解释推理新范式，可借鉴到安全场景中需要证据定位的检测任务。",
+            "source_id": "jiqizhixin-rss",
+            "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-21-12?source=rss",
+            "reader_url": "https://www.jiqizhixin.com/articles/2026-09-21-12?source=rss",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T10:32:39",
+            "first_seen_at": "2026-09-21T11:40:55.155197",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 7770,
+            "title": "LLM Agent 代码生成的约束衰减现象评测",
+            "original_title": "Constraint Decay: The Fragility of LLM Agents in Backend Code Generation",
+            "summary": "本文系统评估 LLM Agent 在多文件后端代码生成中对结构约束的遵守能力，发现随结构要求积累，Agent 断言通过率平均下降 27.28 分，数据层缺陷如 ORM 运行时违规是首要根因。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 69.65,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做 AI 代码审计和安全 review 的人该看：它揭示了 Agent 生成代码在数据层和结构约束上的系统性缺陷模式，正是 SQL 注入、数据泄露类漏洞的高发区，审计时可作为重点检查方向。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2605.06445",
+            "reader_url": "https://arxiv.org/pdf/2605.06445",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T04:00:00",
+            "first_seen_at": "2026-09-21T08:25:24.595282",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      },
+      "code_transformation": {
+        "label": "code_transformation",
+        "items": [
+          {
+            "id": 7772,
+            "title": "MigrateLib：基于 LLM 的端到端 Python 库自动迁移工具",
+            "original_title": "MigrateLib: a tool for end-to-end Python library migration",
+            "summary": "该论文提出 MigrateLib，结合大语言模型与静态、动态分析，实现任意 Python 库间的端到端自动迁移，在真实应用中完全正确迁移率达 32%。",
+            "primary_category": "AI Tech",
+            "sub_category": "code_transformation",
+            "score_total": 62.45,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "虽然非直接安全工具，但 LLM 结合静态分析的代码转换范式对自动化安全补丁应用和依赖升级有借鉴意义，安全工具开发者可关注其架构设计。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2510.08810",
+            "reader_url": "https://arxiv.org/pdf/2510.08810",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T04:00:00",
+            "first_seen_at": "2026-09-21T08:25:56.657226",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 7663,
+            "title": "Amazon 内部项目开源：Pizza Bot 后台 AI Agent 收件箱式桌面应用",
+            "original_title": "HN Hot Discussion: Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+            "summary": "Pizza Bot 是从 Amazon 内部孵化的开源桌面应用，以邮件收件箱 UI 管理后台 AI Agent，支持 MCP server 接入技能、沙盒化 QuickJS 解释器、多设备断点续跑，面向知识工作者自动化日常任务。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 61.56,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Agent 架构参考值在于：沙盒解释器+显式工具调用审批+LangGraph checkpoint 断点续跑，做安全自动化 Agent 时可借鉴其人机协作和权限模型设计。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=49713894&hn_hot_date=2026-09-21",
+            "reader_url": "https://news.ycombinator.com/item?id=49713894&hn_hot_date=2026-09-21",
+            "image_url": null,
+            "author": {
+              "username": "jd_",
+              "name": "jd_",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-15T15:20:26",
+            "first_seen_at": "2026-09-21T00:15:12.172373",
+            "sub_category_label": "Agent 架构"
+          },
+          {
+            "id": 7728,
+            "title": "EvoOntology：面向数据Agent的自进化本体层",
+            "original_title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+            "summary": "论文提出EvoOntology，将本体封装为MCP server，通过builder agent自主构建并持续自进化，解决数据Agent在处理异构数据时的扩展与适配问题。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 55.95,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "该研究虽属通用数据Agent领域，但其基于MCP server的自进化本体思路，对构建安全分析Agent时处理异构安全数据源有架构参考价值。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2609.15779",
+            "reader_url": "https://arxiv.org/pdf/2609.15779",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T00:00:00",
+            "first_seen_at": "2026-09-21T04:40:21.028845",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 7695,
+            "title": "安全Agent评测应重证据链而非仅看回答",
+            "original_title": "Security agents should not be evaluated like writing assistants.  A good answer is not enough.  The agent needs to leave proof:  1. what environment it touched 2. which tools it ca",
+            "summary": "作者指出安全Agent不能像写作助手那样评估，需提供环境交互、工具调用和证据变更等可复现证明。微软ACESEvals等基准正推动安全任务评测向证据可重放方向发展。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_benchmark",
+            "score_total": 65.7,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全Agent评测需从「听起来对」转向「证据可复现」，构建不信任Agent本身的验证体系。做Agent落地和安全评测的同行必须看，能避坑只看LLM输出的虚假繁荣。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/LoveAIbrain/status/2101854734202331339",
+            "reader_url": "https://x.com/LoveAIbrain/status/2101854734202331339",
+            "image_url": null,
+            "author": {
+              "username": "LoveAIbrain",
+              "name": "0xAIBrain",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-21T02:03:13",
+            "first_seen_at": "2026-09-21T02:24:24.701366",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "agent_architecture": {
+        "label": "agent_architecture",
+        "items": [
+          {
+            "id": 7658,
+            "title": "CUA-S1：专用于UI操作的极小决策模型",
+            "original_title": "HN Hot Discussion: Show HN: CUA-S1 – A System One Model for Computer Use",
+            "summary": "开源项目 CUA-S1 提出使用极小的专用模型对 UI 表单操作进行打分决策，以此替代在特定自动化任务中调用通用大模型，显著提高速度与准确率。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "agent_architecture",
+            "score_total": 62.88,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "虽然这是通用UI自动化探索，但其小模型打分决策与大模型规划结合的分层架构，对设计自动化安全测试Agent有直接的架构参考价值。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=49767564&hn_hot_date=2026-09-21",
+            "reader_url": "https://news.ycombinator.com/item?id=49767564&hn_hot_date=2026-09-21",
+            "image_url": null,
+            "author": {
+              "username": "frabonacci",
+              "name": "frabonacci",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-19T15:52:51",
+            "first_seen_at": "2026-09-21T00:14:35.573323",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 8000,
+      "title": "TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准",
+      "original_title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
+      "summary": "提出可刷新的音频基准 TeleAntiFraud 2.0，引入近域负样本和混合树生成方法，揭示了现有 ASR+LLM 模型在真实混淆条件下的预测崩溃和分类捷径问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 87.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.18748",
+      "reader_url": "https://arxiv.org/pdf/2609.18748",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T00:00:00",
+      "first_seen_at": "2026-09-21T09:57:35.698398",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 7767,
+      "title": "BoostAPR：基于双奖励模型强化学习的自动程序修复",
+      "original_title": "BoostAPR: Boosting Automated Program Repair via Execution-Grounded Reinforcement Learning with Dual Reward Models",
+      "summary": "提出 BoostAPR 框架，利用双奖励模型解决自动程序修复中的稀疏执行反馈问题，在 SWE-bench 等基准上取得有竞争力的跨语言修复效果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 81.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "提出行级信用分配的强化学习修复思路，给做漏洞修复的团队参考——行级奖励分配可迁移到需精准定位修改位置的代码安全场景。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.09134",
+      "reader_url": "https://arxiv.org/pdf/2605.09134",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T08:23:56.443626",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 7773,
+      "title": "结合类型推断的 Python 自动化单元测试生成技术",
+      "original_title": "Combining Type Inference and Automated Unit Test Generation for Python",
+      "summary": "本文提出在 Pynguin 测试生成框架中引入「类型追踪」机制，通过运行时观察动态提取并细化类型信息，解决了 Python 等动态语言缺乏类型信息导致测试生成困难的问题，使分支覆盖率最高提升 87.8%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 80.2,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "针对动态类型语言的安全测试一直缺乏好用的工具。本文扩展了 Pynguin，用运行时类型推断大幅提升 Python 代码覆盖率，做 Python 代码审计和 Fuzzing 的安全研究员值得一看，能直接借鉴到测试 harness 设计中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2507.01477",
+      "reader_url": "https://arxiv.org/pdf/2507.01477",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T08:26:01.150774",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 7948,
+      "title": "Intentest：基于意图图的自动化渗透测试Agent",
+      "original_title": "Staying on the Attack Path: Structured State for Long-Horizon Automated Penetration Testing",
+      "summary": "本文提出意图图引导的自动化渗透测试Agent「Intentest」，通过持久化事实-意图DAG外化长程状态，解决LLM长程安全任务中的上下文遗忘和意图漂移问题，在CTF基准上总体成功率达88.2%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.05,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做安全Agent的人必看：用持久化DAG解决LLM长程渗透测试中的上下文遗忘和意图漂移，比基线提升近50个百分点，直接展示了Agent状态管理架构的最佳实践。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.07344",
+      "reader_url": "https://arxiv.org/pdf/2609.07344",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T09:38:51.873631",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 7952,
+      "title": "Chameleon：利用机器学习代理模型从内存破坏攻击中恢复CPS",
+      "original_title": "Chameleon: Recovering Cyber-Physical Systems from Memory Corruption Attacks via ML Surrogates",
+      "summary": "论文提出 Chameleon 框架，在信息物理系统遭受内存破坏攻击时，利用训练好的机器学习代理模型替换受损组件，在不中断任务的前提下实现安全恢复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "system_resilience",
+      "score_total": 78.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "创新性地将 ML 代理模型用于攻击后的系统弹性恢复，而非传统的检测或阻断。对于从事 CPS 或高可用系统安全防护的从业者，提供了一种在无法宕机场景下缓解内存破坏的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.01356",
+      "reader_url": "https://arxiv.org/pdf/2607.01356",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T09:41:21.304984",
+      "sub_category_label": null
+    },
+    {
+      "id": 8001,
+      "title": "FRAUDSkill：冻结权重音频反欺诈技能优化框架",
+      "original_title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
+      "summary": "提出一种用于音频反欺诈检测的冻结权重适应框架 FRAUDSkill，通过优化外部技能程序和路由策略，在 TeleAntiFraud 基准上显著提升检测效果并减少无效输出。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 76.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做威胁检测和反欺诈的同行建议看。该框架不改底层模型仅调外部技能，在电信诈骗场景下效果显著，为 LLM 落地安全检测提供了高可适应性的低成本部署思路。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2609.18766",
+      "reader_url": "https://arxiv.org/pdf/2609.18766",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T00:00:00",
+      "first_seen_at": "2026-09-21T09:57:39.063197",
+      "sub_category_label": "欺诈检测"
+    },
+    {
+      "id": 7770,
+      "title": "LLM Agent 代码生成的约束衰减现象评测",
+      "original_title": "Constraint Decay: The Fragility of LLM Agents in Backend Code Generation",
+      "summary": "本文系统评估 LLM Agent 在多文件后端代码生成中对结构约束的遵守能力，发现随结构要求积累，Agent 断言通过率平均下降 27.28 分，数据层缺陷如 ORM 运行时违规是首要根因。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 69.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 代码审计和安全 review 的人该看：它揭示了 Agent 生成代码在数据层和结构约束上的系统性缺陷模式，正是 SQL 注入、数据泄露类漏洞的高发区，审计时可作为重点检查方向。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.06445",
+      "reader_url": "https://arxiv.org/pdf/2605.06445",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T08:25:24.595282",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 7772,
+      "title": "MigrateLib：基于 LLM 的端到端 Python 库自动迁移工具",
+      "original_title": "MigrateLib: a tool for end-to-end Python library migration",
+      "summary": "该论文提出 MigrateLib，结合大语言模型与静态、动态分析，实现任意 Python 库间的端到端自动迁移，在真实应用中完全正确迁移率达 32%。",
+      "primary_category": "AI Tech",
+      "sub_category": "code_transformation",
+      "score_total": 62.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "虽然非直接安全工具，但 LLM 结合静态分析的代码转换范式对自动化安全补丁应用和依赖升级有借鉴意义，安全工具开发者可关注其架构设计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2510.08810",
+      "reader_url": "https://arxiv.org/pdf/2510.08810",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T04:00:00",
+      "first_seen_at": "2026-09-21T08:25:56.657226",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 17,
+    "highlight_count": 4,
+    "paper_count": 9,
+    "source_count": 5,
+    "top_score": 88,
+    "category_count": {
+      "AI for Sec": 11,
+      "AI Tech": 4,
+      "AI for Sec | Sec for AI": 1,
+      "AI Tech | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 4
+        },
+        "system_resilience": {
+          "label": "system_resilience",
+          "count": 1
+        },
+        "fraud_detection": {
+          "label": "欺诈检测",
+          "count": 1
+        },
+        "image_forensics": {
+          "label": "image_forensics",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 1
+        },
+        "code_transformation": {
+          "label": "code_transformation",
+          "count": 1
+        },
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 2
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "agent_architecture": {
+          "label": "agent_architecture",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "先读前三条高分项，确认是否需要同步给模型平台、AppSec 或 SOC 团队。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 11,
+      "top_score": 88,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 4,
+      "top_score": 70,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "拿下今天最高分的 TeleAntiFraud 2.0 给防欺诈团队敲了警钟，现有 ASR+LLM 管线在真实混淆场景下极易预测崩溃。建议赶紧用这个开源基准给自家模型做次压力测试；同时做代码审计和漏洞修复的同学可以看看另外两篇，行级奖励分配和运行时类型推断的思路完全能搬到你们的 Fuzzing 和自动化修复流水线里提效。",
+  "method_note": "按北京时间 2026-09-21 的系统入库窗口筛选，从 17 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "hn-ai-tech",
+    "huggingface-daily-papers",
+    "jiqizhixin-rss",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是AI安全工具链在工程落地上的查漏补缺。大家不再只谈模型能力，而是开始补齐防欺诈模型在真实对抗下的鲁棒性短板，并用强化学习和类型推断细化代码修复与Fuzzing的颗粒度，解决好看不好用的问题。\n- 01 防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。\n- 02 提出行级信用分配的强化学习修复思路，给做漏洞修复的团队参考——行级奖励分配可迁移到需精准定位修改位置的代码安全场景。\n- 03 针对动态类型语言的安全测试一直缺乏好用的工具。本文扩展了 Pynguin，用运行时类型推断大幅提升 Python 代码覆盖率，做 Python 代码审计和 Fuzzing 的安全研究员值得一看，能直接借鉴到测试 harness 设计中。\n\n## 今日行动\n- 先读前三条高分项，确认是否需要同步给模型平台、AppSec 或 SOC 团队。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准**：防欺诈和威胁检测从业者必看。本文指出传统基准因缺乏近域负样本而高估模型能力，并开源了带可复现脚本的评测集，可用于压力测试现有 ASR+LLM 防欺诈管线。 来源：huggingface-daily-papers\n- **BoostAPR：基于双奖励模型强化学习的自动程序修复**：提出行级信用分配的强化学习修复思路，给做漏洞修复的团队参考——行级奖励分配可迁移到需精准定位修改位置的代码安全场景。 来源：arxiv-ai-security\n- **结合类型推断的 Python 自动化单元测试生成技术**：针对动态类型语言的安全测试一直缺乏好用的工具。本文扩展了 Pynguin，用运行时类型推断大幅提升 Python 代码覆盖率，做 Python 代码审计和 Fuzzing 的安全研究员值得一看，能直接借鉴到测试 harness 设计中。 来源：arxiv-ai-security\n\n## 也值得关注\n- Intentest：基于意图图的自动化渗透测试Agent（80.05）\n- Chameleon：利用机器学习代理模型从内存破坏攻击中恢复CPS（78.85）\n- FRAUDSkill：冻结权重音频反欺诈技能优化框架（76.4）\n- STEALIEN AI 防御智能体在 APEX 2026 夺冠，得分超人类三倍（73.96）\n- 构建 AI 安全 Agent：上下文管理与循环执行实践（72.56）\n- LLM Agent 代码生成的约束衰减现象评测（69.65）\n\n## AI for Sec\n\n### 安全评测与Benchmark\n- TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准（87.6）\n\n### 漏洞挖掘\n- BoostAPR：基于双奖励模型强化学习的自动程序修复（81.6）\n\n### AI Fuzzing\n- 结合类型推断的 Python 自动化单元测试生成技术（80.2）\n- AI 辅助 Fuzzing 与形式化验证成为高价值安全实践（61.83）\n\n### 安全Agent\n- Intentest：基于意图图的自动化渗透测试Agent（80.05）\n- STEALIEN AI 防御智能体在 APEX 2026 夺冠，得分超人类三倍（73.96）\n- 构建 AI 安全 Agent：上下文管理与循环执行实践（72.56）\n- PentestCode 多智能体自动化渗透测试及本周赏金动态（61.03）\n\n### system_resilience\n- Chameleon：利用机器学习代理模型从内存破坏攻击中恢复CPS（78.85）\n\n### 欺诈检测\n- FRAUDSkill：冻结权重音频反欺诈技能优化框架（76.4）\n\n### image_forensics\n- ForgeryVCR 用视觉中心推理重塑图像取证范式（66.5）\n\n## AI Tech\n\n### 模型评测\n- LLM Agent 代码生成的约束衰减现象评测（69.65）\n\n### code_transformation\n- MigrateLib：基于 LLM 的端到端 Python 库自动迁移工具（62.45）\n\n### Agent 架构\n- Amazon 内部项目开源：Pizza Bot 后台 AI Agent 收件箱式桌面应用（61.56）\n- EvoOntology：面向数据Agent的自进化本体层（55.95）\n\n## 今日论文\n- TeleAntiFraud 2.0：电信欺诈检测的音频安全评测基准\n- BoostAPR：基于双奖励模型强化学习的自动程序修复\n- 结合类型推断的 Python 自动化单元测试生成技术\n- Intentest：基于意图图的自动化渗透测试Agent\n- Chameleon：利用机器学习代理模型从内存破坏攻击中恢复CPS\n- FRAUDSkill：冻结权重音频反欺诈技能优化框架\n- LLM Agent 代码生成的约束衰减现象评测\n- MigrateLib：基于 LLM 的端到端 Python 库自动迁移工具\n\n## 今日观察\n拿下今天最高分的 TeleAntiFraud 2.0 给防欺诈团队敲了警钟，现有 ASR+LLM 管线在真实混淆场景下极易预测崩溃。建议赶紧用这个开源基准给自家模型做次压力测试；同时做代码审计和漏洞修复的同学可以看看另外两篇，行级奖励分配和运行时类型推断的思路完全能搬到你们的 Fuzzing 和自动化修复流水线里提效。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-09-21 的系统入库窗口筛选，从 17 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-22T00:01:14+08:00"
+}
