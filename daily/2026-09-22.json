@@ -1,0 +1,1172 @@
+{
+  "date": "2026-09-22",
+  "candidate_count": 22,
+  "selected_count": 3,
+  "cover_title": "Black Hat 2026：SiftRank 用 LLM 排序反编译函数挖掘二进制",
+  "lead_takeaway": "今天的主线是 AI 正在同时加码攻防两端：一边是用 LLM 做受限排序就能在真实固件里挖出 RCE，另一边是 AI Agent 写的代码漏洞率高得离谱、甚至已经出现不需要人干预的 AI 驱动恶意软件。关键信号是不管攻击还是防御，真正能落地的都不是大而全的自主 Agent，而是把 LLM 卡在一个具体环节干活。",
+  "digest_points": [
+    "01 二进制安全研究员和漏洞挖掘 Agent 开发者必看。它没把找漏洞全扔给大 Agent，而是用 LLM 做「受限的排序判断」，让便宜小模型在真实固件上挖出了 RCE，是 AI 辅助漏洞挖掘落地的好参考。",
+    "02 AI 写代码已成趋势但其漏洞率令人担忧。安全团队需关注此基准，评估引入 AI 编程工具的潜在风险，不能仅看功能正确率而忽视安全评测。",
+    "03 安全团队需警惕 AI 驱动的自动化攻击工具。该框架展示了检测这类新型威胁的方法，威胁狩猎和恶意软件分析人员值得借鉴其检测思路。"
+  ],
+  "judgement": [
+    "01 二进制安全研究员和漏洞挖掘 Agent 开发者必看。它没把找漏洞全扔给大 Agent，而是用 LLM 做「受限的排序判断」，让便宜小模型在真实固件上挖出了 RCE，是 AI 辅助漏洞挖掘落地的好参考。",
+    "02 AI 写代码已成趋势但其漏洞率令人担忧。安全团队需关注此基准，评估引入 AI 编程工具的潜在风险，不能仅看功能正确率而忽视安全评测。",
+    "03 安全团队需警惕 AI 驱动的自动化攻击工具。该框架展示了检测这类新型威胁的方法，威胁狩猎和恶意软件分析人员值得借鉴其检测思路。"
+  ],
+  "top_items": [
+    {
+      "id": 8154,
+      "title": "Black Hat 2026：SiftRank 用 LLM 排序反编译函数挖掘二进制漏洞",
+      "original_title": "Black Hat USA 2026 | Applying Information Retrieval to Vulnerability Research",
+      "summary": "SiftRank 算法将二进制漏洞挖掘转化为信息检索任务，利用 LLM 对反编译函数进行多轮排序以筛选高危目标，在 BinPool 数据集上精度提升 2.26 倍，并成功发现 CVE-2026-41446。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 90.1,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "二进制安全研究员和漏洞挖掘 Agent 开发者必看。它没把找漏洞全扔给大 Agent，而是用 LLM 做「受限的排序判断」，让便宜小模型在真实固件上挖出了 RCE，是 AI 辅助漏洞挖掘落地的好参考。",
+      "source_id": "blackhat-youtube",
+      "canonical_url": "https://www.youtube.com/watch?v=1ADD60wyrbg",
+      "reader_url": "https://www.youtube.com/watch?v=1ADD60wyrbg",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-21T16:33:16",
+      "first_seen_at": "2026-09-21T18:49:35.659794",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 8381,
+      "title": "Vibe Coding 安全性基准测试：Agent 生成代码漏洞分析",
+      "original_title": "Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks",
+      "summary": "本研究提出 SUSVIBES 基准，评估 AI Agent 生成的代码安全性，发现功能正确率虽高但安全合规率极低，常规安全提示无法有效缓解漏洞风险。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark",
+      "score_total": 88.7,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "AI 写代码已成趋势但其漏洞率令人担忧。安全团队需关注此基准，评估引入 AI 编程工具的潜在风险，不能仅看功能正确率而忽视安全评测。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2512.03262",
+      "reader_url": "https://arxiv.org/pdf/2512.03262",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-22T08:37:59.352535",
+      "sub_category_label": null
+    },
+    {
+      "id": 8593,
+      "title": "Cisco Talos 推出检测框架，发现无人类干预的 AI 引导恶意软件",
+      "original_title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+      "summary": "Cisco Talos 研究人员开发了用于识别依赖 AI 聊天机器人的恶意软件与黑客工具的新框架，并借此发现了无需人类干预、由 AI 集体智能引导的异常恶意软件。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 79.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需警惕 AI 驱动的自动化攻击工具。该框架展示了检测这类新型威胁的方法，威胁狩猎和恶意软件分析人员值得借鉴其检测思路。",
+      "source_id": "wired-ai",
+      "canonical_url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+      "reader_url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T10:00:00",
+      "first_seen_at": "2026-09-22T10:48:34.470510",
+      "sub_category_label": "恶意软件与威胁检测"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 8379,
+      "title": "RAT：全自动环境配置 Agent 框架与评测基准",
+      "original_title": "RAT: RunAnyThing via Fully Automated Environment Configuration",
+      "summary": "本文提出全自动环境配置 Agent 框架 RAT，通过多阶段流水线实现任意代码仓库的跨语言自动化配置，并发布评测基准 RATBench，显著提升了环境配置成功率。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "agent_architecture",
+      "score_total": 75.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "自动化跑 PoC 和 Fuzzer 的最大痛点之一就是环境搭建，RAT 框架非常值得安全自动化团队借鉴，能直接集成进漏洞复现和安全测试 Agent 的工具链中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2604.23190",
+      "reader_url": "https://arxiv.org/pdf/2604.23190",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-22T08:36:41.252314",
+      "sub_category_label": null
+    },
+    {
+      "id": 8375,
+      "title": "基于NLP与RAG的安全需求持续合规系统",
+      "original_title": "From Backlog Items to Security Guidance: Towards Continuous Security Compliance",
+      "summary": "论文提出一种结合分类器与RAG的NLP系统，自动检测软件backlog中的安全相关项并链接至安全需求文档，以支持企业持续安全合规。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_compliance",
+      "score_total": 73.05,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该研究展示了RAG在DevSecOps早期安全需求识别中的落地效果，提供了新标注数据集和基线，适合研发安全合规自动化工具的团队参考借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.27374",
+      "reader_url": "https://arxiv.org/pdf/2607.27374",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-22T08:34:15.710278",
+      "sub_category_label": null
+    },
+    {
+      "id": 8164,
+      "title": "HackerOne 集成 Anthropic Claude Mythos 赋能防御者",
+      "original_title": "And now Anthropic’s Claude Mythos will soon be available in select H1 Platform products.   We’re making frontier cyber AI models and the creativity and adversarial expertise of our",
+      "summary": "HackerOne 宣布将 Anthropic 的 Claude Mythos 模型引入 H1 平台，为防御者提供前沿网络安全 AI 能力，并承诺不使用机密漏洞数据训练模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.39,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做甲方安全和漏洞响应的应该看。Claude Mythos 落地顶级众测平台标志着 AI 辅助漏洞管理从概念走向产业流程，可关注其如何结合研究员社区数据赋能防御。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Hacker0x01/status/2102067219089822118",
+      "reader_url": "https://x.com/Hacker0x01/status/2102067219089822118",
+      "image_url": "https://pbs.twimg.com/media/HSwK-oCXQAEA1IH.jpg",
+      "author": {
+        "username": "Hacker0x01",
+        "name": "HackerOne",
+        "avatar_url": null,
+        "followers_count": 342779
+      },
+      "published_at": "2026-09-21T16:07:34",
+      "first_seen_at": "2026-09-21T19:01:29.059382",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 8663,
+      "title": "Vigolium v0.5.0 发布：专为 AI Agent 打造的 DAST 与 Fuzzing 工具",
+      "original_title": "I just released @Vigolium v0.5.0 aiming to be the best DAST for your coding agent to drive   And a drop-in for the common recon tools, from probing to fuzzing. Natively supported, ",
+      "summary": "新发布的开源工具 Vigolium v0.5.0 定位为面向编码代理的 DAST 工具，可替代常见侦察工具，原生支持从探测到模糊测试的自动化安全任务。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.37,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 安全自动化和渗透测试的必看。它将 DAST 和 Fuzzing 能力直接接入 Coding Agent 工作流，安全团队可借此集成测试 Agent 的漏洞挖掘闭环效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/j3ssie/status/2102402427366642030",
+      "reader_url": "https://x.com/j3ssie/status/2102402427366642030",
+      "image_url": "https://pbs.twimg.com/media/HS07K2ea8AAcQBd.jpg",
+      "author": {
+        "username": "j3ssie",
+        "name": "Jessie Ho",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T14:19:34",
+      "first_seen_at": "2026-09-22T14:29:07.273829",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 8097,
+      "title": "谷歌威胁情报报告：攻击者使用 AI 正从辅助走向自主编排",
+      "original_title": "From Prompting to Autonomy: How Threat Actors’ Use of AI Is Evolving  Read on dbugs: https://t.co/ZrCrSOuqr3  Google Threat Intelligence Group has released a new report (https://t.",
+      "summary": "GTIG 最新报告指出，威胁行为者正利用 AI Agent 实现从侦察到漏洞利用的全流程自动化，如 Recon 框架收集海量凭据及 AI 加速 N-day 漏洞利用开发。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "防御团队和红队必看。GTIG 给出了攻击者利用 AI Agent 编排攻击和生成 N-day Exploit 的真实案例与时间线，这直接预示了未来自动化攻击的演进方向和防守压力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ptdbugs/status/2102064367164334528",
+      "reader_url": "https://x.com/ptdbugs/status/2102064367164334528",
+      "image_url": null,
+      "author": {
+        "username": "ptdbugs",
+        "name": "dbugs",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-21T15:56:14",
+      "first_seen_at": "2026-09-21T16:12:20.130905",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 8291,
+      "title": "SyzHarness：基于LLM生成Fuzzing Harness的内核漏洞复现框架",
+      "original_title": "SyzHarness: Patch-Based Kernel Bug Reproduction with LLM-Synthesized Fuzzing Harnesses: Automated kernel vulnerability reproduction is essential for bug triage, patch validation, a",
+      "summary": "SyzHarness 结合 LLM 和覆盖率引导模糊测试，自动合成参数化 Harness 复现 Linux 内核漏洞。在 KernelCTF 数据集上复现率达 78%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这篇论文展示了 LLM 与 Syzkaller 深度结合在内核漏洞复现上的落地效果，解决了纯 LLM 难以处理具体值和运行时非确定性的痛点，为安全团队进行 Bug Triage 和补丁验证提供了高复现率的新思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2102227549761753208",
+      "reader_url": "https://x.com/gastronomy/status/2102227549761753208",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T02:44:40",
+      "first_seen_at": "2026-09-22T03:04:31.057762",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 8290,
+      "title": "StateLens：基于 LLM 引导插桩的 JS 引擎状态感知模糊测试",
+      "original_title": "State-Aware Fuzzing of JavaScript Engines with LLM-Guided Instrumentation: The security of the modern web depends on the correctness of JavaScript (JS) engines, yet these complex s",
+      "summary": "提出 StateLens 框架，利用 LLM Agent 自动发现 JS 引擎深层内部状态并指导插桩，突破了传统模糊测试的覆盖率瓶颈，已发现 68 个新漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了 LLM 替代安全研究员直觉来指导 Fuzzer 插桩的新思路。做漏洞挖掘和二进制安全的人可以关注它如何通过 LLM 提取状态变量突破覆盖率瓶颈。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2102227568464187636",
+      "reader_url": "https://x.com/gastronomy/status/2102227568464187636",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T02:44:44",
+      "first_seen_at": "2026-09-22T03:04:27.837780",
+      "sub_category_label": "AI Fuzzing"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 8154,
+        "title": "Black Hat 2026：SiftRank 用 LLM 排序反编译函数挖掘二进制漏洞",
+        "original_title": "Black Hat USA 2026 | Applying Information Retrieval to Vulnerability Research",
+        "summary": "SiftRank 算法将二进制漏洞挖掘转化为信息检索任务，利用 LLM 对反编译函数进行多轮排序以筛选高危目标，在 BinPool 数据集上精度提升 2.26 倍，并成功发现 CVE-2026-41446。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 90.1,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "二进制安全研究员和漏洞挖掘 Agent 开发者必看。它没把找漏洞全扔给大 Agent，而是用 LLM 做「受限的排序判断」，让便宜小模型在真实固件上挖出了 RCE，是 AI 辅助漏洞挖掘落地的好参考。",
+        "source_id": "blackhat-youtube",
+        "canonical_url": "https://www.youtube.com/watch?v=1ADD60wyrbg",
+        "reader_url": "https://www.youtube.com/watch?v=1ADD60wyrbg",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-21T16:33:16",
+        "first_seen_at": "2026-09-21T18:49:35.659794",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 8593,
+        "title": "Cisco Talos 推出检测框架，发现无人类干预的 AI 引导恶意软件",
+        "original_title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+        "summary": "Cisco Talos 研究人员开发了用于识别依赖 AI 聊天机器人的恶意软件与黑客工具的新框架，并借此发现了无需人类干预、由 AI 集体智能引导的异常恶意软件。",
+        "primary_category": "AI for Sec",
+        "sub_category": "malware_detection",
+        "score_total": 79.45,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全团队需警惕 AI 驱动的自动化攻击工具。该框架展示了检测这类新型威胁的方法，威胁狩猎和恶意软件分析人员值得借鉴其检测思路。",
+        "source_id": "wired-ai",
+        "canonical_url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+        "reader_url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T10:00:00",
+        "first_seen_at": "2026-09-22T10:48:34.470510",
+        "sub_category_label": "恶意软件与威胁检测"
+      },
+      {
+        "id": 8225,
+        "title": "Cloudflare 推出 AI 多阶段安全审计技能",
+        "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+        "summary": "Cloudflare 开源了一个面向 coding-agent 的安全审计技能，支持多阶段审计，并能生成可独立验证、机器可读的安全发现结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 73.95,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全审计自动化实践者必看。该技能展示了如何让 AI Agent 输出可验证的结构化安全发现，直接解决 LLM 幻觉导致审计结果不可信的痛点，可借鉴其工作流设计。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-22&since=weekly",
+        "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-22&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T00:28:40.523795",
+        "first_seen_at": "2026-09-22T00:29:35.311687",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 8236,
+        "title": "阿里开源混合架构代码审查工具 open-code-review",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+        "summary": "阿里巴巴开源的代码审查工具，结合确定性管道与 LLM Agent，支持精确到行级的评论，内置包含 XSS 和 SQL 注入等安全规则的多语言规则集。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 73.7,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "该工具已在阿里大规模落地，其确定性管道加 LLM 的混合架构值得做代码审计与 SAST 的开发者参考。安全工程师可直接集成它辅助日常代码审查，提升发现注入及并发漏洞的效率。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-22&since=weekly",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-22&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T00:28:39.274595",
+        "first_seen_at": "2026-09-22T00:31:12.778872",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 8375,
+        "title": "基于NLP与RAG的安全需求持续合规系统",
+        "original_title": "From Backlog Items to Security Guidance: Towards Continuous Security Compliance",
+        "summary": "论文提出一种结合分类器与RAG的NLP系统，自动检测软件backlog中的安全相关项并链接至安全需求文档，以支持企业持续安全合规。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_compliance",
+        "score_total": 73.05,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "该研究展示了RAG在DevSecOps早期安全需求识别中的落地效果，提供了新标注数据集和基线，适合研发安全合规自动化工具的团队参考借鉴。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2607.27374",
+        "reader_url": "https://arxiv.org/pdf/2607.27374",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T04:00:00",
+        "first_seen_at": "2026-09-22T08:34:15.710278",
+        "sub_category_label": null
+      },
+      {
+        "id": 8164,
+        "title": "HackerOne 集成 Anthropic Claude Mythos 赋能防御者",
+        "original_title": "And now Anthropic’s Claude Mythos will soon be available in select H1 Platform products.   We’re making frontier cyber AI models and the creativity and adversarial expertise of our",
+        "summary": "HackerOne 宣布将 Anthropic 的 Claude Mythos 模型引入 H1 平台，为防御者提供前沿网络安全 AI 能力，并承诺不使用机密漏洞数据训练模型。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 71.39,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做甲方安全和漏洞响应的应该看。Claude Mythos 落地顶级众测平台标志着 AI 辅助漏洞管理从概念走向产业流程，可关注其如何结合研究员社区数据赋能防御。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Hacker0x01/status/2102067219089822118",
+        "reader_url": "https://x.com/Hacker0x01/status/2102067219089822118",
+        "image_url": "https://pbs.twimg.com/media/HSwK-oCXQAEA1IH.jpg",
+        "author": {
+          "username": "Hacker0x01",
+          "name": "HackerOne",
+          "avatar_url": null,
+          "followers_count": 342779
+        },
+        "published_at": "2026-09-21T16:07:34",
+        "first_seen_at": "2026-09-21T19:01:29.059382",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 8663,
+        "title": "Vigolium v0.5.0 发布：专为 AI Agent 打造的 DAST 与 Fuzzing 工具",
+        "original_title": "I just released @Vigolium v0.5.0 aiming to be the best DAST for your coding agent to drive   And a drop-in for the common recon tools, from probing to fuzzing. Natively supported, ",
+        "summary": "新发布的开源工具 Vigolium v0.5.0 定位为面向编码代理的 DAST 工具，可替代常见侦察工具，原生支持从探测到模糊测试的自动化安全任务。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 70.37,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做 AI 安全自动化和渗透测试的必看。它将 DAST 和 Fuzzing 能力直接接入 Coding Agent 工作流，安全团队可借此集成测试 Agent 的漏洞挖掘闭环效果。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/j3ssie/status/2102402427366642030",
+        "reader_url": "https://x.com/j3ssie/status/2102402427366642030",
+        "image_url": "https://pbs.twimg.com/media/HS07K2ea8AAcQBd.jpg",
+        "author": {
+          "username": "j3ssie",
+          "name": "Jessie Ho",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-22T14:19:34",
+        "first_seen_at": "2026-09-22T14:29:07.273829",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 8097,
+        "title": "谷歌威胁情报报告：攻击者使用 AI 正从辅助走向自主编排",
+        "original_title": "From Prompting to Autonomy: How Threat Actors’ Use of AI Is Evolving  Read on dbugs: https://t.co/ZrCrSOuqr3  Google Threat Intelligence Group has released a new report (https://t.",
+        "summary": "GTIG 最新报告指出，威胁行为者正利用 AI Agent 实现从侦察到漏洞利用的全流程自动化，如 Recon 框架收集海量凭据及 AI 加速 N-day 漏洞利用开发。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 69.25,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "防御团队和红队必看。GTIG 给出了攻击者利用 AI Agent 编排攻击和生成 N-day Exploit 的真实案例与时间线，这直接预示了未来自动化攻击的演进方向和防守压力。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/ptdbugs/status/2102064367164334528",
+        "reader_url": "https://x.com/ptdbugs/status/2102064367164334528",
+        "image_url": null,
+        "author": {
+          "username": "ptdbugs",
+          "name": "dbugs",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-21T15:56:14",
+        "first_seen_at": "2026-09-21T16:12:20.130905",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 8352,
+        "title": "OpenSider：让本地 Agent 复用浏览器上下文的插件",
+        "original_title": "OpenSider：让浏览器驱动 Agent",
+        "summary": "OpenSider 是一个开源浏览器插件，通过 Chrome Native Messaging 将本地 CLI Agent 与浏览器连接，使 Agent 能直接复用用户的真实浏览器状态（如登录态）并执行网页自动化操作。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 67.6,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做 Web 渗透或安全自动化时最头疼的就是 Agent 操控浏览器没法带登录态。OpenSider 把浏览器当客户端、本地 Agent 当执行器，让 Agent 直接复用真实浏览器上下文。做安全自动化的可以看看这套架构怎么抄。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7685651354878754825",
+        "reader_url": "https://juejin.cn/post/7685651354878754825",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-15T17:32:27",
+        "first_seen_at": "2026-09-22T06:53:42.859471",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 8372,
+        "title": "跨运行时的持久化Agent架构：保留身份、记忆与代码",
+        "original_title": "Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers",
+        "summary": "提出一种运行时独立的持久化代理架构，在跨主机、跨模型（如Codex到Claude）及跨交互界面迁移时，通过特定协议保持代理的身份、记忆和代码连续性。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 62.1,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做Agent安全的同学该看：Agent在跨模型和跨宿主迁移时如何保持身份与记忆的连续性，这直接关系到后续状态篡改、记忆投毒等安全边界的界定。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.00546",
+        "reader_url": "https://arxiv.org/pdf/2609.00546",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T04:00:00",
+        "first_seen_at": "2026-09-22T08:33:28.597623",
+        "sub_category_label": "Agent 架构"
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 8381,
+        "title": "Vibe Coding 安全性基准测试：Agent 生成代码漏洞分析",
+        "original_title": "Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks",
+        "summary": "本研究提出 SUSVIBES 基准，评估 AI Agent 生成的代码安全性，发现功能正确率虽高但安全合规率极低，常规安全提示无法有效缓解漏洞风险。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_benchmark",
+        "score_total": 88.7,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "AI 写代码已成趋势但其漏洞率令人担忧。安全团队需关注此基准，评估引入 AI 编程工具的潜在风险，不能仅看功能正确率而忽视安全评测。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2512.03262",
+        "reader_url": "https://arxiv.org/pdf/2512.03262",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T04:00:00",
+        "first_seen_at": "2026-09-22T08:37:59.352535",
+        "sub_category_label": null
+      },
+      {
+        "id": 8634,
+        "title": "勿被今夏AI炒作蒙蔽：Claude漏洞挖掘与模型被黑事件点评",
+        "original_title": "Don’t be fooled by this summer of AI hype",
+        "summary": "MIT技术评论发文批判近期AI炒作，涉及Anthropic称Claude Mythos漏洞挖掘能力超越专家，以及OpenAI、Meta等模型遭攻击事件。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "vuln_discovery",
+        "score_total": 67.5,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "对Claude Mythos等大模型在漏洞挖掘方向的炒作冷眼旁观，安全团队应理性评估其实战落地效果，而非盲目轻信厂商营销。",
+        "source_id": "mit-technology-review-ai",
+        "canonical_url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype",
+        "reader_url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T11:04:51",
+        "first_seen_at": "2026-09-22T12:50:37.895988",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 8379,
+        "title": "RAT：全自动环境配置 Agent 框架与评测基准",
+        "original_title": "RAT: RunAnyThing via Fully Automated Environment Configuration",
+        "summary": "本文提出全自动环境配置 Agent 框架 RAT，通过多阶段流水线实现任意代码仓库的跨语言自动化配置，并发布评测基准 RATBench，显著提升了环境配置成功率。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "agent_architecture",
+        "score_total": 75.4,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "自动化跑 PoC 和 Fuzzer 的最大痛点之一就是环境搭建，RAT 框架非常值得安全自动化团队借鉴，能直接集成进漏洞复现和安全测试 Agent 的工具链中。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2604.23190",
+        "reader_url": "https://arxiv.org/pdf/2604.23190",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T04:00:00",
+        "first_seen_at": "2026-09-22T08:36:41.252314",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 8154,
+            "title": "Black Hat 2026：SiftRank 用 LLM 排序反编译函数挖掘二进制漏洞",
+            "original_title": "Black Hat USA 2026 | Applying Information Retrieval to Vulnerability Research",
+            "summary": "SiftRank 算法将二进制漏洞挖掘转化为信息检索任务，利用 LLM 对反编译函数进行多轮排序以筛选高危目标，在 BinPool 数据集上精度提升 2.26 倍，并成功发现 CVE-2026-41446。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 90.1,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "二进制安全研究员和漏洞挖掘 Agent 开发者必看。它没把找漏洞全扔给大 Agent，而是用 LLM 做「受限的排序判断」，让便宜小模型在真实固件上挖出了 RCE，是 AI 辅助漏洞挖掘落地的好参考。",
+            "source_id": "blackhat-youtube",
+            "canonical_url": "https://www.youtube.com/watch?v=1ADD60wyrbg",
+            "reader_url": "https://www.youtube.com/watch?v=1ADD60wyrbg",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-21T16:33:16",
+            "first_seen_at": "2026-09-21T18:49:35.659794",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "malware_detection": {
+        "label": "恶意软件与威胁检测",
+        "items": [
+          {
+            "id": 8593,
+            "title": "Cisco Talos 推出检测框架，发现无人类干预的 AI 引导恶意软件",
+            "original_title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+            "summary": "Cisco Talos 研究人员开发了用于识别依赖 AI 聊天机器人的恶意软件与黑客工具的新框架，并借此发现了无需人类干预、由 AI 集体智能引导的异常恶意软件。",
+            "primary_category": "AI for Sec",
+            "sub_category": "malware_detection",
+            "score_total": 79.45,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全团队需警惕 AI 驱动的自动化攻击工具。该框架展示了检测这类新型威胁的方法，威胁狩猎和恶意软件分析人员值得借鉴其检测思路。",
+            "source_id": "wired-ai",
+            "canonical_url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+            "reader_url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T10:00:00",
+            "first_seen_at": "2026-09-22T10:48:34.470510",
+            "sub_category_label": "恶意软件与威胁检测"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 8225,
+            "title": "Cloudflare 推出 AI 多阶段安全审计技能",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+            "summary": "Cloudflare 开源了一个面向 coding-agent 的安全审计技能，支持多阶段审计，并能生成可独立验证、机器可读的安全发现结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 73.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全审计自动化实践者必看。该技能展示了如何让 AI Agent 输出可验证的结构化安全发现，直接解决 LLM 幻觉导致审计结果不可信的痛点，可借鉴其工作流设计。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-22&since=weekly",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-22&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T00:28:40.523795",
+            "first_seen_at": "2026-09-22T00:29:35.311687",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8236,
+            "title": "阿里开源混合架构代码审查工具 open-code-review",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "阿里巴巴开源的代码审查工具，结合确定性管道与 LLM Agent，支持精确到行级的评论，内置包含 XSS 和 SQL 注入等安全规则的多语言规则集。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 73.7,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "该工具已在阿里大规模落地，其确定性管道加 LLM 的混合架构值得做代码审计与 SAST 的开发者参考。安全工程师可直接集成它辅助日常代码审查，提升发现注入及并发漏洞的效率。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-22&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-22&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T00:28:39.274595",
+            "first_seen_at": "2026-09-22T00:31:12.778872",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8164,
+            "title": "HackerOne 集成 Anthropic Claude Mythos 赋能防御者",
+            "original_title": "And now Anthropic’s Claude Mythos will soon be available in select H1 Platform products.   We’re making frontier cyber AI models and the creativity and adversarial expertise of our",
+            "summary": "HackerOne 宣布将 Anthropic 的 Claude Mythos 模型引入 H1 平台，为防御者提供前沿网络安全 AI 能力，并承诺不使用机密漏洞数据训练模型。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 71.39,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做甲方安全和漏洞响应的应该看。Claude Mythos 落地顶级众测平台标志着 AI 辅助漏洞管理从概念走向产业流程，可关注其如何结合研究员社区数据赋能防御。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Hacker0x01/status/2102067219089822118",
+            "reader_url": "https://x.com/Hacker0x01/status/2102067219089822118",
+            "image_url": "https://pbs.twimg.com/media/HSwK-oCXQAEA1IH.jpg",
+            "author": {
+              "username": "Hacker0x01",
+              "name": "HackerOne",
+              "avatar_url": null,
+              "followers_count": 342779
+            },
+            "published_at": "2026-09-21T16:07:34",
+            "first_seen_at": "2026-09-21T19:01:29.059382",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8663,
+            "title": "Vigolium v0.5.0 发布：专为 AI Agent 打造的 DAST 与 Fuzzing 工具",
+            "original_title": "I just released @Vigolium v0.5.0 aiming to be the best DAST for your coding agent to drive   And a drop-in for the common recon tools, from probing to fuzzing. Natively supported, ",
+            "summary": "新发布的开源工具 Vigolium v0.5.0 定位为面向编码代理的 DAST 工具，可替代常见侦察工具，原生支持从探测到模糊测试的自动化安全任务。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 70.37,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 AI 安全自动化和渗透测试的必看。它将 DAST 和 Fuzzing 能力直接接入 Coding Agent 工作流，安全团队可借此集成测试 Agent 的漏洞挖掘闭环效果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/j3ssie/status/2102402427366642030",
+            "reader_url": "https://x.com/j3ssie/status/2102402427366642030",
+            "image_url": "https://pbs.twimg.com/media/HS07K2ea8AAcQBd.jpg",
+            "author": {
+              "username": "j3ssie",
+              "name": "Jessie Ho",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-22T14:19:34",
+            "first_seen_at": "2026-09-22T14:29:07.273829",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8097,
+            "title": "谷歌威胁情报报告：攻击者使用 AI 正从辅助走向自主编排",
+            "original_title": "From Prompting to Autonomy: How Threat Actors’ Use of AI Is Evolving  Read on dbugs: https://t.co/ZrCrSOuqr3  Google Threat Intelligence Group has released a new report (https://t.",
+            "summary": "GTIG 最新报告指出，威胁行为者正利用 AI Agent 实现从侦察到漏洞利用的全流程自动化，如 Recon 框架收集海量凭据及 AI 加速 N-day 漏洞利用开发。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "防御团队和红队必看。GTIG 给出了攻击者利用 AI Agent 编排攻击和生成 N-day Exploit 的真实案例与时间线，这直接预示了未来自动化攻击的演进方向和防守压力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/ptdbugs/status/2102064367164334528",
+            "reader_url": "https://x.com/ptdbugs/status/2102064367164334528",
+            "image_url": null,
+            "author": {
+              "username": "ptdbugs",
+              "name": "dbugs",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-21T15:56:14",
+            "first_seen_at": "2026-09-21T16:12:20.130905",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8645,
+            "title": "Aikido 推出开源安全模型 Altar-1，支持本地部署",
+            "original_title": "Aikido Altar-1..Security model 開始直接搬回客戶機房  @AikidoSecurity  新出的 Altar-1 幾有意思..504B security model 壓到 328GB，可用 4×H200 自己部署  重點唔只係 open weight Security agent 要讀的往往係公司最敏感的 code 同 atta",
+            "summary": "Aikido Security 发布开源权重安全模型 Altar-1，支持在 4×H200 上本地部署，以满足安全 Agent 处理敏感代码和攻击面时的数据隐私需求。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 67.78,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全 Agent 的团队该看。处理客户敏感代码和攻击面时，本地化推理往往是刚需。Altar-1 提供了开箱即用的开源权重方案，值得一测。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/shenshanni/status/2102380388823830687",
+            "reader_url": "https://x.com/shenshanni/status/2102380388823830687",
+            "image_url": null,
+            "author": {
+              "username": "shenshanni",
+              "name": "AI IT PM in HK",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-22T12:51:59",
+            "first_seen_at": "2026-09-22T13:23:08.738365",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8301,
+            "title": "SwarmAttacker：基于多智能体协作的AI自动化渗透测试系统",
+            "original_title": "Here is something cool  from @Zjolou.  SwarmAttacker is basically an autonomous AI penetration-testing system: give it a URL and multiple specialised AI agents map the application,",
+            "summary": "SwarmAttacker 采用多智能体协作架构，将渗透测试拆分为站点测绘、漏洞发现、漏洞验证和报告生成等任务，由不同 AI Agent 分别完成，实现全流程自动化。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 65.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "渗透测试自动化是安全提效的关键方向。SwarmAttacker 的多智能体分工思路值得借鉴：与其让大模型一把梭，不如拆解流程让 Agent 各司其职。建议关注其协作机制，评估引入内部安全流水线的可行性。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Drink_and_Vibe/status/2102239059779448886",
+            "reader_url": "https://x.com/Drink_and_Vibe/status/2102239059779448886",
+            "image_url": null,
+            "author": {
+              "username": "Drink_and_Vibe",
+              "name": "DarrenZedren",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-22T03:30:24",
+            "first_seen_at": "2026-09-22T03:38:47.725124",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8643,
+            "title": "EVA：自动化渗透测试的开源AI Agent",
+            "original_title": "EVA  ⭐ 528  EVA is an open-source AI agent that automates penetration testing tasks for security professionals.  🔗 https://t.co/HOvzDSTfaO  #opensource https://t.co/67rNXtdVyd",
+            "summary": "EVA 是一款开源 AI Agent，旨在帮助安全专业人员自动化执行渗透测试任务。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 65.71,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "红队和渗透测试人员应关注此开源工具，评估其自动化能力是否能提升日常渗透测试效率，可作为安全工作流集成的参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/gitrepos/status/2102382636899434978",
+            "reader_url": "https://x.com/gitrepos/status/2102382636899434978",
+            "image_url": "https://pbs.twimg.com/media/HS0p3fFWcAAvBmj.jpg",
+            "author": {
+              "username": "gitrepos",
+              "name": "Gitrepos",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-22T13:00:55",
+            "first_seen_at": "2026-09-22T13:22:49.428171",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "security_compliance": {
+        "label": "security_compliance",
+        "items": [
+          {
+            "id": 8375,
+            "title": "基于NLP与RAG的安全需求持续合规系统",
+            "original_title": "From Backlog Items to Security Guidance: Towards Continuous Security Compliance",
+            "summary": "论文提出一种结合分类器与RAG的NLP系统，自动检测软件backlog中的安全相关项并链接至安全需求文档，以支持企业持续安全合规。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_compliance",
+            "score_total": 73.05,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "该研究展示了RAG在DevSecOps早期安全需求识别中的落地效果，提供了新标注数据集和基线，适合研发安全合规自动化工具的团队参考借鉴。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2607.27374",
+            "reader_url": "https://arxiv.org/pdf/2607.27374",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T04:00:00",
+            "first_seen_at": "2026-09-22T08:34:15.710278",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 8291,
+            "title": "SyzHarness：基于LLM生成Fuzzing Harness的内核漏洞复现框架",
+            "original_title": "SyzHarness: Patch-Based Kernel Bug Reproduction with LLM-Synthesized Fuzzing Harnesses: Automated kernel vulnerability reproduction is essential for bug triage, patch validation, a",
+            "summary": "SyzHarness 结合 LLM 和覆盖率引导模糊测试，自动合成参数化 Harness 复现 Linux 内核漏洞。在 KernelCTF 数据集上复现率达 78%。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这篇论文展示了 LLM 与 Syzkaller 深度结合在内核漏洞复现上的落地效果，解决了纯 LLM 难以处理具体值和运行时非确定性的痛点，为安全团队进行 Bug Triage 和补丁验证提供了高复现率的新思路。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/gastronomy/status/2102227549761753208",
+            "reader_url": "https://x.com/gastronomy/status/2102227549761753208",
+            "image_url": null,
+            "author": {
+              "username": "gastronomy",
+              "name": "Tanat Tonguthaisri",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-22T02:44:40",
+            "first_seen_at": "2026-09-22T03:04:31.057762",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 8290,
+            "title": "StateLens：基于 LLM 引导插桩的 JS 引擎状态感知模糊测试",
+            "original_title": "State-Aware Fuzzing of JavaScript Engines with LLM-Guided Instrumentation: The security of the modern web depends on the correctness of JavaScript (JS) engines, yet these complex s",
+            "summary": "提出 StateLens 框架，利用 LLM Agent 自动发现 JS 引擎深层内部状态并指导插桩，突破了传统模糊测试的覆盖率瓶颈，已发现 68 个新漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "展示了 LLM 替代安全研究员直觉来指导 Fuzzer 插桩的新思路。做漏洞挖掘和二进制安全的人可以关注它如何通过 LLM 提取状态变量突破覆盖率瓶颈。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/gastronomy/status/2102227568464187636",
+            "reader_url": "https://x.com/gastronomy/status/2102227568464187636",
+            "image_url": null,
+            "author": {
+              "username": "gastronomy",
+              "name": "Tanat Tonguthaisri",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-22T02:44:44",
+            "first_seen_at": "2026-09-22T03:04:27.837780",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 8381,
+            "title": "Vibe Coding 安全性基准测试：Agent 生成代码漏洞分析",
+            "original_title": "Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks",
+            "summary": "本研究提出 SUSVIBES 基准，评估 AI Agent 生成的代码安全性，发现功能正确率虽高但安全合规率极低，常规安全提示无法有效缓解漏洞风险。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_benchmark",
+            "score_total": 88.7,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "AI 写代码已成趋势但其漏洞率令人担忧。安全团队需关注此基准，评估引入 AI 编程工具的潜在风险，不能仅看功能正确率而忽视安全评测。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2512.03262",
+            "reader_url": "https://arxiv.org/pdf/2512.03262",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T04:00:00",
+            "first_seen_at": "2026-09-22T08:37:59.352535",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "vuln_discovery",
+        "items": [
+          {
+            "id": 8634,
+            "title": "勿被今夏AI炒作蒙蔽：Claude漏洞挖掘与模型被黑事件点评",
+            "original_title": "Don’t be fooled by this summer of AI hype",
+            "summary": "MIT技术评论发文批判近期AI炒作，涉及Anthropic称Claude Mythos漏洞挖掘能力超越专家，以及OpenAI、Meta等模型遭攻击事件。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "vuln_discovery",
+            "score_total": 67.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "对Claude Mythos等大模型在漏洞挖掘方向的炒作冷眼旁观，安全团队应理性评估其实战落地效果，而非盲目轻信厂商营销。",
+            "source_id": "mit-technology-review-ai",
+            "canonical_url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype",
+            "reader_url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T11:04:51",
+            "first_seen_at": "2026-09-22T12:50:37.895988",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "agent_architecture": {
+        "label": "agent_architecture",
+        "items": [
+          {
+            "id": 8379,
+            "title": "RAT：全自动环境配置 Agent 框架与评测基准",
+            "original_title": "RAT: RunAnyThing via Fully Automated Environment Configuration",
+            "summary": "本文提出全自动环境配置 Agent 框架 RAT，通过多阶段流水线实现任意代码仓库的跨语言自动化配置，并发布评测基准 RATBench，显著提升了环境配置成功率。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "agent_architecture",
+            "score_total": 75.4,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "自动化跑 PoC 和 Fuzzer 的最大痛点之一就是环境搭建，RAT 框架非常值得安全自动化团队借鉴，能直接集成进漏洞复现和安全测试 Agent 的工具链中。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2604.23190",
+            "reader_url": "https://arxiv.org/pdf/2604.23190",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T04:00:00",
+            "first_seen_at": "2026-09-22T08:36:41.252314",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 8352,
+            "title": "OpenSider：让本地 Agent 复用浏览器上下文的插件",
+            "original_title": "OpenSider：让浏览器驱动 Agent",
+            "summary": "OpenSider 是一个开源浏览器插件，通过 Chrome Native Messaging 将本地 CLI Agent 与浏览器连接，使 Agent 能直接复用用户的真实浏览器状态（如登录态）并执行网页自动化操作。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 67.6,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 Web 渗透或安全自动化时最头疼的就是 Agent 操控浏览器没法带登录态。OpenSider 把浏览器当客户端、本地 Agent 当执行器，让 Agent 直接复用真实浏览器上下文。做安全自动化的可以看看这套架构怎么抄。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7685651354878754825",
+            "reader_url": "https://juejin.cn/post/7685651354878754825",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-15T17:32:27",
+            "first_seen_at": "2026-09-22T06:53:42.859471",
+            "sub_category_label": "Agent 架构"
+          },
+          {
+            "id": 8372,
+            "title": "跨运行时的持久化Agent架构：保留身份、记忆与代码",
+            "original_title": "Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers",
+            "summary": "提出一种运行时独立的持久化代理架构，在跨主机、跨模型（如Codex到Claude）及跨交互界面迁移时，通过特定协议保持代理的身份、记忆和代码连续性。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 62.1,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做Agent安全的同学该看：Agent在跨模型和跨宿主迁移时如何保持身份与记忆的连续性，这直接关系到后续状态篡改、记忆投毒等安全边界的界定。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.00546",
+            "reader_url": "https://arxiv.org/pdf/2609.00546",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T04:00:00",
+            "first_seen_at": "2026-09-22T08:33:28.597623",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 8381,
+      "title": "Vibe Coding 安全性基准测试：Agent 生成代码漏洞分析",
+      "original_title": "Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks",
+      "summary": "本研究提出 SUSVIBES 基准，评估 AI Agent 生成的代码安全性，发现功能正确率虽高但安全合规率极低，常规安全提示无法有效缓解漏洞风险。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark",
+      "score_total": 88.7,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "AI 写代码已成趋势但其漏洞率令人担忧。安全团队需关注此基准，评估引入 AI 编程工具的潜在风险，不能仅看功能正确率而忽视安全评测。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2512.03262",
+      "reader_url": "https://arxiv.org/pdf/2512.03262",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-22T08:37:59.352535",
+      "sub_category_label": null
+    },
+    {
+      "id": 8379,
+      "title": "RAT：全自动环境配置 Agent 框架与评测基准",
+      "original_title": "RAT: RunAnyThing via Fully Automated Environment Configuration",
+      "summary": "本文提出全自动环境配置 Agent 框架 RAT，通过多阶段流水线实现任意代码仓库的跨语言自动化配置，并发布评测基准 RATBench，显著提升了环境配置成功率。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "agent_architecture",
+      "score_total": 75.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "自动化跑 PoC 和 Fuzzer 的最大痛点之一就是环境搭建，RAT 框架非常值得安全自动化团队借鉴，能直接集成进漏洞复现和安全测试 Agent 的工具链中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2604.23190",
+      "reader_url": "https://arxiv.org/pdf/2604.23190",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-22T08:36:41.252314",
+      "sub_category_label": null
+    },
+    {
+      "id": 8375,
+      "title": "基于NLP与RAG的安全需求持续合规系统",
+      "original_title": "From Backlog Items to Security Guidance: Towards Continuous Security Compliance",
+      "summary": "论文提出一种结合分类器与RAG的NLP系统，自动检测软件backlog中的安全相关项并链接至安全需求文档，以支持企业持续安全合规。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_compliance",
+      "score_total": 73.05,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该研究展示了RAG在DevSecOps早期安全需求识别中的落地效果，提供了新标注数据集和基线，适合研发安全合规自动化工具的团队参考借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.27374",
+      "reader_url": "https://arxiv.org/pdf/2607.27374",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-22T08:34:15.710278",
+      "sub_category_label": null
+    },
+    {
+      "id": 8372,
+      "title": "跨运行时的持久化Agent架构：保留身份、记忆与代码",
+      "original_title": "Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers",
+      "summary": "提出一种运行时独立的持久化代理架构，在跨主机、跨模型（如Codex到Claude）及跨交互界面迁移时，通过特定协议保持代理的身份、记忆和代码连续性。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 62.1,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做Agent安全的同学该看：Agent在跨模型和跨宿主迁移时如何保持身份与记忆的连续性，这直接关系到后续状态篡改、记忆投毒等安全边界的界定。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.00546",
+      "reader_url": "https://arxiv.org/pdf/2609.00546",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-22T08:33:28.597623",
+      "sub_category_label": "Agent 架构"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 22,
+    "highlight_count": 2,
+    "paper_count": 4,
+    "source_count": 7,
+    "top_score": 90,
+    "category_count": {
+      "AI for Sec": 17,
+      "AI Tech": 2,
+      "AI for Sec | Sec for AI": 2,
+      "AI Tech | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 1
+        },
+        "malware_detection": {
+          "label": "恶意软件与威胁检测",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 12
+        },
+        "security_compliance": {
+          "label": "security_compliance",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "vuln_discovery",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "agent_architecture": {
+          "label": "agent_architecture",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 2
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 17,
+      "top_score": 90,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 2,
+      "top_score": 68,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分的 SiftRank 值得重点看：它没让大模型自己找漏洞，而是让 LLM 只做函数排序这一件事，配合便宜小模型跑量，最终在真实固件上挖出了 CVE。建议漏洞团队别急着上全自动化 Agent，先把 LLM 嵌到现有流程的某个判断节点试效果。同时 Vibe Coding 基准的结果说明 AI 生成代码的安全合规率远低于功能正确率，安全团队应尽快把安全评测纳入 AI 编程工具的准入流程，别等出事再补。",
+  "method_note": "按北京时间 2026-09-22 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "blackhat-youtube",
+    "github-ai-security",
+    "juejin-trending-weekly",
+    "mit-technology-review-ai",
+    "wired-ai",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# Black Hat 2026：SiftRank 用 LLM 排序反编译函数挖掘二进制\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是 AI 正在同时加码攻防两端：一边是用 LLM 做受限排序就能在真实固件里挖出 RCE，另一边是 AI Agent 写的代码漏洞率高得离谱、甚至已经出现不需要人干预的 AI 驱动恶意软件。关键信号是不管攻击还是防御，真正能落地的都不是大而全的自主 Agent，而是把 LLM 卡在一个具体环节干活。\n- 01 二进制安全研究员和漏洞挖掘 Agent 开发者必看。它没把找漏洞全扔给大 Agent，而是用 LLM 做「受限的排序判断」，让便宜小模型在真实固件上挖出了 RCE，是 AI 辅助漏洞挖掘落地的好参考。\n- 02 AI 写代码已成趋势但其漏洞率令人担忧。安全团队需关注此基准，评估引入 AI 编程工具的潜在风险，不能仅看功能正确率而忽视安全评测。\n- 03 安全团队需警惕 AI 驱动的自动化攻击工具。该框架展示了检测这类新型威胁的方法，威胁狩猎和恶意软件分析人员值得借鉴其检测思路。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **Black Hat 2026：SiftRank 用 LLM 排序反编译函数挖掘二进制漏洞**：二进制安全研究员和漏洞挖掘 Agent 开发者必看。它没把找漏洞全扔给大 Agent，而是用 LLM 做「受限的排序判断」，让便宜小模型在真实固件上挖出了 RCE，是 AI 辅助漏洞挖掘落地的好参考。 来源：blackhat-youtube\n- **Vibe Coding 安全性基准测试：Agent 生成代码漏洞分析**：AI 写代码已成趋势但其漏洞率令人担忧。安全团队需关注此基准，评估引入 AI 编程工具的潜在风险，不能仅看功能正确率而忽视安全评测。 来源：arxiv-ai-security\n- **Cisco Talos 推出检测框架，发现无人类干预的 AI 引导恶意软件**：安全团队需警惕 AI 驱动的自动化攻击工具。该框架展示了检测这类新型威胁的方法，威胁狩猎和恶意软件分析人员值得借鉴其检测思路。 来源：wired-ai\n\n## 也值得关注\n- RAT：全自动环境配置 Agent 框架与评测基准（75.4）\n- 基于NLP与RAG的安全需求持续合规系统（73.05）\n- HackerOne 集成 Anthropic Claude Mythos 赋能防御者（71.39）\n- Vigolium v0.5.0 发布：专为 AI Agent 打造的 DAST 与 Fuzzing 工具（70.37）\n- 谷歌威胁情报报告：攻击者使用 AI 正从辅助走向自主编排（69.25）\n- SyzHarness：基于LLM生成Fuzzing Harness的内核漏洞复现框架（68.45）\n\n## AI for Sec\n\n### 漏洞挖掘\n- Black Hat 2026：SiftRank 用 LLM 排序反编译函数挖掘二进制漏洞（90.1）\n\n### 恶意软件与威胁检测\n- Cisco Talos 推出检测框架，发现无人类干预的 AI 引导恶意软件（79.45）\n\n### 安全Agent\n- Cloudflare 推出 AI 多阶段安全审计技能（73.95）\n- 阿里开源混合架构代码审查工具 open-code-review（73.7）\n- HackerOne 集成 Anthropic Claude Mythos 赋能防御者（71.39）\n- Vigolium v0.5.0 发布：专为 AI Agent 打造的 DAST 与 Fuzzing 工具（70.37）\n- 谷歌威胁情报报告：攻击者使用 AI 正从辅助走向自主编排（69.25）\n\n### security_compliance\n- 基于NLP与RAG的安全需求持续合规系统（73.05）\n\n### AI Fuzzing\n- SyzHarness：基于LLM生成Fuzzing Harness的内核漏洞复现框架（68.45）\n- StateLens：基于 LLM 引导插桩的 JS 引擎状态感知模糊测试（68.45）\n\n## AI Tech\n\n### Agent 架构\n- OpenSider：让本地 Agent 复用浏览器上下文的插件（67.6）\n- 跨运行时的持久化Agent架构：保留身份、记忆与代码（62.1）\n\n## 今日论文\n- Vibe Coding 安全性基准测试：Agent 生成代码漏洞分析\n- RAT：全自动环境配置 Agent 框架与评测基准\n- 基于NLP与RAG的安全需求持续合规系统\n- 跨运行时的持久化Agent架构：保留身份、记忆与代码\n\n## 今日观察\n最高分的 SiftRank 值得重点看：它没让大模型自己找漏洞，而是让 LLM 只做函数排序这一件事，配合便宜小模型跑量，最终在真实固件上挖出了 CVE。建议漏洞团队别急着上全自动化 Agent，先把 LLM 嵌到现有流程的某个判断节点试效果。同时 Vibe Coding 基准的结果说明 AI 生成代码的安全合规率远低于功能正确率，安全团队应尽快把安全评测纳入 AI 编程工具的准入流程，别等出事再补。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-09-22 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-23T00:01:38+08:00"
+}
