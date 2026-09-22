@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-22T11:48:25+08:00",
+  "updated_at": "2026-09-22T12:18:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 8154,
@@ -87,31 +87,6 @@
       },
       "published_at": "2026-09-21T16:07:34",
       "first_seen_at": "2026-09-21T19:01:29.059382",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 8097,
-      "title": "谷歌威胁情报报告：攻击者使用 AI 正从辅助走向自主编排",
-      "original_title": "From Prompting to Autonomy: How Threat Actors’ Use of AI Is Evolving  Read on dbugs: https://t.co/ZrCrSOuqr3  Google Threat Intelligence Group has released a new report (https://t.",
-      "summary": "GTIG 最新报告指出，威胁行为者正利用 AI Agent 实现从侦察到漏洞利用的全流程自动化，如 Recon 框架收集海量凭据及 AI 加速 N-day 漏洞利用开发。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防御团队和红队必看。GTIG 给出了攻击者利用 AI Agent 编排攻击和生成 N-day Exploit 的真实案例与时间线，这直接预示了未来自动化攻击的演进方向和防守压力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ptdbugs/status/2102064367164334528",
-      "reader_url": "https://x.com/ptdbugs/status/2102064367164334528",
-      "image_url": null,
-      "author": {
-        "username": "ptdbugs",
-        "name": "dbugs",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-21T15:56:14",
-      "first_seen_at": "2026-09-21T16:12:20.130905",
       "sub_category_label": "安全Agent"
     },
     {
