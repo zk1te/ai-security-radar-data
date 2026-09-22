@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-22T18:59:29+08:00",
+  "updated_at": "2026-09-22T20:29:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 8381,
@@ -63,26 +63,6 @@
       "published_at": "2026-09-22T04:00:00",
       "first_seen_at": "2026-09-22T08:36:41.252314",
       "sub_category_label": null
-    },
-    {
-      "id": 8225,
-      "title": "Cloudflare 推出 AI 多阶段安全审计技能",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare 开源了一个面向 coding-agent 的安全审计技能，支持多阶段审计，并能生成可独立验证、机器可读的安全发现结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全审计自动化实践者必看。该技能展示了如何让 AI Agent 输出可验证的结构化安全发现，直接解决 LLM 幻觉导致审计结果不可信的痛点，可借鉴其工作流设计。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-22&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-22&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-22T00:28:40.523795",
-      "first_seen_at": "2026-09-22T00:29:35.311687",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 8236,
