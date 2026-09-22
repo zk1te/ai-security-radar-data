@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T07:04:33+08:00",
+  "updated_at": "2026-09-23T07:34:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -100,31 +100,6 @@
       "sub_category_label": null
     },
     {
-      "id": 8608,
-      "title": "Aikido 发布开源网络安全 AI 模型 Altar-1",
-      "original_title": "🛡️ Aikido Security Unveils Altar-1 Open-Weight AI for Cybersecurity Defense  Details: https://t.co/tbJ2EfVfz1  Aikido Security has unveiled Altar-1, an open-weight artificial intel",
-      "summary": "Aikido Security 推出开源权重 AI 模型 Altar-1，专为在本地基础设施中执行漏洞发现与渗透测试等安全任务设计，满足金融、医疗等行业的数据隐私与隔离环境需求。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 66.32,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "对于有严格数据合规要求的甲方安全团队，这是一个可本地化部署的安全 AI 模型，能避免代码外泄风险。建议直接评估其在漏洞挖掘和渗透测试中的实际效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
-      "reader_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
-      "image_url": "https://pbs.twimg.com/media/HS0OKWcaUAAA1KS.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-09-22T11:00:34",
-      "first_seen_at": "2026-09-22T11:11:56.263700",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 8793,
       "title": "Anthropic 宣布支持对模型进行深度独立安全评估",
       "original_title": "As part of our efforts to pace the frontier, we’re committed to supporting independent assessments with deep levels of access across training, evaluation, and deployment.  That acc",
@@ -148,6 +123,31 @@
       "published_at": "2026-09-22T17:18:22",
       "first_seen_at": "2026-09-22T19:57:58.613134",
       "sub_category_label": null
+    },
+    {
+      "id": 8643,
+      "title": "EVA：自动化渗透测试的开源AI Agent",
+      "original_title": "EVA  ⭐ 528  EVA is an open-source AI agent that automates penetration testing tasks for security professionals.  🔗 https://t.co/HOvzDSTfaO  #opensource https://t.co/67rNXtdVyd",
+      "summary": "EVA 是一款开源 AI Agent，旨在帮助安全专业人员自动化执行渗透测试任务。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.71,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试人员应关注此开源工具，评估其自动化能力是否能提升日常渗透测试效率，可作为安全工作流集成的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gitrepos/status/2102382636899434978",
+      "reader_url": "https://x.com/gitrepos/status/2102382636899434978",
+      "image_url": "https://pbs.twimg.com/media/HS0p3fFWcAAvBmj.jpg",
+      "author": {
+        "username": "gitrepos",
+        "name": "Gitrepos",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T13:00:55",
+      "first_seen_at": "2026-09-22T13:22:49.428171",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
