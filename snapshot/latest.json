@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-22T16:58:51+08:00",
+  "updated_at": "2026-09-22T18:59:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 8381,
@@ -23,6 +23,26 @@
       "published_at": "2026-09-22T04:00:00",
       "first_seen_at": "2026-09-22T08:37:59.352535",
       "sub_category_label": null
+    },
+    {
+      "id": 8593,
+      "title": "Cisco Talos 推出检测框架，发现无人类干预的 AI 引导恶意软件",
+      "original_title": "A New Tool Found Malware That’s Guided by an AI Hive Mind—No Humans in Sight",
+      "summary": "Cisco Talos 研究人员开发了用于识别依赖 AI 聊天机器人的恶意软件与黑客工具的新框架，并借此发现了无需人类干预、由 AI 集体智能引导的异常恶意软件。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 79.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需警惕 AI 驱动的自动化攻击工具。该框架展示了检测这类新型威胁的方法，威胁狩猎和恶意软件分析人员值得借鉴其检测思路。",
+      "source_id": "wired-ai",
+      "canonical_url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+      "reader_url": "https://www.wired.com/story/a-tool-for-tracking-ai-integrated-malware-uncovered-an-autonomous-command-system",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T10:00:00",
+      "first_seen_at": "2026-09-22T10:48:34.470510",
+      "sub_category_label": "恶意软件与威胁检测"
     },
     {
       "id": 8379,
