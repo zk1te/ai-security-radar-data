@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-22T10:48:07+08:00",
+  "updated_at": "2026-09-22T11:18:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 7,
   "items": [
     {
       "id": 8154,
@@ -113,6 +113,56 @@
       "published_at": "2026-09-21T15:56:14",
       "first_seen_at": "2026-09-21T16:12:20.130905",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 8291,
+      "title": "SyzHarness：基于LLM生成Fuzzing Harness的内核漏洞复现框架",
+      "original_title": "SyzHarness: Patch-Based Kernel Bug Reproduction with LLM-Synthesized Fuzzing Harnesses: Automated kernel vulnerability reproduction is essential for bug triage, patch validation, a",
+      "summary": "SyzHarness 结合 LLM 和覆盖率引导模糊测试，自动合成参数化 Harness 复现 Linux 内核漏洞。在 KernelCTF 数据集上复现率达 78%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这篇论文展示了 LLM 与 Syzkaller 深度结合在内核漏洞复现上的落地效果，解决了纯 LLM 难以处理具体值和运行时非确定性的痛点，为安全团队进行 Bug Triage 和补丁验证提供了高复现率的新思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2102227549761753208",
+      "reader_url": "https://x.com/gastronomy/status/2102227549761753208",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T02:44:40",
+      "first_seen_at": "2026-09-22T03:04:31.057762",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 8290,
+      "title": "StateLens：基于 LLM 引导插桩的 JS 引擎状态感知模糊测试",
+      "original_title": "State-Aware Fuzzing of JavaScript Engines with LLM-Guided Instrumentation: The security of the modern web depends on the correctness of JavaScript (JS) engines, yet these complex s",
+      "summary": "提出 StateLens 框架，利用 LLM Agent 自动发现 JS 引擎深层内部状态并指导插桩，突破了传统模糊测试的覆盖率瓶颈，已发现 68 个新漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了 LLM 替代安全研究员直觉来指导 Fuzzer 插桩的新思路。做漏洞挖掘和二进制安全的人可以关注它如何通过 LLM 提取状态变量突破覆盖率瓶颈。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2102227568464187636",
+      "reader_url": "https://x.com/gastronomy/status/2102227568464187636",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T02:44:44",
+      "first_seen_at": "2026-09-22T03:04:27.837780",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
