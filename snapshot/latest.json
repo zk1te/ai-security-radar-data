@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-22T20:29:36+08:00",
+  "updated_at": "2026-09-22T20:59:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 4,
   "items": [
     {
       "id": 8381,
@@ -63,26 +63,6 @@
       "published_at": "2026-09-22T04:00:00",
       "first_seen_at": "2026-09-22T08:36:41.252314",
       "sub_category_label": null
-    },
-    {
-      "id": 8236,
-      "title": "阿里开源混合架构代码审查工具 open-code-review",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "阿里巴巴开源的代码审查工具，结合确定性管道与 LLM Agent，支持精确到行级的评论，内置包含 XSS 和 SQL 注入等安全规则的多语言规则集。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "该工具已在阿里大规模落地，其确定性管道加 LLM 的混合架构值得做代码审计与 SAST 的开发者参考。安全工程师可直接集成它辅助日常代码审查，提升发现注入及并发漏洞的效率。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-22&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-22&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-22T00:28:39.274595",
-      "first_seen_at": "2026-09-22T00:31:12.778872",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 8375,
