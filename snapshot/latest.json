@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-22T14:48:44+08:00",
+  "updated_at": "2026-09-22T15:18:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
   "items": [
-    {
-      "id": 8154,
-      "title": "Black Hat 2026：SiftRank 用 LLM 排序反编译函数挖掘二进制漏洞",
-      "original_title": "Black Hat USA 2026 | Applying Information Retrieval to Vulnerability Research",
-      "summary": "SiftRank 算法将二进制漏洞挖掘转化为信息检索任务，利用 LLM 对反编译函数进行多轮排序以筛选高危目标，在 BinPool 数据集上精度提升 2.26 倍，并成功发现 CVE-2026-41446。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 90.1,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "二进制安全研究员和漏洞挖掘 Agent 开发者必看。它没把找漏洞全扔给大 Agent，而是用 LLM 做「受限的排序判断」，让便宜小模型在真实固件上挖出了 RCE，是 AI 辅助漏洞挖掘落地的好参考。",
-      "source_id": "blackhat-youtube",
-      "canonical_url": "https://www.youtube.com/watch?v=1ADD60wyrbg",
-      "reader_url": "https://www.youtube.com/watch?v=1ADD60wyrbg",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-21T16:33:16",
-      "first_seen_at": "2026-09-21T18:49:35.659794",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 8225,
       "title": "Cloudflare 推出 AI 多阶段安全审计技能",
@@ -62,31 +42,6 @@
       "author": null,
       "published_at": "2026-09-22T00:28:39.274595",
       "first_seen_at": "2026-09-22T00:31:12.778872",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 8164,
-      "title": "HackerOne 集成 Anthropic Claude Mythos 赋能防御者",
-      "original_title": "And now Anthropic’s Claude Mythos will soon be available in select H1 Platform products.   We’re making frontier cyber AI models and the creativity and adversarial expertise of our",
-      "summary": "HackerOne 宣布将 Anthropic 的 Claude Mythos 模型引入 H1 平台，为防御者提供前沿网络安全 AI 能力，并承诺不使用机密漏洞数据训练模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.39,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做甲方安全和漏洞响应的应该看。Claude Mythos 落地顶级众测平台标志着 AI 辅助漏洞管理从概念走向产业流程，可关注其如何结合研究员社区数据赋能防御。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Hacker0x01/status/2102067219089822118",
-      "reader_url": "https://x.com/Hacker0x01/status/2102067219089822118",
-      "image_url": "https://pbs.twimg.com/media/HSwK-oCXQAEA1IH.jpg",
-      "author": {
-        "username": "Hacker0x01",
-        "name": "HackerOne",
-        "avatar_url": null,
-        "followers_count": 342779
-      },
-      "published_at": "2026-09-21T16:07:34",
-      "first_seen_at": "2026-09-21T19:01:29.059382",
       "sub_category_label": "安全Agent"
     },
     {
@@ -140,6 +95,26 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
+      "id": 8352,
+      "title": "OpenSider：让本地 Agent 复用浏览器上下文的插件",
+      "original_title": "OpenSider：让浏览器驱动 Agent",
+      "summary": "OpenSider 是一个开源浏览器插件，通过 Chrome Native Messaging 将本地 CLI Agent 与浏览器连接，使 Agent 能直接复用用户的真实浏览器状态（如登录态）并执行网页自动化操作。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 67.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 Web 渗透或安全自动化时最头疼的就是 Agent 操控浏览器没法带登录态。OpenSider 把浏览器当客户端、本地 Agent 当执行器，让 Agent 直接复用真实浏览器上下文。做安全自动化的可以看看这套架构怎么抄。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7685651354878754825",
+      "reader_url": "https://juejin.cn/post/7685651354878754825",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-15T17:32:27",
+      "first_seen_at": "2026-09-22T06:53:42.859471",
+      "sub_category_label": "Agent 架构"
+    },
+    {
       "id": 8301,
       "title": "SwarmAttacker：基于多智能体协作的AI自动化渗透测试系统",
       "original_title": "Here is something cool  from @Zjolou.  SwarmAttacker is basically an autonomous AI penetration-testing system: give it a URL and multiple specialised AI agents map the application,",
@@ -162,6 +137,31 @@
       },
       "published_at": "2026-09-22T03:30:24",
       "first_seen_at": "2026-09-22T03:38:47.725124",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 8339,
+      "title": "AI自主渗透测试Agent：多Agent协作集成20+安全工具",
+      "original_title": "3️⃣ ## Features  *** Fully Autonomous. AI-powered agent that automatically determines and executes penetration testing steps with optional execution monitoring and intelligent task",
+      "summary": "该AI驱动的渗透测试Agent支持全自主执行与多专家Agent协作，集成Neo4j知识图谱及20+内置安全工具（nmap、metasploit等），实现智能化渗透测试流程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 63.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "自动化渗透测试是AI for Sec的热门落地场景，该工具的多Agent分工与知识图谱集成值得参考，可作为评估AI安全Agent能力上限的实例。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/francescofaenzi/status/2102268679841099960",
+      "reader_url": "https://x.com/francescofaenzi/status/2102268679841099960",
+      "image_url": null,
+      "author": {
+        "username": "francescofaenzi",
+        "name": "francescofaenzi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T05:28:06",
+      "first_seen_at": "2026-09-22T05:57:05.283163",
       "sub_category_label": "安全Agent"
     }
   ]
