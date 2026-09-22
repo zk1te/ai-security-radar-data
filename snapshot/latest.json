@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-22T08:46:56+08:00",
+  "updated_at": "2026-09-22T10:48:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 8154,
@@ -112,31 +112,6 @@
       },
       "published_at": "2026-09-21T15:56:14",
       "first_seen_at": "2026-09-21T16:12:20.130905",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 8067,
-      "title": "termix与goplus推出安全Agent经济，按次付费扫描代币合约",
-      "original_title": "termix may have just found a much better starting point for the agent economy than generic ai labor.  security.  the newest live experiment is @termix_ai × goplus security.  a user",
-      "summary": "termix 与 goplus security 合作推出安全 Agent 服务，用户支付 19.9 美元即可自动审计代币合约，展示了安全需求作为 Agent 经济最佳起点的潜力及未来 Agent 间相互调用的防御架构。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 63.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全因其事件驱动、试错成本高的特性，正成为 AI Agent 经济的绝佳落地场景。防御侧和自动化交易开发者都该看，它描绘了未来交易 Agent 自动雇佣安全 Agent 进行前置审计的落地形态，提供了可参考的商业模式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/GpaAndy/status/2102042668557799490",
-      "reader_url": "https://x.com/GpaAndy/status/2102042668557799490",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2102030216893984768/img/iZdMfCTrGeRpw8js.jpg",
-      "author": {
-        "username": "GpaAndy",
-        "name": "Andy the Jet",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-21T14:30:00",
-      "first_seen_at": "2026-09-21T14:32:57.462076",
       "sub_category_label": "安全Agent"
     }
   ]
