@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T05:17:43+08:00",
+  "updated_at": "2026-09-24T05:47:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -53,6 +53,31 @@
       "published_at": "2026-09-23T17:16:17",
       "first_seen_at": "2026-09-23T17:45:11.050333",
       "sub_category_label": null
+    },
+    {
+      "id": 9537,
+      "title": "StateLens：LLM驱动状态感知Fuzzing挖出35个JS高危漏洞",
+      "original_title": "Most fuzzers miss the forest for the trees—catching new code paths but blind to the hidden state changes where security bugs lurk.  StateLens flips the script: it uses a GPT-5.1 ag",
+      "summary": "StateLens 利用 GPT-5.1 挖掘语义信息并生成针对性探测器，在六个 JS 引擎中发现 68 个未知漏洞（35个高危），开销低且零误报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 71.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "LLM 辅助 Fuzzing 新实战成果。通过 LLM 提取状态语义生成探测器，弥补传统覆盖引导盲区。能启发团队改进 Fuzzing harness，值得二进制安全团队跟进。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yesnoerror/status/2102866203970621494",
+      "reader_url": "https://x.com/yesnoerror/status/2102866203970621494",
+      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2102866181598105602/pu/img/iYz3qGbJy-ZPjRLG.jpg",
+      "author": {
+        "username": "yesnoerror",
+        "name": "yesnoerror",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T21:02:27",
+      "first_seen_at": "2026-09-23T21:34:44.245421",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 9521,
@@ -202,26 +227,6 @@
       "published_at": "2026-09-23T17:30:26",
       "first_seen_at": "2026-09-23T17:43:06.145077",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 9268,
-      "title": "多模型审议聚合优于独立投票，多样性是关键",
-      "original_title": "The Wisdom of Artificial Deliberative Crowds",
-      "summary": "论文将人类小群体三阶段审议范式适配到 LLM，跨视觉估计、论文评审、恶意 AI 行为检测、体育预测四域测试，发现审议后共识聚合与个体判断均优于被动平均，但需模型多样性，单一模型克隆组无收益。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 67.4,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全评测和威胁检测的团队该看：多模型审议可能比单模型 ensemble 更准，且 Study 3 直接测了恶意 agent 行为检测。启示是构建检测 pipeline 时混用异构模型并加审议环节，别只用同族克隆。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.22497",
-      "reader_url": "https://arxiv.org/pdf/2609.22497",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-23T04:00:00",
-      "first_seen_at": "2026-09-23T10:32:38.925729",
-      "sub_category_label": "模型评测"
     }
   ]
 }
