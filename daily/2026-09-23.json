@@ -1,0 +1,1420 @@
+{
+  "date": "2026-09-23",
+  "candidate_count": 21,
+  "selected_count": 3,
+  "cover_title": "BinaryScalpel：原生二进制编辑缺失的本地插入原语",
+  "lead_takeaway": "今天的核心主线是 AI 安全工具正在从能跑通走向能落地——BinaryScalpel 解决了二进制就地修改的实际痛点，AutoSQL 让大规模代码审计更可操作，但渗透测试 Agent 的保障属性框架提醒大家，授权边界和审计溯源才是真正卡住生产上线的门槛。",
+  "digest_points": [
+    "01 二进制分析和红队人员值得关注，该技术解决了 PE 文件插入修改的长期痛点，无需 trampoline 即可局部修改代码，防御方需警惕相关篡改特征的变化。",
+    "02 做自动化渗透 Agent 的团队必看。别光盯着打通靶机，授权越界和审计溯源才是能否上生产的命门，这篇把保障属性拆成了可测代码。",
+    "03 利用大模型 Agent 解决大规模代码库中的 SQL 模板提取与审计问题，为代码安全和性能审计提供了新思路，做代码审计的安全研究员可直接参考此思路。"
+  ],
+  "judgement": [
+    "01 二进制分析和红队人员值得关注，该技术解决了 PE 文件插入修改的长期痛点，无需 trampoline 即可局部修改代码，防御方需警惕相关篡改特征的变化。",
+    "02 做自动化渗透 Agent 的团队必看。别光盯着打通靶机，授权越界和审计溯源才是能否上生产的命门，这篇把保障属性拆成了可测代码。",
+    "03 利用大模型 Agent 解决大规模代码库中的 SQL 模板提取与审计问题，为代码安全和性能审计提供了新思路，做代码审计的安全研究员可直接参考此思路。"
+  ],
+  "top_items": [
+    {
+      "id": 8985,
+      "title": "BinaryScalpel：原生二进制编辑缺失的本地插入原语",
+      "original_title": "No More Trampolines: The Missing Insert Primitive for Native Binary Editing",
+      "summary": "BinaryScalpel 提出一种在 x64 PE 二进制文件中实现真正就地字节插入的技术，利用分段吸收算法解决地址和元数据同步问题，挑战了现有的 PE 篡改检测假设。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 87.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "二进制分析和红队人员值得关注，该技术解决了 PE 文件插入修改的长期痛点，无需 trampoline 即可局部修改代码，防御方需警惕相关篡改特征的变化。",
+      "source_id": "blackhat-public-sessions",
+      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#no-more-trampolines-the-missing-insert-primitive-for-native-binary-editing-55753",
+      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#no-more-trampolines-the-missing-insert-primitive-for-native-binary-editing-55753",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-09-23T06:36:45.827540",
+      "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 8565,
+      "title": "自主渗透测试 Agent 保障属性框架与参考实现",
+      "original_title": "From Capability to Assurance in Autonomous Penetration-Testing Harnesses: A Framework and Reference Implementation",
+      "summary": "提出自主渗透测试代理的五个保障属性框架（如授权范围、防篡改审计等），在现有系统中发现普遍缺口，并实测开源实现 NeuroSploit 找出真实执行漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做自动化渗透 Agent 的团队必看。别光盯着打通靶机，授权越界和审计溯源才是能否上生产的命门，这篇把保障属性拆成了可测代码。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.22664",
+      "reader_url": "https://arxiv.org/pdf/2609.22664",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-23T09:14:04.297004",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9055,
+      "title": "AutoSQL：利用 LLM Agent 从 Go ORM 代码中提取 SQL 模板",
+      "original_title": "AutoSQL: Extracting SQL Templates from Imperative ORM Code in Large-Scale Repositories",
+      "summary": "AutoSQL 提出了一种利用 LLM Agent 从 Go ORM 代码中重建并审计 SQL 模板的方法，通过构建代码索引和混合上下文检索策略，显著提升了 SQL 提取召回率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.05,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "利用大模型 Agent 解决大规模代码库中的 SQL 模板提取与审计问题，为代码安全和性能审计提供了新思路，做代码审计的安全研究员可直接参考此思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.15595",
+      "reader_url": "https://arxiv.org/pdf/2608.15595",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-23T04:00:00",
+      "first_seen_at": "2026-09-23T09:07:47.659494",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 8608,
+      "title": "Aikido 发布开源网络安全 AI 模型 Altar-1",
+      "original_title": "🛡️ Aikido Security Unveils Altar-1 Open-Weight AI for Cybersecurity Defense  Details: https://t.co/tbJ2EfVfz1  Aikido Security has unveiled Altar-1, an open-weight artificial intel",
+      "summary": "Aikido Security 推出开源权重 AI 模型 Altar-1，专为在本地基础设施中执行漏洞发现与渗透测试等安全任务设计，满足金融、医疗等行业的数据隐私与隔离环境需求。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.07,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对于有严格数据合规要求的甲方安全团队，这是一个可本地化部署的安全 AI 模型，能避免代码外泄风险。建议直接评估其在漏洞挖掘和渗透测试中的实际效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
+      "reader_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
+      "image_url": "https://pbs.twimg.com/media/HS0OKWcaUAAA1KS.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-09-22T11:00:34",
+      "first_seen_at": "2026-09-23T11:16:20.211431",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 8946,
+      "title": "研究员用 Claude Opus 5 辅助构建漏洞利用，攻破 OpenAI 论坛服务器",
+      "original_title": "RT @TheHackersNews: ‼️Claude Opus 5 helped three researchers build an image exploit that took over OpenAI's public help forum server.  A fl…",
+      "summary": "三名研究人员借助 Claude Opus 5 辅助构建了一个图像漏洞利用程序，成功接管了 OpenAI 的公共帮助论坛服务器，展示了大模型在实战漏洞挖掘中的潜力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.94,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员和红队人员应关注此案例，它直观展示了前沿大模型在实战漏洞挖掘与利用代码生成中的能力边界。可借此评估如何将类似 AI 工具引入日常的漏洞挖掘流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2102577557749248435",
+      "reader_url": "https://x.com/TheHackersNews/status/2102577557749248435",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-09-23T01:55:28",
+      "first_seen_at": "2026-09-23T04:50:12.366419",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 8841,
+      "title": "Cisco Talos 发布 CAIRN 开源工具追踪 AI 集成恶意软件",
+      "original_title": "CAIRN – A New Tool to Track AI Malware That Operates Without Human Control   Source: https://t.co/sjszUXwB4H  Cisco Talos has released CAIRN, an open-source toolkit designed to hun",
+      "summary": "Cisco Talos 开源 CAIRN 工具包，通过搜索提示模板、API 密钥前缀和编排逻辑等数字标记追踪 AI 恶意软件，并披露首个将战术 C2 决策委托给 AI 的 Windows 植入物 CLOSEDQUORUM。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "malware_detection",
+      "score_total": 70.41,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 恶意软件已进入将 C2 决策委托给模型的实战阶段。威胁狩猎团队应立即关注 CAIRN 的工件检测思路，将提示模板和编排逻辑纳入特征提取流程，提前应对自动化攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2102524339887223222",
+      "reader_url": "https://x.com/The_Cyber_News/status/2102524339887223222",
+      "image_url": "https://pbs.twimg.com/media/HS1mSIDbEAApmJO.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-09-22T22:24:00",
+      "first_seen_at": "2026-09-22T22:51:36.057213",
+      "sub_category_label": null
+    },
+    {
+      "id": 8491,
+      "title": "AI安全代理引发漏洞报告激增，Immunefi呼吁构建AI与人类混合分类系统",
+      "original_title": "AI security agents can dramatically increase the number of vulnerabilities researchers find. But more findings also means more reports for protocol teams to review, and without str",
+      "summary": "AI安全代理提升了漏洞发现量但也带来大量低质量报告，Immunefi正构建结合AI与资深专家的漏洞分类系统以解决信噪比问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.87,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘Agent必然引发报告爆炸，做AI for Sec不能只顾挖洞，Triage自动化是落地的下一道关卡。看Immunefi如何用AI解决信噪比和查重，对自研安全Agent有直接参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/immunefi/status/2102322771988803989",
+      "reader_url": "https://x.com/immunefi/status/2102322771988803989",
+      "image_url": "https://pbs.twimg.com/media/HSzzauba0AAPiBb.jpg",
+      "author": {
+        "username": "immunefi",
+        "name": "Immunefi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T09:03:02",
+      "first_seen_at": "2026-09-23T11:16:20.211431",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 8470,
+      "title": "用变异分析度量 GPU 内核基准测试的判定器质量",
+      "original_title": "Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles",
+      "summary": "本文提出用变异分析作为 KernelBench 等基准测试判定器（oracle）的充分性度量指标，向 188 个已验证 CUDA 实现注入 10303 个可编译故障，发现官方判定器确定性遗漏 16.9% 的有见证故障，精度类故障遗漏率高达 78.6%，并发布了 KernelBench-M 数据集。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和 benchmark 的同学该看：判定器不可靠意味着榜单和 RL 奖励都在沙上建塔。本文的变异分析方法可直接迁移到安全 benchmark 的 oracle 评估，帮你量化自家评测集到底漏检了多少。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.22220",
+      "reader_url": "https://arxiv.org/pdf/2609.22220",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-23T09:14:04.297004",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 9369,
+      "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
+      "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
+      "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+      "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+      "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
+      "author": {
+        "username": "TheWhizzAI",
+        "name": "The Whizz AI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T14:00:08",
+      "first_seen_at": "2026-09-23T14:22:08.544156",
+      "sub_category_label": null
+    },
+    {
+      "id": 8914,
+      "title": "Rouxii 框架：具备反欺骗能力的 AI 渗透测试者可反向利用蜜罐",
+      "original_title": "Rouxii: Exploiting Honeypots with Deception-Aware AI Pentesters: Honeypots are designed to deceive attackers, and recent work shows they can also derail autonomous LLM-based pentes",
+      "summary": "研究提出 Rouxii 框架，通过赋予 AI 渗透测试者反欺骗能力，将蜜罐识别率提升至 97%，并展示如何反向利用蜜罐发起拒绝服务或污染其情报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和防御方都该看。研究证明 AI 攻击者不仅能识破蜜罐，还能反手利用蜜罐漏洞，给蓝队的欺骗防御敲了警钟，评估 AI 攻击者时需考虑其推理利用能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2102582366979916091",
+      "reader_url": "https://x.com/gastronomy/status/2102582366979916091",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T02:14:35",
+      "first_seen_at": "2026-09-23T02:37:53.843971",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 8985,
+        "title": "BinaryScalpel：原生二进制编辑缺失的本地插入原语",
+        "original_title": "No More Trampolines: The Missing Insert Primitive for Native Binary Editing",
+        "summary": "BinaryScalpel 提出一种在 x64 PE 二进制文件中实现真正就地字节插入的技术，利用分段吸收算法解决地址和元数据同步问题，挑战了现有的 PE 篡改检测假设。",
+        "primary_category": "AI for Sec",
+        "sub_category": "binary_security",
+        "score_total": 87.95,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "二进制分析和红队人员值得关注，该技术解决了 PE 文件插入修改的长期痛点，无需 trampoline 即可局部修改代码，防御方需警惕相关篡改特征的变化。",
+        "source_id": "blackhat-public-sessions",
+        "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#no-more-trampolines-the-missing-insert-primitive-for-native-binary-editing-55753",
+        "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#no-more-trampolines-the-missing-insert-primitive-for-native-binary-editing-55753",
+        "image_url": null,
+        "author": null,
+        "published_at": null,
+        "first_seen_at": "2026-09-23T06:36:45.827540",
+        "sub_category_label": "二进制安全"
+      },
+      {
+        "id": 8565,
+        "title": "自主渗透测试 Agent 保障属性框架与参考实现",
+        "original_title": "From Capability to Assurance in Autonomous Penetration-Testing Harnesses: A Framework and Reference Implementation",
+        "summary": "提出自主渗透测试代理的五个保障属性框架（如授权范围、防篡改审计等），在现有系统中发现普遍缺口，并实测开源实现 NeuroSploit 找出真实执行漏洞。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 83.35,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做自动化渗透 Agent 的团队必看。别光盯着打通靶机，授权越界和审计溯源才是能否上生产的命门，这篇把保障属性拆成了可测代码。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.22664",
+        "reader_url": "https://arxiv.org/pdf/2609.22664",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T04:00:00",
+        "first_seen_at": "2026-09-23T09:14:04.297004",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 9055,
+        "title": "AutoSQL：利用 LLM Agent 从 Go ORM 代码中提取 SQL 模板",
+        "original_title": "AutoSQL: Extracting SQL Templates from Imperative ORM Code in Large-Scale Repositories",
+        "summary": "AutoSQL 提出了一种利用 LLM Agent 从 Go ORM 代码中重建并审计 SQL 模板的方法，通过构建代码索引和混合上下文检索策略，显著提升了 SQL 提取召回率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 78.05,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "利用大模型 Agent 解决大规模代码库中的 SQL 模板提取与审计问题，为代码安全和性能审计提供了新思路，做代码审计的安全研究员可直接参考此思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2608.15595",
+        "reader_url": "https://arxiv.org/pdf/2608.15595",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T04:00:00",
+        "first_seen_at": "2026-09-23T09:07:47.659494",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 8886,
+        "title": "Cloudflare开源安全审计Agent技能",
+        "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+        "summary": "Cloudflare开源多阶段安全审计 coding-agent 技能，产出可独立验证且机器可读的审计结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 73.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "该工具让AI代码审计结果可验证、机器可读，直击大模型做安全审计的幻觉痛点。做代码安全审计和研发安全Agent的团队值得直接集成或借鉴其设计思路。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-23&since=weekly",
+        "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-23&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T00:47:48.054829",
+        "first_seen_at": "2026-09-23T00:48:26.601770",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 8608,
+        "title": "Aikido 发布开源网络安全 AI 模型 Altar-1",
+        "original_title": "🛡️ Aikido Security Unveils Altar-1 Open-Weight AI for Cybersecurity Defense  Details: https://t.co/tbJ2EfVfz1  Aikido Security has unveiled Altar-1, an open-weight artificial intel",
+        "summary": "Aikido Security 推出开源权重 AI 模型 Altar-1，专为在本地基础设施中执行漏洞发现与渗透测试等安全任务设计，满足金融、医疗等行业的数据隐私与隔离环境需求。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 73.07,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "对于有严格数据合规要求的甲方安全团队，这是一个可本地化部署的安全 AI 模型，能避免代码外泄风险。建议直接评估其在漏洞挖掘和渗透测试中的实际效果。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
+        "reader_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
+        "image_url": "https://pbs.twimg.com/media/HS0OKWcaUAAA1KS.jpg",
+        "author": {
+          "username": "The_Cyber_News",
+          "name": "Cyber Security News",
+          "avatar_url": null,
+          "followers_count": 73656
+        },
+        "published_at": "2026-09-22T11:00:34",
+        "first_seen_at": "2026-09-23T11:16:20.211431",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 8946,
+        "title": "研究员用 Claude Opus 5 辅助构建漏洞利用，攻破 OpenAI 论坛服务器",
+        "original_title": "RT @TheHackersNews: ‼️Claude Opus 5 helped three researchers build an image exploit that took over OpenAI's public help forum server.  A fl…",
+        "summary": "三名研究人员借助 Claude Opus 5 辅助构建了一个图像漏洞利用程序，成功接管了 OpenAI 的公共帮助论坛服务器，展示了大模型在实战漏洞挖掘中的潜力。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 72.94,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全研究员和红队人员应关注此案例，它直观展示了前沿大模型在实战漏洞挖掘与利用代码生成中的能力边界。可借此评估如何将类似 AI 工具引入日常的漏洞挖掘流程。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/TheHackersNews/status/2102577557749248435",
+        "reader_url": "https://x.com/TheHackersNews/status/2102577557749248435",
+        "image_url": null,
+        "author": {
+          "username": "TheHackersNews",
+          "name": "The Hacker News",
+          "avatar_url": null,
+          "followers_count": 2351119
+        },
+        "published_at": "2026-09-23T01:55:28",
+        "first_seen_at": "2026-09-23T04:50:12.366419",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 8491,
+        "title": "AI安全代理引发漏洞报告激增，Immunefi呼吁构建AI与人类混合分类系统",
+        "original_title": "AI security agents can dramatically increase the number of vulnerabilities researchers find. But more findings also means more reports for protocol teams to review, and without str",
+        "summary": "AI安全代理提升了漏洞发现量但也带来大量低质量报告，Immunefi正构建结合AI与资深专家的漏洞分类系统以解决信噪比问题。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 69.87,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "漏洞挖掘Agent必然引发报告爆炸，做AI for Sec不能只顾挖洞，Triage自动化是落地的下一道关卡。看Immunefi如何用AI解决信噪比和查重，对自研安全Agent有直接参考。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/immunefi/status/2102322771988803989",
+        "reader_url": "https://x.com/immunefi/status/2102322771988803989",
+        "image_url": "https://pbs.twimg.com/media/HSzzauba0AAPiBb.jpg",
+        "author": {
+          "username": "immunefi",
+          "name": "Immunefi",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-22T09:03:02",
+        "first_seen_at": "2026-09-23T11:16:20.211431",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 8896,
+        "title": "阿里开源 AI 代码审查工具，内置 XSS/SQLi 安全规则",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+        "summary": "阿里巴巴 open-code-review 采用确定性流水线加 LLM Agent 混合架构，提供行级评论，内置 NPE、线程安全、XSS、SQL 注入等多语言安全规则。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 69.7,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "采用「规则+LLM」混合架构的代码审查工具，兼顾确定性和灵活推理，适合安全团队用作代码审计 pipeline 或自研参考。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-23&since=weekly",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-23&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T00:47:46.969907",
+        "first_seen_at": "2026-09-23T00:49:30.027629",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 8470,
+        "title": "用变异分析度量 GPU 内核基准测试的判定器质量",
+        "original_title": "Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles",
+        "summary": "本文提出用变异分析作为 KernelBench 等基准测试判定器（oracle）的充分性度量指标，向 188 个已验证 CUDA 实现注入 10303 个可编译故障，发现官方判定器确定性遗漏 16.9% 的有见证故障，精度类故障遗漏率高达 78.6%，并发布了 KernelBench-M 数据集。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 68.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做安全评测和 benchmark 的同学该看：判定器不可靠意味着榜单和 RL 奖励都在沙上建塔。本文的变异分析方法可直接迁移到安全 benchmark 的 oracle 评估，帮你量化自家评测集到底漏检了多少。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.22220",
+        "reader_url": "https://arxiv.org/pdf/2609.22220",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T04:00:00",
+        "first_seen_at": "2026-09-23T09:14:04.297004",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 9268,
+        "title": "多模型审议聚合优于独立投票，多样性是关键",
+        "original_title": "The Wisdom of Artificial Deliberative Crowds",
+        "summary": "论文将人类小群体三阶段审议范式适配到 LLM，跨视觉估计、论文评审、恶意 AI 行为检测、体育预测四域测试，发现审议后共识聚合与个体判断均优于被动平均，但需模型多样性，单一模型克隆组无收益。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 67.4,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做安全评测和威胁检测的团队该看：多模型审议可能比单模型 ensemble 更准，且 Study 3 直接测了恶意 agent 行为检测。启示是构建检测 pipeline 时混用异构模型并加审议环节，别只用同族克隆。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.22497",
+        "reader_url": "https://arxiv.org/pdf/2609.22497",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T04:00:00",
+        "first_seen_at": "2026-09-23T10:32:38.925729",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 9058,
+        "title": "VeriSoftBench：首个面向 Lean 的仓库级软件形式化验证基准",
+        "original_title": "VeriSoftBench: Repository-Scale Formal Verification Benchmarks for Lean",
+        "summary": "论文提出 VeriSoftBench，包含 500 个 Lean 4 证明义务，专用于评估 LLM 在真实代码仓库中的软件形式化验证能力，发现针对数学库优化的证明器在此场景表现不佳，且依赖复杂度显著影响成功率。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 66.65,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做高保证软件和形式化验证的安全团队可关注。此基准揭示了当前 LLM 在跨文件依赖的真实代码库中证明能力依然薄弱，若想用 LLM 辅助验证安全属性，需谨慎评估上下文构建策略。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2602.18307",
+        "reader_url": "https://arxiv.org/pdf/2602.18307",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T04:00:00",
+        "first_seen_at": "2026-09-23T09:09:13.395353",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 8769,
+        "title": "HN 热议 OpenAI 发布 GPT-6 Sol 与 Luna",
+        "original_title": "HN Hot Discussion: GPT-6 Sol and Luna",
+        "summary": "Hacker News 热门讨论了 OpenAI 最新发布的 GPT-6 Sol 和 Luna 模型，引发社区广泛关注。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_release",
+        "score_total": 65.5,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "GPT 系列重大更新将直接影响 AI 辅助代码审计和漏洞挖掘的基线能力，安全团队需尽早测试其在自动化安全任务中的表现与边界。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=49805509&hn_hot_date=2026-09-22",
+        "reader_url": "https://news.ycombinator.com/item?id=49805509&hn_hot_date=2026-09-22",
+        "image_url": null,
+        "author": {
+          "username": "OfficialTurkey",
+          "name": "OfficialTurkey",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-22T18:00:34",
+        "first_seen_at": "2026-09-22T18:45:21.145588",
+        "sub_category_label": "模型发布"
+      },
+      {
+        "id": 9215,
+        "title": "PhysAI-Bench：评估无人机自主决策的 LLM Agent 基准",
+        "original_title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+        "summary": "PhysAI-Bench 提出包含 10,178 个决策实例的基准测试，评估大模型在无人机动态环境下的 Agent 决策能力，结果显示最先进模型准确率仅约 52%。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 64.2,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "关注 Agent 安全和决策可靠性的团队值得一读。该基准揭示了当前 LLM 在复杂物理环境下的决策局限性及 MCP 工具调用表现，是评估高风险场景下 Agent 可靠性的重要参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.23695",
+        "reader_url": "https://arxiv.org/pdf/2609.23695",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T04:00:00",
+        "first_seen_at": "2026-09-23T10:09:33.231121",
+        "sub_category_label": "模型评测"
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 8841,
+        "title": "Cisco Talos 发布 CAIRN 开源工具追踪 AI 集成恶意软件",
+        "original_title": "CAIRN – A New Tool to Track AI Malware That Operates Without Human Control   Source: https://t.co/sjszUXwB4H  Cisco Talos has released CAIRN, an open-source toolkit designed to hun",
+        "summary": "Cisco Talos 开源 CAIRN 工具包，通过搜索提示模板、API 密钥前缀和编排逻辑等数字标记追踪 AI 恶意软件，并披露首个将战术 C2 决策委托给 AI 的 Windows 植入物 CLOSEDQUORUM。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "malware_detection",
+        "score_total": 70.41,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "AI 恶意软件已进入将 C2 决策委托给模型的实战阶段。威胁狩猎团队应立即关注 CAIRN 的工件检测思路，将提示模板和编排逻辑纳入特征提取流程，提前应对自动化攻击。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/The_Cyber_News/status/2102524339887223222",
+        "reader_url": "https://x.com/The_Cyber_News/status/2102524339887223222",
+        "image_url": "https://pbs.twimg.com/media/HS1mSIDbEAApmJO.jpg",
+        "author": {
+          "username": "The_Cyber_News",
+          "name": "Cyber Security News",
+          "avatar_url": null,
+          "followers_count": 73656
+        },
+        "published_at": "2026-09-22T22:24:00",
+        "first_seen_at": "2026-09-22T22:51:36.057213",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 9369,
+        "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
+        "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
+        "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security | security_agent",
+        "score_total": 68.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+        "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+        "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
+        "author": {
+          "username": "TheWhizzAI",
+          "name": "The Whizz AI",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-23T14:00:08",
+        "first_seen_at": "2026-09-23T14:22:08.544156",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 8793,
+        "title": "Anthropic 宣布支持对模型进行深度独立安全评估",
+        "original_title": "As part of our efforts to pace the frontier, we’re committed to supporting independent assessments with deep levels of access across training, evaluation, and deployment.  That acc",
+        "summary": "Anthropic 发文称将支持对模型训练、评估和部署环节进行深度独立评估，以发现潜在风险并检验防护措施有效性。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 66.25,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "前沿模型厂商开放第三方深度评估是趋势，做 AI 红队或模型安全的团队应关注其评估原则与方向，作为后续开展测评的参考。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/OpenAI/status/2102447425243828347",
+        "reader_url": "https://x.com/OpenAI/status/2102447425243828347",
+        "image_url": null,
+        "author": {
+          "username": "OpenAI",
+          "name": "OpenAI",
+          "avatar_url": null,
+          "followers_count": 5355398
+        },
+        "published_at": "2026-09-22T17:18:22",
+        "first_seen_at": "2026-09-22T19:57:58.613134",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 9310,
+        "title": "代码智能MCP服务器爆火，支持毫秒级代码库索引",
+        "original_title": "GitHub Trending: DeusData/codebase-memory-mcp gained 201 stars today",
+        "summary": "DeusData/codebase-memory-mcp 项目在 GitHub 获得关注，可将代码库索引为持久化知识图谱，支持 158 种语言和毫秒级查询，为 AI 提供低 Token 消耗的代码上下文。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "agent_architecture",
+        "score_total": 64.51,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做 AI 代码审计或漏洞挖掘 Agent 的兄弟可以关注下，它能把全库代码索引成知识图谱供模型查询，大幅降低上下文 Token 消耗，是安全 Agent 理想的知识增强组件。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/DeusData/codebase-memory-mcp?github_trending_date=2026-09-23&since=daily",
+        "reader_url": "https://github.com/DeusData/codebase-memory-mcp?github_trending_date=2026-09-23&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T11:32:05.257236",
+        "first_seen_at": "2026-09-23T11:33:07.834569",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "binary_security": {
+        "label": "二进制安全",
+        "items": [
+          {
+            "id": 8985,
+            "title": "BinaryScalpel：原生二进制编辑缺失的本地插入原语",
+            "original_title": "No More Trampolines: The Missing Insert Primitive for Native Binary Editing",
+            "summary": "BinaryScalpel 提出一种在 x64 PE 二进制文件中实现真正就地字节插入的技术，利用分段吸收算法解决地址和元数据同步问题，挑战了现有的 PE 篡改检测假设。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 87.95,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "二进制分析和红队人员值得关注，该技术解决了 PE 文件插入修改的长期痛点，无需 trampoline 即可局部修改代码，防御方需警惕相关篡改特征的变化。",
+            "source_id": "blackhat-public-sessions",
+            "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#no-more-trampolines-the-missing-insert-primitive-for-native-binary-editing-55753",
+            "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#no-more-trampolines-the-missing-insert-primitive-for-native-binary-editing-55753",
+            "image_url": null,
+            "author": null,
+            "published_at": null,
+            "first_seen_at": "2026-09-23T06:36:45.827540",
+            "sub_category_label": "二进制安全"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 8565,
+            "title": "自主渗透测试 Agent 保障属性框架与参考实现",
+            "original_title": "From Capability to Assurance in Autonomous Penetration-Testing Harnesses: A Framework and Reference Implementation",
+            "summary": "提出自主渗透测试代理的五个保障属性框架（如授权范围、防篡改审计等），在现有系统中发现普遍缺口，并实测开源实现 NeuroSploit 找出真实执行漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 83.35,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做自动化渗透 Agent 的团队必看。别光盯着打通靶机，授权越界和审计溯源才是能否上生产的命门，这篇把保障属性拆成了可测代码。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.22664",
+            "reader_url": "https://arxiv.org/pdf/2609.22664",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T04:00:00",
+            "first_seen_at": "2026-09-23T09:14:04.297004",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8886,
+            "title": "Cloudflare开源安全审计Agent技能",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+            "summary": "Cloudflare开源多阶段安全审计 coding-agent 技能，产出可独立验证且机器可读的审计结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 73.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "该工具让AI代码审计结果可验证、机器可读，直击大模型做安全审计的幻觉痛点。做代码安全审计和研发安全Agent的团队值得直接集成或借鉴其设计思路。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-23&since=weekly",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-23&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T00:47:48.054829",
+            "first_seen_at": "2026-09-23T00:48:26.601770",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8491,
+            "title": "AI安全代理引发漏洞报告激增，Immunefi呼吁构建AI与人类混合分类系统",
+            "original_title": "AI security agents can dramatically increase the number of vulnerabilities researchers find. But more findings also means more reports for protocol teams to review, and without str",
+            "summary": "AI安全代理提升了漏洞发现量但也带来大量低质量报告，Immunefi正构建结合AI与资深专家的漏洞分类系统以解决信噪比问题。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.87,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "漏洞挖掘Agent必然引发报告爆炸，做AI for Sec不能只顾挖洞，Triage自动化是落地的下一道关卡。看Immunefi如何用AI解决信噪比和查重，对自研安全Agent有直接参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/immunefi/status/2102322771988803989",
+            "reader_url": "https://x.com/immunefi/status/2102322771988803989",
+            "image_url": "https://pbs.twimg.com/media/HSzzauba0AAPiBb.jpg",
+            "author": {
+              "username": "immunefi",
+              "name": "Immunefi",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-22T09:03:02",
+            "first_seen_at": "2026-09-23T11:16:20.211431",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8896,
+            "title": "阿里开源 AI 代码审查工具，内置 XSS/SQLi 安全规则",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "阿里巴巴 open-code-review 采用确定性流水线加 LLM Agent 混合架构，提供行级评论，内置 NPE、线程安全、XSS、SQL 注入等多语言安全规则。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.7,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "采用「规则+LLM」混合架构的代码审查工具，兼顾确定性和灵活推理，适合安全团队用作代码审计 pipeline 或自研参考。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-23&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-23&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T00:47:46.969907",
+            "first_seen_at": "2026-09-23T00:49:30.027629",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8914,
+            "title": "Rouxii 框架：具备反欺骗能力的 AI 渗透测试者可反向利用蜜罐",
+            "original_title": "Rouxii: Exploiting Honeypots with Deception-Aware AI Pentesters: Honeypots are designed to deceive attackers, and recent work shows they can also derail autonomous LLM-based pentes",
+            "summary": "研究提出 Rouxii 框架，通过赋予 AI 渗透测试者反欺骗能力，将蜜罐识别率提升至 97%，并展示如何反向利用蜜罐发起拒绝服务或污染其情报。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "红队和防御方都该看。研究证明 AI 攻击者不仅能识破蜜罐，还能反手利用蜜罐漏洞，给蓝队的欺骗防御敲了警钟，评估 AI 攻击者时需考虑其推理利用能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/gastronomy/status/2102582366979916091",
+            "reader_url": "https://x.com/gastronomy/status/2102582366979916091",
+            "image_url": null,
+            "author": {
+              "username": "gastronomy",
+              "name": "Tanat Tonguthaisri",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T02:14:35",
+            "first_seen_at": "2026-09-23T02:37:53.843971",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 8579,
+            "title": "红队专家测试Jev模型在攻防中的低成本潜力",
+            "original_title": "RT @_xpn_: Playing around with Jev to see how it performs with offsec. Its speed and insane low cost certainly opens up novel concepts, lik…",
+            "summary": "知名安全研究员 _xpn_ 测试 Jev 模型在攻防安全场景下的表现，认为其高速度与极低成本为自动化安全任务带来了新可能。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 65.31,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "攻防从业者可关注此类低成本、高并发模型在自动化安全任务中的落地潜力，探索更经济的红队测试方案。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/pentest_swissky/status/2102310516030939429",
+            "reader_url": "https://x.com/pentest_swissky/status/2102310516030939429",
+            "image_url": null,
+            "author": {
+              "username": "pentest_swissky",
+              "name": "Swissky",
+              "avatar_url": null,
+              "followers_count": 23028
+            },
+            "published_at": "2026-09-22T08:14:20",
+            "first_seen_at": "2026-09-23T11:16:20.211431",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 9055,
+            "title": "AutoSQL：利用 LLM Agent 从 Go ORM 代码中提取 SQL 模板",
+            "original_title": "AutoSQL: Extracting SQL Templates from Imperative ORM Code in Large-Scale Repositories",
+            "summary": "AutoSQL 提出了一种利用 LLM Agent 从 Go ORM 代码中重建并审计 SQL 模板的方法，通过构建代码索引和混合上下文检索策略，显著提升了 SQL 提取召回率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 78.05,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "利用大模型 Agent 解决大规模代码库中的 SQL 模板提取与审计问题，为代码安全和性能审计提供了新思路，做代码审计的安全研究员可直接参考此思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2608.15595",
+            "reader_url": "https://arxiv.org/pdf/2608.15595",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T04:00:00",
+            "first_seen_at": "2026-09-23T09:07:47.659494",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 8608,
+            "title": "Aikido 发布开源网络安全 AI 模型 Altar-1",
+            "original_title": "🛡️ Aikido Security Unveils Altar-1 Open-Weight AI for Cybersecurity Defense  Details: https://t.co/tbJ2EfVfz1  Aikido Security has unveiled Altar-1, an open-weight artificial intel",
+            "summary": "Aikido Security 推出开源权重 AI 模型 Altar-1，专为在本地基础设施中执行漏洞发现与渗透测试等安全任务设计，满足金融、医疗等行业的数据隐私与隔离环境需求。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.07,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "对于有严格数据合规要求的甲方安全团队，这是一个可本地化部署的安全 AI 模型，能避免代码外泄风险。建议直接评估其在漏洞挖掘和渗透测试中的实际效果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
+            "reader_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
+            "image_url": "https://pbs.twimg.com/media/HS0OKWcaUAAA1KS.jpg",
+            "author": {
+              "username": "The_Cyber_News",
+              "name": "Cyber Security News",
+              "avatar_url": null,
+              "followers_count": 73656
+            },
+            "published_at": "2026-09-22T11:00:34",
+            "first_seen_at": "2026-09-23T11:16:20.211431",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 8946,
+            "title": "研究员用 Claude Opus 5 辅助构建漏洞利用，攻破 OpenAI 论坛服务器",
+            "original_title": "RT @TheHackersNews: ‼️Claude Opus 5 helped three researchers build an image exploit that took over OpenAI's public help forum server.  A fl…",
+            "summary": "三名研究人员借助 Claude Opus 5 辅助构建了一个图像漏洞利用程序，成功接管了 OpenAI 的公共帮助论坛服务器，展示了大模型在实战漏洞挖掘中的潜力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 72.94,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全研究员和红队人员应关注此案例，它直观展示了前沿大模型在实战漏洞挖掘与利用代码生成中的能力边界。可借此评估如何将类似 AI 工具引入日常的漏洞挖掘流程。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2102577557749248435",
+            "reader_url": "https://x.com/TheHackersNews/status/2102577557749248435",
+            "image_url": null,
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-09-23T01:55:28",
+            "first_seen_at": "2026-09-23T04:50:12.366419",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 9338,
+            "title": "AI辅助差分模糊测试在WAMR中发现真实漏洞，但误判仍需人工甄别",
+            "original_title": "Our AI-assisted differential fuzzing found a real bug in WAMR (now fixed).  Our takeaway: AI was great at building the harness, shrinking test cases, & tracing code, yet it also co",
+            "summary": "使用AI辅助差分模糊测试在WAMR中发现并修复了一个真实漏洞，AI在构建harness、缩减测试用例和代码追踪方面表现出色，但会将正常行为误判为漏洞，仍需人工判断。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 66.96,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做AI Fuzzing的人都该看——这条直接点出了AI辅助fuzzing的真实能力边界：harness搭建和用例缩减可以放手交给AI，但bug判定仍不能全自动。对正在搭安全Agent流水线的团队，误报过滤是必须解决的关键环节。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/rv_inc/status/2102735907468018033",
+            "reader_url": "https://x.com/rv_inc/status/2102735907468018033",
+            "image_url": null,
+            "author": {
+              "username": "rv_inc",
+              "name": "Runtime Vеrification",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T12:24:41",
+            "first_seen_at": "2026-09-23T12:40:54.352098",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 9353,
+            "title": "XRanges for AI：545名黑客先行测试的安全Agent评分平台",
+            "original_title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent: Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. ",
+            "summary": "XRanges for AI 是一个用于评估自主安全Agent漏洞挖掘能力的评分系统，已有545名黑客参与先行测试，旨在解决「安全Agent越来越强但无人能有效衡量其水平」的问题。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 66.51,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全Agent或用Agent做漏洞挖掘的团队都该关注——没有靠谱的评测体系，就无法判断自己Agent的真实水平和改进方向。先看它的测试方法论和评分维度能否直接套用到自己的pipeline里。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/shah_sheikh/status/2102739645071245459",
+            "reader_url": "https://x.com/shah_sheikh/status/2102739645071245459",
+            "image_url": "https://pbs.twimg.com/media/HS5ukI4b0AAhSMe.png",
+            "author": {
+              "username": "shah_sheikh",
+              "name": "Shah Sheikh",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T12:39:33",
+            "first_seen_at": "2026-09-23T13:14:20.407865",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "malware_detection": {
+        "label": "malware_detection",
+        "items": [
+          {
+            "id": 8841,
+            "title": "Cisco Talos 发布 CAIRN 开源工具追踪 AI 集成恶意软件",
+            "original_title": "CAIRN – A New Tool to Track AI Malware That Operates Without Human Control   Source: https://t.co/sjszUXwB4H  Cisco Talos has released CAIRN, an open-source toolkit designed to hun",
+            "summary": "Cisco Talos 开源 CAIRN 工具包，通过搜索提示模板、API 密钥前缀和编排逻辑等数字标记追踪 AI 恶意软件，并披露首个将战术 C2 决策委托给 AI 的 Windows 植入物 CLOSEDQUORUM。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "malware_detection",
+            "score_total": 70.41,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI 恶意软件已进入将 C2 决策委托给模型的实战阶段。威胁狩猎团队应立即关注 CAIRN 的工件检测思路，将提示模板和编排逻辑纳入特征提取流程，提前应对自动化攻击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/The_Cyber_News/status/2102524339887223222",
+            "reader_url": "https://x.com/The_Cyber_News/status/2102524339887223222",
+            "image_url": "https://pbs.twimg.com/media/HS1mSIDbEAApmJO.jpg",
+            "author": {
+              "username": "The_Cyber_News",
+              "name": "Cyber Security News",
+              "avatar_url": null,
+              "followers_count": 73656
+            },
+            "published_at": "2026-09-22T22:24:00",
+            "first_seen_at": "2026-09-22T22:51:36.057213",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 8470,
+            "title": "用变异分析度量 GPU 内核基准测试的判定器质量",
+            "original_title": "Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles",
+            "summary": "本文提出用变异分析作为 KernelBench 等基准测试判定器（oracle）的充分性度量指标，向 188 个已验证 CUDA 实现注入 10303 个可编译故障，发现官方判定器确定性遗漏 16.9% 的有见证故障，精度类故障遗漏率高达 78.6%，并发布了 KernelBench-M 数据集。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 68.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做安全评测和 benchmark 的同学该看：判定器不可靠意味着榜单和 RL 奖励都在沙上建塔。本文的变异分析方法可直接迁移到安全 benchmark 的 oracle 评估，帮你量化自家评测集到底漏检了多少。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.22220",
+            "reader_url": "https://arxiv.org/pdf/2609.22220",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T04:00:00",
+            "first_seen_at": "2026-09-23T09:14:04.297004",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 9268,
+            "title": "多模型审议聚合优于独立投票，多样性是关键",
+            "original_title": "The Wisdom of Artificial Deliberative Crowds",
+            "summary": "论文将人类小群体三阶段审议范式适配到 LLM，跨视觉估计、论文评审、恶意 AI 行为检测、体育预测四域测试，发现审议后共识聚合与个体判断均优于被动平均，但需模型多样性，单一模型克隆组无收益。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 67.4,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做安全评测和威胁检测的团队该看：多模型审议可能比单模型 ensemble 更准，且 Study 3 直接测了恶意 agent 行为检测。启示是构建检测 pipeline 时混用异构模型并加审议环节，别只用同族克隆。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.22497",
+            "reader_url": "https://arxiv.org/pdf/2609.22497",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T04:00:00",
+            "first_seen_at": "2026-09-23T10:32:38.925729",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 9058,
+            "title": "VeriSoftBench：首个面向 Lean 的仓库级软件形式化验证基准",
+            "original_title": "VeriSoftBench: Repository-Scale Formal Verification Benchmarks for Lean",
+            "summary": "论文提出 VeriSoftBench，包含 500 个 Lean 4 证明义务，专用于评估 LLM 在真实代码仓库中的软件形式化验证能力，发现针对数学库优化的证明器在此场景表现不佳，且依赖复杂度显著影响成功率。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 66.65,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做高保证软件和形式化验证的安全团队可关注。此基准揭示了当前 LLM 在跨文件依赖的真实代码库中证明能力依然薄弱，若想用 LLM 辅助验证安全属性，需谨慎评估上下文构建策略。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2602.18307",
+            "reader_url": "https://arxiv.org/pdf/2602.18307",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T04:00:00",
+            "first_seen_at": "2026-09-23T09:09:13.395353",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 9215,
+            "title": "PhysAI-Bench：评估无人机自主决策的 LLM Agent 基准",
+            "original_title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+            "summary": "PhysAI-Bench 提出包含 10,178 个决策实例的基准测试，评估大模型在无人机动态环境下的 Agent 决策能力，结果显示最先进模型准确率仅约 52%。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 64.2,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "关注 Agent 安全和决策可靠性的团队值得一读。该基准揭示了当前 LLM 在复杂物理环境下的决策局限性及 MCP 工具调用表现，是评估高风险场景下 Agent 可靠性的重要参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.23695",
+            "reader_url": "https://arxiv.org/pdf/2609.23695",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T04:00:00",
+            "first_seen_at": "2026-09-23T10:09:33.231121",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      },
+      "model_release": {
+        "label": "模型发布",
+        "items": [
+          {
+            "id": 8769,
+            "title": "HN 热议 OpenAI 发布 GPT-6 Sol 与 Luna",
+            "original_title": "HN Hot Discussion: GPT-6 Sol and Luna",
+            "summary": "Hacker News 热门讨论了 OpenAI 最新发布的 GPT-6 Sol 和 Luna 模型，引发社区广泛关注。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_release",
+            "score_total": 65.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "GPT 系列重大更新将直接影响 AI 辅助代码审计和漏洞挖掘的基线能力，安全团队需尽早测试其在自动化安全任务中的表现与边界。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=49805509&hn_hot_date=2026-09-22",
+            "reader_url": "https://news.ycombinator.com/item?id=49805509&hn_hot_date=2026-09-22",
+            "image_url": null,
+            "author": {
+              "username": "OfficialTurkey",
+              "name": "OfficialTurkey",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-22T18:00:34",
+            "first_seen_at": "2026-09-22T18:45:21.145588",
+            "sub_category_label": "模型发布"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security | security_agent": {
+        "label": "agent_security | security_agent",
+        "items": [
+          {
+            "id": 9369,
+            "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
+            "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
+            "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security | security_agent",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+            "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+            "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
+            "author": {
+              "username": "TheWhizzAI",
+              "name": "The Whizz AI",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T14:00:08",
+            "first_seen_at": "2026-09-23T14:22:08.544156",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 8793,
+            "title": "Anthropic 宣布支持对模型进行深度独立安全评估",
+            "original_title": "As part of our efforts to pace the frontier, we’re committed to supporting independent assessments with deep levels of access across training, evaluation, and deployment.  That acc",
+            "summary": "Anthropic 发文称将支持对模型训练、评估和部署环节进行深度独立评估，以发现潜在风险并检验防护措施有效性。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 66.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "前沿模型厂商开放第三方深度评估是趋势，做 AI 红队或模型安全的团队应关注其评估原则与方向，作为后续开展测评的参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/OpenAI/status/2102447425243828347",
+            "reader_url": "https://x.com/OpenAI/status/2102447425243828347",
+            "image_url": null,
+            "author": {
+              "username": "OpenAI",
+              "name": "OpenAI",
+              "avatar_url": null,
+              "followers_count": 5355398
+            },
+            "published_at": "2026-09-22T17:18:22",
+            "first_seen_at": "2026-09-22T19:57:58.613134",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "agent_architecture": {
+        "label": "agent_architecture",
+        "items": [
+          {
+            "id": 9310,
+            "title": "代码智能MCP服务器爆火，支持毫秒级代码库索引",
+            "original_title": "GitHub Trending: DeusData/codebase-memory-mcp gained 201 stars today",
+            "summary": "DeusData/codebase-memory-mcp 项目在 GitHub 获得关注，可将代码库索引为持久化知识图谱，支持 158 种语言和毫秒级查询，为 AI 提供低 Token 消耗的代码上下文。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "agent_architecture",
+            "score_total": 64.51,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 AI 代码审计或漏洞挖掘 Agent 的兄弟可以关注下，它能把全库代码索引成知识图谱供模型查询，大幅降低上下文 Token 消耗，是安全 Agent 理想的知识增强组件。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/DeusData/codebase-memory-mcp?github_trending_date=2026-09-23&since=daily",
+            "reader_url": "https://github.com/DeusData/codebase-memory-mcp?github_trending_date=2026-09-23&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T11:32:05.257236",
+            "first_seen_at": "2026-09-23T11:33:07.834569",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 8565,
+      "title": "自主渗透测试 Agent 保障属性框架与参考实现",
+      "original_title": "From Capability to Assurance in Autonomous Penetration-Testing Harnesses: A Framework and Reference Implementation",
+      "summary": "提出自主渗透测试代理的五个保障属性框架（如授权范围、防篡改审计等），在现有系统中发现普遍缺口，并实测开源实现 NeuroSploit 找出真实执行漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做自动化渗透 Agent 的团队必看。别光盯着打通靶机，授权越界和审计溯源才是能否上生产的命门，这篇把保障属性拆成了可测代码。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.22664",
+      "reader_url": "https://arxiv.org/pdf/2609.22664",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-23T09:14:04.297004",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9055,
+      "title": "AutoSQL：利用 LLM Agent 从 Go ORM 代码中提取 SQL 模板",
+      "original_title": "AutoSQL: Extracting SQL Templates from Imperative ORM Code in Large-Scale Repositories",
+      "summary": "AutoSQL 提出了一种利用 LLM Agent 从 Go ORM 代码中重建并审计 SQL 模板的方法，通过构建代码索引和混合上下文检索策略，显著提升了 SQL 提取召回率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.05,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "利用大模型 Agent 解决大规模代码库中的 SQL 模板提取与审计问题，为代码安全和性能审计提供了新思路，做代码审计的安全研究员可直接参考此思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.15595",
+      "reader_url": "https://arxiv.org/pdf/2608.15595",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-23T04:00:00",
+      "first_seen_at": "2026-09-23T09:07:47.659494",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 8470,
+      "title": "用变异分析度量 GPU 内核基准测试的判定器质量",
+      "original_title": "Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles",
+      "summary": "本文提出用变异分析作为 KernelBench 等基准测试判定器（oracle）的充分性度量指标，向 188 个已验证 CUDA 实现注入 10303 个可编译故障，发现官方判定器确定性遗漏 16.9% 的有见证故障，精度类故障遗漏率高达 78.6%，并发布了 KernelBench-M 数据集。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和 benchmark 的同学该看：判定器不可靠意味着榜单和 RL 奖励都在沙上建塔。本文的变异分析方法可直接迁移到安全 benchmark 的 oracle 评估，帮你量化自家评测集到底漏检了多少。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.22220",
+      "reader_url": "https://arxiv.org/pdf/2609.22220",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-23T09:14:04.297004",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 9268,
+      "title": "多模型审议聚合优于独立投票，多样性是关键",
+      "original_title": "The Wisdom of Artificial Deliberative Crowds",
+      "summary": "论文将人类小群体三阶段审议范式适配到 LLM，跨视觉估计、论文评审、恶意 AI 行为检测、体育预测四域测试，发现审议后共识聚合与个体判断均优于被动平均，但需模型多样性，单一模型克隆组无收益。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 67.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和威胁检测的团队该看：多模型审议可能比单模型 ensemble 更准，且 Study 3 直接测了恶意 agent 行为检测。启示是构建检测 pipeline 时混用异构模型并加审议环节，别只用同族克隆。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.22497",
+      "reader_url": "https://arxiv.org/pdf/2609.22497",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-23T04:00:00",
+      "first_seen_at": "2026-09-23T10:32:38.925729",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 9058,
+      "title": "VeriSoftBench：首个面向 Lean 的仓库级软件形式化验证基准",
+      "original_title": "VeriSoftBench: Repository-Scale Formal Verification Benchmarks for Lean",
+      "summary": "论文提出 VeriSoftBench，包含 500 个 Lean 4 证明义务，专用于评估 LLM 在真实代码仓库中的软件形式化验证能力，发现针对数学库优化的证明器在此场景表现不佳，且依赖复杂度显著影响成功率。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 66.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做高保证软件和形式化验证的安全团队可关注。此基准揭示了当前 LLM 在跨文件依赖的真实代码库中证明能力依然薄弱，若想用 LLM 辅助验证安全属性，需谨慎评估上下文构建策略。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2602.18307",
+      "reader_url": "https://arxiv.org/pdf/2602.18307",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-23T04:00:00",
+      "first_seen_at": "2026-09-23T09:09:13.395353",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 9215,
+      "title": "PhysAI-Bench：评估无人机自主决策的 LLM Agent 基准",
+      "original_title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+      "summary": "PhysAI-Bench 提出包含 10,178 个决策实例的基准测试，评估大模型在无人机动态环境下的 Agent 决策能力，结果显示最先进模型准确率仅约 52%。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 64.2,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "关注 Agent 安全和决策可靠性的团队值得一读。该基准揭示了当前 LLM 在复杂物理环境下的决策局限性及 MCP 工具调用表现，是评估高风险场景下 Agent 可靠性的重要参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.23695",
+      "reader_url": "https://arxiv.org/pdf/2609.23695",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-23T04:00:00",
+      "first_seen_at": "2026-09-23T10:09:33.231121",
+      "sub_category_label": "模型评测"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 21,
+    "highlight_count": 2,
+    "paper_count": 6,
+    "source_count": 5,
+    "top_score": 88,
+    "category_count": {
+      "AI for Sec": 12,
+      "AI Tech": 5,
+      "AI for Sec | Sec for AI": 1,
+      "Sec for AI | AI for Sec": 1,
+      "Sec for AI | AI Tech": 1,
+      "AI Tech | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "binary_security": {
+          "label": "二进制安全",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 6
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 3
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 1
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "malware_detection": {
+          "label": "malware_detection",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 4
+        },
+        "model_release": {
+          "label": "模型发布",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security | security_agent": {
+          "label": "agent_security | security_agent",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "agent_architecture": {
+          "label": "agent_architecture",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 12,
+      "top_score": 88,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 5,
+      "top_score": 69,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "得分最高的 BinaryScalpel 打破了 PE 篡改检测的既有假设，无需 trampoline 就能局部插入代码，防御方需要重新审视现有检测规则是否还管用。同时建议团队在推进自动化渗透 Agent 时，先对照保障属性框架做一轮自查，尤其是授权范围控制和审计防篡改这两个点，实际实现中缺口最普遍。",
+  "method_note": "按北京时间 2026-09-23 的系统入库窗口筛选，从 21 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "blackhat-public-sessions",
+    "github-ai-security",
+    "hn-ai-tech",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# BinaryScalpel：原生二进制编辑缺失的本地插入原语\n\n顶部图：未生成\n\n## 今日概览\n- 今天的核心主线是 AI 安全工具正在从能跑通走向能落地——BinaryScalpel 解决了二进制就地修改的实际痛点，AutoSQL 让大规模代码审计更可操作，但渗透测试 Agent 的保障属性框架提醒大家，授权边界和审计溯源才是真正卡住生产上线的门槛。\n- 01 二进制分析和红队人员值得关注，该技术解决了 PE 文件插入修改的长期痛点，无需 trampoline 即可局部修改代码，防御方需警惕相关篡改特征的变化。\n- 02 做自动化渗透 Agent 的团队必看。别光盯着打通靶机，授权越界和审计溯源才是能否上生产的命门，这篇把保障属性拆成了可测代码。\n- 03 利用大模型 Agent 解决大规模代码库中的 SQL 模板提取与审计问题，为代码安全和性能审计提供了新思路，做代码审计的安全研究员可直接参考此思路。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **BinaryScalpel：原生二进制编辑缺失的本地插入原语**：二进制分析和红队人员值得关注，该技术解决了 PE 文件插入修改的长期痛点，无需 trampoline 即可局部修改代码，防御方需警惕相关篡改特征的变化。 来源：blackhat-public-sessions\n- **自主渗透测试 Agent 保障属性框架与参考实现**：做自动化渗透 Agent 的团队必看。别光盯着打通靶机，授权越界和审计溯源才是能否上生产的命门，这篇把保障属性拆成了可测代码。 来源：arxiv-ai-security\n- **AutoSQL：利用 LLM Agent 从 Go ORM 代码中提取 SQL 模板**：利用大模型 Agent 解决大规模代码库中的 SQL 模板提取与审计问题，为代码安全和性能审计提供了新思路，做代码审计的安全研究员可直接参考此思路。 来源：arxiv-ai-security\n\n## 也值得关注\n- Aikido 发布开源网络安全 AI 模型 Altar-1（73.07）\n- 研究员用 Claude Opus 5 辅助构建漏洞利用，攻破 OpenAI 论坛服务器（72.94）\n- Cisco Talos 发布 CAIRN 开源工具追踪 AI 集成恶意软件（70.41）\n- AI安全代理引发漏洞报告激增，Immunefi呼吁构建AI与人类混合分类系统（69.87）\n- 用变异分析度量 GPU 内核基准测试的判定器质量（68.9）\n- Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击（68.45）\n\n## AI for Sec\n\n### 二进制安全\n- BinaryScalpel：原生二进制编辑缺失的本地插入原语（87.95）\n\n### 安全Agent\n- 自主渗透测试 Agent 保障属性框架与参考实现（83.35）\n- Cloudflare开源安全审计Agent技能（73.45）\n- AI安全代理引发漏洞报告激增，Immunefi呼吁构建AI与人类混合分类系统（69.87）\n- 阿里开源 AI 代码审查工具，内置 XSS/SQLi 安全规则（69.7）\n- Rouxii 框架：具备反欺骗能力的 AI 渗透测试者可反向利用蜜罐（68.45）\n\n### 漏洞挖掘\n- AutoSQL：利用 LLM Agent 从 Go ORM 代码中提取 SQL 模板（78.05）\n- Aikido 发布开源网络安全 AI 模型 Altar-1（73.07）\n- 研究员用 Claude Opus 5 辅助构建漏洞利用，攻破 OpenAI 论坛服务器（72.94）\n\n### AI Fuzzing\n- AI辅助差分模糊测试在WAMR中发现真实漏洞，但误判仍需人工甄别（66.96）\n\n### 安全评测与Benchmark\n- XRanges for AI：545名黑客先行测试的安全Agent评分平台（66.51）\n\n## AI Tech\n\n### 模型评测\n- 用变异分析度量 GPU 内核基准测试的判定器质量（68.9）\n- 多模型审议聚合优于独立投票，多样性是关键（67.4）\n- VeriSoftBench：首个面向 Lean 的仓库级软件形式化验证基准（66.65）\n- PhysAI-Bench：评估无人机自主决策的 LLM Agent 基准（64.2）\n\n### 模型发布\n- HN 热议 OpenAI 发布 GPT-6 Sol 与 Luna（65.5）\n\n## 今日论文\n- 自主渗透测试 Agent 保障属性框架与参考实现\n- AutoSQL：利用 LLM Agent 从 Go ORM 代码中提取 SQL 模板\n- 用变异分析度量 GPU 内核基准测试的判定器质量\n- 多模型审议聚合优于独立投票，多样性是关键\n- VeriSoftBench：首个面向 Lean 的仓库级软件形式化验证基准\n- PhysAI-Bench：评估无人机自主决策的 LLM Agent 基准\n\n## 今日观察\n得分最高的 BinaryScalpel 打破了 PE 篡改检测的既有假设，无需 trampoline 就能局部插入代码，防御方需要重新审视现有检测规则是否还管用。同时建议团队在推进自动化渗透 Agent 时，先对照保障属性框架做一轮自查，尤其是授权范围控制和审计防篡改这两个点，实际实现中缺口最普遍。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-09-23 的系统入库窗口筛选，从 21 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-24T00:01:48+08:00"
+}
