@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23T07:34:37+08:00",
+  "updated_at": "2026-09-23T08:04:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 8841,
@@ -123,31 +123,6 @@
       "published_at": "2026-09-22T17:18:22",
       "first_seen_at": "2026-09-22T19:57:58.613134",
       "sub_category_label": null
-    },
-    {
-      "id": 8643,
-      "title": "EVA：自动化渗透测试的开源AI Agent",
-      "original_title": "EVA  ⭐ 528  EVA is an open-source AI agent that automates penetration testing tasks for security professionals.  🔗 https://t.co/HOvzDSTfaO  #opensource https://t.co/67rNXtdVyd",
-      "summary": "EVA 是一款开源 AI Agent，旨在帮助安全专业人员自动化执行渗透测试任务。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.71,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试人员应关注此开源工具，评估其自动化能力是否能提升日常渗透测试效率，可作为安全工作流集成的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/gitrepos/status/2102382636899434978",
-      "reader_url": "https://x.com/gitrepos/status/2102382636899434978",
-      "image_url": "https://pbs.twimg.com/media/HS0p3fFWcAAvBmj.jpg",
-      "author": {
-        "username": "gitrepos",
-        "name": "Gitrepos",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-22T13:00:55",
-      "first_seen_at": "2026-09-22T13:22:49.428171",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
