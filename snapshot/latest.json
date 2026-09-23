@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T00:17:03+08:00",
+  "updated_at": "2026-09-24T01:17:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -87,31 +87,6 @@
       },
       "published_at": "2026-09-22T11:00:34",
       "first_seen_at": "2026-09-23T11:16:20.211431",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 8946,
-      "title": "研究员用 Claude Opus 5 辅助构建漏洞利用，攻破 OpenAI 论坛服务器",
-      "original_title": "RT @TheHackersNews: ‼️Claude Opus 5 helped three researchers build an image exploit that took over OpenAI's public help forum server.  A fl…",
-      "summary": "三名研究人员借助 Claude Opus 5 辅助构建了一个图像漏洞利用程序，成功接管了 OpenAI 的公共帮助论坛服务器，展示了大模型在实战漏洞挖掘中的潜力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.94,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全研究员和红队人员应关注此案例，它直观展示了前沿大模型在实战漏洞挖掘与利用代码生成中的能力边界。可借此评估如何将类似 AI 工具引入日常的漏洞挖掘流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2102577557749248435",
-      "reader_url": "https://x.com/TheHackersNews/status/2102577557749248435",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-09-23T01:55:28",
-      "first_seen_at": "2026-09-23T04:50:12.366419",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -208,6 +183,26 @@
       "published_at": "2026-09-23T14:00:08",
       "first_seen_at": "2026-09-23T14:22:08.544156",
       "sub_category_label": null
+    },
+    {
+      "id": 9268,
+      "title": "多模型审议聚合优于独立投票，多样性是关键",
+      "original_title": "The Wisdom of Artificial Deliberative Crowds",
+      "summary": "论文将人类小群体三阶段审议范式适配到 LLM，跨视觉估计、论文评审、恶意 AI 行为检测、体育预测四域测试，发现审议后共识聚合与个体判断均优于被动平均，但需模型多样性，单一模型克隆组无收益。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 67.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和威胁检测的团队该看：多模型审议可能比单模型 ensemble 更准，且 Study 3 直接测了恶意 agent 行为检测。启示是构建检测 pipeline 时混用异构模型并加审议环节，别只用同族克隆。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.22497",
+      "reader_url": "https://arxiv.org/pdf/2609.22497",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-23T04:00:00",
+      "first_seen_at": "2026-09-23T10:32:38.925729",
+      "sub_category_label": "模型评测"
     }
   ]
 }
