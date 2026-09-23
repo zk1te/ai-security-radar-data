@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-24T01:47:11+08:00",
+  "updated_at": "2026-09-24T02:47:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 8985,
-      "title": "BinaryScalpel：原生二进制编辑缺失的本地插入原语",
-      "original_title": "No More Trampolines: The Missing Insert Primitive for Native Binary Editing",
-      "summary": "BinaryScalpel 提出一种在 x64 PE 二进制文件中实现真正就地字节插入的技术，利用分段吸收算法解决地址和元数据同步问题，挑战了现有的 PE 篡改检测假设。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 87.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "二进制分析和红队人员值得关注，该技术解决了 PE 文件插入修改的长期痛点，无需 trampoline 即可局部修改代码，防御方需警惕相关篡改特征的变化。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#no-more-trampolines-the-missing-insert-primitive-for-native-binary-editing-55753",
-      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#no-more-trampolines-the-missing-insert-primitive-for-native-binary-editing-55753",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-09-23T06:36:45.827540",
-      "sub_category_label": "二进制安全"
-    },
     {
       "id": 8565,
       "title": "自主渗透测试 Agent 保障属性框架与参考实现",
@@ -208,6 +188,31 @@
       "published_at": "2026-09-23T17:29:56",
       "first_seen_at": "2026-09-23T17:43:26.231832",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 9369,
+      "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
+      "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
+      "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+      "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+      "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
+      "author": {
+        "username": "TheWhizzAI",
+        "name": "The Whizz AI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T14:00:08",
+      "first_seen_at": "2026-09-23T14:22:08.544156",
+      "sub_category_label": null
     }
   ]
 }
