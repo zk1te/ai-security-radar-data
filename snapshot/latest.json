@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T02:47:16+08:00",
+  "updated_at": "2026-09-24T04:47:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -95,6 +95,30 @@
       "sub_category_label": null
     },
     {
+      "id": 9521,
+      "title": "HN 热议：支持 AI 调试的 Windows 崩溃分析工具 ForensicDbg",
+      "original_title": "HN Hot Discussion: Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
+      "summary": "ForensicDbg 是一款 Windows 原生崩溃事后调试器，通过提供结构化数据和 MCP 服务器支持 AI 智能体自动化调试，旨在减少大模型幻觉并节省 token。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 71.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做二进制安全或漏洞挖掘的兄弟看过来，这个工具直接内置 MCP server 接入 AI Agent，把崩溃现场数据结构化喂给大模型，省 token 又防幻觉，是 AI 辅助逆向和调试的实用落地案例。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
+      "reader_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
+      "image_url": null,
+      "author": {
+        "username": "Loren_SL",
+        "name": "Loren_SL",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-23T19:15:55",
+      "first_seen_at": "2026-09-23T20:24:51.066332",
+      "sub_category_label": "二进制安全"
+    },
+    {
       "id": 8491,
       "title": "AI安全代理引发漏洞报告激增，Immunefi呼吁构建AI与人类混合分类系统",
       "original_title": "AI security agents can dramatically increase the number of vulnerabilities researchers find. But more findings also means more reports for protocol teams to review, and without str",
@@ -188,31 +212,6 @@
       "published_at": "2026-09-23T17:29:56",
       "first_seen_at": "2026-09-23T17:43:26.231832",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 9369,
-      "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
-      "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
-      "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
-      "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
-      "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
-      "author": {
-        "username": "TheWhizzAI",
-        "name": "The Whizz AI",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-23T14:00:08",
-      "first_seen_at": "2026-09-23T14:22:08.544156",
-      "sub_category_label": null
     }
   ]
 }
