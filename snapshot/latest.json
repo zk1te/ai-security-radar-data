@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T01:17:11+08:00",
+  "updated_at": "2026-09-24T01:47:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -90,6 +90,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 9460,
+      "title": "顶级AI模型沙箱逃逸测试：发现网络策略漏洞并跨服务链式利用",
+      "original_title": "We put all the best models in our home-grown sandbox infra (SPACE, the sandbox behind @perplexity_ai  Computer), gave them root inside the VM, and one goal: hack out of the sandbox",
+      "summary": "Perplexity 团队在自研沙箱中测试多个顶级模型逃逸能力，GPT-56 等模型发现基于 CDN 共享 IP 的网络策略绕过漏洞，并链式调用第三方服务成功拿 Flag。团队同时开源了安全 Agent harness Numbat。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent | agent_security",
+      "score_total": 72.41,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI Agent 挖掘真实基础设施漏洞的惊人能力，跨服务调用拿 Flag 的手法值得沙箱设计者深思。做 AI 红队和 Agent 安全的人必看，开源 harness 可直接参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/kpolley/status/2102809287386915160",
+      "reader_url": "https://x.com/kpolley/status/2102809287386915160",
+      "image_url": null,
+      "author": {
+        "username": "kpolley",
+        "name": "Kyle Polley",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T17:16:17",
+      "first_seen_at": "2026-09-23T17:45:11.050333",
+      "sub_category_label": null
+    },
+    {
       "id": 8491,
       "title": "AI安全代理引发漏洞报告激增，Immunefi呼吁构建AI与人类混合分类系统",
       "original_title": "AI security agents can dramatically increase the number of vulnerabilities researchers find. But more findings also means more reports for protocol teams to review, and without str",
@@ -160,49 +185,29 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 9369,
-      "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
-      "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
-      "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_agent",
+      "id": 9452,
+      "title": "DARPA AIxCC 实践：LLM 结合传统 Fuzzing 挖掘深层漏洞",
+      "original_title": "#### **Facts, Figures, & Examples:**  * **The AI Cyber Challenge (AIxCC) Proof:**  The winning teams in DARPA's AIxCC (which awarded millions in prizes) did not rely on standard LL",
+      "summary": "DARPA AIxCC 获胜团队表明，将 LLM 与 AFL++ 等传统 Fuzzing 引擎结合生成 harness 是最有效的漏洞挖掘范式，而非依赖纯 LLM 提示词；带执行反馈的管道能达到 80% 以上的利用编译成功率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
       "score_total": 68.45,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
+      "recommendation_reason": "给做 AI 漏洞挖掘的工程师敲黑板：别只拿大模型跑零-shot 审计，把 LLM 嵌入传统 Fuzzing 工具链生成 harness、加上执行反馈循环才是出真实漏洞的正道。且小模型低成本方案完全可行，无需迷信昂贵闭源模型。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
-      "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
-      "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
+      "canonical_url": "https://x.com/francescofaenzi/status/2102812723507867963",
+      "reader_url": "https://x.com/francescofaenzi/status/2102812723507867963",
+      "image_url": null,
       "author": {
-        "username": "TheWhizzAI",
-        "name": "The Whizz AI",
+        "username": "francescofaenzi",
+        "name": "francescofaenzi",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-09-23T14:00:08",
-      "first_seen_at": "2026-09-23T14:22:08.544156",
-      "sub_category_label": null
-    },
-    {
-      "id": 9268,
-      "title": "多模型审议聚合优于独立投票，多样性是关键",
-      "original_title": "The Wisdom of Artificial Deliberative Crowds",
-      "summary": "论文将人类小群体三阶段审议范式适配到 LLM，跨视觉估计、论文评审、恶意 AI 行为检测、体育预测四域测试，发现审议后共识聚合与个体判断均优于被动平均，但需模型多样性，单一模型克隆组无收益。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 67.4,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全评测和威胁检测的团队该看：多模型审议可能比单模型 ensemble 更准，且 Study 3 直接测了恶意 agent 行为检测。启示是构建检测 pipeline 时混用异构模型并加审议环节，别只用同族克隆。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.22497",
-      "reader_url": "https://arxiv.org/pdf/2609.22497",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-23T04:00:00",
-      "first_seen_at": "2026-09-23T10:32:38.925729",
-      "sub_category_label": "模型评测"
+      "published_at": "2026-09-23T17:29:56",
+      "first_seen_at": "2026-09-23T17:43:26.231832",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
