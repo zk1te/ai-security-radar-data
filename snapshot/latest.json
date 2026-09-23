@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T22:15:02+08:00",
+  "updated_at": "2026-09-23T22:45:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -160,29 +160,29 @@
       "sub_category_label": "模型评测"
     },
     {
-      "id": 8914,
-      "title": "Rouxii 框架：具备反欺骗能力的 AI 渗透测试者可反向利用蜜罐",
-      "original_title": "Rouxii: Exploiting Honeypots with Deception-Aware AI Pentesters: Honeypots are designed to deceive attackers, and recent work shows they can also derail autonomous LLM-based pentes",
-      "summary": "研究提出 Rouxii 框架，通过赋予 AI 渗透测试者反欺骗能力，将蜜罐识别率提升至 97%，并展示如何反向利用蜜罐发起拒绝服务或污染其情报。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
+      "id": 9369,
+      "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
+      "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
+      "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
       "score_total": 68.45,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "红队和防御方都该看。研究证明 AI 攻击者不仅能识破蜜罐，还能反手利用蜜罐漏洞，给蓝队的欺骗防御敲了警钟，评估 AI 攻击者时需考虑其推理利用能力。",
+      "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/gastronomy/status/2102582366979916091",
-      "reader_url": "https://x.com/gastronomy/status/2102582366979916091",
-      "image_url": null,
+      "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+      "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+      "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
       "author": {
-        "username": "gastronomy",
-        "name": "Tanat Tonguthaisri",
+        "username": "TheWhizzAI",
+        "name": "The Whizz AI",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-09-23T02:14:35",
-      "first_seen_at": "2026-09-23T02:37:53.843971",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-09-23T14:00:08",
+      "first_seen_at": "2026-09-23T14:22:08.544156",
+      "sub_category_label": null
     },
     {
       "id": 9268,
