@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23T18:44:12+08:00",
+  "updated_at": "2026-09-23T19:14:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 8985,
@@ -108,31 +108,6 @@
       "published_at": "2026-09-23T01:55:28",
       "first_seen_at": "2026-09-23T04:50:12.366419",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 8841,
-      "title": "Cisco Talos 发布 CAIRN 开源工具追踪 AI 集成恶意软件",
-      "original_title": "CAIRN – A New Tool to Track AI Malware That Operates Without Human Control   Source: https://t.co/sjszUXwB4H  Cisco Talos has released CAIRN, an open-source toolkit designed to hun",
-      "summary": "Cisco Talos 开源 CAIRN 工具包，通过搜索提示模板、API 密钥前缀和编排逻辑等数字标记追踪 AI 恶意软件，并披露首个将战术 C2 决策委托给 AI 的 Windows 植入物 CLOSEDQUORUM。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "malware_detection",
-      "score_total": 70.41,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 恶意软件已进入将 C2 决策委托给模型的实战阶段。威胁狩猎团队应立即关注 CAIRN 的工件检测思路，将提示模板和编排逻辑纳入特征提取流程，提前应对自动化攻击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2102524339887223222",
-      "reader_url": "https://x.com/The_Cyber_News/status/2102524339887223222",
-      "image_url": "https://pbs.twimg.com/media/HS1mSIDbEAApmJO.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-09-22T22:24:00",
-      "first_seen_at": "2026-09-22T22:51:36.057213",
-      "sub_category_label": null
     },
     {
       "id": 8896,
