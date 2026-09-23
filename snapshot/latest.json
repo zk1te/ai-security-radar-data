@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23T21:14:41+08:00",
+  "updated_at": "2026-09-23T22:15:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 8985,
@@ -203,31 +203,6 @@
       "published_at": "2026-09-23T04:00:00",
       "first_seen_at": "2026-09-23T10:32:38.925729",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 9338,
-      "title": "AI辅助差分模糊测试在WAMR中发现真实漏洞，但误判仍需人工甄别",
-      "original_title": "Our AI-assisted differential fuzzing found a real bug in WAMR (now fixed).  Our takeaway: AI was great at building the harness, shrinking test cases, & tracing code, yet it also co",
-      "summary": "使用AI辅助差分模糊测试在WAMR中发现并修复了一个真实漏洞，AI在构建harness、缩减测试用例和代码追踪方面表现出色，但会将正常行为误判为漏洞，仍需人工判断。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 66.96,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做AI Fuzzing的人都该看——这条直接点出了AI辅助fuzzing的真实能力边界：harness搭建和用例缩减可以放手交给AI，但bug判定仍不能全自动。对正在搭安全Agent流水线的团队，误报过滤是必须解决的关键环节。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rv_inc/status/2102735907468018033",
-      "reader_url": "https://x.com/rv_inc/status/2102735907468018033",
-      "image_url": null,
-      "author": {
-        "username": "rv_inc",
-        "name": "Runtime Vеrification",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-23T12:24:41",
-      "first_seen_at": "2026-09-23T12:40:54.352098",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
