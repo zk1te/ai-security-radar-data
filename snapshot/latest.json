@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23T19:14:16+08:00",
+  "updated_at": "2026-09-23T19:44:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 8985,
@@ -85,6 +85,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 8608,
+      "title": "Aikido 发布开源网络安全 AI 模型 Altar-1",
+      "original_title": "🛡️ Aikido Security Unveils Altar-1 Open-Weight AI for Cybersecurity Defense  Details: https://t.co/tbJ2EfVfz1  Aikido Security has unveiled Altar-1, an open-weight artificial intel",
+      "summary": "Aikido Security 推出开源权重 AI 模型 Altar-1，专为在本地基础设施中执行漏洞发现与渗透测试等安全任务设计，满足金融、医疗等行业的数据隐私与隔离环境需求。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.07,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对于有严格数据合规要求的甲方安全团队，这是一个可本地化部署的安全 AI 模型，能避免代码外泄风险。建议直接评估其在漏洞挖掘和渗透测试中的实际效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
+      "reader_url": "https://x.com/The_Cyber_News/status/2102352350992273459",
+      "image_url": "https://pbs.twimg.com/media/HS0OKWcaUAAA1KS.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-09-22T11:00:34",
+      "first_seen_at": "2026-09-23T11:16:20.211431",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 8946,
       "title": "研究员用 Claude Opus 5 辅助构建漏洞利用，攻破 OpenAI 论坛服务器",
       "original_title": "RT @TheHackersNews: ‼️Claude Opus 5 helped three researchers build an image exploit that took over OpenAI's public help forum server.  A fl…",
@@ -108,6 +133,31 @@
       "published_at": "2026-09-23T01:55:28",
       "first_seen_at": "2026-09-23T04:50:12.366419",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 8491,
+      "title": "AI安全代理引发漏洞报告激增，Immunefi呼吁构建AI与人类混合分类系统",
+      "original_title": "AI security agents can dramatically increase the number of vulnerabilities researchers find. But more findings also means more reports for protocol teams to review, and without str",
+      "summary": "AI安全代理提升了漏洞发现量但也带来大量低质量报告，Immunefi正构建结合AI与资深专家的漏洞分类系统以解决信噪比问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.87,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘Agent必然引发报告爆炸，做AI for Sec不能只顾挖洞，Triage自动化是落地的下一道关卡。看Immunefi如何用AI解决信噪比和查重，对自研安全Agent有直接参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/immunefi/status/2102322771988803989",
+      "reader_url": "https://x.com/immunefi/status/2102322771988803989",
+      "image_url": "https://pbs.twimg.com/media/HSzzauba0AAPiBb.jpg",
+      "author": {
+        "username": "immunefi",
+        "name": "Immunefi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T09:03:02",
+      "first_seen_at": "2026-09-23T11:16:20.211431",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 8896,
@@ -173,26 +223,6 @@
       "published_at": "2026-09-23T02:14:35",
       "first_seen_at": "2026-09-23T02:37:53.843971",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 9268,
-      "title": "多模型审议聚合优于独立投票，多样性是关键",
-      "original_title": "The Wisdom of Artificial Deliberative Crowds",
-      "summary": "论文将人类小群体三阶段审议范式适配到 LLM，跨视觉估计、论文评审、恶意 AI 行为检测、体育预测四域测试，发现审议后共识聚合与个体判断均优于被动平均，但需模型多样性，单一模型克隆组无收益。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 67.4,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全评测和威胁检测的团队该看：多模型审议可能比单模型 ensemble 更准，且 Study 3 直接测了恶意 agent 行为检测。启示是构建检测 pipeline 时混用异构模型并加审议环节，别只用同族克隆。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.22497",
-      "reader_url": "https://arxiv.org/pdf/2609.22497",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-23T04:00:00",
-      "first_seen_at": "2026-09-23T10:32:38.925729",
-      "sub_category_label": "模型评测"
     }
   ]
 }
