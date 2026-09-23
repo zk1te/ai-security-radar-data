@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23T15:06:05+08:00",
+  "updated_at": "2026-09-23T16:06:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 8985,
@@ -138,31 +138,6 @@
       "published_at": "2026-09-23T02:14:35",
       "first_seen_at": "2026-09-23T02:37:53.843971",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 8793,
-      "title": "Anthropic 宣布支持对模型进行深度独立安全评估",
-      "original_title": "As part of our efforts to pace the frontier, we’re committed to supporting independent assessments with deep levels of access across training, evaluation, and deployment.  That acc",
-      "summary": "Anthropic 发文称将支持对模型训练、评估和部署环节进行深度独立评估，以发现潜在风险并检验防护措施有效性。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 66.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "前沿模型厂商开放第三方深度评估是趋势，做 AI 红队或模型安全的团队应关注其评估原则与方向，作为后续开展测评的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2102447425243828347",
-      "reader_url": "https://x.com/OpenAI/status/2102447425243828347",
-      "image_url": null,
-      "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
-        "avatar_url": null,
-        "followers_count": 5355398
-      },
-      "published_at": "2026-09-22T17:18:22",
-      "first_seen_at": "2026-09-22T19:57:58.613134",
-      "sub_category_label": null
     }
   ]
 }
