@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23T17:13:51+08:00",
+  "updated_at": "2026-09-23T17:44:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 8985,
@@ -23,6 +23,26 @@
       "published_at": null,
       "first_seen_at": "2026-09-23T06:36:45.827540",
       "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 8565,
+      "title": "自主渗透测试 Agent 保障属性框架与参考实现",
+      "original_title": "From Capability to Assurance in Autonomous Penetration-Testing Harnesses: A Framework and Reference Implementation",
+      "summary": "提出自主渗透测试代理的五个保障属性框架（如授权范围、防篡改审计等），在现有系统中发现普遍缺口，并实测开源实现 NeuroSploit 找出真实执行漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做自动化渗透 Agent 的团队必看。别光盯着打通靶机，授权越界和审计溯源才是能否上生产的命门，这篇把保障属性拆成了可测代码。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.22664",
+      "reader_url": "https://arxiv.org/pdf/2609.22664",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-23T09:14:04.297004",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 9055,
@@ -135,6 +155,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 8470,
+      "title": "用变异分析度量 GPU 内核基准测试的判定器质量",
+      "original_title": "Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles",
+      "summary": "本文提出用变异分析作为 KernelBench 等基准测试判定器（oracle）的充分性度量指标，向 188 个已验证 CUDA 实现注入 10303 个可编译故障，发现官方判定器确定性遗漏 16.9% 的有见证故障，精度类故障遗漏率高达 78.6%，并发布了 KernelBench-M 数据集。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和 benchmark 的同学该看：判定器不可靠意味着榜单和 RL 奖励都在沙上建塔。本文的变异分析方法可直接迁移到安全 benchmark 的 oracle 评估，帮你量化自家评测集到底漏检了多少。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.22220",
+      "reader_url": "https://arxiv.org/pdf/2609.22220",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T04:00:00",
+      "first_seen_at": "2026-09-23T09:14:04.297004",
+      "sub_category_label": "模型评测"
+    },
+    {
       "id": 8914,
       "title": "Rouxii 框架：具备反欺骗能力的 AI 渗透测试者可反向利用蜜罐",
       "original_title": "Rouxii: Exploiting Honeypots with Deception-Aware AI Pentesters: Honeypots are designed to deceive attackers, and recent work shows they can also derail autonomous LLM-based pentes",
@@ -158,26 +198,6 @@
       "published_at": "2026-09-23T02:14:35",
       "first_seen_at": "2026-09-23T02:37:53.843971",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 9058,
-      "title": "VeriSoftBench：首个面向 Lean 的仓库级软件形式化验证基准",
-      "original_title": "VeriSoftBench: Repository-Scale Formal Verification Benchmarks for Lean",
-      "summary": "论文提出 VeriSoftBench，包含 500 个 Lean 4 证明义务，专用于评估 LLM 在真实代码仓库中的软件形式化验证能力，发现针对数学库优化的证明器在此场景表现不佳，且依赖复杂度显著影响成功率。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 66.65,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做高保证软件和形式化验证的安全团队可关注。此基准揭示了当前 LLM 在跨文件依赖的真实代码库中证明能力依然薄弱，若想用 LLM 辅助验证安全属性，需谨慎评估上下文构建策略。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2602.18307",
-      "reader_url": "https://arxiv.org/pdf/2602.18307",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-23T04:00:00",
-      "first_seen_at": "2026-09-23T09:09:13.395353",
-      "sub_category_label": "模型评测"
     }
   ]
 }
