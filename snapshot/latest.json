@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23T09:35:12+08:00",
+  "updated_at": "2026-09-23T10:35:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 8886,
@@ -48,31 +48,6 @@
       "published_at": "2026-09-22T22:24:00",
       "first_seen_at": "2026-09-22T22:51:36.057213",
       "sub_category_label": null
-    },
-    {
-      "id": 8663,
-      "title": "Vigolium v0.5.0 发布：专为 AI Agent 打造的 DAST 与 Fuzzing 工具",
-      "original_title": "I just released @Vigolium v0.5.0 aiming to be the best DAST for your coding agent to drive   And a drop-in for the common recon tools, from probing to fuzzing. Natively supported, ",
-      "summary": "新发布的开源工具 Vigolium v0.5.0 定位为面向编码代理的 DAST 工具，可替代常见侦察工具，原生支持从探测到模糊测试的自动化安全任务。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.37,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 AI 安全自动化和渗透测试的必看。它将 DAST 和 Fuzzing 能力直接接入 Coding Agent 工作流，安全团队可借此集成测试 Agent 的漏洞挖掘闭环效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/j3ssie/status/2102402427366642030",
-      "reader_url": "https://x.com/j3ssie/status/2102402427366642030",
-      "image_url": "https://pbs.twimg.com/media/HS07K2ea8AAcQBd.jpg",
-      "author": {
-        "username": "j3ssie",
-        "name": "Jessie Ho",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-22T14:19:34",
-      "first_seen_at": "2026-09-22T14:29:07.273829",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 8896,
