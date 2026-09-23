@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T19:44:35+08:00",
+  "updated_at": "2026-09-23T21:14:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -63,26 +63,6 @@
       "published_at": "2026-09-23T04:00:00",
       "first_seen_at": "2026-09-23T09:07:47.659494",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 8886,
-      "title": "Cloudflare开源安全审计Agent技能",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare开源多阶段安全审计 coding-agent 技能，产出可独立验证且机器可读的审计结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "该工具让AI代码审计结果可验证、机器可读，直击大模型做安全审计的幻觉痛点。做代码安全审计和研发安全Agent的团队值得直接集成或借鉴其设计思路。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-23&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-23&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-23T00:47:48.054829",
-      "first_seen_at": "2026-09-23T00:48:26.601770",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 8608,
@@ -160,26 +140,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 8896,
-      "title": "阿里开源 AI 代码审查工具，内置 XSS/SQLi 安全规则",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "阿里巴巴 open-code-review 采用确定性流水线加 LLM Agent 混合架构，提供行级评论，内置 NPE、线程安全、XSS、SQL 注入等多语言安全规则。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "采用「规则+LLM」混合架构的代码审查工具，兼顾确定性和灵活推理，适合安全团队用作代码审计 pipeline 或自研参考。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-23&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-23&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-23T00:47:46.969907",
-      "first_seen_at": "2026-09-23T00:49:30.027629",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 8470,
       "title": "用变异分析度量 GPU 内核基准测试的判定器质量",
       "original_title": "Measuring the Checker: Mutation Analysis for GPU-Kernel Benchmark Oracles",
@@ -223,6 +183,51 @@
       "published_at": "2026-09-23T02:14:35",
       "first_seen_at": "2026-09-23T02:37:53.843971",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9268,
+      "title": "多模型审议聚合优于独立投票，多样性是关键",
+      "original_title": "The Wisdom of Artificial Deliberative Crowds",
+      "summary": "论文将人类小群体三阶段审议范式适配到 LLM，跨视觉估计、论文评审、恶意 AI 行为检测、体育预测四域测试，发现审议后共识聚合与个体判断均优于被动平均，但需模型多样性，单一模型克隆组无收益。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 67.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和威胁检测的团队该看：多模型审议可能比单模型 ensemble 更准，且 Study 3 直接测了恶意 agent 行为检测。启示是构建检测 pipeline 时混用异构模型并加审议环节，别只用同族克隆。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.22497",
+      "reader_url": "https://arxiv.org/pdf/2609.22497",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-23T04:00:00",
+      "first_seen_at": "2026-09-23T10:32:38.925729",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 9338,
+      "title": "AI辅助差分模糊测试在WAMR中发现真实漏洞，但误判仍需人工甄别",
+      "original_title": "Our AI-assisted differential fuzzing found a real bug in WAMR (now fixed).  Our takeaway: AI was great at building the harness, shrinking test cases, & tracing code, yet it also co",
+      "summary": "使用AI辅助差分模糊测试在WAMR中发现并修复了一个真实漏洞，AI在构建harness、缩减测试用例和代码追踪方面表现出色，但会将正常行为误判为漏洞，仍需人工判断。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 66.96,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做AI Fuzzing的人都该看——这条直接点出了AI辅助fuzzing的真实能力边界：harness搭建和用例缩减可以放手交给AI，但bug判定仍不能全自动。对正在搭安全Agent流水线的团队，误报过滤是必须解决的关键环节。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rv_inc/status/2102735907468018033",
+      "reader_url": "https://x.com/rv_inc/status/2102735907468018033",
+      "image_url": null,
+      "author": {
+        "username": "rv_inc",
+        "name": "Runtime Vеrification",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T12:24:41",
+      "first_seen_at": "2026-09-23T12:40:54.352098",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
