@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-23T10:35:18+08:00",
+  "updated_at": "2026-09-23T11:05:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 8886,
@@ -67,6 +67,31 @@
       "author": null,
       "published_at": "2026-09-23T00:47:46.969907",
       "first_seen_at": "2026-09-23T00:49:30.027629",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 8914,
+      "title": "Rouxii 框架：具备反欺骗能力的 AI 渗透测试者可反向利用蜜罐",
+      "original_title": "Rouxii: Exploiting Honeypots with Deception-Aware AI Pentesters: Honeypots are designed to deceive attackers, and recent work shows they can also derail autonomous LLM-based pentes",
+      "summary": "研究提出 Rouxii 框架，通过赋予 AI 渗透测试者反欺骗能力，将蜜罐识别率提升至 97%，并展示如何反向利用蜜罐发起拒绝服务或污染其情报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和防御方都该看。研究证明 AI 攻击者不仅能识破蜜罐，还能反手利用蜜罐漏洞，给蓝队的欺骗防御敲了警钟，评估 AI 攻击者时需考虑其推理利用能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2102582366979916091",
+      "reader_url": "https://x.com/gastronomy/status/2102582366979916091",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T02:14:35",
+      "first_seen_at": "2026-09-23T02:37:53.843971",
       "sub_category_label": "安全Agent"
     },
     {
