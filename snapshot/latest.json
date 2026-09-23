@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T22:45:07+08:00",
+  "updated_at": "2026-09-24T00:17:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -160,6 +160,31 @@
       "sub_category_label": "模型评测"
     },
     {
+      "id": 9410,
+      "title": "XRanges for AI：基于行为遥测评估自主安全Agent的新基准",
+      "original_title": "🤖⚔️ 545 HUMAN HACKERS HELPED BUILD A NEW BENCHMARK FOR AUTONOMOUS SECURITY AGENTS  AI security agents can generate impressive vulnerability reports.  But there's a problem:  How do",
+      "summary": "XRanges for AI 通过部署带插桩的真实靶标监控 Agent 的实际操作行为，而非仅评分漏洞报告，以验证自主渗透测试 Agent 是否真正完成漏洞利用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 68.67,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "解决安全Agent评测中只看报告不看实际利用的痛点。安全团队评估自动化渗透工具时，可参考其基于行为遥测的评分思路，避免被大模型生成的假阳性报告误导。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/XQOPTRX/status/2102786911735533728",
+      "reader_url": "https://x.com/XQOPTRX/status/2102786911735533728",
+      "image_url": null,
+      "author": {
+        "username": "XQOPTRX",
+        "name": "CyberSignal | Cybersecurity & AI News",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T15:47:22",
+      "first_seen_at": "2026-09-23T16:00:55.317224",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 9369,
       "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
       "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
@@ -183,26 +208,6 @@
       "published_at": "2026-09-23T14:00:08",
       "first_seen_at": "2026-09-23T14:22:08.544156",
       "sub_category_label": null
-    },
-    {
-      "id": 9268,
-      "title": "多模型审议聚合优于独立投票，多样性是关键",
-      "original_title": "The Wisdom of Artificial Deliberative Crowds",
-      "summary": "论文将人类小群体三阶段审议范式适配到 LLM，跨视觉估计、论文评审、恶意 AI 行为检测、体育预测四域测试，发现审议后共识聚合与个体判断均优于被动平均，但需模型多样性，单一模型克隆组无收益。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 67.4,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全评测和威胁检测的团队该看：多模型审议可能比单模型 ensemble 更准，且 Study 3 直接测了恶意 agent 行为检测。启示是构建检测 pipeline 时混用异构模型并加审议环节，别只用同族克隆。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.22497",
-      "reader_url": "https://arxiv.org/pdf/2609.22497",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-23T04:00:00",
-      "first_seen_at": "2026-09-23T10:32:38.925729",
-      "sub_category_label": "模型评测"
     }
   ]
 }
