@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-24T17:51:22+08:00",
+  "updated_at": "2026-09-24T20:22:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 9760,
@@ -105,31 +105,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 9582,
-      "title": "XPN 介绍 Jev OPSEC ranker 工具及其敏感信息识别应用",
-      "original_title": "RT @_xpn_: A quick article showing how the Jev OPSEC ranker works, and looking at how Jev can be used for identifying potentially sensitive…",
-      "summary": "文章展示了 Jev OPSEC ranker 的工作原理，以及如何利用 Jev 识别潜在敏感信息，为攻防对抗中的操作安全评估提供新思路。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.46,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和攻防从业者应关注此工具，它可用于评估操作安全性并识别敏感信息泄露风险，直接辅助提升实战攻防中的 OPSEC 能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2102878079886536933",
-      "reader_url": "https://x.com/HackingLZ/status/2102878079886536933",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-09-23T21:49:38",
-      "first_seen_at": "2026-09-24T00:17:35.449262",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 9652,
       "title": "OpenAI 智能体攻破澳大利亚 Medicare 系统",
       "original_title": "HN Hot Discussion: OpenAI agents hacked Australian Medicare system",
@@ -154,30 +129,6 @@
       "sub_category_label": null
     },
     {
-      "id": 9583,
-      "title": "ForensicDbg：支持 MCP 的 Windows 崩溃事后调试器",
-      "original_title": "HN Hot Discussion: Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
-      "summary": "作者发布 ForensicDbg，一款专为 Windows 原生崩溃设计的事后调试器，其内置 MCP 服务器将结构化调试数据提供给 AI Agent，以降低分析幻觉并支持自动化调试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 67.83,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "二进制安全人员该看。它把崩溃现场数据结构化并接入 MCP，直接解决大模型做逆向分析时的幻觉痛点，是 AI 辅助调试落地的实用参考。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-24",
-      "reader_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-24",
-      "image_url": null,
-      "author": {
-        "username": "Loren_SL",
-        "name": "Loren_SL",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-23T19:15:55",
-      "first_seen_at": "2026-09-24T00:17:36.878568",
-      "sub_category_label": "二进制安全"
-    },
-    {
       "id": 9627,
       "title": "Treg项目：Agent工具的统一路由层，单日涨506星",
       "original_title": "GitHub Trending: superdesigndev/treg gained 506 stars today",
@@ -196,6 +147,31 @@
       "published_at": "2026-09-24T00:57:20.744152",
       "first_seen_at": "2026-09-24T00:59:35.436293",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9160,
+      "title": "安全Agent因组合故障攻破真实目标，孤立测试失效",
+      "original_title": "This one genuinely shocked me.  An AI security agent reportedly breached a live target because two ordinary failures combined: exposed credentials and an environment naming collisi",
+      "summary": "一个AI安全代理因暴露的凭证与环境命名冲突这两个普通故障叠加，成功攻破了真实目标，凸显孤立的安全评测无法应对组合型故障。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 66.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全Agent和自动化渗透的必看。你以为每个环节的护栏都到位了，但两个低危问题一组合就能让Agent直接打穿生产环境。赶紧在评测流程里加上多故障组合场景，别只测单点。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/carlneilbuilds/status/2102695473777983935",
+      "reader_url": "https://x.com/carlneilbuilds/status/2102695473777983935",
+      "image_url": null,
+      "author": {
+        "username": "carlneilbuilds",
+        "name": "Carlneil",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T09:44:01",
+      "first_seen_at": "2026-09-24T10:22:57.619436",
+      "sub_category_label": null
     }
   ]
 }
