@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T10:48:31+08:00",
+  "updated_at": "2026-09-24T12:30:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -164,31 +164,6 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 9410,
-      "title": "XRanges for AI：基于行为遥测评估自主安全Agent的新基准",
-      "original_title": "🤖⚔️ 545 HUMAN HACKERS HELPED BUILD A NEW BENCHMARK FOR AUTONOMOUS SECURITY AGENTS  AI security agents can generate impressive vulnerability reports.  But there's a problem:  How do",
-      "summary": "XRanges for AI 通过部署带插桩的真实靶标监控 Agent 的实际操作行为，而非仅评分漏洞报告，以验证自主渗透测试 Agent 是否真正完成漏洞利用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 68.67,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "解决安全Agent评测中只看报告不看实际利用的痛点。安全团队评估自动化渗透工具时，可参考其基于行为遥测的评分思路，避免被大模型生成的假阳性报告误导。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2102786911735533728",
-      "reader_url": "https://x.com/XQOPTRX/status/2102786911735533728",
-      "image_url": null,
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-23T15:47:22",
-      "first_seen_at": "2026-09-23T16:00:55.317224",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 9452,
       "title": "DARPA AIxCC 实践：LLM 结合传统 Fuzzing 挖掘深层漏洞",
       "original_title": "#### **Facts, Figures, & Examples:**  * **The AI Cyber Challenge (AIxCC) Proof:**  The winning teams in DARPA's AIxCC (which awarded millions in prizes) did not rely on standard LL",
@@ -236,6 +211,30 @@
       "published_at": "2026-09-23T21:08:52",
       "first_seen_at": "2026-09-24T02:44:30.132964",
       "sub_category_label": null
+    },
+    {
+      "id": 9583,
+      "title": "ForensicDbg：支持 MCP 的 Windows 崩溃事后调试器",
+      "original_title": "HN Hot Discussion: Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
+      "summary": "作者发布 ForensicDbg，一款专为 Windows 原生崩溃设计的事后调试器，其内置 MCP 服务器将结构化调试数据提供给 AI Agent，以降低分析幻觉并支持自动化调试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 67.83,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "二进制安全人员该看。它把崩溃现场数据结构化并接入 MCP，直接解决大模型做逆向分析时的幻觉痛点，是 AI 辅助调试落地的实用参考。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-24",
+      "reader_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-24",
+      "image_url": null,
+      "author": {
+        "username": "Loren_SL",
+        "name": "Loren_SL",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-23T19:15:55",
+      "first_seen_at": "2026-09-24T00:17:36.878568",
+      "sub_category_label": "二进制安全"
     }
   ]
 }
