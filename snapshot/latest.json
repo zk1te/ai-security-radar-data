@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-24T09:18:10+08:00",
+  "updated_at": "2026-09-24T10:18:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 9622,
@@ -212,6 +212,31 @@
       "published_at": "2026-09-23T17:29:56",
       "first_seen_at": "2026-09-23T17:43:26.231832",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 9369,
+      "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
+      "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
+      "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+      "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+      "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
+      "author": {
+        "username": "TheWhizzAI",
+        "name": "The Whizz AI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T14:00:08",
+      "first_seen_at": "2026-09-23T14:22:08.544156",
+      "sub_category_label": null
     }
   ]
 }
