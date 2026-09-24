@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-24T14:01:04+08:00",
+  "updated_at": "2026-09-24T15:50:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 9622,
@@ -205,26 +205,6 @@
       "published_at": "2026-09-24T00:57:20.744152",
       "first_seen_at": "2026-09-24T00:59:35.436293",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 9497,
-      "title": "OpenAI 将 Daybreak 项目扩展至乌克兰支持民用网络防御",
-      "original_title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "summary": "OpenAI 宣布将其 Daybreak 项目扩展至乌克兰政府，以支持该国针对民用基础设施的网络防御工作。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_intel_platform",
-      "score_total": 65.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这展示了前沿 AI 能力在国家级真实网络对抗场景中的落地，安全团队可借此关注 AI 工具在实战防御中的具体应用形式与边界。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "reader_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-23T13:00:00",
-      "first_seen_at": "2026-09-23T19:49:26.797077",
-      "sub_category_label": "威胁情报平台"
     }
   ]
 }
