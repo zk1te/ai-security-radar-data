@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T02:54:04+08:00",
+  "updated_at": "2026-09-25T04:54:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -95,6 +95,31 @@
       "sub_category_label": null
     },
     {
+      "id": 8663,
+      "title": "Vigolium v0.5.0 发布：专为 AI Agent 打造的 DAST 与 Fuzzing 工具",
+      "original_title": "I just released @Vigolium v0.5.0 aiming to be the best DAST for your coding agent to drive   And a drop-in for the common recon tools, from probing to fuzzing. Natively supported, ",
+      "summary": "新发布的开源工具 Vigolium v0.5.0 定位为面向编码代理的 DAST 工具，可替代常见侦察工具，原生支持从探测到模糊测试的自动化安全任务。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.87,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 安全自动化和渗透测试的必看。它将 DAST 和 Fuzzing 能力直接接入 Coding Agent 工作流，安全团队可借此集成测试 Agent 的漏洞挖掘闭环效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/j3ssie/status/2102402427366642030",
+      "reader_url": "https://x.com/j3ssie/status/2102402427366642030",
+      "image_url": "https://pbs.twimg.com/media/HS07K2ea8AAcQBd.jpg",
+      "author": {
+        "username": "j3ssie",
+        "name": "Jessie Ho",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-22T14:19:34",
+      "first_seen_at": "2026-09-24T20:24:11.965233",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 9369,
       "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
       "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
@@ -170,53 +195,28 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 9452,
-      "title": "DARPA AIxCC 实践：LLM 结合传统 Fuzzing 挖掘深层漏洞",
-      "original_title": "#### **Facts, Figures, & Examples:**  * **The AI Cyber Challenge (AIxCC) Proof:**  The winning teams in DARPA's AIxCC (which awarded millions in prizes) did not rely on standard LL",
-      "summary": "DARPA AIxCC 获胜团队表明，将 LLM 与 AFL++ 等传统 Fuzzing 引擎结合生成 harness 是最有效的漏洞挖掘范式，而非依赖纯 LLM 提示词；带执行反馈的管道能达到 80% 以上的利用编译成功率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 73.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给做 AI 漏洞挖掘的工程师敲黑板：别只拿大模型跑零-shot 审计，把 LLM 嵌入传统 Fuzzing 工具链生成 harness、加上执行反馈循环才是出真实漏洞的正道。且小模型低成本方案完全可行，无需迷信昂贵闭源模型。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/francescofaenzi/status/2102812723507867963",
-      "reader_url": "https://x.com/francescofaenzi/status/2102812723507867963",
-      "image_url": null,
-      "author": {
-        "username": "francescofaenzi",
-        "name": "francescofaenzi",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-23T17:29:56",
-      "first_seen_at": "2026-09-24T18:24:02.203064",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 9458,
-      "title": "多智能体红队架构：从静态分析转向动态Fuzzing挖掘0day",
-      "original_title": "Red Team Scaling  Building and deploying a hierarchical multi-agent offensive architecture that shifts from static code analysis to live execution (compiling, fuzzing, and instrume",
-      "summary": "探讨从单智能体 LLM 系统转向分层多智能体架构，通过协调侦察、编译和调试等子智能体来实现0day漏洞的发现与验证。",
+      "id": 8645,
+      "title": "Aikido 推出开源安全模型 Altar-1，支持本地部署",
+      "original_title": "Aikido Altar-1..Security model 開始直接搬回客戶機房  @AikidoSecurity  新出的 Altar-1 幾有意思..504B security model 壓到 328GB，可用 4×H200 自己部署  重點唔只係 open weight Security agent 要讀的往往係公司最敏感的 code 同 atta",
+      "summary": "Aikido Security 发布开源权重安全模型 Altar-1，支持在 4×H200 上本地部署，以满足安全 Agent 处理敏感代码和攻击面时的数据隐私需求。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 73.5,
+      "score_total": 74.53,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "关注如何克服单 LLM 在长程规划上的幻觉问题，使用闭环多智能体架构执行实际的编译和 Fuzzing 任务，为安全团队设计自动化漏洞挖掘 Agent 提供实战参考。",
+      "recommendation_reason": "做安全 Agent 的团队该看。处理客户敏感代码和攻击面时，本地化推理往往是刚需。Altar-1 提供了开箱即用的开源权重方案，值得一测。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/francescofaenzi/status/2102812490224799840",
-      "reader_url": "https://x.com/francescofaenzi/status/2102812490224799840",
+      "canonical_url": "https://x.com/shenshanni/status/2102380388823830687",
+      "reader_url": "https://x.com/shenshanni/status/2102380388823830687",
       "image_url": null,
       "author": {
-        "username": "francescofaenzi",
-        "name": "francescofaenzi",
+        "username": "shenshanni",
+        "name": "AI IT PM in HK",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-09-23T17:29:00",
-      "first_seen_at": "2026-09-24T18:24:02.203064",
+      "published_at": "2026-09-22T12:51:59",
+      "first_seen_at": "2026-09-24T20:24:11.965233",
       "sub_category_label": "安全Agent"
     }
   ]
