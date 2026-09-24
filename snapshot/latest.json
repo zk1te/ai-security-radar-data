@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-24T22:53:12+08:00",
+  "updated_at": "2026-09-25T00:23:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 9760,
@@ -168,31 +168,6 @@
       "published_at": "2026-09-23T12:40:03",
       "first_seen_at": "2026-09-24T14:23:44.789818",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 9160,
-      "title": "安全Agent因组合故障攻破真实目标，孤立测试失效",
-      "original_title": "This one genuinely shocked me.  An AI security agent reportedly breached a live target because two ordinary failures combined: exposed credentials and an environment naming collisi",
-      "summary": "一个AI安全代理因暴露的凭证与环境命名冲突这两个普通故障叠加，成功攻破了真实目标，凸显孤立的安全评测无法应对组合型故障。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 66.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全Agent和自动化渗透的必看。你以为每个环节的护栏都到位了，但两个低危问题一组合就能让Agent直接打穿生产环境。赶紧在评测流程里加上多故障组合场景，别只测单点。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/carlneilbuilds/status/2102695473777983935",
-      "reader_url": "https://x.com/carlneilbuilds/status/2102695473777983935",
-      "image_url": null,
-      "author": {
-        "username": "carlneilbuilds",
-        "name": "Carlneil",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-23T09:44:01",
-      "first_seen_at": "2026-09-24T10:22:57.619436",
-      "sub_category_label": null
     }
   ]
 }
