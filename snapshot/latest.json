@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T05:24:36+08:00",
+  "updated_at": "2026-09-25T06:54:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -28,6 +28,31 @@
       "published_at": "2026-09-23T17:16:17",
       "first_seen_at": "2026-09-24T18:24:02.203064",
       "sub_category_label": null
+    },
+    {
+      "id": 9537,
+      "title": "StateLens：LLM驱动状态感知Fuzzing挖出35个JS高危漏洞",
+      "original_title": "Most fuzzers miss the forest for the trees—catching new code paths but blind to the hidden state changes where security bugs lurk.  StateLens flips the script: it uses a GPT-5.1 ag",
+      "summary": "StateLens 利用 GPT-5.1 挖掘语义信息并生成针对性探测器，在六个 JS 引擎中发现 68 个未知漏洞（35个高危），开销低且零误报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 78.96,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "LLM 辅助 Fuzzing 新实战成果。通过 LLM 提取状态语义生成探测器，弥补传统覆盖引导盲区。能启发团队改进 Fuzzing harness，值得二进制安全团队跟进。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yesnoerror/status/2102866203970621494",
+      "reader_url": "https://x.com/yesnoerror/status/2102866203970621494",
+      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2102866181598105602/pu/img/iYz3qGbJy-ZPjRLG.jpg",
+      "author": {
+        "username": "yesnoerror",
+        "name": "yesnoerror",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T21:02:27",
+      "first_seen_at": "2026-09-24T22:24:41.428389",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 8841,
@@ -226,31 +251,6 @@
         "followers_count": 0
       },
       "published_at": "2026-09-23T17:29:00",
-      "first_seen_at": "2026-09-24T18:24:02.203064",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 9449,
-      "title": "基于分层 Agent 与微虚拟机的自动化漏洞挖掘与修复架构",
-      "original_title": "### **How (Activities):**  1. **Tiered Agent Model:**  Use small, local open-weight models (Llama 3 8B / DeepSeek-Coder quantized) for high-frequency tasks: writing fuzzing harness",
-      "summary": "提出一种分层 Agent 架构，使用小模型编写 fuzzing harness，大模型分析逻辑，结合 Firecracker 微虚拟机和硬件级 Oracle 自动验证漏洞并生成补丁 PR。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全研究员和红队工具开发者必看。文中给出了非常具体的落地细节：分层模型降本、Firecracker 隔离执行、ASan 做确定性 Oracle、自动生成并验证补丁 PR，直接可借鉴为自动化漏洞挖掘流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/francescofaenzi/status/2102812849072685355",
-      "reader_url": "https://x.com/francescofaenzi/status/2102812849072685355",
-      "image_url": null,
-      "author": {
-        "username": "francescofaenzi",
-        "name": "francescofaenzi",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-23T17:30:26",
       "first_seen_at": "2026-09-24T18:24:02.203064",
       "sub_category_label": "安全Agent"
     }
