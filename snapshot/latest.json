@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T15:50:57+08:00",
+  "updated_at": "2026-09-24T16:51:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -115,30 +115,6 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 9521,
-      "title": "HN 热议：支持 AI 调试的 Windows 崩溃分析工具 ForensicDbg",
-      "original_title": "HN Hot Discussion: Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
-      "summary": "ForensicDbg 是一款 Windows 原生崩溃事后调试器，通过提供结构化数据和 MCP 服务器支持 AI 智能体自动化调试，旨在减少大模型幻觉并节省 token。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 71.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做二进制安全或漏洞挖掘的兄弟看过来，这个工具直接内置 MCP server 接入 AI Agent，把崩溃现场数据结构化喂给大模型，省 token 又防幻觉，是 AI 辅助逆向和调试的实用落地案例。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
-      "reader_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
-      "image_url": null,
-      "author": {
-        "username": "Loren_SL",
-        "name": "Loren_SL",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-23T19:15:55",
-      "first_seen_at": "2026-09-23T20:24:51.066332",
-      "sub_category_label": "二进制安全"
-    },
-    {
       "id": 9652,
       "title": "OpenAI 智能体攻破澳大利亚 Medicare 系统",
       "original_title": "HN Hot Discussion: OpenAI agents hacked Australian Medicare system",
@@ -204,6 +180,31 @@
       "author": null,
       "published_at": "2026-09-24T00:57:20.744152",
       "first_seen_at": "2026-09-24T00:59:35.436293",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9637,
+      "title": "通用AI状态空间搜索引擎在自主渗透测试中验证",
+      "original_title": "A AI general-purpose state-space search engine, validated first on autonomous penetration testing. https://t.co/OxkNEinRxM",
+      "summary": "一款AI通用状态空间搜索引擎发布，其首个验证场景为自主渗透测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "推文信息极少，但「通用状态空间搜索+自主渗透」的思路值得安全Agent开发者跟踪。若你在做多步攻击规划与自动化编排，这种搜索范式可能有直接借鉴价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/nethemba/status/2102926137567678635",
+      "reader_url": "https://x.com/nethemba/status/2102926137567678635",
+      "image_url": null,
+      "author": {
+        "username": "nethemba",
+        "name": "nethemba",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-24T01:00:36",
+      "first_seen_at": "2026-09-24T01:26:25.325917",
       "sub_category_label": "安全Agent"
     }
   ]
