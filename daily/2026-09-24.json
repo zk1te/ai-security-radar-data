@@ -1,0 +1,1319 @@
+{
+  "date": "2026-09-24",
+  "candidate_count": 21,
+  "selected_count": 3,
+  "cover_title": "ResTest：基于覆盖率反馈引导 LLM 攻坚 Web GUI 遗漏代码",
+  "lead_takeaway": "今天的主线是LLM和Agent在自动化漏洞挖掘上的实战化升级。它们不再只当脚本小子，而是能结合覆盖率反馈补盲、精准溯源Bug引入点，甚至自主挖出沙箱网络漏洞并链式利用。",
+  "digest_points": [
+    "01 对做 Fuzzing 和自动化测试的安全团队有直接参考价值。它展示了如何用 LLM 结合覆盖率反馈去补盲，可启发现有安全测试 Agent 的优化方向。",
+    "02 安全研究员应关注此 LLM 代理工作流，它通过自动提取 grep 特征高效溯源漏洞引入点，为自动化代码审计和根因分析提供了新思路，可直接借鉴用于提升现有工具效率。",
+    "03 展示了 AI Agent 挖掘真实基础设施漏洞的惊人能力，跨服务调用拿 Flag 的手法值得沙箱设计者深思。做 AI 红队和 Agent 安全的人必看，开源 harness 可直接参考。"
+  ],
+  "judgement": [
+    "01 对做 Fuzzing 和自动化测试的安全团队有直接参考价值。它展示了如何用 LLM 结合覆盖率反馈去补盲，可启发现有安全测试 Agent 的优化方向。",
+    "02 安全研究员应关注此 LLM 代理工作流，它通过自动提取 grep 特征高效溯源漏洞引入点，为自动化代码审计和根因分析提供了新思路，可直接借鉴用于提升现有工具效率。",
+    "03 展示了 AI Agent 挖掘真实基础设施漏洞的惊人能力，跨服务调用拿 Flag 的手法值得沙箱设计者深思。做 AI 红队和 Agent 安全的人必看，开源 harness 可直接参考。"
+  ],
+  "top_items": [
+    {
+      "id": 9760,
+      "title": "ResTest：基于覆盖率反馈引导 LLM 攻坚 Web GUI 遗漏代码",
+      "original_title": "ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing",
+      "summary": "论文提出 ResTest，通过覆盖率报告引导大模型推断并测试现有自动化测试工具遗漏的代码功能，在 10 个开源 Web 应用中平均提升 17.52% 至 24.36% 的代码覆盖率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 83.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对做 Fuzzing 和自动化测试的安全团队有直接参考价值。它展示了如何用 LLM 结合覆盖率反馈去补盲，可启发现有安全测试 Agent 的优化方向。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2506.00520",
+      "reader_url": "https://arxiv.org/pdf/2506.00520",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-24T09:23:35.018267",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 9756,
+      "title": "LLM 代理显著提升 Bug 引入提交识别准确率",
+      "original_title": "LLM-Based Agents for Identifying Bug-Introducing Commits",
+      "summary": "该论文提出一种基于 LLM 代理的工作流，通过提取可搜索的模式从修复提交中识别引入 Bug 的代码，在 Linux 内核数据集上将 F1 分数从 0.64 提升至 0.81。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全研究员应关注此 LLM 代理工作流，它通过自动提取 grep 特征高效溯源漏洞引入点，为自动化代码审计和根因分析提供了新思路，可直接借鉴用于提升现有工具效率。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.29378",
+      "reader_url": "https://arxiv.org/pdf/2603.29378",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-24T09:22:54.732093",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 9460,
+      "title": "顶级AI模型沙箱逃逸测试：发现网络策略漏洞并跨服务链式利用",
+      "original_title": "We put all the best models in our home-grown sandbox infra (SPACE, the sandbox behind @perplexity_ai  Computer), gave them root inside the VM, and one goal: hack out of the sandbox",
+      "summary": "Perplexity 团队在自研沙箱中测试多个顶级模型逃逸能力，GPT-56 等模型发现基于 CDN 共享 IP 的网络策略绕过漏洞，并链式调用第三方服务成功拿 Flag。团队同时开源了安全 Agent harness Numbat。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent | agent_security",
+      "score_total": 72.41,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI Agent 挖掘真实基础设施漏洞的惊人能力，跨服务调用拿 Flag 的手法值得沙箱设计者深思。做 AI 红队和 Agent 安全的人必看，开源 harness 可直接参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/kpolley/status/2102809287386915160",
+      "reader_url": "https://x.com/kpolley/status/2102809287386915160",
+      "image_url": null,
+      "author": {
+        "username": "kpolley",
+        "name": "Kyle Polley",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T17:16:17",
+      "first_seen_at": "2026-09-23T17:45:11.050333",
+      "sub_category_label": null
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 9582,
+      "title": "XPN 介绍 Jev OPSEC ranker 工具及其敏感信息识别应用",
+      "original_title": "RT @_xpn_: A quick article showing how the Jev OPSEC ranker works, and looking at how Jev can be used for identifying potentially sensitive…",
+      "summary": "文章展示了 Jev OPSEC ranker 的工作原理，以及如何利用 Jev 识别潜在敏感信息，为攻防对抗中的操作安全评估提供新思路。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和攻防从业者应关注此工具，它可用于评估操作安全性并识别敏感信息泄露风险，直接辅助提升实战攻防中的 OPSEC 能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2102878079886536933",
+      "reader_url": "https://x.com/HackingLZ/status/2102878079886536933",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-09-23T21:49:38",
+      "first_seen_at": "2026-09-24T00:17:35.449262",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9537,
+      "title": "StateLens：LLM驱动状态感知Fuzzing挖出35个JS高危漏洞",
+      "original_title": "Most fuzzers miss the forest for the trees—catching new code paths but blind to the hidden state changes where security bugs lurk.  StateLens flips the script: it uses a GPT-5.1 ag",
+      "summary": "StateLens 利用 GPT-5.1 挖掘语义信息并生成针对性探测器，在六个 JS 引擎中发现 68 个未知漏洞（35个高危），开销低且零误报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 71.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "LLM 辅助 Fuzzing 新实战成果。通过 LLM 提取状态语义生成探测器，弥补传统覆盖引导盲区。能启发团队改进 Fuzzing harness，值得二进制安全团队跟进。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yesnoerror/status/2102866203970621494",
+      "reader_url": "https://x.com/yesnoerror/status/2102866203970621494",
+      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2102866181598105602/pu/img/iYz3qGbJy-ZPjRLG.jpg",
+      "author": {
+        "username": "yesnoerror",
+        "name": "yesnoerror",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T21:02:27",
+      "first_seen_at": "2026-09-23T21:34:44.245421",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 9521,
+      "title": "HN 热议：支持 AI 调试的 Windows 崩溃分析工具 ForensicDbg",
+      "original_title": "HN Hot Discussion: Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
+      "summary": "ForensicDbg 是一款 Windows 原生崩溃事后调试器，通过提供结构化数据和 MCP 服务器支持 AI 智能体自动化调试，旨在减少大模型幻觉并节省 token。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 71.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做二进制安全或漏洞挖掘的兄弟看过来，这个工具直接内置 MCP server 接入 AI Agent，把崩溃现场数据结构化喂给大模型，省 token 又防幻觉，是 AI 辅助逆向和调试的实用落地案例。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
+      "reader_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
+      "image_url": null,
+      "author": {
+        "username": "Loren_SL",
+        "name": "Loren_SL",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-23T19:15:55",
+      "first_seen_at": "2026-09-23T20:24:51.066332",
+      "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 9368,
+      "title": "XRanges for AI发布安全Agent评测，Anthropic模型仍存越权风险",
+      "original_title": "🔒 Cybersecurity Daily — 2026-09-23  Your cPanel server might be rooted — check for the CalDAV zero-day now.  Today: Arista VeloCloud zero-day, cPanel root escape, AI security testi",
+      "summary": "XRanges for AI工具通过部署带插桩的目标应用并自动评分，解决自主安全Agent效果验证难题；同时安全测试显示Anthropic和OpenAI新模型仍会尝试执行受限行为，对提示注入抵抗力不足。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark",
+      "score_total": 69.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent选型必看：XRanges提供客观的Agent效果打分机制，别再只信厂商自报数据。模型集成方注意，Opus 5.5等新模型提示注入防御仍不到位，务必加输出校验。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/checkleaked/status/2102760095079629292",
+      "reader_url": "https://x.com/checkleaked/status/2102760095079629292",
+      "image_url": "https://pbs.twimg.com/media/HS6BKTzWsAASm6J.jpg",
+      "author": {
+        "username": "checkleaked",
+        "name": "CheckLeaked.cc",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T14:00:48",
+      "first_seen_at": "2026-09-24T14:23:44.789818",
+      "sub_category_label": null
+    },
+    {
+      "id": 9452,
+      "title": "DARPA AIxCC 实践：LLM 结合传统 Fuzzing 挖掘深层漏洞",
+      "original_title": "#### **Facts, Figures, & Examples:**  * **The AI Cyber Challenge (AIxCC) Proof:**  The winning teams in DARPA's AIxCC (which awarded millions in prizes) did not rely on standard LL",
+      "summary": "DARPA AIxCC 获胜团队表明，将 LLM 与 AFL++ 等传统 Fuzzing 引擎结合生成 harness 是最有效的漏洞挖掘范式，而非依赖纯 LLM 提示词；带执行反馈的管道能达到 80% 以上的利用编译成功率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给做 AI 漏洞挖掘的工程师敲黑板：别只拿大模型跑零-shot 审计，把 LLM 嵌入传统 Fuzzing 工具链生成 harness、加上执行反馈循环才是出真实漏洞的正道。且小模型低成本方案完全可行，无需迷信昂贵闭源模型。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/francescofaenzi/status/2102812723507867963",
+      "reader_url": "https://x.com/francescofaenzi/status/2102812723507867963",
+      "image_url": null,
+      "author": {
+        "username": "francescofaenzi",
+        "name": "francescofaenzi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T17:29:56",
+      "first_seen_at": "2026-09-23T17:43:26.231832",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 9652,
+      "title": "OpenAI 智能体攻破澳大利亚 Medicare 系统",
+      "original_title": "HN Hot Discussion: OpenAI agents hacked Australian Medicare system",
+      "summary": "据报道，OpenAI 智能体成功攻破澳大利亚 Medicare 系统，引发 HN 热议，凸显了 AI 智能体在实战攻击中的能力与潜在滥用风险。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 68.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这起事件直接展示 AI Agent 在真实攻击中的破坏力。安全从业者须关注自主攻击智能体的演进速度，并重新评估防御体系的有效性。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49822654&hn_hot_date=2026-09-24",
+      "reader_url": "https://news.ycombinator.com/item?id=49822654&hn_hot_date=2026-09-24",
+      "image_url": null,
+      "author": {
+        "username": "jumploops",
+        "name": "jumploops",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-23T21:08:52",
+      "first_seen_at": "2026-09-24T02:44:30.132964",
+      "sub_category_label": null
+    },
+    {
+      "id": 9449,
+      "title": "基于分层 Agent 与微虚拟机的自动化漏洞挖掘与修复架构",
+      "original_title": "### **How (Activities):**  1. **Tiered Agent Model:**  Use small, local open-weight models (Llama 3 8B / DeepSeek-Coder quantized) for high-frequency tasks: writing fuzzing harness",
+      "summary": "提出一种分层 Agent 架构，使用小模型编写 fuzzing harness，大模型分析逻辑，结合 Firecracker 微虚拟机和硬件级 Oracle 自动验证漏洞并生成补丁 PR。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 67.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员和红队工具开发者必看。文中给出了非常具体的落地细节：分层模型降本、Firecracker 隔离执行、ASan 做确定性 Oracle、自动生成并验证补丁 PR，直接可借鉴为自动化漏洞挖掘流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/francescofaenzi/status/2102812849072685355",
+      "reader_url": "https://x.com/francescofaenzi/status/2102812849072685355",
+      "image_url": null,
+      "author": {
+        "username": "francescofaenzi",
+        "name": "francescofaenzi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T17:30:26",
+      "first_seen_at": "2026-09-23T17:43:06.145077",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 9760,
+        "title": "ResTest：基于覆盖率反馈引导 LLM 攻坚 Web GUI 遗漏代码",
+        "original_title": "ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing",
+        "summary": "论文提出 ResTest，通过覆盖率报告引导大模型推断并测试现有自动化测试工具遗漏的代码功能，在 10 个开源 Web 应用中平均提升 17.52% 至 24.36% 的代码覆盖率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 83.95,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "对做 Fuzzing 和自动化测试的安全团队有直接参考价值。它展示了如何用 LLM 结合覆盖率反馈去补盲，可启发现有安全测试 Agent 的优化方向。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2506.00520",
+        "reader_url": "https://arxiv.org/pdf/2506.00520",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-24T09:23:35.018267",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 9756,
+        "title": "LLM 代理显著提升 Bug 引入提交识别准确率",
+        "original_title": "LLM-Based Agents for Identifying Bug-Introducing Commits",
+        "summary": "该论文提出一种基于 LLM 代理的工作流，通过提取可搜索的模式从修复提交中识别引入 Bug 的代码，在 Linux 内核数据集上将 F1 分数从 0.64 提升至 0.81。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 83.45,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "安全研究员应关注此 LLM 代理工作流，它通过自动提取 grep 特征高效溯源漏洞引入点，为自动化代码审计和根因分析提供了新思路，可直接借鉴用于提升现有工具效率。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2603.29378",
+        "reader_url": "https://arxiv.org/pdf/2603.29378",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-24T09:22:54.732093",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 9622,
+        "title": "阿里开源 AI 代码审查工具 open-code-review",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+        "summary": "阿里开源的 open-code-review 采用确定性管道与 LLM Agent 混合架构，支持行级安全漏洞检测（如 XSS、SQL 注入等），兼容 OpenAI 和 Anthropic。",
+        "primary_category": "AI for Sec",
+        "sub_category": "code_audit",
+        "score_total": 76.45,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "内置 XSS 和 SQL 注入等安全规则的 AI 代码审查工具，适合安全团队集成到 CI/CD 实现自动化代码审计，比纯 LLM 审查更可控。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-24&since=weekly",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-24&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T00:57:23.611467",
+        "first_seen_at": "2026-09-24T00:59:07.635003",
+        "sub_category_label": null
+      },
+      {
+        "id": 9613,
+        "title": "Cloudflare 开源 coding-agent 安全审计技能",
+        "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+        "summary": "Cloudflare 开源了一个用于多阶段安全审计的 coding-agent 技能，支持生成独立验证且机器可读的审计结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 74.4,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "给想用 Agent 跑自动化代码审计的团队看。看 Cloudflare 如何设计多阶段审计和结果验证，直接拉代码抄作业。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-24&since=weekly",
+        "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-24&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T00:57:25.640962",
+        "first_seen_at": "2026-09-24T00:57:49.487095",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 9582,
+        "title": "XPN 介绍 Jev OPSEC ranker 工具及其敏感信息识别应用",
+        "original_title": "RT @_xpn_: A quick article showing how the Jev OPSEC ranker works, and looking at how Jev can be used for identifying potentially sensitive…",
+        "summary": "文章展示了 Jev OPSEC ranker 的工作原理，以及如何利用 Jev 识别潜在敏感信息，为攻防对抗中的操作安全评估提供新思路。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 71.46,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "红队和攻防从业者应关注此工具，它可用于评估操作安全性并识别敏感信息泄露风险，直接辅助提升实战攻防中的 OPSEC 能力。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/HackingLZ/status/2102878079886536933",
+        "reader_url": "https://x.com/HackingLZ/status/2102878079886536933",
+        "image_url": null,
+        "author": {
+          "username": "HackingLZ",
+          "name": "Justin Elze",
+          "avatar_url": null,
+          "followers_count": 73559
+        },
+        "published_at": "2026-09-23T21:49:38",
+        "first_seen_at": "2026-09-24T00:17:35.449262",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 9537,
+        "title": "StateLens：LLM驱动状态感知Fuzzing挖出35个JS高危漏洞",
+        "original_title": "Most fuzzers miss the forest for the trees—catching new code paths but blind to the hidden state changes where security bugs lurk.  StateLens flips the script: it uses a GPT-5.1 ag",
+        "summary": "StateLens 利用 GPT-5.1 挖掘语义信息并生成针对性探测器，在六个 JS 引擎中发现 68 个未知漏洞（35个高危），开销低且零误报。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 71.46,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "LLM 辅助 Fuzzing 新实战成果。通过 LLM 提取状态语义生成探测器，弥补传统覆盖引导盲区。能启发团队改进 Fuzzing harness，值得二进制安全团队跟进。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/yesnoerror/status/2102866203970621494",
+        "reader_url": "https://x.com/yesnoerror/status/2102866203970621494",
+        "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2102866181598105602/pu/img/iYz3qGbJy-ZPjRLG.jpg",
+        "author": {
+          "username": "yesnoerror",
+          "name": "yesnoerror",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-23T21:02:27",
+        "first_seen_at": "2026-09-23T21:34:44.245421",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 9521,
+        "title": "HN 热议：支持 AI 调试的 Windows 崩溃分析工具 ForensicDbg",
+        "original_title": "HN Hot Discussion: Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
+        "summary": "ForensicDbg 是一款 Windows 原生崩溃事后调试器，通过提供结构化数据和 MCP 服务器支持 AI 智能体自动化调试，旨在减少大模型幻觉并节省 token。",
+        "primary_category": "AI for Sec",
+        "sub_category": "binary_security",
+        "score_total": 71.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做二进制安全或漏洞挖掘的兄弟看过来，这个工具直接内置 MCP server 接入 AI Agent，把崩溃现场数据结构化喂给大模型，省 token 又防幻觉，是 AI 辅助逆向和调试的实用落地案例。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
+        "reader_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
+        "image_url": null,
+        "author": {
+          "username": "Loren_SL",
+          "name": "Loren_SL",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-23T19:15:55",
+        "first_seen_at": "2026-09-23T20:24:51.066332",
+        "sub_category_label": "二进制安全"
+      },
+      {
+        "id": 9452,
+        "title": "DARPA AIxCC 实践：LLM 结合传统 Fuzzing 挖掘深层漏洞",
+        "original_title": "#### **Facts, Figures, & Examples:**  * **The AI Cyber Challenge (AIxCC) Proof:**  The winning teams in DARPA's AIxCC (which awarded millions in prizes) did not rely on standard LL",
+        "summary": "DARPA AIxCC 获胜团队表明，将 LLM 与 AFL++ 等传统 Fuzzing 引擎结合生成 harness 是最有效的漏洞挖掘范式，而非依赖纯 LLM 提示词；带执行反馈的管道能达到 80% 以上的利用编译成功率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 68.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "给做 AI 漏洞挖掘的工程师敲黑板：别只拿大模型跑零-shot 审计，把 LLM 嵌入传统 Fuzzing 工具链生成 harness、加上执行反馈循环才是出真实漏洞的正道。且小模型低成本方案完全可行，无需迷信昂贵闭源模型。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/francescofaenzi/status/2102812723507867963",
+        "reader_url": "https://x.com/francescofaenzi/status/2102812723507867963",
+        "image_url": null,
+        "author": {
+          "username": "francescofaenzi",
+          "name": "francescofaenzi",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-23T17:29:56",
+        "first_seen_at": "2026-09-23T17:43:26.231832",
+        "sub_category_label": "AI Fuzzing"
+      }
+    ],
+    "AI Tech": [],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 9369,
+        "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
+        "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
+        "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security | security_agent",
+        "score_total": 76.7,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+        "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+        "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
+        "author": {
+          "username": "TheWhizzAI",
+          "name": "The Whizz AI",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-23T14:00:08",
+        "first_seen_at": "2026-09-24T14:23:44.789818",
+        "sub_category_label": null
+      },
+      {
+        "id": 9160,
+        "title": "安全Agent因组合故障攻破真实目标，孤立测试失效",
+        "original_title": "This one genuinely shocked me.  An AI security agent reportedly breached a live target because two ordinary failures combined: exposed credentials and an environment naming collisi",
+        "summary": "一个AI安全代理因暴露的凭证与环境命名冲突这两个普通故障叠加，成功攻破了真实目标，凸显孤立的安全评测无法应对组合型故障。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security",
+        "score_total": 66.2,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做安全Agent和自动化渗透的必看。你以为每个环节的护栏都到位了，但两个低危问题一组合就能让Agent直接打穿生产环境。赶紧在评测流程里加上多故障组合场景，别只测单点。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/carlneilbuilds/status/2102695473777983935",
+        "reader_url": "https://x.com/carlneilbuilds/status/2102695473777983935",
+        "image_url": null,
+        "author": {
+          "username": "carlneilbuilds",
+          "name": "Carlneil",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-23T09:44:01",
+        "first_seen_at": "2026-09-24T10:22:57.619436",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 9625,
+        "title": "高性能代码库索引 MCP 工具 codebase-memory-mcp 走红",
+        "original_title": "GitHub Trending: DeusData/codebase-memory-mcp gained 190 stars today",
+        "summary": "该 MCP 服务器可将代码库索引为持久化知识图谱，支持 158 种语言和毫秒级查询，大幅减少 token 消耗，有助于提升代码审计与 AI 辅助漏洞挖掘效率。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "agent_architecture",
+        "score_total": 75.42,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "做代码审计和安全 Agent 的必看工具。把代码库变知识图谱并实现毫秒级查询，直接解决 LLM 上下文过长和 token 消耗痛点，能立刻拿来当安全 Agent 的记忆外挂。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/DeusData/codebase-memory-mcp?github_trending_date=2026-09-24&since=daily",
+        "reader_url": "https://github.com/DeusData/codebase-memory-mcp?github_trending_date=2026-09-24&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T00:57:21.118874",
+        "first_seen_at": "2026-09-24T00:59:34.908871",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 9460,
+        "title": "顶级AI模型沙箱逃逸测试：发现网络策略漏洞并跨服务链式利用",
+        "original_title": "We put all the best models in our home-grown sandbox infra (SPACE, the sandbox behind @perplexity_ai  Computer), gave them root inside the VM, and one goal: hack out of the sandbox",
+        "summary": "Perplexity 团队在自研沙箱中测试多个顶级模型逃逸能力，GPT-56 等模型发现基于 CDN 共享 IP 的网络策略绕过漏洞，并链式调用第三方服务成功拿 Flag。团队同时开源了安全 Agent harness Numbat。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent | agent_security",
+        "score_total": 72.41,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "展示了 AI Agent 挖掘真实基础设施漏洞的惊人能力，跨服务调用拿 Flag 的手法值得沙箱设计者深思。做 AI 红队和 Agent 安全的人必看，开源 harness 可直接参考。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/kpolley/status/2102809287386915160",
+        "reader_url": "https://x.com/kpolley/status/2102809287386915160",
+        "image_url": null,
+        "author": {
+          "username": "kpolley",
+          "name": "Kyle Polley",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-23T17:16:17",
+        "first_seen_at": "2026-09-23T17:45:11.050333",
+        "sub_category_label": null
+      },
+      {
+        "id": 9368,
+        "title": "XRanges for AI发布安全Agent评测，Anthropic模型仍存越权风险",
+        "original_title": "🔒 Cybersecurity Daily — 2026-09-23  Your cPanel server might be rooted — check for the CalDAV zero-day now.  Today: Arista VeloCloud zero-day, cPanel root escape, AI security testi",
+        "summary": "XRanges for AI工具通过部署带插桩的目标应用并自动评分，解决自主安全Agent效果验证难题；同时安全测试显示Anthropic和OpenAI新模型仍会尝试执行受限行为，对提示注入抵抗力不足。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_benchmark",
+        "score_total": 69.7,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全Agent选型必看：XRanges提供客观的Agent效果打分机制，别再只信厂商自报数据。模型集成方注意，Opus 5.5等新模型提示注入防御仍不到位，务必加输出校验。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/checkleaked/status/2102760095079629292",
+        "reader_url": "https://x.com/checkleaked/status/2102760095079629292",
+        "image_url": "https://pbs.twimg.com/media/HS6BKTzWsAASm6J.jpg",
+        "author": {
+          "username": "checkleaked",
+          "name": "CheckLeaked.cc",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-23T14:00:48",
+        "first_seen_at": "2026-09-24T14:23:44.789818",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 9652,
+        "title": "OpenAI 智能体攻破澳大利亚 Medicare 系统",
+        "original_title": "HN Hot Discussion: OpenAI agents hacked Australian Medicare system",
+        "summary": "据报道，OpenAI 智能体成功攻破澳大利亚 Medicare 系统，引发 HN 热议，凸显了 AI 智能体在实战攻击中的能力与潜在滥用风险。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_agent",
+        "score_total": 68.3,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "这起事件直接展示 AI Agent 在真实攻击中的破坏力。安全从业者须关注自主攻击智能体的演进速度，并重新评估防御体系的有效性。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=49822654&hn_hot_date=2026-09-24",
+        "reader_url": "https://news.ycombinator.com/item?id=49822654&hn_hot_date=2026-09-24",
+        "image_url": null,
+        "author": {
+          "username": "jumploops",
+          "name": "jumploops",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-23T21:08:52",
+        "first_seen_at": "2026-09-24T02:44:30.132964",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 9760,
+            "title": "ResTest：基于覆盖率反馈引导 LLM 攻坚 Web GUI 遗漏代码",
+            "original_title": "ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing",
+            "summary": "论文提出 ResTest，通过覆盖率报告引导大模型推断并测试现有自动化测试工具遗漏的代码功能，在 10 个开源 Web 应用中平均提升 17.52% 至 24.36% 的代码覆盖率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 83.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "对做 Fuzzing 和自动化测试的安全团队有直接参考价值。它展示了如何用 LLM 结合覆盖率反馈去补盲，可启发现有安全测试 Agent 的优化方向。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2506.00520",
+            "reader_url": "https://arxiv.org/pdf/2506.00520",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-24T09:23:35.018267",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 9537,
+            "title": "StateLens：LLM驱动状态感知Fuzzing挖出35个JS高危漏洞",
+            "original_title": "Most fuzzers miss the forest for the trees—catching new code paths but blind to the hidden state changes where security bugs lurk.  StateLens flips the script: it uses a GPT-5.1 ag",
+            "summary": "StateLens 利用 GPT-5.1 挖掘语义信息并生成针对性探测器，在六个 JS 引擎中发现 68 个未知漏洞（35个高危），开销低且零误报。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 71.46,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "LLM 辅助 Fuzzing 新实战成果。通过 LLM 提取状态语义生成探测器，弥补传统覆盖引导盲区。能启发团队改进 Fuzzing harness，值得二进制安全团队跟进。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/yesnoerror/status/2102866203970621494",
+            "reader_url": "https://x.com/yesnoerror/status/2102866203970621494",
+            "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2102866181598105602/pu/img/iYz3qGbJy-ZPjRLG.jpg",
+            "author": {
+              "username": "yesnoerror",
+              "name": "yesnoerror",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T21:02:27",
+            "first_seen_at": "2026-09-23T21:34:44.245421",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 9452,
+            "title": "DARPA AIxCC 实践：LLM 结合传统 Fuzzing 挖掘深层漏洞",
+            "original_title": "#### **Facts, Figures, & Examples:**  * **The AI Cyber Challenge (AIxCC) Proof:**  The winning teams in DARPA's AIxCC (which awarded millions in prizes) did not rely on standard LL",
+            "summary": "DARPA AIxCC 获胜团队表明，将 LLM 与 AFL++ 等传统 Fuzzing 引擎结合生成 harness 是最有效的漏洞挖掘范式，而非依赖纯 LLM 提示词；带执行反馈的管道能达到 80% 以上的利用编译成功率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "给做 AI 漏洞挖掘的工程师敲黑板：别只拿大模型跑零-shot 审计，把 LLM 嵌入传统 Fuzzing 工具链生成 harness、加上执行反馈循环才是出真实漏洞的正道。且小模型低成本方案完全可行，无需迷信昂贵闭源模型。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/francescofaenzi/status/2102812723507867963",
+            "reader_url": "https://x.com/francescofaenzi/status/2102812723507867963",
+            "image_url": null,
+            "author": {
+              "username": "francescofaenzi",
+              "name": "francescofaenzi",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T17:29:56",
+            "first_seen_at": "2026-09-23T17:43:26.231832",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 9756,
+            "title": "LLM 代理显著提升 Bug 引入提交识别准确率",
+            "original_title": "LLM-Based Agents for Identifying Bug-Introducing Commits",
+            "summary": "该论文提出一种基于 LLM 代理的工作流，通过提取可搜索的模式从修复提交中识别引入 Bug 的代码，在 Linux 内核数据集上将 F1 分数从 0.64 提升至 0.81。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 83.45,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "安全研究员应关注此 LLM 代理工作流，它通过自动提取 grep 特征高效溯源漏洞引入点，为自动化代码审计和根因分析提供了新思路，可直接借鉴用于提升现有工具效率。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2603.29378",
+            "reader_url": "https://arxiv.org/pdf/2603.29378",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-24T09:22:54.732093",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 9456,
+            "title": "动态执行与多Agent分层：突破SAST误报与商业模型限制的漏洞挖掘思路",
+            "original_title": "### **Why (Motives):**  * *Why Live Execution:*  Read-only static analysis (SAST) produces overwhelming false-positive rates (often >70%), creating manual triage paralysis. Attacke",
+            "summary": "文章指出SAST误报率极高，应转向动态执行；针对单Agent在复杂利用中的缺陷，提出分层多Agent架构分离侦察与利用，并采用开源权重模型规避商业API审查与高昂成本。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 65.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "探讨了用分层多Agent和开源大模型进行漏洞挖掘与利用的实战思路，直接切中安全团队在落地 AI for Sec 时的 Agent 架构设计与模型选择痛点，值得安全Agent开发者参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/francescofaenzi/status/2102812526471983545",
+            "reader_url": "https://x.com/francescofaenzi/status/2102812526471983545",
+            "image_url": null,
+            "author": {
+              "username": "francescofaenzi",
+              "name": "francescofaenzi",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T17:29:09",
+            "first_seen_at": "2026-09-23T17:43:55.494767",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "code_audit": {
+        "label": "code_audit",
+        "items": [
+          {
+            "id": 9622,
+            "title": "阿里开源 AI 代码审查工具 open-code-review",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "阿里开源的 open-code-review 采用确定性管道与 LLM Agent 混合架构，支持行级安全漏洞检测（如 XSS、SQL 注入等），兼容 OpenAI 和 Anthropic。",
+            "primary_category": "AI for Sec",
+            "sub_category": "code_audit",
+            "score_total": 76.45,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "内置 XSS 和 SQL 注入等安全规则的 AI 代码审查工具，适合安全团队集成到 CI/CD 实现自动化代码审计，比纯 LLM 审查更可控。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-24&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-24&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T00:57:23.611467",
+            "first_seen_at": "2026-09-24T00:59:07.635003",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 9613,
+            "title": "Cloudflare 开源 coding-agent 安全审计技能",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+            "summary": "Cloudflare 开源了一个用于多阶段安全审计的 coding-agent 技能，支持生成独立验证且机器可读的审计结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.4,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "给想用 Agent 跑自动化代码审计的团队看。看 Cloudflare 如何设计多阶段审计和结果验证，直接拉代码抄作业。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-24&since=weekly",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-24&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T00:57:25.640962",
+            "first_seen_at": "2026-09-24T00:57:49.487095",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 9582,
+            "title": "XPN 介绍 Jev OPSEC ranker 工具及其敏感信息识别应用",
+            "original_title": "RT @_xpn_: A quick article showing how the Jev OPSEC ranker works, and looking at how Jev can be used for identifying potentially sensitive…",
+            "summary": "文章展示了 Jev OPSEC ranker 的工作原理，以及如何利用 Jev 识别潜在敏感信息，为攻防对抗中的操作安全评估提供新思路。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 71.46,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "红队和攻防从业者应关注此工具，它可用于评估操作安全性并识别敏感信息泄露风险，直接辅助提升实战攻防中的 OPSEC 能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2102878079886536933",
+            "reader_url": "https://x.com/HackingLZ/status/2102878079886536933",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-09-23T21:49:38",
+            "first_seen_at": "2026-09-24T00:17:35.449262",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 9449,
+            "title": "基于分层 Agent 与微虚拟机的自动化漏洞挖掘与修复架构",
+            "original_title": "### **How (Activities):**  1. **Tiered Agent Model:**  Use small, local open-weight models (Llama 3 8B / DeepSeek-Coder quantized) for high-frequency tasks: writing fuzzing harness",
+            "summary": "提出一种分层 Agent 架构，使用小模型编写 fuzzing harness，大模型分析逻辑，结合 Firecracker 微虚拟机和硬件级 Oracle 自动验证漏洞并生成补丁 PR。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 67.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全研究员和红队工具开发者必看。文中给出了非常具体的落地细节：分层模型降本、Firecracker 隔离执行、ASan 做确定性 Oracle、自动生成并验证补丁 PR，直接可借鉴为自动化漏洞挖掘流水线。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/francescofaenzi/status/2102812849072685355",
+            "reader_url": "https://x.com/francescofaenzi/status/2102812849072685355",
+            "image_url": null,
+            "author": {
+              "username": "francescofaenzi",
+              "name": "francescofaenzi",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T17:30:26",
+            "first_seen_at": "2026-09-23T17:43:06.145077",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 9457,
+            "title": "多Agent协同漏洞挖掘架构：从静态分析到PoC自动生成",
+            "original_title": "### **How (Activities):**  1. **Orchestrated Sub-Agent Division:**  Implement a central coordinator agent modeled after the architecture. The coordinator decomposes targets into di",
+            "summary": "文章提出一种用于自动化漏洞挖掘的中央协调多Agent架构，涵盖侦察、静态分诊、编译、动态Fuzzing和PoC生成，并采用本地开源模型降低成本。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 67.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "构建漏洞挖掘Agent的实战架构参考。安全团队可借鉴其多阶段任务拆解和非幻觉验证门设计，结合ASan等工具实现真实验证，避免LLM输出无效漏洞。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/francescofaenzi/status/2102812514652479941",
+            "reader_url": "https://x.com/francescofaenzi/status/2102812514652479941",
+            "image_url": null,
+            "author": {
+              "username": "francescofaenzi",
+              "name": "francescofaenzi",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T17:29:06",
+            "first_seen_at": "2026-09-23T17:43:56.797625",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 9458,
+            "title": "多智能体红队架构：从静态分析转向动态Fuzzing挖掘0day",
+            "original_title": "Red Team Scaling  Building and deploying a hierarchical multi-agent offensive architecture that shifts from static code analysis to live execution (compiling, fuzzing, and instrume",
+            "summary": "探讨从单智能体 LLM 系统转向分层多智能体架构，通过协调侦察、编译和调试等子智能体来实现0day漏洞的发现与验证。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 66.75,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "关注如何克服单 LLM 在长程规划上的幻觉问题，使用闭环多智能体架构执行实际的编译和 Fuzzing 任务，为安全团队设计自动化漏洞挖掘 Agent 提供实战参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/francescofaenzi/status/2102812490224799840",
+            "reader_url": "https://x.com/francescofaenzi/status/2102812490224799840",
+            "image_url": null,
+            "author": {
+              "username": "francescofaenzi",
+              "name": "francescofaenzi",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T17:29:00",
+            "first_seen_at": "2026-09-23T17:45:09.851737",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 9627,
+            "title": "Treg项目：Agent工具的统一路由层，单日涨506星",
+            "original_title": "GitHub Trending: superdesigndev/treg gained 506 stars today",
+            "summary": "GitHub新项目Treg定位为「Agent工具的OpenRouter」，试图统一多工具调用接口，单日增长506星，当前2718星。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 66.64,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全Agent的人值得瞄一眼：工具路由和调度是Agent落地的核心痛点，如果它真解决了多工具统一调用，可能省掉不少集成成本。但目前描述太薄，建议直接扒代码看是否覆盖安全场景。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/superdesigndev/treg?github_trending_date=2026-09-24&since=daily",
+            "reader_url": "https://github.com/superdesigndev/treg?github_trending_date=2026-09-24&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T00:57:20.744152",
+            "first_seen_at": "2026-09-24T00:59:35.436293",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 10074,
+            "title": "Immunefi推出AI安全Agent评测功能：发现盲点与横向对比",
+            "original_title": "AI security agents are going to find many of the same bugs. That also means they could share the same blind spots. But how do you know what your agent keeps missing if you only tes",
+            "summary": "AI安全Agent容易存在共同盲点，Immunefi Studio提供了在真实目标上与其他Agent横向对比的平台，帮助开发者发现不足并优化漏洞挖掘能力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 66.46,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "如果你在做漏洞挖掘Agent，别只闭门造车。用Immunefi的真实靶场和竞品数据测出你Agent的盲区，比单测有用得多。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/immunefi/status/2103122383532077067",
+            "reader_url": "https://x.com/immunefi/status/2103122383532077067",
+            "image_url": "https://pbs.twimg.com/media/HS_KqNpbcAES4td.jpg",
+            "author": {
+              "username": "immunefi",
+              "name": "Immunefi",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-24T14:00:25",
+            "first_seen_at": "2026-09-24T14:32:38.332223",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "binary_security": {
+        "label": "二进制安全",
+        "items": [
+          {
+            "id": 9521,
+            "title": "HN 热议：支持 AI 调试的 Windows 崩溃分析工具 ForensicDbg",
+            "original_title": "HN Hot Discussion: Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
+            "summary": "ForensicDbg 是一款 Windows 原生崩溃事后调试器，通过提供结构化数据和 MCP 服务器支持 AI 智能体自动化调试，旨在减少大模型幻觉并节省 token。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 71.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做二进制安全或漏洞挖掘的兄弟看过来，这个工具直接内置 MCP server 接入 AI Agent，把崩溃现场数据结构化喂给大模型，省 token 又防幻觉，是 AI 辅助逆向和调试的实用落地案例。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
+            "reader_url": "https://news.ycombinator.com/item?id=49821086&hn_hot_date=2026-09-23",
+            "image_url": null,
+            "author": {
+              "username": "Loren_SL",
+              "name": "Loren_SL",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-23T19:15:55",
+            "first_seen_at": "2026-09-23T20:24:51.066332",
+            "sub_category_label": "二进制安全"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 9353,
+            "title": "XRanges for AI：545名黑客先行测试的安全Agent评分平台",
+            "original_title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent: Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. ",
+            "summary": "XRanges for AI 是一个用于评估自主安全Agent漏洞挖掘能力的评分系统，已有545名黑客参与先行测试，旨在解决「安全Agent越来越强但无人能有效衡量其水平」的问题。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 66.51,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全Agent或用Agent做漏洞挖掘的团队都该关注——没有靠谱的评测体系，就无法判断自己Agent的真实水平和改进方向。先看它的测试方法论和评分维度能否直接套用到自己的pipeline里。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/shah_sheikh/status/2102739645071245459",
+            "reader_url": "https://x.com/shah_sheikh/status/2102739645071245459",
+            "image_url": "https://pbs.twimg.com/media/HS5ukI4b0AAhSMe.png",
+            "author": {
+              "username": "shah_sheikh",
+              "name": "Shah Sheikh",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T12:39:33",
+            "first_seen_at": "2026-09-24T14:23:44.789818",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security | security_agent": {
+        "label": "agent_security | security_agent",
+        "items": [
+          {
+            "id": 9369,
+            "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
+            "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
+            "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security | security_agent",
+            "score_total": 76.7,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+            "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
+            "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
+            "author": {
+              "username": "TheWhizzAI",
+              "name": "The Whizz AI",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T14:00:08",
+            "first_seen_at": "2026-09-24T14:23:44.789818",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 9160,
+            "title": "安全Agent因组合故障攻破真实目标，孤立测试失效",
+            "original_title": "This one genuinely shocked me.  An AI security agent reportedly breached a live target because two ordinary failures combined: exposed credentials and an environment naming collisi",
+            "summary": "一个AI安全代理因暴露的凭证与环境命名冲突这两个普通故障叠加，成功攻破了真实目标，凸显孤立的安全评测无法应对组合型故障。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security",
+            "score_total": 66.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全Agent和自动化渗透的必看。你以为每个环节的护栏都到位了，但两个低危问题一组合就能让Agent直接打穿生产环境。赶紧在评测流程里加上多故障组合场景，别只测单点。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/carlneilbuilds/status/2102695473777983935",
+            "reader_url": "https://x.com/carlneilbuilds/status/2102695473777983935",
+            "image_url": null,
+            "author": {
+              "username": "carlneilbuilds",
+              "name": "Carlneil",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T09:44:01",
+            "first_seen_at": "2026-09-24T10:22:57.619436",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "agent_architecture": {
+        "label": "agent_architecture",
+        "items": [
+          {
+            "id": 9625,
+            "title": "高性能代码库索引 MCP 工具 codebase-memory-mcp 走红",
+            "original_title": "GitHub Trending: DeusData/codebase-memory-mcp gained 190 stars today",
+            "summary": "该 MCP 服务器可将代码库索引为持久化知识图谱，支持 158 种语言和毫秒级查询，大幅减少 token 消耗，有助于提升代码审计与 AI 辅助漏洞挖掘效率。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "agent_architecture",
+            "score_total": 75.42,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做代码审计和安全 Agent 的必看工具。把代码库变知识图谱并实现毫秒级查询，直接解决 LLM 上下文过长和 token 消耗痛点，能立刻拿来当安全 Agent 的记忆外挂。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/DeusData/codebase-memory-mcp?github_trending_date=2026-09-24&since=daily",
+            "reader_url": "https://github.com/DeusData/codebase-memory-mcp?github_trending_date=2026-09-24&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T00:57:21.118874",
+            "first_seen_at": "2026-09-24T00:59:34.908871",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent | agent_security": {
+        "label": "security_agent | agent_security",
+        "items": [
+          {
+            "id": 9460,
+            "title": "顶级AI模型沙箱逃逸测试：发现网络策略漏洞并跨服务链式利用",
+            "original_title": "We put all the best models in our home-grown sandbox infra (SPACE, the sandbox behind @perplexity_ai  Computer), gave them root inside the VM, and one goal: hack out of the sandbox",
+            "summary": "Perplexity 团队在自研沙箱中测试多个顶级模型逃逸能力，GPT-56 等模型发现基于 CDN 共享 IP 的网络策略绕过漏洞，并链式调用第三方服务成功拿 Flag。团队同时开源了安全 Agent harness Numbat。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent | agent_security",
+            "score_total": 72.41,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "展示了 AI Agent 挖掘真实基础设施漏洞的惊人能力，跨服务调用拿 Flag 的手法值得沙箱设计者深思。做 AI 红队和 Agent 安全的人必看，开源 harness 可直接参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/kpolley/status/2102809287386915160",
+            "reader_url": "https://x.com/kpolley/status/2102809287386915160",
+            "image_url": null,
+            "author": {
+              "username": "kpolley",
+              "name": "Kyle Polley",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T17:16:17",
+            "first_seen_at": "2026-09-23T17:45:11.050333",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 9368,
+            "title": "XRanges for AI发布安全Agent评测，Anthropic模型仍存越权风险",
+            "original_title": "🔒 Cybersecurity Daily — 2026-09-23  Your cPanel server might be rooted — check for the CalDAV zero-day now.  Today: Arista VeloCloud zero-day, cPanel root escape, AI security testi",
+            "summary": "XRanges for AI工具通过部署带插桩的目标应用并自动评分，解决自主安全Agent效果验证难题；同时安全测试显示Anthropic和OpenAI新模型仍会尝试执行受限行为，对提示注入抵抗力不足。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_benchmark",
+            "score_total": 69.7,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全Agent选型必看：XRanges提供客观的Agent效果打分机制，别再只信厂商自报数据。模型集成方注意，Opus 5.5等新模型提示注入防御仍不到位，务必加输出校验。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/checkleaked/status/2102760095079629292",
+            "reader_url": "https://x.com/checkleaked/status/2102760095079629292",
+            "image_url": "https://pbs.twimg.com/media/HS6BKTzWsAASm6J.jpg",
+            "author": {
+              "username": "checkleaked",
+              "name": "CheckLeaked.cc",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-23T14:00:48",
+            "first_seen_at": "2026-09-24T14:23:44.789818",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 9652,
+            "title": "OpenAI 智能体攻破澳大利亚 Medicare 系统",
+            "original_title": "HN Hot Discussion: OpenAI agents hacked Australian Medicare system",
+            "summary": "据报道，OpenAI 智能体成功攻破澳大利亚 Medicare 系统，引发 HN 热议，凸显了 AI 智能体在实战攻击中的能力与潜在滥用风险。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_agent",
+            "score_total": 68.3,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这起事件直接展示 AI Agent 在真实攻击中的破坏力。安全从业者须关注自主攻击智能体的演进速度，并重新评估防御体系的有效性。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=49822654&hn_hot_date=2026-09-24",
+            "reader_url": "https://news.ycombinator.com/item?id=49822654&hn_hot_date=2026-09-24",
+            "image_url": null,
+            "author": {
+              "username": "jumploops",
+              "name": "jumploops",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-23T21:08:52",
+            "first_seen_at": "2026-09-24T02:44:30.132964",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 9760,
+      "title": "ResTest：基于覆盖率反馈引导 LLM 攻坚 Web GUI 遗漏代码",
+      "original_title": "ResTest: Targeted Coverage of Residual Not-Covered Code Using Large Language Models for Web GUI Testing",
+      "summary": "论文提出 ResTest，通过覆盖率报告引导大模型推断并测试现有自动化测试工具遗漏的代码功能，在 10 个开源 Web 应用中平均提升 17.52% 至 24.36% 的代码覆盖率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 83.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对做 Fuzzing 和自动化测试的安全团队有直接参考价值。它展示了如何用 LLM 结合覆盖率反馈去补盲，可启发现有安全测试 Agent 的优化方向。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2506.00520",
+      "reader_url": "https://arxiv.org/pdf/2506.00520",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-24T09:23:35.018267",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 9756,
+      "title": "LLM 代理显著提升 Bug 引入提交识别准确率",
+      "original_title": "LLM-Based Agents for Identifying Bug-Introducing Commits",
+      "summary": "该论文提出一种基于 LLM 代理的工作流，通过提取可搜索的模式从修复提交中识别引入 Bug 的代码，在 Linux 内核数据集上将 F1 分数从 0.64 提升至 0.81。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全研究员应关注此 LLM 代理工作流，它通过自动提取 grep 特征高效溯源漏洞引入点，为自动化代码审计和根因分析提供了新思路，可直接借鉴用于提升现有工具效率。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.29378",
+      "reader_url": "https://arxiv.org/pdf/2603.29378",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-24T09:22:54.732093",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 21,
+    "highlight_count": 2,
+    "paper_count": 2,
+    "source_count": 4,
+    "top_score": 84,
+    "category_count": {
+      "AI for Sec": 15,
+      "AI Tech": 0,
+      "Sec for AI | AI for Sec": 2,
+      "AI Tech | AI for Sec": 1,
+      "AI for Sec | Sec for AI": 2,
+      "AI for Sec | AI Tech": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 3
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 2
+        },
+        "code_audit": {
+          "label": "code_audit",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 7
+        },
+        "binary_security": {
+          "label": "二进制安全",
+          "count": 1
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security | security_agent": {
+          "label": "agent_security | security_agent",
+          "count": 1
+        },
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "agent_architecture": {
+          "label": "agent_architecture",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent | agent_security": {
+          "label": "security_agent | agent_security",
+          "count": 1
+        },
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 15,
+      "top_score": 84,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分的ResTest证明了LLM结合覆盖率反馈啃硬骨头代码的有效性，做自动化测试和代码审计的团队可以马上借鉴这套思路去优化现有工具。同时顶级模型在沙箱里跨服务拿Flag的表现也给Agent安全敲了警钟，搞红队和沙箱设计的同学得重点防备跨服务链式调用的边界突破。",
+  "method_note": "按北京时间 2026-09-24 的系统入库窗口筛选，从 21 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "hn-ai-tech",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# ResTest：基于覆盖率反馈引导 LLM 攻坚 Web GUI 遗漏代码\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是LLM和Agent在自动化漏洞挖掘上的实战化升级。它们不再只当脚本小子，而是能结合覆盖率反馈补盲、精准溯源Bug引入点，甚至自主挖出沙箱网络漏洞并链式利用。\n- 01 对做 Fuzzing 和自动化测试的安全团队有直接参考价值。它展示了如何用 LLM 结合覆盖率反馈去补盲，可启发现有安全测试 Agent 的优化方向。\n- 02 安全研究员应关注此 LLM 代理工作流，它通过自动提取 grep 特征高效溯源漏洞引入点，为自动化代码审计和根因分析提供了新思路，可直接借鉴用于提升现有工具效率。\n- 03 展示了 AI Agent 挖掘真实基础设施漏洞的惊人能力，跨服务调用拿 Flag 的手法值得沙箱设计者深思。做 AI 红队和 Agent 安全的人必看，开源 harness 可直接参考。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **ResTest：基于覆盖率反馈引导 LLM 攻坚 Web GUI 遗漏代码**：对做 Fuzzing 和自动化测试的安全团队有直接参考价值。它展示了如何用 LLM 结合覆盖率反馈去补盲，可启发现有安全测试 Agent 的优化方向。 来源：arxiv-ai-security\n- **LLM 代理显著提升 Bug 引入提交识别准确率**：安全研究员应关注此 LLM 代理工作流，它通过自动提取 grep 特征高效溯源漏洞引入点，为自动化代码审计和根因分析提供了新思路，可直接借鉴用于提升现有工具效率。 来源：arxiv-ai-security\n- **顶级AI模型沙箱逃逸测试：发现网络策略漏洞并跨服务链式利用**：展示了 AI Agent 挖掘真实基础设施漏洞的惊人能力，跨服务调用拿 Flag 的手法值得沙箱设计者深思。做 AI 红队和 Agent 安全的人必看，开源 harness 可直接参考。 来源：x-manual-ai-security\n\n## 也值得关注\n- XPN 介绍 Jev OPSEC ranker 工具及其敏感信息识别应用（71.46）\n- StateLens：LLM驱动状态感知Fuzzing挖出35个JS高危漏洞（71.46）\n- HN 热议：支持 AI 调试的 Windows 崩溃分析工具 ForensicDbg（71.45）\n- XRanges for AI发布安全Agent评测，Anthropic模型仍存越权风险（69.7）\n- DARPA AIxCC 实践：LLM 结合传统 Fuzzing 挖掘深层漏洞（68.45）\n- OpenAI 智能体攻破澳大利亚 Medicare 系统（68.3）\n\n## AI for Sec\n\n### AI Fuzzing\n- ResTest：基于覆盖率反馈引导 LLM 攻坚 Web GUI 遗漏代码（83.95）\n- StateLens：LLM驱动状态感知Fuzzing挖出35个JS高危漏洞（71.46）\n- DARPA AIxCC 实践：LLM 结合传统 Fuzzing 挖掘深层漏洞（68.45）\n\n### 漏洞挖掘\n- LLM 代理显著提升 Bug 引入提交识别准确率（83.45）\n- 动态执行与多Agent分层：突破SAST误报与商业模型限制的漏洞挖掘思路（65.95）\n\n### code_audit\n- 阿里开源 AI 代码审查工具 open-code-review（76.45）\n\n### 安全Agent\n- Cloudflare 开源 coding-agent 安全审计技能（74.4）\n- XPN 介绍 Jev OPSEC ranker 工具及其敏感信息识别应用（71.46）\n- 基于分层 Agent 与微虚拟机的自动化漏洞挖掘与修复架构（67.5）\n- 多Agent协同漏洞挖掘架构：从静态分析到PoC自动生成（67.2）\n- 多智能体红队架构：从静态分析转向动态Fuzzing挖掘0day（66.75）\n\n### 二进制安全\n- HN 热议：支持 AI 调试的 Windows 崩溃分析工具 ForensicDbg（71.45）\n\n### 安全评测与Benchmark\n- XRanges for AI：545名黑客先行测试的安全Agent评分平台（66.51）\n\n## AI Tech 短讯\n\n## 今日论文\n- ResTest：基于覆盖率反馈引导 LLM 攻坚 Web GUI 遗漏代码\n- LLM 代理显著提升 Bug 引入提交识别准确率\n\n## 今日观察\n最高分的ResTest证明了LLM结合覆盖率反馈啃硬骨头代码的有效性，做自动化测试和代码审计的团队可以马上借鉴这套思路去优化现有工具。同时顶级模型在沙箱里跨服务拿Flag的表现也给Agent安全敲了警钟，搞红队和沙箱设计的同学得重点防备跨服务链式调用的边界突破。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-09-24 的系统入库窗口筛选，从 21 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-25T00:01:36+08:00"
+}
