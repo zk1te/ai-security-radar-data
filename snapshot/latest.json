@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T04:10:27+08:00",
+  "updated_at": "2026-09-26T04:40:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -70,30 +70,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 10383,
-      "title": "HN 热议：Jev Based Code Review 代码审计工具",
-      "original_title": "HN Hot Discussion: Jev Based Code Review",
-      "summary": "Hacker News 热议了一款名为 Jev Based Code Review 的 AI 代码审查工具，其源码托管在 GitHub 上。",
-      "primary_category": "AI for Sec",
-      "sub_category": "code_analysis",
-      "score_total": 70.47,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 赋能代码审查是提升研发安全效能的关键环节。安全团队应关注此类开源工具的实际效果与误报率，评估是否可将其集成到现有 DevSecOps 流程中。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49840300&hn_hot_date=2026-09-25",
-      "reader_url": "https://news.ycombinator.com/item?id=49840300&hn_hot_date=2026-09-25",
-      "image_url": null,
-      "author": {
-        "username": "namanbhulawat",
-        "name": "namanbhulawat",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-25T04:49:23",
-      "first_seen_at": "2026-09-25T08:11:49.516813",
-      "sub_category_label": "代码分析"
-    },
-    {
       "id": 10628,
       "title": "Palo Alto 推出多模型持续攻防管线 Unit 42",
       "original_title": "Palo Alto Networks is turning frontier models into a continuous offensive-security pipeline.  Its new Unit 42 Continuous Frontier AI Defense combines Claude Mythos, OpenAI cyber mo",
@@ -141,31 +117,6 @@
       },
       "published_at": "2026-09-25T13:41:07",
       "first_seen_at": "2026-09-25T14:08:06.893490",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 10385,
-      "title": "GitHub 安全实验室推出 AI 自动 Fuzzing 开源项目工具",
-      "original_title": "解压软件碰到一个怪压缩包，直接闪退。聊天软件读到一份坏文件，卡死。很多时候不是 App 本身花哨，是底下那截拆文件、读图片、解析数据的老代码被一份畸形输入砸穿了。  以前找这种洞，得有人干一件很笨的活：专门写程序，往软件里不停塞乱七八糟的输入，看它往哪条路上摔。这就叫 fuzzing。有点像拿着锤子乱砸门锁，看哪把会松。  昨天 GitHub 安全实验室把这",
-      "summary": "GitHub 安全实验室发布新工具，利用 Claude 5 Sonnet 自动分析开源仓库并执行 Fuzzing 以发现潜在崩溃漏洞，提醒用户需在隔离环境中运行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 自动化 Fuzzing 直接影响漏洞挖掘效率，安全研究员和开源维护者应关注其工作流及执行风险，评估将其接入现有代码审计流程的可行性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/WukongNumber1/status/2103393162958156282",
-      "reader_url": "https://x.com/WukongNumber1/status/2103393162958156282",
-      "image_url": "https://pbs.twimg.com/media/HTDA7zbaIAAGxRB.png",
-      "author": {
-        "username": "WukongNumber1",
-        "name": "Wukong",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-25T07:56:23",
-      "first_seen_at": "2026-09-25T08:28:53.233998",
       "sub_category_label": "AI Fuzzing"
     },
     {
@@ -242,6 +193,56 @@
       "published_at": "2026-09-25T08:31:05",
       "first_seen_at": "2026-09-25T09:01:18.791777",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 10679,
+      "title": "NetExec 接入 MCP：让 AI 直接调用内网渗透工具",
+      "original_title": "RT @mpgn_x64: If you want to know more about netexec-mcp, I wrote a short article 😀      https://t.co/apr6Ab0WhL",
+      "summary": "安全研究员 mpgn_x64 发文介绍了 netexec-mcp，该组件将知名内网渗透工具 NetExec 接入模型上下文协议（MCP），使 AI Agent 能够直接调用其进行内网自动化扫描与攻击测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.63,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "将红队核心工具 NetExec 桥接给 AI Agent 是自动化渗透的实务落地。做自动化攻防的红队成员应关注此桥接方式，评估 Agent 驱动内网横向移动的可行性与风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2103439208237154448",
+      "reader_url": "https://x.com/pentest_swissky/status/2103439208237154448",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-09-25T10:59:21",
+      "first_seen_at": "2026-09-25T11:25:29.023272",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10724,
+      "title": "Google安全Agent PageBreak验证超500个XSS漏洞",
+      "original_title": "NEWS: GOOGLE AGENT FOUND OVER 500 XSS BUGS  > Google's PageBreak security agent verified over 500 cross-site scripting bugs across first-party Google web apps.  > It uses determini",
+      "summary": "谷歌内部安全 Agent PageBreak 通过确定性验证器运行真实 payload，在第一方 Web 应用中验证了超 500 个 XSS 漏洞，确保仅将已验证结果发送给产品团队。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是AI Agent落地真实漏洞挖掘的标杆案例。安全团队可借鉴其「AI生成假设+确定性验证过滤」的工作流模式，有效降低误报率并提高产出质量。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AIScientist_X/status/2103482073843429702",
+      "reader_url": "https://x.com/AIScientist_X/status/2103482073843429702",
+      "image_url": null,
+      "author": {
+        "username": "AIScientist_X",
+        "name": "AI Scientist",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T13:49:41",
+      "first_seen_at": "2026-09-25T14:08:06.424762",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
