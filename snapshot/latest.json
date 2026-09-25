@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-25T15:36:04+08:00",
+  "updated_at": "2026-09-25T16:06:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 9537,
@@ -105,6 +105,56 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 10379,
+      "title": "Google PageBreak Agent 发现超 500 个 XSS 漏洞",
+      "original_title": "Google says its PageBreak security #agent found 500+ XSS vulnerabilities.  The architecture is the real lesson: the model proposes; deterministic validators prove the exploit.  For",
+      "summary": "Google 的 PageBreak 安全 Agent 发现了超 500 个 XSS 漏洞，其核心设计原则是模型负责提议，确定性验证器负责证明，强调生产级 Agent 必须通过验证闭环。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.99,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全 Agent 开发者必看。这不仅是成果展示，更给出了可落地的架构原则：用确定性工具验证模型的漏洞猜测，解决 LLM 幻觉问题。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/waj33hgillani/status/2103386664068644869",
+      "reader_url": "https://x.com/waj33hgillani/status/2103386664068644869",
+      "image_url": null,
+      "author": {
+        "username": "waj33hgillani",
+        "name": "Wajeeh ul Hassan",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T07:30:34",
+      "first_seen_at": "2026-09-25T07:55:45.594025",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10381,
+      "title": "Pentest Swarm AI开源：从扫描到自动化渗透",
+      "original_title": "\"Is this just a vulnerability scanner with extra steps?\"  Not really. A vulnerability scanner tells you what might be vulnerable. A pentester proves what an attacker can actually d",
+      "summary": "Pentest Swarm AI 是一款开源、可自托管的 AI 渗透测试集群，通过实际利用 SQL 注入、SSRF、竞态条件等漏洞来验证攻击路径，弥补传统扫描器无法证明实际危害的不足。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可试用此开源 AI 渗透 Agent，评估其在自动化漏洞验证及业务逻辑漏洞挖掘上的实战效果，替代部分人工验证工作。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AkhilAiri/status/2103381714051772860",
+      "reader_url": "https://x.com/AkhilAiri/status/2103381714051772860",
+      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HTC2ZkzagAAYoyC.jpg",
+      "author": {
+        "username": "AkhilAiri",
+        "name": "Akhil Sharma 🧠 System Design",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T07:10:54",
+      "first_seen_at": "2026-09-25T07:56:09.980958",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 10339,
       "title": "GitHub Security Lab 开源 AI 自动化 Fuzzing 工具流",
       "original_title": "【24小时速递】  清华大学深圳国际研究生院机器人实验室在 Hugging Face 放出 VeriLoop E2，基于 Qwen3.8-27B 做后训练的 27B 开源权重，协议 Apache-2.0。模型卡写原生上下文 262144 token，公开推荐的 vLLM 服务窗口是 131072。官方九项公开评测里，SWE-bench Pro 76.2%、T",
@@ -153,31 +203,6 @@
       "published_at": "2026-09-25T01:09:53",
       "first_seen_at": "2026-09-25T01:25:57.624168",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 10346,
-      "title": "Google 发布 AI Web 安全扫描器 PageBreak 博客",
-      "original_title": "RT @SecurityMB: We just published two blog posts about PageBreak, Google's AI web security scanner (that I've helped develop for the better…",
-      "summary": "著名安全研究员 Michal Bentkowski 参与开发的 Google AI Web 安全扫描器 PageBreak 发布了两篇相关博客。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 68.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队和 Web 漏洞挖掘人员应重点关注，Google 官方下场做 AI 安全扫描器，提供了大厂级别的 AI for Sec 实践标杆，看博客能学到他们怎么设计和规避大模型的幻觉坑。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2103312783127535975",
-      "reader_url": "https://x.com/soaphornseuo/status/2103312783127535975",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null,
-        "followers_count": 2488
-      },
-      "published_at": "2026-09-25T02:36:59",
-      "first_seen_at": "2026-09-25T04:42:27.983569",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
