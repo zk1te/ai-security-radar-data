@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-26T01:09:02+08:00",
+  "updated_at": "2026-09-26T02:40:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 10689,
@@ -222,6 +222,31 @@
       "published_at": "2026-09-24T10:19:00",
       "first_seen_at": "2026-09-25T12:26:02.255451",
       "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 10500,
+      "title": "GitHub 安全实验室推出自主模糊测试管线",
+      "original_title": "GitHub Security Lab released an autonomous fuzzing pipeline yesterday and this is much closer to how I like seeing LLMs used in security  the model isn't the oracle and it isnt rep",
+      "summary": "GitHub 安全实验室发布自主模糊测试管线，让 LLM 负责挑选目标、编写 harness 和分析覆盖率，执行仍由 AFL++ 等传统工具完成，已在 Oniguruma 中发现真实漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 67.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "模型当导航、fuzzer 找真相的架构值得安全自动化团队借鉴。不想让 LLM 当神谕的从业者，快来看看这种真实落地的 Fuzzing Agent 是怎么分工的。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xcatalin/status/2103426378506887339",
+      "reader_url": "https://x.com/0xcatalin/status/2103426378506887339",
+      "image_url": null,
+      "author": {
+        "username": "0xcatalin",
+        "name": "catalin",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T10:08:23",
+      "first_seen_at": "2026-09-25T10:12:01.036348",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
