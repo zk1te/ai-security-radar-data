@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T22:37:47+08:00",
+  "updated_at": "2026-09-26T00:38:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -149,31 +149,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 10339,
-      "title": "GitHub Security Lab 开源 AI 自动化 Fuzzing 工具流",
-      "original_title": "【24小时速递】  清华大学深圳国际研究生院机器人实验室在 Hugging Face 放出 VeriLoop E2，基于 Qwen3.8-27B 做后训练的 27B 开源权重，协议 Apache-2.0。模型卡写原生上下文 262144 token，公开推荐的 vLLM 服务窗口是 131072。官方九项公开评测里，SWE-bench Pro 76.2%、T",
-      "summary": "GitHub Security Lab 开源了 Fuzzing Taskflow，可自动为 C/C++ 项目生成 harness 并用 AFL++ 挖洞；此外清华深研院发布了 VeriLoop E2 模型并在多项软件工程评测中取得高分。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "fuzzing",
-      "score_total": 69.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者必看。GitHub 开源了全自动 AI Fuzzing 工具流，自动生成 harness 并提报漏洞，拿来即用。建议直接在可丢弃环境跑 cJSON 测试，评估大模型生成 harness 的实战能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pysimpom/status/2103335417290395879",
-      "reader_url": "https://x.com/pysimpom/status/2103335417290395879",
-      "image_url": "https://pbs.twimg.com/media/HTCMRy2WUAAk_7p.jpg",
-      "author": {
-        "username": "pysimpom",
-        "name": "fake sensei",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-25T04:06:56",
-      "first_seen_at": "2026-09-25T04:10:44.583516",
-      "sub_category_label": null
-    },
-    {
       "id": 10725,
       "title": "GitHub开源C/C++ AI Fuzzing管道，自动化写Harness",
       "original_title": "GitHub just published an open-source AI fuzzing pipeline for C and C++.  Point it at a repo and the agent can find entry points, write harnesses, run AFL++, chase coverage gaps, tr",
@@ -222,6 +197,31 @@
       "published_at": "2026-09-25T07:56:23",
       "first_seen_at": "2026-09-25T08:28:53.233998",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 10346,
+      "title": "Google 发布 AI Web 安全扫描器 PageBreak 博客",
+      "original_title": "RT @SecurityMB: We just published two blog posts about PageBreak, Google's AI web security scanner (that I've helped develop for the better…",
+      "summary": "著名安全研究员 Michal Bentkowski 参与开发的 Google AI Web 安全扫描器 PageBreak 发布了两篇相关博客。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和 Web 漏洞挖掘人员应重点关注，Google 官方下场做 AI 安全扫描器，提供了大厂级别的 AI for Sec 实践标杆，看博客能学到他们怎么设计和规避大模型的幻觉坑。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/soaphornseuo/status/2103312783127535975",
+      "reader_url": "https://x.com/soaphornseuo/status/2103312783127535975",
+      "image_url": null,
+      "author": {
+        "username": "soaphornseuo",
+        "name": "soaphorn seuo",
+        "avatar_url": null,
+        "followers_count": 2488
+      },
+      "published_at": "2026-09-25T02:36:59",
+      "first_seen_at": "2026-09-25T04:42:27.983569",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
