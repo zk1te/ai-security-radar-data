@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T18:36:34+08:00",
+  "updated_at": "2026-09-25T19:06:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -27,6 +27,31 @@
       "published_at": "2026-09-25T04:49:23",
       "first_seen_at": "2026-09-25T08:11:49.516813",
       "sub_category_label": "代码分析"
+    },
+    {
+      "id": 10628,
+      "title": "Palo Alto 推出多模型持续攻防管线 Unit 42",
+      "original_title": "Palo Alto Networks is turning frontier models into a continuous offensive-security pipeline.  Its new Unit 42 Continuous Frontier AI Defense combines Claude Mythos, OpenAI cyber mo",
+      "summary": "Palo Alto Unit 42 推出 Continuous Frontier AI Defense，结合 Claude Mythos、OpenAI 网络模型与开源模型，构建多模型编排的持续漏洞发现与验证管线，并强调模型路由与边界控制。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了前沿模型在产业级渗透测试中的落地架构，多模型编排策略和边界控制值得安全团队借鉴。关注它如何把 Claude Mythos 等模型路由到不同安全任务上。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/probiex007/status/2103428667053666623",
+      "reader_url": "https://x.com/probiex007/status/2103428667053666623",
+      "image_url": "https://pbs.twimg.com/media/HTDhLv2aAAA_RzG.jpg",
+      "author": {
+        "username": "probiex007",
+        "name": "probiex007",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T10:17:28",
+      "first_seen_at": "2026-09-25T10:50:56.788354",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 10379,
@@ -177,31 +202,6 @@
       "published_at": "2026-09-25T02:36:59",
       "first_seen_at": "2026-09-25T04:42:27.983569",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 10500,
-      "title": "GitHub 安全实验室推出自主模糊测试管线",
-      "original_title": "GitHub Security Lab released an autonomous fuzzing pipeline yesterday and this is much closer to how I like seeing LLMs used in security  the model isn't the oracle and it isnt rep",
-      "summary": "GitHub 安全实验室发布自主模糊测试管线，让 LLM 负责挑选目标、编写 harness 和分析覆盖率，执行仍由 AFL++ 等传统工具完成，已在 Oniguruma 中发现真实漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 67.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "模型当导航、fuzzer 找真相的架构值得安全自动化团队借鉴。不想让 LLM 当神谕的从业者，快来看看这种真实落地的 Fuzzing Agent 是怎么分工的。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xcatalin/status/2103426378506887339",
-      "reader_url": "https://x.com/0xcatalin/status/2103426378506887339",
-      "image_url": null,
-      "author": {
-        "username": "0xcatalin",
-        "name": "catalin",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-25T10:08:23",
-      "first_seen_at": "2026-09-25T10:12:01.036348",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
