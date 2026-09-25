@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T21:07:20+08:00",
+  "updated_at": "2026-09-25T21:37:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -174,31 +174,6 @@
       "sub_category_label": null
     },
     {
-      "id": 10300,
-      "title": "GitHub安全实验室推出基于LLM的Fuzzing Taskflow智能体管线",
-      "original_title": "BestBlogs Daily · 09-25  # Every product labs / Elastic atomic claims / Thoughtworks peer feedback / Claude code modernization / Meta multimodal agents  [1] ★ Deep Dive · How to bu",
-      "summary": "GitHub安全实验室发布Fuzzing Taskflow，利用LLM智能体和MCP工具自动化C/C++项目的harness编写、覆盖率优化与崩溃分类。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.96,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "GitHub安全实验室把LLM Agent和MCP直接用到Fuzzing流水线上了，做漏洞挖掘和模糊测试的团队必须看，评估能否直接替换或增强现有harness编写和crash分析流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/BestBlogsDev/status/2103290862952436090",
-      "reader_url": "https://x.com/BestBlogsDev/status/2103290862952436090",
-      "image_url": null,
-      "author": {
-        "username": "BestBlogsDev",
-        "name": "BestBlogs",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-25T01:09:53",
-      "first_seen_at": "2026-09-25T01:25:57.624168",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 10385,
       "title": "GitHub 安全实验室推出 AI 自动 Fuzzing 开源项目工具",
       "original_title": "解压软件碰到一个怪压缩包，直接闪退。聊天软件读到一份坏文件，卡死。很多时候不是 App 本身花哨，是底下那截拆文件、读图片、解析数据的老代码被一份畸形输入砸穿了。  以前找这种洞，得有人干一件很笨的活：专门写程序，往软件里不停塞乱七八糟的输入，看它往哪条路上摔。这就叫 fuzzing。有点像拿着锤子乱砸门锁，看哪把会松。  昨天 GitHub 安全实验室把这",
@@ -222,6 +197,31 @@
       "published_at": "2026-09-25T07:56:23",
       "first_seen_at": "2026-09-25T08:28:53.233998",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 10346,
+      "title": "Google 发布 AI Web 安全扫描器 PageBreak 博客",
+      "original_title": "RT @SecurityMB: We just published two blog posts about PageBreak, Google's AI web security scanner (that I've helped develop for the better…",
+      "summary": "著名安全研究员 Michal Bentkowski 参与开发的 Google AI Web 安全扫描器 PageBreak 发布了两篇相关博客。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和 Web 漏洞挖掘人员应重点关注，Google 官方下场做 AI 安全扫描器，提供了大厂级别的 AI for Sec 实践标杆，看博客能学到他们怎么设计和规避大模型的幻觉坑。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/soaphornseuo/status/2103312783127535975",
+      "reader_url": "https://x.com/soaphornseuo/status/2103312783127535975",
+      "image_url": null,
+      "author": {
+        "username": "soaphornseuo",
+        "name": "soaphorn seuo",
+        "avatar_url": null,
+        "followers_count": 2488
+      },
+      "published_at": "2026-09-25T02:36:59",
+      "first_seen_at": "2026-09-25T04:42:27.983569",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
