@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-09-25T19:06:38+08:00",
+  "updated_at": "2026-09-25T19:36:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
+    {
+      "id": 10689,
+      "title": "Cloudflare 开源 AI 安全审计技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 开源了一个专为编码 Agent 设计的安全审计 Skill，支持多阶段审计并能输出可独立验证的机器可读结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "为 AI Agent 赋能安全审计能力是当前落地方向，该工具将多阶段审计流程与 Agent 结合，值得安全研发团队参考并集成进自动化流水线。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-25&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-25&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T11:31:50.409414",
+      "first_seen_at": "2026-09-25T11:32:19.686738",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 10383,
       "title": "HN 热议：Jev Based Code Review 代码审计工具",
@@ -177,31 +197,6 @@
       "published_at": "2026-09-25T07:56:23",
       "first_seen_at": "2026-09-25T08:28:53.233998",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 10346,
-      "title": "Google 发布 AI Web 安全扫描器 PageBreak 博客",
-      "original_title": "RT @SecurityMB: We just published two blog posts about PageBreak, Google's AI web security scanner (that I've helped develop for the better…",
-      "summary": "著名安全研究员 Michal Bentkowski 参与开发的 Google AI Web 安全扫描器 PageBreak 发布了两篇相关博客。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 68.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队和 Web 漏洞挖掘人员应重点关注，Google 官方下场做 AI 安全扫描器，提供了大厂级别的 AI for Sec 实践标杆，看博客能学到他们怎么设计和规避大模型的幻觉坑。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2103312783127535975",
-      "reader_url": "https://x.com/soaphornseuo/status/2103312783127535975",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null,
-        "followers_count": 2488
-      },
-      "published_at": "2026-09-25T02:36:59",
-      "first_seen_at": "2026-09-25T04:42:27.983569",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
