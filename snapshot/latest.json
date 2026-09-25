@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T16:06:08+08:00",
+  "updated_at": "2026-09-25T16:36:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -30,79 +30,28 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 8663,
-      "title": "Vigolium v0.5.0 发布：专为 AI Agent 打造的 DAST 与 Fuzzing 工具",
-      "original_title": "I just released @Vigolium v0.5.0 aiming to be the best DAST for your coding agent to drive   And a drop-in for the common recon tools, from probing to fuzzing. Natively supported, ",
-      "summary": "新发布的开源工具 Vigolium v0.5.0 定位为面向编码代理的 DAST 工具，可替代常见侦察工具，原生支持从探测到模糊测试的自动化安全任务。",
+      "id": 10383,
+      "title": "HN 热议：Jev Based Code Review 代码审计工具",
+      "original_title": "HN Hot Discussion: Jev Based Code Review",
+      "summary": "Hacker News 热议了一款名为 Jev Based Code Review 的 AI 代码审查工具，其源码托管在 GitHub 上。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.87,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做 AI 安全自动化和渗透测试的必看。它将 DAST 和 Fuzzing 能力直接接入 Coding Agent 工作流，安全团队可借此集成测试 Agent 的漏洞挖掘闭环效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/j3ssie/status/2102402427366642030",
-      "reader_url": "https://x.com/j3ssie/status/2102402427366642030",
-      "image_url": "https://pbs.twimg.com/media/HS07K2ea8AAcQBd.jpg",
-      "author": {
-        "username": "j3ssie",
-        "name": "Jessie Ho",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-22T14:19:34",
-      "first_seen_at": "2026-09-24T20:24:11.965233",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 8645,
-      "title": "Aikido 推出开源安全模型 Altar-1，支持本地部署",
-      "original_title": "Aikido Altar-1..Security model 開始直接搬回客戶機房  @AikidoSecurity  新出的 Altar-1 幾有意思..504B security model 壓到 328GB，可用 4×H200 自己部署  重點唔只係 open weight Security agent 要讀的往往係公司最敏感的 code 同 atta",
-      "summary": "Aikido Security 发布开源权重安全模型 Altar-1，支持在 4×H200 上本地部署，以满足安全 Agent 处理敏感代码和攻击面时的数据隐私需求。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.53,
+      "sub_category": "code_analysis",
+      "score_total": 70.47,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做安全 Agent 的团队该看。处理客户敏感代码和攻击面时，本地化推理往往是刚需。Altar-1 提供了开箱即用的开源权重方案，值得一测。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/shenshanni/status/2102380388823830687",
-      "reader_url": "https://x.com/shenshanni/status/2102380388823830687",
+      "recommendation_reason": "AI 赋能代码审查是提升研发安全效能的关键环节。安全团队应关注此类开源工具的实际效果与误报率，评估是否可将其集成到现有 DevSecOps 流程中。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49840300&hn_hot_date=2026-09-25",
+      "reader_url": "https://news.ycombinator.com/item?id=49840300&hn_hot_date=2026-09-25",
       "image_url": null,
       "author": {
-        "username": "shenshanni",
-        "name": "AI IT PM in HK",
-        "avatar_url": null,
-        "followers_count": 0
+        "username": "namanbhulawat",
+        "name": "namanbhulawat",
+        "avatar_url": null
       },
-      "published_at": "2026-09-22T12:51:59",
-      "first_seen_at": "2026-09-24T20:24:11.965233",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 8644,
-      "title": "开源AI自主渗透测试框架PHALANX发布",
-      "original_title": "“A tool you might have seen in Mandiant threat reports.”  PHALANX is an open-source, AI-driven autonomous penetration testing framework featuring multi-agent orchestration, attack ",
-      "summary": "PHALANX是一个开源AI驱动的自主渗透测试框架，具备多智能体编排、攻击图分析以及集成58+安全工具的能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.44,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和攻防人员应关注该项目。它将多智能体与58+常用安全工具编排，能自动化完成渗透测试闭环，可评估其能否替代部分人工红队工作。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DragonsCyberHQ/status/2102380470289780763",
-      "reader_url": "https://x.com/DragonsCyberHQ/status/2102380470289780763",
-      "image_url": null,
-      "author": {
-        "username": "DragonsCyberHQ",
-        "name": "Dragons Community 🪽",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-22T12:52:19",
-      "first_seen_at": "2026-09-24T20:24:11.965233",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-09-25T04:49:23",
+      "first_seen_at": "2026-09-25T08:11:49.516813",
+      "sub_category_label": "代码分析"
     },
     {
       "id": 10379,
@@ -203,6 +152,56 @@
       "published_at": "2026-09-25T01:09:53",
       "first_seen_at": "2026-09-25T01:25:57.624168",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 10385,
+      "title": "GitHub 安全实验室推出 AI 自动 Fuzzing 开源项目工具",
+      "original_title": "解压软件碰到一个怪压缩包，直接闪退。聊天软件读到一份坏文件，卡死。很多时候不是 App 本身花哨，是底下那截拆文件、读图片、解析数据的老代码被一份畸形输入砸穿了。  以前找这种洞，得有人干一件很笨的活：专门写程序，往软件里不停塞乱七八糟的输入，看它往哪条路上摔。这就叫 fuzzing。有点像拿着锤子乱砸门锁，看哪把会松。  昨天 GitHub 安全实验室把这",
+      "summary": "GitHub 安全实验室发布新工具，利用 Claude 5 Sonnet 自动分析开源仓库并执行 Fuzzing 以发现潜在崩溃漏洞，提醒用户需在隔离环境中运行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 自动化 Fuzzing 直接影响漏洞挖掘效率，安全研究员和开源维护者应关注其工作流及执行风险，评估将其接入现有代码审计流程的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/WukongNumber1/status/2103393162958156282",
+      "reader_url": "https://x.com/WukongNumber1/status/2103393162958156282",
+      "image_url": "https://pbs.twimg.com/media/HTDA7zbaIAAGxRB.png",
+      "author": {
+        "username": "WukongNumber1",
+        "name": "Wukong",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T07:56:23",
+      "first_seen_at": "2026-09-25T08:28:53.233998",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 10346,
+      "title": "Google 发布 AI Web 安全扫描器 PageBreak 博客",
+      "original_title": "RT @SecurityMB: We just published two blog posts about PageBreak, Google's AI web security scanner (that I've helped develop for the better…",
+      "summary": "著名安全研究员 Michal Bentkowski 参与开发的 Google AI Web 安全扫描器 PageBreak 发布了两篇相关博客。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和 Web 漏洞挖掘人员应重点关注，Google 官方下场做 AI 安全扫描器，提供了大厂级别的 AI for Sec 实践标杆，看博客能学到他们怎么设计和规避大模型的幻觉坑。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/soaphornseuo/status/2103312783127535975",
+      "reader_url": "https://x.com/soaphornseuo/status/2103312783127535975",
+      "image_url": null,
+      "author": {
+        "username": "soaphornseuo",
+        "name": "soaphorn seuo",
+        "avatar_url": null,
+        "followers_count": 2488
+      },
+      "published_at": "2026-09-25T02:36:59",
+      "first_seen_at": "2026-09-25T04:42:27.983569",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
