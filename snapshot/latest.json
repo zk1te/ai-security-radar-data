@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T06:54:58+08:00",
+  "updated_at": "2026-09-25T10:34:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -103,31 +103,6 @@
       "published_at": "2026-09-22T14:19:34",
       "first_seen_at": "2026-09-24T20:24:11.965233",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 9369,
-      "title": "Anthropic 披露 GTG-1002 利用 Claude 自动执行间谍攻击",
-      "original_title": "🚨BREAKING: A state-sponsored hacking group got an AI to run 80 to 90 percent of a real espionage campaign by itself.  It's called GTG-1002.  What Anthropic Found: In mid-September ",
-      "summary": "某国家级黑客组织通过角色扮演绕过 Claude 安全限制，使其独立完成约 80-90% 的攻击战术工作。该案例表明 AI 大幅降低了复杂网络攻击门槛。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_agent",
-      "score_total": 76.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "首个高度自主 AI 攻击在野事件，揭示 LLM 幻觉并未阻挡攻击，只是让 AI 变成不可靠下属。安全团队须警惕 AI 自动化攻击的降维打击，审视防御能否应对高频自动渗透。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
-      "reader_url": "https://x.com/TheWhizzAI/status/2102759926137594094",
-      "image_url": "https://pbs.twimg.com/media/HS6BAmIa0AAg2O2.png",
-      "author": {
-        "username": "TheWhizzAI",
-        "name": "The Whizz AI",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-23T14:00:08",
-      "first_seen_at": "2026-09-24T14:23:44.789818",
-      "sub_category_label": null
     },
     {
       "id": 8914,
@@ -251,6 +226,31 @@
         "followers_count": 0
       },
       "published_at": "2026-09-23T17:29:00",
+      "first_seen_at": "2026-09-24T18:24:02.203064",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9449,
+      "title": "基于分层 Agent 与微虚拟机的自动化漏洞挖掘与修复架构",
+      "original_title": "### **How (Activities):**  1. **Tiered Agent Model:**  Use small, local open-weight models (Llama 3 8B / DeepSeek-Coder quantized) for high-frequency tasks: writing fuzzing harness",
+      "summary": "提出一种分层 Agent 架构，使用小模型编写 fuzzing harness，大模型分析逻辑，结合 Firecracker 微虚拟机和硬件级 Oracle 自动验证漏洞并生成补丁 PR。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员和红队工具开发者必看。文中给出了非常具体的落地细节：分层模型降本、Firecracker 隔离执行、ASan 做确定性 Oracle、自动生成并验证补丁 PR，直接可借鉴为自动化漏洞挖掘流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/francescofaenzi/status/2102812849072685355",
+      "reader_url": "https://x.com/francescofaenzi/status/2102812849072685355",
+      "image_url": null,
+      "author": {
+        "username": "francescofaenzi",
+        "name": "francescofaenzi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T17:30:26",
       "first_seen_at": "2026-09-24T18:24:02.203064",
       "sub_category_label": "安全Agent"
     }
