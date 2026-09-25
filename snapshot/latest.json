@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T10:34:59+08:00",
+  "updated_at": "2026-09-25T12:35:27+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -130,31 +130,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 9410,
-      "title": "XRanges for AI：基于行为遥测评估自主安全Agent的新基准",
-      "original_title": "🤖⚔️ 545 HUMAN HACKERS HELPED BUILD A NEW BENCHMARK FOR AUTONOMOUS SECURITY AGENTS  AI security agents can generate impressive vulnerability reports.  But there's a problem:  How do",
-      "summary": "XRanges for AI 通过部署带插桩的真实靶标监控 Agent 的实际操作行为，而非仅评分漏洞报告，以验证自主渗透测试 Agent 是否真正完成漏洞利用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 75.42,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "解决安全Agent评测中只看报告不看实际利用的痛点。安全团队评估自动化渗透工具时，可参考其基于行为遥测的评分思路，避免被大模型生成的假阳性报告误导。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/XQOPTRX/status/2102786911735533728",
-      "reader_url": "https://x.com/XQOPTRX/status/2102786911735533728",
-      "image_url": null,
-      "author": {
-        "username": "XQOPTRX",
-        "name": "CyberSignal | Cybersecurity & AI News",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-23T15:47:22",
-      "first_seen_at": "2026-09-24T16:23:53.806298",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 8645,
       "title": "Aikido 推出开源安全模型 Altar-1，支持本地部署",
       "original_title": "Aikido Altar-1..Security model 開始直接搬回客戶機房  @AikidoSecurity  新出的 Altar-1 幾有意思..504B security model 壓到 328GB，可用 4×H200 自己部署  重點唔只係 open weight Security agent 要讀的往往係公司最敏感的 code 同 atta",
@@ -253,6 +228,31 @@
       "published_at": "2026-09-23T17:30:26",
       "first_seen_at": "2026-09-24T18:24:02.203064",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9453,
+      "title": "大模型辅助漏洞挖掘新构想：内存布局解耦与算力动态降级",
+      "original_title": "#### **Contrarian Ideas & Unanticipated Solutions:**  * **Decoupled Memory Layout Injection:**  Instead of making the agent write the entire exploit from scratch, use deterministic",
+      "summary": "提出两种结合 LLM 和确定性工具的漏洞挖掘思路：一是解耦内存布局与 payload 生成，LLM 仅负责生成填入预设计状态的 payload；二是根据目标复杂度动态分配算力，在无进展时降级为廉价模型进行随机 fuzzing。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给做自动化漏洞挖掘和 Agent 的人看。用确定性工具做堆风水、LLM 只写 payload 结构，思路非常落地；按成本降级模型的做法也能直接抄进自研 Agent 的成本控制逻辑里。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/francescofaenzi/status/2102812711486894350",
+      "reader_url": "https://x.com/francescofaenzi/status/2102812711486894350",
+      "image_url": null,
+      "author": {
+        "username": "francescofaenzi",
+        "name": "francescofaenzi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-23T17:29:53",
+      "first_seen_at": "2026-09-24T18:24:02.203064",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
