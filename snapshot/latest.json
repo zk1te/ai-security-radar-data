@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T00:38:53+08:00",
+  "updated_at": "2026-09-26T01:09:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -199,29 +199,29 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 10346,
-      "title": "Google 发布 AI Web 安全扫描器 PageBreak 博客",
-      "original_title": "RT @SecurityMB: We just published two blog posts about PageBreak, Google's AI web security scanner (that I've helped develop for the better…",
-      "summary": "著名安全研究员 Michal Bentkowski 参与开发的 Google AI Web 安全扫描器 PageBreak 发布了两篇相关博客。",
+      "id": 9965,
+      "title": "Rust编写的Web安全扫描器Lonkero发布",
+      "original_title": "🛡️ Lonkero — Web Security Scanner  A professional-grade Rust-based scanner built for real penetration testing.  🔍 125+ scanners 🧠 Intelligent scanning ⚡ Fast & modular 🦀 Rust 🎯 Att",
+      "summary": "Lonkero 是一款基于 Rust 的专业级 Web 安全扫描器，内置 125+ 扫描模块，覆盖 XSS、SQLi、SSRF 等，并引入了 ML 辅助检测和 AI 测试功能。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 68.26,
+      "sub_category": "penetration_testing",
+      "score_total": 68.2,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全团队和 Web 漏洞挖掘人员应重点关注，Google 官方下场做 AI 安全扫描器，提供了大厂级别的 AI for Sec 实践标杆，看博客能学到他们怎么设计和规避大模型的幻觉坑。",
+      "recommendation_reason": "渗透测试人员和红队可关注该工具的 ML 辅助检测和 AI 测试能力，评估其相比传统扫描器在误报率和攻击面发现上的实际表现。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2103312783127535975",
-      "reader_url": "https://x.com/soaphornseuo/status/2103312783127535975",
-      "image_url": null,
+      "canonical_url": "https://x.com/chandrusecurity/status/2103066665923797041",
+      "reader_url": "https://x.com/chandrusecurity/status/2103066665923797041",
+      "image_url": "https://pbs.twimg.com/media/HS-X-jZaIAAYcmY.png",
       "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
+        "username": "chandrusecurity",
+        "name": "Chandrasekar Rathinam",
         "avatar_url": null,
-        "followers_count": 2488
+        "followers_count": 0
       },
-      "published_at": "2026-09-25T02:36:59",
-      "first_seen_at": "2026-09-25T04:42:27.983569",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-09-24T10:19:00",
+      "first_seen_at": "2026-09-25T12:26:02.255451",
+      "sub_category_label": "渗透测试"
     }
   ]
 }
