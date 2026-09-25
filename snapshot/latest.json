@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-25T14:35:59+08:00",
+  "updated_at": "2026-09-25T15:36:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 9537,
@@ -177,31 +177,6 @@
       },
       "published_at": "2026-09-25T02:36:59",
       "first_seen_at": "2026-09-25T04:42:27.983569",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 10187,
-      "title": "AI漏洞末日并未降临：Glasswing等未带来预期级0day",
-      "original_title": "The vulnpocalypse is turning out a lot like Y2K. InfoSec already had a 0day/Nday problem. The pitch was that everything on the internet would face a constant stream of 0days. Inste",
-      "summary": "作者认为AI驱动的漏洞挖掘（如Project Glasswing等）并未如预测般频繁产生Log4j级别的重大0day，更像是Y2K式的危机预期落空，许多漏洞反而被提前修补。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 67.96,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给盲目鼓吹AI挖洞的泼盆冷水。AI for Sec从业者该看，用来校准对当前AI挖洞能力的期望值，别被营销带偏，目前AI挖出的更多是可被批量修补的普通CVE。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2103167440230244841",
-      "reader_url": "https://x.com/HackingLZ/status/2103167440230244841",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-09-24T16:59:27",
-      "first_seen_at": "2026-09-24T19:30:18.928928",
       "sub_category_label": "漏洞挖掘"
     }
   ]
