@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-27T00:47:50+08:00",
+  "updated_at": "2026-09-27T02:48:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 11013,
@@ -70,6 +70,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 10567,
+      "title": "ASIRF：基于Agent的上下文敏感信息打码框架",
+      "original_title": "ASIRF: An Agentic Framework for Context-Dependent Sensitive Information Redaction",
+      "summary": "ASIRF框架通过在推理时检索特定领域定义来打码敏感信息，无需重新训练模型。在多数测试中，其召回率超过了OpenAI隐私过滤器。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 78.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队可借鉴此思路，将Agent架构用于DLP和数据集清洗。其免重训的上下文适应能力解决了传统隐私过滤器泛化性差的问题。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29191",
+      "reader_url": "https://arxiv.org/pdf/2609.29191",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T18:22:57.270188",
+      "sub_category_label": null
+    },
+    {
       "id": 10628,
       "title": "Palo Alto 推出多模型持续攻防管线 Unit 42",
       "original_title": "Palo Alto Networks is turning frontier models into a continuous offensive-security pipeline.  Its new Unit 42 Continuous Frontier AI Defense combines Claude Mythos, OpenAI cyber mo",
@@ -95,26 +115,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 10617,
-      "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
-      "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
-      "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
-      "primary_category": "AI for Sec",
-      "sub_category": "biometric_authentication",
-      "score_total": 77.5,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.29851",
-      "reader_url": "https://arxiv.org/pdf/2609.29851",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-25T04:00:00",
-      "first_seen_at": "2026-09-26T12:22:37.772781",
-      "sub_category_label": null
-    },
-    {
       "id": 10634,
       "title": "ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法",
       "original_title": "Detect First, Explain Later: Training-Free Temporal-Memory Digital Twin Anomaly Detection with Post-Hoc LLM Interpretation for ICS",
@@ -133,6 +133,26 @@
       "published_at": "2026-09-25T04:00:00",
       "first_seen_at": "2026-09-26T12:22:37.772781",
       "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 10617,
+      "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
+      "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
+      "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
+      "primary_category": "AI for Sec",
+      "sub_category": "biometric_authentication",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29851",
+      "reader_url": "https://arxiv.org/pdf/2609.29851",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": null
     },
     {
       "id": 10379,
