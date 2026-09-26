@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-26T22:47:00+08:00",
+  "updated_at": "2026-09-27T00:47:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 11013,
@@ -95,6 +95,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 10617,
+      "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
+      "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
+      "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
+      "primary_category": "AI for Sec",
+      "sub_category": "biometric_authentication",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29851",
+      "reader_url": "https://arxiv.org/pdf/2609.29851",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": null
+    },
+    {
       "id": 10634,
       "title": "ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法",
       "original_title": "Detect First, Explain Later: Training-Free Temporal-Memory Digital Twin Anomaly Detection with Post-Hoc LLM Interpretation for ICS",
@@ -115,24 +135,29 @@
       "sub_category_label": "威胁检测"
     },
     {
-      "id": 10617,
-      "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
-      "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
-      "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
+      "id": 10379,
+      "title": "Google PageBreak Agent 发现超 500 个 XSS 漏洞",
+      "original_title": "Google says its PageBreak security #agent found 500+ XSS vulnerabilities.  The architecture is the real lesson: the model proposes; deterministic validators prove the exploit.  For",
+      "summary": "Google 的 PageBreak 安全 Agent 发现了超 500 个 XSS 漏洞，其核心设计原则是模型负责提议，确定性验证器负责证明，强调生产级 Agent 必须通过验证闭环。",
       "primary_category": "AI for Sec",
-      "sub_category": "biometric_authentication",
-      "score_total": 77.5,
+      "sub_category": "security_agent",
+      "score_total": 77.49,
       "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.29851",
-      "reader_url": "https://arxiv.org/pdf/2609.29851",
+      "item_type": "news",
+      "recommendation_reason": "安全 Agent 开发者必看。这不仅是成果展示，更给出了可落地的架构原则：用确定性工具验证模型的漏洞猜测，解决 LLM 幻觉问题。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/waj33hgillani/status/2103386664068644869",
+      "reader_url": "https://x.com/waj33hgillani/status/2103386664068644869",
       "image_url": null,
-      "author": null,
-      "published_at": "2026-09-25T04:00:00",
-      "first_seen_at": "2026-09-26T12:22:37.772781",
-      "sub_category_label": null
+      "author": {
+        "username": "waj33hgillani",
+        "name": "Wajeeh ul Hassan",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T07:30:34",
+      "first_seen_at": "2026-09-26T16:29:32.865233",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 10669,
