@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T21:16:54+08:00",
+  "updated_at": "2026-09-26T22:47:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -42,6 +42,31 @@
       "author": null,
       "published_at": "2026-09-25T04:00:00",
       "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10700,
+      "title": "攻击者利用开源AI Agent攻破27家企业并窃取60万信用卡",
+      "original_title": "Crook used three open source agents to break into a Fortune 500 hospitality company, a major US airline and 25+ other orgs | Jessica Lyons, The Register  A crook has been using thr",
+      "summary": "安全公司 Gambit 复盘了一起在野攻击：黑客利用 Strix、Cairn 和 Hermes 三个开源 AI 渗透测试工具，以极低成本近乎自主地攻破 27 家公司，窃取超 60 万条信用卡记录。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.51,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "防御团队必看：真实在野案例展示了开源安全 Agent 编排成攻击链后的恐怖效率，数小时即可完成从探测到数据窃取。红蓝队急需评估现有防御能否应对 AI 高速自动化攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OwenGregorian/status/2103461653329137795",
+      "reader_url": "https://x.com/OwenGregorian/status/2103461653329137795",
+      "image_url": "https://pbs.twimg.com/media/HTD_OZuXkAAquLP.jpg",
+      "author": {
+        "username": "OwenGregorian",
+        "name": "Owen Gregorian",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T12:28:33",
+      "first_seen_at": "2026-09-26T14:29:30.351308",
       "sub_category_label": "安全Agent"
     },
     {
@@ -128,26 +153,6 @@
       "published_at": "2026-09-25T04:00:00",
       "first_seen_at": "2026-09-26T12:22:37.772781",
       "sub_category_label": "恶意软件与威胁检测"
-    },
-    {
-      "id": 10640,
-      "title": "基于语音代理蜜罐的真实诈骗电话语料库与检测评测",
-      "original_title": "A Corpus of Real Scam- and Spam-Call Conversations from an Active Voice-Agent Honeypot",
-      "summary": "该研究利用低延迟对话式 AI 蜜罐收集了大规模真实诈骗与垃圾电话对话，构建了包含上万通电话的语料库，并发现现有基于合成数据训练的诈骗检测模型在真实流量上精度大幅下降。",
-      "primary_category": "AI for Sec",
-      "sub_category": "scam_detection",
-      "score_total": 75.95,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "AI 语音蜜罐在威胁情报收集上展现出极高落地价值。安全团队可借此评估检测模型对真实诈骗的鲁棒性，并参考其设计思路获取一手反欺诈数据。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.29528",
-      "reader_url": "https://arxiv.org/pdf/2609.29528",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-25T04:00:00",
-      "first_seen_at": "2026-09-26T12:22:37.772781",
-      "sub_category_label": null
     }
   ]
 }
