@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T18:14:54+08:00",
+  "updated_at": "2026-09-26T18:44:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -27,6 +27,31 @@
       "published_at": "2026-09-25T21:09:27",
       "first_seen_at": "2026-09-26T01:02:36.154357",
       "sub_category_label": null
+    },
+    {
+      "id": 10500,
+      "title": "GitHub 安全实验室推出自主模糊测试管线",
+      "original_title": "GitHub Security Lab released an autonomous fuzzing pipeline yesterday and this is much closer to how I like seeing LLMs used in security  the model isn't the oracle and it isnt rep",
+      "summary": "GitHub 安全实验室发布自主模糊测试管线，让 LLM 负责挑选目标、编写 harness 和分析覆盖率，执行仍由 AFL++ 等传统工具完成，已在 Oniguruma 中发现真实漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 74.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "模型当导航、fuzzer 找真相的架构值得安全自动化团队借鉴。不想让 LLM 当神谕的从业者，快来看看这种真实落地的 Fuzzing Agent 是怎么分工的。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xcatalin/status/2103426378506887339",
+      "reader_url": "https://x.com/0xcatalin/status/2103426378506887339",
+      "image_url": null,
+      "author": {
+        "username": "0xcatalin",
+        "name": "catalin",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T10:08:23",
+      "first_seen_at": "2026-09-26T10:28:57.803652",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 10908,
@@ -167,31 +192,6 @@
       "published_at": "2026-09-26T02:14:53",
       "first_seen_at": "2026-09-26T02:45:14.313243",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 10977,
-      "title": "Hexestra：人机共享操作面的 AI 原生渗透测试 IDE",
-      "original_title": "Hexestra — Hexestra is an AI-native penetration testing IDE where human operators and the AI Agent work on the same operational surface—sharing the browser, terminal, traffic, shel",
-      "summary": "Hexestra 是一款 AI 原生渗透测试 IDE，让人类操作员和 AI Agent 共享浏览器、终端、流量和资产图等同一操作界面，实现协同工作。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 64.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试团队可以关注这款将人机操作面合一的 IDE，它改变了传统 AI 辅助工具的割裂感，值得评估其 Agent 协同和自动化能力在实际红队流程中的落地效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/KitPloit/status/2103716477966708881",
-      "reader_url": "https://x.com/KitPloit/status/2103716477966708881",
-      "image_url": "https://pbs.twimg.com/media/HTHm_SqXcAASbmz.jpg",
-      "author": {
-        "username": "KitPloit",
-        "name": "☣ KitPloit - Hacker Tools",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-26T05:21:08",
-      "first_seen_at": "2026-09-26T05:22:47.232803",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
