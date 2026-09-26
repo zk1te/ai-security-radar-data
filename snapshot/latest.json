@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-26T09:11:35+08:00",
+  "updated_at": "2026-09-26T10:11:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 10935,
@@ -162,31 +162,6 @@
       "published_at": "2026-09-25T21:23:01",
       "first_seen_at": "2026-09-25T21:45:44.358606",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 10725,
-      "title": "GitHub开源C/C++ AI Fuzzing管道，自动化写Harness",
-      "original_title": "GitHub just published an open-source AI fuzzing pipeline for C and C++.  Point it at a repo and the agent can find entry points, write harnesses, run AFL++, chase coverage gaps, tr",
-      "summary": "GitHub 发布针对 C/C++ 的开源 AI 模糊测试管道，可自动寻找入口、编写 harness、运行 AFL++ 并产出漏洞报告。需注意其在宿主机执行命令的安全风险。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "一线自动化Fuzzing工具，能极大减少写Harness的人力。务必在隔离VM中运行，防范未受信构建命令搞挂宿主机。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hars_7086/status/2103479915102265648",
-      "reader_url": "https://x.com/hars_7086/status/2103479915102265648",
-      "image_url": null,
-      "author": {
-        "username": "hars_7086",
-        "name": "AI News Daily",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-25T13:41:07",
-      "first_seen_at": "2026-09-25T14:08:06.893490",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
