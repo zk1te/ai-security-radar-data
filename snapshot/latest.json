@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T04:48:28+08:00",
+  "updated_at": "2026-09-27T06:48:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -22,6 +22,31 @@
       "author": null,
       "published_at": "2026-09-26T11:01:16.023005",
       "first_seen_at": "2026-09-26T11:02:12.830567",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10850,
+      "title": "攻击者滥用开源AI渗透框架CyberStrikeAI构建百台僵尸网络",
+      "original_title": "While running open directory sweeps on @etugenio, an investigation that started with a single Hong Kong🇭🇰 server quickly turned into something far larger, because when I pivoted of",
+      "summary": "调查发现攻击者利用开源AI渗透测试框架CyberStrikeAI构建了超百台服务器的攻击基础设施，针对多种托管平台发起攻击并利用Pterodactyl等系统的已知漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 82.79,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全防御者需警惕开源AI渗透工具正被直接武器化。推文披露了完整的IOC和漏洞利用链，蓝队可据此立即展开狩猎，AI安全工具开发者也应关注防滥用机制。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xb1lal/status/2103579006142501350",
+      "reader_url": "https://x.com/0xb1lal/status/2103579006142501350",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2103578287054241793/img/vBlymnOpvEDT8BoF.jpg",
+      "author": {
+        "username": "0xb1lal",
+        "name": "B1lal",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T20:14:52",
+      "first_seen_at": "2026-09-26T22:30:04.589085",
       "sub_category_label": "安全Agent"
     },
     {
@@ -178,26 +203,6 @@
       "published_at": "2026-09-25T07:30:34",
       "first_seen_at": "2026-09-26T16:29:32.865233",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 10669,
-      "title": "恶意软件 GNN 校准的类型偏移风险与回退机制研究",
-      "original_title": "Stress-Testing Structure-Aware Calibration of Malware Graph Neural Networks under Type Shift",
-      "summary": "该论文研究恶意软件图神经网络在面临未知类型样本时的置信度校准失效问题，并提出一种基于社区结构支持范围的回退机制，有效降低高置信度误报。",
-      "primary_category": "AI for Sec",
-      "sub_category": "malware_detection",
-      "score_total": 77.15,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做恶意软件检测的同行该看，这篇点出 GNN 分类器在 OOD 场景下的高置信度误报隐患，并给出可落地的 label-free 回退方案，直接能用到你们自己的模型校准流水线里。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.28517",
-      "reader_url": "https://arxiv.org/pdf/2609.28517",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-25T04:00:00",
-      "first_seen_at": "2026-09-26T12:22:37.772781",
-      "sub_category_label": "恶意软件与威胁检测"
     }
   ]
 }
