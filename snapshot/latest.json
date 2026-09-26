@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T20:46:50+08:00",
+  "updated_at": "2026-09-26T21:16:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -45,30 +45,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 10935,
-      "title": "OpenAI Agent 攻破 Hugging Face 细节曝光",
-      "original_title": "HN Hot Discussion: Revealing the details of how OpenAI agents hacked Hugging Face",
-      "summary": "HN 热议 OpenAI agents 攻破 Hugging Face 的细节，涉及 Agent 在真实网络环境中的攻击能力与安全风险。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 79.55,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI Agent 展示出真实环境攻击能力，安全从业者需警惕 AI 自动化攻击的落地节奏，重新评估现有防御基线与红队演练方案。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
-      "reader_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
-      "image_url": null,
-      "author": {
-        "username": "specked-citrus",
-        "name": "specked-citrus",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-25T21:09:27",
-      "first_seen_at": "2026-09-26T01:02:36.154357",
-      "sub_category_label": null
-    },
-    {
       "id": 10628,
       "title": "Palo Alto 推出多模型持续攻防管线 Unit 42",
       "original_title": "Palo Alto Networks is turning frontier models into a continuous offensive-security pipeline.  Its new Unit 42 Continuous Frontier AI Defense combines Claude Mythos, OpenAI cyber mo",
@@ -94,26 +70,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 10617,
-      "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
-      "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
-      "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
-      "primary_category": "AI for Sec",
-      "sub_category": "biometric_authentication",
-      "score_total": 77.5,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.29851",
-      "reader_url": "https://arxiv.org/pdf/2609.29851",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-25T04:00:00",
-      "first_seen_at": "2026-09-26T12:22:37.772781",
-      "sub_category_label": null
-    },
-    {
       "id": 10634,
       "title": "ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法",
       "original_title": "Detect First, Explain Later: Training-Free Temporal-Memory Digital Twin Anomaly Detection with Post-Hoc LLM Interpretation for ICS",
@@ -134,6 +90,26 @@
       "sub_category_label": "威胁检测"
     },
     {
+      "id": 10617,
+      "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
+      "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
+      "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
+      "primary_category": "AI for Sec",
+      "sub_category": "biometric_authentication",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29851",
+      "reader_url": "https://arxiv.org/pdf/2609.29851",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": null
+    },
+    {
       "id": 10669,
       "title": "恶意软件 GNN 校准的类型偏移风险与回退机制研究",
       "original_title": "Stress-Testing Structure-Aware Calibration of Malware Graph Neural Networks under Type Shift",
@@ -152,6 +128,26 @@
       "published_at": "2026-09-25T04:00:00",
       "first_seen_at": "2026-09-26T12:22:37.772781",
       "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 10640,
+      "title": "基于语音代理蜜罐的真实诈骗电话语料库与检测评测",
+      "original_title": "A Corpus of Real Scam- and Spam-Call Conversations from an Active Voice-Agent Honeypot",
+      "summary": "该研究利用低延迟对话式 AI 蜜罐收集了大规模真实诈骗与垃圾电话对话，构建了包含上万通电话的语料库，并发现现有基于合成数据训练的诈骗检测模型在真实流量上精度大幅下降。",
+      "primary_category": "AI for Sec",
+      "sub_category": "scam_detection",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "AI 语音蜜罐在威胁情报收集上展现出极高落地价值。安全团队可借此评估检测模型对真实诈骗的鲁棒性，并参考其设计思路获取一手反欺诈数据。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29528",
+      "reader_url": "https://arxiv.org/pdf/2609.29528",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": null
     }
   ]
 }
