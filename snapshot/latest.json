@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-27T06:48:38+08:00",
+  "updated_at": "2026-09-27T07:18:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 11013,
-      "title": "逆向安全技能 AI 路由包 reverse-skill 登顶 GitHub Trending",
-      "original_title": "GitHub Trending: zhaoxuya520/reverse-skill gained 409 stars today",
-      "summary": "开源工具 reverse-skill 将 AI 自动路由、按需工具链自举与自进化知识库结合，支持 Claude Code 等客户端，用于逆向工程与渗透测试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 84.82,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全工程师可直接将此包接入 Claude Code 等客户端，快速搭建逆向与渗透辅助工作流，值得立刻试用验证其路由与工具链调用效果。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
-      "reader_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-26T11:01:16.023005",
-      "first_seen_at": "2026-09-26T11:02:12.830567",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 10850,
       "title": "攻击者滥用开源AI渗透框架CyberStrikeAI构建百台僵尸网络",
@@ -203,6 +183,26 @@
       "published_at": "2026-09-25T07:30:34",
       "first_seen_at": "2026-09-26T16:29:32.865233",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10669,
+      "title": "恶意软件 GNN 校准的类型偏移风险与回退机制研究",
+      "original_title": "Stress-Testing Structure-Aware Calibration of Malware Graph Neural Networks under Type Shift",
+      "summary": "该论文研究恶意软件图神经网络在面临未知类型样本时的置信度校准失效问题，并提出一种基于社区结构支持范围的回退机制，有效降低高置信度误报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 77.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做恶意软件检测的同行该看，这篇点出 GNN 分类器在 OOD 场景下的高置信度误报隐患，并给出可落地的 label-free 回退方案，直接能用到你们自己的模型校准流水线里。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.28517",
+      "reader_url": "https://arxiv.org/pdf/2609.28517",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "恶意软件与威胁检测"
     }
   ]
 }
