@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T07:41:14+08:00",
+  "updated_at": "2026-09-26T08:41:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -30,6 +30,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 10908,
+      "title": "阿里开源混合架构 AI 代码审查工具",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+      "summary": "阿里巴巴开源的混合架构代码审查工具，结合确定性管道与 LLM Agent，内置 XSS、SQL 注入等多语言安全规则集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.15,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "结合规则引擎与 LLM 提供精准行级审查，覆盖 XSS/SQLi 等漏洞。安全团队可直接评估其作为代码审计和 CI 门禁工具的落地效果。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-26&since=weekly",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-26&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-26T00:15:57.700731",
+      "first_seen_at": "2026-09-26T00:17:09.404323",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 10832,
       "title": "Jev新型决策模型解析及安全风控应用",
       "original_title": "Jev到底是个什么东西？举个形象的例子！",
@@ -50,28 +70,23 @@
       "sub_category_label": null
     },
     {
-      "id": 10700,
-      "title": "攻击者利用开源AI Agent攻破27家企业并窃取60万信用卡",
-      "original_title": "Crook used three open source agents to break into a Fortune 500 hospitality company, a major US airline and 25+ other orgs | Jessica Lyons, The Register  A crook has been using thr",
-      "summary": "安全公司 Gambit 复盘了一起在野攻击：黑客利用 Strix、Cairn 和 Hermes 三个开源 AI 渗透测试工具，以极低成本近乎自主地攻破 27 家公司，窃取超 60 万条信用卡记录。",
+      "id": 10910,
+      "title": "Cloudflare安全审计Skill：面向编码Agent的多阶段审计工具",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare开源的security-audit-skill让编码Agent具备多阶段安全审计能力，输出独立验证且机器可读的结果。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 72.26,
+      "score_total": 71.7,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "防御团队必看：真实在野案例展示了开源安全 Agent 编排成攻击链后的恐怖效率，数小时即可完成从探测到数据窃取。红蓝队急需评估现有防御能否应对 AI 高速自动化攻击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OwenGregorian/status/2103461653329137795",
-      "reader_url": "https://x.com/OwenGregorian/status/2103461653329137795",
-      "image_url": "https://pbs.twimg.com/media/HTD_OZuXkAAquLP.jpg",
-      "author": {
-        "username": "OwenGregorian",
-        "name": "Owen Gregorian",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-25T12:28:33",
-      "first_seen_at": "2026-09-25T12:31:00.925370",
+      "recommendation_reason": "做代码安全的团队可看下这个skill的设计，它验证了Agent审计结果可独立校验的可行性，能直接集成进自家Agent流水线提升准确率。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-26&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-26&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-26T00:15:57.497997",
+      "first_seen_at": "2026-09-26T00:17:28.955691",
       "sub_category_label": "安全Agent"
     },
     {
@@ -148,31 +163,6 @@
       "published_at": "2026-09-25T13:41:07",
       "first_seen_at": "2026-09-25T14:08:06.893490",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 9965,
-      "title": "Rust编写的Web安全扫描器Lonkero发布",
-      "original_title": "🛡️ Lonkero — Web Security Scanner  A professional-grade Rust-based scanner built for real penetration testing.  🔍 125+ scanners 🧠 Intelligent scanning ⚡ Fast & modular 🦀 Rust 🎯 Att",
-      "summary": "Lonkero 是一款基于 Rust 的专业级 Web 安全扫描器，内置 125+ 扫描模块，覆盖 XSS、SQLi、SSRF 等，并引入了 ML 辅助检测和 AI 测试功能。",
-      "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 68.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试人员和红队可关注该工具的 ML 辅助检测和 AI 测试能力，评估其相比传统扫描器在误报率和攻击面发现上的实际表现。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/chandrusecurity/status/2103066665923797041",
-      "reader_url": "https://x.com/chandrusecurity/status/2103066665923797041",
-      "image_url": "https://pbs.twimg.com/media/HS-X-jZaIAAYcmY.png",
-      "author": {
-        "username": "chandrusecurity",
-        "name": "Chandrasekar Rathinam",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-24T10:19:00",
-      "first_seen_at": "2026-09-25T12:26:02.255451",
-      "sub_category_label": "渗透测试"
     },
     {
       "id": 10724,
