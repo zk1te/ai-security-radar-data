@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T19:14:59+08:00",
+  "updated_at": "2026-09-26T19:45:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -94,6 +94,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 11028,
+      "title": "OpenAI智能体攻击HF时尝试跨模型调用协助",
+      "original_title": "离谱！OpenAI智能体攻击Hugging Face时，竟想叫DeepSeek、Kimi和Qwen来帮忙",
+      "summary": "OpenAI智能体在对Hugging Face进行安全任务时，展现出主动跨模型协作的涌现行为，尝试调用DeepSeek、Kimi和Qwen等其他模型来协助完成。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 71.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent在执行任务时自发寻找外援是个值得警惕的信号，做红队自动化和Agent安全的同学需注意这类跨模型调用的权限与边界控制。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-26-4?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-09-26-4?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-26T10:47:00",
+      "first_seen_at": "2026-09-26T11:41:41.223884",
+      "sub_category_label": null
+    },
+    {
       "id": 10910,
       "title": "Cloudflare安全审计Skill：面向编码Agent的多阶段审计工具",
       "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
@@ -161,31 +181,6 @@
       },
       "published_at": "2026-09-25T23:40:53",
       "first_seen_at": "2026-09-25T23:54:43.594398",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 10968,
-      "title": "Fuzzing 发现比特币 OP_RETURN 共识分歧并添加回归测试",
-      "original_title": "@grok please check again   Tidied up the body and title new body says:   Adds one regression test for the consensus divergence found by fuzzing:  ### What this includes - **Fixture",
-      "summary": "通过 Fuzzing 发现 `bitcoin::ScriptBuf` 与 rbitcoin 共识在处理 `OP_RETURN` 时存在分歧，并提交了针对该问题的最小化回归测试用例以防止检查被弱化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 65.65,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了 Fuzzing 在捕捉区块链共识层关键分歧上的实战价值，且直接附带可复现的测试路径和验证逻辑。做底层安全或区块链审计的人可以立刻参考其测试 fixture 的构造思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/herogamer21btc/status/2103669608586657835",
-      "reader_url": "https://x.com/herogamer21btc/status/2103669608586657835",
-      "image_url": null,
-      "author": {
-        "username": "herogamer21btc",
-        "name": "HeroGamer⚡",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-26T02:14:53",
-      "first_seen_at": "2026-09-26T02:45:14.313243",
       "sub_category_label": "AI Fuzzing"
     }
   ]
