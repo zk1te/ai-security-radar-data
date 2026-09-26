@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T02:48:18+08:00",
+  "updated_at": "2026-09-27T04:48:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -115,26 +115,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 10634,
-      "title": "ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法",
-      "original_title": "Detect First, Explain Later: Training-Free Temporal-Memory Digital Twin Anomaly Detection with Post-Hoc LLM Interpretation for ICS",
-      "summary": "本文提出一种针对工业控制系统（ICS）的免训练异常检测方法，结合数字孪生约束与时间记忆机制，有效捕获时间累积的异常证据。在 HAI 和 BATADAL 数据集上误报率显著低于传统方法，并利用门控 LLM 进行事后解释。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_detection",
-      "score_total": 77.5,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "给工控安全团队看：结合时间记忆的数字孪生在 ICS 异常检测中能大幅降低误报。采用「先检测后解释」让 LLM 不介入核心检测链，规避幻觉风险，可直接参考其免训练方案优化工控威胁检测。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.29704",
-      "reader_url": "https://arxiv.org/pdf/2609.29704",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-25T04:00:00",
-      "first_seen_at": "2026-09-26T12:22:37.772781",
-      "sub_category_label": "威胁检测"
-    },
-    {
       "id": 10617,
       "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
       "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
@@ -153,6 +133,26 @@
       "published_at": "2026-09-25T04:00:00",
       "first_seen_at": "2026-09-26T12:22:37.772781",
       "sub_category_label": null
+    },
+    {
+      "id": 10634,
+      "title": "ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法",
+      "original_title": "Detect First, Explain Later: Training-Free Temporal-Memory Digital Twin Anomaly Detection with Post-Hoc LLM Interpretation for ICS",
+      "summary": "本文提出一种针对工业控制系统（ICS）的免训练异常检测方法，结合数字孪生约束与时间记忆机制，有效捕获时间累积的异常证据。在 HAI 和 BATADAL 数据集上误报率显著低于传统方法，并利用门控 LLM 进行事后解释。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "给工控安全团队看：结合时间记忆的数字孪生在 ICS 异常检测中能大幅降低误报。采用「先检测后解释」让 LLM 不介入核心检测链，规避幻觉风险，可直接参考其免训练方案优化工控威胁检测。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29704",
+      "reader_url": "https://arxiv.org/pdf/2609.29704",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "威胁检测"
     },
     {
       "id": 10379,
