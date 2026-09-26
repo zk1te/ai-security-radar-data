@@ -1,0 +1,1243 @@
+{
+  "date": "2026-09-26",
+  "candidate_count": 22,
+  "selected_count": 3,
+  "cover_title": "逆向安全技能 AI 路由包 reverse-skill 登顶 GitHub Tren",
+  "lead_takeaway": "今天的主线是实战化攻防 Agent 的落地与检验，既有开源 AI 渗透工具直接跑通工作流，也有真实环境下的自动化攻击曝光和效能诊断。这说明 AI 驱动的安全工具正从概念走向真刀真枪的干活阶段，大家开始较真其实际效率与瓶颈。",
+  "digest_points": [
+    "01 安全工程师可直接将此包接入 Claude Code 等客户端，快速搭建逆向与渗透辅助工作流，值得立刻试用验证其路由与工具链调用效果。",
+    "02 如果你在用或评估 LLM 驱动的攻击 Agent，这篇论文的诊断方法直接可用：别只盯成功率，要看 token 消耗、重试和验证器一致性。能帮你快速定位 Agent 在哪卡壳。",
+    "03 OpenAI Agent 展示出真实环境攻击能力，安全从业者需警惕 AI 自动化攻击的落地节奏，重新评估现有防御基线与红队演练方案。"
+  ],
+  "judgement": [
+    "01 安全工程师可直接将此包接入 Claude Code 等客户端，快速搭建逆向与渗透辅助工作流，值得立刻试用验证其路由与工具链调用效果。",
+    "02 如果你在用或评估 LLM 驱动的攻击 Agent，这篇论文的诊断方法直接可用：别只盯成功率，要看 token 消耗、重试和验证器一致性。能帮你快速定位 Agent 在哪卡壳。",
+    "03 OpenAI Agent 展示出真实环境攻击能力，安全从业者需警惕 AI 自动化攻击的落地节奏，重新评估现有防御基线与红队演练方案。"
+  ],
+  "top_items": [
+    {
+      "id": 11013,
+      "title": "逆向安全技能 AI 路由包 reverse-skill 登顶 GitHub Trending",
+      "original_title": "GitHub Trending: zhaoxuya520/reverse-skill gained 409 stars today",
+      "summary": "开源工具 reverse-skill 将 AI 自动路由、按需工具链自举与自进化知识库结合，支持 Claude Code 等客户端，用于逆向工程与渗透测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.82,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全工程师可直接将此包接入 Claude Code 等客户端，快速搭建逆向与渗透辅助工作流，值得立刻试用验证其路由与工具链调用效果。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
+      "reader_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-26T11:01:16.023005",
+      "first_seen_at": "2026-09-26T11:02:12.830567",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10664,
+      "title": "LLM 网络攻击 Agent 瓶颈诊断：成功背后隐藏的脆弱与低效",
+      "original_title": "Where Cyber Agents Struggle: Bottleneck Analysis of Multi-Stage LLM Agents",
+      "summary": "该论文对多阶段 LLM 网络攻击 Agent 进行端到端诊断，评估六个前沿模型在横向移动场景下的表现，发现成功率掩盖了高成本、重试依赖和证据误读等问题，瓶颈集中在凭据获取和横向移动任务。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在用或评估 LLM 驱动的攻击 Agent，这篇论文的诊断方法直接可用：别只盯成功率，要看 token 消耗、重试和验证器一致性。能帮你快速定位 Agent 在哪卡壳。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.28572",
+      "reader_url": "https://arxiv.org/pdf/2609.28572",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10935,
+      "title": "OpenAI Agent 攻破 Hugging Face 细节曝光",
+      "original_title": "HN Hot Discussion: Revealing the details of how OpenAI agents hacked Hugging Face",
+      "summary": "HN 热议 OpenAI agents 攻破 Hugging Face 的细节，涉及 Agent 在真实网络环境中的攻击能力与安全风险。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 79.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "OpenAI Agent 展示出真实环境攻击能力，安全从业者需警惕 AI 自动化攻击的落地节奏，重新评估现有防御基线与红队演练方案。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
+      "reader_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
+      "image_url": null,
+      "author": {
+        "username": "specked-citrus",
+        "name": "specked-citrus",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-25T21:09:27",
+      "first_seen_at": "2026-09-26T01:02:36.154357",
+      "sub_category_label": null
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 10634,
+      "title": "ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法",
+      "original_title": "Detect First, Explain Later: Training-Free Temporal-Memory Digital Twin Anomaly Detection with Post-Hoc LLM Interpretation for ICS",
+      "summary": "本文提出一种针对工业控制系统（ICS）的免训练异常检测方法，结合数字孪生约束与时间记忆机制，有效捕获时间累积的异常证据。在 HAI 和 BATADAL 数据集上误报率显著低于传统方法，并利用门控 LLM 进行事后解释。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "给工控安全团队看：结合时间记忆的数字孪生在 ICS 异常检测中能大幅降低误报。采用「先检测后解释」让 LLM 不介入核心检测链，规避幻觉风险，可直接参考其免训练方案优化工控威胁检测。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29704",
+      "reader_url": "https://arxiv.org/pdf/2609.29704",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 10617,
+      "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
+      "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
+      "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
+      "primary_category": "AI for Sec",
+      "sub_category": "biometric_authentication",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29851",
+      "reader_url": "https://arxiv.org/pdf/2609.29851",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": null
+    },
+    {
+      "id": 10669,
+      "title": "恶意软件 GNN 校准的类型偏移风险与回退机制研究",
+      "original_title": "Stress-Testing Structure-Aware Calibration of Malware Graph Neural Networks under Type Shift",
+      "summary": "该论文研究恶意软件图神经网络在面临未知类型样本时的置信度校准失效问题，并提出一种基于社区结构支持范围的回退机制，有效降低高置信度误报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 77.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做恶意软件检测的同行该看，这篇点出 GNN 分类器在 OOD 场景下的高置信度误报隐患，并给出可落地的 label-free 回退方案，直接能用到你们自己的模型校准流水线里。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.28517",
+      "reader_url": "https://arxiv.org/pdf/2609.28517",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 10725,
+      "title": "GitHub开源C/C++ AI Fuzzing管道，自动化写Harness",
+      "original_title": "GitHub just published an open-source AI fuzzing pipeline for C and C++.  Point it at a repo and the agent can find entry points, write harnesses, run AFL++, chase coverage gaps, tr",
+      "summary": "GitHub 发布针对 C/C++ 的开源 AI 模糊测试管道，可自动寻找入口、编写 harness、运行 AFL++ 并产出漏洞报告。需注意其在宿主机执行命令的安全风险。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "一线自动化Fuzzing工具，能极大减少写Harness的人力。务必在隔离VM中运行，防范未受信构建命令搞挂宿主机。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/hars_7086/status/2103479915102265648",
+      "reader_url": "https://x.com/hars_7086/status/2103479915102265648",
+      "image_url": null,
+      "author": {
+        "username": "hars_7086",
+        "name": "AI News Daily",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T13:41:07",
+      "first_seen_at": "2026-09-26T14:29:30.351308",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 10640,
+      "title": "基于语音代理蜜罐的真实诈骗电话语料库与检测评测",
+      "original_title": "A Corpus of Real Scam- and Spam-Call Conversations from an Active Voice-Agent Honeypot",
+      "summary": "该研究利用低延迟对话式 AI 蜜罐收集了大规模真实诈骗与垃圾电话对话，构建了包含上万通电话的语料库，并发现现有基于合成数据训练的诈骗检测模型在真实流量上精度大幅下降。",
+      "primary_category": "AI for Sec",
+      "sub_category": "scam_detection",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "AI 语音蜜罐在威胁情报收集上展现出极高落地价值。安全团队可借此评估检测模型对真实诈骗的鲁棒性，并参考其设计思路获取一手反欺诈数据。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29528",
+      "reader_url": "https://arxiv.org/pdf/2609.29528",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": null
+    },
+    {
+      "id": 10850,
+      "title": "攻击者滥用开源AI渗透框架CyberStrikeAI构建百台僵尸网络",
+      "original_title": "While running open directory sweeps on @etugenio, an investigation that started with a single Hong Kong🇭🇰 server quickly turned into something far larger, because when I pivoted of",
+      "summary": "调查发现攻击者利用开源AI渗透测试框架CyberStrikeAI构建了超百台服务器的攻击基础设施，针对多种托管平台发起攻击并利用Pterodactyl等系统的已知漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.54,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全防御者需警惕开源AI渗透工具正被直接武器化。推文披露了完整的IOC和漏洞利用链，蓝队可据此立即展开狩猎，AI安全工具开发者也应关注防滥用机制。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xb1lal/status/2103579006142501350",
+      "reader_url": "https://x.com/0xb1lal/status/2103579006142501350",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2103578287054241793/img/vBlymnOpvEDT8BoF.jpg",
+      "author": {
+        "username": "0xb1lal",
+        "name": "B1lal",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-25T20:14:52",
+      "first_seen_at": "2026-09-25T20:41:22.157969",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10679,
+      "title": "NetExec 接入 MCP：让 AI 直接调用内网渗透工具",
+      "original_title": "RT @mpgn_x64: If you want to know more about netexec-mcp, I wrote a short article 😀      https://t.co/apr6Ab0WhL",
+      "summary": "安全研究员 mpgn_x64 发文介绍了 netexec-mcp，该组件将知名内网渗透工具 NetExec 接入模型上下文协议（MCP），使 AI Agent 能够直接调用其进行内网自动化扫描与攻击测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.13,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "将红队核心工具 NetExec 桥接给 AI Agent 是自动化渗透的实务落地。做自动化攻防的红队成员应关注此桥接方式，评估 Agent 驱动内网横向移动的可行性与风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2103439208237154448",
+      "reader_url": "https://x.com/pentest_swissky/status/2103439208237154448",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-09-25T10:59:21",
+      "first_seen_at": "2026-09-26T12:29:24.887395",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 11013,
+        "title": "逆向安全技能 AI 路由包 reverse-skill 登顶 GitHub Trending",
+        "original_title": "GitHub Trending: zhaoxuya520/reverse-skill gained 409 stars today",
+        "summary": "开源工具 reverse-skill 将 AI 自动路由、按需工具链自举与自进化知识库结合，支持 Claude Code 等客户端，用于逆向工程与渗透测试。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 84.82,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全工程师可直接将此包接入 Claude Code 等客户端，快速搭建逆向与渗透辅助工作流，值得立刻试用验证其路由与工具链调用效果。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
+        "reader_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-26T11:01:16.023005",
+        "first_seen_at": "2026-09-26T11:02:12.830567",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 10664,
+        "title": "LLM 网络攻击 Agent 瓶颈诊断：成功背后隐藏的脆弱与低效",
+        "original_title": "Where Cyber Agents Struggle: Bottleneck Analysis of Multi-Stage LLM Agents",
+        "summary": "该论文对多阶段 LLM 网络攻击 Agent 进行端到端诊断，评估六个前沿模型在横向移动场景下的表现，发现成功率掩盖了高成本、重试依赖和证据误读等问题，瓶颈集中在凭据获取和横向移动任务。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 80.85,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "如果你在用或评估 LLM 驱动的攻击 Agent，这篇论文的诊断方法直接可用：别只盯成功率，要看 token 消耗、重试和验证器一致性。能帮你快速定位 Agent 在哪卡壳。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.28572",
+        "reader_url": "https://arxiv.org/pdf/2609.28572",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-25T04:00:00",
+        "first_seen_at": "2026-09-26T12:22:37.772781",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 10700,
+        "title": "攻击者利用开源AI Agent攻破27家企业并窃取60万信用卡",
+        "original_title": "Crook used three open source agents to break into a Fortune 500 hospitality company, a major US airline and 25+ other orgs | Jessica Lyons, The Register  A crook has been using thr",
+        "summary": "安全公司 Gambit 复盘了一起在野攻击：黑客利用 Strix、Cairn 和 Hermes 三个开源 AI 渗透测试工具，以极低成本近乎自主地攻破 27 家公司，窃取超 60 万条信用卡记录。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 80.51,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "防御团队必看：真实在野案例展示了开源安全 Agent 编排成攻击链后的恐怖效率，数小时即可完成从探测到数据窃取。红蓝队急需评估现有防御能否应对 AI 高速自动化攻击。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/OwenGregorian/status/2103461653329137795",
+        "reader_url": "https://x.com/OwenGregorian/status/2103461653329137795",
+        "image_url": "https://pbs.twimg.com/media/HTD_OZuXkAAquLP.jpg",
+        "author": {
+          "username": "OwenGregorian",
+          "name": "Owen Gregorian",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-25T12:28:33",
+        "first_seen_at": "2026-09-26T14:29:30.351308",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 10628,
+        "title": "Palo Alto 推出多模型持续攻防管线 Unit 42",
+        "original_title": "Palo Alto Networks is turning frontier models into a continuous offensive-security pipeline.  Its new Unit 42 Continuous Frontier AI Defense combines Claude Mythos, OpenAI cyber mo",
+        "summary": "Palo Alto Unit 42 推出 Continuous Frontier AI Defense，结合 Claude Mythos、OpenAI 网络模型与开源模型，构建多模型编排的持续漏洞发现与验证管线，并强调模型路由与边界控制。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 77.76,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "展示了前沿模型在产业级渗透测试中的落地架构，多模型编排策略和边界控制值得安全团队借鉴。关注它如何把 Claude Mythos 等模型路由到不同安全任务上。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/probiex007/status/2103428667053666623",
+        "reader_url": "https://x.com/probiex007/status/2103428667053666623",
+        "image_url": "https://pbs.twimg.com/media/HTDhLv2aAAA_RzG.jpg",
+        "author": {
+          "username": "probiex007",
+          "name": "probiex007",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-25T10:17:28",
+        "first_seen_at": "2026-09-26T12:29:24.887395",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 10634,
+        "title": "ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法",
+        "original_title": "Detect First, Explain Later: Training-Free Temporal-Memory Digital Twin Anomaly Detection with Post-Hoc LLM Interpretation for ICS",
+        "summary": "本文提出一种针对工业控制系统（ICS）的免训练异常检测方法，结合数字孪生约束与时间记忆机制，有效捕获时间累积的异常证据。在 HAI 和 BATADAL 数据集上误报率显著低于传统方法，并利用门控 LLM 进行事后解释。",
+        "primary_category": "AI for Sec",
+        "sub_category": "threat_detection",
+        "score_total": 77.5,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "给工控安全团队看：结合时间记忆的数字孪生在 ICS 异常检测中能大幅降低误报。采用「先检测后解释」让 LLM 不介入核心检测链，规避幻觉风险，可直接参考其免训练方案优化工控威胁检测。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.29704",
+        "reader_url": "https://arxiv.org/pdf/2609.29704",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-25T04:00:00",
+        "first_seen_at": "2026-09-26T12:22:37.772781",
+        "sub_category_label": "威胁检测"
+      },
+      {
+        "id": 10617,
+        "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
+        "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
+        "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
+        "primary_category": "AI for Sec",
+        "sub_category": "biometric_authentication",
+        "score_total": 77.5,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.29851",
+        "reader_url": "https://arxiv.org/pdf/2609.29851",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-25T04:00:00",
+        "first_seen_at": "2026-09-26T12:22:37.772781",
+        "sub_category_label": null
+      },
+      {
+        "id": 10669,
+        "title": "恶意软件 GNN 校准的类型偏移风险与回退机制研究",
+        "original_title": "Stress-Testing Structure-Aware Calibration of Malware Graph Neural Networks under Type Shift",
+        "summary": "该论文研究恶意软件图神经网络在面临未知类型样本时的置信度校准失效问题，并提出一种基于社区结构支持范围的回退机制，有效降低高置信度误报。",
+        "primary_category": "AI for Sec",
+        "sub_category": "malware_detection",
+        "score_total": 77.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做恶意软件检测的同行该看，这篇点出 GNN 分类器在 OOD 场景下的高置信度误报隐患，并给出可落地的 label-free 回退方案，直接能用到你们自己的模型校准流水线里。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.28517",
+        "reader_url": "https://arxiv.org/pdf/2609.28517",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-25T04:00:00",
+        "first_seen_at": "2026-09-26T12:22:37.772781",
+        "sub_category_label": "恶意软件与威胁检测"
+      },
+      {
+        "id": 10725,
+        "title": "GitHub开源C/C++ AI Fuzzing管道，自动化写Harness",
+        "original_title": "GitHub just published an open-source AI fuzzing pipeline for C and C++.  Point it at a repo and the agent can find entry points, write harnesses, run AFL++, chase coverage gaps, tr",
+        "summary": "GitHub 发布针对 C/C++ 的开源 AI 模糊测试管道，可自动寻找入口、编写 harness、运行 AFL++ 并产出漏洞报告。需注意其在宿主机执行命令的安全风险。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 75.95,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "一线自动化Fuzzing工具，能极大减少写Harness的人力。务必在隔离VM中运行，防范未受信构建命令搞挂宿主机。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/hars_7086/status/2103479915102265648",
+        "reader_url": "https://x.com/hars_7086/status/2103479915102265648",
+        "image_url": null,
+        "author": {
+          "username": "hars_7086",
+          "name": "AI News Daily",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-25T13:41:07",
+        "first_seen_at": "2026-09-26T14:29:30.351308",
+        "sub_category_label": "AI Fuzzing"
+      }
+    ],
+    "AI Tech": [],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 10935,
+        "title": "OpenAI Agent 攻破 Hugging Face 细节曝光",
+        "original_title": "HN Hot Discussion: Revealing the details of how OpenAI agents hacked Hugging Face",
+        "summary": "HN 热议 OpenAI agents 攻破 Hugging Face 的细节，涉及 Agent 在真实网络环境中的攻击能力与安全风险。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 79.55,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "OpenAI Agent 展示出真实环境攻击能力，安全从业者需警惕 AI 自动化攻击的落地节奏，重新评估现有防御基线与红队演练方案。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
+        "reader_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
+        "image_url": null,
+        "author": {
+          "username": "specked-citrus",
+          "name": "specked-citrus",
+          "avatar_url": null
+        },
+        "published_at": "2026-09-25T21:09:27",
+        "first_seen_at": "2026-09-26T01:02:36.154357",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 10661,
+        "title": "BRFID：基于攻击自损信号的联邦入侵检测鲁棒性研究",
+        "original_title": "BRFID: Toward Byzantine-Robust Federated Intrusion Detection",
+        "summary": "该论文研究了联邦入侵检测系统（IDS）中的标签翻转投毒攻击，发现攻击者在翻转标签时会导致自身检测准确率显著下降，并提出利用这一自损信号作为异常特征来识别拜占庭客户端。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "model_security",
+        "score_total": 73.85,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "研究联邦学习和威胁检测的同行值得一看。文章揭示了投毒攻击在联邦IDS中的自损特性，并提供了一种无需额外防御机制即可检测恶意客户端的新思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.28599",
+        "reader_url": "https://arxiv.org/pdf/2609.28599",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-25T04:00:00",
+        "first_seen_at": "2026-09-26T12:22:37.772781",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | Sec for AI": [
+      {
+        "id": 10832,
+        "title": "Jev新型决策模型解析及安全风控应用",
+        "original_title": "Jev到底是个什么东西？举个形象的例子！",
+        "summary": "本文介绍TypeSafe AI推出的非生成式强类型决策模型Jev，并实测其在客服分流和Agent高危操作拦截等场景中的应用。",
+        "primary_category": "AI Tech | Sec for AI",
+        "sub_category": "llm_architecture | agent_security",
+        "score_total": 72.35,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "Jev以低延迟和高置信度著称，其作为Agent执行前的安全门禁能精准拦截高危指令。安全团队应关注此类系统一模型在自动化防护链路中的低成本替代价值。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7687899083843010587",
+        "reader_url": "https://juejin.cn/post/7687899083843010587",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T02:51:55",
+        "first_seen_at": "2026-09-25T19:05:59.670242",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 11013,
+            "title": "逆向安全技能 AI 路由包 reverse-skill 登顶 GitHub Trending",
+            "original_title": "GitHub Trending: zhaoxuya520/reverse-skill gained 409 stars today",
+            "summary": "开源工具 reverse-skill 将 AI 自动路由、按需工具链自举与自进化知识库结合，支持 Claude Code 等客户端，用于逆向工程与渗透测试。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 84.82,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全工程师可直接将此包接入 Claude Code 等客户端，快速搭建逆向与渗透辅助工作流，值得立刻试用验证其路由与工具链调用效果。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
+            "reader_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-26T11:01:16.023005",
+            "first_seen_at": "2026-09-26T11:02:12.830567",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 10664,
+            "title": "LLM 网络攻击 Agent 瓶颈诊断：成功背后隐藏的脆弱与低效",
+            "original_title": "Where Cyber Agents Struggle: Bottleneck Analysis of Multi-Stage LLM Agents",
+            "summary": "该论文对多阶段 LLM 网络攻击 Agent 进行端到端诊断，评估六个前沿模型在横向移动场景下的表现，发现成功率掩盖了高成本、重试依赖和证据误读等问题，瓶颈集中在凭据获取和横向移动任务。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 80.85,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "如果你在用或评估 LLM 驱动的攻击 Agent，这篇论文的诊断方法直接可用：别只盯成功率，要看 token 消耗、重试和验证器一致性。能帮你快速定位 Agent 在哪卡壳。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.28572",
+            "reader_url": "https://arxiv.org/pdf/2609.28572",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-25T04:00:00",
+            "first_seen_at": "2026-09-26T12:22:37.772781",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 10700,
+            "title": "攻击者利用开源AI Agent攻破27家企业并窃取60万信用卡",
+            "original_title": "Crook used three open source agents to break into a Fortune 500 hospitality company, a major US airline and 25+ other orgs | Jessica Lyons, The Register  A crook has been using thr",
+            "summary": "安全公司 Gambit 复盘了一起在野攻击：黑客利用 Strix、Cairn 和 Hermes 三个开源 AI 渗透测试工具，以极低成本近乎自主地攻破 27 家公司，窃取超 60 万条信用卡记录。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 80.51,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "防御团队必看：真实在野案例展示了开源安全 Agent 编排成攻击链后的恐怖效率，数小时即可完成从探测到数据窃取。红蓝队急需评估现有防御能否应对 AI 高速自动化攻击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/OwenGregorian/status/2103461653329137795",
+            "reader_url": "https://x.com/OwenGregorian/status/2103461653329137795",
+            "image_url": "https://pbs.twimg.com/media/HTD_OZuXkAAquLP.jpg",
+            "author": {
+              "username": "OwenGregorian",
+              "name": "Owen Gregorian",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-25T12:28:33",
+            "first_seen_at": "2026-09-26T14:29:30.351308",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 10628,
+            "title": "Palo Alto 推出多模型持续攻防管线 Unit 42",
+            "original_title": "Palo Alto Networks is turning frontier models into a continuous offensive-security pipeline.  Its new Unit 42 Continuous Frontier AI Defense combines Claude Mythos, OpenAI cyber mo",
+            "summary": "Palo Alto Unit 42 推出 Continuous Frontier AI Defense，结合 Claude Mythos、OpenAI 网络模型与开源模型，构建多模型编排的持续漏洞发现与验证管线，并强调模型路由与边界控制。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 77.76,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "展示了前沿模型在产业级渗透测试中的落地架构，多模型编排策略和边界控制值得安全团队借鉴。关注它如何把 Claude Mythos 等模型路由到不同安全任务上。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/probiex007/status/2103428667053666623",
+            "reader_url": "https://x.com/probiex007/status/2103428667053666623",
+            "image_url": "https://pbs.twimg.com/media/HTDhLv2aAAA_RzG.jpg",
+            "author": {
+              "username": "probiex007",
+              "name": "probiex007",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-25T10:17:28",
+            "first_seen_at": "2026-09-26T12:29:24.887395",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 10850,
+            "title": "攻击者滥用开源AI渗透框架CyberStrikeAI构建百台僵尸网络",
+            "original_title": "While running open directory sweeps on @etugenio, an investigation that started with a single Hong Kong🇭🇰 server quickly turned into something far larger, because when I pivoted of",
+            "summary": "调查发现攻击者利用开源AI渗透测试框架CyberStrikeAI构建了超百台服务器的攻击基础设施，针对多种托管平台发起攻击并利用Pterodactyl等系统的已知漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.54,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全防御者需警惕开源AI渗透工具正被直接武器化。推文披露了完整的IOC和漏洞利用链，蓝队可据此立即展开狩猎，AI安全工具开发者也应关注防滥用机制。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xb1lal/status/2103579006142501350",
+            "reader_url": "https://x.com/0xb1lal/status/2103579006142501350",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2103578287054241793/img/vBlymnOpvEDT8BoF.jpg",
+            "author": {
+              "username": "0xb1lal",
+              "name": "B1lal",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-25T20:14:52",
+            "first_seen_at": "2026-09-25T20:41:22.157969",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 10908,
+            "title": "阿里开源混合架构 AI 代码审查工具",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "阿里巴巴开源的混合架构代码审查工具，结合确定性管道与 LLM Agent，内置 XSS、SQL 注入等多语言安全规则集。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.15,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "结合规则引擎与 LLM 提供精准行级审查，覆盖 XSS/SQLi 等漏洞。安全团队可直接评估其作为代码审计和 CI 门禁工具的落地效果。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-26&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-26&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-26T00:15:57.700731",
+            "first_seen_at": "2026-09-26T00:17:09.404323",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 10679,
+            "title": "NetExec 接入 MCP：让 AI 直接调用内网渗透工具",
+            "original_title": "RT @mpgn_x64: If you want to know more about netexec-mcp, I wrote a short article 😀      https://t.co/apr6Ab0WhL",
+            "summary": "安全研究员 mpgn_x64 发文介绍了 netexec-mcp，该组件将知名内网渗透工具 NetExec 接入模型上下文协议（MCP），使 AI Agent 能够直接调用其进行内网自动化扫描与攻击测试。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.13,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "将红队核心工具 NetExec 桥接给 AI Agent 是自动化渗透的实务落地。做自动化攻防的红队成员应关注此桥接方式，评估 Agent 驱动内网横向移动的可行性与风险。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/pentest_swissky/status/2103439208237154448",
+            "reader_url": "https://x.com/pentest_swissky/status/2103439208237154448",
+            "image_url": null,
+            "author": {
+              "username": "pentest_swissky",
+              "name": "Swissky",
+              "avatar_url": null,
+              "followers_count": 23028
+            },
+            "published_at": "2026-09-25T10:59:21",
+            "first_seen_at": "2026-09-26T12:29:24.887395",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 10724,
+            "title": "Google安全Agent PageBreak验证超500个XSS漏洞",
+            "original_title": "NEWS: GOOGLE AGENT FOUND OVER 500 XSS BUGS  > Google's PageBreak security agent verified over 500 cross-site scripting bugs across first-party Google web apps.  > It uses determini",
+            "summary": "谷歌内部安全 Agent PageBreak 通过确定性验证器运行真实 payload，在第一方 Web 应用中验证了超 500 个 XSS 漏洞，确保仅将已验证结果发送给产品团队。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 72.75,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是AI Agent落地真实漏洞挖掘的标杆案例。安全团队可借鉴其「AI生成假设+确定性验证过滤」的工作流模式，有效降低误报率并提高产出质量。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/AIScientist_X/status/2103482073843429702",
+            "reader_url": "https://x.com/AIScientist_X/status/2103482073843429702",
+            "image_url": null,
+            "author": {
+              "username": "AIScientist_X",
+              "name": "AI Scientist",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-25T13:49:41",
+            "first_seen_at": "2026-09-26T14:29:30.351308",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "threat_detection": {
+        "label": "威胁检测",
+        "items": [
+          {
+            "id": 10634,
+            "title": "ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法",
+            "original_title": "Detect First, Explain Later: Training-Free Temporal-Memory Digital Twin Anomaly Detection with Post-Hoc LLM Interpretation for ICS",
+            "summary": "本文提出一种针对工业控制系统（ICS）的免训练异常检测方法，结合数字孪生约束与时间记忆机制，有效捕获时间累积的异常证据。在 HAI 和 BATADAL 数据集上误报率显著低于传统方法，并利用门控 LLM 进行事后解释。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 77.5,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "给工控安全团队看：结合时间记忆的数字孪生在 ICS 异常检测中能大幅降低误报。采用「先检测后解释」让 LLM 不介入核心检测链，规避幻觉风险，可直接参考其免训练方案优化工控威胁检测。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.29704",
+            "reader_url": "https://arxiv.org/pdf/2609.29704",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-25T04:00:00",
+            "first_seen_at": "2026-09-26T12:22:37.772781",
+            "sub_category_label": "威胁检测"
+          },
+          {
+            "id": 10633,
+            "title": "优化工业5G加密OPC UA流量异常检测的可靠性",
+            "original_title": "Improving the Reliability of Anomaly Detection for Encrypted OPC UA Traffic over Private 5G",
+            "summary": "本文提出一种基于控制平面感知的决策自适应方法，通过在不重新训练模型的情况下动态调整阈值，有效降低了加密流量入侵检测在面临良性连接变化时的误报率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 69.5,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做威胁检测和流量分析的兄弟可以看，这篇提出了不重训模型、仅用控制面上下文调整阈值来降误报的思路，直接解决工业5G加密场景下AI-IDS误报过高的痛点，实操性很强。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.29745",
+            "reader_url": "https://arxiv.org/pdf/2609.29745",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-25T04:00:00",
+            "first_seen_at": "2026-09-26T12:22:37.772781",
+            "sub_category_label": "威胁检测"
+          }
+        ]
+      },
+      "biometric_authentication": {
+        "label": "biometric_authentication",
+        "items": [
+          {
+            "id": 10617,
+            "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
+            "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
+            "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
+            "primary_category": "AI for Sec",
+            "sub_category": "biometric_authentication",
+            "score_total": 77.5,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.29851",
+            "reader_url": "https://arxiv.org/pdf/2609.29851",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-25T04:00:00",
+            "first_seen_at": "2026-09-26T12:22:37.772781",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "malware_detection": {
+        "label": "恶意软件与威胁检测",
+        "items": [
+          {
+            "id": 10669,
+            "title": "恶意软件 GNN 校准的类型偏移风险与回退机制研究",
+            "original_title": "Stress-Testing Structure-Aware Calibration of Malware Graph Neural Networks under Type Shift",
+            "summary": "该论文研究恶意软件图神经网络在面临未知类型样本时的置信度校准失效问题，并提出一种基于社区结构支持范围的回退机制，有效降低高置信度误报。",
+            "primary_category": "AI for Sec",
+            "sub_category": "malware_detection",
+            "score_total": 77.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做恶意软件检测的同行该看，这篇点出 GNN 分类器在 OOD 场景下的高置信度误报隐患，并给出可落地的 label-free 回退方案，直接能用到你们自己的模型校准流水线里。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.28517",
+            "reader_url": "https://arxiv.org/pdf/2609.28517",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-25T04:00:00",
+            "first_seen_at": "2026-09-26T12:22:37.772781",
+            "sub_category_label": "恶意软件与威胁检测"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 10725,
+            "title": "GitHub开源C/C++ AI Fuzzing管道，自动化写Harness",
+            "original_title": "GitHub just published an open-source AI fuzzing pipeline for C and C++.  Point it at a repo and the agent can find entry points, write harnesses, run AFL++, chase coverage gaps, tr",
+            "summary": "GitHub 发布针对 C/C++ 的开源 AI 模糊测试管道，可自动寻找入口、编写 harness、运行 AFL++ 并产出漏洞报告。需注意其在宿主机执行命令的安全风险。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 75.95,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "一线自动化Fuzzing工具，能极大减少写Harness的人力。务必在隔离VM中运行，防范未受信构建命令搞挂宿主机。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/hars_7086/status/2103479915102265648",
+            "reader_url": "https://x.com/hars_7086/status/2103479915102265648",
+            "image_url": null,
+            "author": {
+              "username": "hars_7086",
+              "name": "AI News Daily",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-25T13:41:07",
+            "first_seen_at": "2026-09-26T14:29:30.351308",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 10712,
+            "title": "GitHub Security Lab 推出 Taskflow Agent 用于 Fuzzing 工作流编排",
+            "original_title": "GitHub Security Lab is applying agentic AI to software fuzzing.  Their new Taskflow Agent framework can orchestrate fuzzing workflows rather than simply generating code or explaini",
+            "summary": "GitHub Security Lab 推出 Taskflow Agent 框架，通过 LLM 规划、执行工具和观察结果来编排 fuzzing 工作流，超越了单纯的代码生成或漏洞解释。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 69.96,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "GitHub 安全实验室的最新动向，展示了 Agent 如何深度介入 Fuzzing 闭环。做安全自动化的团队需关注，这代表 AI Fuzzing 正从生成 harness 向全流程编排演进。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/naveenpandey27/status/2103468329528905799",
+            "reader_url": "https://x.com/naveenpandey27/status/2103468329528905799",
+            "image_url": null,
+            "author": {
+              "username": "naveenpandey27",
+              "name": "Naveen Pandey",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-25T12:55:04",
+            "first_seen_at": "2026-09-26T14:29:30.351308",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "scam_detection": {
+        "label": "scam_detection",
+        "items": [
+          {
+            "id": 10640,
+            "title": "基于语音代理蜜罐的真实诈骗电话语料库与检测评测",
+            "original_title": "A Corpus of Real Scam- and Spam-Call Conversations from an Active Voice-Agent Honeypot",
+            "summary": "该研究利用低延迟对话式 AI 蜜罐收集了大规模真实诈骗与垃圾电话对话，构建了包含上万通电话的语料库，并发现现有基于合成数据训练的诈骗检测模型在真实流量上精度大幅下降。",
+            "primary_category": "AI for Sec",
+            "sub_category": "scam_detection",
+            "score_total": 75.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "AI 语音蜜罐在威胁情报收集上展现出极高落地价值。安全团队可借此评估检测模型对真实诈骗的鲁棒性，并参考其设计思路获取一手反欺诈数据。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.29528",
+            "reader_url": "https://arxiv.org/pdf/2609.29528",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-25T04:00:00",
+            "first_seen_at": "2026-09-26T12:22:37.772781",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "binary_security": {
+        "label": "二进制安全",
+        "items": [
+          {
+            "id": 10884,
+            "title": "Hex-Rays 官方发布 IDA MCP Server",
+            "original_title": "RT @mrexodia: As Flare-On starts I am happy to announce the official Hex-Rays IDA MCP Server is out! 🥳  Details and links below ⬇️ https://…",
+            "summary": "Hex-Rays 官方推出 IDA MCP Server，支持将大模型直接接入 IDA Pro 进行逆向分析。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 69.73,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做二进制安全和逆向的兄弟必看！官方下场出 MCP Server 意味着 AI 辅助逆向正式进入主流程。立刻去查接入文档，评估如何把 LLM 自动化引入现有的反汇编和漏洞分析工作流。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2103573011299545411",
+            "reader_url": "https://x.com/HackingLZ/status/2103573011299545411",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-09-25T19:51:03",
+            "first_seen_at": "2026-09-25T22:50:59.489020",
+            "sub_category_label": "二进制安全"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 10935,
+            "title": "OpenAI Agent 攻破 Hugging Face 细节曝光",
+            "original_title": "HN Hot Discussion: Revealing the details of how OpenAI agents hacked Hugging Face",
+            "summary": "HN 热议 OpenAI agents 攻破 Hugging Face 的细节，涉及 Agent 在真实网络环境中的攻击能力与安全风险。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 79.55,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "OpenAI Agent 展示出真实环境攻击能力，安全从业者需警惕 AI 自动化攻击的落地节奏，重新评估现有防御基线与红队演练方案。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
+            "reader_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
+            "image_url": null,
+            "author": {
+              "username": "specked-citrus",
+              "name": "specked-citrus",
+              "avatar_url": null
+            },
+            "published_at": "2026-09-25T21:09:27",
+            "first_seen_at": "2026-09-26T01:02:36.154357",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "model_security": {
+        "label": "model_security",
+        "items": [
+          {
+            "id": 10661,
+            "title": "BRFID：基于攻击自损信号的联邦入侵检测鲁棒性研究",
+            "original_title": "BRFID: Toward Byzantine-Robust Federated Intrusion Detection",
+            "summary": "该论文研究了联邦入侵检测系统（IDS）中的标签翻转投毒攻击，发现攻击者在翻转标签时会导致自身检测准确率显著下降，并提出利用这一自损信号作为异常特征来识别拜占庭客户端。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "model_security",
+            "score_total": 73.85,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "研究联邦学习和威胁检测的同行值得一看。文章揭示了投毒攻击在联邦IDS中的自损特性，并提供了一种无需额外防御机制即可检测恶意客户端的新思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.28599",
+            "reader_url": "https://arxiv.org/pdf/2609.28599",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-25T04:00:00",
+            "first_seen_at": "2026-09-26T12:22:37.772781",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | Sec for AI": {
+      "llm_architecture | agent_security": {
+        "label": "llm_architecture | agent_security",
+        "items": [
+          {
+            "id": 10832,
+            "title": "Jev新型决策模型解析及安全风控应用",
+            "original_title": "Jev到底是个什么东西？举个形象的例子！",
+            "summary": "本文介绍TypeSafe AI推出的非生成式强类型决策模型Jev，并实测其在客服分流和Agent高危操作拦截等场景中的应用。",
+            "primary_category": "AI Tech | Sec for AI",
+            "sub_category": "llm_architecture | agent_security",
+            "score_total": 72.35,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Jev以低延迟和高置信度著称，其作为Agent执行前的安全门禁能精准拦截高危指令。安全团队应关注此类系统一模型在自动化防护链路中的低成本替代价值。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7687899083843010587",
+            "reader_url": "https://juejin.cn/post/7687899083843010587",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T02:51:55",
+            "first_seen_at": "2026-09-25T19:05:59.670242",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 10664,
+      "title": "LLM 网络攻击 Agent 瓶颈诊断：成功背后隐藏的脆弱与低效",
+      "original_title": "Where Cyber Agents Struggle: Bottleneck Analysis of Multi-Stage LLM Agents",
+      "summary": "该论文对多阶段 LLM 网络攻击 Agent 进行端到端诊断，评估六个前沿模型在横向移动场景下的表现，发现成功率掩盖了高成本、重试依赖和证据误读等问题，瓶颈集中在凭据获取和横向移动任务。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在用或评估 LLM 驱动的攻击 Agent，这篇论文的诊断方法直接可用：别只盯成功率，要看 token 消耗、重试和验证器一致性。能帮你快速定位 Agent 在哪卡壳。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.28572",
+      "reader_url": "https://arxiv.org/pdf/2609.28572",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10634,
+      "title": "ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法",
+      "original_title": "Detect First, Explain Later: Training-Free Temporal-Memory Digital Twin Anomaly Detection with Post-Hoc LLM Interpretation for ICS",
+      "summary": "本文提出一种针对工业控制系统（ICS）的免训练异常检测方法，结合数字孪生约束与时间记忆机制，有效捕获时间累积的异常证据。在 HAI 和 BATADAL 数据集上误报率显著低于传统方法，并利用门控 LLM 进行事后解释。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "给工控安全团队看：结合时间记忆的数字孪生在 ICS 异常检测中能大幅降低误报。采用「先检测后解释」让 LLM 不介入核心检测链，规避幻觉风险，可直接参考其免训练方案优化工控威胁检测。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29704",
+      "reader_url": "https://arxiv.org/pdf/2609.29704",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 10617,
+      "title": "击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测",
+      "original_title": "Template Ageing and Longitudinal Verification in Fixed-Text Keystroke Dynamics: A Subject-Disjoint Study Across Eight Weeks",
+      "summary": "论文通过8周40名受试者的纵向数据集，比较了Manhattan匹配器、梯度提升分类器、TypeNet风格RNN和TypeFormer风格Transformer在固定文本击键动态验证中的模板老化效应，发现错误率随时间每周增约1.7%，但基线准确率的架构差异远大于老化速率差异。",
+      "primary_category": "AI for Sec",
+      "sub_category": "biometric_authentication",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做行为生物识别或连续认证的安全工程师该看：结论是选模型看同会话准确率即可，老化靠定期重新注册管理而非换模型。Transformer训练稳定性优于RNN（种子噪声方差19% vs 58%），部署时值得关注。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29851",
+      "reader_url": "https://arxiv.org/pdf/2609.29851",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": null
+    },
+    {
+      "id": 10669,
+      "title": "恶意软件 GNN 校准的类型偏移风险与回退机制研究",
+      "original_title": "Stress-Testing Structure-Aware Calibration of Malware Graph Neural Networks under Type Shift",
+      "summary": "该论文研究恶意软件图神经网络在面临未知类型样本时的置信度校准失效问题，并提出一种基于社区结构支持范围的回退机制，有效降低高置信度误报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 77.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做恶意软件检测的同行该看，这篇点出 GNN 分类器在 OOD 场景下的高置信度误报隐患，并给出可落地的 label-free 回退方案，直接能用到你们自己的模型校准流水线里。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.28517",
+      "reader_url": "https://arxiv.org/pdf/2609.28517",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 10640,
+      "title": "基于语音代理蜜罐的真实诈骗电话语料库与检测评测",
+      "original_title": "A Corpus of Real Scam- and Spam-Call Conversations from an Active Voice-Agent Honeypot",
+      "summary": "该研究利用低延迟对话式 AI 蜜罐收集了大规模真实诈骗与垃圾电话对话，构建了包含上万通电话的语料库，并发现现有基于合成数据训练的诈骗检测模型在真实流量上精度大幅下降。",
+      "primary_category": "AI for Sec",
+      "sub_category": "scam_detection",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "AI 语音蜜罐在威胁情报收集上展现出极高落地价值。安全团队可借此评估检测模型对真实诈骗的鲁棒性，并参考其设计思路获取一手反欺诈数据。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29528",
+      "reader_url": "https://arxiv.org/pdf/2609.29528",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": null
+    },
+    {
+      "id": 10661,
+      "title": "BRFID：基于攻击自损信号的联邦入侵检测鲁棒性研究",
+      "original_title": "BRFID: Toward Byzantine-Robust Federated Intrusion Detection",
+      "summary": "该论文研究了联邦入侵检测系统（IDS）中的标签翻转投毒攻击，发现攻击者在翻转标签时会导致自身检测准确率显著下降，并提出利用这一自损信号作为异常特征来识别拜占庭客户端。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "model_security",
+      "score_total": 73.85,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "研究联邦学习和威胁检测的同行值得一看。文章揭示了投毒攻击在联邦IDS中的自损特性，并提供了一种无需额外防御机制即可检测恶意客户端的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.28599",
+      "reader_url": "https://arxiv.org/pdf/2609.28599",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": null
+    },
+    {
+      "id": 10647,
+      "title": "受果蝇启发的无奖励调度机制：优化自主渗透测试Agent",
+      "original_title": "The Fly That Stopped: Mushroom-Body-Inspired Habituation as a Reward-Free Scheduling Prior for Autonomous Penetration Testing",
+      "summary": "论文提出一种受果蝇蘑菇体启发的无奖励调度机制，通过习惯化计数器惩罚重复工具选择，显著降低自主渗透测试Agent在固定预算下的重复操作率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全Agent开发者必看：当Agent反复尝试无效工具时，这种无奖励的习惯化衰减调度比调RL奖励更轻量。能直接拿来优化红队自动化测试的Budget控制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.29126",
+      "reader_url": "https://arxiv.org/pdf/2609.29126",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 10651,
+      "title": "校准决策模型为 LLM 渗透测试 Agent 提供更可靠的判定层",
+      "original_title": "Calibrated Decision Models for Autonomous Penetration-Testing Harnesses: JEV and Laya as System One Decision Layers for LLM-Driven Pentest Agents",
+      "summary": "本文探讨在自主渗透测试框架中使用轻量级非生成式分类器（System One 决策模型）处理漏洞确认、严重性校准和 Agent 选择等决策点，减少误报与算力浪费，并提出领域适配模型 Rave 及其训练与评测方案。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做 Pentest Agent 的团队该看：用轻量分类器替代 LLM 自审自判，直击误报率高、严重性虚高的痛点。四个决策点定义和 NeuroSploit 案例可直接借鉴到你自己的 harness 设计中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.28940",
+      "reader_url": "https://arxiv.org/pdf/2609.28940",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-25T04:00:00",
+      "first_seen_at": "2026-09-26T12:22:37.772781",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 22,
+    "highlight_count": 3,
+    "paper_count": 9,
+    "source_count": 5,
+    "top_score": 85,
+    "category_count": {
+      "AI for Sec": 19,
+      "AI Tech": 0,
+      "AI for Sec | Sec for AI": 1,
+      "Sec for AI | AI for Sec": 1,
+      "AI Tech | Sec for AI": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 11
+        },
+        "threat_detection": {
+          "label": "威胁检测",
+          "count": 2
+        },
+        "biometric_authentication": {
+          "label": "biometric_authentication",
+          "count": 1
+        },
+        "malware_detection": {
+          "label": "恶意软件与威胁检测",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        },
+        "scam_detection": {
+          "label": "scam_detection",
+          "count": 1
+        },
+        "binary_security": {
+          "label": "二进制安全",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "model_security": {
+          "label": "model_security",
+          "count": 1
+        }
+      },
+      "AI Tech | Sec for AI": {
+        "llm_architecture | agent_security": {
+          "label": "llm_architecture | agent_security",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 19,
+      "top_score": 85,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分的 reverse-skill 包让安全工程师能迅速搭建逆向工作流，建议团队立刻接入 Claude Code 跑个验证，看它的工具链路由到底好不好使。同时，结合今天关于攻击 Agent 效能诊断的研究，我们在评估这类 Agent 时千万别被表面成功率骗了，重点要盯 token 消耗、重试率和验证器一致性，搞清楚它到底在哪卡壳。",
+  "method_note": "按北京时间 2026-09-26 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "hn-ai-tech",
+    "juejin-trending-weekly",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# 逆向安全技能 AI 路由包 reverse-skill 登顶 GitHub Tren\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是实战化攻防 Agent 的落地与检验，既有开源 AI 渗透工具直接跑通工作流，也有真实环境下的自动化攻击曝光和效能诊断。这说明 AI 驱动的安全工具正从概念走向真刀真枪的干活阶段，大家开始较真其实际效率与瓶颈。\n- 01 安全工程师可直接将此包接入 Claude Code 等客户端，快速搭建逆向与渗透辅助工作流，值得立刻试用验证其路由与工具链调用效果。\n- 02 如果你在用或评估 LLM 驱动的攻击 Agent，这篇论文的诊断方法直接可用：别只盯成功率，要看 token 消耗、重试和验证器一致性。能帮你快速定位 Agent 在哪卡壳。\n- 03 OpenAI Agent 展示出真实环境攻击能力，安全从业者需警惕 AI 自动化攻击的落地节奏，重新评估现有防御基线与红队演练方案。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **逆向安全技能 AI 路由包 reverse-skill 登顶 GitHub Trending**：安全工程师可直接将此包接入 Claude Code 等客户端，快速搭建逆向与渗透辅助工作流，值得立刻试用验证其路由与工具链调用效果。 来源：github-ai-security\n- **LLM 网络攻击 Agent 瓶颈诊断：成功背后隐藏的脆弱与低效**：如果你在用或评估 LLM 驱动的攻击 Agent，这篇论文的诊断方法直接可用：别只盯成功率，要看 token 消耗、重试和验证器一致性。能帮你快速定位 Agent 在哪卡壳。 来源：arxiv-ai-security\n- **OpenAI Agent 攻破 Hugging Face 细节曝光**：OpenAI Agent 展示出真实环境攻击能力，安全从业者需警惕 AI 自动化攻击的落地节奏，重新评估现有防御基线与红队演练方案。 来源：hn-ai-tech\n\n## 也值得关注\n- ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法（77.5）\n- 击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测（77.5）\n- 恶意软件 GNN 校准的类型偏移风险与回退机制研究（77.15）\n- GitHub开源C/C++ AI Fuzzing管道，自动化写Harness（75.95）\n- 基于语音代理蜜罐的真实诈骗电话语料库与检测评测（75.95）\n- 攻击者滥用开源AI渗透框架CyberStrikeAI构建百台僵尸网络（74.54）\n\n## AI for Sec\n\n### 安全Agent\n- 逆向安全技能 AI 路由包 reverse-skill 登顶 GitHub Trending（84.82）\n- LLM 网络攻击 Agent 瓶颈诊断：成功背后隐藏的脆弱与低效（80.85）\n- 攻击者利用开源AI Agent攻破27家企业并窃取60万信用卡（80.51）\n- Palo Alto 推出多模型持续攻防管线 Unit 42（77.76）\n- 攻击者滥用开源AI渗透框架CyberStrikeAI构建百台僵尸网络（74.54）\n\n### 威胁检测\n- ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法（77.5）\n- 优化工业5G加密OPC UA流量异常检测的可靠性（69.5）\n\n### biometric_authentication\n- 击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测（77.5）\n\n### 恶意软件与威胁检测\n- 恶意软件 GNN 校准的类型偏移风险与回退机制研究（77.15）\n\n### AI Fuzzing\n- GitHub开源C/C++ AI Fuzzing管道，自动化写Harness（75.95）\n- GitHub Security Lab 推出 Taskflow Agent 用于 Fuzzing 工作流编排（69.96）\n\n### scam_detection\n- 基于语音代理蜜罐的真实诈骗电话语料库与检测评测（75.95）\n\n### 二进制安全\n- Hex-Rays 官方发布 IDA MCP Server（69.73）\n\n## AI Tech 短讯\n\n## 今日论文\n- LLM 网络攻击 Agent 瓶颈诊断：成功背后隐藏的脆弱与低效\n- ICS异常检测：结合时间记忆数字孪生与LLM解释的免训练方法\n- 击键动态生物识别模板老化研究：Transformer与RNN八周纵向评测\n- 恶意软件 GNN 校准的类型偏移风险与回退机制研究\n- 基于语音代理蜜罐的真实诈骗电话语料库与检测评测\n- BRFID：基于攻击自损信号的联邦入侵检测鲁棒性研究\n- 受果蝇启发的无奖励调度机制：优化自主渗透测试Agent\n- 校准决策模型为 LLM 渗透测试 Agent 提供更可靠的判定层\n\n## 今日观察\n最高分的 reverse-skill 包让安全工程师能迅速搭建逆向工作流，建议团队立刻接入 Claude Code 跑个验证，看它的工具链路由到底好不好使。同时，结合今天关于攻击 Agent 效能诊断的研究，我们在评估这类 Agent 时千万别被表面成功率骗了，重点要盯 token 消耗、重试率和验证器一致性，搞清楚它到底在哪卡壳。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-09-26 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-27T00:01:45+08:00"
+}
