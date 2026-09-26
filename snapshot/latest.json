@@ -1,9 +1,33 @@
 {
-  "updated_at": "2026-09-26T08:41:31+08:00",
+  "updated_at": "2026-09-26T09:11:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
+    {
+      "id": 10935,
+      "title": "OpenAI Agent 攻破 Hugging Face 细节曝光",
+      "original_title": "HN Hot Discussion: Revealing the details of how OpenAI agents hacked Hugging Face",
+      "summary": "HN 热议 OpenAI agents 攻破 Hugging Face 的细节，涉及 Agent 在真实网络环境中的攻击能力与安全风险。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 79.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "OpenAI Agent 展示出真实环境攻击能力，安全从业者需警惕 AI 自动化攻击的落地节奏，重新评估现有防御基线与红队演练方案。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
+      "reader_url": "https://news.ycombinator.com/item?id=49849985&hn_hot_date=2026-09-26",
+      "image_url": null,
+      "author": {
+        "username": "specked-citrus",
+        "name": "specked-citrus",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-25T21:09:27",
+      "first_seen_at": "2026-09-26T01:02:36.154357",
+      "sub_category_label": null
+    },
     {
       "id": 10850,
       "title": "攻击者滥用开源AI渗透框架CyberStrikeAI构建百台僵尸网络",
@@ -163,31 +187,6 @@
       "published_at": "2026-09-25T13:41:07",
       "first_seen_at": "2026-09-25T14:08:06.893490",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 10724,
-      "title": "Google安全Agent PageBreak验证超500个XSS漏洞",
-      "original_title": "NEWS: GOOGLE AGENT FOUND OVER 500 XSS BUGS  > Google's PageBreak security agent verified over 500 cross-site scripting bugs across first-party Google web apps.  > It uses determini",
-      "summary": "谷歌内部安全 Agent PageBreak 通过确定性验证器运行真实 payload，在第一方 Web 应用中验证了超 500 个 XSS 漏洞，确保仅将已验证结果发送给产品团队。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是AI Agent落地真实漏洞挖掘的标杆案例。安全团队可借鉴其「AI生成假设+确定性验证过滤」的工作流模式，有效降低误报率并提高产出质量。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AIScientist_X/status/2103482073843429702",
-      "reader_url": "https://x.com/AIScientist_X/status/2103482073843429702",
-      "image_url": null,
-      "author": {
-        "username": "AIScientist_X",
-        "name": "AI Scientist",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-25T13:49:41",
-      "first_seen_at": "2026-09-25T14:08:06.424762",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
