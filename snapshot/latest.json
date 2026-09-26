@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-09-26T18:44:55+08:00",
+  "updated_at": "2026-09-26T19:14:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
+    {
+      "id": 11013,
+      "title": "逆向安全技能 AI 路由包 reverse-skill 登顶 GitHub Trending",
+      "original_title": "GitHub Trending: zhaoxuya520/reverse-skill gained 409 stars today",
+      "summary": "开源工具 reverse-skill 将 AI 自动路由、按需工具链自举与自进化知识库结合，支持 Claude Code 等客户端，用于逆向工程与渗透测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.82,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全工程师可直接将此包接入 Claude Code 等客户端，快速搭建逆向与渗透辅助工作流，值得立刻试用验证其路由与工具链调用效果。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
+      "reader_url": "https://github.com/zhaoxuya520/reverse-skill?github_trending_date=2026-09-26&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-26T11:01:16.023005",
+      "first_seen_at": "2026-09-26T11:02:12.830567",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 10935,
       "title": "OpenAI Agent 攻破 Hugging Face 细节曝光",
@@ -92,31 +112,6 @@
       "published_at": "2026-09-26T00:15:57.497997",
       "first_seen_at": "2026-09-26T00:17:28.955691",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 10884,
-      "title": "Hex-Rays 官方发布 IDA MCP Server",
-      "original_title": "RT @mrexodia: As Flare-On starts I am happy to announce the official Hex-Rays IDA MCP Server is out! 🥳  Details and links below ⬇️ https://…",
-      "summary": "Hex-Rays 官方推出 IDA MCP Server，支持将大模型直接接入 IDA Pro 进行逆向分析。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 69.73,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做二进制安全和逆向的兄弟必看！官方下场出 MCP Server 意味着 AI 辅助逆向正式进入主流程。立刻去查接入文档，评估如何把 LLM 自动化引入现有的反汇编和漏洞分析工作流。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2103573011299545411",
-      "reader_url": "https://x.com/HackingLZ/status/2103573011299545411",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-09-25T19:51:03",
-      "first_seen_at": "2026-09-25T22:50:59.489020",
-      "sub_category_label": "二进制安全"
     },
     {
       "id": 10956,
