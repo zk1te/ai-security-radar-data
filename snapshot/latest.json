@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T14:49:59+08:00",
+  "updated_at": "2026-09-27T18:50:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -83,31 +83,6 @@
       "published_at": "2026-09-24T04:00:00",
       "first_seen_at": "2026-09-27T06:23:42.328773",
       "sub_category_label": "恶意软件与威胁检测"
-    },
-    {
-      "id": 10850,
-      "title": "攻击者滥用开源AI渗透框架CyberStrikeAI构建百台僵尸网络",
-      "original_title": "While running open directory sweeps on @etugenio, an investigation that started with a single Hong Kong🇭🇰 server quickly turned into something far larger, because when I pivoted of",
-      "summary": "调查发现攻击者利用开源AI渗透测试框架CyberStrikeAI构建了超百台服务器的攻击基础设施，针对多种托管平台发起攻击并利用Pterodactyl等系统的已知漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 82.79,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全防御者需警惕开源AI渗透工具正被直接武器化。推文披露了完整的IOC和漏洞利用链，蓝队可据此立即展开狩猎，AI安全工具开发者也应关注防滥用机制。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xb1lal/status/2103579006142501350",
-      "reader_url": "https://x.com/0xb1lal/status/2103579006142501350",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2103578287054241793/img/vBlymnOpvEDT8BoF.jpg",
-      "author": {
-        "username": "0xb1lal",
-        "name": "B1lal",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-25T20:14:52",
-      "first_seen_at": "2026-09-26T22:30:04.589085",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 10442,
@@ -208,6 +183,26 @@
       "published_at": "2026-09-27T00:41:27.889448",
       "first_seen_at": "2026-09-27T00:43:18.756161",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9998,
+      "title": "针对恶意软件检测器的新型干净标签后门攻击 RAMP",
+      "original_title": "RAMP: Reversing Adversarial Perturbations to Strengthen Clean-Label Backdoor Attacks against Malware Detectors",
+      "summary": "论文提出 RAMP 攻击方法，通过遗传算法优化逆向对抗扰动，在保持样本良性标签与功能的前提下制造特征空间冲突，显著提升对深度学习恶意软件检测器的后门攻击成功率。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "model_security",
+      "score_total": 80.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "恶意软件检测器在众包数据微调时易遭投毒攻击。安全团队应关注 RAMP 利用逆向对抗扰动制造特征冲突的手法，评估模型微调管道的防御鲁棒性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27422",
+      "reader_url": "https://arxiv.org/pdf/2609.27422",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-27T06:23:42.328773",
+      "sub_category_label": null
     }
   ]
 }
