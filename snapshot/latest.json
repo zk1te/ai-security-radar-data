@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-29T00:57:14+08:00",
+  "updated_at": "2026-09-29T01:27:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 11245,
@@ -173,6 +173,31 @@
       "published_at": "2026-09-28T08:44:06",
       "first_seen_at": "2026-09-28T08:49:07.742577",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11717,
+      "title": "AI代理安全测试的「形式主义」：Zstd实验揭示Fuzzing与TDD局限",
+      "original_title": "The Agent Spotted Bit Reversal—Then Tested a Palindrome  The cleanest example in this giant testing experiment is almost slapstick. A coding agent correctly identified bitstream re",
+      "summary": "一项针对编码代理实现Zstd算法的大型测试实验表明，尽管Agent掌握了Fuzzing、TDD等形式化方法词汇，但往往无法构建能有效区分错误实现的测试，甚至用回文输入测试位反转bug。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 65.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "搞AI安全的工程师必须看：别被Agent堆砌的高级测试工具骗了。这篇实验残酷指出，Agent常在「角色扮演」安全测试，写出的Fuzzing和TDD用例根本抓不到真bug，评估Agent安全能力时务必深究其测试用例的甄别力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aka_ssy/status/2104548793572008375",
+      "reader_url": "https://x.com/aka_ssy/status/2104548793572008375",
+      "image_url": null,
+      "author": {
+        "username": "aka_ssy",
+        "name": "Hero.S",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-28T12:28:27",
+      "first_seen_at": "2026-09-28T12:35:15.671181",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
