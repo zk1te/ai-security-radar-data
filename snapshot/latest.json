@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-28T20:26:21+08:00",
+  "updated_at": "2026-09-28T20:56:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 11446,
@@ -153,6 +153,31 @@
       "published_at": "2026-09-27T00:32:28",
       "first_seen_at": "2026-09-28T02:33:44.050745",
       "sub_category_label": null
+    },
+    {
+      "id": 11245,
+      "title": "新加坡政府部署AI自动化渗透测试工具覆盖2000个系统",
+      "original_title": "סינגפור כבר מפעילה כלי AI שמבצעים בדיקות חדירה אוטומטיות על כ־2,000 מערכות ממשלתיות.  רשות הסייבר של סינגפור ו־GovTech חשפו שני כלים פנימיים חדשים: אחד מבצע penetration testing אוט",
+      "summary": "新加坡网络安全局和GovTech推出两款内部AI安全工具，分别用于对约2000个政府系统进行自动化渗透测试和源代码漏洞扫描，并计划扩展至关键基础设施领域。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是AI用于自动化攻防和代码审计的罕见大规模政企落地案例。安全团队可借此评估AI渗透测试工具在实际大型环境中的可行性与覆盖范围，了解行业前沿动向。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Ai_hebrew/status/2104161628233281830",
+      "reader_url": "https://x.com/Ai_hebrew/status/2104161628233281830",
+      "image_url": null,
+      "author": {
+        "username": "Ai_hebrew",
+        "name": "בינה מלאכותית בעברית",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-27T10:50:00",
+      "first_seen_at": "2026-09-28T12:34:24.981734",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
