@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-28T22:56:42+08:00",
+  "updated_at": "2026-09-28T23:26:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 11446,
@@ -88,6 +88,31 @@
       "published_at": "2026-09-27T10:50:00",
       "first_seen_at": "2026-09-28T12:34:24.981734",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11769,
+      "title": "业界使用LLM挖掘NetScaler漏洞动态",
+      "original_title": "The truly impressive thing about the NetScaler RCE is just how many people and firms have been running their LLM bug hunting harnesses against that platform for months now. Citrix ",
+      "summary": "推文指出大量企业和个人已使用LLM漏洞挖掘工具对NetScaler平台进行数月测试，并提及Citrix参与Project Glasswing项目。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 71.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "侧面印证LLM辅助漏洞挖掘已大规模进入企业实战阶段。安全团队应关注同行在内部安全流程中引入AI harness的实际进度，以便评估自身差距。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2104552552746582095",
+      "reader_url": "https://x.com/HackingLZ/status/2104552552746582095",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-09-28T12:43:23",
+      "first_seen_at": "2026-09-28T15:20:41.463119",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 11639,
