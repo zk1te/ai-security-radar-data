@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T14:24:40+08:00",
+  "updated_at": "2026-09-28T14:54:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -145,31 +145,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 11083,
-      "title": "GitHub Security Lab开源Fuzzing Agent：自动写harness与分流崩溃",
-      "original_title": "GitHub Security Lab open-sourced an agent that writes AFL harnesses, chases coverage, and triages crashes for you.  Point the Fuzzing Taskflow at owner/repo, and it installs AFL, c",
-      "summary": "GitHub Security Lab开源了一款自动化Fuzzing Agent，能自动编写AFL harness、调整覆盖率策略并分类崩溃结果。其架构采用LLM进行决策，MCP工具执行具体命令，状态存于SQLite。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 78.66,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec从业者必看。该工具展示了Agent结合MCP工具在真实漏洞挖掘中的落地形态，直接跑通「写harness-跑AFL-分流」全流程，可借鉴其Agent与工具集成的设计思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/agentnativedev/status/2103897489258819680",
-      "reader_url": "https://x.com/agentnativedev/status/2103897489258819680",
-      "image_url": null,
-      "author": {
-        "username": "agentnativedev",
-        "name": "agentnative",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-26T17:20:24",
-      "first_seen_at": "2026-09-27T18:32:53.383767",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 11404,
       "title": "阿里开源混合架构 AI 代码审查工具",
       "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
@@ -190,29 +165,44 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 11088,
-      "title": "GitHub安全实验室推出AI驱动的C/C++ Fuzzing Agent",
-      "original_title": "GitHub Security Lab launched an AI-powered fuzzing Taskflow Agent for C/C++ repos. It can find entry points, build harnesses, run AFL++, improve coverage, triage crashes, and draft",
-      "summary": "GitHub Security Lab 发布了一款针对 C/C++ 项目的 AI Fuzzing Taskflow Agent，能自动寻找入口点、构建 harness、运行 AFL++ 并起草漏洞报告，显著降低人工操作。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 77.78,
+      "id": 9814,
+      "title": "上下文误导：评估并提升 LLM 对虚假上下文的抵抗力",
+      "original_title": "When Context Misleads: In-context Learning with Jurisdiction in Large Language Models",
+      "summary": "论文提出 FakeContextBench 基准评估大模型对误导性上下文的辨别能力，发现现有微调方法反而增加易受骗风险，并提出 J-ICL 框架在提升 ICL 能力的同时增强对欺骗性上下文的抵抗力。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 76.2,
       "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这款 Agent 展示了 AI 在 Fuzzing 全流程的落地能力。做漏洞挖掘和代码审计的团队值得跟进其实现思路，评估能否复用以降低构建 harness 的人工成本。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RogalaPiotr/status/2103906557234659448",
-      "reader_url": "https://x.com/RogalaPiotr/status/2103906557234659448",
+      "item_type": "paper",
+      "recommendation_reason": "本文揭示现有 ICL 微调可能导致模型更易被上下文投毒或提示注入误导。对于从事 LLM 安全评测和防御的从业者，FakeContextBench 及 J-ICL 训练框架提供了直接可用的评估工具和防御思路，值得立即跟进复现。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27603",
+      "reader_url": "https://arxiv.org/pdf/2609.27603",
       "image_url": null,
-      "author": {
-        "username": "RogalaPiotr",
-        "name": "Piotr Rogala",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-26T17:56:26",
-      "first_seen_at": "2026-09-27T18:32:53.383767",
-      "sub_category_label": "AI Fuzzing"
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": null
+    },
+    {
+      "id": 11440,
+      "title": "针对日志异常检测的模型校准框架LoRD",
+      "original_title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+      "summary": "针对语言模型日志异常检测器过度自信且常规校准失效的问题，提出轻量级后置校准框架LoRD，通过路由重建距离估计预测可靠性，在保持检测性能的同时降低过自信错误。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做安全运营和 AI 威胁检测的兄弟必看。论文戳中了 LM 异常检测的痛点——模型经常自信地给出错误判断，这在 SOC 里会导致漏报或大量误报。LoRD 框架提供了后置校准手段，能直接提升告警置信度的可用性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.17965",
+      "reader_url": "https://arxiv.org/pdf/2608.17965",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-28T04:00:00",
+      "first_seen_at": "2026-09-28T04:12:26.108016",
+      "sub_category_label": "威胁检测"
     }
   ]
 }
