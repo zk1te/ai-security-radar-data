@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T03:58:03+08:00",
+  "updated_at": "2026-09-29T04:58:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -165,28 +165,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 11698,
-      "title": "XBOW 自主系统登顶 HackerOne 排行榜，重塑进攻性安全经济学",
-      "original_title": "AI is changing more than the speed of penetration testing.  As per Sundar Krishnamurthy, CISSP XBOW became the first autonomous system to reach the top of HackerOne’s U.S. leaderbo",
-      "summary": "XBOW 成为首个登顶 HackerOne 美国榜单的自主系统，能持续探索应用、链式利用并验证漏洞。但这仅加速发现过程，若修复能力未同步提升，只会制造更快的积压。",
+      "id": 11868,
+      "title": "使用开源AI安全代理挖掘出24个Android漏洞",
+      "original_title": "How we found 24 Android vulnerabilities using our open source AI security agent https://t.co/CPIe0abeZO",
+      "summary": "文章分享了使用开源AI安全代理成功挖掘出24个Android漏洞的实战经验，展示了AI在移动端漏洞自动化发现领域的潜力。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
       "score_total": 66.75,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全团队主管必看。AI 渗透系统在真实漏洞悬赏中登顶，标志着自动化挖洞已从实验走向实战变现。团队需立刻评估现有漏洞修复管线能否承接 AI 带来的发现量暴增。",
+      "recommendation_reason": "面向移动安全和漏洞挖掘人员，这篇内容展示了开源AI Agent的真实挖洞成果。建议立刻查看该开源工具，评估其能否补充现有的漏洞挖掘流水线。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/vishalmasih_/status/2104531314569359786",
-      "reader_url": "https://x.com/vishalmasih_/status/2104531314569359786",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2102160799749873664/img/ohu5FVTbkRGB0z75.jpg",
+      "canonical_url": "https://x.com/massimobonanni/status/2104672480220656108",
+      "reader_url": "https://x.com/massimobonanni/status/2104672480220656108",
+      "image_url": null,
       "author": {
-        "username": "vishalmasih_",
-        "name": "Vishal Masih",
+        "username": "massimobonanni",
+        "name": "Massimo Bonanni",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-09-28T11:19:00",
-      "first_seen_at": "2026-09-28T11:29:45.534029",
+      "published_at": "2026-09-28T20:39:56",
+      "first_seen_at": "2026-09-28T20:51:00.401195",
       "sub_category_label": "安全Agent"
     }
   ]
