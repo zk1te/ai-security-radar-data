@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-29T06:58:34+08:00",
+  "updated_at": "2026-09-29T07:58:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 11848,
@@ -115,31 +115,6 @@
       "sub_category_label": null
     },
     {
-      "id": 11699,
-      "title": "AI Agent PR 需独立安全测试：SusVibes 量化功能测试盲区",
-      "original_title": "Functional CI alone is a false green for agent PRs.  I am putting a security oracle, or at least a separate security agent plus a static/DAST gate, in the harness before green test",
-      "summary": "推文指出仅靠功能测试无法保障 AI Agent 提交的代码安全，建议在 CI 流程中加入安全 Agent 与静态/DAST 测试。Lei Li Lab 的 SusVibes 评测显示，通过功能测试的 Agent 补丁中仅约 10.5% 是安全的。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队在接入 AI 编程 Agent 时必须警醒：功能测试全绿不等于代码安全。应立即在 CI 流程中引入安全 Agent 或 DAST 作为强制卡点，否则将面临大规模引入漏洞的风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/agentnativedev/status/2104527637158965758",
-      "reader_url": "https://x.com/agentnativedev/status/2104527637158965758",
-      "image_url": null,
-      "author": {
-        "username": "agentnativedev",
-        "name": "agentnative",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-28T11:04:23",
-      "first_seen_at": "2026-09-28T11:30:21.786174",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 11736,
       "title": "开源安全Agent「HexStrike」可自主驱动150+安全工具",
       "original_title": "🔒 CYBERSECURITY, PRIVACY & OPEN SOURCE ROUNDUP — September 28, 2026  1️⃣ OPENSHIP 0.8.0 ADDS AN INTERACTIVE SERVICE TOPOLOGY CANVAS  Self-hosted deployment platform OpenShip shippe",
@@ -163,6 +138,56 @@
       "published_at": "2026-09-28T13:49:54",
       "first_seen_at": "2026-09-28T14:12:38.335362",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11868,
+      "title": "使用开源AI安全代理挖掘出24个Android漏洞",
+      "original_title": "How we found 24 Android vulnerabilities using our open source AI security agent https://t.co/CPIe0abeZO",
+      "summary": "文章分享了使用开源AI安全代理成功挖掘出24个Android漏洞的实战经验，展示了AI在移动端漏洞自动化发现领域的潜力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "面向移动安全和漏洞挖掘人员，这篇内容展示了开源AI Agent的真实挖洞成果。建议立刻查看该开源工具，评估其能否补充现有的漏洞挖掘流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/massimobonanni/status/2104672480220656108",
+      "reader_url": "https://x.com/massimobonanni/status/2104672480220656108",
+      "image_url": null,
+      "author": {
+        "username": "massimobonanni",
+        "name": "Massimo Bonanni",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-28T20:39:56",
+      "first_seen_at": "2026-09-28T20:51:00.401195",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11869,
+      "title": "开源自动化代码审计工具：一键扫描移动应用仓库",
+      "original_title": "Run it yourself: codespace in the repo (MIT), then ./scripts/audit/run_mobile.sh myorg/myrepo. An hour or two on a medium repo; results land in the audit_results table. Blog: https",
+      "summary": "该推文分享了一个 MIT 协议的开源仓库审计工具，可通过 Codespace 运行脚本对中型代码库进行自动化安全审计并输出结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_audit",
+      "score_total": 66.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "提供了可直接在 Codespace 中运行的开源审计脚本，适合安全团队快速集成进自动化代码审计流程，无需复杂配置即可上手测试其扫描效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+      "reader_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+      "image_url": null,
+      "author": {
+        "username": "jimmy_longbow_",
+        "name": "JimiLonbo",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-28T21:16:09",
+      "first_seen_at": "2026-09-28T21:22:04.509100",
+      "sub_category_label": null
     }
   ]
 }
