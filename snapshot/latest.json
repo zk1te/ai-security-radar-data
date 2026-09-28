@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-09-29T01:27:19+08:00",
+  "updated_at": "2026-09-29T03:27:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
+    {
+      "id": 11848,
+      "title": "智谱 ZCode 开源：Agent Harness 安全边界首次完整暴露",
+      "original_title": "ZCode 开源了来看看这是个什么东西",
+      "summary": "因代码库数据未授权上传争议，智谱将 ZCode 完整客户端（含 14 个子包、Agent 运行时、Hook 与插件体系）以 Apache-2.0 开源，NOTICE.md 坦诚披露网关转发含认证信息、无 OS 沙箱、凭据非钥匙串等安全边界。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 Agent 安全和供应链审计的人必看：这是国内首个大厂完整编码 Agent Harness 开源案例，NOTICE.md 把「请求转发含认证、无沙箱、凭据同步无逐项确认」全写出来了，可直接当 Agent harness 安全审计清单模板用。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7687855879102890036",
+      "reader_url": "https://juejin.cn/post/7687855879102890036",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T01:02:50",
+      "first_seen_at": "2026-09-28T19:21:53.250323",
+      "sub_category_label": null
+    },
     {
       "id": 11245,
       "title": "新加坡政府部署AI自动化渗透测试工具覆盖2000个系统",
@@ -55,23 +75,23 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 11639,
-      "title": "MiMo-V2.6模型实测：安全榜单高分与实战能力的代差",
-      "original_title": "“国模一哥”小米MiMo2.6Pro测完了！",
-      "summary": "小米 MiMo-V2.6 模型在 CyberGym 等安全评测榜单上名列前茅，但在 Terminal Bench 和 ExploitGym 等实战渗透任务上与顶级模型存在明显代差。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "model_evaluation | security_benchmark",
-      "score_total": 69.55,
+      "id": 11847,
+      "title": "Agent开发五大工程难点与安全约束实践",
+      "original_title": "做了近两年的Agent开发，其实真正要学的就是这五件事",
+      "summary": "文章总结了Agent开发中的上下文管理、工具契约、执行边界、分层评估与成本控制五大难点，强调必须用工程手段（如状态机、预算限制和参数校验）约束模型行为，防止Agent失控。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 68.6,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全团队需警惕模型在 CyberGym 等榜单的高分假象，其在复杂命令行和漏洞利用场景的实战能力依然薄弱。评测模型安全能力时应参考更贴近实战的指标，避免被刷榜数据误导。",
+      "recommendation_reason": "写给所有做Agent安全的同学：别指望Prompt保安全。这篇实操文给出了工具权限分级、执行预算和状态机验收的硬核代码模板，直接抄作业就能防住Agent越权和无限循环。",
       "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7688300268687654938",
-      "reader_url": "https://juejin.cn/post/7688300268687654938",
+      "canonical_url": "https://juejin.cn/post/7688159506154209321",
+      "reader_url": "https://juejin.cn/post/7688159506154209321",
       "image_url": null,
       "author": null,
-      "published_at": "2026-09-23T02:37:53",
-      "first_seen_at": "2026-09-28T07:13:23.363851",
+      "published_at": "2026-09-22T07:57:00",
+      "first_seen_at": "2026-09-28T19:21:52.208726",
       "sub_category_label": null
     },
     {
@@ -173,31 +193,6 @@
       "published_at": "2026-09-28T08:44:06",
       "first_seen_at": "2026-09-28T08:49:07.742577",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 11717,
-      "title": "AI代理安全测试的「形式主义」：Zstd实验揭示Fuzzing与TDD局限",
-      "original_title": "The Agent Spotted Bit Reversal—Then Tested a Palindrome  The cleanest example in this giant testing experiment is almost slapstick. A coding agent correctly identified bitstream re",
-      "summary": "一项针对编码代理实现Zstd算法的大型测试实验表明，尽管Agent掌握了Fuzzing、TDD等形式化方法词汇，但往往无法构建能有效区分错误实现的测试，甚至用回文输入测试位反转bug。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 65.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "搞AI安全的工程师必须看：别被Agent堆砌的高级测试工具骗了。这篇实验残酷指出，Agent常在「角色扮演」安全测试，写出的Fuzzing和TDD用例根本抓不到真bug，评估Agent安全能力时务必深究其测试用例的甄别力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aka_ssy/status/2104548793572008375",
-      "reader_url": "https://x.com/aka_ssy/status/2104548793572008375",
-      "image_url": null,
-      "author": {
-        "username": "aka_ssy",
-        "name": "Hero.S",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-28T12:28:27",
-      "first_seen_at": "2026-09-28T12:35:15.671181",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
