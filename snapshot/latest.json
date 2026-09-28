@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-28T08:53:34+08:00",
+  "updated_at": "2026-09-28T09:23:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 9796,
@@ -125,6 +125,26 @@
       "sub_category_label": null
     },
     {
+      "id": 11409,
+      "title": "Cloudflare 开源多阶段安全审计 Agent 技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 开源的 coding-agent 技能，用于多阶段安全审计，提供独立验证和机器可读的结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做代码审计和安全Agent落地的必看。它展示了大厂如何将安全审计拆解为多阶段并保证结果可验证，直接抄作业优化你的安全工作流。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-28&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-28&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-28T00:59:09.839771",
+      "first_seen_at": "2026-09-28T01:00:39.011770",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 11083,
       "title": "GitHub Security Lab开源Fuzzing Agent：自动写harness与分流崩溃",
       "original_title": "GitHub Security Lab open-sourced an agent that writes AFL harnesses, chases coverage, and triages crashes for you.  Point the Fuzzing Taskflow at owner/repo, and it installs AFL, c",
@@ -150,6 +170,26 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
+      "id": 11404,
+      "title": "阿里开源混合架构 AI 代码审查工具",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+      "summary": "阿里巴巴开源混合架构代码审查工具，结合确定性管道与 LLM Agent，支持精确行级评论并内置 NPE、XSS、SQL 注入等多语言安全规则集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.15,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "「规则+LLM」是当前 AI 代码审计规避误报的主流解法。安全团队可参考其规则集与 Agent 落地方式，评估集成到 CI/CD 流程的可行性。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-28&since=weekly",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-28&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-28T00:59:10.462965",
+      "first_seen_at": "2026-09-28T00:59:51.116265",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 11088,
       "title": "GitHub安全实验室推出AI驱动的C/C++ Fuzzing Agent",
       "original_title": "GitHub Security Lab launched an AI-powered fuzzing Taskflow Agent for C/C++ repos. It can find entry points, build harnesses, run AFL++, improve coverage, triage crashes, and draft",
@@ -173,26 +213,6 @@
       "published_at": "2026-09-26T17:56:26",
       "first_seen_at": "2026-09-27T18:32:53.383767",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 9814,
-      "title": "上下文误导：评估并提升 LLM 对虚假上下文的抵抗力",
-      "original_title": "When Context Misleads: In-context Learning with Jurisdiction in Large Language Models",
-      "summary": "论文提出 FakeContextBench 基准评估大模型对误导性上下文的辨别能力，发现现有微调方法反而增加易受骗风险，并提出 J-ICL 框架在提升 ICL 能力的同时增强对欺骗性上下文的抵抗力。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 76.2,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "本文揭示现有 ICL 微调可能导致模型更易被上下文投毒或提示注入误导。对于从事 LLM 安全评测和防御的从业者，FakeContextBench 及 J-ICL 训练框架提供了直接可用的评估工具和防御思路，值得立即跟进复现。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.27603",
-      "reader_url": "https://arxiv.org/pdf/2609.27603",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-24T04:00:00",
-      "first_seen_at": "2026-09-28T00:24:24.872805",
-      "sub_category_label": null
     }
   ]
 }
