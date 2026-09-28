@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T00:27:11+08:00",
+  "updated_at": "2026-09-29T00:57:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -100,31 +100,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 11498,
-      "title": "GitHub安全实验室发布C/C++ LLM Fuzzing工作流",
-      "original_title": "GitHub Security Labが9/24、C/C++向けLLMファジングTaskflowを公開。対象選定〜クラッシュ分類・レポートまでをつなぐ。同社は人の確認が必要と明記。  案件ではAIに探索を任せ、再現性・影響範囲・修正の妥当性は人が判定する分担が現実的。 https://t.co/bm8J7IiFqG",
-      "summary": "GitHub安全实验室开源了一套针对C/C++的LLM Fuzzing Taskflow，涵盖目标选定到崩溃分类与报告全流程，并强调人工复核的必要性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "一线安全团队可直接参考该工作流，让AI负责探索，人工复核重现性与影响。这是目前最务实的AI赋能fuzzing落地姿势。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/tofu_sugar/status/2104421659507884235",
-      "reader_url": "https://x.com/tofu_sugar/status/2104421659507884235",
-      "image_url": null,
-      "author": {
-        "username": "tofu_sugar",
-        "name": "しゅがー@エンジニア",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-28T04:03:16",
-      "first_seen_at": "2026-09-28T04:33:47.316609",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 11736,
       "title": "开源安全Agent「HexStrike」可自主驱动150+安全工具",
       "original_title": "🔒 CYBERSECURITY, PRIVACY & OPEN SOURCE ROUNDUP — September 28, 2026  1️⃣ OPENSHIP 0.8.0 ADDS AN INTERACTIVE SERVICE TOPOLOGY CANVAS  Self-hosted deployment platform OpenShip shippe",
@@ -172,6 +147,31 @@
       },
       "published_at": "2026-09-28T11:19:00",
       "first_seen_at": "2026-09-28T11:29:45.534029",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11664,
+      "title": "Google PageBreak AI Agent验证超500个XSS漏洞",
+      "original_title": "Google’s PageBreak AI security agent has validated more than 500 XSS vulnerabilities across the company’s own web apps by testing real exploits on live systems.  It found just two ",
+      "summary": "谷歌 PageBreak AI 安全 Agent 通过在真实系统上测试利用，验证了内部 Web 应用中超过 500 个 XSS 漏洞，并成功过滤未经验证的 AI 发现结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂内部安全自动化的实战参考。验证 500+ 漏洞且能过滤 AI 误报，说明 AI 安全 Agent 已落地到真实业务流程中，做漏洞挖掘的团队必须跟进这种范式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CoinliveHQ/status/2104492332234281101",
+      "reader_url": "https://x.com/CoinliveHQ/status/2104492332234281101",
+      "image_url": null,
+      "author": {
+        "username": "CoinliveHQ",
+        "name": "Coinlive",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-28T08:44:06",
+      "first_seen_at": "2026-09-28T08:49:07.742577",
       "sub_category_label": "安全Agent"
     }
   ]
