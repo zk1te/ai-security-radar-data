@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-28T21:26:32+08:00",
+  "updated_at": "2026-09-28T22:56:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 11446,
@@ -65,56 +65,6 @@
       "sub_category_label": "威胁检测"
     },
     {
-      "id": 11198,
-      "title": "GitHub Security Lab 推出自主 AI Fuzzing Agent",
-      "original_title": "GitHub Security Lab just dropped an autonomous AI fuzzing agent  for C/C++ projects  It writes harnesses, runs AFL++, triages every crash and drafts vuln reports -- all on its own.",
-      "summary": "GitHub Security Lab 发布针对 C/C++ 项目的自主 AI fuzzing agent，可自动编写 harness、运行 AFL++、分类崩溃并起草漏洞报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 73.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "GitHub 官方安全实验室下场做 AI fuzzing，覆盖写 harness 到出报告全流程，做自动化漏洞挖掘和安全工具链的团队必须关注。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CodeWithArjun/status/2104008144611418256",
-      "reader_url": "https://x.com/CodeWithArjun/status/2104008144611418256",
-      "image_url": "https://pbs.twimg.com/media/HTLwQehWkAA5380.jpg",
-      "author": {
-        "username": "CodeWithArjun",
-        "name": "Code With Arjun",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-27T00:40:06",
-      "first_seen_at": "2026-09-28T02:33:44.050745",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 11200,
-      "title": "GitHub Fuzzing Agent 曝安全隐患：无容器执行命令",
-      "original_title": "GitHub Security Lab's fuzzing agent writes harnesses, runs AFL++ and triages crashes. Its author warns the agent runs commands chosen by the LLM on the host without a container. Us",
-      "summary": "GitHub 安全实验室的 fuzzing agent 能自动编写 harness 并运行 AFL++ 分类 crash，但作者警告该 agent 会在未隔离的宿主机上直接执行 LLM 生成的命令。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "fuzzing",
-      "score_total": 72.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI Fuzzing 实战工具值得一看，但更要避坑：别让 LLM 生成的命令在物理机裸跑。想试它的 fuzzing 效果，务必丢进一次性 VM 里。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Ahmadbukhari/status/2104006221946884106",
-      "reader_url": "https://x.com/Ahmadbukhari/status/2104006221946884106",
-      "image_url": null,
-      "author": {
-        "username": "Ahmadbukhari",
-        "name": "Ahmad Bukhari | AI Systems Architect",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-27T00:32:28",
-      "first_seen_at": "2026-09-28T02:33:44.050745",
-      "sub_category_label": null
-    },
-    {
       "id": 11245,
       "title": "新加坡政府部署AI自动化渗透测试工具覆盖2000个系统",
       "original_title": "סינגפור כבר מפעילה כלי AI שמבצעים בדיקות חדירה אוטומטיות על כ־2,000 מערכות ממשלתיות.  רשות הסייבר של סינגפור ו־GovTech חשפו שני כלים פנימיים חדשים: אחד מבצע penetration testing אוט",
@@ -138,6 +88,26 @@
       "published_at": "2026-09-27T10:50:00",
       "first_seen_at": "2026-09-28T12:34:24.981734",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11639,
+      "title": "MiMo-V2.6模型实测：安全榜单高分与实战能力的代差",
+      "original_title": "“国模一哥”小米MiMo2.6Pro测完了！",
+      "summary": "小米 MiMo-V2.6 模型在 CyberGym 等安全评测榜单上名列前茅，但在 Terminal Bench 和 ExploitGym 等实战渗透任务上与顶级模型存在明显代差。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation | security_benchmark",
+      "score_total": 69.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需警惕模型在 CyberGym 等榜单的高分假象，其在复杂命令行和漏洞利用场景的实战能力依然薄弱。评测模型安全能力时应参考更贴近实战的指标，避免被刷榜数据误导。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7688300268687654938",
+      "reader_url": "https://juejin.cn/post/7688300268687654938",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-23T02:37:53",
+      "first_seen_at": "2026-09-28T07:13:23.363851",
+      "sub_category_label": null
     }
   ]
 }
