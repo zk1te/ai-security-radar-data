@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T03:27:52+08:00",
+  "updated_at": "2026-09-29T03:58:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -73,6 +73,26 @@
       "published_at": "2026-09-28T12:43:23",
       "first_seen_at": "2026-09-28T15:20:41.463119",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 11849,
+      "title": "OpenAI 安全负责人谈 AI 能力跃迁与安全团队应对策略",
+      "original_title": "Quoting @joedaroo",
+      "summary": "OpenAI Agent 安全负责人 @joedaroo 谈 AI 模型在「网络攻击」「蜂群行为」等能力上发生突然跃迁，给组织安全态势和应急响应带来的巨大挑战，呼吁各组织建立能适应 AI 能力突变的韧性体系。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 69.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队负责人必读：直接点出了 AI 能力非线性跃迁对现有安全流程的冲击。实操要点是立即检查你的事件响应预案是否覆盖 AI 能力突变场景，以及团队是否具备应对 AI 驱动攻击的快速响应能力。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
+      "reader_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-28T19:11:42",
+      "first_seen_at": "2026-09-28T19:32:56.304979",
+      "sub_category_label": null
     },
     {
       "id": 11847,
@@ -167,31 +187,6 @@
       },
       "published_at": "2026-09-28T11:19:00",
       "first_seen_at": "2026-09-28T11:29:45.534029",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 11664,
-      "title": "Google PageBreak AI Agent验证超500个XSS漏洞",
-      "original_title": "Google’s PageBreak AI security agent has validated more than 500 XSS vulnerabilities across the company’s own web apps by testing real exploits on live systems.  It found just two ",
-      "summary": "谷歌 PageBreak AI 安全 Agent 通过在真实系统上测试利用，验证了内部 Web 应用中超过 500 个 XSS 漏洞，并成功过滤未经验证的 AI 发现结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "大厂内部安全自动化的实战参考。验证 500+ 漏洞且能过滤 AI 误报，说明 AI 安全 Agent 已落地到真实业务流程中，做漏洞挖掘的团队必须跟进这种范式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CoinliveHQ/status/2104492332234281101",
-      "reader_url": "https://x.com/CoinliveHQ/status/2104492332234281101",
-      "image_url": null,
-      "author": {
-        "username": "CoinliveHQ",
-        "name": "Coinlive",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-28T08:44:06",
-      "first_seen_at": "2026-09-28T08:49:07.742577",
       "sub_category_label": "安全Agent"
     }
   ]
