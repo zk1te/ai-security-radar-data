@@ -1,0 +1,1382 @@
+{
+  "date": "2026-09-28",
+  "candidate_count": 20,
+  "selected_count": 3,
+  "cover_title": "LLM 漏洞检测项目级实证：高召回伴随高成本与高误报",
+  "lead_takeaway": "今天的主线是 LLM 赋能安全实战的效能落地与成本反思。大家不再只盯着纸面指标好看，而是开始直面项目级漏扫的高成本和高误报，并积极探索结合传统工具和双模型调度来提升实际可用性。",
+  "digest_points": [
+    "01 给想引入 LLM 漏扫工具的团队泼盆冷水。当前 LLM 检测器项目级误报极高且单项目成本超千美元，落地前必须慎重评估 ROI 与人工审核成本。",
+    "02 做恶意代码分析和代码审计的同学可以看，这展示了如何结合传统工具的中间状态和 LLM 的潜在推理能力来提升去混淆效果，比单步翻译效果显著更好，思路值得借鉴。",
+    "03 使用双LLM架构做系统fuzzing的思路值得安全Agent开发者借鉴，通过Teacher LLM在指标停滞时介入指导，有效平衡了场景生成的多样性和有效率，这种调度策略可迁移到其他安全测试领域。"
+  ],
+  "judgement": [
+    "01 给想引入 LLM 漏扫工具的团队泼盆冷水。当前 LLM 检测器项目级误报极高且单项目成本超千美元，落地前必须慎重评估 ROI 与人工审核成本。",
+    "02 做恶意代码分析和代码审计的同学可以看，这展示了如何结合传统工具的中间状态和 LLM 的潜在推理能力来提升去混淆效果，比单步翻译效果显著更好，思路值得借鉴。",
+    "03 使用双LLM架构做系统fuzzing的思路值得安全Agent开发者借鉴，通过Teacher LLM在指标停滞时介入指导，有效平衡了场景生成的多样性和有效率，这种调度策略可迁移到其他安全测试领域。"
+  ],
+  "top_items": [
+    {
+      "id": 11446,
+      "title": "LLM 漏洞检测项目级实证：高召回伴随高成本与高误报",
+      "original_title": "LLM-based Vulnerability Detection at Project Scale: An Empirical Study",
+      "summary": "首个针对 LLM 漏洞检测器在项目级规模的实证研究发现，通用 Agent 召回率最高但成本巨大且处理复杂代码吃力，所有方法均存在较高误报率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 91.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "给想引入 LLM 漏扫工具的团队泼盆冷水。当前 LLM 检测器项目级误报极高且单项目成本超千美元，落地前必须慎重评估 ROI 与人工审核成本。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2601.19239",
+      "reader_url": "https://arxiv.org/pdf/2601.19239",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-28T04:00:00",
+      "first_seen_at": "2026-09-28T04:13:43.895464",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 9796,
+      "title": "基于阶段监督潜在推理的单次 JavaScript 去混淆",
+      "original_title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
+      "summary": "该论文提出一种阶段感知的潜在推理框架，利用确定性去混淆工具的中间输出训练 Coconut 模型，实现单次推理的高效 JS 去混淆，并在 JsDeObsBench 上显著提升了语法有效性和语义正确性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_analysis",
+      "score_total": 86.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做恶意代码分析和代码审计的同学可以看，这展示了如何结合传统工具的中间状态和 LLM 的潜在推理能力来提升去混淆效果，比单步翻译效果显著更好，思路值得借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27058",
+      "reader_url": "https://arxiv.org/pdf/2609.27058",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": "代码分析"
+    },
+    {
+      "id": 9780,
+      "title": "Teach-to-Crash：基于师生LLM的自动驾驶碰撞测试生成框架",
+      "original_title": "Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation",
+      "summary": "提出Teach-to-Crash闭环测试框架，利用高推理能力的Teacher LLM指导Student LLM生成可执行场景，在CARLA仿真器中高效发现自动驾驶系统的碰撞漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 85.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "使用双LLM架构做系统fuzzing的思路值得安全Agent开发者借鉴，通过Teacher LLM在指标停滞时介入指导，有效平衡了场景生成的多样性和有效率，这种调度策略可迁移到其他安全测试领域。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27296",
+      "reader_url": "https://arxiv.org/pdf/2609.27296",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": "AI Fuzzing"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 11445,
+      "title": "AgentDV：用于硬件设计验证的闭环智能体框架",
+      "original_title": "AgentDV: Closed-Loop Agentic AI for Hardware Design Verification",
+      "summary": "针对大模型生成硬件测试台（RTL）不可用的问题，论文提出 AgentDV 闭环智能体框架，结合可运行性过滤、CSR检查和覆盖率引导迭代，在 OpenTitan 等模块上测试取得了高通过率和代码覆盖率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全验证（RTL）一直是耗时且容易出错的环节。该框架展示了如何用 Agent 结合工具调用和覆盖率反馈闭环修复 LLM 的幻觉与无效生成，安全测试人员可借鉴其「过滤-检查-覆盖率引导迭代」的设计模式提升自动化测试用例生成质量。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.27148",
+      "reader_url": "https://arxiv.org/pdf/2608.27148",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-28T04:00:00",
+      "first_seen_at": "2026-09-28T04:13:40.907438",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9925,
+      "title": "CART：面向大语言模型的闭环自适应红队测试框架",
+      "original_title": "CART: Closed-Loop Adaptive Red Teaming for Large Language Models",
+      "summary": "CART 框架通过分离测试者、目标和评估者角色，实现自适应的 LLM 与 Agent 安全红队测试，相比静态提示重放能发现更多安全弱点。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "model_security | security_benchmark",
+      "score_total": 83.05,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全评测和红队人员必看。CART 闭环自适应红队方法解决了静态提示集无法发现新弱点的问题，其角色分离架构对构建自动化 AI 安全评测流水线有直接参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27336",
+      "reader_url": "https://arxiv.org/pdf/2609.27336",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-27T18:23:55.731264",
+      "sub_category_label": null
+    },
+    {
+      "id": 9904,
+      "title": "Terminal-Bench评测有效性分析：区分真实难度与假性难题",
+      "original_title": "What Makes a Terminal-Bench Task Hard? Separating Genuine Hardness from Fake-Hardness on an Adjudicated Agentic Corpus",
+      "summary": "论文通过分析Terminal-Bench数据指出，模型零通过率任务可能源于参考答案损坏或验证器绕过等非能力因素，仅62%的任务被认证为真正未解决，呼吁安全评测榜单提供更严谨的难度证据。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 81.3,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全评测榜单构建者和使用者必读。它揭示了Agent Benchmark中“零通过”不等于“真难题”，提醒团队在解读评测结果时，务必警惕验证器绕过和基础设施失败带来的假阴性，改进评测框架时需加强任务有效性筛查。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.26826",
+      "reader_url": "https://arxiv.org/pdf/2609.26826",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-27T18:23:55.731264",
+      "sub_category_label": null
+    },
+    {
+      "id": 9772,
+      "title": "DualMine：结合LLM与动态挖掘的REST API约束发现框架",
+      "original_title": "DualMine: Static-Dynamic REST API Constraint Discovery with Dual Validation",
+      "summary": "DualMine 框架结合基于 LLM 的静态规范挖掘和动态执行轨迹不变量挖掘，通过双重验证发现并解决冲突的 REST API 约束，在 39 个真实 API 上检测出 48 个故障。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 78.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对做 API Fuzzing 和自动化测试的安全团队有直接参考价值。LLM 结合动态执行的双向验证思路，能有效弥补纯静态或纯动态方法的缺陷，值得在内部 API 安全测试中复用该思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27806",
+      "reader_url": "https://arxiv.org/pdf/2609.27806",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 9783,
+      "title": "LLM 结合形式化验证的编译器优化架构",
+      "original_title": "Verified Learning for Compiler Optimization: An LLM-Guided Architecture with Formal Control",
+      "summary": "该研究提出一种将 LLM 与 Alive2 形式化等价检查结合的编译器优化架构，在 LLVM IR 层面进行生成式重写，通过运行时控制层强制确保语义正确性。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "llm_architecture | binary_security",
+      "score_total": 78.8,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "给做底层安全和编译器防护的兄弟看。LLM 直接改 IR 容易引入隐蔽漏洞，这论文用 Alive2 兜底做形式化验证，提供了一套把大模型安全塞进编译流水线的实操路径，值得借鉴其反馈控制机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27214",
+      "reader_url": "https://arxiv.org/pdf/2609.27214",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": null
+    },
+    {
+      "id": 11083,
+      "title": "GitHub Security Lab开源Fuzzing Agent：自动写harness与分流崩溃",
+      "original_title": "GitHub Security Lab open-sourced an agent that writes AFL harnesses, chases coverage, and triages crashes for you.  Point the Fuzzing Taskflow at owner/repo, and it installs AFL, c",
+      "summary": "GitHub Security Lab开源了一款自动化Fuzzing Agent，能自动编写AFL harness、调整覆盖率策略并分类崩溃结果。其架构采用LLM进行决策，MCP工具执行具体命令，状态存于SQLite。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 78.66,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec从业者必看。该工具展示了Agent结合MCP工具在真实漏洞挖掘中的落地形态，直接跑通「写harness-跑AFL-分流」全流程，可借鉴其Agent与工具集成的设计思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/agentnativedev/status/2103897489258819680",
+      "reader_url": "https://x.com/agentnativedev/status/2103897489258819680",
+      "image_url": null,
+      "author": {
+        "username": "agentnativedev",
+        "name": "agentnative",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-26T17:20:24",
+      "first_seen_at": "2026-09-27T18:32:53.383767",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 9814,
+      "title": "上下文误导：评估并提升 LLM 对虚假上下文的抵抗力",
+      "original_title": "When Context Misleads: In-context Learning with Jurisdiction in Large Language Models",
+      "summary": "论文提出 FakeContextBench 基准评估大模型对误导性上下文的辨别能力，发现现有微调方法反而增加易受骗风险，并提出 J-ICL 框架在提升 ICL 能力的同时增强对欺骗性上下文的抵抗力。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 76.2,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "本文揭示现有 ICL 微调可能导致模型更易被上下文投毒或提示注入误导。对于从事 LLM 安全评测和防御的从业者，FakeContextBench 及 J-ICL 训练框架提供了直接可用的评估工具和防御思路，值得立即跟进复现。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27603",
+      "reader_url": "https://arxiv.org/pdf/2609.27603",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 11446,
+        "title": "LLM 漏洞检测项目级实证：高召回伴随高成本与高误报",
+        "original_title": "LLM-based Vulnerability Detection at Project Scale: An Empirical Study",
+        "summary": "首个针对 LLM 漏洞检测器在项目级规模的实证研究发现，通用 Agent 召回率最高但成本巨大且处理复杂代码吃力，所有方法均存在较高误报率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 91.15,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "给想引入 LLM 漏扫工具的团队泼盆冷水。当前 LLM 检测器项目级误报极高且单项目成本超千美元，落地前必须慎重评估 ROI 与人工审核成本。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2601.19239",
+        "reader_url": "https://arxiv.org/pdf/2601.19239",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-28T04:00:00",
+        "first_seen_at": "2026-09-28T04:13:43.895464",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 9796,
+        "title": "基于阶段监督潜在推理的单次 JavaScript 去混淆",
+        "original_title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
+        "summary": "该论文提出一种阶段感知的潜在推理框架，利用确定性去混淆工具的中间输出训练 Coconut 模型，实现单次推理的高效 JS 去混淆，并在 JsDeObsBench 上显著提升了语法有效性和语义正确性。",
+        "primary_category": "AI for Sec",
+        "sub_category": "code_analysis",
+        "score_total": 86.9,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做恶意代码分析和代码审计的同学可以看，这展示了如何结合传统工具的中间状态和 LLM 的潜在推理能力来提升去混淆效果，比单步翻译效果显著更好，思路值得借鉴。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.27058",
+        "reader_url": "https://arxiv.org/pdf/2609.27058",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-28T00:24:24.872805",
+        "sub_category_label": "代码分析"
+      },
+      {
+        "id": 9780,
+        "title": "Teach-to-Crash：基于师生LLM的自动驾驶碰撞测试生成框架",
+        "original_title": "Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation",
+        "summary": "提出Teach-to-Crash闭环测试框架，利用高推理能力的Teacher LLM指导Student LLM生成可执行场景，在CARLA仿真器中高效发现自动驾驶系统的碰撞漏洞。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 85.65,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "使用双LLM架构做系统fuzzing的思路值得安全Agent开发者借鉴，通过Teacher LLM在指标停滞时介入指导，有效平衡了场景生成的多样性和有效率，这种调度策略可迁移到其他安全测试领域。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.27296",
+        "reader_url": "https://arxiv.org/pdf/2609.27296",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-28T00:24:24.872805",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 11445,
+        "title": "AgentDV：用于硬件设计验证的闭环智能体框架",
+        "original_title": "AgentDV: Closed-Loop Agentic AI for Hardware Design Verification",
+        "summary": "针对大模型生成硬件测试台（RTL）不可用的问题，论文提出 AgentDV 闭环智能体框架，结合可运行性过滤、CSR检查和覆盖率引导迭代，在 OpenTitan 等模块上测试取得了高通过率和代码覆盖率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 84.1,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "硬件安全验证（RTL）一直是耗时且容易出错的环节。该框架展示了如何用 Agent 结合工具调用和覆盖率反馈闭环修复 LLM 的幻觉与无效生成，安全测试人员可借鉴其「过滤-检查-覆盖率引导迭代」的设计模式提升自动化测试用例生成质量。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2608.27148",
+        "reader_url": "https://arxiv.org/pdf/2608.27148",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-28T04:00:00",
+        "first_seen_at": "2026-09-28T04:13:40.907438",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 9772,
+        "title": "DualMine：结合LLM与动态挖掘的REST API约束发现框架",
+        "original_title": "DualMine: Static-Dynamic REST API Constraint Discovery with Dual Validation",
+        "summary": "DualMine 框架结合基于 LLM 的静态规范挖掘和动态执行轨迹不变量挖掘，通过双重验证发现并解决冲突的 REST API 约束，在 39 个真实 API 上检测出 48 个故障。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 78.95,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "对做 API Fuzzing 和自动化测试的安全团队有直接参考价值。LLM 结合动态执行的双向验证思路，能有效弥补纯静态或纯动态方法的缺陷，值得在内部 API 安全测试中复用该思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.27806",
+        "reader_url": "https://arxiv.org/pdf/2609.27806",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-28T00:24:24.872805",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 11409,
+        "title": "Cloudflare 开源多阶段安全审计 Agent 技能",
+        "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+        "summary": "Cloudflare 开源的 coding-agent 技能，用于多阶段安全审计，提供独立验证和机器可读的结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 78.7,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "做代码审计和安全Agent落地的必看。它展示了大厂如何将安全审计拆解为多阶段并保证结果可验证，直接抄作业优化你的安全工作流。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-28&since=weekly",
+        "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-28&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-28T00:59:09.839771",
+        "first_seen_at": "2026-09-28T01:00:39.011770",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 11083,
+        "title": "GitHub Security Lab开源Fuzzing Agent：自动写harness与分流崩溃",
+        "original_title": "GitHub Security Lab open-sourced an agent that writes AFL harnesses, chases coverage, and triages crashes for you.  Point the Fuzzing Taskflow at owner/repo, and it installs AFL, c",
+        "summary": "GitHub Security Lab开源了一款自动化Fuzzing Agent，能自动编写AFL harness、调整覆盖率策略并分类崩溃结果。其架构采用LLM进行决策，MCP工具执行具体命令，状态存于SQLite。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 78.66,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "AI for Sec从业者必看。该工具展示了Agent结合MCP工具在真实漏洞挖掘中的落地形态，直接跑通「写harness-跑AFL-分流」全流程，可借鉴其Agent与工具集成的设计思路。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/agentnativedev/status/2103897489258819680",
+        "reader_url": "https://x.com/agentnativedev/status/2103897489258819680",
+        "image_url": null,
+        "author": {
+          "username": "agentnativedev",
+          "name": "agentnative",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-26T17:20:24",
+        "first_seen_at": "2026-09-27T18:32:53.383767",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 11404,
+        "title": "阿里开源混合架构 AI 代码审查工具",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+        "summary": "阿里巴巴开源混合架构代码审查工具，结合确定性管道与 LLM Agent，支持精确行级评论并内置 NPE、XSS、SQL 注入等多语言安全规则集。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 78.15,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "「规则+LLM」是当前 AI 代码审计规避误报的主流解法。安全团队可参考其规则集与 Agent 落地方式，评估集成到 CI/CD 流程的可行性。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-28&since=weekly",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-28&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-28T00:59:10.462965",
+        "first_seen_at": "2026-09-28T00:59:51.116265",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 9360,
+        "title": "Agensh：去中心化多智能体协作架构扩展至 1024 个 Agent",
+        "original_title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+        "summary": "Agensh 提出无中央编排器的自组织多智能体架构，通过共享工作空间实现任务异步协作，在复杂编程任务中显著提升扩展性与执行效率。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 71.0,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "多智能体协作是自动化漏洞挖掘和安全运营的潜在方向。该论文证明了去中心化架构在上千个 Agent 规模下仍能保持高效，为构建大规模安全 Agent 集群提供了架构参考。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2609.26781",
+        "reader_url": "https://arxiv.org/pdf/2609.26781",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T00:00:00",
+        "first_seen_at": "2026-09-28T00:24:24.872805",
+        "sub_category_label": "Agent 架构"
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 9925,
+        "title": "CART：面向大语言模型的闭环自适应红队测试框架",
+        "original_title": "CART: Closed-Loop Adaptive Red Teaming for Large Language Models",
+        "summary": "CART 框架通过分离测试者、目标和评估者角色，实现自适应的 LLM 与 Agent 安全红队测试，相比静态提示重放能发现更多安全弱点。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "model_security | security_benchmark",
+        "score_total": 83.05,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "安全评测和红队人员必看。CART 闭环自适应红队方法解决了静态提示集无法发现新弱点的问题，其角色分离架构对构建自动化 AI 安全评测流水线有直接参考价值。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.27336",
+        "reader_url": "https://arxiv.org/pdf/2609.27336",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-27T18:23:55.731264",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 9904,
+        "title": "Terminal-Bench评测有效性分析：区分真实难度与假性难题",
+        "original_title": "What Makes a Terminal-Bench Task Hard? Separating Genuine Hardness from Fake-Hardness on an Adjudicated Agentic Corpus",
+        "summary": "论文通过分析Terminal-Bench数据指出，模型零通过率任务可能源于参考答案损坏或验证器绕过等非能力因素，仅62%的任务被认证为真正未解决，呼吁安全评测榜单提供更严谨的难度证据。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_benchmark",
+        "score_total": 81.3,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "安全评测榜单构建者和使用者必读。它揭示了Agent Benchmark中“零通过”不等于“真难题”，提醒团队在解读评测结果时，务必警惕验证器绕过和基础设施失败带来的假阴性，改进评测框架时需加强任务有效性筛查。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.26826",
+        "reader_url": "https://arxiv.org/pdf/2609.26826",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-27T18:23:55.731264",
+        "sub_category_label": null
+      },
+      {
+        "id": 9761,
+        "title": "LLM 代码审计的假阳性陷阱：基于对照基准的校准评估",
+        "original_title": "Can LLMs Catch a Rigged Backtest? A Clean-Control Calibration Benchmark",
+        "summary": "论文构建了配对基准评估 LLM 在代码审计中的表现，发现开放式提示会导致大量误报，而引入针对性提示策略可将误报率降至 0%。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_benchmark",
+        "score_total": 71.7,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做漏洞挖掘 Agent 的必看。文章指出 LLM 代码审计时召回率可能虚高，但误报率同样惊人。引入对照组能有效评估 Agent 的真实漏洞发现能力，直接指导安全评测基准设计。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.28090",
+        "reader_url": "https://arxiv.org/pdf/2609.28090",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-28T00:24:24.872805",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 9783,
+        "title": "LLM 结合形式化验证的编译器优化架构",
+        "original_title": "Verified Learning for Compiler Optimization: An LLM-Guided Architecture with Formal Control",
+        "summary": "该研究提出一种将 LLM 与 Alive2 形式化等价检查结合的编译器优化架构，在 LLVM IR 层面进行生成式重写，通过运行时控制层强制确保语义正确性。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "llm_architecture | binary_security",
+        "score_total": 78.8,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "给做底层安全和编译器防护的兄弟看。LLM 直接改 IR 容易引入隐蔽漏洞，这论文用 Alive2 兜底做形式化验证，提供了一套把大模型安全塞进编译流水线的实操路径，值得借鉴其反馈控制机制。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.27214",
+        "reader_url": "https://arxiv.org/pdf/2609.27214",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-28T00:24:24.872805",
+        "sub_category_label": null
+      },
+      {
+        "id": 11639,
+        "title": "MiMo-V2.6模型实测：安全榜单高分与实战能力的代差",
+        "original_title": "“国模一哥”小米MiMo2.6Pro测完了！",
+        "summary": "小米 MiMo-V2.6 模型在 CyberGym 等安全评测榜单上名列前茅，但在 Terminal Bench 和 ExploitGym 等实战渗透任务上与顶级模型存在明显代差。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "model_evaluation | security_benchmark",
+        "score_total": 69.55,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全团队需警惕模型在 CyberGym 等榜单的高分假象，其在复杂命令行和漏洞利用场景的实战能力依然薄弱。评测模型安全能力时应参考更贴近实战的指标，避免被刷榜数据误导。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7688300268687654938",
+        "reader_url": "https://juejin.cn/post/7688300268687654938",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T02:37:53",
+        "first_seen_at": "2026-09-28T07:13:23.363851",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 9814,
+        "title": "上下文误导：评估并提升 LLM 对虚假上下文的抵抗力",
+        "original_title": "When Context Misleads: In-context Learning with Jurisdiction in Large Language Models",
+        "summary": "论文提出 FakeContextBench 基准评估大模型对误导性上下文的辨别能力，发现现有微调方法反而增加易受骗风险，并提出 J-ICL 框架在提升 ICL 能力的同时增强对欺骗性上下文的抵抗力。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 76.2,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "本文揭示现有 ICL 微调可能导致模型更易被上下文投毒或提示注入误导。对于从事 LLM 安全评测和防御的从业者，FakeContextBench 及 J-ICL 训练框架提供了直接可用的评估工具和防御思路，值得立即跟进复现。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.27603",
+        "reader_url": "https://arxiv.org/pdf/2609.27603",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-28T00:24:24.872805",
+        "sub_category_label": null
+      },
+      {
+        "id": 9781,
+        "title": "GitHub Agentic Workflows 实证研究：仅 9% 具备提示注入防御",
+        "original_title": "Specifying and Maintaining Agentic Workflows: An Empirical Study of GitHub Agentic Workflows",
+        "summary": "该论文对 GitHub 上 1,248 个 Agentic Workflows 文件进行实证分析，发现尽管开发者积极维护这些 AI 代理工作流，但仅有 9.4% 明确包含针对提示注入的防御措施，存在显著安全隐患。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 71.45,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "负责构建或维护自动化 Agent 工作流的安全工程师必看。研究揭露了当前 GitHub Agent 生态对提示注入防御的普遍缺失，可直接作为团队自查和加固 Agent 任务的检查清单。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.27263",
+        "reader_url": "https://arxiv.org/pdf/2609.27263",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-24T04:00:00",
+        "first_seen_at": "2026-09-28T00:24:24.872805",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 11200,
+        "title": "GitHub Fuzzing Agent 曝安全隐患：无容器执行命令",
+        "original_title": "GitHub Security Lab's fuzzing agent writes harnesses, runs AFL++ and triages crashes. Its author warns the agent runs commands chosen by the LLM on the host without a container. Us",
+        "summary": "GitHub 安全实验室的 fuzzing agent 能自动编写 harness 并运行 AFL++ 分类 crash，但作者警告该 agent 会在未隔离的宿主机上直接执行 LLM 生成的命令。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "fuzzing",
+        "score_total": 72.7,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "AI Fuzzing 实战工具值得一看，但更要避坑：别让 LLM 生成的命令在物理机裸跑。想试它的 fuzzing 效果，务必丢进一次性 VM 里。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Ahmadbukhari/status/2104006221946884106",
+        "reader_url": "https://x.com/Ahmadbukhari/status/2104006221946884106",
+        "image_url": null,
+        "author": {
+          "username": "Ahmadbukhari",
+          "name": "Ahmad Bukhari | AI Systems Architect",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-27T00:32:28",
+        "first_seen_at": "2026-09-28T02:33:44.050745",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 11446,
+            "title": "LLM 漏洞检测项目级实证：高召回伴随高成本与高误报",
+            "original_title": "LLM-based Vulnerability Detection at Project Scale: An Empirical Study",
+            "summary": "首个针对 LLM 漏洞检测器在项目级规模的实证研究发现，通用 Agent 召回率最高但成本巨大且处理复杂代码吃力，所有方法均存在较高误报率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 91.15,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "给想引入 LLM 漏扫工具的团队泼盆冷水。当前 LLM 检测器项目级误报极高且单项目成本超千美元，落地前必须慎重评估 ROI 与人工审核成本。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2601.19239",
+            "reader_url": "https://arxiv.org/pdf/2601.19239",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-28T04:00:00",
+            "first_seen_at": "2026-09-28T04:13:43.895464",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 11769,
+            "title": "业界使用LLM挖掘NetScaler漏洞动态",
+            "original_title": "The truly impressive thing about the NetScaler RCE is just how many people and firms have been running their LLM bug hunting harnesses against that platform for months now. Citrix ",
+            "summary": "推文指出大量企业和个人已使用LLM漏洞挖掘工具对NetScaler平台进行数月测试，并提及Citrix参与Project Glasswing项目。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 71.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "侧面印证LLM辅助漏洞挖掘已大规模进入企业实战阶段。安全团队应关注同行在内部安全流程中引入AI harness的实际进度，以便评估自身差距。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2104552552746582095",
+            "reader_url": "https://x.com/HackingLZ/status/2104552552746582095",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-09-28T12:43:23",
+            "first_seen_at": "2026-09-28T15:20:41.463119",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "code_analysis": {
+        "label": "代码分析",
+        "items": [
+          {
+            "id": 9796,
+            "title": "基于阶段监督潜在推理的单次 JavaScript 去混淆",
+            "original_title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
+            "summary": "该论文提出一种阶段感知的潜在推理框架，利用确定性去混淆工具的中间输出训练 Coconut 模型，实现单次推理的高效 JS 去混淆，并在 JsDeObsBench 上显著提升了语法有效性和语义正确性。",
+            "primary_category": "AI for Sec",
+            "sub_category": "code_analysis",
+            "score_total": 86.9,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做恶意代码分析和代码审计的同学可以看，这展示了如何结合传统工具的中间状态和 LLM 的潜在推理能力来提升去混淆效果，比单步翻译效果显著更好，思路值得借鉴。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.27058",
+            "reader_url": "https://arxiv.org/pdf/2609.27058",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-28T00:24:24.872805",
+            "sub_category_label": "代码分析"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 9780,
+            "title": "Teach-to-Crash：基于师生LLM的自动驾驶碰撞测试生成框架",
+            "original_title": "Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation",
+            "summary": "提出Teach-to-Crash闭环测试框架，利用高推理能力的Teacher LLM指导Student LLM生成可执行场景，在CARLA仿真器中高效发现自动驾驶系统的碰撞漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 85.65,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "使用双LLM架构做系统fuzzing的思路值得安全Agent开发者借鉴，通过Teacher LLM在指标停滞时介入指导，有效平衡了场景生成的多样性和有效率，这种调度策略可迁移到其他安全测试领域。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.27296",
+            "reader_url": "https://arxiv.org/pdf/2609.27296",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-28T00:24:24.872805",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 9772,
+            "title": "DualMine：结合LLM与动态挖掘的REST API约束发现框架",
+            "original_title": "DualMine: Static-Dynamic REST API Constraint Discovery with Dual Validation",
+            "summary": "DualMine 框架结合基于 LLM 的静态规范挖掘和动态执行轨迹不变量挖掘，通过双重验证发现并解决冲突的 REST API 约束，在 39 个真实 API 上检测出 48 个故障。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 78.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "对做 API Fuzzing 和自动化测试的安全团队有直接参考价值。LLM 结合动态执行的双向验证思路，能有效弥补纯静态或纯动态方法的缺陷，值得在内部 API 安全测试中复用该思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.27806",
+            "reader_url": "https://arxiv.org/pdf/2609.27806",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-28T00:24:24.872805",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 11083,
+            "title": "GitHub Security Lab开源Fuzzing Agent：自动写harness与分流崩溃",
+            "original_title": "GitHub Security Lab open-sourced an agent that writes AFL harnesses, chases coverage, and triages crashes for you.  Point the Fuzzing Taskflow at owner/repo, and it installs AFL, c",
+            "summary": "GitHub Security Lab开源了一款自动化Fuzzing Agent，能自动编写AFL harness、调整覆盖率策略并分类崩溃结果。其架构采用LLM进行决策，MCP工具执行具体命令，状态存于SQLite。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 78.66,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI for Sec从业者必看。该工具展示了Agent结合MCP工具在真实漏洞挖掘中的落地形态，直接跑通「写harness-跑AFL-分流」全流程，可借鉴其Agent与工具集成的设计思路。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/agentnativedev/status/2103897489258819680",
+            "reader_url": "https://x.com/agentnativedev/status/2103897489258819680",
+            "image_url": null,
+            "author": {
+              "username": "agentnativedev",
+              "name": "agentnative",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-26T17:20:24",
+            "first_seen_at": "2026-09-27T18:32:53.383767",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 11445,
+            "title": "AgentDV：用于硬件设计验证的闭环智能体框架",
+            "original_title": "AgentDV: Closed-Loop Agentic AI for Hardware Design Verification",
+            "summary": "针对大模型生成硬件测试台（RTL）不可用的问题，论文提出 AgentDV 闭环智能体框架，结合可运行性过滤、CSR检查和覆盖率引导迭代，在 OpenTitan 等模块上测试取得了高通过率和代码覆盖率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 84.1,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "硬件安全验证（RTL）一直是耗时且容易出错的环节。该框架展示了如何用 Agent 结合工具调用和覆盖率反馈闭环修复 LLM 的幻觉与无效生成，安全测试人员可借鉴其「过滤-检查-覆盖率引导迭代」的设计模式提升自动化测试用例生成质量。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2608.27148",
+            "reader_url": "https://arxiv.org/pdf/2608.27148",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-28T04:00:00",
+            "first_seen_at": "2026-09-28T04:13:40.907438",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 11409,
+            "title": "Cloudflare 开源多阶段安全审计 Agent 技能",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+            "summary": "Cloudflare 开源的 coding-agent 技能，用于多阶段安全审计，提供独立验证和机器可读的结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 78.7,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做代码审计和安全Agent落地的必看。它展示了大厂如何将安全审计拆解为多阶段并保证结果可验证，直接抄作业优化你的安全工作流。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-28&since=weekly",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-28&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-28T00:59:09.839771",
+            "first_seen_at": "2026-09-28T01:00:39.011770",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 11404,
+            "title": "阿里开源混合架构 AI 代码审查工具",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "阿里巴巴开源混合架构代码审查工具，结合确定性管道与 LLM Agent，支持精确行级评论并内置 NPE、XSS、SQL 注入等多语言安全规则集。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 78.15,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "「规则+LLM」是当前 AI 代码审计规避误报的主流解法。安全团队可参考其规则集与 Agent 落地方式，评估集成到 CI/CD 流程的可行性。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-28&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-09-28&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-28T00:59:10.462965",
+            "first_seen_at": "2026-09-28T00:59:51.116265",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 11245,
+            "title": "新加坡政府部署AI自动化渗透测试工具覆盖2000个系统",
+            "original_title": "סינגפור כבר מפעילה כלי AI שמבצעים בדיקות חדירה אוטומטיות על כ־2,000 מערכות ממשלתיות.  רשות הסייבר של סינגפור ו־GovTech חשפו שני כלים פנימיים חדשים: אחד מבצע penetration testing אוט",
+            "summary": "新加坡网络安全局和GovTech推出两款内部AI安全工具，分别用于对约2000个政府系统进行自动化渗透测试和源代码漏洞扫描，并计划扩展至关键基础设施领域。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 71.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是AI用于自动化攻防和代码审计的罕见大规模政企落地案例。安全团队可借此评估AI渗透测试工具在实际大型环境中的可行性与覆盖范围，了解行业前沿动向。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Ai_hebrew/status/2104161628233281830",
+            "reader_url": "https://x.com/Ai_hebrew/status/2104161628233281830",
+            "image_url": null,
+            "author": {
+              "username": "Ai_hebrew",
+              "name": "בינה מלאכותית בעברית",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-27T10:50:00",
+            "first_seen_at": "2026-09-28T12:34:24.981734",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "threat_detection": {
+        "label": "威胁检测",
+        "items": [
+          {
+            "id": 11440,
+            "title": "针对日志异常检测的模型校准框架LoRD",
+            "original_title": "Too Sure to Be Safe: Model Calibration for Reliable Log Anomaly Detection",
+            "summary": "针对语言模型日志异常检测器过度自信且常规校准失效的问题，提出轻量级后置校准框架LoRD，通过路由重建距离估计预测可靠性，在保持检测性能的同时降低过自信错误。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 75.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做安全运营和 AI 威胁检测的兄弟必看。论文戳中了 LM 异常检测的痛点——模型经常自信地给出错误判断，这在 SOC 里会导致漏报或大量误报。LoRD 框架提供了后置校准手段，能直接提升告警置信度的可用性。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2608.17965",
+            "reader_url": "https://arxiv.org/pdf/2608.17965",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-28T04:00:00",
+            "first_seen_at": "2026-09-28T04:12:26.108016",
+            "sub_category_label": "威胁检测"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "model_security | security_benchmark": {
+        "label": "model_security | security_benchmark",
+        "items": [
+          {
+            "id": 9925,
+            "title": "CART：面向大语言模型的闭环自适应红队测试框架",
+            "original_title": "CART: Closed-Loop Adaptive Red Teaming for Large Language Models",
+            "summary": "CART 框架通过分离测试者、目标和评估者角色，实现自适应的 LLM 与 Agent 安全红队测试，相比静态提示重放能发现更多安全弱点。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "model_security | security_benchmark",
+            "score_total": 83.05,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "安全评测和红队人员必看。CART 闭环自适应红队方法解决了静态提示集无法发现新弱点的问题，其角色分离架构对构建自动化 AI 安全评测流水线有直接参考价值。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.27336",
+            "reader_url": "https://arxiv.org/pdf/2609.27336",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-27T18:23:55.731264",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 9904,
+            "title": "Terminal-Bench评测有效性分析：区分真实难度与假性难题",
+            "original_title": "What Makes a Terminal-Bench Task Hard? Separating Genuine Hardness from Fake-Hardness on an Adjudicated Agentic Corpus",
+            "summary": "论文通过分析Terminal-Bench数据指出，模型零通过率任务可能源于参考答案损坏或验证器绕过等非能力因素，仅62%的任务被认证为真正未解决，呼吁安全评测榜单提供更严谨的难度证据。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_benchmark",
+            "score_total": 81.3,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "安全评测榜单构建者和使用者必读。它揭示了Agent Benchmark中“零通过”不等于“真难题”，提醒团队在解读评测结果时，务必警惕验证器绕过和基础设施失败带来的假阴性，改进评测框架时需加强任务有效性筛查。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.26826",
+            "reader_url": "https://arxiv.org/pdf/2609.26826",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-27T18:23:55.731264",
+            "sub_category_label": null
+          },
+          {
+            "id": 9761,
+            "title": "LLM 代码审计的假阳性陷阱：基于对照基准的校准评估",
+            "original_title": "Can LLMs Catch a Rigged Backtest? A Clean-Control Calibration Benchmark",
+            "summary": "论文构建了配对基准评估 LLM 在代码审计中的表现，发现开放式提示会导致大量误报，而引入针对性提示策略可将误报率降至 0%。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_benchmark",
+            "score_total": 71.7,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞挖掘 Agent 的必看。文章指出 LLM 代码审计时召回率可能虚高，但误报率同样惊人。引入对照组能有效评估 Agent 的真实漏洞发现能力，直接指导安全评测基准设计。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.28090",
+            "reader_url": "https://arxiv.org/pdf/2609.28090",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-28T00:24:24.872805",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "llm_architecture | binary_security": {
+        "label": "llm_architecture | binary_security",
+        "items": [
+          {
+            "id": 9783,
+            "title": "LLM 结合形式化验证的编译器优化架构",
+            "original_title": "Verified Learning for Compiler Optimization: An LLM-Guided Architecture with Formal Control",
+            "summary": "该研究提出一种将 LLM 与 Alive2 形式化等价检查结合的编译器优化架构，在 LLVM IR 层面进行生成式重写，通过运行时控制层强制确保语义正确性。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "llm_architecture | binary_security",
+            "score_total": 78.8,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "给做底层安全和编译器防护的兄弟看。LLM 直接改 IR 容易引入隐蔽漏洞，这论文用 Alive2 兜底做形式化验证，提供了一套把大模型安全塞进编译流水线的实操路径，值得借鉴其反馈控制机制。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.27214",
+            "reader_url": "https://arxiv.org/pdf/2609.27214",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-28T00:24:24.872805",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "model_evaluation | security_benchmark": {
+        "label": "model_evaluation | security_benchmark",
+        "items": [
+          {
+            "id": 11639,
+            "title": "MiMo-V2.6模型实测：安全榜单高分与实战能力的代差",
+            "original_title": "“国模一哥”小米MiMo2.6Pro测完了！",
+            "summary": "小米 MiMo-V2.6 模型在 CyberGym 等安全评测榜单上名列前茅，但在 Terminal Bench 和 ExploitGym 等实战渗透任务上与顶级模型存在明显代差。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "model_evaluation | security_benchmark",
+            "score_total": 69.55,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队需警惕模型在 CyberGym 等榜单的高分假象，其在复杂命令行和漏洞利用场景的实战能力依然薄弱。评测模型安全能力时应参考更贴近实战的指标，避免被刷榜数据误导。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7688300268687654938",
+            "reader_url": "https://juejin.cn/post/7688300268687654938",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T02:37:53",
+            "first_seen_at": "2026-09-28T07:13:23.363851",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 9814,
+            "title": "上下文误导：评估并提升 LLM 对虚假上下文的抵抗力",
+            "original_title": "When Context Misleads: In-context Learning with Jurisdiction in Large Language Models",
+            "summary": "论文提出 FakeContextBench 基准评估大模型对误导性上下文的辨别能力，发现现有微调方法反而增加易受骗风险，并提出 J-ICL 框架在提升 ICL 能力的同时增强对欺骗性上下文的抵抗力。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 76.2,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "本文揭示现有 ICL 微调可能导致模型更易被上下文投毒或提示注入误导。对于从事 LLM 安全评测和防御的从业者，FakeContextBench 及 J-ICL 训练框架提供了直接可用的评估工具和防御思路，值得立即跟进复现。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.27603",
+            "reader_url": "https://arxiv.org/pdf/2609.27603",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-28T00:24:24.872805",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 9781,
+            "title": "GitHub Agentic Workflows 实证研究：仅 9% 具备提示注入防御",
+            "original_title": "Specifying and Maintaining Agentic Workflows: An Empirical Study of GitHub Agentic Workflows",
+            "summary": "该论文对 GitHub 上 1,248 个 Agentic Workflows 文件进行实证分析，发现尽管开发者积极维护这些 AI 代理工作流，但仅有 9.4% 明确包含针对提示注入的防御措施，存在显著安全隐患。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 71.45,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "负责构建或维护自动化 Agent 工作流的安全工程师必看。研究揭露了当前 GitHub Agent 生态对提示注入防御的普遍缺失，可直接作为团队自查和加固 Agent 任务的检查清单。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.27263",
+            "reader_url": "https://arxiv.org/pdf/2609.27263",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-24T04:00:00",
+            "first_seen_at": "2026-09-28T00:24:24.872805",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "fuzzing": {
+        "label": "fuzzing",
+        "items": [
+          {
+            "id": 11200,
+            "title": "GitHub Fuzzing Agent 曝安全隐患：无容器执行命令",
+            "original_title": "GitHub Security Lab's fuzzing agent writes harnesses, runs AFL++ and triages crashes. Its author warns the agent runs commands chosen by the LLM on the host without a container. Us",
+            "summary": "GitHub 安全实验室的 fuzzing agent 能自动编写 harness 并运行 AFL++ 分类 crash，但作者警告该 agent 会在未隔离的宿主机上直接执行 LLM 生成的命令。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "fuzzing",
+            "score_total": 72.7,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI Fuzzing 实战工具值得一看，但更要避坑：别让 LLM 生成的命令在物理机裸跑。想试它的 fuzzing 效果，务必丢进一次性 VM 里。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Ahmadbukhari/status/2104006221946884106",
+            "reader_url": "https://x.com/Ahmadbukhari/status/2104006221946884106",
+            "image_url": null,
+            "author": {
+              "username": "Ahmadbukhari",
+              "name": "Ahmad Bukhari | AI Systems Architect",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-27T00:32:28",
+            "first_seen_at": "2026-09-28T02:33:44.050745",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 9360,
+            "title": "Agensh：去中心化多智能体协作架构扩展至 1024 个 Agent",
+            "original_title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+            "summary": "Agensh 提出无中央编排器的自组织多智能体架构，通过共享工作空间实现任务异步协作，在复杂编程任务中显著提升扩展性与执行效率。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 71.0,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "多智能体协作是自动化漏洞挖掘和安全运营的潜在方向。该论文证明了去中心化架构在上千个 Agent 规模下仍能保持高效，为构建大规模安全 Agent 集群提供了架构参考。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2609.26781",
+            "reader_url": "https://arxiv.org/pdf/2609.26781",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T00:00:00",
+            "first_seen_at": "2026-09-28T00:24:24.872805",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 11446,
+      "title": "LLM 漏洞检测项目级实证：高召回伴随高成本与高误报",
+      "original_title": "LLM-based Vulnerability Detection at Project Scale: An Empirical Study",
+      "summary": "首个针对 LLM 漏洞检测器在项目级规模的实证研究发现，通用 Agent 召回率最高但成本巨大且处理复杂代码吃力，所有方法均存在较高误报率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 91.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "给想引入 LLM 漏扫工具的团队泼盆冷水。当前 LLM 检测器项目级误报极高且单项目成本超千美元，落地前必须慎重评估 ROI 与人工审核成本。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2601.19239",
+      "reader_url": "https://arxiv.org/pdf/2601.19239",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-28T04:00:00",
+      "first_seen_at": "2026-09-28T04:13:43.895464",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 9796,
+      "title": "基于阶段监督潜在推理的单次 JavaScript 去混淆",
+      "original_title": "Stage-Supervised Latent Reasoning for Single-Shot JavaScript Deobfuscation",
+      "summary": "该论文提出一种阶段感知的潜在推理框架，利用确定性去混淆工具的中间输出训练 Coconut 模型，实现单次推理的高效 JS 去混淆，并在 JsDeObsBench 上显著提升了语法有效性和语义正确性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_analysis",
+      "score_total": 86.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做恶意代码分析和代码审计的同学可以看，这展示了如何结合传统工具的中间状态和 LLM 的潜在推理能力来提升去混淆效果，比单步翻译效果显著更好，思路值得借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27058",
+      "reader_url": "https://arxiv.org/pdf/2609.27058",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": "代码分析"
+    },
+    {
+      "id": 9780,
+      "title": "Teach-to-Crash：基于师生LLM的自动驾驶碰撞测试生成框架",
+      "original_title": "Teach-to-Crash: A Closed-Loop Student-Teacher LLM Framework for Collision-Inducing Test Scenario Generation",
+      "summary": "提出Teach-to-Crash闭环测试框架，利用高推理能力的Teacher LLM指导Student LLM生成可执行场景，在CARLA仿真器中高效发现自动驾驶系统的碰撞漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 85.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "使用双LLM架构做系统fuzzing的思路值得安全Agent开发者借鉴，通过Teacher LLM在指标停滞时介入指导，有效平衡了场景生成的多样性和有效率，这种调度策略可迁移到其他安全测试领域。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27296",
+      "reader_url": "https://arxiv.org/pdf/2609.27296",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 11445,
+      "title": "AgentDV：用于硬件设计验证的闭环智能体框架",
+      "original_title": "AgentDV: Closed-Loop Agentic AI for Hardware Design Verification",
+      "summary": "针对大模型生成硬件测试台（RTL）不可用的问题，论文提出 AgentDV 闭环智能体框架，结合可运行性过滤、CSR检查和覆盖率引导迭代，在 OpenTitan 等模块上测试取得了高通过率和代码覆盖率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全验证（RTL）一直是耗时且容易出错的环节。该框架展示了如何用 Agent 结合工具调用和覆盖率反馈闭环修复 LLM 的幻觉与无效生成，安全测试人员可借鉴其「过滤-检查-覆盖率引导迭代」的设计模式提升自动化测试用例生成质量。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.27148",
+      "reader_url": "https://arxiv.org/pdf/2608.27148",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-28T04:00:00",
+      "first_seen_at": "2026-09-28T04:13:40.907438",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 9925,
+      "title": "CART：面向大语言模型的闭环自适应红队测试框架",
+      "original_title": "CART: Closed-Loop Adaptive Red Teaming for Large Language Models",
+      "summary": "CART 框架通过分离测试者、目标和评估者角色，实现自适应的 LLM 与 Agent 安全红队测试，相比静态提示重放能发现更多安全弱点。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "model_security | security_benchmark",
+      "score_total": 83.05,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全评测和红队人员必看。CART 闭环自适应红队方法解决了静态提示集无法发现新弱点的问题，其角色分离架构对构建自动化 AI 安全评测流水线有直接参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27336",
+      "reader_url": "https://arxiv.org/pdf/2609.27336",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-27T18:23:55.731264",
+      "sub_category_label": null
+    },
+    {
+      "id": 9904,
+      "title": "Terminal-Bench评测有效性分析：区分真实难度与假性难题",
+      "original_title": "What Makes a Terminal-Bench Task Hard? Separating Genuine Hardness from Fake-Hardness on an Adjudicated Agentic Corpus",
+      "summary": "论文通过分析Terminal-Bench数据指出，模型零通过率任务可能源于参考答案损坏或验证器绕过等非能力因素，仅62%的任务被认证为真正未解决，呼吁安全评测榜单提供更严谨的难度证据。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 81.3,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全评测榜单构建者和使用者必读。它揭示了Agent Benchmark中“零通过”不等于“真难题”，提醒团队在解读评测结果时，务必警惕验证器绕过和基础设施失败带来的假阴性，改进评测框架时需加强任务有效性筛查。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.26826",
+      "reader_url": "https://arxiv.org/pdf/2609.26826",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-27T18:23:55.731264",
+      "sub_category_label": null
+    },
+    {
+      "id": 9772,
+      "title": "DualMine：结合LLM与动态挖掘的REST API约束发现框架",
+      "original_title": "DualMine: Static-Dynamic REST API Constraint Discovery with Dual Validation",
+      "summary": "DualMine 框架结合基于 LLM 的静态规范挖掘和动态执行轨迹不变量挖掘，通过双重验证发现并解决冲突的 REST API 约束，在 39 个真实 API 上检测出 48 个故障。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 78.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对做 API Fuzzing 和自动化测试的安全团队有直接参考价值。LLM 结合动态执行的双向验证思路，能有效弥补纯静态或纯动态方法的缺陷，值得在内部 API 安全测试中复用该思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27806",
+      "reader_url": "https://arxiv.org/pdf/2609.27806",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 9783,
+      "title": "LLM 结合形式化验证的编译器优化架构",
+      "original_title": "Verified Learning for Compiler Optimization: An LLM-Guided Architecture with Formal Control",
+      "summary": "该研究提出一种将 LLM 与 Alive2 形式化等价检查结合的编译器优化架构，在 LLVM IR 层面进行生成式重写，通过运行时控制层强制确保语义正确性。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "llm_architecture | binary_security",
+      "score_total": 78.8,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "给做底层安全和编译器防护的兄弟看。LLM 直接改 IR 容易引入隐蔽漏洞，这论文用 Alive2 兜底做形式化验证，提供了一套把大模型安全塞进编译流水线的实操路径，值得借鉴其反馈控制机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.27214",
+      "reader_url": "https://arxiv.org/pdf/2609.27214",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-24T04:00:00",
+      "first_seen_at": "2026-09-28T00:24:24.872805",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 20,
+    "highlight_count": 6,
+    "paper_count": 13,
+    "source_count": 5,
+    "top_score": 91,
+    "category_count": {
+      "AI for Sec": 11,
+      "AI Tech": 1,
+      "Sec for AI | AI for Sec": 1,
+      "AI for Sec | AI Tech": 2,
+      "AI Tech | AI for Sec": 2,
+      "Sec for AI | AI Tech": 2,
+      "AI for Sec | Sec for AI": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 2
+        },
+        "code_analysis": {
+          "label": "代码分析",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 3
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 4
+        },
+        "threat_detection": {
+          "label": "威胁检测",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "model_security | security_benchmark": {
+          "label": "model_security | security_benchmark",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 2
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "llm_architecture | binary_security": {
+          "label": "llm_architecture | binary_security",
+          "count": 1
+        },
+        "model_evaluation | security_benchmark": {
+          "label": "model_evaluation | security_benchmark",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        },
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "fuzzing": {
+          "label": "fuzzing",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 11,
+      "top_score": 91,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 1,
+      "top_score": 71,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分文章直接给热衷于 LLM 漏扫的团队敲了警钟，项目级单次检测成本上千美元且误报极高。大家在引入这类工具前务必先用真实业务算清楚投入产出比，别被单纯的高召回率蒙蔽了双眼；同时可以留意利用传统工具中间状态做代码去混淆，或引入双模型调度策略做 Fuzzing 的新思路，这可能是改善当前落地痛点的务实方向。",
+  "method_note": "按北京时间 2026-09-28 的系统入库窗口筛选，从 20 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "huggingface-daily-papers",
+    "juejin-trending-weekly",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# LLM 漏洞检测项目级实证：高召回伴随高成本与高误报\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是 LLM 赋能安全实战的效能落地与成本反思。大家不再只盯着纸面指标好看，而是开始直面项目级漏扫的高成本和高误报，并积极探索结合传统工具和双模型调度来提升实际可用性。\n- 01 给想引入 LLM 漏扫工具的团队泼盆冷水。当前 LLM 检测器项目级误报极高且单项目成本超千美元，落地前必须慎重评估 ROI 与人工审核成本。\n- 02 做恶意代码分析和代码审计的同学可以看，这展示了如何结合传统工具的中间状态和 LLM 的潜在推理能力来提升去混淆效果，比单步翻译效果显著更好，思路值得借鉴。\n- 03 使用双LLM架构做系统fuzzing的思路值得安全Agent开发者借鉴，通过Teacher LLM在指标停滞时介入指导，有效平衡了场景生成的多样性和有效率，这种调度策略可迁移到其他安全测试领域。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **LLM 漏洞检测项目级实证：高召回伴随高成本与高误报**：给想引入 LLM 漏扫工具的团队泼盆冷水。当前 LLM 检测器项目级误报极高且单项目成本超千美元，落地前必须慎重评估 ROI 与人工审核成本。 来源：arxiv-ai-security\n- **基于阶段监督潜在推理的单次 JavaScript 去混淆**：做恶意代码分析和代码审计的同学可以看，这展示了如何结合传统工具的中间状态和 LLM 的潜在推理能力来提升去混淆效果，比单步翻译效果显著更好，思路值得借鉴。 来源：arxiv-ai-security\n- **Teach-to-Crash：基于师生LLM的自动驾驶碰撞测试生成框架**：使用双LLM架构做系统fuzzing的思路值得安全Agent开发者借鉴，通过Teacher LLM在指标停滞时介入指导，有效平衡了场景生成的多样性和有效率，这种调度策略可迁移到其他安全测试领域。 来源：arxiv-ai-security\n\n## 也值得关注\n- AgentDV：用于硬件设计验证的闭环智能体框架（84.1）\n- CART：面向大语言模型的闭环自适应红队测试框架（83.05）\n- Terminal-Bench评测有效性分析：区分真实难度与假性难题（81.3）\n- DualMine：结合LLM与动态挖掘的REST API约束发现框架（78.95）\n- LLM 结合形式化验证的编译器优化架构（78.8）\n- GitHub Security Lab开源Fuzzing Agent：自动写harness与分流崩溃（78.66）\n\n## AI for Sec\n\n### 漏洞挖掘\n- LLM 漏洞检测项目级实证：高召回伴随高成本与高误报（91.15）\n- 业界使用LLM挖掘NetScaler漏洞动态（71.2）\n\n### 代码分析\n- 基于阶段监督潜在推理的单次 JavaScript 去混淆（86.9）\n\n### AI Fuzzing\n- Teach-to-Crash：基于师生LLM的自动驾驶碰撞测试生成框架（85.65）\n- DualMine：结合LLM与动态挖掘的REST API约束发现框架（78.95）\n- GitHub Security Lab开源Fuzzing Agent：自动写harness与分流崩溃（78.66）\n\n### 安全Agent\n- AgentDV：用于硬件设计验证的闭环智能体框架（84.1）\n- Cloudflare 开源多阶段安全审计 Agent 技能（78.7）\n- 阿里开源混合架构 AI 代码审查工具（78.15）\n- 新加坡政府部署AI自动化渗透测试工具覆盖2000个系统（71.45）\n\n### 威胁检测\n- 针对日志异常检测的模型校准框架LoRD（75.95）\n\n## AI Tech\n\n### Agent 架构\n- Agensh：去中心化多智能体协作架构扩展至 1024 个 Agent（71.0）\n\n## 今日论文\n- LLM 漏洞检测项目级实证：高召回伴随高成本与高误报\n- 基于阶段监督潜在推理的单次 JavaScript 去混淆\n- Teach-to-Crash：基于师生LLM的自动驾驶碰撞测试生成框架\n- AgentDV：用于硬件设计验证的闭环智能体框架\n- CART：面向大语言模型的闭环自适应红队测试框架\n- Terminal-Bench评测有效性分析：区分真实难度与假性难题\n- DualMine：结合LLM与动态挖掘的REST API约束发现框架\n- LLM 结合形式化验证的编译器优化架构\n\n## 今日观察\n最高分文章直接给热衷于 LLM 漏扫的团队敲了警钟，项目级单次检测成本上千美元且误报极高。大家在引入这类工具前务必先用真实业务算清楚投入产出比，别被单纯的高召回率蒙蔽了双眼；同时可以留意利用传统工具中间状态做代码去混淆，或引入双模型调度策略做 Fuzzing 的新思路，这可能是改善当前落地痛点的务实方向。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-09-28 的系统入库窗口筛选，从 20 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-29T00:01:27+08:00"
+}
