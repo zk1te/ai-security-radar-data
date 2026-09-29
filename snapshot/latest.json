@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-09-29T07:58:39+08:00",
+  "updated_at": "2026-09-29T08:28:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
+    {
+      "id": 11921,
+      "title": "Cloudflare 开源安全审计 Agent Skill",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 开源了一个用于多阶段安全审计的编码 Agent 技能，能够生成可独立验证且机器可读的审计结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做代码审计和自动化安全的团队看过来，这个开源 skill 跑多阶段审计且产出机器可读结果，适合直接接入你们现有的安全工具链或 Agent 流程中做交叉验证。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-29&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-29&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-29T00:14:05.840155",
+      "first_seen_at": "2026-09-29T00:15:25.171678",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 11848,
       "title": "智谱 ZCode 开源：Agent Harness 安全边界首次完整暴露",
@@ -163,31 +183,6 @@
       "published_at": "2026-09-28T20:39:56",
       "first_seen_at": "2026-09-28T20:51:00.401195",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 11869,
-      "title": "开源自动化代码审计工具：一键扫描移动应用仓库",
-      "original_title": "Run it yourself: codespace in the repo (MIT), then ./scripts/audit/run_mobile.sh myorg/myrepo. An hour or two on a medium repo; results land in the audit_results table. Blog: https",
-      "summary": "该推文分享了一个 MIT 协议的开源仓库审计工具，可通过 Codespace 运行脚本对中型代码库进行自动化安全审计并输出结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "code_audit",
-      "score_total": 66.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "提供了可直接在 Codespace 中运行的开源审计脚本，适合安全团队快速集成进自动化代码审计流程，无需复杂配置即可上手测试其扫描效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
-      "reader_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
-      "image_url": null,
-      "author": {
-        "username": "jimmy_longbow_",
-        "name": "JimiLonbo",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-28T21:16:09",
-      "first_seen_at": "2026-09-28T21:22:04.509100",
-      "sub_category_label": null
     }
   ]
 }
