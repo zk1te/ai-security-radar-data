@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-29T14:34:16+08:00",
+  "updated_at": "2026-09-29T15:34:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 11921,
@@ -48,26 +48,6 @@
       "published_at": "2026-09-28T04:03:16",
       "first_seen_at": "2026-09-29T04:35:54.390972",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 11848,
-      "title": "智谱 ZCode 开源：Agent Harness 安全边界首次完整暴露",
-      "original_title": "ZCode 开源了来看看这是个什么东西",
-      "summary": "因代码库数据未授权上传争议，智谱将 ZCode 完整客户端（含 14 个子包、Agent 运行时、Hook 与插件体系）以 Apache-2.0 开源，NOTICE.md 坦诚披露网关转发含认证信息、无 OS 沙箱、凭据非钥匙串等安全边界。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 72.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 Agent 安全和供应链审计的人必看：这是国内首个大厂完整编码 Agent Harness 开源案例，NOTICE.md 把「请求转发含认证、无沙箱、凭据同步无逐项确认」全写出来了，可直接当 Agent harness 安全审计清单模板用。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7687855879102890036",
-      "reader_url": "https://juejin.cn/post/7687855879102890036",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-22T01:02:50",
-      "first_seen_at": "2026-09-28T19:21:53.250323",
-      "sub_category_label": null
     },
     {
       "id": 11396,
@@ -120,26 +100,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 11849,
-      "title": "OpenAI 安全负责人谈 AI 能力跃迁与安全团队应对策略",
-      "original_title": "Quoting @joedaroo",
-      "summary": "OpenAI Agent 安全负责人 @joedaroo 谈 AI 模型在「网络攻击」「蜂群行为」等能力上发生突然跃迁，给组织安全态势和应急响应带来的巨大挑战，呼吁各组织建立能适应 AI 能力突变的韧性体系。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 69.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队负责人必读：直接点出了 AI 能力非线性跃迁对现有安全流程的冲击。实操要点是立即检查你的事件响应预案是否覆盖 AI 能力突变场景，以及团队是否具备应对 AI 驱动攻击的快速响应能力。",
-      "source_id": "simon-willison",
-      "canonical_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
-      "reader_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-28T19:11:42",
-      "first_seen_at": "2026-09-28T19:32:56.304979",
-      "sub_category_label": null
-    },
-    {
       "id": 12022,
       "title": "Termix × GoPlus 结束安全 Agent 试用，智能合约审计闭环测试",
       "original_title": "a campaign slot is easy to take. finishing the job is not.  @termix_ai × @GoPlusSecurity just closed the security agent trial at forty participants. the real work begins now.  ever",
@@ -163,26 +123,6 @@
       "published_at": "2026-09-29T04:57:46",
       "first_seen_at": "2026-09-29T05:42:40.195103",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 11847,
-      "title": "Agent开发五大工程难点与安全约束实践",
-      "original_title": "做了近两年的Agent开发，其实真正要学的就是这五件事",
-      "summary": "文章总结了Agent开发中的上下文管理、工具契约、执行边界、分层评估与成本控制五大难点，强调必须用工程手段（如状态机、预算限制和参数校验）约束模型行为，防止Agent失控。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 68.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "写给所有做Agent安全的同学：别指望Prompt保安全。这篇实操文给出了工具权限分级、执行预算和状态机验收的硬核代码模板，直接抄作业就能防住Agent越权和无限循环。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7688159506154209321",
-      "reader_url": "https://juejin.cn/post/7688159506154209321",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-22T07:57:00",
-      "first_seen_at": "2026-09-28T19:21:52.208726",
-      "sub_category_label": null
     },
     {
       "id": 12055,
@@ -232,6 +172,56 @@
       },
       "published_at": "2026-09-29T00:23:38",
       "first_seen_at": "2026-09-29T00:45:35.041739",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11436,
+      "title": "Google 使用 AI 和差分模糊测试重写关键 C 依赖为 Rust",
+      "original_title": "Google Rewrites Critical C Dependencies to Rust Using AI and Differential Fuzzing https://t.co/TTM8PIM9dI",
+      "summary": "Google 结合 AI 技术与差分模糊测试，将关键的 C 语言依赖项重写为 Rust 代码，以提升系统级软件的内存安全性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 67.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "工业界巨头将 AI 辅助代码重写和差分模糊测试落地的真实案例。安全工具开发者应关注这种结合 LLM 与 Fuzzing 验证代码等价性的工程范式，探索其在代码审计和漏洞修复中的应用。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jreuben1/status/2104415546837962975",
+      "reader_url": "https://x.com/jreuben1/status/2104415546837962975",
+      "image_url": null,
+      "author": {
+        "username": "jreuben1",
+        "name": "(((JReuben1)))",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-28T03:38:59",
+      "first_seen_at": "2026-09-29T04:35:54.390972",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 11868,
+      "title": "使用开源AI安全代理挖掘出24个Android漏洞",
+      "original_title": "How we found 24 Android vulnerabilities using our open source AI security agent https://t.co/CPIe0abeZO",
+      "summary": "文章分享了使用开源AI安全代理成功挖掘出24个Android漏洞的实战经验，展示了AI在移动端漏洞自动化发现领域的潜力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "面向移动安全和漏洞挖掘人员，这篇内容展示了开源AI Agent的真实挖洞成果。建议立刻查看该开源工具，评估其能否补充现有的漏洞挖掘流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/massimobonanni/status/2104672480220656108",
+      "reader_url": "https://x.com/massimobonanni/status/2104672480220656108",
+      "image_url": null,
+      "author": {
+        "username": "massimobonanni",
+        "name": "Massimo Bonanni",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-28T20:39:56",
+      "first_seen_at": "2026-09-28T20:51:00.401195",
       "sub_category_label": "安全Agent"
     }
   ]
