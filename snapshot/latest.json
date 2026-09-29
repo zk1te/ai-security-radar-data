@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-30T02:50:46+08:00",
+  "updated_at": "2026-09-30T07:21:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 11620,
@@ -43,6 +43,26 @@
       "published_at": "2026-09-28T04:00:00",
       "first_seen_at": "2026-09-29T18:26:26.520232",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 12390,
+      "title": "GLM-5.3与Claude Mythos在二进制利用基准中实现突破",
+      "original_title": "Quoting Anthropic Frontier Red Team",
+      "summary": "Anthropic 红队评估显示，GLM-5.3 和 Claude Mythos Preview 在内部二进制漏洞利用基准中成功实现控制流劫持，成功率分别为 4% 和 6%，而早期模型成功率为零，标志着 AI 网络攻防能力出现显著跃迁。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark | model_evaluation",
+      "score_total": 83.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全评测与攻防团队必看。前沿大模型已跨越二进制漏洞利用的零能力门槛，AI 辅助自动化漏洞挖掘正从理论走向实际威胁，需密切关注模型能力演进并评估防御策略。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team",
+      "reader_url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-29T22:20:28",
+      "first_seen_at": "2026-09-29T23:10:28.878591",
+      "sub_category_label": null
     },
     {
       "id": 11619,
