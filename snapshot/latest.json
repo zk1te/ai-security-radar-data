@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T08:28:51+08:00",
+  "updated_at": "2026-09-29T08:59:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -45,29 +45,29 @@
       "sub_category_label": null
     },
     {
-      "id": 11245,
-      "title": "新加坡政府部署AI自动化渗透测试工具覆盖2000个系统",
-      "original_title": "סינגפור כבר מפעילה כלי AI שמבצעים בדיקות חדירה אוטומטיות על כ־2,000 מערכות ממשלתיות.  רשות הסייבר של סינגפור ו־GovTech חשפו שני כלים פנימיים חדשים: אחד מבצע penetration testing אוט",
-      "summary": "新加坡网络安全局和GovTech推出两款内部AI安全工具，分别用于对约2000个政府系统进行自动化渗透测试和源代码漏洞扫描，并计划扩展至关键基础设施领域。",
+      "id": 11396,
+      "title": "GitHub 开源 AI 辅助 C 代码 Fuzzing 工具，可自动分类 crash",
+      "original_title": "GitHub open-sourced an AI that hunts bugs in your C code. It writes the tests, runs the fuzzer and triages every crash. Fine print: run it on a throwaway machine only https://t.co/",
+      "summary": "GitHub 开源了一款 AI 工具，能自动为 C 代码编写测试、运行 Fuzzer 并对 crash 结果进行分类，官方建议在隔离环境中运行。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.45,
+      "sub_category": "fuzzing",
+      "score_total": 72.7,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "这是AI用于自动化攻防和代码审计的罕见大规模政企落地案例。安全团队可借此评估AI渗透测试工具在实际大型环境中的可行性与覆盖范围，了解行业前沿动向。",
+      "recommendation_reason": "直接面向做漏洞挖掘和代码审计的安全团队。该工具实现了 AI 驱动的 Fuzzing 闭环，值得跟进测试其实际挖掘效果，注意务必在沙箱内运行。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Ai_hebrew/status/2104161628233281830",
-      "reader_url": "https://x.com/Ai_hebrew/status/2104161628233281830",
+      "canonical_url": "https://x.com/eserickxavier/status/2104355270574981307",
+      "reader_url": "https://x.com/eserickxavier/status/2104355270574981307",
       "image_url": null,
       "author": {
-        "username": "Ai_hebrew",
-        "name": "בינה מלאכותית בעברית",
+        "username": "eserickxavier",
+        "name": "es.erickXavier",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-09-27T10:50:00",
-      "first_seen_at": "2026-09-28T12:34:24.981734",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-09-27T23:39:28",
+      "first_seen_at": "2026-09-29T00:35:24.960295",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 11769,
@@ -160,28 +160,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 11868,
-      "title": "使用开源AI安全代理挖掘出24个Android漏洞",
-      "original_title": "How we found 24 Android vulnerabilities using our open source AI security agent https://t.co/CPIe0abeZO",
-      "summary": "文章分享了使用开源AI安全代理成功挖掘出24个Android漏洞的实战经验，展示了AI在移动端漏洞自动化发现领域的潜力。",
+      "id": 11937,
+      "title": "传 OpenAI 正研发 GPT-6 Cyber 自主安全 Agent",
+      "original_title": "The rumors with more than an 80% chance of being true start with \"o\", an always-on agent codenamed Aeon. It would run in a persistent cloud sandbox for hours or even days without b",
+      "summary": "传闻称 OpenAI 正在开发代号 Aeon 的常驻 Agent 以及基于 GPT-6 Cyber 的自主安全 Agent，该安全 Agent 能够自动执行漏洞发现、验证和修补工作流。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 66.75,
+      "score_total": 67.71,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "面向移动安全和漏洞挖掘人员，这篇内容展示了开源AI Agent的真实挖洞成果。建议立刻查看该开源工具，评估其能否补充现有的漏洞挖掘流水线。",
+      "recommendation_reason": "需密切关注 OpenAI 在安全 Agent 方向的动作，若 GPT-6 Cyber 传闻属实，将直接改变现有漏洞修复流程。安全团队应提前评估此类全链路自动化工具的接入可能。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/massimobonanni/status/2104672480220656108",
-      "reader_url": "https://x.com/massimobonanni/status/2104672480220656108",
+      "canonical_url": "https://x.com/l_mejiaC/status/2104728773631340583",
+      "reader_url": "https://x.com/l_mejiaC/status/2104728773631340583",
       "image_url": null,
       "author": {
-        "username": "massimobonanni",
-        "name": "Massimo Bonanni",
+        "username": "l_mejiaC",
+        "name": "Luis Mejia",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-09-28T20:39:56",
-      "first_seen_at": "2026-09-28T20:51:00.401195",
+      "published_at": "2026-09-29T00:23:38",
+      "first_seen_at": "2026-09-29T00:45:35.041739",
       "sub_category_label": "安全Agent"
     }
   ]
