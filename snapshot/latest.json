@@ -1,34 +1,9 @@
 {
-  "updated_at": "2026-09-29T22:36:17+08:00",
+  "updated_at": "2026-09-30T00:47:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
-    {
-      "id": 11498,
-      "title": "GitHub安全实验室发布C/C++ LLM Fuzzing工作流",
-      "original_title": "GitHub Security Labが9/24、C/C++向けLLMファジングTaskflowを公開。対象選定〜クラッシュ分類・レポートまでをつなぐ。同社は人の確認が必要と明記。  案件ではAIに探索を任せ、再現性・影響範囲・修正の妥当性は人が判定する分担が現実的。 https://t.co/bm8J7IiFqG",
-      "summary": "GitHub安全实验室开源了一套针对C/C++的LLM Fuzzing Taskflow，涵盖目标选定到崩溃分类与报告全流程，并强调人工复核的必要性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 75.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "一线安全团队可直接参考该工作流，让AI负责探索，人工复核重现性与影响。这是目前最务实的AI赋能fuzzing落地姿势。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/tofu_sugar/status/2104421659507884235",
-      "reader_url": "https://x.com/tofu_sugar/status/2104421659507884235",
-      "image_url": null,
-      "author": {
-        "username": "tofu_sugar",
-        "name": "しゅがー@エンジニア",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-28T04:03:16",
-      "first_seen_at": "2026-09-29T04:35:54.390972",
-      "sub_category_label": "AI Fuzzing"
-    },
     {
       "id": 12128,
       "title": "BenchShield提出Reward Hacking检测新框架",
@@ -48,6 +23,31 @@
       "published_at": "2026-09-29T09:34:24",
       "first_seen_at": "2026-09-29T09:46:33.570576",
       "sub_category_label": null
+    },
+    {
+      "id": 12235,
+      "title": "PageBreak：基于确定性验证的近零误报漏洞挖掘Agent",
+      "original_title": "Introducing PageBreak, an agentic vulnerability discovery tool using deterministic validation to achieve a near-zero false positive rate.  How it works: https://t.co/n3k4vvNhoq  Fo",
+      "summary": "PageBreak 是一款基于 Agent 的漏洞发现工具，利用确定性验证将误报率降至接近零，并已发现多个真实世界漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 71.83,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 漏洞挖掘工具最怕误报淹没真实告警。PageBreak 引入确定性验证机制值得安全团队关注，可以研究它如何平衡 Agent 探索性与结果可信度。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/GoogleVRP/status/2104964422154203276",
+      "reader_url": "https://x.com/GoogleVRP/status/2104964422154203276",
+      "image_url": null,
+      "author": {
+        "username": "GoogleVRP",
+        "name": "Google VRP (Google Bug Hunters)",
+        "avatar_url": null,
+        "followers_count": 42615
+      },
+      "published_at": "2026-09-29T16:00:01",
+      "first_seen_at": "2026-09-29T16:18:19.889932",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 12029,
@@ -125,31 +125,6 @@
       "sub_category_label": null
     },
     {
-      "id": 11436,
-      "title": "Google 使用 AI 和差分模糊测试重写关键 C 依赖为 Rust",
-      "original_title": "Google Rewrites Critical C Dependencies to Rust Using AI and Differential Fuzzing https://t.co/TTM8PIM9dI",
-      "summary": "Google 结合 AI 技术与差分模糊测试，将关键的 C 语言依赖项重写为 Rust 代码，以提升系统级软件的内存安全性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 67.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "工业界巨头将 AI 辅助代码重写和差分模糊测试落地的真实案例。安全工具开发者应关注这种结合 LLM 与 Fuzzing 验证代码等价性的工程范式，探索其在代码审计和漏洞修复中的应用。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jreuben1/status/2104415546837962975",
-      "reader_url": "https://x.com/jreuben1/status/2104415546837962975",
-      "image_url": null,
-      "author": {
-        "username": "jreuben1",
-        "name": "(((JReuben1)))",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-28T03:38:59",
-      "first_seen_at": "2026-09-29T04:35:54.390972",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 12164,
       "title": "GitHub开源AI安全Agent发现24个Android漏洞",
       "original_title": "🚨 An AI security agent just found 24 Android vulnerabilities. 🤖🔐  GitHub’s open-source AI security agent has reportedly uncovered 24 vulnerabilities in Android, showing how AI agen",
@@ -197,6 +172,31 @@
       },
       "published_at": "2026-09-29T02:33:35",
       "first_seen_at": "2026-09-29T05:44:30.899973",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 12209,
+      "title": "Replit安全Agent实战：通过外部人工审计验证",
+      "original_title": "We've had folks run Replit's security agent, then pay an external security service to verify.  The auditors came back with nothing.  Most underappreciated feature in Replit. Peace ",
+      "summary": "用户使用Replit内置安全Agent进行代码审计，再请外部安全服务验证未发现问题，证明AI安全Agent已具实战价值。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 64.96,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "提供了AI安全Agent与人类审计员对比的宝贵真实数据点。对于考虑引入AI辅助代码审计的团队，这展示了当前工具的实际效果，值得立即试用评估。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MannyBernabe/status/2104938877286850715",
+      "reader_url": "https://x.com/MannyBernabe/status/2104938877286850715",
+      "image_url": null,
+      "author": {
+        "username": "MannyBernabe",
+        "name": "Manny Bernabe",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T14:18:30",
+      "first_seen_at": "2026-09-29T14:37:29.733971",
       "sub_category_label": "安全Agent"
     }
   ]
