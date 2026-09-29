@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-29T13:02:43+08:00",
+  "updated_at": "2026-09-29T14:04:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 11921,
@@ -95,6 +95,31 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
+      "id": 12029,
+      "title": "GitHub 开源 AI 安全智能体并挖出 24 个 Android 漏洞",
+      "original_title": "GitHub 官方开源了一个 AI 安全智能体 实战一圈挖出来 24 个 Android 漏洞 报告都公开了，开发者直接就能拿来用 开源安全这块，GitHub 是真下血本啊 https://t.co/bt19tVTFz2",
+      "summary": "GitHub 官方开源了一个 AI 安全智能体，在实战中成功挖掘出 24 个 Android 漏洞并公开了报告，供开发者直接使用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂亲自下场开源 AI 安全 Agent 并产出大量真实漏洞，是极佳的实战参考。做漏洞挖掘和代码审计的团队必须关注，直接看大厂的 Agent 架构设计与实际挖洞效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ai_fengshou/status/2104772402622447990",
+      "reader_url": "https://x.com/ai_fengshou/status/2104772402622447990",
+      "image_url": null,
+      "author": {
+        "username": "ai_fengshou",
+        "name": "丰收",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T03:17:00",
+      "first_seen_at": "2026-09-29T05:44:28.781034",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 11849,
       "title": "OpenAI 安全负责人谈 AI 能力跃迁与安全团队应对策略",
       "original_title": "Quoting @joedaroo",
@@ -113,6 +138,31 @@
       "published_at": "2026-09-28T19:11:42",
       "first_seen_at": "2026-09-28T19:32:56.304979",
       "sub_category_label": null
+    },
+    {
+      "id": 12022,
+      "title": "Termix × GoPlus 结束安全 Agent 试用，智能合约审计闭环测试",
+      "original_title": "a campaign slot is easy to take. finishing the job is not.  @termix_ai × @GoPlusSecurity just closed the security agent trial at forty participants. the real work begins now.  ever",
+      "summary": "Termix 与 GoPlusSecurity 结束了 40 人参与的安全 Agent 试用，要求参与者提交 BSC 交易凭证及由安全 Agent 生成的智能合约审计报告。这标志着 AI Agent 在链上安全审计商业闭环的首次公开压力测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 和 Web3 安全的必看。这不再是概念演示，而是 Agent 接单干活、链上结算的真实安全审计闭环测试，能直接启发安全服务的自动化交付模式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Trathoa/status/2104797760939766017",
+      "reader_url": "https://x.com/Trathoa/status/2104797760939766017",
+      "image_url": "https://pbs.twimg.com/media/HTW-MILbgAACBf7.png",
+      "author": {
+        "username": "Trathoa",
+        "name": "Trathoa",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T04:57:46",
+      "first_seen_at": "2026-09-29T05:42:40.195103",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 11847,
@@ -183,31 +233,6 @@
       "published_at": "2026-09-28T03:38:59",
       "first_seen_at": "2026-09-29T04:35:54.390972",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 11868,
-      "title": "使用开源AI安全代理挖掘出24个Android漏洞",
-      "original_title": "How we found 24 Android vulnerabilities using our open source AI security agent https://t.co/CPIe0abeZO",
-      "summary": "文章分享了使用开源AI安全代理成功挖掘出24个Android漏洞的实战经验，展示了AI在移动端漏洞自动化发现领域的潜力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "面向移动安全和漏洞挖掘人员，这篇内容展示了开源AI Agent的真实挖洞成果。建议立刻查看该开源工具，评估其能否补充现有的漏洞挖掘流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/massimobonanni/status/2104672480220656108",
-      "reader_url": "https://x.com/massimobonanni/status/2104672480220656108",
-      "image_url": null,
-      "author": {
-        "username": "massimobonanni",
-        "name": "Massimo Bonanni",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-28T20:39:56",
-      "first_seen_at": "2026-09-28T20:51:00.401195",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
