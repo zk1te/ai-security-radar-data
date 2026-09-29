@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-09-29T18:35:02+08:00",
+  "updated_at": "2026-09-29T20:35:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 11921,
-      "title": "Cloudflare 开源安全审计 Agent Skill",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare 开源了一个用于多阶段安全审计的编码 Agent 技能，能够生成可独立验证且机器可读的审计结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 80.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做代码审计和自动化安全的团队看过来，这个开源 skill 跑多阶段审计且产出机器可读结果，适合直接接入你们现有的安全工具链或 Agent 流程中做交叉验证。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-29&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-29&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-29T00:14:05.840155",
-      "first_seen_at": "2026-09-29T00:15:25.171678",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 11498,
       "title": "GitHub安全实验室发布C/C++ LLM Fuzzing工作流",
@@ -68,31 +48,6 @@
       "published_at": "2026-09-29T09:34:24",
       "first_seen_at": "2026-09-29T09:46:33.570576",
       "sub_category_label": null
-    },
-    {
-      "id": 11396,
-      "title": "GitHub 开源 AI 辅助 C 代码 Fuzzing 工具，可自动分类 crash",
-      "original_title": "GitHub open-sourced an AI that hunts bugs in your C code. It writes the tests, runs the fuzzer and triages every crash. Fine print: run it on a throwaway machine only https://t.co/",
-      "summary": "GitHub 开源了一款 AI 工具，能自动为 C 代码编写测试、运行 Fuzzer 并对 crash 结果进行分类，官方建议在隔离环境中运行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 72.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "直接面向做漏洞挖掘和代码审计的安全团队。该工具实现了 AI 驱动的 Fuzzing 闭环，值得跟进测试其实际挖掘效果，注意务必在沙箱内运行。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/eserickxavier/status/2104355270574981307",
-      "reader_url": "https://x.com/eserickxavier/status/2104355270574981307",
-      "image_url": null,
-      "author": {
-        "username": "eserickxavier",
-        "name": "es.erickXavier",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-27T23:39:28",
-      "first_seen_at": "2026-09-29T00:35:24.960295",
-      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 12029,
@@ -220,6 +175,31 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
+      "id": 12164,
+      "title": "GitHub开源AI安全Agent发现24个Android漏洞",
+      "original_title": "🚨 An AI security agent just found 24 Android vulnerabilities. 🤖🔐  GitHub’s open-source AI security agent has reportedly uncovered 24 vulnerabilities in Android, showing how AI agen",
+      "summary": "GitHub开源的AI安全Agent在Android系统中发现了24个漏洞，展示了AI在大规模自动化漏洞挖掘方面的潜力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 66.01,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI自动化漏洞挖掘已产出实战成果。安全团队应关注此类Agent在真实漏洞发现中的效率与误报表现，评估将其纳入代码审计流程的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/xcademialtd/status/2104907834295304297",
+      "reader_url": "https://x.com/xcademialtd/status/2104907834295304297",
+      "image_url": null,
+      "author": {
+        "username": "xcademialtd",
+        "name": "Xcademia",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T12:15:09",
+      "first_seen_at": "2026-09-29T12:23:48.047122",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 11421,
       "title": "基于区块链与 Agent AI 的软件供应链安全框架",
       "original_title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains: This paper proposes a blockchain-backed agentic security framewor",
@@ -242,6 +222,31 @@
       },
       "published_at": "2026-09-28T01:59:55",
       "first_seen_at": "2026-09-29T02:35:45.813264",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 12031,
+      "title": "GitHub Security Lab 用开源 AI Agent 发现 24 个 Android 漏洞",
+      "original_title": "GitHub Security LabがOSSのAIエージェントでAndroidアプリの脆弱性を24件発見。クラス別の監査タスクフローに組み替える設計で、汎用エージェントも役割を絞れば実戦の成果が出る。  https://t.co/dsElceQELF",
+      "summary": "GitHub 安全实验室使用开源 AI Agent 在 Android 应用中发现 24 个漏洞。其按类重组审计任务流的设计表明，通用 Agent 在角色受限时也能取得实战成果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "实证了通用大模型 Agent 在限定角色与流程后能产出真实漏洞。安全团队可直接借鉴这种按类拆解审计任务的设计思路，优化现有代码审计 Agent 的实战效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/chataclaw/status/2104761476628218363",
+      "reader_url": "https://x.com/chataclaw/status/2104761476628218363",
+      "image_url": null,
+      "author": {
+        "username": "chataclaw",
+        "name": "茶谷 和弘 / K.Chatani",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T02:33:35",
+      "first_seen_at": "2026-09-29T05:44:30.899973",
       "sub_category_label": "安全Agent"
     }
   ]
