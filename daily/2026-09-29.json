@@ -1,0 +1,1184 @@
+{
+  "date": "2026-09-29",
+  "candidate_count": 18,
+  "selected_count": 3,
+  "cover_title": "GitHub安全实验室发布C/C++ LLM Fuzzing工作流",
+  "lead_takeaway": "今天的主线是AI安全正从概念炒作转向“务实排雷”与“防虚假繁荣”。大家不再盲目吹捧AI能力，而是开始正视它会作弊、无沙箱的真实底线，并在落地实践中死守人工复核这道关。",
+  "digest_points": [
+    "01 一线安全团队可直接参考该工作流，让AI负责探索，人工复核重现性与影响。这是目前最务实的AI赋能fuzzing落地姿势。",
+    "02 做安全评测和刷榜的团队必看。模型若在安全 Benchmark 上作弊，分数就毫无意义。这框架能帮你识别虚假高分，避免被刷榜数据误导。",
+    "03 做 Agent 安全和供应链审计的人必看：这是国内首个大厂完整编码 Agent Harness 开源案例，NOTICE.md 把「请求转发含认证、无沙箱、凭据同步无逐项确认」全写出来了，可直接当 Agent harness 安全审计清单模板用。"
+  ],
+  "judgement": [
+    "01 一线安全团队可直接参考该工作流，让AI负责探索，人工复核重现性与影响。这是目前最务实的AI赋能fuzzing落地姿势。",
+    "02 做安全评测和刷榜的团队必看。模型若在安全 Benchmark 上作弊，分数就毫无意义。这框架能帮你识别虚假高分，避免被刷榜数据误导。",
+    "03 做 Agent 安全和供应链审计的人必看：这是国内首个大厂完整编码 Agent Harness 开源案例，NOTICE.md 把「请求转发含认证、无沙箱、凭据同步无逐项确认」全写出来了，可直接当 Agent harness 安全审计清单模板用。"
+  ],
+  "top_items": [
+    {
+      "id": 11498,
+      "title": "GitHub安全实验室发布C/C++ LLM Fuzzing工作流",
+      "original_title": "GitHub Security Labが9/24、C/C++向けLLMファジングTaskflowを公開。対象選定〜クラッシュ分類・レポートまでをつなぐ。同社は人の確認が必要と明記。  案件ではAIに探索を任せ、再現性・影響範囲・修正の妥当性は人が判定する分担が現実的。 https://t.co/bm8J7IiFqG",
+      "summary": "GitHub安全实验室开源了一套针对C/C++的LLM Fuzzing Taskflow，涵盖目标选定到崩溃分类与报告全流程，并强调人工复核的必要性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "一线安全团队可直接参考该工作流，让AI负责探索，人工复核重现性与影响。这是目前最务实的AI赋能fuzzing落地姿势。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/tofu_sugar/status/2104421659507884235",
+      "reader_url": "https://x.com/tofu_sugar/status/2104421659507884235",
+      "image_url": null,
+      "author": {
+        "username": "tofu_sugar",
+        "name": "しゅがー@エンジニア",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-28T04:03:16",
+      "first_seen_at": "2026-09-29T04:35:54.390972",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 12128,
+      "title": "BenchShield提出Reward Hacking检测新框架",
+      "original_title": "从发现漏洞到判定作弊：BenchShield提出Reward Hacking检测新框架",
+      "summary": "BenchShield 提出了一种检测大模型在 Benchmark 评测中 Reward Hacking（作弊）行为的新框架，旨在保障评测榜单的真实性与公平性。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 73.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全评测和刷榜的团队必看。模型若在安全 Benchmark 上作弊，分数就毫无意义。这框架能帮你识别虚假高分，避免被刷榜数据误导。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-29-8?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-09-29-8?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-29T09:34:24",
+      "first_seen_at": "2026-09-29T09:46:33.570576",
+      "sub_category_label": null
+    },
+    {
+      "id": 11848,
+      "title": "智谱 ZCode 开源：Agent Harness 安全边界首次完整暴露",
+      "original_title": "ZCode 开源了来看看这是个什么东西",
+      "summary": "因代码库数据未授权上传争议，智谱将 ZCode 完整客户端（含 14 个子包、Agent 运行时、Hook 与插件体系）以 Apache-2.0 开源，NOTICE.md 坦诚披露网关转发含认证信息、无 OS 沙箱、凭据非钥匙串等安全边界。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 Agent 安全和供应链审计的人必看：这是国内首个大厂完整编码 Agent Harness 开源案例，NOTICE.md 把「请求转发含认证、无沙箱、凭据同步无逐项确认」全写出来了，可直接当 Agent harness 安全审计清单模板用。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7687855879102890036",
+      "reader_url": "https://juejin.cn/post/7687855879102890036",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T01:02:50",
+      "first_seen_at": "2026-09-28T19:21:53.250323",
+      "sub_category_label": null
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 12029,
+      "title": "GitHub 开源 AI 安全智能体并挖出 24 个 Android 漏洞",
+      "original_title": "GitHub 官方开源了一个 AI 安全智能体 实战一圈挖出来 24 个 Android 漏洞 报告都公开了，开发者直接就能拿来用 开源安全这块，GitHub 是真下血本啊 https://t.co/bt19tVTFz2",
+      "summary": "GitHub 官方开源了一个 AI 安全智能体，在实战中成功挖掘出 24 个 Android 漏洞并公开了报告，供开发者直接使用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大厂亲自下场开源 AI 安全 Agent 并产出大量真实漏洞，是极佳的实战参考。做漏洞挖掘和代码审计的团队必须关注，直接看大厂的 Agent 架构设计与实际挖洞效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ai_fengshou/status/2104772402622447990",
+      "reader_url": "https://x.com/ai_fengshou/status/2104772402622447990",
+      "image_url": null,
+      "author": {
+        "username": "ai_fengshou",
+        "name": "丰收",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T03:17:00",
+      "first_seen_at": "2026-09-29T05:44:28.781034",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11849,
+      "title": "OpenAI 安全负责人谈 AI 能力跃迁与安全团队应对策略",
+      "original_title": "Quoting @joedaroo",
+      "summary": "OpenAI Agent 安全负责人 @joedaroo 谈 AI 模型在「网络攻击」「蜂群行为」等能力上发生突然跃迁，给组织安全态势和应急响应带来的巨大挑战，呼吁各组织建立能适应 AI 能力突变的韧性体系。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 69.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队负责人必读：直接点出了 AI 能力非线性跃迁对现有安全流程的冲击。实操要点是立即检查你的事件响应预案是否覆盖 AI 能力突变场景，以及团队是否具备应对 AI 驱动攻击的快速响应能力。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
+      "reader_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-28T19:11:42",
+      "first_seen_at": "2026-09-28T19:32:56.304979",
+      "sub_category_label": null
+    },
+    {
+      "id": 12022,
+      "title": "Termix × GoPlus 结束安全 Agent 试用，智能合约审计闭环测试",
+      "original_title": "a campaign slot is easy to take. finishing the job is not.  @termix_ai × @GoPlusSecurity just closed the security agent trial at forty participants. the real work begins now.  ever",
+      "summary": "Termix 与 GoPlusSecurity 结束了 40 人参与的安全 Agent 试用，要求参与者提交 BSC 交易凭证及由安全 Agent 生成的智能合约审计报告。这标志着 AI Agent 在链上安全审计商业闭环的首次公开压力测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 和 Web3 安全的必看。这不再是概念演示，而是 Agent 接单干活、链上结算的真实安全审计闭环测试，能直接启发安全服务的自动化交付模式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Trathoa/status/2104797760939766017",
+      "reader_url": "https://x.com/Trathoa/status/2104797760939766017",
+      "image_url": "https://pbs.twimg.com/media/HTW-MILbgAACBf7.png",
+      "author": {
+        "username": "Trathoa",
+        "name": "Trathoa",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T04:57:46",
+      "first_seen_at": "2026-09-29T05:42:40.195103",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11847,
+      "title": "Agent开发五大工程难点与安全约束实践",
+      "original_title": "做了近两年的Agent开发，其实真正要学的就是这五件事",
+      "summary": "文章总结了Agent开发中的上下文管理、工具契约、执行边界、分层评估与成本控制五大难点，强调必须用工程手段（如状态机、预算限制和参数校验）约束模型行为，防止Agent失控。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 68.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "写给所有做Agent安全的同学：别指望Prompt保安全。这篇实操文给出了工具权限分级、执行预算和状态机验收的硬核代码模板，直接抄作业就能防住Agent越权和无限循环。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7688159506154209321",
+      "reader_url": "https://juejin.cn/post/7688159506154209321",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-22T07:57:00",
+      "first_seen_at": "2026-09-28T19:21:52.208726",
+      "sub_category_label": null
+    },
+    {
+      "id": 12055,
+      "title": "Google用Gemini将giflib重写为Rust并经2亿次Fuzzing验证",
+      "original_title": "Googleは、約3,000行のCライブラリgiflibを、Geminiを使ってRustへ書き換えた。目標は、既存のC呼び出し側を変えずに置き換えられる、ABI互換の実装を作ることだった。  ・最初の変換は一度で行えたが、Cとの境界にあるFFIのメモリ管理には、当初、安全でない実装が残った ・LLMで修正を重ねた後も、unsafe部分は専門家がすべてレビュー",
+      "summary": "Google 使用 Gemini 将 3000 行的 C 库 giflib 翻译为 Rust，通过 6 天 2 亿次差分 Fuzzing 验证一致性，期间发现旧版 C 代码的越界写入漏洞，且成功抵御了后续公开的 CVE。",
+      "primary_category": "AI for Sec",
+      "sub_category": "secure_code_translation",
+      "score_total": 68.53,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这不仅是 AI 翻译代码的成功案例，更是 AI 辅助大规模内存安全改造的范本。安全团队可借鉴其差分 Fuzzing 验证流程及人机协同审查 FFI 边界的经验。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/hiroki_daichi/status/2104809798889767348",
+      "reader_url": "https://x.com/hiroki_daichi/status/2104809798889767348",
+      "image_url": null,
+      "author": {
+        "username": "hiroki_daichi",
+        "name": "広木 大地/ エンジニアリング組織論への招待",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T05:45:36",
+      "first_seen_at": "2026-09-29T06:19:34.581249",
+      "sub_category_label": null
+    },
+    {
+      "id": 11937,
+      "title": "传 OpenAI 正研发 GPT-6 Cyber 自主安全 Agent",
+      "original_title": "The rumors with more than an 80% chance of being true start with \"o\", an always-on agent codenamed Aeon. It would run in a persistent cloud sandbox for hours or even days without b",
+      "summary": "传闻称 OpenAI 正在开发代号 Aeon 的常驻 Agent 以及基于 GPT-6 Cyber 的自主安全 Agent，该安全 Agent 能够自动执行漏洞发现、验证和修补工作流。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 67.71,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "需密切关注 OpenAI 在安全 Agent 方向的动作，若 GPT-6 Cyber 传闻属实，将直接改变现有漏洞修复流程。安全团队应提前评估此类全链路自动化工具的接入可能。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/l_mejiaC/status/2104728773631340583",
+      "reader_url": "https://x.com/l_mejiaC/status/2104728773631340583",
+      "image_url": null,
+      "author": {
+        "username": "l_mejiaC",
+        "name": "Luis Mejia",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T00:23:38",
+      "first_seen_at": "2026-09-29T00:45:35.041739",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11869,
+      "title": "开源自动化代码审计工具：一键扫描移动应用仓库",
+      "original_title": "Run it yourself: codespace in the repo (MIT), then ./scripts/audit/run_mobile.sh myorg/myrepo. An hour or two on a medium repo; results land in the audit_results table. Blog: https",
+      "summary": "该推文分享了一个 MIT 协议的开源仓库审计工具，可通过 Codespace 运行脚本对中型代码库进行自动化安全审计并输出结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_audit",
+      "score_total": 66.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "提供了可直接在 Codespace 中运行的开源审计脚本，适合安全团队快速集成进自动化代码审计流程，无需复杂配置即可上手测试其扫描效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+      "reader_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+      "image_url": null,
+      "author": {
+        "username": "jimmy_longbow_",
+        "name": "JimiLonbo",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-28T21:16:09",
+      "first_seen_at": "2026-09-28T21:22:04.509100",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 11921,
+        "title": "Cloudflare 开源安全审计 Agent Skill",
+        "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+        "summary": "Cloudflare 开源了一个用于多阶段安全审计的编码 Agent 技能，能够生成可独立验证且机器可读的审计结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 80.45,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "做代码审计和自动化安全的团队看过来，这个开源 skill 跑多阶段审计且产出机器可读结果，适合直接接入你们现有的安全工具链或 Agent 流程中做交叉验证。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-29&since=weekly",
+        "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-29&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-29T00:14:05.840155",
+        "first_seen_at": "2026-09-29T00:15:25.171678",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 11498,
+        "title": "GitHub安全实验室发布C/C++ LLM Fuzzing工作流",
+        "original_title": "GitHub Security Labが9/24、C/C++向けLLMファジングTaskflowを公開。対象選定〜クラッシュ分類・レポートまでをつなぐ。同社は人の確認が必要と明記。  案件ではAIに探索を任せ、再現性・影響範囲・修正の妥当性は人が判定する分担が現実的。 https://t.co/bm8J7IiFqG",
+        "summary": "GitHub安全实验室开源了一套针对C/C++的LLM Fuzzing Taskflow，涵盖目标选定到崩溃分类与报告全流程，并强调人工复核的必要性。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 75.95,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "一线安全团队可直接参考该工作流，让AI负责探索，人工复核重现性与影响。这是目前最务实的AI赋能fuzzing落地姿势。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/tofu_sugar/status/2104421659507884235",
+        "reader_url": "https://x.com/tofu_sugar/status/2104421659507884235",
+        "image_url": null,
+        "author": {
+          "username": "tofu_sugar",
+          "name": "しゅがー@エンジニア",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-28T04:03:16",
+        "first_seen_at": "2026-09-29T04:35:54.390972",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 12029,
+        "title": "GitHub 开源 AI 安全智能体并挖出 24 个 Android 漏洞",
+        "original_title": "GitHub 官方开源了一个 AI 安全智能体 实战一圈挖出来 24 个 Android 漏洞 报告都公开了，开发者直接就能拿来用 开源安全这块，GitHub 是真下血本啊 https://t.co/bt19tVTFz2",
+        "summary": "GitHub 官方开源了一个 AI 安全智能体，在实战中成功挖掘出 24 个 Android 漏洞并公开了报告，供开发者直接使用。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 71.65,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "大厂亲自下场开源 AI 安全 Agent 并产出大量真实漏洞，是极佳的实战参考。做漏洞挖掘和代码审计的团队必须关注，直接看大厂的 Agent 架构设计与实际挖洞效果。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/ai_fengshou/status/2104772402622447990",
+        "reader_url": "https://x.com/ai_fengshou/status/2104772402622447990",
+        "image_url": null,
+        "author": {
+          "username": "ai_fengshou",
+          "name": "丰收",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-29T03:17:00",
+        "first_seen_at": "2026-09-29T05:44:28.781034",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 12022,
+        "title": "Termix × GoPlus 结束安全 Agent 试用，智能合约审计闭环测试",
+        "original_title": "a campaign slot is easy to take. finishing the job is not.  @termix_ai × @GoPlusSecurity just closed the security agent trial at forty participants. the real work begins now.  ever",
+        "summary": "Termix 与 GoPlusSecurity 结束了 40 人参与的安全 Agent 试用，要求参与者提交 BSC 交易凭证及由安全 Agent 生成的智能合约审计报告。这标志着 AI Agent 在链上安全审计商业闭环的首次公开压力测试。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 69.1,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做安全 Agent 和 Web3 安全的必看。这不再是概念演示，而是 Agent 接单干活、链上结算的真实安全审计闭环测试，能直接启发安全服务的自动化交付模式。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Trathoa/status/2104797760939766017",
+        "reader_url": "https://x.com/Trathoa/status/2104797760939766017",
+        "image_url": "https://pbs.twimg.com/media/HTW-MILbgAACBf7.png",
+        "author": {
+          "username": "Trathoa",
+          "name": "Trathoa",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-29T04:57:46",
+        "first_seen_at": "2026-09-29T05:42:40.195103",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 12055,
+        "title": "Google用Gemini将giflib重写为Rust并经2亿次Fuzzing验证",
+        "original_title": "Googleは、約3,000行のCライブラリgiflibを、Geminiを使ってRustへ書き換えた。目標は、既存のC呼び出し側を変えずに置き換えられる、ABI互換の実装を作ることだった。  ・最初の変換は一度で行えたが、Cとの境界にあるFFIのメモリ管理には、当初、安全でない実装が残った ・LLMで修正を重ねた後も、unsafe部分は専門家がすべてレビュー",
+        "summary": "Google 使用 Gemini 将 3000 行的 C 库 giflib 翻译为 Rust，通过 6 天 2 亿次差分 Fuzzing 验证一致性，期间发现旧版 C 代码的越界写入漏洞，且成功抵御了后续公开的 CVE。",
+        "primary_category": "AI for Sec",
+        "sub_category": "secure_code_translation",
+        "score_total": 68.53,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "这不仅是 AI 翻译代码的成功案例，更是 AI 辅助大规模内存安全改造的范本。安全团队可借鉴其差分 Fuzzing 验证流程及人机协同审查 FFI 边界的经验。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/hiroki_daichi/status/2104809798889767348",
+        "reader_url": "https://x.com/hiroki_daichi/status/2104809798889767348",
+        "image_url": null,
+        "author": {
+          "username": "hiroki_daichi",
+          "name": "広木 大地/ エンジニアリング組織論への招待",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-29T05:45:36",
+        "first_seen_at": "2026-09-29T06:19:34.581249",
+        "sub_category_label": null
+      },
+      {
+        "id": 11937,
+        "title": "传 OpenAI 正研发 GPT-6 Cyber 自主安全 Agent",
+        "original_title": "The rumors with more than an 80% chance of being true start with \"o\", an always-on agent codenamed Aeon. It would run in a persistent cloud sandbox for hours or even days without b",
+        "summary": "传闻称 OpenAI 正在开发代号 Aeon 的常驻 Agent 以及基于 GPT-6 Cyber 的自主安全 Agent，该安全 Agent 能够自动执行漏洞发现、验证和修补工作流。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 67.71,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "需密切关注 OpenAI 在安全 Agent 方向的动作，若 GPT-6 Cyber 传闻属实，将直接改变现有漏洞修复流程。安全团队应提前评估此类全链路自动化工具的接入可能。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/l_mejiaC/status/2104728773631340583",
+        "reader_url": "https://x.com/l_mejiaC/status/2104728773631340583",
+        "image_url": null,
+        "author": {
+          "username": "l_mejiaC",
+          "name": "Luis Mejia",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-29T00:23:38",
+        "first_seen_at": "2026-09-29T00:45:35.041739",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 11869,
+        "title": "开源自动化代码审计工具：一键扫描移动应用仓库",
+        "original_title": "Run it yourself: codespace in the repo (MIT), then ./scripts/audit/run_mobile.sh myorg/myrepo. An hour or two on a medium repo; results land in the audit_results table. Blog: https",
+        "summary": "该推文分享了一个 MIT 协议的开源仓库审计工具，可通过 Codespace 运行脚本对中型代码库进行自动化安全审计并输出结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "code_audit",
+        "score_total": 66.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "提供了可直接在 Codespace 中运行的开源审计脚本，适合安全团队快速集成进自动化代码审计流程，无需复杂配置即可上手测试其扫描效果。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+        "reader_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+        "image_url": null,
+        "author": {
+          "username": "jimmy_longbow_",
+          "name": "JimiLonbo",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-28T21:16:09",
+        "first_seen_at": "2026-09-28T21:22:04.509100",
+        "sub_category_label": null
+      },
+      {
+        "id": 11421,
+        "title": "基于区块链与 Agent AI 的软件供应链安全框架",
+        "original_title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains: This paper proposes a blockchain-backed agentic security framewor",
+        "summary": "该论文提出一种结合区块链的 Agentic AI 安全框架，利用大模型驱动的安全代理执行 SBOM 分析和 CI 审计等任务，并将加密签名证明上链以实现可验证的部署决策。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 65.95,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "将 LLM 安全 Agent 引入软件供应链安全流程，并结合区块链解决 Agent 行为可信与审计问题。对设计安全自动化工具链和探索 Agent 信任边界的团队有架构参考价值。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/gastronomy/status/2104390619263074695",
+        "reader_url": "https://x.com/gastronomy/status/2104390619263074695",
+        "image_url": null,
+        "author": {
+          "username": "gastronomy",
+          "name": "Tanat Tonguthaisri",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-28T01:59:55",
+        "first_seen_at": "2026-09-29T02:35:45.813264",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 12128,
+        "title": "BenchShield提出Reward Hacking检测新框架",
+        "original_title": "从发现漏洞到判定作弊：BenchShield提出Reward Hacking检测新框架",
+        "summary": "BenchShield 提出了一种检测大模型在 Benchmark 评测中 Reward Hacking（作弊）行为的新框架，旨在保障评测榜单的真实性与公平性。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_benchmark",
+        "score_total": 73.25,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做安全评测和刷榜的团队必看。模型若在安全 Benchmark 上作弊，分数就毫无意义。这框架能帮你识别虚假高分，避免被刷榜数据误导。",
+        "source_id": "jiqizhixin-rss",
+        "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-29-8?source=rss",
+        "reader_url": "https://www.jiqizhixin.com/articles/2026-09-29-8?source=rss",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-29T09:34:24",
+        "first_seen_at": "2026-09-29T09:46:33.570576",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 11848,
+        "title": "智谱 ZCode 开源：Agent Harness 安全边界首次完整暴露",
+        "original_title": "ZCode 开源了来看看这是个什么东西",
+        "summary": "因代码库数据未授权上传争议，智谱将 ZCode 完整客户端（含 14 个子包、Agent 运行时、Hook 与插件体系）以 Apache-2.0 开源，NOTICE.md 坦诚披露网关转发含认证信息、无 OS 沙箱、凭据非钥匙串等安全边界。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 72.75,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做 Agent 安全和供应链审计的人必看：这是国内首个大厂完整编码 Agent Harness 开源案例，NOTICE.md 把「请求转发含认证、无沙箱、凭据同步无逐项确认」全写出来了，可直接当 Agent harness 安全审计清单模板用。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7687855879102890036",
+        "reader_url": "https://juejin.cn/post/7687855879102890036",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T01:02:50",
+        "first_seen_at": "2026-09-28T19:21:53.250323",
+        "sub_category_label": null
+      },
+      {
+        "id": 11847,
+        "title": "Agent开发五大工程难点与安全约束实践",
+        "original_title": "做了近两年的Agent开发，其实真正要学的就是这五件事",
+        "summary": "文章总结了Agent开发中的上下文管理、工具契约、执行边界、分层评估与成本控制五大难点，强调必须用工程手段（如状态机、预算限制和参数校验）约束模型行为，防止Agent失控。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 68.6,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "写给所有做Agent安全的同学：别指望Prompt保安全。这篇实操文给出了工具权限分级、执行预算和状态机验收的硬核代码模板，直接抄作业就能防住Agent越权和无限循环。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7688159506154209321",
+        "reader_url": "https://juejin.cn/post/7688159506154209321",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-22T07:57:00",
+        "first_seen_at": "2026-09-28T19:21:52.208726",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 11849,
+        "title": "OpenAI 安全负责人谈 AI 能力跃迁与安全团队应对策略",
+        "original_title": "Quoting @joedaroo",
+        "summary": "OpenAI Agent 安全负责人 @joedaroo 谈 AI 模型在「网络攻击」「蜂群行为」等能力上发生突然跃迁，给组织安全态势和应急响应带来的巨大挑战，呼吁各组织建立能适应 AI 能力突变的韧性体系。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security",
+        "score_total": 69.55,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全团队负责人必读：直接点出了 AI 能力非线性跃迁对现有安全流程的冲击。实操要点是立即检查你的事件响应预案是否覆盖 AI 能力突变场景，以及团队是否具备应对 AI 驱动攻击的快速响应能力。",
+        "source_id": "simon-willison",
+        "canonical_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
+        "reader_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-28T19:11:42",
+        "first_seen_at": "2026-09-28T19:32:56.304979",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 11939,
+        "title": "日立推出AI漏洞分析服务，NVIDIA发布Agent安全平台",
+        "original_title": "おはようございます。2026年9月29日のAI開発・自動化デイリーブリーフです。  今日はまずAnthropicです。  Claude Sonnet 5.5が正式にリリースされました。  先週発表されたOpus 5.5に続くClaude 5.5ファミリーのモデルです。  役割はかなり明確です。  Opus 5.5は、複雑で長時間の判断が必要な仕事。  Son",
+        "summary": "日立联合JPX上线基于AI Agent的漏洞与补丁分析服务，将人工信息收集时间缩短80%；同时NVIDIA发布Open Agent Safety Platform，通过外部Secure Runtime强制限制Agent权限。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent | agent_security",
+        "score_total": 63.15,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全团队应重点关注日立漏洞分析Agent的产业落地经验，以及NVIDIA OpenShell和GitHub安全Agent Memory的机制设计，这展示了AI做安全和保护AI的最新实战路径。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/kii__1981/status/2104727626409726398",
+        "reader_url": "https://x.com/kii__1981/status/2104727626409726398",
+        "image_url": null,
+        "author": {
+          "username": "kii__1981",
+          "name": "kii | AI × note",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-09-29T00:19:04",
+        "first_seen_at": "2026-09-29T00:45:36.983984",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | Sec for AI": [
+      {
+        "id": 11845,
+        "title": "WeKnora 0.8.0：知识库 Agent 执行能力与沙箱安全实践",
+        "original_title": "AI 知识库 WeKnora（腾讯微信团队出品）",
+        "summary": "腾讯微信团队开源的 WeKnora 0.8.0 引入技能沙箱运行时，让 Agent 在隔离环境中执行代码并交付产物；其移除宿主机进程执行并默认开启沙箱的设计，为 Agent 动手能力提供了安全边界参考。",
+        "primary_category": "AI Tech | Sec for AI",
+        "sub_category": "agent_architecture",
+        "score_total": 62.85,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "Agent 获得代码执行能力后，沙箱隔离是防止宿主机被接管的关键。本文展示了 WeKnora 从 host-process 迁移到默认 Docker 隔离的工程决策，做 Agent 和安全平台选型的人都该看看这个「先收紧边界再放能力」的思路。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7688530195554140194",
+        "reader_url": "https://juejin.cn/post/7688530195554140194",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-09-23T05:29:19",
+        "first_seen_at": "2026-09-28T19:21:17.599434",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 11921,
+            "title": "Cloudflare 开源安全审计 Agent Skill",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+            "summary": "Cloudflare 开源了一个用于多阶段安全审计的编码 Agent 技能，能够生成可独立验证且机器可读的审计结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 80.45,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做代码审计和自动化安全的团队看过来，这个开源 skill 跑多阶段审计且产出机器可读结果，适合直接接入你们现有的安全工具链或 Agent 流程中做交叉验证。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-29&since=weekly",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-09-29&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-29T00:14:05.840155",
+            "first_seen_at": "2026-09-29T00:15:25.171678",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 12029,
+            "title": "GitHub 开源 AI 安全智能体并挖出 24 个 Android 漏洞",
+            "original_title": "GitHub 官方开源了一个 AI 安全智能体 实战一圈挖出来 24 个 Android 漏洞 报告都公开了，开发者直接就能拿来用 开源安全这块，GitHub 是真下血本啊 https://t.co/bt19tVTFz2",
+            "summary": "GitHub 官方开源了一个 AI 安全智能体，在实战中成功挖掘出 24 个 Android 漏洞并公开了报告，供开发者直接使用。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 71.65,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "大厂亲自下场开源 AI 安全 Agent 并产出大量真实漏洞，是极佳的实战参考。做漏洞挖掘和代码审计的团队必须关注，直接看大厂的 Agent 架构设计与实际挖洞效果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/ai_fengshou/status/2104772402622447990",
+            "reader_url": "https://x.com/ai_fengshou/status/2104772402622447990",
+            "image_url": null,
+            "author": {
+              "username": "ai_fengshou",
+              "name": "丰收",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-29T03:17:00",
+            "first_seen_at": "2026-09-29T05:44:28.781034",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 12022,
+            "title": "Termix × GoPlus 结束安全 Agent 试用，智能合约审计闭环测试",
+            "original_title": "a campaign slot is easy to take. finishing the job is not.  @termix_ai × @GoPlusSecurity just closed the security agent trial at forty participants. the real work begins now.  ever",
+            "summary": "Termix 与 GoPlusSecurity 结束了 40 人参与的安全 Agent 试用，要求参与者提交 BSC 交易凭证及由安全 Agent 生成的智能合约审计报告。这标志着 AI Agent 在链上安全审计商业闭环的首次公开压力测试。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.1,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全 Agent 和 Web3 安全的必看。这不再是概念演示，而是 Agent 接单干活、链上结算的真实安全审计闭环测试，能直接启发安全服务的自动化交付模式。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Trathoa/status/2104797760939766017",
+            "reader_url": "https://x.com/Trathoa/status/2104797760939766017",
+            "image_url": "https://pbs.twimg.com/media/HTW-MILbgAACBf7.png",
+            "author": {
+              "username": "Trathoa",
+              "name": "Trathoa",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-29T04:57:46",
+            "first_seen_at": "2026-09-29T05:42:40.195103",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 11937,
+            "title": "传 OpenAI 正研发 GPT-6 Cyber 自主安全 Agent",
+            "original_title": "The rumors with more than an 80% chance of being true start with \"o\", an always-on agent codenamed Aeon. It would run in a persistent cloud sandbox for hours or even days without b",
+            "summary": "传闻称 OpenAI 正在开发代号 Aeon 的常驻 Agent 以及基于 GPT-6 Cyber 的自主安全 Agent，该安全 Agent 能够自动执行漏洞发现、验证和修补工作流。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 67.71,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "需密切关注 OpenAI 在安全 Agent 方向的动作，若 GPT-6 Cyber 传闻属实，将直接改变现有漏洞修复流程。安全团队应提前评估此类全链路自动化工具的接入可能。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/l_mejiaC/status/2104728773631340583",
+            "reader_url": "https://x.com/l_mejiaC/status/2104728773631340583",
+            "image_url": null,
+            "author": {
+              "username": "l_mejiaC",
+              "name": "Luis Mejia",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-29T00:23:38",
+            "first_seen_at": "2026-09-29T00:45:35.041739",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 11421,
+            "title": "基于区块链与 Agent AI 的软件供应链安全框架",
+            "original_title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains: This paper proposes a blockchain-backed agentic security framewor",
+            "summary": "该论文提出一种结合区块链的 Agentic AI 安全框架，利用大模型驱动的安全代理执行 SBOM 分析和 CI 审计等任务，并将加密签名证明上链以实现可验证的部署决策。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 65.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "将 LLM 安全 Agent 引入软件供应链安全流程，并结合区块链解决 Agent 行为可信与审计问题。对设计安全自动化工具链和探索 Agent 信任边界的团队有架构参考价值。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/gastronomy/status/2104390619263074695",
+            "reader_url": "https://x.com/gastronomy/status/2104390619263074695",
+            "image_url": null,
+            "author": {
+              "username": "gastronomy",
+              "name": "Tanat Tonguthaisri",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-28T01:59:55",
+            "first_seen_at": "2026-09-29T02:35:45.813264",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 11958,
+            "title": "Google PageBreak Agent 验证超 500 个 XSS 漏洞",
+            "original_title": "Google’s PageBreak AI security agent has validated more than 500 XSS vulnerabilities across the company’s own web apps by testing real exploits on live systems.  It found just two ",
+            "summary": "Google 的 PageBreak AI 安全 Agent 通过在真实系统上测试，验证了公司内部 500 多个 XSS 漏洞，有效过滤未验证的 AI 发现，实现自动化漏洞挖掘。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 65.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Google 内部用 AI 安全 Agent 自动验证 XSS 并落地，给安全团队展示了 AI for Sec 的真实生产级效果，想跟进大厂 AI 安全工作流落地情况的人必看。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/CoinliveHQ/status/2104740945526931459",
+            "reader_url": "https://x.com/CoinliveHQ/status/2104740945526931459",
+            "image_url": null,
+            "author": {
+              "username": "CoinliveHQ",
+              "name": "Coinlive",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-29T01:12:00",
+            "first_seen_at": "2026-09-29T01:19:09.326680",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 12209,
+            "title": "Replit安全Agent实战：通过外部人工审计验证",
+            "original_title": "We've had folks run Replit's security agent, then pay an external security service to verify.  The auditors came back with nothing.  Most underappreciated feature in Replit. Peace ",
+            "summary": "用户使用Replit内置安全Agent进行代码审计，再请外部安全服务验证未发现问题，证明AI安全Agent已具实战价值。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 64.96,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "提供了AI安全Agent与人类审计员对比的宝贵真实数据点。对于考虑引入AI辅助代码审计的团队，这展示了当前工具的实际效果，值得立即试用评估。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/MannyBernabe/status/2104938877286850715",
+            "reader_url": "https://x.com/MannyBernabe/status/2104938877286850715",
+            "image_url": null,
+            "author": {
+              "username": "MannyBernabe",
+              "name": "Manny Bernabe",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-29T14:18:30",
+            "first_seen_at": "2026-09-29T14:37:29.733971",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 11498,
+            "title": "GitHub安全实验室发布C/C++ LLM Fuzzing工作流",
+            "original_title": "GitHub Security Labが9/24、C/C++向けLLMファジングTaskflowを公開。対象選定〜クラッシュ分類・レポートまでをつなぐ。同社は人の確認が必要と明記。  案件ではAIに探索を任せ、再現性・影響範囲・修正の妥当性は人が判定する分担が現実的。 https://t.co/bm8J7IiFqG",
+            "summary": "GitHub安全实验室开源了一套针对C/C++的LLM Fuzzing Taskflow，涵盖目标选定到崩溃分类与报告全流程，并强调人工复核的必要性。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 75.95,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "一线安全团队可直接参考该工作流，让AI负责探索，人工复核重现性与影响。这是目前最务实的AI赋能fuzzing落地姿势。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/tofu_sugar/status/2104421659507884235",
+            "reader_url": "https://x.com/tofu_sugar/status/2104421659507884235",
+            "image_url": null,
+            "author": {
+              "username": "tofu_sugar",
+              "name": "しゅがー@エンジニア",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-28T04:03:16",
+            "first_seen_at": "2026-09-29T04:35:54.390972",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 11423,
+            "title": "为 Agent 设计的双重编译 Fuzzing Harness 技巧",
+            "original_title": "Each harness is built twice.  .afl for fuzzing. .cov for real line coverage after replaying the queue.  Same source, two jobs. Coverage feedback the agent can actually read.",
+            "summary": "介绍一种 Fuzzing 实践：将同一源码分别编译为 `.afl` 和 `.cov` 两个版本，使 AI Agent 能实际读取并利用真实行覆盖率反馈来优化测试过程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 63.4,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 Fuzzing Agent 的必看细节。解决 Agent 难以获取可读覆盖率反馈的痛点，通过双份编译分离 fuzzing 和覆盖率统计，方法轻量实用，可直接借鉴到安全测试流水线中。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/aditicodes_/status/2104398352117055765",
+            "reader_url": "https://x.com/aditicodes_/status/2104398352117055765",
+            "image_url": null,
+            "author": {
+              "username": "aditicodes_",
+              "name": "Aditi Mishra",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-28T02:30:39",
+            "first_seen_at": "2026-09-29T04:35:54.390972",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "secure_code_translation": {
+        "label": "secure_code_translation",
+        "items": [
+          {
+            "id": 12055,
+            "title": "Google用Gemini将giflib重写为Rust并经2亿次Fuzzing验证",
+            "original_title": "Googleは、約3,000行のCライブラリgiflibを、Geminiを使ってRustへ書き換えた。目標は、既存のC呼び出し側を変えずに置き換えられる、ABI互換の実装を作ることだった。  ・最初の変換は一度で行えたが、Cとの境界にあるFFIのメモリ管理には、当初、安全でない実装が残った ・LLMで修正を重ねた後も、unsafe部分は専門家がすべてレビュー",
+            "summary": "Google 使用 Gemini 将 3000 行的 C 库 giflib 翻译为 Rust，通过 6 天 2 亿次差分 Fuzzing 验证一致性，期间发现旧版 C 代码的越界写入漏洞，且成功抵御了后续公开的 CVE。",
+            "primary_category": "AI for Sec",
+            "sub_category": "secure_code_translation",
+            "score_total": 68.53,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这不仅是 AI 翻译代码的成功案例，更是 AI 辅助大规模内存安全改造的范本。安全团队可借鉴其差分 Fuzzing 验证流程及人机协同审查 FFI 边界的经验。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/hiroki_daichi/status/2104809798889767348",
+            "reader_url": "https://x.com/hiroki_daichi/status/2104809798889767348",
+            "image_url": null,
+            "author": {
+              "username": "hiroki_daichi",
+              "name": "広木 大地/ エンジニアリング組織論への招待",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-29T05:45:36",
+            "first_seen_at": "2026-09-29T06:19:34.581249",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "code_audit": {
+        "label": "code_audit",
+        "items": [
+          {
+            "id": 11869,
+            "title": "开源自动化代码审计工具：一键扫描移动应用仓库",
+            "original_title": "Run it yourself: codespace in the repo (MIT), then ./scripts/audit/run_mobile.sh myorg/myrepo. An hour or two on a medium repo; results land in the audit_results table. Blog: https",
+            "summary": "该推文分享了一个 MIT 协议的开源仓库审计工具，可通过 Codespace 运行脚本对中型代码库进行自动化安全审计并输出结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "code_audit",
+            "score_total": 66.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "提供了可直接在 Codespace 中运行的开源审计脚本，适合安全团队快速集成进自动化代码审计流程，无需复杂配置即可上手测试其扫描效果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+            "reader_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+            "image_url": null,
+            "author": {
+              "username": "jimmy_longbow_",
+              "name": "JimiLonbo",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-28T21:16:09",
+            "first_seen_at": "2026-09-28T21:22:04.509100",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 11857,
+            "title": "GitHub AI安全代理发现OsmAnd GPS泄露与维基百科账户接管漏洞",
+            "original_title": "GitHub's AI security agent found an OsmAnd flaw leaking live GPS &amp; a Wikipedia bug enabling account takeover. https://t.co/mJPBMJY0oM #ThreatIntel #GitHub #OsmAnd #Wikipedia ht",
+            "summary": "GitHub 的 AI 安全代理成功发现 OsmAnd 应用中的实时 GPS 位置泄露漏洞，以及维基百科的账户接管漏洞，展示了 AI 在实际漏洞挖掘中的落地效果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 64.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "真实漏洞结果再次验证 AI 安全代理的实战挖掘能力，安全团队应密切关注自动化 Agent 在开源项目审计中的落地进展与产出。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/threadlinqs/status/2104660936216699155",
+            "reader_url": "https://x.com/threadlinqs/status/2104660936216699155",
+            "image_url": "https://pbs.twimg.com/media/HTVB6pZXEAAA9q-.png",
+            "author": {
+              "username": "threadlinqs",
+              "name": "ThreadLinqs",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-28T19:54:04",
+            "first_seen_at": "2026-09-28T20:16:03.438929",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 12128,
+            "title": "BenchShield提出Reward Hacking检测新框架",
+            "original_title": "从发现漏洞到判定作弊：BenchShield提出Reward Hacking检测新框架",
+            "summary": "BenchShield 提出了一种检测大模型在 Benchmark 评测中 Reward Hacking（作弊）行为的新框架，旨在保障评测榜单的真实性与公平性。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_benchmark",
+            "score_total": 73.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全评测和刷榜的团队必看。模型若在安全 Benchmark 上作弊，分数就毫无意义。这框架能帮你识别虚假高分，避免被刷榜数据误导。",
+            "source_id": "jiqizhixin-rss",
+            "canonical_url": "https://www.jiqizhixin.com/articles/2026-09-29-8?source=rss",
+            "reader_url": "https://www.jiqizhixin.com/articles/2026-09-29-8?source=rss",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-29T09:34:24",
+            "first_seen_at": "2026-09-29T09:46:33.570576",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 11848,
+            "title": "智谱 ZCode 开源：Agent Harness 安全边界首次完整暴露",
+            "original_title": "ZCode 开源了来看看这是个什么东西",
+            "summary": "因代码库数据未授权上传争议，智谱将 ZCode 完整客户端（含 14 个子包、Agent 运行时、Hook 与插件体系）以 Apache-2.0 开源，NOTICE.md 坦诚披露网关转发含认证信息、无 OS 沙箱、凭据非钥匙串等安全边界。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 72.75,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 Agent 安全和供应链审计的人必看：这是国内首个大厂完整编码 Agent Harness 开源案例，NOTICE.md 把「请求转发含认证、无沙箱、凭据同步无逐项确认」全写出来了，可直接当 Agent harness 安全审计清单模板用。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7687855879102890036",
+            "reader_url": "https://juejin.cn/post/7687855879102890036",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T01:02:50",
+            "first_seen_at": "2026-09-28T19:21:53.250323",
+            "sub_category_label": null
+          },
+          {
+            "id": 11847,
+            "title": "Agent开发五大工程难点与安全约束实践",
+            "original_title": "做了近两年的Agent开发，其实真正要学的就是这五件事",
+            "summary": "文章总结了Agent开发中的上下文管理、工具契约、执行边界、分层评估与成本控制五大难点，强调必须用工程手段（如状态机、预算限制和参数校验）约束模型行为，防止Agent失控。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 68.6,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "写给所有做Agent安全的同学：别指望Prompt保安全。这篇实操文给出了工具权限分级、执行预算和状态机验收的硬核代码模板，直接抄作业就能防住Agent越权和无限循环。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7688159506154209321",
+            "reader_url": "https://juejin.cn/post/7688159506154209321",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-22T07:57:00",
+            "first_seen_at": "2026-09-28T19:21:52.208726",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 11849,
+            "title": "OpenAI 安全负责人谈 AI 能力跃迁与安全团队应对策略",
+            "original_title": "Quoting @joedaroo",
+            "summary": "OpenAI Agent 安全负责人 @joedaroo 谈 AI 模型在「网络攻击」「蜂群行为」等能力上发生突然跃迁，给组织安全态势和应急响应带来的巨大挑战，呼吁各组织建立能适应 AI 能力突变的韧性体系。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security",
+            "score_total": 69.55,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队负责人必读：直接点出了 AI 能力非线性跃迁对现有安全流程的冲击。实操要点是立即检查你的事件响应预案是否覆盖 AI 能力突变场景，以及团队是否具备应对 AI 驱动攻击的快速响应能力。",
+            "source_id": "simon-willison",
+            "canonical_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
+            "reader_url": "https://simonwillison.net/2026/Sep/28/joedaroo",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-28T19:11:42",
+            "first_seen_at": "2026-09-28T19:32:56.304979",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent | agent_security": {
+        "label": "security_agent | agent_security",
+        "items": [
+          {
+            "id": 11939,
+            "title": "日立推出AI漏洞分析服务，NVIDIA发布Agent安全平台",
+            "original_title": "おはようございます。2026年9月29日のAI開発・自動化デイリーブリーフです。  今日はまずAnthropicです。  Claude Sonnet 5.5が正式にリリースされました。  先週発表されたOpus 5.5に続くClaude 5.5ファミリーのモデルです。  役割はかなり明確です。  Opus 5.5は、複雑で長時間の判断が必要な仕事。  Son",
+            "summary": "日立联合JPX上线基于AI Agent的漏洞与补丁分析服务，将人工信息收集时间缩短80%；同时NVIDIA发布Open Agent Safety Platform，通过外部Secure Runtime强制限制Agent权限。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent | agent_security",
+            "score_total": 63.15,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队应重点关注日立漏洞分析Agent的产业落地经验，以及NVIDIA OpenShell和GitHub安全Agent Memory的机制设计，这展示了AI做安全和保护AI的最新实战路径。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/kii__1981/status/2104727626409726398",
+            "reader_url": "https://x.com/kii__1981/status/2104727626409726398",
+            "image_url": null,
+            "author": {
+              "username": "kii__1981",
+              "name": "kii | AI × note",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-09-29T00:19:04",
+            "first_seen_at": "2026-09-29T00:45:36.983984",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | Sec for AI": {
+      "agent_architecture": {
+        "label": "agent_architecture",
+        "items": [
+          {
+            "id": 11845,
+            "title": "WeKnora 0.8.0：知识库 Agent 执行能力与沙箱安全实践",
+            "original_title": "AI 知识库 WeKnora（腾讯微信团队出品）",
+            "summary": "腾讯微信团队开源的 WeKnora 0.8.0 引入技能沙箱运行时，让 Agent 在隔离环境中执行代码并交付产物；其移除宿主机进程执行并默认开启沙箱的设计，为 Agent 动手能力提供了安全边界参考。",
+            "primary_category": "AI Tech | Sec for AI",
+            "sub_category": "agent_architecture",
+            "score_total": 62.85,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Agent 获得代码执行能力后，沙箱隔离是防止宿主机被接管的关键。本文展示了 WeKnora 从 host-process 迁移到默认 Docker 隔离的工程决策，做 Agent 和安全平台选型的人都该看看这个「先收紧边界再放能力」的思路。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7688530195554140194",
+            "reader_url": "https://juejin.cn/post/7688530195554140194",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-23T05:29:19",
+            "first_seen_at": "2026-09-28T19:21:17.599434",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 18,
+    "highlight_count": 1,
+    "paper_count": 0,
+    "source_count": 5,
+    "top_score": 80,
+    "category_count": {
+      "AI for Sec": 12,
+      "AI Tech": 0,
+      "AI for Sec | AI Tech": 1,
+      "Sec for AI | AI Tech": 2,
+      "Sec for AI | AI for Sec": 1,
+      "AI for Sec | Sec for AI": 1,
+      "AI Tech | Sec for AI": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 7
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        },
+        "secure_code_translation": {
+          "label": "secure_code_translation",
+          "count": 1
+        },
+        "code_audit": {
+          "label": "code_audit",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 2
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent | agent_security": {
+          "label": "security_agent | agent_security",
+          "count": 1
+        }
+      },
+      "AI Tech | Sec for AI": {
+        "agent_architecture": {
+          "label": "agent_architecture",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 12,
+      "top_score": 80,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分的GitHub C/C++ LLM Fuzzing工作流是当前最务实的落地姿势，建议团队直接参考并固化“AI探索、人工复核”的流程，不要指望全自动找洞。同时，智谱ZCode开源暴露的无沙箱、凭据明文等Agent边界问题，建议直接拿来做自研Agent的安全审计清单。",
+  "method_note": "按北京时间 2026-09-29 的系统入库窗口筛选，从 18 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "github-ai-security",
+    "jiqizhixin-rss",
+    "juejin-trending-weekly",
+    "simon-willison",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# GitHub安全实验室发布C/C++ LLM Fuzzing工作流\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是AI安全正从概念炒作转向“务实排雷”与“防虚假繁荣”。大家不再盲目吹捧AI能力，而是开始正视它会作弊、无沙箱的真实底线，并在落地实践中死守人工复核这道关。\n- 01 一线安全团队可直接参考该工作流，让AI负责探索，人工复核重现性与影响。这是目前最务实的AI赋能fuzzing落地姿势。\n- 02 做安全评测和刷榜的团队必看。模型若在安全 Benchmark 上作弊，分数就毫无意义。这框架能帮你识别虚假高分，避免被刷榜数据误导。\n- 03 做 Agent 安全和供应链审计的人必看：这是国内首个大厂完整编码 Agent Harness 开源案例，NOTICE.md 把「请求转发含认证、无沙箱、凭据同步无逐项确认」全写出来了，可直接当 Agent harness 安全审计清单模板用。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **GitHub安全实验室发布C/C++ LLM Fuzzing工作流**：一线安全团队可直接参考该工作流，让AI负责探索，人工复核重现性与影响。这是目前最务实的AI赋能fuzzing落地姿势。 来源：x-manual-ai-security\n- **BenchShield提出Reward Hacking检测新框架**：做安全评测和刷榜的团队必看。模型若在安全 Benchmark 上作弊，分数就毫无意义。这框架能帮你识别虚假高分，避免被刷榜数据误导。 来源：jiqizhixin-rss\n- **智谱 ZCode 开源：Agent Harness 安全边界首次完整暴露**：做 Agent 安全和供应链审计的人必看：这是国内首个大厂完整编码 Agent Harness 开源案例，NOTICE.md 把「请求转发含认证、无沙箱、凭据同步无逐项确认」全写出来了，可直接当 Agent harness 安全审计清单模板用。 来源：juejin-trending-weekly\n\n## 也值得关注\n- GitHub 开源 AI 安全智能体并挖出 24 个 Android 漏洞（71.65）\n- OpenAI 安全负责人谈 AI 能力跃迁与安全团队应对策略（69.55）\n- Termix × GoPlus 结束安全 Agent 试用，智能合约审计闭环测试（69.1）\n- Agent开发五大工程难点与安全约束实践（68.6）\n- Google用Gemini将giflib重写为Rust并经2亿次Fuzzing验证（68.53）\n- 传 OpenAI 正研发 GPT-6 Cyber 自主安全 Agent（67.71）\n\n## AI for Sec\n\n### 安全Agent\n- Cloudflare 开源安全审计 Agent Skill（80.45）\n- GitHub 开源 AI 安全智能体并挖出 24 个 Android 漏洞（71.65）\n- Termix × GoPlus 结束安全 Agent 试用，智能合约审计闭环测试（69.1）\n- 传 OpenAI 正研发 GPT-6 Cyber 自主安全 Agent（67.71）\n- 基于区块链与 Agent AI 的软件供应链安全框架（65.95）\n\n### AI Fuzzing\n- GitHub安全实验室发布C/C++ LLM Fuzzing工作流（75.95）\n- 为 Agent 设计的双重编译 Fuzzing Harness 技巧（63.4）\n\n### secure_code_translation\n- Google用Gemini将giflib重写为Rust并经2亿次Fuzzing验证（68.53）\n\n### code_audit\n- 开源自动化代码审计工具：一键扫描移动应用仓库（66.45）\n\n### 漏洞挖掘\n- GitHub AI安全代理发现OsmAnd GPS泄露与维基百科账户接管漏洞（64.25）\n\n## AI Tech 短讯\n\n## 今日论文\n\n## 今日观察\n最高分的GitHub C/C++ LLM Fuzzing工作流是当前最务实的落地姿势，建议团队直接参考并固化“AI探索、人工复核”的流程，不要指望全自动找洞。同时，智谱ZCode开源暴露的无沙箱、凭据明文等Agent边界问题，建议直接拿来做自研Agent的安全审计清单。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-09-29 的系统入库窗口筛选，从 18 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-09-30T00:02:18+08:00"
+}
