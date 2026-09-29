@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T14:04:15+08:00",
+  "updated_at": "2026-09-29T14:34:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -185,6 +185,31 @@
       "sub_category_label": null
     },
     {
+      "id": 12055,
+      "title": "Google用Gemini将giflib重写为Rust并经2亿次Fuzzing验证",
+      "original_title": "Googleは、約3,000行のCライブラリgiflibを、Geminiを使ってRustへ書き換えた。目標は、既存のC呼び出し側を変えずに置き換えられる、ABI互換の実装を作ることだった。  ・最初の変換は一度で行えたが、Cとの境界にあるFFIのメモリ管理には、当初、安全でない実装が残った ・LLMで修正を重ねた後も、unsafe部分は専門家がすべてレビュー",
+      "summary": "Google 使用 Gemini 将 3000 行的 C 库 giflib 翻译为 Rust，通过 6 天 2 亿次差分 Fuzzing 验证一致性，期间发现旧版 C 代码的越界写入漏洞，且成功抵御了后续公开的 CVE。",
+      "primary_category": "AI for Sec",
+      "sub_category": "secure_code_translation",
+      "score_total": 68.53,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这不仅是 AI 翻译代码的成功案例，更是 AI 辅助大规模内存安全改造的范本。安全团队可借鉴其差分 Fuzzing 验证流程及人机协同审查 FFI 边界的经验。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/hiroki_daichi/status/2104809798889767348",
+      "reader_url": "https://x.com/hiroki_daichi/status/2104809798889767348",
+      "image_url": null,
+      "author": {
+        "username": "hiroki_daichi",
+        "name": "広木 大地/ エンジニアリング組織論への招待",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T05:45:36",
+      "first_seen_at": "2026-09-29T06:19:34.581249",
+      "sub_category_label": null
+    },
+    {
       "id": 11937,
       "title": "传 OpenAI 正研发 GPT-6 Cyber 自主安全 Agent",
       "original_title": "The rumors with more than an 80% chance of being true start with \"o\", an always-on agent codenamed Aeon. It would run in a persistent cloud sandbox for hours or even days without b",
@@ -208,31 +233,6 @@
       "published_at": "2026-09-29T00:23:38",
       "first_seen_at": "2026-09-29T00:45:35.041739",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 11436,
-      "title": "Google 使用 AI 和差分模糊测试重写关键 C 依赖为 Rust",
-      "original_title": "Google Rewrites Critical C Dependencies to Rust Using AI and Differential Fuzzing https://t.co/TTM8PIM9dI",
-      "summary": "Google 结合 AI 技术与差分模糊测试，将关键的 C 语言依赖项重写为 Rust 代码，以提升系统级软件的内存安全性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 67.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "工业界巨头将 AI 辅助代码重写和差分模糊测试落地的真实案例。安全工具开发者应关注这种结合 LLM 与 Fuzzing 验证代码等价性的工程范式，探索其在代码审计和漏洞修复中的应用。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jreuben1/status/2104415546837962975",
-      "reader_url": "https://x.com/jreuben1/status/2104415546837962975",
-      "image_url": null,
-      "author": {
-        "username": "jreuben1",
-        "name": "(((JReuben1)))",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-28T03:38:59",
-      "first_seen_at": "2026-09-29T04:35:54.390972",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
