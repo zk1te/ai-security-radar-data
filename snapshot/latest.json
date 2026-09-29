@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T20:35:42+08:00",
+  "updated_at": "2026-09-29T21:06:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -125,31 +125,6 @@
       "sub_category_label": null
     },
     {
-      "id": 11937,
-      "title": "传 OpenAI 正研发 GPT-6 Cyber 自主安全 Agent",
-      "original_title": "The rumors with more than an 80% chance of being true start with \"o\", an always-on agent codenamed Aeon. It would run in a persistent cloud sandbox for hours or even days without b",
-      "summary": "传闻称 OpenAI 正在开发代号 Aeon 的常驻 Agent 以及基于 GPT-6 Cyber 的自主安全 Agent，该安全 Agent 能够自动执行漏洞发现、验证和修补工作流。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.71,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "需密切关注 OpenAI 在安全 Agent 方向的动作，若 GPT-6 Cyber 传闻属实，将直接改变现有漏洞修复流程。安全团队应提前评估此类全链路自动化工具的接入可能。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/l_mejiaC/status/2104728773631340583",
-      "reader_url": "https://x.com/l_mejiaC/status/2104728773631340583",
-      "image_url": null,
-      "author": {
-        "username": "l_mejiaC",
-        "name": "Luis Mejia",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-09-29T00:23:38",
-      "first_seen_at": "2026-09-29T00:45:35.041739",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 11436,
       "title": "Google 使用 AI 和差分模糊测试重写关键 C 依赖为 Rust",
       "original_title": "Google Rewrites Critical C Dependencies to Rust Using AI and Differential Fuzzing https://t.co/TTM8PIM9dI",
@@ -247,6 +222,31 @@
       },
       "published_at": "2026-09-29T02:33:35",
       "first_seen_at": "2026-09-29T05:44:30.899973",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 11958,
+      "title": "Google PageBreak Agent 验证超 500 个 XSS 漏洞",
+      "original_title": "Google’s PageBreak AI security agent has validated more than 500 XSS vulnerabilities across the company’s own web apps by testing real exploits on live systems.  It found just two ",
+      "summary": "Google 的 PageBreak AI 安全 Agent 通过在真实系统上测试，验证了公司内部 500 多个 XSS 漏洞，有效过滤未验证的 AI 发现，实现自动化漏洞挖掘。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Google 内部用 AI 安全 Agent 自动验证 XSS 并落地，给安全团队展示了 AI for Sec 的真实生产级效果，想跟进大厂 AI 安全工作流落地情况的人必看。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CoinliveHQ/status/2104740945526931459",
+      "reader_url": "https://x.com/CoinliveHQ/status/2104740945526931459",
+      "image_url": null,
+      "author": {
+        "username": "CoinliveHQ",
+        "name": "Coinlive",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-29T01:12:00",
+      "first_seen_at": "2026-09-29T01:19:09.326680",
       "sub_category_label": "安全Agent"
     }
   ]
