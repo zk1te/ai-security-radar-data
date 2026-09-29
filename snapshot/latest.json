@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T17:04:49+08:00",
+  "updated_at": "2026-09-29T17:34:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -200,29 +200,29 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 11869,
-      "title": "开源自动化代码审计工具：一键扫描移动应用仓库",
-      "original_title": "Run it yourself: codespace in the repo (MIT), then ./scripts/audit/run_mobile.sh myorg/myrepo. An hour or two on a medium repo; results land in the audit_results table. Blog: https",
-      "summary": "该推文分享了一个 MIT 协议的开源仓库审计工具，可通过 Codespace 运行脚本对中型代码库进行自动化安全审计并输出结果。",
+      "id": 11421,
+      "title": "基于区块链与 Agent AI 的软件供应链安全框架",
+      "original_title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains: This paper proposes a blockchain-backed agentic security framewor",
+      "summary": "该论文提出一种结合区块链的 Agentic AI 安全框架，利用大模型驱动的安全代理执行 SBOM 分析和 CI 审计等任务，并将加密签名证明上链以实现可验证的部署决策。",
       "primary_category": "AI for Sec",
-      "sub_category": "code_audit",
-      "score_total": 66.45,
+      "sub_category": "security_agent",
+      "score_total": 65.95,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "提供了可直接在 Codespace 中运行的开源审计脚本，适合安全团队快速集成进自动化代码审计流程，无需复杂配置即可上手测试其扫描效果。",
+      "recommendation_reason": "将 LLM 安全 Agent 引入软件供应链安全流程，并结合区块链解决 Agent 行为可信与审计问题。对设计安全自动化工具链和探索 Agent 信任边界的团队有架构参考价值。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
-      "reader_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+      "canonical_url": "https://x.com/gastronomy/status/2104390619263074695",
+      "reader_url": "https://x.com/gastronomy/status/2104390619263074695",
       "image_url": null,
       "author": {
-        "username": "jimmy_longbow_",
-        "name": "JimiLonbo",
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-09-28T21:16:09",
-      "first_seen_at": "2026-09-28T21:22:04.509100",
-      "sub_category_label": null
+      "published_at": "2026-09-28T01:59:55",
+      "first_seen_at": "2026-09-29T02:35:45.813264",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
