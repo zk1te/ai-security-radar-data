@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T15:34:39+08:00",
+  "updated_at": "2026-09-29T17:04:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -200,29 +200,29 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 11868,
-      "title": "使用开源AI安全代理挖掘出24个Android漏洞",
-      "original_title": "How we found 24 Android vulnerabilities using our open source AI security agent https://t.co/CPIe0abeZO",
-      "summary": "文章分享了使用开源AI安全代理成功挖掘出24个Android漏洞的实战经验，展示了AI在移动端漏洞自动化发现领域的潜力。",
+      "id": 11869,
+      "title": "开源自动化代码审计工具：一键扫描移动应用仓库",
+      "original_title": "Run it yourself: codespace in the repo (MIT), then ./scripts/audit/run_mobile.sh myorg/myrepo. An hour or two on a medium repo; results land in the audit_results table. Blog: https",
+      "summary": "该推文分享了一个 MIT 协议的开源仓库审计工具，可通过 Codespace 运行脚本对中型代码库进行自动化安全审计并输出结果。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.75,
+      "sub_category": "code_audit",
+      "score_total": 66.45,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "面向移动安全和漏洞挖掘人员，这篇内容展示了开源AI Agent的真实挖洞成果。建议立刻查看该开源工具，评估其能否补充现有的漏洞挖掘流水线。",
+      "recommendation_reason": "提供了可直接在 Codespace 中运行的开源审计脚本，适合安全团队快速集成进自动化代码审计流程，无需复杂配置即可上手测试其扫描效果。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/massimobonanni/status/2104672480220656108",
-      "reader_url": "https://x.com/massimobonanni/status/2104672480220656108",
+      "canonical_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
+      "reader_url": "https://x.com/jimmy_longbow_/status/2104681591528419726",
       "image_url": null,
       "author": {
-        "username": "massimobonanni",
-        "name": "Massimo Bonanni",
+        "username": "jimmy_longbow_",
+        "name": "JimiLonbo",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-09-28T20:39:56",
-      "first_seen_at": "2026-09-28T20:51:00.401195",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-09-28T21:16:09",
+      "first_seen_at": "2026-09-28T21:22:04.509100",
+      "sub_category_label": null
     }
   ]
 }
