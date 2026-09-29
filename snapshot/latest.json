@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T10:29:14+08:00",
+  "updated_at": "2026-09-29T11:30:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -68,31 +68,6 @@
       "published_at": "2026-09-27T23:39:28",
       "first_seen_at": "2026-09-29T00:35:24.960295",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 11769,
-      "title": "业界使用LLM挖掘NetScaler漏洞动态",
-      "original_title": "The truly impressive thing about the NetScaler RCE is just how many people and firms have been running their LLM bug hunting harnesses against that platform for months now. Citrix ",
-      "summary": "推文指出大量企业和个人已使用LLM漏洞挖掘工具对NetScaler平台进行数月测试，并提及Citrix参与Project Glasswing项目。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 71.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "侧面印证LLM辅助漏洞挖掘已大规模进入企业实战阶段。安全团队应关注同行在内部安全流程中引入AI harness的实际进度，以便评估自身差距。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2104552552746582095",
-      "reader_url": "https://x.com/HackingLZ/status/2104552552746582095",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-09-28T12:43:23",
-      "first_seen_at": "2026-09-28T15:20:41.463119",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 11849,
@@ -208,6 +183,31 @@
       "published_at": "2026-09-28T21:16:09",
       "first_seen_at": "2026-09-28T21:22:04.509100",
       "sub_category_label": null
+    },
+    {
+      "id": 11421,
+      "title": "基于区块链与 Agent AI 的软件供应链安全框架",
+      "original_title": "Resource-Optimized and Energy-Aware Agentic AI Framework Anchored on Blockchain for Secure Software Supply Chains: This paper proposes a blockchain-backed agentic security framewor",
+      "summary": "该论文提出一种结合区块链的 Agentic AI 安全框架，利用大模型驱动的安全代理执行 SBOM 分析和 CI 审计等任务，并将加密签名证明上链以实现可验证的部署决策。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "将 LLM 安全 Agent 引入软件供应链安全流程，并结合区块链解决 Agent 行为可信与审计问题。对设计安全自动化工具链和探索 Agent 信任边界的团队有架构参考价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2104390619263074695",
+      "reader_url": "https://x.com/gastronomy/status/2104390619263074695",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-28T01:59:55",
+      "first_seen_at": "2026-09-29T02:35:45.813264",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
