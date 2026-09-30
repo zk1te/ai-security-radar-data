@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T08:52:30+08:00",
+  "updated_at": "2026-09-30T09:22:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -62,6 +62,30 @@
       "author": null,
       "published_at": "2026-09-29T22:20:28",
       "first_seen_at": "2026-09-29T23:10:28.878591",
+      "sub_category_label": null
+    },
+    {
+      "id": 12428,
+      "title": "HN 热议：GLM-5.3与高级网络能力的扩散",
+      "original_title": "HN Hot Discussion: GLM-5.3 and the spread of advanced cyber capabilities",
+      "summary": "Hacker News 热议 Anthropic 关于 GLM-5.3 及高级网络能力扩散的研究，探讨 AI 辅助网络能力的演进及其潜在安全影响。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 83.13,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "直接关乎 AI 辅助攻防能力的边界扩展。安全团队需密切关注高级模型在网络攻防上的能力跃迁，提前评估现有防御体系应对策略。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=49897075&hn_hot_date=2026-09-30",
+      "reader_url": "https://news.ycombinator.com/item?id=49897075&hn_hot_date=2026-09-30",
+      "image_url": null,
+      "author": {
+        "username": "Philpax",
+        "name": "Philpax",
+        "avatar_url": null
+      },
+      "published_at": "2026-09-29T17:31:26",
+      "first_seen_at": "2026-09-30T01:03:27.610264",
       "sub_category_label": null
     },
     {
@@ -173,26 +197,6 @@
       "published_at": "2026-09-29T16:52:25",
       "first_seen_at": "2026-09-29T17:26:29.610206",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 11610,
-      "title": "利用AV与ML检测器边界错位的数据投毒攻击",
-      "original_title": "Weaponizing Ground Truth: Data Poisoning Attacks by Exploiting Boundary Misalignment Between Antivirus Software and Learning-Based Detectors",
-      "summary": "提出Bi-Iocane黑盒投毒框架，通过微小修改字节特征欺骗防病毒引擎（如VirusTotal）生成错误标签，从而污染下游ML恶意软件检测器的训练数据，导致高达92%的目标被误分类。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "ai_supply_chain",
-      "score_total": 77.05,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "揭示了基于AV标签训练AI检测器的巨大供应链风险。使用VirusTotal等聚合标签训恶意软件检测器的团队必看，你的「ground truth」可能已被低成本黑盒篡改。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.31003",
-      "reader_url": "https://arxiv.org/pdf/2609.31003",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-28T04:00:00",
-      "first_seen_at": "2026-09-29T18:26:26.520232",
-      "sub_category_label": null
     }
   ]
 }
