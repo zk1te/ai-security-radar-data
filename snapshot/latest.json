@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T16:53:18+08:00",
+  "updated_at": "2026-09-30T17:23:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -114,6 +114,31 @@
       "sub_category_label": null
     },
     {
+      "id": 12805,
+      "title": "OpenAI 推出常态化安全服务 Codex Security Cloud",
+      "original_title": "OpenAI Rolled out Codex Security Cloud, an Always-on Application Security Service  Details: https://t.co/jSZyIlgeBW  OpenAI has upgraded Codex with Codex Security Cloud, an always-",
+      "summary": "OpenAI 为 Codex 推出 Codex Security Cloud，这是一个基于云的常态化应用安全服务，能持续扫描 GitHub 仓库、监控提交并准备修复方案，将 Agent 驱动的漏洞分析引入工作流。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.44,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和研发主管应关注 OpenAI 将 Agent 驱动的漏洞分析整合进 Codex 工作流的落地进展。它能持续扫描提交并准备修复，可作为评估 AI 自动化代码审计落地效果的最新风向标。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2105168740321280240",
+      "reader_url": "https://x.com/The_Cyber_News/status/2105168740321280240",
+      "image_url": "https://pbs.twimg.com/media/HTcPkaca4AAOAcn.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-09-30T05:31:54",
+      "first_seen_at": "2026-09-30T09:18:26.186792",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 11965,
       "title": "PixSim：受限人力下的即时支付欺诈拦截模拟器",
       "original_title": "PixSim: a calibrated open-source simulator of instant-payment fraud, recovery and interdiction under analyst capacity constraints",
@@ -132,26 +157,6 @@
       "published_at": "2026-09-29T04:00:00",
       "first_seen_at": "2026-09-30T00:26:46.804096",
       "sub_category_label": "欺诈检测"
-    },
-    {
-      "id": 12498,
-      "title": "RevPerf：利用应用评论自动复现移动应用性能问题",
-      "original_title": "Bridging User Feedback and System Diagnosis: Reproducing Mobile Performance Issues from Reviews",
-      "summary": "本文提出 RevPerf 框架，通过语义检索和 prompt 工程整合用户评论信息，驱动 Agent 自动生成并执行命令复现移动应用性能问题，复现成功率达 72.73%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "issue_reproduction_agent",
-      "score_total": 71.65,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "论文展示了从非结构化文本到自动执行复现的 Agent 闭环，这套范式可直接迁移到安全漏洞自动复现和 PoC 生成，做自动化测试的同学值得参考其执行监控机制。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2508.11147",
-      "reader_url": "https://arxiv.org/pdf/2508.11147",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-30T04:00:00",
-      "first_seen_at": "2026-09-30T04:49:34.350457",
-      "sub_category_label": null
     }
   ]
 }
