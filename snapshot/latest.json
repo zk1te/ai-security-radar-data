@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T14:54:47+08:00",
+  "updated_at": "2026-09-30T16:23:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -89,30 +89,6 @@
       "sub_category_label": null
     },
     {
-      "id": 12353,
-      "title": "HN 热议：高级 AI 网络能力的扩散与影响",
-      "original_title": "HN Hot Discussion: GLM-5.3 and the spread of advanced cyber capabilities",
-      "summary": "Hacker News 讨论了 Anthropic 关于高级 AI 网络能力扩散的研究，重点关注 AI 在网络攻防及漏洞挖掘方面的能力评估与发展。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 73.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这篇讨论涉及 Anthropic 对 AI 网络攻防能力的评估，安全团队需重点关注 AI 辅助漏洞挖掘的进展，以便及时调整防御策略和红蓝对抗工具链。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=49897075&hn_hot_date=2026-09-29",
-      "reader_url": "https://news.ycombinator.com/item?id=49897075&hn_hot_date=2026-09-29",
-      "image_url": null,
-      "author": {
-        "username": "Philpax",
-        "name": "Philpax",
-        "avatar_url": null
-      },
-      "published_at": "2026-09-29T17:31:26",
-      "first_seen_at": "2026-09-29T20:18:52.621163",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 11965,
       "title": "PixSim：受限人力下的即时支付欺诈拦截模拟器",
       "original_title": "PixSim: a calibrated open-source simulator of instant-payment fraud, recovery and interdiction under analyst capacity constraints",
@@ -151,6 +127,31 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-09-30T04:49:34.350457",
       "sub_category_label": null
+    },
+    {
+      "id": 12395,
+      "title": "OpenAI 升级 Codex Security Cloud，默认提供网络能力模型",
+      "original_title": "RT @OpenAI: Codex Security Cloud is getting a major upgrade, with access to cyber-capable models through Daybreak Blue included by default.…",
+      "summary": "OpenAI 宣布其 Codex Security Cloud 迎来重大升级，将默认包含通过 Daybreak Blue 访问具备网络能力模型的权限。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.23,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "OpenAI 开始将具备网络能力的模型作为安全云服务默认提供。AI for Sec 从业者应密切关注其后续细节，评估这些模型在漏洞挖掘和威胁分析等实际安全任务中的表现。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2105060260851695829",
+      "reader_url": "https://x.com/HackingLZ/status/2105060260851695829",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-09-29T22:20:50",
+      "first_seen_at": "2026-09-29T23:31:30.593357",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
