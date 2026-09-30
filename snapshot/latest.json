@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-09-30T13:53:10+08:00",
+  "updated_at": "2026-09-30T14:23:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 11620,
@@ -106,31 +106,6 @@
       "author": null,
       "published_at": "2026-09-28T04:00:00",
       "first_seen_at": "2026-09-29T18:26:26.520232",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 12274,
-      "title": "Codex Security Cloud 升级，内置 cyber 模型自动扫描 GitHub 仓库",
-      "original_title": "Codex Security Cloud is getting a major upgrade, with access to cyber-capable models through Daybreak Blue included by default.  It scans entire GitHub repos, continuously reviews ",
-      "summary": "Codex Security Cloud 升级后内置 Daybreak Blue cyber 模型，可扫描整个 GitHub 仓库、持续审查新提交并自动去重和准备修复方案。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 81.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可关注这类将「cyber-capable 模型」直接嵌入代码审查流程的自动化 Agent，它代表了 AI 安全工具从单点检测走向 CI/CD 集成的趋势，值得评估其对现有 SAST 工作流的替代潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2104987422308335828",
-      "reader_url": "https://x.com/OpenAI/status/2104987422308335828",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2104987159128403968/img/RriM_KZQz2BN_w4s.jpg",
-      "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
-        "avatar_url": null,
-        "followers_count": 5355398
-      },
-      "published_at": "2026-09-29T17:31:24",
-      "first_seen_at": "2026-09-29T18:00:22.877918",
       "sub_category_label": "安全Agent"
     },
     {
