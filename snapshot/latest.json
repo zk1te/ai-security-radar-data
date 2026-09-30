@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T16:23:06+08:00",
+  "updated_at": "2026-09-30T16:53:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -47,6 +47,31 @@
       "published_at": "2026-09-29T17:31:26",
       "first_seen_at": "2026-09-30T01:03:27.610264",
       "sub_category_label": null
+    },
+    {
+      "id": 12800,
+      "title": "开源多模型安全研究框架发布：覆盖漏洞挖掘与模糊测试",
+      "original_title": "0: an open-source multi-model security research harness.  Recon, source/binary analysis, vuln discovery, exploit chaining, fuzzing, kernel + AI/MCP targets.  Findings require indep",
+      "summary": "该开源工具集成了侦察、源码/二进制分析、漏洞发现、利用链和模糊测试功能，并支持内核和 AI/MCP 目标，需独立复现漏洞才能验证结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.83,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "对做自动化漏洞挖掘的团队来说是个值得尝试的新工具箱，集成了从侦察到 fuzzing 的全流程，尤其支持 AI/MCP 目标测试。直接拉下来跑跑看效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AlAssaf_H/status/2105209937009823990",
+      "reader_url": "https://x.com/AlAssaf_H/status/2105209937009823990",
+      "image_url": null,
+      "author": {
+        "username": "AlAssaf_H",
+        "name": "ɐpnH",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-09-30T08:15:36",
+      "first_seen_at": "2026-09-30T08:46:16.449044",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 11556,
@@ -127,31 +152,6 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-09-30T04:49:34.350457",
       "sub_category_label": null
-    },
-    {
-      "id": 12395,
-      "title": "OpenAI 升级 Codex Security Cloud，默认提供网络能力模型",
-      "original_title": "RT @OpenAI: Codex Security Cloud is getting a major upgrade, with access to cyber-capable models through Daybreak Blue included by default.…",
-      "summary": "OpenAI 宣布其 Codex Security Cloud 迎来重大升级，将默认包含通过 Daybreak Blue 访问具备网络能力模型的权限。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.23,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI 开始将具备网络能力的模型作为安全云服务默认提供。AI for Sec 从业者应密切关注其后续细节，评估这些模型在漏洞挖掘和威胁分析等实际安全任务中的表现。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2105060260851695829",
-      "reader_url": "https://x.com/HackingLZ/status/2105060260851695829",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-09-29T22:20:50",
-      "first_seen_at": "2026-09-29T23:31:30.593357",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
