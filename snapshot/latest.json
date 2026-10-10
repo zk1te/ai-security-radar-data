@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T11:58:01+08:00",
+  "updated_at": "2026-10-10T13:28:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -42,6 +42,26 @@
       "author": null,
       "published_at": "2026-10-10T02:38:55.549029",
       "first_seen_at": "2026-10-10T03:42:09.445846",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 13211,
+      "title": "Anthropic 推出开源项目免费 AI 安全扫描服务",
+      "original_title": "Anthropic launches free AI security scans for open-source projects",
+      "summary": "Anthropic 推出 OSS Scanner 服务，免费为开源项目提供周期性的大模型安全扫描以挖掘漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 82.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic 把大模型推向开源代码审计一线。做漏洞挖掘和开源安全的团队该看，这标志着 AI 安全工具走向常态化服务，需关注其误报率与实际挖洞效果。",
+      "source_id": "the-verge-ai",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "reader_url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-08T21:53:51",
+      "first_seen_at": "2026-10-10T04:58:39.824174",
       "sub_category_label": "安全Agent"
     },
     {
@@ -138,31 +158,6 @@
       "published_at": "2026-10-10T02:38:55.349383",
       "first_seen_at": "2026-10-10T03:41:12.175013",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 13037,
-      "title": "自主 N-day 漏洞利用管线幻灯片",
-      "original_title": "An autonomous N-day exploit pipeline (slide deck, @chompie1337)  https://t.co/qJinGZ8Bm5  #infosec https://t.co/R2avPD1HLh",
-      "summary": "@chompie1337 发布了关于自主 N-day 漏洞利用管线的演讲幻灯片，展示了自动化漏洞利用的最新进展。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 76.01,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "漏洞利用自动化是 AI for Sec 的核心前沿，该幻灯片展示了自主利用管线的思路，安全研究员应关注其自动化实现方式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xor0ne/status/2108452608989946354",
-      "reader_url": "https://x.com/0xor0ne/status/2108452608989946354",
-      "image_url": "https://pbs.twimg.com/media/HUK6eYPW4AASHcv.jpg",
-      "author": {
-        "username": "0xor0ne",
-        "name": "0xor0ne",
-        "avatar_url": null,
-        "followers_count": 93861
-      },
-      "published_at": "2026-10-09T07:00:49",
-      "first_seen_at": "2026-10-10T03:56:01.083480",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
