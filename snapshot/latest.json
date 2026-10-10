@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T03:05:36+08:00",
+  "updated_at": "2026-10-11T04:05:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -155,31 +155,6 @@
       "sub_category_label": "渗透测试"
     },
     {
-      "id": 13537,
-      "title": "韩国银行数据泄露案：攻击者滥用开源AI渗透工具ARTEX",
-      "original_title": "7 banks. 68,000 customers. One free AI agent from GitHub.  South Korean police opened a full investigation this week after attacks hit seven financial firms, including Shinhan, KB ",
-      "summary": "攻击者利用开源 AI 渗透代理 ARTEX 结合 Claude Code 攻击韩国七家银行，窃取 6.8 万客户数据，CrowdStrike 追踪到攻击者线索。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透 Agent 首次在野造成重大银行数据泄露，攻击门槛大幅降低。防御团队需立即审视现有 WAF/风控能否抵挡 AI 自动化攻击流量。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CyberForgeAI/status/2108811538995785758",
-      "reader_url": "https://x.com/CyberForgeAI/status/2108811538995785758",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2108811505495928832/img/oiNEIRpNaKAM98YW.jpg",
-      "author": {
-        "username": "CyberForgeAI",
-        "name": "CyberForge AI",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-10T06:47:05",
-      "first_seen_at": "2026-10-10T07:58:08.932662",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 13792,
       "title": "Andy Gill 分享使用 LLM 进行漏洞研究的工具与套件",
       "original_title": "How to use LLMs for vulnerability research by @ZephrFish (Andy Gill)  MCP: https://t.co/MT4LbPOVGU Harness: https://t.co/Boa1uD5BQu  #infosec #llm https://t.co/phiDAj2rWO",
@@ -223,6 +198,26 @@
       "published_at": "2026-10-09T07:00:00",
       "first_seen_at": "2026-10-10T14:50:47.646845",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 13700,
+      "title": "9月GitHub热门榜：阿里开源AI代码评审Agent内置安全规则",
+      "original_title": "🚀 2026 年 9 月 GitHub 十大热门项目排行榜 🔥",
+      "summary": "2026年9月GitHub热门榜单揭晓，其中阿里开源的混合架构代码评审Agent「open-code-review」结合规则与LLM，内置XSS、SQL注入等安全规则，将AI代码评审推向工程落地。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "code_review_agent",
+      "score_total": 74.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全工程师可直接参考阿里开源的open-code-review，它结合确定性规则与LLM Agent的代码理解力，提供行级安全缺陷评论，非常适合接入CI/PR流程提升代码审计效率。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7693828979246186546",
+      "reader_url": "https://juejin.cn/post/7693828979246186546",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-08T08:49:37",
+      "first_seen_at": "2026-10-10T14:30:41.596151",
+      "sub_category_label": null
     }
   ]
 }
