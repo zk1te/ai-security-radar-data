@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-10T21:31:40+08:00",
+  "updated_at": "2026-10-10T22:31:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 13001,
@@ -70,6 +70,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 13457,
+      "title": "SSCBench：评估工具型 LLM Agent 故障注入测试的证据有效性",
+      "original_title": "SSCBench: Evaluating the Evidential Validity of Fault-Injection Tests for Tool-Using LLM Agents",
+      "summary": "本文针对工具型 LLM Agent 的故障注入测试提出证据有效性问题，构建了 SSCBench 基准及测量协议，发现不同执行轨迹中的证据条件差异显著，强调在解释故障采纳为失败前需报告证据条件。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark",
+      "score_total": 85.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做 Agent 安全评测的人必看，这篇指出了现有 fault-injection 测试中「证据可见性」导致的评测偏差，并给出新的测量协议，能直接用来改进你的安全 Benchmark 设计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.11514",
+      "reader_url": "https://arxiv.org/pdf/2610.11514",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-09T04:00:00",
+      "first_seen_at": "2026-10-10T14:22:15.280933",
+      "sub_category_label": null
+    },
+    {
       "id": 13211,
       "title": "Anthropic 推出开源项目免费 AI 安全扫描服务",
       "original_title": "Anthropic launches free AI security scans for open-source projects",
@@ -88,6 +108,46 @@
       "published_at": "2026-10-08T21:53:51",
       "first_seen_at": "2026-10-10T04:58:39.824174",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 13464,
+      "title": "ObliVul：基于LLM的告警条件化安全义务建模与漏洞验证框架",
+      "original_title": "ObliVul: Alert-Conditioned Safety Obligation Modeling and Bidirectional Counterfactual Validation for Code Vulnerability Detection",
+      "summary": "ObliVul框架利用大语言模型从代码属性图中提取安全义务并构建局部安全义务图，结合双向反事实验证来过滤静态分析误报，实现函数级漏洞预测。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 82.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "静态分析告警疲劳是代码审计痛点，该论文结合LLM和代码属性图构建安全义务图来验证告警有效性，做漏洞挖掘的工程师可直接借鉴其降误报思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.11801",
+      "reader_url": "https://arxiv.org/pdf/2610.11801",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-09T04:00:00",
+      "first_seen_at": "2026-10-10T14:22:15.280933",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 13442,
+      "title": "TestJack审计：约34%的编程Agent基准测试通过结果是假阳性",
+      "original_title": "TestJack: Should you trust the results in coding benchmarks? Agentic Coding Benchmarks Auditing via Evaluator Evolution",
+      "summary": "论文提出TestJack框架，通过动态生成针对性测试审计代码基准评测结果。实验发现约34.4%被判为正确的模型输出实际违反了任务要求，揭示了当前固定单元测试评估法易被Agent reward hack的缺陷。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 81.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做AI漏洞修复和自动化代码评测的同行必看：Agent在SWE榜单上拿高分别全信，可能是在钻固定测试的空子。这提醒我们在构建安全评测体系时必须引入动态测试审计，避免对Agent能力产生误判。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.10619",
+      "reader_url": "https://arxiv.org/pdf/2610.10619",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-09T04:00:00",
+      "first_seen_at": "2026-10-10T14:22:15.280933",
+      "sub_category_label": null
     },
     {
       "id": 13017,
@@ -138,56 +198,6 @@
       "published_at": "2026-10-09T16:06:57",
       "first_seen_at": "2026-10-10T03:03:08.669850",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 13653,
-      "title": "Anthropic扩展网络安全验证计划，授权安全人员使用新模型进行渗透测试",
-      "original_title": "We’re expanding our Cyber Verification Program to give security professionals broader access to our most capable models.  Through this program, verified security professionals can ",
-      "summary": "Anthropic 扩展 Cyber Verification Program，允许经验证的安全人员访问 Claude Mythos 5.1 等新模型进行防御性工作，并新增渗透测试和红队测试等授权进攻性工作层级。",
-      "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 78.65,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试人员需重点关注，这是 AI 接入实战攻防的直接落地。有资质的团队可尽快申请验证，评估新模型在自动化攻击与防御中的潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AnthropicAI/status/2107546569654636883",
-      "reader_url": "https://x.com/AnthropicAI/status/2107546569654636883",
-      "image_url": null,
-      "author": {
-        "username": "AnthropicAI",
-        "name": "Anthropic",
-        "avatar_url": null,
-        "followers_count": 1726748
-      },
-      "published_at": "2026-10-06T19:00:33",
-      "first_seen_at": "2026-10-10T13:09:44.832873",
-      "sub_category_label": "渗透测试"
-    },
-    {
-      "id": 13366,
-      "title": "韩国金融业遭单人黑客使用 AI 渗透工具 ARTEX 入侵",
-      "original_title": "🚨  Solo Hacker Used AI Tools to Breach South Korean Financial Organizations   Details: https://t.co/WIKna9jD5H  A suspected lone threat actor used an AI-powered penetration-testing",
-      "summary": "一名单独的黑客使用名为 ARTEX 的 AI 驱动渗透测试工具，成功入侵多家韩国金融机构并窃取数据，展示了 AI 工具如何放大个人攻击者的破坏力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_intel",
-      "score_total": 78.1,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 渗透工具在真实攻击中落地的罕见案例。安全团队需警惕此类工具降低攻击门槛的趋势，并重新评估现有防御体系对 AI 自动化入侵的抵抗力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2108155749042164099",
-      "reader_url": "https://x.com/The_Cyber_News/status/2108155749042164099",
-      "image_url": "https://pbs.twimg.com/media/HUGseZfbsAAUqCS.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-10-08T11:21:12",
-      "first_seen_at": "2026-10-10T05:53:58.806479",
-      "sub_category_label": "威胁情报"
     }
   ]
 }
