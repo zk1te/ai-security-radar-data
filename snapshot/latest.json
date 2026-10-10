@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T23:01:49+08:00",
+  "updated_at": "2026-10-11T00:03:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,26 +23,6 @@
       "published_at": "2026-10-05T16:00:00",
       "first_seen_at": "2026-10-10T14:40:22.922770",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 13001,
-      "title": "Black Hat 议题：突破安卓最后恢复边界实现零点击 PDoS",
-      "original_title": "ON-DEMAND - Breaking Android's Last Recovery Boundary: From Malicious APK Resources to Zero-Click MMS PDoS",
-      "summary": "研究人员发现特权组件解析恶意 APK 资源时可绕过安全模式，并通过零点击 MMS 触发永久拒绝服务，共斩获 18 个 CVE 与约 30 万美元赏金。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 88.7,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "移动安全与漏洞挖掘团队应重点关注：利用 Fuzzing 发现系统组件解析资源时的崩溃路径，以及绕过安全模式实现设备变砖的全新攻击面。该思路可直接转化为安卓自动化安全评测与防御测试用例。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#on-demand-breaking-android-s-last-recovery-boundary-from-malicious-apk-resources-to-zero-click-mms-pdos-55640",
-      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#on-demand-breaking-android-s-last-recovery-boundary-from-malicious-apk-resources-to-zero-click-mms-pdos-55640",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-10-10T03:44:17.673578",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 13658,
@@ -88,26 +68,6 @@
       "published_at": "2026-10-07T16:00:00",
       "first_seen_at": "2026-10-10T14:48:53.297696",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 12991,
-      "title": "阿里开源混合架构 AI 代码审查工具 open-code-review",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 326 stars today",
-      "summary": "该项目采用确定性管道与 LLM Agent 结合的混合架构，支持精确行级注释，内置 XSS、SQL 注入等多语言安全规则集，已在阿里内部大规模验证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 86.26,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做代码审计和 DevSecOps 的人必看。它结合了确定性规则与 LLM Agent，能做行级安全漏洞定位，建议直接拉取测试其在真实业务代码库中的误报率和可用性。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-10-10&since=daily",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-10-10&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-10T02:38:55.549029",
-      "first_seen_at": "2026-10-10T03:42:09.445846",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 13457,
@@ -190,29 +150,79 @@
       "sub_category_label": null
     },
     {
-      "id": 13017,
-      "title": "Google 暂停 OSS VRP 产品漏洞提交，反击自动化刷洞",
-      "original_title": "📢 PSA for open-source bug hunters  We are temporarily no longer accepting OSS VRP product vulnerability submissions. This does not impact OSS VRP supply chain reports, or any outst",
-      "summary": "Google 宣布因自动化提交数量激增且大多无效，暂时停止接受开源漏洞奖励计划（OSS VRP）的产品漏洞提交，供应链报告不受影响，计划于 2027 年 Q1 更新。",
+      "id": 13653,
+      "title": "Anthropic扩展网络安全验证计划，授权安全人员使用新模型进行渗透测试",
+      "original_title": "We’re expanding our Cyber Verification Program to give security professionals broader access to our most capable models.  Through this program, verified security professionals can ",
+      "summary": "Anthropic 扩展 Cyber Verification Program，允许经验证的安全人员访问 Claude Mythos 5.1 等新模型进行防御性工作，并新增渗透测试和红队测试等授权进攻性工作层级。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 81.0,
+      "sub_category": "penetration_testing",
+      "score_total": 78.65,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "用 AI 批量挖洞的团队注意了，Google 已被低质报告淹没被迫关停渠道。盲目用 AI 刷洞不仅无效还会被封杀，报告质量和人工审计才是核心。",
+      "recommendation_reason": "红队和渗透测试人员需重点关注，这是 AI 接入实战攻防的直接落地。有资质的团队可尽快申请验证，评估新模型在自动化攻击与防御中的潜力。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/GoogleVRP/status/2105689195180179605",
-      "reader_url": "https://x.com/GoogleVRP/status/2105689195180179605",
+      "canonical_url": "https://x.com/AnthropicAI/status/2107546569654636883",
+      "reader_url": "https://x.com/AnthropicAI/status/2107546569654636883",
       "image_url": null,
       "author": {
-        "username": "GoogleVRP",
-        "name": "Google VRP (Google Bug Hunters)",
+        "username": "AnthropicAI",
+        "name": "Anthropic",
         "avatar_url": null,
-        "followers_count": 42615
+        "followers_count": 1726748
       },
-      "published_at": "2026-10-01T16:00:00",
-      "first_seen_at": "2026-10-10T03:52:00.210599",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-10-06T19:00:33",
+      "first_seen_at": "2026-10-10T13:09:44.832873",
+      "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 13366,
+      "title": "韩国金融业遭单人黑客使用 AI 渗透工具 ARTEX 入侵",
+      "original_title": "🚨  Solo Hacker Used AI Tools to Breach South Korean Financial Organizations   Details: https://t.co/WIKna9jD5H  A suspected lone threat actor used an AI-powered penetration-testing",
+      "summary": "一名单独的黑客使用名为 ARTEX 的 AI 驱动渗透测试工具，成功入侵多家韩国金融机构并窃取数据，展示了 AI 工具如何放大个人攻击者的破坏力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_intel",
+      "score_total": 78.1,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 渗透工具在真实攻击中落地的罕见案例。安全团队需警惕此类工具降低攻击门槛的趋势，并重新评估现有防御体系对 AI 自动化入侵的抵抗力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2108155749042164099",
+      "reader_url": "https://x.com/The_Cyber_News/status/2108155749042164099",
+      "image_url": "https://pbs.twimg.com/media/HUGseZfbsAAUqCS.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-10-08T11:21:12",
+      "first_seen_at": "2026-10-10T05:53:58.806479",
+      "sub_category_label": "威胁情报"
+    },
+    {
+      "id": 13537,
+      "title": "韩国银行数据泄露案：攻击者滥用开源AI渗透工具ARTEX",
+      "original_title": "7 banks. 68,000 customers. One free AI agent from GitHub.  South Korean police opened a full investigation this week after attacks hit seven financial firms, including Shinhan, KB ",
+      "summary": "攻击者利用开源 AI 渗透代理 ARTEX 结合 Claude Code 攻击韩国七家银行，窃取 6.8 万客户数据，CrowdStrike 追踪到攻击者线索。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透 Agent 首次在野造成重大银行数据泄露，攻击门槛大幅降低。防御团队需立即审视现有 WAF/风控能否抵挡 AI 自动化攻击流量。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CyberForgeAI/status/2108811538995785758",
+      "reader_url": "https://x.com/CyberForgeAI/status/2108811538995785758",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2108811505495928832/img/oiNEIRpNaKAM98YW.jpg",
+      "author": {
+        "username": "CyberForgeAI",
+        "name": "CyberForge AI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-10T06:47:05",
+      "first_seen_at": "2026-10-10T07:58:08.932662",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
