@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T02:05:25+08:00",
+  "updated_at": "2026-10-11T03:05:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -180,26 +180,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 13519,
-      "title": "SAIL：基于技能自适应模仿学习的 UI 测试迁移框架",
-      "original_title": "Skill-Adaptive Imitation Learning for UI Test Reuse",
-      "summary": "论文提出 SAIL 框架，通过提取源应用的测试技能并利用大模型上下文学习指导目标应用测试用例生成，解决了传统事件映射无法处理实现差异的问题，成功率提升 149%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "automated_testing",
-      "score_total": 76.7,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "大模型在自动化测试落地的佳作，其技能迁移思路对构建安全测试 Agent 很有启发，可借鉴于 Fuzzing 种子生成和变异策略。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2409.13311",
-      "reader_url": "https://arxiv.org/pdf/2409.13311",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-09T04:00:00",
-      "first_seen_at": "2026-10-10T06:57:31.046764",
-      "sub_category_label": null
-    },
-    {
       "id": 13792,
       "title": "Andy Gill 分享使用 LLM 进行漏洞研究的工具与套件",
       "original_title": "How to use LLMs for vulnerability research by @ZephrFish (Andy Gill)  MCP: https://t.co/MT4LbPOVGU Harness: https://t.co/Boa1uD5BQu  #infosec #llm https://t.co/phiDAj2rWO",
@@ -223,6 +203,26 @@
       "published_at": "2026-10-10T15:30:29",
       "first_seen_at": "2026-10-10T17:42:05.998463",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 13752,
+      "title": "Sophos 借 OpenAI Daybreak 将威胁调查时间缩短 96%",
+      "original_title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "summary": "Sophos 采用 OpenAI 的 Daybreak 模型自动化 MDR 流程，使威胁调查时间骤降 96%，实现 52% 案例自动化处理，并保留人工监督。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.05,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "大模型在 MDR 规模化落地的标志性数据点。安全运营负责人可参考其提效数据，评估引入 LLM 的预期 ROI 和人机协同边界。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/sophos",
+      "reader_url": "https://openai.com/index/sophos",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-09T07:00:00",
+      "first_seen_at": "2026-10-10T14:50:47.646845",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
