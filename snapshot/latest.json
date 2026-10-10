@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T01:05:19+08:00",
+  "updated_at": "2026-10-11T02:05:25+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -155,31 +155,6 @@
       "sub_category_label": "渗透测试"
     },
     {
-      "id": 13366,
-      "title": "韩国金融业遭单人黑客使用 AI 渗透工具 ARTEX 入侵",
-      "original_title": "🚨  Solo Hacker Used AI Tools to Breach South Korean Financial Organizations   Details: https://t.co/WIKna9jD5H  A suspected lone threat actor used an AI-powered penetration-testing",
-      "summary": "一名单独的黑客使用名为 ARTEX 的 AI 驱动渗透测试工具，成功入侵多家韩国金融机构并窃取数据，展示了 AI 工具如何放大个人攻击者的破坏力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_intel",
-      "score_total": 78.1,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 渗透工具在真实攻击中落地的罕见案例。安全团队需警惕此类工具降低攻击门槛的趋势，并重新评估现有防御体系对 AI 自动化入侵的抵抗力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2108155749042164099",
-      "reader_url": "https://x.com/The_Cyber_News/status/2108155749042164099",
-      "image_url": "https://pbs.twimg.com/media/HUGseZfbsAAUqCS.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-10-08T11:21:12",
-      "first_seen_at": "2026-10-10T05:53:58.806479",
-      "sub_category_label": "威胁情报"
-    },
-    {
       "id": 13537,
       "title": "韩国银行数据泄露案：攻击者滥用开源AI渗透工具ARTEX",
       "original_title": "7 banks. 68,000 customers. One free AI agent from GitHub.  South Korean police opened a full investigation this week after attacks hit seven financial firms, including Shinhan, KB ",
@@ -205,28 +180,48 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 13374,
-      "title": "Anthropic 推出 Cyber Mission，用 AI 工具支持安全防御者",
-      "original_title": "Anthropic Cyber Mission to Support Defenders with Tools, Research, and Resources  Details: https://t.co/z0ULK53QsE  Anthropic launched its Anthropic Cyber Mission on October 8, 202",
-      "summary": "Anthropic 发布 Cyber Mission 计划，结合 Claude 模型和威胁研究，推出关键基础设施防御计划和 OSS Scanner 免费服务，强调修复漏洞而非仅产出报告。",
+      "id": 13519,
+      "title": "SAIL：基于技能自适应模仿学习的 UI 测试迁移框架",
+      "original_title": "Skill-Adaptive Imitation Learning for UI Test Reuse",
+      "summary": "论文提出 SAIL 框架，通过提取源应用的测试技能并利用大模型上下文学习指导目标应用测试用例生成，解决了传统事件映射无法处理实现差异的问题，成功率提升 149%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "automated_testing",
+      "score_total": 76.7,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "大模型在自动化测试落地的佳作，其技能迁移思路对构建安全测试 Agent 很有启发，可借鉴于 Fuzzing 种子生成和变异策略。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2409.13311",
+      "reader_url": "https://arxiv.org/pdf/2409.13311",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-09T04:00:00",
+      "first_seen_at": "2026-10-10T06:57:31.046764",
+      "sub_category_label": null
+    },
+    {
+      "id": 13792,
+      "title": "Andy Gill 分享使用 LLM 进行漏洞研究的工具与套件",
+      "original_title": "How to use LLMs for vulnerability research by @ZephrFish (Andy Gill)  MCP: https://t.co/MT4LbPOVGU Harness: https://t.co/Boa1uD5BQu  #infosec #llm https://t.co/phiDAj2rWO",
+      "summary": "安全研究员 Andy Gill (@ZephrFish) 分享了使用大模型进行漏洞研究的具体方法，并提供了配套的 MCP 和 Harness 工具链接。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 76.71,
+      "score_total": 76.09,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "安全团队和开源维护者应关注 OSS Scanner 的参与方式，这是 AI 辅助漏洞发现走向产业流程的标志性事件，可能改变开源审计工作方式。",
+      "recommendation_reason": "直接给出了用于漏洞研究的 LLM 测试套件和 MCP，想尝试用大模型辅助挖洞的兄弟可以直接去拉代码体验，看看别人的 prompt 和 harness 是怎么搭的。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2108439789167132807",
-      "reader_url": "https://x.com/The_Cyber_News/status/2108439789167132807",
-      "image_url": "https://pbs.twimg.com/media/HUKuouFbYAA1y2I.jpg",
+      "canonical_url": "https://x.com/0xor0ne/status/2108943257078050849",
+      "reader_url": "https://x.com/0xor0ne/status/2108943257078050849",
+      "image_url": "https://pbs.twimg.com/media/HUR4tz6WEAADj_p.jpg",
       "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
+        "username": "0xor0ne",
+        "name": "0xor0ne",
         "avatar_url": null,
-        "followers_count": 73656
+        "followers_count": 93861
       },
-      "published_at": "2026-10-09T06:09:53",
-      "first_seen_at": "2026-10-10T05:55:06.269839",
+      "published_at": "2026-10-10T15:30:29",
+      "first_seen_at": "2026-10-10T17:42:05.998463",
       "sub_category_label": "漏洞挖掘"
     }
   ]
