@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-10T13:28:18+08:00",
+  "updated_at": "2026-10-10T13:59:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 13001,
@@ -113,6 +113,31 @@
       "published_at": "2026-10-09T16:06:57",
       "first_seen_at": "2026-10-10T03:03:08.669850",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 13366,
+      "title": "韩国金融业遭单人黑客使用 AI 渗透工具 ARTEX 入侵",
+      "original_title": "🚨  Solo Hacker Used AI Tools to Breach South Korean Financial Organizations   Details: https://t.co/WIKna9jD5H  A suspected lone threat actor used an AI-powered penetration-testing",
+      "summary": "一名单独的黑客使用名为 ARTEX 的 AI 驱动渗透测试工具，成功入侵多家韩国金融机构并窃取数据，展示了 AI 工具如何放大个人攻击者的破坏力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_intel",
+      "score_total": 78.1,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 渗透工具在真实攻击中落地的罕见案例。安全团队需警惕此类工具降低攻击门槛的趋势，并重新评估现有防御体系对 AI 自动化入侵的抵抗力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2108155749042164099",
+      "reader_url": "https://x.com/The_Cyber_News/status/2108155749042164099",
+      "image_url": "https://pbs.twimg.com/media/HUGseZfbsAAUqCS.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-10-08T11:21:12",
+      "first_seen_at": "2026-10-10T05:53:58.806479",
+      "sub_category_label": "威胁情报"
     },
     {
       "id": 13029,
