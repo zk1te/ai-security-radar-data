@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T00:03:47+08:00",
+  "updated_at": "2026-10-11T01:05:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -88,26 +88,6 @@
       "published_at": "2026-10-09T04:00:00",
       "first_seen_at": "2026-10-10T14:22:15.280933",
       "sub_category_label": null
-    },
-    {
-      "id": 13211,
-      "title": "Anthropic 推出开源项目免费 AI 安全扫描服务",
-      "original_title": "Anthropic launches free AI security scans for open-source projects",
-      "summary": "Anthropic 推出 OSS Scanner 服务，免费为开源项目提供周期性的大模型安全扫描以挖掘漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 82.55,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "Anthropic 把大模型推向开源代码审计一线。做漏洞挖掘和开源安全的团队该看，这标志着 AI 安全工具走向常态化服务，需关注其误报率与实际挖洞效果。",
-      "source_id": "the-verge-ai",
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-      "reader_url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-08T21:53:51",
-      "first_seen_at": "2026-10-10T04:58:39.824174",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 13464,
@@ -223,6 +203,31 @@
       "published_at": "2026-10-10T06:47:05",
       "first_seen_at": "2026-10-10T07:58:08.932662",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 13374,
+      "title": "Anthropic 推出 Cyber Mission，用 AI 工具支持安全防御者",
+      "original_title": "Anthropic Cyber Mission to Support Defenders with Tools, Research, and Resources  Details: https://t.co/z0ULK53QsE  Anthropic launched its Anthropic Cyber Mission on October 8, 202",
+      "summary": "Anthropic 发布 Cyber Mission 计划，结合 Claude 模型和威胁研究，推出关键基础设施防御计划和 OSS Scanner 免费服务，强调修复漏洞而非仅产出报告。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 76.71,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和开源维护者应关注 OSS Scanner 的参与方式，这是 AI 辅助漏洞发现走向产业流程的标志性事件，可能改变开源审计工作方式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2108439789167132807",
+      "reader_url": "https://x.com/The_Cyber_News/status/2108439789167132807",
+      "image_url": "https://pbs.twimg.com/media/HUKuouFbYAA1y2I.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-10-09T06:09:53",
+      "first_seen_at": "2026-10-10T05:55:06.269839",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
