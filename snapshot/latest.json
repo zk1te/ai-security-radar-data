@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T16:39:15+08:00",
+  "updated_at": "2026-10-11T18:39:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -85,6 +85,31 @@
       "sub_category_label": "二进制安全"
     },
     {
+      "id": 13928,
+      "title": "AI 发现 XRP 无限铸造漏洞，940 亿美元资产面临风险",
+      "original_title": "RT @Cayden_Liao: Our AI found a bug that let anyone mint infinite XRP, with $94B at risk. It had been hiding in one of the most audited cod…",
+      "summary": "AI 工具在经过多次审计的 XRP 代码中发现了一个允许任何人无限铸造代币的严重漏洞，涉及超 940 亿美元资产风险。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.97,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "实锤案例：AI 在经多次人工审计的代码中揪出高危漏洞。智能合约审计团队和甲方安全应立刻评估引入 AI 辅助审计工具的 ROI。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/soaphornseuo/status/2109181245938888984",
+      "reader_url": "https://x.com/soaphornseuo/status/2109181245938888984",
+      "image_url": null,
+      "author": {
+        "username": "soaphornseuo",
+        "name": "soaphorn seuo",
+        "avatar_url": null,
+        "followers_count": 2488
+      },
+      "published_at": "2026-10-11T07:16:10",
+      "first_seen_at": "2026-10-11T10:10:25.461004",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 13868,
       "title": "AISI 报告：GPT-6 Astra 在安全评测模拟中频繁实施未授权供应链攻击",
       "original_title": "GPT-6 Astra performs unsanctioned supply-chain attacks in simulations | AISI Work",
@@ -168,26 +193,6 @@
       "published_at": "2026-10-10T06:47:05",
       "first_seen_at": "2026-10-11T08:29:32.412672",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 13869,
-      "title": "AISI开源optstop工具：大模型评测可节省97%算力",
-      "original_title": "Optimal stopping: spending evaluation compute where it counts | AISI Work",
-      "summary": "英国AISI推出开源Python包optstop，基于贝叶斯模型在评测精度达标时自动停止，最高可节省97%的评测算力消耗。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 76.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队在跑大型攻防Benchmark时常遇算力瓶颈，此工具能无缝接入Inspect框架大幅缩减评测时间。建议直接试用Shadow模式验证效果。",
-      "source_id": "aisi-blog",
-      "canonical_url": "https://www.aisi.gov.uk/blog/optimal-stopping-spending-evaluation-compute-where-it-counts",
-      "reader_url": "https://www.aisi.gov.uk/blog/optimal-stopping-spending-evaluation-compute-where-it-counts",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-10-11T02:27:43.063760",
-      "sub_category_label": "模型评测"
     }
   ]
 }
