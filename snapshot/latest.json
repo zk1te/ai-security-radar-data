@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T23:09:55+08:00",
+  "updated_at": "2026-10-11T23:41:25+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -140,30 +140,6 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 13876,
-      "title": "AI Agent 反编译 FPS 游戏实验：5000 亿 token 展示逆向潜力",
-      "original_title": "HN Hot Discussion: 500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
-      "summary": "这篇博文分享了使用 AI Agent 反编译第一人称射击游戏的实验过程，共消耗 5000 亿 token，展示了 AI 在逆向工程领域的实际应用能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 75.18,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "逆向工程和二进制安全从业者值得一看，该实验直观展示了 AI Agent 在反编译实际软件时的能力和成本，可帮助判断当前 AI 辅助逆向的可行边界。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50039092&hn_hot_date=2026-10-11",
-      "reader_url": "https://news.ycombinator.com/item?id=50039092&hn_hot_date=2026-10-11",
-      "image_url": null,
-      "author": {
-        "username": "davikr",
-        "name": "davikr",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-11T02:02:38",
-      "first_seen_at": "2026-10-11T03:38:56.529485",
-      "sub_category_label": "二进制安全"
-    },
-    {
       "id": 13974,
       "title": "CheckerBench：评估AI编写静态分析检查器的基准",
       "original_title": "CheckerBench  An executable benchmark that tests whether coding agents can turn real-world vulnerabilities into reusable static-analysis checkers. https://t.co/OvvfJP3feU",
@@ -187,6 +163,31 @@
       "published_at": "2026-10-11T12:18:13",
       "first_seen_at": "2026-10-11T15:08:45.614616",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 13242,
+      "title": "AI渗透工具Artex因被用于攻击韩国银行而闭源",
+      "original_title": "The first open-source casualty of the agent era isn't a model. It's a pentest tool.  Artex was an open-source AI agent for automated penetration testing: plug in your own LLM (Chat",
+      "summary": "开源 AI 渗透测试 Agent Artex 被 CrowdStrike 追踪到用于攻击 9 家以上的韩国银行，开发者随后紧急关闭了开源仓库。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 73.21,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 安全 Agent 的双刃剑效应已从理论探讨变成真实在野攻击事件。安全团队需警惕开源安全工具被武器化，开发者在发布 Agent 工具时必须考虑滥用风险与遏制策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/harden_369741/status/2108769681041653902",
+      "reader_url": "https://x.com/harden_369741/status/2108769681041653902",
+      "image_url": "https://pbs.twimg.com/media/HUPazTVb0AA9tyu.jpg",
+      "author": {
+        "username": "harden_369741",
+        "name": "Dynamics_01（大水版",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-10T04:00:45",
+      "first_seen_at": "2026-10-11T06:29:18.653557",
+      "sub_category_label": null
     }
   ]
 }
