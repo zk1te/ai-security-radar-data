@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T04:44:10+08:00",
+  "updated_at": "2026-10-12T06:15:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -45,26 +45,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 12722,
-      "title": "ANCHOR：结合上下文与状态的LLM系统溯源攻击调查",
-      "original_title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
-      "summary": "ANCHOR系统通过结合证据整理与上下文接地的LLM推理，解决传统溯源入侵检测难以构建连贯攻击叙事的问题，在DARPA数据集上显著提升了IoC恢复和攻击阶段归因能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 89.4,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "提出了带状态追踪和上下文校准的LLM调查框架，解决了直接用LLM分析告警易产生误报和时序断裂的问题。对构建安全分析Agent和自动化溯源系统的团队有直接参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.36494",
-      "reader_url": "https://arxiv.org/pdf/2609.36494",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-30T04:00:00",
-      "first_seen_at": "2026-10-11T20:23:35.910478",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 12731,
       "title": "网络入侵检测可复现基准：修正CIC-IDS2017标注与完整评估流水线",
       "original_title": "Multi-Class, Multi-Tier Network Intrusion Detection: A Comprehensive and Reproducible Benchmark",
@@ -85,6 +65,26 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 12722,
+      "title": "ANCHOR：结合上下文与状态的LLM系统溯源攻击调查",
+      "original_title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
+      "summary": "ANCHOR系统通过结合证据整理与上下文接地的LLM推理，解决传统溯源入侵检测难以构建连贯攻击叙事的问题，在DARPA数据集上显著提升了IoC恢复和攻击阶段归因能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 89.4,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "提出了带状态追踪和上下文校准的LLM调查框架，解决了直接用LLM分析告警易产生误报和时序断裂的问题。对构建安全分析Agent和自动化溯源系统的团队有直接参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.36494",
+      "reader_url": "https://arxiv.org/pdf/2609.36494",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-30T04:00:00",
+      "first_seen_at": "2026-10-11T20:23:35.910478",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 12701,
       "title": "LLM辅助安全协议建模的置信度引导IR框架",
       "original_title": "Confidence-Guided Protocol IR for LLM-Aided Security Protocol Modeling",
@@ -103,31 +103,6 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-11T20:23:35.910478",
       "sub_category_label": null
-    },
-    {
-      "id": 13928,
-      "title": "AI 发现 XRP 无限铸造漏洞，940 亿美元资产面临风险",
-      "original_title": "RT @Cayden_Liao: Our AI found a bug that let anyone mint infinite XRP, with $94B at risk. It had been hiding in one of the most audited cod…",
-      "summary": "AI 工具在经过多次审计的 XRP 代码中发现了一个允许任何人无限铸造代币的严重漏洞，涉及超 940 亿美元资产风险。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 83.97,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "实锤案例：AI 在经多次人工审计的代码中揪出高危漏洞。智能合约审计团队和甲方安全应立刻评估引入 AI 辅助审计工具的 ROI。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2109181245938888984",
-      "reader_url": "https://x.com/soaphornseuo/status/2109181245938888984",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null,
-        "followers_count": 2488
-      },
-      "published_at": "2026-10-11T07:16:10",
-      "first_seen_at": "2026-10-11T10:10:25.461004",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 14013,
@@ -213,6 +188,26 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-11T20:23:35.910478",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 13089,
+      "title": "探究 LLM 漏洞挖掘代理的 Token 消耗与优化策略",
+      "original_title": "Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery",
+      "summary": "研究分析了 LLM 代理在漏洞挖掘中高消耗低产出的原因，指出代码定位与漏洞推理是核心瓶颈，并提出 AVRI 接口以降低成本同时保持成功率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.0,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对于构建或使用漏洞挖掘 Agent 的安全团队，此论文不仅点明了 token 消耗的两大瓶颈（代码定位与漏洞推理），还给出了有效降本提效的 AVRI 接口设计，值得直接参考借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.11602",
+      "reader_url": "https://arxiv.org/pdf/2610.11602",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-09T04:00:00",
+      "first_seen_at": "2026-10-11T14:23:29.749272",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
