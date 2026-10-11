@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T22:39:51+08:00",
+  "updated_at": "2026-10-11T23:09:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -164,29 +164,29 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 13242,
-      "title": "AI渗透工具Artex因被用于攻击韩国银行而闭源",
-      "original_title": "The first open-source casualty of the agent era isn't a model. It's a pentest tool.  Artex was an open-source AI agent for automated penetration testing: plug in your own LLM (Chat",
-      "summary": "开源 AI 渗透测试 Agent Artex 被 CrowdStrike 追踪到用于攻击 9 家以上的韩国银行，开发者随后紧急关闭了开源仓库。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 73.21,
+      "id": 13974,
+      "title": "CheckerBench：评估AI编写静态分析检查器的基准",
+      "original_title": "CheckerBench  An executable benchmark that tests whether coding agents can turn real-world vulnerabilities into reusable static-analysis checkers. https://t.co/OvvfJP3feU",
+      "summary": "CheckerBench 是一个可执行基准，测试编程 AI 代理能否将真实漏洞转化为可复用的静态分析检查器。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 74.67,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 安全 Agent 的双刃剑效应已从理论探讨变成真实在野攻击事件。安全团队需警惕开源安全工具被武器化，开发者在发布 Agent 工具时必须考虑滥用风险与遏制策略。",
+      "recommendation_reason": "做代码审计和安全自动化的同学必看。该基准直接考察 AI 写规则查漏洞的能力，是衡量大模型在安全工程落地效果的重要参考。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/harden_369741/status/2108769681041653902",
-      "reader_url": "https://x.com/harden_369741/status/2108769681041653902",
-      "image_url": "https://pbs.twimg.com/media/HUPazTVb0AA9tyu.jpg",
+      "canonical_url": "https://x.com/HuggingPapers/status/2109257258475393359",
+      "reader_url": "https://x.com/HuggingPapers/status/2109257258475393359",
+      "image_url": "https://pbs.twimg.com/media/HUWWTDeW4AAYTDT.jpg",
       "author": {
-        "username": "harden_369741",
-        "name": "Dynamics_01（大水版",
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
         "avatar_url": null,
-        "followers_count": 0
+        "followers_count": 21406
       },
-      "published_at": "2026-10-10T04:00:45",
-      "first_seen_at": "2026-10-11T06:29:18.653557",
-      "sub_category_label": null
+      "published_at": "2026-10-11T12:18:13",
+      "first_seen_at": "2026-10-11T15:08:45.614616",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
