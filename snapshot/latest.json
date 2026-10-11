@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T23:41:25+08:00",
+  "updated_at": "2026-10-12T02:42:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -165,29 +165,29 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 13242,
-      "title": "AI渗透工具Artex因被用于攻击韩国银行而闭源",
-      "original_title": "The first open-source casualty of the agent era isn't a model. It's a pentest tool.  Artex was an open-source AI agent for automated penetration testing: plug in your own LLM (Chat",
-      "summary": "开源 AI 渗透测试 Agent Artex 被 CrowdStrike 追踪到用于攻击 9 家以上的韩国银行，开发者随后紧急关闭了开源仓库。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 73.21,
+      "id": 13982,
+      "title": "OrcaCyber Zero 1.5 发布：号称 Cybench 满分的网络安全专用 AI 模型",
+      "original_title": "AI & CYBERSECURITY — OrcaCyber Zero 1.5 RELEASED  OrcaRouter has released OrcaCyber Zero 1.5, a cybersecurity-focused AI model designed for authorized vulnerability research, penet",
+      "summary": "OrcaRouter 发布 OrcaCyber Zero 1.5 安全专用模型，号称 Cybench 100%（39/39）、CVE-Bench 95.8%，支持百万 token 上下文，面向授权漏洞研究和渗透测试，访问仅限认证安全团队。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.76,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 安全 Agent 的双刃剑效应已从理论探讨变成真实在野攻击事件。安全团队需警惕开源安全工具被武器化，开发者在发布 Agent 工具时必须考虑滥用风险与遏制策略。",
+      "recommendation_reason": "安全从业者应关注：Cybench 满分成绩需独立验证，别被营销数字带偏；限制访问模式可能是 AI 安全工具商业化的新路径，值得跟踪其后续评测和真实落地效果。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/harden_369741/status/2108769681041653902",
-      "reader_url": "https://x.com/harden_369741/status/2108769681041653902",
-      "image_url": "https://pbs.twimg.com/media/HUPazTVb0AA9tyu.jpg",
+      "canonical_url": "https://x.com/CyberPulse56/status/2109294930254532925",
+      "reader_url": "https://x.com/CyberPulse56/status/2109294930254532925",
+      "image_url": null,
       "author": {
-        "username": "harden_369741",
-        "name": "Dynamics_01（大水版",
+        "username": "CyberPulse56",
+        "name": "CyberPulse",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-10T04:00:45",
-      "first_seen_at": "2026-10-11T06:29:18.653557",
-      "sub_category_label": null
+      "published_at": "2026-10-11T14:47:54",
+      "first_seen_at": "2026-10-11T15:10:48.780660",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
