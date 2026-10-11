@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-11T11:08:19+08:00",
+  "updated_at": "2026-10-11T16:39:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 13867,
@@ -105,46 +105,6 @@
       "sub_category_label": null
     },
     {
-      "id": 13106,
-      "title": "车载CAN网络异常检测：Transformer与联邦学习结合框架",
-      "original_title": "Temporal transformer CAN encoder with federated lightweight heads for anomaly detection",
-      "summary": "本文提出一种基于时间Transformer和联邦学习的轻量级框架，用于检测车载CAN总线中的时序异常，在不交换原始数据的前提下实现多车协同防御。",
-      "primary_category": "AI for Sec",
-      "sub_category": "anomaly_detection",
-      "score_total": 80.15,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "车联网安全从业者该看，框架结合Transformer时序建模与联邦学习，直击车载ECU异常检测的隐私与协同痛点，为下一代车载IDS设计提供了可参考的落地思路。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.10613",
-      "reader_url": "https://arxiv.org/pdf/2610.10613",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-09T04:00:00",
-      "first_seen_at": "2026-10-10T20:22:41.223746",
-      "sub_category_label": null
-    },
-    {
-      "id": 13104,
-      "title": "ORCAGen：用 RAG 引导生成恶意软件欺骗剧本",
-      "original_title": "ORCAGen: Orchestrating Context-Aware Malware Deception with RAG-Guided Generative AI",
-      "summary": "ORCAGen 结合 RAG 与结构化提示工程，离线生成恶意软件专属欺骗剧本及 PoC 代码，部署前验证、运行时仅执行已确认逻辑，在 150 个真实恶意软件样本上跨五种 LLM 评估效果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "malware_defense",
-      "score_total": 79.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做主动防御和蜜罐的团队该看这篇——用 RAG 约束 LLM 生成可执行的恶意软件欺骗逻辑而非泛泛而谈，附 PoC 验证流程和跨模型幻觉率对比，思路可直接借鉴到自家欺骗编排 pipeline。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.12415",
-      "reader_url": "https://arxiv.org/pdf/2610.12415",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-09T04:00:00",
-      "first_seen_at": "2026-10-10T20:22:41.223746",
-      "sub_category_label": null
-    },
-    {
       "id": 13870,
       "title": "AISI 开源 Transect：Agent 评估行为分析工具",
       "original_title": "Transect: Making large-scale agentic evaluations easier to understand | AISI Work",
@@ -162,26 +122,6 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-10-11T02:28:08.993632",
-      "sub_category_label": null
-    },
-    {
-      "id": 13337,
-      "title": "语音质量评估指标的抗黑产评测与修补收益",
-      "original_title": "How Hackable Is Your Speech Quality Metric? A Corrected Protocol, a Benchmark, and What Patching Buys",
-      "summary": "该研究指出当前语音质量指标的抗攻击评测存在缺陷，提出取多种攻击种子的最坏情况作为修正评测协议。测试发现现有指标被黑比例差异大，且当前防御修补机制泛化能力不足。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "ai_adversarial",
-      "score_total": 77.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做 AI 红队评测必看：评估防御效果不能只跑一个攻击者，必须取多个种子的最坏情况。现有指标修补过拟合自身攻击空间，打补丁前务必测试域外泛化效果。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.10899",
-      "reader_url": "https://arxiv.org/pdf/2610.10899",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-09T04:00:00",
-      "first_seen_at": "2026-10-10T20:22:41.223746",
       "sub_category_label": null
     },
     {
@@ -203,6 +143,51 @@
       "published_at": "2026-10-09T04:00:00",
       "first_seen_at": "2026-10-11T02:22:47.499967",
       "sub_category_label": null
+    },
+    {
+      "id": 13537,
+      "title": "韩国银行数据泄露案：攻击者滥用开源AI渗透工具ARTEX",
+      "original_title": "7 banks. 68,000 customers. One free AI agent from GitHub.  South Korean police opened a full investigation this week after attacks hit seven financial firms, including Shinhan, KB ",
+      "summary": "攻击者利用开源 AI 渗透代理 ARTEX 结合 Claude Code 攻击韩国七家银行，窃取 6.8 万客户数据，CrowdStrike 追踪到攻击者线索。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透 Agent 首次在野造成重大银行数据泄露，攻击门槛大幅降低。防御团队需立即审视现有 WAF/风控能否抵挡 AI 自动化攻击流量。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CyberForgeAI/status/2108811538995785758",
+      "reader_url": "https://x.com/CyberForgeAI/status/2108811538995785758",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2108811505495928832/img/oiNEIRpNaKAM98YW.jpg",
+      "author": {
+        "username": "CyberForgeAI",
+        "name": "CyberForge AI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-10T06:47:05",
+      "first_seen_at": "2026-10-11T08:29:32.412672",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 13869,
+      "title": "AISI开源optstop工具：大模型评测可节省97%算力",
+      "original_title": "Optimal stopping: spending evaluation compute where it counts | AISI Work",
+      "summary": "英国AISI推出开源Python包optstop，基于贝叶斯模型在评测精度达标时自动停止，最高可节省97%的评测算力消耗。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 76.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队在跑大型攻防Benchmark时常遇算力瓶颈，此工具能无缝接入Inspect框架大幅缩减评测时间。建议直接试用Shadow模式验证效果。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/optimal-stopping-spending-evaluation-compute-where-it-counts",
+      "reader_url": "https://www.aisi.gov.uk/blog/optimal-stopping-spending-evaluation-compute-where-it-counts",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-10-11T02:27:43.063760",
+      "sub_category_label": "模型评测"
     }
   ]
 }
