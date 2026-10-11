@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T04:37:22+08:00",
+  "updated_at": "2026-10-11T08:07:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,6 +23,26 @@
       "published_at": "2026-10-05T16:00:00",
       "first_seen_at": "2026-10-10T14:40:22.922770",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 13844,
+      "title": "AI Agent 逆向工具 morluto/rea 爆火单日涨星两万",
+      "original_title": "GitHub Trending: morluto/rea gained 25793 stars today",
+      "summary": "GitHub 项目 morluto/rea 使用 AI Agent 实现从应用行为到原生二进制的自动化逆向，近期爆火单日涨星超 2.5 万。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 89.0,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "二进制安全和逆向从业者建议立刻关注，该项目用 AI Agent 自动化逆向原生二进制。单日两万多星说明社区认可度极高，可以拉下来直接测试其在真实样本上的效果与边界。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-11&since=daily",
+      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-11&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-11T00:02:20.268178",
+      "first_seen_at": "2026-10-11T00:06:02.025160",
+      "sub_category_label": "二进制安全"
     },
     {
       "id": 13658,
@@ -193,26 +213,6 @@
       "published_at": "2026-10-06T19:00:33",
       "first_seen_at": "2026-10-10T13:09:44.832873",
       "sub_category_label": "渗透测试"
-    },
-    {
-      "id": 13337,
-      "title": "语音质量评估指标的抗黑产评测与修补收益",
-      "original_title": "How Hackable Is Your Speech Quality Metric? A Corrected Protocol, a Benchmark, and What Patching Buys",
-      "summary": "该研究指出当前语音质量指标的抗攻击评测存在缺陷，提出取多种攻击种子的最坏情况作为修正评测协议。测试发现现有指标被黑比例差异大，且当前防御修补机制泛化能力不足。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "ai_adversarial",
-      "score_total": 77.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做 AI 红队评测必看：评估防御效果不能只跑一个攻击者，必须取多个种子的最坏情况。现有指标修补过拟合自身攻击空间，打补丁前务必测试域外泛化效果。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.10899",
-      "reader_url": "https://arxiv.org/pdf/2610.10899",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-09T04:00:00",
-      "first_seen_at": "2026-10-10T20:22:41.223746",
-      "sub_category_label": null
     }
   ]
 }
