@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-11T08:07:38+08:00",
+  "updated_at": "2026-10-11T09:37:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 13727,
@@ -43,31 +43,6 @@
       "published_at": "2026-10-11T00:02:20.268178",
       "first_seen_at": "2026-10-11T00:06:02.025160",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 13658,
-      "title": "Anthropic推出OSS Scanner：用前沿模型免费扫描开源项目漏洞",
-      "original_title": "To secure open-source software, we’re launching OSS Scanner.  We’ll use our frontier models to periodically scan opted-in open-source projects for vulnerabilities, at no cost. Our ",
-      "summary": "Anthropic宣布推出OSS Scanner，利用其前沿模型定期扫描开源项目以发现漏洞，并提供PoC、解释和修复建议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 87.25,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI辅助漏洞挖掘正从研究走向产业落地，安全团队和开源维护者需密切关注其报告准确率与误报情况，评估能否直接接入现有安全工具链。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AnthropicAI/status/2108302543977906649",
-      "reader_url": "https://x.com/AnthropicAI/status/2108302543977906649",
-      "image_url": null,
-      "author": {
-        "username": "AnthropicAI",
-        "name": "Anthropic",
-        "avatar_url": null,
-        "followers_count": 1726748
-      },
-      "published_at": "2026-10-08T21:04:31",
-      "first_seen_at": "2026-10-10T13:10:54.422616",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 13743,
@@ -190,29 +165,24 @@
       "sub_category_label": null
     },
     {
-      "id": 13653,
-      "title": "Anthropic扩展网络安全验证计划，授权安全人员使用新模型进行渗透测试",
-      "original_title": "We’re expanding our Cyber Verification Program to give security professionals broader access to our most capable models.  Through this program, verified security professionals can ",
-      "summary": "Anthropic 扩展 Cyber Verification Program，允许经验证的安全人员访问 Claude Mythos 5.1 等新模型进行防御性工作，并新增渗透测试和红队测试等授权进攻性工作层级。",
-      "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 78.65,
+      "id": 13337,
+      "title": "语音质量评估指标的抗黑产评测与修补收益",
+      "original_title": "How Hackable Is Your Speech Quality Metric? A Corrected Protocol, a Benchmark, and What Patching Buys",
+      "summary": "该研究指出当前语音质量指标的抗攻击评测存在缺陷，提出取多种攻击种子的最坏情况作为修正评测协议。测试发现现有指标被黑比例差异大，且当前防御修补机制泛化能力不足。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "ai_adversarial",
+      "score_total": 77.65,
       "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试人员需重点关注，这是 AI 接入实战攻防的直接落地。有资质的团队可尽快申请验证，评估新模型在自动化攻击与防御中的潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AnthropicAI/status/2107546569654636883",
-      "reader_url": "https://x.com/AnthropicAI/status/2107546569654636883",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 红队评测必看：评估防御效果不能只跑一个攻击者，必须取多个种子的最坏情况。现有指标修补过拟合自身攻击空间，打补丁前务必测试域外泛化效果。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.10899",
+      "reader_url": "https://arxiv.org/pdf/2610.10899",
       "image_url": null,
-      "author": {
-        "username": "AnthropicAI",
-        "name": "Anthropic",
-        "avatar_url": null,
-        "followers_count": 1726748
-      },
-      "published_at": "2026-10-06T19:00:33",
-      "first_seen_at": "2026-10-10T13:09:44.832873",
-      "sub_category_label": "渗透测试"
+      "author": null,
+      "published_at": "2026-10-09T04:00:00",
+      "first_seen_at": "2026-10-10T20:22:41.223746",
+      "sub_category_label": null
     }
   ]
 }
