@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-12T17:30:37+08:00",
+  "updated_at": "2026-10-12T19:02:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 9,
   "items": [
     {
       "id": 12523,
@@ -23,6 +23,26 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-12T02:23:40.586781",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 14403,
+      "title": "HAFixAgent：利用代码历史记录的 Agent 自动程序修复系统",
+      "original_title": "HAFixAgent: History-Aware Agentic Program Repair",
+      "summary": "提出一种利用代码历史记录辅助大模型 Agent 进行自动化程序修复的系统 HAFixAgent，在 Java 和 Python 缺陷数据集上修复能力大幅提升。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 88.7,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "漏洞修复自动化团队必看：将代码历史上下文注入 Agent 修复循环，能大幅提升弱模型修复成功率（+64.3%），为修复 Agent 的上下文工程提供了高性价比的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2511.01047",
+      "reader_url": "https://arxiv.org/pdf/2511.01047",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-12T10:33:16.948354",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 14084,
@@ -89,6 +109,31 @@
       "sub_category_label": null
     },
     {
+      "id": 13931,
+      "title": "自主渗透 Agent Decepticon 开源，Anthropic 测试自主 Agent 预览",
+      "original_title": "arXiv introduced a hard cap of two monthly submissions per author as submissions topped 40,000 per month, Anthropic is testing features codenamed Arborio (Claude Health for web) an",
+      "summary": "本期动态涵盖开源自主渗透测试 Agent Decepticon，能独立运行侦察与漏洞验证；此外提及 Anthropic 测试代号为 Iggy 的自主 Agent 预览，以及 arXiv 限制 AI 生成论文泛滥的新规。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 75.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Decepticon 值得红队和防守方立刻拉取评估其自动化攻击编排能力；同时 Anthropic Iggy 预览预示通用自主 Agent 进一步开放，需密切关注其带来的潜在滥用风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/lunkertw/status/2109222149781119259",
+      "reader_url": "https://x.com/lunkertw/status/2109222149781119259",
+      "image_url": null,
+      "author": {
+        "username": "lunkertw",
+        "name": "Laban",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T09:58:42",
+      "first_seen_at": "2026-10-12T10:32:38.979649",
+      "sub_category_label": null
+    },
+    {
       "id": 12542,
       "title": "DeepRewind：深度研究Agent过早承诺的预测与修复机制",
       "original_title": "DeepRewind: Predicting and Repairing Premature Commitments in Deep Research Agents",
@@ -106,6 +151,26 @@
       "author": null,
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-12T02:23:40.586781",
+      "sub_category_label": null
+    },
+    {
+      "id": 14407,
+      "title": "跳出自我修复陷阱：双上下文感知改进测试预言机生成",
+      "original_title": "Escaping the Self-Repair Trap: Improving Test Oracle Generation via Dual-Context Awareness",
+      "summary": "论文指出LLM生成测试预言机时存在“自我修复陷阱”，即迭代修复会使模型倾向于生成易满足但难以发现故障的断言；提出非迭代框架DCAware，结合静态与动态上下文来高效生成高质量预言机。",
+      "primary_category": "AI for Sec",
+      "sub_category": "test_oracle_generation",
+      "score_total": 74.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "用LLM做Fuzzing或自动化测试的安全人员必看。文章点破了“只要能跑通就是好测试”的误区，揭示了盲目依赖执行反馈可能导致的测试退化，并给出了低成本的上下文增强方案，能直接指导安全测试工具的提示词设计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.05917",
+      "reader_url": "https://arxiv.org/pdf/2608.05917",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-12T10:34:30.458993",
       "sub_category_label": null
     },
     {
@@ -131,26 +196,6 @@
       },
       "published_at": "2026-10-11T02:05:00",
       "first_seen_at": "2026-10-12T04:31:47.467182",
-      "sub_category_label": null
-    },
-    {
-      "id": 12582,
-      "title": "多智能体生成与检测多模态假新闻评测",
-      "original_title": "Can Multimodal Large Language Models Generate and Detect Multimodal Social Media Fake News?",
-      "summary": "研究构建多智能体框架生成多模态假新闻，并对16个MLLM的检测能力进行基准测试，发现其图像真实性识别能力远不及人类水平。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 74.2,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "这篇研究开源了9000条多模态假新闻数据集和生成框架，安全团队可直接用于测试自有模型对多模态虚假信息的防御底线，评估AI在威胁情报鉴别中的真实效果。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.35809",
-      "reader_url": "https://arxiv.org/pdf/2609.35809",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-30T04:00:00",
-      "first_seen_at": "2026-10-12T02:23:40.586781",
       "sub_category_label": null
     }
   ]
