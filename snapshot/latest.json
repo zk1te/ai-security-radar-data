@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T19:02:17+08:00",
+  "updated_at": "2026-10-12T20:32:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -83,30 +83,6 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-12T02:23:40.586781",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 14067,
-      "title": "实战：用AI Agent消耗5000亿Token反编译FPS游戏",
-      "original_title": "HN Hot Discussion: 500B tokens later: Letting AI agents decompile a first-person shooter",
-      "summary": "作者分享了使用 AI Agent 反编译一款第一人称射击游戏的实战经历，项目消耗了高达 5000 亿个 token，展示了大规模 AI 自动化逆向工程的可行性与资源消耗。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "binary_security",
-      "score_total": 81.42,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "逆向工程是漏洞挖掘的基石。这篇实战展示了 AI Agent 处理大型二进制文件的规模化能力与真实成本，做二进制安全和自动化逆向的兄弟必看，能直接摸清当前模型在复杂反编译任务上的能力上限和工程坑点。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50039092&hn_hot_date=2026-10-12",
-      "reader_url": "https://news.ycombinator.com/item?id=50039092&hn_hot_date=2026-10-12",
-      "image_url": null,
-      "author": {
-        "username": "davikr",
-        "name": "davikr",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-11T02:02:38",
-      "first_seen_at": "2026-10-12T00:06:04.142311",
-      "sub_category_label": null
     },
     {
       "id": 13931,
@@ -196,6 +172,31 @@
       },
       "published_at": "2026-10-11T02:05:00",
       "first_seen_at": "2026-10-12T04:31:47.467182",
+      "sub_category_label": null
+    },
+    {
+      "id": 13930,
+      "title": "Anthropic 扩展网络安全验证计划，授权防御者进行渗透测试",
+      "original_title": "📰 AI DAILY BRIEF — Sunday, Oct 11, 2026  ⚡ Top Story GPT-6 is now live for every ChatGPT user on the planet. Paid tiers run GPT-6 Sol, Free/Go run GPT-6 Luna  — both with \"Intellig",
+      "summary": "Anthropic 扩展 Cyber Verification Program，经验证防御者可在 Claude 高级模型上获得分级攻击权限以进行恶意软件分析与渗透测试。同时 GPT-6 与 Claude Haiku 5.5 发布。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 74.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 红队和安全从业者需关注：通过 Anthropic 的 CVD 计划可申请高级模型的渗透权限，AI 辅助漏洞挖掘和攻防演练正走向规范化流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/SarangMahatwo/status/2109221989655163091",
+      "reader_url": "https://x.com/SarangMahatwo/status/2109221989655163091",
+      "image_url": null,
+      "author": {
+        "username": "SarangMahatwo",
+        "name": "Sarang Mahatwo",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T09:58:04",
+      "first_seen_at": "2026-10-12T10:32:38.979649",
       "sub_category_label": null
     }
   ]
