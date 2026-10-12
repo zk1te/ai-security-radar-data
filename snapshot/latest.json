@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T05:22:47+08:00",
+  "updated_at": "2026-10-13T06:24:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -145,6 +145,31 @@
       "sub_category_label": null
     },
     {
+      "id": 14589,
+      "title": "AI漏洞挖掘平民化：非安全研究员用AI发现140个漏洞",
+      "original_title": "i don’t want to sound like a doomer, but AI is going to break basically every website, supply chain, and piece of software. it’s only a matter of time.  i’m not a security research",
+      "summary": "非安全研究员使用AI工具aeon结合大模型在数月内发现了140个漏洞，并披露了刚发现的钱包扩展严重漏洞，警告AI自动化漏洞挖掘对软件生态的威胁。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "真实展示了AI漏洞挖掘平民化的威胁，非专业人员也能利用大模型批量发现高危漏洞。安全团队需警惕自动化挖矿浪潮，并排查自身资产是否已暴露在风险中。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aaronjmars/status/2109739718812237855",
+      "reader_url": "https://x.com/aaronjmars/status/2109739718812237855",
+      "image_url": null,
+      "author": {
+        "username": "aaronjmars",
+        "name": "@aaronjmars",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T20:15:20",
+      "first_seen_at": "2026-10-12T22:10:01.518527",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 14412,
       "title": "前沿大模型在 Rust 形式化验证任务中表现强劲",
       "original_title": "Solving VeriContest with a Lean-Backed Rust Verifier",
@@ -208,30 +233,6 @@
       "published_at": "2026-10-11T10:07:27",
       "first_seen_at": "2026-10-12T10:32:38.979649",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 14513,
-      "title": "用 Agent 逆向一切：从应用行为到原生二进制",
-      "original_title": "HN Hot Discussion: Reverse engineer anything with agents, from app behavior down to native binaries",
-      "summary": "HN 热门讨论了开源项目 rea，它使用 Agent 技术自动化执行逆向工程，涵盖从应用行为到原生二进制文件的深度分析。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 68.61,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "对二进制安全和逆向团队而言，这是利用 Agent 自动化繁重分析任务的直接案例。建议立即查看其 GitHub 实现，评估能否接入日常分析流程。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50058850&hn_hot_date=2026-10-12",
-      "reader_url": "https://news.ycombinator.com/item?id=50058850&hn_hot_date=2026-10-12",
-      "image_url": null,
-      "author": {
-        "username": "taytus",
-        "name": "taytus",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-12T16:31:55",
-      "first_seen_at": "2026-10-12T18:06:00.080328",
-      "sub_category_label": "二进制安全"
     }
   ]
 }
