@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T20:32:22+08:00",
+  "updated_at": "2026-10-12T21:14:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -42,26 +42,6 @@
       "author": null,
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-12T10:33:16.948354",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 14084,
-      "title": "AI 逆向工程 Agent「rea」爆火，支持二进制分析",
-      "original_title": "GitHub Trending: morluto/rea gained 25599 stars today",
-      "summary": "GitHub 项目 morluto/rea 单日新增超 2.5 万星，该工具利用 AI Agent 辅助逆向工程，覆盖从应用行为到原生二进制分析。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 86.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做二进制安全和自动化逆向的兄弟可以关注下这个爆款工具，评估 Agent 落地逆向任务的实际效果，看能否直接接入现有工作流。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-12&since=daily",
-      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-12&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-12T01:00:15.459600",
-      "first_seen_at": "2026-10-12T01:01:58.046103",
       "sub_category_label": "安全Agent"
     },
     {
@@ -197,6 +177,26 @@
       },
       "published_at": "2026-10-11T09:58:04",
       "first_seen_at": "2026-10-12T10:32:38.979649",
+      "sub_category_label": null
+    },
+    {
+      "id": 12582,
+      "title": "多智能体生成与检测多模态假新闻评测",
+      "original_title": "Can Multimodal Large Language Models Generate and Detect Multimodal Social Media Fake News?",
+      "summary": "研究构建多智能体框架生成多模态假新闻，并对16个MLLM的检测能力进行基准测试，发现其图像真实性识别能力远不及人类水平。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 74.2,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这篇研究开源了9000条多模态假新闻数据集和生成框架，安全团队可直接用于测试自有模型对多模态虚假信息的防御底线，评估AI在威胁情报鉴别中的真实效果。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.35809",
+      "reader_url": "https://arxiv.org/pdf/2609.35809",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-30T04:00:00",
+      "first_seen_at": "2026-10-12T02:23:40.586781",
       "sub_category_label": null
     }
   ]
