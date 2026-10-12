@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T02:20:30+08:00",
+  "updated_at": "2026-10-13T03:52:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -48,6 +48,31 @@
       "published_at": "2026-10-12T14:28:10",
       "first_seen_at": "2026-10-12T15:03:28.436293",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 14547,
+      "title": "黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据",
+      "original_title": "China-based hacker uses AI agents to breach Shinhan, KB Kookmin and Hana, stealing 68,000 customer records  Between late September and early October 2026, one financially motivated",
+      "summary": "某黑客利用开源 AI 渗透代理 ARTEX 结合多款大模型，攻破韩国多家金融机构窃取 6.8 万条客户记录，并在服务器上遗留了 Prompt 和 CLAUDE.md 文件暴露行踪。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 79.94,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gettransilience/status/2109722892208644097",
+      "reader_url": "https://x.com/gettransilience/status/2109722892208644097",
+      "image_url": "https://pbs.twimg.com/media/HUc9Kyua8AAdz8e.jpg",
+      "author": {
+        "username": "gettransilience",
+        "name": "transilienceai",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T19:08:28",
+      "first_seen_at": "2026-10-12T19:38:08.225689",
+      "sub_category_label": null
     },
     {
       "id": 13931,
@@ -158,31 +183,6 @@
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-12T10:34:32.465501",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 13932,
-      "title": "TenantGuard：能自我纠错并回滚的安全修复 Agent",
-      "original_title": "Building TenantGuard for #neatHack — a security agent you’d trust to run unattended. Tenant A could read Tenant B’s invoices. It reproduces the leak, writes a fix — then catches it",
-      "summary": "介绍了名为 TenantGuard 的安全 Agent，它能自主复现多租户数据泄露漏洞、生成修复补丁，还能发现自身修复破坏了合法访问并自动回滚，最终以测试验证而非主观判断为准。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.65,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了安全 Agent 从「发现漏洞」到「闭环修复并自我验证」的完整链路，特别是自动检测修复副作用并回滚的机制，对做自动化安全修复和 Agent 工作流设计的人非常有参考价值。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jmadhanai/status/2109224352046879168",
-      "reader_url": "https://x.com/jmadhanai/status/2109224352046879168",
-      "image_url": null,
-      "author": {
-        "username": "jmadhanai",
-        "name": "J Madhan",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T10:07:27",
-      "first_seen_at": "2026-10-12T10:32:38.979649",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
