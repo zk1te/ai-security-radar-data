@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T14:51:05+08:00",
+  "updated_at": "2026-10-12T15:52:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -45,26 +45,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 12722,
-      "title": "ANCHOR：结合上下文与状态的LLM系统溯源攻击调查",
-      "original_title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
-      "summary": "ANCHOR系统通过结合证据整理与上下文接地的LLM推理，解决传统溯源入侵检测难以构建连贯攻击叙事的问题，在DARPA数据集上显著提升了IoC恢复和攻击阶段归因能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 89.4,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "提出了带状态追踪和上下文校准的LLM调查框架，解决了直接用LLM分析告警易产生误报和时序断裂的问题。对构建安全分析Agent和自动化溯源系统的团队有直接参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.36494",
-      "reader_url": "https://arxiv.org/pdf/2609.36494",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-30T04:00:00",
-      "first_seen_at": "2026-10-11T20:23:35.910478",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 12731,
       "title": "网络入侵检测可复现基准：修正CIC-IDS2017标注与完整评估流水线",
       "original_title": "Multi-Class, Multi-Tier Network Intrusion Detection: A Comprehensive and Reproducible Benchmark",
@@ -83,6 +63,26 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-11T20:23:35.910478",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 12722,
+      "title": "ANCHOR：结合上下文与状态的LLM系统溯源攻击调查",
+      "original_title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
+      "summary": "ANCHOR系统通过结合证据整理与上下文接地的LLM推理，解决传统溯源入侵检测难以构建连贯攻击叙事的问题，在DARPA数据集上显著提升了IoC恢复和攻击阶段归因能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 89.4,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "提出了带状态追踪和上下文校准的LLM调查框架，解决了直接用LLM分析告警易产生误报和时序断裂的问题。对构建安全分析Agent和自动化溯源系统的团队有直接参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.36494",
+      "reader_url": "https://arxiv.org/pdf/2609.36494",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-30T04:00:00",
+      "first_seen_at": "2026-10-11T20:23:35.910478",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 14084,
@@ -169,31 +169,6 @@
       "sub_category_label": null
     },
     {
-      "id": 14013,
-      "title": "GitHub安全实验室推出Fuzzing Taskflow，用Agent自动化Fuzz全流程",
-      "original_title": "Continuous fuzzing finds real bugs, but it still needs someone to write harnesses, watch coverage, and triage every crash.  The GitHub Security Lab built the Fuzzing Taskflow to gi",
-      "summary": "GitHub 安全实验室推出 Fuzzing Taskflow，利用 Agent 自动识别 C/C++ 仓库入口点、编写 harness、运行 AFL++ 并生成漏洞报告，实现 Fuzz 全流程自动化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 80.77,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队必看。这展示了 LLM Agent 在 Fuzzing 领域从辅助走向全流程自动化的最新落地，值得借鉴其 harness 生成与 crash 分诊的流水线设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/github/status/2109364666237350135",
-      "reader_url": "https://x.com/github/status/2109364666237350135",
-      "image_url": null,
-      "author": {
-        "username": "github",
-        "name": "GitHub",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T19:25:01",
-      "first_seen_at": "2026-10-11T19:43:38.911335",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 12696,
       "title": "复现OpenAI-Hugging Face事件并探讨Agent对齐测试改进方向",
       "original_title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
@@ -212,6 +187,26 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-11T20:23:35.910478",
       "sub_category_label": null
+    },
+    {
+      "id": 12720,
+      "title": "CyberPersistBench：评估 LLM 攻击者的持久化能力",
+      "original_title": "CyberPersistBench: Evaluating LLM-Based Cyber Attackers on Installation and Persistence",
+      "summary": "现有 AI 攻击评测多止步于初始访问，CyberPersistBench 首次提出针对系统重启后维持权限的持久化评测基准。测试显示五个前沿 Agent 的自主持久化成功率仅 27.6%--44.8%，开启防御后骤降至 5.5%--13.3%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 78.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "该 Benchmark 补齐了 AI 攻防评测缺失的「持久化」阶段。做自动化渗透和 Red Team Agent 的同学需重点关注，它不仅给出了 200+ 实际测试任务，也暴露了当前 Agent 在后渗透阶段的脆弱性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.36573",
+      "reader_url": "https://arxiv.org/pdf/2609.36573",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-30T04:00:00",
+      "first_seen_at": "2026-10-11T20:23:35.910478",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
