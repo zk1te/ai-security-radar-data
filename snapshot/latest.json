@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-13T03:52:16+08:00",
+  "updated_at": "2026-10-13T04:52:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 14403,
@@ -183,6 +183,31 @@
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-12T10:34:32.465501",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 13932,
+      "title": "TenantGuard：能自我纠错并回滚的安全修复 Agent",
+      "original_title": "Building TenantGuard for #neatHack — a security agent you’d trust to run unattended. Tenant A could read Tenant B’s invoices. It reproduces the leak, writes a fix — then catches it",
+      "summary": "介绍了名为 TenantGuard 的安全 Agent，它能自主复现多租户数据泄露漏洞、生成修复补丁，还能发现自身修复破坏了合法访问并自动回滚，最终以测试验证而非主观判断为准。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了安全 Agent 从「发现漏洞」到「闭环修复并自我验证」的完整链路，特别是自动检测修复副作用并回滚的机制，对做自动化安全修复和 Agent 工作流设计的人非常有参考价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jmadhanai/status/2109224352046879168",
+      "reader_url": "https://x.com/jmadhanai/status/2109224352046879168",
+      "image_url": null,
+      "author": {
+        "username": "jmadhanai",
+        "name": "J Madhan",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T10:07:27",
+      "first_seen_at": "2026-10-12T10:32:38.979649",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
