@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T23:18:06+08:00",
+  "updated_at": "2026-10-13T00:50:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -95,31 +95,6 @@
       "sub_category_label": null
     },
     {
-      "id": 13872,
-      "title": "小米 MiMo 网络安全评测追平 Grok，成本仅其 1/65",
-      "original_title": "คะแนนบนกราฟเท่ากัน แต่ราคาห่างกันเกือบ 65 เท่า เรื่องนี้น่าสนใจกว่าแค่คำว่า “อันดับ 1” ครับ . MiMo-V2.6-Pro ของ Xiaomi ทำ 56 คะแนนบน Artificial Analysis Cyber Index เท่ากับ Grok 4.",
-      "summary": "小米开源模型 MiMo-V2.6-Pro 在 Artificial Analysis Cyber Index 得分接近 Grok 4.7，单任务成本仅 0.18 美元，为构建低成本安全 Agent 提供了新选项。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 74.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全 Agent 的团队该看：MiMo 在漏洞修复等防御任务上表现接近前沿闭源模型，且成本极低、开源无拦截。但评测仅覆盖有源码的防御场景，实网攻防仍需人工兜底。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/sanook_ai/status/2109102938191004048",
-      "reader_url": "https://x.com/sanook_ai/status/2109102938191004048",
-      "image_url": "https://pbs.twimg.com/media/HUSwaL7boAAbuwM.jpg",
-      "author": {
-        "username": "sanook_ai",
-        "name": "Sanook Ai",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T02:05:00",
-      "first_seen_at": "2026-10-12T04:31:47.467182",
-      "sub_category_label": null
-    },
-    {
       "id": 13930,
       "title": "Anthropic 扩展网络安全验证计划，授权防御者进行渗透测试",
       "original_title": "📰 AI DAILY BRIEF — Sunday, Oct 11, 2026  ⚡ Top Story GPT-6 is now live for every ChatGPT user on the planet. Paid tiers run GPT-6 Sol, Free/Go run GPT-6 Luna  — both with \"Intellig",
@@ -187,6 +162,26 @@
       "author": null,
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-12T10:35:12.897243",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 14408,
+      "title": "超越故障定位：微服务根因分析 Agent 的轨迹级研究",
+      "original_title": "Beyond Fault Localization: A Trajectory-Level Study of LLM Agents for Microservice Root Cause Analysis",
+      "summary": "本文提出一种轨迹分析方法论，用于评估 LLM Agent 在微服务根因分析（RCA）中的证据利用能力。研究发现成功调查会利用证据指导后续查询，失败调查则漂移或重复浅层查询，并据此构建防御原型显著提升了准确率。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 69.15,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全调查 Agent 的人必看：这篇揭露了 Agent 在复杂证据链调查中的失败模式并提供修复方案。做 AIOps 和安全溯源的团队能直接借鉴其轨迹评估方法来改进自家的 Agent。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.21310",
+      "reader_url": "https://arxiv.org/pdf/2608.21310",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-12T10:34:32.465501",
       "sub_category_label": "模型评测"
     }
   ]
