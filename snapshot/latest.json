@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T08:47:32+08:00",
+  "updated_at": "2026-10-12T09:17:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -45,6 +45,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 12731,
+      "title": "网络入侵检测可复现基准：修正CIC-IDS2017标注与完整评估流水线",
+      "original_title": "Multi-Class, Multi-Tier Network Intrusion Detection: A Comprehensive and Reproducible Benchmark",
+      "summary": "本文针对CIC-IDS2017数据集的标注错误、流提取不一致和数据泄露问题，构建了修正PCAP级标注的完整评估流水线，对11种表格分类器在二分类、九类攻击族和十五类细粒度三个层级上进行了系统评测，软投票集成模型在细粒度分类上取得0.955的macro-F1。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 89.4,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做IDS和威胁检测的团队应该看：CIC-IDS2017是圈内被用烂的基准但标注问题一直被忽视，本文给了修正版标注和开源流水线，可以直接拿来复现和对比自己的检测模型，避免在脏数据上刷分自欺欺人。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.36039",
+      "reader_url": "https://arxiv.org/pdf/2609.36039",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-30T04:00:00",
+      "first_seen_at": "2026-10-11T20:23:35.910478",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 12722,
       "title": "ANCHOR：结合上下文与状态的LLM系统溯源攻击调查",
       "original_title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
@@ -65,24 +85,24 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 12731,
-      "title": "网络入侵检测可复现基准：修正CIC-IDS2017标注与完整评估流水线",
-      "original_title": "Multi-Class, Multi-Tier Network Intrusion Detection: A Comprehensive and Reproducible Benchmark",
-      "summary": "本文针对CIC-IDS2017数据集的标注错误、流提取不一致和数据泄露问题，构建了修正PCAP级标注的完整评估流水线，对11种表格分类器在二分类、九类攻击族和十五类细粒度三个层级上进行了系统评测，软投票集成模型在细粒度分类上取得0.955的macro-F1。",
+      "id": 14084,
+      "title": "AI 逆向工程 Agent「rea」爆火，支持二进制分析",
+      "original_title": "GitHub Trending: morluto/rea gained 25599 stars today",
+      "summary": "GitHub 项目 morluto/rea 单日新增超 2.5 万星，该工具利用 AI Agent 辅助逆向工程，覆盖从应用行为到原生二进制分析。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 89.4,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "做IDS和威胁检测的团队应该看：CIC-IDS2017是圈内被用烂的基准但标注问题一直被忽视，本文给了修正版标注和开源流水线，可以直接拿来复现和对比自己的检测模型，避免在脏数据上刷分自欺欺人。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.36039",
-      "reader_url": "https://arxiv.org/pdf/2609.36039",
+      "sub_category": "security_agent",
+      "score_total": 86.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做二进制安全和自动化逆向的兄弟可以关注下这个爆款工具，评估 Agent 落地逆向任务的实际效果，看能否直接接入现有工作流。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-12&since=daily",
+      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-12&since=daily",
       "image_url": null,
       "author": null,
-      "published_at": "2026-09-30T04:00:00",
-      "first_seen_at": "2026-10-11T20:23:35.910478",
-      "sub_category_label": "安全评测与Benchmark"
+      "published_at": "2026-10-12T01:00:15.459600",
+      "first_seen_at": "2026-10-12T01:01:58.046103",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 12701,
@@ -192,26 +212,6 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-11T14:23:29.749272",
       "sub_category_label": null
-    },
-    {
-      "id": 12720,
-      "title": "CyberPersistBench：评估 LLM 攻击者的持久化能力",
-      "original_title": "CyberPersistBench: Evaluating LLM-Based Cyber Attackers on Installation and Persistence",
-      "summary": "现有 AI 攻击评测多止步于初始访问，CyberPersistBench 首次提出针对系统重启后维持权限的持久化评测基准。测试显示五个前沿 Agent 的自主持久化成功率仅 27.6%--44.8%，开启防御后骤降至 5.5%--13.3%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 78.5,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "该 Benchmark 补齐了 AI 攻防评测缺失的「持久化」阶段。做自动化渗透和 Red Team Agent 的同学需重点关注，它不仅给出了 200+ 实际测试任务，也暴露了当前 Agent 在后渗透阶段的脆弱性。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.36573",
-      "reader_url": "https://arxiv.org/pdf/2609.36573",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-30T04:00:00",
-      "first_seen_at": "2026-10-11T20:23:35.910478",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
