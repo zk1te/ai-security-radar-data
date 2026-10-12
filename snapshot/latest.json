@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T07:27:27+08:00",
+  "updated_at": "2026-10-13T07:57:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -129,31 +129,6 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 14430,
-      "title": "GitHub Security Lab 发 Fuzzing Taskflow：Agent 自动写 Harness 跑 AFL++",
-      "original_title": "Fuzzing หาแครชได้เก่งครับ แต่คนยังต้องเขียน Harness ไล่ดู Coverage และนั่งแยกทีละแครชว่าเป็นช่องโหว่จริงหรือแค่ Harness พัง . GitHub Security Lab เลยสร้าง “Fuzzing Taskflow” ให้ Ag",
-      "summary": "GitHub Security Lab 推出自动化 Fuzzing 工作流，Agent 可自动分析 C/C++ 项目、编写 Harness、运行 AFL++、去重崩溃并生成报告。系统采用递增时间预算，在覆盖率停滞时自动停止。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "搞漏洞挖掘的必看，这工具把最耗时的写 Harness 和跑 Fuzz 循环自动化了，人只需复核结果。注意它直接在 Host 跑 LLM 生成的 Build 命令，务必在 VM 里用。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/sanook_ai/status/2109601222122442863",
-      "reader_url": "https://x.com/sanook_ai/status/2109601222122442863",
-      "image_url": "https://pbs.twimg.com/media/HUZkEDxaEAAicWJ.jpg",
-      "author": {
-        "username": "sanook_ai",
-        "name": "Sanook Ai",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T11:05:00",
-      "first_seen_at": "2026-10-12T11:36:33.192411",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 14506,
       "title": "AI安全智能体发现XRP账本十年陈旧溢出漏洞，获25万美元赏金",
       "original_title": "An AI security agent just landed a $250,000 bug bounty.  The bug: a decade-old overflow in the XRP Ledger's payment engine that could mint XRP from nothing.  What the XRPL disclosu",
@@ -227,6 +202,31 @@
       "published_at": "2026-10-12T14:06:30",
       "first_seen_at": "2026-10-12T15:02:58.271045",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14037,
+      "title": "加密公司竞相申请 Anthropic OSS Scanner 获取 Claude 漏洞报告",
+      "original_title": "🛡️ Nethermind, ZEUS and VirtEngine are applying for Anthropic’s OSS Scanner to access Claude Mythos vulnerability reports faster, as crypto firms race to use frontier AI for securi",
+      "summary": "Nethermind、ZEUS 和 VirtEngine 正在申请 Anthropic 的 OSS Scanner 权限，以更快获取 Claude Mythos 的漏洞报告，抢在攻击者之前利用前沿 AI 进行安全防御。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 64.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "加密安全团队正在将前沿 AI 漏洞扫描能力引入实际防御流程。AI for Sec 从业者应关注 Claude Mythos 等大模型在漏洞挖掘中的产业落地动态，评估自身工具链的接入时机。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/SaferCrypto/status/2109403672828395749",
+      "reader_url": "https://x.com/SaferCrypto/status/2109403672828395749",
+      "image_url": null,
+      "author": {
+        "username": "SaferCrypto",
+        "name": "Safer Crypto Investing",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T22:00:01",
+      "first_seen_at": "2026-10-12T22:34:49.804112",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
