@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T07:17:13+08:00",
+  "updated_at": "2026-10-12T08:17:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -105,6 +105,30 @@
       "sub_category_label": null
     },
     {
+      "id": 14067,
+      "title": "实战：用AI Agent消耗5000亿Token反编译FPS游戏",
+      "original_title": "HN Hot Discussion: 500B tokens later: Letting AI agents decompile a first-person shooter",
+      "summary": "作者分享了使用 AI Agent 反编译一款第一人称射击游戏的实战经历，项目消耗了高达 5000 亿个 token，展示了大规模 AI 自动化逆向工程的可行性与资源消耗。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "binary_security",
+      "score_total": 81.42,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "逆向工程是漏洞挖掘的基石。这篇实战展示了 AI Agent 处理大型二进制文件的规模化能力与真实成本，做二进制安全和自动化逆向的兄弟必看，能直接摸清当前模型在复杂反编译任务上的能力上限和工程坑点。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50039092&hn_hot_date=2026-10-12",
+      "reader_url": "https://news.ycombinator.com/item?id=50039092&hn_hot_date=2026-10-12",
+      "image_url": null,
+      "author": {
+        "username": "davikr",
+        "name": "davikr",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-11T02:02:38",
+      "first_seen_at": "2026-10-12T00:06:04.142311",
+      "sub_category_label": null
+    },
+    {
       "id": 14013,
       "title": "GitHub安全实验室推出Fuzzing Taskflow，用Agent自动化Fuzz全流程",
       "original_title": "Continuous fuzzing finds real bugs, but it still needs someone to write harnesses, watch coverage, and triage every crash.  The GitHub Security Lab built the Fuzzing Taskflow to gi",
@@ -188,26 +212,6 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-11T20:23:35.910478",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 13089,
-      "title": "探究 LLM 漏洞挖掘代理的 Token 消耗与优化策略",
-      "original_title": "Where Do the Tokens Go? Understanding and Reducing Costs in LLM Agents for Vulnerability Discovery",
-      "summary": "研究分析了 LLM 代理在漏洞挖掘中高消耗低产出的原因，指出代码定位与漏洞推理是核心瓶颈，并提出 AVRI 接口以降低成本同时保持成功率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 78.0,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "对于构建或使用漏洞挖掘 Agent 的安全团队，此论文不仅点明了 token 消耗的两大瓶颈（代码定位与漏洞推理），还给出了有效降本提效的 AVRI 接口设计，值得直接参考借鉴。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.11602",
-      "reader_url": "https://arxiv.org/pdf/2610.11602",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-09T04:00:00",
-      "first_seen_at": "2026-10-11T14:23:29.749272",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
