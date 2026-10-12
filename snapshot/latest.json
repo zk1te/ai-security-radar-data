@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T08:17:18+08:00",
+  "updated_at": "2026-10-12T08:47:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -45,26 +45,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 12731,
-      "title": "网络入侵检测可复现基准：修正CIC-IDS2017标注与完整评估流水线",
-      "original_title": "Multi-Class, Multi-Tier Network Intrusion Detection: A Comprehensive and Reproducible Benchmark",
-      "summary": "本文针对CIC-IDS2017数据集的标注错误、流提取不一致和数据泄露问题，构建了修正PCAP级标注的完整评估流水线，对11种表格分类器在二分类、九类攻击族和十五类细粒度三个层级上进行了系统评测，软投票集成模型在细粒度分类上取得0.955的macro-F1。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 89.4,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "做IDS和威胁检测的团队应该看：CIC-IDS2017是圈内被用烂的基准但标注问题一直被忽视，本文给了修正版标注和开源流水线，可以直接拿来复现和对比自己的检测模型，避免在脏数据上刷分自欺欺人。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.36039",
-      "reader_url": "https://arxiv.org/pdf/2609.36039",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-30T04:00:00",
-      "first_seen_at": "2026-10-11T20:23:35.910478",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 12722,
       "title": "ANCHOR：结合上下文与状态的LLM系统溯源攻击调查",
       "original_title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
@@ -83,6 +63,26 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-11T20:23:35.910478",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 12731,
+      "title": "网络入侵检测可复现基准：修正CIC-IDS2017标注与完整评估流水线",
+      "original_title": "Multi-Class, Multi-Tier Network Intrusion Detection: A Comprehensive and Reproducible Benchmark",
+      "summary": "本文针对CIC-IDS2017数据集的标注错误、流提取不一致和数据泄露问题，构建了修正PCAP级标注的完整评估流水线，对11种表格分类器在二分类、九类攻击族和十五类细粒度三个层级上进行了系统评测，软投票集成模型在细粒度分类上取得0.955的macro-F1。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 89.4,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做IDS和威胁检测的团队应该看：CIC-IDS2017是圈内被用烂的基准但标注问题一直被忽视，本文给了修正版标注和开源流水线，可以直接拿来复现和对比自己的检测模型，避免在脏数据上刷分自欺欺人。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.36039",
+      "reader_url": "https://arxiv.org/pdf/2609.36039",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-30T04:00:00",
+      "first_seen_at": "2026-10-11T20:23:35.910478",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 12701,
