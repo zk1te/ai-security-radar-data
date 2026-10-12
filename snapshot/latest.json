@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T22:46:35+08:00",
+  "updated_at": "2026-10-12T23:18:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -23,6 +23,31 @@
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-12T10:33:16.948354",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14473,
+      "title": "AI 发现 XRP 无限铸造漏洞，风险达 940 亿美元",
+      "original_title": "RT @Cayden_Liao: Our AI found a bug that let anyone mint infinite XRP, with $94B at risk. It had been hiding in one of the most audited cod…",
+      "summary": "推文称其 AI 发现了一个隐藏在高度审计代码中的漏洞，允许任何人铸造无限 XRP，潜在风险高达 940 亿美元。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 81.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 在最严格的审计代码中揪出致命漏洞，直接展示了 AI 辅助漏洞挖掘的实战威力。安全团队应关注 AI 审计工具的能力边界与落地效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2109652348888854562",
+      "reader_url": "https://x.com/pentest_swissky/status/2109652348888854562",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-10-12T14:28:10",
+      "first_seen_at": "2026-10-12T15:03:28.436293",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 13931,
@@ -162,26 +187,6 @@
       "author": null,
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-12T10:35:12.897243",
-      "sub_category_label": "模型评测"
-    },
-    {
-      "id": 14408,
-      "title": "超越故障定位：微服务根因分析 Agent 的轨迹级研究",
-      "original_title": "Beyond Fault Localization: A Trajectory-Level Study of LLM Agents for Microservice Root Cause Analysis",
-      "summary": "本文提出一种轨迹分析方法论，用于评估 LLM Agent 在微服务根因分析（RCA）中的证据利用能力。研究发现成功调查会利用证据指导后续查询，失败调查则漂移或重复浅层查询，并据此构建防御原型显著提升了准确率。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 69.15,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全调查 Agent 的人必看：这篇揭露了 Agent 在复杂证据链调查中的失败模式并提供修复方案。做 AIOps 和安全溯源的团队能直接借鉴其轨迹评估方法来改进自家的 Agent。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2608.21310",
-      "reader_url": "https://arxiv.org/pdf/2608.21310",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-12T04:00:00",
-      "first_seen_at": "2026-10-12T10:34:32.465501",
       "sub_category_label": "模型评测"
     }
   ]
