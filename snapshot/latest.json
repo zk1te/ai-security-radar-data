@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T10:47:44+08:00",
+  "updated_at": "2026-10-12T13:19:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -45,26 +45,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 12722,
-      "title": "ANCHOR：结合上下文与状态的LLM系统溯源攻击调查",
-      "original_title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
-      "summary": "ANCHOR系统通过结合证据整理与上下文接地的LLM推理，解决传统溯源入侵检测难以构建连贯攻击叙事的问题，在DARPA数据集上显著提升了IoC恢复和攻击阶段归因能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 89.4,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "提出了带状态追踪和上下文校准的LLM调查框架，解决了直接用LLM分析告警易产生误报和时序断裂的问题。对构建安全分析Agent和自动化溯源系统的团队有直接参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.36494",
-      "reader_url": "https://arxiv.org/pdf/2609.36494",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-30T04:00:00",
-      "first_seen_at": "2026-10-11T20:23:35.910478",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 12731,
       "title": "网络入侵检测可复现基准：修正CIC-IDS2017标注与完整评估流水线",
       "original_title": "Multi-Class, Multi-Tier Network Intrusion Detection: A Comprehensive and Reproducible Benchmark",
@@ -83,6 +63,26 @@
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-11T20:23:35.910478",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 12722,
+      "title": "ANCHOR：结合上下文与状态的LLM系统溯源攻击调查",
+      "original_title": "Know the Normal, Track the Attack: Context-Grounded and Stateful LLM Investigation over System Provenance",
+      "summary": "ANCHOR系统通过结合证据整理与上下文接地的LLM推理，解决传统溯源入侵检测难以构建连贯攻击叙事的问题，在DARPA数据集上显著提升了IoC恢复和攻击阶段归因能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 89.4,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "提出了带状态追踪和上下文校准的LLM调查框架，解决了直接用LLM分析告警易产生误报和时序断裂的问题。对构建安全分析Agent和自动化溯源系统的团队有直接参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.36494",
+      "reader_url": "https://arxiv.org/pdf/2609.36494",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-30T04:00:00",
+      "first_seen_at": "2026-10-11T20:23:35.910478",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 14084,
