@@ -1,0 +1,753 @@
+{
+  "date": "2026-10-13",
+  "candidate_count": 10,
+  "selected_count": 3,
+  "cover_title": "黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据",
+  "lead_takeaway": "今天的主线很明确：AI Agent 在进攻性安全场景里已经从实验阶段进入实战。攻击者在真实金融犯罪中用开源渗透代理单兵作战，防守侧也有现成的工具和技能包把大模型变成漏洞猎手和凭证测试器。门槛正在快速下降，不管你站攻哪边还是守哪边。",
+  "digest_points": [
+    "01 这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
+    "02 渗透测试团队可以关注这个工具，它用 LLM 解决了登录表单自动识别的痛点，支持本地模型和 Groq，适合集成到自动化测试流程中。",
+    "03 给在用 Claude Code 做安全的人：这套开源包直接补齐了真实漏洞挖掘和渗透测试的脚手架。自带数百个报告模式和工具集成，拿过来就能当安全 Agent 用。"
+  ],
+  "judgement": [
+    "01 这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
+    "02 渗透测试团队可以关注这个工具，它用 LLM 解决了登录表单自动识别的痛点，支持本地模型和 Groq，适合集成到自动化测试流程中。",
+    "03 给在用 Claude Code 做安全的人：这套开源包直接补齐了真实漏洞挖掘和渗透测试的脚手架。自带数百个报告模式和工具集成，拿过来就能当安全 Agent 用。"
+  ],
+  "top_items": [
+    {
+      "id": 14547,
+      "title": "黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据",
+      "original_title": "China-based hacker uses AI agents to breach Shinhan, KB Kookmin and Hana, stealing 68,000 customer records  Between late September and early October 2026, one financially motivated",
+      "summary": "某黑客利用开源 AI 渗透代理 ARTEX 结合多款大模型，攻破韩国多家金融机构窃取 6.8 万条客户记录，并在服务器上遗留了 Prompt 和 CLAUDE.md 文件暴露行踪。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 79.94,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gettransilience/status/2109722892208644097",
+      "reader_url": "https://x.com/gettransilience/status/2109722892208644097",
+      "image_url": "https://pbs.twimg.com/media/HUc9Kyua8AAdz8e.jpg",
+      "author": {
+        "username": "gettransilience",
+        "name": "transilienceai",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T19:08:28",
+      "first_seen_at": "2026-10-12T19:38:08.225689",
+      "sub_category_label": null
+    },
+    {
+      "id": 14604,
+      "title": "BruteForceAI：LLM 驱动的登录测试工具，自动化表单分析与凭证攻击",
+      "original_title": "🚨 BruteForceAI: A LLM-powered login testing tool that combines AI form analysis with automated credential attacks  GitHub: https://t.co/6OTgOMxkWK  The tool uses an LLM to analyze ",
+      "summary": "BruteForceAI 是一个开源的 LLM 驱动登录测试工具，利用 LLM 自动分析登录页面元素，支持暴力破解和密码喷洒模式，适用于渗透测试场景。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.71,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "渗透测试团队可以关注这个工具，它用 LLM 解决了登录表单自动识别的痛点，支持本地模型和 Groq，适合集成到自动化测试流程中。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
+      "reader_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
+      "image_url": "https://pbs.twimg.com/media/HUdzytFW0AAnCwB.jpg",
+      "author": {
+        "username": "DarkWebInformer",
+        "name": "Dark Web Informer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T23:05:05",
+      "first_seen_at": "2026-10-12T23:15:23.412065",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14425,
+      "title": "开源技能包将 Claude 变身专业漏洞猎手",
+      "original_title": "SOMEONE TURNED CLAUDE INTO A FUCKING PROFESSIONAL HACKER ???  Meet claude-bughunter, an open-source skill bundle designed to transform Claude Code into an AI-powered security resea",
+      "summary": "claude-bughunter 是一款开源技能包，为 Claude Code 提供 83 个安全技能和 681 个漏洞报告模式，支持漏洞调查、攻击路径分析和渗透测试辅助，并集成 Burp Suite。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.53,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给在用 Claude Code 做安全的人：这套开源包直接补齐了真实漏洞挖掘和渗透测试的脚手架。自带数百个报告模式和工具集成，拿过来就能当安全 Agent 用。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/4devvvv/status/2109592843643691125",
+      "reader_url": "https://x.com/4devvvv/status/2109592843643691125",
+      "image_url": "https://pbs.twimg.com/media/HUbHgxtXEAArZ_O.jpg",
+      "author": {
+        "username": "4devvvv",
+        "name": "4dev",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T10:31:42",
+      "first_seen_at": "2026-10-13T12:36:47.562593",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 14423,
+      "title": "Darkmoon：注重数据隔离的自主渗透测试平台",
+      "original_title": "Darkmoon is an autonomous penetration testing platform that keeps real target data out of AI models.  GitHub: https://t.co/N5fPnhyIQq  #Darkmoon #AIPentesting #Cybersecurity #OpenS",
+      "summary": "Darkmoon 是一款开源的自主渗透测试平台，其核心特点是在执行安全任务时确保真实目标数据不会被暴露给 AI 模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做红队和渗透测试的同行可以关注，它直接解决了用大模型做安全自动化时的数据脱敏痛点。直接拿开源代码改造成自研安全Agent的底座非常实用。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yogsec/status/2109589927575142695",
+      "reader_url": "https://x.com/yogsec/status/2109589927575142695",
+      "image_url": null,
+      "author": {
+        "username": "yogsec",
+        "name": "Abhinav Singwal",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T10:20:07",
+      "first_seen_at": "2026-10-13T12:36:47.562593",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 13940,
+      "title": "AI安全代理发现XRPL十年老洞，可凭空铸造18万亿XRP",
+      "original_title": "🚨NEW:  An AI security agent reportedly uncovered a decade-old #XRPL flaw that could have enabled the creation of 18 trillion XRP in one transaction, potentially threatening market ",
+      "summary": "据报道，一个AI安全代理发现了XRP账本中存在长达十年的漏洞，允许单笔交易凭空铸造18万亿XRP，开发者在公开披露前已紧急修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI安全代理在真实环境挖出高危链上漏洞，标志着AI漏洞挖掘实战能力的突破。智能合约审计和自动化安全团队应立刻关注其在真实代码挖掘中的潜力与落地进展。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/strivex_/status/2109234339502563329",
+      "reader_url": "https://x.com/strivex_/status/2109234339502563329",
+      "image_url": "https://pbs.twimg.com/media/HUWBcwPbYAAULJg.jpg",
+      "author": {
+        "username": "strivex_",
+        "name": "Ledger Man 🎩",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T10:47:08",
+      "first_seen_at": "2026-10-13T12:36:47.562593",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14589,
+      "title": "AI漏洞挖掘平民化：非安全研究员用AI发现140个漏洞",
+      "original_title": "i don’t want to sound like a doomer, but AI is going to break basically every website, supply chain, and piece of software. it’s only a matter of time.  i’m not a security research",
+      "summary": "非安全研究员使用AI工具aeon结合大模型在数月内发现了140个漏洞，并披露了刚发现的钱包扩展严重漏洞，警告AI自动化漏洞挖掘对软件生态的威胁。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "真实展示了AI漏洞挖掘平民化的威胁，非专业人员也能利用大模型批量发现高危漏洞。安全团队需警惕自动化挖矿浪潮，并排查自身资产是否已暴露在风险中。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aaronjmars/status/2109739718812237855",
+      "reader_url": "https://x.com/aaronjmars/status/2109739718812237855",
+      "image_url": null,
+      "author": {
+        "username": "aaronjmars",
+        "name": "@aaronjmars",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T20:15:20",
+      "first_seen_at": "2026-10-12T22:10:01.518527",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 14644,
+        "title": "自动化逆向 Agent 工具 rea 登顶 GitHub Trending",
+        "original_title": "GitHub Trending: morluto/rea gained 45327 stars today",
+        "summary": "一款名为 rea 的 AI Agent 工具登上 GitHub Trending，可对应用行为及原生二进制文件进行自动化逆向分析，单日新增超 4.5 万 Star。",
+        "primary_category": "AI for Sec",
+        "sub_category": "binary_security",
+        "score_total": 81.45,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "做二进制安全或逆向分析的同行可以关注下这个开源 Agent。用 AI 自动化逆向是一个值得跟踪的落地方向，看看它的能力边界在哪。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-13&since=daily",
+        "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-13&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-13T00:13:35.124938",
+        "first_seen_at": "2026-10-13T00:14:37.828590",
+        "sub_category_label": "二进制安全"
+      },
+      {
+        "id": 14013,
+        "title": "GitHub安全实验室推出Fuzzing Taskflow，用Agent自动化Fuzz全流程",
+        "original_title": "Continuous fuzzing finds real bugs, but it still needs someone to write harnesses, watch coverage, and triage every crash.  The GitHub Security Lab built the Fuzzing Taskflow to gi",
+        "summary": "GitHub 安全实验室推出 Fuzzing Taskflow，利用 Agent 自动识别 C/C++ 仓库入口点、编写 harness、运行 AFL++ 并生成漏洞报告，实现 Fuzz 全流程自动化。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 80.77,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "漏洞挖掘团队必看。这展示了 LLM Agent 在 Fuzzing 领域从辅助走向全流程自动化的最新落地，值得借鉴其 harness 生成与 crash 分诊的流水线设计。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/github/status/2109364666237350135",
+        "reader_url": "https://x.com/github/status/2109364666237350135",
+        "image_url": null,
+        "author": {
+          "username": "github",
+          "name": "GitHub",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-11T19:25:01",
+        "first_seen_at": "2026-10-13T08:36:04.062018",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 14604,
+        "title": "BruteForceAI：LLM 驱动的登录测试工具，自动化表单分析与凭证攻击",
+        "original_title": "🚨 BruteForceAI: A LLM-powered login testing tool that combines AI form analysis with automated credential attacks  GitHub: https://t.co/6OTgOMxkWK  The tool uses an LLM to analyze ",
+        "summary": "BruteForceAI 是一个开源的 LLM 驱动登录测试工具，利用 LLM 自动分析登录页面元素，支持暴力破解和密码喷洒模式，适用于渗透测试场景。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 77.71,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "渗透测试团队可以关注这个工具，它用 LLM 解决了登录表单自动识别的痛点，支持本地模型和 Groq，适合集成到自动化测试流程中。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
+        "reader_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
+        "image_url": "https://pbs.twimg.com/media/HUdzytFW0AAnCwB.jpg",
+        "author": {
+          "username": "DarkWebInformer",
+          "name": "Dark Web Informer",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-12T23:05:05",
+        "first_seen_at": "2026-10-12T23:15:23.412065",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 14425,
+        "title": "开源技能包将 Claude 变身专业漏洞猎手",
+        "original_title": "SOMEONE TURNED CLAUDE INTO A FUCKING PROFESSIONAL HACKER ???  Meet claude-bughunter, an open-source skill bundle designed to transform Claude Code into an AI-powered security resea",
+        "summary": "claude-bughunter 是一款开源技能包，为 Claude Code 提供 83 个安全技能和 681 个漏洞报告模式，支持漏洞调查、攻击路径分析和渗透测试辅助，并集成 Burp Suite。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 74.53,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "给在用 Claude Code 做安全的人：这套开源包直接补齐了真实漏洞挖掘和渗透测试的脚手架。自带数百个报告模式和工具集成，拿过来就能当安全 Agent 用。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/4devvvv/status/2109592843643691125",
+        "reader_url": "https://x.com/4devvvv/status/2109592843643691125",
+        "image_url": "https://pbs.twimg.com/media/HUbHgxtXEAArZ_O.jpg",
+        "author": {
+          "username": "4devvvv",
+          "name": "4dev",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-12T10:31:42",
+        "first_seen_at": "2026-10-13T12:36:47.562593",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 14423,
+        "title": "Darkmoon：注重数据隔离的自主渗透测试平台",
+        "original_title": "Darkmoon is an autonomous penetration testing platform that keeps real target data out of AI models.  GitHub: https://t.co/N5fPnhyIQq  #Darkmoon #AIPentesting #Cybersecurity #OpenS",
+        "summary": "Darkmoon 是一款开源的自主渗透测试平台，其核心特点是在执行安全任务时确保真实目标数据不会被暴露给 AI 模型。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 74.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做红队和渗透测试的同行可以关注，它直接解决了用大模型做安全自动化时的数据脱敏痛点。直接拿开源代码改造成自研安全Agent的底座非常实用。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/yogsec/status/2109589927575142695",
+        "reader_url": "https://x.com/yogsec/status/2109589927575142695",
+        "image_url": null,
+        "author": {
+          "username": "yogsec",
+          "name": "Abhinav Singwal",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-12T10:20:07",
+        "first_seen_at": "2026-10-13T12:36:47.562593",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 13940,
+        "title": "AI安全代理发现XRPL十年老洞，可凭空铸造18万亿XRP",
+        "original_title": "🚨NEW:  An AI security agent reportedly uncovered a decade-old #XRPL flaw that could have enabled the creation of 18 trillion XRP in one transaction, potentially threatening market ",
+        "summary": "据报道，一个AI安全代理发现了XRP账本中存在长达十年的漏洞，允许单笔交易凭空铸造18万亿XRP，开发者在公开披露前已紧急修复。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 74.4,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "AI安全代理在真实环境挖出高危链上漏洞，标志着AI漏洞挖掘实战能力的突破。智能合约审计和自动化安全团队应立刻关注其在真实代码挖掘中的潜力与落地进展。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/strivex_/status/2109234339502563329",
+        "reader_url": "https://x.com/strivex_/status/2109234339502563329",
+        "image_url": "https://pbs.twimg.com/media/HUWBcwPbYAAULJg.jpg",
+        "author": {
+          "username": "strivex_",
+          "name": "Ledger Man 🎩",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-11T10:47:08",
+        "first_seen_at": "2026-10-13T12:36:47.562593",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 14589,
+        "title": "AI漏洞挖掘平民化：非安全研究员用AI发现140个漏洞",
+        "original_title": "i don’t want to sound like a doomer, but AI is going to break basically every website, supply chain, and piece of software. it’s only a matter of time.  i’m not a security research",
+        "summary": "非安全研究员使用AI工具aeon结合大模型在数月内发现了140个漏洞，并披露了刚发现的钱包扩展严重漏洞，警告AI自动化漏洞挖掘对软件生态的威胁。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 73.65,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "真实展示了AI漏洞挖掘平民化的威胁，非专业人员也能利用大模型批量发现高危漏洞。安全团队需警惕自动化挖矿浪潮，并排查自身资产是否已暴露在风险中。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/aaronjmars/status/2109739718812237855",
+        "reader_url": "https://x.com/aaronjmars/status/2109739718812237855",
+        "image_url": null,
+        "author": {
+          "username": "aaronjmars",
+          "name": "@aaronjmars",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-12T20:15:20",
+        "first_seen_at": "2026-10-12T22:10:01.518527",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 13982,
+        "title": "OrcaCyber Zero 1.5 发布：号称 Cybench 满分的网络安全专用 AI 模型",
+        "original_title": "AI & CYBERSECURITY — OrcaCyber Zero 1.5 RELEASED  OrcaRouter has released OrcaCyber Zero 1.5, a cybersecurity-focused AI model designed for authorized vulnerability research, penet",
+        "summary": "OrcaRouter 发布 OrcaCyber Zero 1.5 安全专用模型，号称 Cybench 100%（39/39）、CVE-Bench 95.8%，支持百万 token 上下文，面向授权漏洞研究和渗透测试，访问仅限认证安全团队。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 72.76,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全从业者应关注：Cybench 满分成绩需独立验证，别被营销数字带偏；限制访问模式可能是 AI 安全工具商业化的新路径，值得跟踪其后续评测和真实落地效果。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/CyberPulse56/status/2109294930254532925",
+        "reader_url": "https://x.com/CyberPulse56/status/2109294930254532925",
+        "image_url": null,
+        "author": {
+          "username": "CyberPulse56",
+          "name": "CyberPulse",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-11T14:47:54",
+        "first_seen_at": "2026-10-13T10:36:23.485489",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 14547,
+        "title": "黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据",
+        "original_title": "China-based hacker uses AI agents to breach Shinhan, KB Kookmin and Hana, stealing 68,000 customer records  Between late September and early October 2026, one financially motivated",
+        "summary": "某黑客利用开源 AI 渗透代理 ARTEX 结合多款大模型，攻破韩国多家金融机构窃取 6.8 万条客户记录，并在服务器上遗留了 Prompt 和 CLAUDE.md 文件暴露行踪。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security | security_agent",
+        "score_total": 79.94,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/gettransilience/status/2109722892208644097",
+        "reader_url": "https://x.com/gettransilience/status/2109722892208644097",
+        "image_url": "https://pbs.twimg.com/media/HUc9Kyua8AAdz8e.jpg",
+        "author": {
+          "username": "gettransilience",
+          "name": "transilienceai",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-12T19:08:28",
+        "first_seen_at": "2026-10-12T19:38:08.225689",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "binary_security": {
+        "label": "二进制安全",
+        "items": [
+          {
+            "id": 14644,
+            "title": "自动化逆向 Agent 工具 rea 登顶 GitHub Trending",
+            "original_title": "GitHub Trending: morluto/rea gained 45327 stars today",
+            "summary": "一款名为 rea 的 AI Agent 工具登上 GitHub Trending，可对应用行为及原生二进制文件进行自动化逆向分析，单日新增超 4.5 万 Star。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 81.45,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做二进制安全或逆向分析的同行可以关注下这个开源 Agent。用 AI 自动化逆向是一个值得跟踪的落地方向，看看它的能力边界在哪。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-13&since=daily",
+            "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-13&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-13T00:13:35.124938",
+            "first_seen_at": "2026-10-13T00:14:37.828590",
+            "sub_category_label": "二进制安全"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 14013,
+            "title": "GitHub安全实验室推出Fuzzing Taskflow，用Agent自动化Fuzz全流程",
+            "original_title": "Continuous fuzzing finds real bugs, but it still needs someone to write harnesses, watch coverage, and triage every crash.  The GitHub Security Lab built the Fuzzing Taskflow to gi",
+            "summary": "GitHub 安全实验室推出 Fuzzing Taskflow，利用 Agent 自动识别 C/C++ 仓库入口点、编写 harness、运行 AFL++ 并生成漏洞报告，实现 Fuzz 全流程自动化。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 80.77,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "漏洞挖掘团队必看。这展示了 LLM Agent 在 Fuzzing 领域从辅助走向全流程自动化的最新落地，值得借鉴其 harness 生成与 crash 分诊的流水线设计。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/github/status/2109364666237350135",
+            "reader_url": "https://x.com/github/status/2109364666237350135",
+            "image_url": null,
+            "author": {
+              "username": "github",
+              "name": "GitHub",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-11T19:25:01",
+            "first_seen_at": "2026-10-13T08:36:04.062018",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 14149,
+            "title": "Agent Fuzzing 去重陷阱：基于崩溃位置去重易漏报高危根因",
+            "original_title": "Deconstructing the typical architectural triage vulnerability inside automated agent fuzzing workflows when filtering unique execution crashes.  This code demonstrates how a naive ",
+            "summary": "自动化 Agent Fuzzing 工作流中，若仅按崩溃代码位置去重，会导致不同根因触发的同一行崩溃被误判为重复而永久抑制，造成高危漏洞漏报。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 71.7,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "自研或使用 Agent Fuzzing 工具的安全工程师必看，检查你的去重逻辑是否按根因而非崩溃点分类，否则可能已悄悄漏掉大批真实漏洞。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/PythonDvz/status/2109523364339495213",
+            "reader_url": "https://x.com/PythonDvz/status/2109523364339495213",
+            "image_url": null,
+            "author": {
+              "username": "PythonDvz",
+              "name": "Python Developer",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-12T05:55:37",
+            "first_seen_at": "2026-10-13T06:35:58.537552",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 14604,
+            "title": "BruteForceAI：LLM 驱动的登录测试工具，自动化表单分析与凭证攻击",
+            "original_title": "🚨 BruteForceAI: A LLM-powered login testing tool that combines AI form analysis with automated credential attacks  GitHub: https://t.co/6OTgOMxkWK  The tool uses an LLM to analyze ",
+            "summary": "BruteForceAI 是一个开源的 LLM 驱动登录测试工具，利用 LLM 自动分析登录页面元素，支持暴力破解和密码喷洒模式，适用于渗透测试场景。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 77.71,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "渗透测试团队可以关注这个工具，它用 LLM 解决了登录表单自动识别的痛点，支持本地模型和 Groq，适合集成到自动化测试流程中。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
+            "reader_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
+            "image_url": "https://pbs.twimg.com/media/HUdzytFW0AAnCwB.jpg",
+            "author": {
+              "username": "DarkWebInformer",
+              "name": "Dark Web Informer",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-12T23:05:05",
+            "first_seen_at": "2026-10-12T23:15:23.412065",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 14423,
+            "title": "Darkmoon：注重数据隔离的自主渗透测试平台",
+            "original_title": "Darkmoon is an autonomous penetration testing platform that keeps real target data out of AI models.  GitHub: https://t.co/N5fPnhyIQq  #Darkmoon #AIPentesting #Cybersecurity #OpenS",
+            "summary": "Darkmoon 是一款开源的自主渗透测试平台，其核心特点是在执行安全任务时确保真实目标数据不会被暴露给 AI 模型。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做红队和渗透测试的同行可以关注，它直接解决了用大模型做安全自动化时的数据脱敏痛点。直接拿开源代码改造成自研安全Agent的底座非常实用。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/yogsec/status/2109589927575142695",
+            "reader_url": "https://x.com/yogsec/status/2109589927575142695",
+            "image_url": null,
+            "author": {
+              "username": "yogsec",
+              "name": "Abhinav Singwal",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-12T10:20:07",
+            "first_seen_at": "2026-10-13T12:36:47.562593",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 13940,
+            "title": "AI安全代理发现XRPL十年老洞，可凭空铸造18万亿XRP",
+            "original_title": "🚨NEW:  An AI security agent reportedly uncovered a decade-old #XRPL flaw that could have enabled the creation of 18 trillion XRP in one transaction, potentially threatening market ",
+            "summary": "据报道，一个AI安全代理发现了XRP账本中存在长达十年的漏洞，允许单笔交易凭空铸造18万亿XRP，开发者在公开披露前已紧急修复。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.4,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI安全代理在真实环境挖出高危链上漏洞，标志着AI漏洞挖掘实战能力的突破。智能合约审计和自动化安全团队应立刻关注其在真实代码挖掘中的潜力与落地进展。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/strivex_/status/2109234339502563329",
+            "reader_url": "https://x.com/strivex_/status/2109234339502563329",
+            "image_url": "https://pbs.twimg.com/media/HUWBcwPbYAAULJg.jpg",
+            "author": {
+              "username": "strivex_",
+              "name": "Ledger Man 🎩",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-11T10:47:08",
+            "first_seen_at": "2026-10-13T12:36:47.562593",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 14425,
+            "title": "开源技能包将 Claude 变身专业漏洞猎手",
+            "original_title": "SOMEONE TURNED CLAUDE INTO A FUCKING PROFESSIONAL HACKER ???  Meet claude-bughunter, an open-source skill bundle designed to transform Claude Code into an AI-powered security resea",
+            "summary": "claude-bughunter 是一款开源技能包，为 Claude Code 提供 83 个安全技能和 681 个漏洞报告模式，支持漏洞调查、攻击路径分析和渗透测试辅助，并集成 Burp Suite。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 74.53,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "给在用 Claude Code 做安全的人：这套开源包直接补齐了真实漏洞挖掘和渗透测试的脚手架。自带数百个报告模式和工具集成，拿过来就能当安全 Agent 用。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/4devvvv/status/2109592843643691125",
+            "reader_url": "https://x.com/4devvvv/status/2109592843643691125",
+            "image_url": "https://pbs.twimg.com/media/HUbHgxtXEAArZ_O.jpg",
+            "author": {
+              "username": "4devvvv",
+              "name": "4dev",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-12T10:31:42",
+            "first_seen_at": "2026-10-13T12:36:47.562593",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 14589,
+            "title": "AI漏洞挖掘平民化：非安全研究员用AI发现140个漏洞",
+            "original_title": "i don’t want to sound like a doomer, but AI is going to break basically every website, supply chain, and piece of software. it’s only a matter of time.  i’m not a security research",
+            "summary": "非安全研究员使用AI工具aeon结合大模型在数月内发现了140个漏洞，并披露了刚发现的钱包扩展严重漏洞，警告AI自动化漏洞挖掘对软件生态的威胁。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.65,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "真实展示了AI漏洞挖掘平民化的威胁，非专业人员也能利用大模型批量发现高危漏洞。安全团队需警惕自动化挖矿浪潮，并排查自身资产是否已暴露在风险中。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/aaronjmars/status/2109739718812237855",
+            "reader_url": "https://x.com/aaronjmars/status/2109739718812237855",
+            "image_url": null,
+            "author": {
+              "username": "aaronjmars",
+              "name": "@aaronjmars",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-12T20:15:20",
+            "first_seen_at": "2026-10-12T22:10:01.518527",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 13982,
+            "title": "OrcaCyber Zero 1.5 发布：号称 Cybench 满分的网络安全专用 AI 模型",
+            "original_title": "AI & CYBERSECURITY — OrcaCyber Zero 1.5 RELEASED  OrcaRouter has released OrcaCyber Zero 1.5, a cybersecurity-focused AI model designed for authorized vulnerability research, penet",
+            "summary": "OrcaRouter 发布 OrcaCyber Zero 1.5 安全专用模型，号称 Cybench 100%（39/39）、CVE-Bench 95.8%，支持百万 token 上下文，面向授权漏洞研究和渗透测试，访问仅限认证安全团队。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 72.76,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全从业者应关注：Cybench 满分成绩需独立验证，别被营销数字带偏；限制访问模式可能是 AI 安全工具商业化的新路径，值得跟踪其后续评测和真实落地效果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/CyberPulse56/status/2109294930254532925",
+            "reader_url": "https://x.com/CyberPulse56/status/2109294930254532925",
+            "image_url": null,
+            "author": {
+              "username": "CyberPulse56",
+              "name": "CyberPulse",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-11T14:47:54",
+            "first_seen_at": "2026-10-13T10:36:23.485489",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security | security_agent": {
+        "label": "agent_security | security_agent",
+        "items": [
+          {
+            "id": 14547,
+            "title": "黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据",
+            "original_title": "China-based hacker uses AI agents to breach Shinhan, KB Kookmin and Hana, stealing 68,000 customer records  Between late September and early October 2026, one financially motivated",
+            "summary": "某黑客利用开源 AI 渗透代理 ARTEX 结合多款大模型，攻破韩国多家金融机构窃取 6.8 万条客户记录，并在服务器上遗留了 Prompt 和 CLAUDE.md 文件暴露行踪。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security | security_agent",
+            "score_total": 79.94,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/gettransilience/status/2109722892208644097",
+            "reader_url": "https://x.com/gettransilience/status/2109722892208644097",
+            "image_url": "https://pbs.twimg.com/media/HUc9Kyua8AAdz8e.jpg",
+            "author": {
+              "username": "gettransilience",
+              "name": "transilienceai",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-12T19:08:28",
+            "first_seen_at": "2026-10-12T19:38:08.225689",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 10,
+    "highlight_count": 2,
+    "paper_count": 0,
+    "source_count": 2,
+    "top_score": 81,
+    "category_count": {
+      "AI for Sec": 9,
+      "AI Tech": 0,
+      "Sec for AI | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "binary_security": {
+          "label": "二进制安全",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 3
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 3
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security | security_agent": {
+          "label": "agent_security | security_agent",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 9,
+      "top_score": 81,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分条目是韩国银行被 AI 渗透代理 ARTEX 攻破窃取 6.8 万条数据的事件，这是开源 AI Agent 首次在真实金融攻击中打出实质战果，攻击者还在服务器上留了 CLAUDE.md 文件暴露行踪。建议团队立刻把这个当预警：把 CLAUDE.md、prompt 文件这类 AI Agent 遗留物纳入威胁狩猎的 IOC 清单，同时拉几个红队同学试试 BruteForceAI 和 claude-bughunter 这类开源工具，摸清攻击者现在手里的能力底牌。",
+  "method_note": "按北京时间 2026-10-13 的系统入库窗口筛选，从 10 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "github-ai-security",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# 黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线很明确：AI Agent 在进攻性安全场景里已经从实验阶段进入实战。攻击者在真实金融犯罪中用开源渗透代理单兵作战，防守侧也有现成的工具和技能包把大模型变成漏洞猎手和凭证测试器。门槛正在快速下降，不管你站攻哪边还是守哪边。\n- 01 这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。\n- 02 渗透测试团队可以关注这个工具，它用 LLM 解决了登录表单自动识别的痛点，支持本地模型和 Groq，适合集成到自动化测试流程中。\n- 03 给在用 Claude Code 做安全的人：这套开源包直接补齐了真实漏洞挖掘和渗透测试的脚手架。自带数百个报告模式和工具集成，拿过来就能当安全 Agent 用。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据**：这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。 来源：x-manual-ai-security\n- **BruteForceAI：LLM 驱动的登录测试工具，自动化表单分析与凭证攻击**：渗透测试团队可以关注这个工具，它用 LLM 解决了登录表单自动识别的痛点，支持本地模型和 Groq，适合集成到自动化测试流程中。 来源：x-manual-ai-security\n- **开源技能包将 Claude 变身专业漏洞猎手**：给在用 Claude Code 做安全的人：这套开源包直接补齐了真实漏洞挖掘和渗透测试的脚手架。自带数百个报告模式和工具集成，拿过来就能当安全 Agent 用。 来源：x-manual-ai-security\n\n## 也值得关注\n- Darkmoon：注重数据隔离的自主渗透测试平台（74.45）\n- AI安全代理发现XRPL十年老洞，可凭空铸造18万亿XRP（74.4）\n- AI漏洞挖掘平民化：非安全研究员用AI发现140个漏洞（73.65）\n\n## AI for Sec\n\n### 二进制安全\n- 自动化逆向 Agent 工具 rea 登顶 GitHub Trending（81.45）\n\n### AI Fuzzing\n- GitHub安全实验室推出Fuzzing Taskflow，用Agent自动化Fuzz全流程（80.77）\n- Agent Fuzzing 去重陷阱：基于崩溃位置去重易漏报高危根因（71.7）\n\n### 安全Agent\n- BruteForceAI：LLM 驱动的登录测试工具，自动化表单分析与凭证攻击（77.71）\n- Darkmoon：注重数据隔离的自主渗透测试平台（74.45）\n- AI安全代理发现XRPL十年老洞，可凭空铸造18万亿XRP（74.4）\n\n### 漏洞挖掘\n- 开源技能包将 Claude 变身专业漏洞猎手（74.53）\n- AI漏洞挖掘平民化：非安全研究员用AI发现140个漏洞（73.65）\n- OrcaCyber Zero 1.5 发布：号称 Cybench 满分的网络安全专用 AI 模型（72.76）\n\n## AI Tech 短讯\n\n## 今日论文\n\n## 今日观察\n最高分条目是韩国银行被 AI 渗透代理 ARTEX 攻破窃取 6.8 万条数据的事件，这是开源 AI Agent 首次在真实金融攻击中打出实质战果，攻击者还在服务器上留了 CLAUDE.md 文件暴露行踪。建议团队立刻把这个当预警：把 CLAUDE.md、prompt 文件这类 AI Agent 遗留物纳入威胁狩猎的 IOC 清单，同时拉几个红队同学试试 BruteForceAI 和 claude-bughunter 这类开源工具，摸清攻击者现在手里的能力底牌。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-10-13 的系统入库窗口筛选，从 10 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-10-14T00:01:46+08:00"
+}
