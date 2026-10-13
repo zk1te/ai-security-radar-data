@@ -1,9 +1,34 @@
 {
-  "updated_at": "2026-10-13T20:50:54+08:00",
+  "updated_at": "2026-10-14T00:54:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
+    {
+      "id": 14473,
+      "title": "AI 发现 XRP 无限铸造漏洞，风险达 940 亿美元",
+      "original_title": "RT @Cayden_Liao: Our AI found a bug that let anyone mint infinite XRP, with $94B at risk. It had been hiding in one of the most audited cod…",
+      "summary": "推文称其 AI 发现了一个隐藏在高度审计代码中的漏洞，允许任何人铸造无限 XRP，潜在风险高达 940 亿美元。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 81.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 在最严格的审计代码中揪出致命漏洞，直接展示了 AI 辅助漏洞挖掘的实战威力。安全团队应关注 AI 审计工具的能力边界与落地效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2109652348888854562",
+      "reader_url": "https://x.com/pentest_swissky/status/2109652348888854562",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-10-12T14:28:10",
+      "first_seen_at": "2026-10-13T16:37:37.516020",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 14013,
       "title": "GitHub安全实验室推出Fuzzing Taskflow，用Agent自动化Fuzz全流程",
@@ -27,31 +52,6 @@
       },
       "published_at": "2026-10-11T19:25:01",
       "first_seen_at": "2026-10-13T08:36:04.062018",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 14031,
-      "title": "GitHub 开源 AI 模糊测试流水线 Fuzzing Taskflow",
-      "original_title": "GitHub 官方开源了一个 AI 驱动的模糊测试流水线 Fuzzing Taskflow，把安全研究员最累的那段活整个交给了 agent。  传统 fuzzing 的痛点不在跑，而在人：找入口、写 harness、盯覆盖率、分拣 crash，全是体力活。现在你只给它一个 GitHub 仓库地址，agent 自己识别入口点、分析构建系统、写 AFL++ ha",
-      "summary": "GitHub Security Lab 开源了基于 LLM 的模糊测试流水线 Fuzzing Taskflow，Agent 可自动完成识别入口、编写 AFL++ harness、跑覆盖率反馈循环及生成漏洞报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 77.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全研究员和代码审计人员必看。全自动 harness 生成与覆盖率反馈循环能显著减少体力活，但务必在隔离环境中运行，它会在宿主机直接执行 LLM 选择的构建命令。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/real_IvenC/status/2109390813255860249",
-      "reader_url": "https://x.com/real_IvenC/status/2109390813255860249",
-      "image_url": "https://pbs.twimg.com/media/HUYPxFAWkAARp9P.jpg",
-      "author": {
-        "username": "real_IvenC",
-        "name": "Iven C",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T21:08:55",
-      "first_seen_at": "2026-10-13T04:35:36.605280",
       "sub_category_label": "AI Fuzzing"
     },
     {
@@ -103,31 +103,6 @@
       "published_at": "2026-10-12T10:31:42",
       "first_seen_at": "2026-10-13T12:36:47.562593",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 14108,
-      "title": "GitHub 安全实验室实现 Fuzzing 全流程 Agent 化，并警告提示注入风险",
-      "original_title": "@github's Security Lab gave the fuzzing loop to an agent, from harnesses to crash triage.  Best line is their own warning: it runs commands the model picks on the host, so a prompt",
-      "summary": "GitHub 安全实验室将 Fuzzing 循环（从编写 harness 到 crash 分析）交给 AI Agent 处理，但同时警告称该 Agent 会在宿主机执行模型生成的命令，存在被提示注入导致任意命令执行的风险。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 74.46,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "想把 LLM 接入漏洞挖掘流程的安全团队必看。Fuzzing Agent 直接在宿主机跑命令无异于敞开 RCE 大门，落地自动化安全工具时务必隔离执行环境，别让防御工具变内网跳板。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/dameops/status/2109483484133888018",
-      "reader_url": "https://x.com/dameops/status/2109483484133888018",
-      "image_url": null,
-      "author": {
-        "username": "dameops",
-        "name": "Damian",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T03:17:09",
-      "first_seen_at": "2026-10-13T04:35:36.605280",
-      "sub_category_label": null
     },
     {
       "id": 14423,
@@ -230,29 +205,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 14131,
-      "title": "GitHub Security Lab 发布 Agent 驱动的 Fuzzing Taskflow",
-      "original_title": "ファジングの見守りを、 エージェントに任せる  GitHub Security Lab が作った 「Fuzzing Taskflow」👀  C/C++ のリポジトリを指すだけで、 脆弱性の報告まで進みます　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
-      "summary": "GitHub Security Lab 发布 Fuzzing Taskflow，用 Agent 自动完成 C/C++ 仓库的 harness 编写、AFL++ 运行、覆盖率迭代和漏洞报告。工具会在无容器环境直接执行 LLM 生成的构建命令，存在提示注入风险，建议在隔离环境中低权限运行。",
+      "id": 14137,
+      "title": "AI 助力发现 XRP Ledger 十年漏洞，可凭空增发万亿代币",
+      "original_title": "AI HELPED UNCOVER AN XRP LEDGER BUG THAT COULD HAVE CREATED TRILLIONS OF XRP  A security review of the XRP Ledger uncovered a vulnerability hidden in its code for more than a decad",
+      "summary": "安全人员借助 AI 安全 Agent 在 XRP Ledger 支付引擎中发现了一个隐藏十余年的算术溢出漏洞，理论上可通过单笔交易凭空生成约 18 万亿 XRP。开发者已在披露前修复漏洞。",
       "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 74.2,
+      "sub_category": "vuln_discovery",
+      "score_total": 73.5,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "GitHub 官方出品的 fuzzing agent，把 harness 编写和 crash 去重都自动化了，值得安全团队直接试用和借鉴设计。注意它无沙箱执行 LLM 生成的构建命令，部署时务必隔离。",
+      "recommendation_reason": "这是 AI 辅助漏洞挖掘在真实区块链基础设施中的落地案例。做代码审计和底层安全的同行应关注 AI Agent 在发现深层逻辑与算术漏洞上的实际成效，它正在改变遗留系统的安全评估方式。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/yuichisatoeco/status/2109493764540575867",
-      "reader_url": "https://x.com/yuichisatoeco/status/2109493764540575867",
-      "image_url": null,
+      "canonical_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
+      "reader_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
+      "image_url": "https://pbs.twimg.com/media/HUZ0kMlaQAAg31P.jpg",
       "author": {
-        "username": "yuichisatoeco",
-        "name": "佐藤優一 | AIプロダクト開発・AI業務改革・AI教育",
+        "username": "JoakimsWorld369",
+        "name": "Joakims World 369",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-12T03:58:00",
-      "first_seen_at": "2026-10-13T04:35:36.605280",
-      "sub_category_label": "AI Fuzzing"
+      "published_at": "2026-10-12T04:29:20",
+      "first_seen_at": "2026-10-13T06:35:58.537552",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
