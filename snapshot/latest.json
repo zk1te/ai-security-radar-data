@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-10-13T19:19:10+08:00",
+  "updated_at": "2026-10-13T20:19:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 14644,
-      "title": "自动化逆向 Agent 工具 rea 登顶 GitHub Trending",
-      "original_title": "GitHub Trending: morluto/rea gained 45327 stars today",
-      "summary": "一款名为 rea 的 AI Agent 工具登上 GitHub Trending，可对应用行为及原生二进制文件进行自动化逆向分析，单日新增超 4.5 万 Star。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 81.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做二进制安全或逆向分析的同行可以关注下这个开源 Agent。用 AI 自动化逆向是一个值得跟踪的落地方向，看看它的能力边界在哪。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-13&since=daily",
-      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-13&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-13T00:13:35.124938",
-      "first_seen_at": "2026-10-13T00:14:37.828590",
-      "sub_category_label": "二进制安全"
-    },
     {
       "id": 14013,
       "title": "GitHub安全实验室推出Fuzzing Taskflow，用Agent自动化Fuzz全流程",
@@ -247,6 +227,31 @@
       },
       "published_at": "2026-10-12T04:29:20",
       "first_seen_at": "2026-10-13T06:35:58.537552",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 13982,
+      "title": "OrcaCyber Zero 1.5 发布：号称 Cybench 满分的网络安全专用 AI 模型",
+      "original_title": "AI & CYBERSECURITY — OrcaCyber Zero 1.5 RELEASED  OrcaRouter has released OrcaCyber Zero 1.5, a cybersecurity-focused AI model designed for authorized vulnerability research, penet",
+      "summary": "OrcaRouter 发布 OrcaCyber Zero 1.5 安全专用模型，号称 Cybench 100%（39/39）、CVE-Bench 95.8%，支持百万 token 上下文，面向授权漏洞研究和渗透测试，访问仅限认证安全团队。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.76,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全从业者应关注：Cybench 满分成绩需独立验证，别被营销数字带偏；限制访问模式可能是 AI 安全工具商业化的新路径，值得跟踪其后续评测和真实落地效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CyberPulse56/status/2109294930254532925",
+      "reader_url": "https://x.com/CyberPulse56/status/2109294930254532925",
+      "image_url": null,
+      "author": {
+        "username": "CyberPulse56",
+        "name": "CyberPulse",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T14:47:54",
+      "first_seen_at": "2026-10-13T10:36:23.485489",
       "sub_category_label": "漏洞挖掘"
     }
   ]
