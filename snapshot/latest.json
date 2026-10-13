@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T16:04:36+08:00",
+  "updated_at": "2026-10-13T16:47:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,6 +23,31 @@
       "published_at": "2026-10-13T00:13:35.124938",
       "first_seen_at": "2026-10-13T00:14:37.828590",
       "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 14013,
+      "title": "GitHub安全实验室推出Fuzzing Taskflow，用Agent自动化Fuzz全流程",
+      "original_title": "Continuous fuzzing finds real bugs, but it still needs someone to write harnesses, watch coverage, and triage every crash.  The GitHub Security Lab built the Fuzzing Taskflow to gi",
+      "summary": "GitHub 安全实验室推出 Fuzzing Taskflow，利用 Agent 自动识别 C/C++ 仓库入口点、编写 harness、运行 AFL++ 并生成漏洞报告，实现 Fuzz 全流程自动化。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 80.77,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘团队必看。这展示了 LLM Agent 在 Fuzzing 领域从辅助走向全流程自动化的最新落地，值得借鉴其 harness 生成与 crash 分诊的流水线设计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/github/status/2109364666237350135",
+      "reader_url": "https://x.com/github/status/2109364666237350135",
+      "image_url": null,
+      "author": {
+        "username": "github",
+        "name": "GitHub",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T19:25:01",
+      "first_seen_at": "2026-10-13T08:36:04.062018",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 14604,
@@ -150,6 +175,56 @@
       "sub_category_label": null
     },
     {
+      "id": 14014,
+      "title": "GitHub Fuzzing Taskflow：Agent 决策，工具执行",
+      "original_title": "The design rule here travels well past fuzzing: the agent owns the decisions, the tools own the execution.  GitHub Security Lab shipped the Fuzzing Taskflow. Point it at a C or C++",
+      "summary": "GitHub Security Lab 发布 Fuzzing Taskflow，针对 C/C++ 仓库实现端到端自动化测试。其架构强调 Agent 决策与工具执行分离，使用 SQLite 统一管理状态并基于覆盖率停滞作为停止条件。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 74.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "推荐做自动化安全测试的同学参考，这个 Agent Fuzzing 架构极具借鉴价值：状态全存 SQLite 易复现，停止条件设为覆盖率停滞而非盲目跑，可直接抄进自己的安全 Agent 设计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Real_SlickShady/status/2109365267419607179",
+      "reader_url": "https://x.com/Real_SlickShady/status/2109365267419607179",
+      "image_url": null,
+      "author": {
+        "username": "Real_SlickShady",
+        "name": "Brandon Slicklein",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T19:27:24",
+      "first_seen_at": "2026-10-13T08:36:04.062018",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 14170,
+      "title": "AI Agent 发现 XRP 账本十年老溢出漏洞",
+      "original_title": "Day 31 #DeFiNews  AI Agent Discovers Decade-Old Overflow Vulnerability in XRP Ledger Core  Overview & Key Highlights  @RippleXDev  developers have pushed an emergency patch across ",
+      "summary": "安全初创公司 Veria Labs 开发的 AI 安全 Agent 自主发现了 XRP 账本支付引擎中的整数溢出漏洞，攻击者可借此凭空铸造 XRP，Ripple 开发者已紧急修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI Agent 在实战中自主挖出区块链底层十年老漏洞并促成紧急修复。这证明 AI 漏洞挖掘已走向生产级应用，安全团队应重点关注 AI Agent 在代码审计与漏洞挖掘中的实际落地效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/flamechamp/status/2109545616682663949",
+      "reader_url": "https://x.com/flamechamp/status/2109545616682663949",
+      "image_url": null,
+      "author": {
+        "username": "flamechamp",
+        "name": "flamechamp",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T07:24:03",
+      "first_seen_at": "2026-10-13T08:36:04.062018",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 14131,
       "title": "GitHub Security Lab 发布 Agent 驱动的 Fuzzing Taskflow",
       "original_title": "ファジングの見守りを、 エージェントに任せる  GitHub Security Lab が作った 「Fuzzing Taskflow」👀  C/C++ のリポジトリを指すだけで、 脆弱性の報告まで進みます　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
@@ -173,81 +248,6 @@
       "published_at": "2026-10-12T03:58:00",
       "first_seen_at": "2026-10-13T04:35:36.605280",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 14589,
-      "title": "AI漏洞挖掘平民化：非安全研究员用AI发现140个漏洞",
-      "original_title": "i don’t want to sound like a doomer, but AI is going to break basically every website, supply chain, and piece of software. it’s only a matter of time.  i’m not a security research",
-      "summary": "非安全研究员使用AI工具aeon结合大模型在数月内发现了140个漏洞，并披露了刚发现的钱包扩展严重漏洞，警告AI自动化漏洞挖掘对软件生态的威胁。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.65,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "真实展示了AI漏洞挖掘平民化的威胁，非专业人员也能利用大模型批量发现高危漏洞。安全团队需警惕自动化挖矿浪潮，并排查自身资产是否已暴露在风险中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aaronjmars/status/2109739718812237855",
-      "reader_url": "https://x.com/aaronjmars/status/2109739718812237855",
-      "image_url": null,
-      "author": {
-        "username": "aaronjmars",
-        "name": "@aaronjmars",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T20:15:20",
-      "first_seen_at": "2026-10-12T22:10:01.518527",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 14137,
-      "title": "AI 助力发现 XRP Ledger 十年漏洞，可凭空增发万亿代币",
-      "original_title": "AI HELPED UNCOVER AN XRP LEDGER BUG THAT COULD HAVE CREATED TRILLIONS OF XRP  A security review of the XRP Ledger uncovered a vulnerability hidden in its code for more than a decad",
-      "summary": "安全人员借助 AI 安全 Agent 在 XRP Ledger 支付引擎中发现了一个隐藏十余年的算术溢出漏洞，理论上可通过单笔交易凭空生成约 18 万亿 XRP。开发者已在披露前修复漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 辅助漏洞挖掘在真实区块链基础设施中的落地案例。做代码审计和底层安全的同行应关注 AI Agent 在发现深层逻辑与算术漏洞上的实际成效，它正在改变遗留系统的安全评估方式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
-      "reader_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
-      "image_url": "https://pbs.twimg.com/media/HUZ0kMlaQAAg31P.jpg",
-      "author": {
-        "username": "JoakimsWorld369",
-        "name": "Joakims World 369",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T04:29:20",
-      "first_seen_at": "2026-10-13T06:35:58.537552",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 14032,
-      "title": "GitHub 安全实验室 Fuzzing Taskflow：AI Agent 全自动挖掘 C/C++ 漏洞",
-      "original_title": "Can fuzzing become autonomous?  GitHub Security Lab’s Fuzzing Taskflow hands the entire vulnerability discovery workflow to an AI agent for C/C++ repositories.  🔍 Entrypoint analys",
-      "summary": "GitHub Security Lab 的 Fuzzing Taskflow 将 C/C++ 仓库的漏洞发现全流程交给 AI Agent，覆盖入口点分析、Harness 生成、AFL++ Fuzzing 与漏洞报告，实现端到端自动化测试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全研发与漏洞挖掘团队必看：GitHub 官方安全实验室下场做 AI Fuzzing Agent，证明 LLM 驱动的自动化漏洞挖掘已具备产业落地可行性。可直接参考其工作流设计自研安全 Agent。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/galaxper/status/2109392439379185777",
-      "reader_url": "https://x.com/galaxper/status/2109392439379185777",
-      "image_url": null,
-      "author": {
-        "username": "galaxper",
-        "name": "Super Intelligence",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T21:15:22",
-      "first_seen_at": "2026-10-13T04:35:36.605280",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
