@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-13T08:29:02+08:00",
+  "updated_at": "2026-10-13T09:00:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 14644,
@@ -100,6 +100,56 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 14051,
+      "title": "GitHub Security Lab 推出 AI Fuzzing 全流程 Agent",
+      "original_title": "GitHub Security Labが作った「Fuzzing Taskflow」は、C/C++のプロジェクトのファジングを、ハーネスの作成からクラッシュの分析までAIエージェントに任せる仕組み。日本時間10/12にGitHubがXで改めて紹介している（ブログの公開は米国時間9/24）。 GitHubのリポジトリを指定するだけで、エージェントがファジングの対",
+      "summary": "GitHub Security Lab 开源 Fuzzing Taskflow，该 Agent 能根据指定仓库自动完成 C/C++ 项目的目标选择、Harness 生成、AFL++ 调度及 Crash 分析，并输出修复建议报告。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可直接参考其端到端 Fuzzing Agent 闭环设计。注意其安全提示：需在隔离环境中运行，防范 LLM 生成的构建命令执行风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/multilayer/status/2109426811809726476",
+      "reader_url": "https://x.com/multilayer/status/2109426811809726476",
+      "image_url": null,
+      "author": {
+        "username": "multilayer",
+        "name": "multilayer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T23:31:57",
+      "first_seen_at": "2026-10-13T00:35:02.489126",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14052,
+      "title": "GitHub Security Lab 推出 AI Fuzzing 任务流，自动化生成 Harness 并提报 Bug",
+      "original_title": "@github GitHub says its Security Lab Fuzzing Taskflow identifies entrypoints in a C or C++ repository, crafts harnesses, runs AFL++ and files a report for each unique bug. The comp",
+      "summary": "GitHub Security Lab 的 Fuzzing Taskflow 利用 Agent 自动识别 C/C++ 代码库入口点，生成 Fuzzing harness，运行 AFL++ 并为每个 bug 提交报告，实现了 fuzzing 全流程的自动化。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.71,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 驱动的自动化 fuzzing 正在从概念走向真实开发流程。安全团队应关注 GitHub 的这一实践，思考如何将 Agent 融入漏洞挖掘工作流，提升 harness 编写和 crash 分拣效率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jackchan_xyz/status/2109427190807097844",
+      "reader_url": "https://x.com/jackchan_xyz/status/2109427190807097844",
+      "image_url": null,
+      "author": {
+        "username": "jackchan_xyz",
+        "name": "Jack Chan",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T23:33:28",
+      "first_seen_at": "2026-10-13T00:35:02.489126",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 14589,
       "title": "AI漏洞挖掘平民化：非安全研究员用AI发现140个漏洞",
       "original_title": "i don’t want to sound like a doomer, but AI is going to break basically every website, supply chain, and piece of software. it’s only a matter of time.  i’m not a security research",
@@ -149,54 +199,29 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 14506,
-      "title": "AI安全智能体发现XRP账本十年陈旧溢出漏洞，获25万美元赏金",
-      "original_title": "An AI security agent just landed a $250,000 bug bounty.  The bug: a decade-old overflow in the XRP Ledger's payment engine that could mint XRP from nothing.  What the XRPL disclosu",
-      "summary": "Veria Labs的AI安全智能体发现XRP账本支付引擎中存在自2015年以来的整数溢出漏洞，可凭空铸造18.45万亿XRP，智能体自主完成双漏洞链式利用并构建可用exploit，获25万美元赏金。",
+      "id": 14078,
+      "title": "icicle-python 发布：支持 x64/ARM64 的灰盒固件 fuzzing 绑定",
+      "original_title": "icicle-python — Python bindings for the Icicle emulator, enabling grey-box firmware fuzzing, binary emulation, and reverse-engineering workflows across x64 and ARM64 targets. https",
+      "summary": "icicle-python 为 Icicle 模拟器提供 Python 绑定，支持灰盒固件 fuzzing、二进制模拟与逆向工程，覆盖 x64 和 ARM64 架构。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.5,
+      "sub_category": "fuzzing",
+      "score_total": 67.96,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "这是AI安全智能体在真实金融基础设施中发现高危漏洞并自主链式利用的标志性实战案例，证明AI漏洞挖掘已从研究演示走向产业级交付。安全团队应立刻关注此类Agent的发现效率和覆盖面，重新评估现有审计和赏金计划的盲区。",
+      "recommendation_reason": "做固件 fuzzing 和二进制模拟的兄弟直接看，这库能让你在 Python 环境里直接跑 Icicle，省去手搓 Rust 接口的时间，快速融入现有安全工具链。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AliRamadan/status/2109694527141261470",
-      "reader_url": "https://x.com/AliRamadan/status/2109694527141261470",
-      "image_url": "https://pbs.twimg.com/media/HUcj-yXbAAAGDEb.jpg",
+      "canonical_url": "https://x.com/KitPloit/status/2109433962963587446",
+      "reader_url": "https://x.com/KitPloit/status/2109433962963587446",
+      "image_url": "https://pbs.twimg.com/media/HUY3Au4WMAAeb9z.jpg",
       "author": {
-        "username": "AliRamadan",
-        "name": "Ali",
+        "username": "KitPloit",
+        "name": "☣ KitPloit - Hacker Tools",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-12T17:15:46",
-      "first_seen_at": "2026-10-12T17:38:51.090832",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 14530,
-      "title": "使用 Claude 将 eventpoll 漏洞利用移植至 Android",
-      "original_title": "Using Claude for porting an exploit for an eventpoll vulnerability to Android (@Shiftreduce)  https://t.co/lDBjbt7Pzp  #infosec #llm https://t.co/B8hR1X1yCH",
-      "summary": "安全研究员 @Shiftreduce 分享了利用 Claude 大模型将 Linux eventpoll 漏洞的 exploit 移植到 Android 平台的实践。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 66.97,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "直接展示 LLM 在跨平台 exploit 移植上的实战效果，做漏洞挖掘和红队工具开发的兄弟可以参考，看大模型到底能把 Exploit 开发效率提升多少。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xor0ne/status/2109661165219434546",
-      "reader_url": "https://x.com/0xor0ne/status/2109661165219434546",
-      "image_url": "https://pbs.twimg.com/media/HUcFpoxWwAAroJf.jpg",
-      "author": {
-        "username": "0xor0ne",
-        "name": "0xor0ne",
-        "avatar_url": null,
-        "followers_count": 93861
-      },
-      "published_at": "2026-10-12T15:03:12",
-      "first_seen_at": "2026-10-12T19:06:21.825552",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-10-12T00:00:22",
+      "first_seen_at": "2026-10-13T00:35:02.489126",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
