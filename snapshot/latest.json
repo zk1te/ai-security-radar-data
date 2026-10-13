@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T04:31:12+08:00",
+  "updated_at": "2026-10-14T05:02:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -50,29 +50,29 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 14013,
-      "title": "GitHub安全实验室推出Fuzzing Taskflow，用Agent自动化Fuzz全流程",
-      "original_title": "Continuous fuzzing finds real bugs, but it still needs someone to write harnesses, watch coverage, and triage every crash.  The GitHub Security Lab built the Fuzzing Taskflow to gi",
-      "summary": "GitHub 安全实验室推出 Fuzzing Taskflow，利用 Agent 自动识别 C/C++ 仓库入口点、编写 harness、运行 AFL++ 并生成漏洞报告，实现 Fuzz 全流程自动化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 80.77,
+      "id": 14547,
+      "title": "黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据",
+      "original_title": "China-based hacker uses AI agents to breach Shinhan, KB Kookmin and Hana, stealing 68,000 customer records  Between late September and early October 2026, one financially motivated",
+      "summary": "某黑客利用开源 AI 渗透代理 ARTEX 结合多款大模型，攻破韩国多家金融机构窃取 6.8 万条客户记录，并在服务器上遗留了 Prompt 和 CLAUDE.md 文件暴露行踪。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 79.94,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队必看。这展示了 LLM Agent 在 Fuzzing 领域从辅助走向全流程自动化的最新落地，值得借鉴其 harness 生成与 crash 分诊的流水线设计。",
+      "recommendation_reason": "这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/github/status/2109364666237350135",
-      "reader_url": "https://x.com/github/status/2109364666237350135",
-      "image_url": null,
+      "canonical_url": "https://x.com/gettransilience/status/2109722892208644097",
+      "reader_url": "https://x.com/gettransilience/status/2109722892208644097",
+      "image_url": "https://pbs.twimg.com/media/HUc9Kyua8AAdz8e.jpg",
       "author": {
-        "username": "github",
-        "name": "GitHub",
+        "username": "gettransilience",
+        "name": "transilienceai",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-11T19:25:01",
-      "first_seen_at": "2026-10-13T08:36:04.062018",
-      "sub_category_label": "AI Fuzzing"
+      "published_at": "2026-10-12T19:08:28",
+      "first_seen_at": "2026-10-13T20:38:12.514025",
+      "sub_category_label": null
     },
     {
       "id": 14430,
@@ -220,29 +220,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 14014,
-      "title": "GitHub Fuzzing Taskflow：Agent 决策，工具执行",
-      "original_title": "The design rule here travels well past fuzzing: the agent owns the decisions, the tools own the execution.  GitHub Security Lab shipped the Fuzzing Taskflow. Point it at a C or C++",
-      "summary": "GitHub Security Lab 发布 Fuzzing Taskflow，针对 C/C++ 仓库实现端到端自动化测试。其架构强调 Agent 决策与工具执行分离，使用 SQLite 统一管理状态并基于覆盖率停滞作为停止条件。",
+      "id": 13940,
+      "title": "AI安全代理发现XRPL十年老洞，可凭空铸造18万亿XRP",
+      "original_title": "🚨NEW:  An AI security agent reportedly uncovered a decade-old #XRPL flaw that could have enabled the creation of 18 trillion XRP in one transaction, potentially threatening market ",
+      "summary": "据报道，一个AI安全代理发现了XRP账本中存在长达十年的漏洞，允许单笔交易凭空铸造18万亿XRP，开发者在公开披露前已紧急修复。",
       "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 74.45,
+      "sub_category": "security_agent",
+      "score_total": 74.4,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "推荐做自动化安全测试的同学参考，这个 Agent Fuzzing 架构极具借鉴价值：状态全存 SQLite 易复现，停止条件设为覆盖率停滞而非盲目跑，可直接抄进自己的安全 Agent 设计。",
+      "recommendation_reason": "AI安全代理在真实环境挖出高危链上漏洞，标志着AI漏洞挖掘实战能力的突破。智能合约审计和自动化安全团队应立刻关注其在真实代码挖掘中的潜力与落地进展。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Real_SlickShady/status/2109365267419607179",
-      "reader_url": "https://x.com/Real_SlickShady/status/2109365267419607179",
-      "image_url": null,
+      "canonical_url": "https://x.com/strivex_/status/2109234339502563329",
+      "reader_url": "https://x.com/strivex_/status/2109234339502563329",
+      "image_url": "https://pbs.twimg.com/media/HUWBcwPbYAAULJg.jpg",
       "author": {
-        "username": "Real_SlickShady",
-        "name": "Brandon Slicklein",
+        "username": "strivex_",
+        "name": "Ledger Man 🎩",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-11T19:27:24",
-      "first_seen_at": "2026-10-13T08:36:04.062018",
-      "sub_category_label": "AI Fuzzing"
+      "published_at": "2026-10-11T10:47:08",
+      "first_seen_at": "2026-10-13T12:36:47.562593",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
