@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-13T07:57:30+08:00",
+  "updated_at": "2026-10-13T08:29:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
+    {
+      "id": 14644,
+      "title": "自动化逆向 Agent 工具 rea 登顶 GitHub Trending",
+      "original_title": "GitHub Trending: morluto/rea gained 45327 stars today",
+      "summary": "一款名为 rea 的 AI Agent 工具登上 GitHub Trending，可对应用行为及原生二进制文件进行自动化逆向分析，单日新增超 4.5 万 Star。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 81.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做二进制安全或逆向分析的同行可以关注下这个开源 Agent。用 AI 自动化逆向是一个值得跟踪的落地方向，看看它的能力边界在哪。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-13&since=daily",
+      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-13T00:13:35.124938",
+      "first_seen_at": "2026-10-13T00:14:37.828590",
+      "sub_category_label": "二进制安全"
+    },
     {
       "id": 14473,
       "title": "AI 发现 XRP 无限铸造漏洞，风险达 940 亿美元",
@@ -176,56 +196,6 @@
       },
       "published_at": "2026-10-12T15:03:12",
       "first_seen_at": "2026-10-12T19:06:21.825552",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 14469,
-      "title": "开源多 Agent 渗透测试工具 Pentest Swarm AI",
-      "original_title": "i found an open-source AI pentesting tool that turns multiple AI agents into a coordinated security testing team.  and it goes beyond basic vulnerability scans.  Pentest Swarm AI c",
-      "summary": "Pentest Swarm AI 是一款开源安全工具，利用多个 AI Agent 协同执行渗透测试工作流，支持复杂多步任务与漏洞分析。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.62,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "多 Agent 协同是目前安全自动化的重要演进方向。红队和攻防工程师可关注其编排机制及多步任务拆解思路，评估是否可借鉴用于提升现有自动化渗透效率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/BIGMayrr/status/2109646898193674434",
-      "reader_url": "https://x.com/BIGMayrr/status/2109646898193674434",
-      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HUb4n-MX0AAUckm.jpg",
-      "author": {
-        "username": "BIGMayrr",
-        "name": "Mayor.",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T14:06:30",
-      "first_seen_at": "2026-10-12T15:02:58.271045",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 14037,
-      "title": "加密公司竞相申请 Anthropic OSS Scanner 获取 Claude 漏洞报告",
-      "original_title": "🛡️ Nethermind, ZEUS and VirtEngine are applying for Anthropic’s OSS Scanner to access Claude Mythos vulnerability reports faster, as crypto firms race to use frontier AI for securi",
-      "summary": "Nethermind、ZEUS 和 VirtEngine 正在申请 Anthropic 的 OSS Scanner 权限，以更快获取 Claude Mythos 的漏洞报告，抢在攻击者之前利用前沿 AI 进行安全防御。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 64.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "加密安全团队正在将前沿 AI 漏洞扫描能力引入实际防御流程。AI for Sec 从业者应关注 Claude Mythos 等大模型在漏洞挖掘中的产业落地动态，评估自身工具链的接入时机。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SaferCrypto/status/2109403672828395749",
-      "reader_url": "https://x.com/SaferCrypto/status/2109403672828395749",
-      "image_url": null,
-      "author": {
-        "username": "SaferCrypto",
-        "name": "Safer Crypto Investing",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T22:00:01",
-      "first_seen_at": "2026-10-12T22:34:49.804112",
       "sub_category_label": "漏洞挖掘"
     }
   ]
