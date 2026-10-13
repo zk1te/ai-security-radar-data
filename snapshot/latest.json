@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T09:00:45+08:00",
+  "updated_at": "2026-10-13T11:01:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -175,6 +175,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 14036,
+      "title": "GitHub 推出 LLM 驱动 Fuzzing Agent，架构清晰但无沙盒",
+      "original_title": "GitHub's fuzzing agent gets the split right: the LLM picks what to fuzz and which coverage gap to chase, MCP tools run AFL++ and clang, state lives in SQLite. And they say it: no s",
+      "summary": "GitHub 的 fuzzing agent 采用 LLM 负责选定 fuzz 目标和覆盖率缺口，MCP 工具执行 AFL++ 与 clang，状态存于 SQLite。因无沙盒机制，建议在一次性虚拟机中运行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 71.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "LLM+MCP 做 Fuzzing 的落地参考：职责拆分清晰，直接复用 AFL++。安全团队可关注其架构设计，但务必隔离运行环境防逃逸。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HiloW_Ai/status/2109403021398401077",
+      "reader_url": "https://x.com/HiloW_Ai/status/2109403021398401077",
+      "image_url": null,
+      "author": {
+        "username": "HiloW_Ai",
+        "name": "HiloW.Ai",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T21:57:25",
+      "first_seen_at": "2026-10-13T02:35:26.340546",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 14513,
       "title": "用 Agent 逆向一切：从应用行为到原生二进制",
       "original_title": "HN Hot Discussion: Reverse engineer anything with agents, from app behavior down to native binaries",
@@ -197,31 +222,6 @@
       "published_at": "2026-10-12T16:31:55",
       "first_seen_at": "2026-10-12T18:06:00.080328",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 14078,
-      "title": "icicle-python 发布：支持 x64/ARM64 的灰盒固件 fuzzing 绑定",
-      "original_title": "icicle-python — Python bindings for the Icicle emulator, enabling grey-box firmware fuzzing, binary emulation, and reverse-engineering workflows across x64 and ARM64 targets. https",
-      "summary": "icicle-python 为 Icicle 模拟器提供 Python 绑定，支持灰盒固件 fuzzing、二进制模拟与逆向工程，覆盖 x64 和 ARM64 架构。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 67.96,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做固件 fuzzing 和二进制模拟的兄弟直接看，这库能让你在 Python 环境里直接跑 Icicle，省去手搓 Rust 接口的时间，快速融入现有安全工具链。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/KitPloit/status/2109433962963587446",
-      "reader_url": "https://x.com/KitPloit/status/2109433962963587446",
-      "image_url": "https://pbs.twimg.com/media/HUY3Au4WMAAeb9z.jpg",
-      "author": {
-        "username": "KitPloit",
-        "name": "☣ KitPloit - Hacker Tools",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T00:00:22",
-      "first_seen_at": "2026-10-13T00:35:02.489126",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
