@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T20:19:17+08:00",
+  "updated_at": "2026-10-13T20:50:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -55,54 +55,54 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 14051,
-      "title": "GitHub Security Lab 推出 AI Fuzzing 全流程 Agent",
-      "original_title": "GitHub Security Labが作った「Fuzzing Taskflow」は、C/C++のプロジェクトのファジングを、ハーネスの作成からクラッシュの分析までAIエージェントに任せる仕組み。日本時間10/12にGitHubがXで改めて紹介している（ブログの公開は米国時間9/24）。 GitHubのリポジトリを指定するだけで、エージェントがファジングの対",
-      "summary": "GitHub Security Lab 开源 Fuzzing Taskflow，该 Agent 能根据指定仓库自动完成 C/C++ 项目的目标选择、Harness 生成、AFL++ 调度及 Crash 分析，并输出修复建议报告。",
+      "id": 14430,
+      "title": "GitHub Security Lab 发 Fuzzing Taskflow：Agent 自动写 Harness 跑 AFL++",
+      "original_title": "Fuzzing หาแครชได้เก่งครับ แต่คนยังต้องเขียน Harness ไล่ดู Coverage และนั่งแยกทีละแครชว่าเป็นช่องโหว่จริงหรือแค่ Harness พัง . GitHub Security Lab เลยสร้าง “Fuzzing Taskflow” ให้ Ag",
+      "summary": "GitHub Security Lab 推出自动化 Fuzzing 工作流，Agent 可自动分析 C/C++ 项目、编写 Harness、运行 AFL++、去重崩溃并生成报告。系统采用递增时间预算，在覆盖率停滞时自动停止。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
+      "sub_category": "fuzzing",
       "score_total": 75.95,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "安全团队可直接参考其端到端 Fuzzing Agent 闭环设计。注意其安全提示：需在隔离环境中运行，防范 LLM 生成的构建命令执行风险。",
+      "recommendation_reason": "搞漏洞挖掘的必看，这工具把最耗时的写 Harness 和跑 Fuzz 循环自动化了，人只需复核结果。注意它直接在 Host 跑 LLM 生成的 Build 命令，务必在 VM 里用。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/multilayer/status/2109426811809726476",
-      "reader_url": "https://x.com/multilayer/status/2109426811809726476",
-      "image_url": null,
+      "canonical_url": "https://x.com/sanook_ai/status/2109601222122442863",
+      "reader_url": "https://x.com/sanook_ai/status/2109601222122442863",
+      "image_url": "https://pbs.twimg.com/media/HUZkEDxaEAAicWJ.jpg",
       "author": {
-        "username": "multilayer",
-        "name": "multilayer",
+        "username": "sanook_ai",
+        "name": "Sanook Ai",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-11T23:31:57",
-      "first_seen_at": "2026-10-13T00:35:02.489126",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-10-12T11:05:00",
+      "first_seen_at": "2026-10-13T12:36:47.562593",
+      "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 14052,
-      "title": "GitHub Security Lab 推出 AI Fuzzing 任务流，自动化生成 Harness 并提报 Bug",
-      "original_title": "@github GitHub says its Security Lab Fuzzing Taskflow identifies entrypoints in a C or C++ repository, crafts harnesses, runs AFL++ and files a report for each unique bug. The comp",
-      "summary": "GitHub Security Lab 的 Fuzzing Taskflow 利用 Agent 自动识别 C/C++ 代码库入口点，生成 Fuzzing harness，运行 AFL++ 并为每个 bug 提交报告，实现了 fuzzing 全流程的自动化。",
+      "id": 14425,
+      "title": "开源技能包将 Claude 变身专业漏洞猎手",
+      "original_title": "SOMEONE TURNED CLAUDE INTO A FUCKING PROFESSIONAL HACKER ???  Meet claude-bughunter, an open-source skill bundle designed to transform Claude Code into an AI-powered security resea",
+      "summary": "claude-bughunter 是一款开源技能包，为 Claude Code 提供 83 个安全技能和 681 个漏洞报告模式，支持漏洞调查、攻击路径分析和渗透测试辅助，并集成 Burp Suite。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.71,
-      "include_status": "highlight",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.53,
+      "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 驱动的自动化 fuzzing 正在从概念走向真实开发流程。安全团队应关注 GitHub 的这一实践，思考如何将 Agent 融入漏洞挖掘工作流，提升 harness 编写和 crash 分拣效率。",
+      "recommendation_reason": "给在用 Claude Code 做安全的人：这套开源包直接补齐了真实漏洞挖掘和渗透测试的脚手架。自带数百个报告模式和工具集成，拿过来就能当安全 Agent 用。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jackchan_xyz/status/2109427190807097844",
-      "reader_url": "https://x.com/jackchan_xyz/status/2109427190807097844",
-      "image_url": null,
+      "canonical_url": "https://x.com/4devvvv/status/2109592843643691125",
+      "reader_url": "https://x.com/4devvvv/status/2109592843643691125",
+      "image_url": "https://pbs.twimg.com/media/HUbHgxtXEAArZ_O.jpg",
       "author": {
-        "username": "jackchan_xyz",
-        "name": "Jack Chan",
+        "username": "4devvvv",
+        "name": "4dev",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-11T23:33:28",
-      "first_seen_at": "2026-10-13T00:35:02.489126",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-10-12T10:31:42",
+      "first_seen_at": "2026-10-13T12:36:47.562593",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 14108,
@@ -130,6 +130,31 @@
       "sub_category_label": null
     },
     {
+      "id": 14423,
+      "title": "Darkmoon：注重数据隔离的自主渗透测试平台",
+      "original_title": "Darkmoon is an autonomous penetration testing platform that keeps real target data out of AI models.  GitHub: https://t.co/N5fPnhyIQq  #Darkmoon #AIPentesting #Cybersecurity #OpenS",
+      "summary": "Darkmoon 是一款开源的自主渗透测试平台，其核心特点是在执行安全任务时确保真实目标数据不会被暴露给 AI 模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做红队和渗透测试的同行可以关注，它直接解决了用大模型做安全自动化时的数据脱敏痛点。直接拿开源代码改造成自研安全Agent的底座非常实用。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yogsec/status/2109589927575142695",
+      "reader_url": "https://x.com/yogsec/status/2109589927575142695",
+      "image_url": null,
+      "author": {
+        "username": "yogsec",
+        "name": "Abhinav Singwal",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T10:20:07",
+      "first_seen_at": "2026-10-13T12:36:47.562593",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 14014,
       "title": "GitHub Fuzzing Taskflow：Agent 决策，工具执行",
       "original_title": "The design rule here travels well past fuzzing: the agent owns the decisions, the tools own the execution.  GitHub Security Lab shipped the Fuzzing Taskflow. Point it at a C or C++",
@@ -153,6 +178,31 @@
       "published_at": "2026-10-11T19:27:24",
       "first_seen_at": "2026-10-13T08:36:04.062018",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 13940,
+      "title": "AI安全代理发现XRPL十年老洞，可凭空铸造18万亿XRP",
+      "original_title": "🚨NEW:  An AI security agent reportedly uncovered a decade-old #XRPL flaw that could have enabled the creation of 18 trillion XRP in one transaction, potentially threatening market ",
+      "summary": "据报道，一个AI安全代理发现了XRP账本中存在长达十年的漏洞，允许单笔交易凭空铸造18万亿XRP，开发者在公开披露前已紧急修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI安全代理在真实环境挖出高危链上漏洞，标志着AI漏洞挖掘实战能力的突破。智能合约审计和自动化安全团队应立刻关注其在真实代码挖掘中的潜力与落地进展。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/strivex_/status/2109234339502563329",
+      "reader_url": "https://x.com/strivex_/status/2109234339502563329",
+      "image_url": "https://pbs.twimg.com/media/HUWBcwPbYAAULJg.jpg",
+      "author": {
+        "username": "strivex_",
+        "name": "Ledger Man 🎩",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T10:47:08",
+      "first_seen_at": "2026-10-13T12:36:47.562593",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 14170,
@@ -203,56 +253,6 @@
       "published_at": "2026-10-12T03:58:00",
       "first_seen_at": "2026-10-13T04:35:36.605280",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 14137,
-      "title": "AI 助力发现 XRP Ledger 十年漏洞，可凭空增发万亿代币",
-      "original_title": "AI HELPED UNCOVER AN XRP LEDGER BUG THAT COULD HAVE CREATED TRILLIONS OF XRP  A security review of the XRP Ledger uncovered a vulnerability hidden in its code for more than a decad",
-      "summary": "安全人员借助 AI 安全 Agent 在 XRP Ledger 支付引擎中发现了一个隐藏十余年的算术溢出漏洞，理论上可通过单笔交易凭空生成约 18 万亿 XRP。开发者已在披露前修复漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 辅助漏洞挖掘在真实区块链基础设施中的落地案例。做代码审计和底层安全的同行应关注 AI Agent 在发现深层逻辑与算术漏洞上的实际成效，它正在改变遗留系统的安全评估方式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
-      "reader_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
-      "image_url": "https://pbs.twimg.com/media/HUZ0kMlaQAAg31P.jpg",
-      "author": {
-        "username": "JoakimsWorld369",
-        "name": "Joakims World 369",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T04:29:20",
-      "first_seen_at": "2026-10-13T06:35:58.537552",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 13982,
-      "title": "OrcaCyber Zero 1.5 发布：号称 Cybench 满分的网络安全专用 AI 模型",
-      "original_title": "AI & CYBERSECURITY — OrcaCyber Zero 1.5 RELEASED  OrcaRouter has released OrcaCyber Zero 1.5, a cybersecurity-focused AI model designed for authorized vulnerability research, penet",
-      "summary": "OrcaRouter 发布 OrcaCyber Zero 1.5 安全专用模型，号称 Cybench 100%（39/39）、CVE-Bench 95.8%，支持百万 token 上下文，面向授权漏洞研究和渗透测试，访问仅限认证安全团队。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.76,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全从业者应关注：Cybench 满分成绩需独立验证，别被营销数字带偏；限制访问模式可能是 AI 安全工具商业化的新路径，值得跟踪其后续评测和真实落地效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CyberPulse56/status/2109294930254532925",
-      "reader_url": "https://x.com/CyberPulse56/status/2109294930254532925",
-      "image_url": null,
-      "author": {
-        "username": "CyberPulse56",
-        "name": "CyberPulse",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T14:47:54",
-      "first_seen_at": "2026-10-13T10:36:23.485489",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
