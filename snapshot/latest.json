@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T13:02:52+08:00",
+  "updated_at": "2026-10-13T15:03:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -225,28 +225,28 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 14032,
-      "title": "GitHub 安全实验室 Fuzzing Taskflow：AI Agent 全自动挖掘 C/C++ 漏洞",
-      "original_title": "Can fuzzing become autonomous?  GitHub Security Lab’s Fuzzing Taskflow hands the entire vulnerability discovery workflow to an AI agent for C/C++ repositories.  🔍 Entrypoint analys",
-      "summary": "GitHub Security Lab 的 Fuzzing Taskflow 将 C/C++ 仓库的漏洞发现全流程交给 AI Agent，覆盖入口点分析、Harness 生成、AFL++ Fuzzing 与漏洞报告，实现端到端自动化测试。",
+      "id": 14137,
+      "title": "AI 助力发现 XRP Ledger 十年漏洞，可凭空增发万亿代币",
+      "original_title": "AI HELPED UNCOVER AN XRP LEDGER BUG THAT COULD HAVE CREATED TRILLIONS OF XRP  A security review of the XRP Ledger uncovered a vulnerability hidden in its code for more than a decad",
+      "summary": "安全人员借助 AI 安全 Agent 在 XRP Ledger 支付引擎中发现了一个隐藏十余年的算术溢出漏洞，理论上可通过单笔交易凭空生成约 18 万亿 XRP。开发者已在披露前修复漏洞。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 72.25,
+      "score_total": 73.5,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全研发与漏洞挖掘团队必看：GitHub 官方安全实验室下场做 AI Fuzzing Agent，证明 LLM 驱动的自动化漏洞挖掘已具备产业落地可行性。可直接参考其工作流设计自研安全 Agent。",
+      "recommendation_reason": "这是 AI 辅助漏洞挖掘在真实区块链基础设施中的落地案例。做代码审计和底层安全的同行应关注 AI Agent 在发现深层逻辑与算术漏洞上的实际成效，它正在改变遗留系统的安全评估方式。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/galaxper/status/2109392439379185777",
-      "reader_url": "https://x.com/galaxper/status/2109392439379185777",
-      "image_url": null,
+      "canonical_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
+      "reader_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
+      "image_url": "https://pbs.twimg.com/media/HUZ0kMlaQAAg31P.jpg",
       "author": {
-        "username": "galaxper",
-        "name": "Super Intelligence",
+        "username": "JoakimsWorld369",
+        "name": "Joakims World 369",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-11T21:15:22",
-      "first_seen_at": "2026-10-13T04:35:36.605280",
+      "published_at": "2026-10-12T04:29:20",
+      "first_seen_at": "2026-10-13T06:35:58.537552",
       "sub_category_label": "漏洞挖掘"
     }
   ]
