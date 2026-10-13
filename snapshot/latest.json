@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T16:47:19+08:00",
+  "updated_at": "2026-10-13T19:19:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -48,31 +48,6 @@
       "published_at": "2026-10-11T19:25:01",
       "first_seen_at": "2026-10-13T08:36:04.062018",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 14604,
-      "title": "BruteForceAI：LLM 驱动的登录测试工具，自动化表单分析与凭证攻击",
-      "original_title": "🚨 BruteForceAI: A LLM-powered login testing tool that combines AI form analysis with automated credential attacks  GitHub: https://t.co/6OTgOMxkWK  The tool uses an LLM to analyze ",
-      "summary": "BruteForceAI 是一个开源的 LLM 驱动登录测试工具，利用 LLM 自动分析登录页面元素，支持暴力破解和密码喷洒模式，适用于渗透测试场景。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.71,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试团队可以关注这个工具，它用 LLM 解决了登录表单自动识别的痛点，支持本地模型和 Groq，适合集成到自动化测试流程中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
-      "reader_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
-      "image_url": "https://pbs.twimg.com/media/HUdzytFW0AAnCwB.jpg",
-      "author": {
-        "username": "DarkWebInformer",
-        "name": "Dark Web Informer",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T23:05:05",
-      "first_seen_at": "2026-10-12T23:15:23.412065",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 14031,
@@ -248,6 +223,31 @@
       "published_at": "2026-10-12T03:58:00",
       "first_seen_at": "2026-10-13T04:35:36.605280",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 14137,
+      "title": "AI 助力发现 XRP Ledger 十年漏洞，可凭空增发万亿代币",
+      "original_title": "AI HELPED UNCOVER AN XRP LEDGER BUG THAT COULD HAVE CREATED TRILLIONS OF XRP  A security review of the XRP Ledger uncovered a vulnerability hidden in its code for more than a decad",
+      "summary": "安全人员借助 AI 安全 Agent 在 XRP Ledger 支付引擎中发现了一个隐藏十余年的算术溢出漏洞，理论上可通过单笔交易凭空生成约 18 万亿 XRP。开发者已在披露前修复漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 辅助漏洞挖掘在真实区块链基础设施中的落地案例。做代码审计和底层安全的同行应关注 AI Agent 在发现深层逻辑与算术漏洞上的实际成效，它正在改变遗留系统的安全评估方式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
+      "reader_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
+      "image_url": "https://pbs.twimg.com/media/HUZ0kMlaQAAg31P.jpg",
+      "author": {
+        "username": "JoakimsWorld369",
+        "name": "Joakims World 369",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T04:29:20",
+      "first_seen_at": "2026-10-13T06:35:58.537552",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
