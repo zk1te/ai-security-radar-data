@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-14T03:28:09+08:00",
+  "updated_at": "2026-10-14T04:31:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 14329,
+      "title": "SWE-Duel：基于红蓝对抗的自我扩展编码Agent评测竞技场",
+      "original_title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+      "summary": "论文提出 SWE-Duel，一种动态自我扩展的编码 Agent 评测方法。红队 Agent 在真实代码库中实现新功能并植入隐蔽 bug，蓝队 Agent 在不知情下审查代码并修复，通过红蓝轮换对抗生成评测任务，有效避免静态基准的数据泄露问题。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark | model_evaluation",
+      "score_total": 82.7,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "传统静态安全评测榜单易被大模型「刷榜」和记忆。SWE-Duel 的红蓝对抗动态出题思路，为自动化漏洞挖掘和代码审计 Agent 提供了防数据污染的新评测范式，安全评测团队值得借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.12569",
+      "reader_url": "https://arxiv.org/pdf/2610.12569",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-13T20:26:11.053705",
+      "sub_category_label": null
+    },
     {
       "id": 14473,
       "title": "AI 发现 XRP 无限铸造漏洞，风险达 940 亿美元",
@@ -80,6 +100,31 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
+      "id": 14914,
+      "title": "韩国银行攻击溯源至开源AI渗透工具ARTEX",
+      "original_title": "CrowdStrike Traced the South Korean Bank Attacks to a Lone Operator Using an Open-Source Chinese AI Pentest Tool Called ARTEX and the Tool Was Built for Authorized Testing.   Crowd",
+      "summary": "CrowdStrike 报告称，一名个人攻击者使用开源中国 AI 渗透测试工具 ARTEX，对韩国金融机构发起了多智能体自动化攻击并窃取数据。该工具结合大模型实现了机器速度的侦察和攻击路径规划，现已闭源。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "真实在野威胁！开源 AI 渗透 Agent 被单人用于实际攻击并造成数据泄露，直接验证了 AI 自动化攻击路径规划的可行性。安全团队需高度警惕此类工具扩散及双刃剑效应。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/xbhaveshverma/status/2110090697143615669",
+      "reader_url": "https://x.com/xbhaveshverma/status/2110090697143615669",
+      "image_url": null,
+      "author": {
+        "username": "xbhaveshverma",
+        "name": "Bhavesh Verma",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-13T19:30:00",
+      "first_seen_at": "2026-10-13T20:05:18.425979",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 14506,
       "title": "AI安全智能体发现XRP账本十年陈旧溢出漏洞，获25万美元赏金",
       "original_title": "An AI security agent just landed a $250,000 bug bounty.  The bug: a decade-old overflow in the XRP Ledger's payment engine that could mint XRP from nothing.  What the XRPL disclosu",
@@ -103,6 +148,26 @@
       "published_at": "2026-10-12T17:15:46",
       "first_seen_at": "2026-10-13T18:37:55.786410",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14697,
+      "title": "TerminalHorizon：面向长程终端智能体的数据合成引擎",
+      "original_title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+      "summary": "本文提出全自动数据合成引擎TerminalHorizon，通过重建真实任务环境生成高质量长程轨迹数据，微调Qwen3.5-27B后在12个Agent基准上取得显著提升，并展现出递归自我改进能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 74.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "长程终端操作能力是自动化漏洞挖掘和安全Agent落地的核心瓶颈。本文提出的数据合成方法可直接借鉴于构建复杂安全任务训练集，值得安全Agent开发者跟踪研究。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.13166",
+      "reader_url": "https://arxiv.org/pdf/2610.13166",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-13T00:00:00",
+      "first_seen_at": "2026-10-13T20:26:11.053705",
+      "sub_category_label": "Agent 架构"
     },
     {
       "id": 14425,
@@ -178,76 +243,6 @@
       "published_at": "2026-10-11T19:27:24",
       "first_seen_at": "2026-10-13T08:36:04.062018",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 13940,
-      "title": "AI安全代理发现XRPL十年老洞，可凭空铸造18万亿XRP",
-      "original_title": "🚨NEW:  An AI security agent reportedly uncovered a decade-old #XRPL flaw that could have enabled the creation of 18 trillion XRP in one transaction, potentially threatening market ",
-      "summary": "据报道，一个AI安全代理发现了XRP账本中存在长达十年的漏洞，允许单笔交易凭空铸造18万亿XRP，开发者在公开披露前已紧急修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI安全代理在真实环境挖出高危链上漏洞，标志着AI漏洞挖掘实战能力的突破。智能合约审计和自动化安全团队应立刻关注其在真实代码挖掘中的潜力与落地进展。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/strivex_/status/2109234339502563329",
-      "reader_url": "https://x.com/strivex_/status/2109234339502563329",
-      "image_url": "https://pbs.twimg.com/media/HUWBcwPbYAAULJg.jpg",
-      "author": {
-        "username": "strivex_",
-        "name": "Ledger Man 🎩",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T10:47:08",
-      "first_seen_at": "2026-10-13T12:36:47.562593",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 14879,
-      "title": "Laplace Intelligence 用 AI 仿真红队测试机器人和自动驾驶",
-      "original_title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-      "summary": "密歇根大学衍生公司 Laplace Intelligence 利用 AI agents 和交互式仿真，在自动驾驶车辆和机器人部署前进行压力测试，已在盈利中并参加 TechCrunch 创业竞赛。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "用 AI agents 对物理系统做红队和压力测试，方向值得关注。搞漏洞挖掘和自动化安全的同行可以关注这类仿真环境里 agent 怎么发现 edge case。",
-      "source_id": "techcrunch-ai",
-      "canonical_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
-      "reader_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-13T17:30:00",
-      "first_seen_at": "2026-10-13T19:03:38.236075",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 14170,
-      "title": "AI Agent 发现 XRP 账本十年老溢出漏洞",
-      "original_title": "Day 31 #DeFiNews  AI Agent Discovers Decade-Old Overflow Vulnerability in XRP Ledger Core  Overview & Key Highlights  @RippleXDev  developers have pushed an emergency patch across ",
-      "summary": "安全初创公司 Veria Labs 开发的 AI 安全 Agent 自主发现了 XRP 账本支付引擎中的整数溢出漏洞，攻击者可借此凭空铸造 XRP，Ripple 开发者已紧急修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI Agent 在实战中自主挖出区块链底层十年老漏洞并促成紧急修复。这证明 AI 漏洞挖掘已走向生产级应用，安全团队应重点关注 AI Agent 在代码审计与漏洞挖掘中的实际落地效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/flamechamp/status/2109545616682663949",
-      "reader_url": "https://x.com/flamechamp/status/2109545616682663949",
-      "image_url": null,
-      "author": {
-        "username": "flamechamp",
-        "name": "flamechamp",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T07:24:03",
-      "first_seen_at": "2026-10-13T08:36:04.062018",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
