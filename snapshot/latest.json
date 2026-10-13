@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-13T11:32:32+08:00",
+  "updated_at": "2026-10-13T13:02:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 14644,
@@ -75,6 +75,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 14031,
+      "title": "GitHub 开源 AI 模糊测试流水线 Fuzzing Taskflow",
+      "original_title": "GitHub 官方开源了一个 AI 驱动的模糊测试流水线 Fuzzing Taskflow，把安全研究员最累的那段活整个交给了 agent。  传统 fuzzing 的痛点不在跑，而在人：找入口、写 harness、盯覆盖率、分拣 crash，全是体力活。现在你只给它一个 GitHub 仓库地址，agent 自己识别入口点、分析构建系统、写 AFL++ ha",
+      "summary": "GitHub Security Lab 开源了基于 LLM 的模糊测试流水线 Fuzzing Taskflow，Agent 可自动完成识别入口、编写 AFL++ harness、跑覆盖率反馈循环及生成漏洞报告。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 77.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员和代码审计人员必看。全自动 harness 生成与覆盖率反馈循环能显著减少体力活，但务必在隔离环境中运行，它会在宿主机直接执行 LLM 选择的构建命令。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/real_IvenC/status/2109390813255860249",
+      "reader_url": "https://x.com/real_IvenC/status/2109390813255860249",
+      "image_url": "https://pbs.twimg.com/media/HUYPxFAWkAARp9P.jpg",
+      "author": {
+        "username": "real_IvenC",
+        "name": "Iven C",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-11T21:08:55",
+      "first_seen_at": "2026-10-13T04:35:36.605280",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 14051,
       "title": "GitHub Security Lab 推出 AI Fuzzing 全流程 Agent",
       "original_title": "GitHub Security Labが作った「Fuzzing Taskflow」は、C/C++のプロジェクトのファジングを、ハーネスの作成からクラッシュの分析までAIエージェントに任せる仕組み。日本時間10/12にGitHubがXで改めて紹介している（ブログの公開は米国時間9/24）。 GitHubのリポジトリを指定するだけで、エージェントがファジングの対",
@@ -125,6 +150,56 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 14108,
+      "title": "GitHub 安全实验室实现 Fuzzing 全流程 Agent 化，并警告提示注入风险",
+      "original_title": "@github's Security Lab gave the fuzzing loop to an agent, from harnesses to crash triage.  Best line is their own warning: it runs commands the model picks on the host, so a prompt",
+      "summary": "GitHub 安全实验室将 Fuzzing 循环（从编写 harness 到 crash 分析）交给 AI Agent 处理，但同时警告称该 Agent 会在宿主机执行模型生成的命令，存在被提示注入导致任意命令执行的风险。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 74.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "想把 LLM 接入漏洞挖掘流程的安全团队必看。Fuzzing Agent 直接在宿主机跑命令无异于敞开 RCE 大门，落地自动化安全工具时务必隔离执行环境，别让防御工具变内网跳板。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/dameops/status/2109483484133888018",
+      "reader_url": "https://x.com/dameops/status/2109483484133888018",
+      "image_url": null,
+      "author": {
+        "username": "dameops",
+        "name": "Damian",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T03:17:09",
+      "first_seen_at": "2026-10-13T04:35:36.605280",
+      "sub_category_label": null
+    },
+    {
+      "id": 14131,
+      "title": "GitHub Security Lab 发布 Agent 驱动的 Fuzzing Taskflow",
+      "original_title": "ファジングの見守りを、 エージェントに任せる  GitHub Security Lab が作った 「Fuzzing Taskflow」👀  C/C++ のリポジトリを指すだけで、 脆弱性の報告まで進みます　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
+      "summary": "GitHub Security Lab 发布 Fuzzing Taskflow，用 Agent 自动完成 C/C++ 仓库的 harness 编写、AFL++ 运行、覆盖率迭代和漏洞报告。工具会在无容器环境直接执行 LLM 生成的构建命令，存在提示注入风险，建议在隔离环境中低权限运行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 74.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "GitHub 官方出品的 fuzzing agent，把 harness 编写和 crash 去重都自动化了，值得安全团队直接试用和借鉴设计。注意它无沙箱执行 LLM 生成的构建命令，部署时务必隔离。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yuichisatoeco/status/2109493764540575867",
+      "reader_url": "https://x.com/yuichisatoeco/status/2109493764540575867",
+      "image_url": null,
+      "author": {
+        "username": "yuichisatoeco",
+        "name": "佐藤優一 | AIプロダクト開発・AI業務改革・AI教育",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T03:58:00",
+      "first_seen_at": "2026-10-13T04:35:36.605280",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 14589,
       "title": "AI漏洞挖掘平民化：非安全研究员用AI发现140个漏洞",
       "original_title": "i don’t want to sound like a doomer, but AI is going to break basically every website, supply chain, and piece of software. it’s only a matter of time.  i’m not a security research",
@@ -150,77 +225,28 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 14036,
-      "title": "GitHub 推出 LLM 驱动 Fuzzing Agent，架构清晰但无沙盒",
-      "original_title": "GitHub's fuzzing agent gets the split right: the LLM picks what to fuzz and which coverage gap to chase, MCP tools run AFL++ and clang, state lives in SQLite. And they say it: no s",
-      "summary": "GitHub 的 fuzzing agent 采用 LLM 负责选定 fuzz 目标和覆盖率缺口，MCP 工具执行 AFL++ 与 clang，状态存于 SQLite。因无沙盒机制，建议在一次性虚拟机中运行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 71.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "LLM+MCP 做 Fuzzing 的落地参考：职责拆分清晰，直接复用 AFL++。安全团队可关注其架构设计，但务必隔离运行环境防逃逸。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HiloW_Ai/status/2109403021398401077",
-      "reader_url": "https://x.com/HiloW_Ai/status/2109403021398401077",
-      "image_url": null,
-      "author": {
-        "username": "HiloW_Ai",
-        "name": "HiloW.Ai",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T21:57:25",
-      "first_seen_at": "2026-10-13T02:35:26.340546",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 14513,
-      "title": "用 Agent 逆向一切：从应用行为到原生二进制",
-      "original_title": "HN Hot Discussion: Reverse engineer anything with agents, from app behavior down to native binaries",
-      "summary": "HN 热门讨论了开源项目 rea，它使用 Agent 技术自动化执行逆向工程，涵盖从应用行为到原生二进制文件的深度分析。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 68.61,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "对二进制安全和逆向团队而言，这是利用 Agent 自动化繁重分析任务的直接案例。建议立即查看其 GitHub 实现，评估能否接入日常分析流程。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50058850&hn_hot_date=2026-10-12",
-      "reader_url": "https://news.ycombinator.com/item?id=50058850&hn_hot_date=2026-10-12",
-      "image_url": null,
-      "author": {
-        "username": "taytus",
-        "name": "taytus",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-12T16:31:55",
-      "first_seen_at": "2026-10-12T18:06:00.080328",
-      "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 14033,
-      "title": "AI Agent技术发现千亿美元加密货币十年老漏洞",
-      "original_title": "congrats to @Cayden_Liao and veria for finding a decade old bug in a ~$100B cryptocurrency  writing secure code is a different art today than it was a year ago.   you need to be th",
-      "summary": "安全研究员利用AI相关技术发现某千亿美元加密货币项目存在十年之久的老漏洞，凸显Agentic scanning和Fuzzing在现代复杂系统安全中的必要性。",
+      "id": 14032,
+      "title": "GitHub 安全实验室 Fuzzing Taskflow：AI Agent 全自动挖掘 C/C++ 漏洞",
+      "original_title": "Can fuzzing become autonomous?  GitHub Security Lab’s Fuzzing Taskflow hands the entire vulnerability discovery workflow to an AI agent for C/C++ repositories.  🔍 Entrypoint analys",
+      "summary": "GitHub Security Lab 的 Fuzzing Taskflow 将 C/C++ 仓库的漏洞发现全流程交给 AI Agent，覆盖入口点分析、Harness 生成、AFL++ Fuzzing 与漏洞报告，实现端到端自动化测试。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 68.28,
+      "score_total": 72.25,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "真实案例证明Agentic scanning在挖掘深层旧漏洞上的巨大潜力。甲方安全团队应尽快评估将自动化扫描Agent纳入代码审计流程，应对日益复杂的系统安全挑战。",
+      "recommendation_reason": "安全研发与漏洞挖掘团队必看：GitHub 官方安全实验室下场做 AI Fuzzing Agent，证明 LLM 驱动的自动化漏洞挖掘已具备产业落地可行性。可直接参考其工作流设计自研安全 Agent。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/varunsrin/status/2109395305389265315",
-      "reader_url": "https://x.com/varunsrin/status/2109395305389265315",
+      "canonical_url": "https://x.com/galaxper/status/2109392439379185777",
+      "reader_url": "https://x.com/galaxper/status/2109392439379185777",
       "image_url": null,
       "author": {
-        "username": "varunsrin",
-        "name": "Varun Srinivasan",
+        "username": "galaxper",
+        "name": "Super Intelligence",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-11T21:26:46",
-      "first_seen_at": "2026-10-13T02:35:26.340546",
+      "published_at": "2026-10-11T21:15:22",
+      "first_seen_at": "2026-10-13T04:35:36.605280",
       "sub_category_label": "漏洞挖掘"
     }
   ]
