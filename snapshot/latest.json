@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-14T05:02:58+08:00",
+  "updated_at": "2026-10-14T06:03:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 14329,
@@ -216,31 +216,6 @@
         "followers_count": 0
       },
       "published_at": "2026-10-12T10:20:07",
-      "first_seen_at": "2026-10-13T12:36:47.562593",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 13940,
-      "title": "AI安全代理发现XRPL十年老洞，可凭空铸造18万亿XRP",
-      "original_title": "🚨NEW:  An AI security agent reportedly uncovered a decade-old #XRPL flaw that could have enabled the creation of 18 trillion XRP in one transaction, potentially threatening market ",
-      "summary": "据报道，一个AI安全代理发现了XRP账本中存在长达十年的漏洞，允许单笔交易凭空铸造18万亿XRP，开发者在公开披露前已紧急修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI安全代理在真实环境挖出高危链上漏洞，标志着AI漏洞挖掘实战能力的突破。智能合约审计和自动化安全团队应立刻关注其在真实代码挖掘中的潜力与落地进展。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/strivex_/status/2109234339502563329",
-      "reader_url": "https://x.com/strivex_/status/2109234339502563329",
-      "image_url": "https://pbs.twimg.com/media/HUWBcwPbYAAULJg.jpg",
-      "author": {
-        "username": "strivex_",
-        "name": "Ledger Man 🎩",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-11T10:47:08",
       "first_seen_at": "2026-10-13T12:36:47.562593",
       "sub_category_label": "安全Agent"
     }
