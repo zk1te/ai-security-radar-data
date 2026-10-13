@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-14T02:56:38+08:00",
+  "updated_at": "2026-10-14T03:28:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 14473,
@@ -202,6 +202,26 @@
       },
       "published_at": "2026-10-11T10:47:08",
       "first_seen_at": "2026-10-13T12:36:47.562593",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14879,
+      "title": "Laplace Intelligence 用 AI 仿真红队测试机器人和自动驾驶",
+      "original_title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "summary": "密歇根大学衍生公司 Laplace Intelligence 利用 AI agents 和交互式仿真，在自动驾驶车辆和机器人部署前进行压力测试，已在盈利中并参加 TechCrunch 创业竞赛。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "用 AI agents 对物理系统做红队和压力测试，方向值得关注。搞漏洞挖掘和自动化安全的同行可以关注这类仿真环境里 agent 怎么发现 edge case。",
+      "source_id": "techcrunch-ai",
+      "canonical_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "reader_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-13T17:30:00",
+      "first_seen_at": "2026-10-13T19:03:38.236075",
       "sub_category_label": "安全Agent"
     },
     {
