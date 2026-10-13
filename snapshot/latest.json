@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T00:54:53+08:00",
+  "updated_at": "2026-10-14T02:56:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -78,6 +78,31 @@
       "published_at": "2026-10-12T11:05:00",
       "first_seen_at": "2026-10-13T12:36:47.562593",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 14506,
+      "title": "AI安全智能体发现XRP账本十年陈旧溢出漏洞，获25万美元赏金",
+      "original_title": "An AI security agent just landed a $250,000 bug bounty.  The bug: a decade-old overflow in the XRP Ledger's payment engine that could mint XRP from nothing.  What the XRPL disclosu",
+      "summary": "Veria Labs的AI安全智能体发现XRP账本支付引擎中存在自2015年以来的整数溢出漏洞，可凭空铸造18.45万亿XRP，智能体自主完成双漏洞链式利用并构建可用exploit，获25万美元赏金。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是AI安全智能体在真实金融基础设施中发现高危漏洞并自主链式利用的标志性实战案例，证明AI漏洞挖掘已从研究演示走向产业级交付。安全团队应立刻关注此类Agent的发现效率和覆盖面，重新评估现有审计和赏金计划的盲区。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AliRamadan/status/2109694527141261470",
+      "reader_url": "https://x.com/AliRamadan/status/2109694527141261470",
+      "image_url": "https://pbs.twimg.com/media/HUcj-yXbAAAGDEb.jpg",
+      "author": {
+        "username": "AliRamadan",
+        "name": "Ali",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-12T17:15:46",
+      "first_seen_at": "2026-10-13T18:37:55.786410",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 14425,
@@ -203,31 +228,6 @@
       "published_at": "2026-10-12T07:24:03",
       "first_seen_at": "2026-10-13T08:36:04.062018",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 14137,
-      "title": "AI 助力发现 XRP Ledger 十年漏洞，可凭空增发万亿代币",
-      "original_title": "AI HELPED UNCOVER AN XRP LEDGER BUG THAT COULD HAVE CREATED TRILLIONS OF XRP  A security review of the XRP Ledger uncovered a vulnerability hidden in its code for more than a decad",
-      "summary": "安全人员借助 AI 安全 Agent 在 XRP Ledger 支付引擎中发现了一个隐藏十余年的算术溢出漏洞，理论上可通过单笔交易凭空生成约 18 万亿 XRP。开发者已在披露前修复漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 辅助漏洞挖掘在真实区块链基础设施中的落地案例。做代码审计和底层安全的同行应关注 AI Agent 在发现深层逻辑与算术漏洞上的实际成效，它正在改变遗留系统的安全评估方式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
-      "reader_url": "https://x.com/JoakimsWorld369/status/2109501649379361056",
-      "image_url": "https://pbs.twimg.com/media/HUZ0kMlaQAAg31P.jpg",
-      "author": {
-        "username": "JoakimsWorld369",
-        "name": "Joakims World 369",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T04:29:20",
-      "first_seen_at": "2026-10-13T06:35:58.537552",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
