@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T00:38:40+08:00",
+  "updated_at": "2026-10-15T01:08:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -125,6 +125,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 15285,
+      "title": "ARTEX自主渗透框架实战：韩国金融机构数据泄露",
+      "original_title": "Agentic Speed, Peripheral Weakness: What the South Korean Financial Breaches Reveal About The ARTEX Campaign  Between late September and mid-October 2026 a single operator used the",
+      "summary": "攻击者使用开源多智能体渗透框架 ARTEX 配合 DeepSeek、GLM 等模型，利用高并发自动化能力攻击韩国16家金融机构外围系统的弱认证缺陷，窃取约10万条个人数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.08,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是极为罕见的大规模 AI Agent 实战渗透案例。安全团队必须警惕攻击侧从人工脚本向 Agentic 高并发侦察的转变，重点盘点并加固非核心的外部暴露面，而非仅盯着核心业务系统。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jannikmeissner/status/2110405908412977562",
+      "reader_url": "https://x.com/jannikmeissner/status/2110405908412977562",
+      "image_url": "https://pbs.twimg.com/media/HUmq2ygXgAAHZOx.jpg",
+      "author": {
+        "username": "jannikmeissner",
+        "name": "Jannik Malte Meissner 🇺🇦",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-14T16:22:32",
+      "first_seen_at": "2026-10-14T16:48:14.144487",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 14203,
       "title": "面向电网物理安全风险的决策聚焦学习框架",
       "original_title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
@@ -183,31 +208,6 @@
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-14T08:26:28.946347",
       "sub_category_label": "威胁检测"
-    },
-    {
-      "id": 14793,
-      "title": "Meta 开源 Zurp 工具包：将 Burp Suite 与 AI 编码助手打通用于漏洞赏金研究",
-      "original_title": "🛡️  Meta Zurp AI Toolkit Connects Burp Suite With AI Coding Agents for Bug Bounty Research   Details: https://t.co/5QN59TNIGj  Meta has introduced Zurp, an open-source toolkit that",
-      "summary": "Meta 发布开源工具 Zurp，以 Burp Suite Java 扩展形式运行并提供 MCP 服务器，让研究者在授权范围内将 Web 流量检查与 AI 编码代理共享同一套 API 和访问令牌，用于合法漏洞赏金研究。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.5,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做渗透测试和漏洞挖掘的工程师该看——这是 AI Agent 落地安全工具链的标杆案例，MCP 集成模式值得借鉴到自己工具链中。注意其强调仅限授权账户的边界设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2109950228959047716",
-      "reader_url": "https://x.com/The_Cyber_News/status/2109950228959047716",
-      "image_url": "https://pbs.twimg.com/media/HUgMhkpakAA7sxy.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-10-13T10:11:50",
-      "first_seen_at": "2026-10-14T12:40:01.905196",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
