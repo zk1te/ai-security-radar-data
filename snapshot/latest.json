@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T09:03:40+08:00",
+  "updated_at": "2026-10-14T12:34:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -48,6 +48,26 @@
       "published_at": "2026-10-12T14:28:10",
       "first_seen_at": "2026-10-13T16:37:37.516020",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 15067,
+      "title": "DeepMind 与新加坡政府推端侧 AI 工具防诈骗",
+      "original_title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "summary": "Google DeepMind 与新加坡政府合作，利用轻量级端侧 Gemma 模型在私密聊天中实时拦截对话式诈骗，且不向云端泄露数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 80.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "反欺诈与业务安全团队可参考其端侧轻量级模型的落地方式，在保障用户隐私的前提下实现实时威胁拦截。",
+      "source_id": "deepmind-blog",
+      "canonical_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "reader_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-14T02:00:14",
+      "first_seen_at": "2026-10-14T04:16:43.482581",
+      "sub_category_label": "威胁检测"
     },
     {
       "id": 14547,
@@ -188,26 +208,6 @@
       "published_at": "2026-10-13T00:00:00",
       "first_seen_at": "2026-10-13T20:26:11.053705",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 14879,
-      "title": "Laplace Intelligence 用 AI 仿真红队测试机器人和自动驾驶",
-      "original_title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-      "summary": "密歇根大学衍生公司 Laplace Intelligence 利用 AI agents 和交互式仿真，在自动驾驶车辆和机器人部署前进行压力测试，已在盈利中并参加 TechCrunch 创业竞赛。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "用 AI agents 对物理系统做红队和压力测试，方向值得关注。搞漏洞挖掘和自动化安全的同行可以关注这类仿真环境里 agent 怎么发现 edge case。",
-      "source_id": "techcrunch-ai",
-      "canonical_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
-      "reader_url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-13T17:30:00",
-      "first_seen_at": "2026-10-13T19:03:38.236075",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
