@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-14T21:06:10+08:00",
+  "updated_at": "2026-10-14T22:37:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 14394,
@@ -45,6 +45,26 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 14202,
+      "title": "ToFu：自动化Fuzzing LLM工具信任边界发现大量MCP漏洞",
+      "original_title": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+      "summary": "ToFu框架自动从LLM工具元数据生成语义检查和Fuzzing harness，在273个MCP服务器中发现343个未执行输入语义验证的漏洞工具，证明不可将LLM生成的参数视为可信。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "fuzzing | agent_security",
+      "score_total": 90.9,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "开发MCP工具和Agent的团队必看。ToFu不仅揭示了LLM编排器到工具的信任盲区，还提供了自动化Fuzzing手段验证工具输入语义，立刻用它测一遍自己的MCP服务器。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13651",
+      "reader_url": "https://arxiv.org/pdf/2610.13651",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T14:26:42.891415",
+      "sub_category_label": null
+    },
+    {
       "id": 15189,
       "title": "开源自主渗透测试Agent系统Pentagi爆火登顶GitHub Trending",
       "original_title": "GitHub Trending: vxcontrol/pentagi gained 1819 stars today",
@@ -62,6 +82,26 @@
       "author": null,
       "published_at": "2026-10-14T11:08:49.118382",
       "first_seen_at": "2026-10-14T11:10:49.491302",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14221,
+      "title": "STAIR：用于安全事件响应的端到端 Agentic 规划框架",
+      "original_title": "STAIR: Effective Incident Response Using an End-to-End Agentic Planning Framework",
+      "summary": "本文提出端到端的事件响应 Agent 框架 STAIR，利用 Graph-as-State 维护事件状态和执行反馈，并构建了包含 44 个靶场案例的 STAIR-Bench 进行评估，显著优于现有基线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 86.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "该论文不仅提出了用于安全事件响应的 Agent 架构（STAIR），还发布了配套的实战化评测基准（STAIR-Bench），对关注自动化安全响应和 Benchmark 建设的从业者极具参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.09524",
+      "reader_url": "https://arxiv.org/pdf/2608.09524",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T14:26:42.891415",
       "sub_category_label": "安全Agent"
     },
     {
@@ -83,6 +123,26 @@
       "published_at": "2026-10-14T02:00:14",
       "first_seen_at": "2026-10-14T04:16:43.482581",
       "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 14203,
+      "title": "面向电网物理安全风险的决策聚焦学习框架",
+      "original_title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+      "summary": "本文提出一种优化学习框架，将机器学习的入侵检测预测误差转化为电网运行风险成本，通过迭代优化降低电网运行成本，在ICS和Sherlock数据集上表现优于传统方法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 79.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "电网工控安全从业者应看：传统入侵检测只看准确率，这篇将ML检测误差直接与电网运行成本挂钩，提供了把AI检测落地到OT安全运营的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13853",
+      "reader_url": "https://arxiv.org/pdf/2610.13853",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T14:26:42.891415",
+      "sub_category_label": "恶意软件与威胁检测"
     },
     {
       "id": 14310,
@@ -148,51 +208,6 @@
       "published_at": "2026-10-13T10:11:50",
       "first_seen_at": "2026-10-14T12:40:01.905196",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 14363,
-      "title": "BenCoDiC：面向孟加拉语政治新闻的网络欺凌语境语料库",
-      "original_title": "BenCoDiC: A Large-Scale Contextual Cyberbullying Corpus for Bengali Political News Discourse FULL VERSION",
-      "summary": "本文提出了一个包含5万多条实例的孟加拉语网络欺凌语料库，保留了对话上下文关系，并验证了引入上下文信息的Transformer模型在检测效果上有提升。",
-      "primary_category": "AI for Sec",
-      "sub_category": "content_moderation",
-      "score_total": 77.4,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "面向内容安全审核和低资源语言NLP团队。提供了一个带上下文关联的新语料库，可作为评估大模型在多语言环境下的内容安全检测能力的新基准。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.13121",
-      "reader_url": "https://arxiv.org/pdf/2610.13121",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-12T04:00:00",
-      "first_seen_at": "2026-10-14T08:26:28.946347",
-      "sub_category_label": null
-    },
-    {
-      "id": 14736,
-      "title": "GitHub开源AI Fuzzing工具Fuzzing Taskflow",
-      "original_title": "ソフトの弱点を探す「ファジング」を、AIエージェントにほぼ丸ごと任せる仕組みを、GitHubが公開しています。  GitHub Security Labの「Fuzzing Taskflow」です。9月24日に公開され、10月11日にGitHubの公式アカウントが改めて紹介しました。  分かっていること。 ・C/C++のリポジトリを指定すると、エージェントが重",
-      "summary": "GitHub Security Lab 发布开源工具 Fuzzing Taskflow，可让 AI Agent 自动为 C/C++ 代码编写 harness 并运行 AFL++ 寻找漏洞，官方提示需注意提示注入风险。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 77.2,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全研究员和蓝队应立即关注这个开源的自动化 fuzzing Agent。它能自主完成从读代码到写 harness 再到跑 AFL++ 的全流程，但务必在隔离环境运行，防被提示注入打穿权限。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/keitaro_aigc/status/2109917110462005626",
-      "reader_url": "https://x.com/keitaro_aigc/status/2109917110462005626",
-      "image_url": null,
-      "author": {
-        "username": "keitaro_aigc",
-        "name": "けいたろう@9月５．6日はAI BRIDGE KUMAMOTO 2026開催",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-13T08:00:14",
-      "first_seen_at": "2026-10-14T08:39:53.853820",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
