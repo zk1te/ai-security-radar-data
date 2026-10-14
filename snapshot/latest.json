@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T00:08:28+08:00",
+  "updated_at": "2026-10-15T00:38:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -125,26 +125,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 15067,
-      "title": "DeepMind 与新加坡政府推端侧 AI 工具防诈骗",
-      "original_title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
-      "summary": "Google DeepMind 与新加坡政府合作，利用轻量级端侧 Gemma 模型在私密聊天中实时拦截对话式诈骗，且不向云端泄露数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_detection",
-      "score_total": 80.25,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "反欺诈与业务安全团队可参考其端侧轻量级模型的落地方式，在保障用户隐私的前提下实现实时威胁拦截。",
-      "source_id": "deepmind-blog",
-      "canonical_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
-      "reader_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-14T02:00:14",
-      "first_seen_at": "2026-10-14T04:16:43.482581",
-      "sub_category_label": "威胁检测"
-    },
-    {
       "id": 14203,
       "title": "面向电网物理安全风险的决策聚焦学习框架",
       "original_title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
@@ -203,6 +183,31 @@
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-14T08:26:28.946347",
       "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 14793,
+      "title": "Meta 开源 Zurp 工具包：将 Burp Suite 与 AI 编码助手打通用于漏洞赏金研究",
+      "original_title": "🛡️  Meta Zurp AI Toolkit Connects Burp Suite With AI Coding Agents for Bug Bounty Research   Details: https://t.co/5QN59TNIGj  Meta has introduced Zurp, an open-source toolkit that",
+      "summary": "Meta 发布开源工具 Zurp，以 Burp Suite Java 扩展形式运行并提供 MCP 服务器，让研究者在授权范围内将 Web 流量检查与 AI 编码代理共享同一套 API 和访问令牌，用于合法漏洞赏金研究。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做渗透测试和漏洞挖掘的工程师该看——这是 AI Agent 落地安全工具链的标杆案例，MCP 集成模式值得借鉴到自己工具链中。注意其强调仅限授权账户的边界设计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2109950228959047716",
+      "reader_url": "https://x.com/The_Cyber_News/status/2109950228959047716",
+      "image_url": "https://pbs.twimg.com/media/HUgMhkpakAA7sxy.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-10-13T10:11:50",
+      "first_seen_at": "2026-10-14T12:40:01.905196",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
