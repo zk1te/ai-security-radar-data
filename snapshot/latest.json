@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T04:39:34+08:00",
+  "updated_at": "2026-10-15T07:40:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,26 +43,6 @@
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-14T14:26:42.891415",
       "sub_category_label": null
-    },
-    {
-      "id": 15189,
-      "title": "开源自主渗透测试Agent系统Pentagi爆火登顶GitHub Trending",
-      "original_title": "GitHub Trending: vxcontrol/pentagi gained 1819 stars today",
-      "summary": "vxcontrol/pentagi是一个能执行复杂渗透测试任务的完全自主AI Agent系统，近期在GitHub上星标暴涨，单日新增超1800星。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 90.07,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "红队和攻防从业者应立刻关注。这是一款开源的自主渗透测试 Agent，可用于评估当前 LLM 在实战攻防编排中的落地效果与能力边界。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-10-14&since=daily",
-      "reader_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-10-14&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-14T11:08:49.118382",
-      "first_seen_at": "2026-10-14T11:10:49.491302",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 12508,
@@ -203,6 +183,31 @@
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-14T20:26:48.483609",
       "sub_category_label": null
+    },
+    {
+      "id": 15285,
+      "title": "ARTEX自主渗透框架实战：韩国金融机构数据泄露",
+      "original_title": "Agentic Speed, Peripheral Weakness: What the South Korean Financial Breaches Reveal About The ARTEX Campaign  Between late September and mid-October 2026 a single operator used the",
+      "summary": "攻击者使用开源多智能体渗透框架 ARTEX 配合 DeepSeek、GLM 等模型，利用高并发自动化能力攻击韩国16家金融机构外围系统的弱认证缺陷，窃取约10万条个人数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.08,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是极为罕见的大规模 AI Agent 实战渗透案例。安全团队必须警惕攻击侧从人工脚本向 Agentic 高并发侦察的转变，重点盘点并加固非核心的外部暴露面，而非仅盯着核心业务系统。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jannikmeissner/status/2110405908412977562",
+      "reader_url": "https://x.com/jannikmeissner/status/2110405908412977562",
+      "image_url": "https://pbs.twimg.com/media/HUmq2ygXgAAHZOx.jpg",
+      "author": {
+        "username": "jannikmeissner",
+        "name": "Jannik Malte Meissner 🇺🇦",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-14T16:22:32",
+      "first_seen_at": "2026-10-14T16:48:14.144487",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
