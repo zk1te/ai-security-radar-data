@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T16:35:17+08:00",
+  "updated_at": "2026-10-14T17:05:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -63,31 +63,6 @@
       "published_at": "2026-10-14T02:00:14",
       "first_seen_at": "2026-10-14T04:16:43.482581",
       "sub_category_label": "威胁检测"
-    },
-    {
-      "id": 14547,
-      "title": "黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据",
-      "original_title": "China-based hacker uses AI agents to breach Shinhan, KB Kookmin and Hana, stealing 68,000 customer records  Between late September and early October 2026, one financially motivated",
-      "summary": "某黑客利用开源 AI 渗透代理 ARTEX 结合多款大模型，攻破韩国多家金融机构窃取 6.8 万条客户记录，并在服务器上遗留了 Prompt 和 CLAUDE.md 文件暴露行踪。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_agent",
-      "score_total": 79.94,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/gettransilience/status/2109722892208644097",
-      "reader_url": "https://x.com/gettransilience/status/2109722892208644097",
-      "image_url": "https://pbs.twimg.com/media/HUc9Kyua8AAdz8e.jpg",
-      "author": {
-        "username": "gettransilience",
-        "name": "transilienceai",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-12T19:08:28",
-      "first_seen_at": "2026-10-13T20:38:12.514025",
-      "sub_category_label": null
     },
     {
       "id": 15010,
@@ -193,6 +168,31 @@
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-14T08:26:28.946347",
       "sub_category_label": null
+    },
+    {
+      "id": 14736,
+      "title": "GitHub开源AI Fuzzing工具Fuzzing Taskflow",
+      "original_title": "ソフトの弱点を探す「ファジング」を、AIエージェントにほぼ丸ごと任せる仕組みを、GitHubが公開しています。  GitHub Security Labの「Fuzzing Taskflow」です。9月24日に公開され、10月11日にGitHubの公式アカウントが改めて紹介しました。  分かっていること。 ・C/C++のリポジトリを指定すると、エージェントが重",
+      "summary": "GitHub Security Lab 发布开源工具 Fuzzing Taskflow，可让 AI Agent 自动为 C/C++ 代码编写 harness 并运行 AFL++ 寻找漏洞，官方提示需注意提示注入风险。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 77.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员和蓝队应立即关注这个开源的自动化 fuzzing Agent。它能自主完成从读代码到写 harness 再到跑 AFL++ 的全流程，但务必在隔离环境运行，防被提示注入打穿权限。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/keitaro_aigc/status/2109917110462005626",
+      "reader_url": "https://x.com/keitaro_aigc/status/2109917110462005626",
+      "image_url": null,
+      "author": {
+        "username": "keitaro_aigc",
+        "name": "けいたろう@9月５．6日はAI BRIDGE KUMAMOTO 2026開催",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-13T08:00:14",
+      "first_seen_at": "2026-10-14T08:39:53.853820",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
