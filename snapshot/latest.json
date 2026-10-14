@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T01:08:57+08:00",
+  "updated_at": "2026-10-15T04:09:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -170,6 +170,26 @@
       "sub_category_label": "恶意软件与威胁检测"
     },
     {
+      "id": 15365,
+      "title": "SentinelOne 借 OpenAI Daybreak 将恶意软件分析提速",
+      "original_title": "SentinelOne cuts malware analysis from weeks to hours",
+      "summary": "SentinelOne 采用 OpenAI Daybreak 模型，将恶意软件分析时间从数周缩短至数小时，从而提升威胁调查能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 79.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 赋能恶意软件分析的实际落地案例。安全运营和威胁情报团队可关注大模型在样本处理上的效率提升，评估引入类似 AI 工具解放人力的可行性。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/sentinelone",
+      "reader_url": "https://openai.com/index/sentinelone",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-14T12:00:00",
+      "first_seen_at": "2026-10-14T19:52:00.057731",
+      "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
       "id": 14310,
       "title": "基于双轴课程学习条件扩散模型的时间序列异常检测",
       "original_title": "NV-Tesseract-AD: Curriculum-Enhanced Conditional Diffusion for Multivariate Time-Series Anomaly Detection",
@@ -188,26 +208,6 @@
       "published_at": "2026-10-12T04:00:00",
       "first_seen_at": "2026-10-14T08:26:28.946347",
       "sub_category_label": null
-    },
-    {
-      "id": 14368,
-      "title": "SharP：利用软硬提示增强LLM数据生成以检测假新闻",
-      "original_title": "SharP: Soft and Hard Prompt-Guided Augmentation with LLM for Low Resource Fake News Detection",
-      "summary": "论文提出 SharP 框架，结合软硬提示引导 LLM 生成任务特定样本，并利用边界感知策略在分类器低置信度区域生成数据，以提升低资源场景下假新闻检测的鲁棒性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_detection",
-      "score_total": 77.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "为低资源内容安全场景下的数据增强提供了新思路。做恶意内容检测的团队可参考其软硬提示结合及边界感知策略，优化模型训练数据质量。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.13207",
-      "reader_url": "https://arxiv.org/pdf/2610.13207",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-12T04:00:00",
-      "first_seen_at": "2026-10-14T08:26:28.946347",
-      "sub_category_label": "威胁检测"
     }
   ]
 }
