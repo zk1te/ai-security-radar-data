@@ -1,0 +1,1375 @@
+{
+  "date": "2026-10-14",
+  "candidate_count": 22,
+  "selected_count": 3,
+  "cover_title": "REINS：基于智能体引导的线程调度检测并发漏洞",
+  "lead_takeaway": "今天的主线是AI Agent在安全攻防场景的实战落地全面提速，从引导并发漏洞挖掘到自主执行渗透测试，大模型已经从辅助脚本进化成了能接手复杂安全任务的实战武器。",
+  "digest_points": [
+    "01 提出了一种将智能体推理与并发测试结合的新思路，利用语义信息聚焦于与缺陷相关的交织。做漏洞挖掘和Fuzzing的安全研究员应关注，这展示了Agent在复杂系统漏洞发现中的实际落地价值。",
+    "02 红队和攻防从业者应立刻关注。这是一款开源的自主渗透测试 Agent，可用于评估当前 LLM 在实战攻防编排中的落地效果与能力边界。",
+    "03 反欺诈与业务安全团队可参考其端侧轻量级模型的落地方式，在保障用户隐私的前提下实现实时威胁拦截。"
+  ],
+  "judgement": [
+    "01 提出了一种将智能体推理与并发测试结合的新思路，利用语义信息聚焦于与缺陷相关的交织。做漏洞挖掘和Fuzzing的安全研究员应关注，这展示了Agent在复杂系统漏洞发现中的实际落地价值。",
+    "02 红队和攻防从业者应立刻关注。这是一款开源的自主渗透测试 Agent，可用于评估当前 LLM 在实战攻防编排中的落地效果与能力边界。",
+    "03 反欺诈与业务安全团队可参考其端侧轻量级模型的落地方式，在保障用户隐私的前提下实现实时威胁拦截。"
+  ],
+  "top_items": [
+    {
+      "id": 14394,
+      "title": "REINS：基于智能体引导的线程调度检测并发漏洞",
+      "original_title": "REINS: Agent-guided Thread Scheduling for Concurrency Bug Detection and Reproduction",
+      "summary": "REINS利用智能体对并发语义和已知漏洞模式的推理来引导线程调度，从而在有限预算内更有效地检测和复现并发漏洞，并在真实项目中发现了6个未知漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 92.55,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "提出了一种将智能体推理与并发测试结合的新思路，利用语义信息聚焦于与缺陷相关的交织。做漏洞挖掘和Fuzzing的安全研究员应关注，这展示了Agent在复杂系统漏洞发现中的实际落地价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13421",
+      "reader_url": "https://arxiv.org/pdf/2610.13421",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T08:26:28.946347",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 15189,
+      "title": "开源自主渗透测试Agent系统Pentagi爆火登顶GitHub Trending",
+      "original_title": "GitHub Trending: vxcontrol/pentagi gained 1819 stars today",
+      "summary": "vxcontrol/pentagi是一个能执行复杂渗透测试任务的完全自主AI Agent系统，近期在GitHub上星标暴涨，单日新增超1800星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 90.07,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "红队和攻防从业者应立刻关注。这是一款开源的自主渗透测试 Agent，可用于评估当前 LLM 在实战攻防编排中的落地效果与能力边界。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-10-14&since=daily",
+      "reader_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-10-14&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-14T11:08:49.118382",
+      "first_seen_at": "2026-10-14T11:10:49.491302",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 15067,
+      "title": "DeepMind 与新加坡政府推端侧 AI 工具防诈骗",
+      "original_title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "summary": "Google DeepMind 与新加坡政府合作，利用轻量级端侧 Gemma 模型在私密聊天中实时拦截对话式诈骗，且不向云端泄露数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 80.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "反欺诈与业务安全团队可参考其端侧轻量级模型的落地方式，在保障用户隐私的前提下实现实时威胁拦截。",
+      "source_id": "deepmind-blog",
+      "canonical_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "reader_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-14T02:00:14",
+      "first_seen_at": "2026-10-14T04:16:43.482581",
+      "sub_category_label": "威胁检测"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 14398,
+      "title": "CRBugBench：评估自动化代码审查Agent的Bug检测能力",
+      "original_title": "(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
+      "summary": "该研究构建了包含1800个任务的CRBugBench基准，评估自动化代码审查Agent发现Bug的能力。发现SOTA模型虽能检出71.9%的Bug，但在复杂代码和非局部推理场景下表现显著下降。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 91.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "直接测了Claude等大模型在实际代码审查中发现Bug的能力并指出了上下文限制。做代码审计和安全Agent的同学可参考其评测体系，判断当前自动化审查的真实边界。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13668",
+      "reader_url": "https://arxiv.org/pdf/2610.13668",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T08:26:28.946347",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 14202,
+      "title": "ToFu：自动化Fuzzing LLM工具信任边界发现大量MCP漏洞",
+      "original_title": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+      "summary": "ToFu框架自动从LLM工具元数据生成语义检查和Fuzzing harness，在273个MCP服务器中发现343个未执行输入语义验证的漏洞工具，证明不可将LLM生成的参数视为可信。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "fuzzing | agent_security",
+      "score_total": 90.9,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "开发MCP工具和Agent的团队必看。ToFu不仅揭示了LLM编排器到工具的信任盲区，还提供了自动化Fuzzing手段验证工具输入语义，立刻用它测一遍自己的MCP服务器。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13651",
+      "reader_url": "https://arxiv.org/pdf/2610.13651",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T14:26:42.891415",
+      "sub_category_label": null
+    },
+    {
+      "id": 14221,
+      "title": "STAIR：用于安全事件响应的端到端 Agentic 规划框架",
+      "original_title": "STAIR: Effective Incident Response Using an End-to-End Agentic Planning Framework",
+      "summary": "本文提出端到端的事件响应 Agent 框架 STAIR，利用 Graph-as-State 维护事件状态和执行反馈，并构建了包含 44 个靶场案例的 STAIR-Bench 进行评估，显著优于现有基线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 86.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "该论文不仅提出了用于安全事件响应的 Agent 架构（STAIR），还发布了配套的实战化评测基准（STAIR-Bench），对关注自动化安全响应和 Benchmark 建设的从业者极具参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.09524",
+      "reader_url": "https://arxiv.org/pdf/2608.09524",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T14:26:42.891415",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 15266,
+      "title": "Third Moment Research 如何运行万个安全 Agent 超过 36 小时",
+      "original_title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "summary": "该 AI 实验室利用 GPT-6 Astra 等前沿模型构建了能持续运行数天且具备自我改进能力的网络安全 Agent 集群。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队负责人应关注此案例，它展示了长周期、大规模安全 Agent 的实际编排能力，可作为构建自动化攻防系统的架构参考。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/third-moment-research",
+      "reader_url": "https://openai.com/index/third-moment-research",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-14T07:00:00",
+      "first_seen_at": "2026-10-14T15:50:45.135547",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14329,
+      "title": "SWE-Duel：基于红蓝对抗的自我扩展编码Agent评测竞技场",
+      "original_title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+      "summary": "论文提出 SWE-Duel，一种动态自我扩展的编码 Agent 评测方法。红队 Agent 在真实代码库中实现新功能并植入隐蔽 bug，蓝队 Agent 在不知情下审查代码并修复，通过红蓝轮换对抗生成评测任务，有效避免静态基准的数据泄露问题。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark | model_evaluation",
+      "score_total": 82.7,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "传统静态安全评测榜单易被大模型「刷榜」和记忆。SWE-Duel 的红蓝对抗动态出题思路，为自动化漏洞挖掘和代码审计 Agent 提供了防数据污染的新评测范式，安全评测团队值得借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.12569",
+      "reader_url": "https://arxiv.org/pdf/2610.12569",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-13T20:26:11.053705",
+      "sub_category_label": null
+    },
+    {
+      "id": 14203,
+      "title": "面向电网物理安全风险的决策聚焦学习框架",
+      "original_title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+      "summary": "本文提出一种优化学习框架，将机器学习的入侵检测预测误差转化为电网运行风险成本，通过迭代优化降低电网运行成本，在ICS和Sherlock数据集上表现优于传统方法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 79.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "电网工控安全从业者应看：传统入侵检测只看准确率，这篇将ML检测误差直接与电网运行成本挂钩，提供了把AI检测落地到OT安全运营的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13853",
+      "reader_url": "https://arxiv.org/pdf/2610.13853",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T14:26:42.891415",
+      "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 14310,
+      "title": "基于双轴课程学习条件扩散模型的时间序列异常检测",
+      "original_title": "NV-Tesseract-AD: Curriculum-Enhanced Conditional Diffusion for Multivariate Time-Series Anomaly Detection",
+      "summary": "提出NV-Tesseract-AD框架，通过掩蔽严重性和扩散噪声水平的双轴课程学习，提升了多变量时间序列异常检测的零样本泛化能力。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "anomaly_detection",
+      "score_total": 77.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "扩散模型做时间序列异常检测的新尝试，双轴课程学习思路在零样本场景下效果亮眼。做威胁检测和流量分析的同行可以关注这种训练范式如何提升泛化性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.12754",
+      "reader_url": "https://arxiv.org/pdf/2610.12754",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T08:26:28.946347",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 14394,
+        "title": "REINS：基于智能体引导的线程调度检测并发漏洞",
+        "original_title": "REINS: Agent-guided Thread Scheduling for Concurrency Bug Detection and Reproduction",
+        "summary": "REINS利用智能体对并发语义和已知漏洞模式的推理来引导线程调度，从而在有限预算内更有效地检测和复现并发漏洞，并在真实项目中发现了6个未知漏洞。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 92.55,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "提出了一种将智能体推理与并发测试结合的新思路，利用语义信息聚焦于与缺陷相关的交织。做漏洞挖掘和Fuzzing的安全研究员应关注，这展示了Agent在复杂系统漏洞发现中的实际落地价值。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.13421",
+        "reader_url": "https://arxiv.org/pdf/2610.13421",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-12T04:00:00",
+        "first_seen_at": "2026-10-14T08:26:28.946347",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 14398,
+        "title": "CRBugBench：评估自动化代码审查Agent的Bug检测能力",
+        "original_title": "(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
+        "summary": "该研究构建了包含1800个任务的CRBugBench基准，评估自动化代码审查Agent发现Bug的能力。发现SOTA模型虽能检出71.9%的Bug，但在复杂代码和非局部推理场景下表现显著下降。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 91.15,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "直接测了Claude等大模型在实际代码审查中发现Bug的能力并指出了上下文限制。做代码审计和安全Agent的同学可参考其评测体系，判断当前自动化审查的真实边界。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.13668",
+        "reader_url": "https://arxiv.org/pdf/2610.13668",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-12T04:00:00",
+        "first_seen_at": "2026-10-14T08:26:28.946347",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 15189,
+        "title": "开源自主渗透测试Agent系统Pentagi爆火登顶GitHub Trending",
+        "original_title": "GitHub Trending: vxcontrol/pentagi gained 1819 stars today",
+        "summary": "vxcontrol/pentagi是一个能执行复杂渗透测试任务的完全自主AI Agent系统，近期在GitHub上星标暴涨，单日新增超1800星。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 90.07,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "红队和攻防从业者应立刻关注。这是一款开源的自主渗透测试 Agent，可用于评估当前 LLM 在实战攻防编排中的落地效果与能力边界。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-10-14&since=daily",
+        "reader_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-10-14&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-14T11:08:49.118382",
+        "first_seen_at": "2026-10-14T11:10:49.491302",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 14221,
+        "title": "STAIR：用于安全事件响应的端到端 Agentic 规划框架",
+        "original_title": "STAIR: Effective Incident Response Using an End-to-End Agentic Planning Framework",
+        "summary": "本文提出端到端的事件响应 Agent 框架 STAIR，利用 Graph-as-State 维护事件状态和执行反馈，并构建了包含 44 个靶场案例的 STAIR-Bench 进行评估，显著优于现有基线。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 86.35,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "该论文不仅提出了用于安全事件响应的 Agent 架构（STAIR），还发布了配套的实战化评测基准（STAIR-Bench），对关注自动化安全响应和 Benchmark 建设的从业者极具参考价值。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2608.09524",
+        "reader_url": "https://arxiv.org/pdf/2608.09524",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-12T04:00:00",
+        "first_seen_at": "2026-10-14T14:26:42.891415",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 15266,
+        "title": "Third Moment Research 如何运行万个安全 Agent 超过 36 小时",
+        "original_title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+        "summary": "该 AI 实验室利用 GPT-6 Astra 等前沿模型构建了能持续运行数天且具备自我改进能力的网络安全 Agent 集群。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 83.8,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全团队负责人应关注此案例，它展示了长周期、大规模安全 Agent 的实际编排能力，可作为构建自动化攻防系统的架构参考。",
+        "source_id": "openai-news",
+        "canonical_url": "https://openai.com/index/third-moment-research",
+        "reader_url": "https://openai.com/index/third-moment-research",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-14T07:00:00",
+        "first_seen_at": "2026-10-14T15:50:45.135547",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 14473,
+        "title": "AI 发现 XRP 无限铸造漏洞，风险达 940 亿美元",
+        "original_title": "RT @Cayden_Liao: Our AI found a bug that let anyone mint infinite XRP, with $94B at risk. It had been hiding in one of the most audited cod…",
+        "summary": "推文称其 AI 发现了一个隐藏在高度审计代码中的漏洞，允许任何人铸造无限 XRP，潜在风险高达 940 亿美元。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 81.3,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "AI 在最严格的审计代码中揪出致命漏洞，直接展示了 AI 辅助漏洞挖掘的实战威力。安全团队应关注 AI 审计工具的能力边界与落地效果。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/pentest_swissky/status/2109652348888854562",
+        "reader_url": "https://x.com/pentest_swissky/status/2109652348888854562",
+        "image_url": null,
+        "author": {
+          "username": "pentest_swissky",
+          "name": "Swissky",
+          "avatar_url": null,
+          "followers_count": 23028
+        },
+        "published_at": "2026-10-12T14:28:10",
+        "first_seen_at": "2026-10-13T16:37:37.516020",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 15067,
+        "title": "DeepMind 与新加坡政府推端侧 AI 工具防诈骗",
+        "original_title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+        "summary": "Google DeepMind 与新加坡政府合作，利用轻量级端侧 Gemma 模型在私密聊天中实时拦截对话式诈骗，且不向云端泄露数据。",
+        "primary_category": "AI for Sec",
+        "sub_category": "threat_detection",
+        "score_total": 80.25,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "反欺诈与业务安全团队可参考其端侧轻量级模型的落地方式，在保障用户隐私的前提下实现实时威胁拦截。",
+        "source_id": "deepmind-blog",
+        "canonical_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+        "reader_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-14T02:00:14",
+        "first_seen_at": "2026-10-14T04:16:43.482581",
+        "sub_category_label": "威胁检测"
+      },
+      {
+        "id": 14203,
+        "title": "面向电网物理安全风险的决策聚焦学习框架",
+        "original_title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+        "summary": "本文提出一种优化学习框架，将机器学习的入侵检测预测误差转化为电网运行风险成本，通过迭代优化降低电网运行成本，在ICS和Sherlock数据集上表现优于传统方法。",
+        "primary_category": "AI for Sec",
+        "sub_category": "malware_detection",
+        "score_total": 79.65,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "电网工控安全从业者应看：传统入侵检测只看准确率，这篇将ML检测误差直接与电网运行成本挂钩，提供了把AI检测落地到OT安全运营的新思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.13853",
+        "reader_url": "https://arxiv.org/pdf/2610.13853",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-12T04:00:00",
+        "first_seen_at": "2026-10-14T14:26:42.891415",
+        "sub_category_label": "恶意软件与威胁检测"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 14697,
+        "title": "TerminalHorizon：面向长程终端智能体的数据合成引擎",
+        "original_title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+        "summary": "本文提出全自动数据合成引擎TerminalHorizon，通过重建真实任务环境生成高质量长程轨迹数据，微调Qwen3.5-27B后在12个Agent基准上取得显著提升，并展现出递归自我改进能力。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 74.95,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "长程终端操作能力是自动化漏洞挖掘和安全Agent落地的核心瓶颈。本文提出的数据合成方法可直接借鉴于构建复杂安全任务训练集，值得安全Agent开发者跟踪研究。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2610.13166",
+        "reader_url": "https://arxiv.org/pdf/2610.13166",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-13T00:00:00",
+        "first_seen_at": "2026-10-13T20:26:11.053705",
+        "sub_category_label": "Agent 架构"
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 14202,
+        "title": "ToFu：自动化Fuzzing LLM工具信任边界发现大量MCP漏洞",
+        "original_title": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+        "summary": "ToFu框架自动从LLM工具元数据生成语义检查和Fuzzing harness，在273个MCP服务器中发现343个未执行输入语义验证的漏洞工具，证明不可将LLM生成的参数视为可信。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "fuzzing | agent_security",
+        "score_total": 90.9,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "开发MCP工具和Agent的团队必看。ToFu不仅揭示了LLM编排器到工具的信任盲区，还提供了自动化Fuzzing手段验证工具输入语义，立刻用它测一遍自己的MCP服务器。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.13651",
+        "reader_url": "https://arxiv.org/pdf/2610.13651",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-12T04:00:00",
+        "first_seen_at": "2026-10-14T14:26:42.891415",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 14329,
+        "title": "SWE-Duel：基于红蓝对抗的自我扩展编码Agent评测竞技场",
+        "original_title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+        "summary": "论文提出 SWE-Duel，一种动态自我扩展的编码 Agent 评测方法。红队 Agent 在真实代码库中实现新功能并植入隐蔽 bug，蓝队 Agent 在不知情下审查代码并修复，通过红蓝轮换对抗生成评测任务，有效避免静态基准的数据泄露问题。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_benchmark | model_evaluation",
+        "score_total": 82.7,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "传统静态安全评测榜单易被大模型「刷榜」和记忆。SWE-Duel 的红蓝对抗动态出题思路，为自动化漏洞挖掘和代码审计 Agent 提供了防数据污染的新评测范式，安全评测团队值得借鉴。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.12569",
+        "reader_url": "https://arxiv.org/pdf/2610.12569",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-12T04:00:00",
+        "first_seen_at": "2026-10-13T20:26:11.053705",
+        "sub_category_label": null
+      },
+      {
+        "id": 14310,
+        "title": "基于双轴课程学习条件扩散模型的时间序列异常检测",
+        "original_title": "NV-Tesseract-AD: Curriculum-Enhanced Conditional Diffusion for Multivariate Time-Series Anomaly Detection",
+        "summary": "提出NV-Tesseract-AD框架，通过掩蔽严重性和扩散噪声水平的双轴课程学习，提升了多变量时间序列异常检测的零样本泛化能力。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "anomaly_detection",
+        "score_total": 77.9,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "扩散模型做时间序列异常检测的新尝试，双轴课程学习思路在零样本场景下效果亮眼。做威胁检测和流量分析的同行可以关注这种训练范式如何提升泛化性。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.12754",
+        "reader_url": "https://arxiv.org/pdf/2610.12754",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-12T04:00:00",
+        "first_seen_at": "2026-10-14T08:26:28.946347",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 14547,
+        "title": "黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据",
+        "original_title": "China-based hacker uses AI agents to breach Shinhan, KB Kookmin and Hana, stealing 68,000 customer records  Between late September and early October 2026, one financially motivated",
+        "summary": "某黑客利用开源 AI 渗透代理 ARTEX 结合多款大模型，攻破韩国多家金融机构窃取 6.8 万条客户记录，并在服务器上遗留了 Prompt 和 CLAUDE.md 文件暴露行踪。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security | security_agent",
+        "score_total": 79.94,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/gettransilience/status/2109722892208644097",
+        "reader_url": "https://x.com/gettransilience/status/2109722892208644097",
+        "image_url": "https://pbs.twimg.com/media/HUc9Kyua8AAdz8e.jpg",
+        "author": {
+          "username": "gettransilience",
+          "name": "transilienceai",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-12T19:08:28",
+        "first_seen_at": "2026-10-13T20:38:12.514025",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 14341,
+        "title": "MADS：针对鲁棒对话Agent的多智能体对抗模拟与评测",
+        "original_title": "MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents",
+        "summary": "MADS 提出一种合成数据生成 pipeline，通过注入对抗性对话路径构建 MADS-Bench 基准，并结合 SFT 与 RLVR 训练提升任务型对话 Agent 面对非合作用户的鲁棒性。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 75.25,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "面向做对话 Agent 防护的安全研究者。提供了构建对抗性对话路径和评测基准的具体思路，可直接借鉴用于测试 LLM Agent 面对非合作用户时的失败边界与防御训练。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.12757",
+        "reader_url": "https://arxiv.org/pdf/2610.12757",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-12T04:00:00",
+        "first_seen_at": "2026-10-14T08:26:28.946347",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 14394,
+            "title": "REINS：基于智能体引导的线程调度检测并发漏洞",
+            "original_title": "REINS: Agent-guided Thread Scheduling for Concurrency Bug Detection and Reproduction",
+            "summary": "REINS利用智能体对并发语义和已知漏洞模式的推理来引导线程调度，从而在有限预算内更有效地检测和复现并发漏洞，并在真实项目中发现了6个未知漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 92.55,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "提出了一种将智能体推理与并发测试结合的新思路，利用语义信息聚焦于与缺陷相关的交织。做漏洞挖掘和Fuzzing的安全研究员应关注，这展示了Agent在复杂系统漏洞发现中的实际落地价值。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.13421",
+            "reader_url": "https://arxiv.org/pdf/2610.13421",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-14T08:26:28.946347",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 14473,
+            "title": "AI 发现 XRP 无限铸造漏洞，风险达 940 亿美元",
+            "original_title": "RT @Cayden_Liao: Our AI found a bug that let anyone mint infinite XRP, with $94B at risk. It had been hiding in one of the most audited cod…",
+            "summary": "推文称其 AI 发现了一个隐藏在高度审计代码中的漏洞，允许任何人铸造无限 XRP，潜在风险高达 940 亿美元。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 81.3,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI 在最严格的审计代码中揪出致命漏洞，直接展示了 AI 辅助漏洞挖掘的实战威力。安全团队应关注 AI 审计工具的能力边界与落地效果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/pentest_swissky/status/2109652348888854562",
+            "reader_url": "https://x.com/pentest_swissky/status/2109652348888854562",
+            "image_url": null,
+            "author": {
+              "username": "pentest_swissky",
+              "name": "Swissky",
+              "avatar_url": null,
+              "followers_count": 23028
+            },
+            "published_at": "2026-10-12T14:28:10",
+            "first_seen_at": "2026-10-13T16:37:37.516020",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 15252,
+            "title": "AI Agent 用 GPT-5.6 在六天内构建 Chrome 三漏洞 RCE 利用链",
+            "original_title": "‼️ Researchers used AI agents running OpenAI's public GPT-5.6 Sol to build a 3-bug Chrome exploit chain in 6 days.  Loading a web page could execute code on Windows, outside Chrome",
+            "summary": "研究人员使用运行 OpenAI GPT-5.6 Sol 的 AI Agent 在 6 天内构建了一条包含 3 个 Chrome 漏洞的利用链，通过加载网页即可在 Windows 沙箱外执行代码，谷歌修复全部漏洞并支付 25 万美元赏金。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 74.85,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI Agent 已能自主完成浏览器全链 RCE 构造，从单漏洞挖掘升级到多漏洞链式利用。攻防团队都该盯紧这条线——AI 漏洞挖掘能力正从实验演示快速逼近实战级别。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2110337161656684943",
+            "reader_url": "https://x.com/TheHackersNews/status/2110337161656684943",
+            "image_url": null,
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-10-14T11:49:22",
+            "first_seen_at": "2026-10-14T15:04:46.058695",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 15177,
+            "title": "AI辅助发现Linux内核漏洞Vghost可致QEMU劫持",
+            "original_title": "🛑 A Linux kernel flaw can let an untrusted VM hijack its host's QEMU process in specific setups.  Dubbed Vghost (CVE-2026-74580), the AI-assisted discovery also enables local root ",
+            "summary": "名为 Vghost (CVE-2026-74580) 的 Linux 内核漏洞由 AI 辅助发现，未经信任的虚拟机可借此劫持宿主机的 QEMU 进程，并实现本地提权至 root。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 74.63,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI 辅助发现内核级高危漏洞再次验证其落地价值，安全团队应关注 AI 挖洞能力在虚拟化逃逸和提权场景中的实际表现，及时排查相关 CVE。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2110278636754575716",
+            "reader_url": "https://x.com/TheHackersNews/status/2110278636754575716",
+            "image_url": "https://pbs.twimg.com/media/HUk3Otxa8AAC3Xy.jpg",
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-10-14T07:56:48",
+            "first_seen_at": "2026-10-14T11:03:10.499713",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 14398,
+            "title": "CRBugBench：评估自动化代码审查Agent的Bug检测能力",
+            "original_title": "(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
+            "summary": "该研究构建了包含1800个任务的CRBugBench基准，评估自动化代码审查Agent发现Bug的能力。发现SOTA模型虽能检出71.9%的Bug，但在复杂代码和非局部推理场景下表现显著下降。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 91.15,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "直接测了Claude等大模型在实际代码审查中发现Bug的能力并指出了上下文限制。做代码审计和安全Agent的同学可参考其评测体系，判断当前自动化审查的真实边界。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.13668",
+            "reader_url": "https://arxiv.org/pdf/2610.13668",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-14T08:26:28.946347",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 15189,
+            "title": "开源自主渗透测试Agent系统Pentagi爆火登顶GitHub Trending",
+            "original_title": "GitHub Trending: vxcontrol/pentagi gained 1819 stars today",
+            "summary": "vxcontrol/pentagi是一个能执行复杂渗透测试任务的完全自主AI Agent系统，近期在GitHub上星标暴涨，单日新增超1800星。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 90.07,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "红队和攻防从业者应立刻关注。这是一款开源的自主渗透测试 Agent，可用于评估当前 LLM 在实战攻防编排中的落地效果与能力边界。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-10-14&since=daily",
+            "reader_url": "https://github.com/vxcontrol/pentagi?github_trending_date=2026-10-14&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-14T11:08:49.118382",
+            "first_seen_at": "2026-10-14T11:10:49.491302",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 14221,
+            "title": "STAIR：用于安全事件响应的端到端 Agentic 规划框架",
+            "original_title": "STAIR: Effective Incident Response Using an End-to-End Agentic Planning Framework",
+            "summary": "本文提出端到端的事件响应 Agent 框架 STAIR，利用 Graph-as-State 维护事件状态和执行反馈，并构建了包含 44 个靶场案例的 STAIR-Bench 进行评估，显著优于现有基线。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 86.35,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "该论文不仅提出了用于安全事件响应的 Agent 架构（STAIR），还发布了配套的实战化评测基准（STAIR-Bench），对关注自动化安全响应和 Benchmark 建设的从业者极具参考价值。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2608.09524",
+            "reader_url": "https://arxiv.org/pdf/2608.09524",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-14T14:26:42.891415",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 15266,
+            "title": "Third Moment Research 如何运行万个安全 Agent 超过 36 小时",
+            "original_title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+            "summary": "该 AI 实验室利用 GPT-6 Astra 等前沿模型构建了能持续运行数天且具备自我改进能力的网络安全 Agent 集群。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 83.8,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全团队负责人应关注此案例，它展示了长周期、大规模安全 Agent 的实际编排能力，可作为构建自动化攻防系统的架构参考。",
+            "source_id": "openai-news",
+            "canonical_url": "https://openai.com/index/third-moment-research",
+            "reader_url": "https://openai.com/index/third-moment-research",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-14T07:00:00",
+            "first_seen_at": "2026-10-14T15:50:45.135547",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 14604,
+            "title": "BruteForceAI：LLM 驱动的登录测试工具，自动化表单分析与凭证攻击",
+            "original_title": "🚨 BruteForceAI: A LLM-powered login testing tool that combines AI form analysis with automated credential attacks  GitHub: https://t.co/6OTgOMxkWK  The tool uses an LLM to analyze ",
+            "summary": "BruteForceAI 是一个开源的 LLM 驱动登录测试工具，利用 LLM 自动分析登录页面元素，支持暴力破解和密码喷洒模式，适用于渗透测试场景。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 77.71,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "渗透测试团队可以关注这个工具，它用 LLM 解决了登录表单自动识别的痛点，支持本地模型和 Groq，适合集成到自动化测试流程中。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
+            "reader_url": "https://x.com/DarkWebInformer/status/2109782438163390507",
+            "image_url": "https://pbs.twimg.com/media/HUdzytFW0AAnCwB.jpg",
+            "author": {
+              "username": "DarkWebInformer",
+              "name": "Dark Web Informer",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-12T23:05:05",
+            "first_seen_at": "2026-10-14T00:38:54.418001",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 14793,
+            "title": "Meta 开源 Zurp 工具包：将 Burp Suite 与 AI 编码助手打通用于漏洞赏金研究",
+            "original_title": "🛡️  Meta Zurp AI Toolkit Connects Burp Suite With AI Coding Agents for Bug Bounty Research   Details: https://t.co/5QN59TNIGj  Meta has introduced Zurp, an open-source toolkit that",
+            "summary": "Meta 发布开源工具 Zurp，以 Burp Suite Java 扩展形式运行并提供 MCP 服务器，让研究者在授权范围内将 Web 流量检查与 AI 编码代理共享同一套 API 和访问令牌，用于合法漏洞赏金研究。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 77.5,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做渗透测试和漏洞挖掘的工程师该看——这是 AI Agent 落地安全工具链的标杆案例，MCP 集成模式值得借鉴到自己工具链中。注意其强调仅限授权账户的边界设计。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/The_Cyber_News/status/2109950228959047716",
+            "reader_url": "https://x.com/The_Cyber_News/status/2109950228959047716",
+            "image_url": "https://pbs.twimg.com/media/HUgMhkpakAA7sxy.jpg",
+            "author": {
+              "username": "The_Cyber_News",
+              "name": "Cyber Security News",
+              "avatar_url": null,
+              "followers_count": 73656
+            },
+            "published_at": "2026-10-13T10:11:50",
+            "first_seen_at": "2026-10-14T12:40:01.905196",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "threat_detection": {
+        "label": "威胁检测",
+        "items": [
+          {
+            "id": 15067,
+            "title": "DeepMind 与新加坡政府推端侧 AI 工具防诈骗",
+            "original_title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+            "summary": "Google DeepMind 与新加坡政府合作，利用轻量级端侧 Gemma 模型在私密聊天中实时拦截对话式诈骗，且不向云端泄露数据。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 80.25,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "反欺诈与业务安全团队可参考其端侧轻量级模型的落地方式，在保障用户隐私的前提下实现实时威胁拦截。",
+            "source_id": "deepmind-blog",
+            "canonical_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+            "reader_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-14T02:00:14",
+            "first_seen_at": "2026-10-14T04:16:43.482581",
+            "sub_category_label": "威胁检测"
+          },
+          {
+            "id": 14368,
+            "title": "SharP：利用软硬提示增强LLM数据生成以检测假新闻",
+            "original_title": "SharP: Soft and Hard Prompt-Guided Augmentation with LLM for Low Resource Fake News Detection",
+            "summary": "论文提出 SharP 框架，结合软硬提示引导 LLM 生成任务特定样本，并利用边界感知策略在分类器低置信度区域生成数据，以提升低资源场景下假新闻检测的鲁棒性。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 77.65,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "为低资源内容安全场景下的数据增强提供了新思路。做恶意内容检测的团队可参考其软硬提示结合及边界感知策略，优化模型训练数据质量。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.13207",
+            "reader_url": "https://arxiv.org/pdf/2610.13207",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-14T08:26:28.946347",
+            "sub_category_label": "威胁检测"
+          }
+        ]
+      },
+      "malware_detection": {
+        "label": "恶意软件与威胁检测",
+        "items": [
+          {
+            "id": 14203,
+            "title": "面向电网物理安全风险的决策聚焦学习框架",
+            "original_title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+            "summary": "本文提出一种优化学习框架，将机器学习的入侵检测预测误差转化为电网运行风险成本，通过迭代优化降低电网运行成本，在ICS和Sherlock数据集上表现优于传统方法。",
+            "primary_category": "AI for Sec",
+            "sub_category": "malware_detection",
+            "score_total": 79.65,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "电网工控安全从业者应看：传统入侵检测只看准确率，这篇将ML检测误差直接与电网运行成本挂钩，提供了把AI检测落地到OT安全运营的新思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.13853",
+            "reader_url": "https://arxiv.org/pdf/2610.13853",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-14T14:26:42.891415",
+            "sub_category_label": "恶意软件与威胁检测"
+          }
+        ]
+      },
+      "agent_reverse_engineering": {
+        "label": "agent_reverse_engineering",
+        "items": [
+          {
+            "id": 15010,
+            "title": "morluto/rea：基于 Agent 的逆向分析工具冲上 GitHub Trending",
+            "original_title": "GitHub Trending: morluto/rea gained 54679 stars today",
+            "summary": "GitHub 项目 morluto/rea 星标激增，该工具利用 Agent 技术实现从应用行为到原生二进制文件的自动化逆向工程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "agent_reverse_engineering",
+            "score_total": 79.65,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI 驱动的逆向工程工具开始涌现，二进制安全人员应重点关注。评估这类 Agent 能否有效集成进现有的自动化漏洞挖掘或威胁分析流程。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-14&since=daily",
+            "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-14&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-14T00:33:10.036970",
+            "first_seen_at": "2026-10-14T00:39:18.375169",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "content_moderation": {
+        "label": "content_moderation",
+        "items": [
+          {
+            "id": 14363,
+            "title": "BenCoDiC：面向孟加拉语政治新闻的网络欺凌语境语料库",
+            "original_title": "BenCoDiC: A Large-Scale Contextual Cyberbullying Corpus for Bengali Political News Discourse FULL VERSION",
+            "summary": "本文提出了一个包含5万多条实例的孟加拉语网络欺凌语料库，保留了对话上下文关系，并验证了引入上下文信息的Transformer模型在检测效果上有提升。",
+            "primary_category": "AI for Sec",
+            "sub_category": "content_moderation",
+            "score_total": 77.4,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "面向内容安全审核和低资源语言NLP团队。提供了一个带上下文关联的新语料库，可作为评估大模型在多语言环境下的内容安全检测能力的新基准。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.13121",
+            "reader_url": "https://arxiv.org/pdf/2610.13121",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-14T08:26:28.946347",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 14736,
+            "title": "GitHub开源AI Fuzzing工具Fuzzing Taskflow",
+            "original_title": "ソフトの弱点を探す「ファジング」を、AIエージェントにほぼ丸ごと任せる仕組みを、GitHubが公開しています。  GitHub Security Labの「Fuzzing Taskflow」です。9月24日に公開され、10月11日にGitHubの公式アカウントが改めて紹介しました。  分かっていること。 ・C/C++のリポジトリを指定すると、エージェントが重",
+            "summary": "GitHub Security Lab 发布开源工具 Fuzzing Taskflow，可让 AI Agent 自动为 C/C++ 代码编写 harness 并运行 AFL++ 寻找漏洞，官方提示需注意提示注入风险。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 77.2,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全研究员和蓝队应立即关注这个开源的自动化 fuzzing Agent。它能自主完成从读代码到写 harness 再到跑 AFL++ 的全流程，但务必在隔离环境运行，防被提示注入打穿权限。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/keitaro_aigc/status/2109917110462005626",
+            "reader_url": "https://x.com/keitaro_aigc/status/2109917110462005626",
+            "image_url": null,
+            "author": {
+              "username": "keitaro_aigc",
+              "name": "けいたろう@9月５．6日はAI BRIDGE KUMAMOTO 2026開催",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-13T08:00:14",
+            "first_seen_at": "2026-10-14T08:39:53.853820",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "fuzzing | agent_security": {
+        "label": "fuzzing | agent_security",
+        "items": [
+          {
+            "id": 14202,
+            "title": "ToFu：自动化Fuzzing LLM工具信任边界发现大量MCP漏洞",
+            "original_title": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+            "summary": "ToFu框架自动从LLM工具元数据生成语义检查和Fuzzing harness，在273个MCP服务器中发现343个未执行输入语义验证的漏洞工具，证明不可将LLM生成的参数视为可信。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "fuzzing | agent_security",
+            "score_total": 90.9,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "开发MCP工具和Agent的团队必看。ToFu不仅揭示了LLM编排器到工具的信任盲区，还提供了自动化Fuzzing手段验证工具输入语义，立刻用它测一遍自己的MCP服务器。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.13651",
+            "reader_url": "https://arxiv.org/pdf/2610.13651",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-14T14:26:42.891415",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_benchmark | model_evaluation": {
+        "label": "security_benchmark | model_evaluation",
+        "items": [
+          {
+            "id": 14329,
+            "title": "SWE-Duel：基于红蓝对抗的自我扩展编码Agent评测竞技场",
+            "original_title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+            "summary": "论文提出 SWE-Duel，一种动态自我扩展的编码 Agent 评测方法。红队 Agent 在真实代码库中实现新功能并植入隐蔽 bug，蓝队 Agent 在不知情下审查代码并修复，通过红蓝轮换对抗生成评测任务，有效避免静态基准的数据泄露问题。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_benchmark | model_evaluation",
+            "score_total": 82.7,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "传统静态安全评测榜单易被大模型「刷榜」和记忆。SWE-Duel 的红蓝对抗动态出题思路，为自动化漏洞挖掘和代码审计 Agent 提供了防数据污染的新评测范式，安全评测团队值得借鉴。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.12569",
+            "reader_url": "https://arxiv.org/pdf/2610.12569",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-13T20:26:11.053705",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "anomaly_detection": {
+        "label": "anomaly_detection",
+        "items": [
+          {
+            "id": 14310,
+            "title": "基于双轴课程学习条件扩散模型的时间序列异常检测",
+            "original_title": "NV-Tesseract-AD: Curriculum-Enhanced Conditional Diffusion for Multivariate Time-Series Anomaly Detection",
+            "summary": "提出NV-Tesseract-AD框架，通过掩蔽严重性和扩散噪声水平的双轴课程学习，提升了多变量时间序列异常检测的零样本泛化能力。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "anomaly_detection",
+            "score_total": 77.9,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "扩散模型做时间序列异常检测的新尝试，双轴课程学习思路在零样本场景下效果亮眼。做威胁检测和流量分析的同行可以关注这种训练范式如何提升泛化性。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.12754",
+            "reader_url": "https://arxiv.org/pdf/2610.12754",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-14T08:26:28.946347",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security | security_agent": {
+        "label": "agent_security | security_agent",
+        "items": [
+          {
+            "id": 14547,
+            "title": "黑客利用开源 AI 渗透代理攻击韩国银行窃取数万条数据",
+            "original_title": "China-based hacker uses AI agents to breach Shinhan, KB Kookmin and Hana, stealing 68,000 customer records  Between late September and early October 2026, one financially motivated",
+            "summary": "某黑客利用开源 AI 渗透代理 ARTEX 结合多款大模型，攻破韩国多家金融机构窃取 6.8 万条客户记录，并在服务器上遗留了 Prompt 和 CLAUDE.md 文件暴露行踪。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security | security_agent",
+            "score_total": 79.94,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这起事件首次展示了 AI 渗透代理在真实金融犯罪中的实战威力，单兵作战即可发动复杂攻击。安全团队需警惕攻击者利用 AI Agent 降低攻击门槛，并了解其可能留下的特征文件如 CLAUDE.md。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/gettransilience/status/2109722892208644097",
+            "reader_url": "https://x.com/gettransilience/status/2109722892208644097",
+            "image_url": "https://pbs.twimg.com/media/HUc9Kyua8AAdz8e.jpg",
+            "author": {
+              "username": "gettransilience",
+              "name": "transilienceai",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-12T19:08:28",
+            "first_seen_at": "2026-10-13T20:38:12.514025",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 14341,
+            "title": "MADS：针对鲁棒对话Agent的多智能体对抗模拟与评测",
+            "original_title": "MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents",
+            "summary": "MADS 提出一种合成数据生成 pipeline，通过注入对抗性对话路径构建 MADS-Bench 基准，并结合 SFT 与 RLVR 训练提升任务型对话 Agent 面对非合作用户的鲁棒性。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 75.25,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "面向做对话 Agent 防护的安全研究者。提供了构建对抗性对话路径和评测基准的具体思路，可直接借鉴用于测试 LLM Agent 面对非合作用户时的失败边界与防御训练。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.12757",
+            "reader_url": "https://arxiv.org/pdf/2610.12757",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-12T04:00:00",
+            "first_seen_at": "2026-10-14T08:26:28.946347",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 14697,
+            "title": "TerminalHorizon：面向长程终端智能体的数据合成引擎",
+            "original_title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
+            "summary": "本文提出全自动数据合成引擎TerminalHorizon，通过重建真实任务环境生成高质量长程轨迹数据，微调Qwen3.5-27B后在12个Agent基准上取得显著提升，并展现出递归自我改进能力。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 74.95,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "长程终端操作能力是自动化漏洞挖掘和安全Agent落地的核心瓶颈。本文提出的数据合成方法可直接借鉴于构建复杂安全任务训练集，值得安全Agent开发者跟踪研究。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2610.13166",
+            "reader_url": "https://arxiv.org/pdf/2610.13166",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-13T00:00:00",
+            "first_seen_at": "2026-10-13T20:26:11.053705",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 14394,
+      "title": "REINS：基于智能体引导的线程调度检测并发漏洞",
+      "original_title": "REINS: Agent-guided Thread Scheduling for Concurrency Bug Detection and Reproduction",
+      "summary": "REINS利用智能体对并发语义和已知漏洞模式的推理来引导线程调度，从而在有限预算内更有效地检测和复现并发漏洞，并在真实项目中发现了6个未知漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 92.55,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "提出了一种将智能体推理与并发测试结合的新思路，利用语义信息聚焦于与缺陷相关的交织。做漏洞挖掘和Fuzzing的安全研究员应关注，这展示了Agent在复杂系统漏洞发现中的实际落地价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13421",
+      "reader_url": "https://arxiv.org/pdf/2610.13421",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T08:26:28.946347",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 14398,
+      "title": "CRBugBench：评估自动化代码审查Agent的Bug检测能力",
+      "original_title": "(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
+      "summary": "该研究构建了包含1800个任务的CRBugBench基准，评估自动化代码审查Agent发现Bug的能力。发现SOTA模型虽能检出71.9%的Bug，但在复杂代码和非局部推理场景下表现显著下降。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 91.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "直接测了Claude等大模型在实际代码审查中发现Bug的能力并指出了上下文限制。做代码审计和安全Agent的同学可参考其评测体系，判断当前自动化审查的真实边界。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13668",
+      "reader_url": "https://arxiv.org/pdf/2610.13668",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T08:26:28.946347",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 14202,
+      "title": "ToFu：自动化Fuzzing LLM工具信任边界发现大量MCP漏洞",
+      "original_title": "ToFu: Exploiting and Fuzzing the LLM-Orchestrator-Tool Trust Boundary",
+      "summary": "ToFu框架自动从LLM工具元数据生成语义检查和Fuzzing harness，在273个MCP服务器中发现343个未执行输入语义验证的漏洞工具，证明不可将LLM生成的参数视为可信。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "fuzzing | agent_security",
+      "score_total": 90.9,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "开发MCP工具和Agent的团队必看。ToFu不仅揭示了LLM编排器到工具的信任盲区，还提供了自动化Fuzzing手段验证工具输入语义，立刻用它测一遍自己的MCP服务器。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13651",
+      "reader_url": "https://arxiv.org/pdf/2610.13651",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T14:26:42.891415",
+      "sub_category_label": null
+    },
+    {
+      "id": 14221,
+      "title": "STAIR：用于安全事件响应的端到端 Agentic 规划框架",
+      "original_title": "STAIR: Effective Incident Response Using an End-to-End Agentic Planning Framework",
+      "summary": "本文提出端到端的事件响应 Agent 框架 STAIR，利用 Graph-as-State 维护事件状态和执行反馈，并构建了包含 44 个靶场案例的 STAIR-Bench 进行评估，显著优于现有基线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 86.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "该论文不仅提出了用于安全事件响应的 Agent 架构（STAIR），还发布了配套的实战化评测基准（STAIR-Bench），对关注自动化安全响应和 Benchmark 建设的从业者极具参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.09524",
+      "reader_url": "https://arxiv.org/pdf/2608.09524",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T14:26:42.891415",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14329,
+      "title": "SWE-Duel：基于红蓝对抗的自我扩展编码Agent评测竞技场",
+      "original_title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+      "summary": "论文提出 SWE-Duel，一种动态自我扩展的编码 Agent 评测方法。红队 Agent 在真实代码库中实现新功能并植入隐蔽 bug，蓝队 Agent 在不知情下审查代码并修复，通过红蓝轮换对抗生成评测任务，有效避免静态基准的数据泄露问题。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark | model_evaluation",
+      "score_total": 82.7,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "传统静态安全评测榜单易被大模型「刷榜」和记忆。SWE-Duel 的红蓝对抗动态出题思路，为自动化漏洞挖掘和代码审计 Agent 提供了防数据污染的新评测范式，安全评测团队值得借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.12569",
+      "reader_url": "https://arxiv.org/pdf/2610.12569",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-13T20:26:11.053705",
+      "sub_category_label": null
+    },
+    {
+      "id": 14203,
+      "title": "面向电网物理安全风险的决策聚焦学习框架",
+      "original_title": "Decision-Focused Learning for Cyber-Physical Risk-Aware Power Grid Operations",
+      "summary": "本文提出一种优化学习框架，将机器学习的入侵检测预测误差转化为电网运行风险成本，通过迭代优化降低电网运行成本，在ICS和Sherlock数据集上表现优于传统方法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 79.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "电网工控安全从业者应看：传统入侵检测只看准确率，这篇将ML检测误差直接与电网运行成本挂钩，提供了把AI检测落地到OT安全运营的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13853",
+      "reader_url": "https://arxiv.org/pdf/2610.13853",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T14:26:42.891415",
+      "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 14310,
+      "title": "基于双轴课程学习条件扩散模型的时间序列异常检测",
+      "original_title": "NV-Tesseract-AD: Curriculum-Enhanced Conditional Diffusion for Multivariate Time-Series Anomaly Detection",
+      "summary": "提出NV-Tesseract-AD框架，通过掩蔽严重性和扩散噪声水平的双轴课程学习，提升了多变量时间序列异常检测的零样本泛化能力。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "anomaly_detection",
+      "score_total": 77.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "扩散模型做时间序列异常检测的新尝试，双轴课程学习思路在零样本场景下效果亮眼。做威胁检测和流量分析的同行可以关注这种训练范式如何提升泛化性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.12754",
+      "reader_url": "https://arxiv.org/pdf/2610.12754",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T08:26:28.946347",
+      "sub_category_label": null
+    },
+    {
+      "id": 14368,
+      "title": "SharP：利用软硬提示增强LLM数据生成以检测假新闻",
+      "original_title": "SharP: Soft and Hard Prompt-Guided Augmentation with LLM for Low Resource Fake News Detection",
+      "summary": "论文提出 SharP 框架，结合软硬提示引导 LLM 生成任务特定样本，并利用边界感知策略在分类器低置信度区域生成数据，以提升低资源场景下假新闻检测的鲁棒性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 77.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "为低资源内容安全场景下的数据增强提供了新思路。做恶意内容检测的团队可参考其软硬提示结合及边界感知策略，优化模型训练数据质量。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13207",
+      "reader_url": "https://arxiv.org/pdf/2610.13207",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T08:26:28.946347",
+      "sub_category_label": "威胁检测"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 22,
+    "highlight_count": 9,
+    "paper_count": 11,
+    "source_count": 6,
+    "top_score": 93,
+    "category_count": {
+      "AI for Sec": 16,
+      "AI Tech": 1,
+      "AI for Sec | Sec for AI": 1,
+      "AI for Sec | AI Tech": 2,
+      "Sec for AI | AI for Sec": 1,
+      "Sec for AI | AI Tech": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 4
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 5
+        },
+        "threat_detection": {
+          "label": "威胁检测",
+          "count": 2
+        },
+        "malware_detection": {
+          "label": "恶意软件与威胁检测",
+          "count": 1
+        },
+        "agent_reverse_engineering": {
+          "label": "agent_reverse_engineering",
+          "count": 1
+        },
+        "content_moderation": {
+          "label": "content_moderation",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "fuzzing | agent_security": {
+          "label": "fuzzing | agent_security",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_benchmark | model_evaluation": {
+          "label": "security_benchmark | model_evaluation",
+          "count": 1
+        },
+        "anomaly_detection": {
+          "label": "anomaly_detection",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security | security_agent": {
+          "label": "agent_security | security_agent",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 16,
+      "top_score": 93,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 1,
+      "top_score": 75,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分的REINS项目证明了Agent推理在复杂并发漏洞挖掘中的提效潜力，它通过语义分析精准引导线程调度，比传统盲测高效得多。漏洞挖掘和红队团队不仅要立刻评估Pentagi这类开源自主渗透测试Agent的实战编排能力，更要尝试借鉴REINS的思路，把Agent的语义推理整合进现有的Fuzzing和漏洞复现流程中去提效。",
+  "method_note": "按北京时间 2026-10-14 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "deepmind-blog",
+    "github-ai-security",
+    "huggingface-daily-papers",
+    "openai-news",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# REINS：基于智能体引导的线程调度检测并发漏洞\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是AI Agent在安全攻防场景的实战落地全面提速，从引导并发漏洞挖掘到自主执行渗透测试，大模型已经从辅助脚本进化成了能接手复杂安全任务的实战武器。\n- 01 提出了一种将智能体推理与并发测试结合的新思路，利用语义信息聚焦于与缺陷相关的交织。做漏洞挖掘和Fuzzing的安全研究员应关注，这展示了Agent在复杂系统漏洞发现中的实际落地价值。\n- 02 红队和攻防从业者应立刻关注。这是一款开源的自主渗透测试 Agent，可用于评估当前 LLM 在实战攻防编排中的落地效果与能力边界。\n- 03 反欺诈与业务安全团队可参考其端侧轻量级模型的落地方式，在保障用户隐私的前提下实现实时威胁拦截。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **REINS：基于智能体引导的线程调度检测并发漏洞**：提出了一种将智能体推理与并发测试结合的新思路，利用语义信息聚焦于与缺陷相关的交织。做漏洞挖掘和Fuzzing的安全研究员应关注，这展示了Agent在复杂系统漏洞发现中的实际落地价值。 来源：arxiv-ai-security\n- **开源自主渗透测试Agent系统Pentagi爆火登顶GitHub Trending**：红队和攻防从业者应立刻关注。这是一款开源的自主渗透测试 Agent，可用于评估当前 LLM 在实战攻防编排中的落地效果与能力边界。 来源：github-ai-security\n- **DeepMind 与新加坡政府推端侧 AI 工具防诈骗**：反欺诈与业务安全团队可参考其端侧轻量级模型的落地方式，在保障用户隐私的前提下实现实时威胁拦截。 来源：deepmind-blog\n\n## 也值得关注\n- CRBugBench：评估自动化代码审查Agent的Bug检测能力（91.15）\n- ToFu：自动化Fuzzing LLM工具信任边界发现大量MCP漏洞（90.9）\n- STAIR：用于安全事件响应的端到端 Agentic 规划框架（86.35）\n- Third Moment Research 如何运行万个安全 Agent 超过 36 小时（83.8）\n- SWE-Duel：基于红蓝对抗的自我扩展编码Agent评测竞技场（82.7）\n- 面向电网物理安全风险的决策聚焦学习框架（79.65）\n\n## AI for Sec\n\n### 漏洞挖掘\n- REINS：基于智能体引导的线程调度检测并发漏洞（92.55）\n- AI 发现 XRP 无限铸造漏洞，风险达 940 亿美元（81.3）\n- AI Agent 用 GPT-5.6 在六天内构建 Chrome 三漏洞 RCE 利用链（74.85）\n- AI辅助发现Linux内核漏洞Vghost可致QEMU劫持（74.63）\n\n### 安全评测与Benchmark\n- CRBugBench：评估自动化代码审查Agent的Bug检测能力（91.15）\n\n### 安全Agent\n- 开源自主渗透测试Agent系统Pentagi爆火登顶GitHub Trending（90.07）\n- STAIR：用于安全事件响应的端到端 Agentic 规划框架（86.35）\n- Third Moment Research 如何运行万个安全 Agent 超过 36 小时（83.8）\n- BruteForceAI：LLM 驱动的登录测试工具，自动化表单分析与凭证攻击（77.71）\n- Meta 开源 Zurp 工具包：将 Burp Suite 与 AI 编码助手打通用于漏洞赏金研究（77.5）\n\n### 威胁检测\n- DeepMind 与新加坡政府推端侧 AI 工具防诈骗（80.25）\n- SharP：利用软硬提示增强LLM数据生成以检测假新闻（77.65）\n\n### 恶意软件与威胁检测\n- 面向电网物理安全风险的决策聚焦学习框架（79.65）\n\n### agent_reverse_engineering\n- morluto/rea：基于 Agent 的逆向分析工具冲上 GitHub Trending（79.65）\n\n### content_moderation\n- BenCoDiC：面向孟加拉语政治新闻的网络欺凌语境语料库（77.4）\n\n### AI Fuzzing\n- GitHub开源AI Fuzzing工具Fuzzing Taskflow（77.2）\n\n## AI Tech\n\n### Agent 架构\n- TerminalHorizon：面向长程终端智能体的数据合成引擎（74.95）\n\n## 今日论文\n- REINS：基于智能体引导的线程调度检测并发漏洞\n- CRBugBench：评估自动化代码审查Agent的Bug检测能力\n- ToFu：自动化Fuzzing LLM工具信任边界发现大量MCP漏洞\n- STAIR：用于安全事件响应的端到端 Agentic 规划框架\n- SWE-Duel：基于红蓝对抗的自我扩展编码Agent评测竞技场\n- 面向电网物理安全风险的决策聚焦学习框架\n- 基于双轴课程学习条件扩散模型的时间序列异常检测\n- SharP：利用软硬提示增强LLM数据生成以检测假新闻\n\n## 今日观察\n最高分的REINS项目证明了Agent推理在复杂并发漏洞挖掘中的提效潜力，它通过语义分析精准引导线程调度，比传统盲测高效得多。漏洞挖掘和红队团队不仅要立刻评估Pentagi这类开源自主渗透测试Agent的实战编排能力，更要尝试借鉴REINS的思路，把Agent的语义推理整合进现有的Fuzzing和漏洞复现流程中去提效。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-10-14 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-10-15T00:01:43+08:00"
+}
