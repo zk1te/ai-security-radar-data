@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T10:40:38+08:00",
+  "updated_at": "2026-10-15T11:10:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -185,24 +185,24 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 14197,
-      "title": "利用神经网络在 Wi-Fi 物理层前导码中实现隐蔽通信",
-      "original_title": "Secrets in Preamble: Practical and Robust PHY Information Hiding for Wi-Fi",
-      "summary": "该论文提出在 Wi-Fi 遗留短训练字段（L-STF）中嵌入秘密信息，利用一对神经网络学习最佳嵌入规则以最大化隐写容量和环境鲁棒性，并通过硬件原型验证了其可行性。",
+      "id": 15488,
+      "title": "开源逆向Agent项目REA：集成41款工具引爆社区",
+      "original_title": "三天11万星的逆天开源REA，逆向分析一切，软件开发的门槛被打到了零，最该慌的为什么不是大厂？",
+      "summary": "开源项目REA将Ghidra、IDA等41个专业逆向工具接入AI Agent实现自动化反编译与分析，五天内获11万星，引发关于软件版权与攻防失衡的广泛争议。",
       "primary_category": "AI for Sec",
-      "sub_category": "steganography",
-      "score_total": 82.15,
+      "sub_category": "security_agent",
+      "score_total": 82.7,
       "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "将神经网络应用于物理层隐写是 AI 在通信安全领域的有趣尝试。安全研究员可关注其隐蔽通信容量提升的思路，评估其在隐蔽信道检测或防御中的参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.13367",
-      "reader_url": "https://arxiv.org/pdf/2610.13367",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员和逆向工程师必看。REA把传统逆向工具链与Agent编排打通，极大降低逆向门槛。值得研究其工具编排思路，同时警惕黑产利用此类工具批量分析软件接口与校验逻辑。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7695604296682930186",
+      "reader_url": "https://juejin.cn/post/7695604296682930186",
       "image_url": null,
       "author": null,
-      "published_at": "2026-10-12T04:00:00",
-      "first_seen_at": "2026-10-14T20:26:48.483609",
-      "sub_category_label": null
+      "published_at": "2026-10-12T07:05:28",
+      "first_seen_at": "2026-10-15T02:54:37.059949",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
