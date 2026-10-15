@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-10-15T20:54:50+08:00",
+  "updated_at": "2026-10-15T22:55:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 6,
   "items": [
-    {
-      "id": 11575,
-      "title": "使用 LLM 辅助分类 Linux 内核严重内存漏洞补丁",
-      "original_title": "What Do They Fix? LLM-Aided Categorization of Security Patches for Critical Memory Bugs",
-      "summary": "论文提出双路模型管道 DUALLM，结合 LLM 和微调小模型对 Linux 内核补丁进行细粒度安全分类，成功发现 111 个未明确标识的 OOB/UAF 漏洞补丁并构建了 PoC。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 92.95,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "面向代码审计和漏洞挖掘人员。展示了如何用大模型结合微调小模型处理海量开源补丁，挖掘隐藏的安全修复甚至产出可利用 PoC，值得借鉴。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2509.22796",
-      "reader_url": "https://arxiv.org/pdf/2509.22796",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-28T04:00:00",
-      "first_seen_at": "2026-10-15T02:27:08.839939",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 15818,
       "title": "X.js：Node.js 污点型漏洞的实时安全基准测试",
@@ -65,26 +45,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 12499,
-      "title": "JsVul：面向 JS/TS 的函数级漏洞与修复代码数据集",
-      "original_title": "A Function-level Dataset of Vulnerable and Fixed Source Code in JavaScript and TypeScript",
-      "summary": "本文发布了 JsVul，一个针对 JavaScript 和 TypeScript 的函数级漏洞与修复代码数据集，通过语言特定的预处理管道过滤噪声并隔离安全相关变更，支持稳健的漏洞检测模型训练。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 85.15,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "JS/TS 生态漏洞检测一直受制于数据质量，JsVul 提供了经过语法归一化和去重处理的函数级数据集。做代码审计或漏洞挖掘模型训练的同学可以直接拿来做基线测试或微调。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.38012",
-      "reader_url": "https://arxiv.org/pdf/2609.38012",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-30T04:00:00",
-      "first_seen_at": "2026-10-15T02:27:08.839939",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 15618,
       "title": "EthCluster：基于无监督学习的智能合约漏洞静态分析",
       "original_title": "EthCluster: An Unsupervised Static Analysis Method for Ethereum Smart Contract",
@@ -103,26 +63,6 @@
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-15T09:56:48.388930",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 15488,
-      "title": "开源逆向Agent项目REA：集成41款工具引爆社区",
-      "original_title": "三天11万星的逆天开源REA，逆向分析一切，软件开发的门槛被打到了零，最该慌的为什么不是大厂？",
-      "summary": "开源项目REA将Ghidra、IDA等41个专业逆向工具接入AI Agent实现自动化反编译与分析，五天内获11万星，引发关于软件版权与攻防失衡的广泛争议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 82.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全研究员和逆向工程师必看。REA把传统逆向工具链与Agent编排打通，极大降低逆向门槛。值得研究其工具编排思路，同时警惕黑产利用此类工具批量分析软件接口与校验逻辑。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7695604296682930186",
-      "reader_url": "https://juejin.cn/post/7695604296682930186",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-12T07:05:28",
-      "first_seen_at": "2026-10-15T02:54:37.059949",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 15810,
@@ -165,24 +105,29 @@
       "sub_category_label": null
     },
     {
-      "id": 11599,
-      "title": "AgentXploit：AI代理的代码到运行时自动化红队审计",
-      "original_title": "AgentXploit: Autonomous Repository-to-Runtime Red-Teaming for AI Agents",
-      "summary": "提出AgentXploit系统，分离代码级攻击路径发现与运行时漏洞利用，在12个开源AI代理系统中实现59.3%的端到端审计成功率，并发布对应基准AgentXploit-Bench。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 79.5,
+      "id": 15546,
+      "title": "ARTEX自主渗透工具在野被发现，具自动化利用与横向移动能力",
+      "original_title": "AI-driven autonomous penetration testing is no longer theoretical. AhnLab ASEC tracked an internet-exposed ARTEX instance and found operational attack artifacts on associated hosts",
+      "summary": "AhnLab追踪到互联网暴露的AI渗透工具ARTEX实例，发现其实际攻击痕迹。该工具能自主完成漏洞利用、WebShell部署和内网横向移动，标志着AI渗透Agent已从PoC走向实战。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 79.25,
       "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "Agent安全审计人员必修：这套双Agent分工（代码路径分析+运行时打靶）的打法将白盒审计效率拉满，且附带了72个可复现漏洞的开源Agent靶场，直接拿来测自研Agent防护或作为红队演练素材。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.31318",
-      "reader_url": "https://arxiv.org/pdf/2609.31318",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-28T04:00:00",
-      "first_seen_at": "2026-10-15T02:27:08.839939",
-      "sub_category_label": null
+      "item_type": "news",
+      "recommendation_reason": "防御团队必看：AI渗透Agent已从概念走向实战。文内含具体IOC、攻击链复现及DFIR检测建议，需立即排查是否受相关IP或哈希影响。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DFIR_Radar/status/2110627652642258965",
+      "reader_url": "https://x.com/DFIR_Radar/status/2110627652642258965",
+      "image_url": "https://pbs.twimg.com/media/HUp0qZ5bAAAcWT6.png",
+      "author": {
+        "username": "DFIR_Radar",
+        "name": "DFIR Radar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-15T07:03:40",
+      "first_seen_at": "2026-10-15T07:09:01.776477",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
