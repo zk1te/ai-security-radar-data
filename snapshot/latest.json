@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-16T04:56:18+08:00",
+  "updated_at": "2026-10-16T06:26:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 15818,
@@ -42,26 +42,6 @@
       "author": null,
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-15T11:10:32.947193",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 15618,
-      "title": "EthCluster：基于无监督学习的智能合约漏洞静态分析",
-      "original_title": "EthCluster: An Unsupervised Static Analysis Method for Ethereum Smart Contract",
-      "summary": "本文提出 EthCluster，一种基于无监督学习的以太坊智能合约静态分析方法，通过真实漏洞数据集训练模型并利用聚类算法识别异常，检测重入等五类安全漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 84.85,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "针对智能合约安全审计的同行，该方法摆脱了对大量标注数据的依赖，利用真实漏洞数据集进行无监督聚类异常检测。想尝试 Web3 安全自动化的团队可关注其跨数据集的泛化表现。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2504.09977",
-      "reader_url": "https://arxiv.org/pdf/2504.09977",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-15T04:00:00",
-      "first_seen_at": "2026-10-15T09:56:48.388930",
       "sub_category_label": "漏洞挖掘"
     },
     {
