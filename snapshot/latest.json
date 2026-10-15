@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T16:52:32+08:00",
+  "updated_at": "2026-10-15T18:22:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -62,6 +62,26 @@
       "author": null,
       "published_at": "2026-09-30T04:00:00",
       "first_seen_at": "2026-10-15T02:27:08.839939",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 15618,
+      "title": "EthCluster：基于无监督学习的智能合约漏洞静态分析",
+      "original_title": "EthCluster: An Unsupervised Static Analysis Method for Ethereum Smart Contract",
+      "summary": "本文提出 EthCluster，一种基于无监督学习的以太坊智能合约静态分析方法，通过真实漏洞数据集训练模型并利用聚类算法识别异常，检测重入等五类安全漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 84.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "针对智能合约安全审计的同行，该方法摆脱了对大量标注数据的依赖，利用真实漏洞数据集进行无监督聚类异常检测。想尝试 Web3 安全自动化的团队可关注其跨数据集的泛化表现。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2504.09977",
+      "reader_url": "https://arxiv.org/pdf/2504.09977",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-15T04:00:00",
+      "first_seen_at": "2026-10-15T09:56:48.388930",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -148,26 +168,6 @@
       "published_at": "2026-10-15T07:03:40",
       "first_seen_at": "2026-10-15T07:09:01.776477",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 12053,
-      "title": "TraceDance：从真实部署轨迹自动构建 Agent 行为评测基准",
-      "original_title": "TraceDance: An Automated System for Building Agent Behavior Benchmarks from Real-World Agent Deployment Traces",
-      "summary": "TraceDance 从 25 万次真实 Agent 会话中自动提取特定不良行为，构建包含 107 个基准的评测集。测试发现九个前沿大模型在这些决策点上的平均通过率仅为 26.7%。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "model_evaluation | security_benchmark",
-      "score_total": 75.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "对于安全 Agent 评测团队，TraceDance 提供了从真实部署轨迹自动挖掘不良行为并生成针对性测试集的闭环思路。这种方法能精准暴露 Agent 在实际场景中的边界缺陷，比固定静态 Benchmark 更贴近实战。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2609.33295",
-      "reader_url": "https://arxiv.org/pdf/2609.33295",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-29T00:00:00",
-      "first_seen_at": "2026-10-15T02:27:08.839939",
-      "sub_category_label": null
     }
   ]
 }
