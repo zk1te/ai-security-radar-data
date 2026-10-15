@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T11:10:59+08:00",
+  "updated_at": "2026-10-15T12:11:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -165,26 +165,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 15266,
-      "title": "Third Moment Research 如何运行万个安全 Agent 超过 36 小时",
-      "original_title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "summary": "该 AI 实验室利用 GPT-6 Astra 等前沿模型构建了能持续运行数天且具备自我改进能力的网络安全 Agent 集群。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 83.8,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队负责人应关注此案例，它展示了长周期、大规模安全 Agent 的实际编排能力，可作为构建自动化攻防系统的架构参考。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/third-moment-research",
-      "reader_url": "https://openai.com/index/third-moment-research",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-14T07:00:00",
-      "first_seen_at": "2026-10-14T15:50:45.135547",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 15488,
       "title": "开源逆向Agent项目REA：集成41款工具引爆社区",
       "original_title": "三天11万星的逆天开源REA，逆向分析一切，软件开发的门槛被打到了零，最该慌的为什么不是大厂？",
@@ -203,6 +183,26 @@
       "published_at": "2026-10-12T07:05:28",
       "first_seen_at": "2026-10-15T02:54:37.059949",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 14197,
+      "title": "利用神经网络在 Wi-Fi 物理层前导码中实现隐蔽通信",
+      "original_title": "Secrets in Preamble: Practical and Robust PHY Information Hiding for Wi-Fi",
+      "summary": "该论文提出在 Wi-Fi 遗留短训练字段（L-STF）中嵌入秘密信息，利用一对神经网络学习最佳嵌入规则以最大化隐写容量和环境鲁棒性，并通过硬件原型验证了其可行性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "steganography",
+      "score_total": 82.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "将神经网络应用于物理层隐写是 AI 在通信安全领域的有趣尝试。安全研究员可关注其隐蔽通信容量提升的思路，评估其在隐蔽信道检测或防御中的参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.13367",
+      "reader_url": "https://arxiv.org/pdf/2610.13367",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-12T04:00:00",
+      "first_seen_at": "2026-10-14T20:26:48.483609",
+      "sub_category_label": null
     }
   ]
 }
