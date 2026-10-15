@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-15T22:55:05+08:00",
+  "updated_at": "2026-10-15T23:25:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
     {
       "id": 15818,
@@ -83,6 +83,26 @@
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-15T11:08:04.174372",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 15884,
+      "title": "GitHub 热榜：编码 Agent 逆向分析工具 REA 上榜",
+      "original_title": "GitHub 热榜项目：日榜（2026-10-09）",
+      "summary": "本期 GitHub 热榜中，morluto/rea 项目备受关注，它提供一套 MCP 工具和 CLI，让编码 Agent 在本地对原生二进制、APK 等进行逆向分析并返回带证据的发现，支持对接 Ghidra/IDA。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全逆向和代码审计从业者该看。REA 展示了编码 Agent 在本地结合 Ghidra/IDA 做二进制分析的潜力，可以立刻测试其 MCP 工具的接入和证据收集效果，评估 AI 辅助逆向的落地可行性。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7694469284471390242",
+      "reader_url": "https://juejin.cn/post/7694469284471390242",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-09T08:18:05",
+      "first_seen_at": "2026-10-15T14:57:28.319816",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 15811,
