@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-16T01:25:58+08:00",
+  "updated_at": "2026-10-16T03:26:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 15818,
@@ -123,31 +123,6 @@
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-15T11:08:09.010930",
       "sub_category_label": null
-    },
-    {
-      "id": 15546,
-      "title": "ARTEX自主渗透工具在野被发现，具自动化利用与横向移动能力",
-      "original_title": "AI-driven autonomous penetration testing is no longer theoretical. AhnLab ASEC tracked an internet-exposed ARTEX instance and found operational attack artifacts on associated hosts",
-      "summary": "AhnLab追踪到互联网暴露的AI渗透工具ARTEX实例，发现其实际攻击痕迹。该工具能自主完成漏洞利用、WebShell部署和内网横向移动，标志着AI渗透Agent已从PoC走向实战。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 79.25,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "防御团队必看：AI渗透Agent已从概念走向实战。文内含具体IOC、攻击链复现及DFIR检测建议，需立即排查是否受相关IP或哈希影响。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2110627652642258965",
-      "reader_url": "https://x.com/DFIR_Radar/status/2110627652642258965",
-      "image_url": "https://pbs.twimg.com/media/HUp0qZ5bAAAcWT6.png",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-15T07:03:40",
-      "first_seen_at": "2026-10-15T07:09:01.776477",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 15951,
