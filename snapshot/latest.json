@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T23:32:20+08:00",
+  "updated_at": "2026-10-17T01:33:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -155,6 +155,30 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 16630,
+      "title": "AI 审查员发现的 bug 超过人工修复能力，Postgres 19 被迫延期",
+      "original_title": "HN Hot Discussion: Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+      "summary": "Postgres 19 因 AI 代码审查工具发现的 bug 数量超出人类开发者修复速度而延期发布。该事件标志着 AI 辅助漏洞发现已从研究演示进入主流开源项目维护流程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec 从业者和安全团队必看：这是 AI 漏洞挖掘能力直接冲击主流开源项目发布流程的标志性事件，预示着安全团队需尽快建立 AI 发现漏洞的分级响应机制，并评估自身代码库对 AI 审查的承受力。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50119991&hn_hot_date=2026-10-16",
+      "reader_url": "https://news.ycombinator.com/item?id=50119991&hn_hot_date=2026-10-16",
+      "image_url": null,
+      "author": {
+        "username": "magoghm",
+        "name": "magoghm",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-16T15:55:40",
+      "first_seen_at": "2026-10-16T17:29:43.000586",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 16182,
       "title": "探讨智能体自我演化框架的安全与可靠性分析",
       "original_title": "Self-Evolving Agent Harness",
@@ -193,26 +217,6 @@
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-16T11:49:34.401159",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 16394,
-      "title": "GitHub 热门项目 rea：用 Agent 进行全栈逆向工程",
-      "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
-      "summary": "该项目使用 Agent 从应用行为到原生二进制文件进行逆向工程，近期在 GitHub 上获得大量关注。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 72.05,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "用 Agent 自动化逆向二进制是 AI for Sec 的前沿方向，安全研究员可关注其具体能力和适用边界，评估能否接入日常逆向工作流。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-16&since=weekly",
-      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-16&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-16T11:07:07.482222",
-      "first_seen_at": "2026-10-16T11:09:17.276545",
-      "sub_category_label": "二进制安全"
     }
   ]
 }
