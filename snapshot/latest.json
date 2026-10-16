@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T01:33:26+08:00",
+  "updated_at": "2026-10-17T02:33:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -179,26 +179,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 16182,
-      "title": "探讨智能体自我演化框架的安全与可靠性分析",
-      "original_title": "Self-Evolving Agent Harness",
-      "summary": "论文提出Agent支架自我演化框架，在保持模型权重不变下修改Prompt、代码等组件，通过PAC学习分析其可靠性，并探讨了持续验证和运行时权限等安全保障机制。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 73.3,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "Agent能自动改自己的Prompt和代码了，这不仅是架构演进更是安全噩梦。做Agent安全的必须看这篇，搞清楚自我演化场景下怎么加运行时权限和独立安全护栏。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.18813",
-      "reader_url": "https://arxiv.org/pdf/2610.18813",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-16T00:00:00",
-      "first_seen_at": "2026-10-16T06:28:27.381170",
-      "sub_category_label": null
-    },
-    {
       "id": 16506,
       "title": "ReTerm：可通过错误恢复训练自我进化的终端 Agent",
       "original_title": "ReTerm: Recovery Training for Self-Improving Terminal Agents",
@@ -217,6 +197,26 @@
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-16T11:49:34.401159",
       "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 16394,
+      "title": "GitHub 热门项目 rea：用 Agent 进行全栈逆向工程",
+      "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
+      "summary": "该项目使用 Agent 从应用行为到原生二进制文件进行逆向工程，近期在 GitHub 上获得大量关注。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 72.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "用 Agent 自动化逆向二进制是 AI for Sec 的前沿方向，安全研究员可关注其具体能力和适用边界，评估能否接入日常逆向工作流。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-16&since=weekly",
+      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-16&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T11:07:07.482222",
+      "first_seen_at": "2026-10-16T11:09:17.276545",
+      "sub_category_label": "二进制安全"
     }
   ]
 }
