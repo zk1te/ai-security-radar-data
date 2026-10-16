@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T11:27:27+08:00",
+  "updated_at": "2026-10-16T13:27:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -68,31 +68,6 @@
       "published_at": "2026-10-14T20:30:00",
       "first_seen_at": "2026-10-15T20:42:57.577223",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 15951,
-      "title": "Doc2Harness：首个编码Agent长周期harness工程基准，最强模型通过率仅53%",
-      "original_title": "Doc2Harness: The first benchmark for long-horizon harness engineering of coding agents  19 frontier models, 328 test cases, best pass rate only 53% — even the strongest fails half.",
-      "summary": "ICT-CAS推出Doc2Harness基准测试，评估编码Agent在长周期harness工程中的能力，测试包含328个用例，19个前沿模型中表现最好的通过率也仅有53%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 77.31,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全工具链的自动化生成是AI for Sec的核心瓶颈之一。该Benchmark揭示了当前大模型在编写复杂harness时的真实水平，对评估AI辅助Fuzzing和自动化测试能力具有直接参考价值，做安全Agent的团队必须关注。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2110765616101540224",
-      "reader_url": "https://x.com/HuggingPapers/status/2110765616101540224",
-      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2110765603938058240/pu/img/v3foMjX-HFjZtQWO.jpg",
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null,
-        "followers_count": 21406
-      },
-      "published_at": "2026-10-15T16:11:53",
-      "first_seen_at": "2026-10-15T17:15:56.776758",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 16068,
@@ -188,6 +163,26 @@
       "published_at": "2026-10-14T20:35:36",
       "first_seen_at": "2026-10-15T20:42:57.577223",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 15634,
+      "title": "CTI-REALM 威胁情报基准评测：开源模型性价比超闭源",
+      "original_title": "Unconstrained CTI-REALM with Open-Weights",
+      "summary": "论文在 CTI-REALM 安全基准上评测了 26 个模型，发现放宽交互轮数限制后，开源模型能以极低成本匹敌闭源模型，并建议按工作流阶段路由不同模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 71.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做威胁情报运营的团队必看：别迷信闭源贵模型，开源模型多给几轮交互就能打平。按阶段动态路由不同模型的思路非常实用，可直接用于落地降本增效。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.14180",
+      "reader_url": "https://arxiv.org/pdf/2610.14180",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-15T04:00:00",
+      "first_seen_at": "2026-10-16T02:27:48.247504",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
