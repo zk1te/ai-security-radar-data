@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T13:27:58+08:00",
+  "updated_at": "2026-10-16T14:58:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -120,6 +120,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 16182,
+      "title": "探讨智能体自我演化框架的安全与可靠性分析",
+      "original_title": "Self-Evolving Agent Harness",
+      "summary": "论文提出Agent支架自我演化框架，在保持模型权重不变下修改Prompt、代码等组件，通过PAC学习分析其可靠性，并探讨了持续验证和运行时权限等安全保障机制。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 73.3,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "Agent能自动改自己的Prompt和代码了，这不仅是架构演进更是安全噩梦。做Agent安全的必须看这篇，搞清楚自我演化场景下怎么加运行时权限和独立安全护栏。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.18813",
+      "reader_url": "https://arxiv.org/pdf/2610.18813",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T00:00:00",
+      "first_seen_at": "2026-10-16T06:28:27.381170",
+      "sub_category_label": null
+    },
+    {
       "id": 16095,
       "title": "AI编码Agent上下文优化工具context-mode热度攀升",
       "original_title": "GitHub Trending: mksglu/context-mode gained 904 stars today",
@@ -163,26 +183,6 @@
       "published_at": "2026-10-14T20:35:36",
       "first_seen_at": "2026-10-15T20:42:57.577223",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 15634,
-      "title": "CTI-REALM 威胁情报基准评测：开源模型性价比超闭源",
-      "original_title": "Unconstrained CTI-REALM with Open-Weights",
-      "summary": "论文在 CTI-REALM 安全基准上评测了 26 个模型，发现放宽交互轮数限制后，开源模型能以极低成本匹敌闭源模型，并建议按工作流阶段路由不同模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 71.9,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做威胁情报运营的团队必看：别迷信闭源贵模型，开源模型多给几轮交互就能打平。按阶段动态路由不同模型的思路非常实用，可直接用于落地降本增效。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.14180",
-      "reader_url": "https://arxiv.org/pdf/2610.14180",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-15T04:00:00",
-      "first_seen_at": "2026-10-16T02:27:48.247504",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
