@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T19:00:57+08:00",
+  "updated_at": "2026-10-16T19:31:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -110,6 +110,26 @@
       "sub_category_label": null
     },
     {
+      "id": 16394,
+      "title": "GitHub 热门项目 rea：用 Agent 进行全栈逆向工程",
+      "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
+      "summary": "该项目使用 Agent 从应用行为到原生二进制文件进行逆向工程，近期在 GitHub 上获得大量关注。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 72.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "用 Agent 自动化逆向二进制是 AI for Sec 的前沿方向，安全研究员可关注其具体能力和适用边界，评估能否接入日常逆向工作流。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-16&since=weekly",
+      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-16&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T11:07:07.482222",
+      "first_seen_at": "2026-10-16T11:09:17.276545",
+      "sub_category_label": "二进制安全"
+    },
+    {
       "id": 15634,
       "title": "CTI-REALM 威胁情报基准评测：开源模型性价比超闭源",
       "original_title": "Unconstrained CTI-REALM with Open-Weights",
@@ -201,26 +221,6 @@
       "published_at": "2026-10-14T19:40:59",
       "first_seen_at": "2026-10-16T00:29:28.442831",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 15629,
-      "title": "数据科学Agent隐性失败模式分析：数据泄漏与方法论缺陷",
-      "original_title": "The Silent Failures in Agentic Data Science",
-      "summary": "本文分析了数据科学 Agent 在 220 个任务中的失败模式，指出仅评估准确率会掩盖数据泄漏等严重方法学错误，并提供了可复用的测试套件以评估 Agent 的可信度。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 68.2,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "安全团队若用 DS Agent 做日志或威胁数据分析，需警惕其因缺乏领域知识导致的数据泄漏和错误结论。本文提供的测试套件可帮你评估手头 Agent 的方法学可靠性。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.14115",
-      "reader_url": "https://arxiv.org/pdf/2610.14115",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-15T04:00:00",
-      "first_seen_at": "2026-10-16T08:28:09.471975",
-      "sub_category_label": "模型评测"
     }
   ]
 }
