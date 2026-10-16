@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T02:33:35+08:00",
+  "updated_at": "2026-10-17T07:35:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -199,23 +199,23 @@
       "sub_category_label": "Agent 架构"
     },
     {
-      "id": 16394,
-      "title": "GitHub 热门项目 rea：用 Agent 进行全栈逆向工程",
-      "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
-      "summary": "该项目使用 Agent 从应用行为到原生二进制文件进行逆向工程，近期在 GitHub 上获得大量关注。",
+      "id": 16502,
+      "title": "无标识符代码嵌入模型助力二进制逆向搜索",
+      "original_title": "Identifier-Free Code Embedding Models for Scalable Search",
+      "summary": "针对二进制逆向中的函数关联问题，该研究通过对比学习微调 Qwen3-Embedding 模型，实现了源码与去符号反编译代码的双向关联搜索，且效果大幅提升。",
       "primary_category": "AI for Sec",
       "sub_category": "binary_security",
-      "score_total": 72.05,
+      "score_total": 71.45,
       "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "用 Agent 自动化逆向二进制是 AI for Sec 的前沿方向，安全研究员可关注其具体能力和适用边界，评估能否接入日常逆向工作流。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-16&since=weekly",
-      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-16&since=weekly",
+      "item_type": "paper",
+      "recommendation_reason": "做二进制安全和逆向的工程师必看。用大模型嵌入解决去符号反编译代码匹配问题，展示了 AI 在二进制分析场景的落地效果，可直接启发逆向辅助工具的开发。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.05251",
+      "reader_url": "https://arxiv.org/pdf/2605.05251",
       "image_url": null,
       "author": null,
-      "published_at": "2026-10-16T11:07:07.482222",
-      "first_seen_at": "2026-10-16T11:09:17.276545",
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-16T11:48:37.371249",
       "sub_category_label": "二进制安全"
     }
   ]
