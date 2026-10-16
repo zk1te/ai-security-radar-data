@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T17:00:38+08:00",
+  "updated_at": "2026-10-16T19:00:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -68,31 +68,6 @@
       "published_at": "2026-10-15T21:08:04",
       "first_seen_at": "2026-10-16T00:22:27.450314",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 15384,
-      "title": "Axios报道安全Agent范围控制及ScopeBench发布",
-      "original_title": "In her latest piece for @axios, @samsabin923 reports on security agent scope adherence and efforts to keep them under control.  Timely topic following our release of #ScopeBench la",
-      "summary": "Axios报道了安全Agent范围遵从性问题，Offensive AI Con发布了ScopeBench以评估安全Agent的控制能力，并引用SpecterOps的研究。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.37,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全Agent越界是自动化攻防落地的最大痛点。ScopeBench的发布为量化评估Agent是否守规矩提供了起点，做安全Agent落地的团队需关注。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/dreadnode/status/2110473767298154809",
-      "reader_url": "https://x.com/dreadnode/status/2110473767298154809",
-      "image_url": "https://pbs.twimg.com/media/HUnoP8AXcAA_tBW.jpg",
-      "author": {
-        "username": "dreadnode",
-        "name": "dreadnode",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-14T20:52:11",
-      "first_seen_at": "2026-10-15T22:43:02.009012",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 16182,
@@ -226,6 +201,26 @@
       "published_at": "2026-10-14T19:40:59",
       "first_seen_at": "2026-10-16T00:29:28.442831",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 15629,
+      "title": "数据科学Agent隐性失败模式分析：数据泄漏与方法论缺陷",
+      "original_title": "The Silent Failures in Agentic Data Science",
+      "summary": "本文分析了数据科学 Agent 在 220 个任务中的失败模式，指出仅评估准确率会掩盖数据泄漏等严重方法学错误，并提供了可复用的测试套件以评估 Agent 的可信度。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.2,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队若用 DS Agent 做日志或威胁数据分析，需警惕其因缺乏领域知识导致的数据泄漏和错误结论。本文提供的测试套件可帮你评估手头 Agent 的方法学可靠性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.14115",
+      "reader_url": "https://arxiv.org/pdf/2610.14115",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-15T04:00:00",
+      "first_seen_at": "2026-10-16T08:28:09.471975",
+      "sub_category_label": "模型评测"
     }
   ]
 }
