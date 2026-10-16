@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T07:26:51+08:00",
+  "updated_at": "2026-10-16T08:26:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -75,6 +75,31 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 16068,
+      "title": "HackerOne 评测 18 个前沿大模型应对复杂漏洞的能力",
+      "original_title": "RT @0xAsm0d3us: At HackerOne, we benchmarked 18 frontier LLMs against 62 fairly complex vulnerabilities  See which model stands where  (lin…",
+      "summary": "HackerOne 针对 62 个较复杂的漏洞对 18 个前沿 LLM 进行了基准测试，比较各模型在漏洞挖掘和理解方面的表现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 73.41,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注此榜单，直接对比当前主流大模型在真实复杂漏洞场景下的实战能力，作为选型或构建自动化漏洞挖掘 Agent 的参考依据。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2110840153745051825",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2110840153745051825",
+      "image_url": null,
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null,
+        "followers_count": 17983
+      },
+      "published_at": "2026-10-15T21:08:04",
+      "first_seen_at": "2026-10-16T00:22:27.450314",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 15384,
       "title": "Axios报道安全Agent范围控制及ScopeBench发布",
       "original_title": "In her latest piece for @axios, @samsabin923 reports on security agent scope adherence and efforts to keep them under control.  Timely topic following our release of #ScopeBench la",
@@ -147,31 +172,6 @@
       "published_at": "2026-10-14T19:40:59",
       "first_seen_at": "2026-10-15T16:01:52.516129",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 15242,
-      "title": "开源工具盘点：自动化渗透 Agent pentagi 与逆向 Agent rea",
-      "original_title": "Shipping — GitHub trending - HKUDS/CLI-Anything — HKU's Data Intelligence Lab on making all software agent-native: turns any GUI application into a CLI in one step so an agent can ",
-      "summary": "本期 GitHub Trending 汇总了多个 AI Agent 工具，其中 vxcontrol/pentagi 提供多 Agent 协同的自动化渗透测试系统，morluto/rea 实现了 Agent 驱动的二进制逆向分析。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 71.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红蓝对抗团队应重点关注 pentagi，它将多 Agent 协同引入复杂攻击链执行；二进制安全方向可跟进 rea 的自动化逆向能力。两者均可作为安全自动化流水线的评估对象。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/a2agent_ai/status/2110370466078835094",
-      "reader_url": "https://x.com/a2agent_ai/status/2110370466078835094",
-      "image_url": null,
-      "author": {
-        "username": "a2agent_ai",
-        "name": "A2agent _ai",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-14T14:01:42",
-      "first_seen_at": "2026-10-15T14:42:00.598145",
-      "sub_category_label": null
     }
   ]
 }
