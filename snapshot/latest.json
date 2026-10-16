@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-10-16T20:31:16+08:00",
+  "updated_at": "2026-10-16T21:01:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 16099,
-      "title": "AI 搜索工具 XERJ 开源：支持安全审计与 Agent 记忆",
-      "original_title": "GitHub Trending: xerj-org/xerj gained 715 stars today",
-      "summary": "Rust 开发的 AI 数据搜索工具 XERJ 登顶 GitHub Trending，可索引代码、文档和日志，兼容 Elasticsearch 并大幅降低 Token 消耗，适用于安全审计、RAG 和 Agent 记忆。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 84.64,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做代码审计或构建安全 Agent 的团队可以看看。它能用比 grep 少得多的 Token 为 Agent 提供上下文，兼容 ES，适合直接集成到安全工具链中。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/xerj-org/xerj?github_trending_date=2026-10-16&since=daily",
-      "reader_url": "https://github.com/xerj-org/xerj?github_trending_date=2026-10-16&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-16T00:27:35.690031",
-      "first_seen_at": "2026-10-16T00:31:41.594955",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 16510,
       "title": "ARTEX 渗透框架衍生多分支并被用于在野 Magento RCE 攻击",
@@ -208,6 +188,31 @@
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-16T11:48:37.371249",
       "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 16118,
+      "title": "用 Neo4j 图推理增强 LLM 渗透测试 Agent 的漏洞链能力",
+      "original_title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents: LLM coding agents such as Claude Code and OpenAI Codex can drive penetration-testing to",
+      "summary": "提出 ChainGraph 模式，利用 Neo4j 通过 MCP 为 LLM 渗透测试 Agent 提供图状推理记忆，解决上下文窗口平铺处理无法有效串联漏洞链的问题，在模拟 AD 环境中大幅提升链评估能力并降低约 98% 的 token 消耗。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.28,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全 Agent 从「平铺找洞」进化到「图推理打链」的落地尝试。渗透测试和红队 Agent 开发者必看，可直接借鉴其用 Neo4j 存状态图和 Cypher 查链路的打法，解决长程任务记忆丢失和 token 爆炸的痛点。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2110905994737832321",
+      "reader_url": "https://x.com/gastronomy/status/2110905994737832321",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-16T01:29:42",
+      "first_seen_at": "2026-10-16T01:32:18.558412",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
