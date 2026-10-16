@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-16T14:58:31+08:00",
+  "updated_at": "2026-10-16T16:30:27+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 10,
   "items": [
     {
       "id": 16099,
@@ -183,6 +183,50 @@
       "published_at": "2026-10-14T20:35:36",
       "first_seen_at": "2026-10-15T20:42:57.577223",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 15634,
+      "title": "CTI-REALM 威胁情报基准评测：开源模型性价比超闭源",
+      "original_title": "Unconstrained CTI-REALM with Open-Weights",
+      "summary": "论文在 CTI-REALM 安全基准上评测了 26 个模型，发现放宽交互轮数限制后，开源模型能以极低成本匹敌闭源模型，并建议按工作流阶段路由不同模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 71.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做威胁情报运营的团队必看：别迷信闭源贵模型，开源模型多给几轮交互就能打平。按阶段动态路由不同模型的思路非常实用，可直接用于落地降本增效。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.14180",
+      "reader_url": "https://arxiv.org/pdf/2610.14180",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-15T04:00:00",
+      "first_seen_at": "2026-10-16T02:27:48.247504",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 16080,
+      "title": "HN 热议：利用 AI 逆向工程硬件",
+      "original_title": "HN Hot Discussion: Using AI to reverse engineer hardware",
+      "summary": "Hacker News 热门讨论了使用 AI 技术进行硬件逆向工程的实践与潜力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "reverse_engineering",
+      "score_total": 70.35,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "硬件逆向是安全分析的硬骨头。这篇讨论反映了 AI 在该领域的实际落地进展，做固件分析、硬件安全的同行值得关注，看看 AI 能否降本增效。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50104299&hn_hot_date=2026-10-16",
+      "reader_url": "https://news.ycombinator.com/item?id=50104299&hn_hot_date=2026-10-16",
+      "image_url": null,
+      "author": {
+        "username": "ErenayDev",
+        "name": "ErenayDev",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-15T14:35:15",
+      "first_seen_at": "2026-10-16T00:29:49.184394",
+      "sub_category_label": null
     }
   ]
 }
