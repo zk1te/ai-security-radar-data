@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T22:01:51+08:00",
+  "updated_at": "2026-10-16T22:32:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -175,26 +175,6 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 15634,
-      "title": "CTI-REALM 威胁情报基准评测：开源模型性价比超闭源",
-      "original_title": "Unconstrained CTI-REALM with Open-Weights",
-      "summary": "论文在 CTI-REALM 安全基准上评测了 26 个模型，发现放宽交互轮数限制后，开源模型能以极低成本匹敌闭源模型，并建议按工作流阶段路由不同模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 71.9,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做威胁情报运营的团队必看：别迷信闭源贵模型，开源模型多给几轮交互就能打平。按阶段动态路由不同模型的思路非常实用，可直接用于落地降本增效。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.14180",
-      "reader_url": "https://arxiv.org/pdf/2610.14180",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-15T04:00:00",
-      "first_seen_at": "2026-10-16T02:27:48.247504",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 16502,
       "title": "无标识符代码嵌入模型助力二进制逆向搜索",
       "original_title": "Identifier-Free Code Embedding Models for Scalable Search",
@@ -213,6 +193,26 @@
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-16T11:48:37.371249",
       "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 16493,
+      "title": "AXIOM：通过约束扰动与校准评估代码 LLM 评判能力",
+      "original_title": "Benchmarking Code LLM-as-a-Judge via Constrained Perturbation and Calibration",
+      "summary": "提出 AXIOM 框架，利用语义扰动生成不同质量的代码并混合校准，构建了更均衡的大规模多语言代码评测基准 AXIOMBENCH，以解决现有 LLM 评判器基准的质量分布不平衡与标签主观性问题。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "构建安全评测榜单时常面临测试集质量不均、人工标注不可靠的问题。本文基于预定义扰动的 benchmark 构建思路，能直接借鉴到安全代码审计和 LLM-as-a-Judge 的可靠性评测中，值得评测构建者一看。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2512.20159",
+      "reader_url": "https://arxiv.org/pdf/2512.20159",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-16T11:46:04.021704",
+      "sub_category_label": "模型评测"
     }
   ]
 }
