@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T16:30:27+08:00",
+  "updated_at": "2026-10-16T17:00:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,31 +43,6 @@
       "published_at": "2026-10-16T00:27:32.525206",
       "first_seen_at": "2026-10-16T00:30:45.815647",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 15374,
-      "title": "XBOW 披露 AI 辅助 Chrome 全链漏洞：6天与4万美元即可逃逸沙箱",
-      "original_title": "XBOW detalla un full-chain de Chrome en Windows: visitar una página maliciosa bastaba, en su PoC, para salir del sandbox.  Bounty: US$250k (primera under reglas 2026). Tiempo: 6 dí",
-      "summary": "XBOW 利用大模型配合研究员在 6 天内构建 Chrome 全链漏洞 PoC，访问恶意网页即可逃逸沙箱，涉及 V8、WebP 和 Crashpad 三个可替换漏洞模块。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 78.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这标志着 AI 辅助全链漏洞挖掘已具备极高实战可行性和明确的成本收益比。防御方应警惕解析器自动化挖掘趋势，立即推进车队更新并强化自有 Fuzzing。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jfernandogg/status/2110468183740269017",
-      "reader_url": "https://x.com/jfernandogg/status/2110468183740269017",
-      "image_url": null,
-      "author": {
-        "username": "jfernandogg",
-        "name": "Juan F Gallego",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-14T20:30:00",
-      "first_seen_at": "2026-10-15T20:42:57.577223",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 16068,
@@ -160,31 +135,6 @@
       "sub_category_label": null
     },
     {
-      "id": 15375,
-      "title": "GitHub热门：自主多智能体渗透测试系统PentAGI",
-      "original_title": "🔥 Trending on GitHub: PentAGI, a fully autonomous multi-agent AI system that runs complex penetration testing tasks. Written in Go, 29k+ ⭐. https://t.co/Wwn93YRhNQ #GitHub #AI #Inf",
-      "summary": "PentAGI 是一个基于 Go 编写的完全自主多智能体 AI 系统，旨在执行复杂的渗透测试任务，目前在 GitHub 上获得超 2.9 万星标。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试团队和红队工具开发者应关注。它提供了一个基于 Go 的多智能体自动化红队工具范本，可评估当前 AI 自动化渗透的边界与实现思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/britGorilla/status/2110469593697509406",
-      "reader_url": "https://x.com/britGorilla/status/2110469593697509406",
-      "image_url": "https://pbs.twimg.com/media/HUnk2pjXYAAFp56.jpg",
-      "author": {
-        "username": "britGorilla",
-        "name": "British Gorilla 🇬🇧",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-14T20:35:36",
-      "first_seen_at": "2026-10-15T20:42:57.577223",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 15634,
       "title": "CTI-REALM 威胁情报基准评测：开源模型性价比超闭源",
       "original_title": "Unconstrained CTI-REALM with Open-Weights",
@@ -227,6 +177,55 @@
       "published_at": "2026-10-15T14:35:15",
       "first_seen_at": "2026-10-16T00:29:49.184394",
       "sub_category_label": null
+    },
+    {
+      "id": 16118,
+      "title": "用 Neo4j 图推理增强 LLM 渗透测试 Agent 的漏洞链能力",
+      "original_title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents: LLM coding agents such as Claude Code and OpenAI Codex can drive penetration-testing to",
+      "summary": "提出 ChainGraph 模式，利用 Neo4j 通过 MCP 为 LLM 渗透测试 Agent 提供图状推理记忆，解决上下文窗口平铺处理无法有效串联漏洞链的问题，在模拟 AD 环境中大幅提升链评估能力并降低约 98% 的 token 消耗。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.28,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全 Agent 从「平铺找洞」进化到「图推理打链」的落地尝试。渗透测试和红队 Agent 开发者必看，可直接借鉴其用 Neo4j 存状态图和 Cypher 查链路的打法，解决长程任务记忆丢失和 token 爆炸的痛点。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2110905994737832321",
+      "reader_url": "https://x.com/gastronomy/status/2110905994737832321",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-16T01:29:42",
+      "first_seen_at": "2026-10-16T01:32:18.558412",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16077,
+      "title": "美国银行雇千人修补 Mythos 发现的漏洞",
+      "original_title": "HN Hot Discussion: Bank of America hired 1000 contractors to patch software flaws exposed by Mythos",
+      "summary": "美国银行因 Anthropic Mythos AI 工具暴露大量软件漏洞，紧急雇佣 1000 名合同工进行修补，凸显 AI 漏洞发现能力从研究走向产业落地后对安全运营的实际冲击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.71,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 漏洞挖掘不再是论文演示——Mythos 直接让一家大行雇千人修补，这是 AI for Sec 产业化的首个大规模案例。安全团队必须关注 AI 发现漏洞后的修补带宽和流程适配问题。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50093857&hn_hot_date=2026-10-16",
+      "reader_url": "https://news.ycombinator.com/item?id=50093857&hn_hot_date=2026-10-16",
+      "image_url": null,
+      "author": {
+        "username": "mirzap",
+        "name": "mirzap",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-14T19:40:59",
+      "first_seen_at": "2026-10-16T00:29:28.442831",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
