@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T08:57:10+08:00",
+  "updated_at": "2026-10-16T11:27:27+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -43,26 +43,6 @@
       "published_at": "2026-10-16T00:27:32.525206",
       "first_seen_at": "2026-10-16T00:30:45.815647",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 15884,
-      "title": "GitHub 热榜：编码 Agent 逆向分析工具 REA 上榜",
-      "original_title": "GitHub 热榜项目：日榜（2026-10-09）",
-      "summary": "本期 GitHub 热榜中，morluto/rea 项目备受关注，它提供一套 MCP 工具和 CLI，让编码 Agent 在本地对原生二进制、APK 等进行逆向分析并返回带证据的发现，支持对接 Ghidra/IDA。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 81.5,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全逆向和代码审计从业者该看。REA 展示了编码 Agent 在本地结合 Ghidra/IDA 做二进制分析的潜力，可以立刻测试其 MCP 工具的接入和证据收集效果，评估 AI 辅助逆向的落地可行性。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7694469284471390242",
-      "reader_url": "https://juejin.cn/post/7694469284471390242",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-09T08:18:05",
-      "first_seen_at": "2026-10-15T14:57:28.319816",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 15374,
@@ -183,6 +163,31 @@
       "published_at": "2026-10-16T00:27:34.457033",
       "first_seen_at": "2026-10-16T00:31:09.550962",
       "sub_category_label": null
+    },
+    {
+      "id": 15375,
+      "title": "GitHub热门：自主多智能体渗透测试系统PentAGI",
+      "original_title": "🔥 Trending on GitHub: PentAGI, a fully autonomous multi-agent AI system that runs complex penetration testing tasks. Written in Go, 29k+ ⭐. https://t.co/Wwn93YRhNQ #GitHub #AI #Inf",
+      "summary": "PentAGI 是一个基于 Go 编写的完全自主多智能体 AI 系统，旨在执行复杂的渗透测试任务，目前在 GitHub 上获得超 2.9 万星标。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "渗透测试团队和红队工具开发者应关注。它提供了一个基于 Go 的多智能体自动化红队工具范本，可评估当前 AI 自动化渗透的边界与实现思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/britGorilla/status/2110469593697509406",
+      "reader_url": "https://x.com/britGorilla/status/2110469593697509406",
+      "image_url": "https://pbs.twimg.com/media/HUnk2pjXYAAFp56.jpg",
+      "author": {
+        "username": "britGorilla",
+        "name": "British Gorilla 🇬🇧",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-14T20:35:36",
+      "first_seen_at": "2026-10-15T20:42:57.577223",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
