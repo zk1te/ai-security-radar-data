@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T08:05:28+08:00",
+  "updated_at": "2026-10-17T08:35:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,31 +43,6 @@
       "published_at": "2026-10-14T01:09:52",
       "first_seen_at": "2026-10-16T15:12:06.225642",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 16510,
-      "title": "ARTEX 渗透框架衍生多分支并被用于在野 Magento RCE 攻击",
-      "original_title": "Chinese 🇨🇳 AI-assisted penetration testing framework ARTEX has fragmented into multiple rebranded forks after its GitHub repo went dark, with at least one operator deploying it alo",
-      "summary": "中国 AI 渗透框架 ARTEX 仓库下线后衍生出至少六个重命名分支，其中 Bob Research Labs 分支被发现结合 Magento CVE-2026-75650 在野利用和 IRC C2 植入物进行攻击。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 78.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻防双方都该看：防守方需掌握该多 LLM 后端 Agent 的指纹（artex-linux-amd64、端口 3001/443）并排查 Magento 相关后门；红队可借鉴其多模型切换和攻击 playbook 翻译工作流。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2111065450469601476",
-      "reader_url": "https://x.com/DFIR_Radar/status/2111065450469601476",
-      "image_url": "https://pbs.twimg.com/media/HUwC1nBWoAAz4tH.jpg",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-16T12:03:19",
-      "first_seen_at": "2026-10-16T12:16:53.673521",
-      "sub_category_label": null
     },
     {
       "id": 16723,
@@ -231,6 +206,31 @@
       "published_at": "2026-10-10T02:40:38",
       "first_seen_at": "2026-10-16T15:12:05.642649",
       "sub_category_label": null
+    },
+    {
+      "id": 16638,
+      "title": "AWS测试自主渗透Agent：37个真实漏洞端到端攻破33个",
+      "original_title": "Un agent de pentest autonome, ça trouve vite. Ça peut aussi tout casser.  AWS l'a testé sur 37 failles récentes, sans exploit fourni : 33 exploitées de bout en bout. Ses 2 échecs ?",
+      "summary": "AWS在未提供漏洞利用代码的情况下测试了自主渗透测试Agent，成功端到端利用37个近期真实漏洞中的33个。2次失败的原因是缺乏安全护栏导致目标在完成利用前崩溃。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "自主渗透Agent的实战效率和破坏力都得到验证。安全团队应关注此类工具的护栏设计，避免在测试中意外中断目标服务。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/kamel_laimene/status/2111147642671735121",
+      "reader_url": "https://x.com/kamel_laimene/status/2111147642671735121",
+      "image_url": null,
+      "author": {
+        "username": "kamel_laimene",
+        "name": "Kamel – CTO as a Service - Expert IT",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-16T17:29:55",
+      "first_seen_at": "2026-10-16T17:56:49.191139",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
