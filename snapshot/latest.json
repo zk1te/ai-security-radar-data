@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T19:08:11+08:00",
+  "updated_at": "2026-10-17T19:38:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -214,29 +214,29 @@
       "sub_category_label": null
     },
     {
-      "id": 16693,
-      "title": "Continuum安全Agent端到端打穿37个CVE，成功率近九成",
-      "original_title": "AWS Security Agent (şimdi Continuum), 37 taze CVE'yi canlı container hedefte end-to-end exploit etmiş. PoC yok: endpoint + bir satır ipucu.  33/37 (%89.2) intended vuln üzerinden f",
-      "summary": "名为Continuum的安全Agent在无PoC的情况下，仅凭端点和一行提示对37个新CVE进行端到端利用，成功率达89.2%，并采用去污染和PoC审计的方法论验证有效性。",
+      "id": 16139,
+      "title": "SyzGen论文解读：自动化生成macOS闭源驱动syscall规范",
+      "original_title": "We’re excited to share our new article on the CyKor blog! 📝  “[Paper Review] SyzGen: Automated Generation of Syscall Specification of Closed-Source macOS Drivers”  🛠️ Youngin Won (",
+      "summary": "CyKor博客分享了对SyzGen论文的解读，并提供了在Catalina虚拟机上配置和测试该工具的实践经验，助力macOS闭源驱动fuzzing。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.75,
+      "sub_category": "fuzzing",
+      "score_total": 66.21,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做自动化渗透的兄弟必看。Continuum展示了不依赖公开PoC也能高成功率打穿容器靶标的能力，其「去污染+PoC审计」的方法论值得直接借鉴到自家安全Agent的评测体系中。",
+      "recommendation_reason": "针对macOS闭源驱动fuzzing的痛点，SyzGen提供了自动化生成syscall规范的方案。本文附带真实环境搭建的踩坑经验，对做macOS逆向和fuzzing的同学有直接参考价值。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/gurkandev/status/2111228946524361001",
-      "reader_url": "https://x.com/gurkandev/status/2111228946524361001",
-      "image_url": "https://pbs.twimg.com/media/HUyXgTWWIAAQBAm.jpg",
+      "canonical_url": "https://x.com/CyKorKU/status/2110917131755987117",
+      "reader_url": "https://x.com/CyKorKU/status/2110917131755987117",
+      "image_url": "https://pbs.twimg.com/media/HUt78V6bsAANFEH.jpg",
       "author": {
-        "username": "gurkandev",
-        "name": "Gürkan Fikret Günak",
+        "username": "CyKorKU",
+        "name": "CyKor",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-16T22:53:00",
-      "first_seen_at": "2026-10-16T23:24:07.555163",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-10-16T02:13:57",
+      "first_seen_at": "2026-10-17T02:46:40.278666",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
