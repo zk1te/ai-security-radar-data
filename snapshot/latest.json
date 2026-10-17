@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T23:09:18+08:00",
+  "updated_at": "2026-10-17T23:39:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,26 +43,6 @@
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-17T14:29:20.530353",
       "sub_category_label": null
-    },
-    {
-      "id": 16752,
-      "title": "REA：让 AI Agent 逆向分析从网站到二进制的 MCP 工具",
-      "original_title": "开源项目第235期：REA — 让 AI Agent 逆向任何东西，从网站/Electron 应用一路分析到二进制层",
-      "summary": "REA 是一个 MCP 服务器，把 Hopper、Ghidra、IDA 等逆向工具封装成标准接口供 AI Agent 调用，支持分析网站、Electron、原生二进制、EVM 字节码、固件等多种目标，并返回带证据链的分析结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 82.05,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全研究员和 CTF 玩家必看：REA 把逆向工具链变成 Agent 可调用的 MCP 接口，用自然语言就能驱动分析。它坚持只返回带证据的事实、把推理留给 Agent 的设计思路，能直接参考到你自己的安全自动化工作里。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7695985750949494818",
-      "reader_url": "https://juejin.cn/post/7695985750949494818",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-13T13:04:06",
-      "first_seen_at": "2026-10-17T03:15:15.056601",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 16464,
@@ -223,6 +203,26 @@
       "published_at": "2026-10-15T18:28:45",
       "first_seen_at": "2026-10-17T14:48:01.897282",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16378,
+      "title": "O-RAN 原生干扰检测：统计集成方法在异构网络下的鲁棒性",
+      "original_title": "O-RAN-Native Jamming Detection Under Network Heterogeneity",
+      "summary": "论文提出统计集成方法 SEM，在 O-RAN 架构下利用 E2 接口遥测实现射频干扰检测，冷启动模式无需标注数据即可部署，在分布漂移场景下比 ML/DL 模型更稳定。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 74.55,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "威胁检测和通信安全团队应关注：这项工作直指 ML 检测器在真实部署中的泛化痛点，提出的冷启动统计方案可作为学习型方法的过渡兜底，并通过 O-RAN Non-RT RIC 持续优化。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.20816",
+      "reader_url": "https://arxiv.org/pdf/2610.20816",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "威胁检测"
     }
   ]
 }
