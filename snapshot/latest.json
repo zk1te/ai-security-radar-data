@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T10:36:04+08:00",
+  "updated_at": "2026-10-17T11:06:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,6 +43,31 @@
       "published_at": "2026-10-14T01:09:52",
       "first_seen_at": "2026-10-16T15:12:06.225642",
       "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 16118,
+      "title": "用 Neo4j 图推理增强 LLM 渗透测试 Agent 的漏洞链能力",
+      "original_title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents: LLM coding agents such as Claude Code and OpenAI Codex can drive penetration-testing to",
+      "summary": "提出 ChainGraph 模式，利用 Neo4j 通过 MCP 为 LLM 渗透测试 Agent 提供图状推理记忆，解决上下文窗口平铺处理无法有效串联漏洞链的问题，在模拟 AD 环境中大幅提升链评估能力并降低约 98% 的 token 消耗。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.78,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全 Agent 从「平铺找洞」进化到「图推理打链」的落地尝试。渗透测试和红队 Agent 开发者必看，可直接借鉴其用 Neo4j 存状态图和 Cypher 查链路的打法，解决长程任务记忆丢失和 token 爆炸的痛点。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2110905994737832321",
+      "reader_url": "https://x.com/gastronomy/status/2110905994737832321",
+      "image_url": null,
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-16T01:29:42",
+      "first_seen_at": "2026-10-17T02:46:40.278666",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 16723,
@@ -133,6 +158,26 @@
       "sub_category_label": null
     },
     {
+      "id": 16751,
+      "title": "英国 AISI 阐述前沿 AI 开发安全挑战与最佳实践",
+      "original_title": "Towards technical best practice for frontier AI development  | AISI Work",
+      "summary": "英国 AISI 发布文章指出，随着 AI 能力快速提升，风险已提前至训练与内部部署阶段出现，且现有评测手段滞后，为此提出涵盖风险评估、全生命周期监控及 Agent 事件响应等八项技术最佳实践优先方向。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 68.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应重点关注文中关于 Agent 行为监控、事件响应机制以及安全评测标准演进的论述。这有助于理解监管对前沿模型的侧重点，并在构建内部 AI 安全护栏与监督机制时抢占先机。",
+      "source_id": "aisi-blog",
+      "canonical_url": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+      "reader_url": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+      "image_url": null,
+      "author": null,
+      "published_at": null,
+      "first_seen_at": "2026-10-17T02:48:06.136928",
+      "sub_category_label": null
+    },
+    {
       "id": 16596,
       "title": "Drost CE 快速入门：用 MCP Server 驱动编码 Agent 进行自动化渗透",
       "original_title": "Some folks have been asking how to get Drost Community Edition running: https://t.co/jztgyS35cQ  Here’s the Quick Start:  1. Drost CE is an MCP Server. First, add it to your favour",
@@ -175,56 +220,6 @@
       "author": null,
       "published_at": "2026-10-10T02:40:38",
       "first_seen_at": "2026-10-16T15:12:05.642649",
-      "sub_category_label": null
-    },
-    {
-      "id": 16638,
-      "title": "AWS测试自主渗透Agent：37个真实漏洞端到端攻破33个",
-      "original_title": "Un agent de pentest autonome, ça trouve vite. Ça peut aussi tout casser.  AWS l'a testé sur 37 failles récentes, sans exploit fourni : 33 exploitées de bout en bout. Ses 2 échecs ?",
-      "summary": "AWS在未提供漏洞利用代码的情况下测试了自主渗透测试Agent，成功端到端利用37个近期真实漏洞中的33个。2次失败的原因是缺乏安全护栏导致目标在完成利用前崩溃。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "自主渗透Agent的实战效率和破坏力都得到验证。安全团队应关注此类工具的护栏设计，避免在测试中意外中断目标服务。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/kamel_laimene/status/2111147642671735121",
-      "reader_url": "https://x.com/kamel_laimene/status/2111147642671735121",
-      "image_url": null,
-      "author": {
-        "username": "kamel_laimene",
-        "name": "Kamel – CTO as a Service - Expert IT",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-16T17:29:55",
-      "first_seen_at": "2026-10-16T17:56:49.191139",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 16673,
-      "title": "安全评测 Benchmark 全量数据与排行榜已上线 Hugging Face",
-      "original_title": "The full benchmark is now on Hugging Face.  Paper: https://t.co/ZwavXqsHlt Dataset: https://t.co/yhkaajF6lX Leaderboard: https://t.co/6xD51Pu4sR",
-      "summary": "某完整版 Benchmark 已发布至 Hugging Face，同步公开了相关论文、数据集及评测排行榜链接。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_benchmark",
-      "score_total": 67.49,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "提供完整论文和数据的评测榜单发布对于衡量模型安全或攻防能力极具参考价值。建议立刻查阅其评测维度与榜单数据，评估是否可用于当前安全 Agent 的自动化能力评测。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2111188251222462820",
-      "reader_url": "https://x.com/HuggingPapers/status/2111188251222462820",
-      "image_url": null,
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null,
-        "followers_count": 21406
-      },
-      "published_at": "2026-10-16T20:11:17",
-      "first_seen_at": "2026-10-16T20:41:50.455311",
       "sub_category_label": null
     }
   ]
