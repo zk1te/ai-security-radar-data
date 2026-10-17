@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T14:07:18+08:00",
+  "updated_at": "2026-10-17T17:07:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -74,6 +74,31 @@
       "sub_category_label": null
     },
     {
+      "id": 16216,
+      "title": "Anthropic Mythos 模型发现美银真实漏洞，促使其增派千人修复",
+      "original_title": "Bank of America brought in 1,000 contractors after Anthropic’s Mythos started finding real holes in their systems and vendor software. That’s not a research paper. That’s a bank tr",
+      "summary": "据称美国银行因 Anthropic 的 Mythos 模型发现其系统及供应商软件中的真实漏洞，紧急引入千名合同工进行修复，表明 AI 渗透测试能力正进入实际产业流程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队负责人必看。这不仅是 AI 挖洞能力的实证，更标志着大企业开始将 AI 发现的漏洞视为需立即响应的真实威胁，需重新评估自身漏洞修复吞吐能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/amn_baluni/status/2111006570272395759",
+      "reader_url": "https://x.com/amn_baluni/status/2111006570272395759",
+      "image_url": null,
+      "author": {
+        "username": "amn_baluni",
+        "name": "Aman",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-16T08:09:21",
+      "first_seen_at": "2026-10-17T08:47:20.003615",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 16740,
       "title": "GitHub 热门项目 rea：用 AI Agent 逆向分析二进制",
       "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
@@ -111,31 +136,6 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-10-17T02:48:06.136928",
-      "sub_category_label": null
-    },
-    {
-      "id": 16673,
-      "title": "安全评测 Benchmark 全量数据与排行榜已上线 Hugging Face",
-      "original_title": "The full benchmark is now on Hugging Face.  Paper: https://t.co/ZwavXqsHlt Dataset: https://t.co/yhkaajF6lX Leaderboard: https://t.co/6xD51Pu4sR",
-      "summary": "某完整版 Benchmark 已发布至 Hugging Face，同步公开了相关论文、数据集及评测排行榜链接。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_benchmark",
-      "score_total": 67.49,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "提供完整论文和数据的评测榜单发布对于衡量模型安全或攻防能力极具参考价值。建议立刻查阅其评测维度与榜单数据，评估是否可用于当前安全 Agent 的自动化能力评测。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2111188251222462820",
-      "reader_url": "https://x.com/HuggingPapers/status/2111188251222462820",
-      "image_url": null,
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null,
-        "followers_count": 21406
-      },
-      "published_at": "2026-10-16T20:11:17",
-      "first_seen_at": "2026-10-16T20:41:50.455311",
       "sub_category_label": null
     },
     {
