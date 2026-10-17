@@ -1,0 +1,1362 @@
+{
+  "date": "2026-10-17",
+  "candidate_count": 20,
+  "selected_count": 3,
+  "cover_title": "用 AI 检测 MPI 代码错误：新突变数据集与大模型提示工程评测",
+  "lead_takeaway": "今天的主线是 AI 把安全测试的脏活累活自动化了。从大模型辅助代码审计查漏洞，到 MCP 把逆向工具链串起来给 Agent 调用，再到给 PyTorch 和 JAX 这些 AI 基础设施做 Fuzz 测试，都在用 AI 替人填坑。",
+  "digest_points": [
+    "01 做代码审计和 SAST 的团队应该看。这篇不仅开源了基于真实代码突变的 MPI 数据集，还对比了小模型加 AST 嵌入与大模型提示工程的实际效果，给 AI 辅助代码审查提供了落地参考。",
+    "02 安全研究员和 CTF 玩家必看：REA 把逆向工具链变成 Agent 可调用的 MCP 接口，用自然语言就能驱动分析。它坚持只返回带证据的事实、把推理留给 Agent 的设计思路，能直接参考到你自己的安全自动化工作里。",
+    "03 直接针对 PyTorch/JAX 等核心 AI 基础设施，发现了大量真实有状态 bug。安全团队可借鉴其调用序列变异和差异预言机思路，应用于 AI 供应链安全审计与持续集成测试。"
+  ],
+  "judgement": [
+    "01 做代码审计和 SAST 的团队应该看。这篇不仅开源了基于真实代码突变的 MPI 数据集，还对比了小模型加 AST 嵌入与大模型提示工程的实际效果，给 AI 辅助代码审查提供了落地参考。",
+    "02 安全研究员和 CTF 玩家必看：REA 把逆向工具链变成 Agent 可调用的 MCP 接口，用自然语言就能驱动分析。它坚持只返回带证据的事实、把推理留给 Agent 的设计思路，能直接参考到你自己的安全自动化工作里。",
+    "03 直接针对 PyTorch/JAX 等核心 AI 基础设施，发现了大量真实有状态 bug。安全团队可借鉴其调用序列变异和差异预言机思路，应用于 AI 供应链安全审计与持续集成测试。"
+  ],
+  "top_items": [
+    {
+      "id": 16460,
+      "title": "用 AI 检测 MPI 代码错误：新突变数据集与大模型提示工程评测",
+      "original_title": "Harnessing MPI mutations for AI error detection",
+      "summary": "论文提出 MPI 突变数据集（MMD），训练轻量级 MLP 模型并结合 Claude Sonnet 4.5 提示工程，在检测 MPI 调用错误上准确率超 90%，超越传统动态验证工具。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 88.9,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计和 SAST 的团队应该看。这篇不仅开源了基于真实代码突变的 MPI 数据集，还对比了小模型加 AST 嵌入与大模型提示工程的实际效果，给 AI 辅助代码审查提供了落地参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.20616",
+      "reader_url": "https://arxiv.org/pdf/2610.20616",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 16752,
+      "title": "REA：让 AI Agent 逆向分析从网站到二进制的 MCP 工具",
+      "original_title": "开源项目第235期：REA — 让 AI Agent 逆向任何东西，从网站/Electron 应用一路分析到二进制层",
+      "summary": "REA 是一个 MCP 服务器，把 Hopper、Ghidra、IDA 等逆向工具封装成标准接口供 AI Agent 调用，支持分析网站、Electron、原生二进制、EVM 字节码、固件等多种目标，并返回带证据链的分析结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 82.05,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员和 CTF 玩家必看：REA 把逆向工具链变成 Agent 可调用的 MCP 接口，用自然语言就能驱动分析。它坚持只返回带证据的事实、把推理留给 Agent 的设计思路，能直接参考到你自己的安全自动化工作里。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7695985750949494818",
+      "reader_url": "https://juejin.cn/post/7695985750949494818",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-13T13:04:06",
+      "first_seen_at": "2026-10-17T03:15:15.056601",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16475,
+      "title": "Rondo：针对深度学习编译器的有状态测试方法",
+      "original_title": "Stateful Testing for Deep Learning Compilers",
+      "summary": "论文提出 Rondo 测试方法，通过变异调用序列和 MCMC 采样发现 PyTorch、JAX 等框架编译器的有状态 bug，已获开发者确认 35 个报告。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "fuzzing",
+      "score_total": 88.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "直接针对 PyTorch/JAX 等核心 AI 基础设施，发现了大量真实有状态 bug。安全团队可借鉴其调用序列变异和差异预言机思路，应用于 AI 供应链安全审计与持续集成测试。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.22003",
+      "reader_url": "https://arxiv.org/pdf/2610.22003",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": null
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 16464,
+      "title": "编码 Agent 修复新思路：直接喂整文件优于压缩和检索",
+      "original_title": "Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files",
+      "summary": "论文提出 CQ2-CARE 选择器，证明在同等 token 预算下，直接挑选并展示完整文件供 LLM 编辑，比使用提示压缩器或代码块检索器修复更多 SWE-rebench 问题。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "agent_architecture | security_agent",
+      "score_total": 81.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做自动化漏洞修复和代码审计 Agent 的人必看。研究证明靠压缩或片段检索往往会丢失关键上下文或破坏代码结构，直接喂完整文件反而效果最好，这直接影响 Agent 上下文工程的设计取舍。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.21073",
+      "reader_url": "https://arxiv.org/pdf/2610.21073",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": null
+    },
+    {
+      "id": 16466,
+      "title": "代码模型不确定性校准在漏洞检测中的局限与反思",
+      "original_title": "Beyond Confidence: Rethinking Uncertainty Calibration in Deep Code Models",
+      "summary": "论文系统评估了7个代码模型在缺陷预测和漏洞检测中的不确定性校准效果，发现现有校准方法无法有效提升高置信度端的预测分离度，且校准指标与实际选择性预测效果存在背离。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 81.25,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "用 AI 做漏洞检测不能只看准召，还得看模型“自信”是否可靠。本研究揭示了现有置信度校准在安全任务中失灵的现象，提示部署 AI 安全工具时需联合评估校准与预测质量，别盲信高置信度结果。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.21248",
+      "reader_url": "https://arxiv.org/pdf/2610.21248",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 16723,
+      "title": "Claude 揭示 ECDSA 曲线种子起源，展示 AI 密码分析能力",
+      "original_title": "HN Hot Discussion: Claude reveals ECDSA curve origins",
+      "summary": "Anthropic 官方披露 Claude 成功逆向推导出 ECDSA P-256 等曲线使用的随机种子明文，破解了困扰密码学界多年的谜题。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "cryptanalysis",
+      "score_total": 76.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Claude 破解了密码学常数起源之谜。做密码库审计和安全研究的人该看看，AI 辅助逆向推理的能力边界又拓宽了。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-17",
+      "reader_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-17",
+      "image_url": null,
+      "author": {
+        "username": "ahlCVA",
+        "name": "ahlCVA",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-16T18:55:59",
+      "first_seen_at": "2026-10-17T00:05:26.856434",
+      "sub_category_label": null
+    },
+    {
+      "id": 16045,
+      "title": "RedAmon：开源AI渗透测试框架",
+      "original_title": "RedAmon is an open-source, self-hosted AI penetration testing framework.  It maps your attack surface into a Neo4j graph, then autonomously exploits it from a Kali sandbox with hum",
+      "summary": "RedAmon 是一款开源自托管的 AI 渗透测试框架，通过 Neo4j 图谱映射攻击面，在 Kali 沙箱中自主利用并支持人工审批，同时支持通过 MCP 与 Claude Code 双向集成。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "对关注安全Agent落地的团队有直接参考。结合MCP协议、人工审批门控与自动化渗透，展示了当前AI渗透测试工具的实操形态，值得借鉴其架构思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yogsec/status/2110847312570552549",
+      "reader_url": "https://x.com/yogsec/status/2110847312570552549",
+      "image_url": null,
+      "author": {
+        "username": "yogsec",
+        "name": "Abhinav Singwal",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-15T21:36:31",
+      "first_seen_at": "2026-10-17T12:48:01.724141",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16463,
+      "title": "R-DLD：机器人辅助的安卓应用数据丢失检测系统",
+      "original_title": "Robotic-supported Data Loss Detection in Android Applications",
+      "summary": "本文提出 R-DLD，一种通过物理机器人直接与手机传感器交互的非侵入式数据丢失检测系统。实验在 77 个安卓应用中发现 341 个数据丢失问题，开发者确认率达 89.55%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "虽然是物理机器人辅助测试，但这种非侵入式的自动化交互思路对移动端安全测试有启发。安全团队可参考其设计，探索结合 AI 视觉与 Agent 自动化执行的移动端漏洞挖掘方案。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.20807",
+      "reader_url": "https://arxiv.org/pdf/2610.20807",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16000,
+      "title": "AWS安全Agent在37个CVE基准中实现33个端到端利用",
+      "original_title": "We live in a new world where AI-based tools are finding security problems at an alarming rate. There are many companies providing tools on both sides of this, and one offering is t",
+      "summary": "AWS安全团队基于2025和2026年披露的37个CVE构建基准，在关闭运行时查询的条件下使用AWS Security Agent进行自主渗透测试，成功端到端利用33个漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.26,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AWS安全Agent在真刀真枪的CVE实战中取得近九成端到端成功率，自主渗透测试已具备产业落地价值。攻防双方都应高度关注：红队参考其Agent架构与评测方法，蓝队警惕AI自动化攻击的威胁放大。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RDarrylR/status/2110800060845903888",
+      "reader_url": "https://x.com/RDarrylR/status/2110800060845903888",
+      "image_url": "https://pbs.twimg.com/media/HUsRd-7XAAApJ7k.jpg",
+      "author": {
+        "username": "RDarrylR",
+        "name": "Darryl Ruggles",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-15T18:28:45",
+      "first_seen_at": "2026-10-17T14:48:01.897282",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16378,
+      "title": "O-RAN 原生干扰检测：统计集成方法在异构网络下的鲁棒性",
+      "original_title": "O-RAN-Native Jamming Detection Under Network Heterogeneity",
+      "summary": "论文提出统计集成方法 SEM，在 O-RAN 架构下利用 E2 接口遥测实现射频干扰检测，冷启动模式无需标注数据即可部署，在分布漂移场景下比 ML/DL 模型更稳定。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 74.55,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "威胁检测和通信安全团队应关注：这项工作直指 ML 检测器在真实部署中的泛化痛点，提出的冷启动统计方案可作为学习型方法的过渡兜底，并通过 O-RAN Non-RT RIC 持续优化。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.20816",
+      "reader_url": "https://arxiv.org/pdf/2610.20816",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "威胁检测"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 16460,
+        "title": "用 AI 检测 MPI 代码错误：新突变数据集与大模型提示工程评测",
+        "original_title": "Harnessing MPI mutations for AI error detection",
+        "summary": "论文提出 MPI 突变数据集（MMD），训练轻量级 MLP 模型并结合 Claude Sonnet 4.5 提示工程，在检测 MPI 调用错误上准确率超 90%，超越传统动态验证工具。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 88.9,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "做代码审计和 SAST 的团队应该看。这篇不仅开源了基于真实代码突变的 MPI 数据集，还对比了小模型加 AST 嵌入与大模型提示工程的实际效果，给 AI 辅助代码审查提供了落地参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.20616",
+        "reader_url": "https://arxiv.org/pdf/2610.20616",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-16T04:00:00",
+        "first_seen_at": "2026-10-17T14:29:20.530353",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 16752,
+        "title": "REA：让 AI Agent 逆向分析从网站到二进制的 MCP 工具",
+        "original_title": "开源项目第235期：REA — 让 AI Agent 逆向任何东西，从网站/Electron 应用一路分析到二进制层",
+        "summary": "REA 是一个 MCP 服务器，把 Hopper、Ghidra、IDA 等逆向工具封装成标准接口供 AI Agent 调用，支持分析网站、Electron、原生二进制、EVM 字节码、固件等多种目标，并返回带证据链的分析结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 82.05,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全研究员和 CTF 玩家必看：REA 把逆向工具链变成 Agent 可调用的 MCP 接口，用自然语言就能驱动分析。它坚持只返回带证据的事实、把推理留给 Agent 的设计思路，能直接参考到你自己的安全自动化工作里。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7695985750949494818",
+        "reader_url": "https://juejin.cn/post/7695985750949494818",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-13T13:04:06",
+        "first_seen_at": "2026-10-17T03:15:15.056601",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 16466,
+        "title": "代码模型不确定性校准在漏洞检测中的局限与反思",
+        "original_title": "Beyond Confidence: Rethinking Uncertainty Calibration in Deep Code Models",
+        "summary": "论文系统评估了7个代码模型在缺陷预测和漏洞检测中的不确定性校准效果，发现现有校准方法无法有效提升高置信度端的预测分离度，且校准指标与实际选择性预测效果存在背离。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 81.25,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "用 AI 做漏洞检测不能只看准召，还得看模型“自信”是否可靠。本研究揭示了现有置信度校准在安全任务中失灵的现象，提示部署 AI 安全工具时需联合评估校准与预测质量，别盲信高置信度结果。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.21248",
+        "reader_url": "https://arxiv.org/pdf/2610.21248",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-16T04:00:00",
+        "first_seen_at": "2026-10-17T14:29:20.530353",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 16550,
+        "title": "HackerOne 评测 18 个前沿 LLM 的复杂漏洞挖掘能力",
+        "original_title": "RT @0xAsm0d3us: At HackerOne, we benchmarked 18 frontier LLMs against 62 fairly complex vulnerabilities  See which model stands where  (lin…",
+        "summary": "HackerOne 针对 62 个复杂漏洞对 18 个前沿大模型进行了基准测试，对比了各模型在安全漏洞发现场景下的实际能力差异。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 80.34,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "一线安全平台出品的大模型漏洞挖掘实战横评，选型或评估 AI 辅助安全能力时必看。直接对比了 18 个前沿模型，能帮你快速判断当前哪类 LLM 更适合做漏洞分析任务。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Hacker0x01/status/2111067727129387134",
+        "reader_url": "https://x.com/Hacker0x01/status/2111067727129387134",
+        "image_url": null,
+        "author": {
+          "username": "Hacker0x01",
+          "name": "HackerOne",
+          "avatar_url": null,
+          "followers_count": 342779
+        },
+        "published_at": "2026-10-16T12:12:22",
+        "first_seen_at": "2026-10-17T14:48:01.897282",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 16118,
+        "title": "用 Neo4j 图推理增强 LLM 渗透测试 Agent 的漏洞链能力",
+        "original_title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents: LLM coding agents such as Claude Code and OpenAI Codex can drive penetration-testing to",
+        "summary": "提出 ChainGraph 模式，利用 Neo4j 通过 MCP 为 LLM 渗透测试 Agent 提供图状推理记忆，解决上下文窗口平铺处理无法有效串联漏洞链的问题，在模拟 AD 环境中大幅提升链评估能力并降低约 98% 的 token 消耗。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 77.78,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全 Agent 从「平铺找洞」进化到「图推理打链」的落地尝试。渗透测试和红队 Agent 开发者必看，可直接借鉴其用 Neo4j 存状态图和 Cypher 查链路的打法，解决长程任务记忆丢失和 token 爆炸的痛点。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/gastronomy/status/2110905994737832321",
+        "reader_url": "https://x.com/gastronomy/status/2110905994737832321",
+        "image_url": null,
+        "author": {
+          "username": "gastronomy",
+          "name": "Tanat Tonguthaisri",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-16T01:29:42",
+        "first_seen_at": "2026-10-17T02:46:40.278666",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 16045,
+        "title": "RedAmon：开源AI渗透测试框架",
+        "original_title": "RedAmon is an open-source, self-hosted AI penetration testing framework.  It maps your attack surface into a Neo4j graph, then autonomously exploits it from a Kali sandbox with hum",
+        "summary": "RedAmon 是一款开源自托管的 AI 渗透测试框架，通过 Neo4j 图谱映射攻击面，在 Kali 沙箱中自主利用并支持人工审批，同时支持通过 MCP 与 Claude Code 双向集成。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 75.95,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "对关注安全Agent落地的团队有直接参考。结合MCP协议、人工审批门控与自动化渗透，展示了当前AI渗透测试工具的实操形态，值得借鉴其架构思路。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/yogsec/status/2110847312570552549",
+        "reader_url": "https://x.com/yogsec/status/2110847312570552549",
+        "image_url": null,
+        "author": {
+          "username": "yogsec",
+          "name": "Abhinav Singwal",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-15T21:36:31",
+        "first_seen_at": "2026-10-17T12:48:01.724141",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 16463,
+        "title": "R-DLD：机器人辅助的安卓应用数据丢失检测系统",
+        "original_title": "Robotic-supported Data Loss Detection in Android Applications",
+        "summary": "本文提出 R-DLD，一种通过物理机器人直接与手机传感器交互的非侵入式数据丢失检测系统。实验在 77 个安卓应用中发现 341 个数据丢失问题，开发者确认率达 89.55%。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 75.9,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "虽然是物理机器人辅助测试，但这种非侵入式的自动化交互思路对移动端安全测试有启发。安全团队可参考其设计，探索结合 AI 视觉与 Agent 自动化执行的移动端漏洞挖掘方案。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.20807",
+        "reader_url": "https://arxiv.org/pdf/2610.20807",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-16T04:00:00",
+        "first_seen_at": "2026-10-17T14:29:20.530353",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 16000,
+        "title": "AWS安全Agent在37个CVE基准中实现33个端到端利用",
+        "original_title": "We live in a new world where AI-based tools are finding security problems at an alarming rate. There are many companies providing tools on both sides of this, and one offering is t",
+        "summary": "AWS安全团队基于2025和2026年披露的37个CVE构建基准，在关闭运行时查询的条件下使用AWS Security Agent进行自主渗透测试，成功端到端利用33个漏洞。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 75.26,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "AWS安全Agent在真刀真枪的CVE实战中取得近九成端到端成功率，自主渗透测试已具备产业落地价值。攻防双方都应高度关注：红队参考其Agent架构与评测方法，蓝队警惕AI自动化攻击的威胁放大。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/RDarrylR/status/2110800060845903888",
+        "reader_url": "https://x.com/RDarrylR/status/2110800060845903888",
+        "image_url": "https://pbs.twimg.com/media/HUsRd-7XAAApJ7k.jpg",
+        "author": {
+          "username": "RDarrylR",
+          "name": "Darryl Ruggles",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-15T18:28:45",
+        "first_seen_at": "2026-10-17T14:48:01.897282",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 16440,
+        "title": "ToolBottleneckBench：受控压力与预算下的工具Agent性能基准",
+        "original_title": "ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets",
+        "summary": "本文提出 ToolBottleneckBench，一个测量工具型 Agent 在受控压力和固定 harness 预算下性能的基准，发现可见工具菜单的截断是影响模型表现的主要惩罚因素。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 72.75,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "如果你在开发或评测安全 Agent，这篇论文揭示了 harness 预算和工具菜单可见性对 Agent 表现的决定性影响。调整工具调用上限或优化菜单展示，可能比换模型更有效，值得直接参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.21098",
+        "reader_url": "https://arxiv.org/pdf/2610.21098",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-16T04:00:00",
+        "first_seen_at": "2026-10-17T14:29:20.530353",
+        "sub_category_label": "模型评测"
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 16475,
+        "title": "Rondo：针对深度学习编译器的有状态测试方法",
+        "original_title": "Stateful Testing for Deep Learning Compilers",
+        "summary": "论文提出 Rondo 测试方法，通过变异调用序列和 MCMC 采样发现 PyTorch、JAX 等框架编译器的有状态 bug，已获开发者确认 35 个报告。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "fuzzing",
+        "score_total": 88.15,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "直接针对 PyTorch/JAX 等核心 AI 基础设施，发现了大量真实有状态 bug。安全团队可借鉴其调用序列变异和差异预言机思路，应用于 AI 供应链安全审计与持续集成测试。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.22003",
+        "reader_url": "https://arxiv.org/pdf/2610.22003",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-16T04:00:00",
+        "first_seen_at": "2026-10-17T14:29:20.530353",
+        "sub_category_label": null
+      },
+      {
+        "id": 16510,
+        "title": "ARTEX 渗透框架衍生多分支并被用于在野 Magento RCE 攻击",
+        "original_title": "Chinese 🇨🇳 AI-assisted penetration testing framework ARTEX has fragmented into multiple rebranded forks after its GitHub repo went dark, with at least one operator deploying it alo",
+        "summary": "中国 AI 渗透框架 ARTEX 仓库下线后衍生出至少六个重命名分支，其中 Bob Research Labs 分支被发现结合 Magento CVE-2026-75650 在野利用和 IRC C2 植入物进行攻击。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 78.75,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "攻防双方都该看：防守方需掌握该多 LLM 后端 Agent 的指纹（artex-linux-amd64、端口 3001/443）并排查 Magento 相关后门；红队可借鉴其多模型切换和攻击 playbook 翻译工作流。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/DFIR_Radar/status/2111065450469601476",
+        "reader_url": "https://x.com/DFIR_Radar/status/2111065450469601476",
+        "image_url": "https://pbs.twimg.com/media/HUwC1nBWoAAz4tH.jpg",
+        "author": {
+          "username": "DFIR_Radar",
+          "name": "DFIR Radar",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-16T12:03:19",
+        "first_seen_at": "2026-10-17T12:48:01.724141",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 16464,
+        "title": "编码 Agent 修复新思路：直接喂整文件优于压缩和检索",
+        "original_title": "Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files",
+        "summary": "论文提出 CQ2-CARE 选择器，证明在同等 token 预算下，直接挑选并展示完整文件供 LLM 编辑，比使用提示压缩器或代码块检索器修复更多 SWE-rebench 问题。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "agent_architecture | security_agent",
+        "score_total": 81.95,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做自动化漏洞修复和代码审计 Agent 的人必看。研究证明靠压缩或片段检索往往会丢失关键上下文或破坏代码结构，直接喂完整文件反而效果最好，这直接影响 Agent 上下文工程的设计取舍。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.21073",
+        "reader_url": "https://arxiv.org/pdf/2610.21073",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-16T04:00:00",
+        "first_seen_at": "2026-10-17T14:29:20.530353",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 16723,
+        "title": "Claude 揭示 ECDSA 曲线种子起源，展示 AI 密码分析能力",
+        "original_title": "HN Hot Discussion: Claude reveals ECDSA curve origins",
+        "summary": "Anthropic 官方披露 Claude 成功逆向推导出 ECDSA P-256 等曲线使用的随机种子明文，破解了困扰密码学界多年的谜题。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "cryptanalysis",
+        "score_total": 76.45,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "Claude 破解了密码学常数起源之谜。做密码库审计和安全研究的人该看看，AI 辅助逆向推理的能力边界又拓宽了。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-17",
+        "reader_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-17",
+        "image_url": null,
+        "author": {
+          "username": "ahlCVA",
+          "name": "ahlCVA",
+          "avatar_url": null
+        },
+        "published_at": "2026-10-16T18:55:59",
+        "first_seen_at": "2026-10-17T00:05:26.856434",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 16043,
+        "title": "ToFu Fuzzer 曝 118 个 MCP 服务器存在漏洞",
+        "original_title": "A new research paper on agent security found verified bugs in 118 of 273 open-source MCP servers it tested.  The authors built ToFu, a fuzzer that reads each tool's own description",
+        "summary": "研究人员构建 ToFu Fuzzer 测试 MCP 工具是否遵守声明限制，在 273 个开源服务器中确认 253 个漏洞，并披露了针对 LangGraph 等框架的 Repeat-After-Me 攻击手法。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security",
+        "score_total": 73.95,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "MCP 生态工具普遍未校验输入，ToFu 暴露了大量路径遍历和注入漏洞。Agent 安全从业者需立刻审视 MCP 沙箱化策略，防范工具描述被滥用。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/AverageAiBro/status/2110842652631687466",
+        "reader_url": "https://x.com/AverageAiBro/status/2110842652631687466",
+        "image_url": null,
+        "author": {
+          "username": "AverageAiBro",
+          "name": "Average AI Bro",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-15T21:18:00",
+        "first_seen_at": "2026-10-17T12:48:01.724141",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 16460,
+            "title": "用 AI 检测 MPI 代码错误：新突变数据集与大模型提示工程评测",
+            "original_title": "Harnessing MPI mutations for AI error detection",
+            "summary": "论文提出 MPI 突变数据集（MMD），训练轻量级 MLP 模型并结合 Claude Sonnet 4.5 提示工程，在检测 MPI 调用错误上准确率超 90%，超越传统动态验证工具。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 88.9,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "做代码审计和 SAST 的团队应该看。这篇不仅开源了基于真实代码突变的 MPI 数据集，还对比了小模型加 AST 嵌入与大模型提示工程的实际效果，给 AI 辅助代码审查提供了落地参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.20616",
+            "reader_url": "https://arxiv.org/pdf/2610.20616",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-16T04:00:00",
+            "first_seen_at": "2026-10-17T14:29:20.530353",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 16835,
+            "title": "评测DeepSeek V4.1-Flash模型在已知漏洞PR上的挖掘能力",
+            "original_title": "RT @Zaddyzaddy: We gave DeepSeek’s updated V4.1-Flash-1017 the same 100 pull requests with known vulnerabilities and an hour per PR to find…",
+            "summary": "推文报道对 DeepSeek 更新的 V4.1-Flash-1017 模型进行了漏洞挖掘评测，测试其在 100 个包含已知漏洞的 Pull Request 上，每小时限查一个 PR 的表现。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.58,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "直接测试前沿大模型的实战挖洞能力，对关注 AI 辅助代码审计和安全评测的从业者具有参考价值，可借此判断 DeepSeek 在漏洞挖掘场景的落地潜力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2111455235646595532",
+            "reader_url": "https://x.com/HackingLZ/status/2111455235646595532",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-10-17T13:52:11",
+            "first_seen_at": "2026-10-17T15:10:59.559610",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 16216,
+            "title": "Anthropic Mythos 模型发现美银真实漏洞，促使其增派千人修复",
+            "original_title": "Bank of America brought in 1,000 contractors after Anthropic’s Mythos started finding real holes in their systems and vendor software. That’s not a research paper. That’s a bank tr",
+            "summary": "据称美国银行因 Anthropic 的 Mythos 模型发现其系统及供应商软件中的真实漏洞，紧急引入千名合同工进行修复，表明 AI 渗透测试能力正进入实际产业流程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队负责人必看。这不仅是 AI 挖洞能力的实证，更标志着大企业开始将 AI 发现的漏洞视为需立即响应的真实威胁，需重新评估自身漏洞修复吞吐能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/amn_baluni/status/2111006570272395759",
+            "reader_url": "https://x.com/amn_baluni/status/2111006570272395759",
+            "image_url": null,
+            "author": {
+              "username": "amn_baluni",
+              "name": "Aman",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-16T08:09:21",
+            "first_seen_at": "2026-10-17T08:47:20.003615",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 16630,
+            "title": "AI 审查员发现的 bug 超过人工修复能力，Postgres 19 被迫延期",
+            "original_title": "HN Hot Discussion: Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+            "summary": "Postgres 19 因 AI 代码审查工具发现的 bug 数量超出人类开发者修复速度而延期发布。该事件标志着 AI 辅助漏洞发现已从研究演示进入主流开源项目维护流程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI for Sec 从业者和安全团队必看：这是 AI 漏洞挖掘能力直接冲击主流开源项目发布流程的标志性事件，预示着安全团队需尽快建立 AI 发现漏洞的分级响应机制，并评估自身代码库对 AI 审查的承受力。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50119991&hn_hot_date=2026-10-16",
+            "reader_url": "https://news.ycombinator.com/item?id=50119991&hn_hot_date=2026-10-16",
+            "image_url": null,
+            "author": {
+              "username": "magoghm",
+              "name": "magoghm",
+              "avatar_url": null
+            },
+            "published_at": "2026-10-16T15:55:40",
+            "first_seen_at": "2026-10-16T17:29:43.000586",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 16752,
+            "title": "REA：让 AI Agent 逆向分析从网站到二进制的 MCP 工具",
+            "original_title": "开源项目第235期：REA — 让 AI Agent 逆向任何东西，从网站/Electron 应用一路分析到二进制层",
+            "summary": "REA 是一个 MCP 服务器，把 Hopper、Ghidra、IDA 等逆向工具封装成标准接口供 AI Agent 调用，支持分析网站、Electron、原生二进制、EVM 字节码、固件等多种目标，并返回带证据链的分析结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 82.05,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全研究员和 CTF 玩家必看：REA 把逆向工具链变成 Agent 可调用的 MCP 接口，用自然语言就能驱动分析。它坚持只返回带证据的事实、把推理留给 Agent 的设计思路，能直接参考到你自己的安全自动化工作里。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7695985750949494818",
+            "reader_url": "https://juejin.cn/post/7695985750949494818",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-13T13:04:06",
+            "first_seen_at": "2026-10-17T03:15:15.056601",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 16118,
+            "title": "用 Neo4j 图推理增强 LLM 渗透测试 Agent 的漏洞链能力",
+            "original_title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents: LLM coding agents such as Claude Code and OpenAI Codex can drive penetration-testing to",
+            "summary": "提出 ChainGraph 模式，利用 Neo4j 通过 MCP 为 LLM 渗透测试 Agent 提供图状推理记忆，解决上下文窗口平铺处理无法有效串联漏洞链的问题，在模拟 AD 环境中大幅提升链评估能力并降低约 98% 的 token 消耗。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 77.78,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全 Agent 从「平铺找洞」进化到「图推理打链」的落地尝试。渗透测试和红队 Agent 开发者必看，可直接借鉴其用 Neo4j 存状态图和 Cypher 查链路的打法，解决长程任务记忆丢失和 token 爆炸的痛点。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/gastronomy/status/2110905994737832321",
+            "reader_url": "https://x.com/gastronomy/status/2110905994737832321",
+            "image_url": null,
+            "author": {
+              "username": "gastronomy",
+              "name": "Tanat Tonguthaisri",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-16T01:29:42",
+            "first_seen_at": "2026-10-17T02:46:40.278666",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 16045,
+            "title": "RedAmon：开源AI渗透测试框架",
+            "original_title": "RedAmon is an open-source, self-hosted AI penetration testing framework.  It maps your attack surface into a Neo4j graph, then autonomously exploits it from a Kali sandbox with hum",
+            "summary": "RedAmon 是一款开源自托管的 AI 渗透测试框架，通过 Neo4j 图谱映射攻击面，在 Kali 沙箱中自主利用并支持人工审批，同时支持通过 MCP 与 Claude Code 双向集成。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 75.95,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "对关注安全Agent落地的团队有直接参考。结合MCP协议、人工审批门控与自动化渗透，展示了当前AI渗透测试工具的实操形态，值得借鉴其架构思路。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/yogsec/status/2110847312570552549",
+            "reader_url": "https://x.com/yogsec/status/2110847312570552549",
+            "image_url": null,
+            "author": {
+              "username": "yogsec",
+              "name": "Abhinav Singwal",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-15T21:36:31",
+            "first_seen_at": "2026-10-17T12:48:01.724141",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 16463,
+            "title": "R-DLD：机器人辅助的安卓应用数据丢失检测系统",
+            "original_title": "Robotic-supported Data Loss Detection in Android Applications",
+            "summary": "本文提出 R-DLD，一种通过物理机器人直接与手机传感器交互的非侵入式数据丢失检测系统。实验在 77 个安卓应用中发现 341 个数据丢失问题，开发者确认率达 89.55%。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 75.9,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "虽然是物理机器人辅助测试，但这种非侵入式的自动化交互思路对移动端安全测试有启发。安全团队可参考其设计，探索结合 AI 视觉与 Agent 自动化执行的移动端漏洞挖掘方案。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.20807",
+            "reader_url": "https://arxiv.org/pdf/2610.20807",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-16T04:00:00",
+            "first_seen_at": "2026-10-17T14:29:20.530353",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 16000,
+            "title": "AWS安全Agent在37个CVE基准中实现33个端到端利用",
+            "original_title": "We live in a new world where AI-based tools are finding security problems at an alarming rate. There are many companies providing tools on both sides of this, and one offering is t",
+            "summary": "AWS安全团队基于2025和2026年披露的37个CVE构建基准，在关闭运行时查询的条件下使用AWS Security Agent进行自主渗透测试，成功端到端利用33个漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 75.26,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AWS安全Agent在真刀真枪的CVE实战中取得近九成端到端成功率，自主渗透测试已具备产业落地价值。攻防双方都应高度关注：红队参考其Agent架构与评测方法，蓝队警惕AI自动化攻击的威胁放大。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/RDarrylR/status/2110800060845903888",
+            "reader_url": "https://x.com/RDarrylR/status/2110800060845903888",
+            "image_url": "https://pbs.twimg.com/media/HUsRd-7XAAApJ7k.jpg",
+            "author": {
+              "username": "RDarrylR",
+              "name": "Darryl Ruggles",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-15T18:28:45",
+            "first_seen_at": "2026-10-17T14:48:01.897282",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 16555,
+            "title": "AdStrike：AI 驱动的 AD 红队自动化框架",
+            "original_title": "AdStrike — AI-powered modular Active Directory red-team framework for authorized penetration testing, AD enumeration, attack-path analysis, Kerberos/ADCS workflows, reporting, oper",
+            "summary": "AdStrike 是一款结合 AI 的模块化 AD 红队工具，支持 AD 枚举、攻击路径分析、Kerberos/ADCS 工作流及 MCP 服务集成，旨在提升授权渗透测试的自动化程度。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 73.42,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "将 LLM 能力接入 AD 渗透测试流程的工具，具有 MCP 集成特性。做内网渗透和红队自动化的同行可以直接关注其工作流设计，看看 AI 在多步骤攻击路径规划中的落地效果。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/KitPloit/status/2111085055145549910",
+            "reader_url": "https://x.com/KitPloit/status/2111085055145549910",
+            "image_url": "https://pbs.twimg.com/media/HUwUq7kXkAEejNO.jpg",
+            "author": {
+              "username": "KitPloit",
+              "name": "☣ KitPloit - Hacker Tools",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-16T13:21:13",
+            "first_seen_at": "2026-10-17T14:48:01.897282",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 16466,
+            "title": "代码模型不确定性校准在漏洞检测中的局限与反思",
+            "original_title": "Beyond Confidence: Rethinking Uncertainty Calibration in Deep Code Models",
+            "summary": "论文系统评估了7个代码模型在缺陷预测和漏洞检测中的不确定性校准效果，发现现有校准方法无法有效提升高置信度端的预测分离度，且校准指标与实际选择性预测效果存在背离。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 81.25,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "用 AI 做漏洞检测不能只看准召，还得看模型“自信”是否可靠。本研究揭示了现有置信度校准在安全任务中失灵的现象，提示部署 AI 安全工具时需联合评估校准与预测质量，别盲信高置信度结果。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.21248",
+            "reader_url": "https://arxiv.org/pdf/2610.21248",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-16T04:00:00",
+            "first_seen_at": "2026-10-17T14:29:20.530353",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 16550,
+            "title": "HackerOne 评测 18 个前沿 LLM 的复杂漏洞挖掘能力",
+            "original_title": "RT @0xAsm0d3us: At HackerOne, we benchmarked 18 frontier LLMs against 62 fairly complex vulnerabilities  See which model stands where  (lin…",
+            "summary": "HackerOne 针对 62 个复杂漏洞对 18 个前沿大模型进行了基准测试，对比了各模型在安全漏洞发现场景下的实际能力差异。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 80.34,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "一线安全平台出品的大模型漏洞挖掘实战横评，选型或评估 AI 辅助安全能力时必看。直接对比了 18 个前沿模型，能帮你快速判断当前哪类 LLM 更适合做漏洞分析任务。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Hacker0x01/status/2111067727129387134",
+            "reader_url": "https://x.com/Hacker0x01/status/2111067727129387134",
+            "image_url": null,
+            "author": {
+              "username": "Hacker0x01",
+              "name": "HackerOne",
+              "avatar_url": null,
+              "followers_count": 342779
+            },
+            "published_at": "2026-10-16T12:12:22",
+            "first_seen_at": "2026-10-17T14:48:01.897282",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "threat_detection": {
+        "label": "威胁检测",
+        "items": [
+          {
+            "id": 16378,
+            "title": "O-RAN 原生干扰检测：统计集成方法在异构网络下的鲁棒性",
+            "original_title": "O-RAN-Native Jamming Detection Under Network Heterogeneity",
+            "summary": "论文提出统计集成方法 SEM，在 O-RAN 架构下利用 E2 接口遥测实现射频干扰检测，冷启动模式无需标注数据即可部署，在分布漂移场景下比 ML/DL 模型更稳定。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 74.55,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "威胁检测和通信安全团队应关注：这项工作直指 ML 检测器在真实部署中的泛化痛点，提出的冷启动统计方案可作为学习型方法的过渡兜底，并通过 O-RAN Non-RT RIC 持续优化。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.20816",
+            "reader_url": "https://arxiv.org/pdf/2610.20816",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-16T04:00:00",
+            "first_seen_at": "2026-10-17T14:29:20.530353",
+            "sub_category_label": "威胁检测"
+          }
+        ]
+      },
+      "threat_intel_platform": {
+        "label": "威胁情报平台",
+        "items": [
+          {
+            "id": 16453,
+            "title": "基于LLM弱标注的网络安全推文分类师生框架",
+            "original_title": "LLM-Based Weak Annotation for Cybersecurity Tweet Classification: A Teacher-Student Framework",
+            "summary": "本文提出一种师生弱监督框架，利用大语言模型为未标注的网络安全推文生成弱标签，从而训练特定领域的预训练模型，无需大规模人工标注即可达到接近全监督模型的性能。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_intel_platform",
+            "score_total": 73.45,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "AI for Sec 从业者常面临安全标注数据匮乏的痛点。这篇论文验证了用 LLM 自动标注 CTI 数据的可行性，F1 接近人工标注，能直接复用于低成本构建威胁情报分类器。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.21254",
+            "reader_url": "https://arxiv.org/pdf/2610.21254",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-16T04:00:00",
+            "first_seen_at": "2026-10-17T14:29:20.530353",
+            "sub_category_label": "威胁情报平台"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "fuzzing": {
+        "label": "fuzzing",
+        "items": [
+          {
+            "id": 16475,
+            "title": "Rondo：针对深度学习编译器的有状态测试方法",
+            "original_title": "Stateful Testing for Deep Learning Compilers",
+            "summary": "论文提出 Rondo 测试方法，通过变异调用序列和 MCMC 采样发现 PyTorch、JAX 等框架编译器的有状态 bug，已获开发者确认 35 个报告。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "fuzzing",
+            "score_total": 88.15,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "直接针对 PyTorch/JAX 等核心 AI 基础设施，发现了大量真实有状态 bug。安全团队可借鉴其调用序列变异和差异预言机思路，应用于 AI 供应链安全审计与持续集成测试。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.22003",
+            "reader_url": "https://arxiv.org/pdf/2610.22003",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-16T04:00:00",
+            "first_seen_at": "2026-10-17T14:29:20.530353",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 16510,
+            "title": "ARTEX 渗透框架衍生多分支并被用于在野 Magento RCE 攻击",
+            "original_title": "Chinese 🇨🇳 AI-assisted penetration testing framework ARTEX has fragmented into multiple rebranded forks after its GitHub repo went dark, with at least one operator deploying it alo",
+            "summary": "中国 AI 渗透框架 ARTEX 仓库下线后衍生出至少六个重命名分支，其中 Bob Research Labs 分支被发现结合 Magento CVE-2026-75650 在野利用和 IRC C2 植入物进行攻击。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 78.75,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "攻防双方都该看：防守方需掌握该多 LLM 后端 Agent 的指纹（artex-linux-amd64、端口 3001/443）并排查 Magento 相关后门；红队可借鉴其多模型切换和攻击 playbook 翻译工作流。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DFIR_Radar/status/2111065450469601476",
+            "reader_url": "https://x.com/DFIR_Radar/status/2111065450469601476",
+            "image_url": "https://pbs.twimg.com/media/HUwC1nBWoAAz4tH.jpg",
+            "author": {
+              "username": "DFIR_Radar",
+              "name": "DFIR Radar",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-16T12:03:19",
+            "first_seen_at": "2026-10-17T12:48:01.724141",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "agent_architecture | security_agent": {
+        "label": "agent_architecture | security_agent",
+        "items": [
+          {
+            "id": 16464,
+            "title": "编码 Agent 修复新思路：直接喂整文件优于压缩和检索",
+            "original_title": "Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files",
+            "summary": "论文提出 CQ2-CARE 选择器，证明在同等 token 预算下，直接挑选并展示完整文件供 LLM 编辑，比使用提示压缩器或代码块检索器修复更多 SWE-rebench 问题。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "agent_architecture | security_agent",
+            "score_total": 81.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做自动化漏洞修复和代码审计 Agent 的人必看。研究证明靠压缩或片段检索往往会丢失关键上下文或破坏代码结构，直接喂完整文件反而效果最好，这直接影响 Agent 上下文工程的设计取舍。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.21073",
+            "reader_url": "https://arxiv.org/pdf/2610.21073",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-16T04:00:00",
+            "first_seen_at": "2026-10-17T14:29:20.530353",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "cryptanalysis": {
+        "label": "cryptanalysis",
+        "items": [
+          {
+            "id": 16723,
+            "title": "Claude 揭示 ECDSA 曲线种子起源，展示 AI 密码分析能力",
+            "original_title": "HN Hot Discussion: Claude reveals ECDSA curve origins",
+            "summary": "Anthropic 官方披露 Claude 成功逆向推导出 ECDSA P-256 等曲线使用的随机种子明文，破解了困扰密码学界多年的谜题。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "cryptanalysis",
+            "score_total": 76.45,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "Claude 破解了密码学常数起源之谜。做密码库审计和安全研究的人该看看，AI 辅助逆向推理的能力边界又拓宽了。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-17",
+            "reader_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-17",
+            "image_url": null,
+            "author": {
+              "username": "ahlCVA",
+              "name": "ahlCVA",
+              "avatar_url": null
+            },
+            "published_at": "2026-10-16T18:55:59",
+            "first_seen_at": "2026-10-17T00:05:26.856434",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 16043,
+            "title": "ToFu Fuzzer 曝 118 个 MCP 服务器存在漏洞",
+            "original_title": "A new research paper on agent security found verified bugs in 118 of 273 open-source MCP servers it tested.  The authors built ToFu, a fuzzer that reads each tool's own description",
+            "summary": "研究人员构建 ToFu Fuzzer 测试 MCP 工具是否遵守声明限制，在 273 个开源服务器中确认 253 个漏洞，并披露了针对 LangGraph 等框架的 Repeat-After-Me 攻击手法。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security",
+            "score_total": 73.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "MCP 生态工具普遍未校验输入，ToFu 暴露了大量路径遍历和注入漏洞。Agent 安全从业者需立刻审视 MCP 沙箱化策略，防范工具描述被滥用。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/AverageAiBro/status/2110842652631687466",
+            "reader_url": "https://x.com/AverageAiBro/status/2110842652631687466",
+            "image_url": null,
+            "author": {
+              "username": "AverageAiBro",
+              "name": "Average AI Bro",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-15T21:18:00",
+            "first_seen_at": "2026-10-17T12:48:01.724141",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 16440,
+            "title": "ToolBottleneckBench：受控压力与预算下的工具Agent性能基准",
+            "original_title": "ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets",
+            "summary": "本文提出 ToolBottleneckBench，一个测量工具型 Agent 在受控压力和固定 harness 预算下性能的基准，发现可见工具菜单的截断是影响模型表现的主要惩罚因素。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 72.75,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "如果你在开发或评测安全 Agent，这篇论文揭示了 harness 预算和工具菜单可见性对 Agent 表现的决定性影响。调整工具调用上限或优化菜单展示，可能比换模型更有效，值得直接参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.21098",
+            "reader_url": "https://arxiv.org/pdf/2610.21098",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-16T04:00:00",
+            "first_seen_at": "2026-10-17T14:29:20.530353",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 16460,
+      "title": "用 AI 检测 MPI 代码错误：新突变数据集与大模型提示工程评测",
+      "original_title": "Harnessing MPI mutations for AI error detection",
+      "summary": "论文提出 MPI 突变数据集（MMD），训练轻量级 MLP 模型并结合 Claude Sonnet 4.5 提示工程，在检测 MPI 调用错误上准确率超 90%，超越传统动态验证工具。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 88.9,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计和 SAST 的团队应该看。这篇不仅开源了基于真实代码突变的 MPI 数据集，还对比了小模型加 AST 嵌入与大模型提示工程的实际效果，给 AI 辅助代码审查提供了落地参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.20616",
+      "reader_url": "https://arxiv.org/pdf/2610.20616",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 16475,
+      "title": "Rondo：针对深度学习编译器的有状态测试方法",
+      "original_title": "Stateful Testing for Deep Learning Compilers",
+      "summary": "论文提出 Rondo 测试方法，通过变异调用序列和 MCMC 采样发现 PyTorch、JAX 等框架编译器的有状态 bug，已获开发者确认 35 个报告。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "fuzzing",
+      "score_total": 88.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "直接针对 PyTorch/JAX 等核心 AI 基础设施，发现了大量真实有状态 bug。安全团队可借鉴其调用序列变异和差异预言机思路，应用于 AI 供应链安全审计与持续集成测试。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.22003",
+      "reader_url": "https://arxiv.org/pdf/2610.22003",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": null
+    },
+    {
+      "id": 16464,
+      "title": "编码 Agent 修复新思路：直接喂整文件优于压缩和检索",
+      "original_title": "Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files",
+      "summary": "论文提出 CQ2-CARE 选择器，证明在同等 token 预算下，直接挑选并展示完整文件供 LLM 编辑，比使用提示压缩器或代码块检索器修复更多 SWE-rebench 问题。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "agent_architecture | security_agent",
+      "score_total": 81.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做自动化漏洞修复和代码审计 Agent 的人必看。研究证明靠压缩或片段检索往往会丢失关键上下文或破坏代码结构，直接喂完整文件反而效果最好，这直接影响 Agent 上下文工程的设计取舍。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.21073",
+      "reader_url": "https://arxiv.org/pdf/2610.21073",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": null
+    },
+    {
+      "id": 16466,
+      "title": "代码模型不确定性校准在漏洞检测中的局限与反思",
+      "original_title": "Beyond Confidence: Rethinking Uncertainty Calibration in Deep Code Models",
+      "summary": "论文系统评估了7个代码模型在缺陷预测和漏洞检测中的不确定性校准效果，发现现有校准方法无法有效提升高置信度端的预测分离度，且校准指标与实际选择性预测效果存在背离。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 81.25,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "用 AI 做漏洞检测不能只看准召，还得看模型“自信”是否可靠。本研究揭示了现有置信度校准在安全任务中失灵的现象，提示部署 AI 安全工具时需联合评估校准与预测质量，别盲信高置信度结果。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.21248",
+      "reader_url": "https://arxiv.org/pdf/2610.21248",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 16463,
+      "title": "R-DLD：机器人辅助的安卓应用数据丢失检测系统",
+      "original_title": "Robotic-supported Data Loss Detection in Android Applications",
+      "summary": "本文提出 R-DLD，一种通过物理机器人直接与手机传感器交互的非侵入式数据丢失检测系统。实验在 77 个安卓应用中发现 341 个数据丢失问题，开发者确认率达 89.55%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "虽然是物理机器人辅助测试，但这种非侵入式的自动化交互思路对移动端安全测试有启发。安全团队可参考其设计，探索结合 AI 视觉与 Agent 自动化执行的移动端漏洞挖掘方案。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.20807",
+      "reader_url": "https://arxiv.org/pdf/2610.20807",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16378,
+      "title": "O-RAN 原生干扰检测：统计集成方法在异构网络下的鲁棒性",
+      "original_title": "O-RAN-Native Jamming Detection Under Network Heterogeneity",
+      "summary": "论文提出统计集成方法 SEM，在 O-RAN 架构下利用 E2 接口遥测实现射频干扰检测，冷启动模式无需标注数据即可部署，在分布漂移场景下比 ML/DL 模型更稳定。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 74.55,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "威胁检测和通信安全团队应关注：这项工作直指 ML 检测器在真实部署中的泛化痛点，提出的冷启动统计方案可作为学习型方法的过渡兜底，并通过 O-RAN Non-RT RIC 持续优化。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.20816",
+      "reader_url": "https://arxiv.org/pdf/2610.20816",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 16453,
+      "title": "基于LLM弱标注的网络安全推文分类师生框架",
+      "original_title": "LLM-Based Weak Annotation for Cybersecurity Tweet Classification: A Teacher-Student Framework",
+      "summary": "本文提出一种师生弱监督框架，利用大语言模型为未标注的网络安全推文生成弱标签，从而训练特定领域的预训练模型，无需大规模人工标注即可达到接近全监督模型的性能。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_intel_platform",
+      "score_total": 73.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "AI for Sec 从业者常面临安全标注数据匮乏的痛点。这篇论文验证了用 LLM 自动标注 CTI 数据的可行性，F1 接近人工标注，能直接复用于低成本构建威胁情报分类器。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.21254",
+      "reader_url": "https://arxiv.org/pdf/2610.21254",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "威胁情报平台"
+    },
+    {
+      "id": 16440,
+      "title": "ToolBottleneckBench：受控压力与预算下的工具Agent性能基准",
+      "original_title": "ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets",
+      "summary": "本文提出 ToolBottleneckBench，一个测量工具型 Agent 在受控压力和固定 harness 预算下性能的基准，发现可见工具菜单的截断是影响模型表现的主要惩罚因素。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在开发或评测安全 Agent，这篇论文揭示了 harness 预算和工具菜单可见性对 Agent 表现的决定性影响。调整工具调用上限或优化菜单展示，可能比换模型更有效，值得直接参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.21098",
+      "reader_url": "https://arxiv.org/pdf/2610.21098",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-17T14:29:20.530353",
+      "sub_category_label": "模型评测"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 20,
+    "highlight_count": 6,
+    "paper_count": 8,
+    "source_count": 4,
+    "top_score": 89,
+    "category_count": {
+      "AI for Sec": 14,
+      "AI Tech": 1,
+      "AI for Sec | Sec for AI": 2,
+      "AI Tech | AI for Sec": 1,
+      "AI for Sec | AI Tech": 1,
+      "Sec for AI | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 4
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 6
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 2
+        },
+        "threat_detection": {
+          "label": "威胁检测",
+          "count": 1
+        },
+        "threat_intel_platform": {
+          "label": "威胁情报平台",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "fuzzing": {
+          "label": "fuzzing",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "agent_architecture | security_agent": {
+          "label": "agent_architecture | security_agent",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "cryptanalysis": {
+          "label": "cryptanalysis",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 14,
+      "top_score": 89,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 1,
+      "top_score": 73,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "得分最高的 MPI 代码错误检测那篇给出了很有参考价值的打法：小模型提特征加上大模型做提示工程，查代码 bug 比传统动态工具准多了，做 SAST 的团队可以照着这个思路试水。另外 Rondo 对 AI 编译器的有状态 Fuzzing 也不能漏，如果你们内部重度依赖 PyTorch 或 JAX，建议把这种调用序列变异的思路塞进 CI 流水线，提前把框架层的雷排掉。",
+  "method_note": "按北京时间 2026-10-17 的系统入库窗口筛选，从 20 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "hn-ai-tech",
+    "juejin-trending-weekly",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# 用 AI 检测 MPI 代码错误：新突变数据集与大模型提示工程评测\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是 AI 把安全测试的脏活累活自动化了。从大模型辅助代码审计查漏洞，到 MCP 把逆向工具链串起来给 Agent 调用，再到给 PyTorch 和 JAX 这些 AI 基础设施做 Fuzz 测试，都在用 AI 替人填坑。\n- 01 做代码审计和 SAST 的团队应该看。这篇不仅开源了基于真实代码突变的 MPI 数据集，还对比了小模型加 AST 嵌入与大模型提示工程的实际效果，给 AI 辅助代码审查提供了落地参考。\n- 02 安全研究员和 CTF 玩家必看：REA 把逆向工具链变成 Agent 可调用的 MCP 接口，用自然语言就能驱动分析。它坚持只返回带证据的事实、把推理留给 Agent 的设计思路，能直接参考到你自己的安全自动化工作里。\n- 03 直接针对 PyTorch/JAX 等核心 AI 基础设施，发现了大量真实有状态 bug。安全团队可借鉴其调用序列变异和差异预言机思路，应用于 AI 供应链安全审计与持续集成测试。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **用 AI 检测 MPI 代码错误：新突变数据集与大模型提示工程评测**：做代码审计和 SAST 的团队应该看。这篇不仅开源了基于真实代码突变的 MPI 数据集，还对比了小模型加 AST 嵌入与大模型提示工程的实际效果，给 AI 辅助代码审查提供了落地参考。 来源：arxiv-ai-security\n- **REA：让 AI Agent 逆向分析从网站到二进制的 MCP 工具**：安全研究员和 CTF 玩家必看：REA 把逆向工具链变成 Agent 可调用的 MCP 接口，用自然语言就能驱动分析。它坚持只返回带证据的事实、把推理留给 Agent 的设计思路，能直接参考到你自己的安全自动化工作里。 来源：juejin-trending-weekly\n- **Rondo：针对深度学习编译器的有状态测试方法**：直接针对 PyTorch/JAX 等核心 AI 基础设施，发现了大量真实有状态 bug。安全团队可借鉴其调用序列变异和差异预言机思路，应用于 AI 供应链安全审计与持续集成测试。 来源：arxiv-ai-security\n\n## 也值得关注\n- 编码 Agent 修复新思路：直接喂整文件优于压缩和检索（81.95）\n- 代码模型不确定性校准在漏洞检测中的局限与反思（81.25）\n- Claude 揭示 ECDSA 曲线种子起源，展示 AI 密码分析能力（76.45）\n- RedAmon：开源AI渗透测试框架（75.95）\n- R-DLD：机器人辅助的安卓应用数据丢失检测系统（75.9）\n- AWS安全Agent在37个CVE基准中实现33个端到端利用（75.26）\n\n## AI for Sec\n\n### 漏洞挖掘\n- 用 AI 检测 MPI 代码错误：新突变数据集与大模型提示工程评测（88.9）\n- 评测DeepSeek V4.1-Flash模型在已知漏洞PR上的挖掘能力（73.58）\n- Anthropic Mythos 模型发现美银真实漏洞，促使其增派千人修复（73.5）\n- AI 审查员发现的 bug 超过人工修复能力，Postgres 19 被迫延期（73.45）\n\n### 安全Agent\n- REA：让 AI Agent 逆向分析从网站到二进制的 MCP 工具（82.05）\n- 用 Neo4j 图推理增强 LLM 渗透测试 Agent 的漏洞链能力（77.78）\n- RedAmon：开源AI渗透测试框架（75.95）\n- R-DLD：机器人辅助的安卓应用数据丢失检测系统（75.9）\n- AWS安全Agent在37个CVE基准中实现33个端到端利用（75.26）\n\n### 安全评测与Benchmark\n- 代码模型不确定性校准在漏洞检测中的局限与反思（81.25）\n- HackerOne 评测 18 个前沿 LLM 的复杂漏洞挖掘能力（80.34）\n\n### 威胁检测\n- O-RAN 原生干扰检测：统计集成方法在异构网络下的鲁棒性（74.55）\n\n### 威胁情报平台\n- 基于LLM弱标注的网络安全推文分类师生框架（73.45）\n\n## AI Tech\n\n### 模型评测\n- ToolBottleneckBench：受控压力与预算下的工具Agent性能基准（72.75）\n\n## 今日论文\n- 用 AI 检测 MPI 代码错误：新突变数据集与大模型提示工程评测\n- Rondo：针对深度学习编译器的有状态测试方法\n- 编码 Agent 修复新思路：直接喂整文件优于压缩和检索\n- 代码模型不确定性校准在漏洞检测中的局限与反思\n- R-DLD：机器人辅助的安卓应用数据丢失检测系统\n- O-RAN 原生干扰检测：统计集成方法在异构网络下的鲁棒性\n- 基于LLM弱标注的网络安全推文分类师生框架\n- ToolBottleneckBench：受控压力与预算下的工具Agent性能基准\n\n## 今日观察\n得分最高的 MPI 代码错误检测那篇给出了很有参考价值的打法：小模型提特征加上大模型做提示工程，查代码 bug 比传统动态工具准多了，做 SAST 的团队可以照着这个思路试水。另外 Rondo 对 AI 编译器的有状态 Fuzzing 也不能漏，如果你们内部重度依赖 PyTorch 或 JAX，建议把这种调用序列变异的思路塞进 CI 流水线，提前把框架层的雷排掉。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-10-17 的系统入库窗口筛选，从 20 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-10-18T00:01:24+08:00"
+}
