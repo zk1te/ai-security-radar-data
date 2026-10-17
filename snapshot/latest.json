@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T13:37:10+08:00",
+  "updated_at": "2026-10-17T14:07:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -94,26 +94,6 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 16643,
-      "title": "CISA 汇总 AI（超级智能）安全与红队指南",
-      "original_title": "Super Intelligence | CISA",
-      "summary": "CISA 联合 NSA 等多机构发布 AI（超级智能）安全指南汇总，涵盖 Agent 采纳、事件响应、数据安全、红队评测及安全开发生命周期。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "ai_adversarial",
-      "score_total": 68.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是安全团队跟进官方 AI 安全合规要求的重要参考。重点关注其中关于 Agentic AI 采纳和红队评测的实践，可直接用于调整内部 AI 安全策略与评估流程。",
-      "source_id": "cisa-ai",
-      "canonical_url": "https://www.cisa.gov/ai?snapshot=09400ffb83c4",
-      "reader_url": "https://www.cisa.gov/ai?snapshot=09400ffb83c4",
-      "image_url": null,
-      "author": null,
-      "published_at": null,
-      "first_seen_at": "2026-10-16T18:03:40.483972",
-      "sub_category_label": null
-    },
-    {
       "id": 16751,
       "title": "英国 AISI 阐述前沿 AI 开发安全挑战与最佳实践",
       "original_title": "Towards technical best practice for frontier AI development  | AISI Work",
@@ -132,31 +112,6 @@
       "published_at": null,
       "first_seen_at": "2026-10-17T02:48:06.136928",
       "sub_category_label": null
-    },
-    {
-      "id": 16638,
-      "title": "AWS测试自主渗透Agent：37个真实漏洞端到端攻破33个",
-      "original_title": "Un agent de pentest autonome, ça trouve vite. Ça peut aussi tout casser.  AWS l'a testé sur 37 failles récentes, sans exploit fourni : 33 exploitées de bout en bout. Ses 2 échecs ?",
-      "summary": "AWS在未提供漏洞利用代码的情况下测试了自主渗透测试Agent，成功端到端利用37个近期真实漏洞中的33个。2次失败的原因是缺乏安全护栏导致目标在完成利用前崩溃。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "自主渗透Agent的实战效率和破坏力都得到验证。安全团队应关注此类工具的护栏设计，避免在测试中意外中断目标服务。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/kamel_laimene/status/2111147642671735121",
-      "reader_url": "https://x.com/kamel_laimene/status/2111147642671735121",
-      "image_url": null,
-      "author": {
-        "username": "kamel_laimene",
-        "name": "Kamel – CTO as a Service - Expert IT",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-16T17:29:55",
-      "first_seen_at": "2026-10-16T17:56:49.191139",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 16673,
@@ -206,6 +161,56 @@
       },
       "published_at": "2026-10-16T22:53:00",
       "first_seen_at": "2026-10-16T23:24:07.555163",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16139,
+      "title": "SyzGen论文解读：自动化生成macOS闭源驱动syscall规范",
+      "original_title": "We’re excited to share our new article on the CyKor blog! 📝  “[Paper Review] SyzGen: Automated Generation of Syscall Specification of Closed-Source macOS Drivers”  🛠️ Youngin Won (",
+      "summary": "CyKor博客分享了对SyzGen论文的解读，并提供了在Catalina虚拟机上配置和测试该工具的实践经验，助力macOS闭源驱动fuzzing。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 66.21,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "针对macOS闭源驱动fuzzing的痛点，SyzGen提供了自动化生成syscall规范的方案。本文附带真实环境搭建的踩坑经验，对做macOS逆向和fuzzing的同学有直接参考价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CyKorKU/status/2110917131755987117",
+      "reader_url": "https://x.com/CyKorKU/status/2110917131755987117",
+      "image_url": "https://pbs.twimg.com/media/HUt78V6bsAANFEH.jpg",
+      "author": {
+        "username": "CyKorKU",
+        "name": "CyKor",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-16T02:13:57",
+      "first_seen_at": "2026-10-17T02:46:40.278666",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 16703,
+      "title": "AWS自主攻击Agent实测：37个CVE成功利用33个",
+      "original_title": "もはやセキュリティ対策は巨人の肩に立たないと成り立たない感ある...   &gt; 全力で動作する自律型の攻撃者は破壊的になり得ます。  AWS Security Agent が実在 CVE 37件中33件のエクスプロイトに成功した報告で、最も重要な結果は「2件の失敗」と AWS。 https://t.co/dr5Kb7Frux",
+      "summary": "报告显示AWS自主攻击Agent成功利用37个真实CVE中的33个，凸显AI攻击者的破坏力，而2次失败案例同样具有参考价值。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.01,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "自主攻击Agent在真实CVE上的高成功率直接证明AI落地安全测试的实战价值。安全团队应关注这些Agent的能力边界，重点分析2个失败CVE的原因以调整防御策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/KUMAN_R/status/2111238189755273714",
+      "reader_url": "https://x.com/KUMAN_R/status/2111238189755273714",
+      "image_url": null,
+      "author": {
+        "username": "KUMAN_R",
+        "name": "Kuman",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-16T23:29:44",
+      "first_seen_at": "2026-10-16T23:56:58.895051",
       "sub_category_label": "安全Agent"
     }
   ]
