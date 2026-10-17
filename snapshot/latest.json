@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T01:10:18+08:00",
+  "updated_at": "2026-10-18T03:10:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -135,6 +135,31 @@
       "sub_category_label": null
     },
     {
+      "id": 15905,
+      "title": "开源自主AI红队工具PentAGI发布",
+      "original_title": "PentAGI is a fully autonomous AI red-team tool released as open source.  It uses a team of specialized AI agents for research, development, penetration testing, and risk analysis. ",
+      "summary": "PentAGI是一款开源的自主AI红队工具，通过编排器Agent设计攻击链并调用20余种渗透工具在隔离沙箱中执行，利用Neo4j图数据库追踪关系。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和安全自动化从业者必看。它展示了多Agent协作编排攻击链的落地实现，可参考其Docker沙箱隔离与知识图谱追踪设计，直接用于改进现有的自动化渗透流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yogsec/status/2110744521273397401",
+      "reader_url": "https://x.com/yogsec/status/2110744521273397401",
+      "image_url": null,
+      "author": {
+        "username": "yogsec",
+        "name": "Abhinav Singwal",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-15T14:48:04",
+      "first_seen_at": "2026-10-17T18:48:29.099772",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 15951,
       "title": "Doc2Harness：首个编码Agent长周期harness工程基准，最强模型通过率仅53%",
       "original_title": "Doc2Harness: The first benchmark for long-horizon harness engineering of coding agents  19 frontier models, 328 test cases, best pass rate only 53% — even the strongest fails half.",
@@ -202,31 +227,6 @@
       "author": null,
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-17T14:29:20.530353",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 15935,
-      "title": "AWS 自主渗透测试 Agent 成功利用 33/37 个真实新 CVE",
-      "original_title": "AWS Security Agent (now part of AWS Continuum) exploited 33 of 37 new real-world CVEs: We applied AWS Security Agent (now part of AWS Continuum), our autonomous penetration-testing",
-      "summary": "AWS 展示其自主渗透测试 Agent（现整合入 AWS Continuum）在 37 个近期披露的真实 CVE 中成功利用了 33 个，展现了 AI 在自动化攻防中的极高效能。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.26,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和防御方都该看。这直接展示了自主渗透 Agent 在真实漏洞利用上的高成功率，是评估 AI 安全工具实战能力的硬核数据点。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheCloudSensei/status/2110765674117374070",
-      "reader_url": "https://x.com/TheCloudSensei/status/2110765674117374070",
-      "image_url": "https://pbs.twimg.com/media/HUryMaNbwAAk3eq.jpg",
-      "author": {
-        "username": "TheCloudSensei",
-        "name": "CloudSensei",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-15T16:12:07",
-      "first_seen_at": "2026-10-17T16:48:22.186599",
       "sub_category_label": "安全Agent"
     }
   ]
