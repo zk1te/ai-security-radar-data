@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-17T12:06:47+08:00",
+  "updated_at": "2026-10-17T13:37:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 16752,
@@ -72,30 +72,6 @@
       "published_at": "2026-10-16T18:55:59",
       "first_seen_at": "2026-10-17T00:05:26.856434",
       "sub_category_label": null
-    },
-    {
-      "id": 16630,
-      "title": "AI 审查员发现的 bug 超过人工修复能力，Postgres 19 被迫延期",
-      "original_title": "HN Hot Discussion: Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
-      "summary": "Postgres 19 因 AI 代码审查工具发现的 bug 数量超出人类开发者修复速度而延期发布。该事件标志着 AI 辅助漏洞发现已从研究演示进入主流开源项目维护流程。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者和安全团队必看：这是 AI 漏洞挖掘能力直接冲击主流开源项目发布流程的标志性事件，预示着安全团队需尽快建立 AI 发现漏洞的分级响应机制，并评估自身代码库对 AI 审查的承受力。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50119991&hn_hot_date=2026-10-16",
-      "reader_url": "https://news.ycombinator.com/item?id=50119991&hn_hot_date=2026-10-16",
-      "image_url": null,
-      "author": {
-        "username": "magoghm",
-        "name": "magoghm",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-16T15:55:40",
-      "first_seen_at": "2026-10-16T17:29:43.000586",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 16740,
