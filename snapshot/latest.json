@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T10:05:59+08:00",
+  "updated_at": "2026-10-17T10:36:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -158,31 +158,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 16563,
-      "title": "使用 Ollama 本地大模型辅助渗透测试指南",
-      "original_title": "Running Local LLMs for Offensive Security with Ollama  A guide to using Ollama as the backbone for AI-assisted penetration testing - covering model selection for security tasks, pi",
-      "summary": "该指南介绍如何利用 Ollama 运行本地大模型作为 AI 辅助渗透测试的底层工具，涵盖安全任务模型选择与输出管道构建。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试团队可参考此指南将本地大模型引入工具链，规避敏感数据上云风险。适合想落地 AI 安全工具却又受限于数据合规的团队快速上手。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jonathans_blog/status/2111095975351562499",
-      "reader_url": "https://x.com/jonathans_blog/status/2111095975351562499",
-      "image_url": "https://pbs.twimg.com/media/HUwemjcXAAABeTq.jpg",
-      "author": {
-        "username": "jonathans_blog",
-        "name": "jonathans_blog 🏴‍☠️🇪🇺🇬🇧🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-16T14:04:37",
-      "first_seen_at": "2026-10-16T14:28:23.588101",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 16584,
       "title": "Pi-chrome 插件让 Agent 接管真实浏览器并复用登录态",
       "original_title": "用了Pi基本就回不去了， 如果你也在用Pi， 强烈推荐安装pi-chrome",
@@ -226,6 +201,31 @@
       "published_at": "2026-10-16T17:29:55",
       "first_seen_at": "2026-10-16T17:56:49.191139",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16673,
+      "title": "安全评测 Benchmark 全量数据与排行榜已上线 Hugging Face",
+      "original_title": "The full benchmark is now on Hugging Face.  Paper: https://t.co/ZwavXqsHlt Dataset: https://t.co/yhkaajF6lX Leaderboard: https://t.co/6xD51Pu4sR",
+      "summary": "某完整版 Benchmark 已发布至 Hugging Face，同步公开了相关论文、数据集及评测排行榜链接。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_benchmark",
+      "score_total": 67.49,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "提供完整论文和数据的评测榜单发布对于衡量模型安全或攻防能力极具参考价值。建议立刻查阅其评测维度与榜单数据，评估是否可用于当前安全 Agent 的自动化能力评测。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HuggingPapers/status/2111188251222462820",
+      "reader_url": "https://x.com/HuggingPapers/status/2111188251222462820",
+      "image_url": null,
+      "author": {
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
+        "avatar_url": null,
+        "followers_count": 21406
+      },
+      "published_at": "2026-10-16T20:11:17",
+      "first_seen_at": "2026-10-16T20:41:50.455311",
+      "sub_category_label": null
     }
   ]
 }
