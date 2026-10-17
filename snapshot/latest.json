@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-17T17:07:53+08:00",
+  "updated_at": "2026-10-17T18:08:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 16752,
@@ -212,6 +212,26 @@
       "published_at": "2026-10-16T23:29:44",
       "first_seen_at": "2026-10-16T23:56:58.895051",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16772,
+      "title": "Claude 半小时内解开 20 年密码学谜题",
+      "original_title": "刚刚，Claude半小时解开二十多年密码学谜题",
+      "summary": "机器之心报道称，Claude 仅用半小时便解开了一个悬置二十多年的密码学谜题，凸显了大模型在复杂逻辑与密码分析方面的能力突破。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation",
+      "score_total": 64.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 解开历史密码学难题是能力跃迁的重要信号。安全团队需关注大模型在密码分析、逆向推理上的实际表现，评估其对现有安全机制的潜在威胁。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-10-17-2?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-10-17-2?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-17T06:52:56",
+      "first_seen_at": "2026-10-17T07:57:39.341709",
+      "sub_category_label": null
     }
   ]
 }
