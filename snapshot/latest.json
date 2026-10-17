@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T08:35:47+08:00",
+  "updated_at": "2026-10-17T09:05:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -118,6 +118,26 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 16740,
+      "title": "GitHub 热门项目 rea：用 AI Agent 逆向分析二进制",
+      "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
+      "summary": "该项目利用 AI Agent 实现从应用行为到原生二进制文件的自动化逆向分析，集成了 Ghidra 等反编译工具链。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 73.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做二进制安全和漏洞挖掘的研究员值得关注，该项目展示了如何结合 AI Agent 与 Ghidra 等工具实现自动化逆向分析，可借鉴其安全工具链落地思路。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-17&since=weekly",
+      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-17&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-17T00:40:48",
+      "first_seen_at": "2026-10-17T00:44:45.427369",
+      "sub_category_label": "二进制安全"
+    },
+    {
       "id": 16643,
       "title": "CISA 汇总 AI（超级智能）安全与红队指南",
       "original_title": "Super Intelligence | CISA",
@@ -206,31 +226,6 @@
       "published_at": "2026-10-10T02:40:38",
       "first_seen_at": "2026-10-16T15:12:05.642649",
       "sub_category_label": null
-    },
-    {
-      "id": 16638,
-      "title": "AWS测试自主渗透Agent：37个真实漏洞端到端攻破33个",
-      "original_title": "Un agent de pentest autonome, ça trouve vite. Ça peut aussi tout casser.  AWS l'a testé sur 37 failles récentes, sans exploit fourni : 33 exploitées de bout en bout. Ses 2 échecs ?",
-      "summary": "AWS在未提供漏洞利用代码的情况下测试了自主渗透测试Agent，成功端到端利用37个近期真实漏洞中的33个。2次失败的原因是缺乏安全护栏导致目标在完成利用前崩溃。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "自主渗透Agent的实战效率和破坏力都得到验证。安全团队应关注此类工具的护栏设计，避免在测试中意外中断目标服务。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/kamel_laimene/status/2111147642671735121",
-      "reader_url": "https://x.com/kamel_laimene/status/2111147642671735121",
-      "image_url": null,
-      "author": {
-        "username": "kamel_laimene",
-        "name": "Kamel – CTO as a Service - Expert IT",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-16T17:29:55",
-      "first_seen_at": "2026-10-16T17:56:49.191139",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
