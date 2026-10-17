@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T04:41:23+08:00",
+  "updated_at": "2026-10-18T05:11:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -130,6 +130,31 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 15546,
+      "title": "ARTEX自主渗透工具在野被发现，具自动化利用与横向移动能力",
+      "original_title": "AI-driven autonomous penetration testing is no longer theoretical. AhnLab ASEC tracked an internet-exposed ARTEX instance and found operational attack artifacts on associated hosts",
+      "summary": "AhnLab追踪到互联网暴露的AI渗透工具ARTEX实例，发现其实际攻击痕迹。该工具能自主完成漏洞利用、WebShell部署和内网横向移动，标志着AI渗透Agent已从PoC走向实战。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 79.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "防御团队必看：AI渗透Agent已从概念走向实战。文内含具体IOC、攻击链复现及DFIR检测建议，需立即排查是否受相关IP或哈希影响。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DFIR_Radar/status/2110627652642258965",
+      "reader_url": "https://x.com/DFIR_Radar/status/2110627652642258965",
+      "image_url": "https://pbs.twimg.com/media/HUp0qZ5bAAAcWT6.png",
+      "author": {
+        "username": "DFIR_Radar",
+        "name": "DFIR Radar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-15T07:03:40",
+      "first_seen_at": "2026-10-17T20:48:29.186900",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 16510,
       "title": "ARTEX 渗透框架衍生多分支并被用于在野 Magento RCE 攻击",
       "original_title": "Chinese 🇨🇳 AI-assisted penetration testing framework ARTEX has fragmented into multiple rebranded forks after its GitHub repo went dark, with at least one operator deploying it alo",
@@ -178,31 +203,6 @@
       "published_at": "2026-10-15T14:48:04",
       "first_seen_at": "2026-10-17T18:48:29.099772",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 15951,
-      "title": "Doc2Harness：首个编码Agent长周期harness工程基准，最强模型通过率仅53%",
-      "original_title": "Doc2Harness: The first benchmark for long-horizon harness engineering of coding agents  19 frontier models, 328 test cases, best pass rate only 53% — even the strongest fails half.",
-      "summary": "ICT-CAS推出Doc2Harness基准测试，评估编码Agent在长周期harness工程中的能力，测试包含328个用例，19个前沿模型中表现最好的通过率也仅有53%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 77.31,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全工具链的自动化生成是AI for Sec的核心瓶颈之一。该Benchmark揭示了当前大模型在编写复杂harness时的真实水平，对评估AI辅助Fuzzing和自动化测试能力具有直接参考价值，做安全Agent的团队必须关注。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2110765616101540224",
-      "reader_url": "https://x.com/HuggingPapers/status/2110765616101540224",
-      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2110765603938058240/pu/img/v3foMjX-HFjZtQWO.jpg",
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null,
-        "followers_count": 21406
-      },
-      "published_at": "2026-10-15T16:11:53",
-      "first_seen_at": "2026-10-17T16:48:22.186599",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
