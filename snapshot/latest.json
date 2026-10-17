@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T23:39:28+08:00",
+  "updated_at": "2026-10-18T01:10:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -135,6 +135,31 @@
       "sub_category_label": null
     },
     {
+      "id": 15951,
+      "title": "Doc2Harness：首个编码Agent长周期harness工程基准，最强模型通过率仅53%",
+      "original_title": "Doc2Harness: The first benchmark for long-horizon harness engineering of coding agents  19 frontier models, 328 test cases, best pass rate only 53% — even the strongest fails half.",
+      "summary": "ICT-CAS推出Doc2Harness基准测试，评估编码Agent在长周期harness工程中的能力，测试包含328个用例，19个前沿模型中表现最好的通过率也仅有53%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 77.31,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全工具链的自动化生成是AI for Sec的核心瓶颈之一。该Benchmark揭示了当前大模型在编写复杂harness时的真实水平，对评估AI辅助Fuzzing和自动化测试能力具有直接参考价值，做安全Agent的团队必须关注。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HuggingPapers/status/2110765616101540224",
+      "reader_url": "https://x.com/HuggingPapers/status/2110765616101540224",
+      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2110765603938058240/pu/img/v3foMjX-HFjZtQWO.jpg",
+      "author": {
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
+        "avatar_url": null,
+        "followers_count": 21406
+      },
+      "published_at": "2026-10-15T16:11:53",
+      "first_seen_at": "2026-10-17T16:48:22.186599",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 16045,
       "title": "RedAmon：开源AI渗透测试框架",
       "original_title": "RedAmon is an open-source, self-hosted AI penetration testing framework.  It maps your attack surface into a Neo4j graph, then autonomously exploits it from a Kali sandbox with hum",
@@ -180,49 +205,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 16000,
-      "title": "AWS安全Agent在37个CVE基准中实现33个端到端利用",
-      "original_title": "We live in a new world where AI-based tools are finding security problems at an alarming rate. There are many companies providing tools on both sides of this, and one offering is t",
-      "summary": "AWS安全团队基于2025和2026年披露的37个CVE构建基准，在关闭运行时查询的条件下使用AWS Security Agent进行自主渗透测试，成功端到端利用33个漏洞。",
+      "id": 15935,
+      "title": "AWS 自主渗透测试 Agent 成功利用 33/37 个真实新 CVE",
+      "original_title": "AWS Security Agent (now part of AWS Continuum) exploited 33 of 37 new real-world CVEs: We applied AWS Security Agent (now part of AWS Continuum), our autonomous penetration-testing",
+      "summary": "AWS 展示其自主渗透测试 Agent（现整合入 AWS Continuum）在 37 个近期披露的真实 CVE 中成功利用了 33 个，展现了 AI 在自动化攻防中的极高效能。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
       "score_total": 75.26,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "AWS安全Agent在真刀真枪的CVE实战中取得近九成端到端成功率，自主渗透测试已具备产业落地价值。攻防双方都应高度关注：红队参考其Agent架构与评测方法，蓝队警惕AI自动化攻击的威胁放大。",
+      "recommendation_reason": "红队和防御方都该看。这直接展示了自主渗透 Agent 在真实漏洞利用上的高成功率，是评估 AI 安全工具实战能力的硬核数据点。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RDarrylR/status/2110800060845903888",
-      "reader_url": "https://x.com/RDarrylR/status/2110800060845903888",
-      "image_url": "https://pbs.twimg.com/media/HUsRd-7XAAApJ7k.jpg",
+      "canonical_url": "https://x.com/TheCloudSensei/status/2110765674117374070",
+      "reader_url": "https://x.com/TheCloudSensei/status/2110765674117374070",
+      "image_url": "https://pbs.twimg.com/media/HUryMaNbwAAk3eq.jpg",
       "author": {
-        "username": "RDarrylR",
-        "name": "Darryl Ruggles",
+        "username": "TheCloudSensei",
+        "name": "CloudSensei",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-15T18:28:45",
-      "first_seen_at": "2026-10-17T14:48:01.897282",
+      "published_at": "2026-10-15T16:12:07",
+      "first_seen_at": "2026-10-17T16:48:22.186599",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 16378,
-      "title": "O-RAN 原生干扰检测：统计集成方法在异构网络下的鲁棒性",
-      "original_title": "O-RAN-Native Jamming Detection Under Network Heterogeneity",
-      "summary": "论文提出统计集成方法 SEM，在 O-RAN 架构下利用 E2 接口遥测实现射频干扰检测，冷启动模式无需标注数据即可部署，在分布漂移场景下比 ML/DL 模型更稳定。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_detection",
-      "score_total": 74.55,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "威胁检测和通信安全团队应关注：这项工作直指 ML 检测器在真实部署中的泛化痛点，提出的冷启动统计方案可作为学习型方法的过渡兜底，并通过 O-RAN Non-RT RIC 持续优化。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.20816",
-      "reader_url": "https://arxiv.org/pdf/2610.20816",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-16T04:00:00",
-      "first_seen_at": "2026-10-17T14:29:20.530353",
-      "sub_category_label": "威胁检测"
     }
   ]
 }
