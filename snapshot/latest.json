@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T11:36:41+08:00",
+  "updated_at": "2026-10-17T12:06:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -158,31 +158,6 @@
       "sub_category_label": null
     },
     {
-      "id": 16596,
-      "title": "Drost CE 快速入门：用 MCP Server 驱动编码 Agent 进行自动化渗透",
-      "original_title": "Some folks have been asking how to get Drost Community Edition running: https://t.co/jztgyS35cQ  Here’s the Quick Start:  1. Drost CE is an MCP Server. First, add it to your favour",
-      "summary": "Drost CE 是一个 MCP 服务器，用户可将其接入编码 Agent 并提供红队提示词，以实现端到端自动化渗透测试和漏洞利用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给红队和攻防团队看：Drost 把 MCP 接入了编码 Agent，直接做自动化渗透和漏洞利用。你可以拿这套提示词和配置直接试跑，评估其在真实靶场上的端到端 RCE 能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/migtissera/status/2111118206912065707",
-      "reader_url": "https://x.com/migtissera/status/2111118206912065707",
-      "image_url": null,
-      "author": {
-        "username": "migtissera",
-        "name": "Migel Tissera",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-16T15:32:57",
-      "first_seen_at": "2026-10-16T15:37:00.407485",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 16638,
       "title": "AWS测试自主渗透Agent：37个真实漏洞端到端攻破33个",
       "original_title": "Un agent de pentest autonome, ça trouve vite. Ça peut aussi tout casser.  AWS l'a testé sur 37 failles récentes, sans exploit fourni : 33 exploitées de bout en bout. Ses 2 échecs ?",
@@ -231,6 +206,31 @@
       "published_at": "2026-10-16T20:11:17",
       "first_seen_at": "2026-10-16T20:41:50.455311",
       "sub_category_label": null
+    },
+    {
+      "id": 16693,
+      "title": "Continuum安全Agent端到端打穿37个CVE，成功率近九成",
+      "original_title": "AWS Security Agent (şimdi Continuum), 37 taze CVE'yi canlı container hedefte end-to-end exploit etmiş. PoC yok: endpoint + bir satır ipucu.  33/37 (%89.2) intended vuln üzerinden f",
+      "summary": "名为Continuum的安全Agent在无PoC的情况下，仅凭端点和一行提示对37个新CVE进行端到端利用，成功率达89.2%，并采用去污染和PoC审计的方法论验证有效性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做自动化渗透的兄弟必看。Continuum展示了不依赖公开PoC也能高成功率打穿容器靶标的能力，其「去污染+PoC审计」的方法论值得直接借鉴到自家安全Agent的评测体系中。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gurkandev/status/2111228946524361001",
+      "reader_url": "https://x.com/gurkandev/status/2111228946524361001",
+      "image_url": "https://pbs.twimg.com/media/HUyXgTWWIAAQBAm.jpg",
+      "author": {
+        "username": "gurkandev",
+        "name": "Gürkan Fikret Günak",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-16T22:53:00",
+      "first_seen_at": "2026-10-16T23:24:07.555163",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
