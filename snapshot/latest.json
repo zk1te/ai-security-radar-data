@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T01:15:55+08:00",
+  "updated_at": "2026-10-19T02:46:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -135,6 +135,31 @@
       "sub_category_label": "知识增强安全"
     },
     {
+      "id": 17081,
+      "title": "GitHub安全实验室用开源Agent挖掘24个安卓漏洞",
+      "original_title": "The GitHub Security Lab used an open-source agent to find 24 Android vulnerabilities, including a location leak in a navigation app with 10M downloads.  How to run the taskflows on",
+      "summary": "GitHub Security Lab 使用开源 AI Agent 发现了 24 个 Android 漏洞，其中包括下载量超千万的导航应用的位置泄漏漏洞，并分享了如何在自己项目中复用相关任务流。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.12,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全从业者必看，开源 Agent 在真实漏洞挖掘中取得显著战果，涉及千万级用户应用。附带运行指南，可直接上手测试自动化漏洞挖掘流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/github/status/2111880011485516083",
+      "reader_url": "https://x.com/github/status/2111880011485516083",
+      "image_url": null,
+      "author": {
+        "username": "github",
+        "name": "GitHub",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-18T18:00:06",
+      "first_seen_at": "2026-10-18T18:25:25.268586",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 15791,
       "title": "OS-Bench：评估SWE Agent跨OS代码迁移的新基准",
       "original_title": "OS-Bench: Evaluating SWE Agents on Cross-OS Code Migration",
@@ -153,26 +178,6 @@
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-18T14:30:01.255556",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 16136,
-      "title": "PN-Mix：用于长输出 LLM 推理的混合精度 KV 缓存量化",
-      "original_title": "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
-      "summary": "论文提出 PN-Mix，一种基于 RoPE 通道对 pair-norm 乘积的混合精度键值缓存量化方法，在 2.26-bit 下保持甚至提升了模型准确率，有效缓解长输出推理的内存与带宽瓶颈。",
-      "primary_category": "AI Tech",
-      "sub_category": "llm_architecture",
-      "score_total": 70.75,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "长输出推理是安全 Agent 的核心瓶颈，PN-Mix 能在极低比特下保持长文本任务准确率，为安全团队部署超长上下文 Agent 提供降本提效思路。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.19605",
-      "reader_url": "https://arxiv.org/pdf/2610.19605",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-16T00:00:00",
-      "first_seen_at": "2026-10-18T14:30:01.255556",
-      "sub_category_label": "LLM 架构"
     }
   ]
 }
