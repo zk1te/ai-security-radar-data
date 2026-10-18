@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T23:15:04+08:00",
+  "updated_at": "2026-10-19T01:15:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -90,6 +90,31 @@
       "sub_category_label": null
     },
     {
+      "id": 16835,
+      "title": "评测DeepSeek V4.1-Flash模型在已知漏洞PR上的挖掘能力",
+      "original_title": "RT @Zaddyzaddy: We gave DeepSeek’s updated V4.1-Flash-1017 the same 100 pull requests with known vulnerabilities and an hour per PR to find…",
+      "summary": "推文报道对 DeepSeek 更新的 V4.1-Flash-1017 模型进行了漏洞挖掘评测，测试其在 100 个包含已知漏洞的 Pull Request 上，每小时限查一个 PR 的表现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.58,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "直接测试前沿大模型的实战挖洞能力，对关注 AI 辅助代码审计和安全评测的从业者具有参考价值，可借此判断 DeepSeek 在漏洞挖掘场景的落地潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2111455235646595532",
+      "reader_url": "https://x.com/HackingLZ/status/2111455235646595532",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-10-17T13:52:11",
+      "first_seen_at": "2026-10-18T16:50:50.303697",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 16474,
       "title": "知识增强 Linux 内核设计级代码审查与基准测试",
       "original_title": "Benchmarking and Enhancing Design-Aware Code Review in the Linux Kernel",
@@ -148,26 +173,6 @@
       "published_at": "2026-10-16T00:00:00",
       "first_seen_at": "2026-10-18T14:30:01.255556",
       "sub_category_label": "LLM 架构"
-    },
-    {
-      "id": 15816,
-      "title": "Agent 能否从恢复的设计文档重建软件？",
-      "original_title": "The Code of Theseus: Can Agents Rebuild Software from Recovered Design Documents?",
-      "summary": "本文提出一种从代码库恢复设计文档的框架，并设计了「忒修斯之船」测试，让编程 Agent 仅凭恢复的文档重建软件，发现恢复的文档能传递测试无法覆盖的设计意图。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 70.2,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "面向研究代码理解和逆向的读者。展示了 LLM 在恢复软件设计意图上的能力，为代码审计和二进制安全等场景提供了新思路，值得跟踪其数据集和评估方法。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.20068",
-      "reader_url": "https://arxiv.org/pdf/2610.20068",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-15T04:00:00",
-      "first_seen_at": "2026-10-18T14:30:01.255556",
-      "sub_category_label": "模型评测"
     }
   ]
 }
