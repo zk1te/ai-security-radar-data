@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T11:13:13+08:00",
+  "updated_at": "2026-10-18T15:13:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 16276,
@@ -108,31 +108,6 @@
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-18T02:29:43.110054",
       "sub_category_label": null
-    },
-    {
-      "id": 15905,
-      "title": "开源自主AI红队工具PentAGI发布",
-      "original_title": "PentAGI is a fully autonomous AI red-team tool released as open source.  It uses a team of specialized AI agents for research, development, penetration testing, and risk analysis. ",
-      "summary": "PentAGI是一款开源的自主AI红队工具，通过编排器Agent设计攻击链并调用20余种渗透工具在隔离沙箱中执行，利用Neo4j图数据库追踪关系。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和安全自动化从业者必看。它展示了多Agent协作编排攻击链的落地实现，可参考其Docker沙箱隔离与知识图谱追踪设计，直接用于改进现有的自动化渗透流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/yogsec/status/2110744521273397401",
-      "reader_url": "https://x.com/yogsec/status/2110744521273397401",
-      "image_url": null,
-      "author": {
-        "username": "yogsec",
-        "name": "Abhinav Singwal",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-15T14:48:04",
-      "first_seen_at": "2026-10-17T18:48:29.099772",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 16277,
