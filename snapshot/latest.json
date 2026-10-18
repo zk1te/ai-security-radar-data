@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T22:45:02+08:00",
+  "updated_at": "2026-10-18T23:15:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -42,6 +42,31 @@
       "author": null,
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-18T08:29:50.777029",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16828,
+      "title": "OshoosiClaw：结合eBPF与Ring-0的自主Rust端点安全Agent",
+      "original_title": "OshoosiClaw — Autonomous Rust endpoint security agent combining Ring-0 Windows driver and Linux eBPF pre-execution blocking, YARA detection, MITRE ATT&amp;CK mapping, and P2P mesh ",
+      "summary": "开源端点安全代理OshoosiClaw发布，融合Windows Ring-0驱动与Linux eBPF预执行阻断、YARA检测及MITRE ATT&CK映射，并支持P2P网格威胁共享。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.03,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "纯Rust写端点防护兼具Windows驱动和Linux eBPF双栈能力，对做EDR和终端安全的同学很有参考价值。可直接看代码学习eBPF和Ring0如何结合YARA做预执行阻断。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/KitPloit/status/2111447357229248710",
+      "reader_url": "https://x.com/KitPloit/status/2111447357229248710",
+      "image_url": "https://pbs.twimg.com/media/HU1eLtBWoAAZNEd.jpg",
+      "author": {
+        "username": "KitPloit",
+        "name": "☣ KitPloit - Hacker Tools",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-17T13:20:53",
+      "first_seen_at": "2026-10-18T14:50:40.505277",
       "sub_category_label": "安全Agent"
     },
     {
@@ -143,31 +168,6 @@
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-18T14:30:01.255556",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 16981,
-      "title": "使用 Codex Astra 进行 48 小时高强度代码与安全审计的提示词",
-      "original_title": "Select codex Astra - Ultra - Fast and give this a go. 😜  Run a sustained, high-effort Astra evaluation on this repository for up to 48 hours of available execution. My aim is to te",
-      "summary": "该推文展示了一份详尽的提示词，指导 AI Agent 在 48 小时内自主完成代码架构审计、漏洞挖掘、模糊测试及修复验证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这份长时序自动化安全审计提示词极具工程参考价值，严格规定了隔离边界、有界测试和冲突处理机制。想构建 AI 代码安全审计流水线的工程师可以直接借鉴其 Agent 边界控制思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cradrrat/status/2111699013120741557",
-      "reader_url": "https://x.com/cradrrat/status/2111699013120741557",
-      "image_url": null,
-      "author": {
-        "username": "cradrrat",
-        "name": "cradrrat",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-18T06:00:52",
-      "first_seen_at": "2026-10-18T06:05:49.047572",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
