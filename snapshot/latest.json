@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T05:16:50+08:00",
+  "updated_at": "2026-10-19T07:17:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 15792,
@@ -73,6 +73,31 @@
       "published_at": "2026-10-17T13:20:53",
       "first_seen_at": "2026-10-18T14:50:40.505277",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16905,
+      "title": "模糊测试研究论文与开源工具合集更新",
+      "original_title": "Awesome Fuzzing — curated research papers (NDSS, IEEE S&amp;P, USENIX Security, CCS; 2008–2026) and open-source fuzzers.  2026 coverage: HyperMirage (virtual CPU state mutation), F",
+      "summary": "Awesome Fuzzing 项目更新了 2008-2026 年间的顶级安全会议模糊测试论文与开源工具，新增了 HyperMirage、FirmAgent 等针对虚拟 CPU 状态和 IoT 固件的先进 fuzzer。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 73.94,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这个持续维护的 Fuzzing 资源库收录了四大顶会的历年论文和开源工具，做漏洞挖掘和安全测试的开发者可以直接拿来补全技术栈，特别是关注 IoT 和固件安全的团队。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AlAssaf_H/status/2111577281734881287",
+      "reader_url": "https://x.com/AlAssaf_H/status/2111577281734881287",
+      "image_url": null,
+      "author": {
+        "username": "AlAssaf_H",
+        "name": "Huda",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-17T21:57:09",
+      "first_seen_at": "2026-10-18T22:51:28.265928",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 16835,
