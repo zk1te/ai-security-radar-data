@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T15:13:40+08:00",
+  "updated_at": "2026-10-18T16:43:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -25,26 +25,6 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 16338,
-      "title": "Probe-and-Resume：终端环境下的Agent执行评估与优化机制",
-      "original_title": "Probe-and-Resume: When and How to Evaluate Agent Execution",
-      "summary": "针对终端环境中测试时搜索效果不佳的问题，提出Probe-and-Resume机制，在Agent声称完成时fork状态并让评估器主动探测隐藏状态，在Terminal-Bench上显著提升成功率。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 83.7,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做自动化渗透或漏洞挖掘Agent的必读。终端环境下Agent常因隐藏状态导致误判，fork并探测的思路可直接借鉴于安全命令执行后的结果验证，防止假阳性。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.21088",
-      "reader_url": "https://arxiv.org/pdf/2610.21088",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-16T04:00:00",
-      "first_seen_at": "2026-10-17T20:29:34.276202",
-      "sub_category_label": null
-    },
-    {
       "id": 16296,
       "title": "QuasiLeak-Bench：评估 LLM 隐私检测器的准证据组恢复基准",
       "original_title": "QuasiLeak-Bench: Evaluating LLM-Based Privacy Detectors on Policy-Conditioned Quasi-Evidence Group Recovery",
@@ -63,6 +43,26 @@
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-18T02:29:43.110054",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 16252,
+      "title": "ChainGraph：用图数据库增强LLM渗透测试Agent的漏洞链推理",
+      "original_title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents",
+      "summary": "论文提出 ChainGraph 模式，利用 Neo4j 图数据库结合 MCP 协议将 LLM 渗透测试 Agent 的漏洞链推理外部化，解决其无法有效串联漏洞的问题，并将推理 token 开销降低 98%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 79.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全 Agent 开发者必看。该思路用图数据库替代上下文窗口做漏洞链记忆，大幅降低 token 消耗并支持复杂链路推理，可直接借鉴用于自研安全工具。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.20902",
+      "reader_url": "https://arxiv.org/pdf/2610.20902",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-18T08:29:50.777029",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 15546,
