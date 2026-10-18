@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T10:42:52+08:00",
+  "updated_at": "2026-10-18T11:13:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -62,31 +62,6 @@
       "author": null,
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-18T02:29:43.110054",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 16550,
-      "title": "HackerOne 评测 18 个前沿 LLM 的复杂漏洞挖掘能力",
-      "original_title": "RT @0xAsm0d3us: At HackerOne, we benchmarked 18 frontier LLMs against 62 fairly complex vulnerabilities  See which model stands where  (lin…",
-      "summary": "HackerOne 针对 62 个复杂漏洞对 18 个前沿大模型进行了基准测试，对比了各模型在安全漏洞发现场景下的实际能力差异。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 80.34,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "一线安全平台出品的大模型漏洞挖掘实战横评，选型或评估 AI 辅助安全能力时必看。直接对比了 18 个前沿模型，能帮你快速判断当前哪类 LLM 更适合做漏洞分析任务。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Hacker0x01/status/2111067727129387134",
-      "reader_url": "https://x.com/Hacker0x01/status/2111067727129387134",
-      "image_url": null,
-      "author": {
-        "username": "Hacker0x01",
-        "name": "HackerOne",
-        "avatar_url": null,
-        "followers_count": 342779
-      },
-      "published_at": "2026-10-16T12:12:22",
-      "first_seen_at": "2026-10-17T14:48:01.897282",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
@@ -158,6 +133,26 @@
       "published_at": "2026-10-15T14:48:04",
       "first_seen_at": "2026-10-17T18:48:29.099772",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 16277,
+      "title": "评估并改进 Rust SAST 工具：LLM 辅助测试框架 TRUST",
+      "original_title": "Evaluating and Improving Static Application Security Testing Tools for Rust",
+      "summary": "本文提出 LLM 辅助的自动化测试框架 TRUST，通过生成语义保留的变异程序来评估主流 Rust SAST 工具，共发现 46 个工具缺陷。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 77.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "给做代码安全和 SAST 工具评估的同学看。利用 LLM 自动生成代码变异体来挖掘 SAST 工具的盲区，思路很新，可以直接借鉴来测试自家的代码审计引擎。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.21373",
+      "reader_url": "https://arxiv.org/pdf/2610.21373",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T04:00:00",
+      "first_seen_at": "2026-10-18T02:29:43.110054",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
