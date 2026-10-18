@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T02:46:03+08:00",
+  "updated_at": "2026-10-19T04:46:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 15792,
@@ -23,26 +23,6 @@
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-18T14:30:01.255556",
       "sub_category_label": null
-    },
-    {
-      "id": 16252,
-      "title": "ChainGraph：用图数据库增强LLM渗透测试Agent的漏洞链推理",
-      "original_title": "Thinking in Graphs: Neo4j-Backed Exploit-Chain Reasoning for LLM Penetration-Testing Agents",
-      "summary": "论文提出 ChainGraph 模式，利用 Neo4j 图数据库结合 MCP 协议将 LLM 渗透测试 Agent 的漏洞链推理外部化，解决其无法有效串联漏洞的问题，并将推理 token 开销降低 98%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 79.75,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "安全 Agent 开发者必看。该思路用图数据库替代上下文窗口做漏洞链记忆，大幅降低 token 消耗并支持复杂链路推理，可直接借鉴用于自研安全工具。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.20902",
-      "reader_url": "https://arxiv.org/pdf/2610.20902",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-16T04:00:00",
-      "first_seen_at": "2026-10-18T08:29:50.777029",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 16828,
@@ -68,26 +48,6 @@
       "published_at": "2026-10-17T13:20:53",
       "first_seen_at": "2026-10-18T14:50:40.505277",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 16243,
-      "title": "金丝雀评估失真：训练数据呈现方式如何影响模型记忆化测量",
-      "original_title": "Unmasking the Secret Code: Using Canaries to Show How Masked Context Controls Memorization in SFT",
-      "summary": "论文发现，用金丝雀（合成秘密记录）评估语言模型记忆化时，测量结果高度依赖秘密在训练中的呈现方式——仅在输入中出现vs需从上下文预测、出现时机、伴随记录都会显著改变测量结果，单纯重复次数不足以刻画记忆化。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_security",
-      "score_total": 74.2,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做模型安全审计和数据泄露评估的人必看：你现有的 canary 评测方法可能被训练数据格式系统性误导，论文给出了跨设置验证的审计建议，能直接改进你的评估流程。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.20656",
-      "reader_url": "https://arxiv.org/pdf/2610.20656",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-16T04:00:00",
-      "first_seen_at": "2026-10-18T08:29:50.777029",
-      "sub_category_label": null
     },
     {
       "id": 16835,
@@ -158,6 +118,26 @@
       "published_at": "2026-10-18T18:00:06",
       "first_seen_at": "2026-10-18T18:25:25.268586",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 15740,
+      "title": "DecisionRobust 基准评估决策模型对抗提示注入等攻击的鲁棒性",
+      "original_title": "DecisionRobust: Benchmarking Robustness for JEV Style Decision Models Across Text and Vision",
+      "summary": "该论文提出 DecisionRobust 基准，系统评测决策模型在文本和视觉模态下面对语义扰动、图像扰动及提示注入攻击的鲁棒性，覆盖 47 种模型配置，发现抗输入扰动不等于抗提示注入，且标签一致性检查能显著降低攻击成功率。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 73.05,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 模型安全评估和选型的团队该看——「抗扰动≠抗注入」这个发现很关键，说明只做输入过滤远远不够。标签一致性检查能大幅压低攻击成功率，是个低成本可立刻落地的防御思路，值得拿来测自己的决策模型管线。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.19118",
+      "reader_url": "https://arxiv.org/pdf/2610.19118",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-15T04:00:00",
+      "first_seen_at": "2026-10-18T20:30:05.967244",
+      "sub_category_label": null
     },
     {
       "id": 15791,
