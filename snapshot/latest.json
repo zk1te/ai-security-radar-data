@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T04:46:49+08:00",
+  "updated_at": "2026-10-19T05:16:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -23,6 +23,31 @@
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-18T14:30:01.255556",
       "sub_category_label": null
+    },
+    {
+      "id": 16876,
+      "title": "AI工具在938个WordPress主题中发现1415个漏洞",
+      "original_title": "We've identified 1,415 security vulnerabilities across 938 WordPress themes, effecting up to over 500,000 WordPress installations.    We've just published the results of our first ",
+      "summary": "BugShield Scout 使用 AI 扫描 WordPress 主题，通过生成 PoC 验证发现了 1415 个真实漏洞，目前正进行负责任披露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.4,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI 漏洞挖掘如何结合 PoC 自动验证来消除误报并实现规模化产出。对于评估安全 Agent 落地闭环和挖掘能力具有直接参考价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/BugShieldWP/status/2111528122931675334",
+      "reader_url": "https://x.com/BugShieldWP/status/2111528122931675334",
+      "image_url": null,
+      "author": {
+        "username": "BugShieldWP",
+        "name": "BugShield",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-17T18:41:49",
+      "first_seen_at": "2026-10-18T20:51:24.870617",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 16828,
@@ -138,26 +163,6 @@
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-18T20:30:05.967244",
       "sub_category_label": null
-    },
-    {
-      "id": 15791,
-      "title": "OS-Bench：评估SWE Agent跨OS代码迁移的新基准",
-      "original_title": "OS-Bench: Evaluating SWE Agents on Cross-OS Code Migration",
-      "summary": "论文提出 OS-Bench，用于评估大模型 Agent 在 Linux 和 Windows 间跨平台代码迁移的能力。测试结果显示，Claude Code 等最好配置的成功率不足 30%，表明跨 OS 迁移仍是极具挑战性的待解难题。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 72.0,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "SWE Agent 的能力边界直接决定自动化安全任务的落地效果。该基准揭示了当前 Agent 处理平台特定代码的严重短板，做跨平台代码审计或自动化漏洞修复的人必看。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.19368",
-      "reader_url": "https://arxiv.org/pdf/2610.19368",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-15T04:00:00",
-      "first_seen_at": "2026-10-18T14:30:01.255556",
-      "sub_category_label": "模型评测"
     }
   ]
 }
