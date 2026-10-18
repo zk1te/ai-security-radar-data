@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T05:11:47+08:00",
+  "updated_at": "2026-10-18T09:12:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -155,31 +155,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 16510,
-      "title": "ARTEX 渗透框架衍生多分支并被用于在野 Magento RCE 攻击",
-      "original_title": "Chinese 🇨🇳 AI-assisted penetration testing framework ARTEX has fragmented into multiple rebranded forks after its GitHub repo went dark, with at least one operator deploying it alo",
-      "summary": "中国 AI 渗透框架 ARTEX 仓库下线后衍生出至少六个重命名分支，其中 Bob Research Labs 分支被发现结合 Magento CVE-2026-75650 在野利用和 IRC C2 植入物进行攻击。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 78.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻防双方都该看：防守方需掌握该多 LLM 后端 Agent 的指纹（artex-linux-amd64、端口 3001/443）并排查 Magento 相关后门；红队可借鉴其多模型切换和攻击 playbook 翻译工作流。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2111065450469601476",
-      "reader_url": "https://x.com/DFIR_Radar/status/2111065450469601476",
-      "image_url": "https://pbs.twimg.com/media/HUwC1nBWoAAz4tH.jpg",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-16T12:03:19",
-      "first_seen_at": "2026-10-17T12:48:01.724141",
-      "sub_category_label": null
-    },
-    {
       "id": 15905,
       "title": "开源自主AI红队工具PentAGI发布",
       "original_title": "PentAGI is a fully autonomous AI red-team tool released as open source.  It uses a team of specialized AI agents for research, development, penetration testing, and risk analysis. ",
@@ -203,6 +178,31 @@
       "published_at": "2026-10-15T14:48:04",
       "first_seen_at": "2026-10-17T18:48:29.099772",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 15951,
+      "title": "Doc2Harness：首个编码Agent长周期harness工程基准，最强模型通过率仅53%",
+      "original_title": "Doc2Harness: The first benchmark for long-horizon harness engineering of coding agents  19 frontier models, 328 test cases, best pass rate only 53% — even the strongest fails half.",
+      "summary": "ICT-CAS推出Doc2Harness基准测试，评估编码Agent在长周期harness工程中的能力，测试包含328个用例，19个前沿模型中表现最好的通过率也仅有53%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 77.31,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全工具链的自动化生成是AI for Sec的核心瓶颈之一。该Benchmark揭示了当前大模型在编写复杂harness时的真实水平，对评估AI辅助Fuzzing和自动化测试能力具有直接参考价值，做安全Agent的团队必须关注。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HuggingPapers/status/2110765616101540224",
+      "reader_url": "https://x.com/HuggingPapers/status/2110765616101540224",
+      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2110765603938058240/pu/img/v3foMjX-HFjZtQWO.jpg",
+      "author": {
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
+        "avatar_url": null,
+        "followers_count": 21406
+      },
+      "published_at": "2026-10-15T16:11:53",
+      "first_seen_at": "2026-10-17T16:48:22.186599",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
