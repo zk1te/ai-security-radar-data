@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T14:49:07+08:00",
+  "updated_at": "2026-10-19T21:20:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -145,30 +145,6 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 17162,
-      "title": "Anthropic 展示 Claude 破解 ECDSA 曲线种子生成之谜",
-      "original_title": "HN Hot Discussion: Claude reveals ECDSA curve origins",
-      "summary": "Anthropic 官方发布研究，展示如何利用 Claude 模型成功逆向推导出 NIST 椭圆曲线（如 P-256）的未知种子生成机制，解决长期存在的密码学透明度问题。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "crypto_analysis",
-      "score_total": 84.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 在密码学逆向上的实战突破。做密码学研究和底层安全的人必须看，它证明大模型能在海量试错和关联推理中发现人类未解之谜，AI 辅助安全挖掘的能力边界又拓宽了。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-19",
-      "reader_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-19",
-      "image_url": null,
-      "author": {
-        "username": "ahlCVA",
-        "name": "ahlCVA",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-16T18:55:59",
-      "first_seen_at": "2026-10-19T01:06:44.471893",
-      "sub_category_label": null
-    },
-    {
       "id": 17453,
       "title": "Pluvio：用迁移学习实现跨架构汇编克隆搜索",
       "original_title": "Pluvio: Assembly Clone Search for Out-of-domain Architectures and Libraries through Transfer Learning and Conditional Variational Information Bottleneck",
@@ -207,6 +183,26 @@
       "published_at": "2026-10-19T04:00:00",
       "first_seen_at": "2026-10-19T06:11:02.286203",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 15602,
+      "title": "基于最优传输的威胁情报指令微调数据选择方法",
+      "original_title": "Towards Efficient Threat Intelligence Instruction Tuning via Quality-Aware and Optimal Transport-Guided Data Selection",
+      "summary": "本文提出 CTI-TDS 方法，通过结合指令风格一致性与安全知识验证筛选高质量威胁情报数据，并利用最优传输优化分布匹配，在少量数据下即可有效提升大模型在威胁情报分析任务上的表现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "knowledge_enhanced",
+      "score_total": 81.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "搞安全大模型微调的一定要看。这篇给出了从海量低质量安全语料中筛选高价值数据的落地思路，能直接用到你的威胁情报模型训练流程里降本增效。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.20284",
+      "reader_url": "https://arxiv.org/pdf/2610.20284",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-15T04:00:00",
+      "first_seen_at": "2026-10-19T02:30:14.035952",
+      "sub_category_label": "知识增强安全"
     }
   ]
 }
