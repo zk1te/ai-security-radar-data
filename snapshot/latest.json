@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T10:47:53+08:00",
+  "updated_at": "2026-10-19T13:18:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -169,6 +169,26 @@
       "sub_category_label": "知识增强安全"
     },
     {
+      "id": 17270,
+      "title": "基于梯度优化TSK模糊框架的可解释钓鱼检测系统",
+      "original_title": "A Gradient-Optimized TSK Fuzzy Framework for Explainable Phishing Detection",
+      "summary": "该论文提出一种基于梯度优化的一阶TSK模糊推理模型用于钓鱼URL检测，结合模糊逻辑的可解释性与梯度优化的精确度，在23.5万URL数据集上达到99.95%准确率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "phishing_detection",
+      "score_total": 79.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "钓鱼检测对可解释性要求高，TSK模糊推理提供了非黑盒的AI安全落地思路。做威胁检测的同学可参考如何将模糊逻辑与深度学习优化结合，摆脱黑盒模型难以解释的困境。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2504.18636",
+      "reader_url": "https://arxiv.org/pdf/2504.18636",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-19T04:00:00",
+      "first_seen_at": "2026-10-19T04:59:54.173693",
+      "sub_category_label": null
+    },
+    {
       "id": 16876,
       "title": "AI工具在938个WordPress主题中发现1415个漏洞",
       "original_title": "We've identified 1,415 security vulnerabilities across 938 WordPress themes, effecting up to over 500,000 WordPress installations.    We've just published the results of our first ",
@@ -192,26 +212,6 @@
       "published_at": "2026-10-17T18:41:49",
       "first_seen_at": "2026-10-18T20:51:24.870617",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 15577,
-      "title": "基于自适应GMM的无线物理层欺骗攻击检测",
-      "original_title": "Physical Layer Anomaly Detection via Adaptive Gaussian Mixture Model",
-      "summary": "提出一种基于自适应高斯混合模型（GMM）的检测框架，通过学习合法信道状态信息（CSI）模式来检测室内无线定位系统的物理层欺骗攻击，对150mm以上的位移检测率达95-98%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_detection",
-      "score_total": 78.15,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "该方法为无线物理层安全提供了基于统计机器学习的异常检测思路，从事通信安全或威胁检测的安全研究员可关注其实验设计与基线对比。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.18946",
-      "reader_url": "https://arxiv.org/pdf/2610.18946",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-15T04:00:00",
-      "first_seen_at": "2026-10-19T02:30:14.035952",
-      "sub_category_label": "威胁检测"
     }
   ]
 }
