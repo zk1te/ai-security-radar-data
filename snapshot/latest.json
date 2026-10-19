@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T07:17:22+08:00",
+  "updated_at": "2026-10-19T09:17:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -22,6 +22,30 @@
       "author": null,
       "published_at": "2026-10-15T04:00:00",
       "first_seen_at": "2026-10-18T14:30:01.255556",
+      "sub_category_label": null
+    },
+    {
+      "id": 17162,
+      "title": "Anthropic 展示 Claude 破解 ECDSA 曲线种子生成之谜",
+      "original_title": "HN Hot Discussion: Claude reveals ECDSA curve origins",
+      "summary": "Anthropic 官方发布研究，展示如何利用 Claude 模型成功逆向推导出 NIST 椭圆曲线（如 P-256）的未知种子生成机制，解决长期存在的密码学透明度问题。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "crypto_analysis",
+      "score_total": 84.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 在密码学逆向上的实战突破。做密码学研究和底层安全的人必须看，它证明大模型能在海量试错和关联推理中发现人类未解之谜，AI 辅助安全挖掘的能力边界又拓宽了。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-19",
+      "reader_url": "https://news.ycombinator.com/item?id=50122800&hn_hot_date=2026-10-19",
+      "image_url": null,
+      "author": {
+        "username": "ahlCVA",
+        "name": "ahlCVA",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-16T18:55:59",
+      "first_seen_at": "2026-10-19T01:06:44.471893",
       "sub_category_label": null
     },
     {
@@ -48,6 +72,31 @@
       "published_at": "2026-10-17T18:41:49",
       "first_seen_at": "2026-10-18T20:51:24.870617",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 16922,
+      "title": "AWS 自主渗透测试代理实测 37 个真实 CVE 成功率达 89%",
+      "original_title": "AWSは、自律型ペネトレーションテストエージェントのAWS Security Agent（現在はAWS Continuumの一部）を、最近公開された実在のCVE 37件に試したところ、33件（89.2%）で狙いどおりの脆弱性を突いてフラグを取れたと報告した。英語版の公開は米国時間10/15で、10/16に日本語訳が出ている。 エージェントに渡したのは、エンド",
+      "summary": "AWS 报告其自主渗透测试代理（AWS Continuum）在 37 个真实 CVE 测试中，仅凭 URL 和一行提示词即成功利用 33 个（89.2%），中位耗时约 4 小时，使用 Claude Opus 模型，并公开了失败案例的审计细节。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "渗透测试 Agent 走向产业落地的关键数据点。89% 成功率+真实 CVE+无 PoC 前提，直接验证当前 LLM 安全 Agent 的实战天花板与失败模式，安全团队应立即评估可自动化的环节。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/multilayer/status/2111604517984948383",
+      "reader_url": "https://x.com/multilayer/status/2111604517984948383",
+      "image_url": null,
+      "author": {
+        "username": "multilayer",
+        "name": "multilayer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-17T23:45:23",
+      "first_seen_at": "2026-10-19T00:51:30.373243",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 16828,
@@ -143,51 +192,6 @@
       "published_at": "2026-10-16T04:00:00",
       "first_seen_at": "2026-10-18T14:30:01.255556",
       "sub_category_label": "知识增强安全"
-    },
-    {
-      "id": 17081,
-      "title": "GitHub安全实验室用开源Agent挖掘24个安卓漏洞",
-      "original_title": "The GitHub Security Lab used an open-source agent to find 24 Android vulnerabilities, including a location leak in a navigation app with 10M downloads.  How to run the taskflows on",
-      "summary": "GitHub Security Lab 使用开源 AI Agent 发现了 24 个 Android 漏洞，其中包括下载量超千万的导航应用的位置泄漏漏洞，并分享了如何在自己项目中复用相关任务流。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.12,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全从业者必看，开源 Agent 在真实漏洞挖掘中取得显著战果，涉及千万级用户应用。附带运行指南，可直接上手测试自动化漏洞挖掘流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/github/status/2111880011485516083",
-      "reader_url": "https://x.com/github/status/2111880011485516083",
-      "image_url": null,
-      "author": {
-        "username": "github",
-        "name": "GitHub",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-18T18:00:06",
-      "first_seen_at": "2026-10-18T18:25:25.268586",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 15740,
-      "title": "DecisionRobust 基准评估决策模型对抗提示注入等攻击的鲁棒性",
-      "original_title": "DecisionRobust: Benchmarking Robustness for JEV Style Decision Models Across Text and Vision",
-      "summary": "该论文提出 DecisionRobust 基准，系统评测决策模型在文本和视觉模态下面对语义扰动、图像扰动及提示注入攻击的鲁棒性，覆盖 47 种模型配置，发现抗输入扰动不等于抗提示注入，且标签一致性检查能显著降低攻击成功率。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_security",
-      "score_total": 73.05,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做 AI 模型安全评估和选型的团队该看——「抗扰动≠抗注入」这个发现很关键，说明只做输入过滤远远不够。标签一致性检查能大幅压低攻击成功率，是个低成本可立刻落地的防御思路，值得拿来测自己的决策模型管线。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.19118",
-      "reader_url": "https://arxiv.org/pdf/2610.19118",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-15T04:00:00",
-      "first_seen_at": "2026-10-18T20:30:05.967244",
-      "sub_category_label": null
     }
   ]
 }
