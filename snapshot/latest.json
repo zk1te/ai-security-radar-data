@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T04:51:29+08:00",
+  "updated_at": "2026-10-20T05:21:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -218,29 +218,29 @@
       "sub_category_label": null
     },
     {
-      "id": 17504,
-      "title": "ThreatPath 安全智能体发布：基于 FalkorDB 图遍历追踪威胁路径",
-      "original_title": "🛡️ ThreatPath is live.  What if a security agent didn't just read alerts — but actually followed the threat path?  Built with FalkorDB to connect the dots between alerts, hosts, pr",
-      "summary": "ThreatPath 是一个基于 FalkorDB 图数据库构建的安全智能体，通过连接告警、主机和进程等数据，实现从告警到图遍历、评估再到响应的自动化威胁追踪。",
-      "primary_category": "AI for Sec",
+      "id": 17570,
+      "title": "Cloudflare开源安全审计Agent技能，假npm包转而劫持AI Agent流量",
+      "original_title": "🔒 CYBERSECURITY, PRIVACY & OPEN SOURCE ROUNDUP — October 19, 2026  1️⃣ A SIXTEEN YEAR OLD BROADCOM WI-FI FLAW STILL GIVES ROOT ON ROUTERS IN RANGE  Researchers disclosed a vulnerab",
+      "summary": "本期动态包含多条关键信息：Cloudflare 开源了供编码 Agent 使用的安全审计技能以自动化挖掘代码漏洞；同时有恶意 npm 包专门针对 AI Agent 发起供应链攻击以劫持其网络流量和 API 密钥；此外还披露了 Broadcom Wi-Fi 芯片 16 年未修复的 root 漏洞及内核防 Fuzzing 强化开关。",
+      "primary_category": "AI for Sec | Sec for AI",
       "sub_category": "security_agent",
-      "score_total": 68.46,
+      "score_total": 68.45,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "一个用图数据库做威胁路径追踪的安全 Agent demo。对于做 SOC 自动化和安全运营的团队，可以看看它如何用 GraphRAG 把零散告警串成完整攻击链。",
+      "recommendation_reason": "Cloudflare 开源的审计 Skill 让 Agent 跑代码安全审查的首次过审几乎免费，安全团队应立即评估接入；同时恶意 npm 包转向劫持 AI Agent 流量的动向也值得高度警惕，防范 Agent 被供应链投毒。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RoySaswat20995/status/2112108673590071581",
-      "reader_url": "https://x.com/RoySaswat20995/status/2112108673590071581",
+      "canonical_url": "https://x.com/TraffAlex/status/2112177283616145673",
+      "reader_url": "https://x.com/TraffAlex/status/2112177283616145673",
       "image_url": null,
       "author": {
-        "username": "RoySaswat20995",
-        "name": "Saswat Suman Roy",
+        "username": "TraffAlex",
+        "name": "AlexAImaginator",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-19T09:08:43",
-      "first_seen_at": "2026-10-19T09:15:04.419756",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-10-19T13:41:21",
+      "first_seen_at": "2026-10-19T13:50:28.335024",
+      "sub_category_label": null
     }
   ]
 }
