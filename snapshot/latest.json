@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T03:51:21+08:00",
+  "updated_at": "2026-10-20T04:51:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -92,31 +92,6 @@
       },
       "published_at": "2026-10-19T16:59:45",
       "first_seen_at": "2026-10-19T17:12:52.040971",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 17491,
-      "title": "AI挖洞Agent降本：超六成Token耗于代码理解",
-      "original_title": "AI agents that hunt security bugs spend 60.4% of their tokens understanding code and reasoning about how to trigger the bug, so that is where cost cuts should aim.  AI agents hunti",
-      "summary": "研究发现AI漏洞挖掘Agent约60%的Token消耗在代码理解和触发推理上，为此提出AVRI工具，通过关联代码与不安全操作降低成本约18%-24%且不损失成功率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.29,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全Agent的团队必看：与其盲目套用通用降本策略，不如先测Token流向。AVRI证明了上下文复用和输入-漏洞链路记忆能有效压低挖洞成本，可直接借鉴到自研Agent架构中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rohanpaul_ai/status/2112091251155825108",
-      "reader_url": "https://x.com/rohanpaul_ai/status/2112091251155825108",
-      "image_url": "https://pbs.twimg.com/media/HU-lIjwaQAAv-aa.jpg",
-      "author": {
-        "username": "rohanpaul_ai",
-        "name": "Rohan Paul",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-19T07:59:29",
-      "first_seen_at": "2026-10-19T08:40:59.770045",
       "sub_category_label": "安全Agent"
     },
     {
@@ -241,6 +216,31 @@
       "published_at": "2026-10-19T13:35:12",
       "first_seen_at": "2026-10-19T18:45:27.719835",
       "sub_category_label": null
+    },
+    {
+      "id": 17504,
+      "title": "ThreatPath 安全智能体发布：基于 FalkorDB 图遍历追踪威胁路径",
+      "original_title": "🛡️ ThreatPath is live.  What if a security agent didn't just read alerts — but actually followed the threat path?  Built with FalkorDB to connect the dots between alerts, hosts, pr",
+      "summary": "ThreatPath 是一个基于 FalkorDB 图数据库构建的安全智能体，通过连接告警、主机和进程等数据，实现从告警到图遍历、评估再到响应的自动化威胁追踪。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "一个用图数据库做威胁路径追踪的安全 Agent demo。对于做 SOC 自动化和安全运营的团队，可以看看它如何用 GraphRAG 把零散告警串成完整攻击链。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RoySaswat20995/status/2112108673590071581",
+      "reader_url": "https://x.com/RoySaswat20995/status/2112108673590071581",
+      "image_url": null,
+      "author": {
+        "username": "RoySaswat20995",
+        "name": "Saswat Suman Roy",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-19T09:08:43",
+      "first_seen_at": "2026-10-19T09:15:04.419756",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
