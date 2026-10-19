@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T23:20:24+08:00",
+  "updated_at": "2026-10-19T23:50:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -105,6 +105,26 @@
       "sub_category_label": null
     },
     {
+      "id": 17615,
+      "title": "REA 开源工具爆火：AI 编排 Ghidra 实现自动化逆向工程",
+      "original_title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
+      "summary": "REA 将 Ghidra、IDA 等逆向工具封装为 MCP 服务接入 AI 助手，实现逆向自动化。实测发现 Flutter 应用仅加固 Java 层，核心逻辑仍可被反编译。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "给做客户端安全和代码审计的人看：这篇文章展示了 AI+MCP 编排传统逆向工具的实战路径，以及 Flutter 加固盲区，可直接借鉴到日常安全审计中。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7696894428150300682",
+      "reader_url": "https://juejin.cn/post/7696894428150300682",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-16T03:56:15",
+      "first_seen_at": "2026-10-19T15:41:31.863953",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 17564,
       "title": "Apex 发布开源安全模型 apex-flash-1 及 Clarion 代理生成功能",
       "original_title": "we’ve been shipping! two weeks ago we announced our very first open-weights model: apex-flash-1, powered by the same security research behind Apex’s bug discoveries in Apple, Coinb",
@@ -198,26 +218,6 @@
       "published_at": "2026-10-18T06:00:52",
       "first_seen_at": "2026-10-19T06:52:44.699338",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 17271,
-      "title": "结合 FHE 与混合推理的隐私保护机器学习框架 Safhire",
-      "original_title": "Practical and Private Hybrid ML Inference with Fully Homomorphic Encryption",
-      "summary": "提出 Safhire 混合推理框架，通过将非线性层卸载到客户端明文计算消除 bootstrapping，并结合随机洗牌保护模型机密性，显著降低推理延迟。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "privacy_preserving_ai",
-      "score_total": 71.7,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "关注隐私保护 AI 架构的安全研究员和架构师应看。提供了一种绕过 FHE 高昂计算成本的新思路，若后续结合安全分析 Agent 的云端部署，可解决模型和数据的双向隐私问题。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2509.01253",
-      "reader_url": "https://arxiv.org/pdf/2509.01253",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-19T04:00:00",
-      "first_seen_at": "2026-10-19T04:59:59.641119",
-      "sub_category_label": null
     }
   ]
 }
