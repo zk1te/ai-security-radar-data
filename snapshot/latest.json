@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T14:19:00+08:00",
+  "updated_at": "2026-10-19T14:49:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -125,6 +125,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 17461,
+      "title": "Superset Decompilation：保留多解释提升二进制反编译可用性",
+      "original_title": "Superset Decompilation",
+      "summary": "该论文提出 Superset Decompilation 反编译方法，通过 Datalog 规则积累候选解释并使用 MaxSMT 求解器选择全局类型一致的程序，解决传统反编译过早提交导致不可编译的问题，在 coreutils 上实现 93% 重编译率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 84.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "二进制安全和逆向分析团队必看。该方法通过延迟决策和形式化求解显著提升了反编译输出的可重编译性，为后续的自动化漏洞挖掘和测试提供了更高质量的源码基础。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.28002",
+      "reader_url": "https://arxiv.org/pdf/2603.28002",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-19T04:00:00",
+      "first_seen_at": "2026-10-19T06:19:48.867188",
+      "sub_category_label": "二进制安全"
+    },
+    {
       "id": 17162,
       "title": "Anthropic 展示 Claude 破解 ECDSA 曲线种子生成之谜",
       "original_title": "HN Hot Discussion: Claude reveals ECDSA curve origins",
@@ -187,26 +207,6 @@
       "published_at": "2026-10-19T04:00:00",
       "first_seen_at": "2026-10-19T06:11:02.286203",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 15602,
-      "title": "基于最优传输的威胁情报指令微调数据选择方法",
-      "original_title": "Towards Efficient Threat Intelligence Instruction Tuning via Quality-Aware and Optimal Transport-Guided Data Selection",
-      "summary": "本文提出 CTI-TDS 方法，通过结合指令风格一致性与安全知识验证筛选高质量威胁情报数据，并利用最优传输优化分布匹配，在少量数据下即可有效提升大模型在威胁情报分析任务上的表现。",
-      "primary_category": "AI for Sec",
-      "sub_category": "knowledge_enhanced",
-      "score_total": 81.6,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "搞安全大模型微调的一定要看。这篇给出了从海量低质量安全语料中筛选高价值数据的落地思路，能直接用到你的威胁情报模型训练流程里降本增效。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.20284",
-      "reader_url": "https://arxiv.org/pdf/2610.20284",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-15T04:00:00",
-      "first_seen_at": "2026-10-19T02:30:14.035952",
-      "sub_category_label": "知识增强安全"
     }
   ]
 }
