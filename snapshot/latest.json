@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T03:21:14+08:00",
+  "updated_at": "2026-10-20T03:51:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -194,26 +194,6 @@
       "sub_category_label": "恶意软件与威胁检测"
     },
     {
-      "id": 17477,
-      "title": "ACT3D：让VLM在3D世界中学会主动探索与推理",
-      "original_title": "Learning to Think and Explore in 3D World",
-      "summary": "本文提出ACT3D，通过基于结果的强化学习让视觉语言模型在3D空间中学会主动探索。模型仅使用单视角图像，通过动作与环境交互，在六个3D基准上平均准确率达53.2%，超越现有开源方法及部分商用模型。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 69.5,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "本文展示了基于RL让Agent学会主动探索和信息获取的范式。对于开发安全自动化Agent（如渗透测试环境感知与信息搜集）有架构参考价值，值得借鉴其探索策略的泛化能力。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.21783",
-      "reader_url": "https://arxiv.org/pdf/2610.21783",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-19T00:00:00",
-      "first_seen_at": "2026-10-19T07:21:36.931971",
-      "sub_category_label": "Agent 架构"
-    },
-    {
       "id": 17578,
       "title": "GitHub 安全实验室开源 AI Agent，已发现 24 个 Android 漏洞",
       "original_title": "@poteto 5/ Quick hits: GitHub Security Lab says its open source AI security agent found 24 Android vulnerabilities, and posted how to run it on your own app. https://t.co/gTnPEvSJX",
@@ -237,6 +217,30 @@
       "published_at": "2026-10-19T14:05:33",
       "first_seen_at": "2026-10-19T14:24:19.829943",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 17662,
+      "title": "黑客利用 AI Agent 低成本攻破大量网站及企业系统",
+      "original_title": "HN Hot Discussion: Cairn: Open windows into AI-driven cyber operations",
+      "summary": "路透社与 The Verge 报道了多起黑客利用 AI Agent 以极低成本攻破大量网站及大型企业系统的真实案例，揭示了 AI 驱动的自动化网络攻击已成为现实威胁。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 69.24,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这不仅是 AI 被滥用的典型，更直接验证了自动化安全 Agent 在实战漏洞挖掘和渗透中的破坏力。安全团队需警惕红蓝双方自动化攻防能力的差距，尽早调整防御策略。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50152302&hn_hot_date=2026-10-19",
+      "reader_url": "https://news.ycombinator.com/item?id=50152302&hn_hot_date=2026-10-19",
+      "image_url": null,
+      "author": {
+        "username": "ragu4u",
+        "name": "ragu4u",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-19T13:35:12",
+      "first_seen_at": "2026-10-19T18:45:27.719835",
+      "sub_category_label": null
     }
   ]
 }
