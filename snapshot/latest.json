@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T02:21:06+08:00",
+  "updated_at": "2026-10-20T03:21:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -120,31 +120,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 16981,
-      "title": "使用 Codex Astra 进行 48 小时高强度代码与安全审计的提示词",
-      "original_title": "Select codex Astra - Ultra - Fast and give this a go. 😜  Run a sustained, high-effort Astra evaluation on this repository for up to 48 hours of available execution. My aim is to te",
-      "summary": "该推文展示了一份详尽的提示词，指导 AI Agent 在 48 小时内自主完成代码架构审计、漏洞挖掘、模糊测试及修复验证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这份长时序自动化安全审计提示词极具工程参考价值，严格规定了隔离边界、有界测试和冲突处理机制。想构建 AI 代码安全审计流水线的工程师可以直接借鉴其 Agent 边界控制思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cradrrat/status/2111699013120741557",
-      "reader_url": "https://x.com/cradrrat/status/2111699013120741557",
-      "image_url": null,
-      "author": {
-        "username": "cradrrat",
-        "name": "cradrrat",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-18T06:00:52",
-      "first_seen_at": "2026-10-19T06:52:44.699338",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 17631,
       "title": "黑客使用 AI Agent 军团攻破 John Deere 与 SharkNinja",
       "original_title": "HN Hot Discussion: A hacker broke into John Deere and SharkNinja with an army of AI agents",
@@ -194,31 +169,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 16974,
-      "title": "AI 逆向工程颠覆二进制安全：闭源逻辑不再安全",
-      "original_title": "AI逆解析で暴かれるソフトウェアの論理。Closedは絶対的な聖域ではなくなった。Opus 5.5  クローズドロジックが全バレする時代：  ソフトウェアを配布するとき、開発者は長らく一つの前提に寄りかかってきた。ソースコードさえ手元に秘匿し、実行可能なバイナリだけを世に出せば、内部のアルゴリズムや設計上の工夫は守られる、という前提である。コンパイルによって",
-      "summary": "本文梳理了神经反编译、变量名恢复及动态程序合成等 AI 技术如何大幅降低逆向工程成本，使得代码混淆等传统防御手段面临失效。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 71.44,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做二进制安全和逆向的团队必读。AI 正把反编译变成机器翻译问题，极大降低分析门槛，现有的代码混淆和闭源保护策略可能需要彻底重新评估。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/222TT222/status/2111678828599021657",
-      "reader_url": "https://x.com/222TT222/status/2111678828599021657",
-      "image_url": null,
-      "author": {
-        "username": "222TT222",
-        "name": "TakTempest",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-18T04:40:40",
-      "first_seen_at": "2026-10-19T06:52:44.699338",
-      "sub_category_label": "二进制安全"
-    },
-    {
       "id": 17559,
       "title": "BYOVD 攻击实为四条路径，单一 EDR 杀手检测规则存在盲区",
       "original_title": "BYOVD is not one technique, it is four. Detection teams writing a single \"EDR killer\" rule are leaving three kill paths completely unmonitored.  The core problem is a taxonomy fail",
@@ -242,6 +192,51 @@
       "published_at": "2026-10-19T13:01:36",
       "first_seen_at": "2026-10-19T13:24:18.496053",
       "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 17477,
+      "title": "ACT3D：让VLM在3D世界中学会主动探索与推理",
+      "original_title": "Learning to Think and Explore in 3D World",
+      "summary": "本文提出ACT3D，通过基于结果的强化学习让视觉语言模型在3D空间中学会主动探索。模型仅使用单视角图像，通过动作与环境交互，在六个3D基准上平均准确率达53.2%，超越现有开源方法及部分商用模型。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 69.5,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "本文展示了基于RL让Agent学会主动探索和信息获取的范式。对于开发安全自动化Agent（如渗透测试环境感知与信息搜集）有架构参考价值，值得借鉴其探索策略的泛化能力。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.21783",
+      "reader_url": "https://arxiv.org/pdf/2610.21783",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-19T00:00:00",
+      "first_seen_at": "2026-10-19T07:21:36.931971",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 17578,
+      "title": "GitHub 安全实验室开源 AI Agent，已发现 24 个 Android 漏洞",
+      "original_title": "@poteto 5/ Quick hits: GitHub Security Lab says its open source AI security agent found 24 Android vulnerabilities, and posted how to run it on your own app. https://t.co/gTnPEvSJX",
+      "summary": "GitHub Security Lab 宣布其开源 AI 安全 Agent 已发现 24 个 Android 漏洞，并公开了在自己应用上运行的方法；同时 Google Research 开源了可自动调参的 Harness² Agent。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.33,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "开源 AI 安全 Agent 实战挖出 24 个真实 Android 漏洞，还附了运行指南。移动安全团队可直接上手试用，评估是否值得纳入自有 CI 审计流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/myjellybot/status/2112183372977988006",
+      "reader_url": "https://x.com/myjellybot/status/2112183372977988006",
+      "image_url": null,
+      "author": {
+        "username": "myjellybot",
+        "name": "Jelly Bot",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-19T14:05:33",
+      "first_seen_at": "2026-10-19T14:24:19.829943",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
