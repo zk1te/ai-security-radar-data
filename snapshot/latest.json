@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T23:50:33+08:00",
+  "updated_at": "2026-10-20T01:20:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -65,26 +65,6 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 17270,
-      "title": "基于梯度优化TSK模糊框架的可解释钓鱼检测系统",
-      "original_title": "A Gradient-Optimized TSK Fuzzy Framework for Explainable Phishing Detection",
-      "summary": "该论文提出一种基于梯度优化的一阶TSK模糊推理模型用于钓鱼URL检测，结合模糊逻辑的可解释性与梯度优化的精确度，在23.5万URL数据集上达到99.95%准确率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "phishing_detection",
-      "score_total": 79.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "钓鱼检测对可解释性要求高，TSK模糊推理提供了非黑盒的AI安全落地思路。做威胁检测的同学可参考如何将模糊逻辑与深度学习优化结合，摆脱黑盒模型难以解释的困境。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2504.18636",
-      "reader_url": "https://arxiv.org/pdf/2504.18636",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-19T04:00:00",
-      "first_seen_at": "2026-10-19T04:59:54.173693",
-      "sub_category_label": null
-    },
-    {
       "id": 17588,
       "title": "黑客用 AI Agent 军团自主攻破上百个网站",
       "original_title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
@@ -147,6 +127,31 @@
       },
       "published_at": "2026-10-19T13:14:38",
       "first_seen_at": "2026-10-19T13:49:00.152689",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 17643,
+      "title": "中国开源渗透 Agent ARTEX 在野滥用攻击日韩企业",
+      "original_title": "Chinese AI tool ARTEX is being used to attack companies in Japan and South Korea.  GMO Cybersecurity confirmed on October 19, 2026 that six attack servers targeting Japanese organi",
+      "summary": "开源多智能体渗透系统 ARTEX 被用于攻击日韩企业，利用 DeepSeek 等 LLM 辅助漏洞扫描与利用，已导致至少八家日本公司数据泄露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.87,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红蓝双方必看：防守方需立即更新检测规则应对此类多智能体攻击工具的在野滥用；红队可研究其攻击链路与自动化能力，评估 AI 武器化的实际杀伤力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Unveiled_ChinaX/status/2112227213550780920",
+      "reader_url": "https://x.com/Unveiled_ChinaX/status/2112227213550780920",
+      "image_url": "https://pbs.twimg.com/media/HVAjXMWaMAErprN.jpg",
+      "author": {
+        "username": "Unveiled_ChinaX",
+        "name": "UnveiledChina",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-19T16:59:45",
+      "first_seen_at": "2026-10-19T17:12:52.040971",
       "sub_category_label": "安全Agent"
     },
     {
