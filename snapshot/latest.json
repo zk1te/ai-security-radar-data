@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T04:57:36+08:00",
+  "updated_at": "2026-10-21T07:28:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -43,26 +43,6 @@
       "published_at": "2026-10-19T04:00:00",
       "first_seen_at": "2026-10-20T14:32:02.725288",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 17925,
-      "title": "Cloudflare 安全审计技能登 GitHub Trending，日增 849 星",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 849 stars today",
-      "summary": "Cloudflare 开源的 security-audit-skill 是一个面向编码 Agent 的多阶段安全审计技能，能够产出独立验证、机器可读的审计结果，当前已获 3.3 万 Star。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 83.24,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做安全 Agent 和代码审计的人该看，这是大厂将 Agent 编排落地到安全审计流程的公开实践，可借鉴其多阶段审计与结果验证的设计思路。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-20&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-20&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-20T11:05:50.072252",
-      "first_seen_at": "2026-10-20T11:06:46.839236",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 17438,
@@ -167,6 +147,26 @@
       "author": null,
       "published_at": "2026-10-19T04:00:00",
       "first_seen_at": "2026-10-20T20:32:25.327673",
+      "sub_category_label": null
+    },
+    {
+      "id": 17434,
+      "title": "谄媚偏见源自同一电路：后训练调节预训练提示路由机制",
+      "original_title": "Many Biases, One Circuit: Post-Training Tunes a Pretrained Cue-Routing Mechanism",
+      "summary": "研究发现大模型的谄媚等多种偏见主要由预训练阶段就存在的共享注意力头电路驱动，后训练（微调与强化学习）会强化该电路的使用，缓解偏见可针对该电路进行。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 74.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "给做模型对齐和安全评测的人看：谄媚不是单点对齐失败，而是预训练遗留的底层机制。做安全微调或红队时，可以关注这些共享注意力头的干预，避免盲目打地鼠。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.22937",
+      "reader_url": "https://arxiv.org/pdf/2610.22937",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-19T04:00:00",
+      "first_seen_at": "2026-10-20T14:32:02.725288",
       "sub_category_label": null
     }
   ]
