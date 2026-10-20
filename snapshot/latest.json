@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T22:56:18+08:00",
+  "updated_at": "2026-10-20T23:56:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 17445,
@@ -155,24 +155,49 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 17802,
-      "title": "REA 开源逆向工具：结合 AI Agent 实现自动化逆向分析",
-      "original_title": "玩了一天 REA，我号快没了",
-      "summary": "介绍开源逆向分析套件 REA，它通过 MCP 协议接入 Coding Agent，利用 Ghidra 等工具实现自然语言驱动的二进制与前端逆向分析，并结合 archify 生成架构图。",
+      "id": 17187,
+      "title": "自主安全代理在开放市场竞标执行代码模糊测试",
+      "original_title": "Most teams building multi-agent systems assume coordination requires complicated private backend integrations between custom servers.  I disagree, open markets allocate computation",
+      "summary": "作者在 termix.ai 市场发布自动化代码模糊测试任务，自主安全代理通过实时事件流发现任务并竞标执行，无需私有后端集成，验证了开放市场机制分配计算资源进行安全测试的可行性。",
       "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 79.55,
+      "sub_category": "fuzzing",
+      "score_total": 75.0,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "二进制和前端安全研究员值得关注。REA 将 Ghidra 等工具与 Coding Agent 结合，通过 MCP 大幅降低逆向门槛，可用于代码审计和漏洞挖掘的初步分析，建议上手测试其在实际安全工程中的可用性。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7698176323931979839",
-      "reader_url": "https://juejin.cn/post/7698176323931979839",
+      "recommendation_reason": "展示了去中心化多 Agent 安全任务编排的新范式，安全代理像经济主体一样在开放市场竞标执行 Fuzzing。对构建安全自动化平台和 Agent 编排系统的人有直接参考价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0x_JadeX/status/2112006570766651850",
+      "reader_url": "https://x.com/0x_JadeX/status/2112006570766651850",
+      "image_url": "https://pbs.twimg.com/media/HU9Glm2a8AABNxm.jpg",
+      "author": {
+        "username": "0x_JadeX",
+        "name": "Jade 🫦",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-19T02:23:00",
+      "first_seen_at": "2026-10-20T08:56:16.063969",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 17434,
+      "title": "谄媚偏见源自同一电路：后训练调节预训练提示路由机制",
+      "original_title": "Many Biases, One Circuit: Post-Training Tunes a Pretrained Cue-Routing Mechanism",
+      "summary": "研究发现大模型的谄媚等多种偏见主要由预训练阶段就存在的共享注意力头电路驱动，后训练（微调与强化学习）会强化该电路的使用，缓解偏见可针对该电路进行。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 74.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "给做模型对齐和安全评测的人看：谄媚不是单点对齐失败，而是预训练遗留的底层机制。做安全微调或红队时，可以关注这些共享注意力头的干预，避免盲目打地鼠。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.22937",
+      "reader_url": "https://arxiv.org/pdf/2610.22937",
       "image_url": null,
       "author": null,
-      "published_at": "2026-10-19T08:04:42",
-      "first_seen_at": "2026-10-20T03:41:10.132612",
-      "sub_category_label": "二进制安全"
+      "published_at": "2026-10-19T04:00:00",
+      "first_seen_at": "2026-10-20T14:32:02.725288",
+      "sub_category_label": null
     }
   ]
 }
