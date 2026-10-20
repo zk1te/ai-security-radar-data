@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T09:52:28+08:00",
+  "updated_at": "2026-10-20T10:22:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -94,6 +94,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 17790,
+      "title": "CVE-2026-103849 Magento 模板注入利用披露，AI 逆向加速漏洞武器化",
+      "original_title": "Attackers targeting CVE-2026-103849 (BlockStrap) don't need credentials — they inject a malicious template directive into a Magento email template and execute arbitrary PHP at the ",
+      "summary": "攻击者无需凭据即可利用 CVE-2026-103849 向 Magento 邮件模板注入恶意指令执行任意 PHP 代码。Sansec 指出 AI 辅助逆向工程正大幅缩短从补丁分析到大规模利用的时间窗口。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.71,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需警惕 AI 辅助逆向压缩漏洞武器化时间，应立即排查 Magento 模板并收紧出站流量控制。AI 加速漏洞利用已成为现实威胁，防护响应需同步提速。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2112347525965324327",
+      "reader_url": "https://x.com/aviatrixtrc/status/2112347525965324327",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-10-20T00:57:50",
+      "first_seen_at": "2026-10-20T02:08:26.542469",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 17752,
       "title": "HN热议：黑客使用AI Agent大军攻破John Deere等巨头",
       "original_title": "HN Hot Discussion: A hacker broke into John Deere and SharkNinja with an army of AI agents",
@@ -184,31 +209,6 @@
       "author": null,
       "published_at": "2026-10-20T00:30:27.624808",
       "first_seen_at": "2026-10-20T00:31:39.406735",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 17718,
-      "title": "TAG-217 滥用 AI 渗透框架 ARTEX 攻击韩国银行",
-      "original_title": "TAG-217 used the open-source AI pentesting framework ARTEX—paired with Claude Code, DeepSeek, and Grok—to automate reconnaissance and exploitation across seven South Korean banks s",
-      "summary": "攻击组织 TAG-217 利用开源 AI 渗透框架 ARTEX 结合 Claude Code 等模型，对 7 家韩国银行进行自动化攻击，导致 6.8 万人数据泄露。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "真实攻击案例展示了 AI Agent 在自动化攻击中的破坏力，安全团队需警惕渗透测试工具被武器化，并重新评估内网横向移动的防御策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
-      "reader_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-10-19T22:27:28",
-      "first_seen_at": "2026-10-19T23:11:41.245813",
       "sub_category_label": "安全Agent"
     }
   ]
