@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T10:22:34+08:00",
+  "updated_at": "2026-10-20T10:52:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -143,31 +143,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 17578,
-      "title": "GitHub 安全实验室开源 AI Agent，已发现 24 个 Android 漏洞",
-      "original_title": "@poteto 5/ Quick hits: GitHub Security Lab says its open source AI security agent found 24 Android vulnerabilities, and posted how to run it on your own app. https://t.co/gTnPEvSJX",
-      "summary": "GitHub Security Lab 宣布其开源 AI 安全 Agent 已发现 24 个 Android 漏洞，并公开了在自己应用上运行的方法；同时 Google Research 开源了可自动调参的 Harness² Agent。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.33,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "开源 AI 安全 Agent 实战挖出 24 个真实 Android 漏洞，还附了运行指南。移动安全团队可直接上手试用，评估是否值得纳入自有 CI 审计流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/myjellybot/status/2112183372977988006",
-      "reader_url": "https://x.com/myjellybot/status/2112183372977988006",
-      "image_url": null,
-      "author": {
-        "username": "myjellybot",
-        "name": "Jelly Bot",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-19T14:05:33",
-      "first_seen_at": "2026-10-19T14:24:19.829943",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 17662,
       "title": "黑客利用 AI Agent 低成本攻破大量网站及企业系统",
       "original_title": "HN Hot Discussion: Cairn: Open windows into AI-driven cyber operations",
@@ -209,6 +184,31 @@
       "author": null,
       "published_at": "2026-10-20T00:30:27.624808",
       "first_seen_at": "2026-10-20T00:31:39.406735",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 17718,
+      "title": "TAG-217 滥用 AI 渗透框架 ARTEX 攻击韩国银行",
+      "original_title": "TAG-217 used the open-source AI pentesting framework ARTEX—paired with Claude Code, DeepSeek, and Grok—to automate reconnaissance and exploitation across seven South Korean banks s",
+      "summary": "攻击组织 TAG-217 利用开源 AI 渗透框架 ARTEX 结合 Claude Code 等模型，对 7 家韩国银行进行自动化攻击，导致 6.8 万人数据泄露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "真实攻击案例展示了 AI Agent 在自动化攻击中的破坏力，安全团队需警惕渗透测试工具被武器化，并重新评估内网横向移动的防御策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
+      "reader_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-10-19T22:27:28",
+      "first_seen_at": "2026-10-19T23:11:41.245813",
       "sub_category_label": "安全Agent"
     }
   ]
