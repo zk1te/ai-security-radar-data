@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T08:22:10+08:00",
+  "updated_at": "2026-10-20T08:52:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 17588,
@@ -144,6 +144,30 @@
       "sub_category_label": "恶意软件与威胁检测"
     },
     {
+      "id": 17752,
+      "title": "HN热议：黑客使用AI Agent大军攻破John Deere等巨头",
+      "original_title": "HN Hot Discussion: A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "summary": "Hacker News 热议一名黑客利用 AI Agent 大军成功入侵 John Deere 和 SharkNinja 等大型企业，展示了 AI 在自动化攻击方面的实战能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.41,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和蓝队成员应高度关注此事件。这标志着 AI 驱动的自动化攻击已步入实际大型企业入侵场景，安全团队需评估防御体系对抗 AI Agent 编队的弹性。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50152877&hn_hot_date=2026-10-20",
+      "reader_url": "https://news.ycombinator.com/item?id=50152877&hn_hot_date=2026-10-20",
+      "image_url": null,
+      "author": {
+        "username": "dkobia",
+        "name": "dkobia",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-19T14:23:17",
+      "first_seen_at": "2026-10-20T00:25:01.741670",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 17578,
       "title": "GitHub 安全实验室开源 AI Agent，已发现 24 个 Android 漏洞",
       "original_title": "@poteto 5/ Quick hits: GitHub Security Lab says its open source AI security agent found 24 Android vulnerabilities, and posted how to run it on your own app. https://t.co/gTnPEvSJX",
@@ -193,29 +217,24 @@
       "sub_category_label": null
     },
     {
-      "id": 17570,
-      "title": "Cloudflare开源安全审计Agent技能，假npm包转而劫持AI Agent流量",
-      "original_title": "🔒 CYBERSECURITY, PRIVACY & OPEN SOURCE ROUNDUP — October 19, 2026  1️⃣ A SIXTEEN YEAR OLD BROADCOM WI-FI FLAW STILL GIVES ROOT ON ROUTERS IN RANGE  Researchers disclosed a vulnerab",
-      "summary": "本期动态包含多条关键信息：Cloudflare 开源了供编码 Agent 使用的安全审计技能以自动化挖掘代码漏洞；同时有恶意 npm 包专门针对 AI Agent 发起供应链攻击以劫持其网络流量和 API 密钥；此外还披露了 Broadcom Wi-Fi 芯片 16 年未修复的 root 漏洞及内核防 Fuzzing 强化开关。",
-      "primary_category": "AI for Sec | Sec for AI",
+      "id": 17765,
+      "title": "morluto/rea：用 Agent 实现从应用到二进制的自动化逆向",
+      "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
+      "summary": "开源项目 morluto/rea 利用 Agent 技术实现自动化逆向工程，支持从应用行为分析到原生二进制层面的逆向。",
+      "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 68.45,
+      "score_total": 68.8,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "Cloudflare 开源的审计 Skill 让 Agent 跑代码安全审查的首次过审几乎免费，安全团队应立即评估接入；同时恶意 npm 包转向劫持 AI Agent 流量的动向也值得高度警惕，防范 Agent 被供应链投毒。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TraffAlex/status/2112177283616145673",
-      "reader_url": "https://x.com/TraffAlex/status/2112177283616145673",
+      "recommendation_reason": "使用 Agent 进行逆向工程是 AI 赋能安全的典型场景。逆向工程师和漏洞研究员应关注此类工具，评估其能否提升分析效率或发现更多漏洞。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-20&since=weekly",
+      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-20&since=weekly",
       "image_url": null,
-      "author": {
-        "username": "TraffAlex",
-        "name": "AlexAImaginator",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-19T13:41:21",
-      "first_seen_at": "2026-10-19T13:50:28.335024",
-      "sub_category_label": null
+      "author": null,
+      "published_at": "2026-10-20T00:30:27.624808",
+      "first_seen_at": "2026-10-20T00:31:39.406735",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
