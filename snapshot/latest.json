@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T15:24:20+08:00",
+  "updated_at": "2026-10-20T15:54:27+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 17802,
@@ -50,6 +50,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 17871,
+      "title": "黑客利用 Claude Code 等大模型与 ARTEX 框架攻击韩国银行",
+      "original_title": "https://t.co/lVWvyaiUfR  Hackers Used Claude Code, DeepSeek and Grok in AI-Assisted Attacks on South Korean Banks.    A hacker combined an open-source AI penetration testing framew",
+      "summary": "攻击者组合开源 AI 渗透测试框架 ARTEX 与 Claude Code、DeepSeek、Grok 等工具，对韩国金融机构实施了 AI 辅助攻击。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 73.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是真实在野攻击中 AI 渗透工具的落地案例。防守方需立刻关注 ARTEX 框架及主流大模型在攻击链中的实际威胁表现。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DIYprojects55/status/2112444678834618819",
+      "reader_url": "https://x.com/DIYprojects55/status/2112444678834618819",
+      "image_url": null,
+      "author": {
+        "username": "DIYprojects55",
+        "name": "Technology Updates",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-20T07:23:53",
+      "first_seen_at": "2026-10-20T07:34:06.102738",
+      "sub_category_label": null
+    },
+    {
       "id": 17404,
       "title": "OpenRouter 推出自我进化的安全 Agent Sentinel",
       "original_title": "A few months ago, we built a self-improving security agent called Sentinel to help protect OpenRouter users. It runs 24/7 across all activity to look for activity anomalies, signs ",
@@ -73,6 +98,26 @@
       "published_at": "2026-10-19T05:48:38",
       "first_seen_at": "2026-10-20T06:55:56.864870",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 17884,
+      "title": "Sauron：防范智能体奖励欺骗的证据优先验证器",
+      "original_title": "Evidence-First Agentic Verification",
+      "summary": "论文提出 Sauron 智能体验证器，通过独立验证状态与执行轨迹中的声明，防范智能体在强化学习中的奖励欺骗行为，并在多个基准测试中取得最佳 F1 表现。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 71.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "面向开发 Agent 和安全评测的工程师，Sauron 提供了一种抗欺骗的评估框架，特别是针对奖励欺骗注入。如果你在做 RLHF 或 Agent 自动化评测，这能直接帮你避开 Agent 谎报战果的坑。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.17724",
+      "reader_url": "https://arxiv.org/pdf/2610.17724",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-20T00:00:00",
+      "first_seen_at": "2026-10-20T07:48:44.488507",
+      "sub_category_label": null
     },
     {
       "id": 17790,
@@ -162,26 +207,6 @@
       "published_at": "2026-10-20T00:00:00",
       "first_seen_at": "2026-10-20T03:44:51.433936",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 17765,
-      "title": "morluto/rea：用 Agent 实现从应用到二进制的自动化逆向",
-      "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
-      "summary": "开源项目 morluto/rea 利用 Agent 技术实现自动化逆向工程，支持从应用行为分析到原生二进制层面的逆向。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.8,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "使用 Agent 进行逆向工程是 AI 赋能安全的典型场景。逆向工程师和漏洞研究员应关注此类工具，评估其能否提升分析效率或发现更多漏洞。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-20&since=weekly",
-      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-20&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-20T00:30:27.624808",
-      "first_seen_at": "2026-10-20T00:31:39.406735",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
