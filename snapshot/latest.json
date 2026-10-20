@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T14:53:50+08:00",
+  "updated_at": "2026-10-20T15:24:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -47,6 +47,31 @@
       },
       "published_at": "2026-10-19T02:45:37",
       "first_seen_at": "2026-10-20T02:55:40.935037",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 17404,
+      "title": "OpenRouter 推出自我进化的安全 Agent Sentinel",
+      "original_title": "A few months ago, we built a self-improving security agent called Sentinel to help protect OpenRouter users. It runs 24/7 across all activity to look for activity anomalies, signs ",
+      "summary": "OpenRouter 构建了 24/7 运行的安全 Agent Sentinel，用于检测账户接管和密钥窃取等异常，本月误报率仅 0.05%，并支持通过 OAuth 集成。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.08,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "真实落地的 7x24 安全 Agent。展示了如何结合人工反馈持续优化检测模型，做威胁检测和防御落地的团队可以直接参考其误报率指标和 OAuth 集成思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/alexatallah/status/2112058319410254067",
+      "reader_url": "https://x.com/alexatallah/status/2112058319410254067",
+      "image_url": null,
+      "author": {
+        "username": "alexatallah",
+        "name": "Alex Atallah",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-19T05:48:38",
+      "first_seen_at": "2026-10-20T06:55:56.864870",
       "sub_category_label": "安全Agent"
     },
     {
@@ -156,31 +181,6 @@
       "author": null,
       "published_at": "2026-10-20T00:30:27.624808",
       "first_seen_at": "2026-10-20T00:31:39.406735",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 17718,
-      "title": "TAG-217 滥用 AI 渗透框架 ARTEX 攻击韩国银行",
-      "original_title": "TAG-217 used the open-source AI pentesting framework ARTEX—paired with Claude Code, DeepSeek, and Grok—to automate reconnaissance and exploitation across seven South Korean banks s",
-      "summary": "攻击组织 TAG-217 利用开源 AI 渗透框架 ARTEX 结合 Claude Code 等模型，对 7 家韩国银行进行自动化攻击，导致 6.8 万人数据泄露。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "真实攻击案例展示了 AI Agent 在自动化攻击中的破坏力，安全团队需警惕渗透测试工具被武器化，并重新评估内网横向移动的防御策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
-      "reader_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-10-19T22:27:28",
-      "first_seen_at": "2026-10-19T23:11:41.245813",
       "sub_category_label": "安全Agent"
     }
   ]
