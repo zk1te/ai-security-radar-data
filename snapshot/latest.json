@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-10-20T10:52:35+08:00",
+  "updated_at": "2026-10-20T11:22:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 17588,
-      "title": "黑客用 AI Agent 军团自主攻破上百个网站",
-      "original_title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "summary": "安全公司 Norforge 发现黑客利用自主运行的 AI Agent 军团成功入侵了包括 John Deere 在内的 100 多个网站，展示了 AI 自动化攻击在野利用的真实威胁。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 78.85,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "真实世界 AI Agent 自动化攻击首例大规模曝光。防御团队需立刻警惕攻击方降本增效的趋势，评估现有系统应对 AI 高速自动化漏洞探测与利用的能力。",
-      "source_id": "the-verge-ai",
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "reader_url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-19T13:58:41",
-      "first_seen_at": "2026-10-19T15:04:17.468384",
-      "sub_category_label": null
-    },
     {
       "id": 17615,
       "title": "REA 开源工具爆火：AI 编排 Ghidra 实现自动化逆向工程",
@@ -67,6 +47,31 @@
       },
       "published_at": "2026-10-19T16:59:45",
       "first_seen_at": "2026-10-19T17:12:52.040971",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 17190,
+      "title": "开源安全Agent Frame：符号核心结合LLM进行本地代码审计",
+      "original_title": "An AI review pass pairs well with a scanner that proves its findings. Frame is an open-source security agent: a sound symbolic core plus an LLM layer. For the code side of this lis",
+      "summary": "Frame是一款开源安全Agent，结合符号核心与LLM层，可检测LLM输出引入的SQL、Shell或HTML注入及硬编码密钥，在XBOW漏洞应用中检出率达78.8%且完全本地运行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "解决纯LLM幻觉问题的开源安全Agent，通过符号执行证明发现有效性且支持本地运行。苦于AI代码审计误报率的团队值得立刻测试。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/latent_node/status/2112012263167312334",
+      "reader_url": "https://x.com/latent_node/status/2112012263167312334",
+      "image_url": null,
+      "author": {
+        "username": "latent_node",
+        "name": "Latent Node",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-19T02:45:37",
+      "first_seen_at": "2026-10-20T02:55:40.935037",
       "sub_category_label": "安全Agent"
     },
     {
