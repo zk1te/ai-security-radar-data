@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T11:53:05+08:00",
+  "updated_at": "2026-10-20T13:23:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 17802,
@@ -23,31 +23,6 @@
       "published_at": "2026-10-19T08:04:42",
       "first_seen_at": "2026-10-20T03:41:10.132612",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 17643,
-      "title": "中国开源渗透 Agent ARTEX 在野滥用攻击日韩企业",
-      "original_title": "Chinese AI tool ARTEX is being used to attack companies in Japan and South Korea.  GMO Cybersecurity confirmed on October 19, 2026 that six attack servers targeting Japanese organi",
-      "summary": "开源多智能体渗透系统 ARTEX 被用于攻击日韩企业，利用 DeepSeek 等 LLM 辅助漏洞扫描与利用，已导致至少八家日本公司数据泄露。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.87,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红蓝双方必看：防守方需立即更新检测规则应对此类多智能体攻击工具的在野滥用；红队可研究其攻击链路与自动化能力，评估 AI 武器化的实际杀伤力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Unveiled_ChinaX/status/2112227213550780920",
-      "reader_url": "https://x.com/Unveiled_ChinaX/status/2112227213550780920",
-      "image_url": "https://pbs.twimg.com/media/HVAjXMWaMAErprN.jpg",
-      "author": {
-        "username": "Unveiled_ChinaX",
-        "name": "UnveiledChina",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-19T16:59:45",
-      "first_seen_at": "2026-10-19T17:12:52.040971",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 17190,
@@ -72,30 +47,6 @@
       },
       "published_at": "2026-10-19T02:45:37",
       "first_seen_at": "2026-10-20T02:55:40.935037",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 17631,
-      "title": "黑客使用 AI Agent 军团攻破 John Deere 与 SharkNinja",
-      "original_title": "HN Hot Discussion: A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "summary": "HN 热门讨论：一名黑客利用由大量 AI Agent 组成的自动化团队，成功攻破了 John Deere 和 SharkNinja 的网络。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.96,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI Agent 在实战攻防中的标志性落地。红蓝团队都应关注 AI Agent 自动化渗透的威力与防御盲点，并重新评估当前安全基线的有效性。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50152877&hn_hot_date=2026-10-19",
-      "reader_url": "https://news.ycombinator.com/item?id=50152877&hn_hot_date=2026-10-19",
-      "image_url": null,
-      "author": {
-        "username": "dkobia",
-        "name": "dkobia",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-19T14:23:17",
-      "first_seen_at": "2026-10-19T16:54:55.331233",
       "sub_category_label": "安全Agent"
     },
     {
@@ -210,6 +161,26 @@
       "published_at": "2026-10-19T13:35:12",
       "first_seen_at": "2026-10-19T18:45:27.719835",
       "sub_category_label": null
+    },
+    {
+      "id": 17765,
+      "title": "morluto/rea：用 Agent 实现从应用到二进制的自动化逆向",
+      "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
+      "summary": "开源项目 morluto/rea 利用 Agent 技术实现自动化逆向工程，支持从应用行为分析到原生二进制层面的逆向。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "使用 Agent 进行逆向工程是 AI 赋能安全的典型场景。逆向工程师和漏洞研究员应关注此类工具，评估其能否提升分析效率或发现更多漏洞。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-20&since=weekly",
+      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-20&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-20T00:30:27.624808",
+      "first_seen_at": "2026-10-20T00:31:39.406735",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
