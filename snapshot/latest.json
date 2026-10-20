@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T13:23:41+08:00",
+  "updated_at": "2026-10-20T14:53:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -139,30 +139,6 @@
       "sub_category_label": "模型评测"
     },
     {
-      "id": 17662,
-      "title": "黑客利用 AI Agent 低成本攻破大量网站及企业系统",
-      "original_title": "HN Hot Discussion: Cairn: Open windows into AI-driven cyber operations",
-      "summary": "路透社与 The Verge 报道了多起黑客利用 AI Agent 以极低成本攻破大量网站及大型企业系统的真实案例，揭示了 AI 驱动的自动化网络攻击已成为现实威胁。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 69.24,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这不仅是 AI 被滥用的典型，更直接验证了自动化安全 Agent 在实战漏洞挖掘和渗透中的破坏力。安全团队需警惕红蓝双方自动化攻防能力的差距，尽早调整防御策略。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50152302&hn_hot_date=2026-10-19",
-      "reader_url": "https://news.ycombinator.com/item?id=50152302&hn_hot_date=2026-10-19",
-      "image_url": null,
-      "author": {
-        "username": "ragu4u",
-        "name": "ragu4u",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-19T13:35:12",
-      "first_seen_at": "2026-10-19T18:45:27.719835",
-      "sub_category_label": null
-    },
-    {
       "id": 17765,
       "title": "morluto/rea：用 Agent 实现从应用到二进制的自动化逆向",
       "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
@@ -180,6 +156,31 @@
       "author": null,
       "published_at": "2026-10-20T00:30:27.624808",
       "first_seen_at": "2026-10-20T00:31:39.406735",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 17718,
+      "title": "TAG-217 滥用 AI 渗透框架 ARTEX 攻击韩国银行",
+      "original_title": "TAG-217 used the open-source AI pentesting framework ARTEX—paired with Claude Code, DeepSeek, and Grok—to automate reconnaissance and exploitation across seven South Korean banks s",
+      "summary": "攻击组织 TAG-217 利用开源 AI 渗透框架 ARTEX 结合 Claude Code 等模型，对 7 家韩国银行进行自动化攻击，导致 6.8 万人数据泄露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "真实攻击案例展示了 AI Agent 在自动化攻击中的破坏力，安全团队需警惕渗透测试工具被武器化，并重新评估内网横向移动的防御策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
+      "reader_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-10-19T22:27:28",
+      "first_seen_at": "2026-10-19T23:11:41.245813",
       "sub_category_label": "安全Agent"
     }
   ]
