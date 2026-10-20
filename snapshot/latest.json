@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T08:52:16+08:00",
+  "updated_at": "2026-10-20T09:52:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 17588,
@@ -42,31 +42,6 @@
       "author": null,
       "published_at": "2026-10-16T03:56:15",
       "first_seen_at": "2026-10-19T15:41:31.863953",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 17564,
-      "title": "Apex 发布开源安全模型 apex-flash-1 及 Clarion 代理生成功能",
-      "original_title": "we’ve been shipping! two weeks ago we announced our very first open-weights model: apex-flash-1, powered by the same security research behind Apex’s bug discoveries in Apple, Coinb",
-      "summary": "Apex 发布首个开源权重模型 apex-flash-1，基于其在苹果、Coinbase 等公司的漏洞发现研究；同时 Clarion 增加了通过对话生成安全代理及优化 Inspector 结果分类等功能。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.88,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应关注 apex-flash-1 这一专为漏洞发现训练的开源模型，可测试其代码审计效果。Clarion 的 Agent 生成功能也值得尝试，能加速自动化流程构建。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cantinasecurity/status/2112170559199178965",
-      "reader_url": "https://x.com/cantinasecurity/status/2112170559199178965",
-      "image_url": "https://pbs.twimg.com/media/HU_v7dpaMAAzPCA.jpg",
-      "author": {
-        "username": "cantinasecurity",
-        "name": "Cantina 🪐",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-19T13:14:38",
-      "first_seen_at": "2026-10-19T13:49:00.152689",
       "sub_category_label": "安全Agent"
     },
     {
@@ -117,31 +92,6 @@
       "published_at": "2026-10-19T14:23:17",
       "first_seen_at": "2026-10-19T16:54:55.331233",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 17559,
-      "title": "BYOVD 攻击实为四条路径，单一 EDR 杀手检测规则存在盲区",
-      "original_title": "BYOVD is not one technique, it is four. Detection teams writing a single \"EDR killer\" rule are leaving three kill paths completely unmonitored.  The core problem is a taxonomy fail",
-      "summary": "作者将 BYOVD 拆解为自带漏洞驱动、自带安装程序、Admin-to-Kernel 和无驱动挂起四类，指出单一驱动加载规则会漏掉三条路径，并给出基于 Sysmon 事件 ID 6、7045、7031 和心跳丢失的分层检测方案。",
-      "primary_category": "AI for Sec",
-      "sub_category": "malware_detection",
-      "score_total": 70.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "检测和蓝队必看：把 BYOVD 当单一技术来做检测是当前最大盲区，文中给出的四路径分类法和分阶段上线规则顺序可直接转化为检测工程 backlog。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2112167279970373834",
-      "reader_url": "https://x.com/DFIR_Radar/status/2112167279970373834",
-      "image_url": "https://pbs.twimg.com/media/HU_s8dPXsAAoidm.jpg",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-19T13:01:36",
-      "first_seen_at": "2026-10-19T13:24:18.496053",
-      "sub_category_label": "恶意软件与威胁检测"
     },
     {
       "id": 17752,
@@ -234,6 +184,31 @@
       "author": null,
       "published_at": "2026-10-20T00:30:27.624808",
       "first_seen_at": "2026-10-20T00:31:39.406735",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 17718,
+      "title": "TAG-217 滥用 AI 渗透框架 ARTEX 攻击韩国银行",
+      "original_title": "TAG-217 used the open-source AI pentesting framework ARTEX—paired with Claude Code, DeepSeek, and Grok—to automate reconnaissance and exploitation across seven South Korean banks s",
+      "summary": "攻击组织 TAG-217 利用开源 AI 渗透框架 ARTEX 结合 Claude Code 等模型，对 7 家韩国银行进行自动化攻击，导致 6.8 万人数据泄露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "真实攻击案例展示了 AI Agent 在自动化攻击中的破坏力，安全团队需警惕渗透测试工具被武器化，并重新评估内网横向移动的防御策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
+      "reader_url": "https://x.com/aviatrixtrc/status/2112309686221324734",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-10-19T22:27:28",
+      "first_seen_at": "2026-10-19T23:11:41.245813",
       "sub_category_label": "安全Agent"
     }
   ]
