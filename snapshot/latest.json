@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T20:55:24+08:00",
+  "updated_at": "2026-10-20T21:25:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -48,6 +48,31 @@
       "published_at": "2026-10-19T07:59:29",
       "first_seen_at": "2026-10-20T08:56:16.063969",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 17537,
+      "title": "AI 60小时内攻破后量子密码 HAWK 致其退出 NIST 评选",
+      "original_title": "AI is testing the limits of post-quantum cryptography.  An Anthropic AI model found an attack that halved HAWK's effective security in just 60 hours, prompting its withdrawal from ",
+      "summary": "Anthropic 的 AI 模型在 60 小时内发现针对后量子密码算法 HAWK 的攻击，使其有效安全性减半并导致其退出 NIST 审查，凸显了密码敏捷性的重要性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 79.9,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "密码学和漏洞挖掘团队必看。AI 在 60 小时内找到削弱后量子密码 HAWK 安全性的攻击，直接导致其退出 NIST 评选，证明 AI 辅助密码分析已具备实战破坏力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2112128238667661408",
+      "reader_url": "https://x.com/TheHackersNews/status/2112128238667661408",
+      "image_url": "https://pbs.twimg.com/media/HU_JbyCbwAAC0ZM.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-19T10:26:28",
+      "first_seen_at": "2026-10-20T12:56:31.250872",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 17802,
@@ -193,26 +218,6 @@
       "published_at": "2026-10-19T05:48:38",
       "first_seen_at": "2026-10-20T06:55:56.864870",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 17884,
-      "title": "Sauron：防范智能体奖励欺骗的证据优先验证器",
-      "original_title": "Evidence-First Agentic Verification",
-      "summary": "论文提出 Sauron 智能体验证器，通过独立验证状态与执行轨迹中的声明，防范智能体在强化学习中的奖励欺骗行为，并在多个基准测试中取得最佳 F1 表现。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 71.95,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "面向开发 Agent 和安全评测的工程师，Sauron 提供了一种抗欺骗的评估框架，特别是针对奖励欺骗注入。如果你在做 RLHF 或 Agent 自动化评测，这能直接帮你避开 Agent 谎报战果的坑。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.17724",
-      "reader_url": "https://arxiv.org/pdf/2610.17724",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-20T00:00:00",
-      "first_seen_at": "2026-10-20T07:48:44.488507",
-      "sub_category_label": null
     }
   ]
 }
