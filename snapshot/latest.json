@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T19:25:14+08:00",
+  "updated_at": "2026-10-20T20:55:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -145,6 +145,31 @@
       "sub_category_label": null
     },
     {
+      "id": 17947,
+      "title": "中国 AI 渗透工具 ARTEX 袭击日本企业并转向付费",
+      "original_title": "🚨 𝗖𝗵𝗶𝗻𝗲𝘀𝗲 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗔𝗥𝗧𝗘𝗫 𝗛𝗶𝘁𝘀 𝗝𝗮𝗽𝗮𝗻  Japanese security firm GMO identified six attack servers running ARTEX against dozens of local companies.  The penetration-testing tool connect",
+      "summary": "日本安全公司 GMO 发现使用多 LLM 联动的自动化渗透工具 ARTEX 攻击了数十家当地企业，该工具此前曾被指泄露韩国 10 万条金融记录，现已下架转为付费服务。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.58,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "黑产已将多 LLM 联动的自动化渗透 Agent 投入实战并商业化，安全团队需高度警惕此类工具带来的规模化攻击压力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/SISpotlight/status/2112515148493545965",
+      "reader_url": "https://x.com/SISpotlight/status/2112515148493545965",
+      "image_url": "https://pbs.twimg.com/media/HVEpVQhXwAAeMTS.jpg",
+      "author": {
+        "username": "SISpotlight",
+        "name": "SI Spotlight",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-20T12:03:54",
+      "first_seen_at": "2026-10-20T12:30:47.822431",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 17404,
       "title": "OpenRouter 推出自我进化的安全 Agent Sentinel",
       "original_title": "A few months ago, we built a self-improving security agent called Sentinel to help protect OpenRouter users. It runs 24/7 across all activity to look for activity anomalies, signs ",
@@ -188,31 +213,6 @@
       "published_at": "2026-10-20T00:00:00",
       "first_seen_at": "2026-10-20T07:48:44.488507",
       "sub_category_label": null
-    },
-    {
-      "id": 17790,
-      "title": "CVE-2026-103849 Magento 模板注入利用披露，AI 逆向加速漏洞武器化",
-      "original_title": "Attackers targeting CVE-2026-103849 (BlockStrap) don't need credentials — they inject a malicious template directive into a Magento email template and execute arbitrary PHP at the ",
-      "summary": "攻击者无需凭据即可利用 CVE-2026-103849 向 Magento 邮件模板注入恶意指令执行任意 PHP 代码。Sansec 指出 AI 辅助逆向工程正大幅缩短从补丁分析到大规模利用的时间窗口。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.71,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需警惕 AI 辅助逆向压缩漏洞武器化时间，应立即排查 Magento 模板并收紧出站流量控制。AI 加速漏洞利用已成为现实威胁，防护响应需同步提速。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2112347525965324327",
-      "reader_url": "https://x.com/aviatrixtrc/status/2112347525965324327",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-10-20T00:57:50",
-      "first_seen_at": "2026-10-20T02:08:26.542469",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
