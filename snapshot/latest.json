@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T05:21:59+08:00",
+  "updated_at": "2026-10-20T08:22:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 17588,
@@ -117,31 +117,6 @@
       "published_at": "2026-10-19T14:23:17",
       "first_seen_at": "2026-10-19T16:54:55.331233",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 17537,
-      "title": "AI 60小时内攻破后量子密码 HAWK 致其退出 NIST 评选",
-      "original_title": "AI is testing the limits of post-quantum cryptography.  An Anthropic AI model found an attack that halved HAWK's effective security in just 60 hours, prompting its withdrawal from ",
-      "summary": "Anthropic 的 AI 模型在 60 小时内发现针对后量子密码算法 HAWK 的攻击，使其有效安全性减半并导致其退出 NIST 审查，凸显了密码敏捷性的重要性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 71.65,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "密码学和漏洞挖掘团队必看。AI 在 60 小时内找到削弱后量子密码 HAWK 安全性的攻击，直接导致其退出 NIST 评选，证明 AI 辅助密码分析已具备实战破坏力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2112128238667661408",
-      "reader_url": "https://x.com/TheHackersNews/status/2112128238667661408",
-      "image_url": "https://pbs.twimg.com/media/HU_JbyCbwAAC0ZM.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-19T10:26:28",
-      "first_seen_at": "2026-10-19T12:03:54.450673",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 17559,
