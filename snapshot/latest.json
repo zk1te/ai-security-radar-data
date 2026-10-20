@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-20T17:24:48+08:00",
+  "updated_at": "2026-10-20T19:25:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
+    {
+      "id": 17925,
+      "title": "Cloudflare 安全审计技能登 GitHub Trending，日增 849 星",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 849 stars today",
+      "summary": "Cloudflare 开源的 security-audit-skill 是一个面向编码 Agent 的多阶段安全审计技能，能够产出独立验证、机器可读的审计结果，当前已获 3.3 万 Star。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.24,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 和代码审计的人该看，这是大厂将 Agent 编排落地到安全审计流程的公开实践，可借鉴其多阶段审计与结果验证的设计思路。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-20&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-20&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-20T11:05:50.072252",
+      "first_seen_at": "2026-10-20T11:06:46.839236",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 17491,
       "title": "AI挖洞Agent降本：超六成Token耗于代码理解",
@@ -193,26 +213,6 @@
       "published_at": "2026-10-20T00:57:50",
       "first_seen_at": "2026-10-20T02:08:26.542469",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 17817,
-      "title": "语言Agent行动与预测协同进化的训练方法CoPE",
-      "original_title": "Co-Evolving Acting and Forecasting for Language Agents",
-      "summary": "提出CoPE方法，通过多步动作目标训练语言智能体，在不增加推理开销的情况下提升强化学习样本效率与整体性能。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 69.65,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "面向研发安全Agent的工程师，本文提供了提升Agent在长程交互任务中RL训练效率的新思路，值得参考其多步预测监督方法。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.20597",
-      "reader_url": "https://arxiv.org/pdf/2610.20597",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-20T00:00:00",
-      "first_seen_at": "2026-10-20T03:43:39.033831",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
