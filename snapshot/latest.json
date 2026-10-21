@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T23:43:21+08:00",
+  "updated_at": "2026-10-22T02:14:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -103,6 +103,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 18813,
+      "title": "Strix：拥有 70k 星的开源 AI 渗透测试 Agent",
+      "original_title": "Strix: Open-source AI penetration testing tool to find and fix your app's vulnerabilities (70k stars)   What it does?  All text below is quoted directly from the project README.  S",
+      "summary": "Strix 是一款开源的自主 AI 渗透测试工具，通过多 Agent 协作进行侦察、漏洞利用和真实 PoC 验证，并提供自动修复与报告生成功能。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全工程师和红队应关注此工具，它展示了多 Agent 架构在实战渗透中从扫描到 PoC 验证及自动修复的闭环能力。可直接安装试用以评估其在真实项目中的漏洞挖掘效果与误报率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/deweytn/status/2112964733884150171",
+      "reader_url": "https://x.com/deweytn/status/2112964733884150171",
+      "image_url": "https://pbs.twimg.com/media/HVLBnBrWQAA88Oo.jpg",
+      "author": {
+        "username": "deweytn",
+        "name": "Claudia Galeán (💫,💫)",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-21T17:50:24",
+      "first_seen_at": "2026-10-21T17:59:05.952072",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 18580,
       "title": "研究称 LLM 代码等价性检查易受简单变换干扰，提出 CETBench 基准",
       "original_title": "LLMs are Brittle to Simple Code Transformations: Introducing CETBench - A Benchmark for Code-Equivalence Checking",
@@ -195,26 +220,6 @@
       "published_at": "2026-10-21T13:43:19",
       "first_seen_at": "2026-10-21T14:02:53.585190",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 18579,
-      "title": "REPOCOD 基准测试：大模型真实代码生成能力仍未及格",
-      "original_title": "Can Language Models Replace Programmers for Coding? REPOCOD Says 'Not Yet'",
-      "summary": "新提出的 REPOCOD 基准测试表明，现有大模型在真实世界代码生成任务中的 pass@1 均不超过 30%，揭示了其在复杂依赖场景下的局限性。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 68.2,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "摸清大模型真实代码生成能力的底座，对规划自动化代码审计、漏洞修复等安全 Agent 至关重要，避免在不成熟的能力上过度投入。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2410.21647",
-      "reader_url": "https://arxiv.org/pdf/2410.21647",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-21T04:00:00",
-      "first_seen_at": "2026-10-21T07:01:57.204579",
-      "sub_category_label": "模型评测"
     }
   ]
 }
