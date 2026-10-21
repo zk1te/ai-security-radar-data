@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T03:44:58+08:00",
+  "updated_at": "2026-10-22T04:15:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -98,6 +98,31 @@
       "published_at": "2026-10-21T18:31:30",
       "first_seen_at": "2026-10-21T19:04:02.661821",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 18849,
+      "title": "APT组织滥用ARTEX AI框架攻破ConnectWise供应链",
+      "original_title": "Chinese 🇨🇳 Storm-0940 weaponized the ARTEX agentic AI framework to compromise ConnectWise's supply chain, hitting 2,250+ tenants at machine speed and achieving privileged cloud acc",
+      "summary": "Storm-0940组织武器化开源多Agent渗透测试框架ARTEX，自动化攻破ConnectWise供应链，3小时内获取特权云访问并影响超2250个租户。报告披露了详细的IOC、MITRE ATT&CK技术及KQL狩猎指南。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 80.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "实战化红队AI Agent被APT组织武器化并用于供应链攻击，防守方必须立即根据报告排查Entra日志中的异常OAuth活动。这标志着AI安全工具从研究演示正式进入实战攻防阶段。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DFIR_Radar/status/2112998042290843968",
+      "reader_url": "https://x.com/DFIR_Radar/status/2112998042290843968",
+      "image_url": "https://pbs.twimg.com/media/HVLghPNXkAA6D8M.jpg",
+      "author": {
+        "username": "DFIR_Radar",
+        "name": "DFIR Radar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-21T20:02:45",
+      "first_seen_at": "2026-10-21T20:12:21.014425",
+      "sub_category_label": null
     },
     {
       "id": 18823,
@@ -221,26 +246,6 @@
       },
       "published_at": "2026-10-21T17:50:24",
       "first_seen_at": "2026-10-21T17:59:05.952072",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 18815,
-      "title": "OpenAI推出Patch the Planet项目协调开源漏洞修复",
-      "original_title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "summary": "OpenAI推出「Patch the Planet」项目，旨在连接安全研究员、维护者和应急响应人员，以应对AI Agent发现的开源关键漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "该项目关注AI Agent挖掘漏洞后的下游协同响应。安全团队和维护者应提前关注，了解未来AI漏洞披露与修复协同的标准流程走向。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "reader_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-21T07:00:00",
-      "first_seen_at": "2026-10-21T18:15:30.835592",
       "sub_category_label": "安全Agent"
     }
   ]
