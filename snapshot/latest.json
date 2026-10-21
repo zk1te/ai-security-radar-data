@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T02:44:08+08:00",
+  "updated_at": "2026-10-22T03:14:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 18729,
@@ -28,6 +28,56 @@
       "published_at": "2026-10-21T14:04:23",
       "first_seen_at": "2026-10-21T15:40:55.393520",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 18822,
+      "title": "APT组织Storm-0940利用AI渗透框架ARTEX实施自动化攻击",
+      "original_title": "The China state-aligned threat actor Storm-0940 used the agentic AI penetration testing framework ARTEX to automate attacks targeting hundreds of organizations globally across a br",
+      "summary": "微软威胁情报披露，国家级APT组织Storm-0940使用AI代理渗透测试框架ARTEX自动化攻击全球数百家组织，并利用其加速凭据窃取和权限提升等后续操作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.38,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这标志着国家级黑客在实战中直接应用AI Agent进行自动化渗透。安全团队需立即关注ARTEX的自动化行为模式，重点排查异常的服务主体登录和凭据变更。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MsftSecIntel/status/2112975078266716390",
+      "reader_url": "https://x.com/MsftSecIntel/status/2112975078266716390",
+      "image_url": null,
+      "author": {
+        "username": "MsftSecIntel",
+        "name": "Microsoft Threat Intelligence",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-21T18:31:30",
+      "first_seen_at": "2026-10-21T19:04:02.661821",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 18823,
+      "title": "Storm-0940利用AI渗透框架ARTEX自动化攻击，3小时获取云权限",
+      "original_title": "Storm-0940, a China-state aligned actor, used the agentic AI penetration testing framework ARTEX to automate attacks targeting hundreds of organizations globally across a broad ran",
+      "summary": "中国背景组织 Storm-0940 使用 ARTEX Agentic AI 渗透测试框架自动化攻击全球数百个组织，在 3 小时内获取云基础设施特权，并疑似发起 ConnectWise 供应链攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.67,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "攻击者将 AI 渗透框架武器化并在实战中实现了 3 小时拿特权访问。防御团队需立刻跟进 ARTEX 框架特征与 ConnectWise 供应链事件的 IoC，警惕 AI 自动化攻击带来的攻防时间差压缩。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/cglyer/status/2112975854989176841",
+      "reader_url": "https://x.com/cglyer/status/2112975854989176841",
+      "image_url": null,
+      "author": {
+        "username": "cglyer",
+        "name": "Christopher Glyer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-21T18:34:35",
+      "first_seen_at": "2026-10-21T19:04:04.416064",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 18717,
@@ -79,6 +129,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 18099,
+      "title": "10 个 AI 驱动的攻击性安全开源项目汇总",
+      "original_title": "10 GitHub repos for AI-driven offensive security.  Autonomous pentesting, vuln discovery, exploit development, prompt injection, and MCP security.  Strix — Multi-agent pentesting: ",
+      "summary": "汇总十个 AI 驱动的攻击性安全工具，涵盖多智能体渗透测试、AI 辅助 Fuzzing、LLM 源码分析、漏洞利用 Benchmark 及提示注入测试框架。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 73.01,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全自动化和漏洞挖掘的人该看这个清单——Strix、PentAGI 等多智能体渗透框架和 Vulnhuntr 这类 LLM 源码分析工具都值得直接上手对比，ExploitGym 和 AgentDojo 可作为评测基线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AlAssaf_H/status/2112601571854819582",
+      "reader_url": "https://x.com/AlAssaf_H/status/2112601571854819582",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2112601303335436289/img/ugOi6qPg4I5zG2Vi.jpg",
+      "author": {
+        "username": "AlAssaf_H",
+        "name": "Huda",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-20T17:47:19",
+      "first_seen_at": "2026-10-21T19:01:14.487057",
+      "sub_category_label": null
+    },
+    {
       "id": 18813,
       "title": "Strix：拥有 70k 星的开源 AI 渗透测试 Agent",
       "original_title": "Strix: Open-source AI penetration testing tool to find and fix your app's vulnerabilities (70k stars)   What it does?  All text below is quoted directly from the project README.  S",
@@ -102,26 +177,6 @@
       "published_at": "2026-10-21T17:50:24",
       "first_seen_at": "2026-10-21T17:59:05.952072",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 18580,
-      "title": "研究称 LLM 代码等价性检查易受简单变换干扰，提出 CETBench 基准",
-      "original_title": "LLMs are Brittle to Simple Code Transformations: Introducing CETBench - A Benchmark for Code-Equivalence Checking",
-      "summary": "本文提出代码等价性检查基准 CETBench，发现即使是简单的代码变换也会导致 LLM 判断性能显著下降，跨语言场景下更甚，并通过微调部分缓解了该问题。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 71.7,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "用 LLM 做代码相似性分析或漏洞变体检测的团队必须看：当前模型对代码语义理解依然脆弱，简单的代码混淆或重构就能骗过 LLM 的等价性判断。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2506.04019",
-      "reader_url": "https://arxiv.org/pdf/2506.04019",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-21T04:00:00",
-      "first_seen_at": "2026-10-21T07:02:02.492580",
-      "sub_category_label": "模型评测"
     },
     {
       "id": 18815,
@@ -192,30 +247,6 @@
       "published_at": "2026-10-21T10:48:36",
       "first_seen_at": "2026-10-21T13:24:02.351062",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 18698,
-      "title": "HN 热议：AI 发现 PHP 关键 RCE 漏洞 PHP2Shell",
-      "original_title": "HN Hot Discussion: PHP2Shell: AI uncovers critical RCE in PHP",
-      "summary": "Hacker News 热议 Wiz 博客文章，讨论如何利用 AI 技术发现 PHP 中的关键远程代码执行（RCE）漏洞 PHP2Shell。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 68.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Wiz 展示了 AI 在真实代码库中发现 RCE 的实战案例，做漏洞挖掘和代码审计的安全团队应关注其 AI 辅助挖掘的具体思路与效果。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50180836&hn_hot_date=2026-10-21",
-      "reader_url": "https://news.ycombinator.com/item?id=50180836&hn_hot_date=2026-10-21",
-      "image_url": null,
-      "author": {
-        "username": "danlark1",
-        "name": "danlark1",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-21T13:43:19",
-      "first_seen_at": "2026-10-21T14:02:53.585190",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
