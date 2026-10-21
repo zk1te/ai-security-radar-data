@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T13:58:44+08:00",
+  "updated_at": "2026-10-21T15:58:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -45,26 +45,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 17256,
-      "title": "HardEval：评估AI驱动系统安全加固的执行验证基准",
-      "original_title": "HardEval: An Execution-Verified Benchmark for AI-Driven Security Hardening and Compliance Remediation",
-      "summary": "提出 HardEval 基准，通过在真实虚拟机上执行 LLM 生成的 Bash 脚本并利用 OpenSCAP/OVAL 检查，评估模型辅助实现 STIG 安全合规加固的能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 90.15,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "安全合规与加固团队必看。研究揭示了 LLM 常生成看似合理但不满足严格合规条件的代码，说明当前模型直接用于自动化系统加固仍有坑，需结合 OVAL 执行验证来兜底。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.23685",
-      "reader_url": "https://arxiv.org/pdf/2610.23685",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-19T04:00:00",
-      "first_seen_at": "2026-10-21T02:32:50.556840",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 17252,
       "title": "小语言模型在后渗透代码生成中的能力评估",
       "original_title": "From Billion-Scale to Million-Scale Language Models: Operational Capabilities for Embedded Post-Exploitation",
@@ -83,6 +63,26 @@
       "published_at": "2026-10-19T04:00:00",
       "first_seen_at": "2026-10-21T02:32:50.556840",
       "sub_category_label": null
+    },
+    {
+      "id": 17256,
+      "title": "HardEval：评估AI驱动系统安全加固的执行验证基准",
+      "original_title": "HardEval: An Execution-Verified Benchmark for AI-Driven Security Hardening and Compliance Remediation",
+      "summary": "提出 HardEval 基准，通过在真实虚拟机上执行 LLM 生成的 Bash 脚本并利用 OpenSCAP/OVAL 检查，评估模型辅助实现 STIG 安全合规加固的能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 90.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "安全合规与加固团队必看。研究揭示了 LLM 常生成看似合理但不满足严格合规条件的代码，说明当前模型直接用于自动化系统加固仍有坑，需结合 OVAL 执行验证来兜底。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.23685",
+      "reader_url": "https://arxiv.org/pdf/2610.23685",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-19T04:00:00",
+      "first_seen_at": "2026-10-21T02:32:50.556840",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 17262,
