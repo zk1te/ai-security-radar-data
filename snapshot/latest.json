@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T15:58:59+08:00",
+  "updated_at": "2026-10-21T17:29:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -45,26 +45,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 17252,
-      "title": "小语言模型在后渗透代码生成中的能力评估",
-      "original_title": "From Billion-Scale to Million-Scale Language Models: Operational Capabilities for Embedded Post-Exploitation",
-      "summary": "研究评估了20M-1.5B参数的小语言模型在目录枚举和后门生成任务中的表现，发现Qwen2.5-Coder 1.5B结合特定提示策略能达到近100%的攻击代码生成成功率，揭示了AI辅助恶意软件的现实威胁。",
-      "primary_category": "AI for Sec",
-      "sub_category": "malware_generation",
-      "score_total": 90.15,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "红队和威胁情报团队必读。SLMs轻量易部署，本文实测证明其已具备实用的后渗透代码生成能力，需尽早将此威胁纳入防御演练与威胁建模中。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.23534",
-      "reader_url": "https://arxiv.org/pdf/2610.23534",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-19T04:00:00",
-      "first_seen_at": "2026-10-21T02:32:50.556840",
-      "sub_category_label": null
-    },
-    {
       "id": 17256,
       "title": "HardEval：评估AI驱动系统安全加固的执行验证基准",
       "original_title": "HardEval: An Execution-Verified Benchmark for AI-Driven Security Hardening and Compliance Remediation",
@@ -83,6 +63,26 @@
       "published_at": "2026-10-19T04:00:00",
       "first_seen_at": "2026-10-21T02:32:50.556840",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 17252,
+      "title": "小语言模型在后渗透代码生成中的能力评估",
+      "original_title": "From Billion-Scale to Million-Scale Language Models: Operational Capabilities for Embedded Post-Exploitation",
+      "summary": "研究评估了20M-1.5B参数的小语言模型在目录枚举和后门生成任务中的表现，发现Qwen2.5-Coder 1.5B结合特定提示策略能达到近100%的攻击代码生成成功率，揭示了AI辅助恶意软件的现实威胁。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_generation",
+      "score_total": 90.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "红队和威胁情报团队必读。SLMs轻量易部署，本文实测证明其已具备实用的后渗透代码生成能力，需尽早将此威胁纳入防御演练与威胁建模中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.23534",
+      "reader_url": "https://arxiv.org/pdf/2610.23534",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-19T04:00:00",
+      "first_seen_at": "2026-10-21T02:32:50.556840",
+      "sub_category_label": null
     },
     {
       "id": 17262,
