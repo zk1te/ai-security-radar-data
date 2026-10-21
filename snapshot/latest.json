@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-21T07:28:13+08:00",
+  "updated_at": "2026-10-21T08:58:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
+    {
+      "id": 18211,
+      "title": "Cloudflare 安全审计 Agent 技能走红，星标超 3.4 万",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 1712 stars today",
+      "summary": "Cloudflare 开源的 coding-agent 技能 security-audit-skill 可进行多阶段安全审计，并生成独立验证的机器可读结果，单日涨星 1712。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 90.41,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "面向使用 AI 编码 Agent 的安全团队。它引入多阶段审计和独立验证机制，能直接集成到现有 Agent 工作流中提升代码审计可靠性，建议拉取仓库研究其提示词与验证策略。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-21&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-21&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-21T00:57:06.708988",
+      "first_seen_at": "2026-10-21T00:57:35.662430",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 17445,
       "title": "AI Agent 自动构建形式化验证 Proof Harness",
@@ -83,31 +103,6 @@
       "published_at": "2026-10-19T04:00:00",
       "first_seen_at": "2026-10-20T14:32:02.725288",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 17537,
-      "title": "AI 60小时内攻破后量子密码 HAWK 致其退出 NIST 评选",
-      "original_title": "AI is testing the limits of post-quantum cryptography.  An Anthropic AI model found an attack that halved HAWK's effective security in just 60 hours, prompting its withdrawal from ",
-      "summary": "Anthropic 的 AI 模型在 60 小时内发现针对后量子密码算法 HAWK 的攻击，使其有效安全性减半并导致其退出 NIST 审查，凸显了密码敏捷性的重要性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 79.9,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "密码学和漏洞挖掘团队必看。AI 在 60 小时内找到削弱后量子密码 HAWK 安全性的攻击，直接导致其退出 NIST 评选，证明 AI 辅助密码分析已具备实战破坏力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2112128238667661408",
-      "reader_url": "https://x.com/TheHackersNews/status/2112128238667661408",
-      "image_url": "https://pbs.twimg.com/media/HU_JbyCbwAAC0ZM.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-19T10:26:28",
-      "first_seen_at": "2026-10-20T12:56:31.250872",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 17298,
