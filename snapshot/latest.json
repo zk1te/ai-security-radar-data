@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T04:15:05+08:00",
+  "updated_at": "2026-10-22T05:45:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -199,6 +199,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 18888,
+      "title": "Storm-0940 利用 AI 渗透框架 ARTEX 自动化攻击全球数百组织",
+      "original_title": "“As early as September 2026, Storm-0940, a China-state aligned actor, used the agentic AI penetration testing framework ARTEX to automate attacks targeting hundreds of organization",
+      "summary": "Storm-0940 组织使用 agentic AI 渗透测试框架 ARTEX 对全球数百个组织发起自动化攻击，部分攻击在 3 小时内即获取云基础设施特权访问。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 76.01,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "攻击者已将 AI 驱动的自动化渗透 Agent 实战化并展现出极快的突破速度，安全团队必须重新评估现有防御体系的响应时效，高度关注此类攻击框架的演进。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/theobearman/status/2113009642787717434",
+      "reader_url": "https://x.com/theobearman/status/2113009642787717434",
+      "image_url": null,
+      "author": {
+        "username": "theobearman",
+        "name": "Theo Bearman",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-21T20:48:51",
+      "first_seen_at": "2026-10-21T21:21:45.371802",
+      "sub_category_label": null
+    },
+    {
       "id": 18099,
       "title": "10 个 AI 驱动的攻击性安全开源项目汇总",
       "original_title": "10 GitHub repos for AI-driven offensive security.  Autonomous pentesting, vuln discovery, exploit development, prompt injection, and MCP security.  Strix — Multi-agent pentesting: ",
@@ -222,31 +247,6 @@
       "published_at": "2026-10-20T17:47:19",
       "first_seen_at": "2026-10-21T19:01:14.487057",
       "sub_category_label": null
-    },
-    {
-      "id": 18813,
-      "title": "Strix：拥有 70k 星的开源 AI 渗透测试 Agent",
-      "original_title": "Strix: Open-source AI penetration testing tool to find and fix your app's vulnerabilities (70k stars)   What it does?  All text below is quoted directly from the project README.  S",
-      "summary": "Strix 是一款开源的自主 AI 渗透测试工具，通过多 Agent 协作进行侦察、漏洞利用和真实 PoC 验证，并提供自动修复与报告生成功能。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全工程师和红队应关注此工具，它展示了多 Agent 架构在实战渗透中从扫描到 PoC 验证及自动修复的闭环能力。可直接安装试用以评估其在真实项目中的漏洞挖掘效果与误报率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/deweytn/status/2112964733884150171",
-      "reader_url": "https://x.com/deweytn/status/2112964733884150171",
-      "image_url": "https://pbs.twimg.com/media/HVLBnBrWQAA88Oo.jpg",
-      "author": {
-        "username": "deweytn",
-        "name": "Claudia Galeán (💫,💫)",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-21T17:50:24",
-      "first_seen_at": "2026-10-21T17:59:05.952072",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
