@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T02:14:02+08:00",
+  "updated_at": "2026-10-22T02:44:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -79,30 +79,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 18500,
-      "title": "Anthropic 发文探讨用 Claude 降低代码攻击面",
-      "original_title": "HN Hot Discussion: Using Claude to reduce the attack surface of code",
-      "summary": "Anthropic 官方发布研究，探讨如何利用大模型 Claude 分析代码并减少攻击面，提升安全开发生命周期的防御能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 76.65,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "给代码审计和 SDL 团队：Anthropic 官方下场展示 Claude 在缩减攻击面上的实操能力。这意味着大模型正从单纯找漏洞走向深度介入开发流程，需评估其方法论能否直接接入你们现有的代码审计流水线。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-21",
-      "reader_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-21",
-      "image_url": null,
-      "author": {
-        "username": "dnw",
-        "name": "dnw",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-21T03:36:43",
-      "first_seen_at": "2026-10-21T06:31:30.534142",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 18813,
       "title": "Strix：拥有 70k 星的开源 AI 渗透测试 Agent",
       "original_title": "Strix: Open-source AI penetration testing tool to find and fix your app's vulnerabilities (70k stars)   What it does?  All text below is quoted directly from the project README.  S",
@@ -146,6 +122,26 @@
       "published_at": "2026-10-21T04:00:00",
       "first_seen_at": "2026-10-21T07:02:02.492580",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 18815,
+      "title": "OpenAI推出Patch the Planet项目协调开源漏洞修复",
+      "original_title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "summary": "OpenAI推出「Patch the Planet」项目，旨在连接安全研究员、维护者和应急响应人员，以应对AI Agent发现的开源关键漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "该项目关注AI Agent挖掘漏洞后的下游协同响应。安全团队和维护者应提前关注，了解未来AI漏洞披露与修复协同的标准流程走向。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "reader_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-21T07:00:00",
+      "first_seen_at": "2026-10-21T18:15:30.835592",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 18679,
