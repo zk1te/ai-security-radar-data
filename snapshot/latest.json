@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-22T03:14:52+08:00",
+  "updated_at": "2026-10-22T03:44:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 18839,
+      "title": "PHP RCE 漏洞在野利用：Wiz 借助大模型完成发现",
+      "original_title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "summary": "PHP 8.x 紧急修复两个 RCE 漏洞，因披露流程泄漏已出现在野利用。Wiz Research 表示其团队使用 Gemini 和 GPT-5.6 等大模型辅助发现了这些高危漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 87.6,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这不仅是 PHP 补丁，更是 AI 漏洞挖掘在真实 CVD 流程中的落地案例。安全团队应关注 AI 辅助挖掘带来的响应时间缩短和在野利用加速风险。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+      "reader_url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-21T18:41:53",
+      "first_seen_at": "2026-10-21T19:43:44.175974",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 18729,
       "title": "OpenAI 模型发现 PHP 严重漏洞，实现 AI 漏洞挖掘新突破",
@@ -28,6 +48,31 @@
       "published_at": "2026-10-21T14:04:23",
       "first_seen_at": "2026-10-21T15:40:55.393520",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 18831,
+      "title": "使用 OpenAI Codex 技能包排查网站漏洞",
+      "original_title": "If you are wondering whether your website is affected, we have packaged a Codex skill to help check.  Point your Codex at this repo to guide you through it: https://t.co/XUEbOwXuQC",
+      "summary": "推文分享了一个打包好的 Codex 技能，可用于检查网站是否受特定漏洞影响，并附带了相应的仓库链接以供直接使用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.4,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI Agent 通过「技能包」形式介入漏洞排查的落地方式。安全团队可直接使用该仓库验证资产，或参考其设计思路构建自己的安全 Agent。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2112945805686604033",
+      "reader_url": "https://x.com/OpenAI/status/2112945805686604033",
+      "image_url": null,
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-10-21T16:35:11",
+      "first_seen_at": "2026-10-21T19:36:59.803737",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 18822,
@@ -196,56 +241,6 @@
       "author": null,
       "published_at": "2026-10-21T07:00:00",
       "first_seen_at": "2026-10-21T18:15:30.835592",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 18679,
-      "title": "Claude Code 百 Agent 对抗赛架构：三模型协同 Fuzzing 与盲审",
-      "original_title": "Anthropic just showed what running 100 agents simultaneously inside Claude Code actually looks like  a tri-model elimination tournament splits 100 sandboxes across Haiku 5.5, Sonne",
-      "summary": "展示在 Claude Code 中运行 100 个 Agent 的三模型淘汰赛架构，Haiku 作为红队 Fuzzer 发起攻击、Sonnet 作为构建者、Opus 作为盲审法官，通过隔离沙箱和对抗测试筛选代码。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 70.29,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可参考此多模型对抗架构用于代码安全验证和 Fuzzing 任务，利用模型间的隔离与盲审机制有效规避单模型自审的确认偏误。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/marfinxx/status/2112891671834673156",
-      "reader_url": "https://x.com/marfinxx/status/2112891671834673156",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2112891248960851968/img/3LTlkO7BRy2xO4_P.jpg",
-      "author": {
-        "username": "marfinxx",
-        "name": "marfin",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-21T13:00:04",
-      "first_seen_at": "2026-10-21T13:27:01.106823",
-      "sub_category_label": null
-    },
-    {
-      "id": 18669,
-      "title": "Pentera Apps 结合 AI 渗透与确定性验证，生成可重放利用脚本",
-      "original_title": "AI agents can find web app vulnerabilities. But can they prove the exploits without crossing security boundaries?  Pentera Apps pairs AI-driven pentesting with a deterministic harn",
-      "summary": "Pentera Apps 将 AI 驱动的渗透测试与确定性 harness 结合，通过控制执行和记录动作，生成可重放的漏洞利用脚本以证明 Web 应用漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.81,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透测试工具落地动态，展示了如何用确定性 harness 约束 AI Agent 以保证安全验证的可控和可复现。对研发安全 Agent 的团队值得参考其验证机制设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2112858584174506269",
-      "reader_url": "https://x.com/TheHackersNews/status/2112858584174506269",
-      "image_url": "https://pbs.twimg.com/media/HVJhrjVaQAAdER_.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-21T10:48:36",
-      "first_seen_at": "2026-10-21T13:24:02.351062",
       "sub_category_label": "安全Agent"
     }
   ]
