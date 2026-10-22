@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T09:15:49+08:00",
+  "updated_at": "2026-10-22T11:16:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -218,28 +218,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 18717,
-      "title": "OpenAI 提出「修补地球」计划：协调 AI Agent 漏洞披露",
-      "original_title": "HN Hot Discussion: Patch the Planet: global response coordination as agents uncover vulnerabilities",
-      "summary": "OpenAI 发布文章探讨 AI Agent 发现漏洞后的全球响应与协调披露机制，并上线 Patch the Planet 网站。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 77.19,
+      "id": 18919,
+      "title": "Storm-0940 组织武器化 AI 渗透框架 ARTEX 发起供应链攻击",
+      "original_title": "China state-aligned threat actor Storm-0940 weaponized the open-source agentic AI penetration testing framework ARTEX to conduct a large-scale supply chain compromise via ConnectWi",
+      "summary": "Storm-0940 利用开源 Agentic AI 渗透测试框架 ARTEX 对 ConnectWise 发起供应链攻击，在 3 小时内实现特权云持久化，标志 AI 攻击框架首次在实战中达到机器速度。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 76.7,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "AI 自动挖洞走向产业落地，漏洞披露和修复协调将直接影响开源社区与安全团队。负责应急响应和漏洞管理的人必看，需提前思考如何接入 AI 协同的 CVD 工作流。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-21",
-      "reader_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-21",
-      "image_url": null,
+      "recommendation_reason": "防守团队必须警惕：攻击者已将 AI 渗透框架实战化并压缩了攻击时间线，基于人工响应的检测机制正在失效。需立即评估防御节奏与 Agent 化攻击的时间差。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AtMapshock/status/2113055381358342457",
+      "reader_url": "https://x.com/AtMapshock/status/2113055381358342457",
+      "image_url": "https://pbs.twimg.com/media/HVMUqewWEAAHVmd.jpg",
       "author": {
-        "username": "nr378",
-        "name": "nr378",
-        "avatar_url": null
+        "username": "AtMapshock",
+        "name": "M@Mapshock",
+        "avatar_url": null,
+        "followers_count": 0
       },
-      "published_at": "2026-10-21T14:03:43",
-      "first_seen_at": "2026-10-21T15:05:31.020764",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-10-21T23:50:36",
+      "first_seen_at": "2026-10-22T00:07:47.764648",
+      "sub_category_label": null
     }
   ]
 }
