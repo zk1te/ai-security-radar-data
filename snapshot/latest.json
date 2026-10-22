@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T20:18:13+08:00",
+  "updated_at": "2026-10-22T21:18:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 19268,
@@ -65,30 +65,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 18957,
-      "title": "OpenAI 等发起 Patch the Planet 漏洞修补协调机制",
-      "original_title": "HN Hot Discussion: Patch the Planet: global response coordination as agents uncover vulnerabilities",
-      "summary": "针对 AI Agent 越来越多地发现关键漏洞，OpenAI 等机构发起 Patch the Planet 倡议，协调全球社区进行快速响应和修补。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 84.64,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 自动挖洞走向产业后，海量漏洞披露必将冲击现有响应流程。安全团队和开源维护者需密切关注此类协调机制，应对即将到来的合规与修复压力。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
-      "reader_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
-      "image_url": null,
-      "author": {
-        "username": "nr378",
-        "name": "nr378",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-21T14:03:43",
-      "first_seen_at": "2026-10-22T00:51:54.701655",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 19048,
       "title": "微软情报：Storm-0940 使用 AI 渗透框架 ARTEX 自动化攻击",
       "original_title": "RT @MsftSecIntel: The China state-aligned threat actor Storm-0940 used the agentic AI penetration testing framework ARTEX to automate attac…",
@@ -134,48 +110,49 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 18953,
-      "title": "Anthropic研究：用Claude降低代码攻击面",
-      "original_title": "HN Hot Discussion: Using Claude to reduce the attack surface of code",
-      "summary": "Anthropic 发布研究探讨使用 Claude 模型分析和减少代码的攻击面，引发 Hacker News 社区热议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "code_audit",
-      "score_total": 80.7,
+      "id": 19323,
+      "title": "Storm-0940 使用 AI 框架 ARTEX 发起全球供应链攻击",
+      "original_title": "🚨 China-Linked Storm-0940 Used AI Tool ARTEX in Global Supply-Chain Attack — and Japan’s Recent Data Leak Wave May Be Connected  Microsoft has attributed a large-scale AI-driven su",
+      "summary": "微软披露中国背景黑客组织 Storm-0940 利用开源 AI 渗透框架 ARTEX 对 ConnectWise 发起供应链攻击，波及日本约 80 家企业及韩国银行。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 76.85,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "Anthropic官方展示Claude在代码安全审计与攻击面收敛上的应用。安全团队可借此评估将大模型接入内部代码审计流程的实际效果与落地边界。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
-      "reader_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
+      "recommendation_reason": "威胁情报显示 AI 渗透测试框架已进入实战在野利用阶段。安全团队需警惕攻击者使用自动化 AI Agent 提升攻击效率，并评估自身防御 AI 驱动攻击的能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/hana87_day/status/2113200801791586606",
+      "reader_url": "https://x.com/hana87_day/status/2113200801791586606",
       "image_url": null,
       "author": {
-        "username": "dnw",
-        "name": "dnw",
-        "avatar_url": null
+        "username": "hana87_day",
+        "name": "こゆき🍀KOYUKI",
+        "avatar_url": null,
+        "followers_count": 0
       },
-      "published_at": "2026-10-21T03:36:43",
-      "first_seen_at": "2026-10-22T00:51:13.412728",
+      "published_at": "2026-10-22T09:28:27",
+      "first_seen_at": "2026-10-22T09:55:21.883703",
       "sub_category_label": null
     },
     {
-      "id": 18962,
-      "title": "Cloudflare安全审计Agent技能获GitHub Trending关注",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2012 stars today",
-      "summary": "Cloudflare开源的security-audit-skill是一个面向coding agent的多阶段安全审计技能，支持独立验证和机器可读的审计结果输出，当前在GitHub获超3.6万Star。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 79.4,
+      "id": 19085,
+      "title": "LightSplit：基于正交投影的隐私保护拆分学习方法",
+      "original_title": "LightSplit: Practical Privacy-Preserving Split Learning via Orthogonal Projections (Full Version)",
+      "summary": "论文提出 LightSplit，通过在切割层应用轻量级正交随机投影充当信息瓶颈，有效限制实例信息暴露，在保持模型精度的同时抵御重建攻击并降低通信开销。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 76.75,
       "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做安全审计的团队值得关注，Cloudflare的agent skill支持机器可读输出便于流水线集成，star数说明社区认可度高，可直接试用或参考其实现。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-22&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-22&since=daily",
+      "item_type": "paper",
+      "recommendation_reason": "做拆分学习和联邦学习的安全团队该看。该方法无需额外组件即可阻断重建攻击，在不改动现有架构前提下实现高压缩率，可直接借鉴用于降低模型训练中的数据泄露风险。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.13265",
+      "reader_url": "https://arxiv.org/pdf/2605.13265",
       "image_url": null,
       "author": null,
-      "published_at": "2026-09-14T19:29:02",
-      "first_seen_at": "2026-10-22T00:58:01.983984",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T05:58:04.318813",
+      "sub_category_label": null
     }
   ]
 }
