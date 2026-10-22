@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T03:50:56+08:00",
+  "updated_at": "2026-10-23T04:51:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -150,31 +150,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 19297,
-      "title": "AI安全简报：APT利用AI渗透框架ARTEX自动化攻击，OpenAI发布Codex skill修复PHP高危漏洞",
-      "original_title": "DAILY AI BRIEF 🗞 — Oct 22  BREAKING 🔥: - PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical unauthenticated remote code execution flaws dubbed php2shell (CVE-2026-109618 and CV",
-      "summary": "微软报告Storm-0940组织使用AI渗透框架ARTEX自动化攻击；OpenAI通过Codex skill协助修复PHP高危RCE漏洞；Claude Security推出实时代码库安全扫描功能。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 73.48,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "APT组织使用AI自动化渗透框架标志AI武器化进入实战阶段，安全团队需评估防御侧的AI应用差距；OpenAI和Anthropic在漏洞修复与代码扫描的布局，是AI辅助安全运营的绝佳参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/testingcatalog/status/2113184364209004811",
-      "reader_url": "https://x.com/testingcatalog/status/2113184364209004811",
-      "image_url": null,
-      "author": {
-        "username": "testingcatalog",
-        "name": "🚨 AI News | TestingCatalog",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T08:23:08",
-      "first_seen_at": "2026-10-22T08:47:23.837293",
-      "sub_category_label": null
-    },
-    {
       "id": 19465,
       "title": "Fortinet 预告补丁日：AI 辅助测试发现核心产品高危漏洞",
       "original_title": "‼️  Fortinet Urges Patching Critical Flaws Affecting FortiOS, FortiManager, & FortiAnalyzer   Details: https://t.co/ywwcLsTbdy  Fortinet has urged customers to prioritize security ",
@@ -247,6 +222,31 @@
       },
       "published_at": "2026-10-22T17:58:00",
       "first_seen_at": "2026-10-22T18:08:55.899638",
+      "sub_category_label": null
+    },
+    {
+      "id": 19486,
+      "title": "韩国银行遭AI渗透工具ARTEX攻击及LiteLLM供应链投毒事件",
+      "original_title": "CONTAGION It travels in what we carry.  Rome, 1656. The plague is in the city, and Paul Fürst prints a figure in Nuremberg: Der Doctor Schnabel von Rom. A beaked mask stuffed with ",
+      "summary": "黑客使用AI渗透测试工具ARTEX攻击韩国金融机构致10万条记录泄露；同日Python库LiteLLM遭供应链投毒，被植入后门窃取机密信息。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent | ai_supply_chain",
+      "score_total": 68.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "需警惕AI安全工具被武器化，渗透测试Agent的权限边界控制和开源库供应链投毒的实时检测，是当前防守方最紧迫的防线。安全团队应立即审查内部使用的AI测试工具权限及Python依赖链。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Cloudman176/status/2113310313584251292",
+      "reader_url": "https://x.com/Cloudman176/status/2113310313584251292",
+      "image_url": "https://pbs.twimg.com/media/HVP8h5baUAIuQj8.jpg",
+      "author": {
+        "username": "Cloudman176",
+        "name": "𝘾𝙡𝙤𝙪𝙙𝙢𝙖𝙣",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T16:43:36",
+      "first_seen_at": "2026-10-22T16:48:49.870493",
       "sub_category_label": null
     }
   ]
