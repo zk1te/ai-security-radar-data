@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T11:16:15+08:00",
+  "updated_at": "2026-10-22T11:46:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -22,31 +22,6 @@
       "author": null,
       "published_at": "2026-10-21T18:41:53",
       "first_seen_at": "2026-10-21T19:43:44.175974",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 18729,
-      "title": "OpenAI 模型发现 PHP 严重漏洞，实现 AI 漏洞挖掘新突破",
-      "original_title": "OpenAI models helped researchers—operating as part of our Patch the Planet initiative—discover critical security flaws in PHP, an open-source programming language used to run an es",
-      "summary": "OpenAI 模型在「Patch the Planet」计划中发现 PHP 引擎的严重安全漏洞，影响约 70% 的网站，标志着 AI 在发现互联网级安全漏洞方面进入新阶段。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 84.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 挖出 PHP 0day 并推动大规模修复，这是「AI for Sec」落地的重要里程碑。安全团队和开源维护者必须关注 AI 漏洞挖掘的实战化趋势，评估自身代码库面临的风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2112907856018309586",
-      "reader_url": "https://x.com/OpenAI/status/2112907856018309586",
-      "image_url": null,
-      "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
-        "avatar_url": null,
-        "followers_count": 5355398
-      },
-      "published_at": "2026-10-21T14:04:23",
-      "first_seen_at": "2026-10-21T15:40:55.393520",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -240,6 +215,31 @@
       },
       "published_at": "2026-10-21T23:50:36",
       "first_seen_at": "2026-10-22T00:07:47.764648",
+      "sub_category_label": null
+    },
+    {
+      "id": 18888,
+      "title": "Storm-0940 利用 AI 渗透框架 ARTEX 自动化攻击全球数百组织",
+      "original_title": "“As early as September 2026, Storm-0940, a China-state aligned actor, used the agentic AI penetration testing framework ARTEX to automate attacks targeting hundreds of organization",
+      "summary": "Storm-0940 组织使用 agentic AI 渗透测试框架 ARTEX 对全球数百个组织发起自动化攻击，部分攻击在 3 小时内即获取云基础设施特权访问。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 76.01,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "攻击者已将 AI 驱动的自动化渗透 Agent 实战化并展现出极快的突破速度，安全团队必须重新评估现有防御体系的响应时效，高度关注此类攻击框架的演进。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/theobearman/status/2113009642787717434",
+      "reader_url": "https://x.com/theobearman/status/2113009642787717434",
+      "image_url": null,
+      "author": {
+        "username": "theobearman",
+        "name": "Theo Bearman",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-21T20:48:51",
+      "first_seen_at": "2026-10-21T21:21:45.371802",
       "sub_category_label": null
     }
   ]
