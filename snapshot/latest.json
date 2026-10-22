@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T03:20:51+08:00",
+  "updated_at": "2026-10-23T03:50:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,6 +23,31 @@
       "published_at": "2026-10-22T07:42:44",
       "first_seen_at": "2026-10-22T11:49:26.431649",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 19609,
+      "title": "国家级黑客组织滥用 AI 渗透框架 ARTEX 发起供应链攻击",
+      "original_title": "#threatreport #MediumCompleteness AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise | 21-10-2026 Source: https://t.co/bDjqDQOhEm Key details ",
+      "summary": "Storm-0940 组织利用开源多 Agent LLM 渗透框架 ARTEX 自动化侦察与密码喷射，在数小时内攻破云环境，影响上百家组织。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 攻防武器化的标志性事件。安全团队需警惕攻击者利用安全 Agent 大幅缩短攻击链路，防御端应立即审查 OAuth 和云服务主体验证日志，评估自动化攻击带来的响应时间压缩压力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rst_cloud/status/2113350049258238308",
+      "reader_url": "https://x.com/rst_cloud/status/2113350049258238308",
+      "image_url": "https://pbs.twimg.com/media/HVQgq2kXIAAucC9.jpg",
+      "author": {
+        "username": "rst_cloud",
+        "name": "RST Cloud",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T19:21:30",
+      "first_seen_at": "2026-10-22T19:40:24.968181",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 19323,
@@ -173,31 +198,6 @@
       "published_at": "2026-10-22T12:31:00",
       "first_seen_at": "2026-10-22T16:09:28.056075",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 19279,
-      "title": "微软披露：黑客利用 AI 驱动渗透框架 ARTEX 攻击 ConnectWise",
-      "original_title": "A Chinese state-aligned hacking group deployed an AI-driven penetration testing framework to breach IT management firm ConnectWise, targeting hundreds of organizations worldwide, a",
-      "summary": "Storm-0940 组织使用开源渗透测试工具 ARTEX 结合 AI 模型自主完成侦察和凭证喷洒，入侵了 ConnectWise 云备份服务并影响全球数百家组织。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.96,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 驱动的攻击工具在野利用的真实案例。防御团队需警惕开源安全工具被武器化，审查内部云环境中可能残留的 AI 自动化攻击后门。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/spotlightoncn/status/2113168347118612669",
-      "reader_url": "https://x.com/spotlightoncn/status/2113168347118612669",
-      "image_url": null,
-      "author": {
-        "username": "spotlightoncn",
-        "name": "Spotlight on China",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T07:19:29",
-      "first_seen_at": "2026-10-22T07:39:00.071383",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 19405,
