@@ -1,0 +1,1007 @@
+{
+  "date": "2026-10-22",
+  "candidate_count": 14,
+  "selected_count": 3,
+  "cover_title": "PHP RCE 漏洞在野利用：Wiz 借助大模型完成发现",
+  "lead_takeaway": "今天的主线很清晰：AI 漏洞挖掘和自动化修复正从论文走向实战。Wiz 用大模型发现 PHP RCE 漏洞且已有在野利用，LUMEN 能在无官方补丁时自动生成缓解补丁，Codex 技能包让漏洞排查变成可复用的 Agent 能力——这三件事串起来看，AI for Sec 已经在实际 CVD 流程和应急响应里干活了。",
+  "digest_points": [
+    "01 这不仅是 PHP 补丁，更是 AI 漏洞挖掘在真实 CVD 流程中的落地案例。安全团队应关注 AI 辅助挖掘带来的响应时间缩短和在野利用加速风险。",
+    "02 解决开源依赖无补丁可用时的应急缓解痛点，安全团队可关注其基于漏洞复现行为生成补丁的思路，为后续自动化应急响应工具开发提供参考。",
+    "03 展示了 AI Agent 通过「技能包」形式介入漏洞排查的落地方式。安全团队可直接使用该仓库验证资产，或参考其设计思路构建自己的安全 Agent。"
+  ],
+  "judgement": [
+    "01 这不仅是 PHP 补丁，更是 AI 漏洞挖掘在真实 CVD 流程中的落地案例。安全团队应关注 AI 辅助挖掘带来的响应时间缩短和在野利用加速风险。",
+    "02 解决开源依赖无补丁可用时的应急缓解痛点，安全团队可关注其基于漏洞复现行为生成补丁的思路，为后续自动化应急响应工具开发提供参考。",
+    "03 展示了 AI Agent 通过「技能包」形式介入漏洞排查的落地方式。安全团队可直接使用该仓库验证资产，或参考其设计思路构建自己的安全 Agent。"
+  ],
+  "top_items": [
+    {
+      "id": 18839,
+      "title": "PHP RCE 漏洞在野利用：Wiz 借助大模型完成发现",
+      "original_title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "summary": "PHP 8.x 紧急修复两个 RCE 漏洞，因披露流程泄漏已出现在野利用。Wiz Research 表示其团队使用 Gemini 和 GPT-5.6 等大模型辅助发现了这些高危漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 87.6,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这不仅是 PHP 补丁，更是 AI 漏洞挖掘在真实 CVD 流程中的落地案例。安全团队应关注 AI 辅助挖掘带来的响应时间缩短和在野利用加速风险。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+      "reader_url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-21T18:41:53",
+      "first_seen_at": "2026-10-21T19:43:44.175974",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 19268,
+      "title": "LUMEN：为下游项目自动生成上游库漏洞缓解补丁",
+      "original_title": "Generating Mitigations for Downstream Projects to Neutralize Upstream Library Vulnerability",
+      "summary": "LUMEN 通过检索公开缓解策略并结合漏洞复现行为生成新策略，在无源码或补丁的情况下为下游项目自动生成经验证的缓解补丁，在94个漏洞的测试中成功率达82.91%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_repair",
+      "score_total": 86.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "解决开源依赖无补丁可用时的应急缓解痛点，安全团队可关注其基于漏洞复现行为生成补丁的思路，为后续自动化应急响应工具开发提供参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2503.24273",
+      "reader_url": "https://arxiv.org/pdf/2503.24273",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T07:19:07.785149",
+      "sub_category_label": null
+    },
+    {
+      "id": 18831,
+      "title": "使用 OpenAI Codex 技能包排查网站漏洞",
+      "original_title": "If you are wondering whether your website is affected, we have packaged a Codex skill to help check.  Point your Codex at this repo to guide you through it: https://t.co/XUEbOwXuQC",
+      "summary": "推文分享了一个打包好的 Codex 技能，可用于检查网站是否受特定漏洞影响，并附带了相应的仓库链接以供直接使用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.4,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI Agent 通过「技能包」形式介入漏洞排查的落地方式。安全团队可直接使用该仓库验证资产，或参考其设计思路构建自己的安全 Agent。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2112945805686604033",
+      "reader_url": "https://x.com/OpenAI/status/2112945805686604033",
+      "image_url": null,
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-10-21T16:35:11",
+      "first_seen_at": "2026-10-21T19:36:59.803737",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 19101,
+      "title": "商业EDR自主防御Agent评估框架",
+      "original_title": "Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR",
+      "summary": "该论文提出首个评估大模型驱动的自主防御Agent配置商业EDR的框架，使用NodeZero和主流EDR进行测试，揭示了自动化防御中的仿真与现实差距。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 86.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "搞自动化防御或安全Agent的必看避坑指南。论文直接点出用大模型调优商业EDR的三个大坑：遥测不准、动作难归因、EDR行为不确定。现在不看，落地时就是纯踩雷。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2606.08168",
+      "reader_url": "https://arxiv.org/pdf/2606.08168",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T06:04:13.582410",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 19271,
+      "title": "EvoRepair：基于修复经验自演进的漏洞修复 Agent",
+      "original_title": "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair",
+      "summary": "提出 EvoRepair 框架，让 LLM 在迭代漏洞修复过程中积累跨漏洞修复经验，通过检索历史经验引导修复并持续更新经验库，在 PATCHEVAL 和 SEC-bench 上分别达到 93.47% 和 87.00%，大幅超越现有基线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞修复和代码审计 Agent 的同行必看：它解决的痛点是 LLM 重复犯错、不利用历史修复经验，思路是「检索增强+经验库自更新」，可迁移到安全 Agent 的长周期任务设计。关注其经验积累与质量评分机制，评估能否移植到自己的安全工作流中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.30105",
+      "reader_url": "https://arxiv.org/pdf/2605.30105",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T07:20:33.464232",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 18957,
+      "title": "OpenAI 等发起 Patch the Planet 漏洞修补协调机制",
+      "original_title": "HN Hot Discussion: Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "summary": "针对 AI Agent 越来越多地发现关键漏洞，OpenAI 等机构发起 Patch the Planet 倡议，协调全球社区进行快速响应和修补。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 84.64,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 自动挖洞走向产业后，海量漏洞披露必将冲击现有响应流程。安全团队和开源维护者需密切关注此类协调机制，应对即将到来的合规与修复压力。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
+      "reader_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
+      "image_url": null,
+      "author": {
+        "username": "nr378",
+        "name": "nr378",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-21T14:03:43",
+      "first_seen_at": "2026-10-22T00:51:54.701655",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 19048,
+      "title": "微软情报：Storm-0940 使用 AI 渗透框架 ARTEX 自动化攻击",
+      "original_title": "RT @MsftSecIntel: The China state-aligned threat actor Storm-0940 used the agentic AI penetration testing framework ARTEX to automate attac…",
+      "summary": "微软安全情报指出，与中国相关的威胁组织 Storm-0940 使用了名为 ARTEX 的代理式 AI 渗透测试框架来自动化攻击流程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.91,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "APT 组织在野使用 AI 渗透框架标志着攻击侧自动化能力正在实战化。安全团队需密切关注 ARTEX 框架细节，评估现有防御体系对 AI 自动化攻击的抵御能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2113094206281461800",
+      "reader_url": "https://x.com/HackingLZ/status/2113094206281461800",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-10-22T02:24:52",
+      "first_seen_at": "2026-10-22T05:11:10.315640",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 18953,
+      "title": "Anthropic研究：用Claude降低代码攻击面",
+      "original_title": "HN Hot Discussion: Using Claude to reduce the attack surface of code",
+      "summary": "Anthropic 发布研究探讨使用 Claude 模型分析和减少代码的攻击面，引发 Hacker News 社区热议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_audit",
+      "score_total": 80.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic官方展示Claude在代码安全审计与攻击面收敛上的应用。安全团队可借此评估将大模型接入内部代码审计流程的实际效果与落地边界。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
+      "reader_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
+      "image_url": null,
+      "author": {
+        "username": "dnw",
+        "name": "dnw",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-21T03:36:43",
+      "first_seen_at": "2026-10-22T00:51:13.412728",
+      "sub_category_label": null
+    },
+    {
+      "id": 19085,
+      "title": "LightSplit：基于正交投影的隐私保护拆分学习方法",
+      "original_title": "LightSplit: Practical Privacy-Preserving Split Learning via Orthogonal Projections (Full Version)",
+      "summary": "论文提出 LightSplit，通过在切割层应用轻量级正交随机投影充当信息瓶颈，有效限制实例信息暴露，在保持模型精度的同时抵御重建攻击并降低通信开销。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做拆分学习和联邦学习的安全团队该看。该方法无需额外组件即可阻断重建攻击，在不改动现有架构前提下实现高压缩率，可直接借鉴用于降低模型训练中的数据泄露风险。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.13265",
+      "reader_url": "https://arxiv.org/pdf/2605.13265",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T05:58:04.318813",
+      "sub_category_label": null
+    },
+    {
+      "id": 18989,
+      "title": "用 LLM 审计 30 个 PHP2Shell 漏洞仓库：多数造假或不可用",
+      "original_title": "LLMs...Letting me do fun things I never would have wasted time on.    \"I reviewed all 30 public GitHub repos for PHP2Shell (CVE-2026-109618 / CVE-2026-109619) by reading code only.",
+      "summary": "研究者借助 LLM 辅助代码审计，逐一分析 GitHub 上 30 个声称利用 PHP2Shell 漏洞的仓库，发现多数为抄袭、误标或仅限实验室环境，无公开利用链可在真实目标上实现 RCE。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.23,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了 LLM 在批量 PoC 去伪存真上的实战价值——人工不可能逐行读完 30 个仓库，AI 让这种大规模审计变得可行。安全团队可直接借鉴此模式快速筛选公开 PoC 的真实可用性，避免在假 exploit 上浪费时间。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2113054904436601007",
+      "reader_url": "https://x.com/HackingLZ/status/2113054904436601007",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-10-21T23:48:42",
+      "first_seen_at": "2026-10-22T01:12:30.464265",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 18839,
+        "title": "PHP RCE 漏洞在野利用：Wiz 借助大模型完成发现",
+        "original_title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+        "summary": "PHP 8.x 紧急修复两个 RCE 漏洞，因披露流程泄漏已出现在野利用。Wiz Research 表示其团队使用 Gemini 和 GPT-5.6 等大模型辅助发现了这些高危漏洞。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 87.6,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这不仅是 PHP 补丁，更是 AI 漏洞挖掘在真实 CVD 流程中的落地案例。安全团队应关注 AI 辅助挖掘带来的响应时间缩短和在野利用加速风险。",
+        "source_id": "simon-willison",
+        "canonical_url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+        "reader_url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-21T18:41:53",
+        "first_seen_at": "2026-10-21T19:43:44.175974",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 19268,
+        "title": "LUMEN：为下游项目自动生成上游库漏洞缓解补丁",
+        "original_title": "Generating Mitigations for Downstream Projects to Neutralize Upstream Library Vulnerability",
+        "summary": "LUMEN 通过检索公开缓解策略并结合漏洞复现行为生成新策略，在无源码或补丁的情况下为下游项目自动生成经验证的缓解补丁，在94个漏洞的测试中成功率达82.91%。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_repair",
+        "score_total": 86.9,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "解决开源依赖无补丁可用时的应急缓解痛点，安全团队可关注其基于漏洞复现行为生成补丁的思路，为后续自动化应急响应工具开发提供参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2503.24273",
+        "reader_url": "https://arxiv.org/pdf/2503.24273",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-22T04:00:00",
+        "first_seen_at": "2026-10-22T07:19:07.785149",
+        "sub_category_label": null
+      },
+      {
+        "id": 19101,
+        "title": "商业EDR自主防御Agent评估框架",
+        "original_title": "Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR",
+        "summary": "该论文提出首个评估大模型驱动的自主防御Agent配置商业EDR的框架，使用NodeZero和主流EDR进行测试，揭示了自动化防御中的仿真与现实差距。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 86.85,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "搞自动化防御或安全Agent的必看避坑指南。论文直接点出用大模型调优商业EDR的三个大坑：遥测不准、动作难归因、EDR行为不确定。现在不看，落地时就是纯踩雷。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2606.08168",
+        "reader_url": "https://arxiv.org/pdf/2606.08168",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-22T04:00:00",
+        "first_seen_at": "2026-10-22T06:04:13.582410",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 19271,
+        "title": "EvoRepair：基于修复经验自演进的漏洞修复 Agent",
+        "original_title": "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair",
+        "summary": "提出 EvoRepair 框架，让 LLM 在迭代漏洞修复过程中积累跨漏洞修复经验，通过检索历史经验引导修复并持续更新经验库，在 PATCHEVAL 和 SEC-bench 上分别达到 93.47% 和 87.00%，大幅超越现有基线。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 84.75,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做漏洞修复和代码审计 Agent 的同行必看：它解决的痛点是 LLM 重复犯错、不利用历史修复经验，思路是「检索增强+经验库自更新」，可迁移到安全 Agent 的长周期任务设计。关注其经验积累与质量评分机制，评估能否移植到自己的安全工作流中。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2605.30105",
+        "reader_url": "https://arxiv.org/pdf/2605.30105",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-22T04:00:00",
+        "first_seen_at": "2026-10-22T07:20:33.464232",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 18957,
+        "title": "OpenAI 等发起 Patch the Planet 漏洞修补协调机制",
+        "original_title": "HN Hot Discussion: Patch the Planet: global response coordination as agents uncover vulnerabilities",
+        "summary": "针对 AI Agent 越来越多地发现关键漏洞，OpenAI 等机构发起 Patch the Planet 倡议，协调全球社区进行快速响应和修补。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 84.64,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "AI 自动挖洞走向产业后，海量漏洞披露必将冲击现有响应流程。安全团队和开源维护者需密切关注此类协调机制，应对即将到来的合规与修复压力。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
+        "reader_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
+        "image_url": null,
+        "author": {
+          "username": "nr378",
+          "name": "nr378",
+          "avatar_url": null
+        },
+        "published_at": "2026-10-21T14:03:43",
+        "first_seen_at": "2026-10-22T00:51:54.701655",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 18831,
+        "title": "使用 OpenAI Codex 技能包排查网站漏洞",
+        "original_title": "If you are wondering whether your website is affected, we have packaged a Codex skill to help check.  Point your Codex at this repo to guide you through it: https://t.co/XUEbOwXuQC",
+        "summary": "推文分享了一个打包好的 Codex 技能，可用于检查网站是否受特定漏洞影响，并附带了相应的仓库链接以供直接使用。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 84.4,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "展示了 AI Agent 通过「技能包」形式介入漏洞排查的落地方式。安全团队可直接使用该仓库验证资产，或参考其设计思路构建自己的安全 Agent。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/OpenAI/status/2112945805686604033",
+        "reader_url": "https://x.com/OpenAI/status/2112945805686604033",
+        "image_url": null,
+        "author": {
+          "username": "OpenAI",
+          "name": "OpenAI",
+          "avatar_url": null,
+          "followers_count": 5355398
+        },
+        "published_at": "2026-10-21T16:35:11",
+        "first_seen_at": "2026-10-21T19:36:59.803737",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 19048,
+        "title": "微软情报：Storm-0940 使用 AI 渗透框架 ARTEX 自动化攻击",
+        "original_title": "RT @MsftSecIntel: The China state-aligned threat actor Storm-0940 used the agentic AI penetration testing framework ARTEX to automate attac…",
+        "summary": "微软安全情报指出，与中国相关的威胁组织 Storm-0940 使用了名为 ARTEX 的代理式 AI 渗透测试框架来自动化攻击流程。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 83.91,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "APT 组织在野使用 AI 渗透框架标志着攻击侧自动化能力正在实战化。安全团队需密切关注 ARTEX 框架细节，评估现有防御体系对 AI 自动化攻击的抵御能力。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/HackingLZ/status/2113094206281461800",
+        "reader_url": "https://x.com/HackingLZ/status/2113094206281461800",
+        "image_url": null,
+        "author": {
+          "username": "HackingLZ",
+          "name": "Justin Elze",
+          "avatar_url": null,
+          "followers_count": 73559
+        },
+        "published_at": "2026-10-22T02:24:52",
+        "first_seen_at": "2026-10-22T05:11:10.315640",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 18953,
+        "title": "Anthropic研究：用Claude降低代码攻击面",
+        "original_title": "HN Hot Discussion: Using Claude to reduce the attack surface of code",
+        "summary": "Anthropic 发布研究探讨使用 Claude 模型分析和减少代码的攻击面，引发 Hacker News 社区热议。",
+        "primary_category": "AI for Sec",
+        "sub_category": "code_audit",
+        "score_total": 80.7,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "Anthropic官方展示Claude在代码安全审计与攻击面收敛上的应用。安全团队可借此评估将大模型接入内部代码审计流程的实际效果与落地边界。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
+        "reader_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
+        "image_url": null,
+        "author": {
+          "username": "dnw",
+          "name": "dnw",
+          "avatar_url": null
+        },
+        "published_at": "2026-10-21T03:36:43",
+        "first_seen_at": "2026-10-22T00:51:13.412728",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech": [],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 19085,
+        "title": "LightSplit：基于正交投影的隐私保护拆分学习方法",
+        "original_title": "LightSplit: Practical Privacy-Preserving Split Learning via Orthogonal Projections (Full Version)",
+        "summary": "论文提出 LightSplit，通过在切割层应用轻量级正交随机投影充当信息瓶颈，有效限制实例信息暴露，在保持模型精度的同时抵御重建攻击并降低通信开销。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_security",
+        "score_total": 76.75,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做拆分学习和联邦学习的安全团队该看。该方法无需额外组件即可阻断重建攻击，在不改动现有架构前提下实现高压缩率，可直接借鉴用于降低模型训练中的数据泄露风险。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2605.13265",
+        "reader_url": "https://arxiv.org/pdf/2605.13265",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-22T04:00:00",
+        "first_seen_at": "2026-10-22T05:58:04.318813",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 19297,
+        "title": "AI安全简报：APT利用AI渗透框架ARTEX自动化攻击，OpenAI发布Codex skill修复PHP高危漏洞",
+        "original_title": "DAILY AI BRIEF 🗞 — Oct 22  BREAKING 🔥: - PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical unauthenticated remote code execution flaws dubbed php2shell (CVE-2026-109618 and CV",
+        "summary": "微软报告Storm-0940组织使用AI渗透框架ARTEX自动化攻击；OpenAI通过Codex skill协助修复PHP高危RCE漏洞；Claude Security推出实时代码库安全扫描功能。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 73.48,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "APT组织使用AI自动化渗透框架标志AI武器化进入实战阶段，安全团队需评估防御侧的AI应用差距；OpenAI和Anthropic在漏洞修复与代码扫描的布局，是AI辅助安全运营的绝佳参考。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/testingcatalog/status/2113184364209004811",
+        "reader_url": "https://x.com/testingcatalog/status/2113184364209004811",
+        "image_url": null,
+        "author": {
+          "username": "testingcatalog",
+          "name": "🚨 AI News | TestingCatalog",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-22T08:23:08",
+        "first_seen_at": "2026-10-22T08:47:23.837293",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 18839,
+            "title": "PHP RCE 漏洞在野利用：Wiz 借助大模型完成发现",
+            "original_title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+            "summary": "PHP 8.x 紧急修复两个 RCE 漏洞，因披露流程泄漏已出现在野利用。Wiz Research 表示其团队使用 Gemini 和 GPT-5.6 等大模型辅助发现了这些高危漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 87.6,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这不仅是 PHP 补丁，更是 AI 漏洞挖掘在真实 CVD 流程中的落地案例。安全团队应关注 AI 辅助挖掘带来的响应时间缩短和在野利用加速风险。",
+            "source_id": "simon-willison",
+            "canonical_url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+            "reader_url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-21T18:41:53",
+            "first_seen_at": "2026-10-21T19:43:44.175974",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 18957,
+            "title": "OpenAI 等发起 Patch the Planet 漏洞修补协调机制",
+            "original_title": "HN Hot Discussion: Patch the Planet: global response coordination as agents uncover vulnerabilities",
+            "summary": "针对 AI Agent 越来越多地发现关键漏洞，OpenAI 等机构发起 Patch the Planet 倡议，协调全球社区进行快速响应和修补。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 84.64,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI 自动挖洞走向产业后，海量漏洞披露必将冲击现有响应流程。安全团队和开源维护者需密切关注此类协调机制，应对即将到来的合规与修复压力。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
+            "reader_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
+            "image_url": null,
+            "author": {
+              "username": "nr378",
+              "name": "nr378",
+              "avatar_url": null
+            },
+            "published_at": "2026-10-21T14:03:43",
+            "first_seen_at": "2026-10-22T00:51:54.701655",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 18989,
+            "title": "用 LLM 审计 30 个 PHP2Shell 漏洞仓库：多数造假或不可用",
+            "original_title": "LLMs...Letting me do fun things I never would have wasted time on.    \"I reviewed all 30 public GitHub repos for PHP2Shell (CVE-2026-109618 / CVE-2026-109619) by reading code only.",
+            "summary": "研究者借助 LLM 辅助代码审计，逐一分析 GitHub 上 30 个声称利用 PHP2Shell 漏洞的仓库，发现多数为抄袭、误标或仅限实验室环境，无公开利用链可在真实目标上实现 RCE。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 74.23,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "展示了 LLM 在批量 PoC 去伪存真上的实战价值——人工不可能逐行读完 30 个仓库，AI 让这种大规模审计变得可行。安全团队可直接借鉴此模式快速筛选公开 PoC 的真实可用性，避免在假 exploit 上浪费时间。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2113054904436601007",
+            "reader_url": "https://x.com/HackingLZ/status/2113054904436601007",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-10-21T23:48:42",
+            "first_seen_at": "2026-10-22T01:12:30.464265",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 19007,
+            "title": "Cloudflare 借助 OpenAI 实现漏洞挖掘与防御闭环",
+            "original_title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+            "summary": "Cloudflare 使用 OpenAI Daybreak 调查漏洞并提出修复建议供审查，同时利用 Codex 提升代码质量与开发速度。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.8,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "工业界大厂使用大模型进行漏洞挖掘与修复的实战案例。安全团队可借此评估 AI 辅助代码审计与漏洞修复在产研流程中的真实落地效果。",
+            "source_id": "openai-news",
+            "canonical_url": "https://openai.com/index/cloudflare-cyber",
+            "reader_url": "https://openai.com/index/cloudflare-cyber",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-21T00:00:00",
+            "first_seen_at": "2026-10-22T02:23:26.266843",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 19419,
+            "title": "分享用 AI 挖掘 PHP 预认证 RCE 的实际 Prompt",
+            "original_title": "RT @lorenc_dan: The actual prompt for this was \"let's look for pre-auth RCEs in PHP\". I'm sharing this so people know this stuff is real an…",
+            "summary": "Dan Lorenc 分享了用 AI 寻找 PHP 预认证 RCE 的实际 Prompt，证明 AI 辅助漏洞挖掘已在实战中落地。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.73,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "给想用 AI 挖漏洞的安全团队提个醒：这不是理论，是跑通的真实用例。别观望了，赶紧拿自己的业务测测 Prompt 效果，看看能挖出多少隐藏的 RCE。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2113267275067527213",
+            "reader_url": "https://x.com/HackingLZ/status/2113267275067527213",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-10-22T13:52:35",
+            "first_seen_at": "2026-10-22T13:59:43.652133",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "vuln_repair": {
+        "label": "vuln_repair",
+        "items": [
+          {
+            "id": 19268,
+            "title": "LUMEN：为下游项目自动生成上游库漏洞缓解补丁",
+            "original_title": "Generating Mitigations for Downstream Projects to Neutralize Upstream Library Vulnerability",
+            "summary": "LUMEN 通过检索公开缓解策略并结合漏洞复现行为生成新策略，在无源码或补丁的情况下为下游项目自动生成经验证的缓解补丁，在94个漏洞的测试中成功率达82.91%。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_repair",
+            "score_total": 86.9,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "解决开源依赖无补丁可用时的应急缓解痛点，安全团队可关注其基于漏洞复现行为生成补丁的思路，为后续自动化应急响应工具开发提供参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2503.24273",
+            "reader_url": "https://arxiv.org/pdf/2503.24273",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-22T04:00:00",
+            "first_seen_at": "2026-10-22T07:19:07.785149",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 19101,
+            "title": "商业EDR自主防御Agent评估框架",
+            "original_title": "Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR",
+            "summary": "该论文提出首个评估大模型驱动的自主防御Agent配置商业EDR的框架，使用NodeZero和主流EDR进行测试，揭示了自动化防御中的仿真与现实差距。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 86.85,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "搞自动化防御或安全Agent的必看避坑指南。论文直接点出用大模型调优商业EDR的三个大坑：遥测不准、动作难归因、EDR行为不确定。现在不看，落地时就是纯踩雷。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2606.08168",
+            "reader_url": "https://arxiv.org/pdf/2606.08168",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-22T04:00:00",
+            "first_seen_at": "2026-10-22T06:04:13.582410",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 19271,
+            "title": "EvoRepair：基于修复经验自演进的漏洞修复 Agent",
+            "original_title": "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair",
+            "summary": "提出 EvoRepair 框架，让 LLM 在迭代漏洞修复过程中积累跨漏洞修复经验，通过检索历史经验引导修复并持续更新经验库，在 PATCHEVAL 和 SEC-bench 上分别达到 93.47% 和 87.00%，大幅超越现有基线。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 84.75,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞修复和代码审计 Agent 的同行必看：它解决的痛点是 LLM 重复犯错、不利用历史修复经验，思路是「检索增强+经验库自更新」，可迁移到安全 Agent 的长周期任务设计。关注其经验积累与质量评分机制，评估能否移植到自己的安全工作流中。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2605.30105",
+            "reader_url": "https://arxiv.org/pdf/2605.30105",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-22T04:00:00",
+            "first_seen_at": "2026-10-22T07:20:33.464232",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 18831,
+            "title": "使用 OpenAI Codex 技能包排查网站漏洞",
+            "original_title": "If you are wondering whether your website is affected, we have packaged a Codex skill to help check.  Point your Codex at this repo to guide you through it: https://t.co/XUEbOwXuQC",
+            "summary": "推文分享了一个打包好的 Codex 技能，可用于检查网站是否受特定漏洞影响，并附带了相应的仓库链接以供直接使用。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 84.4,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "展示了 AI Agent 通过「技能包」形式介入漏洞排查的落地方式。安全团队可直接使用该仓库验证资产，或参考其设计思路构建自己的安全 Agent。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/OpenAI/status/2112945805686604033",
+            "reader_url": "https://x.com/OpenAI/status/2112945805686604033",
+            "image_url": null,
+            "author": {
+              "username": "OpenAI",
+              "name": "OpenAI",
+              "avatar_url": null,
+              "followers_count": 5355398
+            },
+            "published_at": "2026-10-21T16:35:11",
+            "first_seen_at": "2026-10-21T19:36:59.803737",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 19048,
+            "title": "微软情报：Storm-0940 使用 AI 渗透框架 ARTEX 自动化攻击",
+            "original_title": "RT @MsftSecIntel: The China state-aligned threat actor Storm-0940 used the agentic AI penetration testing framework ARTEX to automate attac…",
+            "summary": "微软安全情报指出，与中国相关的威胁组织 Storm-0940 使用了名为 ARTEX 的代理式 AI 渗透测试框架来自动化攻击流程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 83.91,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "APT 组织在野使用 AI 渗透框架标志着攻击侧自动化能力正在实战化。安全团队需密切关注 ARTEX 框架细节，评估现有防御体系对 AI 自动化攻击的抵御能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2113094206281461800",
+            "reader_url": "https://x.com/HackingLZ/status/2113094206281461800",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-10-22T02:24:52",
+            "first_seen_at": "2026-10-22T05:11:10.315640",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 18962,
+            "title": "Cloudflare安全审计Agent技能获GitHub Trending关注",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2012 stars today",
+            "summary": "Cloudflare开源的security-audit-skill是一个面向coding agent的多阶段安全审计技能，支持独立验证和机器可读的审计结果输出，当前在GitHub获超3.6万Star。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 79.4,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做安全审计的团队值得关注，Cloudflare的agent skill支持机器可读输出便于流水线集成，star数说明社区认可度高，可直接试用或参考其实现。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-22&since=daily",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-22&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-09-14T19:29:02",
+            "first_seen_at": "2026-10-22T00:58:01.983984",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "code_audit": {
+        "label": "code_audit",
+        "items": [
+          {
+            "id": 18953,
+            "title": "Anthropic研究：用Claude降低代码攻击面",
+            "original_title": "HN Hot Discussion: Using Claude to reduce the attack surface of code",
+            "summary": "Anthropic 发布研究探讨使用 Claude 模型分析和减少代码的攻击面，引发 Hacker News 社区热议。",
+            "primary_category": "AI for Sec",
+            "sub_category": "code_audit",
+            "score_total": 80.7,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "Anthropic官方展示Claude在代码安全审计与攻击面收敛上的应用。安全团队可借此评估将大模型接入内部代码审计流程的实际效果与落地边界。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
+            "reader_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
+            "image_url": null,
+            "author": {
+              "username": "dnw",
+              "name": "dnw",
+              "avatar_url": null
+            },
+            "published_at": "2026-10-21T03:36:43",
+            "first_seen_at": "2026-10-22T00:51:13.412728",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "model_security": {
+        "label": "model_security",
+        "items": [
+          {
+            "id": 19085,
+            "title": "LightSplit：基于正交投影的隐私保护拆分学习方法",
+            "original_title": "LightSplit: Practical Privacy-Preserving Split Learning via Orthogonal Projections (Full Version)",
+            "summary": "论文提出 LightSplit，通过在切割层应用轻量级正交随机投影充当信息瓶颈，有效限制实例信息暴露，在保持模型精度的同时抵御重建攻击并降低通信开销。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_security",
+            "score_total": 76.75,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做拆分学习和联邦学习的安全团队该看。该方法无需额外组件即可阻断重建攻击，在不改动现有架构前提下实现高压缩率，可直接借鉴用于降低模型训练中的数据泄露风险。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2605.13265",
+            "reader_url": "https://arxiv.org/pdf/2605.13265",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-22T04:00:00",
+            "first_seen_at": "2026-10-22T05:58:04.318813",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 19297,
+            "title": "AI安全简报：APT利用AI渗透框架ARTEX自动化攻击，OpenAI发布Codex skill修复PHP高危漏洞",
+            "original_title": "DAILY AI BRIEF 🗞 — Oct 22  BREAKING 🔥: - PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical unauthenticated remote code execution flaws dubbed php2shell (CVE-2026-109618 and CV",
+            "summary": "微软报告Storm-0940组织使用AI渗透框架ARTEX自动化攻击；OpenAI通过Codex skill协助修复PHP高危RCE漏洞；Claude Security推出实时代码库安全扫描功能。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 73.48,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "APT组织使用AI自动化渗透框架标志AI武器化进入实战阶段，安全团队需评估防御侧的AI应用差距；OpenAI和Anthropic在漏洞修复与代码扫描的布局，是AI辅助安全运营的绝佳参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/testingcatalog/status/2113184364209004811",
+            "reader_url": "https://x.com/testingcatalog/status/2113184364209004811",
+            "image_url": null,
+            "author": {
+              "username": "testingcatalog",
+              "name": "🚨 AI News | TestingCatalog",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-22T08:23:08",
+            "first_seen_at": "2026-10-22T08:47:23.837293",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 19268,
+      "title": "LUMEN：为下游项目自动生成上游库漏洞缓解补丁",
+      "original_title": "Generating Mitigations for Downstream Projects to Neutralize Upstream Library Vulnerability",
+      "summary": "LUMEN 通过检索公开缓解策略并结合漏洞复现行为生成新策略，在无源码或补丁的情况下为下游项目自动生成经验证的缓解补丁，在94个漏洞的测试中成功率达82.91%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_repair",
+      "score_total": 86.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "解决开源依赖无补丁可用时的应急缓解痛点，安全团队可关注其基于漏洞复现行为生成补丁的思路，为后续自动化应急响应工具开发提供参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2503.24273",
+      "reader_url": "https://arxiv.org/pdf/2503.24273",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T07:19:07.785149",
+      "sub_category_label": null
+    },
+    {
+      "id": 19101,
+      "title": "商业EDR自主防御Agent评估框架",
+      "original_title": "Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR",
+      "summary": "该论文提出首个评估大模型驱动的自主防御Agent配置商业EDR的框架，使用NodeZero和主流EDR进行测试，揭示了自动化防御中的仿真与现实差距。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 86.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "搞自动化防御或安全Agent的必看避坑指南。论文直接点出用大模型调优商业EDR的三个大坑：遥测不准、动作难归因、EDR行为不确定。现在不看，落地时就是纯踩雷。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2606.08168",
+      "reader_url": "https://arxiv.org/pdf/2606.08168",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T06:04:13.582410",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 19271,
+      "title": "EvoRepair：基于修复经验自演进的漏洞修复 Agent",
+      "original_title": "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair",
+      "summary": "提出 EvoRepair 框架，让 LLM 在迭代漏洞修复过程中积累跨漏洞修复经验，通过检索历史经验引导修复并持续更新经验库，在 PATCHEVAL 和 SEC-bench 上分别达到 93.47% 和 87.00%，大幅超越现有基线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞修复和代码审计 Agent 的同行必看：它解决的痛点是 LLM 重复犯错、不利用历史修复经验，思路是「检索增强+经验库自更新」，可迁移到安全 Agent 的长周期任务设计。关注其经验积累与质量评分机制，评估能否移植到自己的安全工作流中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.30105",
+      "reader_url": "https://arxiv.org/pdf/2605.30105",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T07:20:33.464232",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 19085,
+      "title": "LightSplit：基于正交投影的隐私保护拆分学习方法",
+      "original_title": "LightSplit: Practical Privacy-Preserving Split Learning via Orthogonal Projections (Full Version)",
+      "summary": "论文提出 LightSplit，通过在切割层应用轻量级正交随机投影充当信息瓶颈，有效限制实例信息暴露，在保持模型精度的同时抵御重建攻击并降低通信开销。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做拆分学习和联邦学习的安全团队该看。该方法无需额外组件即可阻断重建攻击，在不改动现有架构前提下实现高压缩率，可直接借鉴用于降低模型训练中的数据泄露风险。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.13265",
+      "reader_url": "https://arxiv.org/pdf/2605.13265",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T05:58:04.318813",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 14,
+    "highlight_count": 8,
+    "paper_count": 4,
+    "source_count": 6,
+    "top_score": 88,
+    "category_count": {
+      "AI for Sec": 12,
+      "AI Tech": 0,
+      "Sec for AI | AI Tech": 1,
+      "AI for Sec | Sec for AI": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 5
+        },
+        "vuln_repair": {
+          "label": "vuln_repair",
+          "count": 1
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 4
+        },
+        "code_audit": {
+          "label": "code_audit",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "model_security": {
+          "label": "model_security",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 12,
+      "top_score": 88,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分是 Wiz 用 Gemini 和 GPT 辅助发现 PHP 8.x RCE 漏洞且已出现在野利用，说明 AI 挖洞不仅提速了发现端，也压缩了防守方的响应窗口——漏洞从披露到被利用的间隔越来越短。建议团队关注两件事：一是把 AI 辅助漏洞挖掘纳入自己的威胁情报监测和应急流程，缩短发现到修复的链路；二是参考 LUMEN 的思路，在官方补丁未出时储备自动化缓解方案，别干等。",
+  "method_note": "按北京时间 2026-10-22 的系统入库窗口筛选，从 14 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "hn-ai-tech",
+    "openai-news",
+    "simon-willison",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# PHP RCE 漏洞在野利用：Wiz 借助大模型完成发现\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线很清晰：AI 漏洞挖掘和自动化修复正从论文走向实战。Wiz 用大模型发现 PHP RCE 漏洞且已有在野利用，LUMEN 能在无官方补丁时自动生成缓解补丁，Codex 技能包让漏洞排查变成可复用的 Agent 能力——这三件事串起来看，AI for Sec 已经在实际 CVD 流程和应急响应里干活了。\n- 01 这不仅是 PHP 补丁，更是 AI 漏洞挖掘在真实 CVD 流程中的落地案例。安全团队应关注 AI 辅助挖掘带来的响应时间缩短和在野利用加速风险。\n- 02 解决开源依赖无补丁可用时的应急缓解痛点，安全团队可关注其基于漏洞复现行为生成补丁的思路，为后续自动化应急响应工具开发提供参考。\n- 03 展示了 AI Agent 通过「技能包」形式介入漏洞排查的落地方式。安全团队可直接使用该仓库验证资产，或参考其设计思路构建自己的安全 Agent。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **PHP RCE 漏洞在野利用：Wiz 借助大模型完成发现**：这不仅是 PHP 补丁，更是 AI 漏洞挖掘在真实 CVD 流程中的落地案例。安全团队应关注 AI 辅助挖掘带来的响应时间缩短和在野利用加速风险。 来源：simon-willison\n- **LUMEN：为下游项目自动生成上游库漏洞缓解补丁**：解决开源依赖无补丁可用时的应急缓解痛点，安全团队可关注其基于漏洞复现行为生成补丁的思路，为后续自动化应急响应工具开发提供参考。 来源：arxiv-ai-security\n- **使用 OpenAI Codex 技能包排查网站漏洞**：展示了 AI Agent 通过「技能包」形式介入漏洞排查的落地方式。安全团队可直接使用该仓库验证资产，或参考其设计思路构建自己的安全 Agent。 来源：x-manual-ai-security\n\n## 也值得关注\n- 商业EDR自主防御Agent评估框架（86.85）\n- EvoRepair：基于修复经验自演进的漏洞修复 Agent（84.75）\n- OpenAI 等发起 Patch the Planet 漏洞修补协调机制（84.64）\n- 微软情报：Storm-0940 使用 AI 渗透框架 ARTEX 自动化攻击（83.91）\n- Anthropic研究：用Claude降低代码攻击面（80.7）\n- LightSplit：基于正交投影的隐私保护拆分学习方法（76.75）\n\n## AI for Sec\n\n### 漏洞挖掘\n- PHP RCE 漏洞在野利用：Wiz 借助大模型完成发现（87.6）\n- OpenAI 等发起 Patch the Planet 漏洞修补协调机制（84.64）\n- 用 LLM 审计 30 个 PHP2Shell 漏洞仓库：多数造假或不可用（74.23）\n- Cloudflare 借助 OpenAI 实现漏洞挖掘与防御闭环（73.8）\n- 分享用 AI 挖掘 PHP 预认证 RCE 的实际 Prompt（73.73）\n\n### vuln_repair\n- LUMEN：为下游项目自动生成上游库漏洞缓解补丁（86.9）\n\n### 安全评测与Benchmark\n- 商业EDR自主防御Agent评估框架（86.85）\n\n### 安全Agent\n- EvoRepair：基于修复经验自演进的漏洞修复 Agent（84.75）\n- 使用 OpenAI Codex 技能包排查网站漏洞（84.4）\n- 微软情报：Storm-0940 使用 AI 渗透框架 ARTEX 自动化攻击（83.91）\n- Cloudflare安全审计Agent技能获GitHub Trending关注（79.4）\n\n### code_audit\n- Anthropic研究：用Claude降低代码攻击面（80.7）\n\n## AI Tech 短讯\n\n## 今日论文\n- LUMEN：为下游项目自动生成上游库漏洞缓解补丁\n- 商业EDR自主防御Agent评估框架\n- EvoRepair：基于修复经验自演进的漏洞修复 Agent\n- LightSplit：基于正交投影的隐私保护拆分学习方法\n\n## 今日观察\n最高分是 Wiz 用 Gemini 和 GPT 辅助发现 PHP 8.x RCE 漏洞且已出现在野利用，说明 AI 挖洞不仅提速了发现端，也压缩了防守方的响应窗口——漏洞从披露到被利用的间隔越来越短。建议团队关注两件事：一是把 AI 辅助漏洞挖掘纳入自己的威胁情报监测和应急流程，缩短发现到修复的链路；二是参考 LUMEN 的思路，在官方补丁未出时储备自动化缓解方案，别干等。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-10-22 的系统入库窗口筛选，从 14 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-10-23T00:02:22+08:00"
+}
