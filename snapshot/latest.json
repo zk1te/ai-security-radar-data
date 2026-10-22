@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T04:51:08+08:00",
+  "updated_at": "2026-10-23T06:21:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -48,31 +48,6 @@
       "published_at": "2026-10-22T19:21:30",
       "first_seen_at": "2026-10-22T19:40:24.968181",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 19323,
-      "title": "Storm-0940 使用 AI 框架 ARTEX 发起全球供应链攻击",
-      "original_title": "🚨 China-Linked Storm-0940 Used AI Tool ARTEX in Global Supply-Chain Attack — and Japan’s Recent Data Leak Wave May Be Connected  Microsoft has attributed a large-scale AI-driven su",
-      "summary": "微软披露中国背景黑客组织 Storm-0940 利用开源 AI 渗透框架 ARTEX 对 ConnectWise 发起供应链攻击，波及日本约 80 家企业及韩国银行。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 76.85,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "威胁情报显示 AI 渗透测试框架已进入实战在野利用阶段。安全团队需警惕攻击者使用自动化 AI Agent 提升攻击效率，并评估自身防御 AI 驱动攻击的能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hana87_day/status/2113200801791586606",
-      "reader_url": "https://x.com/hana87_day/status/2113200801791586606",
-      "image_url": null,
-      "author": {
-        "username": "hana87_day",
-        "name": "こゆき🍀KOYUKI",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T09:28:27",
-      "first_seen_at": "2026-10-22T09:55:21.883703",
-      "sub_category_label": null
     },
     {
       "id": 19440,
@@ -248,6 +223,31 @@
       "published_at": "2026-10-22T16:43:36",
       "first_seen_at": "2026-10-22T16:48:49.870493",
       "sub_category_label": null
+    },
+    {
+      "id": 19572,
+      "title": "Fortinet 用 AI 测试发现全线产品重大漏洞",
+      "original_title": "【告急 ⚠️】如果你正在使用 Fortinet 的網絡硬體，只能說算你衰，立即落床返公司吧。Fortinet 剛剛 (23 日) 向全球客戶發出緊急警報，旗下近乎所有核心產品均需要立即更新，包括 FortiGate 防火牆、FortiManager 集中管理設備、FortiAnalyzer 日誌分析與報告設備、FortiMail 電郵安全網閘設備，以及 Fo",
+      "summary": "Fortinet 宣布通过前沿 AI 安全测试发现了旗下几乎所有核心产品（含 FortiOS 等）的致命漏洞，并罕见要求客户在数小时内紧急修补以防 Patch Diffing 武器化攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.51,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全大厂用 AI 挖漏洞已进入实战阶段，AI 漏洞挖掘已能直接撼动安全产品供应链。安全团队不仅需立刻响应此补丁，更应密切关注 AI 在内部代码审计的落地效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/hkepcmedia/status/2113329688806568439",
+      "reader_url": "https://x.com/hkepcmedia/status/2113329688806568439",
+      "image_url": "https://pbs.twimg.com/media/HVQOJSwakAAyGoP.jpg",
+      "author": {
+        "username": "hkepcmedia",
+        "name": "HKEPC",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T18:00:36",
+      "first_seen_at": "2026-10-22T18:32:05.221922",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
