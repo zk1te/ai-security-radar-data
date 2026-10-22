@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T08:15:37+08:00",
+  "updated_at": "2026-10-22T09:15:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -47,6 +47,30 @@
       },
       "published_at": "2026-10-21T14:04:23",
       "first_seen_at": "2026-10-21T15:40:55.393520",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 18957,
+      "title": "OpenAI 等发起 Patch the Planet 漏洞修补协调机制",
+      "original_title": "HN Hot Discussion: Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "summary": "针对 AI Agent 越来越多地发现关键漏洞，OpenAI 等机构发起 Patch the Planet 倡议，协调全球社区进行快速响应和修补。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 84.64,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 自动挖洞走向产业后，海量漏洞披露必将冲击现有响应流程。安全团队和开源维护者需密切关注此类协调机制，应对即将到来的合规与修复压力。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
+      "reader_url": "https://news.ycombinator.com/item?id=50181175&hn_hot_date=2026-10-22",
+      "image_url": null,
+      "author": {
+        "username": "nr378",
+        "name": "nr378",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-21T14:03:43",
+      "first_seen_at": "2026-10-22T00:51:54.701655",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -100,6 +124,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 18953,
+      "title": "Anthropic研究：用Claude降低代码攻击面",
+      "original_title": "HN Hot Discussion: Using Claude to reduce the attack surface of code",
+      "summary": "Anthropic 发布研究探讨使用 Claude 模型分析和减少代码的攻击面，引发 Hacker News 社区热议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_audit",
+      "score_total": 80.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic官方展示Claude在代码安全审计与攻击面收敛上的应用。安全团队可借此评估将大模型接入内部代码审计流程的实际效果与落地边界。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
+      "reader_url": "https://news.ycombinator.com/item?id=50175779&hn_hot_date=2026-10-22",
+      "image_url": null,
+      "author": {
+        "username": "dnw",
+        "name": "dnw",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-21T03:36:43",
+      "first_seen_at": "2026-10-22T00:51:13.412728",
+      "sub_category_label": null
+    },
+    {
       "id": 18849,
       "title": "APT组织滥用ARTEX AI框架攻破ConnectWise供应链",
       "original_title": "Chinese 🇨🇳 Storm-0940 weaponized the ARTEX agentic AI framework to compromise ConnectWise's supply chain, hitting 2,250+ tenants at machine speed and achieving privileged cloud acc",
@@ -123,6 +171,26 @@
       "published_at": "2026-10-21T20:02:45",
       "first_seen_at": "2026-10-21T20:12:21.014425",
       "sub_category_label": null
+    },
+    {
+      "id": 18962,
+      "title": "Cloudflare安全审计Agent技能获GitHub Trending关注",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2012 stars today",
+      "summary": "Cloudflare开源的security-audit-skill是一个面向coding agent的多阶段安全审计技能，支持独立验证和机器可读的审计结果输出，当前在GitHub获超3.6万Star。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 79.4,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做安全审计的团队值得关注，Cloudflare的agent skill支持机器可读输出便于流水线集成，star数说明社区认可度高，可直接试用或参考其实现。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-22&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-22&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-14T19:29:02",
+      "first_seen_at": "2026-10-22T00:58:01.983984",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 18823,
@@ -172,81 +240,6 @@
       "published_at": "2026-10-21T14:03:43",
       "first_seen_at": "2026-10-21T15:05:31.020764",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 17994,
-      "title": "MFSMAI Sentinel：针对BNB链AI交易的安全Agent",
-      "original_title": "Introducing MFSMAI Sentinel: a security agent for BNB Chain.  AI agents and trading bots now buy tokens and pay other agents without a human in the loop. One bad counterparty, hone",
-      "summary": "针对BNB链上AI Agent无人工干预交易面临的蜜罐和恶意对手风险，推出安全Agent Sentinel，通过模拟交易、合约风险检测和钱包信誉评估提供风险评分，并支持API直接集成作为交易前置风控。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.98,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "从事区块链安全或Agent自动化交易的团队该看。它揭示了Agent间自主交易的新型攻击面，可直接调用API作为防骗闸门，避免资金被恶意合约或假Agent骗走。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Audit_mfsmai/status/2112549067922256100",
-      "reader_url": "https://x.com/Audit_mfsmai/status/2112549067922256100",
-      "image_url": null,
-      "author": {
-        "username": "Audit_mfsmai",
-        "name": "MFSMAI🤖 Middle Finger Stick Man AI",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-20T14:18:41",
-      "first_seen_at": "2026-10-21T15:00:49.385816",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 18919,
-      "title": "Storm-0940 组织武器化 AI 渗透框架 ARTEX 发起供应链攻击",
-      "original_title": "China state-aligned threat actor Storm-0940 weaponized the open-source agentic AI penetration testing framework ARTEX to conduct a large-scale supply chain compromise via ConnectWi",
-      "summary": "Storm-0940 利用开源 Agentic AI 渗透测试框架 ARTEX 对 ConnectWise 发起供应链攻击，在 3 小时内实现特权云持久化，标志 AI 攻击框架首次在实战中达到机器速度。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_agent",
-      "score_total": 76.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "防守团队必须警惕：攻击者已将 AI 渗透框架实战化并压缩了攻击时间线，基于人工响应的检测机制正在失效。需立即评估防御节奏与 Agent 化攻击的时间差。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AtMapshock/status/2113055381358342457",
-      "reader_url": "https://x.com/AtMapshock/status/2113055381358342457",
-      "image_url": "https://pbs.twimg.com/media/HVMUqewWEAAHVmd.jpg",
-      "author": {
-        "username": "AtMapshock",
-        "name": "M@Mapshock",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-21T23:50:36",
-      "first_seen_at": "2026-10-22T00:07:47.764648",
-      "sub_category_label": null
-    },
-    {
-      "id": 18888,
-      "title": "Storm-0940 利用 AI 渗透框架 ARTEX 自动化攻击全球数百组织",
-      "original_title": "“As early as September 2026, Storm-0940, a China-state aligned actor, used the agentic AI penetration testing framework ARTEX to automate attacks targeting hundreds of organization",
-      "summary": "Storm-0940 组织使用 agentic AI 渗透测试框架 ARTEX 对全球数百个组织发起自动化攻击，部分攻击在 3 小时内即获取云基础设施特权访问。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 76.01,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻击者已将 AI 驱动的自动化渗透 Agent 实战化并展现出极快的突破速度，安全团队必须重新评估现有防御体系的响应时效，高度关注此类攻击框架的演进。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/theobearman/status/2113009642787717434",
-      "reader_url": "https://x.com/theobearman/status/2113009642787717434",
-      "image_url": null,
-      "author": {
-        "username": "theobearman",
-        "name": "Theo Bearman",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-21T20:48:51",
-      "first_seen_at": "2026-10-21T21:21:45.371802",
-      "sub_category_label": null
     }
   ]
 }
