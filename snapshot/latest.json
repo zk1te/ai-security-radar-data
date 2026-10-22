@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T11:46:22+08:00",
+  "updated_at": "2026-10-22T12:16:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -218,29 +218,29 @@
       "sub_category_label": null
     },
     {
-      "id": 18888,
-      "title": "Storm-0940 利用 AI 渗透框架 ARTEX 自动化攻击全球数百组织",
-      "original_title": "“As early as September 2026, Storm-0940, a China-state aligned actor, used the agentic AI penetration testing framework ARTEX to automate attacks targeting hundreds of organization",
-      "summary": "Storm-0940 组织使用 agentic AI 渗透测试框架 ARTEX 对全球数百个组织发起自动化攻击，部分攻击在 3 小时内即获取云基础设施特权访问。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 76.01,
+      "id": 19033,
+      "title": "Storm-0940 滥用开源 AI 渗透框架 ARTEX 袭击逾 2250 个组织",
+      "original_title": "China-linked hackers used an AI tool to try breaking into more than 2,250 organizations, at up to 2,900 login attempts per minute. Defenders barely had time to react.  Microsoft sa",
+      "summary": "中国相关黑客组织 Storm-0940 使用开源 AI 渗透测试框架 ARTEX 自动化攻击 ConnectWise 云备份服务，以每分钟 2900 次的登录尝试侵入逾 2250 个组织的 M365 环境，并绕过 MFA 获取特权访问。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_intel",
+      "score_total": 76.18,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "攻击者已将 AI 驱动的自动化渗透 Agent 实战化并展现出极快的突破速度，安全团队必须重新评估现有防御体系的响应时效，高度关注此类攻击框架的演进。",
+      "recommendation_reason": "防御方需警惕 AI 渗透工具在实战中的机器级速度与权限滥用能力，这标志着 AI 驱动的自动化攻击已进入主流威胁格局。红蓝双方应评估 ARTEX 等开源 AI 攻击框架的自动化水平并调整检测响应策略。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/theobearman/status/2113009642787717434",
-      "reader_url": "https://x.com/theobearman/status/2113009642787717434",
-      "image_url": null,
+      "canonical_url": "https://x.com/Unveiled_ChinaX/status/2113112893843701906",
+      "reader_url": "https://x.com/Unveiled_ChinaX/status/2113112893843701906",
+      "image_url": "https://pbs.twimg.com/media/HVNI-ksbEAE0S7k.png",
       "author": {
-        "username": "theobearman",
-        "name": "Theo Bearman",
+        "username": "Unveiled_ChinaX",
+        "name": "UnveiledChina",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-21T20:48:51",
-      "first_seen_at": "2026-10-21T21:21:45.371802",
-      "sub_category_label": null
+      "published_at": "2026-10-22T03:39:08",
+      "first_seen_at": "2026-10-22T04:02:12.347814",
+      "sub_category_label": "威胁情报"
     }
   ]
 }
