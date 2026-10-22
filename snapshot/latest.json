@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T06:21:37+08:00",
+  "updated_at": "2026-10-23T07:21:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,6 +23,31 @@
       "published_at": "2026-10-22T07:42:44",
       "first_seen_at": "2026-10-22T11:49:26.431649",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 19670,
+      "title": "全球AI辅助黑客攻击活动实战架构深度剖析",
+      "original_title": "#threatreport #LowCompleteness Inside a Global AI-Assisted Hacking Campaign | 21-10-2026 Source: https://t.co/mEsrYlZjS7 Key details below ↓  💀Threats: Artex_tool, Nmap_tool, Sqlma",
+      "summary": "ThreatLabz披露一起全球AI辅助黑客活动，攻击者利用ARTEX框架结合DeepSeek、GLM等模型，采用planner-worker架构执行自动化渗透并窃取金融数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "实战红队和威胁狩猎团队必看。文章清晰展示了攻击者如何构建多模型协作（DeepSeek挖洞/GLM复核）和跨会话持久化的渗透Agent，防御方需警惕高度自动化的AI攻击流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rst_cloud/status/2113403141613916271",
+      "reader_url": "https://x.com/rst_cloud/status/2113403141613916271",
+      "image_url": "https://pbs.twimg.com/media/HVRQ9OsW0AAmoXn.jpg",
+      "author": {
+        "username": "rst_cloud",
+        "name": "RST Cloud",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T22:52:28",
+      "first_seen_at": "2026-10-22T22:55:42.708924",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 19609,
@@ -150,6 +175,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 19666,
+      "title": "日本企业攻击事件确认使用中国制AI漏洞挖掘工具ARTEX",
+      "original_title": "🤖 日本企業への不正アクセスで、中国製のAIツール「ARTEX」の使用を確認（10/20報道）  GMOの調査で、攻撃に使われたサーバーからARTEXを確認。脆弱性をAIが自動で探すツールです。新たに6台の攻撃拠点を発見。、1つの拠点だけで日本企業約20社が標的で、TBSは「約80社が標的」と伝えました。 ⚠ 攻撃者の特定はできていません。日本での攻撃にもA",
+      "summary": "GMO调查发现针对日本企业的攻击服务器上留有中国开发的AI渗透测试工具ARTEX痕迹，该工具可自动发现漏洞。已发现6个新攻击节点，单个节点即针对约20家企业，TBS报道称约80家企业被攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 71.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec从业者必看——攻击者已在实战中使用AI漏洞挖掘工具，标志AI辅助攻击从理论走向现实。防御方需重新评估威胁模型，警惕AI加速漏洞发现带来的暴露面扩大风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jpsharada/status/2113398974358909389",
+      "reader_url": "https://x.com/jpsharada/status/2113398974358909389",
+      "image_url": null,
+      "author": {
+        "username": "jpsharada",
+        "name": "ℵ ᴷᴵᵞᵁˢᴬᴹᴬ ℵ",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T22:35:55",
+      "first_seen_at": "2026-10-22T22:55:06.321322",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 19405,
       "title": "AI辅助发现PHP RCE遭在野利用，AI供应链投毒频发",
       "original_title": "Sources and the arithmetic behind every rounded number.  1️⃣ W3Techs, server side languages, 22 Oct 2026.  PHP 69.3% of sites whose server language is known.  Among PHP sites: vers",
@@ -198,56 +248,6 @@
       "published_at": "2026-10-22T17:58:00",
       "first_seen_at": "2026-10-22T18:08:55.899638",
       "sub_category_label": null
-    },
-    {
-      "id": 19486,
-      "title": "韩国银行遭AI渗透工具ARTEX攻击及LiteLLM供应链投毒事件",
-      "original_title": "CONTAGION It travels in what we carry.  Rome, 1656. The plague is in the city, and Paul Fürst prints a figure in Nuremberg: Der Doctor Schnabel von Rom. A beaked mask stuffed with ",
-      "summary": "黑客使用AI渗透测试工具ARTEX攻击韩国金融机构致10万条记录泄露；同日Python库LiteLLM遭供应链投毒，被植入后门窃取机密信息。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent | ai_supply_chain",
-      "score_total": 68.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "需警惕AI安全工具被武器化，渗透测试Agent的权限边界控制和开源库供应链投毒的实时检测，是当前防守方最紧迫的防线。安全团队应立即审查内部使用的AI测试工具权限及Python依赖链。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Cloudman176/status/2113310313584251292",
-      "reader_url": "https://x.com/Cloudman176/status/2113310313584251292",
-      "image_url": "https://pbs.twimg.com/media/HVP8h5baUAIuQj8.jpg",
-      "author": {
-        "username": "Cloudman176",
-        "name": "𝘾𝙡𝙤𝙪𝙙𝙢𝙖𝙣",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T16:43:36",
-      "first_seen_at": "2026-10-22T16:48:49.870493",
-      "sub_category_label": null
-    },
-    {
-      "id": 19572,
-      "title": "Fortinet 用 AI 测试发现全线产品重大漏洞",
-      "original_title": "【告急 ⚠️】如果你正在使用 Fortinet 的網絡硬體，只能說算你衰，立即落床返公司吧。Fortinet 剛剛 (23 日) 向全球客戶發出緊急警報，旗下近乎所有核心產品均需要立即更新，包括 FortiGate 防火牆、FortiManager 集中管理設備、FortiAnalyzer 日誌分析與報告設備、FortiMail 電郵安全網閘設備，以及 Fo",
-      "summary": "Fortinet 宣布通过前沿 AI 安全测试发现了旗下几乎所有核心产品（含 FortiOS 等）的致命漏洞，并罕见要求客户在数小时内紧急修补以防 Patch Diffing 武器化攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 68.51,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全大厂用 AI 挖漏洞已进入实战阶段，AI 漏洞挖掘已能直接撼动安全产品供应链。安全团队不仅需立刻响应此补丁，更应密切关注 AI 在内部代码审计的落地效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hkepcmedia/status/2113329688806568439",
-      "reader_url": "https://x.com/hkepcmedia/status/2113329688806568439",
-      "image_url": "https://pbs.twimg.com/media/HVQOJSwakAAyGoP.jpg",
-      "author": {
-        "username": "hkepcmedia",
-        "name": "HKEPC",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T18:00:36",
-      "first_seen_at": "2026-10-22T18:32:05.221922",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
