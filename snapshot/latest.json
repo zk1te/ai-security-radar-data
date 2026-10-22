@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T21:18:37+08:00",
+  "updated_at": "2026-10-23T01:19:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 19268,
@@ -62,31 +62,6 @@
       "author": null,
       "published_at": "2026-10-22T04:00:00",
       "first_seen_at": "2026-10-22T07:20:33.464232",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 19048,
-      "title": "微软情报：Storm-0940 使用 AI 渗透框架 ARTEX 自动化攻击",
-      "original_title": "RT @MsftSecIntel: The China state-aligned threat actor Storm-0940 used the agentic AI penetration testing framework ARTEX to automate attac…",
-      "summary": "微软安全情报指出，与中国相关的威胁组织 Storm-0940 使用了名为 ARTEX 的代理式 AI 渗透测试框架来自动化攻击流程。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 83.91,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "APT 组织在野使用 AI 渗透框架标志着攻击侧自动化能力正在实战化。安全团队需密切关注 ARTEX 框架细节，评估现有防御体系对 AI 自动化攻击的抵御能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2113094206281461800",
-      "reader_url": "https://x.com/HackingLZ/status/2113094206281461800",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-10-22T02:24:52",
-      "first_seen_at": "2026-10-22T05:11:10.315640",
       "sub_category_label": "安全Agent"
     },
     {
