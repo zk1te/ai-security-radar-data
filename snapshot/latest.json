@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T16:17:55+08:00",
+  "updated_at": "2026-10-22T18:18:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 19268,
@@ -156,6 +156,31 @@
       "published_at": "2026-09-14T19:29:02",
       "first_seen_at": "2026-10-22T00:58:01.983984",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 19323,
+      "title": "Storm-0940 使用 AI 框架 ARTEX 发起全球供应链攻击",
+      "original_title": "🚨 China-Linked Storm-0940 Used AI Tool ARTEX in Global Supply-Chain Attack — and Japan’s Recent Data Leak Wave May Be Connected  Microsoft has attributed a large-scale AI-driven su",
+      "summary": "微软披露中国背景黑客组织 Storm-0940 利用开源 AI 渗透框架 ARTEX 对 ConnectWise 发起供应链攻击，波及日本约 80 家企业及韩国银行。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 76.85,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "威胁情报显示 AI 渗透测试框架已进入实战在野利用阶段。安全团队需警惕攻击者使用自动化 AI Agent 提升攻击效率，并评估自身防御 AI 驱动攻击的能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/hana87_day/status/2113200801791586606",
+      "reader_url": "https://x.com/hana87_day/status/2113200801791586606",
+      "image_url": null,
+      "author": {
+        "username": "hana87_day",
+        "name": "こゆき🍀KOYUKI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T09:28:27",
+      "first_seen_at": "2026-10-22T09:55:21.883703",
+      "sub_category_label": null
     }
   ]
 }
