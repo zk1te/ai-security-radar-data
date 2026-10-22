@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T13:16:55+08:00",
+  "updated_at": "2026-10-22T14:17:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 18839,
@@ -23,6 +23,26 @@
       "published_at": "2026-10-21T18:41:53",
       "first_seen_at": "2026-10-21T19:43:44.175974",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 19101,
+      "title": "商业EDR自主防御Agent评估框架",
+      "original_title": "Closing the Sim-to-Real Gap: An Evaluation Framework for Autonomous Cyber Defense Configuration of Commercial EDR",
+      "summary": "该论文提出首个评估大模型驱动的自主防御Agent配置商业EDR的框架，使用NodeZero和主流EDR进行测试，揭示了自动化防御中的仿真与现实差距。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 86.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "搞自动化防御或安全Agent的必看避坑指南。论文直接点出用大模型调优商业EDR的三个大坑：遥测不准、动作难归因、EDR行为不确定。现在不看，落地时就是纯踩雷。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2606.08168",
+      "reader_url": "https://arxiv.org/pdf/2606.08168",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T04:00:00",
+      "first_seen_at": "2026-10-22T06:04:13.582410",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 18957,
@@ -191,56 +211,6 @@
       "published_at": "2026-09-14T19:29:02",
       "first_seen_at": "2026-10-22T00:58:01.983984",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 18823,
-      "title": "Storm-0940利用AI渗透框架ARTEX自动化攻击，3小时获取云权限",
-      "original_title": "Storm-0940, a China-state aligned actor, used the agentic AI penetration testing framework ARTEX to automate attacks targeting hundreds of organizations globally across a broad ran",
-      "summary": "中国背景组织 Storm-0940 使用 ARTEX Agentic AI 渗透测试框架自动化攻击全球数百个组织，在 3 小时内获取云基础设施特权，并疑似发起 ConnectWise 供应链攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.67,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻击者将 AI 渗透框架武器化并在实战中实现了 3 小时拿特权访问。防御团队需立刻跟进 ARTEX 框架特征与 ConnectWise 供应链事件的 IoC，警惕 AI 自动化攻击带来的攻防时间差压缩。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cglyer/status/2112975854989176841",
-      "reader_url": "https://x.com/cglyer/status/2112975854989176841",
-      "image_url": null,
-      "author": {
-        "username": "cglyer",
-        "name": "Christopher Glyer",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-21T18:34:35",
-      "first_seen_at": "2026-10-21T19:04:04.416064",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 18919,
-      "title": "Storm-0940 组织武器化 AI 渗透框架 ARTEX 发起供应链攻击",
-      "original_title": "China state-aligned threat actor Storm-0940 weaponized the open-source agentic AI penetration testing framework ARTEX to conduct a large-scale supply chain compromise via ConnectWi",
-      "summary": "Storm-0940 利用开源 Agentic AI 渗透测试框架 ARTEX 对 ConnectWise 发起供应链攻击，在 3 小时内实现特权云持久化，标志 AI 攻击框架首次在实战中达到机器速度。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_agent",
-      "score_total": 76.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "防守团队必须警惕：攻击者已将 AI 渗透框架实战化并压缩了攻击时间线，基于人工响应的检测机制正在失效。需立即评估防御节奏与 Agent 化攻击的时间差。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AtMapshock/status/2113055381358342457",
-      "reader_url": "https://x.com/AtMapshock/status/2113055381358342457",
-      "image_url": "https://pbs.twimg.com/media/HVMUqewWEAAHVmd.jpg",
-      "author": {
-        "username": "AtMapshock",
-        "name": "M@Mapshock",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-21T23:50:36",
-      "first_seen_at": "2026-10-22T00:07:47.764648",
-      "sub_category_label": null
     }
   ]
 }
