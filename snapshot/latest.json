@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-22T15:47:48+08:00",
+  "updated_at": "2026-10-22T16:17:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 19268,
@@ -135,31 +135,6 @@
       },
       "published_at": "2026-10-21T03:36:43",
       "first_seen_at": "2026-10-22T00:51:13.412728",
-      "sub_category_label": null
-    },
-    {
-      "id": 18849,
-      "title": "APT组织滥用ARTEX AI框架攻破ConnectWise供应链",
-      "original_title": "Chinese 🇨🇳 Storm-0940 weaponized the ARTEX agentic AI framework to compromise ConnectWise's supply chain, hitting 2,250+ tenants at machine speed and achieving privileged cloud acc",
-      "summary": "Storm-0940组织武器化开源多Agent渗透测试框架ARTEX，自动化攻破ConnectWise供应链，3小时内获取特权云访问并影响超2250个租户。报告披露了详细的IOC、MITRE ATT&CK技术及KQL狩猎指南。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 80.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "实战化红队AI Agent被APT组织武器化并用于供应链攻击，防守方必须立即根据报告排查Entra日志中的异常OAuth活动。这标志着AI安全工具从研究演示正式进入实战攻防阶段。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2112998042290843968",
-      "reader_url": "https://x.com/DFIR_Radar/status/2112998042290843968",
-      "image_url": "https://pbs.twimg.com/media/HVLghPNXkAA6D8M.jpg",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-21T20:02:45",
-      "first_seen_at": "2026-10-21T20:12:21.014425",
       "sub_category_label": null
     },
     {
