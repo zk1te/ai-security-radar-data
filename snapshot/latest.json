@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-10-23T07:21:42+08:00",
+  "updated_at": "2026-10-23T07:51:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 19367,
-      "title": "OpenAI 使用 GPT-5.6 发现 PHP 核心高危漏洞",
-      "original_title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-      "summary": "OpenAI 的 Patch the Planet 项目利用 GPT-5.6 Sol 发现了影响 70% 网站的 PHP2Shell 核心漏洞，并主导了长达两个月的协同修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 81.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这起事件标志着 AI 辅助漏洞挖掘正加速进军底层基础设施。安全团队应密切跟踪前沿大模型在 0day 发现上的实战效果及由此引发的防御响应链路变化。",
-      "source_id": "latent-space",
-      "canonical_url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
-      "reader_url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-22T07:42:44",
-      "first_seen_at": "2026-10-22T11:49:26.431649",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 19670,
       "title": "全球AI辅助黑客攻击活动实战架构深度剖析",
@@ -247,6 +227,31 @@
       },
       "published_at": "2026-10-22T17:58:00",
       "first_seen_at": "2026-10-22T18:08:55.899638",
+      "sub_category_label": null
+    },
+    {
+      "id": 19486,
+      "title": "韩国银行遭AI渗透工具ARTEX攻击及LiteLLM供应链投毒事件",
+      "original_title": "CONTAGION It travels in what we carry.  Rome, 1656. The plague is in the city, and Paul Fürst prints a figure in Nuremberg: Der Doctor Schnabel von Rom. A beaked mask stuffed with ",
+      "summary": "黑客使用AI渗透测试工具ARTEX攻击韩国金融机构致10万条记录泄露；同日Python库LiteLLM遭供应链投毒，被植入后门窃取机密信息。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent | ai_supply_chain",
+      "score_total": 68.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "需警惕AI安全工具被武器化，渗透测试Agent的权限边界控制和开源库供应链投毒的实时检测，是当前防守方最紧迫的防线。安全团队应立即审查内部使用的AI测试工具权限及Python依赖链。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Cloudman176/status/2113310313584251292",
+      "reader_url": "https://x.com/Cloudman176/status/2113310313584251292",
+      "image_url": "https://pbs.twimg.com/media/HVP8h5baUAIuQj8.jpg",
+      "author": {
+        "username": "Cloudman176",
+        "name": "𝘾𝙡𝙤𝙪𝙙𝙢𝙖𝙣",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T16:43:36",
+      "first_seen_at": "2026-10-22T16:48:49.870493",
       "sub_category_label": null
     }
   ]
