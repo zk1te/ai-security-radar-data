@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T19:29:12+08:00",
+  "updated_at": "2026-10-23T19:59:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -43,6 +43,26 @@
       "published_at": "2026-10-23T04:00:00",
       "first_seen_at": "2026-10-23T08:12:22.389603",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 20188,
+      "title": "Claude-Red：为 Claude 打造的红队攻击技能库冲榜",
+      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 209 stars today",
+      "summary": "开源项目 Claude-Red 提供结构化的 SKILL.md 文件，引导 Claude 掌握从 SQLi 到 EDR 规避的专家级攻击方法论，近期在 GitHub 日增 200+ 星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 86.22,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透人员值得关注：它展示了如何利用 Claude Skills 机制将大模型武装为具体攻击助手。可拉取代码研究其 prompt 结构，学习如何引导 LLM 执行复杂安全任务。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-10-23&since=daily",
+      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-10-23&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-23T11:28:07.901185",
+      "first_seen_at": "2026-10-23T11:29:59.085582",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 19690,
@@ -187,31 +207,6 @@
       "published_at": "2026-10-22T23:39:29",
       "first_seen_at": "2026-10-23T00:01:44.380516",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 19997,
-      "title": "AWS 发布官方 Claude Code 安全插件，支持漏洞扫描与渗透测试",
-      "original_title": "AWS released an official Claude Code plugin that connects your coding agent to AWS Security Agent and AWS DevOps Agent.  What your agent can do with it: → scan your whole codebase ",
-      "summary": "AWS 面向 Claude Code 发布 DevSecOps 插件，可将编码 Agent 对接 AWS Security Agent，实现代码漏洞扫描、STRIDE 威胁建模、实时端点渗透测试及自动修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全开发和 AppSec 团队应立即关注，这是大厂将 AI 安全 Agent 深度嵌入开发流程的标志性落地。可直接试用该插件评估其漏洞挖掘和威胁建模实际效果，判断是否适合引入现有 CI/CD 流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RoundtableSpace/status/2113529606238294157",
-      "reader_url": "https://x.com/RoundtableSpace/status/2113529606238294157",
-      "image_url": null,
-      "author": {
-        "username": "RoundtableSpace",
-        "name": "0xMarioNawfal - The Roundtable Show",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T07:15:00",
-      "first_seen_at": "2026-10-23T07:25:09.142810",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
