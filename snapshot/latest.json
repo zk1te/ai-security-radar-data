@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T05:34:20+08:00",
+  "updated_at": "2026-10-24T06:34:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -140,6 +140,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 20453,
+      "title": "Agentic无线Fuzzing工具5uGUE在联发科与紫光展锐上确认46个DoS漏洞",
+      "original_title": "This is #5uGUE speaking - a Hardware-in-the-loop, Agentic Wireless Fuzzing. 46 confirmed, reproducible DoS on @MediaTek @UNISOCTech with 2 new, high-severity DoS. Watch this space.",
+      "summary": "硬件在环的Agentic无线Fuzzing工具5uGUE在MediaTek和UNISOC芯片上确认了46个可复现DoS漏洞，其中2个为新高危漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 76.66,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "基带与嵌入式安全研究者必看：Agentic Fuzzing在无线协议栈上跑出46个真实DoS，说明AI Fuzzing正从实验走向实战。关注其硬件在环方法能否迁移到你的测试流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/chatsudi/status/2113751657498755578",
+      "reader_url": "https://x.com/chatsudi/status/2113751657498755578",
+      "image_url": "https://pbs.twimg.com/media/HVWMtASXsAAD2V8.jpg",
+      "author": {
+        "username": "chatsudi",
+        "name": "Sudipta",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-23T21:57:21",
+      "first_seen_at": "2026-10-23T22:24:32.610803",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 20252,
       "title": "Claude 证明 123 个开源库无崩溃，AI 形式化验证替代 Fuzzing",
       "original_title": "They stopped hunting crashes with random inputs. They started proving there aren't any left to find.  On Oct 22, Anthropic published research: Claude proved that 123 open-source li",
@@ -213,31 +238,6 @@
       "published_at": "2026-10-23T13:36:43",
       "first_seen_at": "2026-10-23T13:45:40.355739",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 20317,
-      "title": "多智能体自主渗透测试系统 ARTEX",
-      "original_title": "Chaining recon into exploitation is easy. Keeping every asset and finding straight is the hard part.  ARTEX is an AI autonomous penetration testing system built as a multi-agent LL",
-      "summary": "ARTEX 是一款基于多智能体 LLM 的自主渗透测试系统，通过共享资产图与探索图串联侦察与利用，支持人工审批与全流量记录。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "面向红队和渗透测试人员。该工具将多 Agent 协同与资产管理结合，内置人工审核和流量录制，可作为自动化红队工具链评估或二次开发的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/read__the__diff/status/2113672226742423904",
-      "reader_url": "https://x.com/read__the__diff/status/2113672226742423904",
-      "image_url": "https://pbs.twimg.com/media/HVVFqe8XMAAmUpw.jpg",
-      "author": {
-        "username": "read__the__diff",
-        "name": "Read the Diff",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T16:41:43",
-      "first_seen_at": "2026-10-23T16:59:23.280040",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
