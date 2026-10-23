@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T16:26:26+08:00",
+  "updated_at": "2026-10-23T18:58:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -88,31 +88,6 @@
       "published_at": "2026-10-22T22:01:06",
       "first_seen_at": "2026-10-23T00:35:08.562591",
       "sub_category_label": null
-    },
-    {
-      "id": 19670,
-      "title": "全球AI辅助黑客攻击活动实战架构深度剖析",
-      "original_title": "#threatreport #LowCompleteness Inside a Global AI-Assisted Hacking Campaign | 21-10-2026 Source: https://t.co/mEsrYlZjS7 Key details below ↓  💀Threats: Artex_tool, Nmap_tool, Sqlma",
-      "summary": "ThreatLabz披露一起全球AI辅助黑客活动，攻击者利用ARTEX框架结合DeepSeek、GLM等模型，采用planner-worker架构执行自动化渗透并窃取金融数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 80.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "实战红队和威胁狩猎团队必看。文章清晰展示了攻击者如何构建多模型协作（DeepSeek挖洞/GLM复核）和跨会话持久化的渗透Agent，防御方需警惕高度自动化的AI攻击流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2113403141613916271",
-      "reader_url": "https://x.com/rst_cloud/status/2113403141613916271",
-      "image_url": "https://pbs.twimg.com/media/HVRQ9OsW0AAmoXn.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T22:52:28",
-      "first_seen_at": "2026-10-22T22:55:42.708924",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 19899,
@@ -212,6 +187,31 @@
       "published_at": "2026-10-23T07:15:00",
       "first_seen_at": "2026-10-23T07:25:09.142810",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 19815,
+      "title": "Claude 对 123 个开源库完成形式化验证并修复长期遗漏漏洞",
+      "original_title": "Anthropic says Claude formally verified 239 entry points across 123 open-source libraries, with machine-checked proofs of no memory-safety faults for inputs under 64 MB.  Claude al",
+      "summary": "Anthropic 宣布 Claude 已对 123 个开源库的 239 个入口点完成机器检查的形式化验证，证明 64MB 输入下无内存安全缺陷，并修复了多年 fuzzing 未发现的漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 辅助形式化验证在真实开源项目中取得实质性突破，安全团队和开源维护者应密切关注 AI 在代码审计与漏洞挖掘中的能力边界，评估将其引入工作流的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/chrimtech/status/2113486574163800194",
+      "reader_url": "https://x.com/chrimtech/status/2113486574163800194",
+      "image_url": null,
+      "author": {
+        "username": "chrimtech",
+        "name": "ChrimTech",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-23T04:24:00",
+      "first_seen_at": "2026-10-23T04:36:13.047845",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
