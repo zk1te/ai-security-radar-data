@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T00:02:23+08:00",
+  "updated_at": "2026-10-24T03:03:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -105,31 +105,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 19899,
-      "title": "ARTEX 自主 AI 渗透代理被用于实战供应链攻击",
-      "original_title": "Storm-0940 is deploying ARTEX, a Chinese-developed autonomous AI pentesting agent, against IT and software vendors throughout October 2026, targeting Okta, Entra ID, and AWS Cognit",
-      "summary": "Storm-0940 组织部署开源自主 AI 渗透代理 ARTEX，针对 IT 和软件供应商的 Okta、Entra ID 及 AWS Cognito 进行自动化侦察、SSO 漏洞探测与密码喷洒，疑似为供应链攻击做准备。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 自主渗透代理已被 APT 组织实战武器化，实现全自动链式攻击。蓝队需立即排查身份提供商日志中的高频密码喷洒及顺序访问 `.js.map` 的侦察特征。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2113511914609508639",
-      "reader_url": "https://x.com/DFIR_Radar/status/2113511914609508639",
-      "image_url": "https://pbs.twimg.com/media/HVSz4meaIAAJ7PO.jpg",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T06:04:42",
-      "first_seen_at": "2026-10-23T06:37:34.309193",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 20181,
       "title": "Storm-0940 利用 AI 渗透框架 ARTEX 攻破 2,250 个 M365 租户",
       "original_title": "Chinese 🇨🇳 Storm-0940 used AI pentesting framework ARTEX to compromise 2,250 Microsoft 365 tenants via a ConnectWise supply chain breach, achieving privileged cloud access in under",
@@ -203,6 +178,31 @@
       "published_at": "2026-10-23T13:36:43",
       "first_seen_at": "2026-10-23T13:45:40.355739",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 20317,
+      "title": "多智能体自主渗透测试系统 ARTEX",
+      "original_title": "Chaining recon into exploitation is easy. Keeping every asset and finding straight is the hard part.  ARTEX is an AI autonomous penetration testing system built as a multi-agent LL",
+      "summary": "ARTEX 是一款基于多智能体 LLM 的自主渗透测试系统，通过共享资产图与探索图串联侦察与利用，支持人工审批与全流量记录。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "面向红队和渗透测试人员。该工具将多 Agent 协同与资产管理结合，内置人工审核和流量录制，可作为自动化红队工具链评估或二次开发的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/read__the__diff/status/2113672226742423904",
+      "reader_url": "https://x.com/read__the__diff/status/2113672226742423904",
+      "image_url": "https://pbs.twimg.com/media/HVVFqe8XMAAmUpw.jpg",
+      "author": {
+        "username": "read__the__diff",
+        "name": "Read the Diff",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-23T16:41:43",
+      "first_seen_at": "2026-10-23T16:59:23.280040",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
