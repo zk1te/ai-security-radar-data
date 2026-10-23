@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T03:03:08+08:00",
+  "updated_at": "2026-10-24T03:33:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -130,6 +130,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 20386,
+      "title": "AI 渗透工具 ARTEX 被用于自动化攻击电商支付应用",
+      "original_title": "🚨 ReliaQuest has observed operators using ARTEX, a publicly available AI-driven penetration-testing console, to automate attacks against internet-facing e-commerce and payment appl",
+      "summary": "ReliaQuest 发现攻击者使用公开的 AI 驱动渗透测试控制台 ARTEX，自动化链式利用 API 密钥泄露和文件上传等漏洞，数小时内即可完成 Web Shell 部署、数据窃取及横向移动。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全运营和威胁狩猎团队必看。文章给出了 ARTEX 的具体 IoC 指标和攻击链路，可立即用于更新 WAF 规则和监控策略，防范 AI 自动化攻击工具的实战滥用。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ReliaQuestTR/status/2113704822645932473",
+      "reader_url": "https://x.com/ReliaQuestTR/status/2113704822645932473",
+      "image_url": null,
+      "author": {
+        "username": "ReliaQuestTR",
+        "name": "ReliaQuest Threat Research",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-23T18:51:15",
+      "first_seen_at": "2026-10-23T19:09:40.786181",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 20252,
       "title": "Claude 证明 123 个开源库无崩溃，AI 形式化验证替代 Fuzzing",
       "original_title": "They stopped hunting crashes with random inputs. They started proving there aren't any left to find.  On Oct 22, Anthropic published research: Claude proved that 123 open-source li",
@@ -178,31 +203,6 @@
       "published_at": "2026-10-23T13:36:43",
       "first_seen_at": "2026-10-23T13:45:40.355739",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 20317,
-      "title": "多智能体自主渗透测试系统 ARTEX",
-      "original_title": "Chaining recon into exploitation is easy. Keeping every asset and finding straight is the hard part.  ARTEX is an AI autonomous penetration testing system built as a multi-agent LL",
-      "summary": "ARTEX 是一款基于多智能体 LLM 的自主渗透测试系统，通过共享资产图与探索图串联侦察与利用，支持人工审批与全流量记录。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "面向红队和渗透测试人员。该工具将多 Agent 协同与资产管理结合，内置人工审核和流量录制，可作为自动化红队工具链评估或二次开发的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/read__the__diff/status/2113672226742423904",
-      "reader_url": "https://x.com/read__the__diff/status/2113672226742423904",
-      "image_url": "https://pbs.twimg.com/media/HVVFqe8XMAAmUpw.jpg",
-      "author": {
-        "username": "read__the__diff",
-        "name": "Read the Diff",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T16:41:43",
-      "first_seen_at": "2026-10-23T16:59:23.280040",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
