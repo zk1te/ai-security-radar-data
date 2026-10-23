@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T14:54:24+08:00",
+  "updated_at": "2026-10-23T15:54:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -100,31 +100,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 19609,
-      "title": "国家级黑客组织滥用 AI 渗透框架 ARTEX 发起供应链攻击",
-      "original_title": "#threatreport #MediumCompleteness AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise | 21-10-2026 Source: https://t.co/bDjqDQOhEm Key details ",
-      "summary": "Storm-0940 组织利用开源多 Agent LLM 渗透框架 ARTEX 自动化侦察与密码喷射，在数小时内攻破云环境，影响上百家组织。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 攻防武器化的标志性事件。安全团队需警惕攻击者利用安全 Agent 大幅缩短攻击链路，防御端应立即审查 OAuth 和云服务主体验证日志，评估自动化攻击带来的响应时间压缩压力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2113350049258238308",
-      "reader_url": "https://x.com/rst_cloud/status/2113350049258238308",
-      "image_url": "https://pbs.twimg.com/media/HVQgq2kXIAAucC9.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T19:21:30",
-      "first_seen_at": "2026-10-22T19:40:24.968181",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 19707,
       "title": "HN 热议：使用 Claude 降低代码攻击面",
       "original_title": "HN Hot Discussion: Using Claude to reduce the attack surface of code",
@@ -172,6 +147,31 @@
       "published_at": "2026-10-22T23:39:29",
       "first_seen_at": "2026-10-23T00:01:44.380516",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 19997,
+      "title": "AWS 发布官方 Claude Code 安全插件，支持漏洞扫描与渗透测试",
+      "original_title": "AWS released an official Claude Code plugin that connects your coding agent to AWS Security Agent and AWS DevOps Agent.  What your agent can do with it: → scan your whole codebase ",
+      "summary": "AWS 面向 Claude Code 发布 DevSecOps 插件，可将编码 Agent 对接 AWS Security Agent，实现代码漏洞扫描、STRIDE 威胁建模、实时端点渗透测试及自动修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全开发和 AppSec 团队应立即关注，这是大厂将 AI 安全 Agent 深度嵌入开发流程的标志性落地。可直接试用该插件评估其漏洞挖掘和威胁建模实际效果，判断是否适合引入现有 CI/CD 流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RoundtableSpace/status/2113529606238294157",
+      "reader_url": "https://x.com/RoundtableSpace/status/2113529606238294157",
+      "image_url": null,
+      "author": {
+        "username": "RoundtableSpace",
+        "name": "0xMarioNawfal - The Roundtable Show",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-23T07:15:00",
+      "first_seen_at": "2026-10-23T07:25:09.142810",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 19815,
