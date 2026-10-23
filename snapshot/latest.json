@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T04:33:39+08:00",
+  "updated_at": "2026-10-24T05:34:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -165,6 +165,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 20425,
+      "title": "Anthropic 用 Claude 验证 123 个开源库发现深层漏洞",
+      "original_title": "Anthropic used Claude to formally verify 123 open-source libraries, writing ~180M lines of proof code in weeks instead of years and catching bugs that survived years of fuzzing. #A",
+      "summary": "Anthropic 使用 Claude 对 123 个开源库进行形式化验证，编写约 1.8 亿行证明代码，捕获了多年 Fuzzing 未发现的 Bug。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "适合漏洞研究员和开源安全团队。大模型在形式化验证上取得突破，能挖出 Fuzzing 遗漏的深层 Bug，需跟进其自动化证明方法以升级现有代码审计工具链。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Mr_Zain72/status/2113733837360361494",
+      "reader_url": "https://x.com/Mr_Zain72/status/2113733837360361494",
+      "image_url": "https://pbs.twimg.com/media/HVV9t94WoAAzdre.jpg",
+      "author": {
+        "username": "Mr_Zain72",
+        "name": "Zain Ul Abedeen",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-23T20:46:32",
+      "first_seen_at": "2026-10-23T21:18:26.340651",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 20253,
       "title": "Anthropic 用 Claude 证明 123 个开源库无崩溃漏洞",
       "original_title": "Le fuzzing cherche des bugs, une preuve montre qu'il n'y en a pas. Anthropic a fait prouver à Claude que 239 points d'entrée de 123 bibliothèques open source ne plantent sur aucune",
@@ -213,31 +238,6 @@
       "published_at": "2026-10-23T16:41:43",
       "first_seen_at": "2026-10-23T16:59:23.280040",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 20249,
-      "title": "攻击者使用 ARTEX AI 代理框架三小时内攻破云环境",
-      "original_title": "𝗔𝘁𝘁𝗮𝗰𝗸𝗲𝗿𝘀 𝗮𝗿𝗲 𝘂𝘀𝗶𝗻𝗴 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝘁𝗼𝗼, 𝗮𝗻𝗱 𝘁𝗵𝗲𝘆 𝗮𝗿𝗲 𝗳𝗮𝘀𝘁.  Microsoft tied last month's ConnectWise cloud backup compromise to a China-aligned group it tracks as Storm-0940.  According ",
-      "summary": "微软将 ConnectWise 云备份入侵归因于 Storm-0940 组织，该组织使用 AI 渗透框架 ARTEX 自动化侦察与 OAuth 滥用，不到三小时即获取特权云访问。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 73.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是首个公开的在野利用 AI Agent 进行自动化渗透的真实案例。安全团队需重新审视云身份暴露面与 OAuth 防护策略，应对自动化攻击带来的压缩时间窗口挑战。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/joejossy_12/status/2113622973475086784",
-      "reader_url": "https://x.com/joejossy_12/status/2113622973475086784",
-      "image_url": "https://pbs.twimg.com/media/HVUYuxGXUAAnOPF.jpg",
-      "author": {
-        "username": "joejossy_12",
-        "name": "Joe Joe",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T13:26:00",
-      "first_seen_at": "2026-10-23T13:45:05.174108",
-      "sub_category_label": null
     }
   ]
 }
