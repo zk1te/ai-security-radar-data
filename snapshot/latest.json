@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T18:58:45+08:00",
+  "updated_at": "2026-10-23T19:29:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -115,6 +115,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 20181,
+      "title": "Storm-0940 利用 AI 渗透框架 ARTEX 攻破 2,250 个 M365 租户",
+      "original_title": "Chinese 🇨🇳 Storm-0940 used AI pentesting framework ARTEX to compromise 2,250 Microsoft 365 tenants via a ConnectWise supply chain breach, achieving privileged cloud access in under",
+      "summary": "APT 组织 Storm-0940 使用开源 AI 渗透框架 ARTEX 协调 DeepSeek、GLM、Grok 等模型，通过 ConnectWise 供应链漏洞攻破 2,250 个 Microsoft 365 租户。AI 智能体在认证后自主执行 Graph 目录侦察和凭证持久化，攻击者每分钟发起 2,900 次尝试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 渗透 Agent 在真实 APT 攻击中的大规模实战首例——攻击者直接武器化开源安全工具。安全团队应立即审计 M365 服务主体凭证，并警惕 AI 安全工具的双刃剑效应。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DFIR_Radar/status/2113587715098746902",
+      "reader_url": "https://x.com/DFIR_Radar/status/2113587715098746902",
+      "image_url": "https://pbs.twimg.com/media/HVT40ucXkAAyQo8.jpg",
+      "author": {
+        "username": "DFIR_Radar",
+        "name": "DFIR Radar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-23T11:05:54",
+      "first_seen_at": "2026-10-23T11:29:00.440316",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 19707,
       "title": "HN 热议：使用 Claude 降低代码攻击面",
       "original_title": "HN Hot Discussion: Using Claude to reduce the attack surface of code",
@@ -187,31 +212,6 @@
       "published_at": "2026-10-23T07:15:00",
       "first_seen_at": "2026-10-23T07:25:09.142810",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 19815,
-      "title": "Claude 对 123 个开源库完成形式化验证并修复长期遗漏漏洞",
-      "original_title": "Anthropic says Claude formally verified 239 entry points across 123 open-source libraries, with machine-checked proofs of no memory-safety faults for inputs under 64 MB.  Claude al",
-      "summary": "Anthropic 宣布 Claude 已对 123 个开源库的 239 个入口点完成机器检查的形式化验证，证明 64MB 输入下无内存安全缺陷，并修复了多年 fuzzing 未发现的漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 辅助形式化验证在真实开源项目中取得实质性突破，安全团队和开源维护者应密切关注 AI 在代码审计与漏洞挖掘中的能力边界，评估将其引入工作流的可行性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/chrimtech/status/2113486574163800194",
-      "reader_url": "https://x.com/chrimtech/status/2113486574163800194",
-      "image_url": null,
-      "author": {
-        "username": "chrimtech",
-        "name": "ChrimTech",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T04:24:00",
-      "first_seen_at": "2026-10-23T04:36:13.047845",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
