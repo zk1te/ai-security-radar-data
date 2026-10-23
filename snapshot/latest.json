@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T20:29:20+08:00",
+  "updated_at": "2026-10-23T20:59:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -83,31 +83,6 @@
       "published_at": "2026-10-22T07:42:44",
       "first_seen_at": "2026-10-23T12:14:01.671232",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 19723,
-      "title": "Anthropic用Claude实现大规模软件形式化验证",
-      "original_title": "New on our Frontier Red Team blog: using Claude to formally verify software at large scale.  Formal verification can prove that code is free of certain bugs, but historically it ha",
-      "summary": "Anthropic 的 Frontier Red Team 与 Theorem Labs 合作，利用 Claude 在几周内对上百个真实开源库进行了形式化验证，证明了相关代码的安全属性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "formal_verification",
-      "score_total": 81.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者必看，大模型正大幅降低形式化验证的专家门槛，几周完成上百库的验证意味着 AI 辅助代码审计正走向工业级落地。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AnthropicAI/status/2113390212911083894",
-      "reader_url": "https://x.com/AnthropicAI/status/2113390212911083894",
-      "image_url": null,
-      "author": {
-        "username": "AnthropicAI",
-        "name": "Anthropic",
-        "avatar_url": null,
-        "followers_count": 1726748
-      },
-      "published_at": "2026-10-22T22:01:06",
-      "first_seen_at": "2026-10-23T00:35:08.562591",
-      "sub_category_label": null
     },
     {
       "id": 19899,
@@ -208,6 +183,31 @@
       "published_at": "2026-10-23T04:24:00",
       "first_seen_at": "2026-10-23T04:36:13.047845",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 20088,
+      "title": "Anthropic 用 Claude 形式化验证 123 个开源库",
+      "original_title": "Anthropic Used Claude to Formally Verify 123 Open-Source Libraries. What the Proofs Actually Cover",
+      "summary": "Anthropic 使用 Claude 模型对 123 个开源库进行了形式化验证，展示了大模型在代码安全验证领域的实际应用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 73.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大模型在形式化验证上的新进展，直接验证了 AI 辅助代码审计的可行性。安全团队和开源维护者应关注其验证效果和覆盖范围，评估是否可引入现有工作流。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Joshua_WD/status/2113540396051574795",
+      "reader_url": "https://x.com/Joshua_WD/status/2113540396051574795",
+      "image_url": null,
+      "author": {
+        "username": "Joshua_WD",
+        "name": "Josh Builds",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-23T07:57:52",
+      "first_seen_at": "2026-10-23T08:09:01.346116",
+      "sub_category_label": null
     }
   ]
 }
