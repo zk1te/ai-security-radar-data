@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-23T07:51:47+08:00",
+  "updated_at": "2026-10-23T08:21:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 19690,
+      "title": "Cloudflare开源安全审计Agent技能单日Star增长近3000",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2979 stars today",
+      "summary": "Cloudflare 开源的 security-audit-skill 是一种编码代理技能，支持多阶段安全审计并产出机器可读、独立验证的结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做安全审计和自动化检测的从业者该看。Cloudflare 出品的 Agent skill 为 AI 安全审计提供了可复用的工程范式，值得直接拉下来研究其多阶段验证机制。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-23&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-23&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-23T00:13:44.009731",
+      "first_seen_at": "2026-10-23T00:14:13.742184",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 19670,
       "title": "全球AI辅助黑客攻击活动实战架构深度剖析",
@@ -78,6 +98,31 @@
       "published_at": "2026-10-22T14:43:34",
       "first_seen_at": "2026-10-22T15:05:10.480243",
       "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 19685,
+      "title": "AI 模型自主发现两个 PHP 0day 漏洞",
+      "original_title": "A frontier AI model has independently discovered two previously unknown PHP vulnerabilities, tracked as CVE-2026-109618 and CVE-2026-109619, from a single open-ended prompt: \"find ",
+      "summary": "前沿 AI 模型仅凭一句提示词自主发现 PHP 两个未知漏洞（CVE-2026-109618/19），无需定向 Fuzzing 或人工引导，标志着漏洞挖掘已步入提示词级能力阶段。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 75.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "自主漏洞挖掘正从研究走向实战。安全团队需警惕漏洞披露窗口极速压缩，立即评估 AI 代码审计工具对自身代码库的威胁。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/VeduisWeb/status/2113414973234045054",
+      "reader_url": "https://x.com/VeduisWeb/status/2113414973234045054",
+      "image_url": null,
+      "author": {
+        "username": "VeduisWeb",
+        "name": "Veduis",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T23:39:29",
+      "first_seen_at": "2026-10-23T00:01:44.380516",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 19419,
@@ -155,6 +200,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 19683,
+      "title": "Anthropic用Claude自动化形式验证发现数百个深层漏洞",
+      "original_title": "Anthropic에 따르면 Claude가 오픈소스 라이브러리 123개에 대해 64MB 미만의 어떤 입력에도 죽지 않는다는 걸 수학으로 증명했다. Anthropic 프런티어 레드팀이 Theorem과 함께 진행한 연구 결과를 공개했다.  형식 검증(formal verification)은 코드를 수학 모델로 바꾼 뒤, 정해 둔",
+      "summary": "Anthropic与Theorem合作让Claude结合Rocq证明器，对123个开源库的RISC-V机器码进行形式化验证，证明其面对特定输入不崩溃，并发现了数百个Fuzzer难以发现的漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 71.53,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI正切入高门槛的形式化验证领域，用大模型生成证明代码解决了传统验证的高成本痛点。安全团队可密切关注Theorem即将开放的Claude技能，探索接入二进制安全与代码审计流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ai_card_daily/status/2113413659460571450",
+      "reader_url": "https://x.com/ai_card_daily/status/2113413659460571450",
+      "image_url": "https://pbs.twimg.com/media/HVRacXabkAANff6.jpg",
+      "author": {
+        "username": "ai_card_daily",
+        "name": "AI.Card.Daily",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T23:34:16",
+      "first_seen_at": "2026-10-23T00:01:43.784178",
+      "sub_category_label": null
+    },
+    {
       "id": 19666,
       "title": "日本企业攻击事件确认使用中国制AI漏洞挖掘工具ARTEX",
       "original_title": "🤖 日本企業への不正アクセスで、中国製のAIツール「ARTEX」の使用を確認（10/20報道）  GMOの調査で、攻撃に使われたサーバーからARTEXを確認。脆弱性をAIが自動で探すツールです。新たに6台の攻撃拠点を発見。、1つの拠点だけで日本企業約20社が標的で、TBSは「約80社が標的」と伝えました。 ⚠ 攻撃者の特定はできていません。日本での攻撃にもA",
@@ -178,81 +248,6 @@
       "published_at": "2026-10-22T22:35:55",
       "first_seen_at": "2026-10-22T22:55:06.321322",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 19405,
-      "title": "AI辅助发现PHP RCE遭在野利用，AI供应链投毒频发",
-      "original_title": "Sources and the arithmetic behind every rounded number.  1️⃣ W3Techs, server side languages, 22 Oct 2026.  PHP 69.3% of sites whose server language is known.  Among PHP sites: vers",
-      "summary": "Wiz借助前沿AI模型发现PHP高危RCE漏洞且已遭大规模在野利用，攻击者同时利用AI渗透框架发起攻击；litellm等AI供应链包遭投毒窃取凭据，多平台AI服务密钥被盗。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery | ai_supply_chain",
-      "score_total": 70.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需立即排查litellm等依赖包是否中招，审查AI服务密钥权限并关注PHP系统补丁，同时警惕AI工具被攻防两端武器化的趋势。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/petranto/status/2113259959831982262",
-      "reader_url": "https://x.com/petranto/status/2113259959831982262",
-      "image_url": null,
-      "author": {
-        "username": "petranto",
-        "name": "PetrAnto",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T13:23:31",
-      "first_seen_at": "2026-10-22T13:56:55.786728",
-      "sub_category_label": null
-    },
-    {
-      "id": 19555,
-      "title": "攻击者利用开源 AI 渗透框架 ARTEX 实现每分钟 2900 次登录尝试",
-      "original_title": "2,900 sign in attempts a minute. That is the pace Microsoft clocked from an AI agent, not a botnet, not a script kiddie running Hydra overnight.  Microsoft's own blog lays out what",
-      "summary": "Storm-0940 使用开源多智能体渗透框架 ARTEX 通过 ConnectWise 供应链漏洞发起高速密码喷洒攻击，利用窃取的应用凭据绕过 MFA，在 3 小时内获取全局管理员权限。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 70.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防御团队需立即检查 Entra 登录日志和服务主体权限。这标志着攻击侧也开始用 AI Agent 跑量，必须升级为 Agent 对抗 Agent。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/stretchcloud/status/2113329035195420881",
-      "reader_url": "https://x.com/stretchcloud/status/2113329035195420881",
-      "image_url": null,
-      "author": {
-        "username": "stretchcloud",
-        "name": "Prasenjit Sarkar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T17:58:00",
-      "first_seen_at": "2026-10-22T18:08:55.899638",
-      "sub_category_label": null
-    },
-    {
-      "id": 19486,
-      "title": "韩国银行遭AI渗透工具ARTEX攻击及LiteLLM供应链投毒事件",
-      "original_title": "CONTAGION It travels in what we carry.  Rome, 1656. The plague is in the city, and Paul Fürst prints a figure in Nuremberg: Der Doctor Schnabel von Rom. A beaked mask stuffed with ",
-      "summary": "黑客使用AI渗透测试工具ARTEX攻击韩国金融机构致10万条记录泄露；同日Python库LiteLLM遭供应链投毒，被植入后门窃取机密信息。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent | ai_supply_chain",
-      "score_total": 68.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "需警惕AI安全工具被武器化，渗透测试Agent的权限边界控制和开源库供应链投毒的实时检测，是当前防守方最紧迫的防线。安全团队应立即审查内部使用的AI测试工具权限及Python依赖链。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Cloudman176/status/2113310313584251292",
-      "reader_url": "https://x.com/Cloudman176/status/2113310313584251292",
-      "image_url": "https://pbs.twimg.com/media/HVP8h5baUAIuQj8.jpg",
-      "author": {
-        "username": "Cloudman176",
-        "name": "𝘾𝙡𝙤𝙪𝙙𝙢𝙖𝙣",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T16:43:36",
-      "first_seen_at": "2026-10-22T16:48:49.870493",
-      "sub_category_label": null
     }
   ]
 }
