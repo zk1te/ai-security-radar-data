@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T11:22:22+08:00",
+  "updated_at": "2026-10-23T12:22:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -174,28 +174,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 19465,
-      "title": "Fortinet 预告补丁日：AI 辅助测试发现核心产品高危漏洞",
-      "original_title": "‼️  Fortinet Urges Patching Critical Flaws Affecting FortiOS, FortiManager, & FortiAnalyzer   Details: https://t.co/ywwcLsTbdy  Fortinet has urged customers to prioritize security ",
-      "summary": "Fortinet 宣布将于 10 月 22 日发布针对 FortiOS 等产品的安全补丁，部分高危漏洞是通过 AI 辅助安全测试发现的。",
+      "id": 19781,
+      "title": "AI代理3天挖出NVIDIA编译器40个缺陷，揭穿闭源黑盒神话",
+      "original_title": "大家都在抢GPU算力，最容易被忽略的“工业大米”其实不是HBM，而是把代码翻译成机器指令的编译器。AI代理只用3天，就在英伟达闭源的ptxas里挖出了40个错编译程序。  [01] 物理极限与底层架构突围 一张卡的FLOPS和HBM带宽再高，最后都要经过编译器这一关，把PTX翻译成SASS机器码，才能变成真正执行的指令。前ML编译器老兵（Google XLA",
+      "summary": "SemiAnalysis实测显示，AI代理仅需3天就在NVIDIA闭源ptxas中挖出40个错编译缺陷，并通过多代理通读源码快速揪出原子操作撕裂等Fuzzer难以发现的隐蔽漏洞。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 71.57,
+      "score_total": 72.33,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "大型商业厂商开始在内部安全流程中实质性落地 AI 辅助漏洞挖掘。安全团队应关注 AI 在代码审计中的实际产出模式，这可能是行业测试标准演变的信号。",
+      "recommendation_reason": "安全团队必看：AI不仅能端到端黑盒Fuzzing，还能靠多代理读源码揪出原子操作撕裂这类静默损坏漏洞。这标志着AI代码审计正走向工程化，开源代码的安全优势将因此被无限放大。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2113246742779183336",
-      "reader_url": "https://x.com/The_Cyber_News/status/2113246742779183336",
-      "image_url": "https://pbs.twimg.com/media/HVOnYSObcAAA2yf.jpg",
+      "canonical_url": "https://x.com/ChuckBass14291/status/2113474637162336544",
+      "reader_url": "https://x.com/ChuckBass14291/status/2113474637162336544",
+      "image_url": null,
       "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
+        "username": "ChuckBass14291",
+        "name": "Chuck Bass",
         "avatar_url": null,
-        "followers_count": 73656
+        "followers_count": 0
       },
-      "published_at": "2026-10-22T12:31:00",
-      "first_seen_at": "2026-10-22T16:09:28.056075",
+      "published_at": "2026-10-23T03:36:34",
+      "first_seen_at": "2026-10-23T04:00:38.448981",
       "sub_category_label": "漏洞挖掘"
     },
     {
