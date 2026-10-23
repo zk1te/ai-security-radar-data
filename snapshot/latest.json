@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T21:59:33+08:00",
+  "updated_at": "2026-10-24T00:02:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -43,6 +43,26 @@
       "published_at": "2026-10-23T04:00:00",
       "first_seen_at": "2026-10-23T08:12:22.389603",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 20298,
+      "title": "PHP 潜伏十年漏洞被 AI 一周武器化",
+      "original_title": "潜伏 20 年没人能利用的 PHP 漏洞，AI 一周做成了武器",
+      "summary": "研究人员使用前沿 AI 模型在一周内构建出 PHP 核心引擎潜伏十几年的高危漏洞稳定利用链，打破了复杂度即安全的传统假设，引发全球紧急响应。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 88.35,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "给做风控和漏洞挖掘的人看：AI 把理论可利用变成现实武器的时间从数月压缩到一周，靠冷门和复杂度苟活的老洞必须重新评估风险。Wiz 给出的异常 multipart 请求检测线索建议立即纳入告警规则。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7698999578180075547",
+      "reader_url": "https://juejin.cn/post/7698999578180075547",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T01:18:49",
+      "first_seen_at": "2026-10-23T15:59:06.122317",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 20188,
@@ -183,31 +203,6 @@
       "published_at": "2026-10-23T13:36:43",
       "first_seen_at": "2026-10-23T13:45:40.355739",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 20249,
-      "title": "攻击者使用 ARTEX AI 代理框架三小时内攻破云环境",
-      "original_title": "𝗔𝘁𝘁𝗮𝗰𝗸𝗲𝗿𝘀 𝗮𝗿𝗲 𝘂𝘀𝗶𝗻𝗴 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝘁𝗼𝗼, 𝗮𝗻𝗱 𝘁𝗵𝗲𝘆 𝗮𝗿𝗲 𝗳𝗮𝘀𝘁.  Microsoft tied last month's ConnectWise cloud backup compromise to a China-aligned group it tracks as Storm-0940.  According ",
-      "summary": "微软将 ConnectWise 云备份入侵归因于 Storm-0940 组织，该组织使用 AI 渗透框架 ARTEX 自动化侦察与 OAuth 滥用，不到三小时即获取特权云访问。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 73.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是首个公开的在野利用 AI Agent 进行自动化渗透的真实案例。安全团队需重新审视云身份暴露面与 OAuth 防护策略，应对自动化攻击带来的压缩时间窗口挑战。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/joejossy_12/status/2113622973475086784",
-      "reader_url": "https://x.com/joejossy_12/status/2113622973475086784",
-      "image_url": "https://pbs.twimg.com/media/HVUYuxGXUAAnOPF.jpg",
-      "author": {
-        "username": "joejossy_12",
-        "name": "Joe Joe",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T13:26:00",
-      "first_seen_at": "2026-10-23T13:45:05.174108",
-      "sub_category_label": null
     }
   ]
 }
