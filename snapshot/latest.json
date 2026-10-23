@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T10:22:07+08:00",
+  "updated_at": "2026-10-23T11:22:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -98,31 +98,6 @@
       "published_at": "2026-10-22T19:21:30",
       "first_seen_at": "2026-10-22T19:40:24.968181",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 19440,
-      "title": "微软称中国黑客使用 AI 渗透工具 ARTEX 攻陷 ConnectWise",
-      "original_title": "Tech Headlines (last 30 hours)  Minneapolis-based Slingshot which uses AI to help businesses offer embedded insurance emerges from stealth with a $27M seed co-led by Rally and Skyw",
-      "summary": "微软披露中国背景的黑客组织使用名为 ARTEX 的 AI 渗透测试工具成功攻陷 ConnectWise，该攻击行动波及数百家组织。",
-      "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 75.21,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透工具被实战武器化的明确信号。红蓝团队需关注 ARTEX 工具的攻击模式，评估现有防御体系对抗 AI 自动化渗透的韧性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/webulite/status/2113280103522205830",
-      "reader_url": "https://x.com/webulite/status/2113280103522205830",
-      "image_url": null,
-      "author": {
-        "username": "webulite",
-        "name": "webulite",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-22T14:43:34",
-      "first_seen_at": "2026-10-22T15:05:10.480243",
-      "sub_category_label": "渗透测试"
     },
     {
       "id": 19707,
@@ -247,6 +222,31 @@
       "published_at": "2026-10-22T23:34:16",
       "first_seen_at": "2026-10-23T00:01:43.784178",
       "sub_category_label": null
+    },
+    {
+      "id": 19666,
+      "title": "日本企业攻击事件确认使用中国制AI漏洞挖掘工具ARTEX",
+      "original_title": "🤖 日本企業への不正アクセスで、中国製のAIツール「ARTEX」の使用を確認（10/20報道）  GMOの調査で、攻撃に使われたサーバーからARTEXを確認。脆弱性をAIが自動で探すツールです。新たに6台の攻撃拠点を発見。、1つの拠点だけで日本企業約20社が標的で、TBSは「約80社が標的」と伝えました。 ⚠ 攻撃者の特定はできていません。日本での攻撃にもA",
+      "summary": "GMO调查发现针对日本企业的攻击服务器上留有中国开发的AI渗透测试工具ARTEX痕迹，该工具可自动发现漏洞。已发现6个新攻击节点，单个节点即针对约20家企业，TBS报道称约80家企业被攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 71.4,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec从业者必看——攻击者已在实战中使用AI漏洞挖掘工具，标志AI辅助攻击从理论走向现实。防御方需重新评估威胁模型，警惕AI加速漏洞发现带来的暴露面扩大风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jpsharada/status/2113398974358909389",
+      "reader_url": "https://x.com/jpsharada/status/2113398974358909389",
+      "image_url": null,
+      "author": {
+        "username": "jpsharada",
+        "name": "ℵ ᴷᴵᵞᵁˢᴬᴹᴬ ℵ",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-22T22:35:55",
+      "first_seen_at": "2026-10-22T22:55:06.321322",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
