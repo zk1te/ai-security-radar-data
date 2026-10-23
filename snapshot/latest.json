@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T12:52:30+08:00",
+  "updated_at": "2026-10-23T13:52:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -224,29 +224,29 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 19683,
-      "title": "Anthropic用Claude自动化形式验证发现数百个深层漏洞",
-      "original_title": "Anthropic에 따르면 Claude가 오픈소스 라이브러리 123개에 대해 64MB 미만의 어떤 입력에도 죽지 않는다는 걸 수학으로 증명했다. Anthropic 프런티어 레드팀이 Theorem과 함께 진행한 연구 결과를 공개했다.  형식 검증(formal verification)은 코드를 수학 모델로 바꾼 뒤, 정해 둔",
-      "summary": "Anthropic与Theorem合作让Claude结合Rocq证明器，对123个开源库的RISC-V机器码进行形式化验证，证明其面对特定输入不崩溃，并发现了数百个Fuzzer难以发现的漏洞。",
+      "id": 19834,
+      "title": "微软称Storm-0940利用开源AI渗透框架发起供应链攻击",
+      "original_title": "@Microsoft attributed the recent #ConnectWise Cloud Backup (multi-tenant) supply-chain compromise to Storm-0940, a China-aligned actor that has been using the open-source #ARTEX ag",
+      "summary": "微软将ConnectWise云备份供应链攻击归因于Storm-0940，该组织使用开源ARTEX AI渗透框架自动化密码喷洒与OAuth滥用，不到3小时即可获取云特权访问。",
       "primary_category": "AI for Sec",
-      "sub_category": "formal_verification",
-      "score_total": 71.53,
+      "sub_category": "security_agent",
+      "score_total": 71.76,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI正切入高门槛的形式化验证领域，用大模型生成证明代码解决了传统验证的高成本痛点。安全团队可密切关注Theorem即将开放的Claude技能，探索接入二进制安全与代码审计流程。",
+      "recommendation_reason": "真实攻击者已开始使用开源AI渗透Agent实战攻破云环境。做云安全和威胁狩猎的兄弟必须看，这直接验证了AI Agent在攻击侧的自动化和提速能力，需警惕相关手法的泛滥。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ai_card_daily/status/2113413659460571450",
-      "reader_url": "https://x.com/ai_card_daily/status/2113413659460571450",
-      "image_url": "https://pbs.twimg.com/media/HVRacXabkAANff6.jpg",
+      "canonical_url": "https://x.com/securigeek/status/2113500854019867049",
+      "reader_url": "https://x.com/securigeek/status/2113500854019867049",
+      "image_url": null,
       "author": {
-        "username": "ai_card_daily",
-        "name": "AI.Card.Daily",
+        "username": "securigeek",
+        "name": "SecuriGeek",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-22T23:34:16",
-      "first_seen_at": "2026-10-23T00:01:43.784178",
-      "sub_category_label": null
+      "published_at": "2026-10-23T05:20:45",
+      "first_seen_at": "2026-10-23T05:50:03.202243",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
