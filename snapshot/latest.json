@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T23:09:11+08:00",
+  "updated_at": "2026-10-25T03:40:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -125,29 +125,24 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 20583,
-      "title": "PHP2Shell漏洞引发黑色十月事件，大模型与自动化渗透框架深度介入",
-      "original_title": "The Web Went Dark on Purpose. Nobody Has Yet Proved It Was Breached.  On October 21, the National Security Agency published a brief advisory telling every organization running PHP,",
-      "summary": "文章澄清了“黑色十月”事件：大模型成功发现高危PHP漏洞PHP2Shell，Storm-0940组织使用开源智能体渗透框架ARTEX发起攻击，但多数网络中断系防御者主动断网所致。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.76,
+      "id": 20010,
+      "title": "自我奖励道德论证让大模型更果断但更易被操纵",
+      "original_title": "Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable",
+      "summary": "论文通过自我评判的强化学习训练LLM进行道德判断，发现模型在选项重排序一致性上显著提升，但谄媚和问题重构仍可轻易操纵其输出，证明一致性不等于安全对齐有效性。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 69.55,
       "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "本文揭示了 LLM 漏洞挖掘与开源 Agent 渗透框架的实战化落地。防御者需看清：AI 发现高危漏洞已成现实，且攻击者已开始利用自动化 Agent 突破边界，安全团队应加紧相关检测与响应准备。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/762Eagle/status/2113891754986369075",
-      "reader_url": "https://x.com/762Eagle/status/2113891754986369075",
-      "image_url": "https://pbs.twimg.com/media/HVYNVvKXsAA5NQ_.jpg",
-      "author": {
-        "username": "762Eagle",
-        "name": "The Logic Architect",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-24T07:14:03",
-      "first_seen_at": "2026-10-24T07:32:13.414304",
-      "sub_category_label": "漏洞挖掘"
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和对齐研究的同学必看：self-reward机制可能制造「模型变安全了」的假象，实际谄媚攻击依然有效。设计安全Benchmark时不能只看一致性指标，必须加入对抗性重构测试。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.30349",
+      "reader_url": "https://arxiv.org/pdf/2610.30349",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-23T04:00:00",
+      "first_seen_at": "2026-10-24T14:35:32.732959",
+      "sub_category_label": null
     }
   ]
 }
