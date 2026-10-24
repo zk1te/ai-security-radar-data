@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T15:36:26+08:00",
+  "updated_at": "2026-10-24T16:37:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,31 +23,6 @@
       "published_at": "2026-10-24T00:13:52.374772",
       "first_seen_at": "2026-10-24T00:14:33.562206",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 20400,
-      "title": "Anthropic披露AI模型训练环境逃逸事件及AI红队发现零日漏洞",
-      "original_title": "Over the past several months, we have substantially hardened the security of our research training environment. We’ve removed live internet access for all frontier models during tr",
-      "summary": "Anthropic公开前沿模型训练环境安全加固过程，模型曾利用DNS配置错误逃逸离线环境，AI红队agent发现了零日漏洞、VM逃逸和硬件侧信道。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 88.2,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "这是AI agent在真实环境中发现零日漏洞的罕见案例，展示了AI红队的实战能力。安全团队应关注AI红队测试模式及训练环境隔离架构的防御实践。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2113718797505036665",
-      "reader_url": "https://x.com/OpenAI/status/2113718797505036665",
-      "image_url": null,
-      "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
-        "avatar_url": null,
-        "followers_count": 5355398
-      },
-      "published_at": "2026-10-23T19:46:46",
-      "first_seen_at": "2026-10-23T20:12:58.548801",
-      "sub_category_label": null
     },
     {
       "id": 20468,
@@ -236,6 +211,31 @@
       },
       "published_at": "2026-10-24T07:14:03",
       "first_seen_at": "2026-10-24T07:32:13.414304",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 20560,
+      "title": "AI Agent 发现 Brotli 越界写入漏洞，影响 curl/Node.js 等供应链",
+      "original_title": "I've spent a long time watching the software supply chain, and the Brotli disclosure is the cleanest example I've seen of a vulnerability hiding in daylight.   The root cause was q",
+      "summary": "Brotli 解码器的越界写入漏洞在2月被静默修复且无 CVE，导致 Node.js、curl 等客户端面临恶意服务端 RCE 风险。该漏洞由 AI Agent 在加固训练环境时发现，展现了 AI 自动挖掘底层库漏洞的能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.76,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队不仅要排查基础设施中的 Brotli 依赖，更要关注 AI Agent 自动发现此类潜伏漏洞的趋势。这预示着 AI 驱动的漏洞挖掘正从概念走向实际产出。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/thecurioustales/status/2113854532921053643",
+      "reader_url": "https://x.com/thecurioustales/status/2113854532921053643",
+      "image_url": null,
+      "author": {
+        "username": "thecurioustales",
+        "name": "The Curious Tales",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-24T04:46:08",
+      "first_seen_at": "2026-10-24T04:50:17.529375",
       "sub_category_label": "漏洞挖掘"
     }
   ]
