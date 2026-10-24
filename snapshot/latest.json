@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T18:37:38+08:00",
+  "updated_at": "2026-10-24T20:08:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -25,31 +25,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 20468,
-      "title": "红队演练中发现 Brotli 压缩库未认证 RCE 漏洞",
-      "original_title": "During this red-teaming exercise, we also found a vulnerability that allows for unauthenticated remote code execution in Brotli, a widely-deployed compression library included in m",
-      "summary": "在一次红队演练中发现了 Brotli 压缩库的未认证远程代码执行漏洞，攻击者可通过恶意压缩数据接管 Node.js、Bun、Envoy 等下游软件的服务端或客户端。漏洞根源已于 2 月修复但当时未识别为安全漏洞，现已分配 CVE 并推动各下游项目发布更新。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 84.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 辅助红队产出的真实高危 CVE，影响面极广。安全团队应立即排查 Brotli 及下游组件版本，同时关注 AI 辅助漏洞挖掘在基础库场景的落地节奏。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2113766354386084338",
-      "reader_url": "https://x.com/OpenAI/status/2113766354386084338",
-      "image_url": null,
-      "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
-        "avatar_url": null,
-        "followers_count": 5355398
-      },
-      "published_at": "2026-10-23T22:55:45",
-      "first_seen_at": "2026-10-24T00:00:54.577040",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 20482,
       "title": "Claude-Red：为 Claude Skills 系统设计的攻击安全技能库",
       "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 226 stars today",
@@ -68,30 +43,6 @@
       "published_at": "2026-10-24T00:13:52.637900",
       "first_seen_at": "2026-10-24T00:14:33.931452",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 20474,
-      "title": "Anthropic 研究：LLM 助力大规模形式化软件验证",
-      "original_title": "HN Hot Discussion: LLMs are making formal software verification feasible at a much larger scale",
-      "summary": "Anthropic 最新研究表明，LLM 正在大规模扩展形式化软件验证的可行性，引发 Hacker News 社区对 AI 辅助代码安全验证的热烈讨论。",
-      "primary_category": "AI for Sec",
-      "sub_category": "formal_verification",
-      "score_total": 77.15,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "形式化验证常因成本高昂难以在日常安全工程中落地。该研究展示了 LLM 如何降低编写规范和证明的门槛，安全工程师应关注这一提升代码安全验证效率的新路径。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50202217&hn_hot_date=2026-10-24",
-      "reader_url": "https://news.ycombinator.com/item?id=50202217&hn_hot_date=2026-10-24",
-      "image_url": null,
-      "author": {
-        "username": "johnbender",
-        "name": "johnbender",
-        "avatar_url": null
-      },
-      "published_at": "2026-10-22T22:54:43",
-      "first_seen_at": "2026-10-24T00:07:24.701199",
-      "sub_category_label": null
     },
     {
       "id": 20530,
@@ -232,6 +183,56 @@
       "published_at": "2026-10-24T00:13:52.468661",
       "first_seen_at": "2026-10-24T00:14:33.760926",
       "sub_category_label": null
+    },
+    {
+      "id": 20592,
+      "title": "Anthropic 用 Claude 实现大规模汇编级形式化验证并挖出十余年老洞",
+      "original_title": "全球首次大规模汇编级形式化验证：Anthropic 与 Theorem 联合发布最新研究成果，利用 Claude 为 Google OSS-Fuzz 计划中的 123 个核心开源软件库（涵盖 OpenSSL、simdjson、zstd、cJSON 等 239 个模糊测试入口）在底层 RISC-V 汇编指令级别生成了经 Rocq 定理证明器严格校验的数学安全证",
+      "summary": "Anthropic 与 Theorem 利用 Claude 对 Google OSS-Fuzz 中的开源库进行汇编级形式化验证，生成了上亿行通过 Rocq 校验的代码，并挖出数百个包含潜伏超 10 年的隐蔽漏洞。首批证明代码已在 GitHub 开源。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "LLM 辅助形式化验证从概念走向大规模实战，直接挖出十多年老洞。安全团队应密切关注此范式，评估将其引入二进制安全和代码审计流程的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HYJsfn9h/status/2113912008114360695",
+      "reader_url": "https://x.com/HYJsfn9h/status/2113912008114360695",
+      "image_url": null,
+      "author": {
+        "username": "HYJsfn9h",
+        "name": "H YJ",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-24T08:34:31",
+      "first_seen_at": "2026-10-24T08:36:12.230920",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 20575,
+      "title": "Anthropic 用 Claude 生成上亿行形式化证明，揪出 Fuzzing 遗漏漏洞",
+      "original_title": "Anthropic used Claude to generate roughly 180 million lines of machine-checked Rocq proofs that 239 entry points across 123 open-source libraries never crash on inputs under 64 MB ",
+      "summary": "Anthropic 使用 Claude 生成了约 1.8 亿行机器校验的 Rocq 证明，验证 123 个开源库的 239 个入口点在 64MB 输入下不崩溃，并发现多年模糊测试遗漏的漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "形式化验证首次成为编码 Agent 的常规任务，AI 在代码安全审计中的能力正从 Fuzzing 拓展至数学证明级别。漏洞挖掘团队应立刻评估大模型在此方向上的落地效果与边界。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RogerThat_/status/2113874713261052397",
+      "reader_url": "https://x.com/RogerThat_/status/2113874713261052397",
+      "image_url": null,
+      "author": {
+        "username": "RogerThat_",
+        "name": "Ruggiero Forte",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-24T06:06:20",
+      "first_seen_at": "2026-10-24T06:27:14.826248",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
