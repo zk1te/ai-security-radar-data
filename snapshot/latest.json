@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T07:34:39+08:00",
+  "updated_at": "2026-10-24T08:04:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -48,6 +48,31 @@
       "published_at": "2026-10-23T19:46:46",
       "first_seen_at": "2026-10-23T20:12:58.548801",
       "sub_category_label": null
+    },
+    {
+      "id": 20468,
+      "title": "红队演练中发现 Brotli 压缩库未认证 RCE 漏洞",
+      "original_title": "During this red-teaming exercise, we also found a vulnerability that allows for unauthenticated remote code execution in Brotli, a widely-deployed compression library included in m",
+      "summary": "在一次红队演练中发现了 Brotli 压缩库的未认证远程代码执行漏洞，攻击者可通过恶意压缩数据接管 Node.js、Bun、Envoy 等下游软件的服务端或客户端。漏洞根源已于 2 月修复但当时未识别为安全漏洞，现已分配 CVE 并推动各下游项目发布更新。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 84.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 辅助红队产出的真实高危 CVE，影响面极广。安全团队应立即排查 Brotli 及下游组件版本，同时关注 AI 辅助漏洞挖掘在基础库场景的落地节奏。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2113766354386084338",
+      "reader_url": "https://x.com/OpenAI/status/2113766354386084338",
+      "image_url": null,
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-10-23T22:55:45",
+      "first_seen_at": "2026-10-24T00:00:54.577040",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 20213,
@@ -218,31 +243,6 @@
       "published_at": "2026-10-23T16:41:43",
       "first_seen_at": "2026-10-23T16:59:23.280040",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 20249,
-      "title": "攻击者使用 ARTEX AI 代理框架三小时内攻破云环境",
-      "original_title": "𝗔𝘁𝘁𝗮𝗰𝗸𝗲𝗿𝘀 𝗮𝗿𝗲 𝘂𝘀𝗶𝗻𝗴 𝗔𝗜 𝗮𝗴𝗲𝗻𝘁𝘀 𝘁𝗼𝗼, 𝗮𝗻𝗱 𝘁𝗵𝗲𝘆 𝗮𝗿𝗲 𝗳𝗮𝘀𝘁.  Microsoft tied last month's ConnectWise cloud backup compromise to a China-aligned group it tracks as Storm-0940.  According ",
-      "summary": "微软将 ConnectWise 云备份入侵归因于 Storm-0940 组织，该组织使用 AI 渗透框架 ARTEX 自动化侦察与 OAuth 滥用，不到三小时即获取特权云访问。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 73.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是首个公开的在野利用 AI Agent 进行自动化渗透的真实案例。安全团队需重新审视云身份暴露面与 OAuth 防护策略，应对自动化攻击带来的压缩时间窗口挑战。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/joejossy_12/status/2113622973475086784",
-      "reader_url": "https://x.com/joejossy_12/status/2113622973475086784",
-      "image_url": "https://pbs.twimg.com/media/HVUYuxGXUAAnOPF.jpg",
-      "author": {
-        "username": "joejossy_12",
-        "name": "Joe Joe",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T13:26:00",
-      "first_seen_at": "2026-10-23T13:45:05.174108",
-      "sub_category_label": null
     }
   ]
 }
