@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-24T22:39:07+08:00",
+  "updated_at": "2026-10-24T23:09:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
   "items": [
+    {
+      "id": 20680,
+      "title": "AI 辅助挖出 PHP 陈年漏洞并引发攻击浪潮",
+      "original_title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "summary": "安全研究人员使用 AI 工具发现了 PHP 中存在多年的漏洞，随后出现了基于这些漏洞的 AI 辅助攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 84.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 在实际漏洞挖掘中的威力已显现，传统老代码面临更快被攻破的风险。安全团队应立即关注 AI 辅助漏洞修复与防御策略。",
+      "source_id": "wired-ai",
+      "canonical_url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable",
+      "reader_url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-24T12:00:00",
+      "first_seen_at": "2026-10-24T14:57:58.098100",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 20073,
       "title": "TTF：基于LLM模板预处理的轻量级模糊测试",
@@ -127,31 +147,6 @@
       },
       "published_at": "2026-10-24T07:14:03",
       "first_seen_at": "2026-10-24T07:32:13.414304",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 20560,
-      "title": "AI Agent 发现 Brotli 越界写入漏洞，影响 curl/Node.js 等供应链",
-      "original_title": "I've spent a long time watching the software supply chain, and the Brotli disclosure is the cleanest example I've seen of a vulnerability hiding in daylight.   The root cause was q",
-      "summary": "Brotli 解码器的越界写入漏洞在2月被静默修复且无 CVE，导致 Node.js、curl 等客户端面临恶意服务端 RCE 风险。该漏洞由 AI Agent 在加固训练环境时发现，展现了 AI 自动挖掘底层库漏洞的能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.76,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队不仅要排查基础设施中的 Brotli 依赖，更要关注 AI Agent 自动发现此类潜伏漏洞的趋势。这预示着 AI 驱动的漏洞挖掘正从概念走向实际产出。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/thecurioustales/status/2113854532921053643",
-      "reader_url": "https://x.com/thecurioustales/status/2113854532921053643",
-      "image_url": null,
-      "author": {
-        "username": "thecurioustales",
-        "name": "The Curious Tales",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-24T04:46:08",
-      "first_seen_at": "2026-10-24T04:50:17.529375",
       "sub_category_label": "漏洞挖掘"
     }
   ]
