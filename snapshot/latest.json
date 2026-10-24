@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T13:05:34+08:00",
+  "updated_at": "2026-10-24T14:05:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -194,31 +194,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 20343,
-      "title": "Claude 证明 239 个开源库 fuzz targets 无崩溃",
-      "original_title": "Claude just proved 239 fuzz targets across 123 open-source libraries can't crash on any input under 64MB. On the compiled binary.  Fuzzing finds where bugs are. Proofs show where t",
-      "summary": "Claude 在编译后的二进制层面证明了 123 个开源库的 239 个 fuzz targets 对 64MB 以下输入不会崩溃，从寻找 bug 转向证明无 bug。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 70.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Fuzzing 找 bug 在哪，AI 证明展示 bug 不在哪，逻辑反转。二进制安全团队应紧盯大模型在形式化验证和代码证明上的能力跃迁，这可能是漏洞挖掘的下一个范式转变。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/magicposeidon_/status/2113681859204755480",
-      "reader_url": "https://x.com/magicposeidon_/status/2113681859204755480",
-      "image_url": null,
-      "author": {
-        "username": "magicposeidon_",
-        "name": "Moro",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T17:20:00",
-      "first_seen_at": "2026-10-23T17:37:07.836923",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 20530,
       "title": "AWS 官方推出 Claude Code 安全插件，支持漏洞扫描与渗透测试",
       "original_title": "AWS 出了个官方的 Claude Code 插件，能把你的 coding agent 直接接到 AWS Security Agent 和 AWS DevOps Agent 上。  接上之后能干嘛： → 扫整个代码库找漏洞 → 提交或开 PR 前，只扫这次的改动 → 给应用建 STRIDE 威胁模型 → 把它报出来的问题直接修掉 → 对线上端点跑渗透测试 →",
@@ -241,6 +216,26 @@
       },
       "published_at": "2026-10-24T01:29:01",
       "first_seen_at": "2026-10-24T01:37:18.742827",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 20483,
+      "title": "用 Agent 逆向一切：rea 项目登上 GitHub Trending",
+      "original_title": "GitHub Trending: morluto/rea gained 0 stars today",
+      "summary": "GitHub 项目 morluto/rea 宣称可利用 Agent 对从应用行为到原生二进制文件进行逆向工程，周增星标超 7000，但总量达 37 万数据存疑。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "自动化逆向 Agent 若能落地，将极大提升安全审计效率。建议先克隆代码验证可用性，当前星数数据可能有异常。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/morluto/rea?github_trending_date=2026-10-24&since=weekly",
+      "reader_url": "https://github.com/morluto/rea?github_trending_date=2026-10-24&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-24T00:13:54.510698",
+      "first_seen_at": "2026-10-24T00:14:53.797479",
       "sub_category_label": "安全Agent"
     }
   ]
