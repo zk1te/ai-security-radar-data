@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T14:05:58+08:00",
+  "updated_at": "2026-10-24T15:36:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -92,31 +92,6 @@
       "author": null,
       "published_at": "2026-10-24T00:13:52.637900",
       "first_seen_at": "2026-10-24T00:14:33.931452",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 20386,
-      "title": "AI 渗透工具 ARTEX 被用于自动化攻击电商支付应用",
-      "original_title": "🚨 ReliaQuest has observed operators using ARTEX, a publicly available AI-driven penetration-testing console, to automate attacks against internet-facing e-commerce and payment appl",
-      "summary": "ReliaQuest 发现攻击者使用公开的 AI 驱动渗透测试控制台 ARTEX，自动化链式利用 API 密钥泄露和文件上传等漏洞，数小时内即可完成 Web Shell 部署、数据窃取及横向移动。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全运营和威胁狩猎团队必看。文章给出了 ARTEX 的具体 IoC 指标和攻击链路，可立即用于更新 WAF 规则和监控策略，防范 AI 自动化攻击工具的实战滥用。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ReliaQuestTR/status/2113704822645932473",
-      "reader_url": "https://x.com/ReliaQuestTR/status/2113704822645932473",
-      "image_url": null,
-      "author": {
-        "username": "ReliaQuestTR",
-        "name": "ReliaQuest Threat Research",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T18:51:15",
-      "first_seen_at": "2026-10-23T19:09:40.786181",
       "sub_category_label": "安全Agent"
     },
     {
@@ -237,6 +212,31 @@
       "published_at": "2026-10-24T00:13:54.510698",
       "first_seen_at": "2026-10-24T00:14:53.797479",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 20583,
+      "title": "PHP2Shell漏洞引发黑色十月事件，大模型与自动化渗透框架深度介入",
+      "original_title": "The Web Went Dark on Purpose. Nobody Has Yet Proved It Was Breached.  On October 21, the National Security Agency published a brief advisory telling every organization running PHP,",
+      "summary": "文章澄清了“黑色十月”事件：大模型成功发现高危PHP漏洞PHP2Shell，Storm-0940组织使用开源智能体渗透框架ARTEX发起攻击，但多数网络中断系防御者主动断网所致。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.76,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "本文揭示了 LLM 漏洞挖掘与开源 Agent 渗透框架的实战化落地。防御者需看清：AI 发现高危漏洞已成现实，且攻击者已开始利用自动化 Agent 突破边界，安全团队应加紧相关检测与响应准备。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/762Eagle/status/2113891754986369075",
+      "reader_url": "https://x.com/762Eagle/status/2113891754986369075",
+      "image_url": "https://pbs.twimg.com/media/HVYNVvKXsAA5NQ_.jpg",
+      "author": {
+        "username": "762Eagle",
+        "name": "The Logic Architect",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-24T07:14:03",
+      "first_seen_at": "2026-10-24T07:32:13.414304",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
