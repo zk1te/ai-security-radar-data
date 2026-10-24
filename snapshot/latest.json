@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T08:34:46+08:00",
+  "updated_at": "2026-10-24T10:04:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -189,31 +189,6 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 20252,
-      "title": "Claude 证明 123 个开源库无崩溃，AI 形式化验证替代 Fuzzing",
-      "original_title": "They stopped hunting crashes with random inputs. They started proving there aren't any left to find.  On Oct 22, Anthropic published research: Claude proved that 123 open-source li",
-      "summary": "Anthropic 发布研究，Claude 对 123 个开源库进行机器检查证明，覆盖约 1.8 亿行汇编代码和 239 个入口点，证明在指定条件下不会崩溃，同时发现了多年 Fuzzing 遗漏的漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 75.5,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "漏洞发现范式正从概率性 Fuzzing 转向可证明正确性验证，安全团队的工具链和 ROI 模型需要重估。做代码审计和漏洞挖掘的人应立即跟进这条线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/xiao_2146/status/2113625649130647621",
-      "reader_url": "https://x.com/xiao_2146/status/2113625649130647621",
-      "image_url": "https://pbs.twimg.com/media/HVUbU6nWYAADE8x.jpg",
-      "author": {
-        "username": "xiao_2146",
-        "name": "Archive 2050",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T13:36:38",
-      "first_seen_at": "2026-10-23T13:45:38.942390",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 20425,
       "title": "Anthropic 用 Claude 验证 123 个开源库发现深层漏洞",
       "original_title": "Anthropic used Claude to formally verify 123 open-source libraries, writing ~180M lines of proof code in weeks instead of years and catching bugs that survived years of fuzzing. #A",
@@ -237,6 +212,31 @@
       "published_at": "2026-10-23T20:46:32",
       "first_seen_at": "2026-10-23T21:18:26.340651",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 20317,
+      "title": "多智能体自主渗透测试系统 ARTEX",
+      "original_title": "Chaining recon into exploitation is easy. Keeping every asset and finding straight is the hard part.  ARTEX is an AI autonomous penetration testing system built as a multi-agent LL",
+      "summary": "ARTEX 是一款基于多智能体 LLM 的自主渗透测试系统，通过共享资产图与探索图串联侦察与利用，支持人工审批与全流量记录。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "面向红队和渗透测试人员。该工具将多 Agent 协同与资产管理结合，内置人工审核和流量录制，可作为自动化红队工具链评估或二次开发的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/read__the__diff/status/2113672226742423904",
+      "reader_url": "https://x.com/read__the__diff/status/2113672226742423904",
+      "image_url": "https://pbs.twimg.com/media/HVVFqe8XMAAmUpw.jpg",
+      "author": {
+        "username": "read__the__diff",
+        "name": "Read the Diff",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-23T16:41:43",
+      "first_seen_at": "2026-10-23T16:59:23.280040",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
