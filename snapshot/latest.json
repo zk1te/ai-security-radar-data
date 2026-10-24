@@ -1,34 +1,9 @@
 {
-  "updated_at": "2026-10-24T21:08:11+08:00",
+  "updated_at": "2026-10-24T21:38:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
-    {
-      "id": 20530,
-      "title": "AWS 官方推出 Claude Code 安全插件，支持漏洞扫描与渗透测试",
-      "original_title": "AWS 出了个官方的 Claude Code 插件，能把你的 coding agent 直接接到 AWS Security Agent 和 AWS DevOps Agent 上。  接上之后能干嘛： → 扫整个代码库找漏洞 → 提交或开 PR 前，只扫这次的改动 → 给应用建 STRIDE 威胁模型 → 把它报出来的问题直接修掉 → 对线上端点跑渗透测试 →",
-      "summary": "AWS 发布官方 Claude Code 插件，将编码助手直接连接至 AWS Security Agent 和 DevOps Agent，实现代码库漏洞扫描、增量审查、STRIDE 威胁建模、自动修复及端点渗透测试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AWS 官方下场把 Claude Code 变成 DevSecOps Agent，直接在 IDE 里做漏洞扫描、威胁建模和渗透测试。安全工程师和研发团队现在就能装来试，评估它在 CI/CD 里查洞和修洞的真实效果与计费模式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SgLittlesmart/status/2113804925226582057",
-      "reader_url": "https://x.com/SgLittlesmart/status/2113804925226582057",
-      "image_url": null,
-      "author": {
-        "username": "SgLittlesmart",
-        "name": "狮国游民",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-24T01:29:01",
-      "first_seen_at": "2026-10-24T01:37:18.742827",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 20583,
       "title": "PHP2Shell漏洞引发黑色十月事件，大模型与自动化渗透框架深度介入",
@@ -180,31 +155,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 20513,
-      "title": "OpenAI 承认模型挖洞靠人类喂料：别信自主神话",
-      "original_title": "@rynorhn They were handed the cheat sheet.  OpenAl admits researchers explicitly gave the models the communication protocol, target vulnerabilities, and infrastructure source code.",
-      "summary": "推文指出 OpenAI 承认研究人员在测试中向模型提供了通信协议、目标漏洞和源代码，这实质上是人工辅助的自动化 Fuzzing，而非 AI 涌现的自主挖洞能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 67.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给所有盯着 AI 挖洞神话的甲方安全团队提个醒：别被自主漏洞挖掘的营销忽悠了。在评估这类工具时，务必追问其背后的 human-in-the-loop 成分和预先输入的上下文。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/choppedlivermor/status/2113798103786570064",
-      "reader_url": "https://x.com/choppedlivermor/status/2113798103786570064",
-      "image_url": null,
-      "author": {
-        "username": "choppedlivermor",
-        "name": "Chopped Livermore",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-24T01:01:55",
-      "first_seen_at": "2026-10-24T01:08:37.251577",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 20643,
       "title": "AI安全代理发现Node.js Brotli高危内存破坏漏洞",
       "original_title": "one brotli-compressed response can now smash your backend's memory 💀 cvss 9.2 , found by an ai security agent , patched in node 22 , 24 and 26 this week if your app's api hasn't be",
@@ -252,6 +202,31 @@
       },
       "published_at": "2026-10-24T04:56:00",
       "first_seen_at": "2026-10-24T05:21:56.000299",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 20605,
+      "title": "盘点自动化渗透测试AI Agent及落地实践",
+      "original_title": "外部の専門家によるペネトレーションテストを補完する形で、自社でも高頻度にテストを回し脆弱性を早期に発見できる仕組みを整えるのも良さそう。  AWS Security Agentのペネトレーションテスト機能や、Strix、Cairn、PentAGI、Pentest Swarm AIなどのOSSなど選択肢もいろいろ出てきている。  既存のOSSを自社環境で動かし",
+      "summary": "作者建议在人工渗透测试之外，引入 AWS Security Agent、Strix 及 PentAGI 等开源 AI 工具进行高频内部测试，以尽早发现漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.28,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注这篇推文盘点的渗透测试 AI 工具。将 PentAGI 等安全 Agent 集成进现有流水线，可提高内部安全测试频率并降低成本，是当前值得尝试的落地方向。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/mk_1_1_/status/2113928972807577674",
+      "reader_url": "https://x.com/mk_1_1_/status/2113928972807577674",
+      "image_url": null,
+      "author": {
+        "username": "mk_1_1_",
+        "name": "Kazuki",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-24T09:41:56",
+      "first_seen_at": "2026-10-24T10:12:51.021175",
       "sub_category_label": "安全Agent"
     }
   ]
