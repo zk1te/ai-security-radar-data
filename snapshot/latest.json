@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-24T08:04:42+08:00",
+  "updated_at": "2026-10-24T08:34:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 20480,
+      "title": "Cloudflare 开源安全审计 Agent 技能登顶 GitHub Trending",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2716 stars today",
+      "summary": "Cloudflare 开源一款用于多阶段安全审计的编码代理技能 security-audit-skill，支持独立验证和机器可读的发现结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 92.4,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "Cloudflare 开源了实战向的安全审计 Agent 技能，支持多阶段审计和机器可读验证结果。做代码审计和 Agent 安全自动化的人员可以直接参考其实现路径，少走弯路。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-24&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-24&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-24T00:13:52.374772",
+      "first_seen_at": "2026-10-24T00:14:33.562206",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 20298,
       "title": "PHP 潜伏十年漏洞被 AI 一周武器化",
@@ -75,24 +95,24 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 20213,
-      "title": "OpenAI 使用 GPT 发现 PHP 核心高危漏洞",
-      "original_title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-      "summary": "OpenAI 的 Patch the Planet 项目使用 GPT 发现了影响 70% 网站的 PHP 核心漏洞，并进行了为期 2 个月的协调披露。",
+      "id": 20482,
+      "title": "Claude-Red：为 Claude Skills 系统设计的攻击安全技能库",
+      "original_title": "GitHub Trending: SnailSploit/Claude-Red gained 226 stars today",
+      "summary": "Claude-Red 是一个利用结构化 SKILL.md 文件为 Claude 注入专家级攻击方法论的开源项目，涵盖 SQLi、shellcode、EDR 逃逸等技能，近期在 GitHub 上星标增长迅速。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 83.7,
+      "sub_category": "security_agent",
+      "score_total": 81.86,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "大模型在真实世界核心基础设施中挖洞取得标志性成果。安全团队应密切关注大模型在代码审计与漏洞发现中的能力边界与落地进展。",
-      "source_id": "latent-space",
-      "canonical_url": "https://latent.space/p/ainews-openais-patch-the-planet-program",
-      "reader_url": "https://latent.space/p/ainews-openais-patch-the-planet-program",
+      "recommendation_reason": "红队和渗透测试人员值得关注，该项目展示了如何利用 Claude Skills 系统将大模型转化为专家级攻击助手。可立即克隆研究其 SKILL.md 编写规范，用于构建自己的安全 Agent 技能库。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-10-24&since=daily",
+      "reader_url": "https://github.com/SnailSploit/Claude-Red?github_trending_date=2026-10-24&since=daily",
       "image_url": null,
       "author": null,
-      "published_at": "2026-10-22T07:42:44",
-      "first_seen_at": "2026-10-23T12:14:01.671232",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-10-24T00:13:52.637900",
+      "first_seen_at": "2026-10-24T00:14:33.931452",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 20386,
@@ -118,6 +138,30 @@
       "published_at": "2026-10-23T18:51:15",
       "first_seen_at": "2026-10-23T19:09:40.786181",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 20474,
+      "title": "Anthropic 研究：LLM 助力大规模形式化软件验证",
+      "original_title": "HN Hot Discussion: LLMs are making formal software verification feasible at a much larger scale",
+      "summary": "Anthropic 最新研究表明，LLM 正在大规模扩展形式化软件验证的可行性，引发 Hacker News 社区对 AI 辅助代码安全验证的热烈讨论。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 77.15,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "形式化验证常因成本高昂难以在日常安全工程中落地。该研究展示了 LLM 如何降低编写规范和证明的门槛，安全工程师应关注这一提升代码安全验证效率的新路径。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50202217&hn_hot_date=2026-10-24",
+      "reader_url": "https://news.ycombinator.com/item?id=50202217&hn_hot_date=2026-10-24",
+      "image_url": null,
+      "author": {
+        "username": "johnbender",
+        "name": "johnbender",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-22T22:54:43",
+      "first_seen_at": "2026-10-24T00:07:24.701199",
+      "sub_category_label": null
     },
     {
       "id": 20453,
@@ -193,56 +237,6 @@
       "published_at": "2026-10-23T20:46:32",
       "first_seen_at": "2026-10-23T21:18:26.340651",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 20253,
-      "title": "Anthropic 用 Claude 证明 123 个开源库无崩溃漏洞",
-      "original_title": "Le fuzzing cherche des bugs, une preuve montre qu'il n'y en a pas. Anthropic a fait prouver à Claude que 239 points d'entrée de 123 bibliothèques open source ne plantent sur aucune",
-      "summary": "Anthropic 利用 Claude 对 123 个开源库的 239 个入口点进行了形式化验证，证明在 64MB 以下输入无崩溃，并修复了过程中发现的漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 在漏洞挖掘领域从「找 bug」走向「证明无 bug」的重要信号，安全团队应密切关注 AI 辅助形式化验证的落地进展与工具化潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/kamel_laimene/status/2113625669213048867",
-      "reader_url": "https://x.com/kamel_laimene/status/2113625669213048867",
-      "image_url": null,
-      "author": {
-        "username": "kamel_laimene",
-        "name": "Kamel – CTO as a Service - Expert IT",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T13:36:43",
-      "first_seen_at": "2026-10-23T13:45:40.355739",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 20317,
-      "title": "多智能体自主渗透测试系统 ARTEX",
-      "original_title": "Chaining recon into exploitation is easy. Keeping every asset and finding straight is the hard part.  ARTEX is an AI autonomous penetration testing system built as a multi-agent LL",
-      "summary": "ARTEX 是一款基于多智能体 LLM 的自主渗透测试系统，通过共享资产图与探索图串联侦察与利用，支持人工审批与全流量记录。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "面向红队和渗透测试人员。该工具将多 Agent 协同与资产管理结合，内置人工审核和流量录制，可作为自动化红队工具链评估或二次开发的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/read__the__diff/status/2113672226742423904",
-      "reader_url": "https://x.com/read__the__diff/status/2113672226742423904",
-      "image_url": "https://pbs.twimg.com/media/HVVFqe8XMAAmUpw.jpg",
-      "author": {
-        "username": "read__the__diff",
-        "name": "Read the Diff",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-23T16:41:43",
-      "first_seen_at": "2026-10-23T16:59:23.280040",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
