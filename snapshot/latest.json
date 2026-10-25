@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T09:10:55+08:00",
+  "updated_at": "2026-10-25T10:41:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 10,
   "items": [
     {
       "id": 20825,
@@ -25,6 +25,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 19839,
+      "title": "SESAA框架：用LLM自演化静态分析规则挖掘漏洞",
+      "original_title": "Self-Evolving Static Analysis via LLM Pseudo-Labeling",
+      "summary": "SESAA利用LLM Agent从零开始迭代生成可读的Joern规则，通过另一个LLM作为评估者识别误报与漏报以优化规则，在真实项目中提前检测出10/19个CVE。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 89.6,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "代码审计和漏洞挖掘团队必看。用双LLM协作实现静态分析规则的自演化，避免人工维护规则，在真实项目中检出了10个CVE，证明了自动化漏洞挖掘的新落地路径。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.30184",
+      "reader_url": "https://arxiv.org/pdf/2610.30184",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-23T04:00:00",
+      "first_seen_at": "2026-10-25T02:36:11.040948",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 19871,
       "title": "Social-HUMINT：基于LLM的社交媒体暴露度评估框架",
       "original_title": "Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure",
@@ -42,6 +62,26 @@
       "author": null,
       "published_at": "2026-10-23T04:00:00",
       "first_seen_at": "2026-10-24T20:35:52.260769",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 19861,
+      "title": "ReDence：用于检测社会工程骗局的混合智能体框架",
+      "original_title": "ReDence: A Hybrid Agentic and Decision-Model Framework for Rapid, Evidence-Grounded Detection of Modern Social Engineering Scams",
+      "summary": "ReDence结合多模态智能体与专用决策模型来检测社会工程学骗局，准确率达96%且速度提升4倍，能生成结构化证据报告辅助分析师进行缓解与下架。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 86.2,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "社会工程骗局检测往往费时费力，这项工作提出了开源的Agent+决策模型混合框架，不仅速度快，还能输出可审计的取证报告，适合做威胁情报和自动化检测的团队参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.30963",
+      "reader_url": "https://arxiv.org/pdf/2610.30963",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-23T04:00:00",
+      "first_seen_at": "2026-10-25T02:36:11.040948",
       "sub_category_label": "安全Agent"
     },
     {
@@ -125,24 +165,44 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 20073,
-      "title": "TTF：基于LLM模板预处理的轻量级模糊测试",
-      "original_title": "Typed Template Fuzzing",
-      "summary": "提出Typed Template Fuzzing方法，利用LLM预处理生成类型化模板，无需运行时LLM查询即可进行高效变异模糊测试，在21种语言中验证并发现128个未知漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 79.25,
+      "id": 19845,
+      "title": "探究AI黑客心理：通过情绪引导提升网络安全任务表现",
+      "original_title": "The Psychology of an AI Hacker",
+      "summary": "该研究从安全模型CT0的残差流中提取情绪方向，通过动态引导「冷静」「专注」等情绪状态，使AI在Cybench子任务上的表现提升约4.2%，证明了情绪表示对自适应安全推理的可控性与实用性。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 79.6,
       "include_status": "highlight",
       "item_type": "paper",
-      "recommendation_reason": "对Fuzzing和漏洞挖掘团队极具参考价值。该方法通过预处理将LLM开销移出测试循环，既保留了语义感知能力又保证了吞吐量，其模板映射思路可直接用于改进现有变异模糊器。",
+      "recommendation_reason": "安全研究员可关注此表示工程方法，它提供了一种无需重训即可调优安全Agent推理状态的新思路。这不仅能提升漏洞挖掘Agent的表现，也为理解模型在复杂安全任务中的行为模式提供了切入点。",
       "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.31342",
-      "reader_url": "https://arxiv.org/pdf/2610.31342",
+      "canonical_url": "https://arxiv.org/abs/2610.30361",
+      "reader_url": "https://arxiv.org/pdf/2610.30361",
       "image_url": null,
       "author": null,
       "published_at": "2026-10-23T04:00:00",
-      "first_seen_at": "2026-10-24T14:35:32.732959",
-      "sub_category_label": "AI Fuzzing"
+      "first_seen_at": "2026-10-25T02:36:11.040948",
+      "sub_category_label": null
+    },
+    {
+      "id": 19842,
+      "title": "面向IoT入侵检测的参数高效潜在交叉注意力语言模型",
+      "original_title": "Parameters efficient language model with latent cross-attention for IoT intrusion detection",
+      "summary": "提出一种紧凑型Transformer架构，在保持甚至超越SecurityBERT检测性能的同时，将参数量缩减至1.6M并提升89倍推理速度，适用于资源受限的IoT边缘设备。",
+      "primary_category": "AI for Sec",
+      "sub_category": "intrusion_detection",
+      "score_total": 79.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做端侧安全检测的工程师必看。论文证明在IoT场景下不堆大模型，1.6M参数的极简Transformer就能干翻11M的SecurityBERT，为边缘设备安全部署提供了高性价比落地思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.30222",
+      "reader_url": "https://arxiv.org/pdf/2610.30222",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-23T04:00:00",
+      "first_seen_at": "2026-10-25T02:36:11.040948",
+      "sub_category_label": null
     }
   ]
 }
