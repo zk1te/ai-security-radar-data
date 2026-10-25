@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-25T04:40:23+08:00",
+  "updated_at": "2026-10-25T09:10:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
+    {
+      "id": 20825,
+      "title": "Cloudflare 安全审计技能爆火：专为 Coding Agent 打造",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2264 stars today",
+      "summary": "Cloudflare 开源 coding-agent 安全审计技能，支持多阶段审计并产出可独立验证的机器可读结果，单日涨星超两千。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 94.75,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "做安全审计 Agent 的开发者必看：Cloudflare 这套技能提供了独立验证和机器可读产出的工程闭环，可以直接抄它的验证架构设计，避坑幻觉漏洞。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-25&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-25&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-25T00:49:57.935183",
+      "first_seen_at": "2026-10-25T00:50:26.665454",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 19871,
       "title": "Social-HUMINT：基于LLM的社交媒体暴露度评估框架",
