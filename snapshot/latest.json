@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T00:56:49+08:00",
+  "updated_at": "2026-10-26T01:56:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 19232,
@@ -168,31 +168,6 @@
       "published_at": "2026-10-22T04:00:00",
       "first_seen_at": "2026-10-25T14:36:55.603905",
       "sub_category_label": null
-    },
-    {
-      "id": 20867,
-      "title": "Wiz披露APT组织武器化开源AI渗透代理ARTEX",
-      "original_title": "Jack Dorsey's Block debuts Dessa, an end-to-end full-duplex voice model running locally on Apple Silicon; Wiz reveals state-sponsored threat group Storm-0940 is weaponizing open-so",
-      "summary": "Wiz研究发现，国家级威胁组织Storm-0940正将开源自主渗透测试Agent框架ARTEX武器化，用于自动化企业侦察和横向移动以攻击IT供应链。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.31,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "蓝队和威胁狩猎人员需高度警惕：开源红队Agent工具正被APT组织反向利用。建议立即排查网络中是否存在ARTEX的异常调用行为。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/lunkertw/status/2114224156418179330",
-      "reader_url": "https://x.com/lunkertw/status/2114224156418179330",
-      "image_url": null,
-      "author": {
-        "username": "lunkertw",
-        "name": "Laban",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-25T05:14:53",
-      "first_seen_at": "2026-10-25T05:41:47.475846",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 19229,
