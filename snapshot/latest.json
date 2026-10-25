@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-25T22:56:06+08:00",
+  "updated_at": "2026-10-26T00:56:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 19232,
@@ -123,6 +123,31 @@
       "published_at": "2026-10-22T04:00:00",
       "first_seen_at": "2026-10-25T08:36:31.657042",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 20992,
+      "title": "GMO称自主AI渗透工具ARTEX被滥用，超2.6万台服务器暴露",
+      "original_title": "HOLY. GMO Internet Group CEO Masatoshi Kumagai says: 'Right now, the internet itself is starting to break.'  'In fact, an investigation by our group's GMO Cybersecurity by Ierae ha",
+      "summary": "日本 GMO 网络安全部门确认，原用于防御的自主 AI 渗透测试工具 ARTEX 遭到滥用，导致约 20 家日本公司、超 70 家券商的 2.6 万台服务器暴露。GMO 已呼吁启用主动防御法应对。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 77.9,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红蓝队与安全负责人必看：自主 AI 渗透工具已被武器化用于实战，仅凭简单指令即可完成从查漏到入侵的全流程。现在就得审视内部自动化工具的防滥用机制与边界管控。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/choblin29/status/2114386740354183573",
+      "reader_url": "https://x.com/choblin29/status/2114386740354183573",
+      "image_url": null,
+      "author": {
+        "username": "choblin29",
+        "name": "Choblin",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-25T16:00:56",
+      "first_seen_at": "2026-10-25T16:34:41.139593",
+      "sub_category_label": null
     },
     {
       "id": 19130,
