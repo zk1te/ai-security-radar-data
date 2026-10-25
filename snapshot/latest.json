@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T10:41:24+08:00",
+  "updated_at": "2026-10-25T11:24:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -105,26 +105,6 @@
       "sub_category_label": null
     },
     {
-      "id": 20680,
-      "title": "AI 辅助挖出 PHP 陈年漏洞并引发攻击浪潮",
-      "original_title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
-      "summary": "安全研究人员使用 AI 工具发现了 PHP 中存在多年的漏洞，随后出现了基于这些漏洞的 AI 辅助攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 84.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 在实际漏洞挖掘中的威力已显现，传统老代码面临更快被攻破的风险。安全团队应立即关注 AI 辅助漏洞修复与防御策略。",
-      "source_id": "wired-ai",
-      "canonical_url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable",
-      "reader_url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-24T12:00:00",
-      "first_seen_at": "2026-10-24T14:57:58.098100",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 19998,
       "title": "免训练图异常检测框架 Jev-GAD：利用预训练模型评估异构证据",
       "original_title": "One Pretrained Decision Model Is Enough for Training-Free Generalist Graph Anomaly Detection",
@@ -203,6 +183,26 @@
       "published_at": "2026-10-23T04:00:00",
       "first_seen_at": "2026-10-25T02:36:11.040948",
       "sub_category_label": null
+    },
+    {
+      "id": 19857,
+      "title": "面向工业物联网的 AIRO：基于流式机器学习的威胁检测与缓解框架",
+      "original_title": "AIRO: A Streaming-Based Machine Learning Framework for Threat Detection and Security in Industrial Internet of Things",
+      "summary": "该论文提出了一种基于 Apache Kafka 流处理和机器学习的 AIRO 框架，用于工业物联网中的实时威胁检测与自动化缓解。针对 C2、SQLi 等攻击，其采用的 LightGBM 等模型实现了 0.92 以上的 F1 分数。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 78.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对负责工控安全或 SOC 自动化的同学有参考价值，展示了如何将流处理与 Gradient Boosting 结合实现端到端检测和拦截，可作为设计实时 ML 安全管线时的借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.30713",
+      "reader_url": "https://arxiv.org/pdf/2610.30713",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-23T04:00:00",
+      "first_seen_at": "2026-10-25T02:36:11.040948",
+      "sub_category_label": "威胁检测"
     }
   ]
 }
