@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T05:35:48+08:00",
+  "updated_at": "2026-10-27T06:05:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -73,26 +73,6 @@
       "published_at": "2026-09-14T19:29:02",
       "first_seen_at": "2026-10-26T11:03:28.975026",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 21433,
-      "title": "使用稀疏自编码器构建可审计的AI文本检测器",
-      "original_title": "Building Auditable AI Text Detectors with Sparse Autoencoders",
-      "summary": "提出一种基于稀疏自编码器的流水线，将微调神经检测器转换为基于人类可读概念的分类器，使其不仅具备高度可解释性，在分布外文本上表现也优于传统方案。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_security",
-      "score_total": 73.5,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "检测 AIGC 是对抗 AI 滥用的关键防线。本文用稀疏自编码器提取可解释特征，提升检测器在分布外文本上的鲁棒性。安全团队可关注此可解释性方法，用于分析 AI 生成的钓鱼内容以降低误报。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.30006",
-      "reader_url": "https://arxiv.org/pdf/2610.30006",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T00:00:00",
-      "first_seen_at": "2026-10-26T09:50:38.085633",
-      "sub_category_label": null
     },
     {
       "id": 21545,
@@ -188,6 +168,31 @@
       "published_at": "2026-10-26T09:53:21",
       "first_seen_at": "2026-10-26T10:20:06.611817",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21661,
+      "title": "20个给AI编码代理的模糊测试与漏洞挖掘技能",
+      "original_title": "20 Fuzz Testing & Bug Hunting Skills Every Developer Should Have  Your tests pass. That doesn't mean your code is safe.  These 20 open-source skills help AI coding agents generate ",
+      "summary": "汇总20个开源模糊测试与漏洞挖掘技能，帮助AI编码代理生成对抗输入、发现隐藏Bug、复现崩溃并验证补丁修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这份工具清单直接打通了AI编程助手与底层安全测试的链路。安全工程师可将其集成到Agent工作流中，自动化执行从Fuzzing到补丁验证的安全闭环。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/arjunkshah21/status/2114819355615609201",
+      "reader_url": "https://x.com/arjunkshah21/status/2114819355615609201",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2114450712344272896/img/wYI1hdZ-T2Xf9t-n.jpg",
+      "author": {
+        "username": "arjunkshah21",
+        "name": "Arjun Shah",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-26T20:40:00",
+      "first_seen_at": "2026-10-26T20:52:30.885493",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
