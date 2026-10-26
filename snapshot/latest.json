@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T08:28:17+08:00",
+  "updated_at": "2026-10-26T10:58:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -43,6 +43,26 @@
       "published_at": "2026-10-21T04:00:00",
       "first_seen_at": "2026-10-25T20:37:17.208169",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 18548,
+      "title": "RELAY：混合规则复用与 Agent 修复历史构建",
+      "original_title": "RELAY: Scaling Historical Build Restoration through Rule Reuse and Agentic Repair",
+      "summary": "RELAY 框架利用 LLM 从 OSS-Fuzz 构建失败案例中推导确定性修复规则并复用，将无法修复的案例升级给 Agent 处理，以更低成本恢复历史构建。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 87.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在折腾大模型辅助漏洞挖掘，肯定遇到过环境构建失败的头疼问题。这篇论文用「规则复用+Agent兜底」的混合架构修复 OSS-Fuzz 历史构建，既省 token 又提效，做安全评测和 Agent 自动化的同学可直接抄作业。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.27784",
+      "reader_url": "https://arxiv.org/pdf/2610.27784",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-21T04:00:00",
+      "first_seen_at": "2026-10-26T02:37:33.559880",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 19073,
@@ -145,6 +165,26 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 18547,
+      "title": "SCALF：基于步骤级信用分配与自我蒸馏的Bug暴露测试生成",
+      "original_title": "Enhancing Bug-Exposing Test Generation via Step-Level Credit Assignment and Self-Distillation from Valuable Failures",
+      "summary": "提出SCALF方法，通过步骤级信用分配和从失败轨迹自我蒸馏改进LLM的RL训练，提升生成暴露Bug的测试用例的效果，代码已开源。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 80.7,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做AI Fuzzing和测试生成的同学必看。解决了RL测试生成中步骤奖励分配不准和失败轨迹利用不足的问题，有开源代码，可直接拿去改测试生成Pipeline。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.27694",
+      "reader_url": "https://arxiv.org/pdf/2610.27694",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-21T04:00:00",
+      "first_seen_at": "2026-10-26T02:37:33.559880",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 19075,
       "title": "VMSpec：针对虚拟机混淆的自动化反编译方法",
       "original_title": "VMSpec: A Decompiler-based Approach against Virtual Machine Obfuscation",
@@ -163,46 +203,6 @@
       "published_at": "2026-10-22T04:00:00",
       "first_seen_at": "2026-10-25T20:37:17.208169",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 19068,
-      "title": "NumAnchor：提升汇编语言模型数字操作数表示能力",
-      "original_title": "Beyond Tokens: NumAnchor for Address-Grounded Numeric Operand Representation in Assembly Language Models",
-      "summary": "针对汇编语言模型处理数字操作数语义丢失的痛点，提出 NumAnchor 适配器，将操作数表示为类型化实体并融入输入嵌入，显著提升函数检索与类型恢复性能。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 79.35,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "二进制分析团队应重点关注。该工作精准解决了汇编模型处理跳转目标和指针时语义丢失的痛点，在函数检索上提升超30%，对逆向分析自动化有直接参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.29027",
-      "reader_url": "https://arxiv.org/pdf/2610.29027",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-22T04:00:00",
-      "first_seen_at": "2026-10-25T20:37:17.208169",
-      "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 19092,
-      "title": "边缘 VLM 物理对抗鲁棒性统一评测框架",
-      "original_title": "A Unified Evaluation Framework of Physical Adversarial Robustness in the Edge VLM Era",
-      "summary": "本文提出统一评测框架对比边缘 VLM 和目标检测器的物理对抗鲁棒性，发现 VLM 与检测器一样易受对抗补丁攻击，且在分布偏移下可能产生更隐蔽危险的替换或位移失败模式。代码数据已开源。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_security",
-      "score_total": 78.4,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "在边缘部署 VLM 做视觉检测的安全团队必须看：VLM 并不比传统检测器更能抗对抗补丁，且失败时会输出高置信度的错误框。赶紧用其开源指标测试你的 VLM 管线，警惕下游系统被隐蔽错误欺骗。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.29196",
-      "reader_url": "https://arxiv.org/pdf/2610.29196",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-22T04:00:00",
-      "first_seen_at": "2026-10-25T20:37:17.208169",
-      "sub_category_label": null
     }
   ]
 }
