@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T04:57:45+08:00",
+  "updated_at": "2026-10-26T08:28:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -83,6 +83,26 @@
       "published_at": "2026-10-21T04:00:00",
       "first_seen_at": "2026-10-25T20:37:17.208169",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 21105,
+      "title": "Cloudflare开源安全审计Agent技能登顶Trending",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2878 stars today",
+      "summary": "Cloudflare开源的security-audit-skill为编程Agent提供多阶段安全审计能力，能独立验证并输出机器可读结果，单日暴涨2878星标。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "推荐做代码审计和安全自动化的团队看。这个技能可直接给 Coding Agent 挂载进行多阶段审计，其机器可读的输出能快速接入现有 CI 流水线。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-26&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-26&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T00:15:47.441361",
+      "first_seen_at": "2026-10-26T00:18:57.522940",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 19077,
@@ -182,31 +202,6 @@
       "author": null,
       "published_at": "2026-10-22T04:00:00",
       "first_seen_at": "2026-10-25T20:37:17.208169",
-      "sub_category_label": null
-    },
-    {
-      "id": 20992,
-      "title": "GMO称自主AI渗透工具ARTEX被滥用，超2.6万台服务器暴露",
-      "original_title": "HOLY. GMO Internet Group CEO Masatoshi Kumagai says: 'Right now, the internet itself is starting to break.'  'In fact, an investigation by our group's GMO Cybersecurity by Ierae ha",
-      "summary": "日本 GMO 网络安全部门确认，原用于防御的自主 AI 渗透测试工具 ARTEX 遭到滥用，导致约 20 家日本公司、超 70 家券商的 2.6 万台服务器暴露。GMO 已呼吁启用主动防御法应对。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 77.9,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红蓝队与安全负责人必看：自主 AI 渗透工具已被武器化用于实战，仅凭简单指令即可完成从查漏到入侵的全流程。现在就得审视内部自动化工具的防滥用机制与边界管控。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/choblin29/status/2114386740354183573",
-      "reader_url": "https://x.com/choblin29/status/2114386740354183573",
-      "image_url": null,
-      "author": {
-        "username": "choblin29",
-        "name": "Choblin",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-25T16:00:56",
-      "first_seen_at": "2026-10-25T16:34:41.139593",
       "sub_category_label": null
     }
   ]
