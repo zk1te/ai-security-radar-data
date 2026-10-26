@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T03:35:31+08:00",
+  "updated_at": "2026-10-27T04:35:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 21404,
@@ -138,26 +138,6 @@
       "published_at": "2026-10-26T14:54:12",
       "first_seen_at": "2026-10-26T16:13:10.533274",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 21401,
-      "title": "OpenSWE：大规模开源SWE环境合成与评测框架",
-      "original_title": "daVinci-Env: Open SWE Environment Synthesis at Scale",
-      "summary": "本文提出OpenSWE，构建了包含超4.5万个可执行Docker环境的开源框架，通过多Agent合成管线和质量过滤，显著提升了SWE Agent在SWE-bench上的表现，并带来了数学推理等跨领域能力提升。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 72.45,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "对于做代码安全和自动化修复的人，SWE-bench环境构建是绕不开的基础设施。这篇不仅开源了大规模Docker环境，还展示了质量过滤管线如何提升训练效率，做Agent代码审计和修复值得直接参考这套数据构建思路。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2603.13023",
-      "reader_url": "https://arxiv.org/pdf/2603.13023",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T04:00:00",
-      "first_seen_at": "2026-10-26T08:25:54.309537",
-      "sub_category_label": "Agent 架构"
     },
     {
       "id": 21413,
