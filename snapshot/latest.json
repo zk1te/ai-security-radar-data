@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-10-27T04:35:36+08:00",
+  "updated_at": "2026-10-27T05:05:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
-    {
-      "id": 21404,
-      "title": "用 LLM 记忆机制自动消除 SAST 工具误报的框架 Memoir",
-      "original_title": "Memoir: Learning, Verifying, and Evolving False-Positive Memories for Static Application Security Testing Tools",
-      "summary": "论文提出 Memoir 框架，利用 LLM 将 SAST 工具的历史假阳性警报转化为可复用的语义记忆，通过检索和验证机制在 CWE-Bench-Java 上达到近 100% 的精确率，并能跨工具泛化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "knowledge_enhanced",
-      "score_total": 83.95,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "SAST 误报是代码审计和漏洞挖掘的日常痛点。该框架利用 LLM 结合知识库动态消除误报且无需重训，适合做 SAST 工具优化和安全自动化的人员深入研究借鉴。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2608.09181",
-      "reader_url": "https://arxiv.org/pdf/2608.09181",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T04:00:00",
-      "first_seen_at": "2026-10-26T08:37:58.654618",
-      "sub_category_label": "知识增强安全"
-    },
     {
       "id": 21558,
       "title": "黑色十月周报：AI 渗透与漏洞挖掘能力集中爆发引发安全震动",
@@ -188,6 +168,26 @@
       "published_at": "2026-10-26T16:00:44",
       "first_seen_at": "2026-10-26T18:34:37.348990",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21405,
+      "title": "循环工程：AI Agent 自动化控制模式的采用与影响分析",
+      "original_title": "Loop Engineering: Building Blocks, Adoption, and Impact",
+      "summary": "本文首次对「循环工程」这一新型 AI Agent 编码控制模式进行了文献综述与大规模代码挖掘，在 217 个开源仓库中发现自主 Agent 循环的采用，并设计实验以评估其对任务成功率和代码质量的影响。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 69.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "构建自动化安全 Agent（如漏洞挖掘、代码审计）的工程师必看。文中总结的 Agent 循环核心组件（停止条件、verifier 子代理、token 预算）是设计鲁棒安全自动化任务流的关键参考，能帮你避坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.21884",
+      "reader_url": "https://arxiv.org/pdf/2608.21884",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-26T14:38:00.615645",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
