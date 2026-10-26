@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T06:35:55+08:00",
+  "updated_at": "2026-10-27T07:05:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 21558,
@@ -52,26 +52,6 @@
       },
       "published_at": "2026-10-26T11:29:07",
       "first_seen_at": "2026-10-26T12:37:32.100528",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 21464,
-      "title": "Cloudflare 开源安全审计 Agent 技能",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare 的 security-audit-skill 是一个多阶段安全审计的 coding-agent 技能，提供独立验证且机器可读的审计结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全审计和代码审计 Agent 开发者必看：该技能展示了如何让 Agent 执行多阶段审计并输出机器可读结果，为构建自动化安全审计流程提供直接参考。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-26&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-26&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-09-14T19:29:02",
-      "first_seen_at": "2026-10-26T11:03:28.975026",
       "sub_category_label": "安全Agent"
     },
     {
@@ -188,6 +168,56 @@
       "published_at": "2026-10-26T07:00:00",
       "first_seen_at": "2026-10-26T19:49:47.704530",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21660,
+      "title": "AI安全Agent自主捕获vLLM漏洞并联动补丁",
+      "original_title": "@KaitanSecurity My AI security agent caught this, verified it against vLLM's advisories and the 0.32.0 release (the in-the-wild claim isn't in CISA KEV), then told my patching agen",
+      "summary": "用户演示AI安全Agent捕获vLLM在野漏洞，核对官方公告后，指挥补丁Agent完成跨容器版本检查与安全配置加固。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了安全Agent从情报捕获到验证和自动修复的闭环。做AI安全的团队可参考多Agent协作模式，将漏洞响应转化为自动化流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OhioValleyEV/status/2114818656182165932",
+      "reader_url": "https://x.com/OhioValleyEV/status/2114818656182165932",
+      "image_url": null,
+      "author": {
+        "username": "OhioValleyEV",
+        "name": "OhioValley EV",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-26T20:37:13",
+      "first_seen_at": "2026-10-26T20:52:29.775419",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21648,
+      "title": "闭源智能合约形同虚设：AI反编译大幅降低漏洞挖掘成本",
+      "original_title": "Closed-source smart contracts are security theater.  Shaw just rebuilt the daosfun program on Solana straight from on-chain data. His build matched the deployed binary byte for byt",
+      "summary": "Shaw 通过链上数据逐字节重建了 Solana 上的 daosfun 程序并发现关键漏洞，证明 AI 工具正让智能合约反编译变得极其廉价，闭源策略已失去安全意义。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 66.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Web3 安全团队必看，AI 辅助逆向让代码混淆彻底失效。应立即放弃闭源幻想，转向源码验证、可复现构建和 Fuzzing 审计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MirHamzaHasan/status/2114807326280696291",
+      "reader_url": "https://x.com/MirHamzaHasan/status/2114807326280696291",
+      "image_url": null,
+      "author": {
+        "username": "MirHamzaHasan",
+        "name": "Hamza Mir",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-26T19:52:12",
+      "first_seen_at": "2026-10-26T20:17:27.987250",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
