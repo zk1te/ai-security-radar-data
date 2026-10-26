@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T10:58:36+08:00",
+  "updated_at": "2026-10-26T15:28:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -105,6 +105,26 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 21239,
+      "title": "面向LLM攻击者的网络欺骗评估：Honeyquest框架",
+      "original_title": "Honeyquest for LLMs: Rethinking Cyber Deception for AI Attackers",
+      "summary": "本文将Honeyquest工具适配为自动化评测框架，评估21个LLM攻击者面对网络欺骗陷阱的判断力，发现LLM虽然能识别陷阱但仍会执行操作的「识别-行动鸿沟」，证明传统网络欺骗手段对AI攻击者失效。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_benchmark",
+      "score_total": 84.8,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "给做防御欺骗和Agent安全的团队看：AI攻击者对蜜罐的免疫力远低于人类，且存在「明知有坑还要踩」的推理与执行割裂现象。设计安全Agent或防御AI攻击时，必须重新评估传统欺骗防御的假设。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2606.21037",
+      "reader_url": "https://arxiv.org/pdf/2606.21037",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-26T07:22:57.267548",
+      "sub_category_label": null
+    },
+    {
       "id": 21105,
       "title": "Cloudflare开源安全审计Agent技能登顶Trending",
       "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2878 stars today",
@@ -183,26 +203,6 @@
       "published_at": "2026-10-21T04:00:00",
       "first_seen_at": "2026-10-26T02:37:33.559880",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 19075,
-      "title": "VMSpec：针对虚拟机混淆的自动化反编译方法",
-      "original_title": "VMSpec: A Decompiler-based Approach against Virtual Machine Obfuscation",
-      "summary": "本文提出 VMSpec，能自动构建 VM 处理器规范以分析 VM 混淆代码，在 147 个程序及真实恶意软件上成功剥离了 VM 混淆，输出与原代码反编译结果相当。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 80.0,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "针对虚拟机混淆的自动化反编译方案，还原了无限路径和递归调用。对于从事恶意软件逆向分析的团队，VMSpec 能直接接入 Ghidra 提升脱壳效率，值得跟进。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.29566",
-      "reader_url": "https://arxiv.org/pdf/2610.29566",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-22T04:00:00",
-      "first_seen_at": "2026-10-25T20:37:17.208169",
-      "sub_category_label": "二进制安全"
     }
   ]
 }
