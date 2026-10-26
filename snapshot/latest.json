@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T00:34:08+08:00",
+  "updated_at": "2026-10-27T01:04:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
     {
       "id": 21239,
@@ -43,6 +43,31 @@
       "published_at": "2026-10-26T04:00:00",
       "first_seen_at": "2026-10-26T08:37:58.654618",
       "sub_category_label": "知识增强安全"
+    },
+    {
+      "id": 21558,
+      "title": "黑色十月周报：AI 渗透与漏洞挖掘能力集中爆发引发安全震动",
+      "original_title": "Situation of the Week 10/19-10/25:  Black October  Though real-world impacts have lagged behind, AI has been cyber-capable for quite some time now. Anthropic finished training Clau",
+      "summary": "本周多起重大事件显示 AI 网络能力已转化为实战：黑客用 AI 渗透 Agent 攻破大量网站，大厂密集修补 AI 协助发现的关键漏洞，去护栏模型也开始泛滥。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "vuln_discovery",
+      "score_total": 76.98,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 安全从业者必读：直观展示了 AI 漏洞挖掘和渗透 Agent 从基准测试走向实战的真实破坏力。建议立即跟踪文中的 Cairn harness 与 OSS Scanner，评估当前防御能否抵御 Agent 级攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MTSlive/status/2114750852586148243",
+      "reader_url": "https://x.com/MTSlive/status/2114750852586148243",
+      "image_url": null,
+      "author": {
+        "username": "MTSlive",
+        "name": "MTS",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-26T16:07:48",
+      "first_seen_at": "2026-10-26T16:50:57.040887",
+      "sub_category_label": null
     },
     {
       "id": 21491,
