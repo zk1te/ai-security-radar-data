@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T16:59:15+08:00",
+  "updated_at": "2026-10-26T20:29:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -43,26 +43,6 @@
       "published_at": "2026-10-26T04:00:00",
       "first_seen_at": "2026-10-26T07:22:57.267548",
       "sub_category_label": null
-    },
-    {
-      "id": 21105,
-      "title": "Cloudflare开源安全审计Agent技能登顶Trending",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2878 stars today",
-      "summary": "Cloudflare开源的security-audit-skill为编程Agent提供多阶段安全审计能力，能独立验证并输出机器可读结果，单日暴涨2878星标。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 84.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "推荐做代码审计和安全自动化的团队看。这个技能可直接给 Coding Agent 挂载进行多阶段审计，其机器可读的输出能快速接入现有 CI 流水线。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-26&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-26&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T00:15:47.441361",
-      "first_seen_at": "2026-10-26T00:18:57.522940",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 21404,
@@ -143,6 +123,26 @@
       "published_at": "2026-10-21T04:00:00",
       "first_seen_at": "2026-10-26T02:37:33.559880",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 21464,
+      "title": "Cloudflare 开源安全审计 Agent 技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 的 security-audit-skill 是一个多阶段安全审计的 coding-agent 技能，提供独立验证且机器可读的审计结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全审计和代码审计 Agent 开发者必看：该技能展示了如何让 Agent 执行多阶段审计并输出机器可读结果，为构建自动化安全审计流程提供直接参考。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-26&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-26&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-14T19:29:02",
+      "first_seen_at": "2026-10-26T11:03:28.975026",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
