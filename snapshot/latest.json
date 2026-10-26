@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T06:05:51+08:00",
+  "updated_at": "2026-10-27T06:35:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -145,31 +145,6 @@
       "sub_category_label": "Agent 架构"
     },
     {
-      "id": 21441,
-      "title": "NIGHTWARE LABZ安全平台解析：集成设备端AI与多模块渗透工具",
-      "original_title": "“How complicated and complex is everything NIGHTWARE LABZ is doing?”  Very complicated. NIGHTWARE LABZ is building a multi-layered network instrumentation and systems platform, not",
-      "summary": "NIGHTWARE LABZ构建了包含Nightjar原生应用和BLACKSITE OS浏览器端的综合安全平台，集成了扫描、侦察、fuzzing和名为Skelli的设备端AI agent，可读取应用状态并伪造数据包。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "适合安全工具开发者与渗透测试人员关注，其设备端AI Agent集成方式展示了在iOS沙箱限制下结合多模块工具的实战思路，可启发移动端安全自动化工具的架构设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/nightwarelabz/status/2114656622685397136",
-      "reader_url": "https://x.com/nightwarelabz/status/2114656622685397136",
-      "image_url": null,
-      "author": {
-        "username": "nightwarelabz",
-        "name": "NIGHTWARE LABZ",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-26T09:53:21",
-      "first_seen_at": "2026-10-26T10:20:06.611817",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 21661,
       "title": "20个给AI编码代理的模糊测试与漏洞挖掘技能",
       "original_title": "20 Fuzz Testing & Bug Hunting Skills Every Developer Should Have  Your tests pass. That doesn't mean your code is safe.  These 20 open-source skills help AI coding agents generate ",
@@ -193,6 +168,26 @@
       "published_at": "2026-10-26T20:40:00",
       "first_seen_at": "2026-10-26T20:52:30.885493",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 21640,
+      "title": "OpenAI 使用 Codex 将事件调查缩短至数分钟",
+      "original_title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "summary": "OpenAI 工程师展示如何利用 Codex Ultrafast 快速进行安全分析和事件调查，将耗时从数小时压缩至数分钟，并应用于代码重构与日常工作流。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 67.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做甲方安全运营和应急响应的人该看，展示了头部大厂如何用 LLM 提效事件调查。能启发你把 LLM Agent 落地到日常安全分析和代码审计流程中。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/openai-cut-incident-investigation",
+      "reader_url": "https://openai.com/index/openai-cut-incident-investigation",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T07:00:00",
+      "first_seen_at": "2026-10-26T19:49:47.704530",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
