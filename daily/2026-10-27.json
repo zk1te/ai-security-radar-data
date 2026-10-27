@@ -1,0 +1,1203 @@
+{
+  "date": "2026-10-27",
+  "candidate_count": 23,
+  "selected_count": 3,
+  "cover_title": "GPT-6.1 Sol 赋能 CodeRabbit 强化代码安全审查",
+  "lead_takeaway": "今天的主线很明确：AI安全Agent正在从demo阶段全面切入实战，从代码审计到5G硬件Fuzzing再到渗透攻击，每一块都有真实产出——挖到CVE、攻破网站、落地产品。这不是未来趋势，是正在发生的事实，AI for Sec从业者需要把注意力从模型能力本身转向Agent工作流和工具链的成熟度。",
+  "digest_points": [
+    "01 展示大模型在自动化代码审查和安全修复建议方面的具体落地应用。安全团队可关注此类安全 Agent 在提升代码审计效率上的实际表现。",
+    "02 这是AI辅助Fuzzing在闭源硬件领域的突破性应用。安全研究员可借鉴如何利用Agent突破黑盒测试瓶颈，将大模型与现有工具链结合以自动化发现真实漏洞。",
+    "03 AI 安全从业者必读：直观展示了 AI 漏洞挖掘和渗透 Agent 从基准测试走向实战的真实破坏力。建议立即跟踪文中的 Cairn harness 与 OSS Scanner，评估当前防御能否抵御 Agent 级攻击。"
+  ],
+  "judgement": [
+    "01 展示大模型在自动化代码审查和安全修复建议方面的具体落地应用。安全团队可关注此类安全 Agent 在提升代码审计效率上的实际表现。",
+    "02 这是AI辅助Fuzzing在闭源硬件领域的突破性应用。安全研究员可借鉴如何利用Agent突破黑盒测试瓶颈，将大模型与现有工具链结合以自动化发现真实漏洞。",
+    "03 AI 安全从业者必读：直观展示了 AI 漏洞挖掘和渗透 Agent 从基准测试走向实战的真实破坏力。建议立即跟踪文中的 Cairn harness 与 OSS Scanner，评估当前防御能否抵御 Agent 级攻击。"
+  ],
+  "top_items": [
+    {
+      "id": 21701,
+      "title": "GPT-6.1 Sol 赋能 CodeRabbit 强化代码安全审查",
+      "original_title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "summary": "CodeRabbit 采用 GPT-6.1 Sol 构建安全智能体，用于排查复杂代码库中的安全风险，并辅助开发者审查发现结果与修复建议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示大模型在自动化代码审查和安全修复建议方面的具体落地应用。安全团队可关注此类安全 Agent 在提升代码审计效率上的实际表现。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "reader_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T13:45:00",
+      "first_seen_at": "2026-10-26T23:49:45.636593",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21835,
+      "title": "5uGUE：基于Agent的5G设备硬件在环模糊测试研究",
+      "original_title": "通信部分のソースコードが見えないスマホでも、異常な入力で落ちるかは実機で試せる。5uGUEは、その試験をAIが計画し、端末のログを見て次の入力を選び直す研究です。  入力を変えて不具合を探す「ファジング」に、文献検索や通信記録の解析、試験コードの生成を組み合わせます。AIが作ったコードは既存の無線試験ツールで実行。端末の異常をログの決まったパターンで判定し、",
+      "summary": "5uGUE利用AI规划并执行硬件在环模糊测试，结合文献检索与日志分析验证异常，成功发现真实漏洞CVE-2026-20525并获MediaTek致谢。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 79.03,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是AI辅助Fuzzing在闭源硬件领域的突破性应用。安全研究员可借鉴如何利用Agent突破黑盒测试瓶颈，将大模型与现有工具链结合以自动化发现真实漏洞。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/triangle_chain/status/2114947444077375537",
+      "reader_url": "https://x.com/triangle_chain/status/2114947444077375537",
+      "image_url": "https://pbs.twimg.com/media/HVnNfMUaoAAwZri.jpg",
+      "author": {
+        "username": "triangle_chain",
+        "name": "つづき@AIで業務改善",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T05:08:59",
+      "first_seen_at": "2026-10-27T06:50:58.160274",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 21558,
+      "title": "黑色十月周报：AI 渗透与漏洞挖掘能力集中爆发引发安全震动",
+      "original_title": "Situation of the Week 10/19-10/25:  Black October  Though real-world impacts have lagged behind, AI has been cyber-capable for quite some time now. Anthropic finished training Clau",
+      "summary": "本周多起重大事件显示 AI 网络能力已转化为实战：黑客用 AI 渗透 Agent 攻破大量网站，大厂密集修补 AI 协助发现的关键漏洞，去护栏模型也开始泛滥。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "vuln_discovery",
+      "score_total": 76.98,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 安全从业者必读：直观展示了 AI 漏洞挖掘和渗透 Agent 从基准测试走向实战的真实破坏力。建议立即跟踪文中的 Cairn harness 与 OSS Scanner，评估当前防御能否抵御 Agent 级攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MTSlive/status/2114750852586148243",
+      "reader_url": "https://x.com/MTSlive/status/2114750852586148243",
+      "image_url": null,
+      "author": {
+        "username": "MTSlive",
+        "name": "MTS",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-26T16:07:48",
+      "first_seen_at": "2026-10-26T16:50:57.040887",
+      "sub_category_label": null
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 21704,
+      "title": "Greptile 借助 GPT-6 Astra 将 Bug 检测扩展至代码审查之外",
+      "original_title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "summary": "Greptile 使用 GPT-6 Astra 测试用户工作流，结合 Daybreak 强化安全性，并利用 Codex 减少返工。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_analysis",
+      "score_total": 76.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "代码审查工具正深度融合大模型能力，用 AI 做代码审计和 Bug 检测。安全工程师可关注此类工具在实际 CI/CD 流程中的检测效果与误报率表现。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "reader_url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T22:00:00",
+      "first_seen_at": "2026-10-26T23:50:05.872819",
+      "sub_category_label": "代码分析"
+    },
+    {
+      "id": 21765,
+      "title": "前渗透测试员利用 ARTEX AI 框架攻破 90 余家韩国组织",
+      "original_title": "A former pentester used the ARTEX AI autonomous framework to breach 90+ South Korean organizations — automating reconnaissance, privilege escalation, lateral movement, and exfiltra",
+      "summary": "前渗透测试员使用 ARTEX AI 自主框架攻破 90 多家韩国组织，自动化完成侦察、提权、横向移动并窃取 820 万条记录，显示 AI 辅助工具大幅降低了大规模入侵的门槛。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.01,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "防守团队必看：真实世界曝光 AI 自动化攻击框架实战应用。AI 正在拉低攻击门槛并加速攻击链路，防守方需重新评估运行时隔离等传统防御策略的有效性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
+      "reader_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-10-27T00:03:40",
+      "first_seen_at": "2026-10-27T01:28:41.807065",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21545,
+      "title": "AI Agent 12小时内攻破 Anthropic 内部系统",
+      "original_title": "‼️ Researchers Use AI Agents to Breach Anthropic’s Internal Systems in Just 12 Hours   Details: https://t.co/MLQqIhWJQs  Cybersecurity startup Cathedral says its AI agents found ro",
+      "summary": "安全公司 Cathedral 在 Anthropic 授权测试中，利用 AI Agent 在 12 小时内通过第三方软件漏洞攻入 Anthropic 内部业务系统，获取了内部通信和薪资数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.99,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 自动化渗透测试的一个标志性实战案例，展示了 AI Agent 在真实环境中串联漏洞的速度。安全团队应关注此类工具的自动化防御演练潜力，并审视第三方供应链带来的暴露面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2114732333437956212",
+      "reader_url": "https://x.com/The_Cyber_News/status/2114732333437956212",
+      "image_url": "https://pbs.twimg.com/media/HVkJ1O2akAAdDeZ.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-10-26T14:54:12",
+      "first_seen_at": "2026-10-26T16:13:10.533274",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21607,
+      "title": "研究员 archangel 分享定制 AI 流水线自动化挖洞实战",
+      "original_title": "Researcher Douglas Day (archangel) has had his best bounty year yet, running a custom AI pipeline that files valid bugs while he sleeps. In the latest episode of HackerOne’s Expose",
+      "summary": "研究员 Douglas Day 分享了他使用定制 AI 流水线自动化挖掘漏洞的经验，指出仅靠基础大模型无法直接见效，需投入大量精力训练、调整护栏和修改 Agent 配置。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.13,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 挖洞别指望开箱即用，这期访谈给出了实战研究员如何调教 Agent、修改护栏的真实经验，想落地自动化漏洞挖掘的人必看。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Hacker0x01/status/2114749076440744280",
+      "reader_url": "https://x.com/Hacker0x01/status/2114749076440744280",
+      "image_url": "https://pbs.twimg.com/media/HVkZE9oWsAAnV40.jpg",
+      "author": {
+        "username": "Hacker0x01",
+        "name": "HackerOne",
+        "avatar_url": null,
+        "followers_count": 342779
+      },
+      "published_at": "2026-10-26T16:00:44",
+      "first_seen_at": "2026-10-26T18:34:37.348990",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22066,
+      "title": "ARTEX：百度 agent+ 攻防赛冠军 AI 自主渗透测试系统",
+      "original_title": "ARTEXにはサービスとしてペネトレーションテストやってた元セキュリティエンジニアとして純粋に興味あるな。 / trhhubsd/ARTEX: ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻",
+      "summary": "ARTEX 是一个基于多智能体 LLM 的自主渗透测试系统，采用 Go 与 Next.js 构建，曾获百度 agent+ 攻防挑战赛冠军。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "作为实战攻防赛冠军项目，ARTEX 展示了多智能体在渗透测试场景的落地效果。安全团队可研究其架构设计，评估在自动化红队任务中的可用性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/kyouhei/status/2114998203276046378",
+      "reader_url": "https://x.com/kyouhei/status/2114998203276046378",
+      "image_url": null,
+      "author": {
+        "username": "kyouhei",
+        "name": "キ™︎",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T08:30:41",
+      "first_seen_at": "2026-10-27T09:44:31.606359",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22202,
+      "title": "AI渗透框架Cairn被用于实战攻击，链式反应科技获融资",
+      "original_title": "ChainReactors (杭州链式反应科技) is building AI that hacks into customers' systems, with permission, to find weaknesses before attackers do. The Hangzhou startup has raised several million",
+      "summary": "杭州链式反应科技围绕开源 AI 渗透测试框架 Cairn 构建商业产品，该框架近期被攻击者用于突破上百家公司网站，展现了 AI 安全工具双刃剑效应。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.32,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Cairn 框架被用于实战攻击展示了 AI 渗透的低成本和高效率，安全团队需警惕此类工具的武器化。从业者可研究其开源代码以评估自身防御对抗能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/dermotmcg/status/2115062278248681872",
+      "reader_url": "https://x.com/dermotmcg/status/2115062278248681872",
+      "image_url": "https://pbs.twimg.com/media/HVo1VbJWQAAGSZx.jpg",
+      "author": {
+        "username": "dermotmcg",
+        "name": "Dermot McGrath（麦德蒙）",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T12:45:17",
+      "first_seen_at": "2026-10-27T13:19:00.984860",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22209,
+      "title": "Claude利用形式验证数学证明软件安全，发现数百个遗漏Bug",
+      "original_title": "ChatGPT要約  ClaudeによるFormal Verification：AIがソフトウェアの安全性を数学的に証明  ・本記事要約日：2026-10-27 ・本記事公開日：2026-10-22  この記事で1番言いたいことを一言で  AIがバグを発見・修正するだけでなく、特定条件下でバグが存在しないことを数学的に証明できる段階に到達した。  3〜5行ま",
+      "summary": "Anthropic 与 Theorem 利用 Claude 对 123 个开源库进行形式验证，将现有 Fuzz 测试转换为数学规范并生成约 1.8 亿行 Rocq 证明，证明了特定条件下的内存安全性，同时发现并修复了数百个传统测试遗漏的 Bug。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需高度关注：AI 不仅能挖洞，还能用数学证明特定条件下无漏洞。这标志着从「发现漏洞」到「证明安全」的范式转变，二进制安全从业者可探索将其引入验证流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
+      "reader_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
+      "image_url": null,
+      "author": {
+        "username": "shimesaba_type0",
+        "name": "たかし",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T13:12:11",
+      "first_seen_at": "2026-10-27T13:21:25.779000",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 21701,
+        "title": "GPT-6.1 Sol 赋能 CodeRabbit 强化代码安全审查",
+        "original_title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+        "summary": "CodeRabbit 采用 GPT-6.1 Sol 构建安全智能体，用于排查复杂代码库中的安全风险，并辅助开发者审查发现结果与修复建议。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 81.8,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "展示大模型在自动化代码审查和安全修复建议方面的具体落地应用。安全团队可关注此类安全 Agent 在提升代码审计效率上的实际表现。",
+        "source_id": "openai-news",
+        "canonical_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+        "reader_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-26T13:45:00",
+        "first_seen_at": "2026-10-26T23:49:45.636593",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 21835,
+        "title": "5uGUE：基于Agent的5G设备硬件在环模糊测试研究",
+        "original_title": "通信部分のソースコードが見えないスマホでも、異常な入力で落ちるかは実機で試せる。5uGUEは、その試験をAIが計画し、端末のログを見て次の入力を選び直す研究です。  入力を変えて不具合を探す「ファジング」に、文献検索や通信記録の解析、試験コードの生成を組み合わせます。AIが作ったコードは既存の無線試験ツールで実行。端末の異常をログの決まったパターンで判定し、",
+        "summary": "5uGUE利用AI规划并执行硬件在环模糊测试，结合文献检索与日志分析验证异常，成功发现真实漏洞CVE-2026-20525并获MediaTek致谢。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 79.03,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这是AI辅助Fuzzing在闭源硬件领域的突破性应用。安全研究员可借鉴如何利用Agent突破黑盒测试瓶颈，将大模型与现有工具链结合以自动化发现真实漏洞。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/triangle_chain/status/2114947444077375537",
+        "reader_url": "https://x.com/triangle_chain/status/2114947444077375537",
+        "image_url": "https://pbs.twimg.com/media/HVnNfMUaoAAwZri.jpg",
+        "author": {
+          "username": "triangle_chain",
+          "name": "つづき@AIで業務改善",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-27T05:08:59",
+        "first_seen_at": "2026-10-27T06:50:58.160274",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 21704,
+        "title": "Greptile 借助 GPT-6 Astra 将 Bug 检测扩展至代码审查之外",
+        "original_title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+        "summary": "Greptile 使用 GPT-6 Astra 测试用户工作流，结合 Daybreak 强化安全性，并利用 Codex 减少返工。",
+        "primary_category": "AI for Sec",
+        "sub_category": "code_analysis",
+        "score_total": 76.3,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "代码审查工具正深度融合大模型能力，用 AI 做代码审计和 Bug 检测。安全工程师可关注此类工具在实际 CI/CD 流程中的检测效果与误报率表现。",
+        "source_id": "openai-news",
+        "canonical_url": "https://openai.com/index/greptile-code-review-codex-astra",
+        "reader_url": "https://openai.com/index/greptile-code-review-codex-astra",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-26T22:00:00",
+        "first_seen_at": "2026-10-26T23:50:05.872819",
+        "sub_category_label": "代码分析"
+      },
+      {
+        "id": 21765,
+        "title": "前渗透测试员利用 ARTEX AI 框架攻破 90 余家韩国组织",
+        "original_title": "A former pentester used the ARTEX AI autonomous framework to breach 90+ South Korean organizations — automating reconnaissance, privilege escalation, lateral movement, and exfiltra",
+        "summary": "前渗透测试员使用 ARTEX AI 自主框架攻破 90 多家韩国组织，自动化完成侦察、提权、横向移动并窃取 820 万条记录，显示 AI 辅助工具大幅降低了大规模入侵的门槛。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 75.01,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "防守团队必看：真实世界曝光 AI 自动化攻击框架实战应用。AI 正在拉低攻击门槛并加速攻击链路，防守方需重新评估运行时隔离等传统防御策略的有效性。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
+        "reader_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
+        "image_url": null,
+        "author": {
+          "username": "aviatrixtrc",
+          "name": "Aviatrix Threat Research Center",
+          "avatar_url": null,
+          "followers_count": 1977
+        },
+        "published_at": "2026-10-27T00:03:40",
+        "first_seen_at": "2026-10-27T01:28:41.807065",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 21750,
+        "title": "Cloudflare 开源安全审计 Agent Skill",
+        "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+        "summary": "Cloudflare 开源的 security-audit-skill 是一个面向编码 Agent 的技能组件，能够执行多阶段安全审计并生成可机读的独立验证结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 74.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "Cloudflare 直接把多阶段审计和独立验证做成了 Agent 技能，做自动化代码审计的团队可直接集成参考，看大厂如何工程化落地安全 Agent。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-27&since=weekly",
+        "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-27&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T00:59:25.796484",
+        "first_seen_at": "2026-10-27T01:02:52.907066",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 21545,
+        "title": "AI Agent 12小时内攻破 Anthropic 内部系统",
+        "original_title": "‼️ Researchers Use AI Agents to Breach Anthropic’s Internal Systems in Just 12 Hours   Details: https://t.co/MLQqIhWJQs  Cybersecurity startup Cathedral says its AI agents found ro",
+        "summary": "安全公司 Cathedral 在 Anthropic 授权测试中，利用 AI Agent 在 12 小时内通过第三方软件漏洞攻入 Anthropic 内部业务系统，获取了内部通信和薪资数据。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 72.99,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "这是 AI 自动化渗透测试的一个标志性实战案例，展示了 AI Agent 在真实环境中串联漏洞的速度。安全团队应关注此类工具的自动化防御演练潜力，并审视第三方供应链带来的暴露面。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/The_Cyber_News/status/2114732333437956212",
+        "reader_url": "https://x.com/The_Cyber_News/status/2114732333437956212",
+        "image_url": "https://pbs.twimg.com/media/HVkJ1O2akAAdDeZ.jpg",
+        "author": {
+          "username": "The_Cyber_News",
+          "name": "Cyber Security News",
+          "avatar_url": null,
+          "followers_count": 73656
+        },
+        "published_at": "2026-10-26T14:54:12",
+        "first_seen_at": "2026-10-26T16:13:10.533274",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 21607,
+        "title": "研究员 archangel 分享定制 AI 流水线自动化挖洞实战",
+        "original_title": "Researcher Douglas Day (archangel) has had his best bounty year yet, running a custom AI pipeline that files valid bugs while he sleeps. In the latest episode of HackerOne’s Expose",
+        "summary": "研究员 Douglas Day 分享了他使用定制 AI 流水线自动化挖掘漏洞的经验，指出仅靠基础大模型无法直接见效，需投入大量精力训练、调整护栏和修改 Agent 配置。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 71.13,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做 AI 挖洞别指望开箱即用，这期访谈给出了实战研究员如何调教 Agent、修改护栏的真实经验，想落地自动化漏洞挖掘的人必看。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Hacker0x01/status/2114749076440744280",
+        "reader_url": "https://x.com/Hacker0x01/status/2114749076440744280",
+        "image_url": "https://pbs.twimg.com/media/HVkZE9oWsAAnV40.jpg",
+        "author": {
+          "username": "Hacker0x01",
+          "name": "HackerOne",
+          "avatar_url": null,
+          "followers_count": 342779
+        },
+        "published_at": "2026-10-26T16:00:44",
+        "first_seen_at": "2026-10-26T18:34:37.348990",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 22066,
+        "title": "ARTEX：百度 agent+ 攻防赛冠军 AI 自主渗透测试系统",
+        "original_title": "ARTEXにはサービスとしてペネトレーションテストやってた元セキュリティエンジニアとして純粋に興味あるな。 / trhhubsd/ARTEX: ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻",
+        "summary": "ARTEX 是一个基于多智能体 LLM 的自主渗透测试系统，采用 Go 与 Next.js 构建，曾获百度 agent+ 攻防挑战赛冠军。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 70.2,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "作为实战攻防赛冠军项目，ARTEX 展示了多智能体在渗透测试场景的落地效果。安全团队可研究其架构设计，评估在自动化红队任务中的可用性。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/kyouhei/status/2114998203276046378",
+        "reader_url": "https://x.com/kyouhei/status/2114998203276046378",
+        "image_url": null,
+        "author": {
+          "username": "kyouhei",
+          "name": "キ™︎",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-27T08:30:41",
+        "first_seen_at": "2026-10-27T09:44:31.606359",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 21816,
+        "title": "ProAS：多轮Agent强化学习的渐进感知优势塑形框架",
+        "original_title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+        "summary": "提出 ProAS 框架解决多轮 Agent RL 中无 critic 算法的均匀信用分配问题，通过动态参考图实现细粒度信用分配，在 ALFWorld 和 WebShop 上达到 SOTA 并加速收敛。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 66.95,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "如果你在用 RL 微调多步安全自动化 Agent，ProAS 解决了长轨迹任务中奖励信号分配不均的痛点，能让模型更精准地学习复杂工具链调用，代码已开源可直接试错。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2610.18683",
+        "reader_url": "https://arxiv.org/pdf/2610.18683",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T00:00:00",
+        "first_seen_at": "2026-10-27T06:04:40.374831",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 21774,
+        "title": "PAWM：通过陷阱预测世界模型引导黑盒大模型Agent",
+        "original_title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+        "summary": "提出PAWM模型，在黑盒LLM Agent执行任务时选择性预测潜在陷阱并介入引导，通过合成数据SFT与GRPO训练，在ScienceWorld等基准上显著提升Claude等模型的性能。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 65.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "设计自动化安全Agent时常面临黑盒模型在特定环境执行高危动作导致任务崩溃的痛点。此文的「陷阱预测」思路可借鉴用于构建安全护栏，让Agent在破坏性操作前刹车。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2610.29139",
+        "reader_url": "https://arxiv.org/pdf/2610.29139",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T00:00:00",
+        "first_seen_at": "2026-10-27T01:56:42.791997",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 21647,
+        "title": "OpenAI 发布 GPT-6.1 Terra 模型并开放 API 访问",
+        "original_title": "GPT-6.1 Terra is rolling out now and is available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex.  Developers can also access it through the OpenAI API as gp",
+        "summary": "OpenAI 推出新模型 GPT-6.1 Terra，面向 ChatGPT Work 和 Codex 用户全面开放，开发者可通过 API 调用 gpt-6.1-terra。",
+        "primary_category": "AI Tech",
+        "sub_category": "llm_release",
+        "score_total": 65.14,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "作为前沿大模型重大更新，GPT-6.1 Terra 在 Codex 等编程环境的表现直接影响安全工具的底层能力。安全团队应评估其在漏洞挖掘和代码审计中的实际效果，及时更新相关模型底座。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/OpenAI/status/2114780720170164735",
+        "reader_url": "https://x.com/OpenAI/status/2114780720170164735",
+        "image_url": null,
+        "author": {
+          "username": "OpenAI",
+          "name": "OpenAI",
+          "avatar_url": null,
+          "followers_count": 5355398
+        },
+        "published_at": "2026-10-26T18:06:29",
+        "first_seen_at": "2026-10-26T20:17:26.791701",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 21558,
+        "title": "黑色十月周报：AI 渗透与漏洞挖掘能力集中爆发引发安全震动",
+        "original_title": "Situation of the Week 10/19-10/25:  Black October  Though real-world impacts have lagged behind, AI has been cyber-capable for quite some time now. Anthropic finished training Clau",
+        "summary": "本周多起重大事件显示 AI 网络能力已转化为实战：黑客用 AI 渗透 Agent 攻破大量网站，大厂密集修补 AI 协助发现的关键漏洞，去护栏模型也开始泛滥。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "vuln_discovery",
+        "score_total": 76.98,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "AI 安全从业者必读：直观展示了 AI 漏洞挖掘和渗透 Agent 从基准测试走向实战的真实破坏力。建议立即跟踪文中的 Cairn harness 与 OSS Scanner，评估当前防御能否抵御 Agent 级攻击。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/MTSlive/status/2114750852586148243",
+        "reader_url": "https://x.com/MTSlive/status/2114750852586148243",
+        "image_url": null,
+        "author": {
+          "username": "MTSlive",
+          "name": "MTS",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-26T16:07:48",
+        "first_seen_at": "2026-10-26T16:50:57.040887",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 21701,
+            "title": "GPT-6.1 Sol 赋能 CodeRabbit 强化代码安全审查",
+            "original_title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+            "summary": "CodeRabbit 采用 GPT-6.1 Sol 构建安全智能体，用于排查复杂代码库中的安全风险，并辅助开发者审查发现结果与修复建议。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 81.8,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "展示大模型在自动化代码审查和安全修复建议方面的具体落地应用。安全团队可关注此类安全 Agent 在提升代码审计效率上的实际表现。",
+            "source_id": "openai-news",
+            "canonical_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+            "reader_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-26T13:45:00",
+            "first_seen_at": "2026-10-26T23:49:45.636593",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 21765,
+            "title": "前渗透测试员利用 ARTEX AI 框架攻破 90 余家韩国组织",
+            "original_title": "A former pentester used the ARTEX AI autonomous framework to breach 90+ South Korean organizations — automating reconnaissance, privilege escalation, lateral movement, and exfiltra",
+            "summary": "前渗透测试员使用 ARTEX AI 自主框架攻破 90 多家韩国组织，自动化完成侦察、提权、横向移动并窃取 820 万条记录，显示 AI 辅助工具大幅降低了大规模入侵的门槛。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 75.01,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "防守团队必看：真实世界曝光 AI 自动化攻击框架实战应用。AI 正在拉低攻击门槛并加速攻击链路，防守方需重新评估运行时隔离等传统防御策略的有效性。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
+            "reader_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
+            "image_url": null,
+            "author": {
+              "username": "aviatrixtrc",
+              "name": "Aviatrix Threat Research Center",
+              "avatar_url": null,
+              "followers_count": 1977
+            },
+            "published_at": "2026-10-27T00:03:40",
+            "first_seen_at": "2026-10-27T01:28:41.807065",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 21750,
+            "title": "Cloudflare 开源安全审计 Agent Skill",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+            "summary": "Cloudflare 开源的 security-audit-skill 是一个面向编码 Agent 的技能组件，能够执行多阶段安全审计并生成可机读的独立验证结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Cloudflare 直接把多阶段审计和独立验证做成了 Agent 技能，做自动化代码审计的团队可直接集成参考，看大厂如何工程化落地安全 Agent。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-27&since=weekly",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-27&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T00:59:25.796484",
+            "first_seen_at": "2026-10-27T01:02:52.907066",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 21545,
+            "title": "AI Agent 12小时内攻破 Anthropic 内部系统",
+            "original_title": "‼️ Researchers Use AI Agents to Breach Anthropic’s Internal Systems in Just 12 Hours   Details: https://t.co/MLQqIhWJQs  Cybersecurity startup Cathedral says its AI agents found ro",
+            "summary": "安全公司 Cathedral 在 Anthropic 授权测试中，利用 AI Agent 在 12 小时内通过第三方软件漏洞攻入 Anthropic 内部业务系统，获取了内部通信和薪资数据。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 72.99,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是 AI 自动化渗透测试的一个标志性实战案例，展示了 AI Agent 在真实环境中串联漏洞的速度。安全团队应关注此类工具的自动化防御演练潜力，并审视第三方供应链带来的暴露面。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/The_Cyber_News/status/2114732333437956212",
+            "reader_url": "https://x.com/The_Cyber_News/status/2114732333437956212",
+            "image_url": "https://pbs.twimg.com/media/HVkJ1O2akAAdDeZ.jpg",
+            "author": {
+              "username": "The_Cyber_News",
+              "name": "Cyber Security News",
+              "avatar_url": null,
+              "followers_count": 73656
+            },
+            "published_at": "2026-10-26T14:54:12",
+            "first_seen_at": "2026-10-26T16:13:10.533274",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 21607,
+            "title": "研究员 archangel 分享定制 AI 流水线自动化挖洞实战",
+            "original_title": "Researcher Douglas Day (archangel) has had his best bounty year yet, running a custom AI pipeline that files valid bugs while he sleeps. In the latest episode of HackerOne’s Expose",
+            "summary": "研究员 Douglas Day 分享了他使用定制 AI 流水线自动化挖掘漏洞的经验，指出仅靠基础大模型无法直接见效，需投入大量精力训练、调整护栏和修改 Agent 配置。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 71.13,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 AI 挖洞别指望开箱即用，这期访谈给出了实战研究员如何调教 Agent、修改护栏的真实经验，想落地自动化漏洞挖掘的人必看。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Hacker0x01/status/2114749076440744280",
+            "reader_url": "https://x.com/Hacker0x01/status/2114749076440744280",
+            "image_url": "https://pbs.twimg.com/media/HVkZE9oWsAAnV40.jpg",
+            "author": {
+              "username": "Hacker0x01",
+              "name": "HackerOne",
+              "avatar_url": null,
+              "followers_count": 342779
+            },
+            "published_at": "2026-10-26T16:00:44",
+            "first_seen_at": "2026-10-26T18:34:37.348990",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 22066,
+            "title": "ARTEX：百度 agent+ 攻防赛冠军 AI 自主渗透测试系统",
+            "original_title": "ARTEXにはサービスとしてペネトレーションテストやってた元セキュリティエンジニアとして純粋に興味あるな。 / trhhubsd/ARTEX: ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻",
+            "summary": "ARTEX 是一个基于多智能体 LLM 的自主渗透测试系统，采用 Go 与 Next.js 构建，曾获百度 agent+ 攻防挑战赛冠军。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 70.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "作为实战攻防赛冠军项目，ARTEX 展示了多智能体在渗透测试场景的落地效果。安全团队可研究其架构设计，评估在自动化红队任务中的可用性。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/kyouhei/status/2114998203276046378",
+            "reader_url": "https://x.com/kyouhei/status/2114998203276046378",
+            "image_url": null,
+            "author": {
+              "username": "kyouhei",
+              "name": "キ™︎",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-27T08:30:41",
+            "first_seen_at": "2026-10-27T09:44:31.606359",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 22202,
+            "title": "AI渗透框架Cairn被用于实战攻击，链式反应科技获融资",
+            "original_title": "ChainReactors (杭州链式反应科技) is building AI that hacks into customers' systems, with permission, to find weaknesses before attackers do. The Hangzhou startup has raised several million",
+            "summary": "杭州链式反应科技围绕开源 AI 渗透测试框架 Cairn 构建商业产品，该框架近期被攻击者用于突破上百家公司网站，展现了 AI 安全工具双刃剑效应。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.32,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Cairn 框架被用于实战攻击展示了 AI 渗透的低成本和高效率，安全团队需警惕此类工具的武器化。从业者可研究其开源代码以评估自身防御对抗能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/dermotmcg/status/2115062278248681872",
+            "reader_url": "https://x.com/dermotmcg/status/2115062278248681872",
+            "image_url": "https://pbs.twimg.com/media/HVo1VbJWQAAGSZx.jpg",
+            "author": {
+              "username": "dermotmcg",
+              "name": "Dermot McGrath（麦德蒙）",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-27T12:45:17",
+            "first_seen_at": "2026-10-27T13:19:00.984860",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 22073,
+            "title": "全链哨兵系统：基于 pi harness 的全流程渗透测试 Agent",
+            "original_title": "Full Chain Sentinel System is an authorized full-process penetration testing Agent built on the pi harness, supporting Web, mini-programs, Android, and iOS (in testing).  It provid",
+            "summary": "一款授权渗透测试 Agent，支持 Web、小程序、Android、iOS 多端，内置方法论驱动工作流、三种审批模式、Kali 容器隔离、Nuclei POC 集成及 Frida 设备插件等，覆盖从侦察到报告的完整流程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 67.99,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做渗透自动化和安全 Agent 落地的同学值得看：它在执行模式设计（人工审批/全自动/AI Gatekeeper）和工具链集成（Nuclei、FOFA、Frida）上提供了可参考的工程思路，尤其是多端覆盖和会话审计的设计。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/blackorbird/status/2115014133091541387",
+            "reader_url": "https://x.com/blackorbird/status/2115014133091541387",
+            "image_url": "https://pbs.twimg.com/media/HVoJ_wlbgAEahAw.jpg",
+            "author": {
+              "username": "blackorbird",
+              "name": "blackorbird",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-27T09:33:59",
+            "first_seen_at": "2026-10-27T09:45:37.493801",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 21835,
+            "title": "5uGUE：基于Agent的5G设备硬件在环模糊测试研究",
+            "original_title": "通信部分のソースコードが見えないスマホでも、異常な入力で落ちるかは実機で試せる。5uGUEは、その試験をAIが計画し、端末のログを見て次の入力を選び直す研究です。  入力を変えて不具合を探す「ファジング」に、文献検索や通信記録の解析、試験コードの生成を組み合わせます。AIが作ったコードは既存の無線試験ツールで実行。端末の異常をログの決まったパターンで判定し、",
+            "summary": "5uGUE利用AI规划并执行硬件在环模糊测试，结合文献检索与日志分析验证异常，成功发现真实漏洞CVE-2026-20525并获MediaTek致谢。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 79.03,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这是AI辅助Fuzzing在闭源硬件领域的突破性应用。安全研究员可借鉴如何利用Agent突破黑盒测试瓶颈，将大模型与现有工具链结合以自动化发现真实漏洞。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/triangle_chain/status/2114947444077375537",
+            "reader_url": "https://x.com/triangle_chain/status/2114947444077375537",
+            "image_url": "https://pbs.twimg.com/media/HVnNfMUaoAAwZri.jpg",
+            "author": {
+              "username": "triangle_chain",
+              "name": "つづき@AIで業務改善",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-27T05:08:59",
+            "first_seen_at": "2026-10-27T06:50:58.160274",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 21776,
+            "title": "JANUS：基于智能体的 Android 原生库跨语言 Fuzzing Harness 生成",
+            "original_title": "JANUS: Agentic Cross-Language Fuzzing Harness Generation for Android Native Libraries: Modern Android apps extensively rely on native libraries, bridging Java/Kotlin and C/C++ thro",
+            "summary": "JANUS 利用自主智能体工作流生成跨语言（JNI）的 Android 原生库 Fuzzing Harness，在 44 个主流 App 上生成的有效 harness 数量是现有工具的 5.9 倍，并挖掘出 6 个未知漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做移动安全或 Fuzzing 的兄弟必看，JANUS 用 Agent 绕过了传统 JNI 跨语言静态分析的瓶颈，实测效果提升近 6 倍且挖出 6 个 0day，证明了 Agent 在复杂 Fuzzing 场景的落地潜力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/gastronomy/status/2114912300905713915",
+            "reader_url": "https://x.com/gastronomy/status/2114912300905713915",
+            "image_url": null,
+            "author": {
+              "username": "gastronomy",
+              "name": "Tanat Tonguthaisri",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-27T02:49:20",
+            "first_seen_at": "2026-10-27T03:00:35.632416",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 21661,
+            "title": "20个给AI编码代理的模糊测试与漏洞挖掘技能",
+            "original_title": "20 Fuzz Testing & Bug Hunting Skills Every Developer Should Have  Your tests pass. That doesn't mean your code is safe.  These 20 open-source skills help AI coding agents generate ",
+            "summary": "汇总20个开源模糊测试与漏洞挖掘技能，帮助AI编码代理生成对抗输入、发现隐藏Bug、复现崩溃并验证补丁修复。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这份工具清单直接打通了AI编程助手与底层安全测试的链路。安全工程师可将其集成到Agent工作流中，自动化执行从Fuzzing到补丁验证的安全闭环。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/arjunkshah21/status/2114819355615609201",
+            "reader_url": "https://x.com/arjunkshah21/status/2114819355615609201",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2114450712344272896/img/wYI1hdZ-T2Xf9t-n.jpg",
+            "author": {
+              "username": "arjunkshah21",
+              "name": "Arjun Shah",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-26T20:40:00",
+            "first_seen_at": "2026-10-26T20:52:30.885493",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 22239,
+            "title": "使用 LibAFL-QEMU 和增量快照 Fuzzing 复杂状态机及 CVE 复盘",
+            "original_title": "Fuzzing complex state machines with LibAFL-QEMU and incremental snapshots. We walk through our approach, revisit CVE-2026-9539 in libslirp, and explain why our initial fuzzing camp",
+            "summary": "该推文介绍了使用 LibAFL-QEMU 结合增量快照技术 Fuzzing 复杂状态机的方法，复盘了 libslirp 的 CVE-2026-9539 漏洞，并解释了之前的 Fuzzing 活动为何漏掉该漏洞，同时开源了相关 Fuzzer 代码。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.29,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "开源了基于 LibAFL-QEMU 的 Fuzzer 代码并复盘漏报 CVE 原因，对漏洞挖掘与 Fuzzing 从业者极具参考价值，可直接借鉴状态机 Fuzzing 的 harness 写法和快照策略。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/quarkslab/status/2115099767789535288",
+            "reader_url": "https://x.com/quarkslab/status/2115099767789535288",
+            "image_url": null,
+            "author": {
+              "username": "quarkslab",
+              "name": "quarkslab",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-27T15:14:15",
+            "first_seen_at": "2026-10-27T15:38:20.089110",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "code_analysis": {
+        "label": "代码分析",
+        "items": [
+          {
+            "id": 21704,
+            "title": "Greptile 借助 GPT-6 Astra 将 Bug 检测扩展至代码审查之外",
+            "original_title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+            "summary": "Greptile 使用 GPT-6 Astra 测试用户工作流，结合 Daybreak 强化安全性，并利用 Codex 减少返工。",
+            "primary_category": "AI for Sec",
+            "sub_category": "code_analysis",
+            "score_total": 76.3,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "代码审查工具正深度融合大模型能力，用 AI 做代码审计和 Bug 检测。安全工程师可关注此类工具在实际 CI/CD 流程中的检测效果与误报率表现。",
+            "source_id": "openai-news",
+            "canonical_url": "https://openai.com/index/greptile-code-review-codex-astra",
+            "reader_url": "https://openai.com/index/greptile-code-review-codex-astra",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-26T22:00:00",
+            "first_seen_at": "2026-10-26T23:50:05.872819",
+            "sub_category_label": "代码分析"
+          }
+        ]
+      },
+      "formal_verification": {
+        "label": "formal_verification",
+        "items": [
+          {
+            "id": 22209,
+            "title": "Claude利用形式验证数学证明软件安全，发现数百个遗漏Bug",
+            "original_title": "ChatGPT要約  ClaudeによるFormal Verification：AIがソフトウェアの安全性を数学的に証明  ・本記事要約日：2026-10-27 ・本記事公開日：2026-10-22  この記事で1番言いたいことを一言で  AIがバグを発見・修正するだけでなく、特定条件下でバグが存在しないことを数学的に証明できる段階に到達した。  3〜5行ま",
+            "summary": "Anthropic 与 Theorem 利用 Claude 对 123 个开源库进行形式验证，将现有 Fuzz 测试转换为数学规范并生成约 1.8 亿行 Rocq 证明，证明了特定条件下的内存安全性，同时发现并修复了数百个传统测试遗漏的 Bug。",
+            "primary_category": "AI for Sec",
+            "sub_category": "formal_verification",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队需高度关注：AI 不仅能挖洞，还能用数学证明特定条件下无漏洞。这标志着从「发现漏洞」到「证明安全」的范式转变，二进制安全从业者可探索将其引入验证流程。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
+            "reader_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
+            "image_url": null,
+            "author": {
+              "username": "shimesaba_type0",
+              "name": "たかし",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-27T13:12:11",
+            "first_seen_at": "2026-10-27T13:21:25.779000",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 21648,
+            "title": "闭源智能合约形同虚设：AI反编译大幅降低漏洞挖掘成本",
+            "original_title": "Closed-source smart contracts are security theater.  Shaw just rebuilt the daosfun program on Solana straight from on-chain data. His build matched the deployed binary byte for byt",
+            "summary": "Shaw 通过链上数据逐字节重建了 Solana 上的 daosfun 程序并发现关键漏洞，证明 AI 工具正让智能合约反编译变得极其廉价，闭源策略已失去安全意义。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 66.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Web3 安全团队必看，AI 辅助逆向让代码混淆彻底失效。应立即放弃闭源幻想，转向源码验证、可复现构建和 Fuzzing 审计。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/MirHamzaHasan/status/2114807326280696291",
+            "reader_url": "https://x.com/MirHamzaHasan/status/2114807326280696291",
+            "image_url": null,
+            "author": {
+              "username": "MirHamzaHasan",
+              "name": "Hamza Mir",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-26T19:52:12",
+            "first_seen_at": "2026-10-26T20:17:27.987250",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 21580,
+            "title": "实测 Cloudflare 安全技能：挖掘 Vibe-Coded 应用中的 12 个漏洞",
+            "original_title": "I Planted 12 Bugs in a Vibe-Coded App. Here's What Cloudflare's Security Skill Caught (Full Course)",
+            "summary": "作者在一个 AI 辅助编写的应用中故意植入 12 个漏洞，测试 Cloudflare Security Skill 的检测能力并分享了完整教程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 65.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全研究员和蓝队必看。直接检验现有 AI 安全工具在审计 AI 生成代码时的实战效果，能帮你快速判断自动化代码审计工具的能力边界与落地可行性。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/colerepo/status/2114766093659120110",
+            "reader_url": "https://x.com/colerepo/status/2114766093659120110",
+            "image_url": null,
+            "author": {
+              "username": "colerepo",
+              "name": "Cole👽",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-26T17:08:21",
+            "first_seen_at": "2026-10-26T17:26:35.190847",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "vuln_discovery": {
+        "label": "vuln_discovery",
+        "items": [
+          {
+            "id": 21558,
+            "title": "黑色十月周报：AI 渗透与漏洞挖掘能力集中爆发引发安全震动",
+            "original_title": "Situation of the Week 10/19-10/25:  Black October  Though real-world impacts have lagged behind, AI has been cyber-capable for quite some time now. Anthropic finished training Clau",
+            "summary": "本周多起重大事件显示 AI 网络能力已转化为实战：黑客用 AI 渗透 Agent 攻破大量网站，大厂密集修补 AI 协助发现的关键漏洞，去护栏模型也开始泛滥。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "vuln_discovery",
+            "score_total": 76.98,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI 安全从业者必读：直观展示了 AI 漏洞挖掘和渗透 Agent 从基准测试走向实战的真实破坏力。建议立即跟踪文中的 Cairn harness 与 OSS Scanner，评估当前防御能否抵御 Agent 级攻击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/MTSlive/status/2114750852586148243",
+            "reader_url": "https://x.com/MTSlive/status/2114750852586148243",
+            "image_url": null,
+            "author": {
+              "username": "MTSlive",
+              "name": "MTS",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-26T16:07:48",
+            "first_seen_at": "2026-10-26T16:50:57.040887",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 21816,
+            "title": "ProAS：多轮Agent强化学习的渐进感知优势塑形框架",
+            "original_title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+            "summary": "提出 ProAS 框架解决多轮 Agent RL 中无 critic 算法的均匀信用分配问题，通过动态参考图实现细粒度信用分配，在 ALFWorld 和 WebShop 上达到 SOTA 并加速收敛。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 66.95,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "如果你在用 RL 微调多步安全自动化 Agent，ProAS 解决了长轨迹任务中奖励信号分配不均的痛点，能让模型更精准地学习复杂工具链调用，代码已开源可直接试错。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2610.18683",
+            "reader_url": "https://arxiv.org/pdf/2610.18683",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T00:00:00",
+            "first_seen_at": "2026-10-27T06:04:40.374831",
+            "sub_category_label": "Agent 架构"
+          },
+          {
+            "id": 21774,
+            "title": "PAWM：通过陷阱预测世界模型引导黑盒大模型Agent",
+            "original_title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+            "summary": "提出PAWM模型，在黑盒LLM Agent执行任务时选择性预测潜在陷阱并介入引导，通过合成数据SFT与GRPO训练，在ScienceWorld等基准上显著提升Claude等模型的性能。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 65.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "设计自动化安全Agent时常面临黑盒模型在特定环境执行高危动作导致任务崩溃的痛点。此文的「陷阱预测」思路可借鉴用于构建安全护栏，让Agent在破坏性操作前刹车。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2610.29139",
+            "reader_url": "https://arxiv.org/pdf/2610.29139",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T00:00:00",
+            "first_seen_at": "2026-10-27T01:56:42.791997",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      },
+      "llm_release": {
+        "label": "llm_release",
+        "items": [
+          {
+            "id": 21647,
+            "title": "OpenAI 发布 GPT-6.1 Terra 模型并开放 API 访问",
+            "original_title": "GPT-6.1 Terra is rolling out now and is available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex.  Developers can also access it through the OpenAI API as gp",
+            "summary": "OpenAI 推出新模型 GPT-6.1 Terra，面向 ChatGPT Work 和 Codex 用户全面开放，开发者可通过 API 调用 gpt-6.1-terra。",
+            "primary_category": "AI Tech",
+            "sub_category": "llm_release",
+            "score_total": 65.14,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "作为前沿大模型重大更新，GPT-6.1 Terra 在 Codex 等编程环境的表现直接影响安全工具的底层能力。安全团队应评估其在漏洞挖掘和代码审计中的实际效果，及时更新相关模型底座。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/OpenAI/status/2114780720170164735",
+            "reader_url": "https://x.com/OpenAI/status/2114780720170164735",
+            "image_url": null,
+            "author": {
+              "username": "OpenAI",
+              "name": "OpenAI",
+              "avatar_url": null,
+              "followers_count": 5355398
+            },
+            "published_at": "2026-10-26T18:06:29",
+            "first_seen_at": "2026-10-26T20:17:26.791701",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 21816,
+      "title": "ProAS：多轮Agent强化学习的渐进感知优势塑形框架",
+      "original_title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+      "summary": "提出 ProAS 框架解决多轮 Agent RL 中无 critic 算法的均匀信用分配问题，通过动态参考图实现细粒度信用分配，在 ALFWorld 和 WebShop 上达到 SOTA 并加速收敛。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 66.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在用 RL 微调多步安全自动化 Agent，ProAS 解决了长轨迹任务中奖励信号分配不均的痛点，能让模型更精准地学习复杂工具链调用，代码已开源可直接试错。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.18683",
+      "reader_url": "https://arxiv.org/pdf/2610.18683",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-27T06:04:40.374831",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 21774,
+      "title": "PAWM：通过陷阱预测世界模型引导黑盒大模型Agent",
+      "original_title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+      "summary": "提出PAWM模型，在黑盒LLM Agent执行任务时选择性预测潜在陷阱并介入引导，通过合成数据SFT与GRPO训练，在ScienceWorld等基准上显著提升Claude等模型的性能。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 65.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "设计自动化安全Agent时常面临黑盒模型在特定环境执行高危动作导致任务崩溃的痛点。此文的「陷阱预测」思路可借鉴用于构建安全护栏，让Agent在破坏性操作前刹车。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.29139",
+      "reader_url": "https://arxiv.org/pdf/2610.29139",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-27T01:56:42.791997",
+      "sub_category_label": "Agent 架构"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 23,
+    "highlight_count": 1,
+    "paper_count": 2,
+    "source_count": 4,
+    "top_score": 82,
+    "category_count": {
+      "AI for Sec": 19,
+      "AI Tech": 3,
+      "AI for Sec | AI Tech": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 11
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 4
+        },
+        "code_analysis": {
+          "label": "代码分析",
+          "count": 1
+        },
+        "formal_verification": {
+          "label": "formal_verification",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 2
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "vuln_discovery": {
+          "label": "vuln_discovery",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 2
+        },
+        "llm_release": {
+          "label": "llm_release",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 19,
+      "top_score": 82,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 3,
+      "top_score": 67,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分条目是CodeRabbit用大模型做自动化代码安全审查，说明安全Agent在研发侧的落地已经到了可用阶段，建议团队尽快评估这类工具接入CI/CD的实际效果。同时5uGUE用Agent搞定5G闭源硬件Fuzzing并拿下真实CVE，加上黑色十月周报里AI渗透Agent大规模实战的记录，攻防两端都在加速，建议优先跟踪Cairn harness和OSS Scanner等工具，摸清当前防御体系能不能扛住Agent级攻击。",
+  "method_note": "按北京时间 2026-10-27 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "github-ai-security",
+    "huggingface-daily-papers",
+    "openai-news",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# GPT-6.1 Sol 赋能 CodeRabbit 强化代码安全审查\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线很明确：AI安全Agent正在从demo阶段全面切入实战，从代码审计到5G硬件Fuzzing再到渗透攻击，每一块都有真实产出——挖到CVE、攻破网站、落地产品。这不是未来趋势，是正在发生的事实，AI for Sec从业者需要把注意力从模型能力本身转向Agent工作流和工具链的成熟度。\n- 01 展示大模型在自动化代码审查和安全修复建议方面的具体落地应用。安全团队可关注此类安全 Agent 在提升代码审计效率上的实际表现。\n- 02 这是AI辅助Fuzzing在闭源硬件领域的突破性应用。安全研究员可借鉴如何利用Agent突破黑盒测试瓶颈，将大模型与现有工具链结合以自动化发现真实漏洞。\n- 03 AI 安全从业者必读：直观展示了 AI 漏洞挖掘和渗透 Agent 从基准测试走向实战的真实破坏力。建议立即跟踪文中的 Cairn harness 与 OSS Scanner，评估当前防御能否抵御 Agent 级攻击。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **GPT-6.1 Sol 赋能 CodeRabbit 强化代码安全审查**：展示大模型在自动化代码审查和安全修复建议方面的具体落地应用。安全团队可关注此类安全 Agent 在提升代码审计效率上的实际表现。 来源：openai-news\n- **5uGUE：基于Agent的5G设备硬件在环模糊测试研究**：这是AI辅助Fuzzing在闭源硬件领域的突破性应用。安全研究员可借鉴如何利用Agent突破黑盒测试瓶颈，将大模型与现有工具链结合以自动化发现真实漏洞。 来源：x-manual-ai-security\n- **黑色十月周报：AI 渗透与漏洞挖掘能力集中爆发引发安全震动**：AI 安全从业者必读：直观展示了 AI 漏洞挖掘和渗透 Agent 从基准测试走向实战的真实破坏力。建议立即跟踪文中的 Cairn harness 与 OSS Scanner，评估当前防御能否抵御 Agent 级攻击。 来源：x-manual-ai-security\n\n## 也值得关注\n- Greptile 借助 GPT-6 Astra 将 Bug 检测扩展至代码审查之外（76.3）\n- 前渗透测试员利用 ARTEX AI 框架攻破 90 余家韩国组织（75.01）\n- AI Agent 12小时内攻破 Anthropic 内部系统（72.99）\n- 研究员 archangel 分享定制 AI 流水线自动化挖洞实战（71.13）\n- ARTEX：百度 agent+ 攻防赛冠军 AI 自主渗透测试系统（70.2）\n- AI渗透框架Cairn被用于实战攻击，链式反应科技获融资（69.32）\n\n## AI for Sec\n\n### 安全Agent\n- GPT-6.1 Sol 赋能 CodeRabbit 强化代码安全审查（81.8）\n- 前渗透测试员利用 ARTEX AI 框架攻破 90 余家韩国组织（75.01）\n- Cloudflare 开源安全审计 Agent Skill（74.45）\n- AI Agent 12小时内攻破 Anthropic 内部系统（72.99）\n- 研究员 archangel 分享定制 AI 流水线自动化挖洞实战（71.13）\n\n### AI Fuzzing\n- 5uGUE：基于Agent的5G设备硬件在环模糊测试研究（79.03）\n- JANUS：基于智能体的 Android 原生库跨语言 Fuzzing Harness 生成（68.45）\n- 20个给AI编码代理的模糊测试与漏洞挖掘技能（68.45）\n- 使用 LibAFL-QEMU 和增量快照 Fuzzing 复杂状态机及 CVE 复盘（68.29）\n\n### 代码分析\n- Greptile 借助 GPT-6 Astra 将 Bug 检测扩展至代码审查之外（76.3）\n\n### formal_verification\n- Claude利用形式验证数学证明软件安全，发现数百个遗漏Bug（68.45）\n\n### 漏洞挖掘\n- 闭源智能合约形同虚设：AI反编译大幅降低漏洞挖掘成本（66.25）\n- 实测 Cloudflare 安全技能：挖掘 Vibe-Coded 应用中的 12 个漏洞（65.2）\n\n## AI Tech\n\n### Agent 架构\n- ProAS：多轮Agent强化学习的渐进感知优势塑形框架（66.95）\n- PAWM：通过陷阱预测世界模型引导黑盒大模型Agent（65.9）\n\n### llm_release\n- OpenAI 发布 GPT-6.1 Terra 模型并开放 API 访问（65.14）\n\n## 今日论文\n- ProAS：多轮Agent强化学习的渐进感知优势塑形框架\n- PAWM：通过陷阱预测世界模型引导黑盒大模型Agent\n\n## 今日观察\n最高分条目是CodeRabbit用大模型做自动化代码安全审查，说明安全Agent在研发侧的落地已经到了可用阶段，建议团队尽快评估这类工具接入CI/CD的实际效果。同时5uGUE用Agent搞定5G闭源硬件Fuzzing并拿下真实CVE，加上黑色十月周报里AI渗透Agent大规模实战的记录，攻防两端都在加速，建议优先跟踪Cairn harness和OSS Scanner等工具，摸清当前防御体系能不能扛住Agent级攻击。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-10-27 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-10-28T00:02:02+08:00"
+}
