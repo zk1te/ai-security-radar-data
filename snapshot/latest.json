@@ -1,34 +1,9 @@
 {
-  "updated_at": "2026-10-28T02:02:47+08:00",
+  "updated_at": "2026-10-28T03:02:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 21835,
-      "title": "5uGUE：基于Agent的5G设备硬件在环模糊测试研究",
-      "original_title": "通信部分のソースコードが見えないスマホでも、異常な入力で落ちるかは実機で試せる。5uGUEは、その試験をAIが計画し、端末のログを見て次の入力を選び直す研究です。  入力を変えて不具合を探す「ファジング」に、文献検索や通信記録の解析、試験コードの生成を組み合わせます。AIが作ったコードは既存の無線試験ツールで実行。端末の異常をログの決まったパターンで判定し、",
-      "summary": "5uGUE利用AI规划并执行硬件在环模糊测试，结合文献检索与日志分析验证异常，成功发现真实漏洞CVE-2026-20525并获MediaTek致谢。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 79.03,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是AI辅助Fuzzing在闭源硬件领域的突破性应用。安全研究员可借鉴如何利用Agent突破黑盒测试瓶颈，将大模型与现有工具链结合以自动化发现真实漏洞。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/triangle_chain/status/2114947444077375537",
-      "reader_url": "https://x.com/triangle_chain/status/2114947444077375537",
-      "image_url": "https://pbs.twimg.com/media/HVnNfMUaoAAwZri.jpg",
-      "author": {
-        "username": "triangle_chain",
-        "name": "つづき@AIで業務改善",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T05:08:59",
-      "first_seen_at": "2026-10-27T06:50:58.160274",
-      "sub_category_label": "AI Fuzzing"
-    },
     {
       "id": 22289,
       "title": "OpenAI 红队 Agent 发现 Brotli 未授权 RCE 漏洞",
@@ -228,6 +203,31 @@
       "published_at": "2026-10-27T17:00:09",
       "first_seen_at": "2026-10-27T17:16:06.757730",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 22209,
+      "title": "Claude利用形式验证数学证明软件安全，发现数百个遗漏Bug",
+      "original_title": "ChatGPT要約  ClaudeによるFormal Verification：AIがソフトウェアの安全性を数学的に証明  ・本記事要約日：2026-10-27 ・本記事公開日：2026-10-22  この記事で1番言いたいことを一言で  AIがバグを発見・修正するだけでなく、特定条件下でバグが存在しないことを数学的に証明できる段階に到達した。  3〜5行ま",
+      "summary": "Anthropic 与 Theorem 利用 Claude 对 123 个开源库进行形式验证，将现有 Fuzz 测试转换为数学规范并生成约 1.8 亿行 Rocq 证明，证明了特定条件下的内存安全性，同时发现并修复了数百个传统测试遗漏的 Bug。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需高度关注：AI 不仅能挖洞，还能用数学证明特定条件下无漏洞。这标志着从「发现漏洞」到「证明安全」的范式转变，二进制安全从业者可探索将其引入验证流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
+      "reader_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
+      "image_url": null,
+      "author": {
+        "username": "shimesaba_type0",
+        "name": "たかし",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T13:12:11",
+      "first_seen_at": "2026-10-27T13:21:25.779000",
+      "sub_category_label": null
     }
   ]
 }
