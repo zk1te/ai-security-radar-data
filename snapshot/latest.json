@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T00:02:08+08:00",
+  "updated_at": "2026-10-28T01:32:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -105,6 +105,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 22283,
+      "title": "Claude为开源库编写机器检查证明并修复数百漏洞",
+      "original_title": "Anthropic and Theorem published something on Oct 22 that I think developers should read: Claude wrote machine-checked proofs that 239 fuzzing entry points across 123 open-source li",
+      "summary": "Anthropic 和 Theorem 使用 Claude 为 OSS-Fuzz 的 239 个入口点编写 Rocq 机器检查证明，验证其在 64MB 输入下不崩溃，过程中 Claude 发现并修复了数百个真实漏洞，包括罕见的大输入越界写入。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "结合 LLM 和形式化验证的实战突破，发现了传统 Fuzzer 难以触发的深层漏洞。安全研究员应关注其发布的 Claude skill，这可能改变现有的自动化漏洞挖掘与代码审计流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Guelug/status/2115126416035758557",
+      "reader_url": "https://x.com/Guelug/status/2115126416035758557",
+      "image_url": "https://pbs.twimg.com/media/HVpwREbasAAuH8S.jpg",
+      "author": {
+        "username": "Guelug",
+        "name": "Pedro E. Caparrós Torres",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T17:00:09",
+      "first_seen_at": "2026-10-27T17:16:06.757730",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 22209,
       "title": "Claude利用形式验证数学证明软件安全，发现数百个遗漏Bug",
       "original_title": "ChatGPT要約  ClaudeによるFormal Verification：AIがソフトウェアの安全性を数学的に証明  ・本記事要約日：2026-10-27 ・本記事公開日：2026-10-22  この記事で1番言いたいことを一言で  AIがバグを発見・修正するだけでなく、特定条件下でバグが存在しないことを数学的に証明できる段階に到達した。  3〜5行ま",
@@ -203,26 +228,6 @@
       "published_at": "2026-10-27T06:46:57",
       "first_seen_at": "2026-10-27T06:52:52.648181",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 21816,
-      "title": "ProAS：多轮Agent强化学习的渐进感知优势塑形框架",
-      "original_title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
-      "summary": "提出 ProAS 框架解决多轮 Agent RL 中无 critic 算法的均匀信用分配问题，通过动态参考图实现细粒度信用分配，在 ALFWorld 和 WebShop 上达到 SOTA 并加速收敛。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 66.95,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "如果你在用 RL 微调多步安全自动化 Agent，ProAS 解决了长轨迹任务中奖励信号分配不均的痛点，能让模型更精准地学习复杂工具链调用，代码已开源可直接试错。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.18683",
-      "reader_url": "https://arxiv.org/pdf/2610.18683",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-27T00:00:00",
-      "first_seen_at": "2026-10-27T06:04:40.374831",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
