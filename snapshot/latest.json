@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T11:07:28+08:00",
+  "updated_at": "2026-10-27T12:37:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -115,31 +115,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 21545,
-      "title": "AI Agent 12小时内攻破 Anthropic 内部系统",
-      "original_title": "‼️ Researchers Use AI Agents to Breach Anthropic’s Internal Systems in Just 12 Hours   Details: https://t.co/MLQqIhWJQs  Cybersecurity startup Cathedral says its AI agents found ro",
-      "summary": "安全公司 Cathedral 在 Anthropic 授权测试中，利用 AI Agent 在 12 小时内通过第三方软件漏洞攻入 Anthropic 内部业务系统，获取了内部通信和薪资数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.99,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 自动化渗透测试的一个标志性实战案例，展示了 AI Agent 在真实环境中串联漏洞的速度。安全团队应关注此类工具的自动化防御演练潜力，并审视第三方供应链带来的暴露面。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2114732333437956212",
-      "reader_url": "https://x.com/The_Cyber_News/status/2114732333437956212",
-      "image_url": "https://pbs.twimg.com/media/HVkJ1O2akAAdDeZ.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-10-26T14:54:12",
-      "first_seen_at": "2026-10-26T16:13:10.533274",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 21607,
       "title": "研究员 archangel 分享定制 AI 流水线自动化挖洞实战",
       "original_title": "Researcher Douglas Day (archangel) has had his best bounty year yet, running a custom AI pipeline that files valid bugs while he sleeps. In the latest episode of HackerOne’s Expose",
@@ -187,6 +162,31 @@
       },
       "published_at": "2026-10-27T02:49:20",
       "first_seen_at": "2026-10-27T03:00:35.632416",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 21661,
+      "title": "20个给AI编码代理的模糊测试与漏洞挖掘技能",
+      "original_title": "20 Fuzz Testing & Bug Hunting Skills Every Developer Should Have  Your tests pass. That doesn't mean your code is safe.  These 20 open-source skills help AI coding agents generate ",
+      "summary": "汇总20个开源模糊测试与漏洞挖掘技能，帮助AI编码代理生成对抗输入、发现隐藏Bug、复现崩溃并验证补丁修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这份工具清单直接打通了AI编程助手与底层安全测试的链路。安全工程师可将其集成到Agent工作流中，自动化执行从Fuzzing到补丁验证的安全闭环。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/arjunkshah21/status/2114819355615609201",
+      "reader_url": "https://x.com/arjunkshah21/status/2114819355615609201",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2114450712344272896/img/wYI1hdZ-T2Xf9t-n.jpg",
+      "author": {
+        "username": "arjunkshah21",
+        "name": "Arjun Shah",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-26T20:40:00",
+      "first_seen_at": "2026-10-26T20:52:30.885493",
       "sub_category_label": "AI Fuzzing"
     }
   ]
