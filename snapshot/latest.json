@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T16:10:13+08:00",
+  "updated_at": "2026-10-27T17:16:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -140,31 +140,6 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 21661,
-      "title": "20个给AI编码代理的模糊测试与漏洞挖掘技能",
-      "original_title": "20 Fuzz Testing & Bug Hunting Skills Every Developer Should Have  Your tests pass. That doesn't mean your code is safe.  These 20 open-source skills help AI coding agents generate ",
-      "summary": "汇总20个开源模糊测试与漏洞挖掘技能，帮助AI编码代理生成对抗输入、发现隐藏Bug、复现崩溃并验证补丁修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这份工具清单直接打通了AI编程助手与底层安全测试的链路。安全工程师可将其集成到Agent工作流中，自动化执行从Fuzzing到补丁验证的安全闭环。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/arjunkshah21/status/2114819355615609201",
-      "reader_url": "https://x.com/arjunkshah21/status/2114819355615609201",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2114450712344272896/img/wYI1hdZ-T2Xf9t-n.jpg",
-      "author": {
-        "username": "arjunkshah21",
-        "name": "Arjun Shah",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-26T20:40:00",
-      "first_seen_at": "2026-10-26T20:52:30.885493",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 21845,
       "title": "盘点十大免费 AI 黑客工具：涵盖自动化渗透与红队 Agent",
       "original_title": "TOP 10 AI HACKING TOOLS YOU NEED TO KNOW  THESE TOOLS CAN AUTOMATE HACKING TASKS, RECON, EXPLOIT TESTING, RED TEAM OPERATIONS AND AI SECURITY ASSESSMENTS.  And they are all FREE to",
@@ -207,6 +182,26 @@
       "author": null,
       "published_at": "2026-10-27T00:00:00",
       "first_seen_at": "2026-10-27T06:04:40.374831",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 21774,
+      "title": "PAWM：通过陷阱预测世界模型引导黑盒大模型Agent",
+      "original_title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+      "summary": "提出PAWM模型，在黑盒LLM Agent执行任务时选择性预测潜在陷阱并介入引导，通过合成数据SFT与GRPO训练，在ScienceWorld等基准上显著提升Claude等模型的性能。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 65.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "设计自动化安全Agent时常面临黑盒模型在特定环境执行高危动作导致任务崩溃的痛点。此文的「陷阱预测」思路可借鉴用于构建安全护栏，让Agent在破坏性操作前刹车。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.29139",
+      "reader_url": "https://arxiv.org/pdf/2610.29139",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-27T01:56:42.791997",
       "sub_category_label": "Agent 架构"
     }
   ]
