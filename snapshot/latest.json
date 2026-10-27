@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-27T07:05:58+08:00",
+  "updated_at": "2026-10-27T08:06:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
+    {
+      "id": 21701,
+      "title": "GPT-6.1 Sol 赋能 CodeRabbit 强化代码安全审查",
+      "original_title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "summary": "CodeRabbit 采用 GPT-6.1 Sol 构建安全智能体，用于排查复杂代码库中的安全风险，并辅助开发者审查发现结果与修复建议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示大模型在自动化代码审查和安全修复建议方面的具体落地应用。安全团队可关注此类安全 Agent 在提升代码审计效率上的实际表现。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "reader_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T13:45:00",
+      "first_seen_at": "2026-10-26T23:49:45.636593",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 21558,
       "title": "黑色十月周报：AI 渗透与漏洞挖掘能力集中爆发引发安全震动",
@@ -53,6 +73,26 @@
       "published_at": "2026-10-26T11:29:07",
       "first_seen_at": "2026-10-26T12:37:32.100528",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21704,
+      "title": "Greptile 借助 GPT-6 Astra 将 Bug 检测扩展至代码审查之外",
+      "original_title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "summary": "Greptile 使用 GPT-6 Astra 测试用户工作流，结合 Daybreak 强化安全性，并利用 Codex 减少返工。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_analysis",
+      "score_total": 76.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "代码审查工具正深度融合大模型能力，用 AI 做代码审计和 Bug 检测。安全工程师可关注此类工具在实际 CI/CD 流程中的检测效果与误报率表现。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "reader_url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T22:00:00",
+      "first_seen_at": "2026-10-26T23:50:05.872819",
+      "sub_category_label": "代码分析"
     },
     {
       "id": 21545,
@@ -168,56 +208,6 @@
       "published_at": "2026-10-26T07:00:00",
       "first_seen_at": "2026-10-26T19:49:47.704530",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 21660,
-      "title": "AI安全Agent自主捕获vLLM漏洞并联动补丁",
-      "original_title": "@KaitanSecurity My AI security agent caught this, verified it against vLLM's advisories and the 0.32.0 release (the in-the-wild claim isn't in CISA KEV), then told my patching agen",
-      "summary": "用户演示AI安全Agent捕获vLLM在野漏洞，核对官方公告后，指挥补丁Agent完成跨容器版本检查与安全配置加固。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了安全Agent从情报捕获到验证和自动修复的闭环。做AI安全的团队可参考多Agent协作模式，将漏洞响应转化为自动化流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OhioValleyEV/status/2114818656182165932",
-      "reader_url": "https://x.com/OhioValleyEV/status/2114818656182165932",
-      "image_url": null,
-      "author": {
-        "username": "OhioValleyEV",
-        "name": "OhioValley EV",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-26T20:37:13",
-      "first_seen_at": "2026-10-26T20:52:29.775419",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 21648,
-      "title": "闭源智能合约形同虚设：AI反编译大幅降低漏洞挖掘成本",
-      "original_title": "Closed-source smart contracts are security theater.  Shaw just rebuilt the daosfun program on Solana straight from on-chain data. His build matched the deployed binary byte for byt",
-      "summary": "Shaw 通过链上数据逐字节重建了 Solana 上的 daosfun 程序并发现关键漏洞，证明 AI 工具正让智能合约反编译变得极其廉价，闭源策略已失去安全意义。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 66.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Web3 安全团队必看，AI 辅助逆向让代码混淆彻底失效。应立即放弃闭源幻想，转向源码验证、可复现构建和 Fuzzing 审计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MirHamzaHasan/status/2114807326280696291",
-      "reader_url": "https://x.com/MirHamzaHasan/status/2114807326280696291",
-      "image_url": null,
-      "author": {
-        "username": "MirHamzaHasan",
-        "name": "Hamza Mir",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-26T19:52:12",
-      "first_seen_at": "2026-10-26T20:17:27.987250",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
