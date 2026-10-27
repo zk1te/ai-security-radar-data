@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T15:09:57+08:00",
+  "updated_at": "2026-10-27T16:10:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -165,26 +165,6 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 21640,
-      "title": "OpenAI 使用 Codex 将事件调查缩短至数分钟",
-      "original_title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "summary": "OpenAI 工程师展示如何利用 Codex Ultrafast 快速进行安全分析和事件调查，将耗时从数小时压缩至数分钟，并应用于代码重构与日常工作流。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.8,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做甲方安全运营和应急响应的人该看，展示了头部大厂如何用 LLM 提效事件调查。能启发你把 LLM Agent 落地到日常安全分析和代码审计流程中。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/openai-cut-incident-investigation",
-      "reader_url": "https://openai.com/index/openai-cut-incident-investigation",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T07:00:00",
-      "first_seen_at": "2026-10-26T19:49:47.704530",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 21845,
       "title": "盘点十大免费 AI 黑客工具：涵盖自动化渗透与红队 Agent",
       "original_title": "TOP 10 AI HACKING TOOLS YOU NEED TO KNOW  THESE TOOLS CAN AUTOMATE HACKING TASKS, RECON, EXPLOIT TESTING, RED TEAM OPERATIONS AND AI SECURITY ASSESSMENTS.  And they are all FREE to",
@@ -208,6 +188,26 @@
       "published_at": "2026-10-27T06:46:57",
       "first_seen_at": "2026-10-27T06:52:52.648181",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21816,
+      "title": "ProAS：多轮Agent强化学习的渐进感知优势塑形框架",
+      "original_title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+      "summary": "提出 ProAS 框架解决多轮 Agent RL 中无 critic 算法的均匀信用分配问题，通过动态参考图实现细粒度信用分配，在 ALFWorld 和 WebShop 上达到 SOTA 并加速收敛。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 66.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在用 RL 微调多步安全自动化 Agent，ProAS 解决了长轨迹任务中奖励信号分配不均的痛点，能让模型更精准地学习复杂工具链调用，代码已开源可直接试错。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.18683",
+      "reader_url": "https://arxiv.org/pdf/2610.18683",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-27T06:04:40.374831",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
