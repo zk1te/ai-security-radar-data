@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T01:32:41+08:00",
+  "updated_at": "2026-10-28T02:02:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -28,6 +28,56 @@
       "published_at": "2026-10-27T05:08:59",
       "first_seen_at": "2026-10-27T06:50:58.160274",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 22289,
+      "title": "OpenAI 红队 Agent 发现 Brotli 未授权 RCE 漏洞",
+      "original_title": "SSH keys won't stop this one.  OpenAI disclosed an unauthenticated remote code execution bug in Brotli, the compression library inside Node.js, Bun and Envoy, found by its own agen",
+      "summary": "OpenAI 红队 Agent 发现 Brotli 压缩库存在未授权远程代码执行漏洞，影响 Node.js、Bun 和 Envoy；该漏洞虽在二月修复源码但未发布安全更新。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.19,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI Agent 在红队实战中发现真实高危漏洞的又一案例。安全团队需立即排查受影响组件并更新，同时收敛公网暴露面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/godofprompt/status/2115092420069343464",
+      "reader_url": "https://x.com/godofprompt/status/2115092420069343464",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2115092406672723968/img/AO8cgHt_jGAEjS9r.jpg",
+      "author": {
+        "username": "godofprompt",
+        "name": "God of Prompt",
+        "avatar_url": null,
+        "followers_count": 14864
+      },
+      "published_at": "2026-10-27T14:45:04",
+      "first_seen_at": "2026-10-27T17:47:55.546469",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 22295,
+      "title": "TraceTrial-Bench：分离评估 Agent 性能与测试框架可靠性",
+      "original_title": "Task success doesn't mean the harness worked  TraceTrial-Bench scores agent performance and harness reliability separately, across 95 tasks, 7 dimensions, 4 harnesses × 9 models an",
+      "summary": "TraceTrial-Bench 在 95 个任务和 3420 次运行中单独评估 Agent 性能与测试框架可靠性，发现 31.1% 的运行虽然任务成功但未满足框架的判定标准。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 72.94,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 评测和搭 Benchmark 的人必看。Agent 任务跑通不代表没作弊或搞坏沙箱环境，分离评估 Harness 能帮你避坑「假阳性」高分。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HuggingPapers/status/2115113850114548024",
+      "reader_url": "https://x.com/HuggingPapers/status/2115113850114548024",
+      "image_url": "https://pbs.twimg.com/media/HVpk1k2XcAA-giH.jpg",
+      "author": {
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
+        "avatar_url": null,
+        "followers_count": 21406
+      },
+      "published_at": "2026-10-27T16:10:13",
+      "first_seen_at": "2026-10-27T17:49:29.550227",
+      "sub_category_label": null
     },
     {
       "id": 22220,
@@ -80,6 +130,56 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 22300,
+      "title": "@5aelo 分析 LLM 挖洞优势：擅长复杂逻辑与 fuzzing 盲区",
+      "original_title": "@5aelo analyzed bugs that were only found with a single approach. LLMs are better at finding bugs that require complex logic, magic values, are in new features and those that fuzzi",
+      "summary": "@5aelo 总结称，LLM 在挖掘需要复杂逻辑、特定 magic values、新功能特性以及传统 fuzzing harness 难以覆盖的漏洞时表现更优。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对做 AI Fuzzing 和漏洞挖掘的团队极具参考价值，指出了 LLM 补位传统 fuzzing 的具体场景，可据此调整 Agent 策略，让 LLM 专注复杂逻辑盲区。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/natashenka/status/2115133645807870259",
+      "reader_url": "https://x.com/natashenka/status/2115133645807870259",
+      "image_url": null,
+      "author": {
+        "username": "natashenka",
+        "name": "Natalie Silvanovich",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T17:28:53",
+      "first_seen_at": "2026-10-27T17:50:20.741425",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 22292,
+      "title": "用 Claude Code 审计廉价车机发现后门与隐私窃听",
+      "original_title": "Someone plugged Claude Code into his cheap car stereo and found a root backdoor, a hidden call recorder and a mic that never turned off.  If you own a cheap Android TV box, tablet ",
+      "summary": "有人将 Claude Code 接入廉价车载音响进行安全审计，发现了 root 后门、隐藏通话记录器和常开麦克风，并分享了 6 个可供复现该审计的提示词。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.91,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI Agent 在嵌入式设备安全审计中的实战落地。安全研究员可直接借鉴其提示词和审计思路，对物联网设备进行低成本漏洞挖掘。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/godofprompt/status/2115105689282703693",
+      "reader_url": "https://x.com/godofprompt/status/2115105689282703693",
+      "image_url": "https://pbs.twimg.com/media/HVpdah8bAAAAkyM.jpg",
+      "author": {
+        "username": "godofprompt",
+        "name": "God of Prompt",
+        "avatar_url": null,
+        "followers_count": 14864
+      },
+      "published_at": "2026-10-27T15:37:47",
+      "first_seen_at": "2026-10-27T17:48:29.207441",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 22202,
       "title": "AI渗透框架Cairn被用于实战攻击，链式反应科技获融资",
       "original_title": "ChainReactors (杭州链式反应科技) is building AI that hacks into customers' systems, with permission, to find weaknesses before attackers do. The Hangzhou startup has raised several million",
@@ -128,106 +228,6 @@
       "published_at": "2026-10-27T17:00:09",
       "first_seen_at": "2026-10-27T17:16:06.757730",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 22209,
-      "title": "Claude利用形式验证数学证明软件安全，发现数百个遗漏Bug",
-      "original_title": "ChatGPT要約  ClaudeによるFormal Verification：AIがソフトウェアの安全性を数学的に証明  ・本記事要約日：2026-10-27 ・本記事公開日：2026-10-22  この記事で1番言いたいことを一言で  AIがバグを発見・修正するだけでなく、特定条件下でバグが存在しないことを数学的に証明できる段階に到達した。  3〜5行ま",
-      "summary": "Anthropic 与 Theorem 利用 Claude 对 123 个开源库进行形式验证，将现有 Fuzz 测试转换为数学规范并生成约 1.8 亿行 Rocq 证明，证明了特定条件下的内存安全性，同时发现并修复了数百个传统测试遗漏的 Bug。",
-      "primary_category": "AI for Sec",
-      "sub_category": "formal_verification",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需高度关注：AI 不仅能挖洞，还能用数学证明特定条件下无漏洞。这标志着从「发现漏洞」到「证明安全」的范式转变，二进制安全从业者可探索将其引入验证流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
-      "reader_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
-      "image_url": null,
-      "author": {
-        "username": "shimesaba_type0",
-        "name": "たかし",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T13:12:11",
-      "first_seen_at": "2026-10-27T13:21:25.779000",
-      "sub_category_label": null
-    },
-    {
-      "id": 22239,
-      "title": "使用 LibAFL-QEMU 和增量快照 Fuzzing 复杂状态机及 CVE 复盘",
-      "original_title": "Fuzzing complex state machines with LibAFL-QEMU and incremental snapshots. We walk through our approach, revisit CVE-2026-9539 in libslirp, and explain why our initial fuzzing camp",
-      "summary": "该推文介绍了使用 LibAFL-QEMU 结合增量快照技术 Fuzzing 复杂状态机的方法，复盘了 libslirp 的 CVE-2026-9539 漏洞，并解释了之前的 Fuzzing 活动为何漏掉该漏洞，同时开源了相关 Fuzzer 代码。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.29,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "开源了基于 LibAFL-QEMU 的 Fuzzer 代码并复盘漏报 CVE 原因，对漏洞挖掘与 Fuzzing 从业者极具参考价值，可直接借鉴状态机 Fuzzing 的 harness 写法和快照策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/quarkslab/status/2115099767789535288",
-      "reader_url": "https://x.com/quarkslab/status/2115099767789535288",
-      "image_url": null,
-      "author": {
-        "username": "quarkslab",
-        "name": "quarkslab",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T15:14:15",
-      "first_seen_at": "2026-10-27T15:38:20.089110",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 22073,
-      "title": "全链哨兵系统：基于 pi harness 的全流程渗透测试 Agent",
-      "original_title": "Full Chain Sentinel System is an authorized full-process penetration testing Agent built on the pi harness, supporting Web, mini-programs, Android, and iOS (in testing).  It provid",
-      "summary": "一款授权渗透测试 Agent，支持 Web、小程序、Android、iOS 多端，内置方法论驱动工作流、三种审批模式、Kali 容器隔离、Nuclei POC 集成及 Frida 设备插件等，覆盖从侦察到报告的完整流程。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.99,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做渗透自动化和安全 Agent 落地的同学值得看：它在执行模式设计（人工审批/全自动/AI Gatekeeper）和工具链集成（Nuclei、FOFA、Frida）上提供了可参考的工程思路，尤其是多端覆盖和会话审计的设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/blackorbird/status/2115014133091541387",
-      "reader_url": "https://x.com/blackorbird/status/2115014133091541387",
-      "image_url": "https://pbs.twimg.com/media/HVoJ_wlbgAEahAw.jpg",
-      "author": {
-        "username": "blackorbird",
-        "name": "blackorbird",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T09:33:59",
-      "first_seen_at": "2026-10-27T09:45:37.493801",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 21845,
-      "title": "盘点十大免费 AI 黑客工具：涵盖自动化渗透与红队 Agent",
-      "original_title": "TOP 10 AI HACKING TOOLS YOU NEED TO KNOW  THESE TOOLS CAN AUTOMATE HACKING TASKS, RECON, EXPLOIT TESTING, RED TEAM OPERATIONS AND AI SECURITY ASSESSMENTS.  And they are all FREE to",
-      "summary": "推文汇总了十个免费 AI 安全工具，涉及自动化渗透测试、多 Agent 红队编排、LLM 安全测试及 Burp 插件集成。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "一线红队和渗透测试人员值得一看，可从中挑选适合的 AI Agent 融入现有工作流，快速提升自动化漏洞挖掘与测试效率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MAXdeg0/status/2114972098804228238",
-      "reader_url": "https://x.com/MAXdeg0/status/2114972098804228238",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2114972075739713536/img/PhZEHXvDmgeXlyIm.jpg",
-      "author": {
-        "username": "MAXdeg0",
-        "name": "MAX",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T06:46:57",
-      "first_seen_at": "2026-10-27T06:52:52.648181",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
