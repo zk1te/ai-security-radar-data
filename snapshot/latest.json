@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T09:06:29+08:00",
+  "updated_at": "2026-10-27T09:36:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -68,6 +68,31 @@
       "published_at": "2026-10-26T22:00:00",
       "first_seen_at": "2026-10-26T23:50:05.872819",
       "sub_category_label": "代码分析"
+    },
+    {
+      "id": 21765,
+      "title": "前渗透测试员利用 ARTEX AI 框架攻破 90 余家韩国组织",
+      "original_title": "A former pentester used the ARTEX AI autonomous framework to breach 90+ South Korean organizations — automating reconnaissance, privilege escalation, lateral movement, and exfiltra",
+      "summary": "前渗透测试员使用 ARTEX AI 自主框架攻破 90 多家韩国组织，自动化完成侦察、提权、横向移动并窃取 820 万条记录，显示 AI 辅助工具大幅降低了大规模入侵的门槛。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.01,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "防守团队必看：真实世界曝光 AI 自动化攻击框架实战应用。AI 正在拉低攻击门槛并加速攻击链路，防守方需重新评估运行时隔离等传统防御策略的有效性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
+      "reader_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-10-27T00:03:40",
+      "first_seen_at": "2026-10-27T01:28:41.807065",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 21750,
@@ -158,31 +183,6 @@
       "published_at": "2026-10-26T04:00:00",
       "first_seen_at": "2026-10-26T14:38:00.615645",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 21661,
-      "title": "20个给AI编码代理的模糊测试与漏洞挖掘技能",
-      "original_title": "20 Fuzz Testing & Bug Hunting Skills Every Developer Should Have  Your tests pass. That doesn't mean your code is safe.  These 20 open-source skills help AI coding agents generate ",
-      "summary": "汇总20个开源模糊测试与漏洞挖掘技能，帮助AI编码代理生成对抗输入、发现隐藏Bug、复现崩溃并验证补丁修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这份工具清单直接打通了AI编程助手与底层安全测试的链路。安全工程师可将其集成到Agent工作流中，自动化执行从Fuzzing到补丁验证的安全闭环。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/arjunkshah21/status/2114819355615609201",
-      "reader_url": "https://x.com/arjunkshah21/status/2114819355615609201",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2114450712344272896/img/wYI1hdZ-T2Xf9t-n.jpg",
-      "author": {
-        "username": "arjunkshah21",
-        "name": "Arjun Shah",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-26T20:40:00",
-      "first_seen_at": "2026-10-26T20:52:30.885493",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
