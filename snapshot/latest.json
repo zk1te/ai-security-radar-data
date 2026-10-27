@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T21:31:14+08:00",
+  "updated_at": "2026-10-27T22:01:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -200,24 +200,29 @@
       "sub_category_label": "Agent 架构"
     },
     {
-      "id": 21774,
-      "title": "PAWM：通过陷阱预测世界模型引导黑盒大模型Agent",
-      "original_title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
-      "summary": "提出PAWM模型，在黑盒LLM Agent执行任务时选择性预测潜在陷阱并介入引导，通过合成数据SFT与GRPO训练，在ScienceWorld等基准上显著提升Claude等模型的性能。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 65.9,
+      "id": 22067,
+      "title": "用 cargo mutants 变异测试修复 AI 生成测试的「假绿」盲区",
+      "original_title": "An AI assistant can write a Soroban contract and a full test suite in one sitting, and every test can pass while proving very little. I see it in repos I review: tests that call th",
+      "summary": "AI 生成的代码测试常缺乏有效断言，可通过运行 cargo mutants 找出未覆盖的代码变异，反馈给 AI 补全真实断言，从而形成可靠的测试闭环。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 63.46,
       "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "设计自动化安全Agent时常面临黑盒模型在特定环境执行高危动作导致任务崩溃的痛点。此文的「陷阱预测」思路可借鉴用于构建安全护栏，让Agent在破坏性操作前刹车。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.29139",
-      "reader_url": "https://arxiv.org/pdf/2610.29139",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-27T00:00:00",
-      "first_seen_at": "2026-10-27T01:56:42.791997",
-      "sub_category_label": "Agent 架构"
+      "item_type": "news",
+      "recommendation_reason": "AI 写代码测试极易留下「假绿」导致安全漏洞被掩盖。开发者应将 cargo mutants 纳入流程，通过变异测试检验 AI 生成测试的有效性，堵住代码审计盲区。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/nyuiela/status/2115001309703098679",
+      "reader_url": "https://x.com/nyuiela/status/2115001309703098679",
+      "image_url": "https://pbs.twimg.com/media/HVn-eydXcAASdXF.jpg",
+      "author": {
+        "username": "nyuiela",
+        "name": "Kaleel | Graph Engineer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T08:43:01",
+      "first_seen_at": "2026-10-27T09:44:32.885266",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
