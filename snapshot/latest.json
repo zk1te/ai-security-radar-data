@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T20:17:50+08:00",
+  "updated_at": "2026-10-27T21:31:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 21835,
@@ -30,51 +30,6 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 21765,
-      "title": "前渗透测试员利用 ARTEX AI 框架攻破 90 余家韩国组织",
-      "original_title": "A former pentester used the ARTEX AI autonomous framework to breach 90+ South Korean organizations — automating reconnaissance, privilege escalation, lateral movement, and exfiltra",
-      "summary": "前渗透测试员使用 ARTEX AI 自主框架攻破 90 多家韩国组织，自动化完成侦察、提权、横向移动并窃取 820 万条记录，显示 AI 辅助工具大幅降低了大规模入侵的门槛。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.01,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "防守团队必看：真实世界曝光 AI 自动化攻击框架实战应用。AI 正在拉低攻击门槛并加速攻击链路，防守方需重新评估运行时隔离等传统防御策略的有效性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
-      "reader_url": "https://x.com/aviatrixtrc/status/2114870610295660652",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-10-27T00:03:40",
-      "first_seen_at": "2026-10-27T01:28:41.807065",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 21750,
-      "title": "Cloudflare 开源安全审计 Agent Skill",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare 开源的 security-audit-skill 是一个面向编码 Agent 的技能组件，能够执行多阶段安全审计并生成可机读的独立验证结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Cloudflare 直接把多阶段审计和独立验证做成了 Agent 技能，做自动化代码审计的团队可直接集成参考，看大厂如何工程化落地安全 Agent。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-27&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-27&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-27T00:59:25.796484",
-      "first_seen_at": "2026-10-27T01:02:52.907066",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 22066,
       "title": "ARTEX：百度 agent+ 攻防赛冠军 AI 自主渗透测试系统",
       "original_title": "ARTEXにはサービスとしてペネトレーションテストやってた元セキュリティエンジニアとして純粋に興味あるな。 / trhhubsd/ARTEX: ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻",
@@ -98,6 +53,56 @@
       "published_at": "2026-10-27T08:30:41",
       "first_seen_at": "2026-10-27T09:44:31.606359",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22202,
+      "title": "AI渗透框架Cairn被用于实战攻击，链式反应科技获融资",
+      "original_title": "ChainReactors (杭州链式反应科技) is building AI that hacks into customers' systems, with permission, to find weaknesses before attackers do. The Hangzhou startup has raised several million",
+      "summary": "杭州链式反应科技围绕开源 AI 渗透测试框架 Cairn 构建商业产品，该框架近期被攻击者用于突破上百家公司网站，展现了 AI 安全工具双刃剑效应。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.32,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Cairn 框架被用于实战攻击展示了 AI 渗透的低成本和高效率，安全团队需警惕此类工具的武器化。从业者可研究其开源代码以评估自身防御对抗能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/dermotmcg/status/2115062278248681872",
+      "reader_url": "https://x.com/dermotmcg/status/2115062278248681872",
+      "image_url": "https://pbs.twimg.com/media/HVo1VbJWQAAGSZx.jpg",
+      "author": {
+        "username": "dermotmcg",
+        "name": "Dermot McGrath（麦德蒙）",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T12:45:17",
+      "first_seen_at": "2026-10-27T13:19:00.984860",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22209,
+      "title": "Claude利用形式验证数学证明软件安全，发现数百个遗漏Bug",
+      "original_title": "ChatGPT要約  ClaudeによるFormal Verification：AIがソフトウェアの安全性を数学的に証明  ・本記事要約日：2026-10-27 ・本記事公開日：2026-10-22  この記事で1番言いたいことを一言で  AIがバグを発見・修正するだけでなく、特定条件下でバグが存在しないことを数学的に証明できる段階に到達した。  3〜5行ま",
+      "summary": "Anthropic 与 Theorem 利用 Claude 对 123 个开源库进行形式验证，将现有 Fuzz 测试转换为数学规范并生成约 1.8 亿行 Rocq 证明，证明了特定条件下的内存安全性，同时发现并修复了数百个传统测试遗漏的 Bug。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需高度关注：AI 不仅能挖洞，还能用数学证明特定条件下无漏洞。这标志着从「发现漏洞」到「证明安全」的范式转变，二进制安全从业者可探索将其引入验证流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
+      "reader_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
+      "image_url": null,
+      "author": {
+        "username": "shimesaba_type0",
+        "name": "たかし",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T13:12:11",
+      "first_seen_at": "2026-10-27T13:21:25.779000",
+      "sub_category_label": null
     },
     {
       "id": 21776,
@@ -192,6 +197,26 @@
       "author": null,
       "published_at": "2026-10-27T00:00:00",
       "first_seen_at": "2026-10-27T06:04:40.374831",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 21774,
+      "title": "PAWM：通过陷阱预测世界模型引导黑盒大模型Agent",
+      "original_title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+      "summary": "提出PAWM模型，在黑盒LLM Agent执行任务时选择性预测潜在陷阱并介入引导，通过合成数据SFT与GRPO训练，在ScienceWorld等基准上显著提升Claude等模型的性能。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 65.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "设计自动化安全Agent时常面临黑盒模型在特定环境执行高危动作导致任务崩溃的痛点。此文的「陷阱预测」思路可借鉴用于构建安全护栏，让Agent在破坏性操作前刹车。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.29139",
+      "reader_url": "https://arxiv.org/pdf/2610.29139",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-27T01:56:42.791997",
       "sub_category_label": "Agent 架构"
     }
   ]
