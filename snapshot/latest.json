@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T09:36:49+08:00",
+  "updated_at": "2026-10-27T11:07:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -165,24 +165,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 21405,
-      "title": "循环工程：AI Agent 自动化控制模式的采用与影响分析",
-      "original_title": "Loop Engineering: Building Blocks, Adoption, and Impact",
-      "summary": "本文首次对「循环工程」这一新型 AI Agent 编码控制模式进行了文献综述与大规模代码挖掘，在 217 个开源仓库中发现自主 Agent 循环的采用，并设计实验以评估其对任务成功率和代码质量的影响。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 69.95,
+      "id": 21776,
+      "title": "JANUS：基于智能体的 Android 原生库跨语言 Fuzzing Harness 生成",
+      "original_title": "JANUS: Agentic Cross-Language Fuzzing Harness Generation for Android Native Libraries: Modern Android apps extensively rely on native libraries, bridging Java/Kotlin and C/C++ thro",
+      "summary": "JANUS 利用自主智能体工作流生成跨语言（JNI）的 Android 原生库 Fuzzing Harness，在 44 个主流 App 上生成的有效 harness 数量是现有工具的 5.9 倍，并挖掘出 6 个未知漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
       "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "构建自动化安全 Agent（如漏洞挖掘、代码审计）的工程师必看。文中总结的 Agent 循环核心组件（停止条件、verifier 子代理、token 预算）是设计鲁棒安全自动化任务流的关键参考，能帮你避坑。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2608.21884",
-      "reader_url": "https://arxiv.org/pdf/2608.21884",
+      "item_type": "news",
+      "recommendation_reason": "做移动安全或 Fuzzing 的兄弟必看，JANUS 用 Agent 绕过了传统 JNI 跨语言静态分析的瓶颈，实测效果提升近 6 倍且挖出 6 个 0day，证明了 Agent 在复杂 Fuzzing 场景的落地潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/gastronomy/status/2114912300905713915",
+      "reader_url": "https://x.com/gastronomy/status/2114912300905713915",
       "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T04:00:00",
-      "first_seen_at": "2026-10-26T14:38:00.615645",
-      "sub_category_label": "Agent 架构"
+      "author": {
+        "username": "gastronomy",
+        "name": "Tanat Tonguthaisri",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T02:49:20",
+      "first_seen_at": "2026-10-27T03:00:35.632416",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
