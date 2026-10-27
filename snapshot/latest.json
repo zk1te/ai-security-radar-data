@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T22:01:42+08:00",
+  "updated_at": "2026-10-27T23:01:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -28,6 +28,31 @@
       "published_at": "2026-10-27T05:08:59",
       "first_seen_at": "2026-10-27T06:50:58.160274",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 22220,
+      "title": "AI初创公司用自主Agent在12小时内攻破Anthropic内网",
+      "original_title": "Topic 4 from today's brief: An AI cybersecurity startup conducting penetration testing successfully breached Anthropic's internal infrastructure in under 12 hours using autonomous ",
+      "summary": "一家 AI 安全初创公司在不到 12 小时内使用自主 AI 智能体成功渗透了 Anthropic 的内部基础设施，标志着 AI 自主攻击能力迈入实战化新阶段。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "攻击型 AI Agent 已具备实战级破坏力，红蓝两队都需警惕自动化高速攻击。安全团队应立即评估防御体系面对此类攻击的韧性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Cincinnatus1775/status/2115073394550952021",
+      "reader_url": "https://x.com/Cincinnatus1775/status/2115073394550952021",
+      "image_url": null,
+      "author": {
+        "username": "Cincinnatus1775",
+        "name": "Cincinnatus1775",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T13:29:28",
+      "first_seen_at": "2026-10-27T14:32:59.076645",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 22066,
@@ -105,31 +130,6 @@
       "sub_category_label": null
     },
     {
-      "id": 21776,
-      "title": "JANUS：基于智能体的 Android 原生库跨语言 Fuzzing Harness 生成",
-      "original_title": "JANUS: Agentic Cross-Language Fuzzing Harness Generation for Android Native Libraries: Modern Android apps extensively rely on native libraries, bridging Java/Kotlin and C/C++ thro",
-      "summary": "JANUS 利用自主智能体工作流生成跨语言（JNI）的 Android 原生库 Fuzzing Harness，在 44 个主流 App 上生成的有效 harness 数量是现有工具的 5.9 倍，并挖掘出 6 个未知漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做移动安全或 Fuzzing 的兄弟必看，JANUS 用 Agent 绕过了传统 JNI 跨语言静态分析的瓶颈，实测效果提升近 6 倍且挖出 6 个 0day，证明了 Agent 在复杂 Fuzzing 场景的落地潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/gastronomy/status/2114912300905713915",
-      "reader_url": "https://x.com/gastronomy/status/2114912300905713915",
-      "image_url": null,
-      "author": {
-        "username": "gastronomy",
-        "name": "Tanat Tonguthaisri",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T02:49:20",
-      "first_seen_at": "2026-10-27T03:00:35.632416",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 22073,
       "title": "全链哨兵系统：基于 pi harness 的全流程渗透测试 Agent",
       "original_title": "Full Chain Sentinel System is an authorized full-process penetration testing Agent built on the pi harness, supporting Web, mini-programs, Android, and iOS (in testing).  It provid",
@@ -200,29 +200,29 @@
       "sub_category_label": "Agent 架构"
     },
     {
-      "id": 22067,
-      "title": "用 cargo mutants 变异测试修复 AI 生成测试的「假绿」盲区",
-      "original_title": "An AI assistant can write a Soroban contract and a full test suite in one sitting, and every test can pass while proving very little. I see it in repos I review: tests that call th",
-      "summary": "AI 生成的代码测试常缺乏有效断言，可通过运行 cargo mutants 找出未覆盖的代码变异，反馈给 AI 补全真实断言，从而形成可靠的测试闭环。",
+      "id": 22225,
+      "title": "CodeRabbit 安全 Agent 采用 GPT-6.1 模型强化代码审查",
+      "original_title": "OpenAI announced that CodeRabbit is using GPT-6.1 Sol as the primary model in its security agent.  The system examines security risks across files, dependencies, shared libraries, ",
+      "summary": "CodeRabbit 宣布其安全 Agent 采用 GPT-6.1 Sol 模型，可跨文件、依赖库与关联仓库分析安全风险，并在隔离环境验证漏洞后生成修复建议供人工审查。",
       "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 63.46,
+      "sub_category": "security_agent",
+      "score_total": 63.95,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 写代码测试极易留下「假绿」导致安全漏洞被掩盖。开发者应将 cargo mutants 纳入流程，通过变异测试检验 AI 生成测试的有效性，堵住代码审计盲区。",
+      "recommendation_reason": "安全研发和代码审计人员应关注。这展示了 AI 代码审查从单行告警向系统级风险理解的演进，参考其隔离验证与全局依赖分析思路有助于优化现有代码安全工具。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/nyuiela/status/2115001309703098679",
-      "reader_url": "https://x.com/nyuiela/status/2115001309703098679",
-      "image_url": "https://pbs.twimg.com/media/HVn-eydXcAASdXF.jpg",
+      "canonical_url": "https://x.com/AsvdCodes/status/2115088771624362012",
+      "reader_url": "https://x.com/AsvdCodes/status/2115088771624362012",
+      "image_url": null,
       "author": {
-        "username": "nyuiela",
-        "name": "Kaleel | Graph Engineer",
+        "username": "AsvdCodes",
+        "name": "Asad Tanvir | Founder & Engineer",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-27T08:43:01",
-      "first_seen_at": "2026-10-27T09:44:32.885266",
-      "sub_category_label": "AI Fuzzing"
+      "published_at": "2026-10-27T14:30:34",
+      "first_seen_at": "2026-10-27T14:33:56.742492",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
