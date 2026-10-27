@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T17:16:00+08:00",
+  "updated_at": "2026-10-27T17:46:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -115,6 +115,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 22066,
+      "title": "ARTEX：百度 agent+ 攻防赛冠军 AI 自主渗透测试系统",
+      "original_title": "ARTEXにはサービスとしてペネトレーションテストやってた元セキュリティエンジニアとして純粋に興味あるな。 / trhhubsd/ARTEX: ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻",
+      "summary": "ARTEX 是一个基于多智能体 LLM 的自主渗透测试系统，采用 Go 与 Next.js 构建，曾获百度 agent+ 攻防挑战赛冠军。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "作为实战攻防赛冠军项目，ARTEX 展示了多智能体在渗透测试场景的落地效果。安全团队可研究其架构设计，评估在自动化红队任务中的可用性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/kyouhei/status/2114998203276046378",
+      "reader_url": "https://x.com/kyouhei/status/2114998203276046378",
+      "image_url": null,
+      "author": {
+        "username": "kyouhei",
+        "name": "キ™︎",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T08:30:41",
+      "first_seen_at": "2026-10-27T09:44:31.606359",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 21776,
       "title": "JANUS：基于智能体的 Android 原生库跨语言 Fuzzing Harness 生成",
       "original_title": "JANUS: Agentic Cross-Language Fuzzing Harness Generation for Android Native Libraries: Modern Android apps extensively rely on native libraries, bridging Java/Kotlin and C/C++ thro",
@@ -140,6 +165,31 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
+      "id": 22073,
+      "title": "全链哨兵系统：基于 pi harness 的全流程渗透测试 Agent",
+      "original_title": "Full Chain Sentinel System is an authorized full-process penetration testing Agent built on the pi harness, supporting Web, mini-programs, Android, and iOS (in testing).  It provid",
+      "summary": "一款授权渗透测试 Agent，支持 Web、小程序、Android、iOS 多端，内置方法论驱动工作流、三种审批模式、Kali 容器隔离、Nuclei POC 集成及 Frida 设备插件等，覆盖从侦察到报告的完整流程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 67.99,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做渗透自动化和安全 Agent 落地的同学值得看：它在执行模式设计（人工审批/全自动/AI Gatekeeper）和工具链集成（Nuclei、FOFA、Frida）上提供了可参考的工程思路，尤其是多端覆盖和会话审计的设计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/blackorbird/status/2115014133091541387",
+      "reader_url": "https://x.com/blackorbird/status/2115014133091541387",
+      "image_url": "https://pbs.twimg.com/media/HVoJ_wlbgAEahAw.jpg",
+      "author": {
+        "username": "blackorbird",
+        "name": "blackorbird",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T09:33:59",
+      "first_seen_at": "2026-10-27T09:45:37.493801",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 21845,
       "title": "盘点十大免费 AI 黑客工具：涵盖自动化渗透与红队 Agent",
       "original_title": "TOP 10 AI HACKING TOOLS YOU NEED TO KNOW  THESE TOOLS CAN AUTOMATE HACKING TASKS, RECON, EXPLOIT TESTING, RED TEAM OPERATIONS AND AI SECURITY ASSESSMENTS.  And they are all FREE to",
@@ -163,46 +213,6 @@
       "published_at": "2026-10-27T06:46:57",
       "first_seen_at": "2026-10-27T06:52:52.648181",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 21816,
-      "title": "ProAS：多轮Agent强化学习的渐进感知优势塑形框架",
-      "original_title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
-      "summary": "提出 ProAS 框架解决多轮 Agent RL 中无 critic 算法的均匀信用分配问题，通过动态参考图实现细粒度信用分配，在 ALFWorld 和 WebShop 上达到 SOTA 并加速收敛。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 66.95,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "如果你在用 RL 微调多步安全自动化 Agent，ProAS 解决了长轨迹任务中奖励信号分配不均的痛点，能让模型更精准地学习复杂工具链调用，代码已开源可直接试错。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.18683",
-      "reader_url": "https://arxiv.org/pdf/2610.18683",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-27T00:00:00",
-      "first_seen_at": "2026-10-27T06:04:40.374831",
-      "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 21774,
-      "title": "PAWM：通过陷阱预测世界模型引导黑盒大模型Agent",
-      "original_title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
-      "summary": "提出PAWM模型，在黑盒LLM Agent执行任务时选择性预测潜在陷阱并介入引导，通过合成数据SFT与GRPO训练，在ScienceWorld等基准上显著提升Claude等模型的性能。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 65.9,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "设计自动化安全Agent时常面临黑盒模型在特定环境执行高危动作导致任务崩溃的痛点。此文的「陷阱预测」思路可借鉴用于构建安全护栏，让Agent在破坏性操作前刹车。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.29139",
-      "reader_url": "https://arxiv.org/pdf/2610.29139",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-27T00:00:00",
-      "first_seen_at": "2026-10-27T01:56:42.791997",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
