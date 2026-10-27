@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-10-27T17:46:05+08:00",
+  "updated_at": "2026-10-27T20:17:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
-    {
-      "id": 21701,
-      "title": "GPT-6.1 Sol 赋能 CodeRabbit 强化代码安全审查",
-      "original_title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "summary": "CodeRabbit 采用 GPT-6.1 Sol 构建安全智能体，用于排查复杂代码库中的安全风险，并辅助开发者审查发现结果与修复建议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 81.8,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "展示大模型在自动化代码审查和安全修复建议方面的具体落地应用。安全团队可关注此类安全 Agent 在提升代码审计效率上的实际表现。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "reader_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T13:45:00",
-      "first_seen_at": "2026-10-26T23:49:45.636593",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 21835,
       "title": "5uGUE：基于Agent的5G设备硬件在环模糊测试研究",
@@ -48,26 +28,6 @@
       "published_at": "2026-10-27T05:08:59",
       "first_seen_at": "2026-10-27T06:50:58.160274",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 21704,
-      "title": "Greptile 借助 GPT-6 Astra 将 Bug 检测扩展至代码审查之外",
-      "original_title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "summary": "Greptile 使用 GPT-6 Astra 测试用户工作流，结合 Daybreak 强化安全性，并利用 Codex 减少返工。",
-      "primary_category": "AI for Sec",
-      "sub_category": "code_analysis",
-      "score_total": 76.3,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "代码审查工具正深度融合大模型能力，用 AI 做代码审计和 Bug 检测。安全工程师可关注此类工具在实际 CI/CD 流程中的检测效果与误报率表现。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "reader_url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T22:00:00",
-      "first_seen_at": "2026-10-26T23:50:05.872819",
-      "sub_category_label": "代码分析"
     },
     {
       "id": 21765,
@@ -213,6 +173,26 @@
       "published_at": "2026-10-27T06:46:57",
       "first_seen_at": "2026-10-27T06:52:52.648181",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21816,
+      "title": "ProAS：多轮Agent强化学习的渐进感知优势塑形框架",
+      "original_title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+      "summary": "提出 ProAS 框架解决多轮 Agent RL 中无 critic 算法的均匀信用分配问题，通过动态参考图实现细粒度信用分配，在 ALFWorld 和 WebShop 上达到 SOTA 并加速收敛。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 66.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在用 RL 微调多步安全自动化 Agent，ProAS 解决了长轨迹任务中奖励信号分配不均的痛点，能让模型更精准地学习复杂工具链调用，代码已开源可直接试错。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.18683",
+      "reader_url": "https://arxiv.org/pdf/2610.18683",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-27T06:04:40.374831",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
