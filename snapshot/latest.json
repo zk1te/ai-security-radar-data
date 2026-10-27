@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T13:07:58+08:00",
+  "updated_at": "2026-10-27T14:39:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 21701,
@@ -90,31 +90,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 21607,
-      "title": "研究员 archangel 分享定制 AI 流水线自动化挖洞实战",
-      "original_title": "Researcher Douglas Day (archangel) has had his best bounty year yet, running a custom AI pipeline that files valid bugs while he sleeps. In the latest episode of HackerOne’s Expose",
-      "summary": "研究员 Douglas Day 分享了他使用定制 AI 流水线自动化挖掘漏洞的经验，指出仅靠基础大模型无法直接见效，需投入大量精力训练、调整护栏和修改 Agent 配置。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.13,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 AI 挖洞别指望开箱即用，这期访谈给出了实战研究员如何调教 Agent、修改护栏的真实经验，想落地自动化漏洞挖掘的人必看。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Hacker0x01/status/2114749076440744280",
-      "reader_url": "https://x.com/Hacker0x01/status/2114749076440744280",
-      "image_url": "https://pbs.twimg.com/media/HVkZE9oWsAAnV40.jpg",
-      "author": {
-        "username": "Hacker0x01",
-        "name": "HackerOne",
-        "avatar_url": null,
-        "followers_count": 342779
-      },
-      "published_at": "2026-10-26T16:00:44",
-      "first_seen_at": "2026-10-26T18:34:37.348990",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 21776,
       "title": "JANUS：基于智能体的 Android 原生库跨语言 Fuzzing Harness 生成",
       "original_title": "JANUS: Agentic Cross-Language Fuzzing Harness Generation for Android Native Libraries: Modern Android apps extensively rely on native libraries, bridging Java/Kotlin and C/C++ thro",
@@ -182,6 +157,51 @@
       "author": null,
       "published_at": "2026-10-26T07:00:00",
       "first_seen_at": "2026-10-26T19:49:47.704530",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21816,
+      "title": "ProAS：多轮Agent强化学习的渐进感知优势塑形框架",
+      "original_title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+      "summary": "提出 ProAS 框架解决多轮 Agent RL 中无 critic 算法的均匀信用分配问题，通过动态参考图实现细粒度信用分配，在 ALFWorld 和 WebShop 上达到 SOTA 并加速收敛。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 66.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在用 RL 微调多步安全自动化 Agent，ProAS 解决了长轨迹任务中奖励信号分配不均的痛点，能让模型更精准地学习复杂工具链调用，代码已开源可直接试错。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.18683",
+      "reader_url": "https://arxiv.org/pdf/2610.18683",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-27T06:04:40.374831",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 21660,
+      "title": "AI安全Agent自主捕获vLLM漏洞并联动补丁",
+      "original_title": "@KaitanSecurity My AI security agent caught this, verified it against vLLM's advisories and the 0.32.0 release (the in-the-wild claim isn't in CISA KEV), then told my patching agen",
+      "summary": "用户演示AI安全Agent捕获vLLM在野漏洞，核对官方公告后，指挥补丁Agent完成跨容器版本检查与安全配置加固。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了安全Agent从情报捕获到验证和自动修复的闭环。做AI安全的团队可参考多Agent协作模式，将漏洞响应转化为自动化流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OhioValleyEV/status/2114818656182165932",
+      "reader_url": "https://x.com/OhioValleyEV/status/2114818656182165932",
+      "image_url": null,
+      "author": {
+        "username": "OhioValleyEV",
+        "name": "OhioValley EV",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-26T20:37:13",
+      "first_seen_at": "2026-10-26T20:52:29.775419",
       "sub_category_label": "安全Agent"
     }
   ]
