@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-10-28T03:02:53+08:00",
+  "updated_at": "2026-10-28T04:33:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
+    {
+      "id": 22360,
+      "title": "Check Point 借 OpenAI Daybreak 加速漏洞研究",
+      "original_title": "How Check Point accelerates vulnerability research with Daybreak",
+      "summary": "Check Point 采用 OpenAI Daybreak 模型提升漏洞研究效率，帮助安全分析师更快速地将漏洞情报转化为客户防御措施。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了头部安全厂商如何将大模型嵌入漏洞研究流程，安全团队可参考其将漏洞情报快速转化为防御的实践思路，评估自身 AI 赋能落地点。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/check-point-daybreak",
+      "reader_url": "https://openai.com/index/check-point-daybreak",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-27T20:15:24.043231",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 22289,
       "title": "OpenAI 红队 Agent 发现 Brotli 未授权 RCE 漏洞",
@@ -78,6 +98,31 @@
       "published_at": "2026-10-27T13:29:28",
       "first_seen_at": "2026-10-27T14:32:59.076645",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22356,
+      "title": "Natasha Tsvetkova 比较 BigSleep 与 Fuzzer 在 V8 漏洞挖掘中的表现",
+      "original_title": "RT @natashenka: LLMs are great at finding bugs, but so are fuzzers. @5aelo compared the vulnerabilities found in V8 by BigSleep, an agentic…",
+      "summary": "@natashenka 转发讨论了 @5aelo 对 V8 引擎中 BigSleep（LLM Agent）与 Fuzzer 发现漏洞情况的对比分析。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.59,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "BigSleep 是顶尖自主漏洞挖掘 Agent，其在真实项目中与 Fuzzer 的实战对比极具参考价值，做漏洞挖掘或评估 AI 安全工具效能的人必看。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/__x86/status/2115144518337278155",
+      "reader_url": "https://x.com/__x86/status/2115144518337278155",
+      "image_url": null,
+      "author": {
+        "username": "__x86",
+        "name": "Jeremy Fetiveau",
+        "avatar_url": null,
+        "followers_count": 4337
+      },
+      "published_at": "2026-10-27T18:12:05",
+      "first_seen_at": "2026-10-27T20:04:30.497147",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 22066,
@@ -178,56 +223,6 @@
       "published_at": "2026-10-27T12:45:17",
       "first_seen_at": "2026-10-27T13:19:00.984860",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 22283,
-      "title": "Claude为开源库编写机器检查证明并修复数百漏洞",
-      "original_title": "Anthropic and Theorem published something on Oct 22 that I think developers should read: Claude wrote machine-checked proofs that 239 fuzzing entry points across 123 open-source li",
-      "summary": "Anthropic 和 Theorem 使用 Claude 为 OSS-Fuzz 的 239 个入口点编写 Rocq 机器检查证明，验证其在 64MB 输入下不崩溃，过程中 Claude 发现并修复了数百个真实漏洞，包括罕见的大输入越界写入。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "结合 LLM 和形式化验证的实战突破，发现了传统 Fuzzer 难以触发的深层漏洞。安全研究员应关注其发布的 Claude skill，这可能改变现有的自动化漏洞挖掘与代码审计流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Guelug/status/2115126416035758557",
-      "reader_url": "https://x.com/Guelug/status/2115126416035758557",
-      "image_url": "https://pbs.twimg.com/media/HVpwREbasAAuH8S.jpg",
-      "author": {
-        "username": "Guelug",
-        "name": "Pedro E. Caparrós Torres",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T17:00:09",
-      "first_seen_at": "2026-10-27T17:16:06.757730",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 22209,
-      "title": "Claude利用形式验证数学证明软件安全，发现数百个遗漏Bug",
-      "original_title": "ChatGPT要約  ClaudeによるFormal Verification：AIがソフトウェアの安全性を数学的に証明  ・本記事要約日：2026-10-27 ・本記事公開日：2026-10-22  この記事で1番言いたいことを一言で  AIがバグを発見・修正するだけでなく、特定条件下でバグが存在しないことを数学的に証明できる段階に到達した。  3〜5行ま",
-      "summary": "Anthropic 与 Theorem 利用 Claude 对 123 个开源库进行形式验证，将现有 Fuzz 测试转换为数学规范并生成约 1.8 亿行 Rocq 证明，证明了特定条件下的内存安全性，同时发现并修复了数百个传统测试遗漏的 Bug。",
-      "primary_category": "AI for Sec",
-      "sub_category": "formal_verification",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需高度关注：AI 不仅能挖洞，还能用数学证明特定条件下无漏洞。这标志着从「发现漏洞」到「证明安全」的范式转变，二进制安全从业者可探索将其引入验证流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
-      "reader_url": "https://x.com/shimesaba_type0/status/2115069045544493248",
-      "image_url": null,
-      "author": {
-        "username": "shimesaba_type0",
-        "name": "たかし",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T13:12:11",
-      "first_seen_at": "2026-10-27T13:21:25.779000",
-      "sub_category_label": null
     }
   ]
 }
