@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T08:06:13+08:00",
+  "updated_at": "2026-10-27T09:06:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 21701,
@@ -50,31 +50,6 @@
       "sub_category_label": null
     },
     {
-      "id": 21491,
-      "title": "微软披露：威胁组织利用 AI 渗透框架 ARTEX 入侵云服务",
-      "original_title": "‼️ Storm-0940, a China-aligned threat actor, used an AI penetration testing framework called ARTEX to compromise ConnectWise Cloud Backup, Microsoft says.  ARTEX is a Go-based agen",
-      "summary": "微软称与中国相关的威胁行为者 Storm-0940 使用名为 ARTEX 的 AI 渗透测试框架自动化侦察与密码喷射，入侵 ConnectWise 云备份服务并造成数百起下游受害。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这标志着 AI 自动化攻击 Agent 已在野落地并规模化使用。安全团队需警惕传统检测机制在面对高频自动化攻击时的盲区，关注 AI 驱动的防御策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/n0limitSOC/status/2114680720249454907",
-      "reader_url": "https://x.com/n0limitSOC/status/2114680720249454907",
-      "image_url": null,
-      "author": {
-        "username": "n0limitSOC",
-        "name": "n0limit | AI SOC",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-26T11:29:07",
-      "first_seen_at": "2026-10-26T12:37:32.100528",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 21704,
       "title": "Greptile 借助 GPT-6 Astra 将 Bug 检测扩展至代码审查之外",
       "original_title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
@@ -93,6 +68,26 @@
       "published_at": "2026-10-26T22:00:00",
       "first_seen_at": "2026-10-26T23:50:05.872819",
       "sub_category_label": "代码分析"
+    },
+    {
+      "id": 21750,
+      "title": "Cloudflare 开源安全审计 Agent Skill",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 开源的 security-audit-skill 是一个面向编码 Agent 的技能组件，能够执行多阶段安全审计并生成可机读的独立验证结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Cloudflare 直接把多阶段审计和独立验证做成了 Agent 技能，做自动化代码审计的团队可直接集成参考，看大厂如何工程化落地安全 Agent。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-27&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-27&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:59:25.796484",
+      "first_seen_at": "2026-10-27T01:02:52.907066",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 21545,
@@ -188,26 +183,6 @@
       "published_at": "2026-10-26T20:40:00",
       "first_seen_at": "2026-10-26T20:52:30.885493",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 21640,
-      "title": "OpenAI 使用 Codex 将事件调查缩短至数分钟",
-      "original_title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "summary": "OpenAI 工程师展示如何利用 Codex Ultrafast 快速进行安全分析和事件调查，将耗时从数小时压缩至数分钟，并应用于代码重构与日常工作流。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.8,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做甲方安全运营和应急响应的人该看，展示了头部大厂如何用 LLM 提效事件调查。能启发你把 LLM Agent 落地到日常安全分析和代码审计流程中。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/openai-cut-incident-investigation",
-      "reader_url": "https://openai.com/index/openai-cut-incident-investigation",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T07:00:00",
-      "first_seen_at": "2026-10-26T19:49:47.704530",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
