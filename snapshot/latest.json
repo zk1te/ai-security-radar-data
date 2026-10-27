@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T04:33:21+08:00",
+  "updated_at": "2026-10-28T06:04:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -125,31 +125,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 22066,
-      "title": "ARTEX：百度 agent+ 攻防赛冠军 AI 自主渗透测试系统",
-      "original_title": "ARTEXにはサービスとしてペネトレーションテストやってた元セキュリティエンジニアとして純粋に興味あるな。 / trhhubsd/ARTEX: ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻",
-      "summary": "ARTEX 是一个基于多智能体 LLM 的自主渗透测试系统，采用 Go 与 Next.js 构建，曾获百度 agent+ 攻防挑战赛冠军。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "作为实战攻防赛冠军项目，ARTEX 展示了多智能体在渗透测试场景的落地效果。安全团队可研究其架构设计，评估在自动化红队任务中的可用性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/kyouhei/status/2114998203276046378",
-      "reader_url": "https://x.com/kyouhei/status/2114998203276046378",
-      "image_url": null,
-      "author": {
-        "username": "kyouhei",
-        "name": "キ™︎",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T08:30:41",
-      "first_seen_at": "2026-10-27T09:44:31.606359",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 22300,
       "title": "@5aelo 分析 LLM 挖洞优势：擅长复杂逻辑与 fuzzing 盲区",
       "original_title": "@5aelo analyzed bugs that were only found with a single approach. LLMs are better at finding bugs that require complex logic, magic values, are in new features and those that fuzzi",
@@ -223,6 +198,31 @@
       "published_at": "2026-10-27T12:45:17",
       "first_seen_at": "2026-10-27T13:19:00.984860",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22283,
+      "title": "Claude为开源库编写机器检查证明并修复数百漏洞",
+      "original_title": "Anthropic and Theorem published something on Oct 22 that I think developers should read: Claude wrote machine-checked proofs that 239 fuzzing entry points across 123 open-source li",
+      "summary": "Anthropic 和 Theorem 使用 Claude 为 OSS-Fuzz 的 239 个入口点编写 Rocq 机器检查证明，验证其在 64MB 输入下不崩溃，过程中 Claude 发现并修复了数百个真实漏洞，包括罕见的大输入越界写入。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "结合 LLM 和形式化验证的实战突破，发现了传统 Fuzzer 难以触发的深层漏洞。安全研究员应关注其发布的 Claude skill，这可能改变现有的自动化漏洞挖掘与代码审计流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Guelug/status/2115126416035758557",
+      "reader_url": "https://x.com/Guelug/status/2115126416035758557",
+      "image_url": "https://pbs.twimg.com/media/HVpwREbasAAuH8S.jpg",
+      "author": {
+        "username": "Guelug",
+        "name": "Pedro E. Caparrós Torres",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T17:00:09",
+      "first_seen_at": "2026-10-27T17:16:06.757730",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
