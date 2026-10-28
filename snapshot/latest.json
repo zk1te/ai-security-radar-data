@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T12:37:11+08:00",
+  "updated_at": "2026-10-28T13:37:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -220,29 +220,24 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 22283,
-      "title": "Claude为开源库编写机器检查证明并修复数百漏洞",
-      "original_title": "Anthropic and Theorem published something on Oct 22 that I think developers should read: Claude wrote machine-checked proofs that 239 fuzzing entry points across 123 open-source li",
-      "summary": "Anthropic 和 Theorem 使用 Claude 为 OSS-Fuzz 的 239 个入口点编写 Rocq 机器检查证明，验证其在 64MB 输入下不崩溃，过程中 Claude 发现并修复了数百个真实漏洞，包括罕见的大输入越界写入。",
+      "id": 22454,
+      "title": "Cloudflare 推出多阶段安全审计 Agent 技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 开源了 security-audit-skill，这是一个面向多阶段安全审计的编码代理技能，能够产生可独立验证且机器可读的审计发现。",
       "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
+      "sub_category": "security_agent",
+      "score_total": 68.05,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "结合 LLM 和形式化验证的实战突破，发现了传统 Fuzzer 难以触发的深层漏洞。安全研究员应关注其发布的 Claude skill，这可能改变现有的自动化漏洞挖掘与代码审计流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Guelug/status/2115126416035758557",
-      "reader_url": "https://x.com/Guelug/status/2115126416035758557",
-      "image_url": "https://pbs.twimg.com/media/HVpwREbasAAuH8S.jpg",
-      "author": {
-        "username": "Guelug",
-        "name": "Pedro E. Caparrós Torres",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T17:00:09",
-      "first_seen_at": "2026-10-27T17:16:06.757730",
-      "sub_category_label": "AI Fuzzing"
+      "recommendation_reason": "面向使用 AI Agent 做代码审计的安全团队。该工具强调可验证的机器可读结果，能缓解大模型幻觉问题，建议接入现有代码审计流水线进行效果评测。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-28&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-28&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T00:48:20.500011",
+      "first_seen_at": "2026-10-28T00:49:58.905701",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
