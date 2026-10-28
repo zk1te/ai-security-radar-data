@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T21:43:09+08:00",
+  "updated_at": "2026-10-28T22:14:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -155,6 +155,31 @@
       "sub_category_label": null
     },
     {
+      "id": 22902,
+      "title": "针对 AI 渗透测试面板的自动化接管攻击披露",
+      "original_title": "#threatreport #MediumCompleteness Automated Subversion and Attempted Takeover of AI Pentesting Harnesses | 26-10-2026 Source: https://t.co/HNngoy2dCL Key details below ↓  🧑‍💻Actors",
+      "summary": "报告披露针对暴露的 Cairn AI 渗透测试面板的自动化攻击，攻击者通过注入恶意任务劫持 Agent，窃取凭据并部署 Mythic 框架的 Poseidon 木马。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 72.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "渗透测试 Agent 自身沦为攻击面，通过恶意指令直接接管容器执行后渗透。安全团队需立即审查自研或开源 AI 安全 Agent 的权限隔离与任务校验机制，防止工具被反杀。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rst_cloud/status/2115437794344460760",
+      "reader_url": "https://x.com/rst_cloud/status/2115437794344460760",
+      "image_url": "https://pbs.twimg.com/media/HVuLdmwWcAE8Vmd.jpg",
+      "author": {
+        "username": "rst_cloud",
+        "name": "RST Cloud",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-28T13:37:27",
+      "first_seen_at": "2026-10-28T14:03:32.665481",
+      "sub_category_label": null
+    },
+    {
       "id": 22504,
       "title": "BigSleep 与 Fuzzers 在 V8 漏洞挖掘中的对比分析",
       "original_title": "RT @natashenka: LLMs are great at finding bugs, but so are fuzzers. @5aelo compared the vulnerabilities found in V8 by BigSleep, an agentic…",
@@ -178,31 +203,6 @@
       "published_at": "2026-10-27T23:39:04",
       "first_seen_at": "2026-10-28T02:37:57.239153",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 22887,
-      "title": "研究员演示用LLM Fuzzing挖掘Telegram 0-click漏洞",
-      "original_title": "🚨 TELEGRAM: RESEARCHER SHOWS NEW 0-CLICK STICKER FLAWS AND CODE EXECUTION ON iOS AT OFFENSIVECON JAPAN  Vulnerability researcher Saifeldeen Aziz is presenting new 0-click vulnerabi",
-      "summary": "研究员在OffensiveCon展示利用LLM编排Fuzzing技术发现Telegram的rlottie库存在内存破坏漏洞，链式利用逻辑缺陷绕过缓解措施在iOS实现0-click代码执行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 70.37,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是LLM Fuzzing在真实流行软件中挖出0-click 0day的极佳实战案例。安全团队可借此评估AI漏洞挖掘的落地威力，并需立即通知高危人员关闭Telegram自动下载。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
-      "reader_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
-      "image_url": "https://pbs.twimg.com/media/HVuGiaNbwAAUDT6.jpg",
-      "author": {
-        "username": "DailyDarkWeb",
-        "name": "Dark Web Intelligence",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-28T13:15:57",
-      "first_seen_at": "2026-10-28T13:27:32.030408",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
