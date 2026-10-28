@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T03:16:30+08:00",
+  "updated_at": "2026-10-29T05:47:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 22632,
@@ -162,6 +162,31 @@
       },
       "published_at": "2026-10-28T13:37:27",
       "first_seen_at": "2026-10-28T14:03:32.665481",
+      "sub_category_label": null
+    },
+    {
+      "id": 23064,
+      "title": "Anthropic 用 Claude 验证 123 个开源库，发现存活数万亿次的 Bug",
+      "original_title": "Tests check examples. Proofs check everything.  Anthropic and Theorem used Claude to formally verify security properties in 123 open-source libraries at the RISC-V assembly level, ",
+      "summary": "Anthropic 与 Theorem 使用 Claude 在 RISC-V 汇编级别形式化验证了 123 个开源库的内存安全性，并发现了传统测试漏掉的 Bug，即将发布相关 Claude Skill。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 71.09,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这不仅是 AI 辅助漏洞挖掘的里程碑，更是安全落地模式的转变。安全团队应关注其即将发布的 Claude Skill，尝试将形式化验证和属性测试引入自动化审计流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/godofprompt/status/2115454808157266170",
+      "reader_url": "https://x.com/godofprompt/status/2115454808157266170",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2115454795742097408/img/qPq-NeZ2wy2AAMvQ.jpg",
+      "author": {
+        "username": "godofprompt",
+        "name": "God of Prompt",
+        "avatar_url": null,
+        "followers_count": 14864
+      },
+      "published_at": "2026-10-28T14:45:04",
+      "first_seen_at": "2026-10-28T21:22:18.815408",
       "sub_category_label": null
     },
     {
