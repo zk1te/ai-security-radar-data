@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T18:12:27+08:00",
+  "updated_at": "2026-10-28T18:42:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -63,6 +63,31 @@
       "published_at": "2026-10-28T04:00:00",
       "first_seen_at": "2026-10-28T10:11:36.997972",
       "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 22706,
+      "title": "未发布 Anthropic 模型成功链式挖掘五大平台漏洞",
+      "original_title": "🛑 An unreleased Anthropic AI model chained security flaws into working exploits across Chrome, Safari, Android, Windows, and Linux.  One Chrome exploit escaped the browser sandbox ",
+      "summary": "未发布的 Anthropic AI 模型展示了跨 Chrome、Safari、Android、Windows 和 Linux 的链式漏洞利用能力，其中 Chrome 漏洞甚至成功逃逸沙箱在 Mac 上执行程序。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 从单点审计进化到端到端武器化利用链生成，红队和漏洞研究员必须关注，这预示着自动化 exploit 开发即将进入新阶段。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2115356852917784592",
+      "reader_url": "https://x.com/TheHackersNews/status/2115356852917784592",
+      "image_url": "https://pbs.twimg.com/media/HVtB18HacAAv1nf.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-28T08:15:49",
+      "first_seen_at": "2026-10-28T10:41:04.957168",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 22534,
@@ -183,26 +208,6 @@
       "published_at": "2026-10-28T08:31:23",
       "first_seen_at": "2026-10-28T09:01:40.186631",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 22531,
-      "title": "多Agent系统24天挑战巨型数学工程并揪出40年前漏洞",
-      "original_title": "数十agent，24天挑战数学界巨型工程，还揪出40年前漏洞",
-      "summary": "数十个AI Agent在24天内协同挑战一项巨型数学工程，不仅完成复杂任务，还意外发现了一个存在40年的漏洞，展现了多智能体在长周期复杂推理与验证中的潜力。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 69.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "多Agent协同不仅能攻克复杂数学推理，还能在长周期工程中揪出人类难以察觉的历史遗留漏洞。安全团队可关注其协同验证与审查机制，探索将其迁移至大型代码库的历史漏洞挖掘中。",
-      "source_id": "jiqizhixin-rss",
-      "canonical_url": "https://www.jiqizhixin.com/articles/2026-10-28-6?source=rss",
-      "reader_url": "https://www.jiqizhixin.com/articles/2026-10-28-6?source=rss",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-28T05:31:43",
-      "first_seen_at": "2026-10-28T06:09:12.786437",
-      "sub_category_label": null
     }
   ]
 }
