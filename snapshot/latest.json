@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T19:42:42+08:00",
+  "updated_at": "2026-10-28T21:43:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 22632,
@@ -178,6 +178,31 @@
       "published_at": "2026-10-27T23:39:04",
       "first_seen_at": "2026-10-28T02:37:57.239153",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 22887,
+      "title": "研究员演示用LLM Fuzzing挖掘Telegram 0-click漏洞",
+      "original_title": "🚨 TELEGRAM: RESEARCHER SHOWS NEW 0-CLICK STICKER FLAWS AND CODE EXECUTION ON iOS AT OFFENSIVECON JAPAN  Vulnerability researcher Saifeldeen Aziz is presenting new 0-click vulnerabi",
+      "summary": "研究员在OffensiveCon展示利用LLM编排Fuzzing技术发现Telegram的rlottie库存在内存破坏漏洞，链式利用逻辑缺陷绕过缓解措施在iOS实现0-click代码执行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 70.37,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是LLM Fuzzing在真实流行软件中挖出0-click 0day的极佳实战案例。安全团队可借此评估AI漏洞挖掘的落地威力，并需立即通知高危人员关闭Telegram自动下载。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
+      "reader_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
+      "image_url": "https://pbs.twimg.com/media/HVuGiaNbwAAUDT6.jpg",
+      "author": {
+        "username": "DailyDarkWeb",
+        "name": "Dark Web Intelligence",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-28T13:15:57",
+      "first_seen_at": "2026-10-28T13:27:32.030408",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
