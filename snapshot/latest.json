@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T06:17:22+08:00",
+  "updated_at": "2026-10-29T06:47:27+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -47,31 +47,6 @@
       },
       "published_at": "2026-10-28T12:31:39",
       "first_seen_at": "2026-10-28T16:18:04.959383",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 22706,
-      "title": "未发布 Anthropic 模型成功链式挖掘五大平台漏洞",
-      "original_title": "🛑 An unreleased Anthropic AI model chained security flaws into working exploits across Chrome, Safari, Android, Windows, and Linux.  One Chrome exploit escaped the browser sandbox ",
-      "summary": "未发布的 Anthropic AI 模型展示了跨 Chrome、Safari、Android、Windows 和 Linux 的链式漏洞利用能力，其中 Chrome 漏洞甚至成功逃逸沙箱在 Mac 上执行程序。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 78.3,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 从单点审计进化到端到端武器化利用链生成，红队和漏洞研究员必须关注，这预示着自动化 exploit 开发即将进入新阶段。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2115356852917784592",
-      "reader_url": "https://x.com/TheHackersNews/status/2115356852917784592",
-      "image_url": "https://pbs.twimg.com/media/HVtB18HacAAv1nf.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-28T08:15:49",
-      "first_seen_at": "2026-10-28T10:41:04.957168",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -223,6 +198,31 @@
       "published_at": "2026-10-28T15:29:00",
       "first_seen_at": "2026-10-28T15:46:43.526139",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22994,
+      "title": "AI辅助Fuzzing挖出Telegram零点击漏洞",
+      "original_title": "A Telegram sticker that runs code on an iPhone without a tap. That's the claim in a talk today at @offensive_con Tokyo by @wr3nchsr.  Per his abstract, AI-assisted fuzzing of rlott",
+      "summary": "研究员在OffensiveCon演示，通过AI辅助对Telegram的rlottie库进行Fuzzing，发现内存破坏漏洞并绕过服务端校验实现零点击代码执行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 69.06,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是AI辅助Fuzzing挖到真实零点击漏洞的硬核案例。漏洞挖掘同行可重点关注AI在复杂解析器和绕过服务端防御上的实战表现与产出。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/c7five/status/2115488766127145105",
+      "reader_url": "https://x.com/c7five/status/2115488766127145105",
+      "image_url": null,
+      "author": {
+        "username": "c7five",
+        "name": "Nick Percoco",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-28T17:00:00",
+      "first_seen_at": "2026-10-28T17:28:15.075089",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
