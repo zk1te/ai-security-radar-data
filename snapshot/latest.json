@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T02:46:25+08:00",
+  "updated_at": "2026-10-29T03:16:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 22632,
@@ -113,26 +113,6 @@
       "published_at": "2026-10-28T08:15:49",
       "first_seen_at": "2026-10-28T10:41:04.957168",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 22546,
-      "title": "HABIT-Bench：评估 Agent 从长期弱证据中归纳习惯的能力",
-      "original_title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
-      "summary": "本文提出 HABIT-Bench 基准，用于评估 LLM Agent 记忆系统从长期交互的弱证据中推断并应用用户习惯的能力。实验显示，最优记忆方法在四领域的宏观准确率仅 33.61%，即使提供标注证据效果依然有限。",
-      "primary_category": "AI Tech | Sec for AI",
-      "sub_category": "model_evaluation",
-      "score_total": 73.7,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "该基准直击 Agent 长期记忆系统的可靠性盲区。对关注 Agent 安全的从业者而言，弱证据习惯归纳能力的不足意味着 Agent 极易被潜移默化的记忆投毒或行为操纵利用，可作为评估防御能力的基础测试床。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.24520",
-      "reader_url": "https://arxiv.org/pdf/2610.24520",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-28T00:00:00",
-      "first_seen_at": "2026-10-28T06:50:19.086018",
-      "sub_category_label": null
     },
     {
       "id": 22973,
