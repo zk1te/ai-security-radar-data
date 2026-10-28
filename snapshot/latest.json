@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T16:42:04+08:00",
+  "updated_at": "2026-10-28T17:12:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -120,6 +120,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 22573,
+      "title": "BigSleep对决Fuzzilli：AI Agent与Fuzzer在V8漏洞挖掘实战对比",
+      "original_title": "Project Zero (@5aelo) pitted an LLM agent (BigSleep) against a fuzzer (Fuzzilli) on V8: 45 vs 37 vulns, ~25% overlap.   -&gt; Bugs hard for fuzzers are hard for agents too. -&gt; A",
+      "summary": "Project Zero将大模型Agent(BigSleep)与Fuzzer(Fuzzilli)在V8上对决，分别发现45和37个漏洞，重叠率仅25%，表明Agent难以替代Fuzzer。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.15,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘团队必看。BigSleep与Fuzzilli的实战数据证明两者互补性强，单纯指望Agent替代Fuzzer不现实，未来「Agent驱动Fuzzer」才是提效关键。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Pat_Ventuzelo/status/2115360770733347244",
+      "reader_url": "https://x.com/Pat_Ventuzelo/status/2115360770733347244",
+      "image_url": "https://pbs.twimg.com/media/HVtFKpEXwAAffcA.jpg",
+      "author": {
+        "username": "Pat_Ventuzelo",
+        "name": "Patrick Ventuzelo",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-28T08:31:23",
+      "first_seen_at": "2026-10-28T09:01:40.186631",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 22531,
       "title": "多Agent系统24天挑战巨型数学工程并揪出40年前漏洞",
       "original_title": "数十agent，24天挑战数学界巨型工程，还揪出40年前漏洞",
@@ -207,31 +232,6 @@
       },
       "published_at": "2026-10-27T22:30:40",
       "first_seen_at": "2026-10-27T22:49:45.582106",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 22382,
-      "title": "OpenAI与CodeRabbit合作集成GPT-6.1 Sol强化代码安全审计",
-      "original_title": "OpenAI and CodeRabbit use GPT-6.1 Sol to strengthen code security, integrating the model as the primary component of CodeRabbit's security agent. Announced on October 26, the syste",
-      "summary": "OpenAI与CodeRabbit宣布将GPT-6.1 Sol作为CodeRabbit安全Agent的核心组件，在Pull Request评审期间分析代码与依赖变更，支持沙箱验证漏洞并自动生成修复补丁供人工审核。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "DevSecOps和代码审计团队必看。集成前沿大模型的安全Agent不仅能跨文件和依赖做深度扫描，还带沙箱验证和自动生成补丁能力，是AI辅助代码安全落地的标杆产品形态。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rubbletag/status/2115190823256281249",
-      "reader_url": "https://x.com/rubbletag/status/2115190823256281249",
-      "image_url": "https://pbs.twimg.com/media/HVqq0lQa0AAWyAA.png",
-      "author": {
-        "username": "rubbletag",
-        "name": "Rubbletag",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T21:16:05",
-      "first_seen_at": "2026-10-27T21:43:04.179565",
       "sub_category_label": "安全Agent"
     }
   ]
