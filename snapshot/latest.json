@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-28T18:42:33+08:00",
+  "updated_at": "2026-10-28T19:42:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 22632,
@@ -63,6 +63,26 @@
       "published_at": "2026-10-28T04:00:00",
       "first_seen_at": "2026-10-28T10:11:36.997972",
       "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 22849,
+      "title": "SemLoc：将 LLM 推理转化为可执行语义约束进行代码缺陷定位",
+      "original_title": "SemLoc: Structured Grounding of Free-Form LLM Reasoning for Fault Localization",
+      "summary": "SemLoc 框架将 LLM 生成的自由文本推理转化为带有固定类别的可执行语义约束，通过运行时检查和反事实验证实现代码错误的高精度定位。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vulnerability_discovery",
+      "score_total": 83.05,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "将 LLM 的自由文本推理落地为可执行检查是解决 AI 辅助代码审计幻觉痛点的关键思路。做代码审计和漏洞挖掘 Agent 的同学可直接借鉴其约束锚点与反事实验证设计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.29109",
+      "reader_url": "https://arxiv.org/pdf/2603.29109",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T04:00:00",
+      "first_seen_at": "2026-10-28T11:27:06.185662",
+      "sub_category_label": null
     },
     {
       "id": 22706,
@@ -157,56 +177,6 @@
       },
       "published_at": "2026-10-27T23:39:04",
       "first_seen_at": "2026-10-28T02:37:57.239153",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 22529,
-      "title": "银行入侵案指向开源AI渗透框架ARTEX，监管发警告",
-      "original_title": "Investigators probing the earlier bank intrusions in the wave point to ARTEX, an open-source AI penetration-testing framework. The regulator's warning: AI makes vulnerabilities eas",
-      "summary": "调查人员将近期银行入侵事件归因于开源 AI 渗透测试框架 ARTEX，监管机构警告 AI 降低了漏洞发现门槛并增加了并发攻击的风险。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.4,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "真实攻击事件首次指向开源 AI 渗透框架。安全团队需密切关注攻击者如何利用自动化 AI 工具进行并发攻击，评估自身防御体系面对 AI 驱动威胁的韧性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/PredictaLabOff/status/2115320617146712422",
-      "reader_url": "https://x.com/PredictaLabOff/status/2115320617146712422",
-      "image_url": null,
-      "author": {
-        "username": "PredictaLabOff",
-        "name": "Predicta Lab",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-28T05:51:50",
-      "first_seen_at": "2026-10-28T06:03:16.718951",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 22573,
-      "title": "BigSleep对决Fuzzilli：AI Agent与Fuzzer在V8漏洞挖掘实战对比",
-      "original_title": "Project Zero (@5aelo) pitted an LLM agent (BigSleep) against a fuzzer (Fuzzilli) on V8: 45 vs 37 vulns, ~25% overlap.   -&gt; Bugs hard for fuzzers are hard for agents too. -&gt; A",
-      "summary": "Project Zero将大模型Agent(BigSleep)与Fuzzer(Fuzzilli)在V8上对决，分别发现45和37个漏洞，重叠率仅25%，表明Agent难以替代Fuzzer。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.15,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队必看。BigSleep与Fuzzilli的实战数据证明两者互补性强，单纯指望Agent替代Fuzzer不现实，未来「Agent驱动Fuzzer」才是提效关键。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Pat_Ventuzelo/status/2115360770733347244",
-      "reader_url": "https://x.com/Pat_Ventuzelo/status/2115360770733347244",
-      "image_url": "https://pbs.twimg.com/media/HVtFKpEXwAAffcA.jpg",
-      "author": {
-        "username": "Pat_Ventuzelo",
-        "name": "Patrick Ventuzelo",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-28T08:31:23",
-      "first_seen_at": "2026-10-28T09:01:40.186631",
       "sub_category_label": "漏洞挖掘"
     }
   ]
