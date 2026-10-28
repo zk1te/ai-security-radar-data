@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T22:44:52+08:00",
+  "updated_at": "2026-10-29T00:46:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -23,26 +23,6 @@
       "published_at": "2026-10-28T04:00:00",
       "first_seen_at": "2026-10-28T10:11:47.220321",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 22517,
-      "title": "PHP 高危未授权 RCE 漏洞与 AI 辅助漏洞挖掘实战",
-      "original_title": "PHP漏洞危机，你的网站升级了吗?",
-      "summary": "PHP 官方修复两个 CVSS 9.2 分的未授权 RCE 漏洞，Wiz、OpenAI 等团队利用前沿 AI 模型成功将遗留缺陷转化为可用 exploit，文章附带详细升级与缓解指南。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 86.85,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 辅助漏洞挖掘走向实战的标志性案例。安全团队不仅要关注 PHP 漏洞本身的修复实操，更应看到前沿大模型在复杂 UAF/OOM 漏洞链构建上的能力突破，评估自身工作流引入 AI 辅助的必要性。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7699094123467178034",
-      "reader_url": "https://juejin.cn/post/7699094123467178034",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-22T06:20:21",
-      "first_seen_at": "2026-10-28T04:33:37.716917",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 22630,
@@ -83,6 +63,31 @@
       "published_at": "2026-10-28T04:00:00",
       "first_seen_at": "2026-10-28T11:27:06.185662",
       "sub_category_label": null
+    },
+    {
+      "id": 22945,
+      "title": "Claude 研究模型成功构建多平台漏洞利用链并实现提权",
+      "original_title": "‼️ Claude AI Builds One-Click Chrome and 0-Click Linux Exploit Chains, Bypasses Android Lock Screen  Details: https://t.co/t1UzeUaBQr  Anthropic's Frontier Red Team says an unrelea",
+      "summary": "Anthropic 红队披露未发布的 Claude 研究模型能自动生成 Chrome 沙箱逃逸、Safari UAF 漏洞利用链，甚至实现 Linux 远程 root 提权和绕过 Android 锁屏。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 79.16,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "攻防团队必看：这标志着大模型从单一 PoC 生成跨越到完整多阶段利用链构建。红队可借此评估自动化防御压力，蓝队需关注由 AI 驱动的复杂攻击路径。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2115421232715960603",
+      "reader_url": "https://x.com/The_Cyber_News/status/2115421232715960603",
+      "image_url": "https://pbs.twimg.com/media/HVt7-wJbYAAXVMJ.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-10-28T12:31:39",
+      "first_seen_at": "2026-10-28T16:18:04.959383",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 22706,
