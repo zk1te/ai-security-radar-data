@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T01:16:14+08:00",
+  "updated_at": "2026-10-29T02:46:25+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -115,31 +115,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 22534,
-      "title": "Claude AI 发现数十个 Chrome 漏洞并构建沙箱逃逸利用链",
-      "original_title": "🚨 Google patches 52 Chrome security flaws, including 4 CRITICAL bugs.  But here's the bigger story:  → Claude AI discovered dozens of Chrome vulnerabilities. → Built a working, mul",
-      "summary": "Google 修复了包含 4 个严重漏洞的 52 个 Chrome 缺陷，其中 Claude AI 发现了数十个漏洞并构建了成功逃逸 Chrome 沙箱的多阶段利用链。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 77.79,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "大模型在真实软件漏洞挖掘上的能力跨越了从「玩具」到实战利用链的门槛。安全团队应立即评估 LLM 辅助漏洞发现工具的引入，并审视自身防御基线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2115309622928314781",
-      "reader_url": "https://x.com/TheHackersNews/status/2115309622928314781",
-      "image_url": "https://pbs.twimg.com/media/HVsWy1RawAAQMA7.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-28T05:08:09",
-      "first_seen_at": "2026-10-28T06:36:47.532268",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 22546,
       "title": "HABIT-Bench：评估 Agent 从长期弱证据中归纳习惯的能力",
       "original_title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
@@ -208,6 +183,31 @@
       "published_at": "2026-10-28T13:37:27",
       "first_seen_at": "2026-10-28T14:03:32.665481",
       "sub_category_label": null
+    },
+    {
+      "id": 22887,
+      "title": "研究员演示用LLM Fuzzing挖掘Telegram 0-click漏洞",
+      "original_title": "🚨 TELEGRAM: RESEARCHER SHOWS NEW 0-CLICK STICKER FLAWS AND CODE EXECUTION ON iOS AT OFFENSIVECON JAPAN  Vulnerability researcher Saifeldeen Aziz is presenting new 0-click vulnerabi",
+      "summary": "研究员在OffensiveCon展示利用LLM编排Fuzzing技术发现Telegram的rlottie库存在内存破坏漏洞，链式利用逻辑缺陷绕过缓解措施在iOS实现0-click代码执行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 70.37,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是LLM Fuzzing在真实流行软件中挖出0-click 0day的极佳实战案例。安全团队可借此评估AI漏洞挖掘的落地威力，并需立即通知高危人员关闭Telegram自动下载。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
+      "reader_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
+      "image_url": "https://pbs.twimg.com/media/HVuGiaNbwAAUDT6.jpg",
+      "author": {
+        "username": "DailyDarkWeb",
+        "name": "Dark Web Intelligence",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-28T13:15:57",
+      "first_seen_at": "2026-10-28T13:27:32.030408",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
