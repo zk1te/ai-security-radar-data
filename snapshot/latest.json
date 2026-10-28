@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T22:14:39+08:00",
+  "updated_at": "2026-10-28T22:44:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -180,29 +180,29 @@
       "sub_category_label": null
     },
     {
-      "id": 22504,
-      "title": "BigSleep 与 Fuzzers 在 V8 漏洞挖掘中的对比分析",
-      "original_title": "RT @natashenka: LLMs are great at finding bugs, but so are fuzzers. @5aelo compared the vulnerabilities found in V8 by BigSleep, an agentic…",
-      "summary": "推文讨论了基于 LLM 的 BigSleep Agent 与传统 Fuzzer 在 V8 引擎中发现漏洞的能力对比。",
+      "id": 22887,
+      "title": "研究员演示用LLM Fuzzing挖掘Telegram 0-click漏洞",
+      "original_title": "🚨 TELEGRAM: RESEARCHER SHOWS NEW 0-CLICK STICKER FLAWS AND CODE EXECUTION ON iOS AT OFFENSIVECON JAPAN  Vulnerability researcher Saifeldeen Aziz is presenting new 0-click vulnerabi",
+      "summary": "研究员在OffensiveCon展示利用LLM编排Fuzzing技术发现Telegram的rlottie库存在内存破坏漏洞，链式利用逻辑缺陷绕过缓解措施在iOS实现0-click代码执行。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.96,
+      "sub_category": "fuzzing",
+      "score_total": 70.37,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "BigSleep 是当前最受关注的 AI 漏洞挖掘 Agent 之一。做漏洞研究的人可以借此判断当前 LLM Agent 在真实引擎中的实战定位和能力边界。",
+      "recommendation_reason": "这是LLM Fuzzing在真实流行软件中挖出0-click 0day的极佳实战案例。安全团队可借此评估AI漏洞挖掘的落地威力，并需立即通知高危人员关闭Telegram自动下载。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2115226807536660831",
-      "reader_url": "https://x.com/HackingLZ/status/2115226807536660831",
-      "image_url": null,
+      "canonical_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
+      "reader_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
+      "image_url": "https://pbs.twimg.com/media/HVuGiaNbwAAUDT6.jpg",
       "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
+        "username": "DailyDarkWeb",
+        "name": "Dark Web Intelligence",
         "avatar_url": null,
-        "followers_count": 73559
+        "followers_count": 0
       },
-      "published_at": "2026-10-27T23:39:04",
-      "first_seen_at": "2026-10-28T02:37:57.239153",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-10-28T13:15:57",
+      "first_seen_at": "2026-10-28T13:27:32.030408",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
