@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T09:34:46+08:00",
+  "updated_at": "2026-10-28T10:34:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -73,31 +73,6 @@
       "published_at": "2026-10-27T16:10:13",
       "first_seen_at": "2026-10-27T17:49:29.550227",
       "sub_category_label": null
-    },
-    {
-      "id": 22220,
-      "title": "AI初创公司用自主Agent在12小时内攻破Anthropic内网",
-      "original_title": "Topic 4 from today's brief: An AI cybersecurity startup conducting penetration testing successfully breached Anthropic's internal infrastructure in under 12 hours using autonomous ",
-      "summary": "一家 AI 安全初创公司在不到 12 小时内使用自主 AI 智能体成功渗透了 Anthropic 的内部基础设施，标志着 AI 自主攻击能力迈入实战化新阶段。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "攻击型 AI Agent 已具备实战级破坏力，红蓝两队都需警惕自动化高速攻击。安全团队应立即评估防御体系面对此类攻击的韧性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Cincinnatus1775/status/2115073394550952021",
-      "reader_url": "https://x.com/Cincinnatus1775/status/2115073394550952021",
-      "image_url": null,
-      "author": {
-        "username": "Cincinnatus1775",
-        "name": "Cincinnatus1775",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T13:29:28",
-      "first_seen_at": "2026-10-27T14:32:59.076645",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 22356,
@@ -223,6 +198,26 @@
       "published_at": "2026-10-27T15:14:15",
       "first_seen_at": "2026-10-27T15:38:20.089110",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 22454,
+      "title": "Cloudflare 推出多阶段安全审计 Agent 技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 开源了 security-audit-skill，这是一个面向多阶段安全审计的编码代理技能，能够产生可独立验证且机器可读的审计发现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "面向使用 AI Agent 做代码审计的安全团队。该工具强调可验证的机器可读结果，能缓解大模型幻觉问题，建议接入现有代码审计流水线进行效果评测。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-28&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-28&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T00:48:20.500011",
+      "first_seen_at": "2026-10-28T00:49:58.905701",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
