@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T14:07:52+08:00",
+  "updated_at": "2026-10-28T14:38:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -22,6 +22,31 @@
       "author": null,
       "published_at": "2026-10-22T06:20:21",
       "first_seen_at": "2026-10-28T04:33:37.716917",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 22534,
+      "title": "Claude AI 发现数十个 Chrome 漏洞并构建沙箱逃逸利用链",
+      "original_title": "🚨 Google patches 52 Chrome security flaws, including 4 CRITICAL bugs.  But here's the bigger story:  → Claude AI discovered dozens of Chrome vulnerabilities. → Built a working, mul",
+      "summary": "Google 修复了包含 4 个严重漏洞的 52 个 Chrome 缺陷，其中 Claude AI 发现了数十个漏洞并构建了成功逃逸 Chrome 沙箱的多阶段利用链。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.79,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "大模型在真实软件漏洞挖掘上的能力跨越了从「玩具」到实战利用链的门槛。安全团队应立即评估 LLM 辅助漏洞发现工具的引入，并审视自身防御基线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2115309622928314781",
+      "reader_url": "https://x.com/TheHackersNews/status/2115309622928314781",
+      "image_url": "https://pbs.twimg.com/media/HVsWy1RawAAQMA7.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-28T05:08:09",
+      "first_seen_at": "2026-10-28T06:36:47.532268",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -120,6 +145,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 22531,
+      "title": "多Agent系统24天挑战巨型数学工程并揪出40年前漏洞",
+      "original_title": "数十agent，24天挑战数学界巨型工程，还揪出40年前漏洞",
+      "summary": "数十个AI Agent在24天内协同挑战一项巨型数学工程，不仅完成复杂任务，还意外发现了一个存在40年的漏洞，展现了多智能体在长周期复杂推理与验证中的潜力。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 69.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "多Agent协同不仅能攻克复杂数学推理，还能在长周期工程中揪出人类难以察觉的历史遗留漏洞。安全团队可关注其协同验证与审查机制，探索将其迁移至大型代码库的历史漏洞挖掘中。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-10-28-6?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-10-28-6?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T05:31:43",
+      "first_seen_at": "2026-10-28T06:09:12.786437",
+      "sub_category_label": null
+    },
+    {
       "id": 22515,
       "title": "Termix 推出品牌悬赏模式，GoPlus 安全 Agent 试验完成结算",
       "original_title": "Everyone asks who funds the first real agent jobs. termix's answer: brands  > the gap - \"agents hire agents\" sounds great until you ask where outside money comes from - @termix_ai ",
@@ -183,56 +228,6 @@
       "published_at": "2026-10-27T18:40:19",
       "first_seen_at": "2026-10-27T19:38:28.863229",
       "sub_category_label": null
-    },
-    {
-      "id": 22332,
-      "title": "KQFuzz：知识引导LLM模糊测试量子库，发现13个真实Bug",
-      "original_title": "LLMにテストを書かせても、存在しない関数を呼んで落ちてばかりでは、ライブラリ本体のバグまで届かない。KQFuzzは、対象バージョンの実装を読ませ、実際に使えるAPIを組み合わせたテストを作る研究です。量子計算向けの3ライブラリで評価しています。  各手法を24時間動かした比較では、Qiskit 2.3.0の行カバレッジがFuzz4Allの53.00%からK",
-      "summary": "KQFuzz通过让LLM读取库实现提取API约束，结合知识引导变异生成测试用例。在Qiskit等三个量子库中行覆盖率显著超越Fuzz4All，并获ASE 2026杰出论文奖。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 66.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做Fuzzing和代码审计的团队值得一看。它证明了「先让模型理解API约束再生成测试」比盲目生码更有效，这种知识增强思路可迁移到其他复杂库的自动化测试中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/triangle_chain/status/2115147655441719434",
-      "reader_url": "https://x.com/triangle_chain/status/2115147655441719434",
-      "image_url": "https://pbs.twimg.com/media/HVqDlBkb0AAWhf_.jpg",
-      "author": {
-        "username": "triangle_chain",
-        "name": "つづき@AIで業務改善",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T18:24:33",
-      "first_seen_at": "2026-10-27T18:58:40.703611",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 22409,
-      "title": "CodeRabbit安全代理实现跨仓库漏洞追踪与修复",
-      "original_title": "CodeRabbit can chase a security finding beyond one repository—even into a linked authentication library.  OpenAI’s October 26, 2026 report describes CodeRabbit’s security agent usi",
-      "summary": "OpenAI报告分析CodeRabbit安全代理跨仓库追踪漏洞的能力，涵盖沙箱验证与自动修复，建议通过跨库测试评估其实际效果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全Agent开发者必看。评估AI安全工具别只信功能列表，文中的跨仓库追踪、沙箱验证和补丁审查三个测试点，可直接用于评估手头安全Agent的实战效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/stayintouch_SIT/status/2115209594587037826",
-      "reader_url": "https://x.com/stayintouch_SIT/status/2115209594587037826",
-      "image_url": "https://pbs.twimg.com/media/HVq76jWaUAAa1-h.jpg",
-      "author": {
-        "username": "stayintouch_SIT",
-        "name": "Xaero 🦅🟠",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T22:30:40",
-      "first_seen_at": "2026-10-27T22:49:45.582106",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
