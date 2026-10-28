@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T14:38:00+08:00",
+  "updated_at": "2026-10-28T15:08:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -68,6 +68,26 @@
       "published_at": "2026-10-27T00:00:00",
       "first_seen_at": "2026-10-27T20:15:24.043231",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 22546,
+      "title": "HABIT-Bench：评估 Agent 从长期弱证据中归纳习惯的能力",
+      "original_title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+      "summary": "本文提出 HABIT-Bench 基准，用于评估 LLM Agent 记忆系统从长期交互的弱证据中推断并应用用户习惯的能力。实验显示，最优记忆方法在四领域的宏观准确率仅 33.61%，即使提供标注证据效果依然有限。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "model_evaluation",
+      "score_total": 73.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该基准直击 Agent 长期记忆系统的可靠性盲区。对关注 Agent 安全的从业者而言，弱证据习惯归纳能力的不足意味着 Agent 极易被潜移默化的记忆投毒或行为操纵利用，可作为评估防御能力的基础测试床。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.24520",
+      "reader_url": "https://arxiv.org/pdf/2610.24520",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T00:00:00",
+      "first_seen_at": "2026-10-28T06:50:19.086018",
+      "sub_category_label": null
     },
     {
       "id": 22504,
@@ -208,26 +228,6 @@
       "published_at": "2026-10-28T00:48:20.500011",
       "first_seen_at": "2026-10-28T00:49:58.905701",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 22353,
-      "title": "Anthropic揭秘Claude安全工程：分离模型大脑与Agent双手",
-      "original_title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
-      "summary": "Latent Space播客邀请Anthropic工程师分享Claude平台的构建经验，重点讨论如何将模型的大脑与Agent的双手分离以实现安全可控，以及如何扩展API和构建可靠的托管Agent。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 67.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队在设计内部AI Agent时常面临模型越权调用工具的难题。Anthropic的脑手分离架构提供了大厂级的实践参考，值得借鉴以规避Agent滥用风险。",
-      "source_id": "latent-space",
-      "canonical_url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
-      "reader_url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-27T18:40:19",
-      "first_seen_at": "2026-10-27T19:38:28.863229",
-      "sub_category_label": null
     }
   ]
 }
