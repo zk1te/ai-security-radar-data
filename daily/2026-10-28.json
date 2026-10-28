@@ -1,0 +1,1253 @@
+{
+  "date": "2026-10-28",
+  "candidate_count": 21,
+  "selected_count": 3,
+  "cover_title": "Aurora：恶意软件分类器置信度可靠性与稳定性评测框架",
+  "lead_takeaway": "今天的主线非常明确：大模型在安全实战中的“矛与盾”都在快速落地。一方面是 AI 辅助挖洞已经能稳定产出高危 RCE，另一方面是对现有 AI 安全分类器的可靠性打脸，提醒我们光看准确率不够，实战中的置信度稳定性和二进制泛化能力才是真门槛。",
+  "digest_points": [
+    "01 做恶意软件检测的模型同学必看。当前评测只看准确率忽视置信度对齐，该研究指出这会导致主动学习预算浪费和漏报，提醒团队在评测检测引擎时需加入置信度稳定性测试。",
+    "02 这是 AI 辅助漏洞挖掘走向实战的标志性案例。安全团队不仅要关注 PHP 漏洞本身的修复实操，更应看到前沿大模型在复杂 UAF/OOM 漏洞链构建上的能力突破，评估自身工作流引入 AI 辅助的必要性。",
+    "03 搞二进制分析和固件漏洞挖掘的安全研究员必看。SemDiff 提出的关键语义图结合 LSH 的方法在应对编译器优化和混淆时表现更好，可用于改进相似漏洞搜索工具。"
+  ],
+  "judgement": [
+    "01 做恶意软件检测的模型同学必看。当前评测只看准确率忽视置信度对齐，该研究指出这会导致主动学习预算浪费和漏报，提醒团队在评测检测引擎时需加入置信度稳定性测试。",
+    "02 这是 AI 辅助漏洞挖掘走向实战的标志性案例。安全团队不仅要关注 PHP 漏洞本身的修复实操，更应看到前沿大模型在复杂 UAF/OOM 漏洞链构建上的能力突破，评估自身工作流引入 AI 辅助的必要性。",
+    "03 搞二进制分析和固件漏洞挖掘的安全研究员必看。SemDiff 提出的关键语义图结合 LSH 的方法在应对编译器优化和混淆时表现更好，可用于改进相似漏洞搜索工具。"
+  ],
+  "top_items": [
+    {
+      "id": 22632,
+      "title": "Aurora：恶意软件分类器置信度可靠性与稳定性评测框架",
+      "original_title": "On the Reliability and Stability of Selective Methods in Malware Classification Tasks",
+      "summary": "论文提出Aurora框架评估恶意软件分类器在分布偏移下的置信度质量与操作韧性，发现SOTA模型的脆弱性会导致主动学习预算浪费及漏报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 87.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做恶意软件检测的模型同学必看。当前评测只看准确率忽视置信度对齐，该研究指出这会导致主动学习预算浪费和漏报，提醒团队在评测检测引擎时需加入置信度稳定性测试。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2505.22843",
+      "reader_url": "https://arxiv.org/pdf/2505.22843",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T04:00:00",
+      "first_seen_at": "2026-10-28T10:11:47.220321",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 22517,
+      "title": "PHP 高危未授权 RCE 漏洞与 AI 辅助漏洞挖掘实战",
+      "original_title": "PHP漏洞危机，你的网站升级了吗?",
+      "summary": "PHP 官方修复两个 CVSS 9.2 分的未授权 RCE 漏洞，Wiz、OpenAI 等团队利用前沿 AI 模型成功将遗留缺陷转化为可用 exploit，文章附带详细升级与缓解指南。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 86.85,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 辅助漏洞挖掘走向实战的标志性案例。安全团队不仅要关注 PHP 漏洞本身的修复实操，更应看到前沿大模型在复杂 UAF/OOM 漏洞链构建上的能力突破，评估自身工作流引入 AI 辅助的必要性。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7699094123467178034",
+      "reader_url": "https://juejin.cn/post/7699094123467178034",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-22T06:20:21",
+      "first_seen_at": "2026-10-28T04:33:37.716917",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 22630,
+      "title": "SemDiff：基于关键语义图差异对比的二进制相似性检测",
+      "original_title": "SemDiff: Binary Similarity Detection by Diffing Key-Semantics Graphs",
+      "summary": "本文提出 SemDiff，通过提取二进制关键指令生成关键语义图，并利用图序列化与局部敏感哈希量化相似度，有效应对跨编译器、优化级别和混淆场景下的相似性检测及漏洞挖掘。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 85.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "搞二进制分析和固件漏洞挖掘的安全研究员必看。SemDiff 提出的关键语义图结合 LSH 的方法在应对编译器优化和混淆时表现更好，可用于改进相似漏洞搜索工具。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2308.01463",
+      "reader_url": "https://arxiv.org/pdf/2308.01463",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T04:00:00",
+      "first_seen_at": "2026-10-28T10:11:36.997972",
+      "sub_category_label": "二进制安全"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 22849,
+      "title": "SemLoc：将 LLM 推理转化为可执行语义约束进行代码缺陷定位",
+      "original_title": "SemLoc: Structured Grounding of Free-Form LLM Reasoning for Fault Localization",
+      "summary": "SemLoc 框架将 LLM 生成的自由文本推理转化为带有固定类别的可执行语义约束，通过运行时检查和反事实验证实现代码错误的高精度定位。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vulnerability_discovery",
+      "score_total": 83.05,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "将 LLM 的自由文本推理落地为可执行检查是解决 AI 辅助代码审计幻觉痛点的关键思路。做代码审计和漏洞挖掘 Agent 的同学可直接借鉴其约束锚点与反事实验证设计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.29109",
+      "reader_url": "https://arxiv.org/pdf/2603.29109",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T04:00:00",
+      "first_seen_at": "2026-10-28T11:27:06.185662",
+      "sub_category_label": null
+    },
+    {
+      "id": 22706,
+      "title": "未发布 Anthropic 模型成功链式挖掘五大平台漏洞",
+      "original_title": "🛑 An unreleased Anthropic AI model chained security flaws into working exploits across Chrome, Safari, Android, Windows, and Linux.  One Chrome exploit escaped the browser sandbox ",
+      "summary": "未发布的 Anthropic AI 模型展示了跨 Chrome、Safari、Android、Windows 和 Linux 的链式漏洞利用能力，其中 Chrome 漏洞甚至成功逃逸沙箱在 Mac 上执行程序。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 从单点审计进化到端到端武器化利用链生成，红队和漏洞研究员必须关注，这预示着自动化 exploit 开发即将进入新阶段。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2115356852917784592",
+      "reader_url": "https://x.com/TheHackersNews/status/2115356852917784592",
+      "image_url": "https://pbs.twimg.com/media/HVtB18HacAAv1nf.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-28T08:15:49",
+      "first_seen_at": "2026-10-28T10:41:04.957168",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 22360,
+      "title": "Check Point 借 OpenAI Daybreak 加速漏洞研究",
+      "original_title": "How Check Point accelerates vulnerability research with Daybreak",
+      "summary": "Check Point 采用 OpenAI Daybreak 模型提升漏洞研究效率，帮助安全分析师更快速地将漏洞情报转化为客户防御措施。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了头部安全厂商如何将大模型嵌入漏洞研究流程，安全团队可参考其将漏洞情报快速转化为防御的实践思路，评估自身 AI 赋能落地点。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/check-point-daybreak",
+      "reader_url": "https://openai.com/index/check-point-daybreak",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-27T20:15:24.043231",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 22289,
+      "title": "OpenAI 红队 Agent 发现 Brotli 未授权 RCE 漏洞",
+      "original_title": "SSH keys won't stop this one.  OpenAI disclosed an unauthenticated remote code execution bug in Brotli, the compression library inside Node.js, Bun and Envoy, found by its own agen",
+      "summary": "OpenAI 红队 Agent 发现 Brotli 压缩库存在未授权远程代码执行漏洞，影响 Node.js、Bun 和 Envoy；该漏洞虽在二月修复源码但未发布安全更新。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.19,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI Agent 在红队实战中发现真实高危漏洞的又一案例。安全团队需立即排查受影响组件并更新，同时收敛公网暴露面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/godofprompt/status/2115092420069343464",
+      "reader_url": "https://x.com/godofprompt/status/2115092420069343464",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2115092406672723968/img/AO8cgHt_jGAEjS9r.jpg",
+      "author": {
+        "username": "godofprompt",
+        "name": "God of Prompt",
+        "avatar_url": null,
+        "followers_count": 14864
+      },
+      "published_at": "2026-10-27T14:45:04",
+      "first_seen_at": "2026-10-27T17:47:55.546469",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 22546,
+      "title": "HABIT-Bench：评估 Agent 从长期弱证据中归纳习惯的能力",
+      "original_title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+      "summary": "本文提出 HABIT-Bench 基准，用于评估 LLM Agent 记忆系统从长期交互的弱证据中推断并应用用户习惯的能力。实验显示，最优记忆方法在四领域的宏观准确率仅 33.61%，即使提供标注证据效果依然有限。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "model_evaluation",
+      "score_total": 73.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该基准直击 Agent 长期记忆系统的可靠性盲区。对关注 Agent 安全的从业者而言，弱证据习惯归纳能力的不足意味着 Agent 极易被潜移默化的记忆投毒或行为操纵利用，可作为评估防御能力的基础测试床。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.24520",
+      "reader_url": "https://arxiv.org/pdf/2610.24520",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T00:00:00",
+      "first_seen_at": "2026-10-28T06:50:19.086018",
+      "sub_category_label": null
+    },
+    {
+      "id": 22295,
+      "title": "TraceTrial-Bench：分离评估 Agent 性能与测试框架可靠性",
+      "original_title": "Task success doesn't mean the harness worked  TraceTrial-Bench scores agent performance and harness reliability separately, across 95 tasks, 7 dimensions, 4 harnesses × 9 models an",
+      "summary": "TraceTrial-Bench 在 95 个任务和 3420 次运行中单独评估 Agent 性能与测试框架可靠性，发现 31.1% 的运行虽然任务成功但未满足框架的判定标准。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 72.94,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 评测和搭 Benchmark 的人必看。Agent 任务跑通不代表没作弊或搞坏沙箱环境，分离评估 Harness 能帮你避坑「假阳性」高分。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HuggingPapers/status/2115113850114548024",
+      "reader_url": "https://x.com/HuggingPapers/status/2115113850114548024",
+      "image_url": "https://pbs.twimg.com/media/HVpk1k2XcAA-giH.jpg",
+      "author": {
+        "username": "HuggingPapers",
+        "name": "DailyPapers",
+        "avatar_url": null,
+        "followers_count": 21406
+      },
+      "published_at": "2026-10-27T16:10:13",
+      "first_seen_at": "2026-10-27T17:49:29.550227",
+      "sub_category_label": null
+    },
+    {
+      "id": 22902,
+      "title": "针对 AI 渗透测试面板的自动化接管攻击披露",
+      "original_title": "#threatreport #MediumCompleteness Automated Subversion and Attempted Takeover of AI Pentesting Harnesses | 26-10-2026 Source: https://t.co/HNngoy2dCL Key details below ↓  🧑‍💻Actors",
+      "summary": "报告披露针对暴露的 Cairn AI 渗透测试面板的自动化攻击，攻击者通过注入恶意任务劫持 Agent，窃取凭据并部署 Mythic 框架的 Poseidon 木马。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 72.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "渗透测试 Agent 自身沦为攻击面，通过恶意指令直接接管容器执行后渗透。安全团队需立即审查自研或开源 AI 安全 Agent 的权限隔离与任务校验机制，防止工具被反杀。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rst_cloud/status/2115437794344460760",
+      "reader_url": "https://x.com/rst_cloud/status/2115437794344460760",
+      "image_url": "https://pbs.twimg.com/media/HVuLdmwWcAE8Vmd.jpg",
+      "author": {
+        "username": "rst_cloud",
+        "name": "RST Cloud",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-28T13:37:27",
+      "first_seen_at": "2026-10-28T14:03:32.665481",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 22632,
+        "title": "Aurora：恶意软件分类器置信度可靠性与稳定性评测框架",
+        "original_title": "On the Reliability and Stability of Selective Methods in Malware Classification Tasks",
+        "summary": "论文提出Aurora框架评估恶意软件分类器在分布偏移下的置信度质量与操作韧性，发现SOTA模型的脆弱性会导致主动学习预算浪费及漏报。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 87.1,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做恶意软件检测的模型同学必看。当前评测只看准确率忽视置信度对齐，该研究指出这会导致主动学习预算浪费和漏报，提醒团队在评测检测引擎时需加入置信度稳定性测试。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2505.22843",
+        "reader_url": "https://arxiv.org/pdf/2505.22843",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-28T04:00:00",
+        "first_seen_at": "2026-10-28T10:11:47.220321",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 22517,
+        "title": "PHP 高危未授权 RCE 漏洞与 AI 辅助漏洞挖掘实战",
+        "original_title": "PHP漏洞危机，你的网站升级了吗?",
+        "summary": "PHP 官方修复两个 CVSS 9.2 分的未授权 RCE 漏洞，Wiz、OpenAI 等团队利用前沿 AI 模型成功将遗留缺陷转化为可用 exploit，文章附带详细升级与缓解指南。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 86.85,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这是 AI 辅助漏洞挖掘走向实战的标志性案例。安全团队不仅要关注 PHP 漏洞本身的修复实操，更应看到前沿大模型在复杂 UAF/OOM 漏洞链构建上的能力突破，评估自身工作流引入 AI 辅助的必要性。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7699094123467178034",
+        "reader_url": "https://juejin.cn/post/7699094123467178034",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-22T06:20:21",
+        "first_seen_at": "2026-10-28T04:33:37.716917",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 22630,
+        "title": "SemDiff：基于关键语义图差异对比的二进制相似性检测",
+        "original_title": "SemDiff: Binary Similarity Detection by Diffing Key-Semantics Graphs",
+        "summary": "本文提出 SemDiff，通过提取二进制关键指令生成关键语义图，并利用图序列化与局部敏感哈希量化相似度，有效应对跨编译器、优化级别和混淆场景下的相似性检测及漏洞挖掘。",
+        "primary_category": "AI for Sec",
+        "sub_category": "binary_security",
+        "score_total": 85.45,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "搞二进制分析和固件漏洞挖掘的安全研究员必看。SemDiff 提出的关键语义图结合 LSH 的方法在应对编译器优化和混淆时表现更好，可用于改进相似漏洞搜索工具。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2308.01463",
+        "reader_url": "https://arxiv.org/pdf/2308.01463",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-28T04:00:00",
+        "first_seen_at": "2026-10-28T10:11:36.997972",
+        "sub_category_label": "二进制安全"
+      },
+      {
+        "id": 22849,
+        "title": "SemLoc：将 LLM 推理转化为可执行语义约束进行代码缺陷定位",
+        "original_title": "SemLoc: Structured Grounding of Free-Form LLM Reasoning for Fault Localization",
+        "summary": "SemLoc 框架将 LLM 生成的自由文本推理转化为带有固定类别的可执行语义约束，通过运行时检查和反事实验证实现代码错误的高精度定位。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vulnerability_discovery",
+        "score_total": 83.05,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "将 LLM 的自由文本推理落地为可执行检查是解决 AI 辅助代码审计幻觉痛点的关键思路。做代码审计和漏洞挖掘 Agent 的同学可直接借鉴其约束锚点与反事实验证设计。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2603.29109",
+        "reader_url": "https://arxiv.org/pdf/2603.29109",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-28T04:00:00",
+        "first_seen_at": "2026-10-28T11:27:06.185662",
+        "sub_category_label": null
+      },
+      {
+        "id": 22706,
+        "title": "未发布 Anthropic 模型成功链式挖掘五大平台漏洞",
+        "original_title": "🛑 An unreleased Anthropic AI model chained security flaws into working exploits across Chrome, Safari, Android, Windows, and Linux.  One Chrome exploit escaped the browser sandbox ",
+        "summary": "未发布的 Anthropic AI 模型展示了跨 Chrome、Safari、Android、Windows 和 Linux 的链式漏洞利用能力，其中 Chrome 漏洞甚至成功逃逸沙箱在 Mac 上执行程序。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 78.3,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "AI 从单点审计进化到端到端武器化利用链生成，红队和漏洞研究员必须关注，这预示着自动化 exploit 开发即将进入新阶段。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/TheHackersNews/status/2115356852917784592",
+        "reader_url": "https://x.com/TheHackersNews/status/2115356852917784592",
+        "image_url": "https://pbs.twimg.com/media/HVtB18HacAAv1nf.jpg",
+        "author": {
+          "username": "TheHackersNews",
+          "name": "The Hacker News",
+          "avatar_url": null,
+          "followers_count": 2351119
+        },
+        "published_at": "2026-10-28T08:15:49",
+        "first_seen_at": "2026-10-28T10:41:04.957168",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 22360,
+        "title": "Check Point 借 OpenAI Daybreak 加速漏洞研究",
+        "original_title": "How Check Point accelerates vulnerability research with Daybreak",
+        "summary": "Check Point 采用 OpenAI Daybreak 模型提升漏洞研究效率，帮助安全分析师更快速地将漏洞情报转化为客户防御措施。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 77.55,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "展示了头部安全厂商如何将大模型嵌入漏洞研究流程，安全团队可参考其将漏洞情报快速转化为防御的实践思路，评估自身 AI 赋能落地点。",
+        "source_id": "openai-news",
+        "canonical_url": "https://openai.com/index/check-point-daybreak",
+        "reader_url": "https://openai.com/index/check-point-daybreak",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T00:00:00",
+        "first_seen_at": "2026-10-27T20:15:24.043231",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 22289,
+        "title": "OpenAI 红队 Agent 发现 Brotli 未授权 RCE 漏洞",
+        "original_title": "SSH keys won't stop this one.  OpenAI disclosed an unauthenticated remote code execution bug in Brotli, the compression library inside Node.js, Bun and Envoy, found by its own agen",
+        "summary": "OpenAI 红队 Agent 发现 Brotli 压缩库存在未授权远程代码执行漏洞，影响 Node.js、Bun 和 Envoy；该漏洞虽在二月修复源码但未发布安全更新。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 74.19,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "这是 AI Agent 在红队实战中发现真实高危漏洞的又一案例。安全团队需立即排查受影响组件并更新，同时收敛公网暴露面。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/godofprompt/status/2115092420069343464",
+        "reader_url": "https://x.com/godofprompt/status/2115092420069343464",
+        "image_url": "https://pbs.twimg.com/amplify_video_thumb/2115092406672723968/img/AO8cgHt_jGAEjS9r.jpg",
+        "author": {
+          "username": "godofprompt",
+          "name": "God of Prompt",
+          "avatar_url": null,
+          "followers_count": 14864
+        },
+        "published_at": "2026-10-27T14:45:04",
+        "first_seen_at": "2026-10-27T17:47:55.546469",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 22504,
+        "title": "BigSleep 与 Fuzzers 在 V8 漏洞挖掘中的对比分析",
+        "original_title": "RT @natashenka: LLMs are great at finding bugs, but so are fuzzers. @5aelo compared the vulnerabilities found in V8 by BigSleep, an agentic…",
+        "summary": "推文讨论了基于 LLM 的 BigSleep Agent 与传统 Fuzzer 在 V8 引擎中发现漏洞的能力对比。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 70.96,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "BigSleep 是当前最受关注的 AI 漏洞挖掘 Agent 之一。做漏洞研究的人可以借此判断当前 LLM Agent 在真实引擎中的实战定位和能力边界。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/HackingLZ/status/2115226807536660831",
+        "reader_url": "https://x.com/HackingLZ/status/2115226807536660831",
+        "image_url": null,
+        "author": {
+          "username": "HackingLZ",
+          "name": "Justin Elze",
+          "avatar_url": null,
+          "followers_count": 73559
+        },
+        "published_at": "2026-10-27T23:39:04",
+        "first_seen_at": "2026-10-28T02:37:57.239153",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [],
+    "AI Tech | Sec for AI": [
+      {
+        "id": 22546,
+        "title": "HABIT-Bench：评估 Agent 从长期弱证据中归纳习惯的能力",
+        "original_title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+        "summary": "本文提出 HABIT-Bench 基准，用于评估 LLM Agent 记忆系统从长期交互的弱证据中推断并应用用户习惯的能力。实验显示，最优记忆方法在四领域的宏观准确率仅 33.61%，即使提供标注证据效果依然有限。",
+        "primary_category": "AI Tech | Sec for AI",
+        "sub_category": "model_evaluation",
+        "score_total": 73.7,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "该基准直击 Agent 长期记忆系统的可靠性盲区。对关注 Agent 安全的从业者而言，弱证据习惯归纳能力的不足意味着 Agent 极易被潜移默化的记忆投毒或行为操纵利用，可作为评估防御能力的基础测试床。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2610.24520",
+        "reader_url": "https://arxiv.org/pdf/2610.24520",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-28T00:00:00",
+        "first_seen_at": "2026-10-28T06:50:19.086018",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 22295,
+        "title": "TraceTrial-Bench：分离评估 Agent 性能与测试框架可靠性",
+        "original_title": "Task success doesn't mean the harness worked  TraceTrial-Bench scores agent performance and harness reliability separately, across 95 tasks, 7 dimensions, 4 harnesses × 9 models an",
+        "summary": "TraceTrial-Bench 在 95 个任务和 3420 次运行中单独评估 Agent 性能与测试框架可靠性，发现 31.1% 的运行虽然任务成功但未满足框架的判定标准。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_benchmark",
+        "score_total": 72.94,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做安全 Agent 评测和搭 Benchmark 的人必看。Agent 任务跑通不代表没作弊或搞坏沙箱环境，分离评估 Harness 能帮你避坑「假阳性」高分。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/HuggingPapers/status/2115113850114548024",
+        "reader_url": "https://x.com/HuggingPapers/status/2115113850114548024",
+        "image_url": "https://pbs.twimg.com/media/HVpk1k2XcAA-giH.jpg",
+        "author": {
+          "username": "HuggingPapers",
+          "name": "DailyPapers",
+          "avatar_url": null,
+          "followers_count": 21406
+        },
+        "published_at": "2026-10-27T16:10:13",
+        "first_seen_at": "2026-10-27T17:49:29.550227",
+        "sub_category_label": null
+      },
+      {
+        "id": 22531,
+        "title": "多Agent系统24天挑战巨型数学工程并揪出40年前漏洞",
+        "original_title": "数十agent，24天挑战数学界巨型工程，还揪出40年前漏洞",
+        "summary": "数十个AI Agent在24天内协同挑战一项巨型数学工程，不仅完成复杂任务，还意外发现了一个存在40年的漏洞，展现了多智能体在长周期复杂推理与验证中的潜力。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_agent",
+        "score_total": 69.0,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "多Agent协同不仅能攻克复杂数学推理，还能在长周期工程中揪出人类难以察觉的历史遗留漏洞。安全团队可关注其协同验证与审查机制，探索将其迁移至大型代码库的历史漏洞挖掘中。",
+        "source_id": "jiqizhixin-rss",
+        "canonical_url": "https://www.jiqizhixin.com/articles/2026-10-28-6?source=rss",
+        "reader_url": "https://www.jiqizhixin.com/articles/2026-10-28-6?source=rss",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-28T05:31:43",
+        "first_seen_at": "2026-10-28T06:09:12.786437",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 22902,
+        "title": "针对 AI 渗透测试面板的自动化接管攻击披露",
+        "original_title": "#threatreport #MediumCompleteness Automated Subversion and Attempted Takeover of AI Pentesting Harnesses | 26-10-2026 Source: https://t.co/HNngoy2dCL Key details below ↓  🧑‍💻Actors",
+        "summary": "报告披露针对暴露的 Cairn AI 渗透测试面板的自动化攻击，攻击者通过注入恶意任务劫持 Agent，窃取凭据并部署 Mythic 框架的 Poseidon 木马。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security | security_agent",
+        "score_total": 72.26,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "渗透测试 Agent 自身沦为攻击面，通过恶意指令直接接管容器执行后渗透。安全团队需立即审查自研或开源 AI 安全 Agent 的权限隔离与任务校验机制，防止工具被反杀。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/rst_cloud/status/2115437794344460760",
+        "reader_url": "https://x.com/rst_cloud/status/2115437794344460760",
+        "image_url": "https://pbs.twimg.com/media/HVuLdmwWcAE8Vmd.jpg",
+        "author": {
+          "username": "rst_cloud",
+          "name": "RST Cloud",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-28T13:37:27",
+        "first_seen_at": "2026-10-28T14:03:32.665481",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 22632,
+            "title": "Aurora：恶意软件分类器置信度可靠性与稳定性评测框架",
+            "original_title": "On the Reliability and Stability of Selective Methods in Malware Classification Tasks",
+            "summary": "论文提出Aurora框架评估恶意软件分类器在分布偏移下的置信度质量与操作韧性，发现SOTA模型的脆弱性会导致主动学习预算浪费及漏报。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 87.1,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做恶意软件检测的模型同学必看。当前评测只看准确率忽视置信度对齐，该研究指出这会导致主动学习预算浪费和漏报，提醒团队在评测检测引擎时需加入置信度稳定性测试。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2505.22843",
+            "reader_url": "https://arxiv.org/pdf/2505.22843",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-28T04:00:00",
+            "first_seen_at": "2026-10-28T10:11:47.220321",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 22517,
+            "title": "PHP 高危未授权 RCE 漏洞与 AI 辅助漏洞挖掘实战",
+            "original_title": "PHP漏洞危机，你的网站升级了吗?",
+            "summary": "PHP 官方修复两个 CVSS 9.2 分的未授权 RCE 漏洞，Wiz、OpenAI 等团队利用前沿 AI 模型成功将遗留缺陷转化为可用 exploit，文章附带详细升级与缓解指南。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 86.85,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这是 AI 辅助漏洞挖掘走向实战的标志性案例。安全团队不仅要关注 PHP 漏洞本身的修复实操，更应看到前沿大模型在复杂 UAF/OOM 漏洞链构建上的能力突破，评估自身工作流引入 AI 辅助的必要性。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7699094123467178034",
+            "reader_url": "https://juejin.cn/post/7699094123467178034",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-22T06:20:21",
+            "first_seen_at": "2026-10-28T04:33:37.716917",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 22706,
+            "title": "未发布 Anthropic 模型成功链式挖掘五大平台漏洞",
+            "original_title": "🛑 An unreleased Anthropic AI model chained security flaws into working exploits across Chrome, Safari, Android, Windows, and Linux.  One Chrome exploit escaped the browser sandbox ",
+            "summary": "未发布的 Anthropic AI 模型展示了跨 Chrome、Safari、Android、Windows 和 Linux 的链式漏洞利用能力，其中 Chrome 漏洞甚至成功逃逸沙箱在 Mac 上执行程序。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 78.3,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI 从单点审计进化到端到端武器化利用链生成，红队和漏洞研究员必须关注，这预示着自动化 exploit 开发即将进入新阶段。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2115356852917784592",
+            "reader_url": "https://x.com/TheHackersNews/status/2115356852917784592",
+            "image_url": "https://pbs.twimg.com/media/HVtB18HacAAv1nf.jpg",
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-10-28T08:15:49",
+            "first_seen_at": "2026-10-28T10:41:04.957168",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 22360,
+            "title": "Check Point 借 OpenAI Daybreak 加速漏洞研究",
+            "original_title": "How Check Point accelerates vulnerability research with Daybreak",
+            "summary": "Check Point 采用 OpenAI Daybreak 模型提升漏洞研究效率，帮助安全分析师更快速地将漏洞情报转化为客户防御措施。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 77.55,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "展示了头部安全厂商如何将大模型嵌入漏洞研究流程，安全团队可参考其将漏洞情报快速转化为防御的实践思路，评估自身 AI 赋能落地点。",
+            "source_id": "openai-news",
+            "canonical_url": "https://openai.com/index/check-point-daybreak",
+            "reader_url": "https://openai.com/index/check-point-daybreak",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T00:00:00",
+            "first_seen_at": "2026-10-27T20:15:24.043231",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 22289,
+            "title": "OpenAI 红队 Agent 发现 Brotli 未授权 RCE 漏洞",
+            "original_title": "SSH keys won't stop this one.  OpenAI disclosed an unauthenticated remote code execution bug in Brotli, the compression library inside Node.js, Bun and Envoy, found by its own agen",
+            "summary": "OpenAI 红队 Agent 发现 Brotli 压缩库存在未授权远程代码执行漏洞，影响 Node.js、Bun 和 Envoy；该漏洞虽在二月修复源码但未发布安全更新。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 74.19,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是 AI Agent 在红队实战中发现真实高危漏洞的又一案例。安全团队需立即排查受影响组件并更新，同时收敛公网暴露面。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/godofprompt/status/2115092420069343464",
+            "reader_url": "https://x.com/godofprompt/status/2115092420069343464",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2115092406672723968/img/AO8cgHt_jGAEjS9r.jpg",
+            "author": {
+              "username": "godofprompt",
+              "name": "God of Prompt",
+              "avatar_url": null,
+              "followers_count": 14864
+            },
+            "published_at": "2026-10-27T14:45:04",
+            "first_seen_at": "2026-10-27T17:47:55.546469",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 22504,
+            "title": "BigSleep 与 Fuzzers 在 V8 漏洞挖掘中的对比分析",
+            "original_title": "RT @natashenka: LLMs are great at finding bugs, but so are fuzzers. @5aelo compared the vulnerabilities found in V8 by BigSleep, an agentic…",
+            "summary": "推文讨论了基于 LLM 的 BigSleep Agent 与传统 Fuzzer 在 V8 引擎中发现漏洞的能力对比。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 70.96,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "BigSleep 是当前最受关注的 AI 漏洞挖掘 Agent 之一。做漏洞研究的人可以借此判断当前 LLM Agent 在真实引擎中的实战定位和能力边界。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2115226807536660831",
+            "reader_url": "https://x.com/HackingLZ/status/2115226807536660831",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-10-27T23:39:04",
+            "first_seen_at": "2026-10-28T02:37:57.239153",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 22300,
+            "title": "@5aelo 分析 LLM 挖洞优势：擅长复杂逻辑与 fuzzing 盲区",
+            "original_title": "@5aelo analyzed bugs that were only found with a single approach. LLMs are better at finding bugs that require complex logic, magic values, are in new features and those that fuzzi",
+            "summary": "@5aelo 总结称，LLM 在挖掘需要复杂逻辑、特定 magic values、新功能特性以及传统 fuzzing harness 难以覆盖的漏洞时表现更优。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 69.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "对做 AI Fuzzing 和漏洞挖掘的团队极具参考价值，指出了 LLM 补位传统 fuzzing 的具体场景，可据此调整 Agent 策略，让 LLM 专注复杂逻辑盲区。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/natashenka/status/2115133645807870259",
+            "reader_url": "https://x.com/natashenka/status/2115133645807870259",
+            "image_url": null,
+            "author": {
+              "username": "natashenka",
+              "name": "Natalie Silvanovich",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-27T17:28:53",
+            "first_seen_at": "2026-10-27T17:50:20.741425",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "binary_security": {
+        "label": "二进制安全",
+        "items": [
+          {
+            "id": 22630,
+            "title": "SemDiff：基于关键语义图差异对比的二进制相似性检测",
+            "original_title": "SemDiff: Binary Similarity Detection by Diffing Key-Semantics Graphs",
+            "summary": "本文提出 SemDiff，通过提取二进制关键指令生成关键语义图，并利用图序列化与局部敏感哈希量化相似度，有效应对跨编译器、优化级别和混淆场景下的相似性检测及漏洞挖掘。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 85.45,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "搞二进制分析和固件漏洞挖掘的安全研究员必看。SemDiff 提出的关键语义图结合 LSH 的方法在应对编译器优化和混淆时表现更好，可用于改进相似漏洞搜索工具。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2308.01463",
+            "reader_url": "https://arxiv.org/pdf/2308.01463",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-28T04:00:00",
+            "first_seen_at": "2026-10-28T10:11:36.997972",
+            "sub_category_label": "二进制安全"
+          }
+        ]
+      },
+      "vulnerability_discovery": {
+        "label": "vulnerability_discovery",
+        "items": [
+          {
+            "id": 22849,
+            "title": "SemLoc：将 LLM 推理转化为可执行语义约束进行代码缺陷定位",
+            "original_title": "SemLoc: Structured Grounding of Free-Form LLM Reasoning for Fault Localization",
+            "summary": "SemLoc 框架将 LLM 生成的自由文本推理转化为带有固定类别的可执行语义约束，通过运行时检查和反事实验证实现代码错误的高精度定位。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vulnerability_discovery",
+            "score_total": 83.05,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "将 LLM 的自由文本推理落地为可执行检查是解决 AI 辅助代码审计幻觉痛点的关键思路。做代码审计和漏洞挖掘 Agent 的同学可直接借鉴其约束锚点与反事实验证设计。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2603.29109",
+            "reader_url": "https://arxiv.org/pdf/2603.29109",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-28T04:00:00",
+            "first_seen_at": "2026-10-28T11:27:06.185662",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 22887,
+            "title": "研究员演示用LLM Fuzzing挖掘Telegram 0-click漏洞",
+            "original_title": "🚨 TELEGRAM: RESEARCHER SHOWS NEW 0-CLICK STICKER FLAWS AND CODE EXECUTION ON iOS AT OFFENSIVECON JAPAN  Vulnerability researcher Saifeldeen Aziz is presenting new 0-click vulnerabi",
+            "summary": "研究员在OffensiveCon展示利用LLM编排Fuzzing技术发现Telegram的rlottie库存在内存破坏漏洞，链式利用逻辑缺陷绕过缓解措施在iOS实现0-click代码执行。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 70.37,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是LLM Fuzzing在真实流行软件中挖出0-click 0day的极佳实战案例。安全团队可借此评估AI漏洞挖掘的落地威力，并需立即通知高危人员关闭Telegram自动下载。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
+            "reader_url": "https://x.com/DailyDarkWeb/status/2115432382572708092",
+            "image_url": "https://pbs.twimg.com/media/HVuGiaNbwAAUDT6.jpg",
+            "author": {
+              "username": "DailyDarkWeb",
+              "name": "Dark Web Intelligence",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-28T13:15:57",
+            "first_seen_at": "2026-10-28T13:27:32.030408",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 22283,
+            "title": "Claude为开源库编写机器检查证明并修复数百漏洞",
+            "original_title": "Anthropic and Theorem published something on Oct 22 that I think developers should read: Claude wrote machine-checked proofs that 239 fuzzing entry points across 123 open-source li",
+            "summary": "Anthropic 和 Theorem 使用 Claude 为 OSS-Fuzz 的 239 个入口点编写 Rocq 机器检查证明，验证其在 64MB 输入下不崩溃，过程中 Claude 发现并修复了数百个真实漏洞，包括罕见的大输入越界写入。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "结合 LLM 和形式化验证的实战突破，发现了传统 Fuzzer 难以触发的深层漏洞。安全研究员应关注其发布的 Claude skill，这可能改变现有的自动化漏洞挖掘与代码审计流程。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Guelug/status/2115126416035758557",
+            "reader_url": "https://x.com/Guelug/status/2115126416035758557",
+            "image_url": "https://pbs.twimg.com/media/HVpwREbasAAuH8S.jpg",
+            "author": {
+              "username": "Guelug",
+              "name": "Pedro E. Caparrós Torres",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-27T17:00:09",
+            "first_seen_at": "2026-10-27T17:16:06.757730",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 22292,
+            "title": "用 Claude Code 审计廉价车机发现后门与隐私窃听",
+            "original_title": "Someone plugged Claude Code into his cheap car stereo and found a root backdoor, a hidden call recorder and a mic that never turned off.  If you own a cheap Android TV box, tablet ",
+            "summary": "有人将 Claude Code 接入廉价车载音响进行安全审计，发现了 root 后门、隐藏通话记录器和常开麦克风，并分享了 6 个可供复现该审计的提示词。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.91,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "展示了 AI Agent 在嵌入式设备安全审计中的实战落地。安全研究员可直接借鉴其提示词和审计思路，对物联网设备进行低成本漏洞挖掘。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/godofprompt/status/2115105689282703693",
+            "reader_url": "https://x.com/godofprompt/status/2115105689282703693",
+            "image_url": "https://pbs.twimg.com/media/HVpdah8bAAAAkyM.jpg",
+            "author": {
+              "username": "godofprompt",
+              "name": "God of Prompt",
+              "avatar_url": null,
+              "followers_count": 14864
+            },
+            "published_at": "2026-10-27T15:37:47",
+            "first_seen_at": "2026-10-27T17:48:29.207441",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 22938,
+            "title": "ARTEX：多 AI Agent 协同渗透测试工具",
+            "original_title": "ARTEX: Penetration testing with multiple AI agents. Use only on authorized targets; effectiveness remains unverified. Review AGPL integration obligations.  https://t.co/z5T51PFxpw",
+            "summary": "介绍名为 ARTEX 的多 AI Agent 渗透测试工具，提醒仅在授权目标使用且有效性未经验证，同时需留意 AGPL 许可证义务。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "多 Agent 渗透工具是 AI for Sec 前沿热点，适合关注其后续实战效果。引入前务必评估 AGPL 协议带来的合规义务，避免直接接入商业流水线。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/dellanioz/status/2115463308635775230",
+            "reader_url": "https://x.com/dellanioz/status/2115463308635775230",
+            "image_url": null,
+            "author": {
+              "username": "dellanioz",
+              "name": "Dellanio",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-28T15:18:50",
+            "first_seen_at": "2026-10-28T15:45:30.206229",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 22529,
+            "title": "银行入侵案指向开源AI渗透框架ARTEX，监管发警告",
+            "original_title": "Investigators probing the earlier bank intrusions in the wave point to ARTEX, an open-source AI penetration-testing framework. The regulator's warning: AI makes vulnerabilities eas",
+            "summary": "调查人员将近期银行入侵事件归因于开源 AI 渗透测试框架 ARTEX，监管机构警告 AI 降低了漏洞发现门槛并增加了并发攻击的风险。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.4,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "真实攻击事件首次指向开源 AI 渗透框架。安全团队需密切关注攻击者如何利用自动化 AI 工具进行并发攻击，评估自身防御体系面对 AI 驱动威胁的韧性。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/PredictaLabOff/status/2115320617146712422",
+            "reader_url": "https://x.com/PredictaLabOff/status/2115320617146712422",
+            "image_url": null,
+            "author": {
+              "username": "PredictaLabOff",
+              "name": "Predicta Lab",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-28T05:51:50",
+            "first_seen_at": "2026-10-28T06:03:16.718951",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 22942,
+            "title": "OpenAI 开源应用安全 Agent「Codex Security」",
+            "original_title": "Security scanners flood you with alerts, and nobody has time to confirm which ones are real? Codex Security from @OpenAI is an application security agent that finds vulnerabilities",
+            "summary": "OpenAI 推出的 Codex Security 是一款开源应用安全 Agent，能自动发现、验证漏洞并编写与验证补丁，支持在 GitHub/GitLab CI/CD 中运行。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "直接开源且可接入 CI/CD，不仅能挖洞还能自动修复补丁。安全研发团队值得立即测试其在真实代码库中的误报率和补丁可用性。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/EveryDevAi/status/2115465865588318498",
+            "reader_url": "https://x.com/EveryDevAi/status/2115465865588318498",
+            "image_url": null,
+            "author": {
+              "username": "EveryDevAi",
+              "name": "EveryDev.ai",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-28T15:29:00",
+            "first_seen_at": "2026-10-28T15:46:43.526139",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 22515,
+            "title": "Termix 推出品牌悬赏模式，GoPlus 安全 Agent 试验完成结算",
+            "original_title": "Everyone asks who funds the first real agent jobs. termix's answer: brands  > the gap - \"agents hire agents\" sounds great until you ask where outside money comes from - @termix_ai ",
+            "summary": "Termix 探索 AI Agent 工作资金来源，通过品牌链上悬赏池驱动 Agent 执行安全任务。GoPlus 安全 Agent 试验已完成 8 名参与者的 USDC 及代币结算。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 68.8,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全 Agent 的团队必看。想搞清楚安全 Agent 怎么赚钱、怎么防范恶意或不作为，Termix 的「品牌悬赏+全额质押罚没」模式提供了一个具体的链上经济模型试验样本。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Moneyz0x/status/2115292009523286196",
+            "reader_url": "https://x.com/Moneyz0x/status/2115292009523286196",
+            "image_url": "https://pbs.twimg.com/media/HVsGyzkbMAAQEvs.jpg",
+            "author": {
+              "username": "Moneyz0x",
+              "name": "Money",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-28T03:58:09",
+            "first_seen_at": "2026-10-28T04:22:31.889458",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 22454,
+            "title": "Cloudflare 推出多阶段安全审计 Agent 技能",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+            "summary": "Cloudflare 开源了 security-audit-skill，这是一个面向多阶段安全审计的编码代理技能，能够产生可独立验证且机器可读的审计发现。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 68.05,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "面向使用 AI Agent 做代码审计的安全团队。该工具强调可验证的机器可读结果，能缓解大模型幻觉问题，建议接入现有代码审计流水线进行效果评测。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-28&since=weekly",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-28&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-28T00:48:20.500011",
+            "first_seen_at": "2026-10-28T00:49:58.905701",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      }
+    },
+    "AI Tech | Sec for AI": {
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 22546,
+            "title": "HABIT-Bench：评估 Agent 从长期弱证据中归纳习惯的能力",
+            "original_title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+            "summary": "本文提出 HABIT-Bench 基准，用于评估 LLM Agent 记忆系统从长期交互的弱证据中推断并应用用户习惯的能力。实验显示，最优记忆方法在四领域的宏观准确率仅 33.61%，即使提供标注证据效果依然有限。",
+            "primary_category": "AI Tech | Sec for AI",
+            "sub_category": "model_evaluation",
+            "score_total": 73.7,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "该基准直击 Agent 长期记忆系统的可靠性盲区。对关注 Agent 安全的从业者而言，弱证据习惯归纳能力的不足意味着 Agent 极易被潜移默化的记忆投毒或行为操纵利用，可作为评估防御能力的基础测试床。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2610.24520",
+            "reader_url": "https://arxiv.org/pdf/2610.24520",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-28T00:00:00",
+            "first_seen_at": "2026-10-28T06:50:19.086018",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 22295,
+            "title": "TraceTrial-Bench：分离评估 Agent 性能与测试框架可靠性",
+            "original_title": "Task success doesn't mean the harness worked  TraceTrial-Bench scores agent performance and harness reliability separately, across 95 tasks, 7 dimensions, 4 harnesses × 9 models an",
+            "summary": "TraceTrial-Bench 在 95 个任务和 3420 次运行中单独评估 Agent 性能与测试框架可靠性，发现 31.1% 的运行虽然任务成功但未满足框架的判定标准。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_benchmark",
+            "score_total": 72.94,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全 Agent 评测和搭 Benchmark 的人必看。Agent 任务跑通不代表没作弊或搞坏沙箱环境，分离评估 Harness 能帮你避坑「假阳性」高分。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HuggingPapers/status/2115113850114548024",
+            "reader_url": "https://x.com/HuggingPapers/status/2115113850114548024",
+            "image_url": "https://pbs.twimg.com/media/HVpk1k2XcAA-giH.jpg",
+            "author": {
+              "username": "HuggingPapers",
+              "name": "DailyPapers",
+              "avatar_url": null,
+              "followers_count": 21406
+            },
+            "published_at": "2026-10-27T16:10:13",
+            "first_seen_at": "2026-10-27T17:49:29.550227",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 22531,
+            "title": "多Agent系统24天挑战巨型数学工程并揪出40年前漏洞",
+            "original_title": "数十agent，24天挑战数学界巨型工程，还揪出40年前漏洞",
+            "summary": "数十个AI Agent在24天内协同挑战一项巨型数学工程，不仅完成复杂任务，还意外发现了一个存在40年的漏洞，展现了多智能体在长周期复杂推理与验证中的潜力。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_agent",
+            "score_total": 69.0,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "多Agent协同不仅能攻克复杂数学推理，还能在长周期工程中揪出人类难以察觉的历史遗留漏洞。安全团队可关注其协同验证与审查机制，探索将其迁移至大型代码库的历史漏洞挖掘中。",
+            "source_id": "jiqizhixin-rss",
+            "canonical_url": "https://www.jiqizhixin.com/articles/2026-10-28-6?source=rss",
+            "reader_url": "https://www.jiqizhixin.com/articles/2026-10-28-6?source=rss",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-28T05:31:43",
+            "first_seen_at": "2026-10-28T06:09:12.786437",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security | security_agent": {
+        "label": "agent_security | security_agent",
+        "items": [
+          {
+            "id": 22902,
+            "title": "针对 AI 渗透测试面板的自动化接管攻击披露",
+            "original_title": "#threatreport #MediumCompleteness Automated Subversion and Attempted Takeover of AI Pentesting Harnesses | 26-10-2026 Source: https://t.co/HNngoy2dCL Key details below ↓  🧑‍💻Actors",
+            "summary": "报告披露针对暴露的 Cairn AI 渗透测试面板的自动化攻击，攻击者通过注入恶意任务劫持 Agent，窃取凭据并部署 Mythic 框架的 Poseidon 木马。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security | security_agent",
+            "score_total": 72.26,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "渗透测试 Agent 自身沦为攻击面，通过恶意指令直接接管容器执行后渗透。安全团队需立即审查自研或开源 AI 安全 Agent 的权限隔离与任务校验机制，防止工具被反杀。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/rst_cloud/status/2115437794344460760",
+            "reader_url": "https://x.com/rst_cloud/status/2115437794344460760",
+            "image_url": "https://pbs.twimg.com/media/HVuLdmwWcAE8Vmd.jpg",
+            "author": {
+              "username": "rst_cloud",
+              "name": "RST Cloud",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-28T13:37:27",
+            "first_seen_at": "2026-10-28T14:03:32.665481",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 22632,
+      "title": "Aurora：恶意软件分类器置信度可靠性与稳定性评测框架",
+      "original_title": "On the Reliability and Stability of Selective Methods in Malware Classification Tasks",
+      "summary": "论文提出Aurora框架评估恶意软件分类器在分布偏移下的置信度质量与操作韧性，发现SOTA模型的脆弱性会导致主动学习预算浪费及漏报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 87.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做恶意软件检测的模型同学必看。当前评测只看准确率忽视置信度对齐，该研究指出这会导致主动学习预算浪费和漏报，提醒团队在评测检测引擎时需加入置信度稳定性测试。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2505.22843",
+      "reader_url": "https://arxiv.org/pdf/2505.22843",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T04:00:00",
+      "first_seen_at": "2026-10-28T10:11:47.220321",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 22630,
+      "title": "SemDiff：基于关键语义图差异对比的二进制相似性检测",
+      "original_title": "SemDiff: Binary Similarity Detection by Diffing Key-Semantics Graphs",
+      "summary": "本文提出 SemDiff，通过提取二进制关键指令生成关键语义图，并利用图序列化与局部敏感哈希量化相似度，有效应对跨编译器、优化级别和混淆场景下的相似性检测及漏洞挖掘。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 85.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "搞二进制分析和固件漏洞挖掘的安全研究员必看。SemDiff 提出的关键语义图结合 LSH 的方法在应对编译器优化和混淆时表现更好，可用于改进相似漏洞搜索工具。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2308.01463",
+      "reader_url": "https://arxiv.org/pdf/2308.01463",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T04:00:00",
+      "first_seen_at": "2026-10-28T10:11:36.997972",
+      "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 22849,
+      "title": "SemLoc：将 LLM 推理转化为可执行语义约束进行代码缺陷定位",
+      "original_title": "SemLoc: Structured Grounding of Free-Form LLM Reasoning for Fault Localization",
+      "summary": "SemLoc 框架将 LLM 生成的自由文本推理转化为带有固定类别的可执行语义约束，通过运行时检查和反事实验证实现代码错误的高精度定位。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vulnerability_discovery",
+      "score_total": 83.05,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "将 LLM 的自由文本推理落地为可执行检查是解决 AI 辅助代码审计幻觉痛点的关键思路。做代码审计和漏洞挖掘 Agent 的同学可直接借鉴其约束锚点与反事实验证设计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.29109",
+      "reader_url": "https://arxiv.org/pdf/2603.29109",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T04:00:00",
+      "first_seen_at": "2026-10-28T11:27:06.185662",
+      "sub_category_label": null
+    },
+    {
+      "id": 22546,
+      "title": "HABIT-Bench：评估 Agent 从长期弱证据中归纳习惯的能力",
+      "original_title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+      "summary": "本文提出 HABIT-Bench 基准，用于评估 LLM Agent 记忆系统从长期交互的弱证据中推断并应用用户习惯的能力。实验显示，最优记忆方法在四领域的宏观准确率仅 33.61%，即使提供标注证据效果依然有限。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "model_evaluation",
+      "score_total": 73.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该基准直击 Agent 长期记忆系统的可靠性盲区。对关注 Agent 安全的从业者而言，弱证据习惯归纳能力的不足意味着 Agent 极易被潜移默化的记忆投毒或行为操纵利用，可作为评估防御能力的基础测试床。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.24520",
+      "reader_url": "https://arxiv.org/pdf/2610.24520",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-28T00:00:00",
+      "first_seen_at": "2026-10-28T06:50:19.086018",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 21,
+    "highlight_count": 4,
+    "paper_count": 4,
+    "source_count": 7,
+    "top_score": 87,
+    "category_count": {
+      "AI for Sec": 17,
+      "AI Tech": 0,
+      "AI Tech | Sec for AI": 1,
+      "AI for Sec | AI Tech": 2,
+      "Sec for AI | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 6
+        },
+        "binary_security": {
+          "label": "二进制安全",
+          "count": 1
+        },
+        "vulnerability_discovery": {
+          "label": "vulnerability_discovery",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 6
+        }
+      },
+      "AI Tech | Sec for AI": {
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security | security_agent": {
+          "label": "agent_security | security_agent",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "先读前三条高分项，确认是否需要同步给模型平台、AppSec 或 SOC 团队。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 17,
+      "top_score": 87,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "结合今天得分最高的 Aurora 框架，做恶意软件检测的团队得注意了，当前 SOTA 模型在分布偏移下的置信度其实很不稳定，会导致主动学习预算白花甚至直接漏报。强烈建议赶紧在自家的评测管线里加上置信度稳定性测试，别光盯着准确率。同时 PHP 未授权 RCE 被 AI 成功挖出的案例就在眼前，团队得立刻评估怎么把大模型引入自己的漏洞挖掘工作流，别掉队。",
+  "method_note": "按北京时间 2026-10-28 的系统入库窗口筛选，从 21 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "huggingface-daily-papers",
+    "jiqizhixin-rss",
+    "juejin-trending-weekly",
+    "openai-news",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# Aurora：恶意软件分类器置信度可靠性与稳定性评测框架\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线非常明确：大模型在安全实战中的“矛与盾”都在快速落地。一方面是 AI 辅助挖洞已经能稳定产出高危 RCE，另一方面是对现有 AI 安全分类器的可靠性打脸，提醒我们光看准确率不够，实战中的置信度稳定性和二进制泛化能力才是真门槛。\n- 01 做恶意软件检测的模型同学必看。当前评测只看准确率忽视置信度对齐，该研究指出这会导致主动学习预算浪费和漏报，提醒团队在评测检测引擎时需加入置信度稳定性测试。\n- 02 这是 AI 辅助漏洞挖掘走向实战的标志性案例。安全团队不仅要关注 PHP 漏洞本身的修复实操，更应看到前沿大模型在复杂 UAF/OOM 漏洞链构建上的能力突破，评估自身工作流引入 AI 辅助的必要性。\n- 03 搞二进制分析和固件漏洞挖掘的安全研究员必看。SemDiff 提出的关键语义图结合 LSH 的方法在应对编译器优化和混淆时表现更好，可用于改进相似漏洞搜索工具。\n\n## 今日行动\n- 先读前三条高分项，确认是否需要同步给模型平台、AppSec 或 SOC 团队。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **Aurora：恶意软件分类器置信度可靠性与稳定性评测框架**：做恶意软件检测的模型同学必看。当前评测只看准确率忽视置信度对齐，该研究指出这会导致主动学习预算浪费和漏报，提醒团队在评测检测引擎时需加入置信度稳定性测试。 来源：arxiv-ai-security\n- **PHP 高危未授权 RCE 漏洞与 AI 辅助漏洞挖掘实战**：这是 AI 辅助漏洞挖掘走向实战的标志性案例。安全团队不仅要关注 PHP 漏洞本身的修复实操，更应看到前沿大模型在复杂 UAF/OOM 漏洞链构建上的能力突破，评估自身工作流引入 AI 辅助的必要性。 来源：juejin-trending-weekly\n- **SemDiff：基于关键语义图差异对比的二进制相似性检测**：搞二进制分析和固件漏洞挖掘的安全研究员必看。SemDiff 提出的关键语义图结合 LSH 的方法在应对编译器优化和混淆时表现更好，可用于改进相似漏洞搜索工具。 来源：arxiv-ai-security\n\n## 也值得关注\n- SemLoc：将 LLM 推理转化为可执行语义约束进行代码缺陷定位（83.05）\n- 未发布 Anthropic 模型成功链式挖掘五大平台漏洞（78.3）\n- Check Point 借 OpenAI Daybreak 加速漏洞研究（77.55）\n- OpenAI 红队 Agent 发现 Brotli 未授权 RCE 漏洞（74.19）\n- HABIT-Bench：评估 Agent 从长期弱证据中归纳习惯的能力（73.7）\n- TraceTrial-Bench：分离评估 Agent 性能与测试框架可靠性（72.94）\n\n## AI for Sec\n\n### 安全评测与Benchmark\n- Aurora：恶意软件分类器置信度可靠性与稳定性评测框架（87.1）\n\n### 漏洞挖掘\n- PHP 高危未授权 RCE 漏洞与 AI 辅助漏洞挖掘实战（86.85）\n- 未发布 Anthropic 模型成功链式挖掘五大平台漏洞（78.3）\n- Check Point 借 OpenAI Daybreak 加速漏洞研究（77.55）\n- OpenAI 红队 Agent 发现 Brotli 未授权 RCE 漏洞（74.19）\n- BigSleep 与 Fuzzers 在 V8 漏洞挖掘中的对比分析（70.96）\n\n### 二进制安全\n- SemDiff：基于关键语义图差异对比的二进制相似性检测（85.45）\n\n### vulnerability_discovery\n- SemLoc：将 LLM 推理转化为可执行语义约束进行代码缺陷定位（83.05）\n\n### AI Fuzzing\n- 研究员演示用LLM Fuzzing挖掘Telegram 0-click漏洞（70.37）\n- Claude为开源库编写机器检查证明并修复数百漏洞（68.45）\n\n### 安全Agent\n- 用 Claude Code 审计廉价车机发现后门与隐私窃听（69.91）\n- ARTEX：多 AI Agent 协同渗透测试工具（69.45）\n- 银行入侵案指向开源AI渗透框架ARTEX，监管发警告（69.4）\n- OpenAI 开源应用安全 Agent「Codex Security」（69.25）\n- Termix 推出品牌悬赏模式，GoPlus 安全 Agent 试验完成结算（68.8）\n\n## AI Tech 短讯\n\n## 今日论文\n- Aurora：恶意软件分类器置信度可靠性与稳定性评测框架\n- SemDiff：基于关键语义图差异对比的二进制相似性检测\n- SemLoc：将 LLM 推理转化为可执行语义约束进行代码缺陷定位\n- HABIT-Bench：评估 Agent 从长期弱证据中归纳习惯的能力\n\n## 今日观察\n结合今天得分最高的 Aurora 框架，做恶意软件检测的团队得注意了，当前 SOTA 模型在分布偏移下的置信度其实很不稳定，会导致主动学习预算白花甚至直接漏报。强烈建议赶紧在自家的评测管线里加上置信度稳定性测试，别光盯着准确率。同时 PHP 未授权 RCE 被 AI 成功挖出的案例就在眼前，团队得立刻评估怎么把大模型引入自己的漏洞挖掘工作流，别掉队。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-10-28 的系统入库窗口筛选，从 21 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-10-29T00:02:05+08:00"
+}
