@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T16:09:39+08:00",
+  "updated_at": "2026-10-28T16:42:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -47,26 +47,6 @@
       },
       "published_at": "2026-10-28T05:08:09",
       "first_seen_at": "2026-10-28T06:36:47.532268",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 22360,
-      "title": "Check Point 借 OpenAI Daybreak 加速漏洞研究",
-      "original_title": "How Check Point accelerates vulnerability research with Daybreak",
-      "summary": "Check Point 采用 OpenAI Daybreak 模型提升漏洞研究效率，帮助安全分析师更快速地将漏洞情报转化为客户防御措施。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 77.55,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "展示了头部安全厂商如何将大模型嵌入漏洞研究流程，安全团队可参考其将漏洞情报快速转化为防御的实践思路，评估自身 AI 赋能落地点。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/check-point-daybreak",
-      "reader_url": "https://openai.com/index/check-point-daybreak",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-27T00:00:00",
-      "first_seen_at": "2026-10-27T20:15:24.043231",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -227,6 +207,31 @@
       },
       "published_at": "2026-10-27T22:30:40",
       "first_seen_at": "2026-10-27T22:49:45.582106",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22382,
+      "title": "OpenAI与CodeRabbit合作集成GPT-6.1 Sol强化代码安全审计",
+      "original_title": "OpenAI and CodeRabbit use GPT-6.1 Sol to strengthen code security, integrating the model as the primary component of CodeRabbit's security agent. Announced on October 26, the syste",
+      "summary": "OpenAI与CodeRabbit宣布将GPT-6.1 Sol作为CodeRabbit安全Agent的核心组件，在Pull Request评审期间分析代码与依赖变更，支持沙箱验证漏洞并自动生成修复补丁供人工审核。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "DevSecOps和代码审计团队必看。集成前沿大模型的安全Agent不仅能跨文件和依赖做深度扫描，还带沙箱验证和自动生成补丁能力，是AI辅助代码安全落地的标杆产品形态。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rubbletag/status/2115190823256281249",
+      "reader_url": "https://x.com/rubbletag/status/2115190823256281249",
+      "image_url": "https://pbs.twimg.com/media/HVqq0lQa0AAWyAA.png",
+      "author": {
+        "username": "rubbletag",
+        "name": "Rubbletag",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T21:16:05",
+      "first_seen_at": "2026-10-27T21:43:04.179565",
       "sub_category_label": "安全Agent"
     }
   ]
