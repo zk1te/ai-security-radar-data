@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T15:08:07+08:00",
+  "updated_at": "2026-10-28T16:09:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -115,31 +115,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 22356,
-      "title": "Natasha Tsvetkova 比较 BigSleep 与 Fuzzer 在 V8 漏洞挖掘中的表现",
-      "original_title": "RT @natashenka: LLMs are great at finding bugs, but so are fuzzers. @5aelo compared the vulnerabilities found in V8 by BigSleep, an agentic…",
-      "summary": "@natashenka 转发讨论了 @5aelo 对 V8 引擎中 BigSleep（LLM Agent）与 Fuzzer 发现漏洞情况的对比分析。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.59,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "BigSleep 是顶尖自主漏洞挖掘 Agent，其在真实项目中与 Fuzzer 的实战对比极具参考价值，做漏洞挖掘或评估 AI 安全工具效能的人必看。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/__x86/status/2115144518337278155",
-      "reader_url": "https://x.com/__x86/status/2115144518337278155",
-      "image_url": null,
-      "author": {
-        "username": "__x86",
-        "name": "Jeremy Fetiveau",
-        "avatar_url": null,
-        "followers_count": 4337
-      },
-      "published_at": "2026-10-27T18:12:05",
-      "first_seen_at": "2026-10-27T20:04:30.497147",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 22529,
       "title": "银行入侵案指向开源AI渗透框架ARTEX，监管发警告",
       "original_title": "Investigators probing the earlier bank intrusions in the wave point to ARTEX, an open-source AI penetration-testing framework. The regulator's warning: AI makes vulnerabilities eas",
@@ -227,6 +202,31 @@
       "author": null,
       "published_at": "2026-10-28T00:48:20.500011",
       "first_seen_at": "2026-10-28T00:49:58.905701",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22409,
+      "title": "CodeRabbit安全代理实现跨仓库漏洞追踪与修复",
+      "original_title": "CodeRabbit can chase a security finding beyond one repository—even into a linked authentication library.  OpenAI’s October 26, 2026 report describes CodeRabbit’s security agent usi",
+      "summary": "OpenAI报告分析CodeRabbit安全代理跨仓库追踪漏洞的能力，涵盖沙箱验证与自动修复，建议通过跨库测试评估其实际效果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent开发者必看。评估AI安全工具别只信功能列表，文中的跨仓库追踪、沙箱验证和补丁审查三个测试点，可直接用于评估手头安全Agent的实战效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/stayintouch_SIT/status/2115209594587037826",
+      "reader_url": "https://x.com/stayintouch_SIT/status/2115209594587037826",
+      "image_url": "https://pbs.twimg.com/media/HVq76jWaUAAa1-h.jpg",
+      "author": {
+        "username": "stayintouch_SIT",
+        "name": "Xaero 🦅🟠",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-27T22:30:40",
+      "first_seen_at": "2026-10-27T22:49:45.582106",
       "sub_category_label": "安全Agent"
     }
   ]
