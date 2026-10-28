@@ -1,49 +1,9 @@
 {
-  "updated_at": "2026-10-29T05:47:17+08:00",
+  "updated_at": "2026-10-29T06:17:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 22632,
-      "title": "Aurora：恶意软件分类器置信度可靠性与稳定性评测框架",
-      "original_title": "On the Reliability and Stability of Selective Methods in Malware Classification Tasks",
-      "summary": "论文提出Aurora框架评估恶意软件分类器在分布偏移下的置信度质量与操作韧性，发现SOTA模型的脆弱性会导致主动学习预算浪费及漏报。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 87.1,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做恶意软件检测的模型同学必看。当前评测只看准确率忽视置信度对齐，该研究指出这会导致主动学习预算浪费和漏报，提醒团队在评测检测引擎时需加入置信度稳定性测试。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2505.22843",
-      "reader_url": "https://arxiv.org/pdf/2505.22843",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-28T04:00:00",
-      "first_seen_at": "2026-10-28T10:11:47.220321",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 22630,
-      "title": "SemDiff：基于关键语义图差异对比的二进制相似性检测",
-      "original_title": "SemDiff: Binary Similarity Detection by Diffing Key-Semantics Graphs",
-      "summary": "本文提出 SemDiff，通过提取二进制关键指令生成关键语义图，并利用图序列化与局部敏感哈希量化相似度，有效应对跨编译器、优化级别和混淆场景下的相似性检测及漏洞挖掘。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 85.45,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "搞二进制分析和固件漏洞挖掘的安全研究员必看。SemDiff 提出的关键语义图结合 LSH 的方法在应对编译器优化和混淆时表现更好，可用于改进相似漏洞搜索工具。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2308.01463",
-      "reader_url": "https://arxiv.org/pdf/2308.01463",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-28T04:00:00",
-      "first_seen_at": "2026-10-28T10:11:36.997972",
-      "sub_category_label": "二进制安全"
-    },
     {
       "id": 22849,
       "title": "SemLoc：将 LLM 推理转化为可执行语义约束进行代码缺陷定位",
@@ -213,6 +173,56 @@
       "published_at": "2026-10-28T13:15:57",
       "first_seen_at": "2026-10-28T13:27:32.030408",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 22938,
+      "title": "ARTEX：多 AI Agent 协同渗透测试工具",
+      "original_title": "ARTEX: Penetration testing with multiple AI agents. Use only on authorized targets; effectiveness remains unverified. Review AGPL integration obligations.  https://t.co/z5T51PFxpw",
+      "summary": "介绍名为 ARTEX 的多 AI Agent 渗透测试工具，提醒仅在授权目标使用且有效性未经验证，同时需留意 AGPL 许可证义务。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "多 Agent 渗透工具是 AI for Sec 前沿热点，适合关注其后续实战效果。引入前务必评估 AGPL 协议带来的合规义务，避免直接接入商业流水线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/dellanioz/status/2115463308635775230",
+      "reader_url": "https://x.com/dellanioz/status/2115463308635775230",
+      "image_url": null,
+      "author": {
+        "username": "dellanioz",
+        "name": "Dellanio",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-28T15:18:50",
+      "first_seen_at": "2026-10-28T15:45:30.206229",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 22942,
+      "title": "OpenAI 开源应用安全 Agent「Codex Security」",
+      "original_title": "Security scanners flood you with alerts, and nobody has time to confirm which ones are real? Codex Security from @OpenAI is an application security agent that finds vulnerabilities",
+      "summary": "OpenAI 推出的 Codex Security 是一款开源应用安全 Agent，能自动发现、验证漏洞并编写与验证补丁，支持在 GitHub/GitLab CI/CD 中运行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "直接开源且可接入 CI/CD，不仅能挖洞还能自动修复补丁。安全研发团队值得立即测试其在真实代码库中的误报率和补丁可用性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/EveryDevAi/status/2115465865588318498",
+      "reader_url": "https://x.com/EveryDevAi/status/2115465865588318498",
+      "image_url": null,
+      "author": {
+        "username": "EveryDevAi",
+        "name": "EveryDev.ai",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-28T15:29:00",
+      "first_seen_at": "2026-10-28T15:46:43.526139",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
