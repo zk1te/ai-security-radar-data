@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T11:05:22+08:00",
+  "updated_at": "2026-10-28T12:05:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -200,29 +200,24 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 22239,
-      "title": "使用 LibAFL-QEMU 和增量快照 Fuzzing 复杂状态机及 CVE 复盘",
-      "original_title": "Fuzzing complex state machines with LibAFL-QEMU and incremental snapshots. We walk through our approach, revisit CVE-2026-9539 in libslirp, and explain why our initial fuzzing camp",
-      "summary": "该推文介绍了使用 LibAFL-QEMU 结合增量快照技术 Fuzzing 复杂状态机的方法，复盘了 libslirp 的 CVE-2026-9539 漏洞，并解释了之前的 Fuzzing 活动为何漏掉该漏洞，同时开源了相关 Fuzzer 代码。",
+      "id": 22454,
+      "title": "Cloudflare 推出多阶段安全审计 Agent 技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 开源了 security-audit-skill，这是一个面向多阶段安全审计的编码代理技能，能够产生可独立验证且机器可读的审计发现。",
       "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.29,
+      "sub_category": "security_agent",
+      "score_total": 68.05,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "开源了基于 LibAFL-QEMU 的 Fuzzer 代码并复盘漏报 CVE 原因，对漏洞挖掘与 Fuzzing 从业者极具参考价值，可直接借鉴状态机 Fuzzing 的 harness 写法和快照策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/quarkslab/status/2115099767789535288",
-      "reader_url": "https://x.com/quarkslab/status/2115099767789535288",
+      "recommendation_reason": "面向使用 AI Agent 做代码审计的安全团队。该工具强调可验证的机器可读结果，能缓解大模型幻觉问题，建议接入现有代码审计流水线进行效果评测。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-28&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-28&since=weekly",
       "image_url": null,
-      "author": {
-        "username": "quarkslab",
-        "name": "quarkslab",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-27T15:14:15",
-      "first_seen_at": "2026-10-27T15:38:20.089110",
-      "sub_category_label": "AI Fuzzing"
+      "author": null,
+      "published_at": "2026-10-28T00:48:20.500011",
+      "first_seen_at": "2026-10-28T00:49:58.905701",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
