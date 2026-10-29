@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T15:51:20+08:00",
+  "updated_at": "2026-10-29T17:21:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -48,6 +48,31 @@
       "published_at": "2026-10-29T06:53:03",
       "first_seen_at": "2026-10-29T07:09:46.993117",
       "sub_category_label": null
+    },
+    {
+      "id": 23264,
+      "title": "在野主机被发现运行多个AI渗透测试工具",
+      "original_title": "[https://t.co/qMkz4sbRaJ] 🌀🚨 Our proactive hunter detected an interesting host - 1.14.104[.]208 running multiple AI Autonomous Penetration testing tools such as Artex, CyberStrike ",
+      "summary": "威胁情报发现 IP 1.14.104[.]208 部署了 PentAGI、CyberStrike AI 等 AI 自主渗透测试工具及 Adaptix C2。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.66,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "威胁情报和红队人员该看。AI 渗透 Agent 已在真实网络环境出现，建议收集相关 IoC 并研究其行为特征。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Threatviewio/status/2115722847444480297",
+      "reader_url": "https://x.com/Threatviewio/status/2115722847444480297",
+      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HVyOsa-boAADkhJ.jpg",
+      "author": {
+        "username": "Threatviewio",
+        "name": "Threatview.io | Cyber Threat Intelligence",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-29T08:30:09",
+      "first_seen_at": "2026-10-29T08:53:31.923138",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 23064,
@@ -218,31 +243,6 @@
       "published_at": "2026-10-29T05:42:43",
       "first_seen_at": "2026-10-29T06:05:16.826086",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 23220,
-      "title": "AI 辅助 Fuzzing rlottie 渲染器实现 Telegram iOS 零点击 RCE",
-      "original_title": "Researcher Saifeldeen Aziz will present a year of work on Telegram animated sticker security at OffensiveCon. AI-assisted fuzzing of the rlottie renderer plus sticker delivery and ",
-      "summary": "研究员 Saifeldeen Aziz 将在 OffensiveCon 展示通过 AI 辅助 fuzzing rlottie 渲染器，结合贴纸投递和服务器验证缺陷，在 iOS 上实现零点击代码执行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 65.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 辅助 fuzzing 打通真实 0-click RCE 的完整案例，漏洞研究员和 fuzzing 从业者必看，可直接借鉴其 AI 辅助漏洞挖掘思路与利用链构造手法。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/StartOnTONBot/status/2115685235111154156",
-      "reader_url": "https://x.com/StartOnTONBot/status/2115685235111154156",
-      "image_url": null,
-      "author": {
-        "username": "StartOnTONBot",
-        "name": "StartOnTON",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-29T06:00:42",
-      "first_seen_at": "2026-10-29T06:05:33.166807",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
