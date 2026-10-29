@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T15:21:12+08:00",
+  "updated_at": "2026-10-29T15:51:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 23171,
@@ -117,6 +117,31 @@
       },
       "published_at": "2026-10-28T17:53:19",
       "first_seen_at": "2026-10-28T21:22:40.586048",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 23250,
+      "title": "AWS Continuum在CyberGym评测真实修复率仅37.8%",
+      "original_title": "AWS says its Continuum security agent passed 89% of CyberGym-E2E tasks, but only 37.8% of patches also fixed the benchmark's historical bug. Results are AWS's own so far. Independe",
+      "summary": "AWS自测其Continuum安全Agent在CyberGym-E2E中通过率达89%，但补丁真实修复率仅37.8%，凸显独立验证榜单成绩的必要性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 68.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "针对AI安全Agent刷榜现象的一记警钟。安全团队在选型时务必关注独立验证和真实修复率，别被高通过率指标误导。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/obussmann/status/2115707973028782427",
+      "reader_url": "https://x.com/obussmann/status/2115707973028782427",
+      "image_url": "https://pbs.twimg.com/media/HVyBMGSXMAAfyXd.jpg",
+      "author": {
+        "username": "obussmann",
+        "name": "Oliver Bussmann",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-29T07:31:03",
+      "first_seen_at": "2026-10-29T07:44:59.585413",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
