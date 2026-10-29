@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T17:21:45+08:00",
+  "updated_at": "2026-10-29T17:52:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 23171,
@@ -75,31 +75,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 23064,
-      "title": "Anthropic 用 Claude 验证 123 个开源库，发现存活数万亿次的 Bug",
-      "original_title": "Tests check examples. Proofs check everything.  Anthropic and Theorem used Claude to formally verify security properties in 123 open-source libraries at the RISC-V assembly level, ",
-      "summary": "Anthropic 与 Theorem 使用 Claude 在 RISC-V 汇编级别形式化验证了 123 个开源库的内存安全性，并发现了传统测试漏掉的 Bug，即将发布相关 Claude Skill。",
-      "primary_category": "AI for Sec",
-      "sub_category": "formal_verification",
-      "score_total": 71.09,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这不仅是 AI 辅助漏洞挖掘的里程碑，更是安全落地模式的转变。安全团队应关注其即将发布的 Claude Skill，尝试将形式化验证和属性测试引入自动化审计流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/godofprompt/status/2115454808157266170",
-      "reader_url": "https://x.com/godofprompt/status/2115454808157266170",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2115454795742097408/img/qPq-NeZ2wy2AAMvQ.jpg",
-      "author": {
-        "username": "godofprompt",
-        "name": "God of Prompt",
-        "avatar_url": null,
-        "followers_count": 14864
-      },
-      "published_at": "2026-10-28T14:45:04",
-      "first_seen_at": "2026-10-28T21:22:18.815408",
-      "sub_category_label": null
-    },
-    {
       "id": 23110,
       "title": "Cloudflare 开源 AI 安全审计 Agent 工具",
       "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
@@ -118,31 +93,6 @@
       "published_at": "2026-10-29T00:07:40.377937",
       "first_seen_at": "2026-10-29T00:08:58.797554",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 23067,
-      "title": "Gemini 4 Carbon 安全评测刷榜，Google 优先开放防御者",
-      "original_title": "The best cyber model isn't for you yet.  Gemini 4 Carbon tops SEC-bench Pro at 88.2% and ExploitGym at 54.8%, and Google is handing it to cyber defenders first. Developers get \"com",
-      "summary": "Google 新模型 Gemini 4 Carbon 在 SEC-bench Pro 达 88.2%、ExploitGym 达 54.8%，优先供给网络防御者，开发者暂无时间表。推文建议别干等，用现有模型先跑 OWASP Top 10 审计。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 68.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全 Benchmark 刷榜动态值得跟踪，但别只盯分数——真正可操作的是「现有模型已够做基础审计」。安全团队应关注 ExploitGym 这类利用向 Benchmark 的实际难度，而非泛泛跑分。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/godofprompt/status/2115502183491965409",
-      "reader_url": "https://x.com/godofprompt/status/2115502183491965409",
-      "image_url": null,
-      "author": {
-        "username": "godofprompt",
-        "name": "God of Prompt",
-        "avatar_url": null,
-        "followers_count": 14864
-      },
-      "published_at": "2026-10-28T17:53:19",
-      "first_seen_at": "2026-10-28T21:22:40.586048",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 23250,
@@ -243,6 +193,31 @@
       "published_at": "2026-10-29T05:42:43",
       "first_seen_at": "2026-10-29T06:05:16.826086",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 23220,
+      "title": "AI 辅助 Fuzzing rlottie 渲染器实现 Telegram iOS 零点击 RCE",
+      "original_title": "Researcher Saifeldeen Aziz will present a year of work on Telegram animated sticker security at OffensiveCon. AI-assisted fuzzing of the rlottie renderer plus sticker delivery and ",
+      "summary": "研究员 Saifeldeen Aziz 将在 OffensiveCon 展示通过 AI 辅助 fuzzing rlottie 渲染器，结合贴纸投递和服务器验证缺陷，在 iOS 上实现零点击代码执行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 65.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 辅助 fuzzing 打通真实 0-click RCE 的完整案例，漏洞研究员和 fuzzing 从业者必看，可直接借鉴其 AI 辅助漏洞挖掘思路与利用链构造手法。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/StartOnTONBot/status/2115685235111154156",
+      "reader_url": "https://x.com/StartOnTONBot/status/2115685235111154156",
+      "image_url": null,
+      "author": {
+        "username": "StartOnTONBot",
+        "name": "StartOnTON",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-29T06:00:42",
+      "first_seen_at": "2026-10-29T06:05:33.166807",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
