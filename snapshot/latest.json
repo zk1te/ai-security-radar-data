@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T17:52:09+08:00",
+  "updated_at": "2026-10-29T18:52:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 23171,
@@ -22,6 +22,31 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-10-29T03:33:42.058926",
+      "sub_category_label": null
+    },
+    {
+      "id": 23283,
+      "title": "谷歌发布 Gemini 4 Carbon，网络安全能力登顶榜单",
+      "original_title": "Singularity Watch, Day 14 — October 29, 2026  AI MODELS  Gemini 4 Carbon. On October 28, Sundar Pichai, CEO of Google and its parent company Alphabet, announced Gemini 4 Carbon as ",
+      "summary": "谷歌发布 Gemini 4 Carbon 模型，在 SEC-bench Pro 漏洞挖掘和 CWE-bench 补丁等安全基准测试中表现 SOTA，并优先向防御者开放。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark | model_evaluation",
+      "score_total": 76.46,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 漏洞挖掘团队需关注：Gemini 4 Carbon 展现极强的大型代码库 Bug 定位与修复能力。安全评测团队应跟进其在 SEC-bench 等榜单的表现，评估作为底层模型替换现有 Agent。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AstrohackerLabs/status/2115748183468851264",
+      "reader_url": "https://x.com/AstrohackerLabs/status/2115748183468851264",
+      "image_url": null,
+      "author": {
+        "username": "AstrohackerLabs",
+        "name": "Astrohacker",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-29T10:10:50",
+      "first_seen_at": "2026-10-29T10:32:01.533982",
       "sub_category_label": null
     },
     {
@@ -73,6 +98,81 @@
       "published_at": "2026-10-29T08:30:09",
       "first_seen_at": "2026-10-29T08:53:31.923138",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 23282,
+      "title": "威胁情报：某服务器部署 AI 自主渗透工具与 C2 框架",
+      "original_title": "[https://t.co/GktYvQwbyq] 🌀🚨 Our proactive hunter detected an interesting host   ⚠️ 1.14.104[.]208    🔍 AI Autonomous Penetration testing tools   ⚙️ Artex, CyberStrike AI, PentAGI,",
+      "summary": "威胁情报发现 IP 1.14.104.208 上托管了 Artex、CyberStrike AI、PentAGI 等 AI 自主渗透测试工具及 Adaptix C2、Cobalt Strike。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.21,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "蓝队和威胁跟踪者必看，AI 渗透工具正与主流 C2 框架混合部署。建议立即拉黑相关 IP 并提取这些 AI Agent 的流量特征用于防御检测。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Malwar3Ninja/status/2115747211887989207",
+      "reader_url": "https://x.com/Malwar3Ninja/status/2115747211887989207",
+      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HVyk0esbwAAY_kF.jpg",
+      "author": {
+        "username": "Malwar3Ninja",
+        "name": "Malwar3Ninja | Threatview.io",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-29T10:06:58",
+      "first_seen_at": "2026-10-29T10:31:28.510037",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 23280,
+      "title": "使用 Claude Code 逆向分析 PaperCut NG 零日漏洞",
+      "original_title": "Using Claude Code to reverse engineer a zero-day in Papercut NG  https://t.co/oe2r95NMoH  Credits @KevTheHermit  #infosec #llm https://t.co/P8Bd7nl3FY",
+      "summary": "安全研究员 KevTheHermit 使用 Claude Code 对 PaperCut NG 进行零日漏洞逆向分析，展示了 LLM 在实际漏洞挖掘与逆向工程场景中的落地效果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.93,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做漏洞研究和逆向的安全团队该看——这是 Claude Code 在真实零日挖掘中的实战案例，不是实验室 demo，能帮你判断当前 AI 辅助逆向到底到了什么水平、哪些环节可以切入。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2115715640115810791",
+      "reader_url": "https://x.com/0xor0ne/status/2115715640115810791",
+      "image_url": "https://pbs.twimg.com/media/HVyIKcJW8AAn5E5.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null,
+        "followers_count": 93861
+      },
+      "published_at": "2026-10-29T08:01:31",
+      "first_seen_at": "2026-10-29T10:31:27.909526",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 23284,
+      "title": "Anthropic披露Claude自主攻破五大OS与浏览器",
+      "original_title": "AI 攻防的临界突破：Anthropic 披露内部 Claude 模型攻破五大主流 OS 与浏览器，自主编排端到端高危利用链  2026 年 10 月 27 日，Anthropic 前沿红队（Frontier Red Team）正式发布了一份里程碑式的网络安全实测报告。该团队通过一个未公开发布的内部 Claude 研究模型，在完全脱离人工干预或仅需初始提示的",
+      "summary": "Anthropic前沿红队报告显示，内部Claude模型自主发掘并编排了针对Chrome、Linux等五大主流OS与浏览器的端到端攻击链，推动了多个高危CVE的修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和漏洞研究员必须看：AI已具备自主发掘复杂UAF和竞态条件漏洞并绕过沙箱的能力。防御窗口被极度压缩，传统人工审计和打补丁模式正面临代差级降维打击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/dailyoozoo602/status/2115750742284013908",
+      "reader_url": "https://x.com/dailyoozoo602/status/2115750742284013908",
+      "image_url": "https://pbs.twimg.com/media/HVyMtZfaUAAxRpD.jpg",
+      "author": {
+        "username": "dailyoozoo602",
+        "name": "不写代码的PM",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-29T10:21:00",
+      "first_seen_at": "2026-10-29T10:32:02.078393",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 23110,
@@ -143,81 +243,6 @@
       "published_at": "2026-10-29T06:04:47",
       "first_seen_at": "2026-10-29T06:38:23.423037",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 23162,
-      "title": "Google 发布 Gemini 4 Carbon，优先开放给网络安全防御者",
-      "original_title": "THE ROLLOUT ORDER IS THE STORY, AGAIN: GOOGLE DEEPMIND SHIPS GEMINI 4 CARBON TO CYBER DEFENDERS FIRST — AND THE FRONTIER MODEL'S OWN HEADLINE NUMBERS ARE VULNERABILITY FINDING, EXP",
-      "summary": "Google DeepMind 发布 Gemini 4 Carbon，首批仅向网络安全防御者开放，核心指标聚焦漏洞发现（SEC-bench Pro 88.2%）、利用验证（ExploitGym 54.8%）和补丁修复（CWE-bench 71.0%），同时在提示注入防御和 Agent 安全方面声称显著改善。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery",
-      "score_total": 66.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Google 把网络安全能力作为前沿模型核心卖点并优先开放给防御者，这个发布策略本身就是信号。安全团队应跟踪其在漏洞发现和修补流程中的实际表现，但需注意所有数字均为无护栏条件下的自报结果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/botnewsnetwork/status/2115618477956640938",
-      "reader_url": "https://x.com/botnewsnetwork/status/2115618477956640938",
-      "image_url": null,
-      "author": {
-        "username": "botnewsnetwork",
-        "name": "botnewsnetwork",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-29T01:35:26",
-      "first_seen_at": "2026-10-29T01:46:28.514041",
-      "sub_category_label": null
-    },
-    {
-      "id": 23216,
-      "title": "Carbon模型在安全代码与PoC生成中表现卓越，获Wiz与Chrome认可",
-      "original_title": "در بنچ‌مارک‌های داخلی، تولید کد امن بیش از 2 برابر بهتر از آرگون است؛ تیم کروم گزارش داده کربن در تولید پیچ های باکیفیت بیش از 10 برابر بهتر از یک مدل بزرگِ آزمایشگاهی دیگر عمل کرد",
-      "summary": "内部基准显示Carbon模型在安全代码生成与高质量PoC构造上远超同类，Chrome团队和Wiz公司均在其渗透测试任务中验证了其领先能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 66.53,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试与漏洞挖掘团队应关注Carbon模型的实际安全产出能力，它可能在自动化PoC生成和Web渗透中带来效率突破。值得评估其在日常安全任务中替代现有模型的潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/GratomicAi/status/2115680711910789534",
-      "reader_url": "https://x.com/GratomicAi/status/2115680711910789534",
-      "image_url": "https://pbs.twimg.com/media/HVxmIg0WkAExAre.jpg",
-      "author": {
-        "username": "GratomicAi",
-        "name": "Gratomic AI Bot | هوش مصنوعی گراتومیک",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-29T05:42:43",
-      "first_seen_at": "2026-10-29T06:05:16.826086",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 23220,
-      "title": "AI 辅助 Fuzzing rlottie 渲染器实现 Telegram iOS 零点击 RCE",
-      "original_title": "Researcher Saifeldeen Aziz will present a year of work on Telegram animated sticker security at OffensiveCon. AI-assisted fuzzing of the rlottie renderer plus sticker delivery and ",
-      "summary": "研究员 Saifeldeen Aziz 将在 OffensiveCon 展示通过 AI 辅助 fuzzing rlottie 渲染器，结合贴纸投递和服务器验证缺陷，在 iOS 上实现零点击代码执行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 65.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 辅助 fuzzing 打通真实 0-click RCE 的完整案例，漏洞研究员和 fuzzing 从业者必看，可直接借鉴其 AI 辅助漏洞挖掘思路与利用链构造手法。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/StartOnTONBot/status/2115685235111154156",
-      "reader_url": "https://x.com/StartOnTONBot/status/2115685235111154156",
-      "image_url": null,
-      "author": {
-        "username": "StartOnTONBot",
-        "name": "StartOnTON",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-29T06:00:42",
-      "first_seen_at": "2026-10-29T06:05:33.166807",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
