@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T11:49:00+08:00",
+  "updated_at": "2026-10-29T12:19:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -23,31 +23,6 @@
       "published_at": null,
       "first_seen_at": "2026-10-29T03:33:42.058926",
       "sub_category_label": null
-    },
-    {
-      "id": 22945,
-      "title": "Claude 研究模型成功构建多平台漏洞利用链并实现提权",
-      "original_title": "‼️ Claude AI Builds One-Click Chrome and 0-Click Linux Exploit Chains, Bypasses Android Lock Screen  Details: https://t.co/t1UzeUaBQr  Anthropic's Frontier Red Team says an unrelea",
-      "summary": "Anthropic 红队披露未发布的 Claude 研究模型能自动生成 Chrome 沙箱逃逸、Safari UAF 漏洞利用链，甚至实现 Linux 远程 root 提权和绕过 Android 锁屏。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 79.16,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻防团队必看：这标志着大模型从单一 PoC 生成跨越到完整多阶段利用链构建。红队可借此评估自动化防御压力，蓝队需关注由 AI 驱动的复杂攻击路径。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2115421232715960603",
-      "reader_url": "https://x.com/The_Cyber_News/status/2115421232715960603",
-      "image_url": "https://pbs.twimg.com/media/HVt7-wJbYAAXVMJ.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-10-28T12:31:39",
-      "first_seen_at": "2026-10-28T16:18:04.959383",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 22973,
@@ -218,6 +193,31 @@
       "published_at": "2026-10-28T17:30:02",
       "first_seen_at": "2026-10-28T18:04:41.932534",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 23162,
+      "title": "Google 发布 Gemini 4 Carbon，优先开放给网络安全防御者",
+      "original_title": "THE ROLLOUT ORDER IS THE STORY, AGAIN: GOOGLE DEEPMIND SHIPS GEMINI 4 CARBON TO CYBER DEFENDERS FIRST — AND THE FRONTIER MODEL'S OWN HEADLINE NUMBERS ARE VULNERABILITY FINDING, EXP",
+      "summary": "Google DeepMind 发布 Gemini 4 Carbon，首批仅向网络安全防御者开放，核心指标聚焦漏洞发现（SEC-bench Pro 88.2%）、利用验证（ExploitGym 54.8%）和补丁修复（CWE-bench 71.0%），同时在提示注入防御和 Agent 安全方面声称显著改善。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery",
+      "score_total": 66.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Google 把网络安全能力作为前沿模型核心卖点并优先开放给防御者，这个发布策略本身就是信号。安全团队应跟踪其在漏洞发现和修补流程中的实际表现，但需注意所有数字均为无护栏条件下的自报结果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/botnewsnetwork/status/2115618477956640938",
+      "reader_url": "https://x.com/botnewsnetwork/status/2115618477956640938",
+      "image_url": null,
+      "author": {
+        "username": "botnewsnetwork",
+        "name": "botnewsnetwork",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-29T01:35:26",
+      "first_seen_at": "2026-10-29T01:46:28.514041",
+      "sub_category_label": null
     }
   ]
 }
