@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T00:05:00+08:00",
+  "updated_at": "2026-10-30T01:05:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -85,6 +85,26 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 23411,
+      "title": "Meta分享JiTTesting：用LLM在生产环境即时捕获Bug",
+      "original_title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+      "summary": "Meta工程团队分享了其基于大模型的即时测试生成方法（JiTTests）在生产环境的部署结果，该方法采用人在回路模式，在代码落地前即时发现缺陷。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 78.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是科技巨头将 LLM 用于自动化代码测试和 Bug 捕获的罕见大规模生产实践。对做自动化漏洞挖掘和安全 Agent 的团队极具参考价值，值得了解其工程化落地的真实效果与挑战。",
+      "source_id": "meta-engineering",
+      "canonical_url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale",
+      "reader_url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-29T16:00:12",
+      "first_seen_at": "2026-10-29T16:56:30.037057",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 22810,
       "title": "面向汽车安全关键软件的生成与验证AI协作框架",
       "original_title": "Generation and Verification: Human-Agent Collaboration for Safety-Critical Automotive Software Engineering",
@@ -153,31 +173,6 @@
       "published_at": "2026-10-29T15:23:44",
       "first_seen_at": "2026-10-29T16:03:20.506609",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 23238,
-      "title": "谷歌发布 Gemini 4 Carbon，安全能力夺榜首",
-      "original_title": "🚨 Google just unveiled Gemini 4 Carbon, and it has already taken the #1 spot on the Artificial Analysis Intelligence Index, beating Claude Opus 5.5 and GPT-6 Astra.  Announced on O",
-      "summary": "谷歌发布 Gemini 4 Carbon，在 Artificial Analysis 榜单登顶。该模型重点增强了网络安全能力，支持漏洞发现、利用验证和补丁生成，并在多项安全基准中表现大幅提升，目前优先向安全防御者开放。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "vuln_discovery | model_evaluation",
-      "score_total": 74.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全 Agent 和自动化漏洞挖掘的同行必看。Gemini 4 Carbon 在漏洞发现、利用和修复全链条上展现了压倒性能力，且间接提示注入 ASR 降至 0%。这预示着大模型在自动化安全工作流中的实用性正发生质变，值得立即评估接入可能性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cutetoxicguy/status/2115698409881346409",
-      "reader_url": "https://x.com/cutetoxicguy/status/2115698409881346409",
-      "image_url": "https://pbs.twimg.com/media/HVx4Dy-XYAA_8qe.jpg",
-      "author": {
-        "username": "cutetoxicguy",
-        "name": "CuteGuy☣️",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-29T06:53:03",
-      "first_seen_at": "2026-10-29T07:09:46.993117",
-      "sub_category_label": null
     }
   ]
 }
