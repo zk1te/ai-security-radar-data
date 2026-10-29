@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T21:22:47+08:00",
+  "updated_at": "2026-10-29T22:23:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -225,29 +225,29 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 23326,
-      "title": "Google Project Zero 比对 AI 与传统 V8 Fuzzer：BigSleep 略胜且互补",
-      "original_title": "Google Project Zero pitted AI against a V8 fuzzer. AI won. Barely.  6 months: BigSleep (AI): 45 actionable vulns Fuzzilli: 37 Only ~25% overlap.  The surprise? Each found bugs the ",
-      "summary": "Google Project Zero 对比了 AI 工具 BigSleep 与传统 Fuzzer Fuzzilli 在 V8 引擎上的 6 个月漏洞挖掘表现，BigSleep 发现 45 个漏洞略胜 Fuzzilli 的 37 个，且两者重合度仅约 25%，显示出显著互补性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 67.2,
+      "id": 23347,
+      "title": "Google 推出 Gemini 4 Carbon，在漏洞挖掘与修复评测中领先",
+      "original_title": "🚨 Google unveils Gemini 4 Carbon, its latest AI model with advanced cybersecurity capabilities.  It leads benchmarks for: • Finding vulnerabilities: 88.2% • Exploit development: 54",
+      "summary": "Google 发布 Gemini 4 Carbon 模型，在漏洞发现、利用开发和缺陷修复的安全评测基准中分别取得 88.2%、54.8% 和 71% 的成绩。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 67.69,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全团队和 Fuzzing 从业者必看。BigSleep 找到了传统 Fuzzer 盲区的漏洞，说明 AI 辅助挖掘已能在 V8 等复杂引擎中产生增量价值，是时候考虑将 AI Agent 接入现有 Fuzzing harness 互补跑测了。",
+      "recommendation_reason": "安全团队需密切关注此类具备高级漏洞挖掘与修复能力的前沿模型，这预示着自动化安全测试工具的底层能力正在发生质变，值得尽早评估其在实际代码审计中的落地效果。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cr3ghost/status/2115790761627148661",
-      "reader_url": "https://x.com/cr3ghost/status/2115790761627148661",
-      "image_url": "https://pbs.twimg.com/media/HVwEix8bQAAU90Q.jpg",
+      "canonical_url": "https://x.com/TheHackersNews/status/2115802680077730291",
+      "reader_url": "https://x.com/TheHackersNews/status/2115802680077730291",
+      "image_url": null,
       "author": {
-        "username": "cr3ghost",
-        "name": "cr3ghost",
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
         "avatar_url": null,
-        "followers_count": 0
+        "followers_count": 2351119
       },
-      "published_at": "2026-10-29T13:00:01",
-      "first_seen_at": "2026-10-29T13:16:39.902849",
-      "sub_category_label": "AI Fuzzing"
+      "published_at": "2026-10-29T13:47:23",
+      "first_seen_at": "2026-10-29T13:53:12.186611",
+      "sub_category_label": null
     }
   ]
 }
