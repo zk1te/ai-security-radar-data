@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T20:22:40+08:00",
+  "updated_at": "2026-10-29T21:22:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 23171,
@@ -200,29 +200,54 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 23222,
-      "title": "spender 发布用 Mythos 获取 Linux 内核 0day 的方法",
-      "original_title": "RT @spendergrsec: How to get current Mythos Linux kernel 0day: https://t.co/a68HTkf6Ku",
-      "summary": "知名内核安全专家 Brad Spengler 分享了如何利用 AI（疑似 Anthropic 的 Mythos）获取当前 Linux 内核 0day 的方法链接。",
+      "id": 23324,
+      "title": "AI 安全公司泛滥但缺乏评测基准，呼吁用真实漏洞复现测试",
+      "original_title": "I count 654 different companies selling AI for security. This makes sense I guess. AI cyber defense is a #1 priority for lots of companies right now.  But I see no really meaningfu",
+      "summary": "作者指出市面上有 654 家 AI 安全公司，却缺乏有效的基准测试来衡量其实际效果。建议利用模型训练截止后披露的 CVE 对应的开源项目修复前代码进行测试，并要求这些工具证明其在精确率、召回率和成本上优于基础大模型加上简单的漏洞挖掘提示词。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 66.78,
+      "sub_category": "security_benchmark",
+      "score_total": 67.9,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "spender 是顶级内核安全专家，他关注 AI 挖内核 0day 说明前沿已触及底层安全。漏洞研究和红队人员需立刻跟进，评估 AI 辅助漏洞挖掘的真实落地能力。",
+      "recommendation_reason": "给做安全工具和评测平台的人看：别再卷营销了，拿真实 CVE 的修复前代码跑一把，和裸奔大模型比比召回率和成本。这指出了当前 AI for Sec 赛道的核心痛点，也是做 Benchmark 的绝佳切入点。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/viperbjk/status/2115686265743954050",
-      "reader_url": "https://x.com/viperbjk/status/2115686265743954050",
+      "canonical_url": "https://x.com/JordanFrery/status/2115789931251421667",
+      "reader_url": "https://x.com/JordanFrery/status/2115789931251421667",
       "image_url": null,
       "author": {
-        "username": "viperbjk",
-        "name": "Bjoern Kerler",
+        "username": "JordanFrery",
+        "name": "Jordan Fréry",
         "avatar_url": null,
-        "followers_count": 3223
+        "followers_count": 0
       },
-      "published_at": "2026-10-29T06:04:47",
-      "first_seen_at": "2026-10-29T06:38:23.423037",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-10-29T12:56:43",
+      "first_seen_at": "2026-10-29T13:16:03.674291",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 23326,
+      "title": "Google Project Zero 比对 AI 与传统 V8 Fuzzer：BigSleep 略胜且互补",
+      "original_title": "Google Project Zero pitted AI against a V8 fuzzer. AI won. Barely.  6 months: BigSleep (AI): 45 actionable vulns Fuzzilli: 37 Only ~25% overlap.  The surprise? Each found bugs the ",
+      "summary": "Google Project Zero 对比了 AI 工具 BigSleep 与传统 Fuzzer Fuzzilli 在 V8 引擎上的 6 个月漏洞挖掘表现，BigSleep 发现 45 个漏洞略胜 Fuzzilli 的 37 个，且两者重合度仅约 25%，显示出显著互补性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 67.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和 Fuzzing 从业者必看。BigSleep 找到了传统 Fuzzer 盲区的漏洞，说明 AI 辅助挖掘已能在 V8 等复杂引擎中产生增量价值，是时候考虑将 AI Agent 接入现有 Fuzzing harness 互补跑测了。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/cr3ghost/status/2115790761627148661",
+      "reader_url": "https://x.com/cr3ghost/status/2115790761627148661",
+      "image_url": "https://pbs.twimg.com/media/HVwEix8bQAAU90Q.jpg",
+      "author": {
+        "username": "cr3ghost",
+        "name": "cr3ghost",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-29T13:00:01",
+      "first_seen_at": "2026-10-29T13:16:39.902849",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
