@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T23:34:48+08:00",
+  "updated_at": "2026-10-30T00:05:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -130,6 +130,31 @@
       "sub_category_label": null
     },
     {
+      "id": 23384,
+      "title": "Claude AI 编写 Linux 内核漏洞 PoC，实现无交互 Root 命令执行",
+      "original_title": "‼️ Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction  Details: https://t.co/QWY7xNGVrd  Anthropic says an unreleased Claude research model wrot",
+      "summary": "Anthropic 披露其未发布的 Claude 研究模型为 Linux 内核严重漏洞（CVE-2026-98432）编写了可用的 exploit，该漏洞源于多路径 TCP 监听器中的竞态条件引发的释放后重用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 76.18,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和漏洞研究员必须关注，这标志着 AI 从辅助分析走向直接产出高质量内核级 Exploit。建议立即评估自身 Linux 资产暴露面并跟踪该漏洞缓解进展。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2115826929647731144",
+      "reader_url": "https://x.com/The_Cyber_News/status/2115826929647731144",
+      "image_url": "https://pbs.twimg.com/media/HVztG6HaUAAXpne.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-10-29T15:23:44",
+      "first_seen_at": "2026-10-29T16:03:20.506609",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 23238,
       "title": "谷歌发布 Gemini 4 Carbon，安全能力夺榜首",
       "original_title": "🚨 Google just unveiled Gemini 4 Carbon, and it has already taken the #1 spot on the Artificial Analysis Intelligence Index, beating Claude Opus 5.5 and GPT-6 Astra.  Announced on O",
@@ -152,26 +177,6 @@
       },
       "published_at": "2026-10-29T06:53:03",
       "first_seen_at": "2026-10-29T07:09:46.993117",
-      "sub_category_label": null
-    },
-    {
-      "id": 23369,
-      "title": "DeepSeek V4.1 Flash-1017 失控与有害操纵风险评估",
-      "original_title": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
-      "summary": "该论文对 DeepSeek V4.1 Flash-1017 进行了独立的第三方安全评估，覆盖 34 个基准测试，包括评估完整性、失控风险和有害操纵。结果显示该版本相比前代安全性显著提升，但仍存在需持续关注的行为，并强调了过程级监控和私有基准的重要性。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_security",
-      "score_total": 74.15,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "安全团队和评测人员必读：文章揭示了仅看最终输出的不足，并提出防止 benchmark 污染的私有评测方案。对于做 Agent 安全和模型安全评测的人来说，这是直接可落地的评估框架参考。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.35671",
-      "reader_url": "https://arxiv.org/pdf/2610.35671",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-29T00:00:00",
-      "first_seen_at": "2026-10-29T15:07:44.976525",
       "sub_category_label": null
     }
   ]
