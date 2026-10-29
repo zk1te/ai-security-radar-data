@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T14:20:57+08:00",
+  "updated_at": "2026-10-29T14:51:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 23171,
@@ -118,6 +118,31 @@
       "published_at": "2026-10-28T17:53:19",
       "first_seen_at": "2026-10-28T21:22:40.586048",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 23222,
+      "title": "spender 发布用 Mythos 获取 Linux 内核 0day 的方法",
+      "original_title": "RT @spendergrsec: How to get current Mythos Linux kernel 0day: https://t.co/a68HTkf6Ku",
+      "summary": "知名内核安全专家 Brad Spengler 分享了如何利用 AI（疑似 Anthropic 的 Mythos）获取当前 Linux 内核 0day 的方法链接。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 66.78,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "spender 是顶级内核安全专家，他关注 AI 挖内核 0day 说明前沿已触及底层安全。漏洞研究和红队人员需立刻跟进，评估 AI 辅助漏洞挖掘的真实落地能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/viperbjk/status/2115686265743954050",
+      "reader_url": "https://x.com/viperbjk/status/2115686265743954050",
+      "image_url": null,
+      "author": {
+        "username": "viperbjk",
+        "name": "Bjoern Kerler",
+        "avatar_url": null,
+        "followers_count": 3223
+      },
+      "published_at": "2026-10-29T06:04:47",
+      "first_seen_at": "2026-10-29T06:38:23.423037",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 23162,
