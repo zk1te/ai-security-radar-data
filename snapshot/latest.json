@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T14:51:04+08:00",
+  "updated_at": "2026-10-29T15:21:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -22,6 +22,31 @@
       "author": null,
       "published_at": null,
       "first_seen_at": "2026-10-29T03:33:42.058926",
+      "sub_category_label": null
+    },
+    {
+      "id": 23238,
+      "title": "谷歌发布 Gemini 4 Carbon，安全能力夺榜首",
+      "original_title": "🚨 Google just unveiled Gemini 4 Carbon, and it has already taken the #1 spot on the Artificial Analysis Intelligence Index, beating Claude Opus 5.5 and GPT-6 Astra.  Announced on O",
+      "summary": "谷歌发布 Gemini 4 Carbon，在 Artificial Analysis 榜单登顶。该模型重点增强了网络安全能力，支持漏洞发现、利用验证和补丁生成，并在多项安全基准中表现大幅提升，目前优先向安全防御者开放。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "vuln_discovery | model_evaluation",
+      "score_total": 74.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 和自动化漏洞挖掘的同行必看。Gemini 4 Carbon 在漏洞发现、利用和修复全链条上展现了压倒性能力，且间接提示注入 ASR 降至 0%。这预示着大模型在自动化安全工作流中的实用性正发生质变，值得立即评估接入可能性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/cutetoxicguy/status/2115698409881346409",
+      "reader_url": "https://x.com/cutetoxicguy/status/2115698409881346409",
+      "image_url": "https://pbs.twimg.com/media/HVx4Dy-XYAA_8qe.jpg",
+      "author": {
+        "username": "cutetoxicguy",
+        "name": "CuteGuy☣️",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-29T06:53:03",
+      "first_seen_at": "2026-10-29T07:09:46.993117",
       "sub_category_label": null
     },
     {
@@ -68,31 +93,6 @@
       "published_at": "2026-10-29T00:07:40.377937",
       "first_seen_at": "2026-10-29T00:08:58.797554",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 23029,
-      "title": "研究员披露 Telegram 零点击贴纸漏洞，AI 辅助 Fuzzing 立功",
-      "original_title": "Telegram animated stickers were just shown to carry a zero-click flaw. Here's what you need to know.  Security researcher Saifeldeen Aziz says he found new zero-click bugs in Teleg",
-      "summary": "安全研究员 Saifeldeen Aziz 在 OffensiveCon 披露了 Telegram 动画贴纸库 rlottie 的零点击远程代码执行漏洞（CVE-2026-111105）。该漏洞通过 AI 辅助 Fuzzing 发现，可绕过 Telegram 服务器端验证在 iOS 上执行代码。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "真实案例展示了 AI 辅助 Fuzzing 在挖掘复杂客户端解析漏洞上的实战价值。对做漏洞挖掘和安全工具开发的从业者极具参考意义，建议关注其 Fuzzing 策略以复用至自家工具链。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AGTPinsights/status/2115521274017636354",
-      "reader_url": "https://x.com/AGTPinsights/status/2115521274017636354",
-      "image_url": "https://pbs.twimg.com/media/HVvXX2zakAA38pn.jpg",
-      "author": {
-        "username": "AGTPinsights",
-        "name": "AGTP",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-28T19:09:10",
-      "first_seen_at": "2026-10-28T19:12:32.358052",
-      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 23067,
