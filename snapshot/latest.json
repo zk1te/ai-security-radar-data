@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T01:05:11+08:00",
+  "updated_at": "2026-10-30T02:36:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 22835,
@@ -43,6 +43,31 @@
       "published_at": "2026-10-28T04:00:00",
       "first_seen_at": "2026-10-29T14:40:49.295781",
       "sub_category_label": null
+    },
+    {
+      "id": 23446,
+      "title": "Anthropic 演示 Linux 内核 MPTCP 高危漏洞利用",
+      "original_title": "‼️ Linux kernel TCP flaw rated 9.8 CVSS.  Anthropic demonstrated an exploit that runs commands as root on servers using MPTCP.  Ubuntu and RHEL still lack fixes, while Debian, Orac",
+      "summary": "Anthropic 展示了一个影响 Linux 内核 MPTCP 的 9.8 分高危漏洞 PoC，可实现 root 权限命令执行，目前 Ubuntu 和 RHEL 尚未全面修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 80.76,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic 演示 9.8 分内核漏洞 PoC，是 AI 辅助漏洞挖掘能力走向实战的强力信号。安全团队需立即排查 MPTCP 资产并跟进补丁。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2115835455661052022",
+      "reader_url": "https://x.com/TheHackersNews/status/2115835455661052022",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-29T15:57:37",
+      "first_seen_at": "2026-10-29T18:12:17.791545",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 22831,
