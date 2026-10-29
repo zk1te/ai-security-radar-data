@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T12:19:11+08:00",
+  "updated_at": "2026-10-29T13:19:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -23,31 +23,6 @@
       "published_at": null,
       "first_seen_at": "2026-10-29T03:33:42.058926",
       "sub_category_label": null
-    },
-    {
-      "id": 22973,
-      "title": "Storm-0940 组织利用 AI 渗透框架攻击美云设施",
-      "original_title": "🚨 CHINA-LINKED HACKERS ARE USING AI TO ACCELERATE CYBERATTACKS AGAINST U.S. CLOUD INFRASTRUCTURE.  A trusted software provider became an entry point into thousands of potential tar",
-      "summary": "微软披露与中国关联的 Storm-0940 组织利用 AI 驱动的渗透框架 ARTEX，通过 ConnectWise 供应链漏洞尝试攻击超 2250 个 Microsoft 365 租户，最快 3 小时内获取特权访问。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_intel",
-      "score_total": 73.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "攻击者已开始在野使用 AI 渗透框架自动化侦察与攻击，防守方需警惕 AI 驱动的自动化攻击提效。供应链入侵结合 AI 提速是当前重大威胁，建议立即排查第三方应用权限。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/7D__Vision/status/2115478352878575939",
-      "reader_url": "https://x.com/7D__Vision/status/2115478352878575939",
-      "image_url": null,
-      "author": {
-        "username": "7D__Vision",
-        "name": "7D Vision",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-28T16:18:37",
-      "first_seen_at": "2026-10-28T16:50:55.382988",
-      "sub_category_label": "威胁情报"
     },
     {
       "id": 23064,
@@ -218,6 +193,31 @@
       "published_at": "2026-10-29T01:35:26",
       "first_seen_at": "2026-10-29T01:46:28.514041",
       "sub_category_label": null
+    },
+    {
+      "id": 22993,
+      "title": "未发布 Anthropic 模型自主链接多平台零日漏洞生成利用",
+      "original_title": "Researchers observed an unreleased Anthropic AI model autonomously chain zero-day flaws across Chrome, Safari, Windows, and Linux into working exploits — with minimal human input. ",
+      "summary": "研究人员观测到未发布的 Anthropic 模型在极少人工干预下，将跨 Chrome、Safari、Windows 和 Linux 的零日漏洞链式组合为可用利用，其中 CVE-2026-98432 可导致 Linux 内核未授权远程 root 提权。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 66.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 自动化组合零日漏洞并生成利用代码，标志着 AI 辅助漏洞挖掘正向实战化迈进。安全团队需紧急评估现有防御体系的响应速度和纵深防御能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2115488220234268708",
+      "reader_url": "https://x.com/aviatrixtrc/status/2115488220234268708",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-10-28T16:57:50",
+      "first_seen_at": "2026-10-28T17:28:14.749392",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
