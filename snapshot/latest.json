@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T19:52:34+08:00",
+  "updated_at": "2026-10-29T20:22:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -175,26 +175,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 23110,
-      "title": "Cloudflare 开源 AI 安全审计 Agent 工具",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare 的 security-audit-skill 项目本周新增超千星，这是一个 coding-agent 技能，可进行多阶段安全审计并输出可独立验证的机器可读结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Cloudflare 推出用于多阶段安全审计的 coding-agent 技能，产出可机器验证的结果。安全团队和审计开发者可直接跟进试用，参考其 Agent 安全审计落地实践。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-29&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-10-29&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-29T00:07:40.377937",
-      "first_seen_at": "2026-10-29T00:08:58.797554",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 23250,
       "title": "AWS Continuum在CyberGym评测真实修复率仅37.8%",
       "original_title": "AWS says its Continuum security agent passed 89% of CyberGym-E2E tasks, but only 37.8% of patches also fixed the benchmark's historical bug. Results are AWS's own so far. Independe",
@@ -218,6 +198,31 @@
       "published_at": "2026-10-29T07:31:03",
       "first_seen_at": "2026-10-29T07:44:59.585413",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 23222,
+      "title": "spender 发布用 Mythos 获取 Linux 内核 0day 的方法",
+      "original_title": "RT @spendergrsec: How to get current Mythos Linux kernel 0day: https://t.co/a68HTkf6Ku",
+      "summary": "知名内核安全专家 Brad Spengler 分享了如何利用 AI（疑似 Anthropic 的 Mythos）获取当前 Linux 内核 0day 的方法链接。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 66.78,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "spender 是顶级内核安全专家，他关注 AI 挖内核 0day 说明前沿已触及底层安全。漏洞研究和红队人员需立刻跟进，评估 AI 辅助漏洞挖掘的真实落地能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/viperbjk/status/2115686265743954050",
+      "reader_url": "https://x.com/viperbjk/status/2115686265743954050",
+      "image_url": null,
+      "author": {
+        "username": "viperbjk",
+        "name": "Bjoern Kerler",
+        "avatar_url": null,
+        "followers_count": 3223
+      },
+      "published_at": "2026-10-29T06:04:47",
+      "first_seen_at": "2026-10-29T06:38:23.423037",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
