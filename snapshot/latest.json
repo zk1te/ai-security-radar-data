@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-29T09:48:21+08:00",
+  "updated_at": "2026-10-29T10:18:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 22945,
@@ -53,31 +53,6 @@
       "published_at": "2026-10-28T16:18:37",
       "first_seen_at": "2026-10-28T16:50:55.382988",
       "sub_category_label": "威胁情报"
-    },
-    {
-      "id": 22902,
-      "title": "针对 AI 渗透测试面板的自动化接管攻击披露",
-      "original_title": "#threatreport #MediumCompleteness Automated Subversion and Attempted Takeover of AI Pentesting Harnesses | 26-10-2026 Source: https://t.co/HNngoy2dCL Key details below ↓  🧑‍💻Actors",
-      "summary": "报告披露针对暴露的 Cairn AI 渗透测试面板的自动化攻击，攻击者通过注入恶意任务劫持 Agent，窃取凭据并部署 Mythic 框架的 Poseidon 木马。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_agent",
-      "score_total": 72.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "渗透测试 Agent 自身沦为攻击面，通过恶意指令直接接管容器执行后渗透。安全团队需立即审查自研或开源 AI 安全 Agent 的权限隔离与任务校验机制，防止工具被反杀。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2115437794344460760",
-      "reader_url": "https://x.com/rst_cloud/status/2115437794344460760",
-      "image_url": "https://pbs.twimg.com/media/HVuLdmwWcAE8Vmd.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-28T13:37:27",
-      "first_seen_at": "2026-10-28T14:03:32.665481",
-      "sub_category_label": null
     },
     {
       "id": 23064,
