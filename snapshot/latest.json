@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T18:11:41+08:00",
+  "updated_at": "2026-10-30T22:12:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -190,23 +190,28 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 23636,
-      "title": "黑帽欧盟议题：MQTT协议导致大规模车联网沦陷",
-      "original_title": "Keys Under the Doormat: From MQTT to Mass Vehicle Compromise",
-      "summary": "该研究披露车联网 MQTT 部署中普遍存在的「认证后坍塌」(PAC) 漏洞模式，攻击者可借此突破租户边界并影响逾 500 万辆汽车。",
+      "id": 23806,
+      "title": "Chainguard Harness 结合 Mythos 5.1 自动挖掘应用可利用漏洞",
+      "original_title": "No Mythos access? You can now hunt for first and third-party exploitable vulnerabilities in your applications using Chainguard Harness.  Chainguard Harness builds your app from sou",
+      "summary": "Chainguard Harness 从源码隔离构建应用，利用 Mythos 5.1 自动挖掘第一方和第三方可利用漏洞。每个发现均可复现并提供修复建议，经工程师审核。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 78.2,
+      "score_total": 80.02,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "面向车联网与物联网安全研究者，详述了如何从应用和固件恢复凭证并实现跨租户攻击，为 AI 自动化漏洞挖掘提供了绝佳的真实攻防场景与模式参考。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#keys-under-the-doormat-from-mqtt-to-mass-vehicle-compromise-56426",
-      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#keys-under-the-doormat-from-mqtt-to-mass-vehicle-compromise-56426",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-12-10T22:30:00",
-      "first_seen_at": "2026-10-30T04:06:43.313824",
+      "recommendation_reason": "安全团队可直接关注此工具，它将 AI 漏洞挖掘与自动化构建验证结合。适合评估 AI 辅助漏洞发现的工业级落地效果，了解如何将大模型能力接入现有安全流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2116145729546973384",
+      "reader_url": "https://x.com/TheHackersNews/status/2116145729546973384",
+      "image_url": "https://pbs.twimg.com/media/HV4PUmVbsAAZb3S.png",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-30T12:30:32",
+      "first_seen_at": "2026-10-30T13:48:50.678572",
       "sub_category_label": "漏洞挖掘"
     }
   ]
