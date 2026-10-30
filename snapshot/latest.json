@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T12:08:36+08:00",
+  "updated_at": "2026-10-30T13:10:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 22811,
@@ -168,26 +168,6 @@
       "published_at": "2026-10-29T15:57:37",
       "first_seen_at": "2026-10-29T18:12:17.791545",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 23411,
-      "title": "Meta分享JiTTesting：用LLM在生产环境即时捕获Bug",
-      "original_title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
-      "summary": "Meta工程团队分享了其基于大模型的即时测试生成方法（JiTTests）在生产环境的部署结果，该方法采用人在回路模式，在代码落地前即时发现缺陷。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 78.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是科技巨头将 LLM 用于自动化代码测试和 Bug 捕获的罕见大规模生产实践。对做自动化漏洞挖掘和安全 Agent 的团队极具参考价值，值得了解其工程化落地的真实效果与挑战。",
-      "source_id": "meta-engineering",
-      "canonical_url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale",
-      "reader_url": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-29T16:00:12",
-      "first_seen_at": "2026-10-29T16:56:30.037057",
-      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 22754,
