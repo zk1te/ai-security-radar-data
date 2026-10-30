@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T11:08:24+08:00",
+  "updated_at": "2026-10-30T12:08:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 22811,
@@ -63,6 +63,26 @@
       "published_at": "2026-10-28T04:00:00",
       "first_seen_at": "2026-10-30T02:41:40.253104",
       "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 23637,
+      "title": "破坏安卓最后恢复边界：恶意APK到零点击MMS PDoS",
+      "original_title": "Breaking Android's Last Recovery Boundary: From Malicious APK Resources to Zero-Click MMS PDoS",
+      "summary": "研究人员利用 Fuzzing 发现 Android 特权组件解析恶意 APK 资源时的缺陷，可绕过安全模式实现零点击 MMS 永久拒绝服务，共获 18 个 CVE。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 90.25,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "展示了如何通过 Fuzzing 挖掘 Android 资源解析深层漏洞并绕过系统恢复机制，漏洞挖掘和移动安全人员值得跟进其攻击面分析手法。",
+      "source_id": "blackhat-public-sessions",
+      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#breaking-android-s-last-recovery-boundary-from-malicious-apk-resources-to-zero-click-mms-pdos-55640",
+      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#breaking-android-s-last-recovery-boundary-from-malicious-apk-resources-to-zero-click-mms-pdos-55640",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-12-10T22:30:00",
+      "first_seen_at": "2026-10-30T04:06:43.525439",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 22581,
