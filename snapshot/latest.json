@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-30T17:11:12+08:00",
+  "updated_at": "2026-10-30T18:11:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 22113,
@@ -122,6 +122,31 @@
       "author": null,
       "published_at": "2026-10-28T04:00:00",
       "first_seen_at": "2026-10-30T02:41:40.253104",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 23733,
+      "title": "Anthropic 披露 Go 1.24+ 默认配置引发 Linux 内核远程 Root 漏洞",
+      "original_title": "🚨 Go warns: Go 1.24+ apps on Linux accept multipath TCP connections by default.  That's what Anthropic's remote root exploit for Linux kernel flaw CVE-2026-98432 targeted.  Stopgap",
+      "summary": "Anthropic 披露针对 Linux 内核 MPTCP 漏洞 CVE-2026-98432 的远程 root exploit，该漏洞影响默认开启 multipath TCP 的 Go 1.24+ 应用，可通过设置 GODEBUG=multipathtcp=0 临时缓解。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 86.6,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic 发现的高危内核漏洞直击 Go 服务端，安全团队需立即排查并应用 GODEBUG 缓解。这也展示了 AI 辅助挖掘在复杂内核漏洞上的实战威力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2116090860412817588",
+      "reader_url": "https://x.com/TheHackersNews/status/2116090860412817588",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-30T08:52:30",
+      "first_seen_at": "2026-10-30T09:49:33.112528",
       "sub_category_label": "漏洞挖掘"
     },
     {
