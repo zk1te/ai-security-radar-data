@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T05:51:04+08:00",
+  "updated_at": "2026-10-31T09:51:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -145,29 +145,24 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 23806,
-      "title": "Chainguard Harness 结合 Mythos 5.1 自动挖掘应用可利用漏洞",
-      "original_title": "No Mythos access? You can now hunt for first and third-party exploitable vulnerabilities in your applications using Chainguard Harness.  Chainguard Harness builds your app from sou",
-      "summary": "Chainguard Harness 从源码隔离构建应用，利用 Mythos 5.1 自动挖掘第一方和第三方可利用漏洞。每个发现均可复现并提供修复建议，经工程师审核。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 80.02,
+      "id": 21972,
+      "title": "让LLM学会被监控：CoT可监控性的因果边界与后训练策略",
+      "original_title": "Learning to Be Monitored: Causal Bounds and Intervention-Aware Post-Training Recipes for Chain-of-Thought Monitorability",
+      "summary": "本文指出传统CoT监控评测指标会高估因果检测率，提出了更紧密的因果边界评估框架，并通过三种后训练方法成功提升了模型思维链的可监控性，代码已开源。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 78.4,
       "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可直接关注此工具，它将 AI 漏洞挖掘与自动化构建验证结合。适合评估 AI 辅助漏洞发现的工业级落地效果，了解如何将大模型能力接入现有安全流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2116145729546973384",
-      "reader_url": "https://x.com/TheHackersNews/status/2116145729546973384",
-      "image_url": "https://pbs.twimg.com/media/HV4PUmVbsAAZb3S.png",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-30T12:30:32",
-      "first_seen_at": "2026-10-30T13:48:50.678572",
-      "sub_category_label": "漏洞挖掘"
+      "item_type": "paper",
+      "recommendation_reason": "做模型对齐和安全监控的人员必看。文章不仅指出了现有CoT监控指标的缺陷，还给出了让模型主动「暴露」思维过程的后训练配方，对防御侧构建可靠的AI监控管线有直接参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.31733",
+      "reader_url": "https://arxiv.org/pdf/2610.31733",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T14:41:51.222550",
+      "sub_category_label": null
     }
   ]
 }
