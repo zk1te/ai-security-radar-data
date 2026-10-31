@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T20:24:33+08:00",
+  "updated_at": "2026-10-31T21:24:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -175,29 +175,24 @@
       "sub_category_label": null
     },
     {
-      "id": 24133,
-      "title": "AI 模型 53 分钟自主开发出 Linux MPTCP 远程 Root 利用",
-      "original_title": "An AI model developed a working remote root exploit for CVE-2026-98432 in 53 minutes — targeting a use-after-free race condition in the Linux kernel's MPTCP stack, no authenticatio",
-      "summary": "某 AI 模型在 53 分钟内完成针对 Linux 内核 MPTCP 栈 UAF 竞争条件漏洞（CVE-2026-98432）的可用远程 Root 利用，无需认证；Go 1.24+ 默认启用 MPTCP 进一步扩大了攻击面。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.01,
+      "id": 21378,
+      "title": "轻量级编码Agent评测：harness与模型配对影响巨大",
+      "original_title": "Pairing Matters: Performance, Failures, and Efficiency in Lightweight Coding Agents",
+      "summary": "论文在SWE-bench上对6种开源harness和3个轻量级模型进行全因子评测，发现相同模型在不同harness下解决率相差达44个百分点，且失败模式和token效率差异极大，强调harness-model配对是部署的关键决策。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 72.9,
       "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "直接展示了 AI 从漏洞分析到 weaponization 的闭环能力，安全团队应立即排查 MPTCP 暴露面并评估 egress 控制策略，同时重新评估 AI 辅助漏洞挖掘对自身防御体系的冲击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2116320094909349953",
-      "reader_url": "https://x.com/aviatrixtrc/status/2116320094909349953",
+      "item_type": "paper",
+      "recommendation_reason": "做安全Agent的同学必看：选错harness会让模型表现暴跌44%。别只盯模型跑分，配对选择才是落地胜负手，论文附带开源实验数据可直接用作选型参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.32131",
+      "reader_url": "https://arxiv.org/pdf/2610.32131",
       "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-10-31T00:03:24",
-      "first_seen_at": "2026-10-31T01:04:31.490064",
-      "sub_category_label": "漏洞挖掘"
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": "模型评测"
     }
   ]
 }
