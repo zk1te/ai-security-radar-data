@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T00:25:41+08:00",
+  "updated_at": "2026-11-01T01:56:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -48,31 +48,6 @@
       "published_at": "2026-10-31T08:38:41",
       "first_seen_at": "2026-10-31T09:56:26.129210",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 24232,
-      "title": "多国传统金融机构遭大规模AI辅助网络攻击",
-      "original_title": "At least it’s not just crypto.   Multiple traditional finance (TradFi) banks and financial institutions have been hit by cyberattacks in recent weeks, especially in October 2026.  ",
-      "summary": "2026年10月，美韩印等多国传统金融机构遭到利用ARTEX渗透框架及Claude等大模型的AI辅助攻击，导致大量数据泄露和API欺诈。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 76.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻击者正将开源渗透框架与大模型结合加速侦察和漏洞利用，黑产自动化水平显著提升。防御方需重点审计外围系统和API安全，并跟踪ARTEX等工具的实战动向。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/JDP_1175/status/2116400209252995295",
-      "reader_url": "https://x.com/JDP_1175/status/2116400209252995295",
-      "image_url": null,
-      "author": {
-        "username": "JDP_1175",
-        "name": "JSON",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-31T05:21:45",
-      "first_seen_at": "2026-10-31T05:32:33.133025",
-      "sub_category_label": null
     },
     {
       "id": 21338,
@@ -131,6 +106,26 @@
       "image_url": null,
       "author": null,
       "published_at": "2026-10-31T04:00:00",
+      "first_seen_at": "2026-10-31T14:42:30.703015",
+      "sub_category_label": null
+    },
+    {
+      "id": 24032,
+      "title": "AI安全与能力冲突下的彩票模型选择研究",
+      "original_title": "Learning Lotteries with Minimal Stakeholder Violations from Membership Queries",
+      "summary": "本文将AI系统部署中安全性与实用性冲突建模为多智能体彩票选择问题，通过成员查询最小化不满足安全要求的利益相关者数量，并给出了算法与复杂度界限。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "safety_alignment",
+      "score_total": 70.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这篇纯理论文章把AI安全与能力的冲突变成了数学优化问题。对研究红队或安全评测的从业者，它提供了一种量化安全妥协的理论视角，但落地价值有限。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.37828",
+      "reader_url": "https://arxiv.org/pdf/2610.37828",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-30T04:00:00",
       "first_seen_at": "2026-10-31T14:42:30.703015",
       "sub_category_label": null
     }
