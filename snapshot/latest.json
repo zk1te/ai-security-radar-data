@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T16:53:26+08:00",
+  "updated_at": "2026-10-31T17:53:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -174,29 +174,29 @@
       "sub_category_label": null
     },
     {
-      "id": 24005,
-      "title": "用 AI Agent 逆向路由器并开源网络监控工具 Bastion",
-      "original_title": "i reverse engineered my Wi-Fi router with Claude Opus 5.5 and found a f*cking scary privacy problem...  every site I opened, my provider saw it. no encryption. just a readable list",
-      "summary": "开发者利用 Claude Code 自动化逆向 Wi-Fi 路由器，发现 DNS 明文等隐私问题，随后构建了开源多 Agent 网络监控工具 Bastion，可扫描 12 个常见路由器入口点并提供安全建议。",
+      "id": 24133,
+      "title": "AI 模型 53 分钟自主开发出 Linux MPTCP 远程 Root 利用",
+      "original_title": "An AI model developed a working remote root exploit for CVE-2026-98432 in 53 minutes — targeting a use-after-free race condition in the Linux kernel's MPTCP stack, no authenticatio",
+      "summary": "某 AI 模型在 53 分钟内完成针对 Linux 内核 MPTCP 栈 UAF 竞争条件漏洞（CVE-2026-98432）的可用远程 Root 利用，无需认证；Go 1.24+ 默认启用 MPTCP 进一步扩大了攻击面。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.35,
+      "sub_category": "vuln_discovery",
+      "score_total": 73.01,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "展示了 AI 在终端安全工具开发中的实战能力。从漏洞挖掘到自动化防护工具生成的全流程闭环，安全人员可直接参考其多 Agent 并行架构与隐私脱敏设计，探索本地 AI 安全助手的落地模式。",
+      "recommendation_reason": "直接展示了 AI 从漏洞分析到 weaponization 的闭环能力，安全团队应立即排查 MPTCP 暴露面并评估 egress 控制策略，同时重新评估 AI 辅助漏洞挖掘对自身防御体系的冲击。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xCodez/status/2116277697563234432",
-      "reader_url": "https://x.com/0xCodez/status/2116277697563234432",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2116276405390417920/img/D5wMlSOj0ATuRP7b.jpg",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2116320094909349953",
+      "reader_url": "https://x.com/aviatrixtrc/status/2116320094909349953",
+      "image_url": null,
       "author": {
-        "username": "0xCodez",
-        "name": "Codez",
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
         "avatar_url": null,
-        "followers_count": 0
+        "followers_count": 1977
       },
-      "published_at": "2026-10-30T21:14:56",
-      "first_seen_at": "2026-10-30T21:37:46.866873",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-10-31T00:03:24",
+      "first_seen_at": "2026-10-31T01:04:31.490064",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
