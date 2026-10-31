@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T17:53:54+08:00",
+  "updated_at": "2026-10-31T18:24:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -83,6 +83,31 @@
       "published_at": "2026-10-26T04:00:00",
       "first_seen_at": "2026-10-31T02:42:06.457779",
       "sub_category_label": null
+    },
+    {
+      "id": 24265,
+      "title": "Linux内核TCP高危漏洞曝光，Anthropic演示Root提权利用",
+      "original_title": "RT @TheHackersNews: ‼️ Linux kernel TCP flaw rated 9.8 CVSS.  Anthropic demonstrated an exploit that runs commands as root on servers using…",
+      "summary": "Linux内核TCP协议栈存在CVSS 9.8的高危漏洞，Anthropic展示了可利用该漏洞在服务器上以root权限执行命令的 exploit。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic亲自下场演示高危内核漏洞利用，直接证明AI在漏洞挖掘与利用生成上的实战能力。安全团队应紧密追踪AI漏洞发现工具的演进与产业落地。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2116449767815602681",
+      "reader_url": "https://x.com/TheHackersNews/status/2116449767815602681",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-31T08:38:41",
+      "first_seen_at": "2026-10-31T09:56:26.129210",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 21388,
@@ -172,31 +197,6 @@
       "published_at": "2026-10-26T04:00:00",
       "first_seen_at": "2026-10-31T02:42:06.457779",
       "sub_category_label": null
-    },
-    {
-      "id": 24133,
-      "title": "AI 模型 53 分钟自主开发出 Linux MPTCP 远程 Root 利用",
-      "original_title": "An AI model developed a working remote root exploit for CVE-2026-98432 in 53 minutes — targeting a use-after-free race condition in the Linux kernel's MPTCP stack, no authenticatio",
-      "summary": "某 AI 模型在 53 分钟内完成针对 Linux 内核 MPTCP 栈 UAF 竞争条件漏洞（CVE-2026-98432）的可用远程 Root 利用，无需认证；Go 1.24+ 默认启用 MPTCP 进一步扩大了攻击面。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.01,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "直接展示了 AI 从漏洞分析到 weaponization 的闭环能力，安全团队应立即排查 MPTCP 暴露面并评估 egress 控制策略，同时重新评估 AI 辅助漏洞挖掘对自身防御体系的冲击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2116320094909349953",
-      "reader_url": "https://x.com/aviatrixtrc/status/2116320094909349953",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-10-31T00:03:24",
-      "first_seen_at": "2026-10-31T01:04:31.490064",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
