@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T04:57:16+08:00",
+  "updated_at": "2026-11-01T05:57:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 5,
@@ -23,31 +23,6 @@
       "published_at": "2026-10-31T04:00:00",
       "first_seen_at": "2026-10-31T14:42:30.703015",
       "sub_category_label": null
-    },
-    {
-      "id": 24265,
-      "title": "Linux内核TCP高危漏洞曝光，Anthropic演示Root提权利用",
-      "original_title": "RT @TheHackersNews: ‼️ Linux kernel TCP flaw rated 9.8 CVSS.  Anthropic demonstrated an exploit that runs commands as root on servers using…",
-      "summary": "Linux内核TCP协议栈存在CVSS 9.8的高危漏洞，Anthropic展示了可利用该漏洞在服务器上以root权限执行命令的 exploit。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 77.25,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "Anthropic亲自下场演示高危内核漏洞利用，直接证明AI在漏洞挖掘与利用生成上的实战能力。安全团队应紧密追踪AI漏洞发现工具的演进与产业落地。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2116449767815602681",
-      "reader_url": "https://x.com/TheHackersNews/status/2116449767815602681",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-31T08:38:41",
-      "first_seen_at": "2026-10-31T09:56:26.129210",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 21243,
@@ -107,6 +82,26 @@
       "author": null,
       "published_at": "2026-10-26T04:00:00",
       "first_seen_at": "2026-10-31T14:42:30.703015",
+      "sub_category_label": null
+    },
+    {
+      "id": 21282,
+      "title": "多智能体LLM系统通信失败模式分析",
+      "original_title": "Understanding Communication Failures in Multi-Agent LLM Systems",
+      "summary": "该论文基于3000多条失败轨迹构建了多智能体LLM系统的通信失败分类法，发现多数错误源于恢复和共识决策问题而非首轮失误。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 73.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "构建安全自动化Agent时，必须关注多智能体协同中的共识陷阱。本文揭示了Agent过早收敛和压制少数正确答案的风险，为设计高可靠安全Agent提供了避坑指南。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.32060",
+      "reader_url": "https://arxiv.org/pdf/2610.32060",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T20:42:51.997570",
       "sub_category_label": null
     }
   ]
