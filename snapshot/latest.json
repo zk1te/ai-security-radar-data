@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T22:55:18+08:00",
+  "updated_at": "2026-11-01T00:25:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 24184,
@@ -108,6 +108,26 @@
       "source_id": "arxiv-ai-security",
       "canonical_url": "https://arxiv.org/abs/2610.38398",
       "reader_url": "https://arxiv.org/pdf/2610.38398",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-31T04:00:00",
+      "first_seen_at": "2026-10-31T14:42:30.703015",
+      "sub_category_label": null
+    },
+    {
+      "id": 24207,
+      "title": "SkillCT：无需执行的 Agent 技能多维质量评估基准",
+      "original_title": "SkillCT: A Multidimensional Benchmark and Execution-Free Baseline for Agent Skill Assessment",
+      "summary": "提出 SkillCT 评估基准，从静态规范、动态行为鲁棒性和人机辅助一致性九个维度评估 Agent 技能质量，并提供无需执行的基线预测方法，降低评估成本并支持技能优化。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security | model_evaluation",
+      "score_total": 71.2,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "关注 Agent 技能包（含脚本、资源）安全与鲁棒性的读者必看。它为评估第三方 Agent 技能的「责任边界」与「行为稳定性」提供了可落地的无执行评估思路，能有效防范供应链风险。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.38147",
+      "reader_url": "https://arxiv.org/pdf/2610.38147",
       "image_url": null,
       "author": null,
       "published_at": "2026-10-31T04:00:00",
