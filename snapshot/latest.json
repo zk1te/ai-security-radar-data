@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-31T09:51:29+08:00",
+  "updated_at": "2026-10-31T10:51:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 10,
   "items": [
     {
       "id": 21863,
@@ -25,6 +25,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 21809,
+      "title": "Δτ-Bench：评估 Agent 在动态工具生态下的自适应能力",
+      "original_title": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+      "summary": "论文提出 Δτ-Bench，模拟工具生态演化下 Agent 的适应性评测，发现最强模型成功率仅 42.3%，并推出 Steward 管理器以动态维护技能提升适应力。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent | model_evaluation",
+      "score_total": 86.25,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全自动化严重依赖外部工具 API，环境一变 Agent 就废。这篇论文的动态评测思路和技能维护方法直击痛点，做安全 Agent 的团队必看。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.34238",
+      "reader_url": "https://arxiv.org/pdf/2610.34238",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
       "id": 21865,
       "title": "LLM在安全运营中心落地的ROI经济模型评估",
       "original_title": "From Hype to ROI: An Economic Model for LLM Adoption in Information Systems and Security Operations",
@@ -43,6 +63,46 @@
       "published_at": "2026-10-27T04:00:00",
       "first_seen_at": "2026-10-30T20:42:01.351902",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 21375,
+      "title": "LLM生成形式化规范的可靠性研究：错误代码会导致误导性验证通过",
+      "original_title": "Are LLM-Generated Formal Specifications Faithful to Their Requirements? A Study on Bimodal Formal Specification Generation",
+      "summary": "该论文研究了 LLM 在双峰设置（代码和需求同时输入）下生成形式化规范的表现，发现当输入代码本身存在错误时，LLM 会生成弱规范或被误导的规范，导致错误地通过验证，揭示了当前 LLM 形式化验证的盲区。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 85.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "代码审计和形式化验证从业者必看。研究揭示了 LLM 辅助验证时可能因错误代码产生「自欺欺人」的弱规范，提醒在构建自动化代码审计 Agent 时不能盲目信任 LLM 生成的验证规范，需增加需求一致性校验。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.32053",
+      "reader_url": "https://arxiv.org/pdf/2610.32053",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
+      "id": 21394,
+      "title": "CuraLoc：基于预规划代码检查的仓库级缺陷定位",
+      "original_title": "CuraLoc: Repository-Level Fault Localization via Planned Code Inspection",
+      "summary": "CuraLoc 提出通过预先规划代码检查来进行仓库级缺陷定位，在单次规划中决定起始符号和代码关系，减少 90% 的 token 消耗并提升了 SWE-Bench 上的定位准确率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fault_localization",
+      "score_total": 85.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 代码审计和漏洞修复的人该看，它证明代码库导航不一定要多轮交互。单次规划加确定检索能省九成 Token 还提精度，可直接借鉴优化现有安全 Agent。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.31809",
+      "reader_url": "https://arxiv.org/pdf/2610.31809",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
     },
     {
       "id": 21875,
@@ -85,6 +145,26 @@
       "sub_category_label": null
     },
     {
+      "id": 21398,
+      "title": "结合模型检查器与 LLM 自动修复 RISC-V 处理器多行 Bug",
+      "original_title": "Automated Multi-Line Bug Repair Using Model Checker Aided LLMs: A Case Study on RISC-V Processors",
+      "summary": "本文提出一种结合 LLM、断言和模型检查器（JasperGold）的自动化 RTL bug 修复方法，在 RISC-V 核心上实现了 93% 的多行 bug 修复率，首次展示了可扩展的处理器设计自动化修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_repair",
+      "score_total": 83.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全验证团队必看。论文展示了 LLM 结合形式化验证在 RTL 多行 Bug 修复上的高准确率，为自动化代码审计与补丁生成提供了可落地的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.32597",
+      "reader_url": "https://arxiv.org/pdf/2610.32597",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
       "id": 21858,
       "title": "量子与经典机器学习入侵检测多数据集基准测试",
       "original_title": "Benchmarking Classical and Quantum Machine Learning for Intrusion Detection Across Multiple Datasets",
@@ -105,26 +185,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 21913,
-      "title": "Agent 介导访问如何重塑 Web 漏洞利用研究",
-      "original_title": "The Agent in the Middle: How AI-Mediated Access Reshapes Web Vulnerability Exploitation",
-      "summary": "提出 VELA 基准测试 44 个 Web 漏洞在 Agent 介导下的可利用性，发现接口设计比模型选择影响更大，91% 漏洞仍可利用，甚至 Agent 会主动补全攻击所需调用。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_benchmark",
-      "score_total": 81.35,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "安全研究员和 Agent 开发者必看。研究揭示接口设计而非模型本身决定了 Web 漏洞在 Agent 场景下的可利用性，甚至 Agent 会自行补全攻击调用，为收敛 Agent 接口攻击面提供了量化依据。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.35541",
-      "reader_url": "https://arxiv.org/pdf/2610.35541",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-27T04:00:00",
-      "first_seen_at": "2026-10-30T14:41:51.222550",
-      "sub_category_label": null
-    },
-    {
       "id": 21878,
       "title": "RALE：多代码表示集成提升 LLM 漏洞检测，F1 从 73% 升至 78%",
       "original_title": "Enhancing LLM-Based Vulnerability Detection via Representation-Aware Logical Ensemble",
@@ -143,26 +203,6 @@
       "published_at": "2026-10-27T04:00:00",
       "first_seen_at": "2026-10-30T20:42:01.351902",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 21972,
-      "title": "让LLM学会被监控：CoT可监控性的因果边界与后训练策略",
-      "original_title": "Learning to Be Monitored: Causal Bounds and Intervention-Aware Post-Training Recipes for Chain-of-Thought Monitorability",
-      "summary": "本文指出传统CoT监控评测指标会高估因果检测率，提出了更紧密的因果边界评估框架，并通过三种后训练方法成功提升了模型思维链的可监控性，代码已开源。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_security",
-      "score_total": 78.4,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做模型对齐和安全监控的人员必看。文章不仅指出了现有CoT监控指标的缺陷，还给出了让模型主动「暴露」思维过程的后训练配方，对防御侧构建可靠的AI监控管线有直接参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.31733",
-      "reader_url": "https://arxiv.org/pdf/2610.31733",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-27T04:00:00",
-      "first_seen_at": "2026-10-30T14:41:51.222550",
-      "sub_category_label": null
     }
   ]
 }
