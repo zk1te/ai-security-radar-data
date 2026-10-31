@@ -1,0 +1,1455 @@
+{
+  "date": "2026-10-31",
+  "candidate_count": 24,
+  "selected_count": 3,
+  "cover_title": "自主网络防御Agent对齐：测试时自适应策略塑形",
+  "lead_takeaway": "今天的主线是安全Agent从实验环境走向真实业务时的实战适应性与经济账。从测试时动态塑形防御策略、应对工具生态变化的适应力评测，到直击LLM进SOC的ROI评估，全都在解决安全自动化落地时如何不掉链子、不亏本的硬核问题。",
+  "digest_points": [
+    "01 做安全Agent和防御自动化的从业者必看。文章提出无需重训即可动态调整RL防御策略的方法，解决安全与可用性冲突，且开源了基于CybORG的代码，可直接拿来参考改进。",
+    "02 安全自动化严重依赖外部工具 API，环境一变 Agent 就废。这篇论文的动态评测思路和技能维护方法直击痛点，做安全 Agent 的团队必看。",
+    "03 想把LLM塞进SOC的团队必看。文章算清了ROI账：多数场景下部署是亏本的，只有高准确度场景才盈利。决策前先拿这模型算算账，避免盲目跟风。"
+  ],
+  "judgement": [
+    "01 做安全Agent和防御自动化的从业者必看。文章提出无需重训即可动态调整RL防御策略的方法，解决安全与可用性冲突，且开源了基于CybORG的代码，可直接拿来参考改进。",
+    "02 安全自动化严重依赖外部工具 API，环境一变 Agent 就废。这篇论文的动态评测思路和技能维护方法直击痛点，做安全 Agent 的团队必看。",
+    "03 想把LLM塞进SOC的团队必看。文章算清了ROI账：多数场景下部署是亏本的，只有高准确度场景才盈利。决策前先拿这模型算算账，避免盲目跟风。"
+  ],
+  "top_items": [
+    {
+      "id": 21863,
+      "title": "自主网络防御Agent对齐：测试时自适应策略塑形",
+      "original_title": "Alignment of Autonomous Cyber Defense Agents via Adaptive Policy Shaping",
+      "summary": "本文提出在测试时利用自适应策略塑形对齐基于强化学习的网络防御Agent，无需重训练即可在攻防中动态平衡安全性与可用性等运营目标。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 86.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做安全Agent和防御自动化的从业者必看。文章提出无需重训即可动态调整RL防御策略的方法，解决安全与可用性冲突，且开源了基于CybORG的代码，可直接拿来参考改进。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33234",
+      "reader_url": "https://arxiv.org/pdf/2610.33234",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21809,
+      "title": "Δτ-Bench：评估 Agent 在动态工具生态下的自适应能力",
+      "original_title": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+      "summary": "论文提出 Δτ-Bench，模拟工具生态演化下 Agent 的适应性评测，发现最强模型成功率仅 42.3%，并推出 Steward 管理器以动态维护技能提升适应力。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent | model_evaluation",
+      "score_total": 86.25,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全自动化严重依赖外部工具 API，环境一变 Agent 就废。这篇论文的动态评测思路和技能维护方法直击痛点，做安全 Agent 的团队必看。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.34238",
+      "reader_url": "https://arxiv.org/pdf/2610.34238",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
+      "id": 21865,
+      "title": "LLM在安全运营中心落地的ROI经济模型评估",
+      "original_title": "From Hype to ROI: An Economic Model for LLM Adoption in Information Systems and Security Operations",
+      "summary": "本文提出一个评估LLM在安全运营中心投资回报率的经济模型，通过蒙特卡洛模拟发现多数部署配置并不盈利，盈利仅限于高准确度场景，自动化能力是受准确度制约的关键杠杆。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 86.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "想把LLM塞进SOC的团队必看。文章算清了ROI账：多数场景下部署是亏本的，只有高准确度场景才盈利。决策前先拿这模型算算账，避免盲目跟风。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33352",
+      "reader_url": "https://arxiv.org/pdf/2610.33352",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": "安全评测与Benchmark"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 21375,
+      "title": "LLM生成形式化规范的可靠性研究：错误代码会导致误导性验证通过",
+      "original_title": "Are LLM-Generated Formal Specifications Faithful to Their Requirements? A Study on Bimodal Formal Specification Generation",
+      "summary": "该论文研究了 LLM 在双峰设置（代码和需求同时输入）下生成形式化规范的表现，发现当输入代码本身存在错误时，LLM 会生成弱规范或被误导的规范，导致错误地通过验证，揭示了当前 LLM 形式化验证的盲区。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 85.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "代码审计和形式化验证从业者必看。研究揭示了 LLM 辅助验证时可能因错误代码产生「自欺欺人」的弱规范，提醒在构建自动化代码审计 Agent 时不能盲目信任 LLM 生成的验证规范，需增加需求一致性校验。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.32053",
+      "reader_url": "https://arxiv.org/pdf/2610.32053",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
+      "id": 21394,
+      "title": "CuraLoc：基于预规划代码检查的仓库级缺陷定位",
+      "original_title": "CuraLoc: Repository-Level Fault Localization via Planned Code Inspection",
+      "summary": "CuraLoc 提出通过预先规划代码检查来进行仓库级缺陷定位，在单次规划中决定起始符号和代码关系，减少 90% 的 token 消耗并提升了 SWE-Bench 上的定位准确率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fault_localization",
+      "score_total": 85.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 代码审计和漏洞修复的人该看，它证明代码库导航不一定要多轮交互。单次规划加确定检索能省九成 Token 还提精度，可直接借鉴优化现有安全 Agent。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.31809",
+      "reader_url": "https://arxiv.org/pdf/2610.31809",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
+      "id": 21875,
+      "title": "VulDec：基于神经反编译的二进制漏洞检测",
+      "original_title": "VulDec: Vulnerability Detection in Binaries via Neural Decompilation",
+      "summary": "论文提出 VulDec 框架及配套汇编-C语言对齐数据集，通过调优 LLM 神经反编译器恢复源码级语义，进而实现端到端二进制漏洞检测，真实测试集上达到 0.61 宏 F1。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 84.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "将神经反编译与漏洞检测结合的思路对闭源二进制审计非常有价值。提供了新数据集和端到端框架，做二进制安全和漏洞挖掘的团队可以直接参考其方法和指标基准。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33716",
+      "reader_url": "https://arxiv.org/pdf/2610.33716",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 21869,
+      "title": "SecGent：推理时结合 CWE 上下文的安全代码生成框架",
+      "original_title": "Secure and Functional Code Generation with Self-Evaluation",
+      "summary": "论文提出 SecGent，一种在推理时利用 CWE 数据库上下文引导 LLM 生成安全且功能完备代码的框架。通过功能和安全性测试反馈指导修复，在 CWEval 评测中显著提升功能-安全联合成功率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "secure_code_generation",
+      "score_total": 83.8,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队和代码审计人员必看。它演示了如何在不微调模型的前提下，用 CWE 知识+测试反馈让 LLM 写出更安全的代码。你可以直接借鉴这套思路，优化内部安全编码助手或代码审计流水线。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33450",
+      "reader_url": "https://arxiv.org/pdf/2610.33450",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": null
+    },
+    {
+      "id": 21398,
+      "title": "结合模型检查器与 LLM 自动修复 RISC-V 处理器多行 Bug",
+      "original_title": "Automated Multi-Line Bug Repair Using Model Checker Aided LLMs: A Case Study on RISC-V Processors",
+      "summary": "本文提出一种结合 LLM、断言和模型检查器（JasperGold）的自动化 RTL bug 修复方法，在 RISC-V 核心上实现了 93% 的多行 bug 修复率，首次展示了可扩展的处理器设计自动化修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_repair",
+      "score_total": 83.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全验证团队必看。论文展示了 LLM 结合形式化验证在 RTL 多行 Bug 修复上的高准确率，为自动化代码审计与补丁生成提供了可落地的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.32597",
+      "reader_url": "https://arxiv.org/pdf/2610.32597",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
+      "id": 21858,
+      "title": "量子与经典机器学习入侵检测多数据集基准测试",
+      "original_title": "Benchmarking Classical and Quantum Machine Learning for Intrusion Detection Across Multiple Datasets",
+      "summary": "该论文在三个入侵检测数据集上对比了经典与量子机器学习模型，发现量子模型更依赖特征表示，量子感知特征选择可提升其在干净数据集上的表现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 83.0,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "评估量子机器学习在入侵检测中的实用性，为安全团队前瞻性评估下一代AI检测算法提供基准参考，量子感知特征选择或是优化方向。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33119",
+      "reader_url": "https://arxiv.org/pdf/2610.33119",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 21878,
+      "title": "RALE：多代码表示集成提升 LLM 漏洞检测，F1 从 73% 升至 78%",
+      "original_title": "Enhancing LLM-Based Vulnerability Detection via Representation-Aware Logical Ensemble",
+      "summary": "论文提出 RALE 方法，将基于源码、AST、CFG 三种代码表示训练的 LLM 通过逻辑规则与多数投票集成，利用不同表示对不同漏洞类型的互补优势，在 C 代码漏洞检测中 F1 从单模型的 73% 提升至 78%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 80.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计和漏洞挖掘的团队该看——核心洞察是不同漏洞类型适配不同代码表示，单一输入格式会丢信息。可立刻尝试在自家 pipeline 中对 AST 和 CFG 表示做多路投票，成本不高但增益明显。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33756",
+      "reader_url": "https://arxiv.org/pdf/2610.33756",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 21863,
+        "title": "自主网络防御Agent对齐：测试时自适应策略塑形",
+        "original_title": "Alignment of Autonomous Cyber Defense Agents via Adaptive Policy Shaping",
+        "summary": "本文提出在测试时利用自适应策略塑形对齐基于强化学习的网络防御Agent，无需重训练即可在攻防中动态平衡安全性与可用性等运营目标。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 86.6,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做安全Agent和防御自动化的从业者必看。文章提出无需重训即可动态调整RL防御策略的方法，解决安全与可用性冲突，且开源了基于CybORG的代码，可直接拿来参考改进。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.33234",
+        "reader_url": "https://arxiv.org/pdf/2610.33234",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T04:00:00",
+        "first_seen_at": "2026-10-30T20:42:01.351902",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 21865,
+        "title": "LLM在安全运营中心落地的ROI经济模型评估",
+        "original_title": "From Hype to ROI: An Economic Model for LLM Adoption in Information Systems and Security Operations",
+        "summary": "本文提出一个评估LLM在安全运营中心投资回报率的经济模型，通过蒙特卡洛模拟发现多数部署配置并不盈利，盈利仅限于高准确度场景，自动化能力是受准确度制约的关键杠杆。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 86.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "想把LLM塞进SOC的团队必看。文章算清了ROI账：多数场景下部署是亏本的，只有高准确度场景才盈利。决策前先拿这模型算算账，避免盲目跟风。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.33352",
+        "reader_url": "https://arxiv.org/pdf/2610.33352",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T04:00:00",
+        "first_seen_at": "2026-10-30T20:42:01.351902",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 21375,
+        "title": "LLM生成形式化规范的可靠性研究：错误代码会导致误导性验证通过",
+        "original_title": "Are LLM-Generated Formal Specifications Faithful to Their Requirements? A Study on Bimodal Formal Specification Generation",
+        "summary": "该论文研究了 LLM 在双峰设置（代码和需求同时输入）下生成形式化规范的表现，发现当输入代码本身存在错误时，LLM 会生成弱规范或被误导的规范，导致错误地通过验证，揭示了当前 LLM 形式化验证的盲区。",
+        "primary_category": "AI for Sec",
+        "sub_category": "formal_verification",
+        "score_total": 85.65,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "代码审计和形式化验证从业者必看。研究揭示了 LLM 辅助验证时可能因错误代码产生「自欺欺人」的弱规范，提醒在构建自动化代码审计 Agent 时不能盲目信任 LLM 生成的验证规范，需增加需求一致性校验。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.32053",
+        "reader_url": "https://arxiv.org/pdf/2610.32053",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-26T04:00:00",
+        "first_seen_at": "2026-10-31T02:42:06.457779",
+        "sub_category_label": null
+      },
+      {
+        "id": 21394,
+        "title": "CuraLoc：基于预规划代码检查的仓库级缺陷定位",
+        "original_title": "CuraLoc: Repository-Level Fault Localization via Planned Code Inspection",
+        "summary": "CuraLoc 提出通过预先规划代码检查来进行仓库级缺陷定位，在单次规划中决定起始符号和代码关系，减少 90% 的 token 消耗并提升了 SWE-Bench 上的定位准确率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fault_localization",
+        "score_total": 85.45,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做 AI 代码审计和漏洞修复的人该看，它证明代码库导航不一定要多轮交互。单次规划加确定检索能省九成 Token 还提精度，可直接借鉴优化现有安全 Agent。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.31809",
+        "reader_url": "https://arxiv.org/pdf/2610.31809",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-26T04:00:00",
+        "first_seen_at": "2026-10-31T02:42:06.457779",
+        "sub_category_label": null
+      },
+      {
+        "id": 21875,
+        "title": "VulDec：基于神经反编译的二进制漏洞检测",
+        "original_title": "VulDec: Vulnerability Detection in Binaries via Neural Decompilation",
+        "summary": "论文提出 VulDec 框架及配套汇编-C语言对齐数据集，通过调优 LLM 神经反编译器恢复源码级语义，进而实现端到端二进制漏洞检测，真实测试集上达到 0.61 宏 F1。",
+        "primary_category": "AI for Sec",
+        "sub_category": "binary_security",
+        "score_total": 84.65,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "将神经反编译与漏洞检测结合的思路对闭源二进制审计非常有价值。提供了新数据集和端到端框架，做二进制安全和漏洞挖掘的团队可以直接参考其方法和指标基准。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.33716",
+        "reader_url": "https://arxiv.org/pdf/2610.33716",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T04:00:00",
+        "first_seen_at": "2026-10-30T20:42:01.351902",
+        "sub_category_label": "二进制安全"
+      },
+      {
+        "id": 21869,
+        "title": "SecGent：推理时结合 CWE 上下文的安全代码生成框架",
+        "original_title": "Secure and Functional Code Generation with Self-Evaluation",
+        "summary": "论文提出 SecGent，一种在推理时利用 CWE 数据库上下文引导 LLM 生成安全且功能完备代码的框架。通过功能和安全性测试反馈指导修复，在 CWEval 评测中显著提升功能-安全联合成功率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "secure_code_generation",
+        "score_total": 83.8,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "安全团队和代码审计人员必看。它演示了如何在不微调模型的前提下，用 CWE 知识+测试反馈让 LLM 写出更安全的代码。你可以直接借鉴这套思路，优化内部安全编码助手或代码审计流水线。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.33450",
+        "reader_url": "https://arxiv.org/pdf/2610.33450",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T04:00:00",
+        "first_seen_at": "2026-10-30T20:42:01.351902",
+        "sub_category_label": null
+      },
+      {
+        "id": 21398,
+        "title": "结合模型检查器与 LLM 自动修复 RISC-V 处理器多行 Bug",
+        "original_title": "Automated Multi-Line Bug Repair Using Model Checker Aided LLMs: A Case Study on RISC-V Processors",
+        "summary": "本文提出一种结合 LLM、断言和模型检查器（JasperGold）的自动化 RTL bug 修复方法，在 RISC-V 核心上实现了 93% 的多行 bug 修复率，首次展示了可扩展的处理器设计自动化修复。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_repair",
+        "score_total": 83.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "硬件安全验证团队必看。论文展示了 LLM 结合形式化验证在 RTL 多行 Bug 修复上的高准确率，为自动化代码审计与补丁生成提供了可落地的新思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.32597",
+        "reader_url": "https://arxiv.org/pdf/2610.32597",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-26T04:00:00",
+        "first_seen_at": "2026-10-31T02:42:06.457779",
+        "sub_category_label": null
+      },
+      {
+        "id": 21858,
+        "title": "量子与经典机器学习入侵检测多数据集基准测试",
+        "original_title": "Benchmarking Classical and Quantum Machine Learning for Intrusion Detection Across Multiple Datasets",
+        "summary": "该论文在三个入侵检测数据集上对比了经典与量子机器学习模型，发现量子模型更依赖特征表示，量子感知特征选择可提升其在干净数据集上的表现。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 83.0,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "评估量子机器学习在入侵检测中的实用性，为安全团队前瞻性评估下一代AI检测算法提供基准参考，量子感知特征选择或是优化方向。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.33119",
+        "reader_url": "https://arxiv.org/pdf/2610.33119",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T04:00:00",
+        "first_seen_at": "2026-10-30T20:42:01.351902",
+        "sub_category_label": "安全评测与Benchmark"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 21378,
+        "title": "轻量级编码Agent评测：harness与模型配对影响巨大",
+        "original_title": "Pairing Matters: Performance, Failures, and Efficiency in Lightweight Coding Agents",
+        "summary": "论文在SWE-bench上对6种开源harness和3个轻量级模型进行全因子评测，发现相同模型在不同harness下解决率相差达44个百分点，且失败模式和token效率差异极大，强调harness-model配对是部署的关键决策。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 72.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做安全Agent的同学必看：选错harness会让模型表现暴跌44%。别只盯模型跑分，配对选择才是落地胜负手，论文附带开源实验数据可直接用作选型参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.32131",
+        "reader_url": "https://arxiv.org/pdf/2610.32131",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-26T04:00:00",
+        "first_seen_at": "2026-10-31T02:42:06.457779",
+        "sub_category_label": "模型评测"
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 21809,
+        "title": "Δτ-Bench：评估 Agent 在动态工具生态下的自适应能力",
+        "original_title": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+        "summary": "论文提出 Δτ-Bench，模拟工具生态演化下 Agent 的适应性评测，发现最强模型成功率仅 42.3%，并推出 Steward 管理器以动态维护技能提升适应力。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_agent | model_evaluation",
+        "score_total": 86.25,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "安全自动化严重依赖外部工具 API，环境一变 Agent 就废。这篇论文的动态评测思路和技能维护方法直击痛点，做安全 Agent 的团队必看。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2610.34238",
+        "reader_url": "https://arxiv.org/pdf/2610.34238",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T00:00:00",
+        "first_seen_at": "2026-10-31T02:42:06.457779",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 24184,
+        "title": "AI 生成智能合约的意图丢失测量与评测方法",
+        "original_title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+        "summary": "研究 AI 生成智能合约时意图丢失的评测方法，发现常见 AI 评审工具和标准分析工具会漏掉明显错误，提出先提问后编码的架构可显著减少意图偏差。论文发布了工具和 600 个任务。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "model_evaluation",
+        "score_total": 78.65,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做 AI 代码审计和安全评测的人该看——给出了可复现的合约行为评测框架和数据集，直接能用来检验 AI 生成代码的正确性和安全性，「先问后写」的思路也值得借鉴到安全 Agent 设计中。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.37830",
+        "reader_url": "https://arxiv.org/pdf/2610.37830",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-31T04:00:00",
+        "first_seen_at": "2026-10-31T14:42:30.703015",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 21388,
+        "title": "StateMirror：预执行检测编码Agent的幻觉工具调用",
+        "original_title": "StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
+        "summary": "提出 StateMirror 轻量级预执行检测器，通过 AST 和命令分析提取状态谓词，在工具执行前验证环境匹配度，有效拦截 Agent 幻觉操作并降低执行开销。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 77.25,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做安全 Agent 和自动化代码任务的人该看，工具调用幻觉是导致 Agent 跑飞和消耗 Token 的痛点。StateMirror 提供了一种在 harness 边界做确定性校验的思路，可直接借鉴到自家 Agent 防护里。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.32648",
+        "reader_url": "https://arxiv.org/pdf/2610.32648",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-26T04:00:00",
+        "first_seen_at": "2026-10-31T02:42:06.457779",
+        "sub_category_label": null
+      },
+      {
+        "id": 21879,
+        "title": "RAG投毒防御评测存在捷径：删去构造特征即致检测失效",
+        "original_title": "Ranking Is Not Deciding: Benchmark Shortcuts and Operating-Point Collapse in Query-Time RAG Poisoning Defenses",
+        "summary": "本文揭示了当前RAG投毒防御评测的高分多由数据集构造特征（如问题前缀、长度差异）造成的假象，只需微调投毒数据构造即可使防御失效，强调评测需公开构造特征与实际阈值假阳率。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 77.0,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做安全评测和Benchmark的人必看！这篇揭示了一个致命问题：高分数可能只是数据构造捷径而非真实防御能力。立刻检查你的评测集是否存在类似漏洞。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.33849",
+        "reader_url": "https://arxiv.org/pdf/2610.33849",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-27T04:00:00",
+        "first_seen_at": "2026-10-30T20:42:01.351902",
+        "sub_category_label": null
+      },
+      {
+        "id": 21395,
+        "title": "MoST：视觉语言模型模态敏感性的黑盒测试框架",
+        "original_title": "Search-Based Testing of Modality Sensitivity in Vision Language Models",
+        "summary": "本文提出 MoST 黑盒测试框架，利用多目标搜索对 VLM 进行图像、文本及联合扰动测试，发现联合小扰动即可导致模型失效，揭示了独立模态评测的局限性。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_security",
+        "score_total": 76.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "用多目标搜索做 VLM 的对抗评测，发现图像和文本的小幅联合扰动就能打挂模型。做模型安全测试和红队评测的人可以参考这种跨模态搜索思路，别只盯着单模态 fuzzing。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.32360",
+        "reader_url": "https://arxiv.org/pdf/2610.32360",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-26T04:00:00",
+        "first_seen_at": "2026-10-31T02:42:06.457779",
+        "sub_category_label": null
+      },
+      {
+        "id": 21338,
+        "title": "量化推理模型的提示遵从性：不可信来源仍可操纵 LLM",
+        "original_title": "How Much Do You Trust A Dog? Quantifying Hint-Following in Reasoning Language Models",
+        "summary": "该论文量化了 LLM 在推理任务中的阿谀奉承行为，发现即使提示来源被声明不可信或伴有警告，模型答案的对数赔率仍会发生可预测的偏移，揭示了模型对对抗性引导的脆弱性。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_security",
+        "score_total": 73.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "LLM 在客观推理任务中容易被不可信来源（甚至是一只「狗」）的提示带偏，且即使明确警告也难以校准。做安全 Agent 和自动化任务的人必须警惕这种对抗性引导风险，在工作流中加入来源可信度隔离和结果校验机制。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.32055",
+        "reader_url": "https://arxiv.org/pdf/2610.32055",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-10-26T04:00:00",
+        "first_seen_at": "2026-10-31T14:42:30.703015",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 24232,
+        "title": "多国传统金融机构遭大规模AI辅助网络攻击",
+        "original_title": "At least it’s not just crypto.   Multiple traditional finance (TradFi) banks and financial institutions have been hit by cyberattacks in recent weeks, especially in October 2026.  ",
+        "summary": "2026年10月，美韩印等多国传统金融机构遭到利用ARTEX渗透框架及Claude等大模型的AI辅助攻击，导致大量数据泄露和API欺诈。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 76.7,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "攻击者正将开源渗透框架与大模型结合加速侦察和漏洞利用，黑产自动化水平显著提升。防御方需重点审计外围系统和API安全，并跟踪ARTEX等工具的实战动向。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/JDP_1175/status/2116400209252995295",
+        "reader_url": "https://x.com/JDP_1175/status/2116400209252995295",
+        "image_url": null,
+        "author": {
+          "username": "JDP_1175",
+          "name": "JSON",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-10-31T05:21:45",
+        "first_seen_at": "2026-10-31T05:32:33.133025",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 21863,
+            "title": "自主网络防御Agent对齐：测试时自适应策略塑形",
+            "original_title": "Alignment of Autonomous Cyber Defense Agents via Adaptive Policy Shaping",
+            "summary": "本文提出在测试时利用自适应策略塑形对齐基于强化学习的网络防御Agent，无需重训练即可在攻防中动态平衡安全性与可用性等运营目标。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 86.6,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做安全Agent和防御自动化的从业者必看。文章提出无需重训即可动态调整RL防御策略的方法，解决安全与可用性冲突，且开源了基于CybORG的代码，可直接拿来参考改进。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.33234",
+            "reader_url": "https://arxiv.org/pdf/2610.33234",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 24005,
+            "title": "用 AI Agent 逆向路由器并开源网络监控工具 Bastion",
+            "original_title": "i reverse engineered my Wi-Fi router with Claude Opus 5.5 and found a f*cking scary privacy problem...  every site I opened, my provider saw it. no encryption. just a readable list",
+            "summary": "开发者利用 Claude Code 自动化逆向 Wi-Fi 路由器，发现 DNS 明文等隐私问题，随后构建了开源多 Agent 网络监控工具 Bastion，可扫描 12 个常见路由器入口点并提供安全建议。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 73.35,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "展示了 AI 在终端安全工具开发中的实战能力。从漏洞挖掘到自动化防护工具生成的全流程闭环，安全人员可直接参考其多 Agent 并行架构与隐私脱敏设计，探索本地 AI 安全助手的落地模式。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xCodez/status/2116277697563234432",
+            "reader_url": "https://x.com/0xCodez/status/2116277697563234432",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2116276405390417920/img/D5wMlSOj0ATuRP7b.jpg",
+            "author": {
+              "username": "0xCodez",
+              "name": "Codez",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-30T21:14:56",
+            "first_seen_at": "2026-10-30T21:37:46.866873",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 21865,
+            "title": "LLM在安全运营中心落地的ROI经济模型评估",
+            "original_title": "From Hype to ROI: An Economic Model for LLM Adoption in Information Systems and Security Operations",
+            "summary": "本文提出一个评估LLM在安全运营中心投资回报率的经济模型，通过蒙特卡洛模拟发现多数部署配置并不盈利，盈利仅限于高准确度场景，自动化能力是受准确度制约的关键杠杆。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 86.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "想把LLM塞进SOC的团队必看。文章算清了ROI账：多数场景下部署是亏本的，只有高准确度场景才盈利。决策前先拿这模型算算账，避免盲目跟风。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.33352",
+            "reader_url": "https://arxiv.org/pdf/2610.33352",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 21858,
+            "title": "量子与经典机器学习入侵检测多数据集基准测试",
+            "original_title": "Benchmarking Classical and Quantum Machine Learning for Intrusion Detection Across Multiple Datasets",
+            "summary": "该论文在三个入侵检测数据集上对比了经典与量子机器学习模型，发现量子模型更依赖特征表示，量子感知特征选择可提升其在干净数据集上的表现。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 83.0,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "评估量子机器学习在入侵检测中的实用性，为安全团队前瞻性评估下一代AI检测算法提供基准参考，量子感知特征选择或是优化方向。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.33119",
+            "reader_url": "https://arxiv.org/pdf/2610.33119",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 21885,
+            "title": "使用 LLM 修复 Web 应用越权漏洞：BAC-Bench 实证研究",
+            "original_title": "Repairing Broken Access Control in Web Applications with LLMs: An Empirical Benchmark Study",
+            "summary": "构建了首个针对 Web 应用越权漏洞（BAC）修复的基准 BAC-Bench，包含 46 个真实漏洞及沙箱环境。评估发现添加简单支架后 LLM 修复率显著提升，甚至意外修复了一个潜伏三年的 0day。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 77.8,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "安全工具开发者该看：这是首个针对逻辑漏洞修复的基准，揭示了基础模型在 BAC 修复上的真实边界，且「意外发现 0day」证明了 AI 修复漏洞的实战潜力。可作为评估内部安全 Agent 的参考框架。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.34290",
+            "reader_url": "https://arxiv.org/pdf/2610.34290",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 21895,
+            "title": "CyberDual：AI 攻击者与 AI 代码审查者对抗平台",
+            "original_title": "CyberDual: AI Attackers versus AI Code Reviewers in Real Software Maintenance",
+            "summary": "CyberDual 是一个让 AI 攻击者在真实开源维护代码中隐藏漏洞、AI 审查者尝试发现修复的安全评测平台，通过执行 PoC 决定胜负，实验显示当前审查者仍会漏掉约六分之一的攻击。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 76.75,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做安全 Agent 和评测的必看。这不仅是榜单，更给出了用 PoC 执行做 ground truth、跨厂商审查降低漏报等可落地的思路，并揭露了主流大模型在攻防两端的表现差异。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.34435",
+            "reader_url": "https://arxiv.org/pdf/2610.34435",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "formal_verification": {
+        "label": "formal_verification",
+        "items": [
+          {
+            "id": 21375,
+            "title": "LLM生成形式化规范的可靠性研究：错误代码会导致误导性验证通过",
+            "original_title": "Are LLM-Generated Formal Specifications Faithful to Their Requirements? A Study on Bimodal Formal Specification Generation",
+            "summary": "该论文研究了 LLM 在双峰设置（代码和需求同时输入）下生成形式化规范的表现，发现当输入代码本身存在错误时，LLM 会生成弱规范或被误导的规范，导致错误地通过验证，揭示了当前 LLM 形式化验证的盲区。",
+            "primary_category": "AI for Sec",
+            "sub_category": "formal_verification",
+            "score_total": 85.65,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "代码审计和形式化验证从业者必看。研究揭示了 LLM 辅助验证时可能因错误代码产生「自欺欺人」的弱规范，提醒在构建自动化代码审计 Agent 时不能盲目信任 LLM 生成的验证规范，需增加需求一致性校验。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.32053",
+            "reader_url": "https://arxiv.org/pdf/2610.32053",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-26T04:00:00",
+            "first_seen_at": "2026-10-31T02:42:06.457779",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "fault_localization": {
+        "label": "fault_localization",
+        "items": [
+          {
+            "id": 21394,
+            "title": "CuraLoc：基于预规划代码检查的仓库级缺陷定位",
+            "original_title": "CuraLoc: Repository-Level Fault Localization via Planned Code Inspection",
+            "summary": "CuraLoc 提出通过预先规划代码检查来进行仓库级缺陷定位，在单次规划中决定起始符号和代码关系，减少 90% 的 token 消耗并提升了 SWE-Bench 上的定位准确率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fault_localization",
+            "score_total": 85.45,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做 AI 代码审计和漏洞修复的人该看，它证明代码库导航不一定要多轮交互。单次规划加确定检索能省九成 Token 还提精度，可直接借鉴优化现有安全 Agent。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.31809",
+            "reader_url": "https://arxiv.org/pdf/2610.31809",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-26T04:00:00",
+            "first_seen_at": "2026-10-31T02:42:06.457779",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "binary_security": {
+        "label": "二进制安全",
+        "items": [
+          {
+            "id": 21875,
+            "title": "VulDec：基于神经反编译的二进制漏洞检测",
+            "original_title": "VulDec: Vulnerability Detection in Binaries via Neural Decompilation",
+            "summary": "论文提出 VulDec 框架及配套汇编-C语言对齐数据集，通过调优 LLM 神经反编译器恢复源码级语义，进而实现端到端二进制漏洞检测，真实测试集上达到 0.61 宏 F1。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 84.65,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "将神经反编译与漏洞检测结合的思路对闭源二进制审计非常有价值。提供了新数据集和端到端框架，做二进制安全和漏洞挖掘的团队可以直接参考其方法和指标基准。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.33716",
+            "reader_url": "https://arxiv.org/pdf/2610.33716",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": "二进制安全"
+          },
+          {
+            "id": 24101,
+            "title": "Simantic：支持 AI Agent 验证固件的新型模拟引擎",
+            "original_title": "HN Hot Discussion: Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+            "summary": "Simantic 推出用 Rust 编写的固件模拟器，允许 AI Agent 在无需物理硬件的情况下测试和验证固件，支持 STM32、ESP32 等主流 MCU，并提供 AI 代码审查和 CI/CD 集成。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 76.31,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做 IoT 和嵌入式安全的同学可以关注。物理设备获取成本高一直是个痛点，Simantic 提供高精度 API 模拟和 AI 验证引擎，能直接融入固件安全测试和代码审计流水线。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-10-31",
+            "reader_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-10-31",
+            "image_url": null,
+            "author": {
+              "username": "shong0504",
+              "name": "shong0504",
+              "avatar_url": null
+            },
+            "published_at": "2026-10-29T15:56:32",
+            "first_seen_at": "2026-10-31T00:21:24.810736",
+            "sub_category_label": "二进制安全"
+          }
+        ]
+      },
+      "secure_code_generation": {
+        "label": "secure_code_generation",
+        "items": [
+          {
+            "id": 21869,
+            "title": "SecGent：推理时结合 CWE 上下文的安全代码生成框架",
+            "original_title": "Secure and Functional Code Generation with Self-Evaluation",
+            "summary": "论文提出 SecGent，一种在推理时利用 CWE 数据库上下文引导 LLM 生成安全且功能完备代码的框架。通过功能和安全性测试反馈指导修复，在 CWEval 评测中显著提升功能-安全联合成功率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "secure_code_generation",
+            "score_total": 83.8,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "安全团队和代码审计人员必看。它演示了如何在不微调模型的前提下，用 CWE 知识+测试反馈让 LLM 写出更安全的代码。你可以直接借鉴这套思路，优化内部安全编码助手或代码审计流水线。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.33450",
+            "reader_url": "https://arxiv.org/pdf/2610.33450",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "vuln_repair": {
+        "label": "vuln_repair",
+        "items": [
+          {
+            "id": 21398,
+            "title": "结合模型检查器与 LLM 自动修复 RISC-V 处理器多行 Bug",
+            "original_title": "Automated Multi-Line Bug Repair Using Model Checker Aided LLMs: A Case Study on RISC-V Processors",
+            "summary": "本文提出一种结合 LLM、断言和模型检查器（JasperGold）的自动化 RTL bug 修复方法，在 RISC-V 核心上实现了 93% 的多行 bug 修复率，首次展示了可扩展的处理器设计自动化修复。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_repair",
+            "score_total": 83.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "硬件安全验证团队必看。论文展示了 LLM 结合形式化验证在 RTL 多行 Bug 修复上的高准确率，为自动化代码审计与补丁生成提供了可落地的新思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.32597",
+            "reader_url": "https://arxiv.org/pdf/2610.32597",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-26T04:00:00",
+            "first_seen_at": "2026-10-31T02:42:06.457779",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 21878,
+            "title": "RALE：多代码表示集成提升 LLM 漏洞检测，F1 从 73% 升至 78%",
+            "original_title": "Enhancing LLM-Based Vulnerability Detection via Representation-Aware Logical Ensemble",
+            "summary": "论文提出 RALE 方法，将基于源码、AST、CFG 三种代码表示训练的 LLM 通过逻辑规则与多数投票集成，利用不同表示对不同漏洞类型的互补优势，在 C 代码漏洞检测中 F1 从单模型的 73% 提升至 78%。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 80.65,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做代码审计和漏洞挖掘的团队该看——核心洞察是不同漏洞类型适配不同代码表示，单一输入格式会丢信息。可立刻尝试在自家 pipeline 中对 AST 和 CFG 表示做多路投票，成本不高但增益明显。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.33756",
+            "reader_url": "https://arxiv.org/pdf/2610.33756",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 24265,
+            "title": "Linux内核TCP高危漏洞曝光，Anthropic演示Root提权利用",
+            "original_title": "RT @TheHackersNews: ‼️ Linux kernel TCP flaw rated 9.8 CVSS.  Anthropic demonstrated an exploit that runs commands as root on servers using…",
+            "summary": "Linux内核TCP协议栈存在CVSS 9.8的高危漏洞，Anthropic展示了可利用该漏洞在服务器上以root权限执行命令的 exploit。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 77.25,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "Anthropic亲自下场演示高危内核漏洞利用，直接证明AI在漏洞挖掘与利用生成上的实战能力。安全团队应紧密追踪AI漏洞发现工具的演进与产业落地。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2116449767815602681",
+            "reader_url": "https://x.com/TheHackersNews/status/2116449767815602681",
+            "image_url": null,
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-10-31T08:38:41",
+            "first_seen_at": "2026-10-31T09:56:26.129210",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 24133,
+            "title": "AI 模型 53 分钟自主开发出 Linux MPTCP 远程 Root 利用",
+            "original_title": "An AI model developed a working remote root exploit for CVE-2026-98432 in 53 minutes — targeting a use-after-free race condition in the Linux kernel's MPTCP stack, no authenticatio",
+            "summary": "某 AI 模型在 53 分钟内完成针对 Linux 内核 MPTCP 栈 UAF 竞争条件漏洞（CVE-2026-98432）的可用远程 Root 利用，无需认证；Go 1.24+ 默认启用 MPTCP 进一步扩大了攻击面。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.01,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "直接展示了 AI 从漏洞分析到 weaponization 的闭环能力，安全团队应立即排查 MPTCP 暴露面并评估 egress 控制策略，同时重新评估 AI 辅助漏洞挖掘对自身防御体系的冲击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/aviatrixtrc/status/2116320094909349953",
+            "reader_url": "https://x.com/aviatrixtrc/status/2116320094909349953",
+            "image_url": null,
+            "author": {
+              "username": "aviatrixtrc",
+              "name": "Aviatrix Threat Research Center",
+              "avatar_url": null,
+              "followers_count": 1977
+            },
+            "published_at": "2026-10-31T00:03:24",
+            "first_seen_at": "2026-10-31T01:04:31.490064",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "knowledge_enhanced": {
+        "label": "知识增强安全",
+        "items": [
+          {
+            "id": 21881,
+            "title": "TRACE框架：基于多证据受限排序的CVE到ATT&CK映射",
+            "original_title": "CVE-to-ATT&CK Mapping via Evidence-Constrained Ranking",
+            "summary": "论文提出TRACE框架，通过融合多源异构安全证据进行受限排序，自动将CVE映射到MITRE ATT&CK技术。该方法将搜索空间缩减约60%并保持高召回率，为防御者提供更可控的敌对行为推断。",
+            "primary_category": "AI for Sec",
+            "sub_category": "knowledge_enhanced",
+            "score_total": 72.45,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做威胁情报和漏洞运营的人该看，这篇用多证据受限排序解决了CVE到ATT&CK映射的长尾和语义歧义问题。能直接借鉴其候选池构建思路，提升你们情报平台的自动化标签覆盖率。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.33924",
+            "reader_url": "https://arxiv.org/pdf/2610.33924",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": "知识增强安全"
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_agent | model_evaluation": {
+        "label": "security_agent | model_evaluation",
+        "items": [
+          {
+            "id": 21809,
+            "title": "Δτ-Bench：评估 Agent 在动态工具生态下的自适应能力",
+            "original_title": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+            "summary": "论文提出 Δτ-Bench，模拟工具生态演化下 Agent 的适应性评测，发现最强模型成功率仅 42.3%，并推出 Steward 管理器以动态维护技能提升适应力。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_agent | model_evaluation",
+            "score_total": 86.25,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "安全自动化严重依赖外部工具 API，环境一变 Agent 就废。这篇论文的动态评测思路和技能维护方法直击痛点，做安全 Agent 的团队必看。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2610.34238",
+            "reader_url": "https://arxiv.org/pdf/2610.34238",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T00:00:00",
+            "first_seen_at": "2026-10-31T02:42:06.457779",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 24184,
+            "title": "AI 生成智能合约的意图丢失测量与评测方法",
+            "original_title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
+            "summary": "研究 AI 生成智能合约时意图丢失的评测方法，发现常见 AI 评审工具和标准分析工具会漏掉明显错误，提出先提问后编码的架构可显著减少意图偏差。论文发布了工具和 600 个任务。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "model_evaluation",
+            "score_total": 78.65,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做 AI 代码审计和安全评测的人该看——给出了可复现的合约行为评测框架和数据集，直接能用来检验 AI 生成代码的正确性和安全性，「先问后写」的思路也值得借鉴到安全 Agent 设计中。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.37830",
+            "reader_url": "https://arxiv.org/pdf/2610.37830",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-31T04:00:00",
+            "first_seen_at": "2026-10-31T14:42:30.703015",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 21388,
+            "title": "StateMirror：预执行检测编码Agent的幻觉工具调用",
+            "original_title": "StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
+            "summary": "提出 StateMirror 轻量级预执行检测器，通过 AST 和命令分析提取状态谓词，在工具执行前验证环境匹配度，有效拦截 Agent 幻觉操作并降低执行开销。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 77.25,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做安全 Agent 和自动化代码任务的人该看，工具调用幻觉是导致 Agent 跑飞和消耗 Token 的痛点。StateMirror 提供了一种在 harness 边界做确定性校验的思路，可直接借鉴到自家 Agent 防护里。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.32648",
+            "reader_url": "https://arxiv.org/pdf/2610.32648",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-26T04:00:00",
+            "first_seen_at": "2026-10-31T02:42:06.457779",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 21879,
+            "title": "RAG投毒防御评测存在捷径：删去构造特征即致检测失效",
+            "original_title": "Ranking Is Not Deciding: Benchmark Shortcuts and Operating-Point Collapse in Query-Time RAG Poisoning Defenses",
+            "summary": "本文揭示了当前RAG投毒防御评测的高分多由数据集构造特征（如问题前缀、长度差异）造成的假象，只需微调投毒数据构造即可使防御失效，强调评测需公开构造特征与实际阈值假阳率。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 77.0,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做安全评测和Benchmark的人必看！这篇揭示了一个致命问题：高分数可能只是数据构造捷径而非真实防御能力。立刻检查你的评测集是否存在类似漏洞。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.33849",
+            "reader_url": "https://arxiv.org/pdf/2610.33849",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-27T04:00:00",
+            "first_seen_at": "2026-10-30T20:42:01.351902",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "model_security": {
+        "label": "model_security",
+        "items": [
+          {
+            "id": 21395,
+            "title": "MoST：视觉语言模型模态敏感性的黑盒测试框架",
+            "original_title": "Search-Based Testing of Modality Sensitivity in Vision Language Models",
+            "summary": "本文提出 MoST 黑盒测试框架，利用多目标搜索对 VLM 进行图像、文本及联合扰动测试，发现联合小扰动即可导致模型失效，揭示了独立模态评测的局限性。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_security",
+            "score_total": 76.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "用多目标搜索做 VLM 的对抗评测，发现图像和文本的小幅联合扰动就能打挂模型。做模型安全测试和红队评测的人可以参考这种跨模态搜索思路，别只盯着单模态 fuzzing。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.32360",
+            "reader_url": "https://arxiv.org/pdf/2610.32360",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-26T04:00:00",
+            "first_seen_at": "2026-10-31T02:42:06.457779",
+            "sub_category_label": null
+          },
+          {
+            "id": 21338,
+            "title": "量化推理模型的提示遵从性：不可信来源仍可操纵 LLM",
+            "original_title": "How Much Do You Trust A Dog? Quantifying Hint-Following in Reasoning Language Models",
+            "summary": "该论文量化了 LLM 在推理任务中的阿谀奉承行为，发现即使提示来源被声明不可信或伴有警告，模型答案的对数赔率仍会发生可预测的偏移，揭示了模型对对抗性引导的脆弱性。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_security",
+            "score_total": 73.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "LLM 在客观推理任务中容易被不可信来源（甚至是一只「狗」）的提示带偏，且即使明确警告也难以校准。做安全 Agent 和自动化任务的人必须警惕这种对抗性引导风险，在工作流中加入来源可信度隔离和结果校验机制。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.32055",
+            "reader_url": "https://arxiv.org/pdf/2610.32055",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-26T04:00:00",
+            "first_seen_at": "2026-10-31T14:42:30.703015",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 24232,
+            "title": "多国传统金融机构遭大规模AI辅助网络攻击",
+            "original_title": "At least it’s not just crypto.   Multiple traditional finance (TradFi) banks and financial institutions have been hit by cyberattacks in recent weeks, especially in October 2026.  ",
+            "summary": "2026年10月，美韩印等多国传统金融机构遭到利用ARTEX渗透框架及Claude等大模型的AI辅助攻击，导致大量数据泄露和API欺诈。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 76.7,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "攻击者正将开源渗透框架与大模型结合加速侦察和漏洞利用，黑产自动化水平显著提升。防御方需重点审计外围系统和API安全，并跟踪ARTEX等工具的实战动向。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/JDP_1175/status/2116400209252995295",
+            "reader_url": "https://x.com/JDP_1175/status/2116400209252995295",
+            "image_url": null,
+            "author": {
+              "username": "JDP_1175",
+              "name": "JSON",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-10-31T05:21:45",
+            "first_seen_at": "2026-10-31T05:32:33.133025",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 21378,
+            "title": "轻量级编码Agent评测：harness与模型配对影响巨大",
+            "original_title": "Pairing Matters: Performance, Failures, and Efficiency in Lightweight Coding Agents",
+            "summary": "论文在SWE-bench上对6种开源harness和3个轻量级模型进行全因子评测，发现相同模型在不同harness下解决率相差达44个百分点，且失败模式和token效率差异极大，强调harness-model配对是部署的关键决策。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 72.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做安全Agent的同学必看：选错harness会让模型表现暴跌44%。别只盯模型跑分，配对选择才是落地胜负手，论文附带开源实验数据可直接用作选型参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.32131",
+            "reader_url": "https://arxiv.org/pdf/2610.32131",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-10-26T04:00:00",
+            "first_seen_at": "2026-10-31T02:42:06.457779",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 21863,
+      "title": "自主网络防御Agent对齐：测试时自适应策略塑形",
+      "original_title": "Alignment of Autonomous Cyber Defense Agents via Adaptive Policy Shaping",
+      "summary": "本文提出在测试时利用自适应策略塑形对齐基于强化学习的网络防御Agent，无需重训练即可在攻防中动态平衡安全性与可用性等运营目标。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 86.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做安全Agent和防御自动化的从业者必看。文章提出无需重训即可动态调整RL防御策略的方法，解决安全与可用性冲突，且开源了基于CybORG的代码，可直接拿来参考改进。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33234",
+      "reader_url": "https://arxiv.org/pdf/2610.33234",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 21809,
+      "title": "Δτ-Bench：评估 Agent 在动态工具生态下的自适应能力",
+      "original_title": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+      "summary": "论文提出 Δτ-Bench，模拟工具生态演化下 Agent 的适应性评测，发现最强模型成功率仅 42.3%，并推出 Steward 管理器以动态维护技能提升适应力。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent | model_evaluation",
+      "score_total": 86.25,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全自动化严重依赖外部工具 API，环境一变 Agent 就废。这篇论文的动态评测思路和技能维护方法直击痛点，做安全 Agent 的团队必看。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.34238",
+      "reader_url": "https://arxiv.org/pdf/2610.34238",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T00:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
+      "id": 21865,
+      "title": "LLM在安全运营中心落地的ROI经济模型评估",
+      "original_title": "From Hype to ROI: An Economic Model for LLM Adoption in Information Systems and Security Operations",
+      "summary": "本文提出一个评估LLM在安全运营中心投资回报率的经济模型，通过蒙特卡洛模拟发现多数部署配置并不盈利，盈利仅限于高准确度场景，自动化能力是受准确度制约的关键杠杆。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 86.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "想把LLM塞进SOC的团队必看。文章算清了ROI账：多数场景下部署是亏本的，只有高准确度场景才盈利。决策前先拿这模型算算账，避免盲目跟风。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33352",
+      "reader_url": "https://arxiv.org/pdf/2610.33352",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 21375,
+      "title": "LLM生成形式化规范的可靠性研究：错误代码会导致误导性验证通过",
+      "original_title": "Are LLM-Generated Formal Specifications Faithful to Their Requirements? A Study on Bimodal Formal Specification Generation",
+      "summary": "该论文研究了 LLM 在双峰设置（代码和需求同时输入）下生成形式化规范的表现，发现当输入代码本身存在错误时，LLM 会生成弱规范或被误导的规范，导致错误地通过验证，揭示了当前 LLM 形式化验证的盲区。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 85.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "代码审计和形式化验证从业者必看。研究揭示了 LLM 辅助验证时可能因错误代码产生「自欺欺人」的弱规范，提醒在构建自动化代码审计 Agent 时不能盲目信任 LLM 生成的验证规范，需增加需求一致性校验。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.32053",
+      "reader_url": "https://arxiv.org/pdf/2610.32053",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
+      "id": 21394,
+      "title": "CuraLoc：基于预规划代码检查的仓库级缺陷定位",
+      "original_title": "CuraLoc: Repository-Level Fault Localization via Planned Code Inspection",
+      "summary": "CuraLoc 提出通过预先规划代码检查来进行仓库级缺陷定位，在单次规划中决定起始符号和代码关系，减少 90% 的 token 消耗并提升了 SWE-Bench 上的定位准确率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fault_localization",
+      "score_total": 85.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做 AI 代码审计和漏洞修复的人该看，它证明代码库导航不一定要多轮交互。单次规划加确定检索能省九成 Token 还提精度，可直接借鉴优化现有安全 Agent。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.31809",
+      "reader_url": "https://arxiv.org/pdf/2610.31809",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    },
+    {
+      "id": 21875,
+      "title": "VulDec：基于神经反编译的二进制漏洞检测",
+      "original_title": "VulDec: Vulnerability Detection in Binaries via Neural Decompilation",
+      "summary": "论文提出 VulDec 框架及配套汇编-C语言对齐数据集，通过调优 LLM 神经反编译器恢复源码级语义，进而实现端到端二进制漏洞检测，真实测试集上达到 0.61 宏 F1。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 84.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "将神经反编译与漏洞检测结合的思路对闭源二进制审计非常有价值。提供了新数据集和端到端框架，做二进制安全和漏洞挖掘的团队可以直接参考其方法和指标基准。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33716",
+      "reader_url": "https://arxiv.org/pdf/2610.33716",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 21869,
+      "title": "SecGent：推理时结合 CWE 上下文的安全代码生成框架",
+      "original_title": "Secure and Functional Code Generation with Self-Evaluation",
+      "summary": "论文提出 SecGent，一种在推理时利用 CWE 数据库上下文引导 LLM 生成安全且功能完备代码的框架。通过功能和安全性测试反馈指导修复，在 CWEval 评测中显著提升功能-安全联合成功率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "secure_code_generation",
+      "score_total": 83.8,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队和代码审计人员必看。它演示了如何在不微调模型的前提下，用 CWE 知识+测试反馈让 LLM 写出更安全的代码。你可以直接借鉴这套思路，优化内部安全编码助手或代码审计流水线。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.33450",
+      "reader_url": "https://arxiv.org/pdf/2610.33450",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-27T04:00:00",
+      "first_seen_at": "2026-10-30T20:42:01.351902",
+      "sub_category_label": null
+    },
+    {
+      "id": 21398,
+      "title": "结合模型检查器与 LLM 自动修复 RISC-V 处理器多行 Bug",
+      "original_title": "Automated Multi-Line Bug Repair Using Model Checker Aided LLMs: A Case Study on RISC-V Processors",
+      "summary": "本文提出一种结合 LLM、断言和模型检查器（JasperGold）的自动化 RTL bug 修复方法，在 RISC-V 核心上实现了 93% 的多行 bug 修复率，首次展示了可扩展的处理器设计自动化修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_repair",
+      "score_total": 83.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全验证团队必看。论文展示了 LLM 结合形式化验证在 RTL 多行 Bug 修复上的高准确率，为自动化代码审计与补丁生成提供了可落地的新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.32597",
+      "reader_url": "https://arxiv.org/pdf/2610.32597",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-10-26T04:00:00",
+      "first_seen_at": "2026-10-31T02:42:06.457779",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 24,
+    "highlight_count": 10,
+    "paper_count": 19,
+    "source_count": 4,
+    "top_score": 87,
+    "category_count": {
+      "AI for Sec": 16,
+      "AI Tech": 1,
+      "AI for Sec | AI Tech": 1,
+      "AI Tech | AI for Sec": 1,
+      "Sec for AI | AI Tech": 4,
+      "AI for Sec | Sec for AI": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 2
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 4
+        },
+        "formal_verification": {
+          "label": "formal_verification",
+          "count": 1
+        },
+        "fault_localization": {
+          "label": "fault_localization",
+          "count": 1
+        },
+        "binary_security": {
+          "label": "二进制安全",
+          "count": 2
+        },
+        "secure_code_generation": {
+          "label": "secure_code_generation",
+          "count": 1
+        },
+        "vuln_repair": {
+          "label": "vuln_repair",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 3
+        },
+        "knowledge_enhanced": {
+          "label": "知识增强安全",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_agent | model_evaluation": {
+          "label": "security_agent | model_evaluation",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        },
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        },
+        "model_security": {
+          "label": "model_security",
+          "count": 2
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 16,
+      "top_score": 87,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 1,
+      "top_score": 73,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "今天最高分的防御Agent对齐方法提出了免重训动态调整策略的思路，做安全自动化的团队建议直接拿来参考其开源代码。另外，想往SOC塞大模型的兄弟们先按住，务必借用今天这把ROI经济模型算算账，数据显示多数配置都是亏本的，只有在高准确度场景下才有的赚，别盲目跟风。",
+  "method_note": "按北京时间 2026-10-31 的系统入库窗口筛选，从 24 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "hn-ai-tech",
+    "huggingface-daily-papers",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# 自主网络防御Agent对齐：测试时自适应策略塑形\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是安全Agent从实验环境走向真实业务时的实战适应性与经济账。从测试时动态塑形防御策略、应对工具生态变化的适应力评测，到直击LLM进SOC的ROI评估，全都在解决安全自动化落地时如何不掉链子、不亏本的硬核问题。\n- 01 做安全Agent和防御自动化的从业者必看。文章提出无需重训即可动态调整RL防御策略的方法，解决安全与可用性冲突，且开源了基于CybORG的代码，可直接拿来参考改进。\n- 02 安全自动化严重依赖外部工具 API，环境一变 Agent 就废。这篇论文的动态评测思路和技能维护方法直击痛点，做安全 Agent 的团队必看。\n- 03 想把LLM塞进SOC的团队必看。文章算清了ROI账：多数场景下部署是亏本的，只有高准确度场景才盈利。决策前先拿这模型算算账，避免盲目跟风。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **自主网络防御Agent对齐：测试时自适应策略塑形**：做安全Agent和防御自动化的从业者必看。文章提出无需重训即可动态调整RL防御策略的方法，解决安全与可用性冲突，且开源了基于CybORG的代码，可直接拿来参考改进。 来源：arxiv-ai-security\n- **Δτ-Bench：评估 Agent 在动态工具生态下的自适应能力**：安全自动化严重依赖外部工具 API，环境一变 Agent 就废。这篇论文的动态评测思路和技能维护方法直击痛点，做安全 Agent 的团队必看。 来源：huggingface-daily-papers\n- **LLM在安全运营中心落地的ROI经济模型评估**：想把LLM塞进SOC的团队必看。文章算清了ROI账：多数场景下部署是亏本的，只有高准确度场景才盈利。决策前先拿这模型算算账，避免盲目跟风。 来源：arxiv-ai-security\n\n## 也值得关注\n- LLM生成形式化规范的可靠性研究：错误代码会导致误导性验证通过（85.65）\n- CuraLoc：基于预规划代码检查的仓库级缺陷定位（85.45）\n- VulDec：基于神经反编译的二进制漏洞检测（84.65）\n- SecGent：推理时结合 CWE 上下文的安全代码生成框架（83.8）\n- 结合模型检查器与 LLM 自动修复 RISC-V 处理器多行 Bug（83.15）\n- 量子与经典机器学习入侵检测多数据集基准测试（83.0）\n\n## AI for Sec\n\n### 安全Agent\n- 自主网络防御Agent对齐：测试时自适应策略塑形（86.6）\n- 用 AI Agent 逆向路由器并开源网络监控工具 Bastion（73.35）\n\n### 安全评测与Benchmark\n- LLM在安全运营中心落地的ROI经济模型评估（86.15）\n- 量子与经典机器学习入侵检测多数据集基准测试（83.0）\n- 使用 LLM 修复 Web 应用越权漏洞：BAC-Bench 实证研究（77.8）\n- CyberDual：AI 攻击者与 AI 代码审查者对抗平台（76.75）\n\n### formal_verification\n- LLM生成形式化规范的可靠性研究：错误代码会导致误导性验证通过（85.65）\n\n### fault_localization\n- CuraLoc：基于预规划代码检查的仓库级缺陷定位（85.45）\n\n### 二进制安全\n- VulDec：基于神经反编译的二进制漏洞检测（84.65）\n- Simantic：支持 AI Agent 验证固件的新型模拟引擎（76.31）\n\n### secure_code_generation\n- SecGent：推理时结合 CWE 上下文的安全代码生成框架（83.8）\n\n### vuln_repair\n- 结合模型检查器与 LLM 自动修复 RISC-V 处理器多行 Bug（83.15）\n\n### 漏洞挖掘\n- RALE：多代码表示集成提升 LLM 漏洞检测，F1 从 73% 升至 78%（80.65）\n- Linux内核TCP高危漏洞曝光，Anthropic演示Root提权利用（77.25）\n- AI 模型 53 分钟自主开发出 Linux MPTCP 远程 Root 利用（73.01）\n\n### 知识增强安全\n- TRACE框架：基于多证据受限排序的CVE到ATT&CK映射（72.45）\n\n## AI Tech\n\n### 模型评测\n- 轻量级编码Agent评测：harness与模型配对影响巨大（72.9）\n\n## 今日论文\n- 自主网络防御Agent对齐：测试时自适应策略塑形\n- Δτ-Bench：评估 Agent 在动态工具生态下的自适应能力\n- LLM在安全运营中心落地的ROI经济模型评估\n- LLM生成形式化规范的可靠性研究：错误代码会导致误导性验证通过\n- CuraLoc：基于预规划代码检查的仓库级缺陷定位\n- VulDec：基于神经反编译的二进制漏洞检测\n- SecGent：推理时结合 CWE 上下文的安全代码生成框架\n- 结合模型检查器与 LLM 自动修复 RISC-V 处理器多行 Bug\n\n## 今日观察\n今天最高分的防御Agent对齐方法提出了免重训动态调整策略的思路，做安全自动化的团队建议直接拿来参考其开源代码。另外，想往SOC塞大模型的兄弟们先按住，务必借用今天这把ROI经济模型算算账，数据显示多数配置都是亏本的，只有在高准确度场景下才有的赚，别盲目跟风。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-10-31 的系统入库窗口筛选，从 24 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-01T00:01:25+08:00"
+}
