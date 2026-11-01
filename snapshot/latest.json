@@ -1,54 +1,9 @@
 {
-  "updated_at": "2026-11-02T04:03:15+08:00",
+  "updated_at": "2026-11-02T07:33:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 24536,
-      "title": "开源 AiSOC 走红：LLM Agent 做告警分诊与 MITRE 调查",
-      "original_title": "GitHub Trending: beenuar/AiSOC gained 436 stars today",
-      "summary": "Python 开源项目 AiSOC 提供 AI 安全运营中心，支持告警融合、LLM Agent 三元分诊、MITRE ATT&CK 调查及可回放决策账本，并内置 MCP server 供 Claude、Cursor 等调用，MIT 协议、自托管、免 API key。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 85.69,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全运营团队和 Agent 开发者都该看：它把告警分诊、ATT&CK 调查、决策账本和 MCP 集成打包成可直接落地的开源参考实现，是借鉴 SOC Agent 架构与可审计设计的现成样本。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/beenuar/AiSOC?github_trending_date=2026-11-01&since=daily",
-      "reader_url": "https://github.com/beenuar/AiSOC?github_trending_date=2026-11-01&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-01T11:04:23.799943",
-      "first_seen_at": "2026-11-01T11:05:14.720681",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 24265,
-      "title": "Linux内核TCP高危漏洞曝光，Anthropic演示Root提权利用",
-      "original_title": "RT @TheHackersNews: ‼️ Linux kernel TCP flaw rated 9.8 CVSS.  Anthropic demonstrated an exploit that runs commands as root on servers using…",
-      "summary": "Linux内核TCP协议栈存在CVSS 9.8的高危漏洞，Anthropic展示了可利用该漏洞在服务器上以root权限执行命令的 exploit。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 84.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "Anthropic亲自下场演示高危内核漏洞利用，直接证明AI在漏洞挖掘与利用生成上的实战能力。安全团队应紧密追踪AI漏洞发现工具的演进与产业落地。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2116449767815602681",
-      "reader_url": "https://x.com/TheHackersNews/status/2116449767815602681",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-31T08:38:41",
-      "first_seen_at": "2026-11-01T11:32:19.573154",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 24005,
       "title": "用 AI Agent 逆向路由器并开源网络监控工具 Bastion",
@@ -98,31 +53,6 @@
       "published_at": "2026-10-30T19:37:43",
       "first_seen_at": "2026-11-01T19:33:33.165727",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 24232,
-      "title": "多国传统金融机构遭大规模AI辅助网络攻击",
-      "original_title": "At least it’s not just crypto.   Multiple traditional finance (TradFi) banks and financial institutions have been hit by cyberattacks in recent weeks, especially in October 2026.  ",
-      "summary": "2026年10月，美韩印等多国传统金融机构遭到利用ARTEX渗透框架及Claude等大模型的AI辅助攻击，导致大量数据泄露和API欺诈。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 76.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻击者正将开源渗透框架与大模型结合加速侦察和漏洞利用，黑产自动化水平显著提升。防御方需重点审计外围系统和API安全，并跟踪ARTEX等工具的实战动向。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/JDP_1175/status/2116400209252995295",
-      "reader_url": "https://x.com/JDP_1175/status/2116400209252995295",
-      "image_url": null,
-      "author": {
-        "username": "JDP_1175",
-        "name": "JSON",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-31T05:21:45",
-      "first_seen_at": "2026-11-01T11:32:19.573154",
-      "sub_category_label": null
     },
     {
       "id": 24326,
@@ -248,6 +178,81 @@
       "published_at": "2026-10-31T00:56:34",
       "first_seen_at": "2026-11-01T17:33:11.209948",
       "sub_category_label": null
+    },
+    {
+      "id": 24338,
+      "title": "Google 披露 Gemini 驱动的 XSS 挖掘 Agent PageBreak",
+      "original_title": "Google disclosed PageBreak, an autonomous security agent powered by Gemini models that has uncovered over 500 XSS vulnerabilities.  It runs deterministic validators to verify explo",
+      "summary": "Google 公开了一款名为 PageBreak 的自主安全智能体，由 Gemini 模型驱动，目前已发现超过 500 个 XSS 漏洞。它在报告前会使用确定性验证器对漏洞利用进行实际验证。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 辅助漏洞挖掘的又一产业级落地实证，直接验证了 LLM Agent 发现真实 Web 漏洞的可行性和规模化能力。安全团队应密切关注此类 Agent 在自动化安全测试和 Bug Bounty 中的应用潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/bitsquin/status/2116563157875667043",
+      "reader_url": "https://x.com/bitsquin/status/2116563157875667043",
+      "image_url": null,
+      "author": {
+        "username": "bitsquin",
+        "name": "Bitsquin",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-31T16:09:15",
+      "first_seen_at": "2026-11-01T17:33:11.209948",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 24006,
+      "title": "Bastion：开源家庭路由与网络安全检测 Agent",
+      "original_title": "Github:  https://t.co/1CEBmrOurD  Prompt:  You're building \"Bastion\": a free, open-source desktop app for macOS and Windows.   It hunts down the backdoors in my home Wi-Fi router, ",
+      "summary": "一个名为 Bastion 的开源桌面应用，利用多个 AI Agent 协作检测家庭路由器后门、分析网络流量并提供安全评分，项目包含严格的 Agent 权限控制与隐私保护设计。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "适合构建本地安全工具的团队参考：项目展示了如何用多 Agent 架构做网络扫描，并给出了值得借鉴的 Agent 安全设计——只读沙箱、明令禁止修改配置和登录路由器、数据脱敏后才送模型。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xCodez/status/2116277701359157548",
+      "reader_url": "https://x.com/0xCodez/status/2116277701359157548",
+      "image_url": null,
+      "author": {
+        "username": "0xCodez",
+        "name": "Codez",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-30T21:14:57",
+      "first_seen_at": "2026-11-01T19:33:33.165727",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 24620,
+      "title": "开源 AI 渗透测试 Agent ARTEX",
+      "original_title": "تست نفوذ (Penetration Testing) معمولاً کار پرهزینه‌ایه و ممکنه برای هر پروژه ده‌ها هزار دلار هزینه داشته باشه.  حالا پروژه متن‌باز ARTEX می‌خواد با کمک AI این فرایند رو تا حد زیادی",
+      "summary": "ARTEX 是一个开源的 AI 渗透测试系统，支持接入大模型和 MCP 工具，旨在自动化检查基础设施漏洞并降低测试成本。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "适合关注自动化渗透测试的安全团队评估和试用。它支持 MCP 协议和自定义 Agent，可观察 LLM 在实际漏洞挖掘中的 Token 消耗和效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Yarad_ai/status/2116951872049201382",
+      "reader_url": "https://x.com/Yarad_ai/status/2116951872049201382",
+      "image_url": null,
+      "author": {
+        "username": "Yarad_ai",
+        "name": "Yarad",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-01T17:53:52",
+      "first_seen_at": "2026-11-01T18:09:52.714567",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
