@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T02:32:55+08:00",
+  "updated_at": "2026-11-02T04:03:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -50,6 +50,56 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 24005,
+      "title": "用 AI Agent 逆向路由器并开源网络监控工具 Bastion",
+      "original_title": "i reverse engineered my Wi-Fi router with Claude Opus 5.5 and found a f*cking scary privacy problem...  every site I opened, my provider saw it. no encryption. just a readable list",
+      "summary": "开发者利用 Claude Code 自动化逆向 Wi-Fi 路由器，发现 DNS 明文等隐私问题，随后构建了开源多 Agent 网络监控工具 Bastion，可扫描 12 个常见路由器入口点并提供安全建议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI 在终端安全工具开发中的实战能力。从漏洞挖掘到自动化防护工具生成的全流程闭环，安全人员可直接参考其多 Agent 并行架构与隐私脱敏设计，探索本地 AI 安全助手的落地模式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xCodez/status/2116277697563234432",
+      "reader_url": "https://x.com/0xCodez/status/2116277697563234432",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2116276405390417920/img/D5wMlSOj0ATuRP7b.jpg",
+      "author": {
+        "username": "0xCodez",
+        "name": "Codez",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-30T21:14:56",
+      "first_seen_at": "2026-11-01T19:33:33.165727",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 23963,
+      "title": "用 Claude 零代码逆向路由器并构建开源 AI 网络安全守护应用",
+      "original_title": "i reverse engineered my Wi-Fi router with Claude and found a f*cking scary privacy problem...  my provider could see every website I looked up. in plain text.  so I built an open-s",
+      "summary": "作者使用 Claude Opus 零代码逆向 Wi-Fi 路由器发现隐私问题，并自动化构建名为 Bastion 的开源网络安全 Agent，能扫描安全隐患并由 AI 提供修复建议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.35,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "该案例展示了大模型自动化构建安全工具并进行代码审计的闭环。开发者可参考其多 Agent 并行构建与隔离防护设计，探索 AI 辅助安全工具开发的提效空间。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xMovez/status/2116253233308110936",
+      "reader_url": "https://x.com/0xMovez/status/2116253233308110936",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2116253160167620608/img/cxN1NvdaxEj1wRVY.jpg",
+      "author": {
+        "username": "0xMovez",
+        "name": "Movez",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-30T19:37:43",
+      "first_seen_at": "2026-11-01T19:33:33.165727",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 24232,
       "title": "多国传统金融机构遭大规模AI辅助网络攻击",
       "original_title": "At least it’s not just crypto.   Multiple traditional finance (TradFi) banks and financial institutions have been hit by cyberattacks in recent weeks, especially in October 2026.  ",
@@ -98,6 +148,31 @@
       "published_at": "2026-10-31T15:08:18",
       "first_seen_at": "2026-11-01T15:33:02.378693",
       "sub_category_label": null
+    },
+    {
+      "id": 23990,
+      "title": "用 Claude Code 差异 Fuzzing 挖出 Linux 驱动漏洞",
+      "original_title": "Runtime Verification hunted for Linux kernel bugs in device drivers: an LLM ports the C code to Rust, then differential fuzzing compares the two. Every divergence is a candidate bu",
+      "summary": "Runtime Verification 用单个 Claude Code 实例将 Linux 驱动 C 代码转译为 Rust，通过差异 Fuzzing 对比两者，成功找出两处真实漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这展示了 LLM 在「代码翻译+差异测试」挖洞流程中的真实效果。漏洞挖掘人员可借鉴此思路，用大模型生成等价代码来辅助发现深层逻辑漏洞。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CogRev_Podcast/status/2116273992491557215",
+      "reader_url": "https://x.com/CogRev_Podcast/status/2116273992491557215",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2116273956462485504/img/OfMUlBBo2YCPLmIW.jpg",
+      "author": {
+        "username": "CogRev_Podcast",
+        "name": "The Cognitive Revolution Podcast",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-30T21:00:12",
+      "first_seen_at": "2026-11-01T19:33:33.165727",
+      "sub_category_label": "AI Fuzzing"
     },
     {
       "id": 24124,
@@ -173,81 +248,6 @@
       "published_at": "2026-10-31T00:56:34",
       "first_seen_at": "2026-11-01T17:33:11.209948",
       "sub_category_label": null
-    },
-    {
-      "id": 24338,
-      "title": "Google 披露 Gemini 驱动的 XSS 挖掘 Agent PageBreak",
-      "original_title": "Google disclosed PageBreak, an autonomous security agent powered by Gemini models that has uncovered over 500 XSS vulnerabilities.  It runs deterministic validators to verify explo",
-      "summary": "Google 公开了一款名为 PageBreak 的自主安全智能体，由 Gemini 模型驱动，目前已发现超过 500 个 XSS 漏洞。它在报告前会使用确定性验证器对漏洞利用进行实际验证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 辅助漏洞挖掘的又一产业级落地实证，直接验证了 LLM Agent 发现真实 Web 漏洞的可行性和规模化能力。安全团队应密切关注此类 Agent 在自动化安全测试和 Bug Bounty 中的应用潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/bitsquin/status/2116563157875667043",
-      "reader_url": "https://x.com/bitsquin/status/2116563157875667043",
-      "image_url": null,
-      "author": {
-        "username": "bitsquin",
-        "name": "Bitsquin",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-31T16:09:15",
-      "first_seen_at": "2026-11-01T17:33:11.209948",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 24620,
-      "title": "开源 AI 渗透测试 Agent ARTEX",
-      "original_title": "تست نفوذ (Penetration Testing) معمولاً کار پرهزینه‌ایه و ممکنه برای هر پروژه ده‌ها هزار دلار هزینه داشته باشه.  حالا پروژه متن‌باز ARTEX می‌خواد با کمک AI این فرایند رو تا حد زیادی",
-      "summary": "ARTEX 是一个开源的 AI 渗透测试系统，支持接入大模型和 MCP 工具，旨在自动化检查基础设施漏洞并降低测试成本。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "适合关注自动化渗透测试的安全团队评估和试用。它支持 MCP 协议和自定义 Agent，可观察 LLM 在实际漏洞挖掘中的 Token 消耗和效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Yarad_ai/status/2116951872049201382",
-      "reader_url": "https://x.com/Yarad_ai/status/2116951872049201382",
-      "image_url": null,
-      "author": {
-        "username": "Yarad_ai",
-        "name": "Yarad",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-01T17:53:52",
-      "first_seen_at": "2026-11-01T18:09:52.714567",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 24274,
-      "title": "Google自主安全Agent PageBreak挖掘超500个XSS漏洞",
-      "original_title": "🔥 𝗚𝗼𝗼𝗴𝗹𝗲'𝘀 𝗣𝗮𝗴𝗲𝗕𝗿𝗲𝗮𝗸 𝗔𝗴𝗲𝗻𝘁 𝗖𝗮𝘁𝗰𝗵𝗲𝘀 𝟱𝟬𝟬+ 𝗫𝗦𝗦 𝗕𝘂𝗴𝘀 𝗪𝗶𝘁𝗵 𝗟𝗶𝘃𝗲 𝗘𝘅𝗽𝗹𝗼𝗶𝘁𝘀  @Google put an autonomous security agent called PageBreak into full operation across its web applications in Ja",
-      "summary": "Google在Web应用中全面部署自主安全Agent「PageBreak」，已发现超500个XSS漏洞，并正将其与CodeMender结合实现漏洞自动修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队必看的大厂 Agent 落地案例。PageBreak 用确定性验证器复现漏洞实现零误报，并接入 CodeMender 自动生成修复，证明了 AI Agent 在真实漏洞挖掘和修复闭环中的可行性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SISpotlight/status/2116480982752579662",
-      "reader_url": "https://x.com/SISpotlight/status/2116480982752579662",
-      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2116480967317581824/pu/img/Dpq3m_S9l9cL-Dwh.jpg",
-      "author": {
-        "username": "SISpotlight",
-        "name": "SI Spotlight",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-31T10:42:43",
-      "first_seen_at": "2026-11-01T11:32:19.573154",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
