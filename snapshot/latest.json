@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T19:30:14+08:00",
+  "updated_at": "2026-11-01T20:00:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 21228,
@@ -83,6 +83,31 @@
       "published_at": "2026-11-01T11:04:23.799943",
       "first_seen_at": "2026-11-01T11:05:14.720681",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 24265,
+      "title": "Linux内核TCP高危漏洞曝光，Anthropic演示Root提权利用",
+      "original_title": "RT @TheHackersNews: ‼️ Linux kernel TCP flaw rated 9.8 CVSS.  Anthropic demonstrated an exploit that runs commands as root on servers using…",
+      "summary": "Linux内核TCP协议栈存在CVSS 9.8的高危漏洞，Anthropic展示了可利用该漏洞在服务器上以root权限执行命令的 exploit。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 84.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic亲自下场演示高危内核漏洞利用，直接证明AI在漏洞挖掘与利用生成上的实战能力。安全团队应紧密追踪AI漏洞发现工具的演进与产业落地。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2116449767815602681",
+      "reader_url": "https://x.com/TheHackersNews/status/2116449767815602681",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-31T08:38:41",
+      "first_seen_at": "2026-11-01T11:32:19.573154",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 21198,
