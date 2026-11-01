@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T23:00:54+08:00",
+  "updated_at": "2026-11-02T00:02:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 24536,
@@ -75,6 +75,31 @@
       "sub_category_label": null
     },
     {
+      "id": 24326,
+      "title": "AI 驱动漏洞数量激增：Anthropic 发现 6000+ 缺陷，修复严重滞后",
+      "original_title": "Octubre de 2026 acumula ya más de 16.000 vulnerabilidades publicadas, una cifra histórica (se puede ver la evolución en la gráfica)  ¿Qué nos espera los próximos años? ¿Podría habe",
+      "summary": "汇总 Google TI 与 Anthropic 等最新数据，指出 AI 已使漏洞披露与利用数量翻倍，但修复能力未同步提升，且 AI 生成的代码与 Agent 自身也充斥大量漏洞。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery",
+      "score_total": 76.01,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "给安全团队敲响警钟：AI 挖洞速度远超人工修复，传统补丁流程面临崩溃。需立刻引入 AI 辅助漏洞分诊，并警惕内部 Agent 应用的高危漏洞风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/3kept1c/status/2116547821725708489",
+      "reader_url": "https://x.com/3kept1c/status/2116547821725708489",
+      "image_url": "https://pbs.twimg.com/media/HV9U05oWkAA7Rnp.png",
+      "author": {
+        "username": "3kept1c",
+        "name": "skeptic 🖖",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-31T15:08:18",
+      "first_seen_at": "2026-11-01T15:33:02.378693",
+      "sub_category_label": null
+    },
+    {
       "id": 24274,
       "title": "Google自主安全Agent PageBreak挖掘超500个XSS漏洞",
       "original_title": "🔥 𝗚𝗼𝗼𝗴𝗹𝗲'𝘀 𝗣𝗮𝗴𝗲𝗕𝗿𝗲𝗮𝗸 𝗔𝗴𝗲𝗻𝘁 𝗖𝗮𝘁𝗰𝗵𝗲𝘀 𝟱𝟬𝟬+ 𝗫𝗦𝗦 𝗕𝘂𝗴𝘀 𝗪𝗶𝘁𝗵 𝗟𝗶𝘃𝗲 𝗘𝘅𝗽𝗹𝗼𝗶𝘁𝘀  @Google put an autonomous security agent called PageBreak into full operation across its web applications in Ja",
@@ -122,6 +147,31 @@
       },
       "published_at": "2026-10-31T04:55:58",
       "first_seen_at": "2026-11-01T11:32:19.573154",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 24327,
+      "title": "使用开源 AI 安全 Agent 发现 24 个 Android 漏洞",
+      "original_title": "How we found 24 Android vulnerabilities using our open source AI security agent  https://t.co/WClLZikGRJ",
+      "summary": "研究人员展示了如何利用开源 AI 安全代理成功挖掘出 24 个 Android 漏洞，证明了 AI 在移动端漏洞发现中的有效性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "直接展示了 AI Agent 在真实漏洞挖掘中的产出与落地价值。安全团队应关注其开源实现，评估如何引入自动化代码审计与漏洞发现流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/LethalAccess/status/2116548734351798770",
+      "reader_url": "https://x.com/LethalAccess/status/2116548734351798770",
+      "image_url": null,
+      "author": {
+        "username": "LethalAccess",
+        "name": "Preventing - LA ☠️",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-31T15:11:56",
+      "first_seen_at": "2026-11-01T15:33:02.378693",
       "sub_category_label": "安全Agent"
     },
     {
@@ -175,54 +225,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 24166,
-      "title": "开源安全Agent Frame：用外部验证打破LLM自检幻觉",
-      "original_title": "@CollinearAI 98% of failing attempts passing their own self-check is the key finding. Frame, an open-source security agent, checks outside the model: findings are proved with a sol",
-      "summary": "开源安全 Agent Frame 指出 98% 的失败尝试能通过 LLM 自检，因此其采用模型外部检查机制：用 solver 证明发现、PoC 验证漏洞、重扫确认修复。",
+      "id": 24153,
+      "title": "开源 AI 渗透工具 AREX 被用于攻击韩国金融机构",
+      "original_title": "Communist dictatorships like the CCP and North Korea will use AI to plunder the world's money (currency)! Without decoupling from the CCP's high technology and AI, the civilized wo",
+      "summary": "CrowdStrike 发现攻击者使用名为 AREX 的开源 AI 渗透测试工具入侵韩国 16 家金融机构，泄露约 10 万条客户数据，并波及日本外汇平台。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 70.45,
+      "score_total": 71.9,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做漏洞挖掘 Agent 的人必看。LLM 自我反思极不可靠，Frame 的 solver+PoC+重扫闭环提供了直接可借鉴的验证架构，能救命般地避免误报刷屏。",
+      "recommendation_reason": "AREX 在真实攻击中的曝光表明 AI 渗透工具已进入黑产实战阶段。安全团队应立即将该工具纳入威胁情报监测，评估其自动化攻击能力对现有防御体系的冲击。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/latent_node/status/2116369662120468788",
-      "reader_url": "https://x.com/latent_node/status/2116369662120468788",
+      "canonical_url": "https://x.com/RobotAnt2/status/2116343708589441260",
+      "reader_url": "https://x.com/RobotAnt2/status/2116343708589441260",
       "image_url": null,
       "author": {
-        "username": "latent_node",
-        "name": "Latent Node",
+        "username": "RobotAnt2",
+        "name": "Future Man",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-31T03:20:22",
-      "first_seen_at": "2026-11-01T13:32:40.992566",
+      "published_at": "2026-10-31T01:37:14",
+      "first_seen_at": "2026-11-01T15:33:02.378693",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 24245,
-      "title": "用 Claude Opus 自动 Fuzzing 开源解码器并发现未定义行为",
-      "original_title": "Had Opus write a full ETC2 decoder from specs, then told it to start fuzzing it vs. other open source decoders for correctness. The fuzzing stopped because it's finding undefined b",
-      "summary": "用户让 Claude Opus 根据规范编写完整的 ETC2 解码器，随后指示其对其他开源解码器进行 Fuzzing 正确性测试。测试因发现其他开源解码器存在未定义行为而中断，AI 正在本地修复这些问题。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 69.96,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这展示了 AI 在自动化 Fuzzing 和漏洞挖掘中的端到端能力，不仅能写代码还能发现并修复第三方库的未定义行为。安全研究者应关注如何将这种闭环安全测试流程集成到现有工作流中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/richgel999/status/2116431367093575933",
-      "reader_url": "https://x.com/richgel999/status/2116431367093575933",
-      "image_url": "https://pbs.twimg.com/media/HV8SU7DWEAA0lwl.png",
-      "author": {
-        "username": "richgel999",
-        "name": "Richard Geldreich 🇺🇸",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-31T07:25:33",
-      "first_seen_at": "2026-11-01T09:31:52.122130",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
