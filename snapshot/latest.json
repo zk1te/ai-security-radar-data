@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T13:29:10+08:00",
+  "updated_at": "2026-11-01T16:59:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 21228,
@@ -143,26 +143,6 @@
       "published_at": "2026-10-26T04:00:00",
       "first_seen_at": "2026-11-01T02:43:01.601565",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 21199,
-      "title": "SEMPRE：基于LLM与动态分析的语义感知协议逆向框架",
-      "original_title": "SEMPRE: Semantic-Aware Protocol Reverse Engineering via Consistency-Driven Joint Optimization",
-      "summary": "SEMPRE利用大模型结合污点分析和循环追踪进行协议逆向工程，能够有效解析嵌套子协议并推断字段语义，在真实僵尸网络分析中表现优异。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 76.95,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "给做恶意软件分析和协议逆向的安全研究员看：这篇文章展示了LLM在自动化PRE中的实际落地，不再依赖脆弱的启发式规则。结合动态分析的思路值得直接借鉴到逆向流水线中。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.31844",
-      "reader_url": "https://arxiv.org/pdf/2610.31844",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-10-26T04:00:00",
-      "first_seen_at": "2026-11-01T02:43:01.601565",
-      "sub_category_label": "二进制安全"
     }
   ]
 }
