@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T02:02:49+08:00",
+  "updated_at": "2026-11-02T02:32:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -200,6 +200,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 24620,
+      "title": "开源 AI 渗透测试 Agent ARTEX",
+      "original_title": "تست نفوذ (Penetration Testing) معمولاً کار پرهزینه‌ایه و ممکنه برای هر پروژه ده‌ها هزار دلار هزینه داشته باشه.  حالا پروژه متن‌باز ARTEX می‌خواد با کمک AI این فرایند رو تا حد زیادی",
+      "summary": "ARTEX 是一个开源的 AI 渗透测试系统，支持接入大模型和 MCP 工具，旨在自动化检查基础设施漏洞并降低测试成本。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "适合关注自动化渗透测试的安全团队评估和试用。它支持 MCP 协议和自定义 Agent，可观察 LLM 在实际漏洞挖掘中的 Token 消耗和效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Yarad_ai/status/2116951872049201382",
+      "reader_url": "https://x.com/Yarad_ai/status/2116951872049201382",
+      "image_url": null,
+      "author": {
+        "username": "Yarad_ai",
+        "name": "Yarad",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-01T17:53:52",
+      "first_seen_at": "2026-11-01T18:09:52.714567",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 24274,
       "title": "Google自主安全Agent PageBreak挖掘超500个XSS漏洞",
       "original_title": "🔥 𝗚𝗼𝗼𝗴𝗹𝗲'𝘀 𝗣𝗮𝗴𝗲𝗕𝗿𝗲𝗮𝗸 𝗔𝗴𝗲𝗻𝘁 𝗖𝗮𝘁𝗰𝗵𝗲𝘀 𝟱𝟬𝟬+ 𝗫𝗦𝗦 𝗕𝘂𝗴𝘀 𝗪𝗶𝘁𝗵 𝗟𝗶𝘃𝗲 𝗘𝘅𝗽𝗹𝗼𝗶𝘁𝘀  @Google put an autonomous security agent called PageBreak into full operation across its web applications in Ja",
@@ -221,31 +246,6 @@
         "followers_count": 0
       },
       "published_at": "2026-10-31T10:42:43",
-      "first_seen_at": "2026-11-01T11:32:19.573154",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 24228,
-      "title": "开源安全 Agent Frame 重现发现 Kafka 两个 CVE 漏洞",
-      "original_title": "Frame, an open-source security agent, rediscovers the Kafka bugs behind CVE-2026-114349 and CVE-2026-111551: three wire readers sized an allocation before checking it. Teaching it ",
-      "summary": "开源安全 Agent Frame 在 Kafka 未修复代码上重新发现了 CVE-2026-114349 和 CVE-2026-111551 背后的漏洞——三个 wire reader 在检查前就完成了内存分配；仅需一个 TOML 配置文件即可教会它 Kafka 协议，在已修复代码上则无报错。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做漏洞挖掘和安全自动化的同行都该看：Frame 用一个 TOML 文件就能适配新协议并找到真实 CVE 级别的内存安全缺陷，且在修复代码上不误报，说明协议级安全 Agent 的适配成本和实用信号都在快速变好。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/latent_node/status/2116393721168371764",
-      "reader_url": "https://x.com/latent_node/status/2116393721168371764",
-      "image_url": null,
-      "author": {
-        "username": "latent_node",
-        "name": "Latent Node",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-31T04:55:58",
       "first_seen_at": "2026-11-01T11:32:19.573154",
       "sub_category_label": "安全Agent"
     }
