@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-01T16:59:41+08:00",
+  "updated_at": "2026-11-01T19:30:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 21228,
@@ -63,6 +63,26 @@
       "published_at": "2026-10-26T04:00:00",
       "first_seen_at": "2026-11-01T02:43:01.601565",
       "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 24536,
+      "title": "开源 AiSOC 走红：LLM Agent 做告警分诊与 MITRE 调查",
+      "original_title": "GitHub Trending: beenuar/AiSOC gained 436 stars today",
+      "summary": "Python 开源项目 AiSOC 提供 AI 安全运营中心，支持告警融合、LLM Agent 三元分诊、MITRE ATT&CK 调查及可回放决策账本，并内置 MCP server 供 Claude、Cursor 等调用，MIT 协议、自托管、免 API key。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 85.69,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全运营团队和 Agent 开发者都该看：它把告警分诊、ATT&CK 调查、决策账本和 MCP 集成打包成可直接落地的开源参考实现，是借鉴 SOC Agent 架构与可审计设计的现成样本。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/beenuar/AiSOC?github_trending_date=2026-11-01&since=daily",
+      "reader_url": "https://github.com/beenuar/AiSOC?github_trending_date=2026-11-01&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-01T11:04:23.799943",
+      "first_seen_at": "2026-11-01T11:05:14.720681",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 21198,
