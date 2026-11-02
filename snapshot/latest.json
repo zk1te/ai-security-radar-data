@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T01:53:12+08:00",
+  "updated_at": "2026-11-03T02:23:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -219,24 +219,29 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 25114,
-      "title": "CodeSpecWeave：长程代码生成的依赖规格合成与评测基准",
-      "original_title": "When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
-      "summary": "该论文提出 CodeSpecWeave 框架，用于合成具有复杂相互依赖约束的代码生成任务，并构建了包含 1,044 个规格的评测基准 CodeSpecWeave-Bench，以评估前沿大模型处理工程约束的能力。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 68.45,
+      "id": 25156,
+      "title": "在野利用：攻击者使用AI渗透测试框架ARTEX发起入侵",
+      "original_title": "We've observed intrusion attempts against multiple targets using #ARTEX, an openly published AI penetration-testing framework in which an LLM agent chooses each step of an attack. ",
+      "summary": "研究人员观察到针对多目标的入侵尝试使用了 ARTEX，这是一个公开的 AI 渗透测试框架，由 LLM Agent 自主选择攻击步骤。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.99,
       "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "复杂代码约束的合成与评测方法可迁移至安全代码审计场景。安全团队可借鉴其规格生成思路，构建更贴合真实漏洞场景的安全评测基准。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.40256",
-      "reader_url": "https://arxiv.org/pdf/2610.40256",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-02T00:00:00",
-      "first_seen_at": "2026-11-02T16:34:24.269455",
-      "sub_category_label": "模型评测"
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透工具被用于真实攻击，说明防守方必须开始识别和对抗 LLM 驱动的自动化攻击手法，红蓝双方都应关注此类 Agent 的行为模式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Unit42_Intel/status/2117314565973184687",
+      "reader_url": "https://x.com/Unit42_Intel/status/2117314565973184687",
+      "image_url": "https://pbs.twimg.com/media/HWI2YF5W8AAGq8w.jpg",
+      "author": {
+        "username": "Unit42_Intel",
+        "name": "Unit 42",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-02T17:55:04",
+      "first_seen_at": "2026-11-02T18:06:42.265131",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
