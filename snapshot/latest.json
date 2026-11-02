@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-02T11:48:31+08:00",
+  "updated_at": "2026-11-02T13:48:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
+    {
+      "id": 24832,
+      "title": "STRIATUM-CTF：基于MCP协议的自主CTF解题代理框架",
+      "original_title": "STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomous CTF Solving",
+      "summary": "论文提出STRIATUM-CTF框架，利用LLM结合模型上下文协议(MCP)进行CTF自主解题，通过严格的schema验证避免无效命令，在实测中击败30多支人类队伍夺冠。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 89.4,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "面向红队和安全自动化从业者，该框架展示了MCP在安全Agent落地中的实际效果。通过schema验证约束工具调用，有效解决了LLM输出命令易错的问题，是构建可靠安全Agent的极佳参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.22577",
+      "reader_url": "https://arxiv.org/pdf/2603.22577",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-02T05:00:00",
+      "first_seen_at": "2026-11-02T05:22:44.367654",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 23733,
       "title": "Anthropic 披露 Go 1.24+ 默认配置引发 Linux 内核远程 Root 漏洞",
@@ -198,31 +218,6 @@
       "published_at": "2026-10-30T15:31:25",
       "first_seen_at": "2026-11-01T23:34:04.925727",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 23990,
-      "title": "用 Claude Code 差异 Fuzzing 挖出 Linux 驱动漏洞",
-      "original_title": "Runtime Verification hunted for Linux kernel bugs in device drivers: an LLM ports the C code to Rust, then differential fuzzing compares the two. Every divergence is a candidate bu",
-      "summary": "Runtime Verification 用单个 Claude Code 实例将 Linux 驱动 C 代码转译为 Rust，通过差异 Fuzzing 对比两者，成功找出两处真实漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 75.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这展示了 LLM 在「代码翻译+差异测试」挖洞流程中的真实效果。漏洞挖掘人员可借鉴此思路，用大模型生成等价代码来辅助发现深层逻辑漏洞。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CogRev_Podcast/status/2116273992491557215",
-      "reader_url": "https://x.com/CogRev_Podcast/status/2116273992491557215",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2116273956462485504/img/OfMUlBBo2YCPLmIW.jpg",
-      "author": {
-        "username": "CogRev_Podcast",
-        "name": "The Cognitive Revolution Podcast",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-30T21:00:12",
-      "first_seen_at": "2026-11-01T19:33:33.165727",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
