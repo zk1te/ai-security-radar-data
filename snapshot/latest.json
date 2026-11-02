@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-11-03T01:22:43+08:00",
+  "updated_at": "2026-11-03T01:53:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 24832,
-      "title": "STRIATUM-CTF：基于MCP协议的自主CTF解题代理框架",
-      "original_title": "STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomous CTF Solving",
-      "summary": "论文提出STRIATUM-CTF框架，利用LLM结合模型上下文协议(MCP)进行CTF自主解题，通过严格的schema验证避免无效命令，在实测中击败30多支人类队伍夺冠。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 89.4,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "面向红队和安全自动化从业者，该框架展示了MCP在安全Agent落地中的实际效果。通过schema验证约束工具调用，有效解决了LLM输出命令易错的问题，是构建可靠安全Agent的极佳参考。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2603.22577",
-      "reader_url": "https://arxiv.org/pdf/2603.22577",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-02T05:00:00",
-      "first_seen_at": "2026-11-02T05:22:44.367654",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 25053,
       "title": "Venus-DefakerOne2：覆盖多模态伪造检测的视觉取证基础模型",
@@ -95,29 +75,28 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 23705,
-      "title": "高盛等金融机构大幅增加AI安全预算用于漏洞挖掘",
-      "original_title": "Goldman Sachs could soon spend as much on AI for security as it does on AI coding tools, its biggest AI expense so far, The Information reported on Oct 28. The bank has been using ",
-      "summary": "高盛等大型银行正使用Anthropic的Mythos和OpenAI的Astra模型挖掘自身软件漏洞，AI安全预算将追平AI编程支出。由于AI找漏洞速度快于修复速度，企业资金正向漏洞修复倾斜。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 75.49,
+      "id": 25133,
+      "title": "Momentic开源自主Bug发现Agent及评测基准",
+      "original_title": "HN Hot Discussion: Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "summary": "Momentic开源了QA Agent「Mo」及其基准，它通过自组织DAG在应用中并行探索找Bug，60分钟内发现的Bug数量远超Codex和Claude Code。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 75.92,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "看大厂如何将AI漏洞挖掘融入真实业务流程。安全团队需警惕AI挖洞导致漏洞数量激增带来的修复资源挤兑，尽早规划修复流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/getsuperintel/status/2116064930868633820",
-      "reader_url": "https://x.com/getsuperintel/status/2116064930868633820",
-      "image_url": "https://pbs.twimg.com/media/HV3Fvc_WsAAu0PJ.jpg",
+      "recommendation_reason": "展示了多Agent协作在自动化探索与Bug发现上的架构设计与实战效果。安全人员可借鉴其探索模式，或利用开源基准评估漏洞挖掘Agent。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50339913&hn_hot_date=2026-11-02",
+      "reader_url": "https://news.ycombinator.com/item?id=50339913&hn_hot_date=2026-11-02",
+      "image_url": null,
       "author": {
-        "username": "getsuperintel",
-        "name": "Superintelligence.",
-        "avatar_url": null,
-        "followers_count": 0
+        "username": "wuweiweiwu",
+        "name": "wuweiweiwu",
+        "avatar_url": null
       },
-      "published_at": "2026-10-30T07:09:28",
-      "first_seen_at": "2026-11-02T05:34:39.641070",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-11-02T17:05:25",
+      "first_seen_at": "2026-11-02T17:31:45.495883",
+      "sub_category_label": null
     },
     {
       "id": 24515,
@@ -238,6 +217,26 @@
       "published_at": "2026-11-01T08:01:15",
       "first_seen_at": "2026-11-02T09:35:17.766014",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 25114,
+      "title": "CodeSpecWeave：长程代码生成的依赖规格合成与评测基准",
+      "original_title": "When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
+      "summary": "该论文提出 CodeSpecWeave 框架，用于合成具有复杂相互依赖约束的代码生成任务，并构建了包含 1,044 个规格的评测基准 CodeSpecWeave-Bench，以评估前沿大模型处理工程约束的能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "复杂代码约束的合成与评测方法可迁移至安全代码审计场景。安全团队可借鉴其规格生成思路，构建更贴合真实漏洞场景的安全评测基准。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.40256",
+      "reader_url": "https://arxiv.org/pdf/2610.40256",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-02T00:00:00",
+      "first_seen_at": "2026-11-02T16:34:24.269455",
+      "sub_category_label": "模型评测"
     }
   ]
 }
