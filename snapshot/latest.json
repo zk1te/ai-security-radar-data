@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T02:23:18+08:00",
+  "updated_at": "2026-11-03T03:53:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -48,31 +48,6 @@
       "published_at": "2026-11-02T09:15:06",
       "first_seen_at": "2026-11-02T09:40:05.840387",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 24978,
-      "title": "Anthropic 演示 Linux 内核 TCP 高危漏洞 PoC，可直接提权至 root",
-      "original_title": "RT @TheHackersNews: ‼️ Linux kernel TCP flaw rated 9.8 CVSS.  Anthropic demonstrated an exploit that runs commands as root on servers using…",
-      "summary": "Linux 内核 TCP 协议栈存在 CVSS 9.8 严重漏洞，Anthropic 展示了利用该漏洞在服务器上以 root 权限执行命令的 PoC，标志着 AI 辅助漏洞挖掘在真实高危内核漏洞上的落地能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 78.67,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队和漏洞研究者应重点关注：Anthropic 再次展示 AI 在高危内核漏洞利用上的实战能力，从发现到可执行 PoC 的链路正在缩短。建议跟踪该漏洞 CVE 详情和补丁进展，同时评估自身 AI 辅助漏洞挖掘流程的成熟度。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2117133047107924084",
-      "reader_url": "https://x.com/TheHackersNews/status/2117133047107924084",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-11-02T05:53:47",
-      "first_seen_at": "2026-11-02T07:26:05.272861",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 25133,
@@ -242,6 +217,26 @@
       "published_at": "2026-11-02T17:55:04",
       "first_seen_at": "2026-11-02T18:06:42.265131",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 25114,
+      "title": "CodeSpecWeave：长程代码生成的依赖规格合成与评测基准",
+      "original_title": "When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
+      "summary": "该论文提出 CodeSpecWeave 框架，用于合成具有复杂相互依赖约束的代码生成任务，并构建了包含 1,044 个规格的评测基准 CodeSpecWeave-Bench，以评估前沿大模型处理工程约束的能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "复杂代码约束的合成与评测方法可迁移至安全代码审计场景。安全团队可借鉴其规格生成思路，构建更贴合真实漏洞场景的安全评测基准。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.40256",
+      "reader_url": "https://arxiv.org/pdf/2610.40256",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-02T00:00:00",
+      "first_seen_at": "2026-11-02T16:34:24.269455",
+      "sub_category_label": "模型评测"
     }
   ]
 }
