@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T15:49:26+08:00",
+  "updated_at": "2026-11-02T17:50:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -93,6 +93,31 @@
       "published_at": "2026-10-30T12:30:32",
       "first_seen_at": "2026-11-02T01:34:09.263268",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 25006,
+      "title": "黑客滥用 AI Agent ARTEX 自动化执行 AD 域渗透攻击",
+      "original_title": "‼️  Hackers Use ARTEX AI Agents to Automate Active Directory, Kerberoasting Attacks   Details: https://t.co/xtsJbVctK8  Hackers are now using an open-source AI tool called ARTEX to",
+      "summary": "攻击者正利用开源多智能体渗透测试工具 ARTEX 自动化完成 Windows 网络映射、Kerberoasting 攻击及域控渗透，该工具能在数秒内完成原本需数小时的人工操作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.87,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红蓝对抗团队都需警惕这类将渗透链路全自动化的安全 Agent。蓝队需针对极速横向移动调整告警阈值，红队可参考其多智能体编排思路优化现有自动化工具。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2117183708637831318",
+      "reader_url": "https://x.com/The_Cyber_News/status/2117183708637831318",
+      "image_url": "https://pbs.twimg.com/media/HWG_Wu9bUAAdBJG.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-11-02T09:15:06",
+      "first_seen_at": "2026-11-02T09:40:05.840387",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 24978,
@@ -193,26 +218,6 @@
       "published_at": "2026-10-30T15:31:25",
       "first_seen_at": "2026-11-01T23:34:04.925727",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 24723,
-      "title": "Cloudflare 开源多阶段安全审计 Agent 技能",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare 开源了一个 coding-agent 技能，用于执行多阶段安全审计，并产出可独立验证的机器可读结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.8,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "代码审计从业者应关注。该技能展示了如何用 Agent 执行结构化多阶段安全审计，且强调结果可验证性，可直接集成到现有安全工作流中。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-02&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-02&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-02T00:49:48.013053",
-      "first_seen_at": "2026-11-02T00:52:04.380577",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
