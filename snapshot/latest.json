@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T04:53:58+08:00",
+  "updated_at": "2026-11-03T05:54:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 25053,
@@ -23,31 +23,6 @@
       "published_at": "2026-11-02T00:00:00",
       "first_seen_at": "2026-11-02T12:32:49.802948",
       "sub_category_label": null
-    },
-    {
-      "id": 25006,
-      "title": "黑客滥用 AI Agent ARTEX 自动化执行 AD 域渗透攻击",
-      "original_title": "‼️  Hackers Use ARTEX AI Agents to Automate Active Directory, Kerberoasting Attacks   Details: https://t.co/xtsJbVctK8  Hackers are now using an open-source AI tool called ARTEX to",
-      "summary": "攻击者正利用开源多智能体渗透测试工具 ARTEX 自动化完成 Windows 网络映射、Kerberoasting 攻击及域控渗透，该工具能在数秒内完成原本需数小时的人工操作。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.87,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红蓝对抗团队都需警惕这类将渗透链路全自动化的安全 Agent。蓝队需针对极速横向移动调整告警阈值，红队可参考其多智能体编排思路优化现有自动化工具。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2117183708637831318",
-      "reader_url": "https://x.com/The_Cyber_News/status/2117183708637831318",
-      "image_url": "https://pbs.twimg.com/media/HWG_Wu9bUAAdBJG.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-11-02T09:15:06",
-      "first_seen_at": "2026-11-02T09:40:05.840387",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 25133,
@@ -72,31 +47,6 @@
       "published_at": "2026-11-02T17:05:25",
       "first_seen_at": "2026-11-02T17:31:45.495883",
       "sub_category_label": null
-    },
-    {
-      "id": 24515,
-      "title": "AI漏洞挖掘双管线：Fuzzing与Agent协同生成PoV",
-      "original_title": "2/6 It has two injection pipelines. One uses fuzzing coverage to find reachable code. The other combines retrieved vulnerability examples, static analysis, and agent exploration. B",
-      "summary": "介绍一种双管线的AI漏洞挖掘方法，一条利用Fuzzing覆盖率寻找可达代码，另一条结合漏洞示例检索、静态分析和Agent探索，两者均需生成有效的漏洞证明。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全Agent开发者必看，展示了Fuzzing与RAG/Agent协同的实战架构。强制生成PoV的约束设计值得借鉴，能直接启发自动化漏洞挖掘工具的管线搭建。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/tyfeng1997/status/2116802740714373506",
-      "reader_url": "https://x.com/tyfeng1997/status/2116802740714373506",
-      "image_url": null,
-      "author": {
-        "username": "tyfeng1997",
-        "name": "Ty Feng",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-01T08:01:16",
-      "first_seen_at": "2026-11-02T09:35:17.766014",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 25097,
@@ -149,31 +99,6 @@
       "sub_category_label": null
     },
     {
-      "id": 24514,
-      "title": "CyberForge：注入漏洞构建 C/C++ 安全 Agent 训练环境",
-      "original_title": "1/6 CyberForge explores a useful idea: take real C/C++ projects, inject vulnerabilities, and turn them into runnable training tasks. That could help us build more security-agent en",
-      "summary": "CyberForge 提出将真实 C/C++ 项目注入漏洞并转化为可运行训练任务，无需等待新 CVE 披露即可构建安全 Agent 训练环境。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 70.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "突破了安全 Agent 训练数据依赖真实 CVE 的瓶颈。做安全评测和 Agent 训练的团队该看，能立刻用它扩充训练集，别干等 CVE。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/tyfeng1997/status/2116802736511664579",
-      "reader_url": "https://x.com/tyfeng1997/status/2116802736511664579",
-      "image_url": null,
-      "author": {
-        "username": "tyfeng1997",
-        "name": "Ty Feng",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-01T08:01:15",
-      "first_seen_at": "2026-11-02T09:35:17.766014",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 25156,
       "title": "在野利用：攻击者使用AI渗透测试框架ARTEX发起入侵",
       "original_title": "We've observed intrusion attempts against multiple targets using #ARTEX, an openly published AI penetration-testing framework in which an LLM agent chooses each step of an attack. ",
@@ -217,6 +142,56 @@
       "published_at": "2026-11-02T00:00:00",
       "first_seen_at": "2026-11-02T16:34:24.269455",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 25066,
+      "title": "VOLTA 恶意软件利用 AI 分析窃取数据生成受害者画像",
+      "original_title": "‼️ VOLTA Malware Steals Gmail & Discord Sessions, Then Uses AI to Build Detailed Victim Profiles   Details: https://t.co/tsRlTzuVrz  A new Windows infostealer called VOLTA does mor",
+      "summary": "新型信息窃取木马 VOLTA 在窃取浏览器和应用会话后，调用 AI 模型分析数据并评估受害者价值，运行后自删除以逃避检测。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 67.67,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 正在被集成到恶意软件中实现自动化数据分析和目标筛选，防御方需关注此类“AI 赋能攻击”趋势，并在威胁狩猎中警惕异常的 API 调用或数据外发行为。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2117229799093715347",
+      "reader_url": "https://x.com/The_Cyber_News/status/2117229799093715347",
+      "image_url": "https://pbs.twimg.com/media/HWHpQk8awAAIZis.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-11-02T12:18:14",
+      "first_seen_at": "2026-11-02T13:32:43.329286",
+      "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 25121,
+      "title": "AI安全架构将使用Juliet与OSS-Fuzz进行安全评测",
+      "original_title": "I’ll focus first on evaluating my secure architecture against established benchmarks.  The NIST Juliet C/C++ Test Suite (https://t.co/bXjuXo7msx) for vulnerability detection and di",
+      "summary": "推文作者计划使用 NIST Juliet C/C++ 测试套件、OSS-Fuzz 和 SPEC CPU 2026 来评估其安全架构在漏洞检测与性能上的表现，并承诺将公开可复现的方法与结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 63.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "关注 AI 漏洞挖掘和检测能力的团队可以跟进其评测方法。使用 Juliet 和 OSS-Fuzz 作为大模型或 AI 智能体的安全评测基准，是验证 AI 安全工具落地效果的有效手段。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/fibanacci101/status/2117296212395122844",
+      "reader_url": "https://x.com/fibanacci101/status/2117296212395122844",
+      "image_url": null,
+      "author": {
+        "username": "fibanacci101",
+        "name": "Christopher Layhew Sr",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-02T16:42:09",
+      "first_seen_at": "2026-11-02T16:56:54.833836",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
