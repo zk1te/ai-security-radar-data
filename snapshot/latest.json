@@ -1,9 +1,34 @@
 {
-  "updated_at": "2026-11-02T09:47:19+08:00",
+  "updated_at": "2026-11-02T11:48:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
+    {
+      "id": 23733,
+      "title": "Anthropic 披露 Go 1.24+ 默认配置引发 Linux 内核远程 Root 漏洞",
+      "original_title": "🚨 Go warns: Go 1.24+ apps on Linux accept multipath TCP connections by default.  That's what Anthropic's remote root exploit for Linux kernel flaw CVE-2026-98432 targeted.  Stopgap",
+      "summary": "Anthropic 披露针对 Linux 内核 MPTCP 漏洞 CVE-2026-98432 的远程 root exploit，该漏洞影响默认开启 multipath TCP 的 Go 1.24+ 应用，可通过设置 GODEBUG=multipathtcp=0 临时缓解。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 86.6,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic 发现的高危内核漏洞直击 Go 服务端，安全团队需立即排查并应用 GODEBUG 缓解。这也展示了 AI 辅助挖掘在复杂内核漏洞上的实战威力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2116090860412817588",
+      "reader_url": "https://x.com/TheHackersNews/status/2116090860412817588",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-30T08:52:30",
+      "first_seen_at": "2026-11-02T03:34:23.787381",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 24717,
       "title": "开源 AI 安全运营中心 AiSOC 登顶 GitHub Trending",
@@ -175,31 +200,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 24326,
-      "title": "AI 驱动漏洞数量激增：Anthropic 发现 6000+ 缺陷，修复严重滞后",
-      "original_title": "Octubre de 2026 acumula ya más de 16.000 vulnerabilidades publicadas, una cifra histórica (se puede ver la evolución en la gráfica)  ¿Qué nos espera los próximos años? ¿Podría habe",
-      "summary": "汇总 Google TI 与 Anthropic 等最新数据，指出 AI 已使漏洞披露与利用数量翻倍，但修复能力未同步提升，且 AI 生成的代码与 Agent 自身也充斥大量漏洞。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery",
-      "score_total": 76.01,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "给安全团队敲响警钟：AI 挖洞速度远超人工修复，传统补丁流程面临崩溃。需立刻引入 AI 辅助漏洞分诊，并警惕内部 Agent 应用的高危漏洞风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/3kept1c/status/2116547821725708489",
-      "reader_url": "https://x.com/3kept1c/status/2116547821725708489",
-      "image_url": "https://pbs.twimg.com/media/HV9U05oWkAA7Rnp.png",
-      "author": {
-        "username": "3kept1c",
-        "name": "skeptic 🖖",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-31T15:08:18",
-      "first_seen_at": "2026-11-01T15:33:02.378693",
-      "sub_category_label": null
-    },
-    {
       "id": 23990,
       "title": "用 Claude Code 差异 Fuzzing 挖出 Linux 驱动漏洞",
       "original_title": "Runtime Verification hunted for Linux kernel bugs in device drivers: an LLM ports the C code to Rust, then differential fuzzing compares the two. Every divergence is a candidate bu",
@@ -223,26 +223,6 @@
       "published_at": "2026-10-30T21:00:12",
       "first_seen_at": "2026-11-01T19:33:33.165727",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 24723,
-      "title": "Cloudflare 开源多阶段安全审计 Agent 技能",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare 开源了一个 coding-agent 技能，用于执行多阶段安全审计，并产出可独立验证的机器可读结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.8,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "代码审计从业者应关注。该技能展示了如何用 Agent 执行结构化多阶段安全审计，且强调结果可验证性，可直接集成到现有安全工作流中。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-02&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-02&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-02T00:49:48.013053",
-      "first_seen_at": "2026-11-02T00:52:04.380577",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
