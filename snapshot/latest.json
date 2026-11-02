@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T19:50:36+08:00",
+  "updated_at": "2026-11-02T20:50:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -68,6 +68,26 @@
       "published_at": "2026-11-02T00:49:41.540415",
       "first_seen_at": "2026-11-02T00:51:03.240832",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 25053,
+      "title": "Venus-DefakerOne2：覆盖多模态伪造检测的视觉取证基础模型",
+      "original_title": "Venus-DefakerOne2: A Vision-Forensics Foundation Model with Broader Coverage",
+      "summary": "提出视觉取证基础模型Venus-DefakerOne2，通过混合微调和熵测试适应策略，在DeepFake、AI生成图像/视频及物理欺骗等多种伪造检测上达到SOTA。",
+      "primary_category": "AI for Sec",
+      "sub_category": "forensics_detection",
+      "score_total": 81.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "视觉取证领域的统一大模型出现，覆盖了从数字篡改到物理欺骗的完整威胁面。从事反欺诈和AI生成内容检测的团队值得跟进评估其落地效果与误报率。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.37918",
+      "reader_url": "https://arxiv.org/pdf/2610.37918",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-02T00:00:00",
+      "first_seen_at": "2026-11-02T12:32:49.802948",
+      "sub_category_label": null
     },
     {
       "id": 23806,
@@ -188,31 +208,6 @@
       "published_at": "2026-11-02T00:49:48.013053",
       "first_seen_at": "2026-11-02T00:52:04.380577",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 23705,
-      "title": "高盛等金融机构大幅增加AI安全预算用于漏洞挖掘",
-      "original_title": "Goldman Sachs could soon spend as much on AI for security as it does on AI coding tools, its biggest AI expense so far, The Information reported on Oct 28. The bank has been using ",
-      "summary": "高盛等大型银行正使用Anthropic的Mythos和OpenAI的Astra模型挖掘自身软件漏洞，AI安全预算将追平AI编程支出。由于AI找漏洞速度快于修复速度，企业资金正向漏洞修复倾斜。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 75.49,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "看大厂如何将AI漏洞挖掘融入真实业务流程。安全团队需警惕AI挖洞导致漏洞数量激增带来的修复资源挤兑，尽早规划修复流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/getsuperintel/status/2116064930868633820",
-      "reader_url": "https://x.com/getsuperintel/status/2116064930868633820",
-      "image_url": "https://pbs.twimg.com/media/HV3Fvc_WsAAu0PJ.jpg",
-      "author": {
-        "username": "getsuperintel",
-        "name": "Superintelligence.",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-30T07:09:28",
-      "first_seen_at": "2026-11-02T05:34:39.641070",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
