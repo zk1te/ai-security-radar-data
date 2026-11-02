@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T03:53:34+08:00",
+  "updated_at": "2026-11-03T04:53:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 25053,
@@ -97,26 +97,6 @@
       "published_at": "2026-11-01T08:01:16",
       "first_seen_at": "2026-11-02T09:35:17.766014",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 24994,
-      "title": "HALO：基于人类反馈的主动式Agent干预与安全评估",
-      "original_title": "HALO: Human-Grounded Granular Evaluation of Proactive Agents",
-      "summary": "HALO 提出了一种基于人类专家标注的主动式 Agent 评估框架，涵盖 400 个场景及 8000 条响应。研究发现，过度主动（如过早或过度的干预）是 Agent 失败的主要模式，占被拒绝响应的 61.2%。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 71.55,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "研究指出当前 Agent 的最大痛点是「过度主动」导致的越权干预。做 Agent 安全和自动化安全任务的团队必须看，这直接关系到如何设定 Agent 的操作边界和何时停止的安全护栏。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.39086",
-      "reader_url": "https://arxiv.org/pdf/2610.39086",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-02T00:00:00",
-      "first_seen_at": "2026-11-02T08:33:51.712998",
-      "sub_category_label": null
     },
     {
       "id": 25097,
