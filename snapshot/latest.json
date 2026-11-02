@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T21:20:54+08:00",
+  "updated_at": "2026-11-02T21:51:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 24832,
@@ -70,31 +70,6 @@
       "sub_category_label": null
     },
     {
-      "id": 23806,
-      "title": "Chainguard Harness 结合 Mythos 5.1 自动挖掘应用可利用漏洞",
-      "original_title": "No Mythos access? You can now hunt for first and third-party exploitable vulnerabilities in your applications using Chainguard Harness.  Chainguard Harness builds your app from sou",
-      "summary": "Chainguard Harness 从源码隔离构建应用，利用 Mythos 5.1 自动挖掘第一方和第三方可利用漏洞。每个发现均可复现并提供修复建议，经工程师审核。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 80.02,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可直接关注此工具，它将 AI 漏洞挖掘与自动化构建验证结合。适合评估 AI 辅助漏洞发现的工业级落地效果，了解如何将大模型能力接入现有安全流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2116145729546973384",
-      "reader_url": "https://x.com/TheHackersNews/status/2116145729546973384",
-      "image_url": "https://pbs.twimg.com/media/HV4PUmVbsAAZb3S.png",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-30T12:30:32",
-      "first_seen_at": "2026-11-02T01:34:09.263268",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 25006,
       "title": "黑客滥用 AI Agent ARTEX 自动化执行 AD 域渗透攻击",
       "original_title": "‼️  Hackers Use ARTEX AI Agents to Automate Active Directory, Kerberoasting Attacks   Details: https://t.co/xtsJbVctK8  Hackers are now using an open-source AI tool called ARTEX to",
@@ -145,31 +120,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 23754,
-      "title": "8.8美元端到端渗透与AI自主挖洞实战复盘",
-      "original_title": "如果有人告诉你：彻底打穿一个高危系统的最高权限，现在只需要 91 行开源胶水代码 和 8.8 美元的 API 账单——你大概会觉得这是安全厂商在制造焦虑。  但这不是理论推演，而是过去几个月全球顶级安全实验室在靶场里砸出来的冰冷账本：大家都在算 AI Agent 帮企业省了多少研发工时，黑客却已经用它把网络渗透做成了按秒出货、几块钱一单的工业流水线。  它不",
-      "summary": "UIUC团队用91行代码的Agent以8.8美元成本实现87%的1-day漏洞利用率；UK AISI测试中Agent越界穿透真实企业内网；Google Big Sleep项目自主发现SQLite 0-day漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.83,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "面向安全团队，这篇推文用三个硬核案例直观展示了AI Agent在红队和漏洞挖掘中的破坏力。红蓝双方都该看：攻击者已实现低成本自动化，防守方的响应时延和沙箱隔离必须立刻升级。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Ju_Jason_2024/status/2116123197087375504",
-      "reader_url": "https://x.com/Ju_Jason_2024/status/2116123197087375504",
-      "image_url": null,
-      "author": {
-        "username": "Ju_Jason_2024",
-        "name": "Ju_Jason",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-30T11:01:00",
-      "first_seen_at": "2026-11-02T01:34:09.263268",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 23705,
       "title": "高盛等金融机构大幅增加AI安全预算用于漏洞挖掘",
       "original_title": "Goldman Sachs could soon spend as much on AI for security as it does on AI coding tools, its biggest AI expense so far, The Information reported on Oct 28. The bank has been using ",
@@ -195,29 +145,49 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 23793,
-      "title": "Cipher自主Agent在4小时内发现4个零日漏洞",
-      "original_title": "This isn’t concerning at all:  An autonomous security agent called Cipher (from Causal Security) found four zero-day flaws — including a critical 9.8-severity remote-code-execution",
-      "summary": "Causal Security的自主安全Agent Cipher在不到4小时内，几乎无需人工干预即发现90台粒子加速器控制软件中的4个零日漏洞，包括一个严重等级为9.8的RCE。",
+      "id": 23715,
+      "title": "Anthropic 用 AI 生成形式化证明，发现 fuzzing 遗漏的内存漏洞",
+      "original_title": "@AnthropicAI and theorem produced ~180m lines of machine-checked proofs for 123 open-source libraries and found memory bugs fuzzing missed. the fine print: guarantees hold only for",
+      "summary": "Anthropic 与 Theorem 为 123 个开源库生成约 1.8 亿行机器验证证明，发现了 fuzzing 未覆盖的内存 bug，但该方法目前局限于特定 spec、RISC-V 架构及 64MB 输入。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.55,
+      "sub_category": "vuln_discovery",
+      "score_total": 74.25,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "这展示了自主漏洞挖掘 Agent 在真实关键基础设施场景下的实战能力。安全团队应关注此类 Agent 的自动化挖掘效率与潜在影响，评估将其引入内部漏洞挖掘流程的可行性。",
+      "recommendation_reason": "这是 AI 赋能形式化验证发现深层漏洞的标志性进展。安全团队应关注这种超越传统 fuzzing 的互补性技术路线，评估其在现有 SAST/DAST 工作流中的落地可能。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SleveMcDic/status/2116152256093470946",
-      "reader_url": "https://x.com/SleveMcDic/status/2116152256093470946",
+      "canonical_url": "https://x.com/quantumspaceup/status/2116077661999046947",
+      "reader_url": "https://x.com/quantumspaceup/status/2116077661999046947",
       "image_url": null,
       "author": {
-        "username": "SleveMcDic",
-        "name": "Sleve McDichael",
+        "username": "quantumspaceup",
+        "name": "🚀",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-10-30T12:56:28",
-      "first_seen_at": "2026-11-02T01:34:09.263268",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-10-30T08:00:04",
+      "first_seen_at": "2026-11-02T03:34:23.787381",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 24831,
+      "title": "重新思考LLM安全评估：揭示模型逆向风险校准漏洞",
+      "original_title": "Expected Harm: Rethinking Safety Evaluation of (Mis)Aligned LLMs",
+      "summary": "论文提出 Expected Harm 指标，通过执行成本加权重评估越狱危害，发现 LLM 对高成本威胁拒绝强但对低成本高可能性威胁防御弱（逆向校准），并指出此漏洞可将越狱成功率提升两倍。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security | ai_adversarial",
+      "score_total": 73.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这篇论文对红队和越狱测试很有启发，点出模型对齐的系统性盲区：高成本攻击防御过度，低成本高概率攻击反而防不住。测试时可针对低成本场景设计用例，直接提升攻击成功率。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2602.01600",
+      "reader_url": "https://arxiv.org/pdf/2602.01600",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-02T05:00:00",
+      "first_seen_at": "2026-11-02T05:22:37.212702",
+      "sub_category_label": null
     }
   ]
 }
