@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T21:51:06+08:00",
+  "updated_at": "2026-11-02T23:52:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 24832,
@@ -23,31 +23,6 @@
       "published_at": "2026-11-02T05:00:00",
       "first_seen_at": "2026-11-02T05:22:44.367654",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 23733,
-      "title": "Anthropic 披露 Go 1.24+ 默认配置引发 Linux 内核远程 Root 漏洞",
-      "original_title": "🚨 Go warns: Go 1.24+ apps on Linux accept multipath TCP connections by default.  That's what Anthropic's remote root exploit for Linux kernel flaw CVE-2026-98432 targeted.  Stopgap",
-      "summary": "Anthropic 披露针对 Linux 内核 MPTCP 漏洞 CVE-2026-98432 的远程 root exploit，该漏洞影响默认开启 multipath TCP 的 Go 1.24+ 应用，可通过设置 GODEBUG=multipathtcp=0 临时缓解。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 86.6,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "Anthropic 发现的高危内核漏洞直击 Go 服务端，安全团队需立即排查并应用 GODEBUG 缓解。这也展示了 AI 辅助挖掘在复杂内核漏洞上的实战威力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2116090860412817588",
-      "reader_url": "https://x.com/TheHackersNews/status/2116090860412817588",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-10-30T08:52:30",
-      "first_seen_at": "2026-11-02T03:34:23.787381",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 25053,
@@ -145,31 +120,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 23715,
-      "title": "Anthropic 用 AI 生成形式化证明，发现 fuzzing 遗漏的内存漏洞",
-      "original_title": "@AnthropicAI and theorem produced ~180m lines of machine-checked proofs for 123 open-source libraries and found memory bugs fuzzing missed. the fine print: guarantees hold only for",
-      "summary": "Anthropic 与 Theorem 为 123 个开源库生成约 1.8 亿行机器验证证明，发现了 fuzzing 未覆盖的内存 bug，但该方法目前局限于特定 spec、RISC-V 架构及 64MB 输入。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 赋能形式化验证发现深层漏洞的标志性进展。安全团队应关注这种超越传统 fuzzing 的互补性技术路线，评估其在现有 SAST/DAST 工作流中的落地可能。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/quantumspaceup/status/2116077661999046947",
-      "reader_url": "https://x.com/quantumspaceup/status/2116077661999046947",
-      "image_url": null,
-      "author": {
-        "username": "quantumspaceup",
-        "name": "🚀",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-30T08:00:04",
-      "first_seen_at": "2026-11-02T03:34:23.787381",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 24831,
       "title": "重新思考LLM安全评估：揭示模型逆向风险校准漏洞",
       "original_title": "Expected Harm: Rethinking Safety Evaluation of (Mis)Aligned LLMs",
@@ -188,6 +138,76 @@
       "published_at": "2026-11-02T05:00:00",
       "first_seen_at": "2026-11-02T05:22:37.212702",
       "sub_category_label": null
+    },
+    {
+      "id": 24515,
+      "title": "AI漏洞挖掘双管线：Fuzzing与Agent协同生成PoV",
+      "original_title": "2/6 It has two injection pipelines. One uses fuzzing coverage to find reachable code. The other combines retrieved vulnerability examples, static analysis, and agent exploration. B",
+      "summary": "介绍一种双管线的AI漏洞挖掘方法，一条利用Fuzzing覆盖率寻找可达代码，另一条结合漏洞示例检索、静态分析和Agent探索，两者均需生成有效的漏洞证明。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent开发者必看，展示了Fuzzing与RAG/Agent协同的实战架构。强制生成PoV的约束设计值得借鉴，能直接启发自动化漏洞挖掘工具的管线搭建。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/tyfeng1997/status/2116802740714373506",
+      "reader_url": "https://x.com/tyfeng1997/status/2116802740714373506",
+      "image_url": null,
+      "author": {
+        "username": "tyfeng1997",
+        "name": "Ty Feng",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-01T08:01:16",
+      "first_seen_at": "2026-11-02T09:35:17.766014",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 24994,
+      "title": "HALO：基于人类反馈的主动式Agent干预与安全评估",
+      "original_title": "HALO: Human-Grounded Granular Evaluation of Proactive Agents",
+      "summary": "HALO 提出了一种基于人类专家标注的主动式 Agent 评估框架，涵盖 400 个场景及 8000 条响应。研究发现，过度主动（如过早或过度的干预）是 Agent 失败的主要模式，占被拒绝响应的 61.2%。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 71.55,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "研究指出当前 Agent 的最大痛点是「过度主动」导致的越权干预。做 Agent 安全和自动化安全任务的团队必须看，这直接关系到如何设定 Agent 的操作边界和何时停止的安全护栏。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.39086",
+      "reader_url": "https://arxiv.org/pdf/2610.39086",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-02T00:00:00",
+      "first_seen_at": "2026-11-02T08:33:51.712998",
+      "sub_category_label": null
+    },
+    {
+      "id": 25097,
+      "title": "SOC调研：28%告警未被调查，附AI SOC Agent落地清单",
+      "original_title": "🚨 28% of SOC alerts never get investigated, according to a survey of 250+ security leaders and practitioners.  AI SOC agents can help tackle the backlog, but deployment requires mo",
+      "summary": "调研显示28%的SOC告警从未被调查，推文分享了评估引入AI SOC Agent准备度的18点清单。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.03,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "准备引入AI SOC Agent的安全团队该看。AI落地不是直接插个工具就行，这份清单可直接拿来做内部能力基线评估和避坑。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2117266179341607327",
+      "reader_url": "https://x.com/TheHackersNews/status/2117266179341607327",
+      "image_url": "https://pbs.twimg.com/media/HWIKXVdagAEpfUU.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-11-02T14:42:48",
+      "first_seen_at": "2026-11-02T15:48:43.742294",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
