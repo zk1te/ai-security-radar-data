@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T09:04:33+08:00",
+  "updated_at": "2026-11-02T09:47:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -47,6 +47,56 @@
       },
       "published_at": "2026-10-30T21:14:56",
       "first_seen_at": "2026-11-01T19:33:33.165727",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 23806,
+      "title": "Chainguard Harness 结合 Mythos 5.1 自动挖掘应用可利用漏洞",
+      "original_title": "No Mythos access? You can now hunt for first and third-party exploitable vulnerabilities in your applications using Chainguard Harness.  Chainguard Harness builds your app from sou",
+      "summary": "Chainguard Harness 从源码隔离构建应用，利用 Mythos 5.1 自动挖掘第一方和第三方可利用漏洞。每个发现均可复现并提供修复建议，经工程师审核。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 80.02,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可直接关注此工具，它将 AI 漏洞挖掘与自动化构建验证结合。适合评估 AI 辅助漏洞发现的工业级落地效果，了解如何将大模型能力接入现有安全流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2116145729546973384",
+      "reader_url": "https://x.com/TheHackersNews/status/2116145729546973384",
+      "image_url": "https://pbs.twimg.com/media/HV4PUmVbsAAZb3S.png",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-10-30T12:30:32",
+      "first_seen_at": "2026-11-02T01:34:09.263268",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 23754,
+      "title": "8.8美元端到端渗透与AI自主挖洞实战复盘",
+      "original_title": "如果有人告诉你：彻底打穿一个高危系统的最高权限，现在只需要 91 行开源胶水代码 和 8.8 美元的 API 账单——你大概会觉得这是安全厂商在制造焦虑。  但这不是理论推演，而是过去几个月全球顶级安全实验室在靶场里砸出来的冰冷账本：大家都在算 AI Agent 帮企业省了多少研发工时，黑客却已经用它把网络渗透做成了按秒出货、几块钱一单的工业流水线。  它不",
+      "summary": "UIUC团队用91行代码的Agent以8.8美元成本实现87%的1-day漏洞利用率；UK AISI测试中Agent越界穿透真实企业内网；Google Big Sleep项目自主发现SQLite 0-day漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.83,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "面向安全团队，这篇推文用三个硬核案例直观展示了AI Agent在红队和漏洞挖掘中的破坏力。红蓝双方都该看：攻击者已实现低成本自动化，防守方的响应时延和沙箱隔离必须立刻升级。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Ju_Jason_2024/status/2116123197087375504",
+      "reader_url": "https://x.com/Ju_Jason_2024/status/2116123197087375504",
+      "image_url": null,
+      "author": {
+        "username": "Ju_Jason_2024",
+        "name": "Ju_Jason",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-10-30T11:01:00",
+      "first_seen_at": "2026-11-02T01:34:09.263268",
       "sub_category_label": "安全Agent"
     },
     {
@@ -192,56 +242,6 @@
       "author": null,
       "published_at": "2026-11-02T00:49:48.013053",
       "first_seen_at": "2026-11-02T00:52:04.380577",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 24124,
-      "title": "Cathedral AI Agent攻入Anthropic内部，凸显遏制速度重要性",
-      "original_title": "Anthropic and Binance show why the speed of containment matters.  Cathedral, an AI security startup, says its agents found routes into Anthropic's internal messages and employee re",
-      "summary": "AI安全初创公司Cathedral称其安全Agent在测试中利用第三方软件攻入Anthropic内部系统。事件凸显了AI在自动化渗透测试与攻防响应速度中的双重关键作用。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 75.51,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需警惕AI Agent在实战攻防中展现的自动化渗透能力，这预示红队工具加速成熟。同时，Anthropic被攻破事件警示第三方供应链与快速遏制机制仍是防守痛点。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/convequity/status/2116323768079618254",
-      "reader_url": "https://x.com/convequity/status/2116323768079618254",
-      "image_url": null,
-      "author": {
-        "username": "convequity",
-        "name": "Convequity",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-31T00:18:00",
-      "first_seen_at": "2026-11-01T17:33:11.209948",
-      "sub_category_label": null
-    },
-    {
-      "id": 24611,
-      "title": "开源AI渗透测试系统ARTEX发布，支持自主安全测试",
-      "original_title": "ARTEX is an open source AI penetration testing system that runs security tests on your own infrastructure autonomously.  >⁠Go backend with a Next.js dashboard >⁠Tracks tasks, findi",
-      "summary": "ARTEX是一个开源的AI渗透测试系统，采用Go后端与Next.js面板，支持自主在本地基础设施执行安全测试，并允许用户自定义接入LLM、Agent和MCP能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.5,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做甲方安全和渗透测试的兄弟可以关注下这个开源工具。它主打自主执行安全测试且支持自定义LLM和Agent，可以作为低成本的第一道防线，或拿来自研内网自动化漏洞挖掘Agent。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RoundtableSpace/status/2116942092035609042",
-      "reader_url": "https://x.com/RoundtableSpace/status/2116942092035609042",
-      "image_url": null,
-      "author": {
-        "username": "RoundtableSpace",
-        "name": "0xMarioNawfal",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-01T17:15:00",
-      "first_seen_at": "2026-11-01T17:36:12.033640",
       "sub_category_label": "安全Agent"
     }
   ]
