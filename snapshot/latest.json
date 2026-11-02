@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T05:54:26+08:00",
+  "updated_at": "2026-11-03T07:24:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -169,29 +169,29 @@
       "sub_category_label": "恶意软件与威胁检测"
     },
     {
-      "id": 25121,
-      "title": "AI安全架构将使用Juliet与OSS-Fuzz进行安全评测",
-      "original_title": "I’ll focus first on evaluating my secure architecture against established benchmarks.  The NIST Juliet C/C++ Test Suite (https://t.co/bXjuXo7msx) for vulnerability detection and di",
-      "summary": "推文作者计划使用 NIST Juliet C/C++ 测试套件、OSS-Fuzz 和 SPEC CPU 2026 来评估其安全架构在漏洞检测与性能上的表现，并承诺将公开可复现的方法与结果。",
+      "id": 25223,
+      "title": "中国黑客利用 AI 渗透框架 ARTEX 攻击200余个组织",
+      "original_title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs https://t.co/6fxxuS328o  \"Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framewor",
+      "summary": "中国黑客将开源多智能体 AI 渗透测试框架 ARTEX 武器化，对 14 个国家的 200 多个组织发起自动化攻击。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 63.95,
+      "sub_category": "security_agent",
+      "score_total": 66.75,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "关注 AI 漏洞挖掘和检测能力的团队可以跟进其评测方法。使用 Juliet 和 OSS-Fuzz 作为大模型或 AI 智能体的安全评测基准，是验证 AI 安全工具落地效果的有效手段。",
+      "recommendation_reason": "红队和蓝队都该看：开源 AI 渗透框架正迅速被武器化用于真实攻击。防御方需尽快评估现有检测机制能否识别多智能体自动化攻击链路的行为特征。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/fibanacci101/status/2117296212395122844",
-      "reader_url": "https://x.com/fibanacci101/status/2117296212395122844",
+      "canonical_url": "https://x.com/catnap707/status/2117387551833264455",
+      "reader_url": "https://x.com/catnap707/status/2117387551833264455",
       "image_url": null,
       "author": {
-        "username": "fibanacci101",
-        "name": "Christopher Layhew Sr",
+        "username": "catnap707",
+        "name": "ねこさん⚡(ΦωΦ)",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-02T16:42:09",
-      "first_seen_at": "2026-11-02T16:56:54.833836",
-      "sub_category_label": "安全评测与Benchmark"
+      "published_at": "2026-11-02T22:45:06",
+      "first_seen_at": "2026-11-02T23:09:03.646126",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
