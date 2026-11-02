@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T13:48:56+08:00",
+  "updated_at": "2026-11-02T15:49:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -70,31 +70,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 24005,
-      "title": "用 AI Agent 逆向路由器并开源网络监控工具 Bastion",
-      "original_title": "i reverse engineered my Wi-Fi router with Claude Opus 5.5 and found a f*cking scary privacy problem...  every site I opened, my provider saw it. no encryption. just a readable list",
-      "summary": "开发者利用 Claude Code 自动化逆向 Wi-Fi 路由器，发现 DNS 明文等隐私问题，随后构建了开源多 Agent 网络监控工具 Bastion，可扫描 12 个常见路由器入口点并提供安全建议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 80.55,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "展示了 AI 在终端安全工具开发中的实战能力。从漏洞挖掘到自动化防护工具生成的全流程闭环，安全人员可直接参考其多 Agent 并行架构与隐私脱敏设计，探索本地 AI 安全助手的落地模式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xCodez/status/2116277697563234432",
-      "reader_url": "https://x.com/0xCodez/status/2116277697563234432",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2116276405390417920/img/D5wMlSOj0ATuRP7b.jpg",
-      "author": {
-        "username": "0xCodez",
-        "name": "Codez",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-30T21:14:56",
-      "first_seen_at": "2026-11-01T19:33:33.165727",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 23806,
       "title": "Chainguard Harness 结合 Mythos 5.1 自动挖掘应用可利用漏洞",
       "original_title": "No Mythos access? You can now hunt for first and third-party exploitable vulnerabilities in your applications using Chainguard Harness.  Chainguard Harness builds your app from sou",
@@ -120,6 +95,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 24978,
+      "title": "Anthropic 演示 Linux 内核 TCP 高危漏洞 PoC，可直接提权至 root",
+      "original_title": "RT @TheHackersNews: ‼️ Linux kernel TCP flaw rated 9.8 CVSS.  Anthropic demonstrated an exploit that runs commands as root on servers using…",
+      "summary": "Linux 内核 TCP 协议栈存在 CVSS 9.8 严重漏洞，Anthropic 展示了利用该漏洞在服务器上以 root 权限执行命令的 PoC，标志着 AI 辅助漏洞挖掘在真实高危内核漏洞上的落地能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.67,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和漏洞研究者应重点关注：Anthropic 再次展示 AI 在高危内核漏洞利用上的实战能力，从发现到可执行 PoC 的链路正在缩短。建议跟踪该漏洞 CVE 详情和补丁进展，同时评估自身 AI 辅助漏洞挖掘流程的成熟度。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2117133047107924084",
+      "reader_url": "https://x.com/TheHackersNews/status/2117133047107924084",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-11-02T05:53:47",
+      "first_seen_at": "2026-11-02T07:26:05.272861",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 23754,
       "title": "8.8美元端到端渗透与AI自主挖洞实战复盘",
       "original_title": "如果有人告诉你：彻底打穿一个高危系统的最高权限，现在只需要 91 行开源胶水代码 和 8.8 美元的 API 账单——你大概会觉得这是安全厂商在制造焦虑。  但这不是理论推演，而是过去几个月全球顶级安全实验室在靶场里砸出来的冰冷账本：大家都在算 AI Agent 帮企业省了多少研发工时，黑客却已经用它把网络渗透做成了按秒出货、几块钱一单的工业流水线。  它不",
@@ -142,31 +142,6 @@
       },
       "published_at": "2026-10-30T11:01:00",
       "first_seen_at": "2026-11-02T01:34:09.263268",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 23963,
-      "title": "用 Claude 零代码逆向路由器并构建开源 AI 网络安全守护应用",
-      "original_title": "i reverse engineered my Wi-Fi router with Claude and found a f*cking scary privacy problem...  my provider could see every website I looked up. in plain text.  so I built an open-s",
-      "summary": "作者使用 Claude Opus 零代码逆向 Wi-Fi 路由器发现隐私问题，并自动化构建名为 Bastion 的开源网络安全 Agent，能扫描安全隐患并由 AI 提供修复建议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.35,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "该案例展示了大模型自动化构建安全工具并进行代码审计的闭环。开发者可参考其多 Agent 并行构建与隔离防护设计，探索 AI 辅助安全工具开发的提效空间。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xMovez/status/2116253233308110936",
-      "reader_url": "https://x.com/0xMovez/status/2116253233308110936",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2116253160167620608/img/cxN1NvdaxEj1wRVY.jpg",
-      "author": {
-        "username": "0xMovez",
-        "name": "Movez",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-10-30T19:37:43",
-      "first_seen_at": "2026-11-01T19:33:33.165727",
       "sub_category_label": "安全Agent"
     },
     {
@@ -218,6 +193,26 @@
       "published_at": "2026-10-30T15:31:25",
       "first_seen_at": "2026-11-01T23:34:04.925727",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 24723,
+      "title": "Cloudflare 开源多阶段安全审计 Agent 技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 开源了一个 coding-agent 技能，用于执行多阶段安全审计，并产出可独立验证的机器可读结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "代码审计从业者应关注。该技能展示了如何用 Agent 执行结构化多阶段安全审计，且强调结果可验证性，可直接集成到现有安全工作流中。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-02&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-02&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-02T00:49:48.013053",
+      "first_seen_at": "2026-11-02T00:52:04.380577",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
