@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T20:28:19+08:00",
+  "updated_at": "2026-11-03T20:58:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -48,6 +48,31 @@
       "published_at": "2026-11-03T02:29:35",
       "first_seen_at": "2026-11-03T03:26:16.036315",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 25535,
+      "title": "chompie1337 发布自主 N-Day 漏洞利用流水线演讲视频",
+      "original_title": "RT @chompie1337: Video of my @UnpromptedAU &amp; Bsides Canberra talks out now  I built an autonomous N-Day exploit pipeline for the Windows ke…",
+      "summary": "安全研究员 chompie1337 在 Bsides Canberra 和 UnpromptedAU 演讲中展示了其构建的针对 Windows 内核的自主化 N-Day 漏洞利用流水线，相关视频现已公开。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "直接展示了 AI 在自动化漏洞利用和二进制安全中的实战落地。AI for Sec 从业者应立刻观看视频，研究其 Agent 架构与利用链自动化实现思路，评估防御侧应对自动化攻击的准备。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2117593494675951862",
+      "reader_url": "https://x.com/pentest_swissky/status/2117593494675951862",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-11-03T12:23:26",
+      "first_seen_at": "2026-11-03T12:53:22.440675",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 25429,
@@ -208,31 +233,6 @@
       "published_at": "2026-11-03T00:00:00",
       "first_seen_at": "2026-11-03T04:49:17.886061",
       "sub_category_label": null
-    },
-    {
-      "id": 25329,
-      "title": "中国黑客使用 AI 渗透框架 ARTEX 发起大规模攻击",
-      "original_title": "Chinese threat actors are using an AI-powered penetration testing framework called ARTEX to run automated attacks.  More than 200 organizations worldwide have already been targeted",
-      "summary": "威胁行为者利用名为 ARTEX 的 AI 驱动渗透测试框架在全球范围内自动化攻击了 200 多个组织，大幅降低了大规模攻击的门槛与时间成本。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.21,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 驱动的自动化渗透框架正在黑产中落地，防守方需警惕攻击频率和复杂度的双重上升，应加快引入 AI 辅助的持续监测与响应能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/engniiokai/status/2117463321485918225",
-      "reader_url": "https://x.com/engniiokai/status/2117463321485918225",
-      "image_url": null,
-      "author": {
-        "username": "engniiokai",
-        "name": "Emmanuel Nii Okai",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-03T03:46:11",
-      "first_seen_at": "2026-11-03T03:59:15.633396",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
