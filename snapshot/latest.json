@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T08:55:08+08:00",
+  "updated_at": "2026-11-03T09:55:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -192,29 +192,29 @@
       "sub_category_label": "模型评测"
     },
     {
-      "id": 25066,
-      "title": "VOLTA 恶意软件利用 AI 分析窃取数据生成受害者画像",
-      "original_title": "‼️ VOLTA Malware Steals Gmail & Discord Sessions, Then Uses AI to Build Detailed Victim Profiles   Details: https://t.co/tsRlTzuVrz  A new Windows infostealer called VOLTA does mor",
-      "summary": "新型信息窃取木马 VOLTA 在窃取浏览器和应用会话后，调用 AI 模型分析数据并评估受害者价值，运行后自删除以逃避检测。",
+      "id": 25223,
+      "title": "中国黑客利用 AI 渗透框架 ARTEX 攻击200余个组织",
+      "original_title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs https://t.co/6fxxuS328o  \"Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framewor",
+      "summary": "中国黑客将开源多智能体 AI 渗透测试框架 ARTEX 武器化，对 14 个国家的 200 多个组织发起自动化攻击。",
       "primary_category": "AI for Sec",
-      "sub_category": "malware_detection",
-      "score_total": 67.67,
+      "sub_category": "security_agent",
+      "score_total": 66.75,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 正在被集成到恶意软件中实现自动化数据分析和目标筛选，防御方需关注此类“AI 赋能攻击”趋势，并在威胁狩猎中警惕异常的 API 调用或数据外发行为。",
+      "recommendation_reason": "红队和蓝队都该看：开源 AI 渗透框架正迅速被武器化用于真实攻击。防御方需尽快评估现有检测机制能否识别多智能体自动化攻击链路的行为特征。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2117229799093715347",
-      "reader_url": "https://x.com/The_Cyber_News/status/2117229799093715347",
-      "image_url": "https://pbs.twimg.com/media/HWHpQk8awAAIZis.jpg",
+      "canonical_url": "https://x.com/catnap707/status/2117387551833264455",
+      "reader_url": "https://x.com/catnap707/status/2117387551833264455",
+      "image_url": null,
       "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
+        "username": "catnap707",
+        "name": "ねこさん⚡(ΦωΦ)",
         "avatar_url": null,
-        "followers_count": 73656
+        "followers_count": 0
       },
-      "published_at": "2026-11-02T12:18:14",
-      "first_seen_at": "2026-11-02T13:32:43.329286",
-      "sub_category_label": "恶意软件与威胁检测"
+      "published_at": "2026-11-02T22:45:06",
+      "first_seen_at": "2026-11-02T23:09:03.646126",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
