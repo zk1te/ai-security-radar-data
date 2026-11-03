@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T11:56:06+08:00",
+  "updated_at": "2026-11-03T12:56:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -197,23 +197,23 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 25114,
-      "title": "CodeSpecWeave：长程代码生成的依赖规格合成与评测基准",
-      "original_title": "When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
-      "summary": "该论文提出 CodeSpecWeave 框架，用于合成具有复杂相互依赖约束的代码生成任务，并构建了包含 1,044 个规格的评测基准 CodeSpecWeave-Bench，以评估前沿大模型处理工程约束的能力。",
+      "id": 25344,
+      "title": "MAServeBench：多智能体LLM服务系统基准测试",
+      "original_title": "MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads",
+      "summary": "MAServeBench 提出了一种针对多智能体大模型服务系统的基准测试方法，通过可组合阶段和层级语义轨迹捕获智能体协作负载，揭示服务效率与任务完成时间的关联及潜在硬件瓶颈。",
       "primary_category": "AI Tech",
       "sub_category": "model_evaluation",
-      "score_total": 68.45,
+      "score_total": 67.8,
       "include_status": "included",
       "item_type": "paper",
-      "recommendation_reason": "复杂代码约束的合成与评测方法可迁移至安全代码审计场景。安全团队可借鉴其规格生成思路，构建更贴合真实漏洞场景的安全评测基准。",
+      "recommendation_reason": "多智能体系统的并发和内存瓶颈是潜在的 DoS 攻击面。做 Agent 安全和防御的团队可借用此 Benchmark 评估多智能体在复杂协作下的健壮性，提前发现资源耗尽风险。",
       "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.40256",
-      "reader_url": "https://arxiv.org/pdf/2610.40256",
+      "canonical_url": "https://huggingface.co/papers/2610.40293",
+      "reader_url": "https://arxiv.org/pdf/2610.40293",
       "image_url": null,
       "author": null,
-      "published_at": "2026-11-02T00:00:00",
-      "first_seen_at": "2026-11-02T16:34:24.269455",
+      "published_at": "2026-11-03T00:00:00",
+      "first_seen_at": "2026-11-03T04:49:22.371770",
       "sub_category_label": "模型评测"
     }
   ]
