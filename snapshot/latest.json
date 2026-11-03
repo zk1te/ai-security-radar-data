@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T22:59:05+08:00",
+  "updated_at": "2026-11-03T23:29:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -150,29 +150,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 25314,
-      "title": "OpenAI 宣布用 AI 进行安全冲刺并大幅提升漏洞赏金",
-      "original_title": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.  We’re planning our next internal security sprint at OpenAI and partner",
-      "summary": "OpenAI 将与 Cathedral Systems 合作开展内部安全冲刺，使用其 AI 模型挖掘漏洞并修复弱点，同时宣布将关键漏洞赏金提高至最高 17.2 万美元。",
+      "id": 25535,
+      "title": "chompie1337 发布自主 N-Day 漏洞利用流水线演讲视频",
+      "original_title": "RT @chompie1337: Video of my @UnpromptedAU &amp; Bsides Canberra talks out now  I built an autonomous N-Day exploit pipeline for the Windows ke…",
+      "summary": "安全研究员 chompie1337 在 Bsides Canberra 和 UnpromptedAU 演讲中展示了其构建的针对 Windows 内核的自主化 N-Day 漏洞利用流水线，相关视频现已公开。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.45,
+      "sub_category": "security_agent",
+      "score_total": 73.65,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "大厂带头将 AI 纳入内部安全流程，释放了 AI for Sec 加速落地的信号。安全团队需关注 AI 辅助漏洞挖掘在实战中的进展及防御侧的应对策略。",
+      "recommendation_reason": "直接展示了 AI 在自动化漏洞利用和二进制安全中的实战落地。AI for Sec 从业者应立刻观看视频，研究其 Agent 架构与利用链自动化实现思路，评估防御侧应对自动化攻击的准备。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2117444048227123277",
-      "reader_url": "https://x.com/OpenAI/status/2117444048227123277",
+      "canonical_url": "https://x.com/pentest_swissky/status/2117593494675951862",
+      "reader_url": "https://x.com/pentest_swissky/status/2117593494675951862",
       "image_url": null,
       "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
+        "username": "pentest_swissky",
+        "name": "Swissky",
         "avatar_url": null,
-        "followers_count": 5355398
+        "followers_count": 23028
       },
-      "published_at": "2026-11-03T02:29:35",
-      "first_seen_at": "2026-11-03T03:26:16.036315",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-11-03T12:23:26",
+      "first_seen_at": "2026-11-03T12:53:22.440675",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
