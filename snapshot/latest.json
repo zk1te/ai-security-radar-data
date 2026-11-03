@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T09:55:18+08:00",
+  "updated_at": "2026-11-03T11:56:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -97,29 +97,29 @@
       "sub_category_label": null
     },
     {
-      "id": 25097,
-      "title": "SOC调研：28%告警未被调查，附AI SOC Agent落地清单",
-      "original_title": "🚨 28% of SOC alerts never get investigated, according to a survey of 250+ security leaders and practitioners.  AI SOC agents can help tackle the backlog, but deployment requires mo",
-      "summary": "调研显示28%的SOC告警从未被调查，推文分享了评估引入AI SOC Agent准备度的18点清单。",
+      "id": 25314,
+      "title": "OpenAI 宣布用 AI 进行安全冲刺并大幅提升漏洞赏金",
+      "original_title": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.  We’re planning our next internal security sprint at OpenAI and partner",
+      "summary": "OpenAI 将与 Cathedral Systems 合作开展内部安全冲刺，使用其 AI 模型挖掘漏洞并修复弱点，同时宣布将关键漏洞赏金提高至最高 17.2 万美元。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.03,
+      "sub_category": "vuln_discovery",
+      "score_total": 74.45,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "准备引入AI SOC Agent的安全团队该看。AI落地不是直接插个工具就行，这份清单可直接拿来做内部能力基线评估和避坑。",
+      "recommendation_reason": "大厂带头将 AI 纳入内部安全流程，释放了 AI for Sec 加速落地的信号。安全团队需关注 AI 辅助漏洞挖掘在实战中的进展及防御侧的应对策略。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2117266179341607327",
-      "reader_url": "https://x.com/TheHackersNews/status/2117266179341607327",
-      "image_url": "https://pbs.twimg.com/media/HWIKXVdagAEpfUU.jpg",
+      "canonical_url": "https://x.com/OpenAI/status/2117444048227123277",
+      "reader_url": "https://x.com/OpenAI/status/2117444048227123277",
+      "image_url": null,
       "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
+        "username": "OpenAI",
+        "name": "OpenAI",
         "avatar_url": null,
-        "followers_count": 2351119
+        "followers_count": 5355398
       },
-      "published_at": "2026-11-02T14:42:48",
-      "first_seen_at": "2026-11-02T15:48:43.742294",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-11-03T02:29:35",
+      "first_seen_at": "2026-11-03T03:26:16.036315",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 25120,
@@ -172,6 +172,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 25319,
+      "title": "WorkOS 遭 AI 自动化渗透框架 ARTEX 入侵",
+      "original_title": "WorkOS just disclosed a breach of its internal systems, tied to an AI hacking tool. Here's what you need to know.  WorkOS CEO Michael Grinich says the company discovered the incide",
+      "summary": "身份认证商 WorkOS 披露内部系统被攻破，攻击者使用了开源 AI 自动化渗透框架 ARTEX 窃取 CRM 与客服数据，CrowdStrike 将该工具关联到中国威胁组织 VAPOR PANDA。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.51,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队急需关注 ARTEX 这类 AI 自动化渗透框架的实战威胁，该工具已被大规模用于针对 200+ 组织的攻击，直接威胁内部 GTM 系统与客户数据安全。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AGTPinsights/status/2117451548833845662",
+      "reader_url": "https://x.com/AGTPinsights/status/2117451548833845662",
+      "image_url": "https://pbs.twimg.com/media/HWKywIJWUAAaFcC.jpg",
+      "author": {
+        "username": "AGTPinsights",
+        "name": "AGTP",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-03T02:59:24",
+      "first_seen_at": "2026-11-03T03:26:53.935943",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 25114,
       "title": "CodeSpecWeave：长程代码生成的依赖规格合成与评测基准",
       "original_title": "When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
@@ -190,31 +215,6 @@
       "published_at": "2026-11-02T00:00:00",
       "first_seen_at": "2026-11-02T16:34:24.269455",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 25223,
-      "title": "中国黑客利用 AI 渗透框架 ARTEX 攻击200余个组织",
-      "original_title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs https://t.co/6fxxuS328o  \"Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framewor",
-      "summary": "中国黑客将开源多智能体 AI 渗透测试框架 ARTEX 武器化，对 14 个国家的 200 多个组织发起自动化攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和蓝队都该看：开源 AI 渗透框架正迅速被武器化用于真实攻击。防御方需尽快评估现有检测机制能否识别多智能体自动化攻击链路的行为特征。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/catnap707/status/2117387551833264455",
-      "reader_url": "https://x.com/catnap707/status/2117387551833264455",
-      "image_url": null,
-      "author": {
-        "username": "catnap707",
-        "name": "ねこさん⚡(ΦωΦ)",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-02T22:45:06",
-      "first_seen_at": "2026-11-02T23:09:03.646126",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
