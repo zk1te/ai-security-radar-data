@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T08:25:02+08:00",
+  "updated_at": "2026-11-03T08:55:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -27,26 +27,6 @@
       "published_at": "2026-11-02T17:05:25",
       "first_seen_at": "2026-11-03T00:20:23.617750",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 25053,
-      "title": "Venus-DefakerOne2：覆盖多模态伪造检测的视觉取证基础模型",
-      "original_title": "Venus-DefakerOne2: A Vision-Forensics Foundation Model with Broader Coverage",
-      "summary": "提出视觉取证基础模型Venus-DefakerOne2，通过混合微调和熵测试适应策略，在DeepFake、AI生成图像/视频及物理欺骗等多种伪造检测上达到SOTA。",
-      "primary_category": "AI for Sec",
-      "sub_category": "forensics_detection",
-      "score_total": 81.45,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "视觉取证领域的统一大模型出现，覆盖了从数字篡改到物理欺骗的完整威胁面。从事反欺诈和AI生成内容检测的团队值得跟进评估其落地效果与误报率。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.37918",
-      "reader_url": "https://arxiv.org/pdf/2610.37918",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-02T00:00:00",
-      "first_seen_at": "2026-11-02T12:32:49.802948",
-      "sub_category_label": null
     },
     {
       "id": 25243,
@@ -210,6 +190,31 @@
       "published_at": "2026-11-02T00:00:00",
       "first_seen_at": "2026-11-02T16:34:24.269455",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 25066,
+      "title": "VOLTA 恶意软件利用 AI 分析窃取数据生成受害者画像",
+      "original_title": "‼️ VOLTA Malware Steals Gmail & Discord Sessions, Then Uses AI to Build Detailed Victim Profiles   Details: https://t.co/tsRlTzuVrz  A new Windows infostealer called VOLTA does mor",
+      "summary": "新型信息窃取木马 VOLTA 在窃取浏览器和应用会话后，调用 AI 模型分析数据并评估受害者价值，运行后自删除以逃避检测。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 67.67,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 正在被集成到恶意软件中实现自动化数据分析和目标筛选，防御方需关注此类“AI 赋能攻击”趋势，并在威胁狩猎中警惕异常的 API 调用或数据外发行为。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2117229799093715347",
+      "reader_url": "https://x.com/The_Cyber_News/status/2117229799093715347",
+      "image_url": "https://pbs.twimg.com/media/HWHpQk8awAAIZis.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-11-02T12:18:14",
+      "first_seen_at": "2026-11-02T13:32:43.329286",
+      "sub_category_label": "恶意软件与威胁检测"
     }
   ]
 }
