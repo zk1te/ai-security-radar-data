@@ -1,9 +1,33 @@
 {
-  "updated_at": "2026-11-03T07:24:34+08:00",
+  "updated_at": "2026-11-03T08:25:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
+    {
+      "id": 25267,
+      "title": "Momentic推出自主Bug挖掘Agent，评测中超越Claude Code",
+      "original_title": "HN Hot Discussion: Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "summary": "Momentic 推出基于多智能体 DAG 架构的 QA Agent「Mo」，通过自主探索应用 UI 发现 Bug。其开源的 qa-bench 基准显示，Mo 在召回率上显著优于 Claude Code、Devin 和 Codex。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 85.85,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "QA Agent 本质就是自动化缺陷与漏洞挖掘。Mo 的多智能体并行探索架构在召回率上大幅领先通用 Coding Agent，其开源 harness 和数据集极具复现价值，做自动化漏洞挖掘的同行必须立刻看。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50339913&hn_hot_date=2026-11-03",
+      "reader_url": "https://news.ycombinator.com/item?id=50339913&hn_hot_date=2026-11-03",
+      "image_url": null,
+      "author": {
+        "username": "wuweiweiwu",
+        "name": "wuweiweiwu",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T17:05:25",
+      "first_seen_at": "2026-11-03T00:20:23.617750",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 25053,
       "title": "Venus-DefakerOne2：覆盖多模态伪造检测的视觉取证基础模型",
@@ -23,6 +47,26 @@
       "published_at": "2026-11-02T00:00:00",
       "first_seen_at": "2026-11-02T12:32:49.802948",
       "sub_category_label": null
+    },
+    {
+      "id": 25243,
+      "title": "Cloudflare开源安全审计Agent技能，支持多阶段验证",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare发布了一个面向编程Agent的安全审计技能，支持多阶段审计并生成可独立验证的机器可读结果，目前GitHub星标超5.7万。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做代码审计和Agent安全落地的同学必看。它展示了如何用Agent构建结构化、可验证的安全审计流程，直接抄作业就能把审计结果接入下游自动化处理。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-03&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-03&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-03T00:09:23.290204",
+      "first_seen_at": "2026-11-03T00:11:33.327759",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 25133,
@@ -46,6 +90,30 @@
       },
       "published_at": "2026-11-02T17:05:25",
       "first_seen_at": "2026-11-02T17:31:45.495883",
+      "sub_category_label": null
+    },
+    {
+      "id": 25251,
+      "title": "Simantic 发布为 AI Agent 设计的固件仿真平台",
+      "original_title": "HN Hot Discussion: Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+      "summary": "Simantic (YC F26) 推出基于 Rust 自研的固件仿真平台，支持 AI Agent 在无物理硬件的情况下测试和验证固件，并提供结合仿真的 AI 代码审查机器人及 CI/CD 自动验证。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 74.59,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 IoT 和固件安全的人可以看看这个思路：用 Rust 重写仿真引擎，并让 AI Agent 直接在仿真层跑固件测试和代码审查。这种「AI 验证固件」的模式可快速复制到固件 Fuzzing 和安全审计中。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-11-03",
+      "reader_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-11-03",
+      "image_url": null,
+      "author": {
+        "username": "shong0504",
+        "name": "shong0504",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-29T15:56:32",
+      "first_seen_at": "2026-11-03T00:18:36.633121",
       "sub_category_label": null
     },
     {
@@ -142,56 +210,6 @@
       "published_at": "2026-11-02T00:00:00",
       "first_seen_at": "2026-11-02T16:34:24.269455",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 25066,
-      "title": "VOLTA 恶意软件利用 AI 分析窃取数据生成受害者画像",
-      "original_title": "‼️ VOLTA Malware Steals Gmail & Discord Sessions, Then Uses AI to Build Detailed Victim Profiles   Details: https://t.co/tsRlTzuVrz  A new Windows infostealer called VOLTA does mor",
-      "summary": "新型信息窃取木马 VOLTA 在窃取浏览器和应用会话后，调用 AI 模型分析数据并评估受害者价值，运行后自删除以逃避检测。",
-      "primary_category": "AI for Sec",
-      "sub_category": "malware_detection",
-      "score_total": 67.67,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 正在被集成到恶意软件中实现自动化数据分析和目标筛选，防御方需关注此类“AI 赋能攻击”趋势，并在威胁狩猎中警惕异常的 API 调用或数据外发行为。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2117229799093715347",
-      "reader_url": "https://x.com/The_Cyber_News/status/2117229799093715347",
-      "image_url": "https://pbs.twimg.com/media/HWHpQk8awAAIZis.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-11-02T12:18:14",
-      "first_seen_at": "2026-11-02T13:32:43.329286",
-      "sub_category_label": "恶意软件与威胁检测"
-    },
-    {
-      "id": 25223,
-      "title": "中国黑客利用 AI 渗透框架 ARTEX 攻击200余个组织",
-      "original_title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs https://t.co/6fxxuS328o  \"Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framewor",
-      "summary": "中国黑客将开源多智能体 AI 渗透测试框架 ARTEX 武器化，对 14 个国家的 200 多个组织发起自动化攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和蓝队都该看：开源 AI 渗透框架正迅速被武器化用于真实攻击。防御方需尽快评估现有检测机制能否识别多智能体自动化攻击链路的行为特征。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/catnap707/status/2117387551833264455",
-      "reader_url": "https://x.com/catnap707/status/2117387551833264455",
-      "image_url": null,
-      "author": {
-        "username": "catnap707",
-        "name": "ねこさん⚡(ΦωΦ)",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-02T22:45:06",
-      "first_seen_at": "2026-11-02T23:09:03.646126",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
