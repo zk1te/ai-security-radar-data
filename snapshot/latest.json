@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T13:56:38+08:00",
+  "updated_at": "2026-11-03T14:26:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -98,31 +98,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 25156,
-      "title": "在野利用：攻击者使用AI渗透测试框架ARTEX发起入侵",
-      "original_title": "We've observed intrusion attempts against multiple targets using #ARTEX, an openly published AI penetration-testing framework in which an LLM agent chooses each step of an attack. ",
-      "summary": "研究人员观察到针对多目标的入侵尝试使用了 ARTEX，这是一个公开的 AI 渗透测试框架，由 LLM Agent 自主选择攻击步骤。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.99,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透工具被用于真实攻击，说明防守方必须开始识别和对抗 LLM 驱动的自动化攻击手法，红蓝双方都应关注此类 Agent 的行为模式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Unit42_Intel/status/2117314565973184687",
-      "reader_url": "https://x.com/Unit42_Intel/status/2117314565973184687",
-      "image_url": "https://pbs.twimg.com/media/HWI2YF5W8AAGq8w.jpg",
-      "author": {
-        "username": "Unit42_Intel",
-        "name": "Unit 42",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-02T17:55:04",
-      "first_seen_at": "2026-11-02T18:06:42.265131",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 25319,
       "title": "WorkOS 遭 AI 自动化渗透框架 ARTEX 入侵",
       "original_title": "WorkOS just disclosed a breach of its internal systems, tied to an AI hacking tool. Here's what you need to know.  WorkOS CEO Michael Grinich says the company discovered the incide",
@@ -215,6 +190,30 @@
       "published_at": "2026-11-02T23:30:59",
       "first_seen_at": "2026-11-03T00:21:20.981365",
       "sub_category_label": null
+    },
+    {
+      "id": 25274,
+      "title": "WorkOS 数据泄露，攻击者使用 AI 渗透框架 ARTEX",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告安全事件，称攻击者使用 AI 辅助自主渗透测试框架 ARTEX 访问其内部 API 并窃取 CRM 数据，涉及客户联系方式等业务信息。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 自主渗透工具在野攻击的首批公开案例之一。安全团队应立即追踪 ARTEX 框架的能力与来源，评估现有防御能否扛住自动化渗透。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-03",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-03",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-03T00:21:20.741646",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
