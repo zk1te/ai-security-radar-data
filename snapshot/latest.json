@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T17:57:45+08:00",
+  "updated_at": "2026-11-03T19:27:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -27,6 +27,26 @@
       "published_at": "2026-11-02T17:05:25",
       "first_seen_at": "2026-11-03T00:20:23.617750",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 25507,
+      "title": "网络安全 AlphaGo 时刻：466 场安全 Agent 对局分析",
+      "original_title": "网络安全的AlphaGo时刻，或从这466场Agent对局开始",
+      "summary": "文章报道了涉及 466 场安全 Agent 对抗的实验或评测，探讨这可能标志着网络安全领域迎来类似 AlphaGo 的突破性时刻。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 79.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注此类 Agent 对局结果，这直接反映了自动化攻防 Agent 的最新能力边界和实战表现，对评估 AI 安全运营落地有参考价值。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-11-03-6?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-11-03-6?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-03T10:31:23",
+      "first_seen_at": "2026-11-03T11:08:36.845643",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 25243,
@@ -191,31 +211,6 @@
       "published_at": "2026-11-03T09:05:06",
       "first_seen_at": "2026-11-03T09:37:32.756001",
       "sub_category_label": null
-    },
-    {
-      "id": 25223,
-      "title": "中国黑客利用 AI 渗透框架 ARTEX 攻击200余个组织",
-      "original_title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs https://t.co/6fxxuS328o  \"Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framewor",
-      "summary": "中国黑客将开源多智能体 AI 渗透测试框架 ARTEX 武器化，对 14 个国家的 200 多个组织发起自动化攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和蓝队都该看：开源 AI 渗透框架正迅速被武器化用于真实攻击。防御方需尽快评估现有检测机制能否识别多智能体自动化攻击链路的行为特征。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/catnap707/status/2117387551833264455",
-      "reader_url": "https://x.com/catnap707/status/2117387551833264455",
-      "image_url": null,
-      "author": {
-        "username": "catnap707",
-        "name": "ねこさん⚡(ΦωΦ)",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-02T22:45:06",
-      "first_seen_at": "2026-11-02T23:09:03.646126",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 25275,
