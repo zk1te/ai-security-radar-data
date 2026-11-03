@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T05:00:47+08:00",
+  "updated_at": "2026-11-04T07:31:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -125,26 +125,6 @@
       "sub_category_label": "知识增强安全"
     },
     {
-      "id": 25507,
-      "title": "网络安全 AlphaGo 时刻：466 场安全 Agent 对局分析",
-      "original_title": "网络安全的AlphaGo时刻，或从这466场Agent对局开始",
-      "summary": "文章报道了涉及 466 场安全 Agent 对抗的实验或评测，探讨这可能标志着网络安全领域迎来类似 AlphaGo 的突破性时刻。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 79.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应关注此类 Agent 对局结果，这直接反映了自动化攻防 Agent 的最新能力边界和实战表现，对评估 AI 安全运营落地有参考价值。",
-      "source_id": "jiqizhixin-rss",
-      "canonical_url": "https://www.jiqizhixin.com/articles/2026-11-03-6?source=rss",
-      "reader_url": "https://www.jiqizhixin.com/articles/2026-11-03-6?source=rss",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-03T10:31:23",
-      "first_seen_at": "2026-11-03T11:08:36.845643",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 25707,
       "title": "Black Hat 演讲：FSTab 攻击黑盒挖掘 AI 生成代码的同质化漏洞",
       "original_title": "SecTor 2026 | Using Claude or Codex? We Can Hack Your App?",
@@ -163,6 +143,26 @@
       "published_at": "2026-11-03T18:06:32",
       "first_seen_at": "2026-11-03T20:29:20.779417",
       "sub_category_label": null
+    },
+    {
+      "id": 24827,
+      "title": "基于链上行为特征的以太坊CEX地址机器学习分类研究",
+      "original_title": "On-Chain Behavioral Signatures for Classifying Centralized Exchange Addresses on Ethereum Using Proof-of-Reserves",
+      "summary": "本研究利用储备金证明披露的303万个以太坊地址，构建了58个链上行为特征，并使用LightGBM模型进行CEX地址分类。实验表明LightGBM在跨交易所验证下表现优异，宏PR-AUC达0.9594，并识别出gas行为和ERC-20活跃度等关键预测信号。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 77.3,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做链上威胁追踪和反洗钱的团队可参考其特征工程思路。论文不仅开源了大规模地址数据集，还证明了LightGBM在跨交易所场景下具备高鲁棒性，可直接用于提升链上威胁情报的识别效果。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.41888",
+      "reader_url": "https://arxiv.org/pdf/2610.41888",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-02T05:00:00",
+      "first_seen_at": "2026-11-03T20:45:02.934520",
+      "sub_category_label": "威胁检测"
     }
   ]
 }
