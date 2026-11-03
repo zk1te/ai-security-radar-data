@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T12:56:13+08:00",
+  "updated_at": "2026-11-03T13:26:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -122,31 +122,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 25120,
-      "title": "gapiscanner 重构：支持 Gemini 与 Vertex AI 等密钥配置审计",
-      "original_title": "gmapsapiscanner is now gapiscanner!  I’ve reworked the codebase and scanning flow around a clearer goal: finding Google API key misconfigurations with real security impact.  The pr",
-      "summary": "gmapsapiscanner 更名为 gapiscanner 并重构代码，扩展对 Gemini、Firebase、Vertex AI 等 Google Cloud 服务的 API 密钥配置错误检查，支持多种扫描模式与多平台密钥发现。",
-      "primary_category": "AI for Sec",
-      "sub_category": "api_security",
-      "score_total": 70.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队和赏金猎人可直接用该工具审计 Google API Key 泄露风险，新增的 Vertex AI 和 Gemini 检查覆盖了 AI 服务的越权和数据暴露场景，能立即整合进自动化资产巡检流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ozgur_bbh/status/2117294846289613017",
-      "reader_url": "https://x.com/ozgur_bbh/status/2117294846289613017",
-      "image_url": null,
-      "author": {
-        "username": "ozgur_bbh",
-        "name": "Ozgur Alp",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-02T16:36:43",
-      "first_seen_at": "2026-11-02T16:56:19.222432",
-      "sub_category_label": null
-    },
-    {
       "id": 25156,
       "title": "在野利用：攻击者使用AI渗透测试框架ARTEX发起入侵",
       "original_title": "We've observed intrusion attempts against multiple targets using #ARTEX, an openly published AI penetration-testing framework in which an LLM agent chooses each step of an attack. ",
@@ -215,6 +190,31 @@
       "published_at": "2026-11-03T00:00:00",
       "first_seen_at": "2026-11-03T04:49:22.371770",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 25223,
+      "title": "中国黑客利用 AI 渗透框架 ARTEX 攻击200余个组织",
+      "original_title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs https://t.co/6fxxuS328o  \"Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framewor",
+      "summary": "中国黑客将开源多智能体 AI 渗透测试框架 ARTEX 武器化，对 14 个国家的 200 多个组织发起自动化攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和蓝队都该看：开源 AI 渗透框架正迅速被武器化用于真实攻击。防御方需尽快评估现有检测机制能否识别多智能体自动化攻击链路的行为特征。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/catnap707/status/2117387551833264455",
+      "reader_url": "https://x.com/catnap707/status/2117387551833264455",
+      "image_url": null,
+      "author": {
+        "username": "catnap707",
+        "name": "ねこさん⚡(ΦωΦ)",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-02T22:45:06",
+      "first_seen_at": "2026-11-02T23:09:03.646126",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
