@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T21:28:39+08:00",
+  "updated_at": "2026-11-03T22:28:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,6 +23,31 @@
       "published_at": "2026-11-03T10:31:23",
       "first_seen_at": "2026-11-03T11:08:36.845643",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 25553,
+      "title": "谷歌用 Agent 群修复 TPU 编译器静默 Bug",
+      "original_title": "Banger paper from Google on using agent swarms to fix Google's TPU compiler.  The team used swarms of AI agents to find and fix silent compiler bugs, and the framework has resolved",
+      "summary": "谷歌团队利用多智能体群结合 Fuzzing 技术，在 TPU 编译器中发现并修复了 142 个不报错但会导致数据漂移的静默 Bug。Agent 全程负责生成测试、复现失败和编写补丁，且补丁提交人类审核前需经过对抗性预筛。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.41,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 安全 Agent 在工业级底层基础设施落地的绝佳案例。编译器与底层安全团队应重点关注其 Agent 群架构及「对抗性预筛补丁」机制，这指明了将 AI 缺陷修复嵌入开发流水线的实操方向。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/omarsar0/status/2117613273189376072",
+      "reader_url": "https://x.com/omarsar0/status/2117613273189376072",
+      "image_url": "https://pbs.twimg.com/media/HWNGDE7bUAAtgMe.jpg",
+      "author": {
+        "username": "omarsar0",
+        "name": "elvis",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-03T13:42:02",
+      "first_seen_at": "2026-11-03T14:02:41.881881",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 25314,
@@ -218,26 +243,6 @@
       "published_at": "2026-11-03T06:39:44",
       "first_seen_at": "2026-11-03T06:46:30.436936",
       "sub_category_label": "渗透测试"
-    },
-    {
-      "id": 25338,
-      "title": "诊断多模态推理的「参考鸿沟」：视觉支架的作用与局限",
-      "original_title": "Diagnosing the Reference Gap: What Visual Scaffolds Can and Cannot Fix in Multimodal Reasoning",
-      "summary": "研究指出多模态大模型在视觉推理中的失败多源于「参考鸿沟」，即无法将语言与视觉实体准确绑定。通过引入 ReGap-Bench 评测发现，添加任务匹配的外部参考（如编号）可使准确率提升高达 25%，且无需额外训练。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 65.7,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "多模态模型在分析钓鱼截图或恶意 UI 时常出现「看错地方」的幻觉。这篇研究揭示的「参考鸿沟」现象及其编号修复技巧，可直接用于优化安全场景的多模态提示词设计，提升 Agent 视觉分析准确率。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2610.39419",
-      "reader_url": "https://arxiv.org/pdf/2610.39419",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-03T00:00:00",
-      "first_seen_at": "2026-11-03T04:48:12.402607",
-      "sub_category_label": "模型评测"
     }
   ]
 }
