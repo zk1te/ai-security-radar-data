@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T23:29:12+08:00",
+  "updated_at": "2026-11-04T04:30:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -105,6 +105,26 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 25707,
+      "title": "Black Hat 演讲：FSTab 攻击黑盒挖掘 AI 生成代码的同质化漏洞",
+      "original_title": "SecTor 2026 | Using Claude or Codex? We Can Hack Your App?",
+      "summary": "研究提出 FSTab 黑盒攻击方法，通过分析 AI 代码模型（如 Claude 或 Codex）生成应用中的常见后端漏洞模式，成功对其他同模型生成的应用发起攻击，成功率达 85.67%。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "ai_supply_chain | vuln_discovery",
+      "score_total": 79.35,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "代码审计和红队人员该看：AI 生成代码导致漏洞同质化，FSTab 提供了批量挖掘此类漏洞的黑盒思路。大家需立即调整 SAST/DAST 策略以应对 AI 生成代码的系统性风险。",
+      "source_id": "blackhat-youtube",
+      "canonical_url": "https://www.youtube.com/watch?v=y_lw2P0393k",
+      "reader_url": "https://www.youtube.com/watch?v=y_lw2P0393k",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-03T18:06:32",
+      "first_seen_at": "2026-11-03T20:29:20.779417",
+      "sub_category_label": null
+    },
+    {
       "id": 24942,
       "title": "ROSTrans：评估大模型在 ROS1 到 ROS2 代码迁移的能力基准",
       "original_title": "ROSTrans: Empirically Benchmarking LLMs for ROS1-to-ROS2 Migration",
@@ -147,31 +167,6 @@
       },
       "published_at": "2026-11-03T13:42:02",
       "first_seen_at": "2026-11-03T14:02:41.881881",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 25535,
-      "title": "chompie1337 发布自主 N-Day 漏洞利用流水线演讲视频",
-      "original_title": "RT @chompie1337: Video of my @UnpromptedAU &amp; Bsides Canberra talks out now  I built an autonomous N-Day exploit pipeline for the Windows ke…",
-      "summary": "安全研究员 chompie1337 在 Bsides Canberra 和 UnpromptedAU 演讲中展示了其构建的针对 Windows 内核的自主化 N-Day 漏洞利用流水线，相关视频现已公开。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.65,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "直接展示了 AI 在自动化漏洞利用和二进制安全中的实战落地。AI for Sec 从业者应立刻观看视频，研究其 Agent 架构与利用链自动化实现思路，评估防御侧应对自动化攻击的准备。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pentest_swissky/status/2117593494675951862",
-      "reader_url": "https://x.com/pentest_swissky/status/2117593494675951862",
-      "image_url": null,
-      "author": {
-        "username": "pentest_swissky",
-        "name": "Swissky",
-        "avatar_url": null,
-        "followers_count": 23028
-      },
-      "published_at": "2026-11-03T12:23:26",
-      "first_seen_at": "2026-11-03T12:53:22.440675",
       "sub_category_label": "安全Agent"
     }
   ]
