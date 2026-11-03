@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T13:26:20+08:00",
+  "updated_at": "2026-11-03T13:56:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -47,30 +47,6 @@
       "published_at": "2026-11-03T00:09:23.290204",
       "first_seen_at": "2026-11-03T00:11:33.327759",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 25133,
-      "title": "Momentic开源自主Bug发现Agent及评测基准",
-      "original_title": "HN Hot Discussion: Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
-      "summary": "Momentic开源了QA Agent「Mo」及其基准，它通过自组织DAG在应用中并行探索找Bug，60分钟内发现的Bug数量远超Codex和Claude Code。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 75.92,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "展示了多Agent协作在自动化探索与Bug发现上的架构设计与实战效果。安全人员可借鉴其探索模式，或利用开源基准评估漏洞挖掘Agent。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50339913&hn_hot_date=2026-11-02",
-      "reader_url": "https://news.ycombinator.com/item?id=50339913&hn_hot_date=2026-11-02",
-      "image_url": null,
-      "author": {
-        "username": "wuweiweiwu",
-        "name": "wuweiweiwu",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T17:05:25",
-      "first_seen_at": "2026-11-02T17:31:45.495883",
-      "sub_category_label": null
     },
     {
       "id": 25251,
@@ -215,6 +191,30 @@
       "published_at": "2026-11-02T22:45:06",
       "first_seen_at": "2026-11-02T23:09:03.646126",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 25275,
+      "title": "HN 热议：WorkOS 疑遭 AI 渗透框架 ARTEX 入侵",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告了一起数据泄露事件，称攻击可能由名为 ARTEX 的 AI 自主渗透测试框架发起，导致其 CRM 和客户支持数据被访问。",
+      "primary_category": "AI for Sec",
+      "sub_category": "autonomous_penetration",
+      "score_total": 66.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "无论事件真伪或时间线异常，AI 自主渗透框架在野利用的报道都极具警示意义。防守方应立刻关注此类工具的自动化水平，评估现有防御体系能否抵御 AI 驱动的连续攻击。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-03",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-03",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-03T00:21:20.981365",
+      "sub_category_label": null
     }
   ]
 }
