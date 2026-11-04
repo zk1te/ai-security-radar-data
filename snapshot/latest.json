@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T08:01:17+08:00",
+  "updated_at": "2026-11-04T08:31:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 9,
   "items": [
     {
       "id": 24938,
@@ -123,6 +123,54 @@
       "published_at": "2026-11-02T05:00:00",
       "first_seen_at": "2026-11-03T20:45:02.934520",
       "sub_category_label": "知识增强安全"
+    },
+    {
+      "id": 25791,
+      "title": "开源反欺诈平台 Kairos：用 MCP 让 Agent 自动编排风控策略",
+      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "summary": "Kairos 结合传统 ML 模型与 LLM 处理非结构化风控特征，并引入 MCP server 让 Claude Code 等 Agent 自动定义反欺诈工作流、训练模型并选择最优变体。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.78,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "风控和反欺诈团队可以看看。它用 LLM 补足了 XGBoost 难以处理的非结构化特征，并且通过 MCP 让 AI Agent 自动迭代检测规则，思路很适合对抗高频变化的攻击者。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-04",
+      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-04",
+      "image_url": null,
+      "author": {
+        "username": "ayanb9440",
+        "name": "ayanb9440",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-03T21:16:48",
+      "first_seen_at": "2026-11-04T00:25:03.462303",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 25789,
+      "title": "WorkOS 报告数据泄露，攻击源指向 AI 自主渗透测试框架 ARTEX",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "身份验证服务商 WorkOS 遭遇数据泄露，调查发现攻击由 AI 辅助自主渗透测试框架 ARTEX 驱动，导致内部 API 及 CRM 数据被访问。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 辅助渗透工具武器化的公开案例。安全从业者需关注自主安全 Agent 的双刃剑效应，防范此类工具被滥用或直接用于外部攻击。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-04",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-04",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-04T00:25:03.042505",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 25707,
