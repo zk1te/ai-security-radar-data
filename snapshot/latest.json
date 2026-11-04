@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-05T05:06:22+08:00",
+  "updated_at": "2026-11-05T06:36:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
+    {
+      "id": 26236,
+      "title": "OpenAI自主管道发现并修复近千个Linux内核提权漏洞",
+      "original_title": "A thousand fewer paths to root",
+      "summary": "OpenAI构建了一条自主管道，在Linux内核中发现、验证并生成了948个本地提权漏洞的补丁。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 88.6,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "这是大规模自动化漏洞挖掘与修复的标杆案例。安全团队应高度关注此类AI自主管道如何重塑漏洞发现流程及开源安全维护模式。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "reader_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-04T08:00:00",
+      "first_seen_at": "2026-11-04T22:34:59.139655",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 25878,
       "title": "ParetoSaddler：兼顾质量与成本的 Agent Harness 帕累托优化方法",
@@ -153,31 +173,6 @@
       "published_at": "2026-11-04T05:00:00",
       "first_seen_at": "2026-11-04T14:46:11.321271",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 26204,
-      "title": "安全研究员开源「漏洞发现 Harness 工程」教学材料",
-      "original_title": "RT @GrahamHelton3: Today @_rybaz and I are publicly releasing all the materials for our Introduction to Harness Engineering for Vulnerabili…",
-      "summary": "Graham Helton 与 _rybaz 公开发布「面向漏洞发现的 Harness 工程」入门材料，涉及如何为 LLM 漏洞挖掘任务系统化搭建测试脚手架与环境。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 AI 漏洞挖掘 Agent 的团队该看，harness 工程是当前 AI 安全评测和自主漏洞发现的核心卡点，这套材料能帮你理清测试环境搭建的方法论和工程实践。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2118038823804240357",
-      "reader_url": "https://x.com/HackingLZ/status/2118038823804240357",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-11-04T17:53:01",
-      "first_seen_at": "2026-11-04T20:53:15.573506",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
