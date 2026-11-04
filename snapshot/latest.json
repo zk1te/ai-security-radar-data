@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T02:05:42+08:00",
+  "updated_at": "2026-11-05T02:35:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -23,6 +23,26 @@
       "published_at": "2026-11-04T00:00:00",
       "first_seen_at": "2026-11-04T14:46:11.321271",
       "sub_category_label": null
+    },
+    {
+      "id": 26149,
+      "title": "Daybreak Red 接入 AWS GovCloud 专用于网络安全任务",
+      "original_title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "summary": "名为 Daybreak Red 的 AI 服务（搭载 GPT-5.6 Cyber 模型）现已在 AWS GovCloud 上线，获批客户可通过 Amazon Bedrock 使用其执行授权的网络安全工作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "大模型向政府云的高合规网络安全场景渗透，做安全合规和采购的团队需关注该模型在实战中的授权边界与能力表现，评估是否能引入现有安全工作流。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "reader_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-04T07:00:00",
+      "first_seen_at": "2026-11-04T18:30:46.723510",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 26045,
@@ -158,31 +178,6 @@
       "published_at": "2026-11-04T08:35:53",
       "first_seen_at": "2026-11-04T08:56:38.168993",
       "sub_category_label": "威胁情报"
-    },
-    {
-      "id": 25955,
-      "title": "Warden：监控AI代理链上支付的加密钱包安全代理",
-      "original_title": "𝗪𝗵𝗲𝗻 𝘆𝗼𝘂’𝗿𝗲 𝗺𝗮𝗻𝗮𝗴𝗶𝗻𝗴 𝗮 𝘀𝗵𝗮𝗿𝗲𝗱 𝗰𝗿𝘆𝗽𝘁𝗼 𝘁𝗿𝗲𝗮𝘀𝘂𝗿𝘆, 𝘁𝗵𝗲𝗿𝗲’𝘀 𝗮 𝗹𝗼𝘁 𝘁𝗼 𝗸𝗲𝗲𝗽 𝘁𝗿𝗮𝗰𝗸 𝗼𝗳.  Payments go out to contributors, freelancers, and service providers, and you need to know when somet",
-      "summary": "Warden 是一款开源的加密钱包安全代理，通过学习 AI 代理在 Sui 区块链上的支付模式来标记可疑交易，并支持自动暂停代理、降低链上支出上限及触发 Telegram 告警。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.37,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "开发涉及自主支付的 Agent 团队必须关注这种基于行为学习的实时监控与熔断机制，其开源代码提供了直接参考，可快速复用资金安全防护策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/LuvThePisces/status/2117858180814213390",
-      "reader_url": "https://x.com/LuvThePisces/status/2117858180814213390",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2117858004812890112/img/6gnPUurImZysMKiQ.jpg",
-      "author": {
-        "username": "LuvThePisces",
-        "name": "Luv The Pisces",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-04T05:55:12",
-      "first_seen_at": "2026-11-04T06:09:31.620412",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
