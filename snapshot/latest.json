@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T23:34:41+08:00",
+  "updated_at": "2026-11-05T02:05:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -95,31 +95,6 @@
       "sub_category_label": null
     },
     {
-      "id": 25900,
-      "title": "自主渗透测试 Agent 实战战报：攻破欧洲 10 家企业",
-      "original_title": "#threatreport #MediumCompleteness An operator used the pentestcode AI agent against 25 mid-size and large European companies and reports breaching 10 of them | 31-10-2026 Source: h",
-      "summary": "报告披露攻击者利用基于 OpenCode 的 AI 渗透 Agent Pentestcode 对 25 家欧洲企业发起攻击，宣称攻破 10 家并窃取大量凭证，展示了 AI Agent 在实战化攻击中的极高效率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者必看！这不再是演练，而是包含 2866 次模型调用、8个子 Agent 协同的实战战报，揭示了自动化攻击 Agent 的真实破坏力与执行细节。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2117852773110677675",
-      "reader_url": "https://x.com/rst_cloud/status/2117852773110677675",
-      "image_url": "https://pbs.twimg.com/media/HWQf33IXMAAWUN9.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-04T05:33:43",
-      "first_seen_at": "2026-11-04T05:35:55.018742",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 25454,
       "title": "AI Agent 协作智能基准：压力下易妥协，安全防线存隐患",
       "original_title": "Measuring AI Agents as Teammates with Collaborative Intelligence",
@@ -183,6 +158,31 @@
       "published_at": "2026-11-04T08:35:53",
       "first_seen_at": "2026-11-04T08:56:38.168993",
       "sub_category_label": "威胁情报"
+    },
+    {
+      "id": 25955,
+      "title": "Warden：监控AI代理链上支付的加密钱包安全代理",
+      "original_title": "𝗪𝗵𝗲𝗻 𝘆𝗼𝘂’𝗿𝗲 𝗺𝗮𝗻𝗮𝗴𝗶𝗻𝗴 𝗮 𝘀𝗵𝗮𝗿𝗲𝗱 𝗰𝗿𝘆𝗽𝘁𝗼 𝘁𝗿𝗲𝗮𝘀𝘂𝗿𝘆, 𝘁𝗵𝗲𝗿𝗲’𝘀 𝗮 𝗹𝗼𝘁 𝘁𝗼 𝗸𝗲𝗲𝗽 𝘁𝗿𝗮𝗰𝗸 𝗼𝗳.  Payments go out to contributors, freelancers, and service providers, and you need to know when somet",
+      "summary": "Warden 是一款开源的加密钱包安全代理，通过学习 AI 代理在 Sui 区块链上的支付模式来标记可疑交易，并支持自动暂停代理、降低链上支出上限及触发 Telegram 告警。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.37,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "开发涉及自主支付的 Agent 团队必须关注这种基于行为学习的实时监控与熔断机制，其开源代码提供了直接参考，可快速复用资金安全防护策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/LuvThePisces/status/2117858180814213390",
+      "reader_url": "https://x.com/LuvThePisces/status/2117858180814213390",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2117858004812890112/img/6gnPUurImZysMKiQ.jpg",
+      "author": {
+        "username": "LuvThePisces",
+        "name": "Luv The Pisces",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-04T05:55:12",
+      "first_seen_at": "2026-11-04T06:09:31.620412",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
