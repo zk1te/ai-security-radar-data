@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T02:35:49+08:00",
+  "updated_at": "2026-11-05T05:06:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -155,29 +155,29 @@
       "sub_category_label": "Agent 架构"
     },
     {
-      "id": 25993,
-      "title": "威胁报告：攻击者滥用 AI 渗透工具加速入侵，强调速度而非技术",
-      "original_title": "#threatreport #MediumCompleteness Tempo, not technique: hunting the AI harnesses behind today’s intrusions | 02-11-2026 Source: https://t.co/zh7ewC3gQD Key details below ↓  🧑‍💻Acto",
-      "summary": "微软、CrowdStrike 和 Google 报告指出，Storm-0940 等组织正滥用 Cairn、ARTEX 等开源 AI 渗透测试工具，在数小时内完成云环境侦察和特权访问，并提供了相关 IOC 与检测特征。",
+      "id": 26204,
+      "title": "安全研究员开源「漏洞发现 Harness 工程」教学材料",
+      "original_title": "RT @GrahamHelton3: Today @_rybaz and I are publicly releasing all the materials for our Introduction to Harness Engineering for Vulnerabili…",
+      "summary": "Graham Helton 与 _rybaz 公开发布「面向漏洞发现的 Harness 工程」入门材料，涉及如何为 LLM 漏洞挖掘任务系统化搭建测试脚手架与环境。",
       "primary_category": "AI for Sec",
-      "sub_category": "threat_intel",
-      "score_total": 69.7,
+      "sub_category": "vuln_discovery",
+      "score_total": 69.6,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "蓝队和威胁狩猎人员必看。报告揭示了 AI 自动化工具被武器化后的高频操作和固定大小外发等行为特征，可据此直接更新检测规则和封锁策略，防范 AI 驱动的自动化入侵。",
+      "recommendation_reason": "做 AI 漏洞挖掘 Agent 的团队该看，harness 工程是当前 AI 安全评测和自主漏洞发现的核心卡点，这套材料能帮你理清测试环境搭建的方法论和工程实践。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2117898617360937443",
-      "reader_url": "https://x.com/rst_cloud/status/2117898617360937443",
-      "image_url": "https://pbs.twimg.com/media/HWRJkXCWUAAKcFC.jpg",
+      "canonical_url": "https://x.com/HackingLZ/status/2118038823804240357",
+      "reader_url": "https://x.com/HackingLZ/status/2118038823804240357",
+      "image_url": null,
       "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
+        "username": "HackingLZ",
+        "name": "Justin Elze",
         "avatar_url": null,
-        "followers_count": 0
+        "followers_count": 73559
       },
-      "published_at": "2026-11-04T08:35:53",
-      "first_seen_at": "2026-11-04T08:56:38.168993",
-      "sub_category_label": "威胁情报"
+      "published_at": "2026-11-04T17:53:01",
+      "first_seen_at": "2026-11-04T20:53:15.573506",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
