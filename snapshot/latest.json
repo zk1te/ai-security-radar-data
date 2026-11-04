@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T23:04:33+08:00",
+  "updated_at": "2026-11-04T23:34:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 25878,
@@ -48,6 +48,31 @@
       "published_at": "2026-11-04T12:10:00",
       "first_seen_at": "2026-11-04T12:50:06.793447",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26081,
+      "title": "AI 渗透框架 Artex 在野攻击：4小时内完成云与身份接管",
+      "original_title": "Agentic AI framework Artex hit multiple organisations in October 2026, moving from web server foothold to full identity and cloud compromise in as little as four hours, with self-a",
+      "summary": "AI 渗透测试框架 Artex 被武器化用于多起真实攻击，能在4小时内从 Web 入口攻陷云和身份基础设施，并留下可追踪的 IoC 特征。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "蓝队必须立即在 SIEM 中加入针对 Artex 的 IoC 检测（如 /opt/artex 路径、norma/0.4 UA）。AI Agent 并行攻击的速度远超人类，传统的 IP 封禁已失效，应急响应流程需要彻底重构。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DFIR_Radar/status/2117995848072122471",
+      "reader_url": "https://x.com/DFIR_Radar/status/2117995848072122471",
+      "image_url": "https://pbs.twimg.com/media/HWSh_0XXcAA7T8I.jpg",
+      "author": {
+        "username": "DFIR_Radar",
+        "name": "DFIR Radar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-04T15:02:15",
+      "first_seen_at": "2026-11-04T15:09:31.709409",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 25934,
