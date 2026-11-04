@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-04T11:01:53+08:00",
+  "updated_at": "2026-11-04T17:02:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 8,
   "items": [
     {
       "id": 24786,
@@ -45,26 +45,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 24823,
-      "title": "LanG 2.0：低能耗安全Agent，用小模型高效处理SOC告警",
-      "original_title": "LanG 2.0: Energy-Efficient Agentic AI for Semi-Automated Security Operations at Scale",
-      "summary": "LanG 2.0 是一种用于 SOC 的 Agent 系统，通过结构化保障使小模型在威胁检测和规则编写上以极低能耗媲美 Claude Opus，并能有效抵抗提示注入和数据投毒。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 87.35,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "安全团队做 SOC 自动化苦大模型久矣，这篇论文证明了带结构保障的小模型不仅能省电，还能在真实告警分类和规则编写上吊打前沿大模型，且自带抗注入防投毒。想落地安全 Agent 的同学必须看看它的架构设计。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.41072",
-      "reader_url": "https://arxiv.org/pdf/2610.41072",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-02T05:00:00",
-      "first_seen_at": "2026-11-03T20:45:02.934520",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 24814,
       "title": "简单特征击败多数AI监控器：安全评测基准存在数据泄露",
       "original_title": "Simple Features Beat Most AI Control Monitors",
@@ -83,26 +63,6 @@
       "published_at": "2026-11-02T05:00:00",
       "first_seen_at": "2026-11-04T02:45:15.883578",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 24825,
-      "title": "Reparo：基于 LLM 的访问控制策略自动合成与验证方法",
-      "original_title": "Reparo: Synthesizing and Validating Access Control Policies",
-      "summary": "Reparo 利用 LLM 从代码仓库中提取授权意图证据，合成并修复访问控制策略，同时生成行为预言机进行语义验证。在 228 个真实仓库上测试，策略有效率从不足 60% 提升至接近 100%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "knowledge_enhanced",
-      "score_total": 85.4,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "对于做代码审计和安全工程自动化的同学值得关注。它展示了如何利用 LLM 结合静态仓库证据来处理高度依赖上下文的安全策略生成与验证，且单次成本不到 2 美元，是 AI 赋能安全研发的实用落地范例。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.41800",
-      "reader_url": "https://arxiv.org/pdf/2610.41800",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-02T05:00:00",
-      "first_seen_at": "2026-11-03T20:45:02.934520",
-      "sub_category_label": "知识增强安全"
     },
     {
       "id": 24819,
