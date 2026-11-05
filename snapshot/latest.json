@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T11:08:07+08:00",
+  "updated_at": "2026-11-05T11:38:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -211,28 +211,28 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 26338,
-      "title": "Anthropic 推进 AI 辅助漏洞披露，与 Linux 维护者协同修复",
-      "original_title": "Our goal is to help defenders find and fix vulnerabilities before attackers can use them. We’re working with Linux maintainers and Patch the Planet partners on reports and patches.",
-      "summary": "Anthropic 团队宣布正与 Linux 维护者及 Patch the Planet 合作伙伴协作，在攻击者利用前帮助防御者发现并修复漏洞，持续推进 AI 辅助漏洞发现与负责任披露流程。",
+      "id": 26343,
+      "title": "OpenAI 多智能体系统挖掘出 948 个 Linux 内核提权漏洞",
+      "original_title": "‼️ OpenAI Cyber Model Uncovers 948 Linux Kernel Privilege Escalation Vulnerabilities  Details: https://t.co/5ukHiCT65V  OpenAI says an automated research pipeline found and proved ",
+      "summary": "OpenAI 的自动化研究管道利用「Scout」和「Analyst」多智能体，在 Linux 内核中扫描并验证了 948 个本地提权漏洞，展示了 AI 驱动的大规模变体分析能力。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 71.9,
+      "score_total": 72.92,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全团队和开源维护者应关注 Anthropic 的 Patch the Planet 进展——AI 辅助漏洞挖掘正从研究演示走向产业级 CVD 流程，可能很快改变漏洞披露节奏和补丁压力分布。",
+      "recommendation_reason": "这套多 Agent 流水线展现了惊人的规模化漏洞挖掘效率，直接改变了传统人工审计的游戏规则。搞漏洞挖掘和代码审计的团队必须关注这种基于 Agent 的变体分析思路，评估如何将其集成到现有工作流中。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2118119463161905362",
-      "reader_url": "https://x.com/OpenAI/status/2118119463161905362",
-      "image_url": null,
+      "canonical_url": "https://x.com/The_Cyber_News/status/2118174413283869061",
+      "reader_url": "https://x.com/The_Cyber_News/status/2118174413283869061",
+      "image_url": "https://pbs.twimg.com/media/HWVEBg7aIAALMhE.jpg",
       "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
         "avatar_url": null,
-        "followers_count": 5355398
+        "followers_count": 73656
       },
-      "published_at": "2026-11-04T23:13:27",
-      "first_seen_at": "2026-11-05T03:07:42.406523",
+      "published_at": "2026-11-05T02:51:48",
+      "first_seen_at": "2026-11-05T03:09:33.469631",
       "sub_category_label": "漏洞挖掘"
     }
   ]
