@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T08:07:23+08:00",
+  "updated_at": "2026-11-05T08:37:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 26236,
@@ -113,6 +113,30 @@
       "sub_category_label": "渗透测试"
     },
     {
+      "id": 26269,
+      "title": "Kairos：开源反欺诈平台，借MCP让Agent自动化风控决策",
+      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "summary": "Kairos 是一个开源的实时反欺诈决策平台，结合大语言模型和 MCP server，让 AI Agent 能够基于自然语言规则和用户数据自动编排决策工作流并训练模型，解决传统方案标注数据不足和欺诈策略多变的问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 76.14,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "风控和业务安全从业者值得关注。它展示了如何利用 MCP 协议让 Claude Code 等 Agent 直接介入风控工作流编排和模型迭代，是安全任务自动化在反欺诈场景的具体落地参考。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
+      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
+      "image_url": null,
+      "author": {
+        "username": "ayanb9440",
+        "name": "ayanb9440",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-03T21:16:48",
+      "first_seen_at": "2026-11-05T00:10:47.032424",
+      "sub_category_label": "欺诈检测"
+    },
+    {
       "id": 26045,
       "title": "Claude 发现 Xen 虚拟机管理器高危漏洞，可跨 VM 读写内存",
       "original_title": "‼️ Two Xen hypervisor flaws found using Anthropic's Claude allow a malicious guest VM to read and write memory belonging to other VMs, including privileged dom0.  • Xen 4.6+ affect",
@@ -138,6 +162,30 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 26264,
+      "title": "Simantic：支持 AI Agent 自动测试固件的仿真平台",
+      "original_title": "HN Hot Discussion: Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+      "summary": "YC 孵化的 Simantic 推出了基于 Rust 的固件仿真引擎，允许 AI Agent 在无物理硬件的情况下测试和验证固件，并提供 AI 代码审查和 CI/CD 验证功能。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 72.99,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对做底层安全和二进制分析的团队很有价值，它提供了一个让 AI Agent 闭环测试固件的基础设施，解决了固件安全验证难以自动化的痛点。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-11-05",
+      "reader_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-11-05",
+      "image_url": null,
+      "author": {
+        "username": "shong0504",
+        "name": "shong0504",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-29T15:56:32",
+      "first_seen_at": "2026-11-05T00:10:07.450761",
+      "sub_category_label": "二进制安全"
+    },
+    {
       "id": 26081,
       "title": "AI 渗透框架 Artex 在野攻击：4小时内完成云与身份接管",
       "original_title": "Agentic AI framework Artex hit multiple organisations in October 2026, moving from web server foothold to full identity and cloud compromise in as little as four hours, with self-a",
@@ -161,26 +209,6 @@
       "published_at": "2026-11-04T15:02:15",
       "first_seen_at": "2026-11-04T15:09:31.709409",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 25934,
-      "title": "BestRand：稳定低成本的基准测试压缩方法",
-      "original_title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
-      "summary": "论文提出 BestRand 基准测试压缩方法，通过理论分析误差分布，在保持随机采样效率的同时大幅降低高误差风险，已在 70 多个文本、多模态和 Agent 基准上验证有效。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "model_evaluation",
-      "score_total": 70.65,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "安全评测榜单运行成本高昂，BestRand 压缩方法可直接用于加速安全评测流程、降低算力消耗。做安全 Benchmark 的人值得一看，能立刻拿来压成本。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.00883",
-      "reader_url": "https://arxiv.org/pdf/2611.00883",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-04T05:00:00",
-      "first_seen_at": "2026-11-04T14:46:11.321271",
-      "sub_category_label": null
     }
   ]
 }
