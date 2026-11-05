@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T03:56:26+08:00",
+  "updated_at": "2026-11-06T04:26:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -165,6 +165,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 26940,
+      "title": "OpenAI 称 GPT-6 Cyber 发现 81 个 Firefox 0day",
+      "original_title": "OpenAI says its researchers used GPT-6 Cyber to find 81 previously unknown, high-severity Firefox vulnerabilities and build working exploits for 948 Linux kernel vulnerabilities.  ",
+      "summary": "OpenAI 称 GPT-6 Cyber 发现 81 个 Firefox 高危漏洞并复现 948 个 Linux 内核漏洞 exploit，ExploitGym 评测得分 48.5%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 76.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘 Agent 从「概念验证」走向「可复现 PoC 产出」的标志性事件。安全团队应关注 ExploitGym 评测跃升，并提前规划接入代码审计与补丁验证流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/JoePro/status/2118429208435359908",
+      "reader_url": "https://x.com/JoePro/status/2118429208435359908",
+      "image_url": "https://pbs.twimg.com/media/HWYsH7GWsAEef5x.jpg",
+      "author": {
+        "username": "JoePro",
+        "name": "JoePro",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-05T19:44:16",
+      "first_seen_at": "2026-11-05T20:00:54.197447",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 26683,
       "title": "OpenAI 新模型单次生成 948 个 Linux root exploit",
       "original_title": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run - https://t.co/aRZRm7L5eE - #OpenAI #AI #VulnerabilityManagement #Linux #ZeroDay #Cybersecurity #Cy",
@@ -212,31 +237,6 @@
       },
       "published_at": "2026-11-05T17:39:10",
       "first_seen_at": "2026-11-05T17:45:16.232864",
-      "sub_category_label": null
-    },
-    {
-      "id": 26913,
-      "title": "BOSSAI：单兵 AI 攻击网络实战复盘",
-      "original_title": "#threatreport #MediumCompleteness BOSSAI: Inside the AI attack mesh that targeted Taiwan’s emergency services | 04-11-2026 Source: https://t.co/WNWDzC0afg Key details below ↓  💀Thr",
-      "summary": "台湾单人运营的 12 Agent 攻击系统 BOSSAI，利用本地部署的开源大模型结合 Kali/Ghidra 进行自动化渗透，证实 AI 能加速攻击面发现但也存在大量误报。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 70.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "少见的 AI Agent 攻击实战复盘。报告证实「AI 加持的单兵作战」已成现实，但也暴露了当前 Agent 在漏洞确认上的幻觉问题。评估防御面对 AI 自动化探测的韧性是当务之急。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2118423581281390738",
-      "reader_url": "https://x.com/rst_cloud/status/2118423581281390738",
-      "image_url": "https://pbs.twimg.com/media/HWYnBTDWwAEV1fN.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-05T19:21:54",
-      "first_seen_at": "2026-11-05T19:28:04.618634",
       "sub_category_label": null
     }
   ]
