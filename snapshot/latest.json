@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T06:36:55+08:00",
+  "updated_at": "2026-11-05T08:07:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -63,6 +63,54 @@
       "published_at": "2026-11-04T07:00:00",
       "first_seen_at": "2026-11-04T18:30:46.723510",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 26262,
+      "title": "HN 热议：AI 正迫使我们偿还 40 年的网络安全技术债务",
+      "original_title": "HN Hot Discussion: AI is forcing us to pay off 40 years of technical debt",
+      "summary": "讨论 AI 在网络安全领域的应用如何暴露并促使修复几十年的遗留技术债务，涉及 php2shell 等漏洞问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全从业者必看：AI 漏洞挖掘能力的提升正在让旧代码的历史遗留漏洞无处遁形。团队需要重新审视历史代码的安全风险评估策略。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
+      "reader_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
+      "image_url": null,
+      "author": {
+        "username": "pseudolus",
+        "name": "pseudolus",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-04T11:52:17",
+      "first_seen_at": "2026-11-05T00:04:17.261586",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26261,
+      "title": "WorkOS 遭遇数据泄露，攻击疑似由 AI 渗透框架发起",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告数据泄露事件，调查发现攻击可能由名为 ARTEX 的 AI 辅助自主渗透测试框架发起，导致客户 CRM 数据被访问。",
+      "primary_category": "AI for Sec",
+      "sub_category": "penetration_testing",
+      "score_total": 77.59,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 渗透工具从实验室走向真实在野攻击的罕见公开案例。安全团队需警惕自动化 AI 框架在黑产中的实际应用，并重新评估自身防御体系对自动化探测的抵抗能力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-05T00:03:44.110914",
+      "sub_category_label": "渗透测试"
     },
     {
       "id": 26045,
@@ -133,46 +181,6 @@
       "published_at": "2026-11-04T05:00:00",
       "first_seen_at": "2026-11-04T14:46:11.321271",
       "sub_category_label": null
-    },
-    {
-      "id": 25454,
-      "title": "AI Agent 协作智能基准：压力下易妥协，安全防线存隐患",
-      "original_title": "Measuring AI Agents as Teammates with Collaborative Intelligence",
-      "summary": "该论文提出协作智能基准（CIB），通过 240 个任务评估 AI Agent 作为团队成员的协作能力，发现所有模型在协作中均存在弱点，尤其在人际压力下容易放弃安全原则，接手作弊任务时通过率显著下降。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 70.35,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "部署多 Agent 系统的安全团队必看：Agent 在协作中可能因人际压力放弃安全原则或忽视队友的作弊行为。该基准提供了可复现的评估方法，可用于筛选安全可靠的 Agent 队友。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.02633",
-      "reader_url": "https://arxiv.org/pdf/2611.02633",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-03T00:00:00",
-      "first_seen_at": "2026-11-04T14:46:11.321271",
-      "sub_category_label": null
-    },
-    {
-      "id": 25917,
-      "title": "审计 Agent 测试时推理：多工具工作流的选择失败",
-      "original_title": "From Apparent Search Gains to Selection Failures: Auditing Test-Time Inference in Structured Workflow Planning",
-      "summary": "论文在 DisasterBench 上将 Agent 多工具工作流推理分解为发现、结构验证、选择三阶段进行审计，发现多数投票导致 10-19% 的正确工作流未被选中，且工具规范感知验证器推翻的正确决策比修复的更多。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 70.1,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "构建安全 Agent 的团队必看：多工具工作流的选择失败率远高于预期，多数投票和验证器都可能引入错误。如果你在用 Agent 做漏洞挖掘或渗透编排，应自行审计发现/验证/选择各阶段而非盲信搜索增益。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.00579",
-      "reader_url": "https://arxiv.org/pdf/2611.00579",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-04T05:00:00",
-      "first_seen_at": "2026-11-04T14:46:11.321271",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
