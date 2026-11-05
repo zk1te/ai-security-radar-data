@@ -1,0 +1,1110 @@
+{
+  "date": "2026-11-05",
+  "candidate_count": 17,
+  "selected_count": 3,
+  "cover_title": "OpenAI自主管道发现并修复近千个Linux内核提权漏洞",
+  "lead_takeaway": "今天的主线是AI漏洞挖掘在实战中大放异彩，但学术界赖以生存的评测基准正在集中裸奔。OpenAI的管道一口气修了近千个内核漏洞证明了实战潜力，而多项研究同时戳穿了基准数据集的滤镜，说明虚高的榜单分数掩盖了真实代码审计中的泛化痛点。",
+  "digest_points": [
+    "01 这是大规模自动化漏洞挖掘与修复的标杆案例。安全团队应高度关注此类AI自主管道如何重塑漏洞发现流程及开源安全维护模式。",
+    "02 如果你在做代码相似性或语义克隆检测的安全应用，这篇论文直接戳中了评测基础。128篇论文可能受影响，值得重新审视你依赖的benchmark是否可靠。",
+    "03 做漏洞挖掘和代码审计的安全人员必看。这研究直接戳破了学术 Benchmark 的滤镜，展示了 LLM 在真实 CVE 上的泛化痛点。选模型前先看这篇避坑，别盲目信榜单分数。"
+  ],
+  "judgement": [
+    "01 这是大规模自动化漏洞挖掘与修复的标杆案例。安全团队应高度关注此类AI自主管道如何重塑漏洞发现流程及开源安全维护模式。",
+    "02 如果你在做代码相似性或语义克隆检测的安全应用，这篇论文直接戳中了评测基础。128篇论文可能受影响，值得重新审视你依赖的benchmark是否可靠。",
+    "03 做漏洞挖掘和代码审计的安全人员必看。这研究直接戳破了学术 Benchmark 的滤镜，展示了 LLM 在真实 CVE 上的泛化痛点。选模型前先看这篇避坑，别盲目信榜单分数。"
+  ],
+  "top_items": [
+    {
+      "id": 26236,
+      "title": "OpenAI自主管道发现并修复近千个Linux内核提权漏洞",
+      "original_title": "A thousand fewer paths to root",
+      "summary": "OpenAI构建了一条自主管道，在Linux内核中发现、验证并生成了948个本地提权漏洞的补丁。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 88.6,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "这是大规模自动化漏洞挖掘与修复的标杆案例。安全团队应高度关注此类AI自主管道如何重塑漏洞发现流程及开源安全维护模式。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "reader_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-04T08:00:00",
+      "first_seen_at": "2026-11-04T22:34:59.139655",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26634,
+      "title": "BigCloneBench数据集标签错误危及语义克隆检测研究基础",
+      "original_title": "How the Misuse of a Dataset Harmed Semantic Clone Detection",
+      "summary": "研究发现广泛使用的BigCloneBench数据集WT3/T4子集中约93.9%的克隆对被错误标记为功能相似，可能影响128篇相关论文的结论有效性，高F1分数可能仅反映数据集捷径而非真实能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 85.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在做代码相似性或语义克隆检测的安全应用，这篇论文直接戳中了评测基础。128篇论文可能受影响，值得重新审视你依赖的benchmark是否可靠。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2505.04311",
+      "reader_url": "https://arxiv.org/pdf/2505.04311",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T05:00:00",
+      "first_seen_at": "2026-11-05T07:29:51.790470",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 26434,
+      "title": "深度学习与LLM漏洞检测模型真实世界评测",
+      "original_title": "From Lab to Reality: A Practical Evaluation of Deep Learning Models and LLMs for Vulnerability Detection",
+      "summary": "该论文系统评估了 Devign、ReVeal 等深度学习模型及多个开源 LLM 在漏洞检测任务上的表现。通过构建包含 Linux 和 Chromium 近期漏洞的新 OOD 数据集 VentiVul，研究发现现有模型在现实场景下性能急剧下降，难以可靠区分漏洞代码与修复代码。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 83.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘和代码审计的安全人员必看。这研究直接戳破了学术 Benchmark 的滤镜，展示了 LLM 在真实 CVE 上的泛化痛点。选模型前先看这篇避坑，别盲目信榜单分数。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2512.10485",
+      "reader_url": "https://arxiv.org/pdf/2512.10485",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T05:00:00",
+      "first_seen_at": "2026-11-05T06:10:14.442742",
+      "sub_category_label": "安全评测与Benchmark"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 26149,
+      "title": "Daybreak Red 接入 AWS GovCloud 专用于网络安全任务",
+      "original_title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "summary": "名为 Daybreak Red 的 AI 服务（搭载 GPT-5.6 Cyber 模型）现已在 AWS GovCloud 上线，获批客户可通过 Amazon Bedrock 使用其执行授权的网络安全工作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "大模型向政府云的高合规网络安全场景渗透，做安全合规和采购的团队需关注该模型在实战中的授权边界与能力表现，评估是否能引入现有安全工作流。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "reader_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-04T07:00:00",
+      "first_seen_at": "2026-11-04T18:30:46.723510",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 26262,
+      "title": "HN 热议：AI 正迫使我们偿还 40 年的网络安全技术债务",
+      "original_title": "HN Hot Discussion: AI is forcing us to pay off 40 years of technical debt",
+      "summary": "讨论 AI 在网络安全领域的应用如何暴露并促使修复几十年的遗留技术债务，涉及 php2shell 等漏洞问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 78.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全从业者必看：AI 漏洞挖掘能力的提升正在让旧代码的历史遗留漏洞无处遁形。团队需要重新审视历史代码的安全风险评估策略。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
+      "reader_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
+      "image_url": null,
+      "author": {
+        "username": "pseudolus",
+        "name": "pseudolus",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-04T11:52:17",
+      "first_seen_at": "2026-11-05T00:04:17.261586",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26261,
+      "title": "WorkOS 遭遇数据泄露，攻击疑似由 AI 渗透框架发起",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告数据泄露事件，调查发现攻击可能由名为 ARTEX 的 AI 辅助自主渗透测试框架发起，导致客户 CRM 数据被访问。",
+      "primary_category": "AI for Sec",
+      "sub_category": "penetration_testing",
+      "score_total": 77.59,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 渗透工具从实验室走向真实在野攻击的罕见公开案例。安全团队需警惕自动化 AI 框架在黑产中的实际应用，并重新评估自身防御体系对自动化探测的抵抗能力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-05T00:03:44.110914",
+      "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 26269,
+      "title": "Kairos：开源反欺诈平台，借MCP让Agent自动化风控决策",
+      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "summary": "Kairos 是一个开源的实时反欺诈决策平台，结合大语言模型和 MCP server，让 AI Agent 能够基于自然语言规则和用户数据自动编排决策工作流并训练模型，解决传统方案标注数据不足和欺诈策略多变的问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 76.14,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "风控和业务安全从业者值得关注。它展示了如何利用 MCP 协议让 Claude Code 等 Agent 直接介入风控工作流编排和模型迭代，是安全任务自动化在反欺诈场景的具体落地参考。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
+      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
+      "image_url": null,
+      "author": {
+        "username": "ayanb9440",
+        "name": "ayanb9440",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-03T21:16:48",
+      "first_seen_at": "2026-11-05T00:10:47.032424",
+      "sub_category_label": "欺诈检测"
+    },
+    {
+      "id": 26430,
+      "title": "自动化漏洞利用与安全测试生成：二十年系统文献综述",
+      "original_title": "Automated Exploit and Security Test Generation: A Systematic Literature Review",
+      "summary": "本文系统回顾了过去 20 年自动漏洞利用生成 (AEG) 与自动安全测试生成 (ASTG) 领域的 67 项研究，对比了其目标软件、生成技术、评估方法及工具可用性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘 Agent 或自动化安全测试的从业者值得一读，能快速理清过去 20 年 AEG/ASTG 的技术脉络与痛点，避免在造轮子时重复踩坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2502.04953",
+      "reader_url": "https://arxiv.org/pdf/2502.04953",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T05:00:00",
+      "first_seen_at": "2026-11-05T06:09:20.134393",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26337,
+      "title": "LLM智能体发现10种全新Linux漏洞利用技术",
+      "original_title": "The agents also discovered and used at least 10 Linux exploitation techniques that, to the best of our knowledge and all of the experts that we consulted, are novel.  This suggests",
+      "summary": "智能体发现了至少10种专家此前未知的Linux利用技术，表明前沿大模型已能自主发现并修补新型漏洞利用方法，而不仅仅是应用已知技术。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.34,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘团队需密切关注，前沿大模型已展现出发现真正新颖exploit的能力，这意味着AI辅助漏洞发现的门槛正在大幅降低。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2118119461345739018",
+      "reader_url": "https://x.com/OpenAI/status/2118119461345739018",
+      "image_url": null,
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-04T23:13:26",
+      "first_seen_at": "2026-11-05T03:07:39.891556",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26264,
+      "title": "Simantic：支持 AI Agent 自动测试固件的仿真平台",
+      "original_title": "HN Hot Discussion: Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+      "summary": "YC 孵化的 Simantic 推出了基于 Rust 的固件仿真引擎，允许 AI Agent 在无物理硬件的情况下测试和验证固件，并提供 AI 代码审查和 CI/CD 验证功能。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 72.99,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对做底层安全和二进制分析的团队很有价值，它提供了一个让 AI Agent 闭环测试固件的基础设施，解决了固件安全验证难以自动化的痛点。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-11-05",
+      "reader_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-11-05",
+      "image_url": null,
+      "author": {
+        "username": "shong0504",
+        "name": "shong0504",
+        "avatar_url": null
+      },
+      "published_at": "2026-10-29T15:56:32",
+      "first_seen_at": "2026-11-05T00:10:07.450761",
+      "sub_category_label": "二进制安全"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 26236,
+        "title": "OpenAI自主管道发现并修复近千个Linux内核提权漏洞",
+        "original_title": "A thousand fewer paths to root",
+        "summary": "OpenAI构建了一条自主管道，在Linux内核中发现、验证并生成了948个本地提权漏洞的补丁。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 88.6,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "这是大规模自动化漏洞挖掘与修复的标杆案例。安全团队应高度关注此类AI自主管道如何重塑漏洞发现流程及开源安全维护模式。",
+        "source_id": "openai-news",
+        "canonical_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+        "reader_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-04T08:00:00",
+        "first_seen_at": "2026-11-04T22:34:59.139655",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 26634,
+        "title": "BigCloneBench数据集标签错误危及语义克隆检测研究基础",
+        "original_title": "How the Misuse of a Dataset Harmed Semantic Clone Detection",
+        "summary": "研究发现广泛使用的BigCloneBench数据集WT3/T4子集中约93.9%的克隆对被错误标记为功能相似，可能影响128篇相关论文的结论有效性，高F1分数可能仅反映数据集捷径而非真实能力。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 85.85,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "如果你在做代码相似性或语义克隆检测的安全应用，这篇论文直接戳中了评测基础。128篇论文可能受影响，值得重新审视你依赖的benchmark是否可靠。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2505.04311",
+        "reader_url": "https://arxiv.org/pdf/2505.04311",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-05T05:00:00",
+        "first_seen_at": "2026-11-05T07:29:51.790470",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 26434,
+        "title": "深度学习与LLM漏洞检测模型真实世界评测",
+        "original_title": "From Lab to Reality: A Practical Evaluation of Deep Learning Models and LLMs for Vulnerability Detection",
+        "summary": "该论文系统评估了 Devign、ReVeal 等深度学习模型及多个开源 LLM 在漏洞检测任务上的表现。通过构建包含 Linux 和 Chromium 近期漏洞的新 OOD 数据集 VentiVul，研究发现现有模型在现实场景下性能急剧下降，难以可靠区分漏洞代码与修复代码。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 83.9,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做漏洞挖掘和代码审计的安全人员必看。这研究直接戳破了学术 Benchmark 的滤镜，展示了 LLM 在真实 CVE 上的泛化痛点。选模型前先看这篇避坑，别盲目信榜单分数。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2512.10485",
+        "reader_url": "https://arxiv.org/pdf/2512.10485",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-05T05:00:00",
+        "first_seen_at": "2026-11-05T06:10:14.442742",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 26149,
+        "title": "Daybreak Red 接入 AWS GovCloud 专用于网络安全任务",
+        "original_title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+        "summary": "名为 Daybreak Red 的 AI 服务（搭载 GPT-5.6 Cyber 模型）现已在 AWS GovCloud 上线，获批客户可通过 Amazon Bedrock 使用其执行授权的网络安全工作。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 83.0,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "大模型向政府云的高合规网络安全场景渗透，做安全合规和采购的团队需关注该模型在实战中的授权边界与能力表现，评估是否能引入现有安全工作流。",
+        "source_id": "openai-news",
+        "canonical_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "reader_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-04T07:00:00",
+        "first_seen_at": "2026-11-04T18:30:46.723510",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 26262,
+        "title": "HN 热议：AI 正迫使我们偿还 40 年的网络安全技术债务",
+        "original_title": "HN Hot Discussion: AI is forcing us to pay off 40 years of technical debt",
+        "summary": "讨论 AI 在网络安全领域的应用如何暴露并促使修复几十年的遗留技术债务，涉及 php2shell 等漏洞问题。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 78.2,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全从业者必看：AI 漏洞挖掘能力的提升正在让旧代码的历史遗留漏洞无处遁形。团队需要重新审视历史代码的安全风险评估策略。",
+        "source_id": "hn-ai-security",
+        "canonical_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
+        "reader_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
+        "image_url": null,
+        "author": {
+          "username": "pseudolus",
+          "name": "pseudolus",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-04T11:52:17",
+        "first_seen_at": "2026-11-05T00:04:17.261586",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 26261,
+        "title": "WorkOS 遭遇数据泄露，攻击疑似由 AI 渗透框架发起",
+        "original_title": "HN Hot Discussion: WorkOS reports security breach",
+        "summary": "WorkOS 报告数据泄露事件，调查发现攻击可能由名为 ARTEX 的 AI 辅助自主渗透测试框架发起，导致客户 CRM 数据被访问。",
+        "primary_category": "AI for Sec",
+        "sub_category": "penetration_testing",
+        "score_total": 77.59,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这是 AI 渗透工具从实验室走向真实在野攻击的罕见公开案例。安全团队需警惕自动化 AI 框架在黑产中的实际应用，并重新评估自身防御体系对自动化探测的抵抗能力。",
+        "source_id": "hn-ai-security",
+        "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
+        "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
+        "image_url": null,
+        "author": {
+          "username": "werrett",
+          "name": "werrett",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-02T23:30:59",
+        "first_seen_at": "2026-11-05T00:03:44.110914",
+        "sub_category_label": "渗透测试"
+      },
+      {
+        "id": 26269,
+        "title": "Kairos：开源反欺诈平台，借MCP让Agent自动化风控决策",
+        "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+        "summary": "Kairos 是一个开源的实时反欺诈决策平台，结合大语言模型和 MCP server，让 AI Agent 能够基于自然语言规则和用户数据自动编排决策工作流并训练模型，解决传统方案标注数据不足和欺诈策略多变的问题。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fraud_detection",
+        "score_total": 76.14,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "风控和业务安全从业者值得关注。它展示了如何利用 MCP 协议让 Claude Code 等 Agent 直接介入风控工作流编排和模型迭代，是安全任务自动化在反欺诈场景的具体落地参考。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
+        "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
+        "image_url": null,
+        "author": {
+          "username": "ayanb9440",
+          "name": "ayanb9440",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-03T21:16:48",
+        "first_seen_at": "2026-11-05T00:10:47.032424",
+        "sub_category_label": "欺诈检测"
+      },
+      {
+        "id": 26430,
+        "title": "自动化漏洞利用与安全测试生成：二十年系统文献综述",
+        "original_title": "Automated Exploit and Security Test Generation: A Systematic Literature Review",
+        "summary": "本文系统回顾了过去 20 年自动漏洞利用生成 (AEG) 与自动安全测试生成 (ASTG) 领域的 67 项研究，对比了其目标软件、生成技术、评估方法及工具可用性。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 74.4,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做漏洞挖掘 Agent 或自动化安全测试的从业者值得一读，能快速理清过去 20 年 AEG/ASTG 的技术脉络与痛点，避免在造轮子时重复踩坑。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2502.04953",
+        "reader_url": "https://arxiv.org/pdf/2502.04953",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-05T05:00:00",
+        "first_seen_at": "2026-11-05T06:09:20.134393",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 26669,
+        "title": "LoopVQ：面向循环 Transformer 的亚 1 比特 KV 缓存量化方法",
+        "original_title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+        "summary": "针对循环 Transformer 中 KV 缓存随循环步数线性增长的问题，提出 LoopVQ 量化方法，通过联合编码和微调码本，在 0.5 比特精度下保持模型性能，并在 SGLang 实现中显著降低解码延迟。",
+        "primary_category": "AI Tech",
+        "sub_category": "llm_architecture",
+        "score_total": 69.5,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "关注大模型推理效率优化的安全工程师可了解。该技术对需要长上下文和复杂推理的安全 Agent 部署有潜在参考价值，能降低内存瓶颈和延迟。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.05304",
+        "reader_url": "https://arxiv.org/pdf/2611.05304",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-05T00:00:00",
+        "first_seen_at": "2026-11-05T14:47:21.125022",
+        "sub_category_label": "LLM 架构"
+      },
+      {
+        "id": 26638,
+        "title": "TTHE：测试时演化 LLM Agent 的执行控制程序",
+        "original_title": "TTHE: Test-Time Harness Evolution",
+        "summary": "论文提出 Test-Time Harness Evolution (TTHE)，在测试阶段利用未标记的执行轨迹迭代演化 LLM Agent 的 harness（控制程序），无需权重更新或最终标签即可提升适应性和性能。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 67.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "安全 Agent 在实际环境中经常面临任务分布偏移和工具失效。本文提供的无监督 harness 演化思路，为提升安全自动化任务（如 Fuzzing 或漏洞挖掘 Agent）的鲁棒性提供了直接的架构参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2607.08124",
+        "reader_url": "https://arxiv.org/pdf/2607.08124",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-05T05:00:00",
+        "first_seen_at": "2026-11-05T07:30:47.487284",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 26266,
+        "title": "HN 热议：在 510 字节 MBR 中运行的微型 LLM 引擎",
+        "original_title": "HN Hot Discussion: Show HN: A language model that lives in a boot sector",
+        "summary": "开发者用 510 字节汇编实现了一个 int8 字符级神经网络推理引擎，可在系统引导扇区生成无限 Linux dmesg 启动日志，并开源了训练与汇编代码。",
+        "primary_category": "AI Tech",
+        "sub_category": "llm_architecture",
+        "score_total": 67.84,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "虽然是个极客玩具，但展示了在固件、引导扇区等极度受限环境下运行 AI 的可能性。安全研究者可关注其在底层隐蔽通信或伪造系统日志方面的潜在利用思路。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50315782&hn_hot_date=2026-11-05",
+        "reader_url": "https://news.ycombinator.com/item?id=50315782&hn_hot_date=2026-11-05",
+        "image_url": null,
+        "author": {
+          "username": "kerlenton",
+          "name": "kerlenton",
+          "avatar_url": null
+        },
+        "published_at": "2026-10-31T12:58:29",
+        "first_seen_at": "2026-11-05T00:10:09.678217",
+        "sub_category_label": "LLM 架构"
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 26236,
+            "title": "OpenAI自主管道发现并修复近千个Linux内核提权漏洞",
+            "original_title": "A thousand fewer paths to root",
+            "summary": "OpenAI构建了一条自主管道，在Linux内核中发现、验证并生成了948个本地提权漏洞的补丁。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 88.6,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "这是大规模自动化漏洞挖掘与修复的标杆案例。安全团队应高度关注此类AI自主管道如何重塑漏洞发现流程及开源安全维护模式。",
+            "source_id": "openai-news",
+            "canonical_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+            "reader_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-04T08:00:00",
+            "first_seen_at": "2026-11-04T22:34:59.139655",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 26262,
+            "title": "HN 热议：AI 正迫使我们偿还 40 年的网络安全技术债务",
+            "original_title": "HN Hot Discussion: AI is forcing us to pay off 40 years of technical debt",
+            "summary": "讨论 AI 在网络安全领域的应用如何暴露并促使修复几十年的遗留技术债务，涉及 php2shell 等漏洞问题。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 78.2,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全从业者必看：AI 漏洞挖掘能力的提升正在让旧代码的历史遗留漏洞无处遁形。团队需要重新审视历史代码的安全风险评估策略。",
+            "source_id": "hn-ai-security",
+            "canonical_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
+            "reader_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
+            "image_url": null,
+            "author": {
+              "username": "pseudolus",
+              "name": "pseudolus",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-04T11:52:17",
+            "first_seen_at": "2026-11-05T00:04:17.261586",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 26430,
+            "title": "自动化漏洞利用与安全测试生成：二十年系统文献综述",
+            "original_title": "Automated Exploit and Security Test Generation: A Systematic Literature Review",
+            "summary": "本文系统回顾了过去 20 年自动漏洞利用生成 (AEG) 与自动安全测试生成 (ASTG) 领域的 67 项研究，对比了其目标软件、生成技术、评估方法及工具可用性。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 74.4,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞挖掘 Agent 或自动化安全测试的从业者值得一读，能快速理清过去 20 年 AEG/ASTG 的技术脉络与痛点，避免在造轮子时重复踩坑。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2502.04953",
+            "reader_url": "https://arxiv.org/pdf/2502.04953",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-05T05:00:00",
+            "first_seen_at": "2026-11-05T06:09:20.134393",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 26337,
+            "title": "LLM智能体发现10种全新Linux漏洞利用技术",
+            "original_title": "The agents also discovered and used at least 10 Linux exploitation techniques that, to the best of our knowledge and all of the experts that we consulted, are novel.  This suggests",
+            "summary": "智能体发现了至少10种专家此前未知的Linux利用技术，表明前沿大模型已能自主发现并修补新型漏洞利用方法，而不仅仅是应用已知技术。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.34,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "漏洞挖掘团队需密切关注，前沿大模型已展现出发现真正新颖exploit的能力，这意味着AI辅助漏洞发现的门槛正在大幅降低。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/OpenAI/status/2118119461345739018",
+            "reader_url": "https://x.com/OpenAI/status/2118119461345739018",
+            "image_url": null,
+            "author": {
+              "username": "OpenAI",
+              "name": "OpenAI",
+              "avatar_url": null,
+              "followers_count": 5355398
+            },
+            "published_at": "2026-11-04T23:13:26",
+            "first_seen_at": "2026-11-05T03:07:39.891556",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 26338,
+            "title": "Anthropic 推进 AI 辅助漏洞披露，与 Linux 维护者协同修复",
+            "original_title": "Our goal is to help defenders find and fix vulnerabilities before attackers can use them. We’re working with Linux maintainers and Patch the Planet partners on reports and patches.",
+            "summary": "Anthropic 团队宣布正与 Linux 维护者及 Patch the Planet 合作伙伴协作，在攻击者利用前帮助防御者发现并修复漏洞，持续推进 AI 辅助漏洞发现与负责任披露流程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 71.9,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队和开源维护者应关注 Anthropic 的 Patch the Planet 进展——AI 辅助漏洞挖掘正从研究演示走向产业级 CVD 流程，可能很快改变漏洞披露节奏和补丁压力分布。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/OpenAI/status/2118119463161905362",
+            "reader_url": "https://x.com/OpenAI/status/2118119463161905362",
+            "image_url": null,
+            "author": {
+              "username": "OpenAI",
+              "name": "OpenAI",
+              "avatar_url": null,
+              "followers_count": 5355398
+            },
+            "published_at": "2026-11-04T23:13:27",
+            "first_seen_at": "2026-11-05T03:07:42.406523",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 26204,
+            "title": "安全研究员开源「漏洞发现 Harness 工程」教学材料",
+            "original_title": "RT @GrahamHelton3: Today @_rybaz and I are publicly releasing all the materials for our Introduction to Harness Engineering for Vulnerabili…",
+            "summary": "Graham Helton 与 _rybaz 公开发布「面向漏洞发现的 Harness 工程」入门材料，涉及如何为 LLM 漏洞挖掘任务系统化搭建测试脚手架与环境。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 69.6,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 AI 漏洞挖掘 Agent 的团队该看，harness 工程是当前 AI 安全评测和自主漏洞发现的核心卡点，这套材料能帮你理清测试环境搭建的方法论和工程实践。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2118038823804240357",
+            "reader_url": "https://x.com/HackingLZ/status/2118038823804240357",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-11-04T17:53:01",
+            "first_seen_at": "2026-11-04T20:53:15.573506",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 26634,
+            "title": "BigCloneBench数据集标签错误危及语义克隆检测研究基础",
+            "original_title": "How the Misuse of a Dataset Harmed Semantic Clone Detection",
+            "summary": "研究发现广泛使用的BigCloneBench数据集WT3/T4子集中约93.9%的克隆对被错误标记为功能相似，可能影响128篇相关论文的结论有效性，高F1分数可能仅反映数据集捷径而非真实能力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 85.85,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "如果你在做代码相似性或语义克隆检测的安全应用，这篇论文直接戳中了评测基础。128篇论文可能受影响，值得重新审视你依赖的benchmark是否可靠。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2505.04311",
+            "reader_url": "https://arxiv.org/pdf/2505.04311",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-05T05:00:00",
+            "first_seen_at": "2026-11-05T07:29:51.790470",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 26434,
+            "title": "深度学习与LLM漏洞检测模型真实世界评测",
+            "original_title": "From Lab to Reality: A Practical Evaluation of Deep Learning Models and LLMs for Vulnerability Detection",
+            "summary": "该论文系统评估了 Devign、ReVeal 等深度学习模型及多个开源 LLM 在漏洞检测任务上的表现。通过构建包含 Linux 和 Chromium 近期漏洞的新 OOD 数据集 VentiVul，研究发现现有模型在现实场景下性能急剧下降，难以可靠区分漏洞代码与修复代码。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 83.9,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞挖掘和代码审计的安全人员必看。这研究直接戳破了学术 Benchmark 的滤镜，展示了 LLM 在真实 CVE 上的泛化痛点。选模型前先看这篇避坑，别盲目信榜单分数。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2512.10485",
+            "reader_url": "https://arxiv.org/pdf/2512.10485",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-05T05:00:00",
+            "first_seen_at": "2026-11-05T06:10:14.442742",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 26149,
+            "title": "Daybreak Red 接入 AWS GovCloud 专用于网络安全任务",
+            "original_title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+            "summary": "名为 Daybreak Red 的 AI 服务（搭载 GPT-5.6 Cyber 模型）现已在 AWS GovCloud 上线，获批客户可通过 Amazon Bedrock 使用其执行授权的网络安全工作。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 83.0,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "大模型向政府云的高合规网络安全场景渗透，做安全合规和采购的团队需关注该模型在实战中的授权边界与能力表现，评估是否能引入现有安全工作流。",
+            "source_id": "openai-news",
+            "canonical_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+            "reader_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-04T07:00:00",
+            "first_seen_at": "2026-11-04T18:30:46.723510",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 26097,
+            "title": "中国 AI 渗透工具 ARTEX 衍生版分析：克隆部署及 CVE 滥用",
+            "original_title": "#threatreport #LowCompleteness Analysis of the Infrastructure of China’s AI Penetration Testing Tool ARTEX #4 – The Birth of Copy Cat | 14-10-2026 Source: https://t.co/HfU6a7rO1u K",
+            "summary": "报告分析了中国 AI 渗透工具 ARTEX 代码库消失后的多个衍生部署，发现其中一个克隆版集成了多 Agent 编排架构，还内置了针对 Adobe Commerce 高危漏洞的 PoC 和 PHP 后门。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这份报告揭示了安全 Agent 被武器化部署的风险，展示了 AI 渗透工具结合真实漏洞链的落地形态。红蓝双方都应关注多 Agent 工具的演进及防护。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/rst_cloud/status/2118007268306190779",
+            "reader_url": "https://x.com/rst_cloud/status/2118007268306190779",
+            "image_url": "https://pbs.twimg.com/media/HWSsYqIXsAATtHg.jpg",
+            "author": {
+              "username": "rst_cloud",
+              "name": "RST Cloud",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-04T15:47:38",
+            "first_seen_at": "2026-11-04T16:18:16.701442",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 26765,
+            "title": "CERT-In 警报：CRAFTY FALCON 利用开源 AI 渗透工具发起自动攻击",
+            "original_title": "🚨 CRITICAL CYBER ALERT: Autonomous AI Hackers Take Over the Weekend Shift 🤖💻  The Indian Computer Emergency Response Team (@IndianCERT) has issued a critical severity advisory (Bul",
+            "summary": "印度 CERT-In 发布警报，指出 CRAFTY FALCON 组织利用 PentAGI、CyberStrikeAI 等开源 AI 安全 Agent 工具，在周末对金融和加密货币平台发起全自动化的渗透与盗窃攻击。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 67.78,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队应高度警惕：开源渗透测试 Agent 被直接武器化并用于在野攻击。防守方需立即审查 API 权限、密钥存储方式，并针对自动化微交易探测调整周末告警阈值。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Agek1d/status/2118346390120141133",
+            "reader_url": "https://x.com/Agek1d/status/2118346390120141133",
+            "image_url": "https://pbs.twimg.com/media/HWXgy07WAAETM6b.jpg",
+            "author": {
+              "username": "Agek1d",
+              "name": "Agek1d👼",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-05T14:15:11",
+            "first_seen_at": "2026-11-05T14:22:49.045239",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "penetration_testing": {
+        "label": "渗透测试",
+        "items": [
+          {
+            "id": 26261,
+            "title": "WorkOS 遭遇数据泄露，攻击疑似由 AI 渗透框架发起",
+            "original_title": "HN Hot Discussion: WorkOS reports security breach",
+            "summary": "WorkOS 报告数据泄露事件，调查发现攻击可能由名为 ARTEX 的 AI 辅助自主渗透测试框架发起，导致客户 CRM 数据被访问。",
+            "primary_category": "AI for Sec",
+            "sub_category": "penetration_testing",
+            "score_total": 77.59,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这是 AI 渗透工具从实验室走向真实在野攻击的罕见公开案例。安全团队需警惕自动化 AI 框架在黑产中的实际应用，并重新评估自身防御体系对自动化探测的抵抗能力。",
+            "source_id": "hn-ai-security",
+            "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
+            "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
+            "image_url": null,
+            "author": {
+              "username": "werrett",
+              "name": "werrett",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-02T23:30:59",
+            "first_seen_at": "2026-11-05T00:03:44.110914",
+            "sub_category_label": "渗透测试"
+          }
+        ]
+      },
+      "fraud_detection": {
+        "label": "欺诈检测",
+        "items": [
+          {
+            "id": 26269,
+            "title": "Kairos：开源反欺诈平台，借MCP让Agent自动化风控决策",
+            "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+            "summary": "Kairos 是一个开源的实时反欺诈决策平台，结合大语言模型和 MCP server，让 AI Agent 能够基于自然语言规则和用户数据自动编排决策工作流并训练模型，解决传统方案标注数据不足和欺诈策略多变的问题。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fraud_detection",
+            "score_total": 76.14,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "风控和业务安全从业者值得关注。它展示了如何利用 MCP 协议让 Claude Code 等 Agent 直接介入风控工作流编排和模型迭代，是安全任务自动化在反欺诈场景的具体落地参考。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
+            "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
+            "image_url": null,
+            "author": {
+              "username": "ayanb9440",
+              "name": "ayanb9440",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-03T21:16:48",
+            "first_seen_at": "2026-11-05T00:10:47.032424",
+            "sub_category_label": "欺诈检测"
+          }
+        ]
+      },
+      "binary_security": {
+        "label": "二进制安全",
+        "items": [
+          {
+            "id": 26264,
+            "title": "Simantic：支持 AI Agent 自动测试固件的仿真平台",
+            "original_title": "HN Hot Discussion: Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+            "summary": "YC 孵化的 Simantic 推出了基于 Rust 的固件仿真引擎，允许 AI Agent 在无物理硬件的情况下测试和验证固件，并提供 AI 代码审查和 CI/CD 验证功能。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 72.99,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "对做底层安全和二进制分析的团队很有价值，它提供了一个让 AI Agent 闭环测试固件的基础设施，解决了固件安全验证难以自动化的痛点。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-11-05",
+            "reader_url": "https://news.ycombinator.com/item?id=50291116&hn_hot_date=2026-11-05",
+            "image_url": null,
+            "author": {
+              "username": "shong0504",
+              "name": "shong0504",
+              "avatar_url": null
+            },
+            "published_at": "2026-10-29T15:56:32",
+            "first_seen_at": "2026-11-05T00:10:07.450761",
+            "sub_category_label": "二进制安全"
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "llm_architecture": {
+        "label": "LLM 架构",
+        "items": [
+          {
+            "id": 26669,
+            "title": "LoopVQ：面向循环 Transformer 的亚 1 比特 KV 缓存量化方法",
+            "original_title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+            "summary": "针对循环 Transformer 中 KV 缓存随循环步数线性增长的问题，提出 LoopVQ 量化方法，通过联合编码和微调码本，在 0.5 比特精度下保持模型性能，并在 SGLang 实现中显著降低解码延迟。",
+            "primary_category": "AI Tech",
+            "sub_category": "llm_architecture",
+            "score_total": 69.5,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "关注大模型推理效率优化的安全工程师可了解。该技术对需要长上下文和复杂推理的安全 Agent 部署有潜在参考价值，能降低内存瓶颈和延迟。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.05304",
+            "reader_url": "https://arxiv.org/pdf/2611.05304",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-05T00:00:00",
+            "first_seen_at": "2026-11-05T14:47:21.125022",
+            "sub_category_label": "LLM 架构"
+          },
+          {
+            "id": 26266,
+            "title": "HN 热议：在 510 字节 MBR 中运行的微型 LLM 引擎",
+            "original_title": "HN Hot Discussion: Show HN: A language model that lives in a boot sector",
+            "summary": "开发者用 510 字节汇编实现了一个 int8 字符级神经网络推理引擎，可在系统引导扇区生成无限 Linux dmesg 启动日志，并开源了训练与汇编代码。",
+            "primary_category": "AI Tech",
+            "sub_category": "llm_architecture",
+            "score_total": 67.84,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "虽然是个极客玩具，但展示了在固件、引导扇区等极度受限环境下运行 AI 的可能性。安全研究者可关注其在底层隐蔽通信或伪造系统日志方面的潜在利用思路。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50315782&hn_hot_date=2026-11-05",
+            "reader_url": "https://news.ycombinator.com/item?id=50315782&hn_hot_date=2026-11-05",
+            "image_url": null,
+            "author": {
+              "username": "kerlenton",
+              "name": "kerlenton",
+              "avatar_url": null
+            },
+            "published_at": "2026-10-31T12:58:29",
+            "first_seen_at": "2026-11-05T00:10:09.678217",
+            "sub_category_label": "LLM 架构"
+          }
+        ]
+      },
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 26638,
+            "title": "TTHE：测试时演化 LLM Agent 的执行控制程序",
+            "original_title": "TTHE: Test-Time Harness Evolution",
+            "summary": "论文提出 Test-Time Harness Evolution (TTHE)，在测试阶段利用未标记的执行轨迹迭代演化 LLM Agent 的 harness（控制程序），无需权重更新或最终标签即可提升适应性和性能。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 67.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "安全 Agent 在实际环境中经常面临任务分布偏移和工具失效。本文提供的无监督 harness 演化思路，为提升安全自动化任务（如 Fuzzing 或漏洞挖掘 Agent）的鲁棒性提供了直接的架构参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2607.08124",
+            "reader_url": "https://arxiv.org/pdf/2607.08124",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-05T05:00:00",
+            "first_seen_at": "2026-11-05T07:30:47.487284",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 26634,
+      "title": "BigCloneBench数据集标签错误危及语义克隆检测研究基础",
+      "original_title": "How the Misuse of a Dataset Harmed Semantic Clone Detection",
+      "summary": "研究发现广泛使用的BigCloneBench数据集WT3/T4子集中约93.9%的克隆对被错误标记为功能相似，可能影响128篇相关论文的结论有效性，高F1分数可能仅反映数据集捷径而非真实能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 85.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在做代码相似性或语义克隆检测的安全应用，这篇论文直接戳中了评测基础。128篇论文可能受影响，值得重新审视你依赖的benchmark是否可靠。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2505.04311",
+      "reader_url": "https://arxiv.org/pdf/2505.04311",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T05:00:00",
+      "first_seen_at": "2026-11-05T07:29:51.790470",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 26434,
+      "title": "深度学习与LLM漏洞检测模型真实世界评测",
+      "original_title": "From Lab to Reality: A Practical Evaluation of Deep Learning Models and LLMs for Vulnerability Detection",
+      "summary": "该论文系统评估了 Devign、ReVeal 等深度学习模型及多个开源 LLM 在漏洞检测任务上的表现。通过构建包含 Linux 和 Chromium 近期漏洞的新 OOD 数据集 VentiVul，研究发现现有模型在现实场景下性能急剧下降，难以可靠区分漏洞代码与修复代码。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 83.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘和代码审计的安全人员必看。这研究直接戳破了学术 Benchmark 的滤镜，展示了 LLM 在真实 CVE 上的泛化痛点。选模型前先看这篇避坑，别盲目信榜单分数。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2512.10485",
+      "reader_url": "https://arxiv.org/pdf/2512.10485",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T05:00:00",
+      "first_seen_at": "2026-11-05T06:10:14.442742",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 26430,
+      "title": "自动化漏洞利用与安全测试生成：二十年系统文献综述",
+      "original_title": "Automated Exploit and Security Test Generation: A Systematic Literature Review",
+      "summary": "本文系统回顾了过去 20 年自动漏洞利用生成 (AEG) 与自动安全测试生成 (ASTG) 领域的 67 项研究，对比了其目标软件、生成技术、评估方法及工具可用性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘 Agent 或自动化安全测试的从业者值得一读，能快速理清过去 20 年 AEG/ASTG 的技术脉络与痛点，避免在造轮子时重复踩坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2502.04953",
+      "reader_url": "https://arxiv.org/pdf/2502.04953",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T05:00:00",
+      "first_seen_at": "2026-11-05T06:09:20.134393",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26669,
+      "title": "LoopVQ：面向循环 Transformer 的亚 1 比特 KV 缓存量化方法",
+      "original_title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+      "summary": "针对循环 Transformer 中 KV 缓存随循环步数线性增长的问题，提出 LoopVQ 量化方法，通过联合编码和微调码本，在 0.5 比特精度下保持模型性能，并在 SGLang 实现中显著降低解码延迟。",
+      "primary_category": "AI Tech",
+      "sub_category": "llm_architecture",
+      "score_total": 69.5,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "关注大模型推理效率优化的安全工程师可了解。该技术对需要长上下文和复杂推理的安全 Agent 部署有潜在参考价值，能降低内存瓶颈和延迟。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.05304",
+      "reader_url": "https://arxiv.org/pdf/2611.05304",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T00:00:00",
+      "first_seen_at": "2026-11-05T14:47:21.125022",
+      "sub_category_label": "LLM 架构"
+    },
+    {
+      "id": 26638,
+      "title": "TTHE：测试时演化 LLM Agent 的执行控制程序",
+      "original_title": "TTHE: Test-Time Harness Evolution",
+      "summary": "论文提出 Test-Time Harness Evolution (TTHE)，在测试阶段利用未标记的执行轨迹迭代演化 LLM Agent 的 harness（控制程序），无需权重更新或最终标签即可提升适应性和性能。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 67.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全 Agent 在实际环境中经常面临任务分布偏移和工具失效。本文提供的无监督 harness 演化思路，为提升安全自动化任务（如 Fuzzing 或漏洞挖掘 Agent）的鲁棒性提供了直接的架构参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.08124",
+      "reader_url": "https://arxiv.org/pdf/2607.08124",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T05:00:00",
+      "first_seen_at": "2026-11-05T07:30:47.487284",
+      "sub_category_label": "Agent 架构"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 17,
+    "highlight_count": 4,
+    "paper_count": 5,
+    "source_count": 6,
+    "top_score": 89,
+    "category_count": {
+      "AI for Sec": 14,
+      "AI Tech": 3
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 6
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 2
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 3
+        },
+        "penetration_testing": {
+          "label": "渗透测试",
+          "count": 1
+        },
+        "fraud_detection": {
+          "label": "欺诈检测",
+          "count": 1
+        },
+        "binary_security": {
+          "label": "二进制安全",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "llm_architecture": {
+          "label": "LLM 架构",
+          "count": 2
+        },
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "先读前三条高分项，确认是否需要同步给模型平台、AppSec 或 SOC 团队。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 14,
+      "top_score": 89,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 3,
+      "top_score": 70,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分条目中OpenAI自主管道展示了全自动挖洞到修复的惊人闭环，安全团队应重点关注如何复刻这种流水线来提升研发安全效能。同时针对现有评测数据集标签错乱及真实场景泛化拉胯的问题，大家在选型和引入LLM代码审计工具时千万别迷信论文的高指标，务必拿自己业务里的真实历史漏洞去测一把再买单。",
+  "method_note": "按北京时间 2026-11-05 的系统入库窗口筛选，从 17 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "hn-ai-security",
+    "hn-ai-tech",
+    "huggingface-daily-papers",
+    "openai-news",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# OpenAI自主管道发现并修复近千个Linux内核提权漏洞\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是AI漏洞挖掘在实战中大放异彩，但学术界赖以生存的评测基准正在集中裸奔。OpenAI的管道一口气修了近千个内核漏洞证明了实战潜力，而多项研究同时戳穿了基准数据集的滤镜，说明虚高的榜单分数掩盖了真实代码审计中的泛化痛点。\n- 01 这是大规模自动化漏洞挖掘与修复的标杆案例。安全团队应高度关注此类AI自主管道如何重塑漏洞发现流程及开源安全维护模式。\n- 02 如果你在做代码相似性或语义克隆检测的安全应用，这篇论文直接戳中了评测基础。128篇论文可能受影响，值得重新审视你依赖的benchmark是否可靠。\n- 03 做漏洞挖掘和代码审计的安全人员必看。这研究直接戳破了学术 Benchmark 的滤镜，展示了 LLM 在真实 CVE 上的泛化痛点。选模型前先看这篇避坑，别盲目信榜单分数。\n\n## 今日行动\n- 先读前三条高分项，确认是否需要同步给模型平台、AppSec 或 SOC 团队。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **OpenAI自主管道发现并修复近千个Linux内核提权漏洞**：这是大规模自动化漏洞挖掘与修复的标杆案例。安全团队应高度关注此类AI自主管道如何重塑漏洞发现流程及开源安全维护模式。 来源：openai-news\n- **BigCloneBench数据集标签错误危及语义克隆检测研究基础**：如果你在做代码相似性或语义克隆检测的安全应用，这篇论文直接戳中了评测基础。128篇论文可能受影响，值得重新审视你依赖的benchmark是否可靠。 来源：arxiv-ai-security\n- **深度学习与LLM漏洞检测模型真实世界评测**：做漏洞挖掘和代码审计的安全人员必看。这研究直接戳破了学术 Benchmark 的滤镜，展示了 LLM 在真实 CVE 上的泛化痛点。选模型前先看这篇避坑，别盲目信榜单分数。 来源：arxiv-ai-security\n\n## 也值得关注\n- Daybreak Red 接入 AWS GovCloud 专用于网络安全任务（83.0）\n- HN 热议：AI 正迫使我们偿还 40 年的网络安全技术债务（78.2）\n- WorkOS 遭遇数据泄露，攻击疑似由 AI 渗透框架发起（77.59）\n- Kairos：开源反欺诈平台，借MCP让Agent自动化风控决策（76.14）\n- 自动化漏洞利用与安全测试生成：二十年系统文献综述（74.4）\n- LLM智能体发现10种全新Linux漏洞利用技术（73.34）\n\n## AI for Sec\n\n### 漏洞挖掘\n- OpenAI自主管道发现并修复近千个Linux内核提权漏洞（88.6）\n- HN 热议：AI 正迫使我们偿还 40 年的网络安全技术债务（78.2）\n- 自动化漏洞利用与安全测试生成：二十年系统文献综述（74.4）\n- LLM智能体发现10种全新Linux漏洞利用技术（73.34）\n- Anthropic 推进 AI 辅助漏洞披露，与 Linux 维护者协同修复（71.9）\n\n### 安全评测与Benchmark\n- BigCloneBench数据集标签错误危及语义克隆检测研究基础（85.85）\n- 深度学习与LLM漏洞检测模型真实世界评测（83.9）\n\n### 安全Agent\n- Daybreak Red 接入 AWS GovCloud 专用于网络安全任务（83.0）\n- 中国 AI 渗透工具 ARTEX 衍生版分析：克隆部署及 CVE 滥用（68.45）\n- CERT-In 警报：CRAFTY FALCON 利用开源 AI 渗透工具发起自动攻击（67.78）\n\n### 渗透测试\n- WorkOS 遭遇数据泄露，攻击疑似由 AI 渗透框架发起（77.59）\n\n### 欺诈检测\n- Kairos：开源反欺诈平台，借MCP让Agent自动化风控决策（76.14）\n\n### 二进制安全\n- Simantic：支持 AI Agent 自动测试固件的仿真平台（72.99）\n\n## AI Tech\n\n### LLM 架构\n- LoopVQ：面向循环 Transformer 的亚 1 比特 KV 缓存量化方法（69.5）\n- HN 热议：在 510 字节 MBR 中运行的微型 LLM 引擎（67.84）\n\n### Agent 架构\n- TTHE：测试时演化 LLM Agent 的执行控制程序（67.9）\n\n## 今日论文\n- BigCloneBench数据集标签错误危及语义克隆检测研究基础\n- 深度学习与LLM漏洞检测模型真实世界评测\n- 自动化漏洞利用与安全测试生成：二十年系统文献综述\n- LoopVQ：面向循环 Transformer 的亚 1 比特 KV 缓存量化方法\n- TTHE：测试时演化 LLM Agent 的执行控制程序\n\n## 今日观察\n最高分条目中OpenAI自主管道展示了全自动挖洞到修复的惊人闭环，安全团队应重点关注如何复刻这种流水线来提升研发安全效能。同时针对现有评测数据集标签错乱及真实场景泛化拉胯的问题，大家在选型和引入LLM代码审计工具时千万别迷信论文的高指标，务必拿自己业务里的真实历史漏洞去测一把再买单。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-05 的系统入库窗口筛选，从 17 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-06T00:02:11+08:00"
+}
