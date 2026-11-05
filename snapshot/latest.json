@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T05:26:41+08:00",
+  "updated_at": "2026-11-06T06:27:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -214,29 +214,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 26683,
-      "title": "OpenAI 新模型单次生成 948 个 Linux root exploit",
-      "original_title": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run - https://t.co/aRZRm7L5eE - #OpenAI #AI #VulnerabilityManagement #Linux #ZeroDay #Cybersecurity #Cy",
-      "summary": "OpenAI 即将发布的新模型在一次运行中成功生成了 948 个可用的 Linux root exploit，展示了 AI 在自动化漏洞挖掘与利用生成方面的强大能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.22,
+      "id": 26873,
+      "title": "OpenAI 推出 GPT-6 Cyber 安全模型，赋能漏洞挖掘与渗透",
+      "original_title": "THE MOST POWERFUL CYBERSECURITY AI MODEL IS HERE 🔥  OpenAI just dropped GPT-6 Cyber, and this is actually a huge deal.  imagine an AI that can dig through real software, find secur",
+      "summary": "OpenAI 发布专为网络安全设计的 GPT-6 Cyber 模型，并通过 Daybreak 项目向安全研究员提供漏洞挖掘、代码审查与渗透测试能力，旨在为防御者争取先发优势。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 73.08,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 单次生成近千个可用提权 exploit，意味着自动化漏洞挖掘的产出规模正指数级提升。安全团队需重点关注大模型在 Exploit 生成链路中的实际落地，并评估防御侧应对策略。",
+      "recommendation_reason": "安全团队应关注大厂安全垂类大模型在漏洞挖掘和渗透测试上的实际效果。这是 Agent 落地安全流程的重要信号，及早跟进可抢占「防御者窗口」优势。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/helpnetsecurity/status/2118272203674239402",
-      "reader_url": "https://x.com/helpnetsecurity/status/2118272203674239402",
-      "image_url": null,
+      "canonical_url": "https://x.com/vishalsingh2972/status/2118397726564192623",
+      "reader_url": "https://x.com/vishalsingh2972/status/2118397726564192623",
+      "image_url": "https://pbs.twimg.com/media/HWYPaQybQAAsP7x.jpg",
       "author": {
-        "username": "helpnetsecurity",
-        "name": "Help Net Security",
+        "username": "vishalsingh2972",
+        "name": "Vishal Singh",
         "avatar_url": null,
-        "followers_count": 60218
+        "followers_count": 0
       },
-      "published_at": "2026-11-05T09:20:23",
-      "first_seen_at": "2026-11-05T10:24:34.665560",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-11-05T17:39:10",
+      "first_seen_at": "2026-11-05T17:45:16.232864",
+      "sub_category_label": null
     }
   ]
 }
