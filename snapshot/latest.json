@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T20:10:48+08:00",
+  "updated_at": "2026-11-05T22:42:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 5,
@@ -50,26 +50,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 26330,
-      "title": "OpenAI耗资120万美元用AI挖出948个Linux内核漏洞",
-      "original_title": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
-      "summary": "OpenAI 投入巨资利用 AI 技术成功挖掘出近千个 Linux 内核漏洞，展示了大模型在自动化代码审计与漏洞发现领域的巨大潜力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 84.65,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI 砸百万美元实测大模型挖洞，验证了 AI 自动化漏洞挖掘的工业化可行性。安全团队必须高度关注这一进展，大模型在大规模代码审计上的降维打击正在逼近。",
-      "source_id": "qbitai",
-      "canonical_url": "https://www.qbitai.com/2026/11/507697.html",
-      "reader_url": "https://www.qbitai.com/2026/11/507697.html",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-05T01:54:44",
-      "first_seen_at": "2026-11-05T02:34:45.454126",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 26434,
       "title": "深度学习与LLM漏洞检测模型真实世界评测",
       "original_title": "From Lab to Reality: A Practical Evaluation of Deep Learning Models and LLMs for Vulnerability Detection",
@@ -107,6 +87,31 @@
       "author": null,
       "published_at": "2026-11-05T05:00:00",
       "first_seen_at": "2026-11-05T06:09:20.134393",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26337,
+      "title": "LLM智能体发现10种全新Linux漏洞利用技术",
+      "original_title": "The agents also discovered and used at least 10 Linux exploitation techniques that, to the best of our knowledge and all of the experts that we consulted, are novel.  This suggests",
+      "summary": "智能体发现了至少10种专家此前未知的Linux利用技术，表明前沿大模型已能自主发现并修补新型漏洞利用方法，而不仅仅是应用已知技术。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.34,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘团队需密切关注，前沿大模型已展现出发现真正新颖exploit的能力，这意味着AI辅助漏洞发现的门槛正在大幅降低。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2118119461345739018",
+      "reader_url": "https://x.com/OpenAI/status/2118119461345739018",
+      "image_url": null,
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-04T23:13:26",
+      "first_seen_at": "2026-11-05T03:07:39.891556",
       "sub_category_label": "漏洞挖掘"
     }
   ]
