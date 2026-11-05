@@ -1,34 +1,9 @@
 {
-  "updated_at": "2026-11-05T22:42:41+08:00",
+  "updated_at": "2026-11-05T23:13:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 4,
   "items": [
-    {
-      "id": 26336,
-      "title": "耗资120万美元，自主管道发现948个Linux内核LPE漏洞",
-      "original_title": "Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline.  In a single run with an upcoming cyber model, it validated and gen",
-      "summary": "安全研究人员构建了自主漏洞发现与补丁管道，使用即将发布的网络模型，单次运行以120万美元API成本验证并修复了948个Linux内核本地权限提升漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 87.25,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "谁该看：漏洞研究和应急响应团队。为什么看：单次120万美元API消耗跑出948个内核LPE漏洞修复，标志着自主漏洞挖掘已具备工业级规模。能做什么：重新评估自家漏洞响应机制与AI算力预算。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2118119451401048497",
-      "reader_url": "https://x.com/OpenAI/status/2118119451401048497",
-      "image_url": "https://pbs.twimg.com/media/HWUQl7QbwAAkznq.png",
-      "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
-        "avatar_url": null,
-        "followers_count": 5355398
-      },
-      "published_at": "2026-11-04T23:13:24",
-      "first_seen_at": "2026-11-05T03:07:37.747719",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 26634,
       "title": "BigCloneBench数据集标签错误危及语义克隆检测研究基础",
@@ -90,28 +65,28 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 26337,
-      "title": "LLM智能体发现10种全新Linux漏洞利用技术",
-      "original_title": "The agents also discovered and used at least 10 Linux exploitation techniques that, to the best of our knowledge and all of the experts that we consulted, are novel.  This suggests",
-      "summary": "智能体发现了至少10种专家此前未知的Linux利用技术，表明前沿大模型已能自主发现并修补新型漏洞利用方法，而不仅仅是应用已知技术。",
+      "id": 26683,
+      "title": "OpenAI 新模型单次生成 948 个 Linux root exploit",
+      "original_title": "OpenAI’s upcoming AI model built 948 working Linux root exploits in a single run - https://t.co/aRZRm7L5eE - #OpenAI #AI #VulnerabilityManagement #Linux #ZeroDay #Cybersecurity #Cy",
+      "summary": "OpenAI 即将发布的新模型在一次运行中成功生成了 948 个可用的 Linux root exploit，展示了 AI 在自动化漏洞挖掘与利用生成方面的强大能力。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 73.34,
+      "score_total": 73.22,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队需密切关注，前沿大模型已展现出发现真正新颖exploit的能力，这意味着AI辅助漏洞发现的门槛正在大幅降低。",
+      "recommendation_reason": "AI 单次生成近千个可用提权 exploit，意味着自动化漏洞挖掘的产出规模正指数级提升。安全团队需重点关注大模型在 Exploit 生成链路中的实际落地，并评估防御侧应对策略。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2118119461345739018",
-      "reader_url": "https://x.com/OpenAI/status/2118119461345739018",
+      "canonical_url": "https://x.com/helpnetsecurity/status/2118272203674239402",
+      "reader_url": "https://x.com/helpnetsecurity/status/2118272203674239402",
       "image_url": null,
       "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
+        "username": "helpnetsecurity",
+        "name": "Help Net Security",
         "avatar_url": null,
-        "followers_count": 5355398
+        "followers_count": 60218
       },
-      "published_at": "2026-11-04T23:13:26",
-      "first_seen_at": "2026-11-05T03:07:39.891556",
+      "published_at": "2026-11-05T09:20:23",
+      "first_seen_at": "2026-11-05T10:24:34.665560",
       "sub_category_label": "漏洞挖掘"
     }
   ]
