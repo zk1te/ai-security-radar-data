@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T14:39:10+08:00",
+  "updated_at": "2026-11-05T15:39:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -48,6 +48,26 @@
       "published_at": "2026-11-04T23:13:24",
       "first_seen_at": "2026-11-05T03:07:37.747719",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26634,
+      "title": "BigCloneBench数据集标签错误危及语义克隆检测研究基础",
+      "original_title": "How the Misuse of a Dataset Harmed Semantic Clone Detection",
+      "summary": "研究发现广泛使用的BigCloneBench数据集WT3/T4子集中约93.9%的克隆对被错误标记为功能相似，可能影响128篇相关论文的结论有效性，高F1分数可能仅反映数据集捷径而非真实能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 85.85,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在做代码相似性或语义克隆检测的安全应用，这篇论文直接戳中了评测基础。128篇论文可能受影响，值得重新审视你依赖的benchmark是否可靠。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2505.04311",
+      "reader_url": "https://arxiv.org/pdf/2505.04311",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T05:00:00",
+      "first_seen_at": "2026-11-05T07:29:51.790470",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 26330,
@@ -160,26 +180,6 @@
       "published_at": "2026-11-03T21:16:48",
       "first_seen_at": "2026-11-05T00:10:47.032424",
       "sub_category_label": "欺诈检测"
-    },
-    {
-      "id": 26430,
-      "title": "自动化漏洞利用与安全测试生成：二十年系统文献综述",
-      "original_title": "Automated Exploit and Security Test Generation: A Systematic Literature Review",
-      "summary": "本文系统回顾了过去 20 年自动漏洞利用生成 (AEG) 与自动安全测试生成 (ASTG) 领域的 67 项研究，对比了其目标软件、生成技术、评估方法及工具可用性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.4,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做漏洞挖掘 Agent 或自动化安全测试的从业者值得一读，能快速理清过去 20 年 AEG/ASTG 的技术脉络与痛点，避免在造轮子时重复踩坑。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2502.04953",
-      "reader_url": "https://arxiv.org/pdf/2502.04953",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-05T05:00:00",
-      "first_seen_at": "2026-11-05T06:09:20.134393",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
