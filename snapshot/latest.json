@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T08:37:29+08:00",
+  "updated_at": "2026-11-05T09:07:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 26236,
@@ -135,31 +135,6 @@
       "published_at": "2026-11-03T21:16:48",
       "first_seen_at": "2026-11-05T00:10:47.032424",
       "sub_category_label": "欺诈检测"
-    },
-    {
-      "id": 26045,
-      "title": "Claude 发现 Xen 虚拟机管理器高危漏洞，可跨 VM 读写内存",
-      "original_title": "‼️ Two Xen hypervisor flaws found using Anthropic's Claude allow a malicious guest VM to read and write memory belonging to other VMs, including privileged dom0.  • Xen 4.6+ affect",
-      "summary": "Anthropic 的 Claude 被用于挖掘出 Xen hypervisor 的两个漏洞，允许恶意 VM 攻击其他 VM 甚至 dom0 特权域。Xen 4.6+ 受影响，Qubes OS 等受波及。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 75.31,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "Claude 再次斩获真实的虚拟化底层漏洞，影响范围广且老版本无补丁。安全团队和漏洞研究者应密切关注大模型在系统级漏洞挖掘中的实战能力与落地进展。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2117952500170997883",
-      "reader_url": "https://x.com/TheHackersNews/status/2117952500170997883",
-      "image_url": "https://pbs.twimg.com/media/HWR2rPWbwAEOyfI.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-11-04T12:10:00",
-      "first_seen_at": "2026-11-04T12:50:06.793447",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 26264,
