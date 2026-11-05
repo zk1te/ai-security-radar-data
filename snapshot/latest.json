@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T00:53:52+08:00",
+  "updated_at": "2026-11-06T01:56:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 7,
   "items": [
     {
       "id": 26634,
@@ -43,6 +43,26 @@
       "published_at": "2026-11-05T05:00:00",
       "first_seen_at": "2026-11-05T06:10:14.442742",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 26863,
+      "title": "Cloudflare 开源安全审计 Agent Skill 登顶 GitHub 热榜",
+      "original_title": "🚀 2026 年 10 月 GitHub 十大热门项目排行榜 🔥",
+      "summary": "2026年10月GitHub热门项目榜单中，Cloudflare开源的security-audit-skill备受关注，它是一款面向编码Agent的多阶段安全审计工具，支持产出可独立核验的机器可读安全发现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "面向研发和安全团队。将安全审计封装为Agent Skill并可接入CI流水线，是安全左移在Agent时代的具体落地，值得研究其多阶段审计与可验证findings的机制，但结论需人工复核以防误报。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7703390672704077867",
+      "reader_url": "https://juejin.cn/post/7703390672704077867",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-02T10:48:29",
+      "first_seen_at": "2026-11-05T17:37:43.538455",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 26814,
@@ -113,6 +133,31 @@
       "published_at": "2026-11-05T09:20:23",
       "first_seen_at": "2026-11-05T10:24:34.665560",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26873,
+      "title": "OpenAI 推出 GPT-6 Cyber 安全模型，赋能漏洞挖掘与渗透",
+      "original_title": "THE MOST POWERFUL CYBERSECURITY AI MODEL IS HERE 🔥  OpenAI just dropped GPT-6 Cyber, and this is actually a huge deal.  imagine an AI that can dig through real software, find secur",
+      "summary": "OpenAI 发布专为网络安全设计的 GPT-6 Cyber 模型，并通过 Daybreak 项目向安全研究员提供漏洞挖掘、代码审查与渗透测试能力，旨在为防御者争取先发优势。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 73.08,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注大厂安全垂类大模型在漏洞挖掘和渗透测试上的实际效果。这是 Agent 落地安全流程的重要信号，及早跟进可抢占「防御者窗口」优势。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/vishalsingh2972/status/2118397726564192623",
+      "reader_url": "https://x.com/vishalsingh2972/status/2118397726564192623",
+      "image_url": "https://pbs.twimg.com/media/HWYPaQybQAAsP7x.jpg",
+      "author": {
+        "username": "vishalsingh2972",
+        "name": "Vishal Singh",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-05T17:39:10",
+      "first_seen_at": "2026-11-05T17:45:16.232864",
+      "sub_category_label": null
     }
   ]
 }
