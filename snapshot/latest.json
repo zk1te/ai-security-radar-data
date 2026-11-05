@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T18:40:16+08:00",
+  "updated_at": "2026-11-05T20:10:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 5,
   "items": [
     {
       "id": 26336,
@@ -90,76 +90,24 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 26262,
-      "title": "HN 热议：AI 正迫使我们偿还 40 年的网络安全技术债务",
-      "original_title": "HN Hot Discussion: AI is forcing us to pay off 40 years of technical debt",
-      "summary": "讨论 AI 在网络安全领域的应用如何暴露并促使修复几十年的遗留技术债务，涉及 php2shell 等漏洞问题。",
+      "id": 26430,
+      "title": "自动化漏洞利用与安全测试生成：二十年系统文献综述",
+      "original_title": "Automated Exploit and Security Test Generation: A Systematic Literature Review",
+      "summary": "本文系统回顾了过去 20 年自动漏洞利用生成 (AEG) 与自动安全测试生成 (ASTG) 领域的 67 项研究，对比了其目标软件、生成技术、评估方法及工具可用性。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 78.2,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全从业者必看：AI 漏洞挖掘能力的提升正在让旧代码的历史遗留漏洞无处遁形。团队需要重新审视历史代码的安全风险评估策略。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
-      "reader_url": "https://news.ycombinator.com/item?id=50364336&hn_hot_date=2026-11-05",
+      "score_total": 74.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘 Agent 或自动化安全测试的从业者值得一读，能快速理清过去 20 年 AEG/ASTG 的技术脉络与痛点，避免在造轮子时重复踩坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2502.04953",
+      "reader_url": "https://arxiv.org/pdf/2502.04953",
       "image_url": null,
-      "author": {
-        "username": "pseudolus",
-        "name": "pseudolus",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-04T11:52:17",
-      "first_seen_at": "2026-11-05T00:04:17.261586",
+      "author": null,
+      "published_at": "2026-11-05T05:00:00",
+      "first_seen_at": "2026-11-05T06:09:20.134393",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 26261,
-      "title": "WorkOS 遭遇数据泄露，攻击疑似由 AI 渗透框架发起",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 报告数据泄露事件，调查发现攻击可能由名为 ARTEX 的 AI 辅助自主渗透测试框架发起，导致客户 CRM 数据被访问。",
-      "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 77.59,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 渗透工具从实验室走向真实在野攻击的罕见公开案例。安全团队需警惕自动化 AI 框架在黑产中的实际应用，并重新评估自身防御体系对自动化探测的抵抗能力。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-05",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-05T00:03:44.110914",
-      "sub_category_label": "渗透测试"
-    },
-    {
-      "id": 26269,
-      "title": "Kairos：开源反欺诈平台，借MCP让Agent自动化风控决策",
-      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
-      "summary": "Kairos 是一个开源的实时反欺诈决策平台，结合大语言模型和 MCP server，让 AI Agent 能够基于自然语言规则和用户数据自动编排决策工作流并训练模型，解决传统方案标注数据不足和欺诈策略多变的问题。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fraud_detection",
-      "score_total": 76.14,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "风控和业务安全从业者值得关注。它展示了如何利用 MCP 协议让 Claude Code 等 Agent 直接介入风控工作流编排和模型迭代，是安全任务自动化在反欺诈场景的具体落地参考。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
-      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-05",
-      "image_url": null,
-      "author": {
-        "username": "ayanb9440",
-        "name": "ayanb9440",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-03T21:16:48",
-      "first_seen_at": "2026-11-05T00:10:47.032424",
-      "sub_category_label": "欺诈检测"
     }
   ]
 }
