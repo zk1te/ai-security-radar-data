@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T10:37:48+08:00",
+  "updated_at": "2026-11-05T11:08:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 26236,
@@ -25,24 +25,29 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 25878,
-      "title": "ParetoSaddler：兼顾质量与成本的 Agent Harness 帕累托优化方法",
-      "original_title": "ParetoSaddler: Pareto-Guided Optimization of Agent Harnesses for Quality and Cost",
-      "summary": "ParetoSaddler 提出分离中间候选提升与最终部署选择的优化方法，利用贝叶斯自举帕累托支持提升 Agent harness。该方法在安全评测基准 ClawMark 等平台上显著提升了质量并降低了运行成本。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 87.05,
+      "id": 26336,
+      "title": "耗资120万美元，自主管道发现948个Linux内核LPE漏洞",
+      "original_title": "Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline.  In a single run with an upcoming cyber model, it validated and gen",
+      "summary": "安全研究人员构建了自主漏洞发现与补丁管道，使用即将发布的网络模型，单次运行以120万美元API成本验证并修复了948个Linux内核本地权限提升漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 87.25,
       "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "该方法直接在安全评测基准 ClawMark 上进行 harness 优化，属于典型的安全 Agent 刷榜与优化动态。做安全评测和自动化 Agent 落地的从业者应关注其成本与质量平衡策略，了解当前榜单优化手段的演进。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.02079",
-      "reader_url": "https://arxiv.org/pdf/2611.02079",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-04T00:00:00",
-      "first_seen_at": "2026-11-04T14:46:11.321271",
-      "sub_category_label": null
+      "item_type": "news",
+      "recommendation_reason": "谁该看：漏洞研究和应急响应团队。为什么看：单次120万美元API消耗跑出948个内核LPE漏洞修复，标志着自主漏洞挖掘已具备工业级规模。能做什么：重新评估自家漏洞响应机制与AI算力预算。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2118119451401048497",
+      "reader_url": "https://x.com/OpenAI/status/2118119451401048497",
+      "image_url": "https://pbs.twimg.com/media/HWUQl7QbwAAkznq.png",
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-04T23:13:24",
+      "first_seen_at": "2026-11-05T03:07:37.747719",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 26330,
@@ -157,6 +162,31 @@
       "sub_category_label": "欺诈检测"
     },
     {
+      "id": 26337,
+      "title": "LLM智能体发现10种全新Linux漏洞利用技术",
+      "original_title": "The agents also discovered and used at least 10 Linux exploitation techniques that, to the best of our knowledge and all of the experts that we consulted, are novel.  This suggests",
+      "summary": "智能体发现了至少10种专家此前未知的Linux利用技术，表明前沿大模型已能自主发现并修补新型漏洞利用方法，而不仅仅是应用已知技术。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.34,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘团队需密切关注，前沿大模型已展现出发现真正新颖exploit的能力，这意味着AI辅助漏洞发现的门槛正在大幅降低。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2118119461345739018",
+      "reader_url": "https://x.com/OpenAI/status/2118119461345739018",
+      "image_url": null,
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-04T23:13:26",
+      "first_seen_at": "2026-11-05T03:07:39.891556",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 26264,
       "title": "Simantic：支持 AI Agent 自动测试固件的仿真平台",
       "original_title": "HN Hot Discussion: Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
@@ -181,29 +211,29 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 26081,
-      "title": "AI 渗透框架 Artex 在野攻击：4小时内完成云与身份接管",
-      "original_title": "Agentic AI framework Artex hit multiple organisations in October 2026, moving from web server foothold to full identity and cloud compromise in as little as four hours, with self-a",
-      "summary": "AI 渗透测试框架 Artex 被武器化用于多起真实攻击，能在4小时内从 Web 入口攻陷云和身份基础设施，并留下可追踪的 IoC 特征。",
+      "id": 26338,
+      "title": "Anthropic 推进 AI 辅助漏洞披露，与 Linux 维护者协同修复",
+      "original_title": "Our goal is to help defenders find and fix vulnerabilities before attackers can use them. We’re working with Linux maintainers and Patch the Planet partners on reports and patches.",
+      "summary": "Anthropic 团队宣布正与 Linux 维护者及 Patch the Planet 合作伙伴协作，在攻击者利用前帮助防御者发现并修复漏洞，持续推进 AI 辅助漏洞发现与负责任披露流程。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.75,
+      "sub_category": "vuln_discovery",
+      "score_total": 71.9,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "蓝队必须立即在 SIEM 中加入针对 Artex 的 IoC 检测（如 /opt/artex 路径、norma/0.4 UA）。AI Agent 并行攻击的速度远超人类，传统的 IP 封禁已失效，应急响应流程需要彻底重构。",
+      "recommendation_reason": "安全团队和开源维护者应关注 Anthropic 的 Patch the Planet 进展——AI 辅助漏洞挖掘正从研究演示走向产业级 CVD 流程，可能很快改变漏洞披露节奏和补丁压力分布。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2117995848072122471",
-      "reader_url": "https://x.com/DFIR_Radar/status/2117995848072122471",
-      "image_url": "https://pbs.twimg.com/media/HWSh_0XXcAA7T8I.jpg",
+      "canonical_url": "https://x.com/OpenAI/status/2118119463161905362",
+      "reader_url": "https://x.com/OpenAI/status/2118119463161905362",
+      "image_url": null,
       "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
+        "username": "OpenAI",
+        "name": "OpenAI",
         "avatar_url": null,
-        "followers_count": 0
+        "followers_count": 5355398
       },
-      "published_at": "2026-11-04T15:02:15",
-      "first_seen_at": "2026-11-04T15:09:31.709409",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-11-04T23:13:27",
+      "first_seen_at": "2026-11-05T03:07:42.406523",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
