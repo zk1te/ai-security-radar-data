@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-05T23:13:03+08:00",
+  "updated_at": "2026-11-06T00:53:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 4,
+  "item_count": 5,
   "items": [
     {
       "id": 26634,
@@ -43,6 +43,31 @@
       "published_at": "2026-11-05T05:00:00",
       "first_seen_at": "2026-11-05T06:10:14.442742",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 26814,
+      "title": "OpenAI 公布自主漏洞发现、利用与修补流水线",
+      "original_title": "RT @OpenAI: Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline.  In a single r…",
+      "summary": "OpenAI 安全研究团队宣布构建了一个能够自主进行漏洞发现、利用和修补的流水线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 79.83,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "OpenAI 官方下场做自主漏洞挖掘与修补 Agent，标志着头部大厂已将 AI 自动化安全推向实际内部流程。安全团队应密切关注其能力边界与具体落地效果，评估同类技术引入自家工作流的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2118349564658765884",
+      "reader_url": "https://x.com/pentest_swissky/status/2118349564658765884",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-11-05T14:27:47",
+      "first_seen_at": "2026-11-05T16:41:31.290294",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 26430,
