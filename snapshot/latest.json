@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T01:56:04+08:00",
+  "updated_at": "2026-11-06T02:26:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 9,
   "items": [
     {
       "id": 26634,
@@ -22,26 +22,6 @@
       "author": null,
       "published_at": "2026-11-05T05:00:00",
       "first_seen_at": "2026-11-05T07:29:51.790470",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 26434,
-      "title": "深度学习与LLM漏洞检测模型真实世界评测",
-      "original_title": "From Lab to Reality: A Practical Evaluation of Deep Learning Models and LLMs for Vulnerability Detection",
-      "summary": "该论文系统评估了 Devign、ReVeal 等深度学习模型及多个开源 LLM 在漏洞检测任务上的表现。通过构建包含 Linux 和 Chromium 近期漏洞的新 OOD 数据集 VentiVul，研究发现现有模型在现实场景下性能急剧下降，难以可靠区分漏洞代码与修复代码。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 83.9,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做漏洞挖掘和代码审计的安全人员必看。这研究直接戳破了学术 Benchmark 的滤镜，展示了 LLM 在真实 CVE 上的泛化痛点。选模型前先看这篇避坑，别盲目信榜单分数。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2512.10485",
-      "reader_url": "https://arxiv.org/pdf/2512.10485",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-05T05:00:00",
-      "first_seen_at": "2026-11-05T06:10:14.442742",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
@@ -90,23 +70,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 26430,
-      "title": "自动化漏洞利用与安全测试生成：二十年系统文献综述",
-      "original_title": "Automated Exploit and Security Test Generation: A Systematic Literature Review",
-      "summary": "本文系统回顾了过去 20 年自动漏洞利用生成 (AEG) 与自动安全测试生成 (ASTG) 领域的 67 项研究，对比了其目标软件、生成技术、评估方法及工具可用性。",
+      "id": 26886,
+      "title": "OpenAI 发布 GPT-6 Cyber 模型，已自主挖掘 81 个 Firefox 高危漏洞",
+      "original_title": "🚨 OpenAI just released GPT-6 Cyber, a specialized cybersecurity model capable of autonomously discovering, exploiting, and helping fix serious software vulnerabilities.  And it's a",
+      "summary": "OpenAI 推出 GPT-6 Cyber 安全专用模型，在 ExploitGym 等评测中表现突破，并已自主发现 Firefox 81 个未知高危漏洞与 Linux 948 个提权漏洞。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 74.4,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做漏洞挖掘 Agent 或自动化安全测试的从业者值得一读，能快速理清过去 20 年 AEG/ASTG 的技术脉络与痛点，避免在造轮子时重复踩坑。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2502.04953",
-      "reader_url": "https://arxiv.org/pdf/2502.04953",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-05T05:00:00",
-      "first_seen_at": "2026-11-05T06:09:20.134393",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "专门针对漏洞挖掘的安全模型已能实战产出大量未知高危漏洞，防御团队应立刻评估其在内部代码审计与自动化渗透测试流水线中的落地潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/cutetoxicguy/status/2118404994500047183",
+      "reader_url": "https://x.com/cutetoxicguy/status/2118404994500047183",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2118404751121424384/img/kH0_SjyJ7KP7gYxK.jpg",
+      "author": {
+        "username": "cutetoxicguy",
+        "name": "CuteGuy☣️",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-05T18:08:03",
+      "first_seen_at": "2026-11-05T18:20:36.905105",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -158,6 +143,76 @@
       "published_at": "2026-11-05T17:39:10",
       "first_seen_at": "2026-11-05T17:45:16.232864",
       "sub_category_label": null
+    },
+    {
+      "id": 26669,
+      "title": "LoopVQ：面向循环 Transformer 的亚 1 比特 KV 缓存量化方法",
+      "original_title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+      "summary": "针对循环 Transformer 中 KV 缓存随循环步数线性增长的问题，提出 LoopVQ 量化方法，通过联合编码和微调码本，在 0.5 比特精度下保持模型性能，并在 SGLang 实现中显著降低解码延迟。",
+      "primary_category": "AI Tech",
+      "sub_category": "llm_architecture",
+      "score_total": 69.5,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "关注大模型推理效率优化的安全工程师可了解。该技术对需要长上下文和复杂推理的安全 Agent 部署有潜在参考价值，能降低内存瓶颈和延迟。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.05304",
+      "reader_url": "https://arxiv.org/pdf/2611.05304",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-05T00:00:00",
+      "first_seen_at": "2026-11-05T14:47:21.125022",
+      "sub_category_label": "LLM 架构"
+    },
+    {
+      "id": 26641,
+      "title": "Claude 汇编级机器证明发现数百个遗留漏洞",
+      "original_title": "180 million lines of machine-checked proofs across 123 libraries last month. Claude wrote them at the assembly level, the checker accepted them, and it still surfaced hundreds of b",
+      "summary": "Claude 在汇编层级自动编写机器检查证明，覆盖上亿行代码，成功发现了 Fuzzing 和传统测试多年未触达的数百个边界漏洞。这表明 AI 驱动的形式化验证正成为缩小极端情况覆盖盲区的新范式。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.74,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给做漏洞挖掘和代码审计的人看：LLM 结合形式化验证正成为新范式。AI 不仅生成代码还能生成证明并靠 checker 验证，补齐了 Fuzzing 难以触达的罕见边界情况。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TosinOwadokun/status/2118240332840128782",
+      "reader_url": "https://x.com/TosinOwadokun/status/2118240332840128782",
+      "image_url": null,
+      "author": {
+        "username": "TosinOwadokun",
+        "name": "Tosiñ",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-05T07:13:45",
+      "first_seen_at": "2026-11-05T07:37:44.776418",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 26872,
+      "title": "OpenAI 发布 GPT-6 Cyber，声称发现 81 个 Firefox 高危漏洞",
+      "original_title": "OpenAI launched GPT-6 Cyber. They rate it Critical for cybersecurity, up from High for GPT-5.6 Cyber.  It found 81 previously unknown high-severity Firefox bugs, and Mozilla has st",
+      "summary": "OpenAI 推出 GPT-6 Cyber 模型，安全评级为 Critical，声称已发现 81 个此前未知的 Firefox 高危漏洞，Mozilla 已开始修复。该内容来自社交媒体，具体方法论和技术细节未披露，需谨慎核实。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "若属实，81 个高危漏洞意味着 AI Agent 已能规模化审计大型浏览器代码库，挖洞能力从辅助跃升到主力。安全团队应立刻关注 AI 挖洞 Agent 的实战曲线，评估自身代码资产暴露面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/kiddozaru/status/2118394441530794326",
+      "reader_url": "https://x.com/kiddozaru/status/2118394441530794326",
+      "image_url": null,
+      "author": {
+        "username": "kiddozaru",
+        "name": "M Ignacio Coliqueo",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-05T17:26:07",
+      "first_seen_at": "2026-11-05T17:45:15.931343",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
