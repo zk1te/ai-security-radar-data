@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T03:04:06+08:00",
+  "updated_at": "2026-11-07T04:04:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -70,26 +70,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 27397,
-      "title": "语义代码克隆检测鲁棒性评测：多数检测器在代码变换下性能骤降",
-      "original_title": "Characterizing Robustness in Semantic Code Clone Detection",
-      "summary": "本文提出系统化代码变换框架(SCT)评估代码克隆检测器的鲁棒性，发现原本F1超90%的检测器在组合变换下普遍损失至少10个百分点，揭示了基于prompt的检测器在代码重写前的脆弱性。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 77.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做代码审计和漏洞追踪的同学得看，你依赖的 LLM 代码克隆检测工具在面对行为保持重写时极其脆弱，别盲信高分，得自己测测抗干扰能力。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2606.25272",
-      "reader_url": "https://arxiv.org/pdf/2606.25272",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T05:00:00",
-      "first_seen_at": "2026-11-06T07:51:15.863190",
-      "sub_category_label": null
-    },
-    {
       "id": 27477,
       "title": "Chainguard 用 Anthropic Mythos 6 小时挖出十余个 RCE",
       "original_title": "Over a dozen vulnerabilities found in 6 hours. Most were pre-auth RCE flaws.  Chainguard says its Athena system used Anthropic's Mythos to identify the flaws in a heavily tested op",
@@ -115,6 +95,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 27627,
+      "title": "GPT-6 Cyber 在 ExploitGym 得分 48.5%，ARTEX 控制台大规模暴露",
+      "original_title": "2/3 @OpenAI says GPT-6 Cyber scored 48.5 percent on ExploitGym and stayed within authorized scope in 99.93 percent of tests when run without its deployment prompt. Meanwhile, Censy",
+      "summary": "OpenAI 报告 GPT-6 Cyber 在安全基准 ExploitGym 上得分 48.5%，99.93% 的测试未越权；同时 Censys 发现 1,465 个暴露的 ARTEX 自主 AI 渗透测试控制台。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 73.28,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "GPT-6 Cyber 的 ExploitGym 成绩是 AI 渗透能力的硬指标，值得跟踪。1,465 个 ARTEX 控制台暴露提醒我们：AI 安全工具的部署本身也是攻击面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/SlimAssiliX/status/2118785587075584058",
+      "reader_url": "https://x.com/SlimAssiliX/status/2118785587075584058",
+      "image_url": null,
+      "author": {
+        "username": "SlimAssiliX",
+        "name": "Simo",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T19:20:23",
+      "first_seen_at": "2026-11-06T19:38:38.199035",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 27544,
       "title": "OpenAI 推出 GPT-6 Cyber 模型，用于漏洞挖掘与利用测试",
       "original_title": "interesting one: openai launches gpt 6 cyber with 'critical' cybersecurity rating  the model is meant to help security researchers find vulnerabilities, test how they could be expl",
@@ -138,31 +143,6 @@
       "published_at": "2026-11-06T15:07:16",
       "first_seen_at": "2026-11-06T15:42:43.554952",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 27384,
-      "title": "GPT-6 Cyber安全测试：范围纪律比漏洞利用得分更关键",
-      "original_title": "GPT-6 Cyber stayed out of scope 99.93% of the time without a deployment prompt  GPT-5.6 Cyber got 94.49% on the same test  Here's why that matters more than the 48.5% on ExploitGym",
-      "summary": "GPT-6 Cyber在安全测试中保持在范围外的比例达99.93%，优于GPT-5.6的94.49%；这比其在ExploitGym的48.5%得分更重要，因为无人值守的安全Agent失控会导致真实安全事件。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全Agent从业者必看。别光盯着漏洞挖掘成功率，Agent无人值守时的「范围纪律」才是部署底线。评估时务必先测试它是否会越界攻击蜜罐等边界外目标。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MegaEvolvedFrog/status/2118602511959384561",
-      "reader_url": "https://x.com/MegaEvolvedFrog/status/2118602511959384561",
-      "image_url": null,
-      "author": {
-        "username": "MegaEvolvedFrog",
-        "name": "Mega Evolved Frog",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T07:12:55",
-      "first_seen_at": "2026-11-06T07:48:44.751142",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 27436,
@@ -237,6 +217,31 @@
       "published_at": "2026-11-06T09:06:35",
       "first_seen_at": "2026-11-06T09:29:09.348420",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 27525,
+      "title": "ARTEX 自主渗透框架在野利用：AI 驱动攻击自动化升级",
+      "original_title": "Why governments in many countries are advising people to stockpile food and drinking water.  -----  🚨 ARTEX: AI is fundamentally changing the way cyberattacks are conducted.  ARTEX",
+      "summary": "开源多智能体渗透框架 ARTEX 被用于多国真实攻击，韩国银行泄露 820 万条记录；AhnLab 测试显示单条自然语言提示即可完成从入口发现到内网横向移动的全链路攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队该看：攻击侧已用上多智能体自主渗透，防御侧的 Agent 化必须提速。AhnLab 的测试结果值得拿来作为内部红蓝对抗演练的基准场景。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/sendhuy1/status/2118713990624985404",
+      "reader_url": "https://x.com/sendhuy1/status/2118713990624985404",
+      "image_url": null,
+      "author": {
+        "username": "sendhuy1",
+        "name": "Huy Lâm ⚡",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T14:35:53",
+      "first_seen_at": "2026-11-06T15:05:40.281202",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
