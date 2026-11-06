@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T04:04:30+08:00",
+  "updated_at": "2026-11-07T04:34:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -48,6 +48,26 @@
       "published_at": "2026-11-06T15:00:59",
       "first_seen_at": "2026-11-06T17:25:18.935898",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 27650,
+      "title": "DeepSeek与GLM在模拟渗透实验中逼近OpenAI网络模型",
+      "original_title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+      "summary": "一项模拟网络渗透实验显示，DeepSeek和GLM的黑客能力已接近OpenAI未公开的最先进网络模型，表明开源中国AI模型在网络安全任务上的能力正在快速追平领先闭源模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 79.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和评测从业者该看：免费模型渗透能力逼近闭源SOTA，意味着自动化攻防工具的门槛在快速降低。团队应尽快评估DeepSeek/GLM在自有安全任务中的实际表现，别等对手先用上。",
+      "source_id": "wired-ai",
+      "canonical_url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+      "reader_url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-06T18:43:43",
+      "first_seen_at": "2026-11-06T20:28:32.690851",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 27424,
@@ -217,31 +237,6 @@
       "published_at": "2026-11-06T09:06:35",
       "first_seen_at": "2026-11-06T09:29:09.348420",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 27525,
-      "title": "ARTEX 自主渗透框架在野利用：AI 驱动攻击自动化升级",
-      "original_title": "Why governments in many countries are advising people to stockpile food and drinking water.  -----  🚨 ARTEX: AI is fundamentally changing the way cyberattacks are conducted.  ARTEX",
-      "summary": "开源多智能体渗透框架 ARTEX 被用于多国真实攻击，韩国银行泄露 820 万条记录；AhnLab 测试显示单条自然语言提示即可完成从入口发现到内网横向移动的全链路攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队该看：攻击侧已用上多智能体自主渗透，防御侧的 Agent 化必须提速。AhnLab 的测试结果值得拿来作为内部红蓝对抗演练的基准场景。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/sendhuy1/status/2118713990624985404",
-      "reader_url": "https://x.com/sendhuy1/status/2118713990624985404",
-      "image_url": null,
-      "author": {
-        "username": "sendhuy1",
-        "name": "Huy Lâm ⚡",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T14:35:53",
-      "first_seen_at": "2026-11-06T15:05:40.281202",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
