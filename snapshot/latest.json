@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T04:34:37+08:00",
+  "updated_at": "2026-11-07T05:34:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -67,26 +67,6 @@
       "author": null,
       "published_at": "2026-11-06T18:43:43",
       "first_seen_at": "2026-11-06T20:28:32.690851",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 27424,
-      "title": "中国AI在CyberGym安全评测中以99.4%登顶全球第一",
-      "original_title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
-      "summary": "某中国AI团队在被称为「AI安全世界杯」的CyberGym评测中刷新世界纪录，以99.4%的成绩登顶全球第一。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 77.65,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "CyberGym是AI安全评测榜单的重要风向标，此次刷榜动态非常值得关注。安全评测人员需留意其后续技术披露，评估其对当前安全Agent能力上限的重新定义。",
-      "source_id": "qbitai",
-      "canonical_url": "https://www.qbitai.com/2026/11/508107.html",
-      "reader_url": "https://www.qbitai.com/2026/11/508107.html",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T05:01:47",
-      "first_seen_at": "2026-11-06T09:27:53.827528",
       "sub_category_label": "安全评测与Benchmark"
     },
     {
@@ -214,29 +194,49 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 27431,
-      "title": "OpenAI GPT-6 Cyber 展现漏洞挖掘与利用能力",
-      "original_title": "OpenAI's GPT-6 Cyber can find vulnerabilities and develop working exploits. The business control is explicit scope: approved targets, short-lived credentials, isolated testing, hum",
-      "summary": "OpenAI 的 GPT-6 Cyber 被曝出能发现漏洞并开发可用的漏洞利用代码，同时强调了通过限定范围、短期凭证、隔离测试和人工审查来约束 Agent 行为。",
+      "id": 27652,
+      "title": "数百台 Artex AI 渗透测试服务器被曝光公网访问",
+      "original_title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "summary": "安全研究人员发现数百台托管 AI 渗透测试工具 Artex 的服务器暴露在公网，任何人都可访问该黑客工具，凸显 AI 安全工具运维中的访问控制风险。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.2,
+      "sub_category": "tool_exposure",
+      "score_total": 69.35,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 自动化漏洞挖掘与实战利用能力正在逼近产业级应用。安全团队应重点关注其提到的边界控制方案（短期凭证、隔离环境、停止条件），这是未来落地自主安全 Agent 的关键前置措施。",
+      "recommendation_reason": "AI for Sec 团队若在用 Artex 这类 AI 渗透工具，立即自查服务器暴露面和访问控制。工具再强，暴露在公网就成了攻击者的免费弹药库。",
+      "source_id": "techcrunch-ai",
+      "canonical_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
+      "reader_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-06T18:44:38",
+      "first_seen_at": "2026-11-06T20:34:37.616308",
+      "sub_category_label": null
+    },
+    {
+      "id": 27525,
+      "title": "ARTEX 自主渗透框架在野利用：AI 驱动攻击自动化升级",
+      "original_title": "Why governments in many countries are advising people to stockpile food and drinking water.  -----  🚨 ARTEX: AI is fundamentally changing the way cyberattacks are conducted.  ARTEX",
+      "summary": "开源多智能体渗透框架 ARTEX 被用于多国真实攻击，韩国银行泄露 820 万条记录；AhnLab 测试显示单条自然语言提示即可完成从入口发现到内网横向移动的全链路攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队该看：攻击侧已用上多智能体自主渗透，防御侧的 Agent 化必须提速。AhnLab 的测试结果值得拿来作为内部红蓝对抗演练的基准场景。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AigencyGlobal/status/2118631118429737123",
-      "reader_url": "https://x.com/AigencyGlobal/status/2118631118429737123",
+      "canonical_url": "https://x.com/sendhuy1/status/2118713990624985404",
+      "reader_url": "https://x.com/sendhuy1/status/2118713990624985404",
       "image_url": null,
       "author": {
-        "username": "AigencyGlobal",
-        "name": "AiGency Global | AI for Business Growth",
+        "username": "sendhuy1",
+        "name": "Huy Lâm ⚡",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-06T09:06:35",
-      "first_seen_at": "2026-11-06T09:29:09.348420",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-11-06T14:35:53",
+      "first_seen_at": "2026-11-06T15:05:40.281202",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
