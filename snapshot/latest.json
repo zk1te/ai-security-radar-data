@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T21:00:18+08:00",
+  "updated_at": "2026-11-07T00:33:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 27176,
@@ -43,26 +43,6 @@
       "published_at": "2026-11-06T05:00:00",
       "first_seen_at": "2026-11-06T06:27:45.889244",
       "sub_category_label": "恶意软件与威胁检测"
-    },
-    {
-      "id": 27125,
-      "title": "Black Hat议题：10个无代码与AI Agent平台隔离突破研究",
-      "original_title": "pwno-code: Breaking Isolation in 10 No-Code &amp; AI Agent Platforms",
-      "summary": "研究披露了10个主流无代码和AI Agent自动化平台中的15+个漏洞，涵盖沙箱逃逸、跨租户数据泄露和云接管。讲者总结了这些平台的共性失败模式、可复用的评估方法论及加固清单。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 85.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "直击 Agent 平台的底层安全痛点。如果你在做 AI 安全审计或运营 Agent 平台，这份关于沙箱逃逸和跨租户攻击链的分类研究可以直接转化为你的加固 checklist，非常实用。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#pwno-code-breaking-isolation-in-10-no-code-amp-ai-agent-platforms-55829",
-      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#pwno-code-breaking-isolation-in-10-no-code-amp-ai-agent-platforms-55829",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-12-10T22:30:00",
-      "first_seen_at": "2026-11-06T04:20:30.657327",
-      "sub_category_label": null
     },
     {
       "id": 27469,
