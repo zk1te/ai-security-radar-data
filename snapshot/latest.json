@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:27:11+08:00",
+  "updated_at": "2026-11-06T08:27:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -165,6 +165,30 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 27016,
+      "title": "WorkOS 遭入侵，攻击者使用 AI 渗透测试框架 ARTEX",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告安全事件，称攻击者使用名为 ARTEX 的 AI 辅助自主渗透测试框架访问其内部 API，导致 CRM 和客户支持数据泄露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.92,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "首次看到 AI 自主渗透框架在真实攻击中被明确点名，这意味着 AI 攻击工具已从研究演示走向在野利用。红蓝双方都该关注 ARTEX 等工具的能力边界和扩散趋势，评估自身防御体系对 AI 驱动攻击的应对能力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-06",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-06",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-06T00:06:19.640777",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 26940,
       "title": "OpenAI 称 GPT-6 Cyber 发现 81 个 Firefox 0day",
       "original_title": "OpenAI says its researchers used GPT-6 Cyber to find 81 previously unknown, high-severity Firefox vulnerabilities and build working exploits for 948 Linux kernel vulnerabilities.  ",
@@ -212,31 +236,6 @@
       "published_at": "2026-11-05T17:07:57",
       "first_seen_at": "2026-11-05T21:21:10.528005",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 26873,
-      "title": "OpenAI 推出 GPT-6 Cyber 安全模型，赋能漏洞挖掘与渗透",
-      "original_title": "THE MOST POWERFUL CYBERSECURITY AI MODEL IS HERE 🔥  OpenAI just dropped GPT-6 Cyber, and this is actually a huge deal.  imagine an AI that can dig through real software, find secur",
-      "summary": "OpenAI 发布专为网络安全设计的 GPT-6 Cyber 模型，并通过 Daybreak 项目向安全研究员提供漏洞挖掘、代码审查与渗透测试能力，旨在为防御者争取先发优势。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 73.08,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应关注大厂安全垂类大模型在漏洞挖掘和渗透测试上的实际效果。这是 Agent 落地安全流程的重要信号，及早跟进可抢占「防御者窗口」优势。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/vishalsingh2972/status/2118397726564192623",
-      "reader_url": "https://x.com/vishalsingh2972/status/2118397726564192623",
-      "image_url": "https://pbs.twimg.com/media/HWYPaQybQAAsP7x.jpg",
-      "author": {
-        "username": "vishalsingh2972",
-        "name": "Vishal Singh",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-05T17:39:10",
-      "first_seen_at": "2026-11-05T17:45:16.232864",
-      "sub_category_label": null
     }
   ]
 }
