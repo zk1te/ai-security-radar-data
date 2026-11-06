@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T15:28:59+08:00",
+  "updated_at": "2026-11-06T15:59:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -89,26 +89,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 26918,
-      "title": "OpenAI 发布 GPT-6 Cyber 安全模型，强化漏洞挖掘并控制越界",
-      "original_title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
-      "summary": "OpenAI 推出专为网络安全设计的新模型 GPT-6 Cyber，称其在测试中越界攻击非目标平台的概率降至 1% 以下，同时漏洞挖掘能力得到提升。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 81.05,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "该模型展现了 AI 安全工具在自动化攻防中对 Agent 行为边界的控制思路。安全团队应关注其漏洞挖掘的实际效果及越界限制机制，评估将其引入渗透测试流程的可行性与风险。",
-      "source_id": "the-verge-ai",
-      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
-      "reader_url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-05T17:00:00",
-      "first_seen_at": "2026-11-05T19:44:46.575456",
-      "sub_category_label": null
-    },
-    {
       "id": 27131,
       "title": "OpenAI安全Agent生成948个有效EXP并实现0.07%极低越权率",
       "original_title": "OpenAI's new security agent wrote working exploits for 948 Linux vulnerabilities.  The more important number is 99.93%.  That's how often GPT-6 Cyber stayed inside the scope it was",
@@ -176,6 +156,26 @@
       "published_at": "2026-11-05T17:07:57",
       "first_seen_at": "2026-11-06T00:32:28.300512",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 27397,
+      "title": "语义代码克隆检测鲁棒性评测：多数检测器在代码变换下性能骤降",
+      "original_title": "Characterizing Robustness in Semantic Code Clone Detection",
+      "summary": "本文提出系统化代码变换框架(SCT)评估代码克隆检测器的鲁棒性，发现原本F1超90%的检测器在组合变换下普遍损失至少10个百分点，揭示了基于prompt的检测器在代码重写前的脆弱性。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 77.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计和漏洞追踪的同学得看，你依赖的 LLM 代码克隆检测工具在面对行为保持重写时极其脆弱，别盲信高分，得自己测测抗干扰能力。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2606.25272",
+      "reader_url": "https://arxiv.org/pdf/2606.25272",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-06T05:00:00",
+      "first_seen_at": "2026-11-06T07:51:15.863190",
+      "sub_category_label": null
     },
     {
       "id": 27016,
