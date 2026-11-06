@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T17:29:24+08:00",
+  "updated_at": "2026-11-06T20:30:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -63,6 +63,26 @@
       "published_at": "2026-12-10T22:30:00",
       "first_seen_at": "2026-11-06T04:20:30.657327",
       "sub_category_label": null
+    },
+    {
+      "id": 27469,
+      "title": "Cloudflare 安全审计 Skill 爆火，AI Agent 实现多阶段代码审计",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2524 stars today",
+      "summary": "Cloudflare 开源的 security-audit-skill 项目在 GitHub 一日激增 2524 颗星，这是一个用于多阶段安全审计的编程智能体技能，能够输出独立验证且机器可读的审计结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "搞代码审计和 AI 安全落地的必看。Cloudflare 这个工具演示了怎么用 AI Agent 做多阶段安全审计且带验证机制，直接拿去研究或复用。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-06&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-06&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-06T12:04:02.392866",
+      "first_seen_at": "2026-11-06T12:05:00.433819",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 27038,
@@ -176,26 +196,6 @@
       "published_at": "2026-11-06T05:01:47",
       "first_seen_at": "2026-11-06T09:27:53.827528",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 27397,
-      "title": "语义代码克隆检测鲁棒性评测：多数检测器在代码变换下性能骤降",
-      "original_title": "Characterizing Robustness in Semantic Code Clone Detection",
-      "summary": "本文提出系统化代码变换框架(SCT)评估代码克隆检测器的鲁棒性，发现原本F1超90%的检测器在组合变换下普遍损失至少10个百分点，揭示了基于prompt的检测器在代码重写前的脆弱性。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 77.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做代码审计和漏洞追踪的同学得看，你依赖的 LLM 代码克隆检测工具在面对行为保持重写时极其脆弱，别盲信高分，得自己测测抗干扰能力。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2606.25272",
-      "reader_url": "https://arxiv.org/pdf/2606.25272",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T05:00:00",
-      "first_seen_at": "2026-11-06T07:51:15.863190",
-      "sub_category_label": null
     }
   ]
 }
