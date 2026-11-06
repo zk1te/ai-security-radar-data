@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T02:33:58+08:00",
+  "updated_at": "2026-11-07T03:04:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -87,31 +87,6 @@
       "author": null,
       "published_at": "2026-11-06T05:00:00",
       "first_seen_at": "2026-11-06T07:51:15.863190",
-      "sub_category_label": null
-    },
-    {
-      "id": 27203,
-      "title": "GPT-6 Cyber 评测：漏洞利用能力提升且越界率骤降",
-      "original_title": "A security agent that finds a real vulnerability on the wrong system has failed the job.  That is what makes GPT-6 Cyber worth a closer look: OpenAI is reporting stronger security ",
-      "summary": "OpenAI 报告 GPT-6 Cyber 在 ExploitGym 漏洞利用评测中得分升至 48.5%，并在 Honeypot 测试中展现出极强的授权范围遵守能力，无指令越界率仅 0.07%。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent | agent_security",
-      "score_total": 75.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应关注其在指定漏洞利用任务上的能力提升。Honeypot 测试为 Agent 边界控制提供了量化评估新思路，设计自动化安全 Agent 时务必加入此类越界检测。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/milhouscc/status/2118585444845662565",
-      "reader_url": "https://x.com/milhouscc/status/2118585444845662565",
-      "image_url": null,
-      "author": {
-        "username": "milhouscc",
-        "name": "Milhous",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T06:05:06",
-      "first_seen_at": "2026-11-06T06:37:13.109803",
       "sub_category_label": null
     },
     {
@@ -236,6 +211,31 @@
       },
       "published_at": "2026-11-06T12:59:43",
       "first_seen_at": "2026-11-06T18:31:10.160841",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 27431,
+      "title": "OpenAI GPT-6 Cyber 展现漏洞挖掘与利用能力",
+      "original_title": "OpenAI's GPT-6 Cyber can find vulnerabilities and develop working exploits. The business control is explicit scope: approved targets, short-lived credentials, isolated testing, hum",
+      "summary": "OpenAI 的 GPT-6 Cyber 被曝出能发现漏洞并开发可用的漏洞利用代码，同时强调了通过限定范围、短期凭证、隔离测试和人工审查来约束 Agent 行为。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 自动化漏洞挖掘与实战利用能力正在逼近产业级应用。安全团队应重点关注其提到的边界控制方案（短期凭证、隔离环境、停止条件），这是未来落地自主安全 Agent 的关键前置措施。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AigencyGlobal/status/2118631118429737123",
+      "reader_url": "https://x.com/AigencyGlobal/status/2118631118429737123",
+      "image_url": null,
+      "author": {
+        "username": "AigencyGlobal",
+        "name": "AiGency Global | AI for Business Growth",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T09:06:35",
+      "first_seen_at": "2026-11-06T09:29:09.348420",
       "sub_category_label": "漏洞挖掘"
     }
   ]
