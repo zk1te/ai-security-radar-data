@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T15:59:09+08:00",
+  "updated_at": "2026-11-06T17:29:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -158,6 +158,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 27424,
+      "title": "中国AI在CyberGym安全评测中以99.4%登顶全球第一",
+      "original_title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+      "summary": "某中国AI团队在被称为「AI安全世界杯」的CyberGym评测中刷新世界纪录，以99.4%的成绩登顶全球第一。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 77.65,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "CyberGym是AI安全评测榜单的重要风向标，此次刷榜动态非常值得关注。安全评测人员需留意其后续技术披露，评估其对当前安全Agent能力上限的重新定义。",
+      "source_id": "qbitai",
+      "canonical_url": "https://www.qbitai.com/2026/11/508107.html",
+      "reader_url": "https://www.qbitai.com/2026/11/508107.html",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-06T05:01:47",
+      "first_seen_at": "2026-11-06T09:27:53.827528",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
       "id": 27397,
       "title": "语义代码克隆检测鲁棒性评测：多数检测器在代码变换下性能骤降",
       "original_title": "Characterizing Robustness in Semantic Code Clone Detection",
@@ -176,30 +196,6 @@
       "published_at": "2026-11-06T05:00:00",
       "first_seen_at": "2026-11-06T07:51:15.863190",
       "sub_category_label": null
-    },
-    {
-      "id": 27016,
-      "title": "WorkOS 遭入侵，攻击者使用 AI 渗透测试框架 ARTEX",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 报告安全事件，称攻击者使用名为 ARTEX 的 AI 辅助自主渗透测试框架访问其内部 API，导致 CRM 和客户支持数据泄露。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.92,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "首次看到 AI 自主渗透框架在真实攻击中被明确点名，这意味着 AI 攻击工具已从研究演示走向在野利用。红蓝双方都该关注 ARTEX 等工具的能力边界和扩散趋势，评估自身防御体系对 AI 驱动攻击的应对能力。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-06",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-06",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-06T00:06:19.640777",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
