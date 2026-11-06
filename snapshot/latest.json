@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T05:34:52+08:00",
+  "updated_at": "2026-11-07T06:05:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -145,31 +145,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 27436,
-      "title": "免费实操培训：构建用于漏洞研究的 AI Agent",
-      "original_title": "RT @chrisdior777: 🚨If you're in cybersecurity, DON'T miss this 🙏  a FREE, hands-on workshop on building AI agents for vulnerability researc…",
-      "summary": "该推文推荐网络安全从业者参加一个免费的实操研讨会，主题是构建用于漏洞研究的 AI Agent。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.94,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "适合想动手用 AI 做漏洞挖掘的安全从业者，免费实操机会，可直接了解 AI Agent 在漏洞研究中的落地方式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2118601395393995226",
-      "reader_url": "https://x.com/soaphornseuo/status/2118601395393995226",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null,
-        "followers_count": 2488
-      },
-      "published_at": "2026-11-06T07:08:29",
-      "first_seen_at": "2026-11-06T10:02:49.934762",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 27596,
       "title": "OpenAI 发现 948 个 Linux 内核本地提权漏洞",
       "original_title": "HN Hot Discussion: OpenAI Finds 948 Local Privilege Escalation Bugs in the Linux Kernel",
@@ -237,6 +212,31 @@
       "published_at": "2026-11-06T14:35:53",
       "first_seen_at": "2026-11-06T15:05:40.281202",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 27669,
+      "title": "ARTEX 自动化渗透平台遭黑产武器化，AI Agent 被用于网络犯罪",
+      "original_title": "#threatreport #LowCompleteness Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns | 05-11-2026 Source: https://t.co/txELZ1VAVp Key details below ↓  💀Threats: Artex_tool, Suppl",
+      "summary": "研究发现 AI 驱动的 ARTEX 自动化渗透平台被黑产用于自主挖掘漏洞和发起攻击。因 Anthropic 模型存在安全护栏，攻击者转用 DeepSeek 等模型以避开限制。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 自动化攻击已从概念走向黑产实战！这份报告披露了 ARTEX 平台的滥用细节和具体 TTP，对研究 Agent 安全边界极具参考价值。防御团队应密切关注此类武器化 Agent 的模型选择动态与自动化攻击路径。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rst_cloud/status/2118814285245669613",
+      "reader_url": "https://x.com/rst_cloud/status/2118814285245669613",
+      "image_url": "https://pbs.twimg.com/media/HWeKXQrWgAAJHGH.jpg",
+      "author": {
+        "username": "rst_cloud",
+        "name": "RST Cloud",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T21:14:25",
+      "first_seen_at": "2026-11-06T21:18:56.765101",
+      "sub_category_label": null
     }
   ]
 }
