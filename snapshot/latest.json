@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T08:57:49+08:00",
+  "updated_at": "2026-11-06T12:28:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -27,6 +27,26 @@
       },
       "published_at": "2026-11-05T17:09:13",
       "first_seen_at": "2026-11-05T19:27:11.725865",
+      "sub_category_label": null
+    },
+    {
+      "id": 27125,
+      "title": "Black Hat议题：10个无代码与AI Agent平台隔离突破研究",
+      "original_title": "pwno-code: Breaking Isolation in 10 No-Code &amp; AI Agent Platforms",
+      "summary": "研究披露了10个主流无代码和AI Agent自动化平台中的15+个漏洞，涵盖沙箱逃逸、跨租户数据泄露和云接管。讲者总结了这些平台的共性失败模式、可复用的评估方法论及加固清单。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 85.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "直击 Agent 平台的底层安全痛点。如果你在做 AI 安全审计或运营 Agent 平台，这份关于沙箱逃逸和跨租户攻击链的分类研究可以直接转化为你的加固 checklist，非常实用。",
+      "source_id": "blackhat-public-sessions",
+      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#pwno-code-breaking-isolation-in-10-no-code-amp-ai-agent-platforms-55829",
+      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#pwno-code-breaking-isolation-in-10-no-code-amp-ai-agent-platforms-55829",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-12-10T22:30:00",
+      "first_seen_at": "2026-11-06T04:20:30.657327",
       "sub_category_label": null
     },
     {
@@ -211,30 +231,6 @@
       "published_at": "2026-11-05T18:08:03",
       "first_seen_at": "2026-11-05T18:20:36.905105",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 27016,
-      "title": "WorkOS 遭入侵，攻击者使用 AI 渗透测试框架 ARTEX",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 报告安全事件，称攻击者使用名为 ARTEX 的 AI 辅助自主渗透测试框架访问其内部 API，导致 CRM 和客户支持数据泄露。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.92,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "首次看到 AI 自主渗透框架在真实攻击中被明确点名，这意味着 AI 攻击工具已从研究演示走向在野利用。红蓝双方都该关注 ARTEX 等工具的能力边界和扩散趋势，评估自身防御体系对 AI 驱动攻击的应对能力。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-06",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-06",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-06T00:06:19.640777",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
