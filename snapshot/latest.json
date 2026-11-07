@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T16:37:33+08:00",
+  "updated_at": "2026-11-07T20:38:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -22,30 +22,6 @@
       "author": null,
       "published_at": "2026-09-14T19:29:02",
       "first_seen_at": "2026-11-07T00:46:40.763104",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 27704,
-      "title": "WorkOS遭入侵，攻击被归因于AI渗透框架ARTEX",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS报告数据泄露事件，称攻击源自香港与中国IP，并明确归因为AI辅助的自主渗透测试框架ARTEX，导致CRM和客户支持数据被访问。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "罕见的AI自动化渗透框架在野攻击真实案例。安全团队应关注此类工具降低攻击门槛的趋势，评估自身防御体系对高频自动化探测的承受力。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-07",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-07",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-07T00:19:36.240244",
       "sub_category_label": "安全Agent"
     },
     {
@@ -123,31 +99,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 27706,
-      "title": "自动化黑客框架实战复盘：传统防御仍有效且易受提示注入",
-      "original_title": "After reviewing and messing with a ton of the automated pentest/hacking frameworks flooding GitHub, along with real world breaches and associated CTI, most of the people running th",
-      "summary": "作者指出多数自动化渗透工具使用者技术不精，传统防御如 fail2ban、日志关联等仍能有效阻断 AI Agent 攻击。同时这些框架本身常存在安全漏洞，对提示注入高度敏感。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent | prompt_injection",
-      "score_total": 74.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "实战向推文。蓝队别被 AI 攻击噱头吓倒，先检查基础 WAF/fail2ban 规则是否能挡住自动化扫描 Agent，甚至可考虑反制工具自身的提示注入漏洞。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2118811677504213438",
-      "reader_url": "https://x.com/HackingLZ/status/2118811677504213438",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-11-06T21:04:04",
-      "first_seen_at": "2026-11-07T00:36:11.877675",
-      "sub_category_label": null
-    },
-    {
       "id": 27749,
       "title": "HN 热议：OpenAI 或将推出 GPT-6 Cyber 网络安全 Agent",
       "original_title": "HN Hot Discussion: GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
@@ -195,6 +146,55 @@
       "published_at": "2026-11-07T02:34:01",
       "first_seen_at": "2026-11-07T02:45:04.996255",
       "sub_category_label": null
+    },
+    {
+      "id": 27744,
+      "title": "开源风控反欺诈平台 Kairos：借助 MCP 实现 Agent 自动化决策",
+      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "summary": "Kairos 是开源的实时欺诈决策平台，结合 LLM 弥补标注数据不足，并通过 MCP 服务器让 Claude Code 等 Agent 自动定义工作流和训练模型，以应对欺诈手法的快速变化。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 70.54,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "MCP 在风控反欺诈场景的落地参考。风控和威胁检测团队可以看看如何用 Agent 动态更新检测规则和模型，免被快速变异的攻击者绕过。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-07",
+      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-07",
+      "image_url": null,
+      "author": {
+        "username": "ayanb9440",
+        "name": "ayanb9440",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-03T21:16:48",
+      "first_seen_at": "2026-11-07T00:54:11.341350",
+      "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 27838,
+      "title": "Storm-3358 使用 ARTEX AI 渗透测试框架攻击金融机构",
+      "original_title": "🚨🚨🚨FINANCIAL INSTITUTIONS TARGETED - Storm-3358 is using ARTEX, an agentic AI penetration-testing framework, to run attacks on financial institutions at machine speed.🚨🚨🚨  📌 What h",
+      "summary": "威胁组织 Storm-3358 正利用名为 ARTEX 的智能体 AI 渗透测试框架，以机器速度对东南亚金融机构发起自动化攻击，大幅压缩了攻击生命周期。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "攻击者已将 AI 安全 Agent 武器化并投入实战，防守方需立即将相关 IP 加入黑名单并监控高频自动化工具执行特征。这是 AI 安全工具双刃剑效应的真实在野案例，SOC 团队应高度警惕这种以机器速度发起的渗透。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/BadgerSignalHQ/status/2118986240414392606",
+      "reader_url": "https://x.com/BadgerSignalHQ/status/2118986240414392606",
+      "image_url": "https://pbs.twimg.com/media/HWgmn1sbMAEFmeY.jpg",
+      "author": {
+        "username": "BadgerSignalHQ",
+        "name": "Badger Signal",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-07T08:37:43",
+      "first_seen_at": "2026-11-07T08:54:50.014553",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
