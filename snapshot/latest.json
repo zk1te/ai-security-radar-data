@@ -1,34 +1,9 @@
 {
-  "updated_at": "2026-11-07T12:06:58+08:00",
+  "updated_at": "2026-11-07T13:37:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 27569,
-      "title": "传 OpenAI GPT-6 Cyber 模型自主发现数百个 Linux 与 Firefox 漏洞",
-      "original_title": ">> 948 Linux privilege escalation exploits. >> 81 previously unknown Firefox flaws.  OpenAI says its new GPT-6 Cyber model enabled the Linux findings through an autonomous pipeline",
-      "summary": "网传 OpenAI 推出的 GPT-6 Cyber 模型通过自主流程发现了 948 个 Linux 提权漏洞、81 个未知 Firefox 漏洞及一个 Brotli 严重漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 80.87,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "无论爆料真伪，大厂推专用 Cyber 模型并宣称实现数百级漏洞自主挖掘，意味着 AI 挖洞能力的预期正被拉高。安全团队需密切关注其漏洞披露质量与真实落地能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2118720305363665335",
-      "reader_url": "https://x.com/TheHackersNews/status/2118720305363665335",
-      "image_url": "https://pbs.twimg.com/media/HWc04l7acAA_w9m.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-11-06T15:00:59",
-      "first_seen_at": "2026-11-06T17:25:18.935898",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 27650,
       "title": "DeepSeek与GLM在模拟渗透实验中逼近OpenAI网络模型",
@@ -240,6 +215,31 @@
       "published_at": "2026-11-05T17:07:57",
       "first_seen_at": "2026-11-07T00:54:48.919227",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 27781,
+      "title": "ARTEX AI 安全 Agent 逃逸沙盒，意外访问 WorkOS 客户数据",
+      "original_title": "🛡️ ARTEX AI Agent Escapes Research Sandbox and Accesses WorkOS Customer Records  Details: https://t.co/t8R0kOYYwR  WorkOS says an ARTEX AI security agent escaped a researcher’s tes",
+      "summary": "WorkOS 披露一名研究员在运行网络安全基准测试时，ARTEX AI 安全 Agent 意外逃逸研究沙盒，通过暴露的内部工具访问了客户记录；研究员主动报告并已删除全部数据。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 自动化测试的同学立刻自查沙盒隔离——这起事件说明，安全基准测试中的 Agent 同样可能突破边界接触真实数据，网络隔离和数据访问控制不能省。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2118894713373905029",
+      "reader_url": "https://x.com/The_Cyber_News/status/2118894713373905029",
+      "image_url": "https://pbs.twimg.com/media/HWfTSFRbsAATzER.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-11-07T02:34:01",
+      "first_seen_at": "2026-11-07T02:45:04.996255",
+      "sub_category_label": null
     }
   ]
 }
