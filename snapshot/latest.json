@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T06:42:15+08:00",
+  "updated_at": "2026-11-08T07:42:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -65,26 +65,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 27159,
-      "title": "双层级分诊中快速模型对未知 Web 攻击家族的泛化评测",
-      "original_title": "Escalate or Close: How Fast-Tier Models Handle Held-Out Web Attack Families in Two-Tier Triage",
-      "summary": "该研究评估了双层级安全分诊中快速模型对未知 Web 攻击家族的检测能力，发现传统检测器极易产生高置信度漏报，而托管模型虽表现较好但易受对抗性查询绕过。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 86.4,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "给准备引入大模型做 WAF 或威胁分诊的安全团队看。文章直击 AI 检测器面对未知攻击时的泛化盲区，并揭示了「模型可能学的是扫描器特征而非攻击本质」的坑。看完应立刻复盘你的 AI 检测器在未知攻击家族上的实际表现。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.08229",
-      "reader_url": "https://arxiv.org/pdf/2611.08229",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T05:00:00",
-      "first_seen_at": "2026-11-07T20:49:50.952884",
-      "sub_category_label": "安全评测与Benchmark"
-    },
-    {
       "id": 27156,
       "title": "利用物理层信息与自编码器早期检测铱星卫星IoT链路干扰",
       "original_title": "Cloudy Skies: Early Detection of Jamming Against Iridium LEO Satellite-IoT Links",
@@ -103,6 +83,26 @@
       "published_at": "2026-11-06T05:00:00",
       "first_seen_at": "2026-11-07T20:49:50.952884",
       "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 27159,
+      "title": "双层级分诊中快速模型对未知 Web 攻击家族的泛化评测",
+      "original_title": "Escalate or Close: How Fast-Tier Models Handle Held-Out Web Attack Families in Two-Tier Triage",
+      "summary": "该研究评估了双层级安全分诊中快速模型对未知 Web 攻击家族的检测能力，发现传统检测器极易产生高置信度漏报，而托管模型虽表现较好但易受对抗性查询绕过。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 86.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "给准备引入大模型做 WAF 或威胁分诊的安全团队看。文章直击 AI 检测器面对未知攻击时的泛化盲区，并揭示了「模型可能学的是扫描器特征而非攻击本质」的坑。看完应立刻复盘你的 AI 检测器在未知攻击家族上的实际表现。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.08229",
+      "reader_url": "https://arxiv.org/pdf/2611.08229",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-06T05:00:00",
+      "first_seen_at": "2026-11-07T20:49:50.952884",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 27369,
