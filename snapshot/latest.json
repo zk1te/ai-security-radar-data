@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-11-07T06:05:20+08:00",
+  "updated_at": "2026-11-07T08:05:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 27469,
-      "title": "Cloudflare 安全审计 Skill 爆火，AI Agent 实现多阶段代码审计",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2524 stars today",
-      "summary": "Cloudflare 开源的 security-audit-skill 项目在 GitHub 一日激增 2524 颗星，这是一个用于多阶段安全审计的编程智能体技能，能够输出独立验证且机器可读的审计结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 84.2,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "搞代码审计和 AI 安全落地的必看。Cloudflare 这个工具演示了怎么用 AI Agent 做多阶段安全审计且带验证机制，直接拿去研究或复用。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-06&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-06&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T12:04:02.392866",
-      "first_seen_at": "2026-11-06T12:05:00.433819",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 27569,
       "title": "传 OpenAI GPT-6 Cyber 模型自主发现数百个 Linux 与 Firefox 漏洞",
@@ -236,6 +216,26 @@
       },
       "published_at": "2026-11-06T21:14:25",
       "first_seen_at": "2026-11-06T21:18:56.765101",
+      "sub_category_label": null
+    },
+    {
+      "id": 27619,
+      "title": "OpenAI 与 Hacktron 合作进行漏洞挖掘与防御测试",
+      "original_title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "summary": "OpenAI 宣布与安全公司 Hacktron 合作，对其系统进行漏洞挖掘和第三方服务连接测试，并利用前沿 AI 技术加强防御。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "头部 AI 厂商引入外部团队挖洞并测试第三方连接安全，展示了产业界对 AI 供应链和系统安全的实战化要求。AI 安全团队可关注大厂如何利用前沿大模型辅助防御落地。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/partnering-with-hacktron",
+      "reader_url": "https://openai.com/index/partnering-with-hacktron",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-06T08:00:00",
+      "first_seen_at": "2026-11-06T19:20:43.504533",
       "sub_category_label": null
     }
   ]
