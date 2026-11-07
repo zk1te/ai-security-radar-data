@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T22:10:39+08:00",
+  "updated_at": "2026-11-07T22:40:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -155,31 +155,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 27778,
-      "title": "单人利用12个AI Agent发起跨国攻击",
-      "original_title": "One Hacker. Twelve AI Agents. Eleven Countries. Cybersecurity Has Entered a Dangerous New Era.  The global cybersecurity landscape may be confronting a fundamental shift. According",
-      "summary": "Acronis披露一名黑客利用12个AI Agent对11国数百组织发起协调攻击，表明AI正大幅降低复杂网络犯罪门槛。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "threat_intel",
-      "score_total": 64.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全运营和威胁狩猎团队必看：AI Agent 编排式攻击已从理论变为实战，防御侧必须加快引入自动化响应，并排查暴露的开发服务器与开源渗透工具滥用风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Shahjees/status/2118884979740729668",
-      "reader_url": "https://x.com/Shahjees/status/2118884979740729668",
-      "image_url": null,
-      "author": {
-        "username": "Shahjees",
-        "name": "Kamran Shah",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-07T01:55:20",
-      "first_seen_at": "2026-11-07T02:12:57.413126",
-      "sub_category_label": null
-    },
-    {
       "id": 27837,
       "title": "AI 渗透工具 ARTEX 超 800 实例暴露，疑似牵连多起网络攻击",
       "original_title": "Censys finds 800+ publicly exposed copies of ARTEX, a Chinese-made, AI-powered, open-source penetration testing tool linked to several cyberattacks since July  source: https://t.co",
@@ -253,6 +228,31 @@
       "published_at": "2026-11-07T13:23:55",
       "first_seen_at": "2026-11-07T13:54:09.516599",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 27847,
+      "title": "Artex 渗透测试工具超 800 实例暴露并被用于在野攻击",
+      "original_title": "800 Artex Deployments Exposed Online  https://t.co/QYcLT7KRNm Security researchers found more than 800 distinct deployments of the Artex AI hacking tool exposed to the web without ",
+      "summary": "安全研究员发现超 800 个开源 AI 渗透测试工具 Artex 实例无密码暴露于公网，且已被用于攻击韩国金融业及 ConnectWise 等实体，促使该工具转向闭源。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 61.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent裸奔在公网直接沦为攻击者武器，暴露了AI安全工具自身的供应链与部署风险。从业者必须立刻排查内网未授权的 Artex 节点，工具开发者也应以此为戒收紧默认配置。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ApollonVisual/status/2119014544987099528",
+      "reader_url": "https://x.com/ApollonVisual/status/2119014544987099528",
+      "image_url": "https://pbs.twimg.com/media/HWhAfTdWIAAy-hn.jpg",
+      "author": {
+        "username": "ApollonVisual",
+        "name": "Apollo",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-07T10:30:11",
+      "first_seen_at": "2026-11-07T10:33:07.508520",
+      "sub_category_label": null
     }
   ]
 }
