@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T13:37:11+08:00",
+  "updated_at": "2026-11-07T16:07:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 27650,
@@ -166,31 +166,6 @@
       "published_at": "2026-11-06T21:04:04",
       "first_seen_at": "2026-11-07T00:36:11.877675",
       "sub_category_label": null
-    },
-    {
-      "id": 27627,
-      "title": "GPT-6 Cyber 在 ExploitGym 得分 48.5%，ARTEX 控制台大规模暴露",
-      "original_title": "2/3 @OpenAI says GPT-6 Cyber scored 48.5 percent on ExploitGym and stayed within authorized scope in 99.93 percent of tests when run without its deployment prompt. Meanwhile, Censy",
-      "summary": "OpenAI 报告 GPT-6 Cyber 在安全基准 ExploitGym 上得分 48.5%，99.93% 的测试未越权；同时 Censys 发现 1,465 个暴露的 ARTEX 自主 AI 渗透测试控制台。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 73.28,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "GPT-6 Cyber 的 ExploitGym 成绩是 AI 渗透能力的硬指标，值得跟踪。1,465 个 ARTEX 控制台暴露提醒我们：AI 安全工具的部署本身也是攻击面。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SlimAssiliX/status/2118785587075584058",
-      "reader_url": "https://x.com/SlimAssiliX/status/2118785587075584058",
-      "image_url": null,
-      "author": {
-        "username": "SlimAssiliX",
-        "name": "Simo",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T19:20:23",
-      "first_seen_at": "2026-11-06T19:38:38.199035",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 27749,
