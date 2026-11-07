@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T08:05:51+08:00",
+  "updated_at": "2026-11-07T08:35:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 27569,
@@ -50,29 +50,28 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 27477,
-      "title": "Chainguard 用 Anthropic Mythos 6 小时挖出十余个 RCE",
-      "original_title": "Over a dozen vulnerabilities found in 6 hours. Most were pre-auth RCE flaws.  Chainguard says its Athena system used Anthropic's Mythos to identify the flaws in a heavily tested op",
-      "summary": "Chainguard 的 Athena 系统利用 Anthropic 的 Mythos 模型，在一个经过多年审查的开源项目中发现了十余个预认证 RCE 漏洞，并在干净虚拟机中成功复现。",
+      "id": 27704,
+      "title": "WorkOS遭入侵，攻击被归因于AI渗透框架ARTEX",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS报告数据泄露事件，称攻击源自香港与中国IP，并明确归因为AI辅助的自主渗透测试框架ARTEX，导致CRM和客户支持数据被访问。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 75.32,
+      "sub_category": "security_agent",
+      "score_total": 77.75,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "AI 挖洞从演示走向实战产出的标志性事件，漏洞挖掘团队应重点关注 Mythos 的能力边界，评估将其接入代码审计与安全测试流程的可行性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2118672694652661902",
-      "reader_url": "https://x.com/TheHackersNews/status/2118672694652661902",
-      "image_url": "https://pbs.twimg.com/media/HWcJaS4bcAANWGW.jpg",
+      "recommendation_reason": "罕见的AI自动化渗透框架在野攻击真实案例。安全团队应关注此类工具降低攻击门槛的趋势，评估自身防御体系对高频自动化探测的承受力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-07",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-07",
+      "image_url": null,
       "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
       },
-      "published_at": "2026-11-06T11:51:48",
-      "first_seen_at": "2026-11-06T12:19:33.191830",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-07T00:19:36.240244",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 27627,
@@ -216,26 +215,6 @@
       },
       "published_at": "2026-11-06T21:14:25",
       "first_seen_at": "2026-11-06T21:18:56.765101",
-      "sub_category_label": null
-    },
-    {
-      "id": 27619,
-      "title": "OpenAI 与 Hacktron 合作进行漏洞挖掘与防御测试",
-      "original_title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "summary": "OpenAI 宣布与安全公司 Hacktron 合作，对其系统进行漏洞挖掘和第三方服务连接测试，并利用前沿 AI 技术加强防御。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 68.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "头部 AI 厂商引入外部团队挖洞并测试第三方连接安全，展示了产业界对 AI 供应链和系统安全的实战化要求。AI 安全团队可关注大厂如何利用前沿大模型辅助防御落地。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/partnering-with-hacktron",
-      "reader_url": "https://openai.com/index/partnering-with-hacktron",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T08:00:00",
-      "first_seen_at": "2026-11-06T19:20:43.504533",
       "sub_category_label": null
     }
   ]
