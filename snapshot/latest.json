@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T02:11:27+08:00",
+  "updated_at": "2026-11-08T03:11:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -150,24 +150,28 @@
       "sub_category_label": null
     },
     {
-      "id": 27371,
-      "title": "软件日志快速无监督异常检测方法实证研究",
-      "original_title": "Fast Unsupervised Anomaly Detection Methods on Software Logs - An Empirical Study",
-      "summary": "本文实证评估了数据预处理和不同无监督模型在七个软件日志数据集上的异常检测效果，发现使用无异常数据训练能提升性能，且打乱数据不会对无监督模型造成数据泄漏。",
+      "id": 27955,
+      "title": "MaxxBench 质疑 DeepSWE 评测得分真实性",
+      "original_title": "HN Hot Discussion: MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "summary": "Hacker News 热议新基准 MaxxBench，指出 DeepSWE 的高分可能存在真实性存疑的问题，引发关于 AI 编码与安全评测有效性的讨论。",
       "primary_category": "AI for Sec",
-      "sub_category": "log_anomaly_detection",
-      "score_total": 77.2,
+      "sub_category": "security_benchmark",
+      "score_total": 77.49,
       "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "对使用机器学习做日志分析的安全工程师有直接参考价值。它打破了一味认为打乱数据必导致数据泄漏的刻板印象，并给出了可落地的模型选择与预处理建议，值得安全运维团队借鉴。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.07760",
-      "reader_url": "https://arxiv.org/pdf/2611.07760",
+      "item_type": "news",
+      "recommendation_reason": "安全评测榜单刷榜动态值得关注。如果 DeepSWE 等基准的得分被夸大或存在数据泄露，将直接影响团队评估和选型 AI 漏洞挖掘工具的判断，从业者需警惕当前评测基准的有效性陷阱。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50406222&hn_hot_date=2026-11-07",
+      "reader_url": "https://news.ycombinator.com/item?id=50406222&hn_hot_date=2026-11-07",
       "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T05:00:00",
-      "first_seen_at": "2026-11-07T14:49:24.477658",
-      "sub_category_label": null
+      "author": {
+        "username": "antiuniverse",
+        "name": "antiuniverse",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-07T17:19:00",
+      "first_seen_at": "2026-11-07T19:01:20.015457",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
