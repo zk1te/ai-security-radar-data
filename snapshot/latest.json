@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T23:10:48+08:00",
+  "updated_at": "2026-11-08T02:11:27+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -85,6 +85,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 27936,
+      "title": "分享低成本 AI 漏洞挖掘实战 Prompt 与 Agent 架构",
+      "original_title": "some alpha drop for doing inexpensive vuln research.   instead of writing an article on the prompts/process behind this bounty (and more), I am dropping some prompts and the though",
+      "summary": "作者分享了利用开源或廉价模型进行漏洞研究的 prompt 模板，通过基于威胁模型的 mutator 变异生成 agent 群体进行广泛探索，最后用前沿模型确认问题，从而在降低成本的同时最大化搜索空间。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 82.89,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这套低成本模型配合变异 Agent 群体扩大搜索范围、最后用大模型过滤的思路极具落地价值。想落地 AI 漏洞挖掘但受限于大模型成本的安全团队应立即参考借鉴。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2119071106992873592",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2119071106992873592",
+      "image_url": null,
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null,
+        "followers_count": 17983
+      },
+      "published_at": "2026-11-07T14:14:57",
+      "first_seen_at": "2026-11-07T17:49:20.495321",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 27378,
       "title": "LLM 代码修复在 API 迁移中的静默失败研究",
       "original_title": "Accepted but Wrong: Silent Failures of LLM Code Repairs after API Migrations",
@@ -143,26 +168,6 @@
       "published_at": "2026-11-06T05:00:00",
       "first_seen_at": "2026-11-07T14:49:24.477658",
       "sub_category_label": null
-    },
-    {
-      "id": 27395,
-      "title": "QDiff：面向量子软件栈的差分测试方法",
-      "original_title": "QDiff: Differential Testing of Quantum Software Stacks",
-      "summary": "论文提出 QDiff，通过语义等价的源到源变换生成量子程序变体，结合静态特征过滤与分布对比等价性检查，对量子编译器和模拟器进行差分测试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 77.0,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做 fuzzing 和编译器测试的人值得一看：差分测试思路可迁移到 AI 编译器、TVM/MLIR 等概率性输出的软件栈，静态过滤和等价性检查机制有直接参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.08220",
-      "reader_url": "https://arxiv.org/pdf/2611.08220",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T05:00:00",
-      "first_seen_at": "2026-11-07T14:49:24.477658",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
