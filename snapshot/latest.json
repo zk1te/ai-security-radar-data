@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T11:13:32+08:00",
+  "updated_at": "2026-11-08T15:14:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -85,26 +85,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 27156,
-      "title": "利用物理层信息与自编码器早期检测铱星卫星IoT链路干扰",
-      "original_title": "Cloudy Skies: Early Detection of Jamming Against Iridium LEO Satellite-IoT Links",
-      "summary": "本文研究了如何从物理层信息中检测针对铱星LEO卫星-IoT链路的射频干扰，公开了真实干扰数据集，并证明基于自编码器的异常检测方法优于传统信号质量估计器。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_detection",
-      "score_total": 86.4,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "虽然偏向通信安全，但提供了一个用自编码器进行物理层异常检测的开源数据集实战案例。对于做威胁检测或物联网安全的团队有方法参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.08118",
-      "reader_url": "https://arxiv.org/pdf/2611.08118",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T05:00:00",
-      "first_seen_at": "2026-11-07T20:49:50.952884",
-      "sub_category_label": "威胁检测"
-    },
-    {
       "id": 27159,
       "title": "双层级分诊中快速模型对未知 Web 攻击家族的泛化评测",
       "original_title": "Escalate or Close: How Fast-Tier Models Handle Held-Out Web Attack Families in Two-Tier Triage",
@@ -123,6 +103,26 @@
       "published_at": "2026-11-06T05:00:00",
       "first_seen_at": "2026-11-07T20:49:50.952884",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 27156,
+      "title": "利用物理层信息与自编码器早期检测铱星卫星IoT链路干扰",
+      "original_title": "Cloudy Skies: Early Detection of Jamming Against Iridium LEO Satellite-IoT Links",
+      "summary": "本文研究了如何从物理层信息中检测针对铱星LEO卫星-IoT链路的射频干扰，公开了真实干扰数据集，并证明基于自编码器的异常检测方法优于传统信号质量估计器。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 86.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "虽然偏向通信安全，但提供了一个用自编码器进行物理层异常检测的开源数据集实战案例。对于做威胁检测或物联网安全的团队有方法参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.08118",
+      "reader_url": "https://arxiv.org/pdf/2611.08118",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-06T05:00:00",
+      "first_seen_at": "2026-11-07T20:49:50.952884",
+      "sub_category_label": "威胁检测"
     },
     {
       "id": 26620,
