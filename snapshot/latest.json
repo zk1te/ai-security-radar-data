@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-11-08T17:14:59+08:00",
+  "updated_at": "2026-11-08T20:45:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 28043,
-      "title": "Cloudflare 安全审计 Agent Skill 登顶 GitHub Trending",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2085 stars today",
-      "summary": "Cloudflare 开源 security-audit-skill，为编码 Agent 提供多阶段安全审计能力，支持独立验证审计结果并输出机器可读报告，日增超 2000 星。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 90.7,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "给做 DevSecOps 和代码审计的团队看。它能让 coding agent 产出可验证的安全审计结果，减少误报。建议直接拉取评估，看能否集成到现有安全工具链中替代部分人工审计。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-08&since=daily",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-08&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-08T00:22:50.615868",
-      "first_seen_at": "2026-11-08T00:26:53.925198",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 26378,
       "title": "VeriSpoof：基于音频大模型的语音深伪检测与取证系统",
@@ -203,6 +183,31 @@
       "published_at": "2026-11-05T05:00:00",
       "first_seen_at": "2026-11-08T02:50:04.448080",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 27783,
+      "title": "微软披露：Storm-3358 滥用 ARTEX 智能体框架攻击金融机构",
+      "original_title": "Threat actors’ abuse of ARTEX continues to expand, with Microsoft Threat Intelligence observing financially motivated Storm-3358 using the agentic AI offensive framework alongside ",
+      "summary": "微软威胁情报观察到财务驱动的黑客组织 Storm-3358 使用 ARTEX 智能体进攻框架结合传统自动化工具攻击金融组织，利用该框架扫描暴露系统并利用 SSRF 等漏洞植入 RAT。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 82.37,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透测试 Agent 已从实验室走向真实黑灰产应用。防御团队需重点关注如何检测此类高度自动化的攻击链，文中提供的 IOC 和狩猎建议值得立刻参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MsftSecIntel/status/2118898318457585943",
+      "reader_url": "https://x.com/MsftSecIntel/status/2118898318457585943",
+      "image_url": null,
+      "author": {
+        "username": "MsftSecIntel",
+        "name": "Microsoft Threat Intelligence",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-07T02:48:21",
+      "first_seen_at": "2026-11-08T03:52:09.644543",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
