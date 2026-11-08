@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T05:48:51+08:00",
+  "updated_at": "2026-11-09T06:19:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -27,6 +27,31 @@
       },
       "published_at": "2026-11-08T18:47:00",
       "first_seen_at": "2026-11-08T21:43:45.004207",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 27975,
+      "title": "自主渗透框架 ARTEX 在野滥用分析",
+      "original_title": "AI-powered autonomous pentesting framework ARTEX, developed in China 🇨🇳, was used in financially motivated breaches hitting seven South Korean 🇰🇷 financial institutions, exposing d",
+      "summary": "中国开发者研发的开源自主渗透框架 ARTEX 被用于攻击韩国 7 家金融机构，攻击者利用本地脚本劫持 Claude Code 前端并实际调用 DeepSeek/GLM 模型，执行了代码审计、WAF 绕过等 19 项渗透技能，泄露约 6.6 万人数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.08,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 安全 Agent 在黑产实战落地的罕见案例，展示了攻击者如何用 shim 脚本劫持 Claude Code 并白嫖国内大模型执行自动化渗透。红蓝双方都该看：红队可参考其技能编排，蓝队需排查 api.deepseek 异常代理和 LDAP 回调。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
+      "reader_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
+      "image_url": "https://pbs.twimg.com/media/HWjDYGRa0AAM-Qk.jpg",
+      "author": {
+        "username": "DFIR_Radar",
+        "name": "DFIR Radar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-07T20:02:00",
+      "first_seen_at": "2026-11-08T21:54:56.594300",
       "sub_category_label": "安全Agent"
     },
     {
@@ -78,31 +103,6 @@
       "published_at": "2026-11-07T16:11:40",
       "first_seen_at": "2026-11-08T17:54:20.184663",
       "sub_category_label": null
-    },
-    {
-      "id": 27838,
-      "title": "Storm-3358 使用 ARTEX AI 渗透测试框架攻击金融机构",
-      "original_title": "🚨🚨🚨FINANCIAL INSTITUTIONS TARGETED - Storm-3358 is using ARTEX, an agentic AI penetration-testing framework, to run attacks on financial institutions at machine speed.🚨🚨🚨  📌 What h",
-      "summary": "威胁组织 Storm-3358 正利用名为 ARTEX 的智能体 AI 渗透测试框架，以机器速度对东南亚金融机构发起自动化攻击，大幅压缩了攻击生命周期。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻击者已将 AI 安全 Agent 武器化并投入实战，防守方需立即将相关 IP 加入黑名单并监控高频自动化工具执行特征。这是 AI 安全工具双刃剑效应的真实在野案例，SOC 团队应高度警惕这种以机器速度发起的渗透。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/BadgerSignalHQ/status/2118986240414392606",
-      "reader_url": "https://x.com/BadgerSignalHQ/status/2118986240414392606",
-      "image_url": "https://pbs.twimg.com/media/HWgmn1sbMAEFmeY.jpg",
-      "author": {
-        "username": "BadgerSignalHQ",
-        "name": "Badger Signal",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-07T08:37:43",
-      "first_seen_at": "2026-11-08T09:53:35.824971",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 27669,
