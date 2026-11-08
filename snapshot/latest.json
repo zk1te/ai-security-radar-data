@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-08T07:42:22+08:00",
+  "updated_at": "2026-11-08T08:42:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 28043,
+      "title": "Cloudflare 安全审计 Agent Skill 登顶 GitHub Trending",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 2085 stars today",
+      "summary": "Cloudflare 开源 security-audit-skill，为编码 Agent 提供多阶段安全审计能力，支持独立验证审计结果并输出机器可读报告，日增超 2000 星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 90.7,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "给做 DevSecOps 和代码审计的团队看。它能让 coding agent 产出可验证的安全审计结果，减少误报。建议直接拉取评估，看能否集成到现有安全工具链中替代部分人工审计。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-08&since=daily",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-08&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-08T00:22:50.615868",
+      "first_seen_at": "2026-11-08T00:26:53.925198",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 27149,
       "title": "MEvince 框架：利用知识约束 LLM 从恶意软件报告中精准提取 ATT&CK 技术",
@@ -65,26 +85,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 27156,
-      "title": "利用物理层信息与自编码器早期检测铱星卫星IoT链路干扰",
-      "original_title": "Cloudy Skies: Early Detection of Jamming Against Iridium LEO Satellite-IoT Links",
-      "summary": "本文研究了如何从物理层信息中检测针对铱星LEO卫星-IoT链路的射频干扰，公开了真实干扰数据集，并证明基于自编码器的异常检测方法优于传统信号质量估计器。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_detection",
-      "score_total": 86.4,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "虽然偏向通信安全，但提供了一个用自编码器进行物理层异常检测的开源数据集实战案例。对于做威胁检测或物联网安全的团队有方法参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.08118",
-      "reader_url": "https://arxiv.org/pdf/2611.08118",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T05:00:00",
-      "first_seen_at": "2026-11-07T20:49:50.952884",
-      "sub_category_label": "威胁检测"
-    },
-    {
       "id": 27159,
       "title": "双层级分诊中快速模型对未知 Web 攻击家族的泛化评测",
       "original_title": "Escalate or Close: How Fast-Tier Models Handle Held-Out Web Attack Families in Two-Tier Triage",
@@ -103,6 +103,26 @@
       "published_at": "2026-11-06T05:00:00",
       "first_seen_at": "2026-11-07T20:49:50.952884",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 27156,
+      "title": "利用物理层信息与自编码器早期检测铱星卫星IoT链路干扰",
+      "original_title": "Cloudy Skies: Early Detection of Jamming Against Iridium LEO Satellite-IoT Links",
+      "summary": "本文研究了如何从物理层信息中检测针对铱星LEO卫星-IoT链路的射频干扰，公开了真实干扰数据集，并证明基于自编码器的异常检测方法优于传统信号质量估计器。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 86.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "虽然偏向通信安全，但提供了一个用自编码器进行物理层异常检测的开源数据集实战案例。对于做威胁检测或物联网安全的团队有方法参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.08118",
+      "reader_url": "https://arxiv.org/pdf/2611.08118",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-06T05:00:00",
+      "first_seen_at": "2026-11-07T20:49:50.952884",
+      "sub_category_label": "威胁检测"
     },
     {
       "id": 27369,
@@ -188,26 +208,6 @@
       "published_at": "2026-11-07T14:14:57",
       "first_seen_at": "2026-11-07T17:49:20.495321",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 27151,
-      "title": "针对 LLM 攻击 Agent 的源计划蜜罐防御架构",
-      "original_title": "A Gingerbread House for LLM Agents: Source-Planned Honeypots That Lure Autonomous Attackers into an Isolated Shadow",
-      "summary": "论文提出基于源码静态规划的蜜罐防御方案，将确认的 LLM 攻击 Agent 引流至隔离的影子环境。在 CVE-Bench 上，该方案使 ARTEX 框架对真实目标的攻击成功率降至零。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 81.35,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "面向红蓝对抗从业者，展示了如何用源码生成蜜罐反制自主漏洞挖掘 Agent。建议关注其在 CVE-Bench 上的防御效果，特别是引流而非阻断的反制思路。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.07611",
-      "reader_url": "https://arxiv.org/pdf/2611.07611",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-06T05:00:00",
-      "first_seen_at": "2026-11-07T20:49:50.952884",
-      "sub_category_label": null
     }
   ]
 }
