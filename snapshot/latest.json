@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T00:16:33+08:00",
+  "updated_at": "2026-11-09T02:18:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -130,29 +130,29 @@
       "sub_category_label": null
     },
     {
-      "id": 27838,
-      "title": "Storm-3358 使用 ARTEX AI 渗透测试框架攻击金融机构",
-      "original_title": "🚨🚨🚨FINANCIAL INSTITUTIONS TARGETED - Storm-3358 is using ARTEX, an agentic AI penetration-testing framework, to run attacks on financial institutions at machine speed.🚨🚨🚨  📌 What h",
-      "summary": "威胁组织 Storm-3358 正利用名为 ARTEX 的智能体 AI 渗透测试框架，以机器速度对东南亚金融机构发起自动化攻击，大幅压缩了攻击生命周期。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.75,
+      "id": 27943,
+      "title": "传 OpenAI 推 GPT-6 Cyber 专攻安全，ExploitGym 跑分引关注",
+      "original_title": "I genuinely don't think people in India understand how quickly AI research is progressing in the US right now, or how enormous the gap is becoming...    All this happened in last f",
+      "summary": "推文盘点近期美国 AI 进展，提及 OpenAI 的 GPT-6 Cyber 模型在 ExploitGym 得分 48.5%，专为安全后训练并支持自主漏洞研究。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 77.01,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "攻击者已将 AI 安全 Agent 武器化并投入实战，防守方需立即将相关 IP 加入黑名单并监控高频自动化工具执行特征。这是 AI 安全工具双刃剑效应的真实在野案例，SOC 团队应高度警惕这种以机器速度发起的渗透。",
+      "recommendation_reason": "情报直接点名 OpenAI 安全专用模型 GPT-6 Cyber 及其 ExploitGym 跑分。从业者需密切关注大厂在自主漏洞挖掘和安全评测榜单的最新动作，提前评估防守压力。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/BadgerSignalHQ/status/2118986240414392606",
-      "reader_url": "https://x.com/BadgerSignalHQ/status/2118986240414392606",
-      "image_url": "https://pbs.twimg.com/media/HWgmn1sbMAEFmeY.jpg",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2119100480114901383",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2119100480114901383",
+      "image_url": null,
       "author": {
-        "username": "BadgerSignalHQ",
-        "name": "Badger Signal",
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
         "avatar_url": null,
-        "followers_count": 0
+        "followers_count": 17983
       },
-      "published_at": "2026-11-07T08:37:43",
-      "first_seen_at": "2026-11-08T09:53:35.824971",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-11-07T16:11:40",
+      "first_seen_at": "2026-11-08T17:54:20.184663",
+      "sub_category_label": null
     }
   ]
 }
