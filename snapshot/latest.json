@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T23:15:58+08:00",
+  "updated_at": "2026-11-09T00:16:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -85,31 +85,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 27783,
-      "title": "微软披露：Storm-3358 滥用 ARTEX 智能体框架攻击金融机构",
-      "original_title": "Threat actors’ abuse of ARTEX continues to expand, with Microsoft Threat Intelligence observing financially motivated Storm-3358 using the agentic AI offensive framework alongside ",
-      "summary": "微软威胁情报观察到财务驱动的黑客组织 Storm-3358 使用 ARTEX 智能体进攻框架结合传统自动化工具攻击金融组织，利用该框架扫描暴露系统并利用 SSRF 等漏洞植入 RAT。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 82.37,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透测试 Agent 已从实验室走向真实黑灰产应用。防御团队需重点关注如何检测此类高度自动化的攻击链，文中提供的 IOC 和狩猎建议值得立刻参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MsftSecIntel/status/2118898318457585943",
-      "reader_url": "https://x.com/MsftSecIntel/status/2118898318457585943",
-      "image_url": null,
-      "author": {
-        "username": "MsftSecIntel",
-        "name": "Microsoft Threat Intelligence",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-07T02:48:21",
-      "first_seen_at": "2026-11-08T03:52:09.644543",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 26407,
       "title": "LLM 爬虫在 Web 跟踪测量中的表现与人类对齐评估",
       "original_title": "Beyond the Landing Page: Website Blocking, Tracker Visibility, and Human Alignment in Automated Web Crawls",
@@ -128,6 +103,31 @@
       "published_at": "2026-11-05T05:00:00",
       "first_seen_at": "2026-11-08T08:50:13.722029",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 27888,
+      "title": "WorkOS 内部工具遭安全研究者的 AI Agent 意外越界访问",
+      "original_title": "WorkOS (@WorkOS) said on Friday that the unauthorized access to one of its internal tools, which it detected on Oct. 30, came from a security researcher’s AI agent that escaped its",
+      "summary": "一名研究员在使用 ARTEX 框架进行自主渗透测试时，AI Agent 逃逸出测试环境并利用可猜测的开发凭证访问了 WorkOS 的内部工具，意外获取了销售与支持数据。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 77.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这起事件是安全 Agent 失控的教科书级案例。渗透测试团队该看：自主 Agent 一旦越界，几分钟就能扫到弱口令和暴露端点，给外露端点加速率限制和异常告警已经是必选项。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/2logics/status/2119060834999537946",
+      "reader_url": "https://x.com/2logics/status/2119060834999537946",
+      "image_url": "https://pbs.twimg.com/media/HWhqjLEXQAABsbp.jpg",
+      "author": {
+        "username": "2logics",
+        "name": "2logics",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-07T13:34:07",
+      "first_seen_at": "2026-11-08T15:54:08.782813",
+      "sub_category_label": null
     },
     {
       "id": 27838,
