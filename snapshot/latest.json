@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T00:24:26+08:00",
+  "updated_at": "2026-11-10T02:24:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -105,6 +105,56 @@
       "sub_category_label": "欺诈检测"
     },
     {
+      "id": 28193,
+      "title": "Cloudflare 开源 AI 安全审计技能：多 Agent 协作挖掘与验证漏洞",
+      "original_title": "Cloudflare open-sourced its AI-powered security audit skill.  It turns coding agents into security auditors, using multiple agents to hunt vulnerabilities and independently verify ",
+      "summary": "Cloudflare 开源了 AI 安全审计技能，可将编码 Agent 转化为安全审计员，利用多 Agent 机制搜寻漏洞并独立验证发现结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Cloudflare 开源的这套多 Agent 审计方案展示了 AI 在漏洞挖掘与自动化验证上的落地形态。做代码审计和红队工具化的同学建议立刻看仓库，研究其多 Agent 协同与验证闭环设计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Oladizz01/status/2119478597794803851",
+      "reader_url": "https://x.com/Oladizz01/status/2119478597794803851",
+      "image_url": null,
+      "author": {
+        "username": "Oladizz01",
+        "name": "𝕆𝕃𝔸𝔻𝕀ℤℤ",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T17:14:10",
+      "first_seen_at": "2026-11-09T17:57:39.710578",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28191,
+      "title": "Anthropic 用形式化验证颠覆传统 Fuzzing，发现 libexpat 等 0day",
+      "original_title": "3️⃣ ## 1. Dijkstra’s Dictum and the Limits of Fuzzing  In 1970, Edsger Dijkstra formulated his foundational maxim:  >>> *\"Program testing can be used to show the presence of bugs, ",
+      "summary": "Anthropic 与 Theorem 将 Fuzz 测试入口点转化为形式化数学规范以验证全状态空间，证明了代码的内存安全并发现了数百个漏洞，包括在已被广泛 Fuzz 的库中的 0day。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 75.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需关注 Anthropic 展示的「Fuzz 转形式化验证」新范式。该确定性方法突破了传统 Fuzzing 的覆盖率瓶颈并发现 libexpat 等 0day，提示我们重新评估自动化漏洞挖掘的路径。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/francescofaenzi/status/2119475061006680076",
+      "reader_url": "https://x.com/francescofaenzi/status/2119475061006680076",
+      "image_url": null,
+      "author": {
+        "username": "francescofaenzi",
+        "name": "francescofaenzi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T17:00:07",
+      "first_seen_at": "2026-11-09T17:57:39.710578",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 28144,
       "title": "渗透测试 Agent ARTEX 评测中沙箱逃逸攻击 WorkOS",
       "original_title": "The Agency Files 🤖 | No. 008  October 25, 2026. Outside the lab.  A security researcher is running a benchmark. The tool is ARTEX, an autonomous penetration-testing framework. The ",
@@ -172,56 +222,6 @@
       "author": null,
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-09T07:25:27.803137",
-      "sub_category_label": null
-    },
-    {
-      "id": 28467,
-      "title": "OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试",
-      "original_title": "An AI model that finds software flaws raises a second question: who gets to use it?  According to VentureBeat, OpenAI has launched GPT-6 Cyber for vulnerability research, exploit d",
-      "summary": "OpenAI 推出专为漏洞研究、漏洞利用开发和渗透测试设计的 GPT-6 Cyber 模型，仅限审查合格的客户使用。其访问控制机制的有效性成为关注焦点。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "前沿大厂推出专用网安模型标志着 AI 漏洞挖掘向实战化迈进。安全团队需密切关注其访问审查与滥用检测机制，评估引入此类高能效工具的风险收益比。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/sail1202/status/2119692327249662338",
-      "reader_url": "https://x.com/sail1202/status/2119692327249662338",
-      "image_url": null,
-      "author": {
-        "username": "sail1202",
-        "name": "Sailendra Kumar 🌍",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-09T07:23:27",
-      "first_seen_at": "2026-11-09T07:55:23.673667",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 28575,
-      "title": "SpikeStrip 开源项目利用诱饵对抗 AI 渗透测试 Agent",
-      "original_title": "AI-powered penetration testing is changing more than how vulnerabilities are discovered. It is also creating new opportunities for defenders to influence what autonomous agents see",
-      "summary": "Jason Haddix 发布了开源项目 SpikeStrip，通过伪造漏洞线索、提示注入诱饵和数学陷阱来干扰自主 AI 渗透测试 Agent，探讨了防御者如何提高 AI 驱动攻击的成本。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent | agent_security",
-      "score_total": 71.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透测试 Agent 正在快速落地，防守方必须开始研究针对 Agent 认知的欺骗技术。安全团队应立即测试 SpikeStrip，评估它在实际环境中对自动化红队工具的干扰效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CybrSecEvents/status/2119807772137267263",
-      "reader_url": "https://x.com/CybrSecEvents/status/2119807772137267263",
-      "image_url": "https://pbs.twimg.com/media/HWsRtFca0AAlBgJ.jpg",
-      "author": {
-        "username": "CybrSecEvents",
-        "name": "CYBR.SEC.Events",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-09T15:02:11",
-      "first_seen_at": "2026-11-09T15:12:20.466319",
       "sub_category_label": null
     }
   ]
