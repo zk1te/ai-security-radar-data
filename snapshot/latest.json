@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T04:25:31+08:00",
+  "updated_at": "2026-11-10T06:26:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -175,6 +175,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 28223,
+      "title": "开源安全Agent Michael升级：模拟审计员做代码审查",
+      "original_title": "🛡️ Michael just got sharper.  Our open-source security agent for Claude Code now reviews like a real auditor, not a checklist:  🎯 threat model first 🔍 every finding quotes the exac",
+      "summary": "面向 Claude Code 的开源安全 Agent Michael 迎来更新，强调优先做威胁建模、追踪攻击者可达性，并集成 osv-scanner 进行依赖 CVE 检测。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做自动化代码审计的安全工程师该看。它不是简单的静态扫描，而是模拟人工审计思路，引入可达性分析和未决状态追踪，这套 Agent 逻辑设计非常值得借鉴或直接拿来测试。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/falcothebard/status/2119534247371583894",
+      "reader_url": "https://x.com/falcothebard/status/2119534247371583894",
+      "image_url": null,
+      "author": {
+        "username": "falcothebard",
+        "name": "Falco Schäfer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T20:55:18",
+      "first_seen_at": "2026-11-09T21:58:09.785239",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 28152,
       "title": "Cloudflare 开源安全审计 skill：用验证 Agent 证伪漏洞发现",
       "original_title": "a security agent should try to prove its own findings wrong.  cloudflare's open security-audit skill sends agents hunting for bugs, then gives a fresh verifier the job of challengi",
@@ -198,31 +223,6 @@
       "published_at": "2026-11-08T13:56:09",
       "first_seen_at": "2026-11-09T15:57:26.200714",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 28651,
-      "title": "ARTEX：LLM 驱动的自动化渗透框架在野攻击 AWS",
-      "original_title": "ARTEX, an AI-native autonomous penetration framework tied to Chinese 🇨🇳 Storm-0940, was observed attacking live AWS environments in October 2026, hunting for financial data, secret",
-      "summary": "Storm-0940 组织使用 AI 原生渗透平台 ARTEX 攻击 AWS 环境，通过泄露的 IAM 密钥和公开 Cognito 池窃取数据。报告披露了其多模型轮换机制与具体检测特征。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 68.94,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 渗透 Agent 黑产化的铁证。云安全和威胁狩猎团队需立即排查 CloudTrail 中 limit=1000 的 FilterLogEvents 异常、特定测试性 S3 请求及相关 IP 和 UA。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
-      "reader_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
-      "image_url": "https://pbs.twimg.com/media/HWs7FuRbkAAcNRp.png",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-09T18:02:00",
-      "first_seen_at": "2026-11-09T18:37:21.026784",
-      "sub_category_label": null
     }
   ]
 }
