@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T12:20:16+08:00",
+  "updated_at": "2026-11-09T14:20:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -103,31 +103,6 @@
       "published_at": "2026-11-06T04:29:50",
       "first_seen_at": "2026-11-09T03:55:37.954344",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 27943,
-      "title": "传 OpenAI 推 GPT-6 Cyber 专攻安全，ExploitGym 跑分引关注",
-      "original_title": "I genuinely don't think people in India understand how quickly AI research is progressing in the US right now, or how enormous the gap is becoming...    All this happened in last f",
-      "summary": "推文盘点近期美国 AI 进展，提及 OpenAI 的 GPT-6 Cyber 模型在 ExploitGym 得分 48.5%，专为安全后训练并支持自主漏洞研究。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 77.01,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "情报直接点名 OpenAI 安全专用模型 GPT-6 Cyber 及其 ExploitGym 跑分。从业者需密切关注大厂在自主漏洞挖掘和安全评测榜单的最新动作，提前评估防守压力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xAsm0d3us/status/2119100480114901383",
-      "reader_url": "https://x.com/0xAsm0d3us/status/2119100480114901383",
-      "image_url": null,
-      "author": {
-        "username": "0xAsm0d3us",
-        "name": "devansh ⚡️",
-        "avatar_url": null,
-        "followers_count": 17983
-      },
-      "published_at": "2026-11-07T16:11:40",
-      "first_seen_at": "2026-11-08T17:54:20.184663",
-      "sub_category_label": null
     },
     {
       "id": 27403,
@@ -251,6 +226,31 @@
       "published_at": "2026-11-03T21:16:48",
       "first_seen_at": "2026-11-09T00:20:17.445262",
       "sub_category_label": "欺诈检测"
+    },
+    {
+      "id": 27468,
+      "title": "ARTEX 渗透测试框架在野滥用：被关联多起真实攻击行动",
+      "original_title": "ARTEX started as an open-source AI pentest framework. You give it a goal in plain English and the agents mostly handle the rest.  Now it’s showing up in real campaigns: banks, mini",
+      "summary": "开源 AI 渗透测试框架 ARTEX 被发现应用于针对银行、政府等数百个组织的真实攻击行动中，CrowdStrike 等机构已确认其被网络犯罪分子滥用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "原本是红队利器的 ARTEX 已沦为攻击者的大规模自动化武器。安全团队需高度警惕此类开源 Agent 滥用趋势，排查内部暴露面并更新威胁狩猎规则。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/JurajCekan/status/2118667535197303183",
+      "reader_url": "https://x.com/JurajCekan/status/2118667535197303183",
+      "image_url": null,
+      "author": {
+        "username": "JurajCekan",
+        "name": "Juraj Cekan",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T11:31:17",
+      "first_seen_at": "2026-11-08T23:55:09.344865",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
