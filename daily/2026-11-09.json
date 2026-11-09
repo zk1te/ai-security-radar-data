@@ -1,0 +1,1140 @@
+{
+  "date": "2026-11-09",
+  "candidate_count": 15,
+  "selected_count": 3,
+  "cover_title": "SCDBench：针对大模型智能合约反编译的语义评测基准",
+  "lead_takeaway": "今天的主线是给大模型在复杂安全任务里的“假把式”照镜子。几个高分基准都直指同一个痛点：模型在反编译和云故障排查中经常给出看似合理的结论，但深究语义一致性和证据闭环却根本不及格，盲目信任AI的结论会吃大亏。",
+  "digest_points": [
+    "01 该基准不只看生成代码能否编译，而是用差异重放直接验证语义。做Web3安全和AI代码审计的人必须关注，能有效防止被大模型生成的「看似合理实则漏洞百出」的假代码误导。",
+    "02 做代码审计和自动化安全的同学该看。它展示了安全 Agent 从发现潜在漏洞到自动写 PoC 验证、再到对接现有工具链的完整闭环，非常适合作为设计内部安全 Agent 的参考标杆。",
+    "03 研究指出 LLM 即使能给出正确根因，也常缺乏完整证据闭环。安全团队在设计自动化运维诊断 Agent 时，需关注过程可信度而非仅看最终结果，该 Benchmark 设计思路值得参考。"
+  ],
+  "judgement": [
+    "01 该基准不只看生成代码能否编译，而是用差异重放直接验证语义。做Web3安全和AI代码审计的人必须关注，能有效防止被大模型生成的「看似合理实则漏洞百出」的假代码误导。",
+    "02 做代码审计和自动化安全的同学该看。它展示了安全 Agent 从发现潜在漏洞到自动写 PoC 验证、再到对接现有工具链的完整闭环，非常适合作为设计内部安全 Agent 的参考标杆。",
+    "03 研究指出 LLM 即使能给出正确根因，也常缺乏完整证据闭环。安全团队在设计自动化运维诊断 Agent 时，需关注过程可信度而非仅看最终结果，该 Benchmark 设计思路值得参考。"
+  ],
+  "top_items": [
+    {
+      "id": 28459,
+      "title": "SCDBench：针对大模型智能合约反编译的语义评测基准",
+      "original_title": "SCDBench: A Benchmark for LLM-Based Smart Contract Decompilers",
+      "summary": "SCDBench 提出包含600个真实合约的数据集，通过格式、编译、ABI恢复及差异重放四阶段评估LLM反编译能力，发现前沿模型语义一致性极差，最佳仅完成42/600。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 93.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "该基准不只看生成代码能否编译，而是用差异重放直接验证语义。做Web3安全和AI代码审计的人必须关注，能有效防止被大模型生成的「看似合理实则漏洞百出」的假代码误导。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.29059",
+      "reader_url": "https://arxiv.org/pdf/2605.29059",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:26:23.954508",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 28227,
+      "title": "Hermes Agent 推出官方安全插件，实现代码审计与 PoC 自动验证",
+      "original_title": "Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s.  Hermes first maps what an attacker could reach and which inputs it tr",
+      "summary": "Hermes Agent 发布安全插件，通过映射攻击面、分配并行子代理审查代码并验证漏洞可利用性，还能自动生成测试复现并导出 SARIF 报告。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.66,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做代码审计和自动化安全的同学该看。它展示了安全 Agent 从发现潜在漏洞到自动写 PoC 验证、再到对接现有工具链的完整闭环，非常适合作为设计内部安全 Agent 的参考标杆。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/NousResearch/status/2119501958981857543",
+      "reader_url": "https://x.com/NousResearch/status/2119501958981857543",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119501177792376832/img/kd1t8r7sAPh7U_Wd.jpg",
+      "author": {
+        "username": "NousResearch",
+        "name": "Nous Research",
+        "avatar_url": null,
+        "followers_count": 272780
+      },
+      "published_at": "2026-11-08T18:47:00",
+      "first_seen_at": "2026-11-08T21:43:45.004207",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28457,
+      "title": "Cloud-OpsBench：面向云原生系统智能体根因分析的评测基准",
+      "original_title": "Cloud-OpsBench: A Reproducible Benchmark for Agentic Root Cause Analysis in Cloud Systems",
+      "summary": "本文提出 Cloud-OpsBench，一个针对云系统智能体根因分析（RCA）的交互式评测基准，包含 754 个故障案例。对 11 个大模型的评估表明，即使最终诊断答案准确，模型往往也未能完成完整的证据闭环收集。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 90.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "研究指出 LLM 即使能给出正确根因，也常缺乏完整证据闭环。安全团队在设计自动化运维诊断 Agent 时，需关注过程可信度而非仅看最终结果，该 Benchmark 设计思路值得参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.00468",
+      "reader_url": "https://arxiv.org/pdf/2603.00468",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:25:46.157197",
+      "sub_category_label": null
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 28462,
+      "title": "TATG：基于跟踪感知测试目标的 LLM 单元测试生成框架",
+      "original_title": "TATG: Tracking-Aware Testing Objective for LLM-based Test Generation",
+      "summary": "提出一种基于 LLM 的单元测试生成框架 TATG，通过结构化目标表示和变异引导硬化，在复杂 Java 方法的行覆盖和变异分数上显著超越现有基线及 Codex、Claude Code 等通用编程助手。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 87.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对做 LLM Fuzzing 和自动化漏洞挖掘的团队有直接参考价值。其通过显式跟踪测试目标来减少冗余生成的思路，可用于优化现有安全 Agent 的迭代反馈机制，建议关注其两阶段工作流设计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.03194",
+      "reader_url": "https://arxiv.org/pdf/2607.03194",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:26:43.920237",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 27975,
+      "title": "自主渗透框架 ARTEX 在野滥用分析",
+      "original_title": "AI-powered autonomous pentesting framework ARTEX, developed in China 🇨🇳, was used in financially motivated breaches hitting seven South Korean 🇰🇷 financial institutions, exposing d",
+      "summary": "中国开发者研发的开源自主渗透框架 ARTEX 被用于攻击韩国 7 家金融机构，攻击者利用本地脚本劫持 Claude Code 前端并实际调用 DeepSeek/GLM 模型，执行了代码审计、WAF 绕过等 19 项渗透技能，泄露约 6.6 万人数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.08,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 安全 Agent 在黑产实战落地的罕见案例，展示了攻击者如何用 shim 脚本劫持 Claude Code 并白嫖国内大模型执行自动化渗透。红蓝双方都该看：红队可参考其技能编排，蓝队需排查 api.deepseek 异常代理和 LDAP 回调。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
+      "reader_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
+      "image_url": "https://pbs.twimg.com/media/HWjDYGRa0AAM-Qk.jpg",
+      "author": {
+        "username": "DFIR_Radar",
+        "name": "DFIR Radar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-07T20:02:00",
+      "first_seen_at": "2026-11-08T21:54:56.594300",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28463,
+      "title": "静态分析检测 LLM 代码库幻觉的实证分析",
+      "original_title": "An Empirical Analysis of Static Analysis Methods for Detection and Mitigation of Code Library Hallucinations",
+      "summary": "本文量化了静态分析工具在检测 LLM 生成代码时的库幻觉问题上的能力与局限，发现其能检测 14-85% 的库幻觉，但存在 48.5%-77% 的理论上限。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "model_security",
+      "score_total": 78.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "LLM 胡编乱造不存在的库或 API 是引发 AI 供应链和运行时故障的常见隐患。该论文给出了静态分析检测能力的明确天花板，为安全团队构建 AI 代码审计流水线提供了预期管理的实证依据。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2604.07755",
+      "reader_url": "https://arxiv.org/pdf/2604.07755",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:27:12.138828",
+      "sub_category_label": null
+    },
+    {
+      "id": 28417,
+      "title": "LLM增强自进化强化学习用于多步电商支付欺诈检测",
+      "original_title": "LLM-Enhanced Self-Evolving Reinforcement Learning for Multi-Step E-Commerce Payment Fraud Risk Detection",
+      "summary": "本文提出将大语言模型与强化学习结合，利用LLM的推理与编码能力迭代优化多步电商支付欺诈检测中的奖励函数，提升检测准确率并展现零样本能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 76.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "用LLM自动优化RL奖励函数是不错的落地思路，风控和安全检测团队可参考其框架设计，探索在自身威胁检测场景中应用类似的自进化机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2509.18719",
+      "reader_url": "https://arxiv.org/pdf/2509.18719",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:12:22.325754",
+      "sub_category_label": "欺诈检测"
+    },
+    {
+      "id": 27403,
+      "title": "开源本地安全Agent Frame：支持五语言审计与PoC验证",
+      "original_title": "@saranormous For teams that want this without a hosted scanner: Frame is an open-source security agent that runs locally. It finds issues in 5 languages, proves what it can with a ",
+      "summary": "Frame 是一款开源本地安全Agent，支持5种语言的漏洞挖掘，并能通过求解器生成可用 PoC，在修复后自动重扫确认。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "代码安全和红队人员可直接试用这款本地开源Agent，它自带PoC验证和修复重扫闭环，能减少误报噪音。想搞AI代码审计落地的团队，值得拉下来跑一轮基准测试。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/latent_node/status/2118615576130260992",
+      "reader_url": "https://x.com/latent_node/status/2118615576130260992",
+      "image_url": null,
+      "author": {
+        "username": "latent_node",
+        "name": "Latent Node",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T08:04:49",
+      "first_seen_at": "2026-11-09T01:55:16.249833",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28280,
+      "title": "WorkOS 遭入侵，攻击者疑使用 AI 自主渗透框架 ARTEX",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告安全事件，称攻击者利用 AI 辅助自主渗透测试框架 ARTEX 访问其内部 API 并窃取了 CRM 数据，这是 AI 渗透工具在野利用的罕见公开案例。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透工具不再只是概念演示，ARTEX 在 WorkOS 入侵事件中的表现证明了其实战破坏力。安全团队需警惕此类自动化武器化工具的威胁扩散，重新评估防御体系对 AI 驱动攻击的承受能力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-09T00:29:28.615598",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28254,
+      "title": "开源反欺诈平台 Kairos：结合 LLM 与 MCP 自动化风控决策",
+      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "summary": "Kairos 是一个开源反欺诈决策平台，通过引入 LLM 处理非结构化风险判断以减少对标签数据的依赖，并利用 MCP server 让 AI 编码助手自动定义决策工作流和训练模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 75.1,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "风控和反欺诈从业者该看：Kairos 展示了用 LLM 处理非结构化风控规则绕过标签数据瓶颈的新思路，以及如何通过 MCP 让 Claude Code 等编码助手自动编排风控工作流。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-09",
+      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-09",
+      "image_url": null,
+      "author": {
+        "username": "ayanb9440",
+        "name": "ayanb9440",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-03T21:16:48",
+      "first_seen_at": "2026-11-09T00:20:17.445262",
+      "sub_category_label": "欺诈检测"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 28459,
+        "title": "SCDBench：针对大模型智能合约反编译的语义评测基准",
+        "original_title": "SCDBench: A Benchmark for LLM-Based Smart Contract Decompilers",
+        "summary": "SCDBench 提出包含600个真实合约的数据集，通过格式、编译、ABI恢复及差异重放四阶段评估LLM反编译能力，发现前沿模型语义一致性极差，最佳仅完成42/600。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 93.15,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "该基准不只看生成代码能否编译，而是用差异重放直接验证语义。做Web3安全和AI代码审计的人必须关注，能有效防止被大模型生成的「看似合理实则漏洞百出」的假代码误导。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2605.29059",
+        "reader_url": "https://arxiv.org/pdf/2605.29059",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-09T05:00:00",
+        "first_seen_at": "2026-11-09T07:26:23.954508",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 28462,
+        "title": "TATG：基于跟踪感知测试目标的 LLM 单元测试生成框架",
+        "original_title": "TATG: Tracking-Aware Testing Objective for LLM-based Test Generation",
+        "summary": "提出一种基于 LLM 的单元测试生成框架 TATG，通过结构化目标表示和变异引导硬化，在复杂 Java 方法的行覆盖和变异分数上显著超越现有基线及 Codex、Claude Code 等通用编程助手。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 87.95,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "对做 LLM Fuzzing 和自动化漏洞挖掘的团队有直接参考价值。其通过显式跟踪测试目标来减少冗余生成的思路，可用于优化现有安全 Agent 的迭代反馈机制，建议关注其两阶段工作流设计。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2607.03194",
+        "reader_url": "https://arxiv.org/pdf/2607.03194",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-09T05:00:00",
+        "first_seen_at": "2026-11-09T07:26:43.920237",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 28227,
+        "title": "Hermes Agent 推出官方安全插件，实现代码审计与 PoC 自动验证",
+        "original_title": "Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s.  Hermes first maps what an attacker could reach and which inputs it tr",
+        "summary": "Hermes Agent 发布安全插件，通过映射攻击面、分配并行子代理审查代码并验证漏洞可利用性，还能自动生成测试复现并导出 SARIF 报告。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 84.66,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "做代码审计和自动化安全的同学该看。它展示了安全 Agent 从发现潜在漏洞到自动写 PoC 验证、再到对接现有工具链的完整闭环，非常适合作为设计内部安全 Agent 的参考标杆。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/NousResearch/status/2119501958981857543",
+        "reader_url": "https://x.com/NousResearch/status/2119501958981857543",
+        "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119501177792376832/img/kd1t8r7sAPh7U_Wd.jpg",
+        "author": {
+          "username": "NousResearch",
+          "name": "Nous Research",
+          "avatar_url": null,
+          "followers_count": 272780
+        },
+        "published_at": "2026-11-08T18:47:00",
+        "first_seen_at": "2026-11-08T21:43:45.004207",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 27477,
+        "title": "Chainguard 用 Anthropic Mythos 6 小时挖出十余个 RCE",
+        "original_title": "Over a dozen vulnerabilities found in 6 hours. Most were pre-auth RCE flaws.  Chainguard says its Athena system used Anthropic's Mythos to identify the flaws in a heavily tested op",
+        "summary": "Chainguard 的 Athena 系统利用 Anthropic 的 Mythos 模型，在一个经过多年审查的开源项目中发现了十余个预认证 RCE 漏洞，并在干净虚拟机中成功复现。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 82.82,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "AI 挖洞从演示走向实战产出的标志性事件，漏洞挖掘团队应重点关注 Mythos 的能力边界，评估将其接入代码审计与安全测试流程的可行性。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/TheHackersNews/status/2118672694652661902",
+        "reader_url": "https://x.com/TheHackersNews/status/2118672694652661902",
+        "image_url": "https://pbs.twimg.com/media/HWcJaS4bcAANWGW.jpg",
+        "author": {
+          "username": "TheHackersNews",
+          "name": "The Hacker News",
+          "avatar_url": null,
+          "followers_count": 2351119
+        },
+        "published_at": "2026-11-06T11:51:48",
+        "first_seen_at": "2026-11-08T23:55:09.344865",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 27975,
+        "title": "自主渗透框架 ARTEX 在野滥用分析",
+        "original_title": "AI-powered autonomous pentesting framework ARTEX, developed in China 🇨🇳, was used in financially motivated breaches hitting seven South Korean 🇰🇷 financial institutions, exposing d",
+        "summary": "中国开发者研发的开源自主渗透框架 ARTEX 被用于攻击韩国 7 家金融机构，攻击者利用本地脚本劫持 Claude Code 前端并实际调用 DeepSeek/GLM 模型，执行了代码审计、WAF 绕过等 19 项渗透技能，泄露约 6.6 万人数据。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 81.08,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这是 AI 安全 Agent 在黑产实战落地的罕见案例，展示了攻击者如何用 shim 脚本劫持 Claude Code 并白嫖国内大模型执行自动化渗透。红蓝双方都该看：红队可参考其技能编排，蓝队需排查 api.deepseek 异常代理和 LDAP 回调。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
+        "reader_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
+        "image_url": "https://pbs.twimg.com/media/HWjDYGRa0AAM-Qk.jpg",
+        "author": {
+          "username": "DFIR_Radar",
+          "name": "DFIR Radar",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-07T20:02:00",
+        "first_seen_at": "2026-11-08T21:54:56.594300",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 27131,
+        "title": "OpenAI安全Agent生成948个有效EXP并实现0.07%极低越权率",
+        "original_title": "OpenAI's new security agent wrote working exploits for 948 Linux vulnerabilities.  The more important number is 99.93%.  That's how often GPT-6 Cyber stayed inside the scope it was",
+        "summary": "OpenAI 的 GPT-6 Cyber 安全 Agent 在 ExploitGym 测试中成功生成 948 个 Linux 提权漏洞利用，并发现 81 个未知 Firefox 高危漏洞；同时在蜜罐测试中将越权率降至 0.07%，展示了极高的自主挖掘能力与安全边界控制能力。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 80.74,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "AI 漏洞挖掘能力出现量化突破，同时验证了 Agent 安全边界的可控性。安全团队需密切关注大厂安全 Agent 的能力跃迁与授权分发机制，防御侧正面临 AI 自动化漏洞挖掘的紧迫压力。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/kay_eth1989/status/2118561472393683122",
+        "reader_url": "https://x.com/kay_eth1989/status/2118561472393683122",
+        "image_url": "https://pbs.twimg.com/media/HWakbKibwAAfOD6.jpg",
+        "author": {
+          "username": "kay_eth1989",
+          "name": "Kay",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-06T04:29:50",
+        "first_seen_at": "2026-11-09T03:55:37.954344",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 28417,
+        "title": "LLM增强自进化强化学习用于多步电商支付欺诈检测",
+        "original_title": "LLM-Enhanced Self-Evolving Reinforcement Learning for Multi-Step E-Commerce Payment Fraud Risk Detection",
+        "summary": "本文提出将大语言模型与强化学习结合，利用LLM的推理与编码能力迭代优化多步电商支付欺诈检测中的奖励函数，提升检测准确率并展现零样本能力。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fraud_detection",
+        "score_total": 76.9,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "用LLM自动优化RL奖励函数是不错的落地思路，风控和安全检测团队可参考其框架设计，探索在自身威胁检测场景中应用类似的自进化机制。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2509.18719",
+        "reader_url": "https://arxiv.org/pdf/2509.18719",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-09T05:00:00",
+        "first_seen_at": "2026-11-09T07:12:22.325754",
+        "sub_category_label": "欺诈检测"
+      },
+      {
+        "id": 27403,
+        "title": "开源本地安全Agent Frame：支持五语言审计与PoC验证",
+        "original_title": "@saranormous For teams that want this without a hosted scanner: Frame is an open-source security agent that runs locally. It finds issues in 5 languages, proves what it can with a ",
+        "summary": "Frame 是一款开源本地安全Agent，支持5种语言的漏洞挖掘，并能通过求解器生成可用 PoC，在修复后自动重扫确认。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 76.75,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "代码安全和红队人员可直接试用这款本地开源Agent，它自带PoC验证和修复重扫闭环，能减少误报噪音。想搞AI代码审计落地的团队，值得拉下来跑一轮基准测试。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/latent_node/status/2118615576130260992",
+        "reader_url": "https://x.com/latent_node/status/2118615576130260992",
+        "image_url": null,
+        "author": {
+          "username": "latent_node",
+          "name": "Latent Node",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-06T08:04:49",
+        "first_seen_at": "2026-11-09T01:55:16.249833",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 28457,
+        "title": "Cloud-OpsBench：面向云原生系统智能体根因分析的评测基准",
+        "original_title": "Cloud-OpsBench: A Reproducible Benchmark for Agentic Root Cause Analysis in Cloud Systems",
+        "summary": "本文提出 Cloud-OpsBench，一个针对云系统智能体根因分析（RCA）的交互式评测基准，包含 754 个故障案例。对 11 个大模型的评估表明，即使最终诊断答案准确，模型往往也未能完成完整的证据闭环收集。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_benchmark",
+        "score_total": 90.15,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "研究指出 LLM 即使能给出正确根因，也常缺乏完整证据闭环。安全团队在设计自动化运维诊断 Agent 时，需关注过程可信度而非仅看最终结果，该 Benchmark 设计思路值得参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2603.00468",
+        "reader_url": "https://arxiv.org/pdf/2603.00468",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-09T05:00:00",
+        "first_seen_at": "2026-11-09T07:25:46.157197",
+        "sub_category_label": null
+      },
+      {
+        "id": 28455,
+        "title": "论文：为代码大模型补充上下文可提升漏洞检测效果",
+        "original_title": "Enhancing Neural Code Representation with Additional Context",
+        "summary": "研究发现，将版本历史等额外上下文信息注入代码大模型，能显著提升代码分类和克隆检测准确率，并在漏洞检测任务上展现出初步的迁移潜力。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "vuln_discovery | model_evaluation",
+        "score_total": 73.7,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做代码审计和漏洞挖掘的同学可以关注：纯靠源码喂给大模型存在局限，融合版本历史和结构上下文可能是提升 AI 漏洞检测准确率的可行路径。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2510.12082",
+        "reader_url": "https://arxiv.org/pdf/2510.12082",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-09T05:00:00",
+        "first_seen_at": "2026-11-09T07:25:27.803137",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 28463,
+        "title": "静态分析检测 LLM 代码库幻觉的实证分析",
+        "original_title": "An Empirical Analysis of Static Analysis Methods for Detection and Mitigation of Code Library Hallucinations",
+        "summary": "本文量化了静态分析工具在检测 LLM 生成代码时的库幻觉问题上的能力与局限，发现其能检测 14-85% 的库幻觉，但存在 48.5%-77% 的理论上限。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "model_security",
+        "score_total": 78.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "LLM 胡编乱造不存在的库或 API 是引发 AI 供应链和运行时故障的常见隐患。该论文给出了静态分析检测能力的明确天花板，为安全团队构建 AI 代码审计流水线提供了预期管理的实证依据。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2604.07755",
+        "reader_url": "https://arxiv.org/pdf/2604.07755",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-09T05:00:00",
+        "first_seen_at": "2026-11-09T07:27:12.138828",
+        "sub_category_label": null
+      },
+      {
+        "id": 27565,
+        "title": "NUS 推出 Agent 安全评测榜单 GREYZONE",
+        "original_title": "Greetings from Singapore!  Today's post is on agent security ! Agent threats are in the news with the OpenAI-HuggingFace incident and others! How do we comprehensively test agents ",
+        "summary": "新加坡国立大学团队发布 GREYZONE 基准，针对真实生产环境中的开源 Agentic 应用，提供现实的威胁模型以全面测试 Agent 部署前的安全性。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 74.7,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "面向真实生产环境 Agent 的安全评测榜单，填补了 Agent 安全测试的空白。安全团队应关注其威胁模型设计并贡献数据，以便用于自家 Agent 的部署前评估。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/AbhikRoychoudh1/status/2118743721684717845",
+        "reader_url": "https://x.com/AbhikRoychoudh1/status/2118743721684717845",
+        "image_url": "https://pbs.twimg.com/media/HWdJ1eIbEAE5wkq.jpg",
+        "author": {
+          "username": "AbhikRoychoudh1",
+          "name": "Abhik Roychoudhury",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-06T16:34:02",
+        "first_seen_at": "2026-11-08T19:54:30.809930",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 28459,
+            "title": "SCDBench：针对大模型智能合约反编译的语义评测基准",
+            "original_title": "SCDBench: A Benchmark for LLM-Based Smart Contract Decompilers",
+            "summary": "SCDBench 提出包含600个真实合约的数据集，通过格式、编译、ABI恢复及差异重放四阶段评估LLM反编译能力，发现前沿模型语义一致性极差，最佳仅完成42/600。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 93.15,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "该基准不只看生成代码能否编译，而是用差异重放直接验证语义。做Web3安全和AI代码审计的人必须关注，能有效防止被大模型生成的「看似合理实则漏洞百出」的假代码误导。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2605.29059",
+            "reader_url": "https://arxiv.org/pdf/2605.29059",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-09T05:00:00",
+            "first_seen_at": "2026-11-09T07:26:23.954508",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 28462,
+            "title": "TATG：基于跟踪感知测试目标的 LLM 单元测试生成框架",
+            "original_title": "TATG: Tracking-Aware Testing Objective for LLM-based Test Generation",
+            "summary": "提出一种基于 LLM 的单元测试生成框架 TATG，通过结构化目标表示和变异引导硬化，在复杂 Java 方法的行覆盖和变异分数上显著超越现有基线及 Codex、Claude Code 等通用编程助手。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 87.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "对做 LLM Fuzzing 和自动化漏洞挖掘的团队有直接参考价值。其通过显式跟踪测试目标来减少冗余生成的思路，可用于优化现有安全 Agent 的迭代反馈机制，建议关注其两阶段工作流设计。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2607.03194",
+            "reader_url": "https://arxiv.org/pdf/2607.03194",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-09T05:00:00",
+            "first_seen_at": "2026-11-09T07:26:43.920237",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 28227,
+            "title": "Hermes Agent 推出官方安全插件，实现代码审计与 PoC 自动验证",
+            "original_title": "Hermes Agent can now review your codebase for security bugs with the new official Security plugin by @mark_s.  Hermes first maps what an attacker could reach and which inputs it tr",
+            "summary": "Hermes Agent 发布安全插件，通过映射攻击面、分配并行子代理审查代码并验证漏洞可利用性，还能自动生成测试复现并导出 SARIF 报告。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 84.66,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做代码审计和自动化安全的同学该看。它展示了安全 Agent 从发现潜在漏洞到自动写 PoC 验证、再到对接现有工具链的完整闭环，非常适合作为设计内部安全 Agent 的参考标杆。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/NousResearch/status/2119501958981857543",
+            "reader_url": "https://x.com/NousResearch/status/2119501958981857543",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2119501177792376832/img/kd1t8r7sAPh7U_Wd.jpg",
+            "author": {
+              "username": "NousResearch",
+              "name": "Nous Research",
+              "avatar_url": null,
+              "followers_count": 272780
+            },
+            "published_at": "2026-11-08T18:47:00",
+            "first_seen_at": "2026-11-08T21:43:45.004207",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 27975,
+            "title": "自主渗透框架 ARTEX 在野滥用分析",
+            "original_title": "AI-powered autonomous pentesting framework ARTEX, developed in China 🇨🇳, was used in financially motivated breaches hitting seven South Korean 🇰🇷 financial institutions, exposing d",
+            "summary": "中国开发者研发的开源自主渗透框架 ARTEX 被用于攻击韩国 7 家金融机构，攻击者利用本地脚本劫持 Claude Code 前端并实际调用 DeepSeek/GLM 模型，执行了代码审计、WAF 绕过等 19 项渗透技能，泄露约 6.6 万人数据。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 81.08,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这是 AI 安全 Agent 在黑产实战落地的罕见案例，展示了攻击者如何用 shim 脚本劫持 Claude Code 并白嫖国内大模型执行自动化渗透。红蓝双方都该看：红队可参考其技能编排，蓝队需排查 api.deepseek 异常代理和 LDAP 回调。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
+            "reader_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
+            "image_url": "https://pbs.twimg.com/media/HWjDYGRa0AAM-Qk.jpg",
+            "author": {
+              "username": "DFIR_Radar",
+              "name": "DFIR Radar",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-07T20:02:00",
+            "first_seen_at": "2026-11-08T21:54:56.594300",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 27131,
+            "title": "OpenAI安全Agent生成948个有效EXP并实现0.07%极低越权率",
+            "original_title": "OpenAI's new security agent wrote working exploits for 948 Linux vulnerabilities.  The more important number is 99.93%.  That's how often GPT-6 Cyber stayed inside the scope it was",
+            "summary": "OpenAI 的 GPT-6 Cyber 安全 Agent 在 ExploitGym 测试中成功生成 948 个 Linux 提权漏洞利用，并发现 81 个未知 Firefox 高危漏洞；同时在蜜罐测试中将越权率降至 0.07%，展示了极高的自主挖掘能力与安全边界控制能力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 80.74,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI 漏洞挖掘能力出现量化突破，同时验证了 Agent 安全边界的可控性。安全团队需密切关注大厂安全 Agent 的能力跃迁与授权分发机制，防御侧正面临 AI 自动化漏洞挖掘的紧迫压力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/kay_eth1989/status/2118561472393683122",
+            "reader_url": "https://x.com/kay_eth1989/status/2118561472393683122",
+            "image_url": "https://pbs.twimg.com/media/HWakbKibwAAfOD6.jpg",
+            "author": {
+              "username": "kay_eth1989",
+              "name": "Kay",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-06T04:29:50",
+            "first_seen_at": "2026-11-09T03:55:37.954344",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 27403,
+            "title": "开源本地安全Agent Frame：支持五语言审计与PoC验证",
+            "original_title": "@saranormous For teams that want this without a hosted scanner: Frame is an open-source security agent that runs locally. It finds issues in 5 languages, proves what it can with a ",
+            "summary": "Frame 是一款开源本地安全Agent，支持5种语言的漏洞挖掘，并能通过求解器生成可用 PoC，在修复后自动重扫确认。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 76.75,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "代码安全和红队人员可直接试用这款本地开源Agent，它自带PoC验证和修复重扫闭环，能减少误报噪音。想搞AI代码审计落地的团队，值得拉下来跑一轮基准测试。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/latent_node/status/2118615576130260992",
+            "reader_url": "https://x.com/latent_node/status/2118615576130260992",
+            "image_url": null,
+            "author": {
+              "username": "latent_node",
+              "name": "Latent Node",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-06T08:04:49",
+            "first_seen_at": "2026-11-09T01:55:16.249833",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 28280,
+            "title": "WorkOS 遭入侵，攻击者疑使用 AI 自主渗透框架 ARTEX",
+            "original_title": "HN Hot Discussion: WorkOS reports security breach",
+            "summary": "WorkOS 报告安全事件，称攻击者利用 AI 辅助自主渗透测试框架 ARTEX 访问其内部 API 并窃取了 CRM 数据，这是 AI 渗透工具在野利用的罕见公开案例。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 76.5,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI 渗透工具不再只是概念演示，ARTEX 在 WorkOS 入侵事件中的表现证明了其实战破坏力。安全团队需警惕此类自动化武器化工具的威胁扩散，重新评估防御体系对 AI 驱动攻击的承受能力。",
+            "source_id": "hn-ai-security",
+            "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
+            "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
+            "image_url": null,
+            "author": {
+              "username": "werrett",
+              "name": "werrett",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-02T23:30:59",
+            "first_seen_at": "2026-11-09T00:29:28.615598",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 28135,
+            "title": "AI 渗透工具 Cairn 登顶 TSecBench，黑板与 OODA 架构解析",
+            "original_title": "Cairn: When AI Stops Answering and Starts Searching  Most people still think of AI as a conversation. You ask. It answers.  But a different kind of AI is quietly appearing. It does",
+            "summary": "Cairn 在腾讯云 TSecBench 安全评测中以 97.14 分夺冠，其采用黑板模式与 OODA 循环替代传统刚性 Agent 架构，在 AI 渗透测试中展现出极强解题能力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 73.76,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队应关注 Cairn 的黑板架构与状态持久化设计，这可能是突破当前 Agent 框架瓶颈的关键；同时 TSecBench 榜单反映了真实实战能力，远比 GitHub 星标可靠，选型时务必参考此类实战评测。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/VitaliiKhomenk1/status/2119398508746715264",
+            "reader_url": "https://x.com/VitaliiKhomenk1/status/2119398508746715264",
+            "image_url": "https://pbs.twimg.com/media/HWmdtOlXEAAaP_7.jpg",
+            "author": {
+              "username": "VitaliiKhomenk1",
+              "name": "Vitalii Khomenko",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-08T11:55:55",
+            "first_seen_at": "2026-11-09T13:57:08.717291",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 27477,
+            "title": "Chainguard 用 Anthropic Mythos 6 小时挖出十余个 RCE",
+            "original_title": "Over a dozen vulnerabilities found in 6 hours. Most were pre-auth RCE flaws.  Chainguard says its Athena system used Anthropic's Mythos to identify the flaws in a heavily tested op",
+            "summary": "Chainguard 的 Athena 系统利用 Anthropic 的 Mythos 模型，在一个经过多年审查的开源项目中发现了十余个预认证 RCE 漏洞，并在干净虚拟机中成功复现。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 82.82,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI 挖洞从演示走向实战产出的标志性事件，漏洞挖掘团队应重点关注 Mythos 的能力边界，评估将其接入代码审计与安全测试流程的可行性。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2118672694652661902",
+            "reader_url": "https://x.com/TheHackersNews/status/2118672694652661902",
+            "image_url": "https://pbs.twimg.com/media/HWcJaS4bcAANWGW.jpg",
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-11-06T11:51:48",
+            "first_seen_at": "2026-11-08T23:55:09.344865",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "fraud_detection": {
+        "label": "欺诈检测",
+        "items": [
+          {
+            "id": 28417,
+            "title": "LLM增强自进化强化学习用于多步电商支付欺诈检测",
+            "original_title": "LLM-Enhanced Self-Evolving Reinforcement Learning for Multi-Step E-Commerce Payment Fraud Risk Detection",
+            "summary": "本文提出将大语言模型与强化学习结合，利用LLM的推理与编码能力迭代优化多步电商支付欺诈检测中的奖励函数，提升检测准确率并展现零样本能力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fraud_detection",
+            "score_total": 76.9,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "用LLM自动优化RL奖励函数是不错的落地思路，风控和安全检测团队可参考其框架设计，探索在自身威胁检测场景中应用类似的自进化机制。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2509.18719",
+            "reader_url": "https://arxiv.org/pdf/2509.18719",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-09T05:00:00",
+            "first_seen_at": "2026-11-09T07:12:22.325754",
+            "sub_category_label": "欺诈检测"
+          },
+          {
+            "id": 28254,
+            "title": "开源反欺诈平台 Kairos：结合 LLM 与 MCP 自动化风控决策",
+            "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+            "summary": "Kairos 是一个开源反欺诈决策平台，通过引入 LLM 处理非结构化风险判断以减少对标签数据的依赖，并利用 MCP server 让 AI 编码助手自动定义决策工作流和训练模型。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fraud_detection",
+            "score_total": 75.1,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "风控和反欺诈从业者该看：Kairos 展示了用 LLM 处理非结构化风控规则绕过标签数据瓶颈的新思路，以及如何通过 MCP 让 Claude Code 等编码助手自动编排风控工作流。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-09",
+            "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-09",
+            "image_url": null,
+            "author": {
+              "username": "ayanb9440",
+              "name": "ayanb9440",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-03T21:16:48",
+            "first_seen_at": "2026-11-09T00:20:17.445262",
+            "sub_category_label": "欺诈检测"
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 28457,
+            "title": "Cloud-OpsBench：面向云原生系统智能体根因分析的评测基准",
+            "original_title": "Cloud-OpsBench: A Reproducible Benchmark for Agentic Root Cause Analysis in Cloud Systems",
+            "summary": "本文提出 Cloud-OpsBench，一个针对云系统智能体根因分析（RCA）的交互式评测基准，包含 754 个故障案例。对 11 个大模型的评估表明，即使最终诊断答案准确，模型往往也未能完成完整的证据闭环收集。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_benchmark",
+            "score_total": 90.15,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "研究指出 LLM 即使能给出正确根因，也常缺乏完整证据闭环。安全团队在设计自动化运维诊断 Agent 时，需关注过程可信度而非仅看最终结果，该 Benchmark 设计思路值得参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2603.00468",
+            "reader_url": "https://arxiv.org/pdf/2603.00468",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-09T05:00:00",
+            "first_seen_at": "2026-11-09T07:25:46.157197",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "vuln_discovery | model_evaluation": {
+        "label": "vuln_discovery | model_evaluation",
+        "items": [
+          {
+            "id": 28455,
+            "title": "论文：为代码大模型补充上下文可提升漏洞检测效果",
+            "original_title": "Enhancing Neural Code Representation with Additional Context",
+            "summary": "研究发现，将版本历史等额外上下文信息注入代码大模型，能显著提升代码分类和克隆检测准确率，并在漏洞检测任务上展现出初步的迁移潜力。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "vuln_discovery | model_evaluation",
+            "score_total": 73.7,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做代码审计和漏洞挖掘的同学可以关注：纯靠源码喂给大模型存在局限，融合版本历史和结构上下文可能是提升 AI 漏洞检测准确率的可行路径。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2510.12082",
+            "reader_url": "https://arxiv.org/pdf/2510.12082",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-09T05:00:00",
+            "first_seen_at": "2026-11-09T07:25:27.803137",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "model_security": {
+        "label": "model_security",
+        "items": [
+          {
+            "id": 28463,
+            "title": "静态分析检测 LLM 代码库幻觉的实证分析",
+            "original_title": "An Empirical Analysis of Static Analysis Methods for Detection and Mitigation of Code Library Hallucinations",
+            "summary": "本文量化了静态分析工具在检测 LLM 生成代码时的库幻觉问题上的能力与局限，发现其能检测 14-85% 的库幻觉，但存在 48.5%-77% 的理论上限。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "model_security",
+            "score_total": 78.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "LLM 胡编乱造不存在的库或 API 是引发 AI 供应链和运行时故障的常见隐患。该论文给出了静态分析检测能力的明确天花板，为安全团队构建 AI 代码审计流水线提供了预期管理的实证依据。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2604.07755",
+            "reader_url": "https://arxiv.org/pdf/2604.07755",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-09T05:00:00",
+            "first_seen_at": "2026-11-09T07:27:12.138828",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 27565,
+            "title": "NUS 推出 Agent 安全评测榜单 GREYZONE",
+            "original_title": "Greetings from Singapore!  Today's post is on agent security ! Agent threats are in the news with the OpenAI-HuggingFace incident and others! How do we comprehensively test agents ",
+            "summary": "新加坡国立大学团队发布 GREYZONE 基准，针对真实生产环境中的开源 Agentic 应用，提供现实的威胁模型以全面测试 Agent 部署前的安全性。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 74.7,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "面向真实生产环境 Agent 的安全评测榜单，填补了 Agent 安全测试的空白。安全团队应关注其威胁模型设计并贡献数据，以便用于自家 Agent 的部署前评估。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/AbhikRoychoudh1/status/2118743721684717845",
+            "reader_url": "https://x.com/AbhikRoychoudh1/status/2118743721684717845",
+            "image_url": "https://pbs.twimg.com/media/HWdJ1eIbEAE5wkq.jpg",
+            "author": {
+              "username": "AbhikRoychoudh1",
+              "name": "Abhik Roychoudhury",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-06T16:34:02",
+            "first_seen_at": "2026-11-08T19:54:30.809930",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 28459,
+      "title": "SCDBench：针对大模型智能合约反编译的语义评测基准",
+      "original_title": "SCDBench: A Benchmark for LLM-Based Smart Contract Decompilers",
+      "summary": "SCDBench 提出包含600个真实合约的数据集，通过格式、编译、ABI恢复及差异重放四阶段评估LLM反编译能力，发现前沿模型语义一致性极差，最佳仅完成42/600。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 93.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "该基准不只看生成代码能否编译，而是用差异重放直接验证语义。做Web3安全和AI代码审计的人必须关注，能有效防止被大模型生成的「看似合理实则漏洞百出」的假代码误导。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.29059",
+      "reader_url": "https://arxiv.org/pdf/2605.29059",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:26:23.954508",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 28457,
+      "title": "Cloud-OpsBench：面向云原生系统智能体根因分析的评测基准",
+      "original_title": "Cloud-OpsBench: A Reproducible Benchmark for Agentic Root Cause Analysis in Cloud Systems",
+      "summary": "本文提出 Cloud-OpsBench，一个针对云系统智能体根因分析（RCA）的交互式评测基准，包含 754 个故障案例。对 11 个大模型的评估表明，即使最终诊断答案准确，模型往往也未能完成完整的证据闭环收集。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 90.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "研究指出 LLM 即使能给出正确根因，也常缺乏完整证据闭环。安全团队在设计自动化运维诊断 Agent 时，需关注过程可信度而非仅看最终结果，该 Benchmark 设计思路值得参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.00468",
+      "reader_url": "https://arxiv.org/pdf/2603.00468",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:25:46.157197",
+      "sub_category_label": null
+    },
+    {
+      "id": 28462,
+      "title": "TATG：基于跟踪感知测试目标的 LLM 单元测试生成框架",
+      "original_title": "TATG: Tracking-Aware Testing Objective for LLM-based Test Generation",
+      "summary": "提出一种基于 LLM 的单元测试生成框架 TATG，通过结构化目标表示和变异引导硬化，在复杂 Java 方法的行覆盖和变异分数上显著超越现有基线及 Codex、Claude Code 等通用编程助手。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 87.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对做 LLM Fuzzing 和自动化漏洞挖掘的团队有直接参考价值。其通过显式跟踪测试目标来减少冗余生成的思路，可用于优化现有安全 Agent 的迭代反馈机制，建议关注其两阶段工作流设计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.03194",
+      "reader_url": "https://arxiv.org/pdf/2607.03194",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:26:43.920237",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 28463,
+      "title": "静态分析检测 LLM 代码库幻觉的实证分析",
+      "original_title": "An Empirical Analysis of Static Analysis Methods for Detection and Mitigation of Code Library Hallucinations",
+      "summary": "本文量化了静态分析工具在检测 LLM 生成代码时的库幻觉问题上的能力与局限，发现其能检测 14-85% 的库幻觉，但存在 48.5%-77% 的理论上限。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "model_security",
+      "score_total": 78.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "LLM 胡编乱造不存在的库或 API 是引发 AI 供应链和运行时故障的常见隐患。该论文给出了静态分析检测能力的明确天花板，为安全团队构建 AI 代码审计流水线提供了预期管理的实证依据。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2604.07755",
+      "reader_url": "https://arxiv.org/pdf/2604.07755",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:27:12.138828",
+      "sub_category_label": null
+    },
+    {
+      "id": 28417,
+      "title": "LLM增强自进化强化学习用于多步电商支付欺诈检测",
+      "original_title": "LLM-Enhanced Self-Evolving Reinforcement Learning for Multi-Step E-Commerce Payment Fraud Risk Detection",
+      "summary": "本文提出将大语言模型与强化学习结合，利用LLM的推理与编码能力迭代优化多步电商支付欺诈检测中的奖励函数，提升检测准确率并展现零样本能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 76.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "用LLM自动优化RL奖励函数是不错的落地思路，风控和安全检测团队可参考其框架设计，探索在自身威胁检测场景中应用类似的自进化机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2509.18719",
+      "reader_url": "https://arxiv.org/pdf/2509.18719",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:12:22.325754",
+      "sub_category_label": "欺诈检测"
+    },
+    {
+      "id": 28455,
+      "title": "论文：为代码大模型补充上下文可提升漏洞检测效果",
+      "original_title": "Enhancing Neural Code Representation with Additional Context",
+      "summary": "研究发现，将版本历史等额外上下文信息注入代码大模型，能显著提升代码分类和克隆检测准确率，并在漏洞检测任务上展现出初步的迁移潜力。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "vuln_discovery | model_evaluation",
+      "score_total": 73.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计和漏洞挖掘的同学可以关注：纯靠源码喂给大模型存在局限，融合版本历史和结构上下文可能是提升 AI 漏洞检测准确率的可行路径。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2510.12082",
+      "reader_url": "https://arxiv.org/pdf/2510.12082",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:25:27.803137",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 15,
+    "highlight_count": 7,
+    "paper_count": 6,
+    "source_count": 4,
+    "top_score": 93,
+    "category_count": {
+      "AI for Sec": 11,
+      "AI Tech": 0,
+      "AI for Sec | AI Tech": 2,
+      "Sec for AI | AI for Sec": 2
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 6
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 1
+        },
+        "fraud_detection": {
+          "label": "欺诈检测",
+          "count": 2
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        },
+        "vuln_discovery | model_evaluation": {
+          "label": "vuln_discovery | model_evaluation",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "model_security": {
+          "label": "model_security",
+          "count": 1
+        },
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 11,
+      "top_score": 93,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "拿到最高分的SCDBench直接戳破了前沿大模型在智能合约反编译上的窗户纸，最好的模型在600个测试里也只跑通了42个。建议做代码审计和自动化诊断的团队，必须把单纯的结论输出升级为Hermes Agent那样的PoC自动验证机制，用“可证伪”代替“猜结果”，防止被AI生成的假代码或伪根因带进沟里。",
+  "method_note": "按北京时间 2026-11-09 的系统入库窗口筛选，从 15 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "hn-ai-security",
+    "hn-ai-tech",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# SCDBench：针对大模型智能合约反编译的语义评测基准\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是给大模型在复杂安全任务里的“假把式”照镜子。几个高分基准都直指同一个痛点：模型在反编译和云故障排查中经常给出看似合理的结论，但深究语义一致性和证据闭环却根本不及格，盲目信任AI的结论会吃大亏。\n- 01 该基准不只看生成代码能否编译，而是用差异重放直接验证语义。做Web3安全和AI代码审计的人必须关注，能有效防止被大模型生成的「看似合理实则漏洞百出」的假代码误导。\n- 02 做代码审计和自动化安全的同学该看。它展示了安全 Agent 从发现潜在漏洞到自动写 PoC 验证、再到对接现有工具链的完整闭环，非常适合作为设计内部安全 Agent 的参考标杆。\n- 03 研究指出 LLM 即使能给出正确根因，也常缺乏完整证据闭环。安全团队在设计自动化运维诊断 Agent 时，需关注过程可信度而非仅看最终结果，该 Benchmark 设计思路值得参考。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **SCDBench：针对大模型智能合约反编译的语义评测基准**：该基准不只看生成代码能否编译，而是用差异重放直接验证语义。做Web3安全和AI代码审计的人必须关注，能有效防止被大模型生成的「看似合理实则漏洞百出」的假代码误导。 来源：arxiv-ai-security\n- **Hermes Agent 推出官方安全插件，实现代码审计与 PoC 自动验证**：做代码审计和自动化安全的同学该看。它展示了安全 Agent 从发现潜在漏洞到自动写 PoC 验证、再到对接现有工具链的完整闭环，非常适合作为设计内部安全 Agent 的参考标杆。 来源：x-manual-ai-security\n- **Cloud-OpsBench：面向云原生系统智能体根因分析的评测基准**：研究指出 LLM 即使能给出正确根因，也常缺乏完整证据闭环。安全团队在设计自动化运维诊断 Agent 时，需关注过程可信度而非仅看最终结果，该 Benchmark 设计思路值得参考。 来源：arxiv-ai-security\n\n## 也值得关注\n- TATG：基于跟踪感知测试目标的 LLM 单元测试生成框架（87.95）\n- 自主渗透框架 ARTEX 在野滥用分析（81.08）\n- 静态分析检测 LLM 代码库幻觉的实证分析（78.15）\n- LLM增强自进化强化学习用于多步电商支付欺诈检测（76.9）\n- 开源本地安全Agent Frame：支持五语言审计与PoC验证（76.75）\n- WorkOS 遭入侵，攻击者疑使用 AI 自主渗透框架 ARTEX（76.5）\n\n## AI for Sec\n\n### 安全评测与Benchmark\n- SCDBench：针对大模型智能合约反编译的语义评测基准（93.15）\n\n### AI Fuzzing\n- TATG：基于跟踪感知测试目标的 LLM 单元测试生成框架（87.95）\n\n### 安全Agent\n- Hermes Agent 推出官方安全插件，实现代码审计与 PoC 自动验证（84.66）\n- 自主渗透框架 ARTEX 在野滥用分析（81.08）\n- OpenAI安全Agent生成948个有效EXP并实现0.07%极低越权率（80.74）\n- 开源本地安全Agent Frame：支持五语言审计与PoC验证（76.75）\n- WorkOS 遭入侵，攻击者疑使用 AI 自主渗透框架 ARTEX（76.5）\n\n### 漏洞挖掘\n- Chainguard 用 Anthropic Mythos 6 小时挖出十余个 RCE（82.82）\n\n### 欺诈检测\n- LLM增强自进化强化学习用于多步电商支付欺诈检测（76.9）\n- 开源反欺诈平台 Kairos：结合 LLM 与 MCP 自动化风控决策（75.1）\n\n## AI Tech 短讯\n\n## 今日论文\n- SCDBench：针对大模型智能合约反编译的语义评测基准\n- Cloud-OpsBench：面向云原生系统智能体根因分析的评测基准\n- TATG：基于跟踪感知测试目标的 LLM 单元测试生成框架\n- 静态分析检测 LLM 代码库幻觉的实证分析\n- LLM增强自进化强化学习用于多步电商支付欺诈检测\n- 论文：为代码大模型补充上下文可提升漏洞检测效果\n\n## 今日观察\n拿到最高分的SCDBench直接戳破了前沿大模型在智能合约反编译上的窗户纸，最好的模型在600个测试里也只跑通了42个。建议做代码审计和自动化诊断的团队，必须把单纯的结论输出升级为Hermes Agent那样的PoC自动验证机制，用“可证伪”代替“猜结果”，防止被AI生成的假代码或伪根因带进沟里。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-09 的系统入库窗口筛选，从 15 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-10T00:02:10+08:00"
+}
