@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T14:20:53+08:00",
+  "updated_at": "2026-11-09T15:21:00+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -103,6 +103,26 @@
       "published_at": "2026-11-06T04:29:50",
       "first_seen_at": "2026-11-09T03:55:37.954344",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28417,
+      "title": "LLM增强自进化强化学习用于多步电商支付欺诈检测",
+      "original_title": "LLM-Enhanced Self-Evolving Reinforcement Learning for Multi-Step E-Commerce Payment Fraud Risk Detection",
+      "summary": "本文提出将大语言模型与强化学习结合，利用LLM的推理与编码能力迭代优化多步电商支付欺诈检测中的奖励函数，提升检测准确率并展现零样本能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 76.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "用LLM自动优化RL奖励函数是不错的落地思路，风控和安全检测团队可参考其框架设计，探索在自身威胁检测场景中应用类似的自进化机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2509.18719",
+      "reader_url": "https://arxiv.org/pdf/2509.18719",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-09T07:12:22.325754",
+      "sub_category_label": "欺诈检测"
     },
     {
       "id": 27403,
@@ -226,31 +246,6 @@
       "published_at": "2026-11-03T21:16:48",
       "first_seen_at": "2026-11-09T00:20:17.445262",
       "sub_category_label": "欺诈检测"
-    },
-    {
-      "id": 27468,
-      "title": "ARTEX 渗透测试框架在野滥用：被关联多起真实攻击行动",
-      "original_title": "ARTEX started as an open-source AI pentest framework. You give it a goal in plain English and the agents mostly handle the rest.  Now it’s showing up in real campaigns: banks, mini",
-      "summary": "开源 AI 渗透测试框架 ARTEX 被发现应用于针对银行、政府等数百个组织的真实攻击行动中，CrowdStrike 等机构已确认其被网络犯罪分子滥用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "原本是红队利器的 ARTEX 已沦为攻击者的大规模自动化武器。安全团队需高度警惕此类开源 Agent 滥用趋势，排查内部暴露面并更新威胁狩猎规则。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/JurajCekan/status/2118667535197303183",
-      "reader_url": "https://x.com/JurajCekan/status/2118667535197303183",
-      "image_url": null,
-      "author": {
-        "username": "JurajCekan",
-        "name": "Juraj Cekan",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T11:31:17",
-      "first_seen_at": "2026-11-08T23:55:09.344865",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
