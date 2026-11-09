@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T08:19:32+08:00",
+  "updated_at": "2026-11-09T08:49:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -155,6 +155,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 28280,
+      "title": "WorkOS 遭入侵，攻击者疑使用 AI 自主渗透框架 ARTEX",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告安全事件，称攻击者利用 AI 辅助自主渗透测试框架 ARTEX 访问其内部 API 并窃取了 CRM 数据，这是 AI 渗透工具在野利用的罕见公开案例。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透工具不再只是概念演示，ARTEX 在 WorkOS 入侵事件中的表现证明了其实战破坏力。安全团队需警惕此类自动化武器化工具的威胁扩散，重新评估防御体系对 AI 驱动攻击的承受能力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-09T00:29:28.615598",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 27669,
       "title": "ARTEX 自动化渗透平台遭黑产武器化，AI Agent 被用于网络犯罪",
       "original_title": "#threatreport #LowCompleteness Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns | 05-11-2026 Source: https://t.co/txELZ1VAVp Key details below ↓  💀Threats: Artex_tool, Suppl",
@@ -180,6 +204,30 @@
       "sub_category_label": null
     },
     {
+      "id": 28254,
+      "title": "开源反欺诈平台 Kairos：结合 LLM 与 MCP 自动化风控决策",
+      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "summary": "Kairos 是一个开源反欺诈决策平台，通过引入 LLM 处理非结构化风险判断以减少对标签数据的依赖，并利用 MCP server 让 AI 编码助手自动定义决策工作流和训练模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 75.1,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "风控和反欺诈从业者该看：Kairos 展示了用 LLM 处理非结构化风控规则绕过标签数据瓶颈的新思路，以及如何通过 MCP 让 Claude Code 等编码助手自动编排风控工作流。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-09",
+      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-09",
+      "image_url": null,
+      "author": {
+        "username": "ayanb9440",
+        "name": "ayanb9440",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-03T21:16:48",
+      "first_seen_at": "2026-11-09T00:20:17.445262",
+      "sub_category_label": "欺诈检测"
+    },
+    {
       "id": 27468,
       "title": "ARTEX 渗透测试框架在野滥用：被关联多起真实攻击行动",
       "original_title": "ARTEX started as an open-source AI pentest framework. You give it a goal in plain English and the agents mostly handle the rest.  Now it’s showing up in real campaigns: banks, mini",
@@ -203,56 +251,6 @@
       "published_at": "2026-11-06T11:31:17",
       "first_seen_at": "2026-11-08T23:55:09.344865",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 27565,
-      "title": "NUS 推出 Agent 安全评测榜单 GREYZONE",
-      "original_title": "Greetings from Singapore!  Today's post is on agent security ! Agent threats are in the news with the OpenAI-HuggingFace incident and others! How do we comprehensively test agents ",
-      "summary": "新加坡国立大学团队发布 GREYZONE 基准，针对真实生产环境中的开源 Agentic 应用，提供现实的威胁模型以全面测试 Agent 部署前的安全性。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 74.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "面向真实生产环境 Agent 的安全评测榜单，填补了 Agent 安全测试的空白。安全团队应关注其威胁模型设计并贡献数据，以便用于自家 Agent 的部署前评估。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AbhikRoychoudh1/status/2118743721684717845",
-      "reader_url": "https://x.com/AbhikRoychoudh1/status/2118743721684717845",
-      "image_url": "https://pbs.twimg.com/media/HWdJ1eIbEAE5wkq.jpg",
-      "author": {
-        "username": "AbhikRoychoudh1",
-        "name": "Abhik Roychoudhury",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T16:34:02",
-      "first_seen_at": "2026-11-08T19:54:30.809930",
-      "sub_category_label": null
-    },
-    {
-      "id": 27595,
-      "title": "Chainguard Athena 用 Anthropic Mythos 模型 6 小时发现 12+ 个 RCE 漏洞",
-      "original_title": "أداة Athena من Chainguard وجدت أكثر من 12 ثغرة في 6 ساعات — معظمهما RCE قبل التوثيق 🛡️  • أعلنت Chainguard أن نظامها Athena استخدم نموذج Mythos من Anthropic لتحديد الثغرات في مشروع",
-      "summary": "Chainguard 的 Athena 系统使用 Anthropic Mythos 模型，在一个经过多年专家审查和 fuzzing 的开源项目中 6 小时内发现超过 12 个漏洞，多数为 RCE，每条结果在干净虚拟环境中验证三次。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 漏洞挖掘从研究演示走向产业流水线的标志性事件。安全团队和开源维护者现在就该关注 Mythos 级别模型的发现能力，并准备迎接一波 AI 驱动的漏洞披露浪潮。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/dropy50/status/2118764805708255572",
-      "reader_url": "https://x.com/dropy50/status/2118764805708255572",
-      "image_url": null,
-      "author": {
-        "username": "dropy50",
-        "name": "🧠 مُخبر AI Mukhbir",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T17:57:49",
-      "first_seen_at": "2026-11-08T19:54:30.809930",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
