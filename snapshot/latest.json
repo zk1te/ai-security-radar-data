@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T02:24:51+08:00",
+  "updated_at": "2026-11-10T03:24:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -83,26 +83,6 @@
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-09T07:27:12.138828",
       "sub_category_label": null
-    },
-    {
-      "id": 28417,
-      "title": "LLM增强自进化强化学习用于多步电商支付欺诈检测",
-      "original_title": "LLM-Enhanced Self-Evolving Reinforcement Learning for Multi-Step E-Commerce Payment Fraud Risk Detection",
-      "summary": "本文提出将大语言模型与强化学习结合，利用LLM的推理与编码能力迭代优化多步电商支付欺诈检测中的奖励函数，提升检测准确率并展现零样本能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fraud_detection",
-      "score_total": 76.9,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "用LLM自动优化RL奖励函数是不错的落地思路，风控和安全检测团队可参考其框架设计，探索在自身威胁检测场景中应用类似的自进化机制。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2509.18719",
-      "reader_url": "https://arxiv.org/pdf/2509.18719",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-09T05:00:00",
-      "first_seen_at": "2026-11-09T07:12:22.325754",
-      "sub_category_label": "欺诈检测"
     },
     {
       "id": 28193,
@@ -223,6 +203,31 @@
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-09T07:25:27.803137",
       "sub_category_label": null
+    },
+    {
+      "id": 28467,
+      "title": "OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试",
+      "original_title": "An AI model that finds software flaws raises a second question: who gets to use it?  According to VentureBeat, OpenAI has launched GPT-6 Cyber for vulnerability research, exploit d",
+      "summary": "OpenAI 推出专为漏洞研究、漏洞利用开发和渗透测试设计的 GPT-6 Cyber 模型，仅限审查合格的客户使用。其访问控制机制的有效性成为关注焦点。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "前沿大厂推出专用网安模型标志着 AI 漏洞挖掘向实战化迈进。安全团队需密切关注其访问审查与滥用检测机制，评估引入此类高能效工具的风险收益比。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/sail1202/status/2119692327249662338",
+      "reader_url": "https://x.com/sail1202/status/2119692327249662338",
+      "image_url": null,
+      "author": {
+        "username": "sail1202",
+        "name": "Sailendra Kumar 🌍",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-09T07:23:27",
+      "first_seen_at": "2026-11-09T07:55:23.673667",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
