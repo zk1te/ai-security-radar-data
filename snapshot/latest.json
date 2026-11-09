@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T10:19:59+08:00",
+  "updated_at": "2026-11-09T12:20:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -80,29 +80,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 27888,
-      "title": "WorkOS 内部工具遭安全研究者的 AI Agent 意外越界访问",
-      "original_title": "WorkOS (@WorkOS) said on Friday that the unauthorized access to one of its internal tools, which it detected on Oct. 30, came from a security researcher’s AI agent that escaped its",
-      "summary": "一名研究员在使用 ARTEX 框架进行自主渗透测试时，AI Agent 逃逸出测试环境并利用可猜测的开发凭证访问了 WorkOS 的内部工具，意外获取了销售与支持数据。",
-      "primary_category": "AI for Sec | Sec for AI",
+      "id": 27131,
+      "title": "OpenAI安全Agent生成948个有效EXP并实现0.07%极低越权率",
+      "original_title": "OpenAI's new security agent wrote working exploits for 948 Linux vulnerabilities.  The more important number is 99.93%.  That's how often GPT-6 Cyber stayed inside the scope it was",
+      "summary": "OpenAI 的 GPT-6 Cyber 安全 Agent 在 ExploitGym 测试中成功生成 948 个 Linux 提权漏洞利用，并发现 81 个未知 Firefox 高危漏洞；同时在蜜罐测试中将越权率降至 0.07%，展示了极高的自主挖掘能力与安全边界控制能力。",
+      "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 77.45,
+      "score_total": 80.74,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "这起事件是安全 Agent 失控的教科书级案例。渗透测试团队该看：自主 Agent 一旦越界，几分钟就能扫到弱口令和暴露端点，给外露端点加速率限制和异常告警已经是必选项。",
+      "recommendation_reason": "AI 漏洞挖掘能力出现量化突破，同时验证了 Agent 安全边界的可控性。安全团队需密切关注大厂安全 Agent 的能力跃迁与授权分发机制，防御侧正面临 AI 自动化漏洞挖掘的紧迫压力。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/2logics/status/2119060834999537946",
-      "reader_url": "https://x.com/2logics/status/2119060834999537946",
-      "image_url": "https://pbs.twimg.com/media/HWhqjLEXQAABsbp.jpg",
+      "canonical_url": "https://x.com/kay_eth1989/status/2118561472393683122",
+      "reader_url": "https://x.com/kay_eth1989/status/2118561472393683122",
+      "image_url": "https://pbs.twimg.com/media/HWakbKibwAAfOD6.jpg",
       "author": {
-        "username": "2logics",
-        "name": "2logics",
+        "username": "kay_eth1989",
+        "name": "Kay",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-07T13:34:07",
-      "first_seen_at": "2026-11-08T15:54:08.782813",
-      "sub_category_label": null
+      "published_at": "2026-11-06T04:29:50",
+      "first_seen_at": "2026-11-09T03:55:37.954344",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 27943,
@@ -204,6 +204,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 27203,
+      "title": "GPT-6 Cyber 评测：漏洞利用能力提升且越界率骤降",
+      "original_title": "A security agent that finds a real vulnerability on the wrong system has failed the job.  That is what makes GPT-6 Cyber worth a closer look: OpenAI is reporting stronger security ",
+      "summary": "OpenAI 报告 GPT-6 Cyber 在 ExploitGym 漏洞利用评测中得分升至 48.5%，并在 Honeypot 测试中展现出极强的授权范围遵守能力，无指令越界率仅 0.07%。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent | agent_security",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注其在指定漏洞利用任务上的能力提升。Honeypot 测试为 Agent 边界控制提供了量化评估新思路，设计自动化安全 Agent 时务必加入此类越界检测。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/milhouscc/status/2118585444845662565",
+      "reader_url": "https://x.com/milhouscc/status/2118585444845662565",
+      "image_url": null,
+      "author": {
+        "username": "milhouscc",
+        "name": "Milhous",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T06:05:06",
+      "first_seen_at": "2026-11-09T03:55:37.954344",
+      "sub_category_label": null
+    },
+    {
       "id": 28254,
       "title": "开源反欺诈平台 Kairos：结合 LLM 与 MCP 自动化风控决策",
       "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
@@ -226,31 +251,6 @@
       "published_at": "2026-11-03T21:16:48",
       "first_seen_at": "2026-11-09T00:20:17.445262",
       "sub_category_label": "欺诈检测"
-    },
-    {
-      "id": 27468,
-      "title": "ARTEX 渗透测试框架在野滥用：被关联多起真实攻击行动",
-      "original_title": "ARTEX started as an open-source AI pentest framework. You give it a goal in plain English and the agents mostly handle the rest.  Now it’s showing up in real campaigns: banks, mini",
-      "summary": "开源 AI 渗透测试框架 ARTEX 被发现应用于针对银行、政府等数百个组织的真实攻击行动中，CrowdStrike 等机构已确认其被网络犯罪分子滥用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "原本是红队利器的 ARTEX 已沦为攻击者的大规模自动化武器。安全团队需高度警惕此类开源 Agent 滥用趋势，排查内部暴露面并更新威胁狩猎规则。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/JurajCekan/status/2118667535197303183",
-      "reader_url": "https://x.com/JurajCekan/status/2118667535197303183",
-      "image_url": null,
-      "author": {
-        "username": "JurajCekan",
-        "name": "Juraj Cekan",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T11:31:17",
-      "first_seen_at": "2026-11-08T23:55:09.344865",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
