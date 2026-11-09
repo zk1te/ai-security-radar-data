@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T20:22:20+08:00",
+  "updated_at": "2026-11-09T20:52:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -155,30 +155,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 28280,
-      "title": "WorkOS 遭入侵，攻击者疑使用 AI 自主渗透框架 ARTEX",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 报告安全事件，称攻击者利用 AI 辅助自主渗透测试框架 ARTEX 访问其内部 API 并窃取了 CRM 数据，这是 AI 渗透工具在野利用的罕见公开案例。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.5,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透工具不再只是概念演示，ARTEX 在 WorkOS 入侵事件中的表现证明了其实战破坏力。安全团队需警惕此类自动化武器化工具的威胁扩散，重新评估防御体系对 AI 驱动攻击的承受能力。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-09T00:29:28.615598",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 27203,
       "title": "GPT-6 Cyber 评测：漏洞利用能力提升且越界率骤降",
       "original_title": "A security agent that finds a real vulnerability on the wrong system has failed the job.  That is what makes GPT-6 Cyber worth a closer look: OpenAI is reporting stronger security ",
@@ -222,6 +198,31 @@
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-09T07:25:27.803137",
       "sub_category_label": null
+    },
+    {
+      "id": 28467,
+      "title": "OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试",
+      "original_title": "An AI model that finds software flaws raises a second question: who gets to use it?  According to VentureBeat, OpenAI has launched GPT-6 Cyber for vulnerability research, exploit d",
+      "summary": "OpenAI 推出专为漏洞研究、漏洞利用开发和渗透测试设计的 GPT-6 Cyber 模型，仅限审查合格的客户使用。其访问控制机制的有效性成为关注焦点。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "前沿大厂推出专用网安模型标志着 AI 漏洞挖掘向实战化迈进。安全团队需密切关注其访问审查与滥用检测机制，评估引入此类高能效工具的风险收益比。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/sail1202/status/2119692327249662338",
+      "reader_url": "https://x.com/sail1202/status/2119692327249662338",
+      "image_url": null,
+      "author": {
+        "username": "sail1202",
+        "name": "Sailendra Kumar 🌍",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-09T07:23:27",
+      "first_seen_at": "2026-11-09T07:55:23.673667",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
