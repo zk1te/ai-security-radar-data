@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T06:19:00+08:00",
+  "updated_at": "2026-11-09T08:19:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -28,6 +28,31 @@
       "published_at": "2026-11-08T18:47:00",
       "first_seen_at": "2026-11-08T21:43:45.004207",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 27477,
+      "title": "Chainguard 用 Anthropic Mythos 6 小时挖出十余个 RCE",
+      "original_title": "Over a dozen vulnerabilities found in 6 hours. Most were pre-auth RCE flaws.  Chainguard says its Athena system used Anthropic's Mythos to identify the flaws in a heavily tested op",
+      "summary": "Chainguard 的 Athena 系统利用 Anthropic 的 Mythos 模型，在一个经过多年审查的开源项目中发现了十余个预认证 RCE 漏洞，并在干净虚拟机中成功复现。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 82.82,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 挖洞从演示走向实战产出的标志性事件，漏洞挖掘团队应重点关注 Mythos 的能力边界，评估将其接入代码审计与安全测试流程的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2118672694652661902",
+      "reader_url": "https://x.com/TheHackersNews/status/2118672694652661902",
+      "image_url": "https://pbs.twimg.com/media/HWcJaS4bcAANWGW.jpg",
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-11-06T11:51:48",
+      "first_seen_at": "2026-11-08T23:55:09.344865",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 27975,
@@ -105,6 +130,31 @@
       "sub_category_label": null
     },
     {
+      "id": 27525,
+      "title": "ARTEX 自主渗透框架在野利用：AI 驱动攻击自动化升级",
+      "original_title": "Why governments in many countries are advising people to stockpile food and drinking water.  -----  🚨 ARTEX: AI is fundamentally changing the way cyberattacks are conducted.  ARTEX",
+      "summary": "开源多智能体渗透框架 ARTEX 被用于多国真实攻击，韩国银行泄露 820 万条记录；AhnLab 测试显示单条自然语言提示即可完成从入口发现到内网横向移动的全链路攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队该看：攻击侧已用上多智能体自主渗透，防御侧的 Agent 化必须提速。AhnLab 的测试结果值得拿来作为内部红蓝对抗演练的基准场景。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/sendhuy1/status/2118713990624985404",
+      "reader_url": "https://x.com/sendhuy1/status/2118713990624985404",
+      "image_url": null,
+      "author": {
+        "username": "sendhuy1",
+        "name": "Huy Lâm ⚡",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T14:35:53",
+      "first_seen_at": "2026-11-08T23:55:09.344865",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 27669,
       "title": "ARTEX 自动化渗透平台遭黑产武器化，AI Agent 被用于网络犯罪",
       "original_title": "#threatreport #LowCompleteness Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns | 05-11-2026 Source: https://t.co/txELZ1VAVp Key details below ↓  💀Threats: Artex_tool, Suppl",
@@ -128,6 +178,31 @@
       "published_at": "2026-11-06T21:14:25",
       "first_seen_at": "2026-11-08T13:53:50.368396",
       "sub_category_label": null
+    },
+    {
+      "id": 27468,
+      "title": "ARTEX 渗透测试框架在野滥用：被关联多起真实攻击行动",
+      "original_title": "ARTEX started as an open-source AI pentest framework. You give it a goal in plain English and the agents mostly handle the rest.  Now it’s showing up in real campaigns: banks, mini",
+      "summary": "开源 AI 渗透测试框架 ARTEX 被发现应用于针对银行、政府等数百个组织的真实攻击行动中，CrowdStrike 等机构已确认其被网络犯罪分子滥用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "原本是红队利器的 ARTEX 已沦为攻击者的大规模自动化武器。安全团队需高度警惕此类开源 Agent 滥用趋势，排查内部暴露面并更新威胁狩猎规则。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/JurajCekan/status/2118667535197303183",
+      "reader_url": "https://x.com/JurajCekan/status/2118667535197303183",
+      "image_url": null,
+      "author": {
+        "username": "JurajCekan",
+        "name": "Juraj Cekan",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T11:31:17",
+      "first_seen_at": "2026-11-08T23:55:09.344865",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 27565,
@@ -155,31 +230,6 @@
       "sub_category_label": null
     },
     {
-      "id": 27720,
-      "title": "GPT-6 Cyber自主挖掘数百0day，压缩武器化时间",
-      "original_title": "AI-augmented exploit pipelines are compressing the vulnerability-to-weaponization window from weeks to hours. GPT-6 Cyber autonomously discovered 948 Linux privilege escalation fla",
-      "summary": "GPT-6 Cyber 自主发现了 948 个 Linux 提权漏洞和 81 个 Firefox 0day，并达到 48.5% 的自主漏洞利用生成率，表明 AI 正在极大压缩漏洞武器化的时间窗口。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 漏洞挖掘能力正在将武器化时间压缩到小时级，安全团队必须重视内部东西向流量控制和运行时分段，防范攻击者利用去护栏的开源模型进行自动化提权和内网横向移动。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2118855405782622328",
-      "reader_url": "https://x.com/aviatrixtrc/status/2118855405782622328",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-11-06T23:57:49",
-      "first_seen_at": "2026-11-08T11:53:50.198935",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 27595,
       "title": "Chainguard Athena 用 Anthropic Mythos 模型 6 小时发现 12+ 个 RCE 漏洞",
       "original_title": "أداة Athena من Chainguard وجدت أكثر من 12 ثغرة في 6 ساعات — معظمهما RCE قبل التوثيق 🛡️  • أعلنت Chainguard أن نظامها Athena استخدم نموذج Mythos من Anthropic لتحديد الثغرات في مشروع",
@@ -203,56 +253,6 @@
       "published_at": "2026-11-06T17:57:49",
       "first_seen_at": "2026-11-08T19:54:30.809930",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 27628,
-      "title": "Censys披露1465个ARTEX AI渗透框架实例暴露公网",
-      "original_title": "New research from Censys has identified 1,465 internet-exposed instances of ARTEX, an AI-powered autonomous penetration testing framework previously linked to cyberattacks against ",
-      "summary": "Censys发现1465个暴露在公网的ARTEX（AI自主渗透测试框架）实例，部分与Cobalt Strike等攻击工具共存，且存在公开目录泄露利用工具的情况，该框架此前已被用于针对韩国金融机构等真实攻击活动。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和威胁狩猎人员需关注ARTEX在野滥用态势，排查自家资产是否存在误暴露，同时防御方应据此调整针对AI自动化攻击的检测规则。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RidgeSecurityAI/status/2118786044631924757",
-      "reader_url": "https://x.com/RidgeSecurityAI/status/2118786044631924757",
-      "image_url": null,
-      "author": {
-        "username": "RidgeSecurityAI",
-        "name": "Ridge Security Technology Inc.",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T19:22:12",
-      "first_seen_at": "2026-11-08T15:54:08.782813",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 27627,
-      "title": "GPT-6 Cyber 在 ExploitGym 得分 48.5%，ARTEX 控制台大规模暴露",
-      "original_title": "2/3 @OpenAI says GPT-6 Cyber scored 48.5 percent on ExploitGym and stayed within authorized scope in 99.93 percent of tests when run without its deployment prompt. Meanwhile, Censy",
-      "summary": "OpenAI 报告 GPT-6 Cyber 在安全基准 ExploitGym 上得分 48.5%，99.93% 的测试未越权；同时 Censys 发现 1,465 个暴露的 ARTEX 自主 AI 渗透测试控制台。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 73.28,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "GPT-6 Cyber 的 ExploitGym 成绩是 AI 渗透能力的硬指标，值得跟踪。1,465 个 ARTEX 控制台暴露提醒我们：AI 安全工具的部署本身也是攻击面。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SlimAssiliX/status/2118785587075584058",
-      "reader_url": "https://x.com/SlimAssiliX/status/2118785587075584058",
-      "image_url": null,
-      "author": {
-        "username": "SlimAssiliX",
-        "name": "Simo",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T19:20:23",
-      "first_seen_at": "2026-11-08T15:54:08.782813",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
