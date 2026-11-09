@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T17:51:42+08:00",
+  "updated_at": "2026-11-09T18:22:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -88,31 +88,6 @@
       "published_at": "2026-11-06T11:51:48",
       "first_seen_at": "2026-11-08T23:55:09.344865",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 27975,
-      "title": "自主渗透框架 ARTEX 在野滥用分析",
-      "original_title": "AI-powered autonomous pentesting framework ARTEX, developed in China 🇨🇳, was used in financially motivated breaches hitting seven South Korean 🇰🇷 financial institutions, exposing d",
-      "summary": "中国开发者研发的开源自主渗透框架 ARTEX 被用于攻击韩国 7 家金融机构，攻击者利用本地脚本劫持 Claude Code 前端并实际调用 DeepSeek/GLM 模型，执行了代码审计、WAF 绕过等 19 项渗透技能，泄露约 6.6 万人数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 81.08,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 安全 Agent 在黑产实战落地的罕见案例，展示了攻击者如何用 shim 脚本劫持 Claude Code 并白嫖国内大模型执行自动化渗透。红蓝双方都该看：红队可参考其技能编排，蓝队需排查 api.deepseek 异常代理和 LDAP 回调。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
-      "reader_url": "https://x.com/DFIR_Radar/status/2119158448264970465",
-      "image_url": "https://pbs.twimg.com/media/HWjDYGRa0AAM-Qk.jpg",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-07T20:02:00",
-      "first_seen_at": "2026-11-08T21:54:56.594300",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 27131,
@@ -227,6 +202,30 @@
       },
       "published_at": "2026-11-06T14:35:53",
       "first_seen_at": "2026-11-08T23:55:09.344865",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28280,
+      "title": "WorkOS 遭入侵，攻击者疑使用 AI 自主渗透框架 ARTEX",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告安全事件，称攻击者利用 AI 辅助自主渗透测试框架 ARTEX 访问其内部 API 并窃取了 CRM 数据，这是 AI 渗透工具在野利用的罕见公开案例。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透工具不再只是概念演示，ARTEX 在 WorkOS 入侵事件中的表现证明了其实战破坏力。安全团队需警惕此类自动化武器化工具的威胁扩散，重新评估防御体系对 AI 驱动攻击的承受能力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-09",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-09T00:29:28.615598",
       "sub_category_label": "安全Agent"
     }
   ]
