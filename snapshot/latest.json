@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T08:49:39+08:00",
+  "updated_at": "2026-11-09T10:19:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -130,6 +130,31 @@
       "sub_category_label": null
     },
     {
+      "id": 27403,
+      "title": "开源本地安全Agent Frame：支持五语言审计与PoC验证",
+      "original_title": "@saranormous For teams that want this without a hosted scanner: Frame is an open-source security agent that runs locally. It finds issues in 5 languages, proves what it can with a ",
+      "summary": "Frame 是一款开源本地安全Agent，支持5种语言的漏洞挖掘，并能通过求解器生成可用 PoC，在修复后自动重扫确认。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "代码安全和红队人员可直接试用这款本地开源Agent，它自带PoC验证和修复重扫闭环，能减少误报噪音。想搞AI代码审计落地的团队，值得拉下来跑一轮基准测试。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/latent_node/status/2118615576130260992",
+      "reader_url": "https://x.com/latent_node/status/2118615576130260992",
+      "image_url": null,
+      "author": {
+        "username": "latent_node",
+        "name": "Latent Node",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-06T08:04:49",
+      "first_seen_at": "2026-11-09T01:55:16.249833",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 27525,
       "title": "ARTEX 自主渗透框架在野利用：AI 驱动攻击自动化升级",
       "original_title": "Why governments in many countries are advising people to stockpile food and drinking water.  -----  🚨 ARTEX: AI is fundamentally changing the way cyberattacks are conducted.  ARTEX",
@@ -177,31 +202,6 @@
       "published_at": "2026-11-02T23:30:59",
       "first_seen_at": "2026-11-09T00:29:28.615598",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 27669,
-      "title": "ARTEX 自动化渗透平台遭黑产武器化，AI Agent 被用于网络犯罪",
-      "original_title": "#threatreport #LowCompleteness Hacking on Autopilot: Inside ARTEX Cybercrime Campaigns | 05-11-2026 Source: https://t.co/txELZ1VAVp Key details below ↓  💀Threats: Artex_tool, Suppl",
-      "summary": "研究发现 AI 驱动的 ARTEX 自动化渗透平台被黑产用于自主挖掘漏洞和发起攻击。因 Anthropic 模型存在安全护栏，攻击者转用 DeepSeek 等模型以避开限制。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 75.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 自动化攻击已从概念走向黑产实战！这份报告披露了 ARTEX 平台的滥用细节和具体 TTP，对研究 Agent 安全边界极具参考价值。防御团队应密切关注此类武器化 Agent 的模型选择动态与自动化攻击路径。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2118814285245669613",
-      "reader_url": "https://x.com/rst_cloud/status/2118814285245669613",
-      "image_url": "https://pbs.twimg.com/media/HWeKXQrWgAAJHGH.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-06T21:14:25",
-      "first_seen_at": "2026-11-08T13:53:50.368396",
-      "sub_category_label": null
     },
     {
       "id": 28254,
