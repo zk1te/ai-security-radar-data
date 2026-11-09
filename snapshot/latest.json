@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T06:26:09+08:00",
+  "updated_at": "2026-11-10T07:56:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -130,26 +130,6 @@
       "sub_category_label": null
     },
     {
-      "id": 28537,
-      "title": "Cloudflare 安全审计 Agent 技能上榜，多阶段审计结果可机读",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare 开源的 security-audit-skill 是面向编码代理的安全审计技能，支持多阶段审计并生成独立验证、机器可读的结果，近期 GitHub Star 周增约 1700。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可直接集成到 Agent 工作流中做自动化代码审计，结果可机读便于流水线消费。值得试跑验证其审计准确率和覆盖面。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-09&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-09&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-09T11:45:39.086301",
-      "first_seen_at": "2026-11-09T11:49:10.254306",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 28190,
       "title": "Anthropic用Claude生成1.8亿行Rocq证明，规模化形式化验证成为可能",
       "original_title": "2️⃣ Anthropic’s research paper (*“LLMs are making formal software verification feasible at scale”*, October 2026) directly addresses the fifty-year-old economic bottleneck that pre",
@@ -222,6 +202,31 @@
       },
       "published_at": "2026-11-08T13:56:09",
       "first_seen_at": "2026-11-09T15:57:26.200714",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28218,
+      "title": "GCSA安全代理检测到BlockBeats搜索页注入攻击",
+      "original_title": "🚨 On Oct 22, GCSA Security Agent detected a DarkSword-linked script injection on the BlockBeats search page targeting iPhone crypto wallets without requiring user interaction. Bloc",
+      "summary": "GCSA Security Agent 检测到 BlockBeats 搜索页面被注入与 DarkSword 相关的恶意脚本，可在无需用户交互的情况下窃取 iPhone 加密钱包资产，目前已修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了安全 Agent 在实际威胁狩猎和监控中的落地效果。安全团队可关注此类针对加密钱包的零点击注入攻击链，并评估自身安全 Agent 的检测覆盖面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+      "reader_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+      "image_url": "https://pbs.twimg.com/media/HWoR5fQaEAAcMVt.jpg",
+      "author": {
+        "username": "GCSA_COM",
+        "name": "GCSA",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T20:24:14",
+      "first_seen_at": "2026-11-09T21:58:09.785239",
       "sub_category_label": "安全Agent"
     }
   ]
