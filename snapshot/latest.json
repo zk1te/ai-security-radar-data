@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:59:51+08:00",
+  "updated_at": "2026-11-10T22:30:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -120,6 +120,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 29011,
+      "title": "Leash：AI Agent 驱动的 OWASP Top 10 扫描与 Fuzzing 工具",
+      "original_title": "leash is not a scanner — it's generic primitives the agent drives: it runs OWASP top 10 checks against your own dev app, picking endpoints, params and payloads for whatever you bui",
+      "summary": "Leash 是一款由 Agent 驱动的安全测试插件，可针对开发应用自动执行 OWASP Top 10 检查与 Payload Fuzzing，内置 Canary 泄露检测与证据报告，且通过 fail-closed 机制限制运行范围。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "面向 Web 安全与 Agent 自动化测试从业者，展示了如何将 LLM Agent 安全地集成到扫描工作流中（token 不外泄、无授权不执行）。可作为构建安全测试 Agent 的参考实现。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ariasnico/status/2120160137331487110",
+      "reader_url": "https://x.com/ariasnico/status/2120160137331487110",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120160051901947904/img/Qmj5Oj4GIOCIeF5H.jpg",
+      "author": {
+        "username": "ariasnico",
+        "name": "Nico Arias",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-10T14:22:22",
+      "first_seen_at": "2026-11-10T14:28:58.754970",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 28314,
       "title": "Scantist发布GLM-5.3-SLIM-GGUF，推进自主渗透测试愿景",
       "original_title": "GLM-5.3-SLIM-GGUF: Local AI for Coding and Reasoning  Thanks @HuggingModels for spotlighting our release—and thanks to everyone exploring it!  Here’s what developers and researcher",
@@ -213,31 +238,6 @@
       "published_at": "2026-11-10T05:49:30",
       "first_seen_at": "2026-11-10T06:04:47.817991",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 28871,
-      "title": "体验Termix与GoPlus安全Agent：交易前预检设想",
-      "original_title": "had some free time between conference sessions so i went through the security trials @termix_ai ran with GoPlus DeepScan  been following their agent-to-agent stuff for a while  so ",
-      "summary": "作者体验了Termix平台结合GoPlus DeepScan的合约安全扫描服务，并设想交易Agent自主雇佣安全Agent进行预扫描的协作模式。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.58,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全从业者应关注这种Agent-to-Agent安全服务编排模式。它展示了安全扫描如何作为微服务嵌入自动化交易流程，为安全Agent的商业落地提供了参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/WYdaGOAT/status/2120077215618736566",
-      "reader_url": "https://x.com/WYdaGOAT/status/2120077215618736566",
-      "image_url": "https://pbs.twimg.com/media/HWwG-ODbkAAQikC.jpg",
-      "author": {
-        "username": "WYdaGOAT",
-        "name": "KennyW",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-10T08:52:51",
-      "first_seen_at": "2026-11-10T09:22:49.444495",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
