@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T05:03:38+08:00",
+  "updated_at": "2026-11-11T05:33:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 28430,
@@ -128,31 +128,6 @@
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-10T20:53:20.701694",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 28870,
-      "title": "Claude Fable 5.2 在多阶段网络攻击与漏洞发现评测中击败 GPT-6 Cyber",
-      "original_title": "⚡ Anthropic's new Claude Fable 5.2 beats OpenAI's GPT-6 Cyber in multi-stage cyberattack tests.  76.3% vs. 61% challenge completion.  It also scored 89.6% on a benchmark for redisc",
-      "summary": "Claude Fable 5.2 在多阶段网络攻击测试中以 76.3% 完成率击败 GPT-6 Cyber 的 61%，并在已知漏洞重发现基准上得分 89.6%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 73.68,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "大模型在多阶段攻击和漏洞复现上的数据持续攀升，安全团队需密切关注这些评测结果背后的实际可用性。建议立即跟进并对比其在红队自动化任务中的真实落地表现。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2120068479479074966",
-      "reader_url": "https://x.com/TheHackersNews/status/2120068479479074966",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-11-10T08:18:09",
-      "first_seen_at": "2026-11-10T09:22:49.169442",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 29073,
