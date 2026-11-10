@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:59:42+08:00",
+  "updated_at": "2026-11-10T21:59:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -120,31 +120,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 28304,
-      "title": "开源 AI 渗透工具 Artex 服务器暴露，疑遭外部利用",
-      "original_title": "Hundreds of Artex servers were left exposed online. 📰 The open-source Chinese AI penetration-testing tool has been linked to attacks since July, and outsiders could potentially use",
-      "summary": "开源 AI 渗透测试工具 Artex 的数百台服务器在线暴露，自 7 月起已被关联到攻击活动，存在被利用作为攻击跳板的风险。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 68.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "使用和部署开源 AI 渗透工具的团队务必排查自身 Artex 实例的暴露面。AI 安全工具若部署不当，不仅无法保障安全反而会沦为攻击者的武器。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/mamiferolab/status/2119601017268375953",
-      "reader_url": "https://x.com/mamiferolab/status/2119601017268375953",
-      "image_url": null,
-      "author": {
-        "username": "mamiferolab",
-        "name": "Mamífero",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-09T01:20:37",
-      "first_seen_at": "2026-11-10T01:58:48.708565",
-      "sub_category_label": null
-    },
-    {
       "id": 28314,
       "title": "Scantist发布GLM-5.3-SLIM-GGUF，推进自主渗透测试愿景",
       "original_title": "GLM-5.3-SLIM-GGUF: Local AI for Coding and Reasoning  Thanks @HuggingModels for spotlighting our release—and thanks to everyone exploring it!  Here’s what developers and researcher",
@@ -238,6 +213,31 @@
       "published_at": "2026-11-10T05:49:30",
       "first_seen_at": "2026-11-10T06:04:47.817991",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 28871,
+      "title": "体验Termix与GoPlus安全Agent：交易前预检设想",
+      "original_title": "had some free time between conference sessions so i went through the security trials @termix_ai ran with GoPlus DeepScan  been following their agent-to-agent stuff for a while  so ",
+      "summary": "作者体验了Termix平台结合GoPlus DeepScan的合约安全扫描服务，并设想交易Agent自主雇佣安全Agent进行预扫描的协作模式。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.58,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全从业者应关注这种Agent-to-Agent安全服务编排模式。它展示了安全扫描如何作为微服务嵌入自动化交易流程，为安全Agent的商业落地提供了参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/WYdaGOAT/status/2120077215618736566",
+      "reader_url": "https://x.com/WYdaGOAT/status/2120077215618736566",
+      "image_url": "https://pbs.twimg.com/media/HWwG-ODbkAAQikC.jpg",
+      "author": {
+        "username": "WYdaGOAT",
+        "name": "KennyW",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-10T08:52:51",
+      "first_seen_at": "2026-11-10T09:22:49.444495",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
