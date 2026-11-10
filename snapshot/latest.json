@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T05:33:44+08:00",
+  "updated_at": "2026-11-11T07:46:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 28430,
@@ -88,6 +88,30 @@
       "published_at": "2026-11-10T17:10:07",
       "first_seen_at": "2026-11-10T19:26:41.870559",
       "sub_category_label": null
+    },
+    {
+      "id": 29253,
+      "title": "VulnCheck 评测：Glasswing 七个月产出质量平平却压垮维护者",
+      "original_title": "HN Hot Discussion: After 7 Months, Glasswing Overwelms Maintainers with Underwhelming Findings",
+      "summary": "VulnCheck 发布 Anthropic Project Glasswing 七个月实战跟踪结果，指出其大量低质量漏洞报告给开源维护者带来沉重负担，实际价值低于预期。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 漏洞挖掘工具规模化落地的关键痛点——误报和维护者负担被真实数据暴露。安全团队评估 AI 辅助漏洞发现方案时必须考虑这个反例，不要只看 demo 效果。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-10",
+      "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-10",
+      "image_url": null,
+      "author": {
+        "username": "panic",
+        "name": "panic",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-10T22:17:56",
+      "first_seen_at": "2026-11-10T23:30:21.665989",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 28440,
