@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-10T13:58:05+08:00",
+  "updated_at": "2026-11-10T14:58:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
+    {
+      "id": 28839,
+      "title": "DeepMind 用 AI 正式验证 Signal 协议安全性",
+      "original_title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+      "summary": "Google DeepMind 研究人员利用新 AI 工具成功对 Signal 加密协议进行了形式化验证，并计划将该技术扩展至全球软件的安全验证。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 80.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 在形式化验证领域的重大进展，标志着 AI 从辅助漏洞挖掘向深层密码学协议证明迈进。安全团队应关注此类工具如何改变代码审计与协议审查流程。",
+      "source_id": "wired-ai",
+      "canonical_url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol",
+      "reader_url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-10T05:01:00",
+      "first_seen_at": "2026-11-10T06:43:11.331852",
+      "sub_category_label": null
+    },
     {
       "id": 28732,
       "title": "WorkOS遭入侵，疑由AI自主渗透框架ARTEX驱动",
@@ -196,31 +216,6 @@
       "published_at": "2026-11-08T22:19:11",
       "first_seen_at": "2026-11-09T23:58:23.499637",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 28651,
-      "title": "ARTEX：LLM 驱动的自动化渗透框架在野攻击 AWS",
-      "original_title": "ARTEX, an AI-native autonomous penetration framework tied to Chinese 🇨🇳 Storm-0940, was observed attacking live AWS environments in October 2026, hunting for financial data, secret",
-      "summary": "Storm-0940 组织使用 AI 原生渗透平台 ARTEX 攻击 AWS 环境，通过泄露的 IAM 密钥和公开 Cognito 池窃取数据。报告披露了其多模型轮换机制与具体检测特征。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 68.94,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 渗透 Agent 黑产化的铁证。云安全和威胁狩猎团队需立即排查 CloudTrail 中 limit=1000 的 FilterLogEvents 异常、特定测试性 S3 请求及相关 IP 和 UA。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
-      "reader_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
-      "image_url": "https://pbs.twimg.com/media/HWs7FuRbkAAcNRp.png",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-09T18:02:00",
-      "first_seen_at": "2026-11-09T18:37:21.026784",
-      "sub_category_label": null
     }
   ]
 }
