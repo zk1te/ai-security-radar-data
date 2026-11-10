@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:27:55+08:00",
+  "updated_at": "2026-11-10T13:58:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -29,31 +29,6 @@
       "sub_category_label": null
     },
     {
-      "id": 28193,
-      "title": "Cloudflare 开源 AI 安全审计技能：多 Agent 协作挖掘与验证漏洞",
-      "original_title": "Cloudflare open-sourced its AI-powered security audit skill.  It turns coding agents into security auditors, using multiple agents to hunt vulnerabilities and independently verify ",
-      "summary": "Cloudflare 开源了 AI 安全审计技能，可将编码 Agent 转化为安全审计员，利用多 Agent 机制搜寻漏洞并独立验证发现结果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "Cloudflare 开源的这套多 Agent 审计方案展示了 AI 在漏洞挖掘与自动化验证上的落地形态。做代码审计和红队工具化的同学建议立刻看仓库，研究其多 Agent 协同与验证闭环设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Oladizz01/status/2119478597794803851",
-      "reader_url": "https://x.com/Oladizz01/status/2119478597794803851",
-      "image_url": null,
-      "author": {
-        "username": "Oladizz01",
-        "name": "𝕆𝕃𝔸𝔻𝕀ℤℤ",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-08T17:14:10",
-      "first_seen_at": "2026-11-09T17:57:39.710578",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 28752,
       "title": "开源风控平台 Kairos：用 LLM 与 MCP 实现欺诈检测自动化",
       "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
@@ -76,31 +51,6 @@
       "published_at": "2026-11-03T21:16:48",
       "first_seen_at": "2026-11-10T00:45:56.175212",
       "sub_category_label": null
-    },
-    {
-      "id": 28191,
-      "title": "Anthropic 用形式化验证颠覆传统 Fuzzing，发现 libexpat 等 0day",
-      "original_title": "3️⃣ ## 1. Dijkstra’s Dictum and the Limits of Fuzzing  In 1970, Edsger Dijkstra formulated his foundational maxim:  >>> *\"Program testing can be used to show the presence of bugs, ",
-      "summary": "Anthropic 与 Theorem 将 Fuzz 测试入口点转化为形式化数学规范以验证全状态空间，证明了代码的内存安全并发现了数百个漏洞，包括在已被广泛 Fuzz 的库中的 0day。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 75.5,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需关注 Anthropic 展示的「Fuzz 转形式化验证」新范式。该确定性方法突破了传统 Fuzzing 的覆盖率瓶颈并发现 libexpat 等 0day，提示我们重新评估自动化漏洞挖掘的路径。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/francescofaenzi/status/2119475061006680076",
-      "reader_url": "https://x.com/francescofaenzi/status/2119475061006680076",
-      "image_url": null,
-      "author": {
-        "username": "francescofaenzi",
-        "name": "francescofaenzi",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-08T17:00:07",
-      "first_seen_at": "2026-11-09T17:57:39.710578",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 28784,
@@ -146,31 +96,6 @@
       "published_at": "2026-11-09T02:32:57",
       "first_seen_at": "2026-11-10T03:58:52.455496",
       "sub_category_label": null
-    },
-    {
-      "id": 28190,
-      "title": "Anthropic用Claude生成1.8亿行Rocq证明，规模化形式化验证成为可能",
-      "original_title": "2️⃣ Anthropic’s research paper (*“LLMs are making formal software verification feasible at scale”*, October 2026) directly addresses the fifty-year-old economic bottleneck that pre",
-      "summary": "Anthropic研究表明，Claude生成约1.8亿行Rocq（原Coq）证明代码，验证了123个开源库中239个模糊测试入口点，突破了形式化验证数十年的经济瓶颈，将经典形式语义与现代自动化推理结合。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 71.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "形式化验证一直因成本高昂难以规模化，LLM直接生成证明代码可能彻底改变这个局面。做代码审计和漏洞挖掘的人该关注——如果AI能批量产出可验证的形式证明，开源库安全审计的范式可能被重写，尽早评估Rocq/Coq工具链与自家AI安全流程的结合点。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/francescofaenzi/status/2119475048784580704",
-      "reader_url": "https://x.com/francescofaenzi/status/2119475048784580704",
-      "image_url": null,
-      "author": {
-        "username": "francescofaenzi",
-        "name": "francescofaenzi",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-08T17:00:04",
-      "first_seen_at": "2026-11-09T17:57:39.710578",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 28223,
@@ -221,6 +146,81 @@
       "published_at": "2026-11-08T22:51:19",
       "first_seen_at": "2026-11-09T23:58:23.499637",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28218,
+      "title": "GCSA安全代理检测到BlockBeats搜索页注入攻击",
+      "original_title": "🚨 On Oct 22, GCSA Security Agent detected a DarkSword-linked script injection on the BlockBeats search page targeting iPhone crypto wallets without requiring user interaction. Bloc",
+      "summary": "GCSA Security Agent 检测到 BlockBeats 搜索页面被注入与 DarkSword 相关的恶意脚本，可在无需用户交互的情况下窃取 iPhone 加密钱包资产，目前已修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了安全 Agent 在实际威胁狩猎和监控中的落地效果。安全团队可关注此类针对加密钱包的零点击注入攻击链，并评估自身安全 Agent 的检测覆盖面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+      "reader_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+      "image_url": "https://pbs.twimg.com/media/HWoR5fQaEAAcMVt.jpg",
+      "author": {
+        "username": "GCSA_COM",
+        "name": "GCSA",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T20:24:14",
+      "first_seen_at": "2026-11-09T21:58:09.785239",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28243,
+      "title": "OpenAI 新 AI 发现 Firefox 81 个漏洞",
+      "original_title": "OpenAI's New AI Found 81 Firefox Vulnerabilities. Are Human Hackers Losing Their Advantage?",
+      "summary": "OpenAI 的新 AI 系统在 Firefox 浏览器中发现了 81 个漏洞，引发关于 AI 是否在漏洞挖掘领域取代人类黑客优势的讨论。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.91,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 自动化漏洞挖掘实战又出圈。安全团队应密切关注大模型在真实代码审计中的规模化产出能力，评估是否能将其引入自身漏洞挖掘或代码审计工作流以提升效率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/apnovus/status/2119555358150778894",
+      "reader_url": "https://x.com/apnovus/status/2119555358150778894",
+      "image_url": null,
+      "author": {
+        "username": "apnovus",
+        "name": "Adarsh Pandey",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T22:19:11",
+      "first_seen_at": "2026-11-09T23:58:23.499637",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 28651,
+      "title": "ARTEX：LLM 驱动的自动化渗透框架在野攻击 AWS",
+      "original_title": "ARTEX, an AI-native autonomous penetration framework tied to Chinese 🇨🇳 Storm-0940, was observed attacking live AWS environments in October 2026, hunting for financial data, secret",
+      "summary": "Storm-0940 组织使用 AI 原生渗透平台 ARTEX 攻击 AWS 环境，通过泄露的 IAM 密钥和公开 Cognito 池窃取数据。报告披露了其多模型轮换机制与具体检测特征。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 68.94,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 AI 渗透 Agent 黑产化的铁证。云安全和威胁狩猎团队需立即排查 CloudTrail 中 limit=1000 的 FilterLogEvents 异常、特定测试性 S3 请求及相关 IP 和 UA。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
+      "reader_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
+      "image_url": "https://pbs.twimg.com/media/HWs7FuRbkAAcNRp.png",
+      "author": {
+        "username": "DFIR_Radar",
+        "name": "DFIR Radar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-09T18:02:00",
+      "first_seen_at": "2026-11-09T18:37:21.026784",
+      "sub_category_label": null
     }
   ]
 }
