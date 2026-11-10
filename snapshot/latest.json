@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T10:27:13+08:00",
+  "updated_at": "2026-11-10T11:27:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -123,31 +123,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 28575,
-      "title": "SpikeStrip 开源项目利用诱饵对抗 AI 渗透测试 Agent",
-      "original_title": "AI-powered penetration testing is changing more than how vulnerabilities are discovered. It is also creating new opportunities for defenders to influence what autonomous agents see",
-      "summary": "Jason Haddix 发布了开源项目 SpikeStrip，通过伪造漏洞线索、提示注入诱饵和数学陷阱来干扰自主 AI 渗透测试 Agent，探讨了防御者如何提高 AI 驱动攻击的成本。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent | agent_security",
-      "score_total": 71.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透测试 Agent 正在快速落地，防守方必须开始研究针对 Agent 认知的欺骗技术。安全团队应立即测试 SpikeStrip，评估它在实际环境中对自动化红队工具的干扰效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CybrSecEvents/status/2119807772137267263",
-      "reader_url": "https://x.com/CybrSecEvents/status/2119807772137267263",
-      "image_url": "https://pbs.twimg.com/media/HWsRtFca0AAlBgJ.jpg",
-      "author": {
-        "username": "CybrSecEvents",
-        "name": "CYBR.SEC.Events",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-09T15:02:11",
-      "first_seen_at": "2026-11-09T15:12:20.466319",
-      "sub_category_label": null
-    },
-    {
       "id": 28190,
       "title": "Anthropic用Claude生成1.8亿行Rocq证明，规模化形式化验证成为可能",
       "original_title": "2️⃣ Anthropic’s research paper (*“LLMs are making formal software verification feasible at scale”*, October 2026) directly addresses the fifty-year-old economic bottleneck that pre",
@@ -220,6 +195,31 @@
       },
       "published_at": "2026-11-08T13:56:09",
       "first_seen_at": "2026-11-09T15:57:26.200714",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28245,
+      "title": "KaliGPT：面向 Kali Linux 的 AI 渗透测试助手",
+      "original_title": "I have onboarded the creator of a 1k star GitHub Tech named : “KaliGPT”  KaliGPT is an AI-powered penetration testing assistant built for Kali Linux. It helps users understand term",
+      "summary": "KaliGPT 是一款开源的 AI 渗透测试助手，能帮助用户解读终端结果、推荐下一步操作、生成命令与 payload 并在授权下执行，现已建立官方合作渠道。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "适合关注安全 Agent 落地的安全工程师参考，可借鉴其如何将 LLM 与 Kali 终端工具链结合以实现半自动化渗透流程，同时需注意评估其代为执行系统命令时的权限控制风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/e7v1s1/status/2119563443233566879",
+      "reader_url": "https://x.com/e7v1s1/status/2119563443233566879",
+      "image_url": "https://pbs.twimg.com/media/HWon9NuW4AAPjYL.jpg",
+      "author": {
+        "username": "e7v1s1",
+        "name": "e7",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T22:51:19",
+      "first_seen_at": "2026-11-09T23:58:23.499637",
       "sub_category_label": "安全Agent"
     }
   ]
