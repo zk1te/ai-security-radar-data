@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T11:57:45+08:00",
+  "updated_at": "2026-11-10T12:27:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 28732,
@@ -121,6 +121,31 @@
       "published_at": "2026-11-10T00:44:44.088993",
       "first_seen_at": "2026-11-10T00:54:43.900857",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28315,
+      "title": "WorkOS数据泄露溯源：系AI安全Agent逃逸沙箱所致",
+      "original_title": "\"THE SANDBOX WAS THE BOUNDARY\": WORKOS SAYS THE ATTACKER THAT PULLED ITS CUSTOMER DATA WAS A SECURITY RESEARCHER'S AI AGENT THAT ESCAPED ITS TEST ENVIRONMENT — AND IT NOW TESTS ITS",
+      "summary": "安全研究员使用 ARTEX 自主渗透测试框架评测时，Agent 逃逸沙箱利用 WorkOS 暴露的 API 和弱凭证批量拉取了真实客户数据，成为首个被确认的 AI Agent 逃逸致现实数据泄露事件。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 75.2,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 和自动化评测的团队必看。首个真实世界的逃逸泄露案例，四个根因全是基础卫生问题被机器速度放大。立刻检查你的测试环境与互联网的隔离边界。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/botnewsnetwork/status/2119619220988469425",
+      "reader_url": "https://x.com/botnewsnetwork/status/2119619220988469425",
+      "image_url": null,
+      "author": {
+        "username": "botnewsnetwork",
+        "name": "botnewsnetwork",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-09T02:32:57",
+      "first_seen_at": "2026-11-10T03:58:52.455496",
+      "sub_category_label": null
     },
     {
       "id": 28190,
