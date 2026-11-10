@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:02:44+08:00",
+  "updated_at": "2026-11-11T03:32:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -22,6 +22,31 @@
       "author": null,
       "published_at": "2026-11-10T12:02:28",
       "first_seen_at": "2026-11-10T12:51:01.778682",
+      "sub_category_label": null
+    },
+    {
+      "id": 29150,
+      "title": "OpenAI 将举办「Cyber at the Frontier」活动，分享 AI 漏洞挖掘经验与新安全工具",
+      "original_title": "We're turning our lessons from defending OpenAI into practical tools for our customers. On Thursday, join us at Cyber at the Frontier, a live keynote, for our latest cyber announce",
+      "summary": "OpenAI 宣布将于 11 月 12 日举办安全主题演讲，分享其利用前沿模型在内部代码和基础设施中发现并修复漏洞的经验，并计划发布基于这些经验构建的安全工具和防御手册。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery",
+      "score_total": 79.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "OpenAI 官方下场把内部 AI 漏洞挖掘经验产品化，这对关注 AI 辅助安全的从业者是风向标。建议关注后续发布的工具和 playbook，看大厂如何把模型能力沉淀为实战安全流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2120202353907486826",
+      "reader_url": "https://x.com/OpenAI/status/2120202353907486826",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120202060255928320/img/UsvVqShqoZcUGVhy.jpg",
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-10T17:10:07",
+      "first_seen_at": "2026-11-10T19:26:41.870559",
       "sub_category_label": null
     },
     {
@@ -198,26 +223,6 @@
       "published_at": "2026-11-10T08:15:31",
       "first_seen_at": "2026-11-10T08:17:35.070463",
       "sub_category_label": "威胁情报"
-    },
-    {
-      "id": 28893,
-      "title": "Meta 发布 Muse Ember 小模型：主打 Agent 任务与高效推理",
-      "original_title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
-      "summary": "Meta 发布最小且最高效的模型 Muse Ember，专为 Agent 日常工具调用、代码子任务和长文档解析设计。在 Artificial Analysis 评测中，该模型位于帕累托效率前沿，性价比极高。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 65.85,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Muse Ember 专为 Agent 高频工具调用优化且价格低廉，对于想要低成本跑安全自动化任务（如代码审计、日志解析）的团队来说，是极具性价比的模型选型新选项。",
-      "source_id": "simon-willison",
-      "canonical_url": "https://simonwillison.net/2026/Nov/10/muse-ember",
-      "reader_url": "https://simonwillison.net/2026/Nov/10/muse-ember",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-10T07:28:21",
-      "first_seen_at": "2026-11-10T10:01:57.469113",
-      "sub_category_label": "模型评测"
     }
   ]
 }
