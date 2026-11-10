@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T22:30:13+08:00",
+  "updated_at": "2026-11-10T23:00:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 28973,
@@ -213,31 +213,6 @@
       "published_at": "2026-11-10T07:28:21",
       "first_seen_at": "2026-11-10T10:01:57.469113",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 28830,
-      "title": "传闻GPT-6 Cyber实现自动化漏洞挖掘大跃升",
-      "original_title": "OpenAI's GPT-6 Cyber has demonstrated a significant leap in autonomous cybersecurity research.  Some results:  - Developed 948 working exploits for Linux kernel vulnerabilities. - ",
-      "summary": "社交媒体传闻称 OpenAI 的 GPT-6 Cyber 模型在自动化网络安全研究中取得突破，声称开发了 948 个 Linux 内核漏洞利用并发现 81 个未知 Firefox 高危漏洞，性能较前代提升 51%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 65.76,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "虽可能是传闻或未验证数据，但其描述的 AI 批量产出内核级 exploit 与 0day 发现能力，正是 AI for Sec 的终极愿景与威胁预演。漏洞研究团队应密切关注此类能力演进，提前评估未来防御和补丁管理的压力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rohasnagpal/status/2120031071492559170",
-      "reader_url": "https://x.com/rohasnagpal/status/2120031071492559170",
-      "image_url": null,
-      "author": {
-        "username": "rohasnagpal",
-        "name": "Rohas Nagpal",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-10T05:49:30",
-      "first_seen_at": "2026-11-10T06:04:47.817991",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
