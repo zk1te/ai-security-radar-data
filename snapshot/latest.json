@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T08:26:35+08:00",
+  "updated_at": "2026-11-10T08:56:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 28732,
@@ -54,6 +54,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 28752,
+      "title": "开源风控平台 Kairos：用 LLM 与 MCP 实现欺诈检测自动化",
+      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "summary": "开源风控决策平台 Kairos 结合大模型与传统机器学习解决标注数据不足问题，并引入 MCP server 让 AI Agent 自动定义风控工作流和训练模型，以对抗欺诈战术变化。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "fraud_detection",
+      "score_total": 75.88,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全风控从业者值得一看。该工具展示了如何用 Agent（如 Claude Code）解决反欺诈中规则易失效和标注数据少的痛点，是 AI 辅助风控落地的直接参考。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-10",
+      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-10",
+      "image_url": null,
+      "author": {
+        "username": "ayanb9440",
+        "name": "ayanb9440",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-03T21:16:48",
+      "first_seen_at": "2026-11-10T00:45:56.175212",
+      "sub_category_label": null
+    },
+    {
       "id": 28191,
       "title": "Anthropic 用形式化验证颠覆传统 Fuzzing，发现 libexpat 等 0day",
       "original_title": "3️⃣ ## 1. Dijkstra’s Dictum and the Limits of Fuzzing  In 1970, Edsger Dijkstra formulated his foundational maxim:  >>> *\"Program testing can be used to show the presence of bugs, ",
@@ -77,6 +101,26 @@
       "published_at": "2026-11-08T17:00:07",
       "first_seen_at": "2026-11-09T17:57:39.710578",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 28784,
+      "title": "Cloudflare 开源安全审计 Agent 技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 发布名为 security-audit-skill 的开源编码 Agent 技能，支持多阶段安全审计并产出独立验证的机器可读结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "给开发安全 Agent 或做自动化代码审计的人看：Cloudflare 开源的这项技能展示了多阶段审计且结果可机器验证的落地思路，值得直接拆解其实现细节。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-10&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-10&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-10T00:44:44.088993",
+      "first_seen_at": "2026-11-10T00:54:43.900857",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 28144,
@@ -177,81 +221,6 @@
       "published_at": "2026-11-08T17:00:04",
       "first_seen_at": "2026-11-09T17:57:39.710578",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 28223,
-      "title": "开源安全Agent Michael升级：模拟审计员做代码审查",
-      "original_title": "🛡️ Michael just got sharper.  Our open-source security agent for Claude Code now reviews like a real auditor, not a checklist:  🎯 threat model first 🔍 every finding quotes the exac",
-      "summary": "面向 Claude Code 的开源安全 Agent Michael 迎来更新，强调优先做威胁建模、追踪攻击者可达性，并集成 osv-scanner 进行依赖 CVE 检测。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做自动化代码审计的安全工程师该看。它不是简单的静态扫描，而是模拟人工审计思路，引入可达性分析和未决状态追踪，这套 Agent 逻辑设计非常值得借鉴或直接拿来测试。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/falcothebard/status/2119534247371583894",
-      "reader_url": "https://x.com/falcothebard/status/2119534247371583894",
-      "image_url": null,
-      "author": {
-        "username": "falcothebard",
-        "name": "Falco Schäfer",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-08T20:55:18",
-      "first_seen_at": "2026-11-09T21:58:09.785239",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 28152,
-      "title": "Cloudflare 开源安全审计 skill：用验证 Agent 证伪漏洞发现",
-      "original_title": "a security agent should try to prove its own findings wrong.  cloudflare's open security-audit skill sends agents hunting for bugs, then gives a fresh verifier the job of challengi",
-      "summary": "Cloudflare 开源 security-audit skill 采用双 Agent 架构：一个 Agent 挖漏洞，另一个全新 verifier Agent 专门挑战每个发现。核心思路是「发现吓人的漏洞容易，证明它真实才有用」，通过对抗式验证降低误报。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全 Agent 的人该看：LLM 审计最大痛点是误报爆炸，Cloudflare 让独立 verifier Agent 专干证伪来过滤假阳性。这个 hunter+verifier 对抗模式可以直接抄进你的安全 Agent 流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/lenny_enderle/status/2119428765956600018",
-      "reader_url": "https://x.com/lenny_enderle/status/2119428765956600018",
-      "image_url": "https://pbs.twimg.com/media/HWm5OvpWMAAAQDA.jpg",
-      "author": {
-        "username": "lenny_enderle",
-        "name": "Lenny Enderle",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-08T13:56:09",
-      "first_seen_at": "2026-11-09T15:57:26.200714",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 28245,
-      "title": "KaliGPT：面向 Kali Linux 的 AI 渗透测试助手",
-      "original_title": "I have onboarded the creator of a 1k star GitHub Tech named : “KaliGPT”  KaliGPT is an AI-powered penetration testing assistant built for Kali Linux. It helps users understand term",
-      "summary": "KaliGPT 是一款开源的 AI 渗透测试助手，能帮助用户解读终端结果、推荐下一步操作、生成命令与 payload 并在授权下执行，现已建立官方合作渠道。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "适合关注安全 Agent 落地的安全工程师参考，可借鉴其如何将 LLM 与 Kali 终端工具链结合以实现半自动化渗透流程，同时需注意评估其代为执行系统命令时的权限控制风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/e7v1s1/status/2119563443233566879",
-      "reader_url": "https://x.com/e7v1s1/status/2119563443233566879",
-      "image_url": "https://pbs.twimg.com/media/HWon9NuW4AAPjYL.jpg",
-      "author": {
-        "username": "e7v1s1",
-        "name": "e7",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-08T22:51:19",
-      "first_seen_at": "2026-11-09T23:58:23.499637",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
