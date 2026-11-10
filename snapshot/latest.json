@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T19:59:07+08:00",
+  "updated_at": "2026-11-10T20:29:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -22,30 +22,6 @@
       "author": null,
       "published_at": "2026-11-10T05:01:00",
       "first_seen_at": "2026-11-10T06:43:11.331852",
-      "sub_category_label": null
-    },
-    {
-      "id": 28732,
-      "title": "WorkOS遭入侵，疑由AI自主渗透框架ARTEX驱动",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS报告安全事件，称攻击者疑似使用名为ARTEX的AI辅助自主渗透测试框架访问其内部API，并窃取了CRM与客户支持数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "autonomous_pentest",
-      "score_total": 77.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这可能是首批在野使用「AI自主渗透测试框架」发起真实攻击的公开案例。安全团队需警惕AI自动化攻击工具的产业化趋势，立即排查面向公网的内部API暴露面。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-10T00:25:50.773176",
       "sub_category_label": null
     },
     {
@@ -214,6 +190,30 @@
       },
       "published_at": "2026-11-09T01:20:37",
       "first_seen_at": "2026-11-10T01:58:48.708565",
+      "sub_category_label": null
+    },
+    {
+      "id": 28758,
+      "title": "Anthropic 探讨 Agent 记忆系统的核心组件",
+      "original_title": "HN Hot Discussion: The Components of Agent Memory",
+      "summary": "Anthropic 发布关于 Agent 记忆组件的研究，剖析了智能体记忆的构成要素与工作方式，为构建复杂 Agent 提供架构参考。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "agent_architecture",
+      "score_total": 67.96,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "记忆系统是 Agent 保持状态的核心，也是上下文注入和数据投毒的关键攻击面。做 Agent 安全和自动化任务的从业者需借此了解记忆层的安全边界。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50402212&hn_hot_date=2026-11-10",
+      "reader_url": "https://news.ycombinator.com/item?id=50402212&hn_hot_date=2026-11-10",
+      "image_url": null,
+      "author": {
+        "username": "geoffbp",
+        "name": "geoffbp",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-07T06:39:04",
+      "first_seen_at": "2026-11-10T00:46:41.989817",
       "sub_category_label": null
     }
   ]
