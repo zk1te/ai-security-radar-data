@@ -1,0 +1,1290 @@
+{
+  "date": "2026-11-10",
+  "candidate_count": 19,
+  "selected_count": 3,
+  "cover_title": "AI 形式化验证突破：AlphaProof Code 深度验证 Signal 核心加",
+  "lead_takeaway": "今天的主线是AI自动化攻防在实战中全面落地。从DeepMind用大模型搞定Signal核心加密的形式化验证，到Cloudflare开源多Agent漏洞挖掘工具，再到疑似AI自主渗透框架在野打穿WorkOS，AI已经不再是画饼，而是直接接管了深度代码审计和自动化渗透的脏活累活。",
+  "digest_points": [
+    "01 做密码学实现审计和高 assurance 软件验证的人必看——这是 AI 形式化验证首次在真实大规模加密库上落地，如果方法可复用，将直接改变高安全代码审计的成本结构。",
+    "02 这可能是首批在野使用「AI自主渗透测试框架」发起真实攻击的公开案例。安全团队需警惕AI自动化攻击工具的产业化趋势，立即排查面向公网的内部API暴露面。",
+    "03 Cloudflare 开源的这套多 Agent 审计方案展示了 AI 在漏洞挖掘与自动化验证上的落地形态。做代码审计和红队工具化的同学建议立刻看仓库，研究其多 Agent 协同与验证闭环设计。"
+  ],
+  "judgement": [
+    "01 做密码学实现审计和高 assurance 软件验证的人必看——这是 AI 形式化验证首次在真实大规模加密库上落地，如果方法可复用，将直接改变高安全代码审计的成本结构。",
+    "02 这可能是首批在野使用「AI自主渗透测试框架」发起真实攻击的公开案例。安全团队需警惕AI自动化攻击工具的产业化趋势，立即排查面向公网的内部API暴露面。",
+    "03 Cloudflare 开源的这套多 Agent 审计方案展示了 AI 在漏洞挖掘与自动化验证上的落地形态。做代码审计和红队工具化的同学建议立刻看仓库，研究其多 Agent 协同与验证闭环设计。"
+  ],
+  "top_items": [
+    {
+      "id": 28973,
+      "title": "AI 形式化验证突破：AlphaProof Code 深度验证 Signal 核心加密",
+      "original_title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "summary": "Google DeepMind 发布 AlphaProof Code，AI Agent 用 Lean 编写三百万行证明，成功验证 Signal 核心加密代码的深度正确性，标志着 AI 辅助形式化验证在真实大规模安全关键软件上的落地。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "formal_verification",
+      "score_total": 83.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做密码学实现审计和高 assurance 软件验证的人必看——这是 AI 形式化验证首次在真实大规模加密库上落地，如果方法可复用，将直接改变高安全代码审计的成本结构。",
+      "source_id": "deepmind-blog",
+      "canonical_url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "reader_url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-10T12:02:28",
+      "first_seen_at": "2026-11-10T12:51:01.778682",
+      "sub_category_label": null
+    },
+    {
+      "id": 28732,
+      "title": "WorkOS遭入侵，疑由AI自主渗透框架ARTEX驱动",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS报告安全事件，称攻击者疑似使用名为ARTEX的AI辅助自主渗透测试框架访问其内部API，并窃取了CRM与客户支持数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "autonomous_pentest",
+      "score_total": 77.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这可能是首批在野使用「AI自主渗透测试框架」发起真实攻击的公开案例。安全团队需警惕AI自动化攻击工具的产业化趋势，立即排查面向公网的内部API暴露面。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-10T00:25:50.773176",
+      "sub_category_label": null
+    },
+    {
+      "id": 28193,
+      "title": "Cloudflare 开源 AI 安全审计技能：多 Agent 协作挖掘与验证漏洞",
+      "original_title": "Cloudflare open-sourced its AI-powered security audit skill.  It turns coding agents into security auditors, using multiple agents to hunt vulnerabilities and independently verify ",
+      "summary": "Cloudflare 开源了 AI 安全审计技能，可将编码 Agent 转化为安全审计员，利用多 Agent 机制搜寻漏洞并独立验证发现结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Cloudflare 开源的这套多 Agent 审计方案展示了 AI 在漏洞挖掘与自动化验证上的落地形态。做代码审计和红队工具化的同学建议立刻看仓库，研究其多 Agent 协同与验证闭环设计。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Oladizz01/status/2119478597794803851",
+      "reader_url": "https://x.com/Oladizz01/status/2119478597794803851",
+      "image_url": null,
+      "author": {
+        "username": "Oladizz01",
+        "name": "𝕆𝕃𝔸𝔻𝕀ℤℤ",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T17:14:10",
+      "first_seen_at": "2026-11-09T17:57:39.710578",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 28752,
+      "title": "开源风控平台 Kairos：用 LLM 与 MCP 实现欺诈检测自动化",
+      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "summary": "开源风控决策平台 Kairos 结合大模型与传统机器学习解决标注数据不足问题，并引入 MCP server 让 AI Agent 自动定义风控工作流和训练模型，以对抗欺诈战术变化。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "fraud_detection",
+      "score_total": 75.88,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全风控从业者值得一看。该工具展示了如何用 Agent（如 Claude Code）解决反欺诈中规则易失效和标注数据少的痛点，是 AI 辅助风控落地的直接参考。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-10",
+      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-10",
+      "image_url": null,
+      "author": {
+        "username": "ayanb9440",
+        "name": "ayanb9440",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-03T21:16:48",
+      "first_seen_at": "2026-11-10T00:45:56.175212",
+      "sub_category_label": null
+    },
+    {
+      "id": 28191,
+      "title": "Anthropic 用形式化验证颠覆传统 Fuzzing，发现 libexpat 等 0day",
+      "original_title": "3️⃣ ## 1. Dijkstra’s Dictum and the Limits of Fuzzing  In 1970, Edsger Dijkstra formulated his foundational maxim:  >>> *\"Program testing can be used to show the presence of bugs, ",
+      "summary": "Anthropic 与 Theorem 将 Fuzz 测试入口点转化为形式化数学规范以验证全状态空间，证明了代码的内存安全并发现了数百个漏洞，包括在已被广泛 Fuzz 的库中的 0day。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 75.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需关注 Anthropic 展示的「Fuzz 转形式化验证」新范式。该确定性方法突破了传统 Fuzzing 的覆盖率瓶颈并发现 libexpat 等 0day，提示我们重新评估自动化漏洞挖掘的路径。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/francescofaenzi/status/2119475061006680076",
+      "reader_url": "https://x.com/francescofaenzi/status/2119475061006680076",
+      "image_url": null,
+      "author": {
+        "username": "francescofaenzi",
+        "name": "francescofaenzi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T17:00:07",
+      "first_seen_at": "2026-11-09T17:57:39.710578",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 28870,
+      "title": "Claude Fable 5.2 在多阶段网络攻击与漏洞发现评测中击败 GPT-6 Cyber",
+      "original_title": "⚡ Anthropic's new Claude Fable 5.2 beats OpenAI's GPT-6 Cyber in multi-stage cyberattack tests.  76.3% vs. 61% challenge completion.  It also scored 89.6% on a benchmark for redisc",
+      "summary": "Claude Fable 5.2 在多阶段网络攻击测试中以 76.3% 完成率击败 GPT-6 Cyber 的 61%，并在已知漏洞重发现基准上得分 89.6%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 73.68,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "大模型在多阶段攻击和漏洞复现上的数据持续攀升，安全团队需密切关注这些评测结果背后的实际可用性。建议立即跟进并对比其在红队自动化任务中的真实落地表现。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2120068479479074966",
+      "reader_url": "https://x.com/TheHackersNews/status/2120068479479074966",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-11-10T08:18:09",
+      "first_seen_at": "2026-11-10T09:22:49.169442",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 28467,
+      "title": "OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试",
+      "original_title": "An AI model that finds software flaws raises a second question: who gets to use it?  According to VentureBeat, OpenAI has launched GPT-6 Cyber for vulnerability research, exploit d",
+      "summary": "OpenAI 推出专为漏洞研究、漏洞利用开发和渗透测试设计的 GPT-6 Cyber 模型，仅限审查合格的客户使用。其访问控制机制的有效性成为关注焦点。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "前沿大厂推出专用网安模型标志着 AI 漏洞挖掘向实战化迈进。安全团队需密切关注其访问审查与滥用检测机制，评估引入此类高能效工具的风险收益比。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/sail1202/status/2119692327249662338",
+      "reader_url": "https://x.com/sail1202/status/2119692327249662338",
+      "image_url": null,
+      "author": {
+        "username": "sail1202",
+        "name": "Sailendra Kumar 🌍",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-09T07:23:27",
+      "first_seen_at": "2026-11-10T07:59:15.376749",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 28223,
+      "title": "开源安全Agent Michael升级：模拟审计员做代码审查",
+      "original_title": "🛡️ Michael just got sharper.  Our open-source security agent for Claude Code now reviews like a real auditor, not a checklist:  🎯 threat model first 🔍 every finding quotes the exac",
+      "summary": "面向 Claude Code 的开源安全 Agent Michael 迎来更新，强调优先做威胁建模、追踪攻击者可达性，并集成 osv-scanner 进行依赖 CVE 检测。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做自动化代码审计的安全工程师该看。它不是简单的静态扫描，而是模拟人工审计思路，引入可达性分析和未决状态追踪，这套 Agent 逻辑设计非常值得借鉴或直接拿来测试。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/falcothebard/status/2119534247371583894",
+      "reader_url": "https://x.com/falcothebard/status/2119534247371583894",
+      "image_url": null,
+      "author": {
+        "username": "falcothebard",
+        "name": "Falco Schäfer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T20:55:18",
+      "first_seen_at": "2026-11-09T21:58:09.785239",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28245,
+      "title": "KaliGPT：面向 Kali Linux 的 AI 渗透测试助手",
+      "original_title": "I have onboarded the creator of a 1k star GitHub Tech named : “KaliGPT”  KaliGPT is an AI-powered penetration testing assistant built for Kali Linux. It helps users understand term",
+      "summary": "KaliGPT 是一款开源的 AI 渗透测试助手，能帮助用户解读终端结果、推荐下一步操作、生成命令与 payload 并在授权下执行，现已建立官方合作渠道。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "适合关注安全 Agent 落地的安全工程师参考，可借鉴其如何将 LLM 与 Kali 终端工具链结合以实现半自动化渗透流程，同时需注意评估其代为执行系统命令时的权限控制风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/e7v1s1/status/2119563443233566879",
+      "reader_url": "https://x.com/e7v1s1/status/2119563443233566879",
+      "image_url": "https://pbs.twimg.com/media/HWon9NuW4AAPjYL.jpg",
+      "author": {
+        "username": "e7v1s1",
+        "name": "e7",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T22:51:19",
+      "first_seen_at": "2026-11-09T23:58:23.499637",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 28218,
+      "title": "GCSA安全代理检测到BlockBeats搜索页注入攻击",
+      "original_title": "🚨 On Oct 22, GCSA Security Agent detected a DarkSword-linked script injection on the BlockBeats search page targeting iPhone crypto wallets without requiring user interaction. Bloc",
+      "summary": "GCSA Security Agent 检测到 BlockBeats 搜索页面被注入与 DarkSword 相关的恶意脚本，可在无需用户交互的情况下窃取 iPhone 加密钱包资产，目前已修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了安全 Agent 在实际威胁狩猎和监控中的落地效果。安全团队可关注此类针对加密钱包的零点击注入攻击链，并评估自身安全 Agent 的检测覆盖面。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+      "reader_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+      "image_url": "https://pbs.twimg.com/media/HWoR5fQaEAAcMVt.jpg",
+      "author": {
+        "username": "GCSA_COM",
+        "name": "GCSA",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-08T20:24:14",
+      "first_seen_at": "2026-11-09T21:58:09.785239",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 28732,
+        "title": "WorkOS遭入侵，疑由AI自主渗透框架ARTEX驱动",
+        "original_title": "HN Hot Discussion: WorkOS reports security breach",
+        "summary": "WorkOS报告安全事件，称攻击者疑似使用名为ARTEX的AI辅助自主渗透测试框架访问其内部API，并窃取了CRM与客户支持数据。",
+        "primary_category": "AI for Sec",
+        "sub_category": "autonomous_pentest",
+        "score_total": 77.75,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这可能是首批在野使用「AI自主渗透测试框架」发起真实攻击的公开案例。安全团队需警惕AI自动化攻击工具的产业化趋势，立即排查面向公网的内部API暴露面。",
+        "source_id": "hn-ai-security",
+        "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
+        "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
+        "image_url": null,
+        "author": {
+          "username": "werrett",
+          "name": "werrett",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-02T23:30:59",
+        "first_seen_at": "2026-11-10T00:25:50.773176",
+        "sub_category_label": null
+      },
+      {
+        "id": 28193,
+        "title": "Cloudflare 开源 AI 安全审计技能：多 Agent 协作挖掘与验证漏洞",
+        "original_title": "Cloudflare open-sourced its AI-powered security audit skill.  It turns coding agents into security auditors, using multiple agents to hunt vulnerabilities and independently verify ",
+        "summary": "Cloudflare 开源了 AI 安全审计技能，可将编码 Agent 转化为安全审计员，利用多 Agent 机制搜寻漏洞并独立验证发现结果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 75.95,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "Cloudflare 开源的这套多 Agent 审计方案展示了 AI 在漏洞挖掘与自动化验证上的落地形态。做代码审计和红队工具化的同学建议立刻看仓库，研究其多 Agent 协同与验证闭环设计。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Oladizz01/status/2119478597794803851",
+        "reader_url": "https://x.com/Oladizz01/status/2119478597794803851",
+        "image_url": null,
+        "author": {
+          "username": "Oladizz01",
+          "name": "𝕆𝕃𝔸𝔻𝕀ℤℤ",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-08T17:14:10",
+        "first_seen_at": "2026-11-09T17:57:39.710578",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 28191,
+        "title": "Anthropic 用形式化验证颠覆传统 Fuzzing，发现 libexpat 等 0day",
+        "original_title": "3️⃣ ## 1. Dijkstra’s Dictum and the Limits of Fuzzing  In 1970, Edsger Dijkstra formulated his foundational maxim:  >>> *\"Program testing can be used to show the presence of bugs, ",
+        "summary": "Anthropic 与 Theorem 将 Fuzz 测试入口点转化为形式化数学规范以验证全状态空间，证明了代码的内存安全并发现了数百个漏洞，包括在已被广泛 Fuzz 的库中的 0day。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 75.5,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全团队需关注 Anthropic 展示的「Fuzz 转形式化验证」新范式。该确定性方法突破了传统 Fuzzing 的覆盖率瓶颈并发现 libexpat 等 0day，提示我们重新评估自动化漏洞挖掘的路径。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/francescofaenzi/status/2119475061006680076",
+        "reader_url": "https://x.com/francescofaenzi/status/2119475061006680076",
+        "image_url": null,
+        "author": {
+          "username": "francescofaenzi",
+          "name": "francescofaenzi",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-08T17:00:07",
+        "first_seen_at": "2026-11-09T17:57:39.710578",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 28870,
+        "title": "Claude Fable 5.2 在多阶段网络攻击与漏洞发现评测中击败 GPT-6 Cyber",
+        "original_title": "⚡ Anthropic's new Claude Fable 5.2 beats OpenAI's GPT-6 Cyber in multi-stage cyberattack tests.  76.3% vs. 61% challenge completion.  It also scored 89.6% on a benchmark for redisc",
+        "summary": "Claude Fable 5.2 在多阶段网络攻击测试中以 76.3% 完成率击败 GPT-6 Cyber 的 61%，并在已知漏洞重发现基准上得分 89.6%。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 73.68,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "大模型在多阶段攻击和漏洞复现上的数据持续攀升，安全团队需密切关注这些评测结果背后的实际可用性。建议立即跟进并对比其在红队自动化任务中的真实落地表现。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/TheHackersNews/status/2120068479479074966",
+        "reader_url": "https://x.com/TheHackersNews/status/2120068479479074966",
+        "image_url": null,
+        "author": {
+          "username": "TheHackersNews",
+          "name": "The Hacker News",
+          "avatar_url": null,
+          "followers_count": 2351119
+        },
+        "published_at": "2026-11-10T08:18:09",
+        "first_seen_at": "2026-11-10T09:22:49.169442",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 28467,
+        "title": "OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试",
+        "original_title": "An AI model that finds software flaws raises a second question: who gets to use it?  According to VentureBeat, OpenAI has launched GPT-6 Cyber for vulnerability research, exploit d",
+        "summary": "OpenAI 推出专为漏洞研究、漏洞利用开发和渗透测试设计的 GPT-6 Cyber 模型，仅限审查合格的客户使用。其访问控制机制的有效性成为关注焦点。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 73.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "前沿大厂推出专用网安模型标志着 AI 漏洞挖掘向实战化迈进。安全团队需密切关注其访问审查与滥用检测机制，评估引入此类高能效工具的风险收益比。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/sail1202/status/2119692327249662338",
+        "reader_url": "https://x.com/sail1202/status/2119692327249662338",
+        "image_url": null,
+        "author": {
+          "username": "sail1202",
+          "name": "Sailendra Kumar 🌍",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-09T07:23:27",
+        "first_seen_at": "2026-11-10T07:59:15.376749",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 28223,
+        "title": "开源安全Agent Michael升级：模拟审计员做代码审查",
+        "original_title": "🛡️ Michael just got sharper.  Our open-source security agent for Claude Code now reviews like a real auditor, not a checklist:  🎯 threat model first 🔍 every finding quotes the exac",
+        "summary": "面向 Claude Code 的开源安全 Agent Michael 迎来更新，强调优先做威胁建模、追踪攻击者可达性，并集成 osv-scanner 进行依赖 CVE 检测。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 71.2,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做自动化代码审计的安全工程师该看。它不是简单的静态扫描，而是模拟人工审计思路，引入可达性分析和未决状态追踪，这套 Agent 逻辑设计非常值得借鉴或直接拿来测试。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/falcothebard/status/2119534247371583894",
+        "reader_url": "https://x.com/falcothebard/status/2119534247371583894",
+        "image_url": null,
+        "author": {
+          "username": "falcothebard",
+          "name": "Falco Schäfer",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-08T20:55:18",
+        "first_seen_at": "2026-11-09T21:58:09.785239",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 28245,
+        "title": "KaliGPT：面向 Kali Linux 的 AI 渗透测试助手",
+        "original_title": "I have onboarded the creator of a 1k star GitHub Tech named : “KaliGPT”  KaliGPT is an AI-powered penetration testing assistant built for Kali Linux. It helps users understand term",
+        "summary": "KaliGPT 是一款开源的 AI 渗透测试助手，能帮助用户解读终端结果、推荐下一步操作、生成命令与 payload 并在授权下执行，现已建立官方合作渠道。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 70.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "适合关注安全 Agent 落地的安全工程师参考，可借鉴其如何将 LLM 与 Kali 终端工具链结合以实现半自动化渗透流程，同时需注意评估其代为执行系统命令时的权限控制风险。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/e7v1s1/status/2119563443233566879",
+        "reader_url": "https://x.com/e7v1s1/status/2119563443233566879",
+        "image_url": "https://pbs.twimg.com/media/HWon9NuW4AAPjYL.jpg",
+        "author": {
+          "username": "e7v1s1",
+          "name": "e7",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-08T22:51:19",
+        "first_seen_at": "2026-11-09T23:58:23.499637",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 28218,
+        "title": "GCSA安全代理检测到BlockBeats搜索页注入攻击",
+        "original_title": "🚨 On Oct 22, GCSA Security Agent detected a DarkSword-linked script injection on the BlockBeats search page targeting iPhone crypto wallets without requiring user interaction. Bloc",
+        "summary": "GCSA Security Agent 检测到 BlockBeats 搜索页面被注入与 DarkSword 相关的恶意脚本，可在无需用户交互的情况下窃取 iPhone 加密钱包资产，目前已修复。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 69.95,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "展示了安全 Agent 在实际威胁狩猎和监控中的落地效果。安全团队可关注此类针对加密钱包的零点击注入攻击链，并评估自身安全 Agent 的检测覆盖面。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+        "reader_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+        "image_url": "https://pbs.twimg.com/media/HWoR5fQaEAAcMVt.jpg",
+        "author": {
+          "username": "GCSA_COM",
+          "name": "GCSA",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-08T20:24:14",
+        "first_seen_at": "2026-11-09T21:58:09.785239",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 28973,
+        "title": "AI 形式化验证突破：AlphaProof Code 深度验证 Signal 核心加密",
+        "original_title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+        "summary": "Google DeepMind 发布 AlphaProof Code，AI Agent 用 Lean 编写三百万行证明，成功验证 Signal 核心加密代码的深度正确性，标志着 AI 辅助形式化验证在真实大规模安全关键软件上的落地。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "formal_verification",
+        "score_total": 83.0,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "做密码学实现审计和高 assurance 软件验证的人必看——这是 AI 形式化验证首次在真实大规模加密库上落地，如果方法可复用，将直接改变高安全代码审计的成本结构。",
+        "source_id": "deepmind-blog",
+        "canonical_url": "https://deepmind.google/blog/introducing-alphaproof-code",
+        "reader_url": "https://deepmind.google/blog/introducing-alphaproof-code",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-10T12:02:28",
+        "first_seen_at": "2026-11-10T12:51:01.778682",
+        "sub_category_label": null
+      },
+      {
+        "id": 28752,
+        "title": "开源风控平台 Kairos：用 LLM 与 MCP 实现欺诈检测自动化",
+        "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+        "summary": "开源风控决策平台 Kairos 结合大模型与传统机器学习解决标注数据不足问题，并引入 MCP server 让 AI Agent 自动定义风控工作流和训练模型，以对抗欺诈战术变化。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "fraud_detection",
+        "score_total": 75.88,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全风控从业者值得一看。该工具展示了如何用 Agent（如 Claude Code）解决反欺诈中规则易失效和标注数据少的痛点，是 AI 辅助风控落地的直接参考。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-10",
+        "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-10",
+        "image_url": null,
+        "author": {
+          "username": "ayanb9440",
+          "name": "ayanb9440",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-03T21:16:48",
+        "first_seen_at": "2026-11-10T00:45:56.175212",
+        "sub_category_label": null
+      },
+      {
+        "id": 28766,
+        "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，HN 热议",
+        "original_title": "HN Hot Discussion: Claude Fable 5.2 and Mythos 5.2",
+        "summary": "Anthropic 发布新模型 Claude Fable 5.2 和 Mythos 5.2，在 Hacker News 引起大量讨论。Mythos 此前与 AI 辅助漏洞发现能力相关，安全团队需关注其安全应用潜力。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "vuln_discovery | model_evaluation",
+        "score_total": 68.4,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "Mythos 被视为 Anthropic 具备网络能力的模型线，这次更新可能直接影响 AI 辅助漏洞挖掘的效果。做 AI for Sec 的团队应该立刻看官方发布细节，评估能否接入自动化漏洞发现流程。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50429906&hn_hot_date=2026-11-10",
+        "reader_url": "https://news.ycombinator.com/item?id=50429906&hn_hot_date=2026-11-10",
+        "image_url": null,
+        "author": {
+          "username": "meetpateltech",
+          "name": "meetpateltech",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-09T18:56:29",
+        "first_seen_at": "2026-11-10T00:47:25.934892",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 28651,
+        "title": "ARTEX：LLM 驱动的自动化渗透框架在野攻击 AWS",
+        "original_title": "ARTEX, an AI-native autonomous penetration framework tied to Chinese 🇨🇳 Storm-0940, was observed attacking live AWS environments in October 2026, hunting for financial data, secret",
+        "summary": "Storm-0940 组织使用 AI 原生渗透平台 ARTEX 攻击 AWS 环境，通过泄露的 IAM 密钥和公开 Cognito 池窃取数据。报告披露了其多模型轮换机制与具体检测特征。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security",
+        "score_total": 68.94,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "这是 AI 渗透 Agent 黑产化的铁证。云安全和威胁狩猎团队需立即排查 CloudTrail 中 limit=1000 的 FilterLogEvents 异常、特定测试性 S3 请求及相关 IP 和 UA。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
+        "reader_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
+        "image_url": "https://pbs.twimg.com/media/HWs7FuRbkAAcNRp.png",
+        "author": {
+          "username": "DFIR_Radar",
+          "name": "DFIR Radar",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-09T18:02:00",
+        "first_seen_at": "2026-11-09T18:37:21.026784",
+        "sub_category_label": null
+      },
+      {
+        "id": 28194,
+        "title": "OpenAI 合作 Hacktron 利用 AI Agent 开展红队测试",
+        "original_title": "OpenAI partnered with Hacktron on Nov 6 to find vulnerabilities in its own systems.  Engineers from both sides will choose high-priority areas to test together, focusing on how Ope",
+        "summary": "OpenAI 与 Hacktron 达成合作，重点测试其系统与第三方服务交互的安全性，Hacktron 将利用其 AI agent 进行渗透测试和代码审查，OpenAI 也将为其扩大前沿模型访问权限。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "ai_supply_chain | security_agent",
+        "score_total": 67.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "OpenAI 采用 AI 安全 Agent 进行红队测试并开放前沿模型权限，验证了 AI 渗透工具在头部大厂落地的可行性，做 AI 安全防御和自动化工具的人必看。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/getsuperintel/status/2119479750666207602",
+        "reader_url": "https://x.com/getsuperintel/status/2119479750666207602",
+        "image_url": "https://pbs.twimg.com/media/HWnlkRyXwAAzqfL.jpg",
+        "author": {
+          "username": "getsuperintel",
+          "name": "Superintelligence.",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-08T17:18:45",
+        "first_seen_at": "2026-11-09T17:57:39.710578",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | Sec for AI": [
+      {
+        "id": 28758,
+        "title": "Anthropic 探讨 Agent 记忆系统的核心组件",
+        "original_title": "HN Hot Discussion: The Components of Agent Memory",
+        "summary": "Anthropic 发布关于 Agent 记忆组件的研究，剖析了智能体记忆的构成要素与工作方式，为构建复杂 Agent 提供架构参考。",
+        "primary_category": "AI Tech | Sec for AI",
+        "sub_category": "agent_architecture",
+        "score_total": 67.96,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "记忆系统是 Agent 保持状态的核心，也是上下文注入和数据投毒的关键攻击面。做 Agent 安全和自动化任务的从业者需借此了解记忆层的安全边界。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50402212&hn_hot_date=2026-11-10",
+        "reader_url": "https://news.ycombinator.com/item?id=50402212&hn_hot_date=2026-11-10",
+        "image_url": null,
+        "author": {
+          "username": "geoffbp",
+          "name": "geoffbp",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-07T06:39:04",
+        "first_seen_at": "2026-11-10T00:46:41.989817",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 28314,
+        "title": "Scantist发布GLM-5.3-SLIM-GGUF，推进自主渗透测试愿景",
+        "original_title": "GLM-5.3-SLIM-GGUF: Local AI for Coding and Reasoning  Thanks @HuggingModels for spotlighting our release—and thanks to everyone exploring it!  Here’s what developers and researcher",
+        "summary": "Scantist 发布总参数 563B 的 GLM-5.3-SLIM-GGUF 本地推理模型，具备 92.7% HumanEval 性能，并计划将其用于 PAIStrike 的本地化自主渗透测试。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "llm_architecture",
+        "score_total": 67.23,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "关注本地大模型在自主渗透测试中的落地进展。该模型展示了在单卡 B200 上运行高能力编码模型的可行性，适合关注本地化安全 Agent 基础设施的团队跟进。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/ScantistAI/status/2119617116806787202",
+        "reader_url": "https://x.com/ScantistAI/status/2119617116806787202",
+        "image_url": null,
+        "author": {
+          "username": "ScantistAI",
+          "name": "ScantistAI",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-09T02:24:35",
+        "first_seen_at": "2026-11-10T03:58:52.455496",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec | AI Tech": {
+      "formal_verification": {
+        "label": "formal_verification",
+        "items": [
+          {
+            "id": 28973,
+            "title": "AI 形式化验证突破：AlphaProof Code 深度验证 Signal 核心加密",
+            "original_title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+            "summary": "Google DeepMind 发布 AlphaProof Code，AI Agent 用 Lean 编写三百万行证明，成功验证 Signal 核心加密代码的深度正确性，标志着 AI 辅助形式化验证在真实大规模安全关键软件上的落地。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "formal_verification",
+            "score_total": 83.0,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做密码学实现审计和高 assurance 软件验证的人必看——这是 AI 形式化验证首次在真实大规模加密库上落地，如果方法可复用，将直接改变高安全代码审计的成本结构。",
+            "source_id": "deepmind-blog",
+            "canonical_url": "https://deepmind.google/blog/introducing-alphaproof-code",
+            "reader_url": "https://deepmind.google/blog/introducing-alphaproof-code",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-10T12:02:28",
+            "first_seen_at": "2026-11-10T12:51:01.778682",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "fraud_detection": {
+        "label": "fraud_detection",
+        "items": [
+          {
+            "id": 28752,
+            "title": "开源风控平台 Kairos：用 LLM 与 MCP 实现欺诈检测自动化",
+            "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+            "summary": "开源风控决策平台 Kairos 结合大模型与传统机器学习解决标注数据不足问题，并引入 MCP server 让 AI Agent 自动定义风控工作流和训练模型，以对抗欺诈战术变化。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "fraud_detection",
+            "score_total": 75.88,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全风控从业者值得一看。该工具展示了如何用 Agent（如 Claude Code）解决反欺诈中规则易失效和标注数据少的痛点，是 AI 辅助风控落地的直接参考。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-10",
+            "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-10",
+            "image_url": null,
+            "author": {
+              "username": "ayanb9440",
+              "name": "ayanb9440",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-03T21:16:48",
+            "first_seen_at": "2026-11-10T00:45:56.175212",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "vuln_discovery | model_evaluation": {
+        "label": "vuln_discovery | model_evaluation",
+        "items": [
+          {
+            "id": 28766,
+            "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，HN 热议",
+            "original_title": "HN Hot Discussion: Claude Fable 5.2 and Mythos 5.2",
+            "summary": "Anthropic 发布新模型 Claude Fable 5.2 和 Mythos 5.2，在 Hacker News 引起大量讨论。Mythos 此前与 AI 辅助漏洞发现能力相关，安全团队需关注其安全应用潜力。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "vuln_discovery | model_evaluation",
+            "score_total": 68.4,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Mythos 被视为 Anthropic 具备网络能力的模型线，这次更新可能直接影响 AI 辅助漏洞挖掘的效果。做 AI for Sec 的团队应该立刻看官方发布细节，评估能否接入自动化漏洞发现流程。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50429906&hn_hot_date=2026-11-10",
+            "reader_url": "https://news.ycombinator.com/item?id=50429906&hn_hot_date=2026-11-10",
+            "image_url": null,
+            "author": {
+              "username": "meetpateltech",
+              "name": "meetpateltech",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-09T18:56:29",
+            "first_seen_at": "2026-11-10T00:47:25.934892",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec": {
+      "autonomous_pentest": {
+        "label": "autonomous_pentest",
+        "items": [
+          {
+            "id": 28732,
+            "title": "WorkOS遭入侵，疑由AI自主渗透框架ARTEX驱动",
+            "original_title": "HN Hot Discussion: WorkOS reports security breach",
+            "summary": "WorkOS报告安全事件，称攻击者疑似使用名为ARTEX的AI辅助自主渗透测试框架访问其内部API，并窃取了CRM与客户支持数据。",
+            "primary_category": "AI for Sec",
+            "sub_category": "autonomous_pentest",
+            "score_total": 77.75,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这可能是首批在野使用「AI自主渗透测试框架」发起真实攻击的公开案例。安全团队需警惕AI自动化攻击工具的产业化趋势，立即排查面向公网的内部API暴露面。",
+            "source_id": "hn-ai-security",
+            "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
+            "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
+            "image_url": null,
+            "author": {
+              "username": "werrett",
+              "name": "werrett",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-02T23:30:59",
+            "first_seen_at": "2026-11-10T00:25:50.773176",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 28193,
+            "title": "Cloudflare 开源 AI 安全审计技能：多 Agent 协作挖掘与验证漏洞",
+            "original_title": "Cloudflare open-sourced its AI-powered security audit skill.  It turns coding agents into security auditors, using multiple agents to hunt vulnerabilities and independently verify ",
+            "summary": "Cloudflare 开源了 AI 安全审计技能，可将编码 Agent 转化为安全审计员，利用多 Agent 机制搜寻漏洞并独立验证发现结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 75.95,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "Cloudflare 开源的这套多 Agent 审计方案展示了 AI 在漏洞挖掘与自动化验证上的落地形态。做代码审计和红队工具化的同学建议立刻看仓库，研究其多 Agent 协同与验证闭环设计。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Oladizz01/status/2119478597794803851",
+            "reader_url": "https://x.com/Oladizz01/status/2119478597794803851",
+            "image_url": null,
+            "author": {
+              "username": "Oladizz01",
+              "name": "𝕆𝕃𝔸𝔻𝕀ℤℤ",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-08T17:14:10",
+            "first_seen_at": "2026-11-09T17:57:39.710578",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 28223,
+            "title": "开源安全Agent Michael升级：模拟审计员做代码审查",
+            "original_title": "🛡️ Michael just got sharper.  Our open-source security agent for Claude Code now reviews like a real auditor, not a checklist:  🎯 threat model first 🔍 every finding quotes the exac",
+            "summary": "面向 Claude Code 的开源安全 Agent Michael 迎来更新，强调优先做威胁建模、追踪攻击者可达性，并集成 osv-scanner 进行依赖 CVE 检测。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 71.2,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做自动化代码审计的安全工程师该看。它不是简单的静态扫描，而是模拟人工审计思路，引入可达性分析和未决状态追踪，这套 Agent 逻辑设计非常值得借鉴或直接拿来测试。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/falcothebard/status/2119534247371583894",
+            "reader_url": "https://x.com/falcothebard/status/2119534247371583894",
+            "image_url": null,
+            "author": {
+              "username": "falcothebard",
+              "name": "Falco Schäfer",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-08T20:55:18",
+            "first_seen_at": "2026-11-09T21:58:09.785239",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 28245,
+            "title": "KaliGPT：面向 Kali Linux 的 AI 渗透测试助手",
+            "original_title": "I have onboarded the creator of a 1k star GitHub Tech named : “KaliGPT”  KaliGPT is an AI-powered penetration testing assistant built for Kali Linux. It helps users understand term",
+            "summary": "KaliGPT 是一款开源的 AI 渗透测试助手，能帮助用户解读终端结果、推荐下一步操作、生成命令与 payload 并在授权下执行，现已建立官方合作渠道。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 70.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "适合关注安全 Agent 落地的安全工程师参考，可借鉴其如何将 LLM 与 Kali 终端工具链结合以实现半自动化渗透流程，同时需注意评估其代为执行系统命令时的权限控制风险。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/e7v1s1/status/2119563443233566879",
+            "reader_url": "https://x.com/e7v1s1/status/2119563443233566879",
+            "image_url": "https://pbs.twimg.com/media/HWon9NuW4AAPjYL.jpg",
+            "author": {
+              "username": "e7v1s1",
+              "name": "e7",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-08T22:51:19",
+            "first_seen_at": "2026-11-09T23:58:23.499637",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 28218,
+            "title": "GCSA安全代理检测到BlockBeats搜索页注入攻击",
+            "original_title": "🚨 On Oct 22, GCSA Security Agent detected a DarkSword-linked script injection on the BlockBeats search page targeting iPhone crypto wallets without requiring user interaction. Bloc",
+            "summary": "GCSA Security Agent 检测到 BlockBeats 搜索页面被注入与 DarkSword 相关的恶意脚本，可在无需用户交互的情况下窃取 iPhone 加密钱包资产，目前已修复。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "展示了安全 Agent 在实际威胁狩猎和监控中的落地效果。安全团队可关注此类针对加密钱包的零点击注入攻击链，并评估自身安全 Agent 的检测覆盖面。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+            "reader_url": "https://x.com/GCSA_COM/status/2119526428232630361",
+            "image_url": "https://pbs.twimg.com/media/HWoR5fQaEAAcMVt.jpg",
+            "author": {
+              "username": "GCSA_COM",
+              "name": "GCSA",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-08T20:24:14",
+            "first_seen_at": "2026-11-09T21:58:09.785239",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 29011,
+            "title": "Leash：AI Agent 驱动的 OWASP Top 10 扫描与 Fuzzing 工具",
+            "original_title": "leash is not a scanner — it's generic primitives the agent drives: it runs OWASP top 10 checks against your own dev app, picking endpoints, params and payloads for whatever you bui",
+            "summary": "Leash 是一款由 Agent 驱动的安全测试插件，可针对开发应用自动执行 OWASP Top 10 检查与 Payload Fuzzing，内置 Canary 泄露检测与证据报告，且通过 fail-closed 机制限制运行范围。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "面向 Web 安全与 Agent 自动化测试从业者，展示了如何将 LLM Agent 安全地集成到扫描工作流中（token 不外泄、无授权不执行）。可作为构建安全测试 Agent 的参考实现。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/ariasnico/status/2120160137331487110",
+            "reader_url": "https://x.com/ariasnico/status/2120160137331487110",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120160051901947904/img/Qmj5Oj4GIOCIeF5H.jpg",
+            "author": {
+              "username": "ariasnico",
+              "name": "Nico Arias",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-10T14:22:22",
+            "first_seen_at": "2026-11-10T14:28:58.754970",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 28697,
+            "title": "PHALANX：开源AI驱动的自动化渗透测试框架",
+            "original_title": "https://t.co/dNPIQbRR3j The original cyber sec harness:   PHALANX is an open sourced MIT, autonomous, and  AI‑driven penetration testing framework/MCP harness. Phalanx combines mul",
+            "summary": "PHALANX 是一个基于 MCP 架构的开源 AI 渗透测试框架，结合多智能体集群与低级绕过技术，并配有实时作战室仪表盘。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 68.19,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "对于关心 AI 红队工具落地的从业者，这是直接可拉取评估的开源 Harness。重点看其多 Agent 编排与低级绕过设计如何串联实际渗透链路。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/openwikipedia/status/2119896455804563851",
+            "reader_url": "https://x.com/openwikipedia/status/2119896455804563851",
+            "image_url": null,
+            "author": {
+              "username": "openwikipedia",
+              "name": "OpenWiki",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-09T20:54:35",
+            "first_seen_at": "2026-11-09T21:22:10.410139",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 28191,
+            "title": "Anthropic 用形式化验证颠覆传统 Fuzzing，发现 libexpat 等 0day",
+            "original_title": "3️⃣ ## 1. Dijkstra’s Dictum and the Limits of Fuzzing  In 1970, Edsger Dijkstra formulated his foundational maxim:  >>> *\"Program testing can be used to show the presence of bugs, ",
+            "summary": "Anthropic 与 Theorem 将 Fuzz 测试入口点转化为形式化数学规范以验证全状态空间，证明了代码的内存安全并发现了数百个漏洞，包括在已被广泛 Fuzz 的库中的 0day。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 75.5,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全团队需关注 Anthropic 展示的「Fuzz 转形式化验证」新范式。该确定性方法突破了传统 Fuzzing 的覆盖率瓶颈并发现 libexpat 等 0day，提示我们重新评估自动化漏洞挖掘的路径。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/francescofaenzi/status/2119475061006680076",
+            "reader_url": "https://x.com/francescofaenzi/status/2119475061006680076",
+            "image_url": null,
+            "author": {
+              "username": "francescofaenzi",
+              "name": "francescofaenzi",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-08T17:00:07",
+            "first_seen_at": "2026-11-09T17:57:39.710578",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 28467,
+            "title": "OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试",
+            "original_title": "An AI model that finds software flaws raises a second question: who gets to use it?  According to VentureBeat, OpenAI has launched GPT-6 Cyber for vulnerability research, exploit d",
+            "summary": "OpenAI 推出专为漏洞研究、漏洞利用开发和渗透测试设计的 GPT-6 Cyber 模型，仅限审查合格的客户使用。其访问控制机制的有效性成为关注焦点。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "前沿大厂推出专用网安模型标志着 AI 漏洞挖掘向实战化迈进。安全团队需密切关注其访问审查与滥用检测机制，评估引入此类高能效工具的风险收益比。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/sail1202/status/2119692327249662338",
+            "reader_url": "https://x.com/sail1202/status/2119692327249662338",
+            "image_url": null,
+            "author": {
+              "username": "sail1202",
+              "name": "Sailendra Kumar 🌍",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-09T07:23:27",
+            "first_seen_at": "2026-11-10T07:59:15.376749",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 28243,
+            "title": "OpenAI 新 AI 发现 Firefox 81 个漏洞",
+            "original_title": "OpenAI's New AI Found 81 Firefox Vulnerabilities. Are Human Hackers Losing Their Advantage?",
+            "summary": "OpenAI 的新 AI 系统在 Firefox 浏览器中发现了 81 个漏洞，引发关于 AI 是否在漏洞挖掘领域取代人类黑客优势的讨论。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 69.91,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI 自动化漏洞挖掘实战又出圈。安全团队应密切关注大模型在真实代码审计中的规模化产出能力，评估是否能将其引入自身漏洞挖掘或代码审计工作流以提升效率。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/apnovus/status/2119555358150778894",
+            "reader_url": "https://x.com/apnovus/status/2119555358150778894",
+            "image_url": null,
+            "author": {
+              "username": "apnovus",
+              "name": "Adarsh Pandey",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-08T22:19:11",
+            "first_seen_at": "2026-11-09T23:58:23.499637",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 28628,
+            "title": "LLM 与 Fuzzing 挖洞重叠率约 60%，二者仍具互补性",
+            "original_title": "Fuzzing not dead yet  > estimated overlap at roughly 60%. Regardless of which value is accurate, a substantial portion of vulnerabilities were discoverable by only LLMs or only fuz",
+            "summary": "数据显示 LLM 与 Fuzzing 发现漏洞的重叠率约为 60%，仍有大量漏洞仅能由其中一方发现，表明两者在漏洞挖掘中是互补关系。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 68.03,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "给出了 LLM 和传统 Fuzzing 挖洞能力对比的量化数据。做漏洞挖掘和自动化安全的同学别想着用 LLM 替代 Fuzzing，两者盲区不同，必须结合使用。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/fanquake/status/2119850738385834493",
+            "reader_url": "https://x.com/fanquake/status/2119850738385834493",
+            "image_url": null,
+            "author": {
+              "username": "fanquake",
+              "name": "Michael Ford",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-09T17:52:55",
+            "first_seen_at": "2026-11-09T18:00:42.442393",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 28870,
+            "title": "Claude Fable 5.2 在多阶段网络攻击与漏洞发现评测中击败 GPT-6 Cyber",
+            "original_title": "⚡ Anthropic's new Claude Fable 5.2 beats OpenAI's GPT-6 Cyber in multi-stage cyberattack tests.  76.3% vs. 61% challenge completion.  It also scored 89.6% on a benchmark for redisc",
+            "summary": "Claude Fable 5.2 在多阶段网络攻击测试中以 76.3% 完成率击败 GPT-6 Cyber 的 61%，并在已知漏洞重发现基准上得分 89.6%。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 73.68,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "大模型在多阶段攻击和漏洞复现上的数据持续攀升，安全团队需密切关注这些评测结果背后的实际可用性。建议立即跟进并对比其在红队自动化任务中的真实落地表现。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2120068479479074966",
+            "reader_url": "https://x.com/TheHackersNews/status/2120068479479074966",
+            "image_url": null,
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-11-10T08:18:09",
+            "first_seen_at": "2026-11-10T09:22:49.169442",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 28651,
+            "title": "ARTEX：LLM 驱动的自动化渗透框架在野攻击 AWS",
+            "original_title": "ARTEX, an AI-native autonomous penetration framework tied to Chinese 🇨🇳 Storm-0940, was observed attacking live AWS environments in October 2026, hunting for financial data, secret",
+            "summary": "Storm-0940 组织使用 AI 原生渗透平台 ARTEX 攻击 AWS 环境，通过泄露的 IAM 密钥和公开 Cognito 池窃取数据。报告披露了其多模型轮换机制与具体检测特征。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security",
+            "score_total": 68.94,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是 AI 渗透 Agent 黑产化的铁证。云安全和威胁狩猎团队需立即排查 CloudTrail 中 limit=1000 的 FilterLogEvents 异常、特定测试性 S3 请求及相关 IP 和 UA。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
+            "reader_url": "https://x.com/DFIR_Radar/status/2119853024697078155",
+            "image_url": "https://pbs.twimg.com/media/HWs7FuRbkAAcNRp.png",
+            "author": {
+              "username": "DFIR_Radar",
+              "name": "DFIR Radar",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-09T18:02:00",
+            "first_seen_at": "2026-11-09T18:37:21.026784",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "ai_supply_chain | security_agent": {
+        "label": "ai_supply_chain | security_agent",
+        "items": [
+          {
+            "id": 28194,
+            "title": "OpenAI 合作 Hacktron 利用 AI Agent 开展红队测试",
+            "original_title": "OpenAI partnered with Hacktron on Nov 6 to find vulnerabilities in its own systems.  Engineers from both sides will choose high-priority areas to test together, focusing on how Ope",
+            "summary": "OpenAI 与 Hacktron 达成合作，重点测试其系统与第三方服务交互的安全性，Hacktron 将利用其 AI agent 进行渗透测试和代码审查，OpenAI 也将为其扩大前沿模型访问权限。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "ai_supply_chain | security_agent",
+            "score_total": 67.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "OpenAI 采用 AI 安全 Agent 进行红队测试并开放前沿模型权限，验证了 AI 渗透工具在头部大厂落地的可行性，做 AI 安全防御和自动化工具的人必看。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/getsuperintel/status/2119479750666207602",
+            "reader_url": "https://x.com/getsuperintel/status/2119479750666207602",
+            "image_url": "https://pbs.twimg.com/media/HWnlkRyXwAAzqfL.jpg",
+            "author": {
+              "username": "getsuperintel",
+              "name": "Superintelligence.",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-08T17:18:45",
+            "first_seen_at": "2026-11-09T17:57:39.710578",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | Sec for AI": {
+      "agent_architecture": {
+        "label": "agent_architecture",
+        "items": [
+          {
+            "id": 28758,
+            "title": "Anthropic 探讨 Agent 记忆系统的核心组件",
+            "original_title": "HN Hot Discussion: The Components of Agent Memory",
+            "summary": "Anthropic 发布关于 Agent 记忆组件的研究，剖析了智能体记忆的构成要素与工作方式，为构建复杂 Agent 提供架构参考。",
+            "primary_category": "AI Tech | Sec for AI",
+            "sub_category": "agent_architecture",
+            "score_total": 67.96,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "记忆系统是 Agent 保持状态的核心，也是上下文注入和数据投毒的关键攻击面。做 Agent 安全和自动化任务的从业者需借此了解记忆层的安全边界。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50402212&hn_hot_date=2026-11-10",
+            "reader_url": "https://news.ycombinator.com/item?id=50402212&hn_hot_date=2026-11-10",
+            "image_url": null,
+            "author": {
+              "username": "geoffbp",
+              "name": "geoffbp",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-07T06:39:04",
+            "first_seen_at": "2026-11-10T00:46:41.989817",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "llm_architecture": {
+        "label": "llm_architecture",
+        "items": [
+          {
+            "id": 28314,
+            "title": "Scantist发布GLM-5.3-SLIM-GGUF，推进自主渗透测试愿景",
+            "original_title": "GLM-5.3-SLIM-GGUF: Local AI for Coding and Reasoning  Thanks @HuggingModels for spotlighting our release—and thanks to everyone exploring it!  Here’s what developers and researcher",
+            "summary": "Scantist 发布总参数 563B 的 GLM-5.3-SLIM-GGUF 本地推理模型，具备 92.7% HumanEval 性能，并计划将其用于 PAIStrike 的本地化自主渗透测试。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "llm_architecture",
+            "score_total": 67.23,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "关注本地大模型在自主渗透测试中的落地进展。该模型展示了在单卡 B200 上运行高能力编码模型的可行性，适合关注本地化安全 Agent 基础设施的团队跟进。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/ScantistAI/status/2119617116806787202",
+            "reader_url": "https://x.com/ScantistAI/status/2119617116806787202",
+            "image_url": null,
+            "author": {
+              "username": "ScantistAI",
+              "name": "ScantistAI",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-09T02:24:35",
+            "first_seen_at": "2026-11-10T03:58:52.455496",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 19,
+    "highlight_count": 1,
+    "paper_count": 0,
+    "source_count": 4,
+    "top_score": 83,
+    "category_count": {
+      "AI for Sec": 12,
+      "AI Tech": 0,
+      "AI for Sec | AI Tech": 3,
+      "Sec for AI | AI for Sec": 2,
+      "AI Tech | Sec for AI": 1,
+      "AI Tech | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec | AI Tech": {
+        "formal_verification": {
+          "label": "formal_verification",
+          "count": 1
+        },
+        "fraud_detection": {
+          "label": "fraud_detection",
+          "count": 1
+        },
+        "vuln_discovery | model_evaluation": {
+          "label": "vuln_discovery | model_evaluation",
+          "count": 1
+        }
+      },
+      "AI for Sec": {
+        "autonomous_pentest": {
+          "label": "autonomous_pentest",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 6
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 4
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        },
+        "ai_supply_chain | security_agent": {
+          "label": "ai_supply_chain | security_agent",
+          "count": 1
+        }
+      },
+      "AI Tech | Sec for AI": {
+        "agent_architecture": {
+          "label": "agent_architecture",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "llm_architecture": {
+          "label": "llm_architecture",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 12,
+      "top_score": 78,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分的AlphaProof Code验证Signal加密库是个分水岭事件，AI用Lean写证明去验真实大规模密码学代码，直接拉低了高保障代码审计的门槛。建议做代码审计和底层安全的团队立刻评估这套方法的复用成本，同时重点排查公网API暴露面，防范像打穿WorkOS的ARTEX这类AI自主渗透工具的自动化盲扫。",
+  "method_note": "按北京时间 2026-11-10 的系统入库窗口筛选，从 19 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "deepmind-blog",
+    "hn-ai-security",
+    "hn-ai-tech",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# AI 形式化验证突破：AlphaProof Code 深度验证 Signal 核心加\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是AI自动化攻防在实战中全面落地。从DeepMind用大模型搞定Signal核心加密的形式化验证，到Cloudflare开源多Agent漏洞挖掘工具，再到疑似AI自主渗透框架在野打穿WorkOS，AI已经不再是画饼，而是直接接管了深度代码审计和自动化渗透的脏活累活。\n- 01 做密码学实现审计和高 assurance 软件验证的人必看——这是 AI 形式化验证首次在真实大规模加密库上落地，如果方法可复用，将直接改变高安全代码审计的成本结构。\n- 02 这可能是首批在野使用「AI自主渗透测试框架」发起真实攻击的公开案例。安全团队需警惕AI自动化攻击工具的产业化趋势，立即排查面向公网的内部API暴露面。\n- 03 Cloudflare 开源的这套多 Agent 审计方案展示了 AI 在漏洞挖掘与自动化验证上的落地形态。做代码审计和红队工具化的同学建议立刻看仓库，研究其多 Agent 协同与验证闭环设计。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **AI 形式化验证突破：AlphaProof Code 深度验证 Signal 核心加密**：做密码学实现审计和高 assurance 软件验证的人必看——这是 AI 形式化验证首次在真实大规模加密库上落地，如果方法可复用，将直接改变高安全代码审计的成本结构。 来源：deepmind-blog\n- **WorkOS遭入侵，疑由AI自主渗透框架ARTEX驱动**：这可能是首批在野使用「AI自主渗透测试框架」发起真实攻击的公开案例。安全团队需警惕AI自动化攻击工具的产业化趋势，立即排查面向公网的内部API暴露面。 来源：hn-ai-security\n- **Cloudflare 开源 AI 安全审计技能：多 Agent 协作挖掘与验证漏洞**：Cloudflare 开源的这套多 Agent 审计方案展示了 AI 在漏洞挖掘与自动化验证上的落地形态。做代码审计和红队工具化的同学建议立刻看仓库，研究其多 Agent 协同与验证闭环设计。 来源：x-manual-ai-security\n\n## 也值得关注\n- 开源风控平台 Kairos：用 LLM 与 MCP 实现欺诈检测自动化（75.88）\n- Anthropic 用形式化验证颠覆传统 Fuzzing，发现 libexpat 等 0day（75.5）\n- Claude Fable 5.2 在多阶段网络攻击与漏洞发现评测中击败 GPT-6 Cyber（73.68）\n- OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试（73.45）\n- 开源安全Agent Michael升级：模拟审计员做代码审查（71.2）\n- KaliGPT：面向 Kali Linux 的 AI 渗透测试助手（70.45）\n\n## AI for Sec\n\n### autonomous_pentest\n- WorkOS遭入侵，疑由AI自主渗透框架ARTEX驱动（77.75）\n\n### 安全Agent\n- Cloudflare 开源 AI 安全审计技能：多 Agent 协作挖掘与验证漏洞（75.95）\n- 开源安全Agent Michael升级：模拟审计员做代码审查（71.2）\n- KaliGPT：面向 Kali Linux 的 AI 渗透测试助手（70.45）\n- GCSA安全代理检测到BlockBeats搜索页注入攻击（69.95）\n- Leash：AI Agent 驱动的 OWASP Top 10 扫描与 Fuzzing 工具（69.25）\n\n### 漏洞挖掘\n- Anthropic 用形式化验证颠覆传统 Fuzzing，发现 libexpat 等 0day（75.5）\n- OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试（73.45）\n- OpenAI 新 AI 发现 Firefox 81 个漏洞（69.91）\n- LLM 与 Fuzzing 挖洞重叠率约 60%，二者仍具互补性（68.03）\n\n### 安全评测与Benchmark\n- Claude Fable 5.2 在多阶段网络攻击与漏洞发现评测中击败 GPT-6 Cyber（73.68）\n\n## AI Tech 短讯\n\n## 今日论文\n\n## 今日观察\n最高分的AlphaProof Code验证Signal加密库是个分水岭事件，AI用Lean写证明去验真实大规模密码学代码，直接拉低了高保障代码审计的门槛。建议做代码审计和底层安全的团队立刻评估这套方法的复用成本，同时重点排查公网API暴露面，防范像打穿WorkOS的ARTEX这类AI自主渗透工具的自动化盲扫。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-10 的系统入库窗口筛选，从 19 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-11T00:01:58+08:00"
+}
