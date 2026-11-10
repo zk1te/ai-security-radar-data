@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:32:50+08:00",
+  "updated_at": "2026-11-11T04:02:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -97,31 +97,6 @@
       },
       "published_at": "2026-11-10T16:09:06",
       "first_seen_at": "2026-11-10T16:12:29.233653",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 28467,
-      "title": "OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试",
-      "original_title": "An AI model that finds software flaws raises a second question: who gets to use it?  According to VentureBeat, OpenAI has launched GPT-6 Cyber for vulnerability research, exploit d",
-      "summary": "OpenAI 推出专为漏洞研究、漏洞利用开发和渗透测试设计的 GPT-6 Cyber 模型，仅限审查合格的客户使用。其访问控制机制的有效性成为关注焦点。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "前沿大厂推出专用网安模型标志着 AI 漏洞挖掘向实战化迈进。安全团队需密切关注其访问审查与滥用检测机制，评估引入此类高能效工具的风险收益比。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/sail1202/status/2119692327249662338",
-      "reader_url": "https://x.com/sail1202/status/2119692327249662338",
-      "image_url": null,
-      "author": {
-        "username": "sail1202",
-        "name": "Sailendra Kumar 🌍",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-09T07:23:27",
-      "first_seen_at": "2026-11-10T07:59:15.376749",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -223,6 +198,26 @@
       "published_at": "2026-11-10T08:15:31",
       "first_seen_at": "2026-11-10T08:17:35.070463",
       "sub_category_label": "威胁情报"
+    },
+    {
+      "id": 28893,
+      "title": "Meta 发布 Muse Ember 小模型：主打 Agent 任务与高效推理",
+      "original_title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "summary": "Meta 发布最小且最高效的模型 Muse Ember，专为 Agent 日常工具调用、代码子任务和长文档解析设计。在 Artificial Analysis 评测中，该模型位于帕累托效率前沿，性价比极高。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 65.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Muse Ember 专为 Agent 高频工具调用优化且价格低廉，对于想要低成本跑安全自动化任务（如代码审计、日志解析）的团队来说，是极具性价比的模型选型新选项。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "reader_url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-10T07:28:21",
+      "first_seen_at": "2026-11-10T10:01:57.469113",
+      "sub_category_label": "模型评测"
     }
   ]
 }
