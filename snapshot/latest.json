@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T11:27:36+08:00",
+  "updated_at": "2026-11-10T11:57:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 28732,
@@ -170,31 +170,6 @@
       },
       "published_at": "2026-11-08T20:55:18",
       "first_seen_at": "2026-11-09T21:58:09.785239",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 28152,
-      "title": "Cloudflare 开源安全审计 skill：用验证 Agent 证伪漏洞发现",
-      "original_title": "a security agent should try to prove its own findings wrong.  cloudflare's open security-audit skill sends agents hunting for bugs, then gives a fresh verifier the job of challengi",
-      "summary": "Cloudflare 开源 security-audit skill 采用双 Agent 架构：一个 Agent 挖漏洞，另一个全新 verifier Agent 专门挑战每个发现。核心思路是「发现吓人的漏洞容易，证明它真实才有用」，通过对抗式验证降低误报。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全 Agent 的人该看：LLM 审计最大痛点是误报爆炸，Cloudflare 让独立 verifier Agent 专干证伪来过滤假阳性。这个 hunter+verifier 对抗模式可以直接抄进你的安全 Agent 流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/lenny_enderle/status/2119428765956600018",
-      "reader_url": "https://x.com/lenny_enderle/status/2119428765956600018",
-      "image_url": "https://pbs.twimg.com/media/HWm5OvpWMAAAQDA.jpg",
-      "author": {
-        "username": "lenny_enderle",
-        "name": "Lenny Enderle",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-08T13:56:09",
-      "first_seen_at": "2026-11-09T15:57:26.200714",
       "sub_category_label": "安全Agent"
     },
     {
