@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:02:08+08:00",
+  "updated_at": "2026-11-11T00:32:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -70,6 +70,31 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 29073,
+      "title": "OpenAI 发布 GPT-6 Cyber：自主构造 Exploit 成功率近 50%",
+      "original_title": "OpenAI 正式发布了专攻网络安全的模型 GPT-6 Cyber，在内部的 Preparedness 风险评估框架里，它的安全能力评级首次从上一代 GPT-5.6 Cyber 的 High 跃升到了最高的 Critical。  很多人看到这个最高档评级以为只是个概念，但把它拆开看微观基准，这次的进化非常具体。  在行业标准的 ExploitGym 测试集里",
+      "summary": "OpenAI 发布专攻网络安全的 GPT-6 Cyber 模型，在 ExploitGym 测试集中端到端自主构造可用 Exploit 的成功率接近 50%，并在未公开披露前排查出 Firefox 和 Linux 内核的多个高危提权链路，通过 Daybreak Red 计划定向开放给授权企业安全团队。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "防守方可以直接关注它在自动生成 Fuzzing 测试桩和漏洞报告转复现脚本两个场景的落地效果。如果这个能力是真的，一线安全团队的漏洞验证和遗留代码审计流程会被显著压缩，值得尽早申请接入评估。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/fishjar/status/2120186999269400931",
+      "reader_url": "https://x.com/fishjar/status/2120186999269400931",
+      "image_url": null,
+      "author": {
+        "username": "fishjar",
+        "name": "Gabe",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-10T16:09:06",
+      "first_seen_at": "2026-11-10T16:12:29.233653",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 28467,
       "title": "OpenAI 推出 GPT-6 Cyber 瞄准漏洞挖掘与渗透测试",
       "original_title": "An AI model that finds software flaws raises a second question: who gets to use it?  According to VentureBeat, OpenAI has launched GPT-6 Cyber for vulnerability research, exploit d",
@@ -120,6 +145,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 29061,
+      "title": "优化 Claude 代码库审计的三步走 Prompt 技巧",
+      "original_title": "You can audit your whole codebase with one prompt. You can also do it without losing 20% of your weekly Claude limit.  The prompt everyone saved last night (14,000 bookmarks, from ",
+      "summary": "针对单次 Prompt 审计代码库导致额度消耗过快的问题，提出分三步走（地图、审计、第二意见）的 Prompt 策略以大幅降低 token 消耗。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 66.86,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全人员用 AI 做代码审计时常遇上下文超限和额度秒光的问题。这套三阶段 Prompt 实操性极强，可直接套用于漏洞挖掘或代码审查，立刻提升审计效率并省 token。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/godofprompt/status/2120154832703303735",
+      "reader_url": "https://x.com/godofprompt/status/2120154832703303735",
+      "image_url": "https://pbs.twimg.com/media/HWxNlZga0AEMdAq.jpg",
+      "author": {
+        "username": "godofprompt",
+        "name": "God of Prompt",
+        "avatar_url": null,
+        "followers_count": 14864
+      },
+      "published_at": "2026-11-10T14:01:17",
+      "first_seen_at": "2026-11-10T16:10:46.263122",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 28862,
       "title": "在野利用 AI 渗透框架 ARTEX 攻击 AWS 环境",
       "original_title": "#threatreport #LowCompleteness On the hunt for ARTEX: understanding agentic attacks in AWS environments | 09-11-2026 Source: https://t.co/vrYtHNMODN Key details below ↓  🧑‍💻Actors/",
@@ -163,56 +213,6 @@
       "published_at": "2026-11-10T07:28:21",
       "first_seen_at": "2026-11-10T10:01:57.469113",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 28830,
-      "title": "传闻GPT-6 Cyber实现自动化漏洞挖掘大跃升",
-      "original_title": "OpenAI's GPT-6 Cyber has demonstrated a significant leap in autonomous cybersecurity research.  Some results:  - Developed 948 working exploits for Linux kernel vulnerabilities. - ",
-      "summary": "社交媒体传闻称 OpenAI 的 GPT-6 Cyber 模型在自动化网络安全研究中取得突破，声称开发了 948 个 Linux 内核漏洞利用并发现 81 个未知 Firefox 高危漏洞，性能较前代提升 51%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 65.76,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "虽可能是传闻或未验证数据，但其描述的 AI 批量产出内核级 exploit 与 0day 发现能力，正是 AI for Sec 的终极愿景与威胁预演。漏洞研究团队应密切关注此类能力演进，提前评估未来防御和补丁管理的压力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rohasnagpal/status/2120031071492559170",
-      "reader_url": "https://x.com/rohasnagpal/status/2120031071492559170",
-      "image_url": null,
-      "author": {
-        "username": "rohasnagpal",
-        "name": "Rohas Nagpal",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-10T05:49:30",
-      "first_seen_at": "2026-11-10T06:04:47.817991",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 29052,
-      "title": "Entrypoint 开设面向安全工程师的 Agentic AI 课程",
-      "original_title": "Build security agents with Kevin Tellier at Entrypoint.  &gt; Agentic AI for Security Engineers  Develop applicable agent harnesses for offensive and defensive security purposes, w",
-      "summary": "Kevin Tellier 在 Entrypoint 开设课程，教授安全工程师开发可用于攻防场景的 Agent harness 并进行量化评估。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.69,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "面向想落地安全 Agent 的一线工程师，教你怎么造 harness 和做量化评估。想上手攻防 Agent 的同学可以直接看课程内容找参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Entrypoint_fr/status/2120176706342297953",
-      "reader_url": "https://x.com/Entrypoint_fr/status/2120176706342297953",
-      "image_url": "https://pbs.twimg.com/media/HWxhG9oWUAAnwBx.jpg",
-      "author": {
-        "username": "Entrypoint_fr",
-        "name": "Entrypoint",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-10T15:28:12",
-      "first_seen_at": "2026-11-10T15:40:41.081896",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
