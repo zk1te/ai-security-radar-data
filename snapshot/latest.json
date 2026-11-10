@@ -1,9 +1,33 @@
 {
-  "updated_at": "2026-11-10T07:56:17+08:00",
+  "updated_at": "2026-11-10T08:26:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
+    {
+      "id": 28732,
+      "title": "WorkOS遭入侵，疑由AI自主渗透框架ARTEX驱动",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS报告安全事件，称攻击者疑似使用名为ARTEX的AI辅助自主渗透测试框架访问其内部API，并窃取了CRM与客户支持数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "autonomous_pentest",
+      "score_total": 77.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这可能是首批在野使用「AI自主渗透测试框架」发起真实攻击的公开案例。安全团队需警惕AI自动化攻击工具的产业化趋势，立即排查面向公网的内部API暴露面。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-10",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-10T00:25:50.773176",
+      "sub_category_label": null
+    },
     {
       "id": 28193,
       "title": "Cloudflare 开源 AI 安全审计技能：多 Agent 协作挖掘与验证漏洞",
@@ -205,28 +229,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 28218,
-      "title": "GCSA安全代理检测到BlockBeats搜索页注入攻击",
-      "original_title": "🚨 On Oct 22, GCSA Security Agent detected a DarkSword-linked script injection on the BlockBeats search page targeting iPhone crypto wallets without requiring user interaction. Bloc",
-      "summary": "GCSA Security Agent 检测到 BlockBeats 搜索页面被注入与 DarkSword 相关的恶意脚本，可在无需用户交互的情况下窃取 iPhone 加密钱包资产，目前已修复。",
+      "id": 28245,
+      "title": "KaliGPT：面向 Kali Linux 的 AI 渗透测试助手",
+      "original_title": "I have onboarded the creator of a 1k star GitHub Tech named : “KaliGPT”  KaliGPT is an AI-powered penetration testing assistant built for Kali Linux. It helps users understand term",
+      "summary": "KaliGPT 是一款开源的 AI 渗透测试助手，能帮助用户解读终端结果、推荐下一步操作、生成命令与 payload 并在授权下执行，现已建立官方合作渠道。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 69.95,
+      "score_total": 70.45,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "展示了安全 Agent 在实际威胁狩猎和监控中的落地效果。安全团队可关注此类针对加密钱包的零点击注入攻击链，并评估自身安全 Agent 的检测覆盖面。",
+      "recommendation_reason": "适合关注安全 Agent 落地的安全工程师参考，可借鉴其如何将 LLM 与 Kali 终端工具链结合以实现半自动化渗透流程，同时需注意评估其代为执行系统命令时的权限控制风险。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/GCSA_COM/status/2119526428232630361",
-      "reader_url": "https://x.com/GCSA_COM/status/2119526428232630361",
-      "image_url": "https://pbs.twimg.com/media/HWoR5fQaEAAcMVt.jpg",
+      "canonical_url": "https://x.com/e7v1s1/status/2119563443233566879",
+      "reader_url": "https://x.com/e7v1s1/status/2119563443233566879",
+      "image_url": "https://pbs.twimg.com/media/HWon9NuW4AAPjYL.jpg",
       "author": {
-        "username": "GCSA_COM",
-        "name": "GCSA",
+        "username": "e7v1s1",
+        "name": "e7",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-08T20:24:14",
-      "first_seen_at": "2026-11-09T21:58:09.785239",
+      "published_at": "2026-11-08T22:51:19",
+      "first_seen_at": "2026-11-09T23:58:23.499637",
       "sub_category_label": "安全Agent"
     }
   ]
