@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T20:49:33+08:00",
+  "updated_at": "2026-11-12T00:50:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -43,26 +43,6 @@
       "published_at": "2026-11-11T05:00:00",
       "first_seen_at": "2026-11-11T07:40:54.423519",
       "sub_category_label": "知识增强安全"
-    },
-    {
-      "id": 29355,
-      "title": "Black Hat演讲：AI辅助复现超市制冷系统0day漏洞",
-      "original_title": "Meltdown on Aisle 4: Weaponizing Retail Freezers from Internet Exposure to Sub-Zero Sabotage",
-      "summary": "研究人员披露 Danfoss 等超市工业制冷平台的 0-day 漏洞，将在 Black Hat 演示完整物理攻击链，并展示 AI 辅助复现漏洞如何大幅缩短漏洞挖掘与 PoC 开发周期。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 87.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "展示了 AI 在工控漏洞挖掘中的实战加速效果，安全团队需关注 AI 如何缩短从漏洞发现到 PoC 开发的时间周期，提前评估关键基础设施防御策略。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#meltdown-on-aisle-4-weaponizing-retail-freezers-from-internet-exposure-to-sub-zero-sabotage-59154",
-      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#meltdown-on-aisle-4-weaponizing-retail-freezers-from-internet-exposure-to-sub-zero-sabotage-59154",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-12-09T15:20:00",
-      "first_seen_at": "2026-11-11T04:26:43.840091",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 29679,
@@ -123,6 +103,26 @@
       "published_at": "2026-11-10T00:00:00",
       "first_seen_at": "2026-11-11T08:27:48.438358",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 29785,
+      "title": "Google DeepMind 用 AI 形式化验证 Signal 关键部分",
+      "original_title": "Google DeepMind just mathematically verified key parts of Signal",
+      "summary": "Google DeepMind 在短短四周内利用 AI 完成了对 Signal 加密协议关键部分的数学验证，这表明 AI 有望大幅提升形式化验证在安全领域的实用性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 76.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 辅助形式化验证是密码学和协议安全的硬核方向。此案例展示了 AI 在高门槛安全验证上的落地潜力，安全团队应关注这一趋势并探索将其应用于高安全要求项目的自动化验证流程。",
+      "source_id": "ars-technica-ai",
+      "canonical_url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+      "reader_url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T14:08:57",
+      "first_seen_at": "2026-11-11T14:33:46.674282",
+      "sub_category_label": null
     }
   ]
 }
