@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T07:46:23+08:00",
+  "updated_at": "2026-11-11T08:16:44+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 28430,
@@ -88,6 +88,30 @@
       "published_at": "2026-11-10T17:10:07",
       "first_seen_at": "2026-11-10T19:26:41.870559",
       "sub_category_label": null
+    },
+    {
+      "id": 29261,
+      "title": "WorkOS 疑遭 AI 自主渗透框架 ARTEX 入侵",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 遭遇数据泄露，攻击者疑似使用名为 ARTEX 的 AI 辅助自主渗透测试框架，通过内部 API 访问了其 Salesforce 和 Snowflake 实例中的业务数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是罕见的在野使用「AI 自主渗透框架」进行实际攻击的公开事件。防御方需高度警惕此类工具的自动化突破能力，建议排查内部 API 的异常流量监控能否拦截 AI 驱动的探测行为。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-11",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-11",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-11T00:12:52.050412",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 29253,
