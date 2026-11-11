@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T08:46:50+08:00",
+  "updated_at": "2026-11-11T09:16:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -22,26 +22,6 @@
       "author": null,
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-10T20:53:20.701694",
-      "sub_category_label": null
-    },
-    {
-      "id": 28973,
-      "title": "AI 形式化验证突破：AlphaProof Code 深度验证 Signal 核心加密",
-      "original_title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "summary": "Google DeepMind 发布 AlphaProof Code，AI Agent 用 Lean 编写三百万行证明，成功验证 Signal 核心加密代码的深度正确性，标志着 AI 辅助形式化验证在真实大规模安全关键软件上的落地。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "formal_verification",
-      "score_total": 83.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做密码学实现审计和高 assurance 软件验证的人必看——这是 AI 形式化验证首次在真实大规模加密库上落地，如果方法可复用，将直接改变高安全代码审计的成本结构。",
-      "source_id": "deepmind-blog",
-      "canonical_url": "https://deepmind.google/blog/introducing-alphaproof-code",
-      "reader_url": "https://deepmind.google/blog/introducing-alphaproof-code",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-10T12:02:28",
-      "first_seen_at": "2026-11-10T12:51:01.778682",
       "sub_category_label": null
     },
     {
@@ -224,6 +204,26 @@
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-10T20:53:20.701694",
       "sub_category_label": null
+    },
+    {
+      "id": 28444,
+      "title": "GitHub安全公告中AI编码Agent参与漏洞修复的实证研究",
+      "original_title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+      "summary": "该论文通过挖掘GitHub安全公告数据，发现Claude等AI编码Agent已广泛参与数百个安全漏洞的修复工作，并分析了相关审查时间的变化。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "想知道Claude、Copilot到底修了多少漏洞？这篇论文直接挖了GitHub安全公告，给出了Agent参与安全修复的真实落地数据。安全团队和开源维护者必看，了解AI修复的实际影响和审查节奏。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.09808",
+      "reader_url": "https://arxiv.org/pdf/2611.09808",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-09T05:00:00",
+      "first_seen_at": "2026-11-10T20:53:20.701694",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
