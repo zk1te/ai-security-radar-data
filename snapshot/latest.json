@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T19:18:59+08:00",
+  "updated_at": "2026-11-11T20:49:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 6,
   "items": [
     {
       "id": 29455,
@@ -105,30 +105,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 29310,
-      "title": "HN热议：Glasswing AI挖洞7个月后向维护者提交大量低质报告",
-      "original_title": "HN Hot Discussion: After 7 months, Glasswing overwelms maintainers with underwhelming findings",
-      "summary": "VulnCheck 博客指出，Anthropic 的 Project Glasswing 在运行7个月后向开源维护者提交了大量低质量漏洞报告，引发社区关于 AI 挖洞有效性和负责任披露的讨论。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 80.57,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI 漏洞挖掘 Agent 从研究走向真实开源世界的首波真实碰撞。安全团队在引入 AI 挖洞时必须关注报告的信号噪音比和对维护者造成的精力负担，避免产出无效工单。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-11",
-      "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-11",
-      "image_url": null,
-      "author": {
-        "username": "panic",
-        "name": "panic",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-10T22:17:56",
-      "first_seen_at": "2026-11-11T00:37:59.458010",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 29570,
       "title": "Cogent 联手 OpenAI 打造防御工厂，用 Agent 自动修复漏洞",
       "original_title": "Cogent and OpenAI build cyber defense factories for enterprises",
@@ -147,30 +123,6 @@
       "published_at": "2026-11-10T00:00:00",
       "first_seen_at": "2026-11-11T08:27:48.438358",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 29287,
-      "title": "开源风控平台 Kairos：用 LLM 与 Agent 应对欺诈变种",
-      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
-      "summary": "Kairos 是一个开源的实时欺诈决策平台，结合大语言模型与传统机器学习处理非结构化风控特征，并引入 MCP 让 AI Agent 自动化更新风控规则与模型训练。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fraud_detection",
-      "score_total": 79.9,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "风控和业务安全团队值得关注。Kairos 展示了如何用 LLM 和 Agent 自动更新规则与模型，解决传统风控依赖标注数据且规则易失效的痛点，可以直接自托管试用。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-11",
-      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-11",
-      "image_url": null,
-      "author": {
-        "username": "ayanb9440",
-        "name": "ayanb9440",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-03T21:16:48",
-      "first_seen_at": "2026-11-11T00:34:32.095477",
-      "sub_category_label": "欺诈检测"
     }
   ]
 }
