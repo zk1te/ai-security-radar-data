@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-11-12T06:51:36+08:00",
+  "updated_at": "2026-11-12T07:21:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
-    {
-      "id": 29726,
-      "title": "OpenAI 开源 codex-security 漏洞修复工具",
-      "original_title": "GitHub Trending: openai/codex-security gained 20 stars today",
-      "summary": "OpenAI 的 Codex Security CLI 及 TypeScript SDK 登上 GitHub Trending，该工具主要用于安全漏洞的查找、验证与修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 81.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI 官方下场做漏洞修复工具，安全团队可直接集成测试其实际修复效果与误报率，评估是否值得纳入现有安全工作流。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-11&since=daily",
-      "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-11&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-11T11:16:08.070855",
-      "first_seen_at": "2026-11-11T11:16:35.322742",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 29785,
       "title": "Google DeepMind 用 AI 形式化验证 Signal 关键部分",
@@ -188,6 +168,31 @@
       "published_at": "2026-11-11T22:03:25",
       "first_seen_at": "2026-11-11T22:48:26.420836",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 29964,
+      "title": "libyaml Fuzzing 实战：分享 harness 与种子语料库",
+      "original_title": "Campaña de fuzzing a libyaml con AFL++ y ASan: 477M ejecuciones, 59% de cobertura y 0 crashes. Lo útil: harness persistente, diccionario YAML y corpus de 1318 semillas para fuzzear",
+      "summary": "分享使用 AFL++ 和 ASan 对 libyaml 进行 fuzzing 的经验，并提供了持久化 harness、YAML 字典及 1318 个种子语料库等可直接复用的资源。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 63.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "推文分享了具体的 fuzzing 资源，包括 harness、字典和语料库。安全团队可直接复用这些资产测试其他解析器，降低测试成本。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/l0rdmalware/status/2120640684386591082",
+      "reader_url": "https://x.com/l0rdmalware/status/2120640684386591082",
+      "image_url": null,
+      "author": {
+        "username": "l0rdmalware",
+        "name": "Antonio Calderón",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-11T22:11:53",
+      "first_seen_at": "2026-11-11T22:42:52.743402",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
