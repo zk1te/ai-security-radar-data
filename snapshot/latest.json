@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:21:42+08:00",
+  "updated_at": "2026-11-12T07:51:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -23,6 +23,31 @@
       "published_at": "2026-11-11T14:08:57",
       "first_seen_at": "2026-11-11T14:33:46.674282",
       "sub_category_label": null
+    },
+    {
+      "id": 29985,
+      "title": "GPT-6 Cyber 实现内核提权：AI 自动化 0day 武器化速度惊人",
+      "original_title": "For years, elite security researchers believed AI couldn't handle real penetration testing because chaining complex zero-days supposedly required human intuition. That assumption j",
+      "summary": "OpenAI 使用 GPT-6 Cyber 模型针对 Linux 内核进行提权测试，成功复现 1724 个漏洞并构建 948 个可用 root exploit，单次平均耗时约 2.5 小时。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 75.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "自主漏洞挖掘 Agent 已能以机器速度实现内核级 exploit 武器化，安全团队必须重新评估现有补丁管理节奏，防御侧响应时间正面临降维打击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/julie199201/status/2120659657299730760",
+      "reader_url": "https://x.com/julie199201/status/2120659657299730760",
+      "image_url": null,
+      "author": {
+        "username": "julie199201",
+        "name": "Julie Sanchez",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-11T23:27:16",
+      "first_seen_at": "2026-11-11T23:48:18.342729",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 29909,
@@ -168,31 +193,6 @@
       "published_at": "2026-11-11T22:03:25",
       "first_seen_at": "2026-11-11T22:48:26.420836",
       "sub_category_label": "模型评测"
-    },
-    {
-      "id": 29964,
-      "title": "libyaml Fuzzing 实战：分享 harness 与种子语料库",
-      "original_title": "Campaña de fuzzing a libyaml con AFL++ y ASan: 477M ejecuciones, 59% de cobertura y 0 crashes. Lo útil: harness persistente, diccionario YAML y corpus de 1318 semillas para fuzzear",
-      "summary": "分享使用 AFL++ 和 ASan 对 libyaml 进行 fuzzing 的经验，并提供了持久化 harness、YAML 字典及 1318 个种子语料库等可直接复用的资源。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 63.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "推文分享了具体的 fuzzing 资源，包括 harness、字典和语料库。安全团队可直接复用这些资产测试其他解析器，降低测试成本。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/l0rdmalware/status/2120640684386591082",
-      "reader_url": "https://x.com/l0rdmalware/status/2120640684386591082",
-      "image_url": null,
-      "author": {
-        "username": "l0rdmalware",
-        "name": "Antonio Calderón",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-11T22:11:53",
-      "first_seen_at": "2026-11-11T22:42:52.743402",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
