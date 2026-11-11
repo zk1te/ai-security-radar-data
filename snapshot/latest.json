@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T05:21:28+08:00",
+  "updated_at": "2026-11-12T05:51:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -120,31 +120,6 @@
       "sub_category_label": null
     },
     {
-      "id": 29700,
-      "title": "OpenAI Codex 安全代理进入预览，自动发现并修补软件漏洞",
-      "original_title": "Morning Update  OpenAI puts Codex Security into research preview to find, check and patch software flaws OpenAI has confirmed that Codex Security is now in research preview. The ap",
-      "summary": "OpenAI 推出 Codex Security 研究预览版，该安全代理能分析代码上下文、识别潜在漏洞、验证真实风险并生成修复补丁，旨在减少误报并加速修复流程。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.46,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI 官方下场做漏洞挖掘与修复 Agent，直接对标安全团队的核心痛点。做 DevSecOps 和代码审计的人必须立刻关注其误报率和补丁可用性，这决定了它是玩具还是真能进流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/FoundOnArdy/status/2120451765225017381",
-      "reader_url": "https://x.com/FoundOnArdy/status/2120451765225017381",
-      "image_url": null,
-      "author": {
-        "username": "FoundOnArdy",
-        "name": "FoundOnArdy",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-11T09:41:11",
-      "first_seen_at": "2026-11-11T09:48:13.617432",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 29919,
       "title": "AI 渗透平台 AntiFox 实现全链路自动化攻击",
       "original_title": "An agentic AI pentesting platform was weaponized to run a full kill chain — from ASPX web shell deployment to AWS Secrets Manager exfiltration — with minimal human interaction.  An",
@@ -193,6 +168,31 @@
       "published_at": "2026-11-11T19:12:05",
       "first_seen_at": "2026-11-11T19:26:16.472441",
       "sub_category_label": null
+    },
+    {
+      "id": 29867,
+      "title": "渗透测试 Agent「AntiFox」被用于窃取 AWS 凭证",
+      "original_title": "Researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentia",
+      "summary": "研究人员披露一个名为 AntiFox 的自主渗透测试平台被攻击者用于窃取 AWS 凭证并进行横向移动。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 63.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Agentic 渗透测试工具正成为攻击者的新武器，安全团队需警惕此类安全 Agent 被滥用，及时排查云环境凭证泄露风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/cybertzar/status/2120566200736334302",
+      "reader_url": "https://x.com/cybertzar/status/2120566200736334302",
+      "image_url": null,
+      "author": {
+        "username": "cybertzar",
+        "name": "Cyber Tzar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-11T17:15:55",
+      "first_seen_at": "2026-11-11T17:45:33.059296",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
