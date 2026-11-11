@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T17:18:24+08:00",
+  "updated_at": "2026-11-11T19:18:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 29455,
@@ -83,6 +83,26 @@
       "published_at": "2026-11-11T05:00:00",
       "first_seen_at": "2026-11-11T09:06:03.853185",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 29726,
+      "title": "OpenAI 开源 codex-security 漏洞修复工具",
+      "original_title": "GitHub Trending: openai/codex-security gained 20 stars today",
+      "summary": "OpenAI 的 Codex Security CLI 及 TypeScript SDK 登上 GitHub Trending，该工具主要用于安全漏洞的查找、验证与修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 81.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "OpenAI 官方下场做漏洞修复工具，安全团队可直接集成测试其实际修复效果与误报率，评估是否值得纳入现有安全工作流。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-11&since=daily",
+      "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-11&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T11:16:08.070855",
+      "first_seen_at": "2026-11-11T11:16:35.322742",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 29310,
