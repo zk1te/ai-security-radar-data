@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T05:51:35+08:00",
+  "updated_at": "2026-11-12T06:51:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -170,29 +170,24 @@
       "sub_category_label": null
     },
     {
-      "id": 29867,
-      "title": "渗透测试 Agent「AntiFox」被用于窃取 AWS 凭证",
-      "original_title": "Researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentia",
-      "summary": "研究人员披露一个名为 AntiFox 的自主渗透测试平台被攻击者用于窃取 AWS 凭证并进行横向移动。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 63.45,
+      "id": 29966,
+      "title": "Google推出多模态决策模型Gemini Decision 1 API",
+      "original_title": "Gemini Decisions API",
+      "summary": "Google发布Gemini Decision 1决策模型API，支持多模态输入和是非题、选择题及评分判断，与OpenAI和Jev同类模型竞争，但输出概率而非绝对值。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 63.85,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "Agentic 渗透测试工具正成为攻击者的新武器，安全团队需警惕此类安全 Agent 被滥用，及时排查云环境凭证泄露风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/cybertzar/status/2120566200736334302",
-      "reader_url": "https://x.com/cybertzar/status/2120566200736334302",
+      "recommendation_reason": "决策模型在安全评测和Agent决策中至关重要。安全团队应关注Gemini多模态决策能力及概率输出的差异，评估其能否用于自动化安全判断或内容过滤。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
+      "reader_url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
       "image_url": null,
-      "author": {
-        "username": "cybertzar",
-        "name": "Cyber Tzar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-11T17:15:55",
-      "first_seen_at": "2026-11-11T17:45:33.059296",
-      "sub_category_label": "安全Agent"
+      "author": null,
+      "published_at": "2026-11-11T22:03:25",
+      "first_seen_at": "2026-11-11T22:48:26.420836",
+      "sub_category_label": "模型评测"
     }
   ]
 }
