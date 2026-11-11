@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T08:16:44+08:00",
+  "updated_at": "2026-11-11T08:46:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 28430,
@@ -63,6 +63,54 @@
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-10T20:53:20.701694",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 29310,
+      "title": "HN热议：Glasswing AI挖洞7个月后向维护者提交大量低质报告",
+      "original_title": "HN Hot Discussion: After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+      "summary": "VulnCheck 博客指出，Anthropic 的 Project Glasswing 在运行7个月后向开源维护者提交了大量低质量漏洞报告，引发社区关于 AI 挖洞有效性和负责任披露的讨论。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 80.57,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 漏洞挖掘 Agent 从研究走向真实开源世界的首波真实碰撞。安全团队在引入 AI 挖洞时必须关注报告的信号噪音比和对维护者造成的精力负担，避免产出无效工单。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-11",
+      "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-11",
+      "image_url": null,
+      "author": {
+        "username": "panic",
+        "name": "panic",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-10T22:17:56",
+      "first_seen_at": "2026-11-11T00:37:59.458010",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 29287,
+      "title": "开源风控平台 Kairos：用 LLM 与 Agent 应对欺诈变种",
+      "original_title": "HN Hot Discussion: Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "summary": "Kairos 是一个开源的实时欺诈决策平台，结合大语言模型与传统机器学习处理非结构化风控特征，并引入 MCP 让 AI Agent 自动化更新风控规则与模型训练。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fraud_detection",
+      "score_total": 79.9,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "风控和业务安全团队值得关注。Kairos 展示了如何用 LLM 和 Agent 自动更新规则与模型，解决传统风控依赖标注数据且规则易失效的痛点，可以直接自托管试用。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-11",
+      "reader_url": "https://news.ycombinator.com/item?id=50358314&hn_hot_date=2026-11-11",
+      "image_url": null,
+      "author": {
+        "username": "ayanb9440",
+        "name": "ayanb9440",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-03T21:16:48",
+      "first_seen_at": "2026-11-11T00:34:32.095477",
+      "sub_category_label": "欺诈检测"
     },
     {
       "id": 29150,
@@ -138,6 +186,26 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 29285,
+      "title": "Cloudflare 发布多阶段安全审计 Agent 技能",
+      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+      "summary": "Cloudflare 开源 coding-agent 技能 security-audit-skill，支持多阶段安全审计并输出可独立验证的机器可读结果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.05,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "安全自动化和代码审计从业者值得一看：看 Cloudflare 如何拆解多阶段审计任务给 coding-agent，以及如何确保 finding 独立可验证。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-11&since=weekly",
+      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-11&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-09-14T19:29:02",
+      "first_seen_at": "2026-11-11T00:34:29.989980",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 28440,
       "title": "TensorMutation：用GNN预测DL模型变异兼顾成本与真实度",
       "original_title": "TensorMutation: Learning Weight-Space Mutations of Deep Learning Models on Neural Graphs",
@@ -156,51 +224,6 @@
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-10T20:53:20.701694",
       "sub_category_label": null
-    },
-    {
-      "id": 28444,
-      "title": "GitHub安全公告中AI编码Agent参与漏洞修复的实证研究",
-      "original_title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
-      "summary": "该论文通过挖掘GitHub安全公告数据，发现Claude等AI编码Agent已广泛参与数百个安全漏洞的修复工作，并分析了相关审查时间的变化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.45,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "想知道Claude、Copilot到底修了多少漏洞？这篇论文直接挖了GitHub安全公告，给出了Agent参与安全修复的真实落地数据。安全团队和开源维护者必看，了解AI修复的实际影响和审查节奏。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.09808",
-      "reader_url": "https://arxiv.org/pdf/2611.09808",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-09T05:00:00",
-      "first_seen_at": "2026-11-10T20:53:20.701694",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 29073,
-      "title": "OpenAI 发布 GPT-6 Cyber：自主构造 Exploit 成功率近 50%",
-      "original_title": "OpenAI 正式发布了专攻网络安全的模型 GPT-6 Cyber，在内部的 Preparedness 风险评估框架里，它的安全能力评级首次从上一代 GPT-5.6 Cyber 的 High 跃升到了最高的 Critical。  很多人看到这个最高档评级以为只是个概念，但把它拆开看微观基准，这次的进化非常具体。  在行业标准的 ExploitGym 测试集里",
-      "summary": "OpenAI 发布专攻网络安全的 GPT-6 Cyber 模型，在 ExploitGym 测试集中端到端自主构造可用 Exploit 的成功率接近 50%，并在未公开披露前排查出 Firefox 和 Linux 内核的多个高危提权链路，通过 Daybreak Red 计划定向开放给授权企业安全团队。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防守方可以直接关注它在自动生成 Fuzzing 测试桩和漏洞报告转复现脚本两个场景的落地效果。如果这个能力是真的，一线安全团队的漏洞验证和遗留代码审计流程会被显著压缩，值得尽早申请接入评估。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/fishjar/status/2120186999269400931",
-      "reader_url": "https://x.com/fishjar/status/2120186999269400931",
-      "image_url": null,
-      "author": {
-        "username": "fishjar",
-        "name": "Gabe",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-10T16:09:06",
-      "first_seen_at": "2026-11-10T16:12:29.233653",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
