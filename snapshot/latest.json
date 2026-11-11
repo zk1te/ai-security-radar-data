@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:16:57+08:00",
+  "updated_at": "2026-11-11T12:47:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,6 +23,26 @@
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-10T20:53:20.701694",
       "sub_category_label": null
+    },
+    {
+      "id": 29355,
+      "title": "Black Hat演讲：AI辅助复现超市制冷系统0day漏洞",
+      "original_title": "Meltdown on Aisle 4: Weaponizing Retail Freezers from Internet Exposure to Sub-Zero Sabotage",
+      "summary": "研究人员披露 Danfoss 等超市工业制冷平台的 0-day 漏洞，将在 Black Hat 演示完整物理攻击链，并展示 AI 辅助复现漏洞如何大幅缩短漏洞挖掘与 PoC 开发周期。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 87.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI 在工控漏洞挖掘中的实战加速效果，安全团队需关注 AI 如何缩短从漏洞发现到 PoC 开发的时间周期，提前评估关键基础设施防御策略。",
+      "source_id": "blackhat-public-sessions",
+      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#meltdown-on-aisle-4-weaponizing-retail-freezers-from-internet-exposure-to-sub-zero-sabotage-59154",
+      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#meltdown-on-aisle-4-weaponizing-retail-freezers-from-internet-exposure-to-sub-zero-sabotage-59154",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-12-09T15:20:00",
+      "first_seen_at": "2026-11-11T04:26:43.840091",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 28435,
@@ -204,26 +224,6 @@
       "published_at": "2026-11-09T05:00:00",
       "first_seen_at": "2026-11-10T20:53:20.701694",
       "sub_category_label": null
-    },
-    {
-      "id": 28444,
-      "title": "GitHub安全公告中AI编码Agent参与漏洞修复的实证研究",
-      "original_title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
-      "summary": "该论文通过挖掘GitHub安全公告数据，发现Claude等AI编码Agent已广泛参与数百个安全漏洞的修复工作，并分析了相关审查时间的变化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.45,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "想知道Claude、Copilot到底修了多少漏洞？这篇论文直接挖了GitHub安全公告，给出了Agent参与安全修复的真实落地数据。安全团队和开源维护者必看，了解AI修复的实际影响和审查节奏。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.09808",
-      "reader_url": "https://arxiv.org/pdf/2611.09808",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-09T05:00:00",
-      "first_seen_at": "2026-11-10T20:53:20.701694",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
