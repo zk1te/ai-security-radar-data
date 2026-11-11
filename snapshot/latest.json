@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T15:48:16+08:00",
+  "updated_at": "2026-11-11T16:48:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 28430,
@@ -127,6 +127,26 @@
       "published_at": "2026-11-10T22:17:56",
       "first_seen_at": "2026-11-11T00:37:59.458010",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 29570,
+      "title": "Cogent 联手 OpenAI 打造防御工厂，用 Agent 自动修复漏洞",
+      "original_title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "summary": "Cogent 结合 OpenAI 模型与企业上下文环境，利用安全 Agent 帮助企业实现漏洞的自动化修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "厂商用大模型 Agent 跑自动化漏洞修复，是 AI for Sec 落地的重要信号。安全团队应关注其实际修复效果与企业上下文接入方式，评估能否借鉴到内部流程。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/index/cogent-security",
+      "reader_url": "https://openai.com/index/cogent-security",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-10T00:00:00",
+      "first_seen_at": "2026-11-11T08:27:48.438358",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 29287,
