@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T03:50:54+08:00",
+  "updated_at": "2026-11-12T04:51:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -43,26 +43,6 @@
       "published_at": "2026-11-11T11:16:08.070855",
       "first_seen_at": "2026-11-11T11:16:35.322742",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 29570,
-      "title": "Cogent 联手 OpenAI 打造防御工厂，用 Agent 自动修复漏洞",
-      "original_title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "summary": "Cogent 结合 OpenAI 模型与企业上下文环境，利用安全 Agent 帮助企业实现漏洞的自动化修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 80.55,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "厂商用大模型 Agent 跑自动化漏洞修复，是 AI for Sec 落地的重要信号。安全团队应关注其实际修复效果与企业上下文接入方式，评估能否借鉴到内部流程。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/cogent-security",
-      "reader_url": "https://openai.com/index/cogent-security",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-10T00:00:00",
-      "first_seen_at": "2026-11-11T08:27:48.438358",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 29785,
@@ -193,6 +173,31 @@
       "published_at": "2026-11-11T16:05:53",
       "first_seen_at": "2026-11-11T17:09:32.465260",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 29738,
+      "title": "研究员关闭Burp过滤斩获1500美金，发现AI提示词与PII泄露",
+      "original_title": "A $1,500 bounty for changing one Burp Suite setting! Here is how a researcher found an unguessable endpoint leaking AI system prompts and employee PII just by turning off their sco",
+      "summary": "安全研究员通过关闭 Burp Suite 的 scope filter，捕获到发往第三方域的隐藏 SSE 请求，发现该接口直接泄露完整的 AI 系统提示词和员工 PII。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery",
+      "score_total": 67.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "挖 AI 漏洞别只盯着目标域，关掉代理过滤看跨域请求，SSE 流里常藏着系统提示词和敏感数据。做渗透测试的马上就能调整测试习惯去捡漏。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Bug_Breakdown/status/2120481943603339636",
+      "reader_url": "https://x.com/Bug_Breakdown/status/2120481943603339636",
+      "image_url": null,
+      "author": {
+        "username": "Bug_Breakdown",
+        "name": "Daily Bug Bounty Reports",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-11T11:41:06",
+      "first_seen_at": "2026-11-11T12:03:46.427780",
+      "sub_category_label": null
     }
   ]
 }
