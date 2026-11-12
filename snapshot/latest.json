@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-13T00:33:12+08:00",
+  "updated_at": "2026-11-13T02:33:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 29646,
@@ -162,6 +162,31 @@
       "author": null,
       "published_at": "2026-11-12T00:00:00",
       "first_seen_at": "2026-11-12T16:00:39.487839",
+      "sub_category_label": null
+    },
+    {
+      "id": 29868,
+      "title": "AI 成功验证 Signal 加密代码，软件安全迎来新范式",
+      "original_title": "AI Just Proved Signal’s Encryption Code. Software Security May Never Be the Same.",
+      "summary": "AI 系统成功对 Signal 的加密代码进行了形式化验证或安全性证明，标志着 AI 在高难度代码审计和密码学验证方面取得重大突破。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "formal_verification",
+      "score_total": 71.03,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做代码审计和底层安全的研究员必看。AI 正式杀入形式化验证领域，预示着未来的安全审计工作流可能从人工写证明转向 AI 辅助自动化验证，需尽早跟进相关工具链进展。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/farrukh_codes/status/2120569280462995642",
+      "reader_url": "https://x.com/farrukh_codes/status/2120569280462995642",
+      "image_url": null,
+      "author": {
+        "username": "farrukh_codes",
+        "name": "Farrukh Naveed Anjum",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-11T17:28:09",
+      "first_seen_at": "2026-11-12T18:08:25.622530",
       "sub_category_label": null
     }
   ]
