@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T07:51:48+08:00",
+  "updated_at": "2026-11-12T08:22:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 29785,
@@ -23,6 +23,30 @@
       "published_at": "2026-11-11T14:08:57",
       "first_seen_at": "2026-11-11T14:33:46.674282",
       "sub_category_label": null
+    },
+    {
+      "id": 29989,
+      "title": "WorkOS遭攻击，攻击者疑似使用AI自动渗透框架ARTEX",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS报告安全事件，指出攻击者使用名为ARTEX的AI辅助自动渗透测试框架访问了其内部API及CRM数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "首次出现AI自动渗透框架（ARTEX）被用于真实在野攻击的报告。这标志着自动化攻防工具门槛降低，攻击者正利用AI Agent发起更高效的自动化攻击，安全团队需警惕此类新型威胁。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-12T00:09:19.213659",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 29985,
@@ -48,6 +72,31 @@
       "published_at": "2026-11-11T23:27:16",
       "first_seen_at": "2026-11-11T23:48:18.342729",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 30000,
+      "title": "ARTEX等AI红队框架遭武器化，无需漏洞即可攻破云环境",
+      "original_title": "AI-powered red teaming frameworks ARTEX and CyberStrikeAI are actively weaponized by attackers, hitting cloud environments across sectors with no CVE required. Unit 42 IR and Manag",
+      "summary": "Unit 42 披露 AI 红队框架 ARTEX 和 CyberStrikeAI 被攻击者武器化，利用公开 API 和源码映射在数分钟内切入云环境，并给出基于行为指纹的检测建议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "防守方应立即排查对外暴露的 OpenAPI 文档和源码映射，并在日志中监控高频爆冲式请求及测试型凭证填充行为，防范 AI Agent 自动化渗透。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DFIR_Radar/status/2120668641406660949",
+      "reader_url": "https://x.com/DFIR_Radar/status/2120668641406660949",
+      "image_url": "https://pbs.twimg.com/media/HW4g47laQAAf-hi.jpg",
+      "author": {
+        "username": "DFIR_Radar",
+        "name": "DFIR Radar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-12T00:02:58",
+      "first_seen_at": "2026-11-12T00:21:21.409576",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 29909,
@@ -100,31 +149,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 29738,
-      "title": "研究员关闭Burp过滤斩获1500美金，发现AI提示词与PII泄露",
-      "original_title": "A $1,500 bounty for changing one Burp Suite setting! Here is how a researcher found an unguessable endpoint leaking AI system prompts and employee PII just by turning off their sco",
-      "summary": "安全研究员通过关闭 Burp Suite 的 scope filter，捕获到发往第三方域的隐藏 SSE 请求，发现该接口直接泄露完整的 AI 系统提示词和员工 PII。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery",
-      "score_total": 67.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "挖 AI 漏洞别只盯着目标域，关掉代理过滤看跨域请求，SSE 流里常藏着系统提示词和敏感数据。做渗透测试的马上就能调整测试习惯去捡漏。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Bug_Breakdown/status/2120481943603339636",
-      "reader_url": "https://x.com/Bug_Breakdown/status/2120481943603339636",
-      "image_url": null,
-      "author": {
-        "username": "Bug_Breakdown",
-        "name": "Daily Bug Bounty Reports",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-11T11:41:06",
-      "first_seen_at": "2026-11-11T12:03:46.427780",
-      "sub_category_label": null
-    },
-    {
       "id": 29919,
       "title": "AI 渗透平台 AntiFox 实现全链路自动化攻击",
       "original_title": "An agentic AI pentesting platform was weaponized to run a full kill chain — from ASPX web shell deployment to AWS Secrets Manager exfiltration — with minimal human interaction.  An",
@@ -148,51 +172,6 @@
       "published_at": "2026-11-11T16:33:30",
       "first_seen_at": "2026-11-11T19:59:26.984598",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 29907,
-      "title": "亚马逊推开源AWS模拟器：全由AI编写，支持LLM模糊测试",
-      "original_title": "Amazon just launched AWS Emulator, a free local copy of AWS built entirely by AI agents. Here's what you need to know.  AWS Emulator is a local emulator of AWS services. Developers",
-      "summary": "亚马逊发布开源的 AWS 本地模拟器，代码完全由 AI agents 自主编写，支持 LLM 引导的模糊测试和本地仿真，无需访问真实云环境。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "fuzzing",
-      "score_total": 64.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做云安全测试和 Fuzzing 的从业者必看。不仅能免费用本地高保真环境测 S3/Lambda 等接口，还能观察亚马逊如何用多智能体零人工审查写代码，值得警惕其供应链风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AGTPinsights/status/2120595438034464878",
-      "reader_url": "https://x.com/AGTPinsights/status/2120595438034464878",
-      "image_url": "https://pbs.twimg.com/media/HW3eHluW0AANpWy.jpg",
-      "author": {
-        "username": "AGTPinsights",
-        "name": "AGTP",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-11T19:12:05",
-      "first_seen_at": "2026-11-11T19:26:16.472441",
-      "sub_category_label": null
-    },
-    {
-      "id": 29966,
-      "title": "Google推出多模态决策模型Gemini Decision 1 API",
-      "original_title": "Gemini Decisions API",
-      "summary": "Google发布Gemini Decision 1决策模型API，支持多模态输入和是非题、选择题及评分判断，与OpenAI和Jev同类模型竞争，但输出概率而非绝对值。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 63.85,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "决策模型在安全评测和Agent决策中至关重要。安全团队应关注Gemini多模态决策能力及概率输出的差异，评估其能否用于自动化安全判断或内容过滤。",
-      "source_id": "simon-willison",
-      "canonical_url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
-      "reader_url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-11T22:03:25",
-      "first_seen_at": "2026-11-11T22:48:26.420836",
-      "sub_category_label": "模型评测"
     }
   ]
 }
