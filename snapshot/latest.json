@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T02:33:37+08:00",
+  "updated_at": "2026-11-13T04:34:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -85,6 +85,31 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 29909,
+      "title": "黑客滥用开源 AI 渗透平台 AntiFox 窃取 AWS 机密",
+      "original_title": "🚨 Hackers weaponize AntiFox AI agents to breach servers and steal AWS production secrets  Security researchers at Arctic Wolf have uncovered attacks using AntiFox, an open-source A",
+      "summary": "安全研究人员发现黑客将开源 AI 渗透测试平台 AntiFox 武器化，用于入侵服务器、提取凭证并在短时间内高频调用 API 窃取 AWS 生产机密。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.78,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "防御团队需警惕 AI 渗透工具被实战武器化的趋势。建议即刻核查云端 API 异常高频调用的监控策略，防范自动化凭证滥用攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+      "reader_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+      "image_url": "https://pbs.twimg.com/media/HW3gyC8XoAAXdwi.jpg",
+      "author": {
+        "username": "DarkWebInformer",
+        "name": "Dark Web Informer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-11T19:23:19",
+      "first_seen_at": "2026-11-12T20:08:45.141534",
+      "sub_category_label": null
+    },
+    {
       "id": 30161,
       "title": "Anthropic 玻璃翼计划被质疑：近4万漏洞仅修217条",
       "original_title": "Anthropic玻璃翼计划被质疑！近4万个候补漏洞，只修了217条",
@@ -162,31 +187,6 @@
       "author": null,
       "published_at": "2026-11-12T00:00:00",
       "first_seen_at": "2026-11-12T16:00:39.487839",
-      "sub_category_label": null
-    },
-    {
-      "id": 29868,
-      "title": "AI 成功验证 Signal 加密代码，软件安全迎来新范式",
-      "original_title": "AI Just Proved Signal’s Encryption Code. Software Security May Never Be the Same.",
-      "summary": "AI 系统成功对 Signal 的加密代码进行了形式化验证或安全性证明，标志着 AI 在高难度代码审计和密码学验证方面取得重大突破。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "formal_verification",
-      "score_total": 71.03,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做代码审计和底层安全的研究员必看。AI 正式杀入形式化验证领域，预示着未来的安全审计工作流可能从人工写证明转向 AI 辅助自动化验证，需尽早跟进相关工具链进展。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/farrukh_codes/status/2120569280462995642",
-      "reader_url": "https://x.com/farrukh_codes/status/2120569280462995642",
-      "image_url": null,
-      "author": {
-        "username": "farrukh_codes",
-        "name": "Farrukh Naveed Anjum",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-11T17:28:09",
-      "first_seen_at": "2026-11-12T18:08:25.622530",
       "sub_category_label": null
     }
   ]
