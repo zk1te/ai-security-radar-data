@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T15:53:28+08:00",
+  "updated_at": "2026-11-12T19:24:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -75,6 +75,26 @@
       },
       "published_at": "2026-11-11T23:27:16",
       "first_seen_at": "2026-11-11T23:48:18.342729",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 30161,
+      "title": "Anthropic 玻璃翼计划被质疑：近4万漏洞仅修217条",
+      "original_title": "Anthropic玻璃翼计划被质疑！近4万个候补漏洞，只修了217条",
+      "summary": "Anthropic 的 Project Glasswing 挖出近 4 万个候选漏洞，但实际修复的仅 217 条，引发只挖不修的质疑。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 挖漏洞的产能爆发已远超人工修复速度，安全团队需警惕 AI 生成的漏洞报告淹没维护者，评估自动化修复或优先级排序机制迫在眉睫。",
+      "source_id": "qbitai",
+      "canonical_url": "https://www.qbitai.com/2026/11/509291.html",
+      "reader_url": "https://www.qbitai.com/2026/11/509291.html",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-12T07:55:11",
+      "first_seen_at": "2026-11-12T11:10:42.172014",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -191,31 +211,6 @@
       "published_at": "2026-11-12T04:12:31",
       "first_seen_at": "2026-11-12T04:22:03.394976",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30054,
-      "title": "越狱 DeepSeek 被用于自主利用 Cisco 漏洞实施横向移动",
-      "original_title": "Attackers in Operation Snowball used a jailbroken DeepSeek AI model to autonomously exploit CVE-2026-20320 in Cisco BroadWorks — extracting system identity private keys via unauthe",
-      "summary": "攻击者在「雪球行动」中使用越狱的 DeepSeek 模型自主利用 Cisco BroadWorks 的 CVE-2026-20320，通过 XXE 提取私钥并冒充组件在云环境中横向移动。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | vuln_discovery",
-      "score_total": 65.46,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是罕见的在野利用越狱大模型自主打 CVE 的案例，展示了 AI 自动化攻击链的实战落地。防守方需高度警惕 AI 辅助的复杂漏洞利用与组件信任滥用。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2120671512017383730",
-      "reader_url": "https://x.com/aviatrixtrc/status/2120671512017383730",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-11-12T00:14:23",
-      "first_seen_at": "2026-11-12T03:48:46.484724",
-      "sub_category_label": null
     }
   ]
 }
