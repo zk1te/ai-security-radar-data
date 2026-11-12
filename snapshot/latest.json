@@ -1,33 +1,9 @@
 {
-  "updated_at": "2026-11-12T20:24:33+08:00",
+  "updated_at": "2026-11-12T20:54:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 30005,
-      "title": "HN 热议：追踪 Anthropic 发现的漏洞",
-      "original_title": "HN Hot Discussion: Tracking Anthropic-discovered vulnerabilities",
-      "summary": "Hacker News 热门讨论 Vulncheck 关于追踪 Anthropic 发现漏洞的博客文章，引起社区对 AI 挖洞能力的广泛关注。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 83.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "Vulncheck 这篇文章梳理了 Anthropic 用 AI 发现漏洞的进展，对关注 AI 漏洞挖掘落地的安全团队来说是重要风向标，值得跟进其披露细节。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
-      "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
-      "image_url": null,
-      "author": {
-        "username": "panic",
-        "name": "panic",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-10T22:17:56",
-      "first_seen_at": "2026-11-12T00:33:01.835472",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 30161,
       "title": "Anthropic 玻璃翼计划被质疑：近4万漏洞仅修217条",
@@ -164,30 +140,6 @@
       "sub_category_label": null
     },
     {
-      "id": 30001,
-      "title": "Anthropic 发布大模型可证明推理新研究",
-      "original_title": "HN Hot Discussion: Progress on provable inference for large language models",
-      "summary": "Anthropic 探讨了大语言模型“可证明推理”的最新进展，旨在为模型的推理过程提供形式化证明。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_security",
-      "score_total": 64.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "此研究直击 AI 安全核心：如何从数学层面证明模型推理过程。AI for Sec 从业者应予关注，它可能为未来安全审计与可信 Agent 提供理论基础。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50368626&hn_hot_date=2026-11-12",
-      "reader_url": "https://news.ycombinator.com/item?id=50368626&hn_hot_date=2026-11-12",
-      "image_url": null,
-      "author": {
-        "username": "ltononro",
-        "name": "ltononro",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-04T17:17:46",
-      "first_seen_at": "2026-11-12T00:32:32.149190",
-      "sub_category_label": null
-    },
-    {
       "id": 30093,
       "title": "SparseRead：提升AI Agent外部内容读取效率的稀疏阅读控制层",
       "original_title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
@@ -231,6 +183,46 @@
       "published_at": "2026-11-12T08:13:35",
       "first_seen_at": "2026-11-12T08:42:19.620230",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30092,
+      "title": "强化学习激励大模型自学习，长上下文推理能力显著提升",
+      "original_title": "Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+      "summary": "该论文提出通过强化学习激励大模型自主检索和学习长篇参考材料，引入BookNavigator接口并在教科书数学解题任务中验证。实验显示该方法使模型证明准确率提升至79.5%，并在复杂长上下文基准上表现更佳。",
+      "primary_category": "AI Tech",
+      "sub_category": "llm_architecture",
+      "score_total": 61.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "底层模型长上下文推理与自学习能力的提升，将直接影响安全Agent处理大型代码库或长篇漏洞情报的潜力，值得研究模型能力边界的安全研究员跟踪。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2610.39671",
+      "reader_url": "https://arxiv.org/pdf/2610.39671",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-12T00:00:00",
+      "first_seen_at": "2026-11-12T07:56:35.193724",
+      "sub_category_label": "LLM 架构"
+    },
+    {
+      "id": 30095,
+      "title": "CogBattery：大模型认知任务行为与结构的人类参照评测",
+      "original_title": "CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models",
+      "summary": "论文提出 CogBattery 基准，在 13 种认知范式上评估 54 个开源大模型，发现模型虽能复现人类效应方向，但误报率更高、置信度区分度更低，且规模扩大未必更接近人类行为。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 61.05,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全 Agent 的同学该看，模型置信度校准和误报模式直接影响任务决策可靠性。这研究揭示了 LLM 在认知任务上的系统性偏差，设计自动化安全工具时能据此评估模型可信度边界。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2607.24999",
+      "reader_url": "https://arxiv.org/pdf/2607.24999",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-12T00:00:00",
+      "first_seen_at": "2026-11-12T07:57:24.434751",
+      "sub_category_label": "模型评测"
     }
   ]
 }
