@@ -1,9 +1,33 @@
 {
-  "updated_at": "2026-11-12T08:22:10+08:00",
+  "updated_at": "2026-11-12T08:52:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
   "items": [
+    {
+      "id": 30005,
+      "title": "HN 热议：追踪 Anthropic 发现的漏洞",
+      "original_title": "HN Hot Discussion: Tracking Anthropic-discovered vulnerabilities",
+      "summary": "Hacker News 热门讨论 Vulncheck 关于追踪 Anthropic 发现漏洞的博客文章，引起社区对 AI 挖洞能力的广泛关注。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Vulncheck 这篇文章梳理了 Anthropic 用 AI 发现漏洞的进展，对关注 AI 漏洞挖掘落地的安全团队来说是重要风向标，值得跟进其披露细节。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
+      "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
+      "image_url": null,
+      "author": {
+        "username": "panic",
+        "name": "panic",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-10T22:17:56",
+      "first_seen_at": "2026-11-12T00:33:01.835472",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 29785,
       "title": "Google DeepMind 用 AI 形式化验证 Signal 关键部分",
@@ -147,31 +171,6 @@
       "published_at": "2026-11-11T16:05:53",
       "first_seen_at": "2026-11-11T17:09:32.465260",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 29919,
-      "title": "AI 渗透平台 AntiFox 实现全链路自动化攻击",
-      "original_title": "An agentic AI pentesting platform was weaponized to run a full kill chain — from ASPX web shell deployment to AWS Secrets Manager exfiltration — with minimal human interaction.  An",
-      "summary": "多代理框架 AntiFox 被武器化以执行完整攻击链，从部署 ASPX Web Shell 到窃取 AWS Secrets Manager 密钥，实现了机器速度的跨服务横向移动。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.46,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "云安全和红队人员必看。该案例展示了多 Agent 框架在真实云环境中自动化执行全链路攻击的能力，防御侧需立即审视 IAM 权限边界与运行时隔离策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2120555526090055913",
-      "reader_url": "https://x.com/aviatrixtrc/status/2120555526090055913",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-11-11T16:33:30",
-      "first_seen_at": "2026-11-11T19:59:26.984598",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
