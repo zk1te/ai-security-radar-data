@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-13T00:03:08+08:00",
+  "updated_at": "2026-11-13T00:33:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 29646,
@@ -163,26 +163,6 @@
       "published_at": "2026-11-12T00:00:00",
       "first_seen_at": "2026-11-12T16:00:39.487839",
       "sub_category_label": null
-    },
-    {
-      "id": 29596,
-      "title": "Mobile AI Factory：构建移动端专用小模型的智能体系统",
-      "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
-      "summary": "该论文提出 Mobile AI Factory 智能体系统，能自动微调、量化并部署适合手机硬件的 SLM，在保护隐私的同时性能逼近前沿大模型。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 70.75,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "展示了自动化微调和部署端侧小模型的智能体范式，对关注端侧 AI 与隐私保护的安全团队有参考价值，可借鉴其自动化模型工程实践。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.13509",
-      "reader_url": "https://arxiv.org/pdf/2611.13509",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-11T05:00:00",
-      "first_seen_at": "2026-11-12T14:54:51.383136",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
