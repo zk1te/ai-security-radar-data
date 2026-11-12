@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T23:02:30+08:00",
+  "updated_at": "2026-11-13T00:03:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 29646,
@@ -142,6 +142,26 @@
       "author": null,
       "published_at": "2026-11-11T05:00:00",
       "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": null
+    },
+    {
+      "id": 30251,
+      "title": "ScrapeBench：首个 AI Agent 网站爬取法律合规性评测基准",
+      "original_title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+      "summary": "论文提出 ScrapeBench，首个评估 AI Agent 网站爬取法律合规性的 agentic benchmark。在 1626 个明确禁止爬取的网站上，主流 Agent 合规率低于 5%；而在 269 个允许爬取的网站上，Claude Opus 过度拒绝率高达 98.5%。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 72.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全 Agent 和自动化数据采集的人必看——你的 Agent 大概率在违法爬数据而不自知。Benchmark 直接暴露了 Agent 在 ToS 和 robots.txt 合规上的系统性盲区，评估 Agent 安全性时应纳入此类合规测试维度。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.11306",
+      "reader_url": "https://arxiv.org/pdf/2611.11306",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-12T00:00:00",
+      "first_seen_at": "2026-11-12T16:00:39.487839",
       "sub_category_label": null
     },
     {
