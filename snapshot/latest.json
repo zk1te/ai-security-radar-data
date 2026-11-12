@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T19:54:15+08:00",
+  "updated_at": "2026-11-12T20:24:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 30005,
@@ -27,30 +27,6 @@
       "published_at": "2026-11-10T22:17:56",
       "first_seen_at": "2026-11-12T00:33:01.835472",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 29989,
-      "title": "WorkOS遭攻击，攻击者疑似使用AI自动渗透框架ARTEX",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS报告安全事件，指出攻击者使用名为ARTEX的AI辅助自动渗透测试框架访问了其内部API及CRM数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "首次出现AI自动渗透框架（ARTEX）被用于真实在野攻击的报告。这标志着自动化攻防工具门槛降低，攻击者正利用AI Agent发起更高效的自动化攻击，安全团队需警惕此类新型威胁。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-12T00:09:19.213659",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 30161,
@@ -116,31 +92,6 @@
       "published_at": "2026-11-12T00:22:21",
       "first_seen_at": "2026-11-12T00:55:33.201776",
       "sub_category_label": null
-    },
-    {
-      "id": 30000,
-      "title": "ARTEX等AI红队框架遭武器化，无需漏洞即可攻破云环境",
-      "original_title": "AI-powered red teaming frameworks ARTEX and CyberStrikeAI are actively weaponized by attackers, hitting cloud environments across sectors with no CVE required. Unit 42 IR and Manag",
-      "summary": "Unit 42 披露 AI 红队框架 ARTEX 和 CyberStrikeAI 被攻击者武器化，利用公开 API 和源码映射在数分钟内切入云环境，并给出基于行为指纹的检测建议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防守方应立即排查对外暴露的 OpenAPI 文档和源码映射，并在日志中监控高频爆冲式请求及测试型凭证填充行为，防范 AI Agent 自动化渗透。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DFIR_Radar/status/2120668641406660949",
-      "reader_url": "https://x.com/DFIR_Radar/status/2120668641406660949",
-      "image_url": "https://pbs.twimg.com/media/HW4g47laQAAf-hi.jpg",
-      "author": {
-        "username": "DFIR_Radar",
-        "name": "DFIR Radar",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-12T00:02:58",
-      "first_seen_at": "2026-11-12T00:21:21.409576",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 30025,
@@ -211,6 +162,75 @@
       "published_at": "2026-11-12T00:14:23",
       "first_seen_at": "2026-11-12T03:48:46.484724",
       "sub_category_label": null
+    },
+    {
+      "id": 30001,
+      "title": "Anthropic 发布大模型可证明推理新研究",
+      "original_title": "HN Hot Discussion: Progress on provable inference for large language models",
+      "summary": "Anthropic 探讨了大语言模型“可证明推理”的最新进展，旨在为模型的推理过程提供形式化证明。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 64.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "此研究直击 AI 安全核心：如何从数学层面证明模型推理过程。AI for Sec 从业者应予关注，它可能为未来安全审计与可信 Agent 提供理论基础。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50368626&hn_hot_date=2026-11-12",
+      "reader_url": "https://news.ycombinator.com/item?id=50368626&hn_hot_date=2026-11-12",
+      "image_url": null,
+      "author": {
+        "username": "ltononro",
+        "name": "ltononro",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-04T17:17:46",
+      "first_seen_at": "2026-11-12T00:32:32.149190",
+      "sub_category_label": null
+    },
+    {
+      "id": 30093,
+      "title": "SparseRead：提升AI Agent外部内容读取效率的稀疏阅读控制层",
+      "original_title": "Read Less, Solve More: Token-Efficient Sparse Reading of External Content for AI Agents",
+      "summary": "SparseRead提出一种可复用的阅读控制层，通过Read Intent Protocol等组件管理Agent读取外部内容的过程，减少高达92.9%的token消耗并保持任务质量。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "agent_architecture",
+      "score_total": 63.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这篇论文提出了通过限制Agent读取外部内容来降低token消耗的机制。对于构建安全Agent的从业者来说，这种“限制原始内容暴露”的思路也可作为缓解外部内容注入攻击的参考架构。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2608.22237",
+      "reader_url": "https://arxiv.org/pdf/2608.22237",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-12T00:00:00",
+      "first_seen_at": "2026-11-12T07:56:42.504424",
+      "sub_category_label": null
+    },
+    {
+      "id": 30111,
+      "title": "推文点评：公开渗透测试 AI 机器人遇新问题即失效",
+      "original_title": "@tabaahi_ @Zaddyzaddy @BugBunny_ai This can be said about basically every public pentest ai autobot out there, they repeat what the authors know but when it comes to new stuff, whe",
+      "summary": "作者指出当前公共渗透测试 AI 机器人仅能复现作者已知套路，遇到需要创造力的新问题（如 Fuzzing、信息关联）时就会立刻失败。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.28,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 的人必看，这戳破了公开 Pentest AI 工具的窗户纸：背套路容易，搞真 Fuzzing 和上下文关联就拉胯。别盲目信 demo，评估时多测未知场景。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/damian_89_/status/2120792107556237329",
+      "reader_url": "https://x.com/damian_89_/status/2120792107556237329",
+      "image_url": null,
+      "author": {
+        "username": "damian_89_",
+        "name": "Damian Strobel",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-12T08:13:35",
+      "first_seen_at": "2026-11-12T08:42:19.620230",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
