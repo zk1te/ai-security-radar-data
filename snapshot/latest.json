@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T10:52:42+08:00",
+  "updated_at": "2026-11-12T13:23:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 30005,
@@ -191,31 +191,6 @@
       "published_at": "2026-11-11T19:23:19",
       "first_seen_at": "2026-11-11T19:26:16.961173",
       "sub_category_label": null
-    },
-    {
-      "id": 29846,
-      "title": "LLM 驱动的自主漏洞发现、利用与修补全流程管线",
-      "original_title": "Autonomous vulnerability discovery, exploitation, and patching pipeline  https://t.co/YYG5Fjd0np  #llm https://t.co/zCIhN4dkkj",
-      "summary": "介绍了一条基于 LLM 的自主安全管线，覆盖漏洞发现、利用和修补的完整闭环，展示了 AI Agent 在漏洞生命周期中的端到端自动化能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 67.28,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 AI 漏洞挖掘的人该看——发现到利用再到修补的闭环 pipeline 是当前 Agent 安全自动化的核心方向，可对标自家工具链补全度。不过原文仅给出标题和链接，缺技术细节，需跟进原文获取可复现信息。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xor0ne/status/2120548576153530581",
-      "reader_url": "https://x.com/0xor0ne/status/2120548576153530581",
-      "image_url": "https://pbs.twimg.com/media/HW2zsWXWIAAvrO7.jpg",
-      "author": {
-        "username": "0xor0ne",
-        "name": "0xor0ne",
-        "avatar_url": null,
-        "followers_count": 93861
-      },
-      "published_at": "2026-11-11T16:05:53",
-      "first_seen_at": "2026-11-11T17:09:32.465260",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
