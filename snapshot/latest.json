@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T19:24:08+08:00",
+  "updated_at": "2026-11-12T19:54:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -51,31 +51,6 @@
       "published_at": "2026-11-02T23:30:59",
       "first_seen_at": "2026-11-12T00:09:19.213659",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 29985,
-      "title": "GPT-6 Cyber 实现内核提权：AI 自动化 0day 武器化速度惊人",
-      "original_title": "For years, elite security researchers believed AI couldn't handle real penetration testing because chaining complex zero-days supposedly required human intuition. That assumption j",
-      "summary": "OpenAI 使用 GPT-6 Cyber 模型针对 Linux 内核进行提权测试，成功复现 1724 个漏洞并构建 948 个可用 root exploit，单次平均耗时约 2.5 小时。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 75.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "自主漏洞挖掘 Agent 已能以机器速度实现内核级 exploit 武器化，安全团队必须重新评估现有补丁管理节奏，防御侧响应时间正面临降维打击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/julie199201/status/2120659657299730760",
-      "reader_url": "https://x.com/julie199201/status/2120659657299730760",
-      "image_url": null,
-      "author": {
-        "username": "julie199201",
-        "name": "Julie Sanchez",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-11T23:27:16",
-      "first_seen_at": "2026-11-11T23:48:18.342729",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 30161,
@@ -211,6 +186,31 @@
       "published_at": "2026-11-12T04:12:31",
       "first_seen_at": "2026-11-12T04:22:03.394976",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30054,
+      "title": "越狱 DeepSeek 被用于自主利用 Cisco 漏洞实施横向移动",
+      "original_title": "Attackers in Operation Snowball used a jailbroken DeepSeek AI model to autonomously exploit CVE-2026-20320 in Cisco BroadWorks — extracting system identity private keys via unauthe",
+      "summary": "攻击者在「雪球行动」中使用越狱的 DeepSeek 模型自主利用 Cisco BroadWorks 的 CVE-2026-20320，通过 XXE 提取私钥并冒充组件在云环境中横向移动。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | vuln_discovery",
+      "score_total": 65.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是罕见的在野利用越狱大模型自主打 CVE 的案例，展示了 AI 自动化攻击链的实战落地。防守方需高度警惕 AI 辅助的复杂漏洞利用与组件信任滥用。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2120671512017383730",
+      "reader_url": "https://x.com/aviatrixtrc/status/2120671512017383730",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-11-12T00:14:23",
+      "first_seen_at": "2026-11-12T03:48:46.484724",
+      "sub_category_label": null
     }
   ]
 }
