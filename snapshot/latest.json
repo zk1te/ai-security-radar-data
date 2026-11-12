@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T21:24:51+08:00",
+  "updated_at": "2026-11-12T21:54:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 30161,
@@ -73,6 +73,31 @@
       "published_at": "2026-11-12T00:14:23",
       "first_seen_at": "2026-11-12T03:48:46.484724",
       "sub_category_label": null
+    },
+    {
+      "id": 30218,
+      "title": "Picus发布AI渗透测试Agent，支持执行利用路径与终止开关",
+      "original_title": "Picus announced an AI-agent pentesting capability that builds and executes exploit paths within customer-defined scope, hard-deny rules and a kill switch. It is available to custom",
+      "summary": "Picus推出AI代理渗透测试能力，允许在客户定义的范围内构建并执行漏洞利用路径，并提供硬性拒绝规则和终止开关以确保安全控制。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 63.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是AI渗透测试走向商业化落地的典型信号。安全团队可关注其边界控制和终止开关设计，评估引入自动化攻击代理时如何平衡效率与失控风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TweetThreatNews/status/2120873288444379188",
+      "reader_url": "https://x.com/TweetThreatNews/status/2120873288444379188",
+      "image_url": null,
+      "author": {
+        "username": "TweetThreatNews",
+        "name": "Cybersecurity News Everyday",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-12T13:36:10",
+      "first_seen_at": "2026-11-12T13:51:57.259903",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 30093,
