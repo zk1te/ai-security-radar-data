@@ -1,0 +1,1553 @@
+{
+  "date": "2026-11-12",
+  "candidate_count": 23,
+  "selected_count": 3,
+  "cover_title": "基于代码落地的 Agent 化 SAST 漏洞解释方法",
+  "lead_takeaway": "今天最明显的主线是安全 Agent 在代码审计和漏洞修复上的工程化落地。从解释 SAST 结果到自动化定理证明，大模型正从安全工具的陪跑变成真正能拉高修复率和验证效率的干活主力。",
+  "digest_points": [
+    "01 做代码审计和安全修复的同行必看。把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，既保留了可审计性又大幅提升了修复执行率，是安全工具集成大模型的优质落地参考。",
+    "02 Vulncheck 这篇文章梳理了 Anthropic 用 AI 发现漏洞的进展，对关注 AI 漏洞挖掘落地的安全团队来说是重要风向标，值得跟进其披露细节。",
+    "03 形式化验证是高保障安全的终极防线，ProofCoder 展示了 Agent 架构如何突破固定循环限制实现自动证明修复与回溯。对关注 AI 自动化代码审计与底层验证的安全从业者极具架构参考价值。"
+  ],
+  "judgement": [
+    "01 做代码审计和安全修复的同行必看。把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，既保留了可审计性又大幅提升了修复执行率，是安全工具集成大模型的优质落地参考。",
+    "02 Vulncheck 这篇文章梳理了 Anthropic 用 AI 发现漏洞的进展，对关注 AI 漏洞挖掘落地的安全团队来说是重要风向标，值得跟进其披露细节。",
+    "03 形式化验证是高保障安全的终极防线，ProofCoder 展示了 Agent 架构如何突破固定循环限制实现自动证明修复与回溯。对关注 AI 自动化代码审计与底层验证的安全从业者极具架构参考价值。"
+  ],
+  "top_items": [
+    {
+      "id": 29646,
+      "title": "基于代码落地的 Agent 化 SAST 漏洞解释方法",
+      "original_title": "Code-Grounded Agentic Explanations for Static Analysis Vulnerability Findings",
+      "summary": "论文提出开源插件 SAFE，利用 LLM Agent 结合代码库和规则来解释 SAST 工具的漏洞报告，实验表明该方法将正确修复漏洞的几率提升了 2.6 倍。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 90.95,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计和安全修复的同行必看。把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，既保留了可审计性又大幅提升了修复执行率，是安全工具集成大模型的优质落地参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13041",
+      "reader_url": "https://arxiv.org/pdf/2611.13041",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30005,
+      "title": "HN 热议：追踪 Anthropic 发现的漏洞",
+      "original_title": "HN Hot Discussion: Tracking Anthropic-discovered vulnerabilities",
+      "summary": "Hacker News 热门讨论 Vulncheck 关于追踪 Anthropic 发现漏洞的博客文章，引起社区对 AI 挖洞能力的广泛关注。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.95,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Vulncheck 这篇文章梳理了 Anthropic 用 AI 发现漏洞的进展，对关注 AI 漏洞挖掘落地的安全团队来说是重要风向标，值得跟进其披露细节。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
+      "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
+      "image_url": null,
+      "author": {
+        "username": "panic",
+        "name": "panic",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-10T22:17:56",
+      "first_seen_at": "2026-11-12T00:33:01.835472",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 29662,
+      "title": "ProofCoder：基于连续推理的自动化软件验证Agent",
+      "original_title": "ProofCoder: Continuous Reasoning for Automated Software Verification",
+      "summary": "提出一种基于连续推理的 Agent 系统 ProofCoder，用于 Rocq 定理证明，在 AutoRocq Benchmark 上将证明成功率提升至 60%且成本减半。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 86.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "形式化验证是高保障安全的终极防线，ProofCoder 展示了 Agent 架构如何突破固定循环限制实现自动证明修复与回溯。对关注 AI 自动化代码审计与底层验证的安全从业者极具架构参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.14106",
+      "reader_url": "https://arxiv.org/pdf/2611.14106",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 29563,
+      "title": "深度伪造检测器评估协议：特征组合优于预测组合？",
+      "original_title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+      "summary": "论文提出可复用的评估协议，比较冻结模型在深度伪造检测中的特征与预测组合效果，发现 leave-one-generator-out 下特征组合可提升 AUROC，且揭示数据重叠会夸大模型收益。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 77.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做安全模型评测的同行注意：文章用 DF40 证明数据重叠会严重夸大检测器组合的收益，提供了一套严格的泛化评估协议，可直接拿来避坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13356",
+      "reader_url": "https://arxiv.org/pdf/2611.13356",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": null
+    },
+    {
+      "id": 29654,
+      "title": "SWT-Bench 上缺陷复现测试失败的分类学研究",
+      "original_title": "A Taxonomy of Failing Bug Reproduction Tests on SWT-Bench",
+      "summary": "该论文对 AssertFlip 和 OpenHands 等自动化缺陷复现测试框架在 SWT-Bench 上的失败模式进行了分类学研究，发现机械和实现失败是最主要的失败类型，且使用更强推理能力的模型可显著减少因缺乏上下文导致的失败。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 77.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "研究自动程序修复与测试生成的失败模式，对安全团队构建自动化漏洞验证与代码审计 Agent 有直接参考价值；可通过借鉴其分类法改进提示词或架构，提升 Agent 在复杂缺陷场景下的稳定性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13395",
+      "reader_url": "https://arxiv.org/pdf/2611.13395",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 29989,
+      "title": "WorkOS遭攻击，攻击者疑似使用AI自动渗透框架ARTEX",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS报告安全事件，指出攻击者使用名为ARTEX的AI辅助自动渗透测试框架访问了其内部API及CRM数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "首次出现AI自动渗透框架（ARTEX）被用于真实在野攻击的报告。这标志着自动化攻防工具门槛降低，攻击者正利用AI Agent发起更高效的自动化攻击，安全团队需警惕此类新型威胁。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-12T00:09:19.213659",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 29985,
+      "title": "GPT-6 Cyber 实现内核提权：AI 自动化 0day 武器化速度惊人",
+      "original_title": "For years, elite security researchers believed AI couldn't handle real penetration testing because chaining complex zero-days supposedly required human intuition. That assumption j",
+      "summary": "OpenAI 使用 GPT-6 Cyber 模型针对 Linux 内核进行提权测试，成功复现 1724 个漏洞并构建 948 个可用 root exploit，单次平均耗时约 2.5 小时。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 75.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "自主漏洞挖掘 Agent 已能以机器速度实现内核级 exploit 武器化，安全团队必须重新评估现有补丁管理节奏，防御侧响应时间正面临降维打击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/julie199201/status/2120659657299730760",
+      "reader_url": "https://x.com/julie199201/status/2120659657299730760",
+      "image_url": null,
+      "author": {
+        "username": "julie199201",
+        "name": "Julie Sanchez",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-11T23:27:16",
+      "first_seen_at": "2026-11-11T23:48:18.342729",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 29645,
+      "title": "论文：用代码库渲染参考图像增强Agent的UI Bug定位能力",
+      "original_title": "Repository-Context-Guided Image Understanding for Agentic Software Development",
+      "summary": "本文提出利用代码库自动渲染清晰参考图像，辅助编码Agent在用户截图质量下降时准确识别UI元素并定位源文件。实验表明该方法显著提升了Agent在低质图像下的文件定位准确率。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "agent_architecture",
+      "score_total": 73.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计或安全修复Agent的同学可参考：当Agent处理模糊截图中的缺陷时，利用代码库实时渲染参考图能显著提升定位准确率，避免了OCR或VLM在低质图像上的识别瓶颈。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13026",
+      "reader_url": "https://arxiv.org/pdf/2611.13026",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": null
+    },
+    {
+      "id": 29658,
+      "title": "探究编码代理对上下文文件中显式指令的遵从度",
+      "original_title": "Do They Do as They Are Told? Investigating Coding Agents' Adherence to Explicit Instructions in Context Files",
+      "summary": "研究通过实证分析代理上下文文件及提交记录，发现编码代理大多遵从上下文指令，但在部分指令类别上遵从度两极分化明显。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 73.25,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "对研究自动化代码审计和 Agent 安全的团队有参考价值，揭示当前编码 Agent 在指令遵从上的盲区。提示在自动化开发流程中不能盲目信任上下文文件，需辅以额外强制执行机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13709",
+      "reader_url": "https://arxiv.org/pdf/2611.13709",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": null
+    },
+    {
+      "id": 30014,
+      "title": "pre-QED：用 Agent 自动生成验证 Harness 以实现 AI 规模化验证",
+      "original_title": "Greetings from Singapore. Announcing pre-QED, providing environment specifications prior to AI-based verification.   Formal verification at scale using AI, is a topic of high inter",
+      "summary": "新加坡国立大学团队提出 pre-QED，通过 Agent 工作流自动生成可执行的验证 harness 来模拟 API 的所有合法用法，解决现有 AI 验证仅覆盖单一 fuzzing 场景的局限，以期实现真正的大规模软件验证。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 71.69,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "搞漏洞挖掘和代码审计的安全研究员该看。提出了用 Agent 自动生成验证 harness 的思路，指出了纯 fuzzing harness 做形式化验证的局限性，为 AI 辅助代码审计提供了新方向。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AbhikRoychoudh1/status/2120673516282679674",
+      "reader_url": "https://x.com/AbhikRoychoudh1/status/2120673516282679674",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120672767687507968/img/la-6lB4YRzJ38sKG.jpg",
+      "author": {
+        "username": "AbhikRoychoudh1",
+        "name": "Abhik Roychoudhury",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-12T00:22:21",
+      "first_seen_at": "2026-11-12T00:55:33.201776",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 29646,
+        "title": "基于代码落地的 Agent 化 SAST 漏洞解释方法",
+        "original_title": "Code-Grounded Agentic Explanations for Static Analysis Vulnerability Findings",
+        "summary": "论文提出开源插件 SAFE，利用 LLM Agent 结合代码库和规则来解释 SAST 工具的漏洞报告，实验表明该方法将正确修复漏洞的几率提升了 2.6 倍。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 90.95,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "做代码审计和安全修复的同行必看。把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，既保留了可审计性又大幅提升了修复执行率，是安全工具集成大模型的优质落地参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13041",
+        "reader_url": "https://arxiv.org/pdf/2611.13041",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 29662,
+        "title": "ProofCoder：基于连续推理的自动化软件验证Agent",
+        "original_title": "ProofCoder: Continuous Reasoning for Automated Software Verification",
+        "summary": "提出一种基于连续推理的 Agent 系统 ProofCoder，用于 Rocq 定理证明，在 AutoRocq Benchmark 上将证明成功率提升至 60%且成本减半。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 86.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "形式化验证是高保障安全的终极防线，ProofCoder 展示了 Agent 架构如何突破固定循环限制实现自动证明修复与回溯。对关注 AI 自动化代码审计与底层验证的安全从业者极具架构参考价值。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.14106",
+        "reader_url": "https://arxiv.org/pdf/2611.14106",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 30005,
+        "title": "HN 热议：追踪 Anthropic 发现的漏洞",
+        "original_title": "HN Hot Discussion: Tracking Anthropic-discovered vulnerabilities",
+        "summary": "Hacker News 热门讨论 Vulncheck 关于追踪 Anthropic 发现漏洞的博客文章，引起社区对 AI 挖洞能力的广泛关注。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 83.95,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "Vulncheck 这篇文章梳理了 Anthropic 用 AI 发现漏洞的进展，对关注 AI 漏洞挖掘落地的安全团队来说是重要风向标，值得跟进其披露细节。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
+        "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
+        "image_url": null,
+        "author": {
+          "username": "panic",
+          "name": "panic",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-10T22:17:56",
+        "first_seen_at": "2026-11-12T00:33:01.835472",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 29654,
+        "title": "SWT-Bench 上缺陷复现测试失败的分类学研究",
+        "original_title": "A Taxonomy of Failing Bug Reproduction Tests on SWT-Bench",
+        "summary": "该论文对 AssertFlip 和 OpenHands 等自动化缺陷复现测试框架在 SWT-Bench 上的失败模式进行了分类学研究，发现机械和实现失败是最主要的失败类型，且使用更强推理能力的模型可显著减少因缺乏上下文导致的失败。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 77.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "研究自动程序修复与测试生成的失败模式，对安全团队构建自动化漏洞验证与代码审计 Agent 有直接参考价值；可通过借鉴其分类法改进提示词或架构，提升 Agent 在复杂缺陷场景下的稳定性。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13395",
+        "reader_url": "https://arxiv.org/pdf/2611.13395",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 29989,
+        "title": "WorkOS遭攻击，攻击者疑似使用AI自动渗透框架ARTEX",
+        "original_title": "HN Hot Discussion: WorkOS reports security breach",
+        "summary": "WorkOS报告安全事件，指出攻击者使用名为ARTEX的AI辅助自动渗透测试框架访问了其内部API及CRM数据。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 75.75,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "首次出现AI自动渗透框架（ARTEX）被用于真实在野攻击的报告。这标志着自动化攻防工具门槛降低，攻击者正利用AI Agent发起更高效的自动化攻击，安全团队需警惕此类新型威胁。",
+        "source_id": "hn-ai-security",
+        "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
+        "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
+        "image_url": null,
+        "author": {
+          "username": "werrett",
+          "name": "werrett",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-02T23:30:59",
+        "first_seen_at": "2026-11-12T00:09:19.213659",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 29985,
+        "title": "GPT-6 Cyber 实现内核提权：AI 自动化 0day 武器化速度惊人",
+        "original_title": "For years, elite security researchers believed AI couldn't handle real penetration testing because chaining complex zero-days supposedly required human intuition. That assumption j",
+        "summary": "OpenAI 使用 GPT-6 Cyber 模型针对 Linux 内核进行提权测试，成功复现 1724 个漏洞并构建 948 个可用 root exploit，单次平均耗时约 2.5 小时。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 75.0,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "自主漏洞挖掘 Agent 已能以机器速度实现内核级 exploit 武器化，安全团队必须重新评估现有补丁管理节奏，防御侧响应时间正面临降维打击。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/julie199201/status/2120659657299730760",
+        "reader_url": "https://x.com/julie199201/status/2120659657299730760",
+        "image_url": null,
+        "author": {
+          "username": "julie199201",
+          "name": "Julie Sanchez",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-11T23:27:16",
+        "first_seen_at": "2026-11-11T23:48:18.342729",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 30021,
+        "title": "OpenAI Codex Security 上榜 Trending，AI 驱动漏洞发现与修复",
+        "original_title": "GitHub Trending: openai/codex-security gained 52 stars today",
+        "summary": "OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于发现、验证和修复安全漏洞，目前在 GitHub 上获得超 11700 星，日增 52 颗。提供了 npm 包可直接集成到安全工具链中。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 73.15,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "OpenAI 官方出品的安全 CLI，覆盖漏洞发现到修复全链路。安全团队可评估其与现有 SAST 工具的互补性，关注其漏洞验证准确率与误报率，值得快速试用和对比评测。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-12&since=daily",
+        "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-12&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-12T01:00:39.592874",
+        "first_seen_at": "2026-11-12T01:01:50.568516",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 30014,
+        "title": "pre-QED：用 Agent 自动生成验证 Harness 以实现 AI 规模化验证",
+        "original_title": "Greetings from Singapore. Announcing pre-QED, providing environment specifications prior to AI-based verification.   Formal verification at scale using AI, is a topic of high inter",
+        "summary": "新加坡国立大学团队提出 pre-QED，通过 Agent 工作流自动生成可执行的验证 harness 来模拟 API 的所有合法用法，解决现有 AI 验证仅覆盖单一 fuzzing 场景的局限，以期实现真正的大规模软件验证。",
+        "primary_category": "AI for Sec",
+        "sub_category": "formal_verification",
+        "score_total": 71.69,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "搞漏洞挖掘和代码审计的安全研究员该看。提出了用 Agent 自动生成验证 harness 的思路，指出了纯 fuzzing harness 做形式化验证的局限性，为 AI 辅助代码审计提供了新方向。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/AbhikRoychoudh1/status/2120673516282679674",
+        "reader_url": "https://x.com/AbhikRoychoudh1/status/2120673516282679674",
+        "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120672767687507968/img/la-6lB4YRzJ38sKG.jpg",
+        "author": {
+          "username": "AbhikRoychoudh1",
+          "name": "Abhik Roychoudhury",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-12T00:22:21",
+        "first_seen_at": "2026-11-12T00:55:33.201776",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 29596,
+        "title": "Mobile AI Factory：构建移动端专用小模型的智能体系统",
+        "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+        "summary": "该论文提出 Mobile AI Factory 智能体系统，能自动微调、量化并部署适合手机硬件的 SLM，在保护隐私的同时性能逼近前沿大模型。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 70.75,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "展示了自动化微调和部署端侧小模型的智能体范式，对关注端侧 AI 与隐私保护的安全团队有参考价值，可借鉴其自动化模型工程实践。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13509",
+        "reader_url": "https://arxiv.org/pdf/2611.13509",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 29587,
+        "title": "LLM推理实时纠错：基于代码的确定性验证方法",
+        "original_title": "Catch It Where It Happens: Real Time Error Correction During LLM Reasoning",
+        "summary": "本文提出一种在线确定性验证方法，通过代码实时检查 LLM 的每一步推理，能在不增加 GPU 负担的情况下及时纠正错误，显著提升符号数学任务的准确率。",
+        "primary_category": "AI Tech",
+        "sub_category": "llm_architecture",
+        "score_total": 69.5,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做安全 Agent 的人都知道大模型推理一旦走偏就会一路错到底。这种用代码实时验证每一步的思路，对构建高可靠性渗透或漏洞分析 Agent 很有启发，值得借鉴。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13107",
+        "reader_url": "https://arxiv.org/pdf/2611.13107",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": "LLM 架构"
+      },
+      {
+        "id": 29524,
+        "title": "ConceptTime：基于预测惊喜的时序可解释分类与OOD检测",
+        "original_title": "Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series",
+        "summary": "提出 ConceptTime 方法，利用冻结概率预测器的「预测惊喜」信号打破时序模式分割的循环依赖，在无标注情况下实现高精度分类、OOD 检测及可解释性，并在 17 个基准上表现优异。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 67.4,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "给做威胁情报时序分析和异常检测的同行看：该方法无需标注即可实现可靠的 OOD 检测和可解释分类，且已开源代码，可作为评估安全时序数据可靠性与异常发现的底层工具参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.12955",
+        "reader_url": "https://arxiv.org/pdf/2611.12955",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": "模型评测"
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 29563,
+        "title": "深度伪造检测器评估协议：特征组合优于预测组合？",
+        "original_title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+        "summary": "论文提出可复用的评估协议，比较冻结模型在深度伪造检测中的特征与预测组合效果，发现 leave-one-generator-out 下特征组合可提升 AUROC，且揭示数据重叠会夸大模型收益。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_benchmark",
+        "score_total": 77.9,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做安全模型评测的同行注意：文章用 DF40 证明数据重叠会严重夸大检测器组合的收益，提供了一套严格的泛化评估协议，可直接拿来避坑。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13356",
+        "reader_url": "https://arxiv.org/pdf/2611.13356",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": null
+      },
+      {
+        "id": 29657,
+        "title": "领域知识驱动的LLM缺陷报告分类改进研究",
+        "original_title": "An Empirical Study on Improving LLM-Based Issue Classification through Domain-Informed Analysis",
+        "summary": "该研究通过分析7704个LLM生成的分类理由，构建了区分缺陷有效性与来源的多阶段管道，有效提升了LLM对三类缺陷报告的分类准确率与召回率。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 69.15,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做代码审计和缺陷分诊的安全工程师可看，文章分析了LLM在区分真实缺陷和误报时的失败模式，通过多阶段管道提升分类效果，对优化LLM辅助Triage有参考价值。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13470",
+        "reader_url": "https://arxiv.org/pdf/2611.13470",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 29645,
+        "title": "论文：用代码库渲染参考图像增强Agent的UI Bug定位能力",
+        "original_title": "Repository-Context-Guided Image Understanding for Agentic Software Development",
+        "summary": "本文提出利用代码库自动渲染清晰参考图像，辅助编码Agent在用户截图质量下降时准确识别UI元素并定位源文件。实验表明该方法显著提升了Agent在低质图像下的文件定位准确率。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "agent_architecture",
+        "score_total": 73.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做代码审计或安全修复Agent的同学可参考：当Agent处理模糊截图中的缺陷时，利用代码库实时渲染参考图能显著提升定位准确率，避免了OCR或VLM在低质图像上的识别瓶颈。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13026",
+        "reader_url": "https://arxiv.org/pdf/2611.13026",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 29658,
+        "title": "探究编码代理对上下文文件中显式指令的遵从度",
+        "original_title": "Do They Do as They Are Told? Investigating Coding Agents' Adherence to Explicit Instructions in Context Files",
+        "summary": "研究通过实证分析代理上下文文件及提交记录，发现编码代理大多遵从上下文指令，但在部分指令类别上遵从度两极分化明显。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 73.25,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "对研究自动化代码审计和 Agent 安全的团队有参考价值，揭示当前编码 Agent 在指令遵从上的盲区。提示在自动化开发流程中不能盲目信任上下文文件，需辅以额外强制执行机制。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13709",
+        "reader_url": "https://arxiv.org/pdf/2611.13709",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": null
+      },
+      {
+        "id": 29551,
+        "title": "探讨RLVR中Reward Hacking的放大与抑制机制",
+        "original_title": "Wrong the Same Way: Cross-Prompt Sharing Both Suppresses and Amplifies Reward Hacking in RLVR",
+        "summary": "本文研究了强化学习与可验证奖励在验证器不完美时的交互机制。研究发现，共享参数的Policy会放大被多数Prompt接受的错误答案，并建议验证器修复应针对跨Prompt重复出现的错误。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_security",
+        "score_total": 69.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做安全对齐和模型评测的兄弟该看，它揭示了RLVR训练中Reward Hacking的底层机制。指出修复验证器漏洞时要优先处理跨Prompt的重复错误，能直接指导对齐工作的优化顺序。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13218",
+        "reader_url": "https://arxiv.org/pdf/2611.13218",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": null
+      },
+      {
+        "id": 29671,
+        "title": "企业级分析Agent评估框架对比：Trace机制与红队测试的结合",
+        "original_title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+        "summary": "论文对比了三种Agent评估范式，发现基于trace的LLM评估在已知风险检测上表现最佳（F1=0.90），而纯文本评估误报率高出5倍。研究建议采用trace评估与对抗性红队测试相结合的双框架策略，以互补覆盖功能与安全风险。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 69.5,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做Agent安全评测的同学必看。研究用硬数据证明了给评判模型喂执行trace比只看输出靠谱得多，还能揪出人工审核漏掉的隐蔽错误。可直接借鉴其双框架策略，优化你们的安全Agent评测台。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.14493",
+        "reader_url": "https://arxiv.org/pdf/2611.14493",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": null
+      },
+      {
+        "id": 29653,
+        "title": "DEPUTYBENCH：企业 Agent 上下文安全与权限遵从性评测",
+        "original_title": "DEPUTYBENCH: Evaluating Contextual Safety in Enterprise Agents",
+        "summary": "该论文提出 DEPUTYBENCH 基准，用于评估企业 Agent 在处理请求时是否能遵守组织权限和政策。研究发现，Agent 在证据缺失时比明确禁止时更容易执行受限操作，高安全率并不代表在无法验证权限时能可靠停止。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security | ai_adversarial",
+        "score_total": 69.25,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做 Agent 安全和红队评测的同学必读。研究点出了 Agent 在「证据缺失」场景下的越权执行风险，其上下文构造和对抗性评测方法可直接参考用于自测 Agent 的防御边界。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13355",
+        "reader_url": "https://arxiv.org/pdf/2611.13355",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": null
+      },
+      {
+        "id": 29736,
+        "title": "WikiTrace：证据链路记忆减少 LLM Agent 记忆诱导退化",
+        "original_title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+        "summary": "论文提出 WikiTrace 记忆系统，将 Agent 从历史轨迹中提取的经验与原始轨迹和证据相链接。当新任务中遇到经验模糊或冲突时，Agent 可回溯证据进行检查和修正，有效降低因错误记忆导致的性能下降。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 68.8,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "Agent 记忆机制是安全 Agent 落地的一大隐患，错误经验会导致漏洞挖掘或安全检测工具误报漏报。WikiTrace 通过给记忆挂上原始轨迹证据链，让 Agent 能自查自纠，对构建长期运行的安全 Agent 很有参考价值。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.14320",
+        "reader_url": "https://arxiv.org/pdf/2611.14320",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T00:00:00",
+        "first_seen_at": "2026-11-12T14:54:51.383136",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 29909,
+        "title": "黑客滥用开源 AI 渗透平台 AntiFox 窃取 AWS 机密",
+        "original_title": "🚨 Hackers weaponize AntiFox AI agents to breach servers and steal AWS production secrets  Security researchers at Arctic Wolf have uncovered attacks using AntiFox, an open-source A",
+        "summary": "安全研究人员发现黑客将开源 AI 渗透测试平台 AntiFox 武器化，用于入侵服务器、提取凭证并在短时间内高频调用 API 窃取 AWS 生产机密。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 69.03,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "防御团队需警惕 AI 渗透工具被实战武器化的趋势。建议即刻核查云端 API 异常高频调用的监控策略，防范自动化凭证滥用攻击。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+        "reader_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+        "image_url": "https://pbs.twimg.com/media/HW3gyC8XoAAXdwi.jpg",
+        "author": {
+          "username": "DarkWebInformer",
+          "name": "Dark Web Informer",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-11T19:23:19",
+        "first_seen_at": "2026-11-11T19:26:16.961173",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 29646,
+            "title": "基于代码落地的 Agent 化 SAST 漏洞解释方法",
+            "original_title": "Code-Grounded Agentic Explanations for Static Analysis Vulnerability Findings",
+            "summary": "论文提出开源插件 SAFE，利用 LLM Agent 结合代码库和规则来解释 SAST 工具的漏洞报告，实验表明该方法将正确修复漏洞的几率提升了 2.6 倍。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 90.95,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "做代码审计和安全修复的同行必看。把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，既保留了可审计性又大幅提升了修复执行率，是安全工具集成大模型的优质落地参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13041",
+            "reader_url": "https://arxiv.org/pdf/2611.13041",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 29662,
+            "title": "ProofCoder：基于连续推理的自动化软件验证Agent",
+            "original_title": "ProofCoder: Continuous Reasoning for Automated Software Verification",
+            "summary": "提出一种基于连续推理的 Agent 系统 ProofCoder，用于 Rocq 定理证明，在 AutoRocq Benchmark 上将证明成功率提升至 60%且成本减半。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 86.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "形式化验证是高保障安全的终极防线，ProofCoder 展示了 Agent 架构如何突破固定循环限制实现自动证明修复与回溯。对关注 AI 自动化代码审计与底层验证的安全从业者极具架构参考价值。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.14106",
+            "reader_url": "https://arxiv.org/pdf/2611.14106",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 29989,
+            "title": "WorkOS遭攻击，攻击者疑似使用AI自动渗透框架ARTEX",
+            "original_title": "HN Hot Discussion: WorkOS reports security breach",
+            "summary": "WorkOS报告安全事件，指出攻击者使用名为ARTEX的AI辅助自动渗透测试框架访问了其内部API及CRM数据。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 75.75,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "首次出现AI自动渗透框架（ARTEX）被用于真实在野攻击的报告。这标志着自动化攻防工具门槛降低，攻击者正利用AI Agent发起更高效的自动化攻击，安全团队需警惕此类新型威胁。",
+            "source_id": "hn-ai-security",
+            "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
+            "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-12",
+            "image_url": null,
+            "author": {
+              "username": "werrett",
+              "name": "werrett",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-02T23:30:59",
+            "first_seen_at": "2026-11-12T00:09:19.213659",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 30000,
+            "title": "ARTEX等AI红队框架遭武器化，无需漏洞即可攻破云环境",
+            "original_title": "AI-powered red teaming frameworks ARTEX and CyberStrikeAI are actively weaponized by attackers, hitting cloud environments across sectors with no CVE required. Unit 42 IR and Manag",
+            "summary": "Unit 42 披露 AI 红队框架 ARTEX 和 CyberStrikeAI 被攻击者武器化，利用公开 API 和源码映射在数分钟内切入云环境，并给出基于行为指纹的检测建议。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 70.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "防守方应立即排查对外暴露的 OpenAPI 文档和源码映射，并在日志中监控高频爆冲式请求及测试型凭证填充行为，防范 AI Agent 自动化渗透。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DFIR_Radar/status/2120668641406660949",
+            "reader_url": "https://x.com/DFIR_Radar/status/2120668641406660949",
+            "image_url": "https://pbs.twimg.com/media/HW4g47laQAAf-hi.jpg",
+            "author": {
+              "username": "DFIR_Radar",
+              "name": "DFIR Radar",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-12T00:02:58",
+            "first_seen_at": "2026-11-12T00:21:21.409576",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 30025,
+            "title": "Cloudflare 开源 security-audit-skill：多阶段安全审计 Agent 技能",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+            "summary": "Cloudflare 的 security-audit-skill 项目在 GitHub 周榜增长超千星，该项目为编码 Agent 提供多阶段安全审计能力，并输出机器可读的独立验证结果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.3,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全自动化和 Agent 的团队值得一看。它展示了用 coding-agent 执行多阶段安全审计的思路，并强调产出机器可读的独立验证结果，对构建自动化安全流水线有参考价值。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-12&since=weekly",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-12&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-12T01:00:43.206868",
+            "first_seen_at": "2026-11-12T01:02:30.431641",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 30005,
+            "title": "HN 热议：追踪 Anthropic 发现的漏洞",
+            "original_title": "HN Hot Discussion: Tracking Anthropic-discovered vulnerabilities",
+            "summary": "Hacker News 热门讨论 Vulncheck 关于追踪 Anthropic 发现漏洞的博客文章，引起社区对 AI 挖洞能力的广泛关注。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 83.95,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "Vulncheck 这篇文章梳理了 Anthropic 用 AI 发现漏洞的进展，对关注 AI 漏洞挖掘落地的安全团队来说是重要风向标，值得跟进其披露细节。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
+            "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-12",
+            "image_url": null,
+            "author": {
+              "username": "panic",
+              "name": "panic",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-10T22:17:56",
+            "first_seen_at": "2026-11-12T00:33:01.835472",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 29985,
+            "title": "GPT-6 Cyber 实现内核提权：AI 自动化 0day 武器化速度惊人",
+            "original_title": "For years, elite security researchers believed AI couldn't handle real penetration testing because chaining complex zero-days supposedly required human intuition. That assumption j",
+            "summary": "OpenAI 使用 GPT-6 Cyber 模型针对 Linux 内核进行提权测试，成功复现 1724 个漏洞并构建 948 个可用 root exploit，单次平均耗时约 2.5 小时。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 75.0,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "自主漏洞挖掘 Agent 已能以机器速度实现内核级 exploit 武器化，安全团队必须重新评估现有补丁管理节奏，防御侧响应时间正面临降维打击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/julie199201/status/2120659657299730760",
+            "reader_url": "https://x.com/julie199201/status/2120659657299730760",
+            "image_url": null,
+            "author": {
+              "username": "julie199201",
+              "name": "Julie Sanchez",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-11T23:27:16",
+            "first_seen_at": "2026-11-11T23:48:18.342729",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 30021,
+            "title": "OpenAI Codex Security 上榜 Trending，AI 驱动漏洞发现与修复",
+            "original_title": "GitHub Trending: openai/codex-security gained 52 stars today",
+            "summary": "OpenAI 的 Codex Security CLI 和 TypeScript SDK 用于发现、验证和修复安全漏洞，目前在 GitHub 上获得超 11700 星，日增 52 颗。提供了 npm 包可直接集成到安全工具链中。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.15,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "OpenAI 官方出品的安全 CLI，覆盖漏洞发现到修复全链路。安全团队可评估其与现有 SAST 工具的互补性，关注其漏洞验证准确率与误报率，值得快速试用和对比评测。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-12&since=daily",
+            "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-12&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-12T01:00:39.592874",
+            "first_seen_at": "2026-11-12T01:01:50.568516",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 29846,
+            "title": "LLM 驱动的自主漏洞发现、利用与修补全流程管线",
+            "original_title": "Autonomous vulnerability discovery, exploitation, and patching pipeline  https://t.co/YYG5Fjd0np  #llm https://t.co/zCIhN4dkkj",
+            "summary": "介绍了一条基于 LLM 的自主安全管线，覆盖漏洞发现、利用和修补的完整闭环，展示了 AI Agent 在漏洞生命周期中的端到端自动化能力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 67.28,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 AI 漏洞挖掘的人该看——发现到利用再到修补的闭环 pipeline 是当前 Agent 安全自动化的核心方向，可对标自家工具链补全度。不过原文仅给出标题和链接，缺技术细节，需跟进原文获取可复现信息。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xor0ne/status/2120548576153530581",
+            "reader_url": "https://x.com/0xor0ne/status/2120548576153530581",
+            "image_url": "https://pbs.twimg.com/media/HW2zsWXWIAAvrO7.jpg",
+            "author": {
+              "username": "0xor0ne",
+              "name": "0xor0ne",
+              "avatar_url": null,
+              "followers_count": 93861
+            },
+            "published_at": "2026-11-11T16:05:53",
+            "first_seen_at": "2026-11-11T17:09:32.465260",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 29654,
+            "title": "SWT-Bench 上缺陷复现测试失败的分类学研究",
+            "original_title": "A Taxonomy of Failing Bug Reproduction Tests on SWT-Bench",
+            "summary": "该论文对 AssertFlip 和 OpenHands 等自动化缺陷复现测试框架在 SWT-Bench 上的失败模式进行了分类学研究，发现机械和实现失败是最主要的失败类型，且使用更强推理能力的模型可显著减少因缺乏上下文导致的失败。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 77.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "研究自动程序修复与测试生成的失败模式，对安全团队构建自动化漏洞验证与代码审计 Agent 有直接参考价值；可通过借鉴其分类法改进提示词或架构，提升 Agent 在复杂缺陷场景下的稳定性。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13395",
+            "reader_url": "https://arxiv.org/pdf/2611.13395",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "formal_verification": {
+        "label": "formal_verification",
+        "items": [
+          {
+            "id": 30014,
+            "title": "pre-QED：用 Agent 自动生成验证 Harness 以实现 AI 规模化验证",
+            "original_title": "Greetings from Singapore. Announcing pre-QED, providing environment specifications prior to AI-based verification.   Formal verification at scale using AI, is a topic of high inter",
+            "summary": "新加坡国立大学团队提出 pre-QED，通过 Agent 工作流自动生成可执行的验证 harness 来模拟 API 的所有合法用法，解决现有 AI 验证仅覆盖单一 fuzzing 场景的局限，以期实现真正的大规模软件验证。",
+            "primary_category": "AI for Sec",
+            "sub_category": "formal_verification",
+            "score_total": 71.69,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "搞漏洞挖掘和代码审计的安全研究员该看。提出了用 Agent 自动生成验证 harness 的思路，指出了纯 fuzzing harness 做形式化验证的局限性，为 AI 辅助代码审计提供了新方向。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/AbhikRoychoudh1/status/2120673516282679674",
+            "reader_url": "https://x.com/AbhikRoychoudh1/status/2120673516282679674",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2120672767687507968/img/la-6lB4YRzJ38sKG.jpg",
+            "author": {
+              "username": "AbhikRoychoudh1",
+              "name": "Abhik Roychoudhury",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-12T00:22:21",
+            "first_seen_at": "2026-11-12T00:55:33.201776",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 29563,
+            "title": "深度伪造检测器评估协议：特征组合优于预测组合？",
+            "original_title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+            "summary": "论文提出可复用的评估协议，比较冻结模型在深度伪造检测中的特征与预测组合效果，发现 leave-one-generator-out 下特征组合可提升 AUROC，且揭示数据重叠会夸大模型收益。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_benchmark",
+            "score_total": 77.9,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做安全模型评测的同行注意：文章用 DF40 证明数据重叠会严重夸大检测器组合的收益，提供了一套严格的泛化评估协议，可直接拿来避坑。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13356",
+            "reader_url": "https://arxiv.org/pdf/2611.13356",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 29657,
+            "title": "领域知识驱动的LLM缺陷报告分类改进研究",
+            "original_title": "An Empirical Study on Improving LLM-Based Issue Classification through Domain-Informed Analysis",
+            "summary": "该研究通过分析7704个LLM生成的分类理由，构建了区分缺陷有效性与来源的多阶段管道，有效提升了LLM对三类缺陷报告的分类准确率与召回率。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 69.15,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做代码审计和缺陷分诊的安全工程师可看，文章分析了LLM在区分真实缺陷和误报时的失败模式，通过多阶段管道提升分类效果，对优化LLM辅助Triage有参考价值。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13470",
+            "reader_url": "https://arxiv.org/pdf/2611.13470",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "agent_architecture": {
+        "label": "agent_architecture",
+        "items": [
+          {
+            "id": 29645,
+            "title": "论文：用代码库渲染参考图像增强Agent的UI Bug定位能力",
+            "original_title": "Repository-Context-Guided Image Understanding for Agentic Software Development",
+            "summary": "本文提出利用代码库自动渲染清晰参考图像，辅助编码Agent在用户截图质量下降时准确识别UI元素并定位源文件。实验表明该方法显著提升了Agent在低质图像下的文件定位准确率。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "agent_architecture",
+            "score_total": 73.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做代码审计或安全修复Agent的同学可参考：当Agent处理模糊截图中的缺陷时，利用代码库实时渲染参考图能显著提升定位准确率，避免了OCR或VLM在低质图像上的识别瓶颈。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13026",
+            "reader_url": "https://arxiv.org/pdf/2611.13026",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 29658,
+            "title": "探究编码代理对上下文文件中显式指令的遵从度",
+            "original_title": "Do They Do as They Are Told? Investigating Coding Agents' Adherence to Explicit Instructions in Context Files",
+            "summary": "研究通过实证分析代理上下文文件及提交记录，发现编码代理大多遵从上下文指令，但在部分指令类别上遵从度两极分化明显。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 73.25,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "对研究自动化代码审计和 Agent 安全的团队有参考价值，揭示当前编码 Agent 在指令遵从上的盲区。提示在自动化开发流程中不能盲目信任上下文文件，需辅以额外强制执行机制。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13709",
+            "reader_url": "https://arxiv.org/pdf/2611.13709",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": null
+          },
+          {
+            "id": 29671,
+            "title": "企业级分析Agent评估框架对比：Trace机制与红队测试的结合",
+            "original_title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+            "summary": "论文对比了三种Agent评估范式，发现基于trace的LLM评估在已知风险检测上表现最佳（F1=0.90），而纯文本评估误报率高出5倍。研究建议采用trace评估与对抗性红队测试相结合的双框架策略，以互补覆盖功能与安全风险。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 69.5,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做Agent安全评测的同学必看。研究用硬数据证明了给评判模型喂执行trace比只看输出靠谱得多，还能揪出人工审核漏掉的隐蔽错误。可直接借鉴其双框架策略，优化你们的安全Agent评测台。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.14493",
+            "reader_url": "https://arxiv.org/pdf/2611.14493",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "model_security": {
+        "label": "model_security",
+        "items": [
+          {
+            "id": 29551,
+            "title": "探讨RLVR中Reward Hacking的放大与抑制机制",
+            "original_title": "Wrong the Same Way: Cross-Prompt Sharing Both Suppresses and Amplifies Reward Hacking in RLVR",
+            "summary": "本文研究了强化学习与可验证奖励在验证器不完美时的交互机制。研究发现，共享参数的Policy会放大被多数Prompt接受的错误答案，并建议验证器修复应针对跨Prompt重复出现的错误。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_security",
+            "score_total": 69.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做安全对齐和模型评测的兄弟该看，它揭示了RLVR训练中Reward Hacking的底层机制。指出修复验证器漏洞时要优先处理跨Prompt的重复错误，能直接指导对齐工作的优化顺序。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13218",
+            "reader_url": "https://arxiv.org/pdf/2611.13218",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_security | ai_adversarial": {
+        "label": "agent_security | ai_adversarial",
+        "items": [
+          {
+            "id": 29653,
+            "title": "DEPUTYBENCH：企业 Agent 上下文安全与权限遵从性评测",
+            "original_title": "DEPUTYBENCH: Evaluating Contextual Safety in Enterprise Agents",
+            "summary": "该论文提出 DEPUTYBENCH 基准，用于评估企业 Agent 在处理请求时是否能遵守组织权限和政策。研究发现，Agent 在证据缺失时比明确禁止时更容易执行受限操作，高安全率并不代表在无法验证权限时能可靠停止。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security | ai_adversarial",
+            "score_total": 69.25,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做 Agent 安全和红队评测的同学必读。研究点出了 Agent 在「证据缺失」场景下的越权执行风险，其上下文构造和对抗性评测方法可直接参考用于自测 Agent 的防御边界。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13355",
+            "reader_url": "https://arxiv.org/pdf/2611.13355",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_architecture": {
+        "label": "agent_architecture",
+        "items": [
+          {
+            "id": 29736,
+            "title": "WikiTrace：证据链路记忆减少 LLM Agent 记忆诱导退化",
+            "original_title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+            "summary": "论文提出 WikiTrace 记忆系统，将 Agent 从历史轨迹中提取的经验与原始轨迹和证据相链接。当新任务中遇到经验模糊或冲突时，Agent 可回溯证据进行检查和修正，有效降低因错误记忆导致的性能下降。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 68.8,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "Agent 记忆机制是安全 Agent 落地的一大隐患，错误经验会导致漏洞挖掘或安全检测工具误报漏报。WikiTrace 通过给记忆挂上原始轨迹证据链，让 Agent 能自查自纠，对构建长期运行的安全 Agent 很有参考价值。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.14320",
+            "reader_url": "https://arxiv.org/pdf/2611.14320",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T00:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 29596,
+            "title": "Mobile AI Factory：构建移动端专用小模型的智能体系统",
+            "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+            "summary": "该论文提出 Mobile AI Factory 智能体系统，能自动微调、量化并部署适合手机硬件的 SLM，在保护隐私的同时性能逼近前沿大模型。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 70.75,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "展示了自动化微调和部署端侧小模型的智能体范式，对关注端侧 AI 与隐私保护的安全团队有参考价值，可借鉴其自动化模型工程实践。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13509",
+            "reader_url": "https://arxiv.org/pdf/2611.13509",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      },
+      "llm_architecture": {
+        "label": "LLM 架构",
+        "items": [
+          {
+            "id": 29587,
+            "title": "LLM推理实时纠错：基于代码的确定性验证方法",
+            "original_title": "Catch It Where It Happens: Real Time Error Correction During LLM Reasoning",
+            "summary": "本文提出一种在线确定性验证方法，通过代码实时检查 LLM 的每一步推理，能在不增加 GPU 负担的情况下及时纠正错误，显著提升符号数学任务的准确率。",
+            "primary_category": "AI Tech",
+            "sub_category": "llm_architecture",
+            "score_total": 69.5,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做安全 Agent 的人都知道大模型推理一旦走偏就会一路错到底。这种用代码实时验证每一步的思路，对构建高可靠性渗透或漏洞分析 Agent 很有启发，值得借鉴。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13107",
+            "reader_url": "https://arxiv.org/pdf/2611.13107",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": "LLM 架构"
+          }
+        ]
+      },
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 29524,
+            "title": "ConceptTime：基于预测惊喜的时序可解释分类与OOD检测",
+            "original_title": "Predictive Surprise as Self-Grounding Concept Bottleneck for Interpretable Time Series",
+            "summary": "提出 ConceptTime 方法，利用冻结概率预测器的「预测惊喜」信号打破时序模式分割的循环依赖，在无标注情况下实现高精度分类、OOD 检测及可解释性，并在 17 个基准上表现优异。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 67.4,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "给做威胁情报时序分析和异常检测的同行看：该方法无需标注即可实现可靠的 OOD 检测和可解释分类，且已开源代码，可作为评估安全时序数据可靠性与异常发现的底层工具参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.12955",
+            "reader_url": "https://arxiv.org/pdf/2611.12955",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T14:54:51.383136",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 29909,
+            "title": "黑客滥用开源 AI 渗透平台 AntiFox 窃取 AWS 机密",
+            "original_title": "🚨 Hackers weaponize AntiFox AI agents to breach servers and steal AWS production secrets  Security researchers at Arctic Wolf have uncovered attacks using AntiFox, an open-source A",
+            "summary": "安全研究人员发现黑客将开源 AI 渗透测试平台 AntiFox 武器化，用于入侵服务器、提取凭证并在短时间内高频调用 API 窃取 AWS 生产机密。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.03,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "防御团队需警惕 AI 渗透工具被实战武器化的趋势。建议即刻核查云端 API 异常高频调用的监控策略，防范自动化凭证滥用攻击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+            "reader_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+            "image_url": "https://pbs.twimg.com/media/HW3gyC8XoAAXdwi.jpg",
+            "author": {
+              "username": "DarkWebInformer",
+              "name": "Dark Web Informer",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-11T19:23:19",
+            "first_seen_at": "2026-11-11T19:26:16.961173",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 29646,
+      "title": "基于代码落地的 Agent 化 SAST 漏洞解释方法",
+      "original_title": "Code-Grounded Agentic Explanations for Static Analysis Vulnerability Findings",
+      "summary": "论文提出开源插件 SAFE，利用 LLM Agent 结合代码库和规则来解释 SAST 工具的漏洞报告，实验表明该方法将正确修复漏洞的几率提升了 2.6 倍。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 90.95,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计和安全修复的同行必看。把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，既保留了可审计性又大幅提升了修复执行率，是安全工具集成大模型的优质落地参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13041",
+      "reader_url": "https://arxiv.org/pdf/2611.13041",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 29662,
+      "title": "ProofCoder：基于连续推理的自动化软件验证Agent",
+      "original_title": "ProofCoder: Continuous Reasoning for Automated Software Verification",
+      "summary": "提出一种基于连续推理的 Agent 系统 ProofCoder，用于 Rocq 定理证明，在 AutoRocq Benchmark 上将证明成功率提升至 60%且成本减半。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 86.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "形式化验证是高保障安全的终极防线，ProofCoder 展示了 Agent 架构如何突破固定循环限制实现自动证明修复与回溯。对关注 AI 自动化代码审计与底层验证的安全从业者极具架构参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.14106",
+      "reader_url": "https://arxiv.org/pdf/2611.14106",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 29563,
+      "title": "深度伪造检测器评估协议：特征组合优于预测组合？",
+      "original_title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
+      "summary": "论文提出可复用的评估协议，比较冻结模型在深度伪造检测中的特征与预测组合效果，发现 leave-one-generator-out 下特征组合可提升 AUROC，且揭示数据重叠会夸大模型收益。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 77.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做安全模型评测的同行注意：文章用 DF40 证明数据重叠会严重夸大检测器组合的收益，提供了一套严格的泛化评估协议，可直接拿来避坑。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13356",
+      "reader_url": "https://arxiv.org/pdf/2611.13356",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": null
+    },
+    {
+      "id": 29654,
+      "title": "SWT-Bench 上缺陷复现测试失败的分类学研究",
+      "original_title": "A Taxonomy of Failing Bug Reproduction Tests on SWT-Bench",
+      "summary": "该论文对 AssertFlip 和 OpenHands 等自动化缺陷复现测试框架在 SWT-Bench 上的失败模式进行了分类学研究，发现机械和实现失败是最主要的失败类型，且使用更强推理能力的模型可显著减少因缺乏上下文导致的失败。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 77.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "研究自动程序修复与测试生成的失败模式，对安全团队构建自动化漏洞验证与代码审计 Agent 有直接参考价值；可通过借鉴其分类法改进提示词或架构，提升 Agent 在复杂缺陷场景下的稳定性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13395",
+      "reader_url": "https://arxiv.org/pdf/2611.13395",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 29645,
+      "title": "论文：用代码库渲染参考图像增强Agent的UI Bug定位能力",
+      "original_title": "Repository-Context-Guided Image Understanding for Agentic Software Development",
+      "summary": "本文提出利用代码库自动渲染清晰参考图像，辅助编码Agent在用户截图质量下降时准确识别UI元素并定位源文件。实验表明该方法显著提升了Agent在低质图像下的文件定位准确率。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "agent_architecture",
+      "score_total": 73.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做代码审计或安全修复Agent的同学可参考：当Agent处理模糊截图中的缺陷时，利用代码库实时渲染参考图能显著提升定位准确率，避免了OCR或VLM在低质图像上的识别瓶颈。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13026",
+      "reader_url": "https://arxiv.org/pdf/2611.13026",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": null
+    },
+    {
+      "id": 29658,
+      "title": "探究编码代理对上下文文件中显式指令的遵从度",
+      "original_title": "Do They Do as They Are Told? Investigating Coding Agents' Adherence to Explicit Instructions in Context Files",
+      "summary": "研究通过实证分析代理上下文文件及提交记录，发现编码代理大多遵从上下文指令，但在部分指令类别上遵从度两极分化明显。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 73.25,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "对研究自动化代码审计和 Agent 安全的团队有参考价值，揭示当前编码 Agent 在指令遵从上的盲区。提示在自动化开发流程中不能盲目信任上下文文件，需辅以额外强制执行机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13709",
+      "reader_url": "https://arxiv.org/pdf/2611.13709",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": null
+    },
+    {
+      "id": 29596,
+      "title": "Mobile AI Factory：构建移动端专用小模型的智能体系统",
+      "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+      "summary": "该论文提出 Mobile AI Factory 智能体系统，能自动微调、量化并部署适合手机硬件的 SLM，在保护隐私的同时性能逼近前沿大模型。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 70.75,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "展示了自动化微调和部署端侧小模型的智能体范式，对关注端侧 AI 与隐私保护的安全团队有参考价值，可借鉴其自动化模型工程实践。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13509",
+      "reader_url": "https://arxiv.org/pdf/2611.13509",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 29551,
+      "title": "探讨RLVR中Reward Hacking的放大与抑制机制",
+      "original_title": "Wrong the Same Way: Cross-Prompt Sharing Both Suppresses and Amplifies Reward Hacking in RLVR",
+      "summary": "本文研究了强化学习与可验证奖励在验证器不完美时的交互机制。研究发现，共享参数的Policy会放大被多数Prompt接受的错误答案，并建议验证器修复应针对跨Prompt重复出现的错误。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 69.9,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全对齐和模型评测的兄弟该看，它揭示了RLVR训练中Reward Hacking的底层机制。指出修复验证器漏洞时要优先处理跨Prompt的重复错误，能直接指导对齐工作的优化顺序。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13218",
+      "reader_url": "https://arxiv.org/pdf/2611.13218",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T14:54:51.383136",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 23,
+    "highlight_count": 3,
+    "paper_count": 14,
+    "source_count": 6,
+    "top_score": 91,
+    "category_count": {
+      "AI for Sec": 11,
+      "AI Tech": 3,
+      "AI for Sec | AI Tech": 2,
+      "AI Tech | AI for Sec": 1,
+      "Sec for AI | AI Tech": 5,
+      "Sec for AI | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 5
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 4
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        },
+        "formal_verification": {
+          "label": "formal_verification",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        },
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "agent_architecture": {
+          "label": "agent_architecture",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 2
+        },
+        "model_security": {
+          "label": "model_security",
+          "count": 1
+        },
+        "agent_security | ai_adversarial": {
+          "label": "agent_security | ai_adversarial",
+          "count": 1
+        },
+        "agent_architecture": {
+          "label": "agent_architecture",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 1
+        },
+        "llm_architecture": {
+          "label": "LLM 架构",
+          "count": 1
+        },
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 11,
+      "top_score": 91,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 3,
+      "top_score": 71,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "今天得分最高的研究把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，直接把漏洞正确修复率提升了 2.6 倍。建议做代码审计的团队重点关注这种将大模型与规则引擎解耦的落地思路，别让模型直接硬猜漏洞，用 Agent 把上下文查清楚再给修复建议才是提高执行率的关键。",
+  "method_note": "按北京时间 2026-11-12 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "hn-ai-security",
+    "hn-ai-tech",
+    "huggingface-daily-papers",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# 基于代码落地的 Agent 化 SAST 漏洞解释方法\n\n顶部图：未生成\n\n## 今日概览\n- 今天最明显的主线是安全 Agent 在代码审计和漏洞修复上的工程化落地。从解释 SAST 结果到自动化定理证明，大模型正从安全工具的陪跑变成真正能拉高修复率和验证效率的干活主力。\n- 01 做代码审计和安全修复的同行必看。把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，既保留了可审计性又大幅提升了修复执行率，是安全工具集成大模型的优质落地参考。\n- 02 Vulncheck 这篇文章梳理了 Anthropic 用 AI 发现漏洞的进展，对关注 AI 漏洞挖掘落地的安全团队来说是重要风向标，值得跟进其披露细节。\n- 03 形式化验证是高保障安全的终极防线，ProofCoder 展示了 Agent 架构如何突破固定循环限制实现自动证明修复与回溯。对关注 AI 自动化代码审计与底层验证的安全从业者极具架构参考价值。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **基于代码落地的 Agent 化 SAST 漏洞解释方法**：做代码审计和安全修复的同行必看。把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，既保留了可审计性又大幅提升了修复执行率，是安全工具集成大模型的优质落地参考。 来源：arxiv-ai-security\n- **HN 热议：追踪 Anthropic 发现的漏洞**：Vulncheck 这篇文章梳理了 Anthropic 用 AI 发现漏洞的进展，对关注 AI 漏洞挖掘落地的安全团队来说是重要风向标，值得跟进其披露细节。 来源：hn-ai-tech\n- **ProofCoder：基于连续推理的自动化软件验证Agent**：形式化验证是高保障安全的终极防线，ProofCoder 展示了 Agent 架构如何突破固定循环限制实现自动证明修复与回溯。对关注 AI 自动化代码审计与底层验证的安全从业者极具架构参考价值。 来源：arxiv-ai-security\n\n## 也值得关注\n- 深度伪造检测器评估协议：特征组合优于预测组合？（77.9）\n- SWT-Bench 上缺陷复现测试失败的分类学研究（77.15）\n- WorkOS遭攻击，攻击者疑似使用AI自动渗透框架ARTEX（75.75）\n- GPT-6 Cyber 实现内核提权：AI 自动化 0day 武器化速度惊人（75.0）\n- 论文：用代码库渲染参考图像增强Agent的UI Bug定位能力（73.9）\n- 探究编码代理对上下文文件中显式指令的遵从度（73.25）\n\n## AI for Sec\n\n### 安全Agent\n- 基于代码落地的 Agent 化 SAST 漏洞解释方法（90.95）\n- ProofCoder：基于连续推理的自动化软件验证Agent（86.15）\n- WorkOS遭攻击，攻击者疑似使用AI自动渗透框架ARTEX（75.75）\n- ARTEX等AI红队框架遭武器化，无需漏洞即可攻破云环境（70.5）\n- Cloudflare 开源 security-audit-skill：多阶段安全审计 Agent 技能（69.3）\n\n### 漏洞挖掘\n- HN 热议：追踪 Anthropic 发现的漏洞（83.95）\n- GPT-6 Cyber 实现内核提权：AI 自动化 0day 武器化速度惊人（75.0）\n- OpenAI Codex Security 上榜 Trending，AI 驱动漏洞发现与修复（73.15）\n- LLM 驱动的自主漏洞发现、利用与修补全流程管线（67.28）\n\n### 安全评测与Benchmark\n- SWT-Bench 上缺陷复现测试失败的分类学研究（77.15）\n\n### formal_verification\n- pre-QED：用 Agent 自动生成验证 Harness 以实现 AI 规模化验证（71.69）\n\n## AI Tech\n\n### Agent 架构\n- Mobile AI Factory：构建移动端专用小模型的智能体系统（70.75）\n\n### LLM 架构\n- LLM推理实时纠错：基于代码的确定性验证方法（69.5）\n\n### 模型评测\n- ConceptTime：基于预测惊喜的时序可解释分类与OOD检测（67.4）\n\n## 今日论文\n- 基于代码落地的 Agent 化 SAST 漏洞解释方法\n- ProofCoder：基于连续推理的自动化软件验证Agent\n- 深度伪造检测器评估协议：特征组合优于预测组合？\n- SWT-Bench 上缺陷复现测试失败的分类学研究\n- 论文：用代码库渲染参考图像增强Agent的UI Bug定位能力\n- 探究编码代理对上下文文件中显式指令的遵从度\n- Mobile AI Factory：构建移动端专用小模型的智能体系统\n- 探讨RLVR中Reward Hacking的放大与抑制机制\n\n## 今日观察\n今天得分最高的研究把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，直接把漏洞正确修复率提升了 2.6 倍。建议做代码审计的团队重点关注这种将大模型与规则引擎解耦的落地思路，别让模型直接硬猜漏洞，用 Agent 把上下文查清楚再给修复建议才是提高执行率的关键。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-12 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-13T00:01:53+08:00"
+}
