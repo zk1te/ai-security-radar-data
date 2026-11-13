@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:04:55+08:00",
+  "updated_at": "2026-11-13T08:35:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -149,6 +149,26 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 30443,
+      "title": "OpenAI Codex Security CLI 获高关注度，主打漏洞发现与修复",
+      "original_title": "GitHub Trending: openai/codex-security gained 643 stars today",
+      "summary": "OpenAI 开源的 Codex Security CLI 工具在 GitHub 单日激增数百星，总星标超 1.2 万。该工具及 TypeScript SDK 专注于利用 AI 进行安全漏洞的发现、验证与修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 80.81,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "OpenAI 官方下场做代码安全工具，方向直指漏洞挖掘与修复自动化。做应用安全和 DevSecOps 的人必须关注，评估其发现和修复能力是否优于现有 SAST 工具，能否接入流水线。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-13&since=daily",
+      "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T00:06:58.759824",
+      "first_seen_at": "2026-11-13T00:07:29.536511",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 29392,
       "title": "用图神经网络检测 Solana 早期 Rug Pull 诈骗",
       "original_title": "Early Rug Pull Detection on Solana",
@@ -167,26 +187,6 @@
       "published_at": "2026-11-11T05:00:00",
       "first_seen_at": "2026-11-12T20:55:17.579465",
       "sub_category_label": "威胁检测"
-    },
-    {
-      "id": 29393,
-      "title": "Talos 系统：拦截并诱捕 LLM Agent 的 OT 蜜罐",
-      "original_title": "Stinging the Swarm: Extracting Attacker Intelligence from a Twin-Controller OT Honeypot",
-      "summary": "论文提出 Talos 在线网关，在毫秒级判断并拦截针对工业控制系统的恶意 LLM Agent，将其路由至镜像诱饵中继续运行以提取威胁情报，且相关代码已开源。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 77.95,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "防御侧必看，展示了如何用小模型在 OT 环境毫秒级拦截自动化 LLM 攻击并套取情报。提供开源 harness，适合安全团队直接复现和评估防御效果。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.13406",
-      "reader_url": "https://arxiv.org/pdf/2611.13406",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-11T05:00:00",
-      "first_seen_at": "2026-11-12T20:55:17.579465",
-      "sub_category_label": null
     }
   ]
 }
