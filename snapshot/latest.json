@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T03:09:22+08:00",
+  "updated_at": "2026-11-14T03:39:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -120,29 +120,29 @@
       "sub_category_label": null
     },
     {
-      "id": 30575,
-      "title": "腾讯 Hy4 登顶 CWE-Bench-AA 漏洞修复榜，开源可本地跑",
-      "original_title": "The best vulnerability-fixing model on Artificial Analysis’s new leaderboard is one you can download and run in-house under Apache 2.0.  Tencent’s Hy4 took #1 on CWE-Bench-AA today",
-      "summary": "腾讯开源模型 Hy4 以 76% 成绩登顶 Artificial Analysis 的 CWE-Bench-AA 榜单，该榜单评测 AI Agent 审计代码并修复漏洞的能力，推文还分析了单任务成本与本地部署硬件门槛。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 70.0,
+      "id": 30835,
+      "title": "FBI 警报：开源多Agent框架 ARTEX 被武器化进行自动化入侵",
+      "original_title": "[ CYBERSECURITY & AI-DRIVEN THREATS ]  • INCIDENT VECTOR: The FBI's Internet Crime Complaint Center (IC3) released a FLASH advisory detailing the global weaponization of ARTEX. Ori",
+      "summary": "FBI IC3 发布警报，指出 AI 渗透测试框架 ARTEX 被武器化，利用 DeepSeek、GLM 等 LLM 编排自动化网络攻击，23 秒内可执行 27 次复杂入侵事件。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做漏洞修复自动化或代码审计 Agent 的人都该看，直接展示了开源模型在本地化安全场景下的竞争力，给出了成本结构和硬件门槛的硬数据，是选型避坑的实料。",
+      "recommendation_reason": "安全团队需高度警惕 AI Agent 在攻击侧的加速应用。建议立即审计 Entra ID 服务主体和第三方应用授权，并部署自动化遏制 playbook 以应对超高速 AI 自动化入侵。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MartinSzerment/status/2121139639427690567",
-      "reader_url": "https://x.com/MartinSzerment/status/2121139639427690567",
-      "image_url": "https://pbs.twimg.com/media/HW_NQKVWUAAJNTT.jpg",
+      "canonical_url": "https://x.com/biente30/status/2121319058306154498",
+      "reader_url": "https://x.com/biente30/status/2121319058306154498",
+      "image_url": null,
       "author": {
-        "username": "MartinSzerment",
-        "name": "Martin Szerment | Practical AI",
+        "username": "biente30",
+        "name": "⬛twentythirty⚫",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-13T07:14:33",
-      "first_seen_at": "2026-11-13T07:37:47.337432",
-      "sub_category_label": "安全评测与Benchmark"
+      "published_at": "2026-11-13T19:07:30",
+      "first_seen_at": "2026-11-13T19:32:28.218267",
+      "sub_category_label": null
     },
     {
       "id": 30650,
