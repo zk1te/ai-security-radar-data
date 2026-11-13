@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T05:04:29+08:00",
+  "updated_at": "2026-11-13T08:04:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -85,6 +85,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 30435,
+      "title": "HN 热议追踪 Anthropic 发现的漏洞及 Glasswing 进展",
+      "original_title": "HN Hot Discussion: Tracking Anthropic-discovered vulnerabilities",
+      "summary": "Vulncheck 博客探讨了 Anthropic 通过 Project Glasswing 项目发现漏洞的最新进展，引发 HN 社区热议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 84.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "Anthropic 的 Project Glasswing 展示了 AI 挖洞的产业级进展，安全团队需关注 AI 发现的漏洞如何被追踪和修复，评估对传统工作流的冲击。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-13",
+      "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-13",
+      "image_url": null,
+      "author": {
+        "username": "panic",
+        "name": "panic",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-10T22:17:56",
+      "first_seen_at": "2026-11-13T00:01:21.708810",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 29399,
       "title": "BypassGym：首个评估AI Agent绕过EDR能力的基准",
       "original_title": "BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities",
@@ -162,26 +186,6 @@
       "author": null,
       "published_at": "2026-11-11T05:00:00",
       "first_seen_at": "2026-11-12T20:55:17.579465",
-      "sub_category_label": null
-    },
-    {
-      "id": 29563,
-      "title": "深度伪造检测器评估协议：特征组合优于预测组合？",
-      "original_title": "When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
-      "summary": "论文提出可复用的评估协议，比较冻结模型在深度伪造检测中的特征与预测组合效果，发现 leave-one-generator-out 下特征组合可提升 AUROC，且揭示数据重叠会夸大模型收益。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 77.9,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做安全模型评测的同行注意：文章用 DF40 证明数据重叠会严重夸大检测器组合的收益，提供了一套严格的泛化评估协议，可直接拿来避坑。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.13356",
-      "reader_url": "https://arxiv.org/pdf/2611.13356",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-11T05:00:00",
-      "first_seen_at": "2026-11-12T14:54:51.383136",
       "sub_category_label": null
     }
   ]
