@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T03:39:29+08:00",
+  "updated_at": "2026-11-14T04:09:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -22,6 +22,31 @@
       "author": null,
       "published_at": "2026-11-13T11:35:01.557266",
       "first_seen_at": "2026-11-13T11:36:25.611450",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30845,
+      "title": "Storm-0940 利用 AI 渗透框架 ARTEX 发起供应链攻击",
+      "original_title": "We’re on @X, tap the grok icon on the top right of the post.  From @grok:  Yes, that matches Microsoft’s reporting on the ConnectWise supply-chain incident.[](<https://t.co/7D8BZkh",
+      "summary": "微软报告称 Storm-0940 组织利用开源多智能体 LLM 渗透测试框架 ARTEX，在 ConnectWise 供应链攻击中以机器速度横扫超 2250 个 M365 租户，将初始访问到特权提升的时间压缩至 3 小时内。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.05,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "已知在野攻击者直接使用多智能体 LLM 渗透框架进行自动化攻击的典型案例。防守方响应窗口正被 AI Agent 极限压缩，须立即检视 OAuth 服务主体的异常高频登录检测策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MichaelGWeaver/status/2121325871331987915",
+      "reader_url": "https://x.com/MichaelGWeaver/status/2121325871331987915",
+      "image_url": null,
+      "author": {
+        "username": "MichaelGWeaver",
+        "name": "Michael Weaver ✡︎ 🇺🇸 🇮🇱",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T19:34:34",
+      "first_seen_at": "2026-11-13T20:05:50.597609",
       "sub_category_label": "安全Agent"
     },
     {
@@ -217,31 +242,6 @@
       },
       "published_at": "2026-11-13T08:37:08",
       "first_seen_at": "2026-11-13T08:44:38.330675",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30616,
-      "title": "Claude BugHunter：AI 驱动安全研究工具包开源",
-      "original_title": "🛡️ CLAUDE BUGHUNTER — AI-POWERED SECURITY RESEARCH TOOLKIT  Claude BugHunter is an open-source collection of AI agent skills designed for authorized security assessments and vulner",
-      "summary": "Claude BugHunter 是一个开源 AI 安全研究技能集，提供 83 个专用技能和 Burp Suite 集成，用于侦察、漏洞验证和安全报告自动化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.23,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者必看！这套开源工具直接提供了大量现成的安全 Agent 技能和攻击报告模式，能快速落地到现有的漏洞挖掘和自动化渗透流程中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Anastasis_King/status/2121163262737715632",
-      "reader_url": "https://x.com/Anastasis_King/status/2121163262737715632",
-      "image_url": "https://pbs.twimg.com/media/HW_ivuzWAAAh0Y7.jpg",
-      "author": {
-        "username": "Anastasis_King",
-        "name": "Cyberkid",
-        "avatar_url": null,
-        "followers_count": 11667
-      },
-      "published_at": "2026-11-13T08:48:25",
-      "first_seen_at": "2026-11-13T09:16:28.694410",
       "sub_category_label": "安全Agent"
     }
   ]
