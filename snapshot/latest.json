@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T06:10:23+08:00",
+  "updated_at": "2026-11-14T07:10:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -93,31 +93,6 @@
       "published_at": "2026-11-13T19:07:30",
       "first_seen_at": "2026-11-13T19:32:28.218267",
       "sub_category_label": null
-    },
-    {
-      "id": 30650,
-      "title": "OpenAI 开源 Codex Security：能验证和修复漏洞的安全 Agent",
-      "original_title": "OpenAI just open-sourced a security agent that does not stop after finding the vulnerability.  It can validate the finding, write the patch, and check whether the fix actually clos",
-      "summary": "OpenAI 开源安全 Agent 工具 Codex Security，支持查找并验证漏洞、生成并验证补丁、构建威胁模型及导出报告，可接入 CI/CD 流程。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全审计和研发人员应关注这款不仅找洞还能自动修复并验证的 Agent。它支持扫描代码库或 Git diff，适合集成进 CI 流程作为现有 SAST 工具的强化补充。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xpipimd/status/2121186960383639982",
-      "reader_url": "https://x.com/0xpipimd/status/2121186960383639982",
-      "image_url": "https://pbs.twimg.com/media/HW_4SxtaUAA-_2M.jpg",
-      "author": {
-        "username": "0xpipimd",
-        "name": "pipi.md",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T10:22:35",
-      "first_seen_at": "2026-11-13T10:57:04.712280",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 30674,
@@ -238,6 +213,31 @@
       "published_at": "2026-11-13T16:20:00",
       "first_seen_at": "2026-11-13T16:39:34.351017",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30675,
+      "title": "ARTEX 自主 LLM 渗透框架实战攻击案例分析",
+      "original_title": "#threatreport #LowCompleteness Machine speed: how we defended against an AI-driven attack | 12-11-2026 Source: https://t.co/LRf3CuVJJR Key details below ↓  💀Threats: Artex_tool, P2",
+      "summary": "攻击者利用 ARTEX 自主 LLM 渗透框架通过 PHP 漏洞入侵并横向移动至 K8s 与 CI/CD，防御方同样使用 LLM agent 进行日志分析与狩猎。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 65.65,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "罕见的 AI 驱动攻击实战报告，详细披露了 ARTEX 框架的 TTPs 与 IOC。红蓝团队应立即关注攻击侧 AI 自动化渗透的能力边界，并评估防御侧 LLM agent 的安全引入方式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rst_cloud/status/2121207728626348223",
+      "reader_url": "https://x.com/rst_cloud/status/2121207728626348223",
+      "image_url": "https://pbs.twimg.com/media/HXALL0OXoAAgSGO.jpg",
+      "author": {
+        "username": "rst_cloud",
+        "name": "RST Cloud",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T11:45:07",
+      "first_seen_at": "2026-11-13T12:04:39.824156",
+      "sub_category_label": null
     }
   ]
 }
