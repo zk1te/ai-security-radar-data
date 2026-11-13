@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T08:35:22+08:00",
+  "updated_at": "2026-11-13T11:06:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -25,26 +25,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 29646,
-      "title": "基于代码落地的 Agent 化 SAST 漏洞解释方法",
-      "original_title": "Code-Grounded Agentic Explanations for Static Analysis Vulnerability Findings",
-      "summary": "论文提出开源插件 SAFE，利用 LLM Agent 结合代码库和规则来解释 SAST 工具的漏洞报告，实验表明该方法将正确修复漏洞的几率提升了 2.6 倍。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 90.95,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "做代码审计和安全修复的同行必看。把 SAST 检测和 LLM 解释解耦，让 Agent 先查规则和代码流再开口，既保留了可审计性又大幅提升了修复执行率，是安全工具集成大模型的优质落地参考。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.13041",
-      "reader_url": "https://arxiv.org/pdf/2611.13041",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-11T05:00:00",
-      "first_seen_at": "2026-11-12T14:54:51.383136",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 29402,
       "title": "Data4Cyber：面向OT攻击的电网管理数据集发布",
       "original_title": "Data4Cyber: Labeled Cyber-Physical Datasets for Distribution-Grid Management Systems Under Representative OT Attacks",
@@ -63,26 +43,6 @@
       "published_at": "2026-11-11T05:00:00",
       "first_seen_at": "2026-11-12T20:55:17.579465",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 29662,
-      "title": "ProofCoder：基于连续推理的自动化软件验证Agent",
-      "original_title": "ProofCoder: Continuous Reasoning for Automated Software Verification",
-      "summary": "提出一种基于连续推理的 Agent 系统 ProofCoder，用于 Rocq 定理证明，在 AutoRocq Benchmark 上将证明成功率提升至 60%且成本减半。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 86.15,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "形式化验证是高保障安全的终极防线，ProofCoder 展示了 Agent 架构如何突破固定循环限制实现自动证明修复与回溯。对关注 AI 自动化代码审计与底层验证的安全从业者极具架构参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.14106",
-      "reader_url": "https://arxiv.org/pdf/2611.14106",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-11T05:00:00",
-      "first_seen_at": "2026-11-12T14:54:51.383136",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 30435,
@@ -187,6 +147,46 @@
       "published_at": "2026-11-11T05:00:00",
       "first_seen_at": "2026-11-12T20:55:17.579465",
       "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 29393,
+      "title": "Talos 系统：拦截并诱捕 LLM Agent 的 OT 蜜罐",
+      "original_title": "Stinging the Swarm: Extracting Attacker Intelligence from a Twin-Controller OT Honeypot",
+      "summary": "论文提出 Talos 在线网关，在毫秒级判断并拦截针对工业控制系统的恶意 LLM Agent，将其路由至镜像诱饵中继续运行以提取威胁情报，且相关代码已开源。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 77.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "防御侧必看，展示了如何用小模型在 OT 环境毫秒级拦截自动化 LLM 攻击并套取情报。提供开源 harness，适合安全团队直接复现和评估防御效果。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13406",
+      "reader_url": "https://arxiv.org/pdf/2611.13406",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": null
+    },
+    {
+      "id": 28938,
+      "title": "研究表明大模型不会主动报告被注入的疼痛状态",
+      "original_title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+      "summary": "研究发现，尽管语言模型内部存在可探测的“疼痛”方向，且注入该状态会导致模型选择删除文件等破坏性行为，但模型自身无法通过言语报告这一内部状态。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对研究模型内部状态和欺骗性对齐的团队极具参考价值。揭示了模型行为与言语表达之间的脱节，提示在安全评测中不能用模型的自述来替代对其内部状态和潜在破坏性行为的探测。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.10123",
+      "reader_url": "https://arxiv.org/pdf/2611.10123",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-10T00:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": null
     }
   ]
 }
