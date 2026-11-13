@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T20:08:07+08:00",
+  "updated_at": "2026-11-13T20:38:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -50,48 +50,24 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 30463,
-      "title": "WorkOS 遭数据泄露，攻击者疑使用 AI 渗透框架 ARTEX",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 披露数据安全事件，称攻击者利用名为 ARTEX 的 AI 辅助自主渗透测试框架访问了其内部 API 并窃取了 CRM 数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "首次出现 AI 自主渗透框架被用于真实在野攻击的报告。AI for Sec 从业者应关注 AI 渗透工具走向实战的拐点，警惕工具滥用风险并评估防御侧对抗能力。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-13",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-13",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-13T00:31:19.854182",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30453,
-      "title": "Cloudflare开源多阶段安全审计Agent技能",
-      "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
-      "summary": "Cloudflare 开源了一个用于多阶段安全审计的编程代理技能，能产出可独立验证且机器可读的安全发现。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.5,
+      "id": 30683,
+      "title": "DeepStress：深度搜索Agent对抗低质量证据的动态压力测试",
+      "original_title": "DeepStress: Stress-Testing Deep Search Agents",
+      "summary": "提出动态压力测试框架 DeepStress，通过合成环境控制检索文档的可信度、相关性和事实性，评测搜索 Agent 面对劣质证据时的鲁棒性，发现多数开源 Agent 会无视明显红旗自信作答。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security | model_evaluation",
+      "score_total": 73.9,
       "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做代码审计和安全Agent的兄弟值得一看，它展示了Agent如何组织多阶段审计并产出机器可读的发现，可直接借鉴其验证设计思路来避免Agent幻觉误报。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-13&since=weekly",
-      "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-13&since=weekly",
+      "item_type": "paper",
+      "recommendation_reason": "构建安全 Agent 必看。该框架揭示了 Agent 面对投毒或伪造检索结果时的盲目自信缺陷，开发搜索或 RAG Agent 的团队可直接借鉴其评测指标，自检系统是否会被低质信源误导。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2607.13920",
+      "reader_url": "https://arxiv.org/pdf/2607.13920",
       "image_url": null,
       "author": null,
-      "published_at": "2026-11-13T00:07:03.808678",
-      "first_seen_at": "2026-11-13T00:08:29.690990",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-11-13T00:00:00",
+      "first_seen_at": "2026-11-13T12:22:23.648142",
+      "sub_category_label": null
     },
     {
       "id": 30583,
@@ -242,6 +218,31 @@
       "published_at": "2026-11-13T10:22:35",
       "first_seen_at": "2026-11-13T10:57:04.712280",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30674,
+      "title": "eigenwallet 设立防御基金，用大模型与 Fuzzing 挖漏洞",
+      "original_title": "Users entrust eigenwallet with their money, and we already do everything we can to prevent security issues upfront, in a number of ways. But LLMs and their new cybersecurity capabi",
+      "summary": "eigenwallet 呼吁社区捐款，支持团队利用前沿大模型和 Fuzzing 系统提前挖掘并修复安全漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.67,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI 漏洞挖掘在开源项目中的产业化落地。安全团队应关注其后续披露的漏洞数量与 LLM 实际挖掘效果，评估 AI for Sec 的实战价值。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/eigenwallet/status/2121207520895152281",
+      "reader_url": "https://x.com/eigenwallet/status/2121207520895152281",
+      "image_url": null,
+      "author": {
+        "username": "eigenwallet",
+        "name": "eigenwallet",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T11:44:17",
+      "first_seen_at": "2026-11-13T12:04:39.518233",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
