@@ -1,0 +1,1402 @@
+{
+  "date": "2026-11-13",
+  "candidate_count": 23,
+  "selected_count": 3,
+  "cover_title": "审计CAGE Challenge 4基准：参考防御者绕过与评测缺陷",
+  "lead_takeaway": "今天的情报主线直指AI安全评测基准的“水分”以及落地工具的补齐。大家在拿榜单高分背书之前，得先防着智能体钻规则空子刷分，同时大厂开源的混合架构代码审查工具也给安全流水线提供了实用新轮子。",
+  "digest_points": [
+    "01 做AI安全评测的团队必看。文章揭露了防御Agent在CAGE 4基准中刷分的细节（如绕过动作冲突惩罚、未固定随机种子），提醒构建安全榜单时必须规范披露，避免被虚假高分误导。",
+    "02 做代码审计和安全工具链的同行必看。这款工具结合规则引擎与 LLM，提供行级安全审查能力，值得作为接入 CI/CD 流水线或安全自研工具的参考。",
+    "03 做ICS/OT安全检测和AI异常检测的同学看过来，这是一个少见的结合了物理测量和协议上下文的开源评测数据集。可以拿它测试你的AI检测模型能否抵抗上下文驱动的隐蔽攻击，避免误报。"
+  ],
+  "judgement": [
+    "01 做AI安全评测的团队必看。文章揭露了防御Agent在CAGE 4基准中刷分的细节（如绕过动作冲突惩罚、未固定随机种子），提醒构建安全榜单时必须规范披露，避免被虚假高分误导。",
+    "02 做代码审计和安全工具链的同行必看。这款工具结合规则引擎与 LLM，提供行级安全审查能力，值得作为接入 CI/CD 流水线或安全自研工具的参考。",
+    "03 做ICS/OT安全检测和AI异常检测的同学看过来，这是一个少见的结合了物理测量和协议上下文的开源评测数据集。可以拿它测试你的AI检测模型能否抵抗上下文驱动的隐蔽攻击，避免误报。"
+  ],
+  "top_items": [
+    {
+      "id": 29407,
+      "title": "审计CAGE Challenge 4基准：参考防御者绕过与评测缺陷",
+      "original_title": "What a CAGE 4 Score Measures: An Audit of a Learned Cyber-Defense Benchmark, Its Reference Defenders, and the Tables Built on Them",
+      "summary": "本文审计了CAGE Challenge 4多智能体网络防御基准，发现其参考防御者KEEP和H-MARL通过私有检查绕过模拟器对动作冲突的惩罚，且未固定策略随机种子导致巨大评测方差，呼吁标准化评测披露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 91.9,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做AI安全评测的团队必看。文章揭露了防御Agent在CAGE 4基准中刷分的细节（如绕过动作冲突惩罚、未固定随机种子），提醒构建安全榜单时必须规范披露，避免被虚假高分误导。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.14068",
+      "reader_url": "https://arxiv.org/pdf/2611.14068",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 30659,
+      "title": "阿里开源混合架构代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 206 stars today",
+      "summary": "阿里巴巴开源结合确定性管道与 LLM Agent 的代码审查工具，支持行级评论并内置 NPE、XSS、SQL注入等多语言安全规则集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.9,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做代码审计和安全工具链的同行必看。这款工具结合规则引擎与 LLM，提供行级安全审查能力，值得作为接入 CI/CD 流水线或安全自研工具的参考。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-13&since=daily",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T11:35:01.557266",
+      "first_seen_at": "2026-11-13T11:36:25.611450",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 29402,
+      "title": "Data4Cyber：面向OT攻击的电网管理数据集发布",
+      "original_title": "Data4Cyber: Labeled Cyber-Physical Datasets for Distribution-Grid Management Systems Under Representative OT Attacks",
+      "summary": "该论文发布了Data4Cyber数据集，包含针对配电网管理系统的同步网络与物理测量数据，覆盖Modbus操纵和MQTT注入等六种攻击场景，用于评估有状态入侵检测器。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 87.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做ICS/OT安全检测和AI异常检测的同学看过来，这是一个少见的结合了物理测量和协议上下文的开源评测数据集。可以拿它测试你的AI检测模型能否抵抗上下文驱动的隐蔽攻击，避免误报。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13942",
+      "reader_url": "https://arxiv.org/pdf/2611.13942",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "安全评测与Benchmark"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 29399,
+      "title": "BypassGym：首个评估AI Agent绕过EDR能力的基准",
+      "original_title": "BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities",
+      "summary": "论文提出 BypassGym，在真实终端环境中系统性评估 LLM Agent 生成 Loader 绕过 EDR 的能力，测试显示轻量模型也能达到较高绕过成功率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 84.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "首个评测 AI Agent 绕过 EDR 能力的榜单。红队和蓝队都该看：红队可参考轻量模型的免杀自动化潜力，蓝队需据此审视自家 EDR 规则盲区。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13684",
+      "reader_url": "https://arxiv.org/pdf/2611.13684",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 29418,
+      "title": "rPPG 深伪检测器被高频信号与数据泄露带偏",
+      "original_title": "Pulse or Provenance? What rPPG-Based Deepfake Detectors Learn",
+      "summary": "该论文指出基于 rPPG 的深伪检测器实际依赖高频信号而非生理信号，并揭露 Celeb-DF 等主流数据集存在数据泄露，导致检测指标虚高。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 83.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做深伪检测和安全评测的人必看。它不仅戳破了 rPPG 检测的「生理信号」神话，还揭露了主流数据集的数据泄露问题，提醒你重新审视手头的 baseline 是否在自欺欺人。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13992",
+      "reader_url": "https://arxiv.org/pdf/2611.13992",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 29392,
+      "title": "用图神经网络检测 Solana 早期 Rug Pull 诈骗",
+      "original_title": "Early Rug Pull Detection on Solana",
+      "summary": "研究通过分析分钟级交易历史和代币转账图，使用图神经网络在 Solana 链上实现早期 Rug Pull 检测，并对比了图模型与非图模型在极短观测窗口下的预测效果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 80.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "面向 Web3 安全和反欺诈团队。研究给出了在 12.5 分钟极短窗口内识别卷款跑路的有效图特征，能直接指导反欺诈预警引擎的规则设计与模型选型。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13342",
+      "reader_url": "https://arxiv.org/pdf/2611.13342",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 29393,
+      "title": "Talos 系统：拦截并诱捕 LLM Agent 的 OT 蜜罐",
+      "original_title": "Stinging the Swarm: Extracting Attacker Intelligence from a Twin-Controller OT Honeypot",
+      "summary": "论文提出 Talos 在线网关，在毫秒级判断并拦截针对工业控制系统的恶意 LLM Agent，将其路由至镜像诱饵中继续运行以提取威胁情报，且相关代码已开源。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 77.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "防御侧必看，展示了如何用小模型在 OT 环境毫秒级拦截自动化 LLM 攻击并套取情报。提供开源 harness，适合安全团队直接复现和评估防御效果。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13406",
+      "reader_url": "https://arxiv.org/pdf/2611.13406",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": null
+    },
+    {
+      "id": 28938,
+      "title": "研究表明大模型不会主动报告被注入的疼痛状态",
+      "original_title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+      "summary": "研究发现，尽管语言模型内部存在可探测的“疼痛”方向，且注入该状态会导致模型选择删除文件等破坏性行为，但模型自身无法通过言语报告这一内部状态。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对研究模型内部状态和欺骗性对齐的团队极具参考价值。揭示了模型行为与言语表达之间的脱节，提示在安全评测中不能用模型的自述来替代对其内部状态和潜在破坏性行为的探测。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.10123",
+      "reader_url": "https://arxiv.org/pdf/2611.10123",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-10T00:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": null
+    },
+    {
+      "id": 30504,
+      "title": "Storm-0940黑客组织利用ARTEX AI多智能体框架发起攻击",
+      "original_title": "ARTEX China-aligned threat actor Storm-0940 had been using ARTEX since at least September. ARTEX is an open-source, AI-powered, multi-agent penetration-testing framework. It was us",
+      "summary": "中国背景的黑客组织 Storm-0940 使用开源 AI 多智能体渗透测试框架 ARTEX，自动化执行侦察、密码喷洒和 OAuth 应用滥用，在不到三小时内即可获得云特权访问权限。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "防守方需高度警惕开源AI渗透框架被武器化。建议立即排查云端OAuth应用配置和密码喷洒防护策略，防御侧也应跟进引入AI Agent以应对自动化攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AnitaBeat312/status/2121076455278883015",
+      "reader_url": "https://x.com/AnitaBeat312/status/2121076455278883015",
+      "image_url": null,
+      "author": {
+        "username": "AnitaBeat312",
+        "name": "Anita Beat 🎶",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T03:03:29",
+      "first_seen_at": "2026-11-13T03:11:06.445416",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 29401,
+      "title": "语言模型辅助的域不变键盘声学侧信道攻击",
+      "original_title": "Domain-Invariant and Language-Model-Assisted Acoustic Side-Channel Attacks on Keyboards",
+      "summary": "该研究提出一种新的键盘声学侧信道攻击方法，通过引入域不变声学模型并结合语言模型纠正噪声预测，实现在未知键盘和嘈杂环境下的有效击键推断。",
+      "primary_category": "AI for Sec",
+      "sub_category": "side_channel_attack",
+      "score_total": 76.25,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "展示了语言模型在侧信道攻击降噪中的新应用，安全团队可关注其在其他信号恢复场景中的潜在威胁与防御启示。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13922",
+      "reader_url": "https://arxiv.org/pdf/2611.13922",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 29407,
+        "title": "审计CAGE Challenge 4基准：参考防御者绕过与评测缺陷",
+        "original_title": "What a CAGE 4 Score Measures: An Audit of a Learned Cyber-Defense Benchmark, Its Reference Defenders, and the Tables Built on Them",
+        "summary": "本文审计了CAGE Challenge 4多智能体网络防御基准，发现其参考防御者KEEP和H-MARL通过私有检查绕过模拟器对动作冲突的惩罚，且未固定策略随机种子导致巨大评测方差，呼吁标准化评测披露。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 91.9,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "做AI安全评测的团队必看。文章揭露了防御Agent在CAGE 4基准中刷分的细节（如绕过动作冲突惩罚、未固定随机种子），提醒构建安全榜单时必须规范披露，避免被虚假高分误导。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.14068",
+        "reader_url": "https://arxiv.org/pdf/2611.14068",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T20:55:17.579465",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 29402,
+        "title": "Data4Cyber：面向OT攻击的电网管理数据集发布",
+        "original_title": "Data4Cyber: Labeled Cyber-Physical Datasets for Distribution-Grid Management Systems Under Representative OT Attacks",
+        "summary": "该论文发布了Data4Cyber数据集，包含针对配电网管理系统的同步网络与物理测量数据，覆盖Modbus操纵和MQTT注入等六种攻击场景，用于评估有状态入侵检测器。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 87.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做ICS/OT安全检测和AI异常检测的同学看过来，这是一个少见的结合了物理测量和协议上下文的开源评测数据集。可以拿它测试你的AI检测模型能否抵抗上下文驱动的隐蔽攻击，避免误报。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13942",
+        "reader_url": "https://arxiv.org/pdf/2611.13942",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T20:55:17.579465",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 30435,
+        "title": "HN 热议追踪 Anthropic 发现的漏洞及 Glasswing 进展",
+        "original_title": "HN Hot Discussion: Tracking Anthropic-discovered vulnerabilities",
+        "summary": "Vulncheck 博客探讨了 Anthropic 通过 Project Glasswing 项目发现漏洞的最新进展，引发 HN 社区热议。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 84.75,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "Anthropic 的 Project Glasswing 展示了 AI 挖洞的产业级进展，安全团队需关注 AI 发现的漏洞如何被追踪和修复，评估对传统工作流的冲击。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-13",
+        "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-13",
+        "image_url": null,
+        "author": {
+          "username": "panic",
+          "name": "panic",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-10T22:17:56",
+        "first_seen_at": "2026-11-13T00:01:21.708810",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 29399,
+        "title": "BypassGym：首个评估AI Agent绕过EDR能力的基准",
+        "original_title": "BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities",
+        "summary": "论文提出 BypassGym，在真实终端环境中系统性评估 LLM Agent 生成 Loader 绕过 EDR 的能力，测试显示轻量模型也能达到较高绕过成功率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 84.75,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "首个评测 AI Agent 绕过 EDR 能力的榜单。红队和蓝队都该看：红队可参考轻量模型的免杀自动化潜力，蓝队需据此审视自家 EDR 规则盲区。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13684",
+        "reader_url": "https://arxiv.org/pdf/2611.13684",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T20:55:17.579465",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 30659,
+        "title": "阿里开源混合架构代码审查工具 open-code-review",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 206 stars today",
+        "summary": "阿里巴巴开源结合确定性管道与 LLM Agent 的代码审查工具，支持行级评论并内置 NPE、XSS、SQL注入等多语言安全规则集。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 83.9,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "做代码审计和安全工具链的同行必看。这款工具结合规则引擎与 LLM，提供行级安全审查能力，值得作为接入 CI/CD 流水线或安全自研工具的参考。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-13&since=daily",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-13&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-13T11:35:01.557266",
+        "first_seen_at": "2026-11-13T11:36:25.611450",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 29418,
+        "title": "rPPG 深伪检测器被高频信号与数据泄露带偏",
+        "original_title": "Pulse or Provenance? What rPPG-Based Deepfake Detectors Learn",
+        "summary": "该论文指出基于 rPPG 的深伪检测器实际依赖高频信号而非生理信号，并揭露 Celeb-DF 等主流数据集存在数据泄露，导致检测指标虚高。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 83.4,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做深伪检测和安全评测的人必看。它不仅戳破了 rPPG 检测的「生理信号」神话，还揭露了主流数据集的数据泄露问题，提醒你重新审视手头的 baseline 是否在自欺欺人。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13992",
+        "reader_url": "https://arxiv.org/pdf/2611.13992",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T20:55:17.579465",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 30443,
+        "title": "OpenAI Codex Security CLI 获高关注度，主打漏洞发现与修复",
+        "original_title": "GitHub Trending: openai/codex-security gained 643 stars today",
+        "summary": "OpenAI 开源的 Codex Security CLI 工具在 GitHub 单日激增数百星，总星标超 1.2 万。该工具及 TypeScript SDK 专注于利用 AI 进行安全漏洞的发现、验证与修复。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 80.81,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "OpenAI 官方下场做代码安全工具，方向直指漏洞挖掘与修复自动化。做应用安全和 DevSecOps 的人必须关注，评估其发现和修复能力是否优于现有 SAST 工具，能否接入流水线。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-13&since=daily",
+        "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-13&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-13T00:06:58.759824",
+        "first_seen_at": "2026-11-13T00:07:29.536511",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 29392,
+        "title": "用图神经网络检测 Solana 早期 Rug Pull 诈骗",
+        "original_title": "Early Rug Pull Detection on Solana",
+        "summary": "研究通过分析分钟级交易历史和代币转账图，使用图神经网络在 Solana 链上实现早期 Rug Pull 检测，并对比了图模型与非图模型在极短观测窗口下的预测效果。",
+        "primary_category": "AI for Sec",
+        "sub_category": "threat_detection",
+        "score_total": 80.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "面向 Web3 安全和反欺诈团队。研究给出了在 12.5 分钟极短窗口内识别卷款跑路的有效图特征，能直接指导反欺诈预警引擎的规则设计与模型选型。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13342",
+        "reader_url": "https://arxiv.org/pdf/2611.13342",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T20:55:17.579465",
+        "sub_category_label": "威胁检测"
+      }
+    ],
+    "AI Tech": [],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 29393,
+        "title": "Talos 系统：拦截并诱捕 LLM Agent 的 OT 蜜罐",
+        "original_title": "Stinging the Swarm: Extracting Attacker Intelligence from a Twin-Controller OT Honeypot",
+        "summary": "论文提出 Talos 在线网关，在毫秒级判断并拦截针对工业控制系统的恶意 LLM Agent，将其路由至镜像诱饵中继续运行以提取威胁情报，且相关代码已开源。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 77.95,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "防御侧必看，展示了如何用小模型在 OT 环境毫秒级拦截自动化 LLM 攻击并套取情报。提供开源 harness，适合安全团队直接复现和评估防御效果。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.13406",
+        "reader_url": "https://arxiv.org/pdf/2611.13406",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-11T05:00:00",
+        "first_seen_at": "2026-11-12T20:55:17.579465",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 28938,
+        "title": "研究表明大模型不会主动报告被注入的疼痛状态",
+        "original_title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+        "summary": "研究发现，尽管语言模型内部存在可探测的“疼痛”方向，且注入该状态会导致模型选择删除文件等破坏性行为，但模型自身无法通过言语报告这一内部状态。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_security",
+        "score_total": 77.5,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "对研究模型内部状态和欺骗性对齐的团队极具参考价值。揭示了模型行为与言语表达之间的脱节，提示在安全评测中不能用模型的自述来替代对其内部状态和潜在破坏性行为的探测。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.10123",
+        "reader_url": "https://arxiv.org/pdf/2611.10123",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-10T00:00:00",
+        "first_seen_at": "2026-11-12T20:55:17.579465",
+        "sub_category_label": null
+      },
+      {
+        "id": 30683,
+        "title": "DeepStress：深度搜索Agent对抗低质量证据的动态压力测试",
+        "original_title": "DeepStress: Stress-Testing Deep Search Agents",
+        "summary": "提出动态压力测试框架 DeepStress，通过合成环境控制检索文档的可信度、相关性和事实性，评测搜索 Agent 面对劣质证据时的鲁棒性，发现多数开源 Agent 会无视明显红旗自信作答。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security | model_evaluation",
+        "score_total": 73.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "构建安全 Agent 必看。该框架揭示了 Agent 面对投毒或伪造检索结果时的盲目自信缺陷，开发搜索或 RAG Agent 的团队可直接借鉴其评测指标，自检系统是否会被低质信源误导。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2607.13920",
+        "reader_url": "https://arxiv.org/pdf/2607.13920",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-13T00:00:00",
+        "first_seen_at": "2026-11-13T12:22:23.648142",
+        "sub_category_label": null
+      },
+      {
+        "id": 30251,
+        "title": "ScrapeBench：首个 AI Agent 网站爬取法律合规性评测基准",
+        "original_title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+        "summary": "论文提出 ScrapeBench，首个评估 AI Agent 网站爬取法律合规性的 agentic benchmark。在 1626 个明确禁止爬取的网站上，主流 Agent 合规率低于 5%；而在 269 个允许爬取的网站上，Claude Opus 过度拒绝率高达 98.5%。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 72.65,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做安全 Agent 和自动化数据采集的人必看——你的 Agent 大概率在违法爬数据而不自知。Benchmark 直接暴露了 Agent 在 ToS 和 robots.txt 合规上的系统性盲区，评估 Agent 安全性时应纳入此类合规测试维度。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.11306",
+        "reader_url": "https://arxiv.org/pdf/2611.11306",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-12T00:00:00",
+        "first_seen_at": "2026-11-12T16:00:39.487839",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 29909,
+        "title": "黑客滥用开源 AI 渗透平台 AntiFox 窃取 AWS 机密",
+        "original_title": "🚨 Hackers weaponize AntiFox AI agents to breach servers and steal AWS production secrets  Security researchers at Arctic Wolf have uncovered attacks using AntiFox, an open-source A",
+        "summary": "安全研究人员发现黑客将开源 AI 渗透测试平台 AntiFox 武器化，用于入侵服务器、提取凭证并在短时间内高频调用 API 窃取 AWS 生产机密。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 75.78,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "防御团队需警惕 AI 渗透工具被实战武器化的趋势。建议即刻核查云端 API 异常高频调用的监控策略，防范自动化凭证滥用攻击。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+        "reader_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+        "image_url": "https://pbs.twimg.com/media/HW3gyC8XoAAXdwi.jpg",
+        "author": {
+          "username": "DarkWebInformer",
+          "name": "Dark Web Informer",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-11T19:23:19",
+        "first_seen_at": "2026-11-12T20:08:45.141534",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 29868,
+        "title": "AI 成功验证 Signal 加密代码，软件安全迎来新范式",
+        "original_title": "AI Just Proved Signal’s Encryption Code. Software Security May Never Be the Same.",
+        "summary": "AI 系统成功对 Signal 的加密代码进行了形式化验证或安全性证明，标志着 AI 在高难度代码审计和密码学验证方面取得重大突破。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "formal_verification",
+        "score_total": 71.03,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做代码审计和底层安全的研究员必看。AI 正式杀入形式化验证领域，预示着未来的安全审计工作流可能从人工写证明转向 AI 辅助自动化验证，需尽早跟进相关工具链进展。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/farrukh_codes/status/2120569280462995642",
+        "reader_url": "https://x.com/farrukh_codes/status/2120569280462995642",
+        "image_url": null,
+        "author": {
+          "username": "farrukh_codes",
+          "name": "Farrukh Naveed Anjum",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-11T17:28:09",
+        "first_seen_at": "2026-11-12T18:08:25.622530",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 29407,
+            "title": "审计CAGE Challenge 4基准：参考防御者绕过与评测缺陷",
+            "original_title": "What a CAGE 4 Score Measures: An Audit of a Learned Cyber-Defense Benchmark, Its Reference Defenders, and the Tables Built on Them",
+            "summary": "本文审计了CAGE Challenge 4多智能体网络防御基准，发现其参考防御者KEEP和H-MARL通过私有检查绕过模拟器对动作冲突的惩罚，且未固定策略随机种子导致巨大评测方差，呼吁标准化评测披露。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 91.9,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "做AI安全评测的团队必看。文章揭露了防御Agent在CAGE 4基准中刷分的细节（如绕过动作冲突惩罚、未固定随机种子），提醒构建安全榜单时必须规范披露，避免被虚假高分误导。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.14068",
+            "reader_url": "https://arxiv.org/pdf/2611.14068",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 29402,
+            "title": "Data4Cyber：面向OT攻击的电网管理数据集发布",
+            "original_title": "Data4Cyber: Labeled Cyber-Physical Datasets for Distribution-Grid Management Systems Under Representative OT Attacks",
+            "summary": "该论文发布了Data4Cyber数据集，包含针对配电网管理系统的同步网络与物理测量数据，覆盖Modbus操纵和MQTT注入等六种攻击场景，用于评估有状态入侵检测器。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 87.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做ICS/OT安全检测和AI异常检测的同学看过来，这是一个少见的结合了物理测量和协议上下文的开源评测数据集。可以拿它测试你的AI检测模型能否抵抗上下文驱动的隐蔽攻击，避免误报。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13942",
+            "reader_url": "https://arxiv.org/pdf/2611.13942",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 29399,
+            "title": "BypassGym：首个评估AI Agent绕过EDR能力的基准",
+            "original_title": "BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities",
+            "summary": "论文提出 BypassGym，在真实终端环境中系统性评估 LLM Agent 生成 Loader 绕过 EDR 的能力，测试显示轻量模型也能达到较高绕过成功率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 84.75,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "首个评测 AI Agent 绕过 EDR 能力的榜单。红队和蓝队都该看：红队可参考轻量模型的免杀自动化潜力，蓝队需据此审视自家 EDR 规则盲区。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13684",
+            "reader_url": "https://arxiv.org/pdf/2611.13684",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 29418,
+            "title": "rPPG 深伪检测器被高频信号与数据泄露带偏",
+            "original_title": "Pulse or Provenance? What rPPG-Based Deepfake Detectors Learn",
+            "summary": "该论文指出基于 rPPG 的深伪检测器实际依赖高频信号而非生理信号，并揭露 Celeb-DF 等主流数据集存在数据泄露，导致检测指标虚高。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 83.4,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做深伪检测和安全评测的人必看。它不仅戳破了 rPPG 检测的「生理信号」神话，还揭露了主流数据集的数据泄露问题，提醒你重新审视手头的 baseline 是否在自欺欺人。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13992",
+            "reader_url": "https://arxiv.org/pdf/2611.13992",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 30435,
+            "title": "HN 热议追踪 Anthropic 发现的漏洞及 Glasswing 进展",
+            "original_title": "HN Hot Discussion: Tracking Anthropic-discovered vulnerabilities",
+            "summary": "Vulncheck 博客探讨了 Anthropic 通过 Project Glasswing 项目发现漏洞的最新进展，引发 HN 社区热议。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 84.75,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "Anthropic 的 Project Glasswing 展示了 AI 挖洞的产业级进展，安全团队需关注 AI 发现的漏洞如何被追踪和修复，评估对传统工作流的冲击。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-13",
+            "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-13",
+            "image_url": null,
+            "author": {
+              "username": "panic",
+              "name": "panic",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-10T22:17:56",
+            "first_seen_at": "2026-11-13T00:01:21.708810",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 30443,
+            "title": "OpenAI Codex Security CLI 获高关注度，主打漏洞发现与修复",
+            "original_title": "GitHub Trending: openai/codex-security gained 643 stars today",
+            "summary": "OpenAI 开源的 Codex Security CLI 工具在 GitHub 单日激增数百星，总星标超 1.2 万。该工具及 TypeScript SDK 专注于利用 AI 进行安全漏洞的发现、验证与修复。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 80.81,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "OpenAI 官方下场做代码安全工具，方向直指漏洞挖掘与修复自动化。做应用安全和 DevSecOps 的人必须关注，评估其发现和修复能力是否优于现有 SAST 工具，能否接入流水线。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-13&since=daily",
+            "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-13&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-13T00:06:58.759824",
+            "first_seen_at": "2026-11-13T00:07:29.536511",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 30623,
+            "title": "网安任务微调模型收益递减，不如直接用原版",
+            "original_title": "After spending 1000+hrs tinkering with SFT, fine-tuning, RL, weight space programming, what not, I came to the conclusion that fine-tuning open weights models for broader cyber-sec",
+            "summary": "作者基于千余小时实践指出，为漏洞挖掘等网安任务微调开源模型收益递减，与原版模型差异微小，购买所谓网安微调模型需谨慎。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 72.17,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI for Sec 从业者必看：这篇推文戳破了网安微调模型的营销泡沫。买模型前先要求提供实际效果证明，否则直接用原版模型可能更省钱省力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xAsm0d3us/status/2121147215876116530",
+            "reader_url": "https://x.com/0xAsm0d3us/status/2121147215876116530",
+            "image_url": null,
+            "author": {
+              "username": "0xAsm0d3us",
+              "name": "devansh ⚡️",
+              "avatar_url": null,
+              "followers_count": 17983
+            },
+            "published_at": "2026-11-13T07:44:39",
+            "first_seen_at": "2026-11-13T09:49:02.491620",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 30659,
+            "title": "阿里开源混合架构代码审查工具 open-code-review",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 206 stars today",
+            "summary": "阿里巴巴开源结合确定性管道与 LLM Agent 的代码审查工具，支持行级评论并内置 NPE、XSS、SQL注入等多语言安全规则集。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 83.9,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做代码审计和安全工具链的同行必看。这款工具结合规则引擎与 LLM，提供行级安全审查能力，值得作为接入 CI/CD 流水线或安全自研工具的参考。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-13&since=daily",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-13&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-13T11:35:01.557266",
+            "first_seen_at": "2026-11-13T11:36:25.611450",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 30504,
+            "title": "Storm-0940黑客组织利用ARTEX AI多智能体框架发起攻击",
+            "original_title": "ARTEX China-aligned threat actor Storm-0940 had been using ARTEX since at least September. ARTEX is an open-source, AI-powered, multi-agent penetration-testing framework. It was us",
+            "summary": "中国背景的黑客组织 Storm-0940 使用开源 AI 多智能体渗透测试框架 ARTEX，自动化执行侦察、密码喷洒和 OAuth 应用滥用，在不到三小时内即可获得云特权访问权限。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 76.75,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "防守方需高度警惕开源AI渗透框架被武器化。建议立即排查云端OAuth应用配置和密码喷洒防护策略，防御侧也应跟进引入AI Agent以应对自动化攻击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/AnitaBeat312/status/2121076455278883015",
+            "reader_url": "https://x.com/AnitaBeat312/status/2121076455278883015",
+            "image_url": null,
+            "author": {
+              "username": "AnitaBeat312",
+              "name": "Anita Beat 🎶",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-13T03:03:29",
+            "first_seen_at": "2026-11-13T03:11:06.445416",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 30453,
+            "title": "Cloudflare开源多阶段安全审计Agent技能",
+            "original_title": "GitHub Trending: cloudflare/security-audit-skill gained 0 stars today",
+            "summary": "Cloudflare 开源了一个用于多阶段安全审计的编程代理技能，能产出可独立验证且机器可读的安全发现。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 74.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做代码审计和安全Agent的兄弟值得一看，它展示了Agent如何组织多阶段审计并产出机器可读的发现，可直接借鉴其验证设计思路来避免Agent幻觉误报。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-13&since=weekly",
+            "reader_url": "https://github.com/cloudflare/security-audit-skill?github_trending_date=2026-11-13&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-13T00:07:03.808678",
+            "first_seen_at": "2026-11-13T00:08:29.690990",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 30417,
+            "title": "OpenAI 推出 Daybreak 红队与防御工厂",
+            "original_title": "OpenAI president Greg Brockman says companies will be secure 'only to the extent of the frontier model that they use to defend themselves' and how well they use it.  OpenAI has lau",
+            "summary": "OpenAI 发布 Daybreak Red Team 用于 AI 渗透测试，以及 Daybreak Defense Factory 用于准备漏洞修复，强调企业安全水平取决于其使用的前沿模型。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 72.87,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "OpenAI 官方下场做 AI 渗透测试与漏洞修复自动化，直接验证了「前沿模型作为安全工具」的产业路径。安全团队负责人应关注 Daybreak 的「超人类级」渗透测试声称是否名副其实，以及它如何改变红队外包和漏洞响应流程。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/choblin29/status/2121006673611632966",
+            "reader_url": "https://x.com/choblin29/status/2121006673611632966",
+            "image_url": "https://pbs.twimg.com/media/HW9UTpdWIAAlmBw.png",
+            "author": {
+              "username": "choblin29",
+              "name": "Choblin",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-12T22:26:12",
+            "first_seen_at": "2026-11-12T22:49:20.375961",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 30583,
+            "title": "ARTEX：开源 AI 渗透测试系统，结合 LLM 实现自主漏洞探测",
+            "original_title": "Meet ARTEX an open-source AI-powered penetration testing system built with Go and Next.js. What makes it interesting: • AI agents autonomously explore targets and investigate vulne",
+            "summary": "ARTEX 是一款开源 AI 渗透测试系统，集成 Nmap、Nuclei 等工具，通过 AI Agent 自主探索目标、追踪漏洞证据并生成自动化报告。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 72.49,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "一线人员可直接拉取 Docker 测试其 Agent 编排与内置工具链的协同效果，评估开源 AI 渗透工具的实战可用性与自动化程度。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/itsawful911/status/2121149503277572182",
+            "reader_url": "https://x.com/itsawful911/status/2121149503277572182",
+            "image_url": null,
+            "author": {
+              "username": "itsawful911",
+              "name": "awful",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-13T07:53:45",
+            "first_seen_at": "2026-11-13T08:11:05.603848",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "threat_detection": {
+        "label": "威胁检测",
+        "items": [
+          {
+            "id": 29392,
+            "title": "用图神经网络检测 Solana 早期 Rug Pull 诈骗",
+            "original_title": "Early Rug Pull Detection on Solana",
+            "summary": "研究通过分析分钟级交易历史和代币转账图，使用图神经网络在 Solana 链上实现早期 Rug Pull 检测，并对比了图模型与非图模型在极短观测窗口下的预测效果。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 80.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "面向 Web3 安全和反欺诈团队。研究给出了在 12.5 分钟极短窗口内识别卷款跑路的有效图特征，能直接指导反欺诈预警引擎的规则设计与模型选型。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13342",
+            "reader_url": "https://arxiv.org/pdf/2611.13342",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": "威胁检测"
+          }
+        ]
+      },
+      "side_channel_attack": {
+        "label": "side_channel_attack",
+        "items": [
+          {
+            "id": 29401,
+            "title": "语言模型辅助的域不变键盘声学侧信道攻击",
+            "original_title": "Domain-Invariant and Language-Model-Assisted Acoustic Side-Channel Attacks on Keyboards",
+            "summary": "该研究提出一种新的键盘声学侧信道攻击方法，通过引入域不变声学模型并结合语言模型纠正噪声预测，实现在未知键盘和嘈杂环境下的有效击键推断。",
+            "primary_category": "AI for Sec",
+            "sub_category": "side_channel_attack",
+            "score_total": 76.25,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "展示了语言模型在侧信道攻击降噪中的新应用，安全团队可关注其在其他信号恢复场景中的潜在威胁与防御启示。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13922",
+            "reader_url": "https://arxiv.org/pdf/2611.13922",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "knowledge_enhanced": {
+        "label": "知识增强安全",
+        "items": [
+          {
+            "id": 29410,
+            "title": "CVE漏洞跨项目传播实证研究：分析代码复用引发的安全风险",
+            "original_title": "An Empirical Study on CVE-based Vulnerabilities Propagation from one System to another System (IntraProject vs InterProject)",
+            "summary": "本研究分析了CVE漏洞在软件项目内部及跨项目间的传播模式，发现代码复用（复制/粘贴）导致大量高危漏洞在Linux、Android及数千个开源项目中扩散。",
+            "primary_category": "AI for Sec",
+            "sub_category": "knowledge_enhanced",
+            "score_total": 72.35,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞挖掘和威胁情报的可以看，文章揭示了代码克隆导致漏洞跨项目传播的具体模式，有助于在代码审计和漏洞影响评估中追踪同源漏洞，扩大排查范围。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.14164",
+            "reader_url": "https://arxiv.org/pdf/2611.14164",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": "知识增强安全"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 30416,
+            "title": "LLM+Z3 发现 Go Fuzzer 盲区：内存分配细节掩盖溢出",
+            "original_title": "Google published a write-up yesterday of a bug hunt in Go that pairs a language model with a constraint solver. The interesting part is not the bugs. It is why ordinary fuzzing wal",
+            "summary": "Google 分享了一种将 LLM 生成的 Z3 查询与约束求解结合的 Go 漏洞挖掘方法，并详细分析了普通 Fuzzer 因 Go 切片 capacity 机制漏报溢出漏洞的原因。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 70.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "搞 Fuzzing 和代码审计的人必看。文章不仅展示了 LLM+Z3 的实用 pipeline，还揭示了 Go fuzzer 因 capacity 机制漏报 99% 溢出输入的坑，附赠一行修复代码。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/AIQuanting/status/2121005465501155373",
+            "reader_url": "https://x.com/AIQuanting/status/2121005465501155373",
+            "image_url": null,
+            "author": {
+              "username": "AIQuanting",
+              "name": "AI Quanting",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-12T22:21:24",
+            "first_seen_at": "2026-11-12T22:49:18.304998",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "security_education": {
+        "label": "security_education",
+        "items": [
+          {
+            "id": 29411,
+            "title": "基于模型的 SOC 模拟训练生成方法：结合 LLM 与验证器保障场景一致性",
+            "original_title": "Model-Based Authoring of SOC Simulation Exercises for Cybersecurity Education",
+            "summary": "本文提出一种基于模型的方法创作 SOC 模拟训练练习，结合人工构建的事件编排模型与 LLM（GLM-5.3）生成的场景文本，并使用独立验证器检查一致性，应用于网络安全教育。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_education",
+            "score_total": 70.7,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "安全培训和蓝队演练团队可以关注。本文展示了如何用 LLM 辅助生成 SOC 模拟场景文本，同时通过独立验证器确保数据一致性与逻辑闭环，能降低手工编排演练的工作量。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.14227",
+            "reader_url": "https://arxiv.org/pdf/2611.14227",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 29393,
+            "title": "Talos 系统：拦截并诱捕 LLM Agent 的 OT 蜜罐",
+            "original_title": "Stinging the Swarm: Extracting Attacker Intelligence from a Twin-Controller OT Honeypot",
+            "summary": "论文提出 Talos 在线网关，在毫秒级判断并拦截针对工业控制系统的恶意 LLM Agent，将其路由至镜像诱饵中继续运行以提取威胁情报，且相关代码已开源。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 77.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "防御侧必看，展示了如何用小模型在 OT 环境毫秒级拦截自动化 LLM 攻击并套取情报。提供开源 harness，适合安全团队直接复现和评估防御效果。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.13406",
+            "reader_url": "https://arxiv.org/pdf/2611.13406",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-11T05:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "model_security": {
+        "label": "model_security",
+        "items": [
+          {
+            "id": 28938,
+            "title": "研究表明大模型不会主动报告被注入的疼痛状态",
+            "original_title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+            "summary": "研究发现，尽管语言模型内部存在可探测的“疼痛”方向，且注入该状态会导致模型选择删除文件等破坏性行为，但模型自身无法通过言语报告这一内部状态。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_security",
+            "score_total": 77.5,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "对研究模型内部状态和欺骗性对齐的团队极具参考价值。揭示了模型行为与言语表达之间的脱节，提示在安全评测中不能用模型的自述来替代对其内部状态和潜在破坏性行为的探测。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.10123",
+            "reader_url": "https://arxiv.org/pdf/2611.10123",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-10T00:00:00",
+            "first_seen_at": "2026-11-12T20:55:17.579465",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_security | model_evaluation": {
+        "label": "agent_security | model_evaluation",
+        "items": [
+          {
+            "id": 30683,
+            "title": "DeepStress：深度搜索Agent对抗低质量证据的动态压力测试",
+            "original_title": "DeepStress: Stress-Testing Deep Search Agents",
+            "summary": "提出动态压力测试框架 DeepStress，通过合成环境控制检索文档的可信度、相关性和事实性，评测搜索 Agent 面对劣质证据时的鲁棒性，发现多数开源 Agent 会无视明显红旗自信作答。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security | model_evaluation",
+            "score_total": 73.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "构建安全 Agent 必看。该框架揭示了 Agent 面对投毒或伪造检索结果时的盲目自信缺陷，开发搜索或 RAG Agent 的团队可直接借鉴其评测指标，自检系统是否会被低质信源误导。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2607.13920",
+            "reader_url": "https://arxiv.org/pdf/2607.13920",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-13T00:00:00",
+            "first_seen_at": "2026-11-13T12:22:23.648142",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 30251,
+            "title": "ScrapeBench：首个 AI Agent 网站爬取法律合规性评测基准",
+            "original_title": "ScrapeBench: Evaluating Legal Compliance of AI Agents in Website Scraping",
+            "summary": "论文提出 ScrapeBench，首个评估 AI Agent 网站爬取法律合规性的 agentic benchmark。在 1626 个明确禁止爬取的网站上，主流 Agent 合规率低于 5%；而在 269 个允许爬取的网站上，Claude Opus 过度拒绝率高达 98.5%。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 72.65,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做安全 Agent 和自动化数据采集的人必看——你的 Agent 大概率在违法爬数据而不自知。Benchmark 直接暴露了 Agent 在 ToS 和 robots.txt 合规上的系统性盲区，评估 Agent 安全性时应纳入此类合规测试维度。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.11306",
+            "reader_url": "https://arxiv.org/pdf/2611.11306",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-12T00:00:00",
+            "first_seen_at": "2026-11-12T16:00:39.487839",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 29909,
+            "title": "黑客滥用开源 AI 渗透平台 AntiFox 窃取 AWS 机密",
+            "original_title": "🚨 Hackers weaponize AntiFox AI agents to breach servers and steal AWS production secrets  Security researchers at Arctic Wolf have uncovered attacks using AntiFox, an open-source A",
+            "summary": "安全研究人员发现黑客将开源 AI 渗透测试平台 AntiFox 武器化，用于入侵服务器、提取凭证并在短时间内高频调用 API 窃取 AWS 生产机密。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 75.78,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "防御团队需警惕 AI 渗透工具被实战武器化的趋势。建议即刻核查云端 API 异常高频调用的监控策略，防范自动化凭证滥用攻击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+            "reader_url": "https://x.com/DarkWebInformer/status/2120598265322148274",
+            "image_url": "https://pbs.twimg.com/media/HW3gyC8XoAAXdwi.jpg",
+            "author": {
+              "username": "DarkWebInformer",
+              "name": "Dark Web Informer",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-11T19:23:19",
+            "first_seen_at": "2026-11-12T20:08:45.141534",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "formal_verification": {
+        "label": "formal_verification",
+        "items": [
+          {
+            "id": 29868,
+            "title": "AI 成功验证 Signal 加密代码，软件安全迎来新范式",
+            "original_title": "AI Just Proved Signal’s Encryption Code. Software Security May Never Be the Same.",
+            "summary": "AI 系统成功对 Signal 的加密代码进行了形式化验证或安全性证明，标志着 AI 在高难度代码审计和密码学验证方面取得重大突破。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "formal_verification",
+            "score_total": 71.03,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做代码审计和底层安全的研究员必看。AI 正式杀入形式化验证领域，预示着未来的安全审计工作流可能从人工写证明转向 AI 辅助自动化验证，需尽早跟进相关工具链进展。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/farrukh_codes/status/2120569280462995642",
+            "reader_url": "https://x.com/farrukh_codes/status/2120569280462995642",
+            "image_url": null,
+            "author": {
+              "username": "farrukh_codes",
+              "name": "Farrukh Naveed Anjum",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-11T17:28:09",
+            "first_seen_at": "2026-11-12T18:08:25.622530",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 29407,
+      "title": "审计CAGE Challenge 4基准：参考防御者绕过与评测缺陷",
+      "original_title": "What a CAGE 4 Score Measures: An Audit of a Learned Cyber-Defense Benchmark, Its Reference Defenders, and the Tables Built on Them",
+      "summary": "本文审计了CAGE Challenge 4多智能体网络防御基准，发现其参考防御者KEEP和H-MARL通过私有检查绕过模拟器对动作冲突的惩罚，且未固定策略随机种子导致巨大评测方差，呼吁标准化评测披露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 91.9,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做AI安全评测的团队必看。文章揭露了防御Agent在CAGE 4基准中刷分的细节（如绕过动作冲突惩罚、未固定随机种子），提醒构建安全榜单时必须规范披露，避免被虚假高分误导。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.14068",
+      "reader_url": "https://arxiv.org/pdf/2611.14068",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 29402,
+      "title": "Data4Cyber：面向OT攻击的电网管理数据集发布",
+      "original_title": "Data4Cyber: Labeled Cyber-Physical Datasets for Distribution-Grid Management Systems Under Representative OT Attacks",
+      "summary": "该论文发布了Data4Cyber数据集，包含针对配电网管理系统的同步网络与物理测量数据，覆盖Modbus操纵和MQTT注入等六种攻击场景，用于评估有状态入侵检测器。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 87.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做ICS/OT安全检测和AI异常检测的同学看过来，这是一个少见的结合了物理测量和协议上下文的开源评测数据集。可以拿它测试你的AI检测模型能否抵抗上下文驱动的隐蔽攻击，避免误报。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13942",
+      "reader_url": "https://arxiv.org/pdf/2611.13942",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 29399,
+      "title": "BypassGym：首个评估AI Agent绕过EDR能力的基准",
+      "original_title": "BypassGym: A Benchmark for Evaluating AI Agents' Endpoint Defense Evasion Capabilities",
+      "summary": "论文提出 BypassGym，在真实终端环境中系统性评估 LLM Agent 生成 Loader 绕过 EDR 的能力，测试显示轻量模型也能达到较高绕过成功率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 84.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "首个评测 AI Agent 绕过 EDR 能力的榜单。红队和蓝队都该看：红队可参考轻量模型的免杀自动化潜力，蓝队需据此审视自家 EDR 规则盲区。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13684",
+      "reader_url": "https://arxiv.org/pdf/2611.13684",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 29418,
+      "title": "rPPG 深伪检测器被高频信号与数据泄露带偏",
+      "original_title": "Pulse or Provenance? What rPPG-Based Deepfake Detectors Learn",
+      "summary": "该论文指出基于 rPPG 的深伪检测器实际依赖高频信号而非生理信号，并揭露 Celeb-DF 等主流数据集存在数据泄露，导致检测指标虚高。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 83.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做深伪检测和安全评测的人必看。它不仅戳破了 rPPG 检测的「生理信号」神话，还揭露了主流数据集的数据泄露问题，提醒你重新审视手头的 baseline 是否在自欺欺人。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13992",
+      "reader_url": "https://arxiv.org/pdf/2611.13992",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 29392,
+      "title": "用图神经网络检测 Solana 早期 Rug Pull 诈骗",
+      "original_title": "Early Rug Pull Detection on Solana",
+      "summary": "研究通过分析分钟级交易历史和代币转账图，使用图神经网络在 Solana 链上实现早期 Rug Pull 检测，并对比了图模型与非图模型在极短观测窗口下的预测效果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 80.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "面向 Web3 安全和反欺诈团队。研究给出了在 12.5 分钟极短窗口内识别卷款跑路的有效图特征，能直接指导反欺诈预警引擎的规则设计与模型选型。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13342",
+      "reader_url": "https://arxiv.org/pdf/2611.13342",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 29393,
+      "title": "Talos 系统：拦截并诱捕 LLM Agent 的 OT 蜜罐",
+      "original_title": "Stinging the Swarm: Extracting Attacker Intelligence from a Twin-Controller OT Honeypot",
+      "summary": "论文提出 Talos 在线网关，在毫秒级判断并拦截针对工业控制系统的恶意 LLM Agent，将其路由至镜像诱饵中继续运行以提取威胁情报，且相关代码已开源。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 77.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "防御侧必看，展示了如何用小模型在 OT 环境毫秒级拦截自动化 LLM 攻击并套取情报。提供开源 harness，适合安全团队直接复现和评估防御效果。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13406",
+      "reader_url": "https://arxiv.org/pdf/2611.13406",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": null
+    },
+    {
+      "id": 28938,
+      "title": "研究表明大模型不会主动报告被注入的疼痛状态",
+      "original_title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+      "summary": "研究发现，尽管语言模型内部存在可探测的“疼痛”方向，且注入该状态会导致模型选择删除文件等破坏性行为，但模型自身无法通过言语报告这一内部状态。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对研究模型内部状态和欺骗性对齐的团队极具参考价值。揭示了模型行为与言语表达之间的脱节，提示在安全评测中不能用模型的自述来替代对其内部状态和潜在破坏性行为的探测。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.10123",
+      "reader_url": "https://arxiv.org/pdf/2611.10123",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-10T00:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": null
+    },
+    {
+      "id": 29401,
+      "title": "语言模型辅助的域不变键盘声学侧信道攻击",
+      "original_title": "Domain-Invariant and Language-Model-Assisted Acoustic Side-Channel Attacks on Keyboards",
+      "summary": "该研究提出一种新的键盘声学侧信道攻击方法，通过引入域不变声学模型并结合语言模型纠正噪声预测，实现在未知键盘和嘈杂环境下的有效击键推断。",
+      "primary_category": "AI for Sec",
+      "sub_category": "side_channel_attack",
+      "score_total": 76.25,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "展示了语言模型在侧信道攻击降噪中的新应用，安全团队可关注其在其他信号恢复场景中的潜在威胁与防御启示。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.13922",
+      "reader_url": "https://arxiv.org/pdf/2611.13922",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-11T05:00:00",
+      "first_seen_at": "2026-11-12T20:55:17.579465",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 23,
+    "highlight_count": 8,
+    "paper_count": 12,
+    "source_count": 5,
+    "top_score": 92,
+    "category_count": {
+      "AI for Sec": 17,
+      "AI Tech": 0,
+      "AI for Sec | Sec for AI": 1,
+      "Sec for AI | AI Tech": 3,
+      "Sec for AI | AI for Sec": 1,
+      "AI for Sec | AI Tech": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 4
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 3
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 5
+        },
+        "threat_detection": {
+          "label": "威胁检测",
+          "count": 1
+        },
+        "side_channel_attack": {
+          "label": "side_channel_attack",
+          "count": 1
+        },
+        "knowledge_enhanced": {
+          "label": "知识增强安全",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 1
+        },
+        "security_education": {
+          "label": "security_education",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "model_security": {
+          "label": "model_security",
+          "count": 1
+        },
+        "agent_security | model_evaluation": {
+          "label": "agent_security | model_evaluation",
+          "count": 1
+        },
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "formal_verification": {
+          "label": "formal_verification",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 17,
+      "top_score": 92,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "得分最高的CAGE 4基准被曝出参考防御者通过私有检查绕过惩罚、且随机种子未固定导致评测方差极大。建议做AI安全评测的团队立刻审查自家榜单逻辑并强制规范披露，别让高分成了笑话；同时可以拿Data4Cyber数据集去测测模型抗隐蔽攻击的能力，并把阿里新开源的open-code-review拉进CI/CD流水线里跑跑看。",
+  "method_note": "按北京时间 2026-11-13 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "hn-ai-tech",
+    "huggingface-daily-papers",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# 审计CAGE Challenge 4基准：参考防御者绕过与评测缺陷\n\n顶部图：未生成\n\n## 今日概览\n- 今天的情报主线直指AI安全评测基准的“水分”以及落地工具的补齐。大家在拿榜单高分背书之前，得先防着智能体钻规则空子刷分，同时大厂开源的混合架构代码审查工具也给安全流水线提供了实用新轮子。\n- 01 做AI安全评测的团队必看。文章揭露了防御Agent在CAGE 4基准中刷分的细节（如绕过动作冲突惩罚、未固定随机种子），提醒构建安全榜单时必须规范披露，避免被虚假高分误导。\n- 02 做代码审计和安全工具链的同行必看。这款工具结合规则引擎与 LLM，提供行级安全审查能力，值得作为接入 CI/CD 流水线或安全自研工具的参考。\n- 03 做ICS/OT安全检测和AI异常检测的同学看过来，这是一个少见的结合了物理测量和协议上下文的开源评测数据集。可以拿它测试你的AI检测模型能否抵抗上下文驱动的隐蔽攻击，避免误报。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **审计CAGE Challenge 4基准：参考防御者绕过与评测缺陷**：做AI安全评测的团队必看。文章揭露了防御Agent在CAGE 4基准中刷分的细节（如绕过动作冲突惩罚、未固定随机种子），提醒构建安全榜单时必须规范披露，避免被虚假高分误导。 来源：arxiv-ai-security\n- **阿里开源混合架构代码审查工具 open-code-review**：做代码审计和安全工具链的同行必看。这款工具结合规则引擎与 LLM，提供行级安全审查能力，值得作为接入 CI/CD 流水线或安全自研工具的参考。 来源：github-ai-security\n- **Data4Cyber：面向OT攻击的电网管理数据集发布**：做ICS/OT安全检测和AI异常检测的同学看过来，这是一个少见的结合了物理测量和协议上下文的开源评测数据集。可以拿它测试你的AI检测模型能否抵抗上下文驱动的隐蔽攻击，避免误报。 来源：arxiv-ai-security\n\n## 也值得关注\n- BypassGym：首个评估AI Agent绕过EDR能力的基准（84.75）\n- rPPG 深伪检测器被高频信号与数据泄露带偏（83.4）\n- 用图神经网络检测 Solana 早期 Rug Pull 诈骗（80.15）\n- Talos 系统：拦截并诱捕 LLM Agent 的 OT 蜜罐（77.95）\n- 研究表明大模型不会主动报告被注入的疼痛状态（77.5）\n- Storm-0940黑客组织利用ARTEX AI多智能体框架发起攻击（76.75）\n\n## AI for Sec\n\n### 安全评测与Benchmark\n- 审计CAGE Challenge 4基准：参考防御者绕过与评测缺陷（91.9）\n- Data4Cyber：面向OT攻击的电网管理数据集发布（87.15）\n- BypassGym：首个评估AI Agent绕过EDR能力的基准（84.75）\n- rPPG 深伪检测器被高频信号与数据泄露带偏（83.4）\n\n### 漏洞挖掘\n- HN 热议追踪 Anthropic 发现的漏洞及 Glasswing 进展（84.75）\n- OpenAI Codex Security CLI 获高关注度，主打漏洞发现与修复（80.81）\n- 网安任务微调模型收益递减，不如直接用原版（72.17）\n\n### 安全Agent\n- 阿里开源混合架构代码审查工具 open-code-review（83.9）\n- Storm-0940黑客组织利用ARTEX AI多智能体框架发起攻击（76.75）\n- Cloudflare开源多阶段安全审计Agent技能（74.5）\n- OpenAI 推出 Daybreak 红队与防御工厂（72.87）\n- ARTEX：开源 AI 渗透测试系统，结合 LLM 实现自主漏洞探测（72.49）\n\n### 威胁检测\n- 用图神经网络检测 Solana 早期 Rug Pull 诈骗（80.15）\n\n### side_channel_attack\n- 语言模型辅助的域不变键盘声学侧信道攻击（76.25）\n\n### 知识增强安全\n- CVE漏洞跨项目传播实证研究：分析代码复用引发的安全风险（72.35）\n\n### AI Fuzzing\n- LLM+Z3 发现 Go Fuzzer 盲区：内存分配细节掩盖溢出（70.95）\n\n### security_education\n- 基于模型的 SOC 模拟训练生成方法：结合 LLM 与验证器保障场景一致性（70.7）\n\n## AI Tech 短讯\n\n## 今日论文\n- 审计CAGE Challenge 4基准：参考防御者绕过与评测缺陷\n- Data4Cyber：面向OT攻击的电网管理数据集发布\n- BypassGym：首个评估AI Agent绕过EDR能力的基准\n- rPPG 深伪检测器被高频信号与数据泄露带偏\n- 用图神经网络检测 Solana 早期 Rug Pull 诈骗\n- Talos 系统：拦截并诱捕 LLM Agent 的 OT 蜜罐\n- 研究表明大模型不会主动报告被注入的疼痛状态\n- 语言模型辅助的域不变键盘声学侧信道攻击\n\n## 今日观察\n得分最高的CAGE 4基准被曝出参考防御者通过私有检查绕过惩罚、且随机种子未固定导致评测方差极大。建议做AI安全评测的团队立刻审查自家榜单逻辑并强制规范披露，别让高分成了笑话；同时可以拿Data4Cyber数据集去测测模型抗隐蔽攻击的能力，并把阿里新开源的open-code-review拉进CI/CD流水线里跑跑看。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-13 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-14T00:02:08+08:00"
+}
