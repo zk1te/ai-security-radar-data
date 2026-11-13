@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T05:10:10+08:00",
+  "updated_at": "2026-11-14T05:40:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -170,31 +170,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 30616,
-      "title": "Claude BugHunter：AI 驱动安全研究工具包开源",
-      "original_title": "🛡️ CLAUDE BUGHUNTER — AI-POWERED SECURITY RESEARCH TOOLKIT  Claude BugHunter is an open-source collection of AI agent skills designed for authorized security assessments and vulner",
-      "summary": "Claude BugHunter 是一个开源 AI 安全研究技能集，提供 83 个专用技能和 Burp Suite 集成，用于侦察、漏洞验证和安全报告自动化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.23,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者必看！这套开源工具直接提供了大量现成的安全 Agent 技能和攻击报告模式，能快速落地到现有的漏洞挖掘和自动化渗透流程中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Anastasis_King/status/2121163262737715632",
-      "reader_url": "https://x.com/Anastasis_King/status/2121163262737715632",
-      "image_url": "https://pbs.twimg.com/media/HW_ivuzWAAAh0Y7.jpg",
-      "author": {
-        "username": "Anastasis_King",
-        "name": "Cyberkid",
-        "avatar_url": null,
-        "followers_count": 11667
-      },
-      "published_at": "2026-11-13T08:48:25",
-      "first_seen_at": "2026-11-13T09:16:28.694410",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 30681,
       "title": "具身自我改进中的验证器过拟合：重新思考评测标准暴露",
       "original_title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
@@ -238,6 +213,31 @@
       "published_at": "2026-11-13T11:02:31",
       "first_seen_at": "2026-11-13T11:29:45.455406",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 30768,
+      "title": "OpenAI推出Daybreak网络安全产品线",
+      "original_title": "Greg Brockman's Nov 12, 2026 post says \"Announcing two new cyber products\", then names Daybreak Defense Factory and Daybreak Red Team.  The post, timestamped 22:16:31 UTC, also say",
+      "summary": "OpenAI宣布推出Daybreak Defense Factory和Daybreak Red Team两款网络产品，分别用于修复安全积压和Web应用AI渗透测试，并更新了Codex Security 0.10.0版本。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.75,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "OpenAI官方下场推AI渗透测试与自动化修复工具，标志大厂安全Agent走向产品化。安全团队应重点关注其Web应用测试能力及修复边界，评估能否提升现有工作流效率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DeepWater_SI/status/2121276905567478192",
+      "reader_url": "https://x.com/DeepWater_SI/status/2121276905567478192",
+      "image_url": null,
+      "author": {
+        "username": "DeepWater_SI",
+        "name": "DeepWater",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T16:20:00",
+      "first_seen_at": "2026-11-13T16:39:34.351017",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
