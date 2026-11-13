@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T04:09:36+08:00",
+  "updated_at": "2026-11-14T04:39:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -70,31 +70,6 @@
       "sub_category_label": null
     },
     {
-      "id": 30583,
-      "title": "ARTEX：开源 AI 渗透测试系统，结合 LLM 实现自主漏洞探测",
-      "original_title": "Meet ARTEX an open-source AI-powered penetration testing system built with Go and Next.js. What makes it interesting: • AI agents autonomously explore targets and investigate vulne",
-      "summary": "ARTEX 是一款开源 AI 渗透测试系统，集成 Nmap、Nuclei 等工具，通过 AI Agent 自主探索目标、追踪漏洞证据并生成自动化报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.49,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "一线人员可直接拉取 Docker 测试其 Agent 编排与内置工具链的协同效果，评估开源 AI 渗透工具的实战可用性与自动化程度。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/itsawful911/status/2121149503277572182",
-      "reader_url": "https://x.com/itsawful911/status/2121149503277572182",
-      "image_url": null,
-      "author": {
-        "username": "itsawful911",
-        "name": "awful",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T07:53:45",
-      "first_seen_at": "2026-11-13T08:11:05.603848",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 30623,
       "title": "网安任务微调模型收益递减，不如直接用原版",
       "original_title": "After spending 1000+hrs tinkering with SFT, fine-tuning, RL, weight space programming, what not, I came to the conclusion that fine-tuning open weights models for broader cyber-sec",
@@ -118,31 +93,6 @@
       "published_at": "2026-11-13T07:44:39",
       "first_seen_at": "2026-11-13T09:49:02.491620",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 30582,
-      "title": "在野首例：攻击者用开源AI渗透框架Cairn自动化入侵19个组织",
-      "original_title": "#threatreport #LowCompleteness Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors | 12-11-2026 Source: https://t.co/DfB9htD0i8 Key details below",
-      "summary": "追踪为CL-STA-1238的攻击者使用开源AI渗透测试框架Cairn，配合智谱GLM和DeepSeek模型，对半导体、国防及公民社会等至少19个组织发起25次自动化入侵，成功渗透10个组织并窃取大量凭证与百万级个人数据。攻击者通过中文提示词绕过模型安全拒绝机制，利用事实-意图图谱实现自主分阶段规划与执行。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 70.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是首个公开的在野利用AI自主渗透框架发起实战攻击的案例，Cairn的武器化直接证明AI for Sec工具的双刃剑属性已变为现实威胁。红蓝团队都该看：蓝队需评估自身对自动化多目标并行攻击的检测能力，红队可研究其事实-意图图谱编排思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2121147029170634926",
-      "reader_url": "https://x.com/rst_cloud/status/2121147029170634926",
-      "image_url": "https://pbs.twimg.com/media/HW_T-1DXwAAHIyl.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T07:43:55",
-      "first_seen_at": "2026-11-13T08:10:41.865162",
-      "sub_category_label": null
     },
     {
       "id": 30835,
@@ -243,6 +193,51 @@
       "published_at": "2026-11-13T08:37:08",
       "first_seen_at": "2026-11-13T08:44:38.330675",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30616,
+      "title": "Claude BugHunter：AI 驱动安全研究工具包开源",
+      "original_title": "🛡️ CLAUDE BUGHUNTER — AI-POWERED SECURITY RESEARCH TOOLKIT  Claude BugHunter is an open-source collection of AI agent skills designed for authorized security assessments and vulner",
+      "summary": "Claude BugHunter 是一个开源 AI 安全研究技能集，提供 83 个专用技能和 Burp Suite 集成，用于侦察、漏洞验证和安全报告自动化。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.23,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec 从业者必看！这套开源工具直接提供了大量现成的安全 Agent 技能和攻击报告模式，能快速落地到现有的漏洞挖掘和自动化渗透流程中。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Anastasis_King/status/2121163262737715632",
+      "reader_url": "https://x.com/Anastasis_King/status/2121163262737715632",
+      "image_url": "https://pbs.twimg.com/media/HW_ivuzWAAAh0Y7.jpg",
+      "author": {
+        "username": "Anastasis_King",
+        "name": "Cyberkid",
+        "avatar_url": null,
+        "followers_count": 11667
+      },
+      "published_at": "2026-11-13T08:48:25",
+      "first_seen_at": "2026-11-13T09:16:28.694410",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30681,
+      "title": "具身自我改进中的验证器过拟合：重新思考评测标准暴露",
+      "original_title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+      "summary": "论文发现，若将 Benchmark 成功标准暴露给具身代理，代理会过拟合验证器而非真正完成任务，导致技能难以跨任务迁移，并建议改用指令忠实标准。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 67.5,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和 Agent 刷榜的人必看。这论文戳破高分水分：Agent 只是在过拟合验证脚本，而非真正完成任务。评估安全 Agent 时，务必警惕验证器泄露导致的假阳性。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.08318",
+      "reader_url": "https://arxiv.org/pdf/2611.08318",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T00:00:00",
+      "first_seen_at": "2026-11-13T12:21:54.108699",
+      "sub_category_label": "模型评测"
     }
   ]
 }
