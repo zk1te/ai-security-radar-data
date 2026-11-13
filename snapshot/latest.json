@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T23:38:47+08:00",
+  "updated_at": "2026-11-14T03:09:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -93,31 +93,6 @@
       "published_at": "2026-11-13T07:44:39",
       "first_seen_at": "2026-11-13T09:49:02.491620",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 30560,
-      "title": "恶意软件植入核生化文本以触发LLM安全拒绝逃避分析",
-      "original_title": "RT @jsrailton: NEW: malware developers added nuclear &amp; biological weapons text to to their spyware.  Goal? To trigger LLM safety refusals..…",
-      "summary": "恶意软件开发者在间谍软件中插入核武器和生物武器相关文本，目的是触发基于 LLM 的安全分析工具的安全拒绝机制，使其无法正常分析恶意代码。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "model_security",
-      "score_total": 70.15,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需警惕：LLM 安全护栏正被武器化为恶意软件逃避手段。如果你的检测流程依赖 LLM 分析恶意代码，需评估安全拒绝机制被利用的风险，考虑对分析输入做预清洗或在拒绝后回退到传统检测链路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/fredheiding/status/2064756965310406852",
-      "reader_url": "https://x.com/fredheiding/status/2064756965310406852",
-      "image_url": null,
-      "author": {
-        "username": "fredheiding",
-        "name": "Fred Heiding",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-06-10T17:09:56",
-      "first_seen_at": "2026-11-13T07:03:35.015524",
-      "sub_category_label": null
     },
     {
       "id": 30582,
@@ -242,6 +217,31 @@
       },
       "published_at": "2026-11-13T08:37:08",
       "first_seen_at": "2026-11-13T08:44:38.330675",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30616,
+      "title": "Claude BugHunter：AI 驱动安全研究工具包开源",
+      "original_title": "🛡️ CLAUDE BUGHUNTER — AI-POWERED SECURITY RESEARCH TOOLKIT  Claude BugHunter is an open-source collection of AI agent skills designed for authorized security assessments and vulner",
+      "summary": "Claude BugHunter 是一个开源 AI 安全研究技能集，提供 83 个专用技能和 Burp Suite 集成，用于侦察、漏洞验证和安全报告自动化。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.23,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec 从业者必看！这套开源工具直接提供了大量现成的安全 Agent 技能和攻击报告模式，能快速落地到现有的漏洞挖掘和自动化渗透流程中。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Anastasis_King/status/2121163262737715632",
+      "reader_url": "https://x.com/Anastasis_King/status/2121163262737715632",
+      "image_url": "https://pbs.twimg.com/media/HW_ivuzWAAAh0Y7.jpg",
+      "author": {
+        "username": "Anastasis_King",
+        "name": "Cyberkid",
+        "avatar_url": null,
+        "followers_count": 11667
+      },
+      "published_at": "2026-11-13T08:48:25",
+      "first_seen_at": "2026-11-13T09:16:28.694410",
       "sub_category_label": "安全Agent"
     }
   ]
