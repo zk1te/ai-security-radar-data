@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T18:07:18+08:00",
+  "updated_at": "2026-11-13T19:07:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -118,31 +118,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 30417,
-      "title": "OpenAI 推出 Daybreak 红队与防御工厂",
-      "original_title": "OpenAI president Greg Brockman says companies will be secure 'only to the extent of the frontier model that they use to defend themselves' and how well they use it.  OpenAI has lau",
-      "summary": "OpenAI 发布 Daybreak Red Team 用于 AI 渗透测试，以及 Daybreak Defense Factory 用于准备漏洞修复，强调企业安全水平取决于其使用的前沿模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.87,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI 官方下场做 AI 渗透测试与漏洞修复自动化，直接验证了「前沿模型作为安全工具」的产业路径。安全团队负责人应关注 Daybreak 的「超人类级」渗透测试声称是否名副其实，以及它如何改变红队外包和漏洞响应流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/choblin29/status/2121006673611632966",
-      "reader_url": "https://x.com/choblin29/status/2121006673611632966",
-      "image_url": "https://pbs.twimg.com/media/HW9UTpdWIAAlmBw.png",
-      "author": {
-        "username": "choblin29",
-        "name": "Choblin",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-12T22:26:12",
-      "first_seen_at": "2026-11-12T22:49:20.375961",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 30583,
       "title": "ARTEX：开源 AI 渗透测试系统，结合 LLM 实现自主漏洞探测",
       "original_title": "Meet ARTEX an open-source AI-powered penetration testing system built with Go and Next.js. What makes it interesting: • AI agents autonomously explore targets and investigate vulne",
@@ -193,31 +168,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 30416,
-      "title": "LLM+Z3 发现 Go Fuzzer 盲区：内存分配细节掩盖溢出",
-      "original_title": "Google published a write-up yesterday of a bug hunt in Go that pairs a language model with a constraint solver. The interesting part is not the bugs. It is why ordinary fuzzing wal",
-      "summary": "Google 分享了一种将 LLM 生成的 Z3 查询与约束求解结合的 Go 漏洞挖掘方法，并详细分析了普通 Fuzzer 因 Go 切片 capacity 机制漏报溢出漏洞的原因。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 70.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "搞 Fuzzing 和代码审计的人必看。文章不仅展示了 LLM+Z3 的实用 pipeline，还揭示了 Go fuzzer 因 capacity 机制漏报 99% 溢出输入的坑，附赠一行修复代码。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AIQuanting/status/2121005465501155373",
-      "reader_url": "https://x.com/AIQuanting/status/2121005465501155373",
-      "image_url": null,
-      "author": {
-        "username": "AIQuanting",
-        "name": "AI Quanting",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-12T22:21:24",
-      "first_seen_at": "2026-11-12T22:49:18.304998",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
       "id": 30560,
       "title": "恶意软件植入核生化文本以触发LLM安全拒绝逃避分析",
       "original_title": "RT @jsrailton: NEW: malware developers added nuclear &amp; biological weapons text to to their spyware.  Goal? To trigger LLM safety refusals..…",
@@ -241,6 +191,56 @@
       "published_at": "2026-06-10T17:09:56",
       "first_seen_at": "2026-11-13T07:03:35.015524",
       "sub_category_label": null
+    },
+    {
+      "id": 30582,
+      "title": "在野首例：攻击者用开源AI渗透框架Cairn自动化入侵19个组织",
+      "original_title": "#threatreport #LowCompleteness Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors | 12-11-2026 Source: https://t.co/DfB9htD0i8 Key details below",
+      "summary": "追踪为CL-STA-1238的攻击者使用开源AI渗透测试框架Cairn，配合智谱GLM和DeepSeek模型，对半导体、国防及公民社会等至少19个组织发起25次自动化入侵，成功渗透10个组织并窃取大量凭证与百万级个人数据。攻击者通过中文提示词绕过模型安全拒绝机制，利用事实-意图图谱实现自主分阶段规划与执行。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 70.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是首个公开的在野利用AI自主渗透框架发起实战攻击的案例，Cairn的武器化直接证明AI for Sec工具的双刃剑属性已变为现实威胁。红蓝团队都该看：蓝队需评估自身对自动化多目标并行攻击的检测能力，红队可研究其事实-意图图谱编排思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rst_cloud/status/2121147029170634926",
+      "reader_url": "https://x.com/rst_cloud/status/2121147029170634926",
+      "image_url": "https://pbs.twimg.com/media/HW_T-1DXwAAHIyl.jpg",
+      "author": {
+        "username": "rst_cloud",
+        "name": "RST Cloud",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T07:43:55",
+      "first_seen_at": "2026-11-13T08:10:41.865162",
+      "sub_category_label": null
+    },
+    {
+      "id": 30575,
+      "title": "腾讯 Hy4 登顶 CWE-Bench-AA 漏洞修复榜，开源可本地跑",
+      "original_title": "The best vulnerability-fixing model on Artificial Analysis’s new leaderboard is one you can download and run in-house under Apache 2.0.  Tencent’s Hy4 took #1 on CWE-Bench-AA today",
+      "summary": "腾讯开源模型 Hy4 以 76% 成绩登顶 Artificial Analysis 的 CWE-Bench-AA 榜单，该榜单评测 AI Agent 审计代码并修复漏洞的能力，推文还分析了单任务成本与本地部署硬件门槛。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 70.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做漏洞修复自动化或代码审计 Agent 的人都该看，直接展示了开源模型在本地化安全场景下的竞争力，给出了成本结构和硬件门槛的硬数据，是选型避坑的实料。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MartinSzerment/status/2121139639427690567",
+      "reader_url": "https://x.com/MartinSzerment/status/2121139639427690567",
+      "image_url": "https://pbs.twimg.com/media/HW_NQKVWUAAJNTT.jpg",
+      "author": {
+        "username": "MartinSzerment",
+        "name": "Martin Szerment | Practical AI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T07:14:33",
+      "first_seen_at": "2026-11-13T07:37:47.337432",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
