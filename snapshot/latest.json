@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T04:39:54+08:00",
+  "updated_at": "2026-11-14T05:10:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -170,31 +170,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 30613,
-      "title": "使用 Agent 工作流过滤无效报告并发现新漏洞",
-      "original_title": "I did a pretty extensive agent-based workflow for all of this. Agents I would say contributed most by:  1. closing the 75% of reports which don't match our threat model 2. fuzzing ",
-      "summary": "作者分享了一套基于 Agent 的安全工作流，通过 Agent 过滤了 75% 不符合威胁模型的报告，并对补丁进行 fuzzing，成功发现了一个新漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.53,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "实战经验分享，展示了 Agent 在漏洞修复验证和误报过滤中的实际效果。安全团队可参考此类流程，将 Agent 引入补丁测试环节以发现边缘情况。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/nateberkopec/status/2121160422669881534",
-      "reader_url": "https://x.com/nateberkopec/status/2121160422669881534",
-      "image_url": null,
-      "author": {
-        "username": "nateberkopec",
-        "name": "Nate Berkopec",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T08:37:08",
-      "first_seen_at": "2026-11-13T08:44:38.330675",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 30616,
       "title": "Claude BugHunter：AI 驱动安全研究工具包开源",
       "original_title": "🛡️ CLAUDE BUGHUNTER — AI-POWERED SECURITY RESEARCH TOOLKIT  Claude BugHunter is an open-source collection of AI agent skills designed for authorized security assessments and vulner",
@@ -238,6 +213,31 @@
       "published_at": "2026-11-13T00:00:00",
       "first_seen_at": "2026-11-13T12:21:54.108699",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 30656,
+      "title": "Anthropic AI 扫描器通过源码分析发现 mod_http2 竞态漏洞",
+      "original_title": "@Exori_AI @censysio Reading the code. Anthropic's OSS Scanner flagged the race in mod_http2's assign_headers by analyzing source, not by fuzzing. Google's team found the same bug i",
+      "summary": "Anthropic 的开源扫描器通过分析源码而非模糊测试发现了 mod_http2 中的竞态条件漏洞，早于 Google 团队一周，确立了 AI 分析老旧 C 代码的新基线。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 67.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 不靠 Fuzzing 靠读码挖洞已成现实。安全团队需关注 Anthropic 等大厂的开源扫描器进展，评估将 AI 源码分析纳入漏洞挖掘工作流的可行性，这可能是发现遗留 C 代码漏洞的新捷径。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jr_major/status/2121197008044314656",
+      "reader_url": "https://x.com/jr_major/status/2121197008044314656",
+      "image_url": null,
+      "author": {
+        "username": "jr_major",
+        "name": "Jonathan Major",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T11:02:31",
+      "first_seen_at": "2026-11-13T11:29:45.455406",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
