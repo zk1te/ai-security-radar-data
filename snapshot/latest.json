@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T05:40:16+08:00",
+  "updated_at": "2026-11-14T06:10:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -68,31 +68,6 @@
       "published_at": "2026-11-13T00:00:00",
       "first_seen_at": "2026-11-13T12:22:23.648142",
       "sub_category_label": null
-    },
-    {
-      "id": 30623,
-      "title": "网安任务微调模型收益递减，不如直接用原版",
-      "original_title": "After spending 1000+hrs tinkering with SFT, fine-tuning, RL, weight space programming, what not, I came to the conclusion that fine-tuning open weights models for broader cyber-sec",
-      "summary": "作者基于千余小时实践指出，为漏洞挖掘等网安任务微调开源模型收益递减，与原版模型差异微小，购买所谓网安微调模型需谨慎。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.17,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者必看：这篇推文戳破了网安微调模型的营销泡沫。买模型前先要求提供实际效果证明，否则直接用原版模型可能更省钱省力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xAsm0d3us/status/2121147215876116530",
-      "reader_url": "https://x.com/0xAsm0d3us/status/2121147215876116530",
-      "image_url": null,
-      "author": {
-        "username": "0xAsm0d3us",
-        "name": "devansh ⚡️",
-        "avatar_url": null,
-        "followers_count": 17983
-      },
-      "published_at": "2026-11-13T07:44:39",
-      "first_seen_at": "2026-11-13T09:49:02.491620",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 30835,
@@ -168,6 +143,31 @@
       "published_at": "2026-11-13T11:44:17",
       "first_seen_at": "2026-11-13T12:04:39.518233",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 30865,
+      "title": "OpenAI 推 Daybreak 红队工具竞逐 AI 渗透测试市场",
+      "original_title": "Having used both XBOW and Armadin, Daybreak Red Team seems like a pretty obvious competitive play by OpenAI to capture some of that lucrative AI-powered penetration testing market ",
+      "summary": "OpenAI 的 Daybreak Red Team 对标 XBOW 与 Armadin，通过 Codex 自动生成代码补丁并复测，实现 AI 渗透测试与修复闭环。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.26,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透工具正从「发现漏洞」向「自动修复闭环」演进，安全团队需关注这种安全 Agent 趋势对红蓝队工作流的重塑，并跟进 XBOW 等竞品的动态。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/nickvangilder/status/2121352209032007961",
+      "reader_url": "https://x.com/nickvangilder/status/2121352209032007961",
+      "image_url": null,
+      "author": {
+        "username": "nickvangilder",
+        "name": "Nick VanGilder",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T21:19:14",
+      "first_seen_at": "2026-11-13T21:42:41.149717",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 30681,
