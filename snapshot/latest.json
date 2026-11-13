@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:07:10+08:00",
+  "updated_at": "2026-11-13T18:07:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -168,6 +168,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 30623,
+      "title": "网安任务微调模型收益递减，不如直接用原版",
+      "original_title": "After spending 1000+hrs tinkering with SFT, fine-tuning, RL, weight space programming, what not, I came to the conclusion that fine-tuning open weights models for broader cyber-sec",
+      "summary": "作者基于千余小时实践指出，为漏洞挖掘等网安任务微调开源模型收益递减，与原版模型差异微小，购买所谓网安微调模型需谨慎。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.17,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec 从业者必看：这篇推文戳破了网安微调模型的营销泡沫。买模型前先要求提供实际效果证明，否则直接用原版模型可能更省钱省力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2121147215876116530",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2121147215876116530",
+      "image_url": null,
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null,
+        "followers_count": 17983
+      },
+      "published_at": "2026-11-13T07:44:39",
+      "first_seen_at": "2026-11-13T09:49:02.491620",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 30416,
       "title": "LLM+Z3 发现 Go Fuzzer 盲区：内存分配细节掩盖溢出",
       "original_title": "Google published a write-up yesterday of a bug hunt in Go that pairs a language model with a constraint solver. The interesting part is not the bugs. It is why ordinary fuzzing wal",
@@ -215,31 +240,6 @@
       },
       "published_at": "2026-06-10T17:09:56",
       "first_seen_at": "2026-11-13T07:03:35.015524",
-      "sub_category_label": null
-    },
-    {
-      "id": 30582,
-      "title": "在野首例：攻击者用开源AI渗透框架Cairn自动化入侵19个组织",
-      "original_title": "#threatreport #LowCompleteness Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors | 12-11-2026 Source: https://t.co/DfB9htD0i8 Key details below",
-      "summary": "追踪为CL-STA-1238的攻击者使用开源AI渗透测试框架Cairn，配合智谱GLM和DeepSeek模型，对半导体、国防及公民社会等至少19个组织发起25次自动化入侵，成功渗透10个组织并窃取大量凭证与百万级个人数据。攻击者通过中文提示词绕过模型安全拒绝机制，利用事实-意图图谱实现自主分阶段规划与执行。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 70.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是首个公开的在野利用AI自主渗透框架发起实战攻击的案例，Cairn的武器化直接证明AI for Sec工具的双刃剑属性已变为现实威胁。红蓝团队都该看：蓝队需评估自身对自动化多目标并行攻击的检测能力，红队可研究其事实-意图图谱编排思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2121147029170634926",
-      "reader_url": "https://x.com/rst_cloud/status/2121147029170634926",
-      "image_url": "https://pbs.twimg.com/media/HW_T-1DXwAAHIyl.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T07:43:55",
-      "first_seen_at": "2026-11-13T08:10:41.865162",
       "sub_category_label": null
     }
   ]
