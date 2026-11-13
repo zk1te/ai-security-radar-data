@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T19:07:49+08:00",
+  "updated_at": "2026-11-13T19:37:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -27,6 +27,26 @@
       "published_at": "2026-11-10T22:17:56",
       "first_seen_at": "2026-11-13T00:01:21.708810",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 30659,
+      "title": "阿里开源混合架构代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 206 stars today",
+      "summary": "阿里巴巴开源结合确定性管道与 LLM Agent 的代码审查工具，支持行级评论并内置 NPE、XSS、SQL注入等多语言安全规则集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.9,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做代码审计和安全工具链的同行必看。这款工具结合规则引擎与 LLM，提供行级安全审查能力，值得作为接入 CI/CD 流水线或安全自研工具的参考。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-13&since=daily",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-13&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T11:35:01.557266",
+      "first_seen_at": "2026-11-13T11:36:25.611450",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 30443,
@@ -216,31 +236,6 @@
       "published_at": "2026-11-13T07:43:55",
       "first_seen_at": "2026-11-13T08:10:41.865162",
       "sub_category_label": null
-    },
-    {
-      "id": 30575,
-      "title": "腾讯 Hy4 登顶 CWE-Bench-AA 漏洞修复榜，开源可本地跑",
-      "original_title": "The best vulnerability-fixing model on Artificial Analysis’s new leaderboard is one you can download and run in-house under Apache 2.0.  Tencent’s Hy4 took #1 on CWE-Bench-AA today",
-      "summary": "腾讯开源模型 Hy4 以 76% 成绩登顶 Artificial Analysis 的 CWE-Bench-AA 榜单，该榜单评测 AI Agent 审计代码并修复漏洞的能力，推文还分析了单任务成本与本地部署硬件门槛。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 70.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做漏洞修复自动化或代码审计 Agent 的人都该看，直接展示了开源模型在本地化安全场景下的竞争力，给出了成本结构和硬件门槛的硬数据，是选型避坑的实料。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MartinSzerment/status/2121139639427690567",
-      "reader_url": "https://x.com/MartinSzerment/status/2121139639427690567",
-      "image_url": "https://pbs.twimg.com/media/HW_NQKVWUAAJNTT.jpg",
-      "author": {
-        "username": "MartinSzerment",
-        "name": "Martin Szerment | Practical AI",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T07:14:33",
-      "first_seen_at": "2026-11-13T07:37:47.337432",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
