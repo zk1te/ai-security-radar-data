@@ -1,33 +1,9 @@
 {
-  "updated_at": "2026-11-13T19:37:56+08:00",
+  "updated_at": "2026-11-13T20:08:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 30435,
-      "title": "HN 热议追踪 Anthropic 发现的漏洞及 Glasswing 进展",
-      "original_title": "HN Hot Discussion: Tracking Anthropic-discovered vulnerabilities",
-      "summary": "Vulncheck 博客探讨了 Anthropic 通过 Project Glasswing 项目发现漏洞的最新进展，引发 HN 社区热议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 84.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "Anthropic 的 Project Glasswing 展示了 AI 挖洞的产业级进展，安全团队需关注 AI 发现的漏洞如何被追踪和修复，评估对传统工作流的冲击。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-13",
-      "reader_url": "https://news.ycombinator.com/item?id=50447074&hn_hot_date=2026-11-13",
-      "image_url": null,
-      "author": {
-        "username": "panic",
-        "name": "panic",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-10T22:17:56",
-      "first_seen_at": "2026-11-13T00:01:21.708810",
-      "sub_category_label": "漏洞挖掘"
-    },
     {
       "id": 30659,
       "title": "阿里开源混合架构代码审查工具 open-code-review",
@@ -47,26 +23,6 @@
       "published_at": "2026-11-13T11:35:01.557266",
       "first_seen_at": "2026-11-13T11:36:25.611450",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30443,
-      "title": "OpenAI Codex Security CLI 获高关注度，主打漏洞发现与修复",
-      "original_title": "GitHub Trending: openai/codex-security gained 643 stars today",
-      "summary": "OpenAI 开源的 Codex Security CLI 工具在 GitHub 单日激增数百星，总星标超 1.2 万。该工具及 TypeScript SDK 专注于利用 AI 进行安全漏洞的发现、验证与修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 80.81,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI 官方下场做代码安全工具，方向直指漏洞挖掘与修复自动化。做应用安全和 DevSecOps 的人必须关注，评估其发现和修复能力是否优于现有 SAST 工具，能否接入流水线。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-13&since=daily",
-      "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-13&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-13T00:06:58.759824",
-      "first_seen_at": "2026-11-13T00:07:29.536511",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 30504,
@@ -236,6 +192,56 @@
       "published_at": "2026-11-13T07:43:55",
       "first_seen_at": "2026-11-13T08:10:41.865162",
       "sub_category_label": null
+    },
+    {
+      "id": 30575,
+      "title": "腾讯 Hy4 登顶 CWE-Bench-AA 漏洞修复榜，开源可本地跑",
+      "original_title": "The best vulnerability-fixing model on Artificial Analysis’s new leaderboard is one you can download and run in-house under Apache 2.0.  Tencent’s Hy4 took #1 on CWE-Bench-AA today",
+      "summary": "腾讯开源模型 Hy4 以 76% 成绩登顶 Artificial Analysis 的 CWE-Bench-AA 榜单，该榜单评测 AI Agent 审计代码并修复漏洞的能力，推文还分析了单任务成本与本地部署硬件门槛。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 70.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做漏洞修复自动化或代码审计 Agent 的人都该看，直接展示了开源模型在本地化安全场景下的竞争力，给出了成本结构和硬件门槛的硬数据，是选型避坑的实料。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MartinSzerment/status/2121139639427690567",
+      "reader_url": "https://x.com/MartinSzerment/status/2121139639427690567",
+      "image_url": "https://pbs.twimg.com/media/HW_NQKVWUAAJNTT.jpg",
+      "author": {
+        "username": "MartinSzerment",
+        "name": "Martin Szerment | Practical AI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T07:14:33",
+      "first_seen_at": "2026-11-13T07:37:47.337432",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 30650,
+      "title": "OpenAI 开源 Codex Security：能验证和修复漏洞的安全 Agent",
+      "original_title": "OpenAI just open-sourced a security agent that does not stop after finding the vulnerability.  It can validate the finding, write the patch, and check whether the fix actually clos",
+      "summary": "OpenAI 开源安全 Agent 工具 Codex Security，支持查找并验证漏洞、生成并验证补丁、构建威胁模型及导出报告，可接入 CI/CD 流程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全审计和研发人员应关注这款不仅找洞还能自动修复并验证的 Agent。它支持扫描代码库或 Git diff，适合集成进 CI 流程作为现有 SAST 工具的强化补充。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xpipimd/status/2121186960383639982",
+      "reader_url": "https://x.com/0xpipimd/status/2121186960383639982",
+      "image_url": "https://pbs.twimg.com/media/HW_4SxtaUAA-_2M.jpg",
+      "author": {
+        "username": "0xpipimd",
+        "name": "pipi.md",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-13T10:22:35",
+      "first_seen_at": "2026-11-13T10:57:04.712280",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
