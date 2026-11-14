@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T10:41:32+08:00",
+  "updated_at": "2026-11-14T12:42:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -114,6 +114,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 30976,
+      "title": "MixUA：多用户多Agent场景的记忆隔离与隐私保护系统",
+      "original_title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+      "summary": "MixUA将用户-Agent交互轨迹蒸馏为lesson并按受益范围分配，配合CrossLearnBench评测隐私泄漏，在5用户7Agent场景下任务通过率提升最高16分，隐私探针泄漏率低于0.02%。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 70.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "多用户共享Agent时记忆隔离是落地安全必须直面的问题——谁的记忆能被谁读到、私有偏好会不会串台。做Agent安全架构的人该看这篇，CrossLearnBench的隐私探针设计可直接借鉴到自己的Agent评测流程里。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.10439",
+      "reader_url": "https://arxiv.org/pdf/2611.10439",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T00:00:00",
+      "first_seen_at": "2026-11-14T04:31:19.890381",
+      "sub_category_label": null
+    },
+    {
       "id": 30835,
       "title": "FBI 警报：开源多Agent框架 ARTEX 被武器化进行自动化入侵",
       "original_title": "[ CYBERSECURITY & AI-DRIVEN THREATS ]  • INCIDENT VECTOR: The FBI's Internet Crime Complaint Center (IC3) released a FLASH advisory detailing the global weaponization of ARTEX. Ori",
@@ -161,31 +181,6 @@
       },
       "published_at": "2026-11-13T21:19:14",
       "first_seen_at": "2026-11-13T21:42:41.149717",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30768,
-      "title": "OpenAI推出Daybreak网络安全产品线",
-      "original_title": "Greg Brockman's Nov 12, 2026 post says \"Announcing two new cyber products\", then names Daybreak Defense Factory and Daybreak Red Team.  The post, timestamped 22:16:31 UTC, also say",
-      "summary": "OpenAI宣布推出Daybreak Defense Factory和Daybreak Red Team两款网络产品，分别用于修复安全积压和Web应用AI渗透测试，并更新了Codex Security 0.10.0版本。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.75,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI官方下场推AI渗透测试与自动化修复工具，标志大厂安全Agent走向产品化。安全团队应重点关注其Web应用测试能力及修复边界，评估能否提升现有工作流效率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DeepWater_SI/status/2121276905567478192",
-      "reader_url": "https://x.com/DeepWater_SI/status/2121276905567478192",
-      "image_url": null,
-      "author": {
-        "username": "DeepWater_SI",
-        "name": "DeepWater",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T16:20:00",
-      "first_seen_at": "2026-11-13T16:39:34.351017",
       "sub_category_label": "安全Agent"
     },
     {
