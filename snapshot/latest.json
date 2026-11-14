@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T02:57:23+08:00",
+  "updated_at": "2026-11-15T03:27:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -27,31 +27,6 @@
       },
       "published_at": "2026-11-14T16:28:07",
       "first_seen_at": "2026-11-14T16:41:17.209422",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 31002,
-      "title": "AI 漏洞挖掘范式转变：REA 工具链正取代传统黑盒 Fuzzing",
-      "original_title": "现在网络安全的漏洞挖掘方法完全变了，自从REA以后，黑盒Fuzzing的方法几乎没人用了。  目前已知的搭配是Craft Anything Deep + REA + codex-security  接下来一个月可能RSI要发布了，到时候一个任务跑几天都不用停下来，跑到出结果为止。  买不起token的穷人不可怕，可怕的是有钱买token还不知道怎么用toke",
-      "summary": "作者指出漏洞挖掘已转向以 REA 为代表的 AI 自动化模式，推荐 Craft Anything Deep + REA + codex-security 组合，并预告 RSI 将支持长时任务运行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.46,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "搞漏洞挖掘的必看。这篇推文点出了 AI 自动化挖洞的最新工具链组合，传统黑盒 Fuzzing 正被 Agent 工作流取代，赶紧研究下这些新工具能怎么用。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/tokenrebate/status/2121497672775614801",
-      "reader_url": "https://x.com/tokenrebate/status/2121497672775614801",
-      "image_url": null,
-      "author": {
-        "username": "tokenrebate",
-        "name": "NullFounder",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-14T06:57:15",
-      "first_seen_at": "2026-11-14T07:07:34.924617",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -223,6 +198,31 @@
       "published_at": "2026-11-14T16:40:08",
       "first_seen_at": "2026-11-14T17:15:03.917890",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 31129,
+      "title": "GPT-6 Cyber 传闻：自主漏洞挖掘能力大幅跃升",
+      "original_title": "GPT-6 Cyber: When Artificial Intelligence Becomes a Serious Cybersecurity Force.  OpenAI has introduced GPT-6 Cyber, a specialised AI model that represents a significant leap forwa",
+      "summary": "传闻中的 OpenAI GPT-6 Cyber 安全专用模型在 ExploitGym 得分达 48.5%，并宣称在 Firefox 与 Linux 内核中发现大量高危漏洞及可用 Exploit。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 64.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "传闻展现了惊人的自动化挖洞与 Exploit 生成能力，从业者需警惕此类专用模型重塑攻防格局。即使信息超前，跟踪 AI 安全能力评测动态对调整防御策略至关重要。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ShaunK9350/status/2121617766616650237",
+      "reader_url": "https://x.com/ShaunK9350/status/2121617766616650237",
+      "image_url": null,
+      "author": {
+        "username": "ShaunK9350",
+        "name": "Shaun Kelly",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T14:54:27",
+      "first_seen_at": "2026-11-14T15:01:21.891038",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
