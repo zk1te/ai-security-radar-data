@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T00:56:07+08:00",
+  "updated_at": "2026-11-15T01:26:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -100,6 +100,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 31150,
+      "title": "介绍如何为漏洞研究构建 AI Harness",
+      "original_title": "Introduction to building AI harness for vulnerability research by @GrahamHelton3  https://t.co/7Uyb4qpT01 https://t.co/7Eesns2OZs",
+      "summary": "Graham Helton 分享了如何构建用于漏洞研究的 AI harness，探讨了将大模型整合进漏洞挖掘流程的方法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.36,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "面向做 AI 辅助漏洞挖掘的实战派，作者有多篇高质量实操分享。这篇直接讲 harness 搭建，想上手落地 AI 漏洞挖掘的同行可以看看怎么把流程串起来。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/payloadartist/status/2121611610376765709",
+      "reader_url": "https://x.com/payloadartist/status/2121611610376765709",
+      "image_url": "https://pbs.twimg.com/media/HW1VADNbIAE-p7h.jpg",
+      "author": {
+        "username": "payloadartist",
+        "name": "payloadartist",
+        "avatar_url": null,
+        "followers_count": 46166
+      },
+      "published_at": "2026-11-14T14:30:00",
+      "first_seen_at": "2026-11-14T17:14:59.724687",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 31081,
       "title": "PentAGI：开源多智能体自动化渗透测试系统",
       "original_title": "AI agents that can perform full penetration tests autonomously? This project is worth a look. 😳  Meet PentAGI: an open-source multi-agent system designed to automate complex cybers",
@@ -197,31 +222,6 @@
       },
       "published_at": "2026-11-14T06:06:22",
       "first_seen_at": "2026-11-14T06:33:39.167603",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30995,
-      "title": "Cloudflare 警告开源 AI 渗透工具正被大规模滥用",
-      "original_title": "Cloudflare (@Cloudflare) warned on Friday that open-source AI hacking tools are now hitting its customers at scale, saying that in just the last three days its Cloudforce One threa",
-      "summary": "Cloudforce One 威胁团队报告称，以 ARTEX 为首的开源 AI 渗透测试框架针对客户的扫描量激增，单个操作者可并行调度大量 AI 代理进行自动化探测与横向移动。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防御方与红队必看。防御方需警惕 AI Agent 并行扫描与横向移动带来的自动化攻击压力，红队可借此评估 AI 渗透框架在实战中的编排能力与局限。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/2logics/status/2121483790639931821",
-      "reader_url": "https://x.com/2logics/status/2121483790639931821",
-      "image_url": "https://pbs.twimg.com/media/HXEGKhLXAAEmxTG.jpg",
-      "author": {
-        "username": "2logics",
-        "name": "2logics",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-14T06:02:05",
-      "first_seen_at": "2026-11-14T06:33:38.852413",
       "sub_category_label": "安全Agent"
     }
   ]
