@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T14:42:47+08:00",
+  "updated_at": "2026-11-14T15:12:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -114,6 +114,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 31002,
+      "title": "AI 漏洞挖掘范式转变：REA 工具链正取代传统黑盒 Fuzzing",
+      "original_title": "现在网络安全的漏洞挖掘方法完全变了，自从REA以后，黑盒Fuzzing的方法几乎没人用了。  目前已知的搭配是Craft Anything Deep + REA + codex-security  接下来一个月可能RSI要发布了，到时候一个任务跑几天都不用停下来，跑到出结果为止。  买不起token的穷人不可怕，可怕的是有钱买token还不知道怎么用toke",
+      "summary": "作者指出漏洞挖掘已转向以 REA 为代表的 AI 自动化模式，推荐 Craft Anything Deep + REA + codex-security 组合，并预告 RSI 将支持长时任务运行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "搞漏洞挖掘的必看。这篇推文点出了 AI 自动化挖洞的最新工具链组合，传统黑盒 Fuzzing 正被 Agent 工作流取代，赶紧研究下这些新工具能怎么用。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/tokenrebate/status/2121497672775614801",
+      "reader_url": "https://x.com/tokenrebate/status/2121497672775614801",
+      "image_url": null,
+      "author": {
+        "username": "tokenrebate",
+        "name": "NullFounder",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T06:57:15",
+      "first_seen_at": "2026-11-14T07:07:34.924617",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 30989,
       "title": "OpenAI 推出 Daybreak：AI Agent 实现找洞与修复闭环",
       "original_title": "OpenAI just gave AI agents a job in cybersecurity, and it is not just finding bugs. Daybreak Red Team and Daybreak Defense Factory, announced Nov 12, run coordinated penetration-te",
@@ -207,31 +232,6 @@
       "published_at": "2026-11-14T06:06:22",
       "first_seen_at": "2026-11-14T06:33:39.167603",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30835,
-      "title": "FBI 警报：开源多Agent框架 ARTEX 被武器化进行自动化入侵",
-      "original_title": "[ CYBERSECURITY & AI-DRIVEN THREATS ]  • INCIDENT VECTOR: The FBI's Internet Crime Complaint Center (IC3) released a FLASH advisory detailing the global weaponization of ARTEX. Ori",
-      "summary": "FBI IC3 发布警报，指出 AI 渗透测试框架 ARTEX 被武器化，利用 DeepSeek、GLM 等 LLM 编排自动化网络攻击，23 秒内可执行 27 次复杂入侵事件。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需高度警惕 AI Agent 在攻击侧的加速应用。建议立即审计 Entra ID 服务主体和第三方应用授权，并部署自动化遏制 playbook 以应对超高速 AI 自动化入侵。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/biente30/status/2121319058306154498",
-      "reader_url": "https://x.com/biente30/status/2121319058306154498",
-      "image_url": null,
-      "author": {
-        "username": "biente30",
-        "name": "⬛twentythirty⚫",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T19:07:30",
-      "first_seen_at": "2026-11-13T19:32:28.218267",
-      "sub_category_label": null
     }
   ]
 }
