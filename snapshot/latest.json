@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T02:27:16+08:00",
+  "updated_at": "2026-11-15T02:57:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -125,31 +125,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 30998,
-      "title": "日企推进AI红队测试：OpenAI挖出948个Linux漏洞",
-      "original_title": "OpenAIがLinuxで948件、日立も参入｜AIに自社を攻めさせる国内15発表、制限の少ないモデルは4社",
-      "summary": "日本15家公司宣布使用AI对内部系统进行安全测试，日立等企业入局，其中4家采用限制较少的模型，OpenAI模型在Linux中发现了948个安全问题。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这标志着AI红队工具正从实验走向产业落地。安全团队应重点关注无限制模型在漏洞挖掘中的实际效果，评估自建安全Agent的可行性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RenDaichi147380/status/2121491064561561962",
-      "reader_url": "https://x.com/RenDaichi147380/status/2121491064561561962",
-      "image_url": null,
-      "author": {
-        "username": "RenDaichi147380",
-        "name": "Nortiq Labs|日本のDXを世界水準へ",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-14T06:30:59",
-      "first_seen_at": "2026-11-14T06:33:55.053760",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 31167,
       "title": "FBI 警报：LLM 驱动的开源攻击框架 ARTEX 被用于实战",
       "original_title": "The FBI issued a FLASH alert on Friday, November 13, warning that ARTEX, an open source hacking framework driven by large language models, has been used since at least August to au",
@@ -200,29 +175,54 @@
       "sub_category_label": null
     },
     {
-      "id": 30996,
-      "title": "ARTEX 多 Agent 渗透框架流入黑产，LLM 驱动攻击自动化已成现实",
-      "original_title": "#threatreport #MediumCompleteness ARTEX AI Attacks: How to Check Identity, Cloud and Web Logs | 09-11-2026 Source: https://t.co/EV9lrHb4eN Key details below ↓  🧑‍💻Actors/Campaigns:",
-      "summary": "基于 Go 和 LLM 的多 Agent 渗透测试框架 ARTEX 自 2026 年 8 月起被 Storm-0940 等多个 APT 组织用于真实入侵，通过密码喷射、Web 漏洞利用和后门 Docker 镜像获取云环境访问权限，报告给出了详细的 TTPs、IOCs 和防御狩猎建议。",
+      "id": 31182,
+      "title": "AI安全框架Artex调用安全工具噪音过大",
+      "original_title": "Externally, Artex and similar frameworks run tools like Nmap, Nuclei, httpx, Katana, and ffuf to build context. These tools are very noisy. Act accordingly.",
+      "summary": "指出 Artex 等安全 Agent 框架在调用 Nmap、Nuclei 等工具构建上下文时存在噪音过大的问题，需谨慎处理。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 69.7,
+      "score_total": 67.34,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做威胁狩猎和云安全的同学必看——这是 LLM 驱动的自动化攻击框架从「授权测试」流入黑产的标志性事件。重点抓行为特征：服务主体异常登录、Web 服务器派生 shell、MySQL 日志写 Webshell，比 IP 黑名单靠谱得多。",
+      "recommendation_reason": "安全Agent开发者和红队需关注Agent调用传统扫描工具时的上下文污染问题，大量噪音输出可能淹没关键的漏洞发现线索。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2121484869255451089",
-      "reader_url": "https://x.com/rst_cloud/status/2121484869255451089",
-      "image_url": "https://pbs.twimg.com/media/HXEHPiJXAAE-nn5.jpg",
+      "canonical_url": "https://x.com/HackingLZ/status/2121643039005569066",
+      "reader_url": "https://x.com/HackingLZ/status/2121643039005569066",
+      "image_url": null,
       "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-11-14T16:34:53",
+      "first_seen_at": "2026-11-14T18:55:26.794026",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31152,
+      "title": "Google OSS-Fuzz 用 LLM 发现26个新漏洞",
+      "original_title": "the strongest evidence for this so far is fuzzing. google's oss-fuzz used llm-written fuzz targets in 2024 and found 26 new vulns, including an openssl bug that had likely been the",
+      "summary": "Google OSS-Fuzz 在2024年利用 LLM 编写 fuzz targets，成功发现26个新漏洞，其中包括一个存在了20年的 OpenSSL 漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 65.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "直接展示了 LLM 辅助 Fuzzing 的产业级战果。安全团队应重点关注如何将 AI 集成到代码验证和漏洞挖掘流程中，而不是只用 AI 生成代码。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/its_ronc/status/2121644360030957693",
+      "reader_url": "https://x.com/its_ronc/status/2121644360030957693",
+      "image_url": null,
+      "author": {
+        "username": "its_ronc",
+        "name": "RC | Saas Marketing 🚀",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-14T06:06:22",
-      "first_seen_at": "2026-11-14T06:33:39.167603",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-11-14T16:40:08",
+      "first_seen_at": "2026-11-14T17:15:03.917890",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
