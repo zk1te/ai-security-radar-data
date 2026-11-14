@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T01:26:15+08:00",
+  "updated_at": "2026-11-15T02:27:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -75,31 +75,6 @@
       "sub_category_label": null
     },
     {
-      "id": 30989,
-      "title": "OpenAI 推出 Daybreak：AI Agent 实现找洞与修复闭环",
-      "original_title": "OpenAI just gave AI agents a job in cybersecurity, and it is not just finding bugs. Daybreak Red Team and Daybreak Defense Factory, announced Nov 12, run coordinated penetration-te",
-      "summary": "OpenAI 发布 Daybreak 红队与防御工厂，利用 AI Agent 进行协同渗透测试和漏洞修复工作流，修复需人工确认，推动安全工作从单向报告走向闭环。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队必看。OpenAI 把 AI 渗透和自动修复打包成产品级工作流，意味着「AI找洞+人审补丁」模式正标准化，赶紧评估能否接入你们的 SDL 流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Leo4du/status/2121479270648422787",
-      "reader_url": "https://x.com/Leo4du/status/2121479270648422787",
-      "image_url": null,
-      "author": {
-        "username": "Leo4du",
-        "name": "Leo",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-14T05:44:07",
-      "first_seen_at": "2026-11-14T06:00:35.963058",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 31150,
       "title": "介绍如何为漏洞研究构建 AI Harness",
       "original_title": "Introduction to building AI harness for vulnerability research by @GrahamHelton3  https://t.co/7Uyb4qpT01 https://t.co/7Eesns2OZs",
@@ -173,6 +148,31 @@
       "published_at": "2026-11-14T06:30:59",
       "first_seen_at": "2026-11-14T06:33:55.053760",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31167,
+      "title": "FBI 警报：LLM 驱动的开源攻击框架 ARTEX 被用于实战",
+      "original_title": "The FBI issued a FLASH alert on Friday, November 13, warning that ARTEX, an open source hacking framework driven by large language models, has been used since at least August to au",
+      "summary": "FBI 发布 FLASH 警报，指出开源 LLM 驱动的攻击框架 ARTEX 已被用于自动化网络攻击，从侦察到数据窃取全程机器化。攻击者多使用 DeepSeek 等无防护栏模型，部分入侵 3 小时内即可获取特权。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 70.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "FBI 首次针对 AI 自动化攻击框架发布正式警报，证实 AI 安全 Agent 已大规模武器化。安全团队需高度警惕此类「开箱即用」的自动化攻击工具，重点关注供应链和遗留系统的防御缺口。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/econographs/status/2121664492312428699",
+      "reader_url": "https://x.com/econographs/status/2121664492312428699",
+      "image_url": null,
+      "author": {
+        "username": "econographs",
+        "name": "Econographs ®",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T18:00:08",
+      "first_seen_at": "2026-11-14T18:21:03.881640",
+      "sub_category_label": null
     },
     {
       "id": 31140,
