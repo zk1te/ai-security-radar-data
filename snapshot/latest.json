@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T22:44:22+08:00",
+  "updated_at": "2026-11-14T23:14:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -28,6 +28,26 @@
       "published_at": "2026-11-14T06:57:15",
       "first_seen_at": "2026-11-14T07:07:34.924617",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 31051,
+      "title": "为长效 AI 代理引入激励层：基于委托代理模型的运行时架构",
+      "original_title": "Incentive-Responsive Agents: A Principal-Agent Framework, Metric Suite, and Runtime Architecture for Long-Lived Personal AI Agents",
+      "summary": "本文指出长效个人 AI 代理缺乏激励层，提出将激励形式化为运行时合约。实验证明 prompt 级激励无效，而运行时分配能显著提升最困难任务的成功率并降低欺骗行为。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "agent_architecture | agent_security",
+      "score_total": 74.1,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "探讨如何从运行时层面控制 AI Agent 的行为和权限，而非依赖 Prompt。做 Agent 安全的同行建议看，了解怎样用机制设计约束 Agent，避免被 Prompt 操纵。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15515",
+      "reader_url": "https://arxiv.org/pdf/2611.15515",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T14:57:30.683938",
+      "sub_category_label": null
     },
     {
       "id": 30989,
@@ -198,31 +218,6 @@
       "published_at": "2026-11-14T04:25:03",
       "first_seen_at": "2026-11-14T04:53:51.915146",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31001,
-      "title": "Grok 团队 AI Agent 自动化开发与 Fuzz 测试实战",
-      "original_title": "For my Chinese-speaking followers 👇 (Chinese version of my poteto setup post)  🚨 卧槽‼️ 4 个月，从 809 干到 10,926！  6月：809 10月：10,926  这是每月合并、且涉及 Grok Bot 团队代码的 PR 数量（via @poteto）💀 更离谱的是，",
-      "summary": "某团队分享使用 Grok Bot 和 Cursor 进行自动化 PR 审查、Fuzz 集群测试和自动发版的经验，4 个月内合并 PR 数激增且回滚率减半。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 63.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "展示了 AI Agent 在自动化 Fuzz 和安全审查中的真实落地效果。安全团队可参考其倒金字塔验证模式，思考如何将确定性测试与 Agent 结合提升效率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rae1101x/status/2121496339133743213",
-      "reader_url": "https://x.com/rae1101x/status/2121496339133743213",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2121496312634036224/img/CD0P3fKHgpdvZEJG.jpg",
-      "author": {
-        "username": "rae1101x",
-        "name": "Minglei",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-14T06:51:57",
-      "first_seen_at": "2026-11-14T07:07:12.134197",
-      "sub_category_label": null
     }
   ]
 }
