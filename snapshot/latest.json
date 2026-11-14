@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T12:42:16+08:00",
+  "updated_at": "2026-11-14T14:12:25+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -114,6 +114,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 30989,
+      "title": "OpenAI 推出 Daybreak：AI Agent 实现找洞与修复闭环",
+      "original_title": "OpenAI just gave AI agents a job in cybersecurity, and it is not just finding bugs. Daybreak Red Team and Daybreak Defense Factory, announced Nov 12, run coordinated penetration-te",
+      "summary": "OpenAI 发布 Daybreak 红队与防御工厂，利用 AI Agent 进行协同渗透测试和漏洞修复工作流，修复需人工确认，推动安全工作从单向报告走向闭环。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队必看。OpenAI 把 AI 渗透和自动修复打包成产品级工作流，意味着「AI找洞+人审补丁」模式正标准化，赶紧评估能否接入你们的 SDL 流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Leo4du/status/2121479270648422787",
+      "reader_url": "https://x.com/Leo4du/status/2121479270648422787",
+      "image_url": null,
+      "author": {
+        "username": "Leo4du",
+        "name": "Leo",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T05:44:07",
+      "first_seen_at": "2026-11-14T06:00:35.963058",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 30976,
       "title": "MixUA：多用户多Agent场景的记忆隔离与隐私保护系统",
       "original_title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
@@ -182,31 +207,6 @@
       "published_at": "2026-11-13T21:19:14",
       "first_seen_at": "2026-11-13T21:42:41.149717",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30952,
-      "title": "用 AI 盾挡 AI 剑：C724 安全 Agent 倡议与落地思考",
-      "original_title": "读完 @termix_ai 这篇《An AI Shield Against the AI Sword》，受益匪浅。攻击方已经能用 AI 加快挖洞和准备动作，防御也得把 AI 嵌进去，用 AI 盾去挡 AI 剑。这层我特别认同。  配合我制作的视频看更容易理解  10 月 29 日币安那次安全事件后又被戳了一层。初步报告里大约 63.4 亿美元资产受到影响，约",
-      "summary": "结合币安安全事件，探讨攻防双端应用 AI 的趋势，并介绍 Termix 的 C724 倡议，旨在整合 AI Agent 与安全团队实现持续防护。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 66.37,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防御侧 Agent 怎么落地、边界在哪，这篇推文结合币安事件给出了务实思考，做安全自动化的人值得一看，重点看受控响应怎么设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AODHLG/status/2121425488120103210",
-      "reader_url": "https://x.com/AODHLG/status/2121425488120103210",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2121425297623154688/img/iqjUeRYcW9aO_gbf.jpg",
-      "author": {
-        "username": "AODHLG",
-        "name": "AOD 火龙果",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-14T02:10:25",
-      "first_seen_at": "2026-11-14T02:40:51.023164",
-      "sub_category_label": null
     }
   ]
 }
