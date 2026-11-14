@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T16:13:05+08:00",
+  "updated_at": "2026-11-14T18:43:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -139,6 +139,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 31081,
+      "title": "PentAGI：开源多智能体自动化渗透测试系统",
+      "original_title": "AI agents that can perform full penetration tests autonomously? This project is worth a look. 😳  Meet PentAGI: an open-source multi-agent system designed to automate complex cybers",
+      "summary": "PentAGI 是一个开源多智能体系统，通过协调侦察、漏洞发现和利用开发等专用 Agent，集成 20+ 传统安全工具，实现端到端的自动化渗透测试工作流。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.49,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试人员可以关注这个开源项目，它把多 Agent 协作和传统安全工具链结合了起来，能直接拿来跑自动化测试或改造成自己的工作流。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xrux/status/2121544945995571547",
+      "reader_url": "https://x.com/0xrux/status/2121544945995571547",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2121543616669638656/img/SyoXnGwckYkwlBnE.jpg",
+      "author": {
+        "username": "0xrux",
+        "name": "RUX",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T10:05:06",
+      "first_seen_at": "2026-11-14T10:37:18.350688",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 30976,
       "title": "MixUA：多用户多Agent场景的记忆隔离与隐私保护系统",
       "original_title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
@@ -181,31 +206,6 @@
       },
       "published_at": "2026-11-14T06:30:59",
       "first_seen_at": "2026-11-14T06:33:55.053760",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30996,
-      "title": "ARTEX 多 Agent 渗透框架流入黑产，LLM 驱动攻击自动化已成现实",
-      "original_title": "#threatreport #MediumCompleteness ARTEX AI Attacks: How to Check Identity, Cloud and Web Logs | 09-11-2026 Source: https://t.co/EV9lrHb4eN Key details below ↓  🧑‍💻Actors/Campaigns:",
-      "summary": "基于 Go 和 LLM 的多 Agent 渗透测试框架 ARTEX 自 2026 年 8 月起被 Storm-0940 等多个 APT 组织用于真实入侵，通过密码喷射、Web 漏洞利用和后门 Docker 镜像获取云环境访问权限，报告给出了详细的 TTPs、IOCs 和防御狩猎建议。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做威胁狩猎和云安全的同学必看——这是 LLM 驱动的自动化攻击框架从「授权测试」流入黑产的标志性事件。重点抓行为特征：服务主体异常登录、Web 服务器派生 shell、MySQL 日志写 Webshell，比 IP 黑名单靠谱得多。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2121484869255451089",
-      "reader_url": "https://x.com/rst_cloud/status/2121484869255451089",
-      "image_url": "https://pbs.twimg.com/media/HXEHPiJXAAE-nn5.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-14T06:06:22",
-      "first_seen_at": "2026-11-14T06:33:39.167603",
       "sub_category_label": "安全Agent"
     }
   ]
