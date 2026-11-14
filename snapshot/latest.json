@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T18:43:35+08:00",
+  "updated_at": "2026-11-14T20:13:45+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -42,30 +42,6 @@
       "author": null,
       "published_at": "2026-11-14T00:14:26.903315",
       "first_seen_at": "2026-11-14T00:14:50.794870",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30897,
-      "title": "WorkOS 遭入侵，攻击疑似由 AI 渗透框架 ARTEX 驱动",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 报告数据泄露事件，攻击者利用名为 ARTEX 的 AI 自主渗透测试框架访问了其内部 API 及 CRM 数据，涉及客户业务联系方式等敏感信息。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "真实世界疑似发生由 AI 自主渗透框架 ARTEX 引发的数据泄露事件。安全团队应高度警惕此类自动化攻击 Agent 被滥用，并评估现有防御面对 AI 驱动渗透时的韧性。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-14",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-14",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-14T00:04:21.369344",
       "sub_category_label": "安全Agent"
     },
     {
@@ -206,6 +182,31 @@
       },
       "published_at": "2026-11-14T06:30:59",
       "first_seen_at": "2026-11-14T06:33:55.053760",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30996,
+      "title": "ARTEX 多 Agent 渗透框架流入黑产，LLM 驱动攻击自动化已成现实",
+      "original_title": "#threatreport #MediumCompleteness ARTEX AI Attacks: How to Check Identity, Cloud and Web Logs | 09-11-2026 Source: https://t.co/EV9lrHb4eN Key details below ↓  🧑‍💻Actors/Campaigns:",
+      "summary": "基于 Go 和 LLM 的多 Agent 渗透测试框架 ARTEX 自 2026 年 8 月起被 Storm-0940 等多个 APT 组织用于真实入侵，通过密码喷射、Web 漏洞利用和后门 Docker 镜像获取云环境访问权限，报告给出了详细的 TTPs、IOCs 和防御狩猎建议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做威胁狩猎和云安全的同学必看——这是 LLM 驱动的自动化攻击框架从「授权测试」流入黑产的标志性事件。重点抓行为特征：服务主体异常登录、Web 服务器派生 shell、MySQL 日志写 Webshell，比 IP 黑名单靠谱得多。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rst_cloud/status/2121484869255451089",
+      "reader_url": "https://x.com/rst_cloud/status/2121484869255451089",
+      "image_url": "https://pbs.twimg.com/media/HXEHPiJXAAE-nn5.jpg",
+      "author": {
+        "username": "rst_cloud",
+        "name": "RST Cloud",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T06:06:22",
+      "first_seen_at": "2026-11-14T06:33:39.167603",
       "sub_category_label": "安全Agent"
     }
   ]
