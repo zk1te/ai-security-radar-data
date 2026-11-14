@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T03:27:30+08:00",
+  "updated_at": "2026-11-15T04:27:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 31147,
@@ -223,6 +223,31 @@
       "published_at": "2026-11-14T14:54:27",
       "first_seen_at": "2026-11-14T15:01:21.891038",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 31141,
+      "title": "对抗 AI 攻击集群：自动化安全测试成为刚需",
+      "original_title": "I've gotta attack myself before the hackers do. If you run a crypto or tech project, you need to do the same.  The FBI's ARTEX advisory proved that adversaries aren't manually fuzz",
+      "summary": "FBI ARTEX 警报显示攻击者已使用自主 Agent 在3小时内完成漏洞发现到利用，防御方必须转向使用自动化 Agent 持续测试自身 API 和合约。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 63.23,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队负责人必看：当攻击侧用 Agent 把漏洞发现到利用压缩到3小时，静态审计已失效。立即评估并引入自动化 Agentic Harness 工具，持续攻击你的 API 和合约。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/XBToshi/status/2121634038335377886",
+      "reader_url": "https://x.com/XBToshi/status/2121634038335377886",
+      "image_url": null,
+      "author": {
+        "username": "XBToshi",
+        "name": "CyberSatoshi 𓆙",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T15:59:07",
+      "first_seen_at": "2026-11-14T16:07:37.913878",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
