@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-14T15:12:56+08:00",
+  "updated_at": "2026-11-14T16:13:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 30901,
@@ -42,31 +42,6 @@
       "author": null,
       "published_at": "2026-11-14T00:14:26.903315",
       "first_seen_at": "2026-11-14T00:14:50.794870",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 30845,
-      "title": "Storm-0940 利用 AI 渗透框架 ARTEX 发起供应链攻击",
-      "original_title": "We’re on @X, tap the grok icon on the top right of the post.  From @grok:  Yes, that matches Microsoft’s reporting on the ConnectWise supply-chain incident.[](<https://t.co/7D8BZkh",
-      "summary": "微软报告称 Storm-0940 组织利用开源多智能体 LLM 渗透测试框架 ARTEX，在 ConnectWise 供应链攻击中以机器速度横扫超 2250 个 M365 租户，将初始访问到特权提升的时间压缩至 3 小时内。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.05,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "已知在野攻击者直接使用多智能体 LLM 渗透框架进行自动化攻击的典型案例。防守方响应窗口正被 AI Agent 极限压缩，须立即检视 OAuth 服务主体的异常高频登录检测策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MichaelGWeaver/status/2121325871331987915",
-      "reader_url": "https://x.com/MichaelGWeaver/status/2121325871331987915",
-      "image_url": null,
-      "author": {
-        "username": "MichaelGWeaver",
-        "name": "Michael Weaver ✡︎ 🇺🇸 🇮🇱",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T19:34:34",
-      "first_seen_at": "2026-11-13T20:05:50.597609",
       "sub_category_label": "安全Agent"
     },
     {
