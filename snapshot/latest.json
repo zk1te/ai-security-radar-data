@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T20:43:58+08:00",
+  "updated_at": "2026-11-14T22:44:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -175,31 +175,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 30952,
-      "title": "用 AI 盾挡 AI 剑：C724 安全 Agent 倡议与落地思考",
-      "original_title": "读完 @termix_ai 这篇《An AI Shield Against the AI Sword》，受益匪浅。攻击方已经能用 AI 加快挖洞和准备动作，防御也得把 AI 嵌进去，用 AI 盾去挡 AI 剑。这层我特别认同。  配合我制作的视频看更容易理解  10 月 29 日币安那次安全事件后又被戳了一层。初步报告里大约 63.4 亿美元资产受到影响，约",
-      "summary": "结合币安安全事件，探讨攻防双端应用 AI 的趋势，并介绍 Termix 的 C724 倡议，旨在整合 AI Agent 与安全团队实现持续防护。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 66.37,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防御侧 Agent 怎么落地、边界在哪，这篇推文结合币安事件给出了务实思考，做安全自动化的人值得一看，重点看受控响应怎么设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AODHLG/status/2121425488120103210",
-      "reader_url": "https://x.com/AODHLG/status/2121425488120103210",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2121425297623154688/img/iqjUeRYcW9aO_gbf.jpg",
-      "author": {
-        "username": "AODHLG",
-        "name": "AOD 火龙果",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-14T02:10:25",
-      "first_seen_at": "2026-11-14T02:40:51.023164",
-      "sub_category_label": null
-    },
-    {
       "id": 30980,
       "title": "Cloudflare 称 AI 渗透工具衍生版激增，3 天内超 50 框架扫描其客户",
       "original_title": "【Cloudflare】AIペンテスト自動化ツールの急増を指摘 ・ARTEXが作者により停止後、派生版が急増し関連リポジトリは1万2千超 ・直近3日間で50超のフレームワーク系統がCloudflare顧客をスキャン ・対策として「Modern Security Model」を提言  https://t.co/4Ejtw1WbJR",
@@ -223,6 +198,31 @@
       "published_at": "2026-11-14T04:25:03",
       "first_seen_at": "2026-11-14T04:53:51.915146",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31001,
+      "title": "Grok 团队 AI Agent 自动化开发与 Fuzz 测试实战",
+      "original_title": "For my Chinese-speaking followers 👇 (Chinese version of my poteto setup post)  🚨 卧槽‼️ 4 个月，从 809 干到 10,926！  6月：809 10月：10,926  这是每月合并、且涉及 Grok Bot 团队代码的 PR 数量（via @poteto）💀 更离谱的是，",
+      "summary": "某团队分享使用 Grok Bot 和 Cursor 进行自动化 PR 审查、Fuzz 集群测试和自动发版的经验，4 个月内合并 PR 数激增且回滚率减半。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 63.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI Agent 在自动化 Fuzz 和安全审查中的真实落地效果。安全团队可参考其倒金字塔验证模式，思考如何将确定性测试与 Agent 结合提升效率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rae1101x/status/2121496339133743213",
+      "reader_url": "https://x.com/rae1101x/status/2121496339133743213",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2121496312634036224/img/CD0P3fKHgpdvZEJG.jpg",
+      "author": {
+        "username": "rae1101x",
+        "name": "Minglei",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T06:51:57",
+      "first_seen_at": "2026-11-14T07:07:12.134197",
+      "sub_category_label": null
     }
   ]
 }
