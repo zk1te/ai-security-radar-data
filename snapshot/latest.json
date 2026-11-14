@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T08:41:20+08:00",
+  "updated_at": "2026-11-14T10:41:32+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -189,29 +189,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 30852,
-      "title": "面向漏洞研究的 Harness 工程化方法",
-      "original_title": "Harness Engineering For Vulnerability Research  https://t.co/QXK36iAKQe  Credits Graham Helton and Ryan Basden  #infosec #llm",
-      "summary": "Graham Helton 与 Ryan Basden 探讨了如何将 LLM 应用于漏洞研究，并分享了相关的 Harness 工程化经验。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 65.63,
+      "id": 30952,
+      "title": "用 AI 盾挡 AI 剑：C724 安全 Agent 倡议与落地思考",
+      "original_title": "读完 @termix_ai 这篇《An AI Shield Against the AI Sword》，受益匪浅。攻击方已经能用 AI 加快挖洞和准备动作，防御也得把 AI 嵌进去，用 AI 盾去挡 AI 剑。这层我特别认同。  配合我制作的视频看更容易理解  10 月 29 日币安那次安全事件后又被戳了一层。初步报告里大约 63.4 亿美元资产受到影响，约",
+      "summary": "结合币安安全事件，探讨攻防双端应用 AI 的趋势，并介绍 Termix 的 C724 倡议，旨在整合 AI Agent 与安全团队实现持续防护。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 66.37,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做自动化漏洞挖掘的安全研究员必看。构建好用的 harness 直接决定 LLM 输出质量，本文可帮你调整漏洞挖掘流程。",
+      "recommendation_reason": "防御侧 Agent 怎么落地、边界在哪，这篇推文结合币安事件给出了务实思考，做安全自动化的人值得一看，重点看受控响应怎么设计。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xor0ne/status/2121273295563612270",
-      "reader_url": "https://x.com/0xor0ne/status/2121273295563612270",
-      "image_url": null,
+      "canonical_url": "https://x.com/AODHLG/status/2121425488120103210",
+      "reader_url": "https://x.com/AODHLG/status/2121425488120103210",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2121425297623154688/img/iqjUeRYcW9aO_gbf.jpg",
       "author": {
-        "username": "0xor0ne",
-        "name": "0xor0ne",
+        "username": "AODHLG",
+        "name": "AOD 火龙果",
         "avatar_url": null,
-        "followers_count": 93861
+        "followers_count": 0
       },
-      "published_at": "2026-11-13T16:05:39",
-      "first_seen_at": "2026-11-13T20:38:28.308385",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-11-14T02:10:25",
+      "first_seen_at": "2026-11-14T02:40:51.023164",
+      "sub_category_label": null
     }
   ]
 }
