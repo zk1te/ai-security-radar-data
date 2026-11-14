@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-14T14:12:25+08:00",
+  "updated_at": "2026-11-14T14:42:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 30901,
@@ -159,6 +159,56 @@
       "sub_category_label": null
     },
     {
+      "id": 30998,
+      "title": "日企推进AI红队测试：OpenAI挖出948个Linux漏洞",
+      "original_title": "OpenAIがLinuxで948件、日立も参入｜AIに自社を攻めさせる国内15発表、制限の少ないモデルは4社",
+      "summary": "日本15家公司宣布使用AI对内部系统进行安全测试，日立等企业入局，其中4家采用限制较少的模型，OpenAI模型在Linux中发现了948个安全问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这标志着AI红队工具正从实验走向产业落地。安全团队应重点关注无限制模型在漏洞挖掘中的实际效果，评估自建安全Agent的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RenDaichi147380/status/2121491064561561962",
+      "reader_url": "https://x.com/RenDaichi147380/status/2121491064561561962",
+      "image_url": null,
+      "author": {
+        "username": "RenDaichi147380",
+        "name": "Nortiq Labs|日本のDXを世界水準へ",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T06:30:59",
+      "first_seen_at": "2026-11-14T06:33:55.053760",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 30996,
+      "title": "ARTEX 多 Agent 渗透框架流入黑产，LLM 驱动攻击自动化已成现实",
+      "original_title": "#threatreport #MediumCompleteness ARTEX AI Attacks: How to Check Identity, Cloud and Web Logs | 09-11-2026 Source: https://t.co/EV9lrHb4eN Key details below ↓  🧑‍💻Actors/Campaigns:",
+      "summary": "基于 Go 和 LLM 的多 Agent 渗透测试框架 ARTEX 自 2026 年 8 月起被 Storm-0940 等多个 APT 组织用于真实入侵，通过密码喷射、Web 漏洞利用和后门 Docker 镜像获取云环境访问权限，报告给出了详细的 TTPs、IOCs 和防御狩猎建议。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做威胁狩猎和云安全的同学必看——这是 LLM 驱动的自动化攻击框架从「授权测试」流入黑产的标志性事件。重点抓行为特征：服务主体异常登录、Web 服务器派生 shell、MySQL 日志写 Webshell，比 IP 黑名单靠谱得多。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/rst_cloud/status/2121484869255451089",
+      "reader_url": "https://x.com/rst_cloud/status/2121484869255451089",
+      "image_url": "https://pbs.twimg.com/media/HXEHPiJXAAE-nn5.jpg",
+      "author": {
+        "username": "rst_cloud",
+        "name": "RST Cloud",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T06:06:22",
+      "first_seen_at": "2026-11-14T06:33:39.167603",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 30835,
       "title": "FBI 警报：开源多Agent框架 ARTEX 被武器化进行自动化入侵",
       "original_title": "[ CYBERSECURITY & AI-DRIVEN THREATS ]  • INCIDENT VECTOR: The FBI's Internet Crime Complaint Center (IC3) released a FLASH advisory detailing the global weaponization of ARTEX. Ori",
@@ -182,31 +232,6 @@
       "published_at": "2026-11-13T19:07:30",
       "first_seen_at": "2026-11-13T19:32:28.218267",
       "sub_category_label": null
-    },
-    {
-      "id": 30865,
-      "title": "OpenAI 推 Daybreak 红队工具竞逐 AI 渗透测试市场",
-      "original_title": "Having used both XBOW and Armadin, Daybreak Red Team seems like a pretty obvious competitive play by OpenAI to capture some of that lucrative AI-powered penetration testing market ",
-      "summary": "OpenAI 的 Daybreak Red Team 对标 XBOW 与 Armadin，通过 Codex 自动生成代码补丁并复测，实现 AI 渗透测试与修复闭环。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透工具正从「发现漏洞」向「自动修复闭环」演进，安全团队需关注这种安全 Agent 趋势对红蓝队工作流的重塑，并跟进 XBOW 等竞品的动态。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/nickvangilder/status/2121352209032007961",
-      "reader_url": "https://x.com/nickvangilder/status/2121352209032007961",
-      "image_url": null,
-      "author": {
-        "username": "nickvangilder",
-        "name": "Nick VanGilder",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-13T21:19:14",
-      "first_seen_at": "2026-11-13T21:42:41.149717",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
