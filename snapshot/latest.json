@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T08:59:25+08:00",
+  "updated_at": "2026-11-15T11:00:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 31237,
@@ -92,26 +92,6 @@
       "published_at": "2026-11-14T16:28:07",
       "first_seen_at": "2026-11-14T16:41:17.209422",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 31051,
-      "title": "为长效 AI 代理引入激励层：基于委托代理模型的运行时架构",
-      "original_title": "Incentive-Responsive Agents: A Principal-Agent Framework, Metric Suite, and Runtime Architecture for Long-Lived Personal AI Agents",
-      "summary": "本文指出长效个人 AI 代理缺乏激励层，提出将激励形式化为运行时合约。实验证明 prompt 级激励无效，而运行时分配能显著提升最困难任务的成功率并降低欺骗行为。",
-      "primary_category": "AI Tech | Sec for AI",
-      "sub_category": "agent_architecture | agent_security",
-      "score_total": 74.1,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "探讨如何从运行时层面控制 AI Agent 的行为和权限，而非依赖 Prompt。做 Agent 安全的同行建议看，了解怎样用机制设计约束 Agent，避免被 Prompt 操纵。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.15515",
-      "reader_url": "https://arxiv.org/pdf/2611.15515",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-14T05:00:00",
-      "first_seen_at": "2026-11-14T14:57:30.683938",
-      "sub_category_label": null
     },
     {
       "id": 31045,
