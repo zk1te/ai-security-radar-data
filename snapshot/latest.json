@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-11-15T20:31:54+08:00",
+  "updated_at": "2026-11-15T21:02:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
-    {
-      "id": 31237,
-      "title": "阿里开源混合架构代码审查工具 open-code-review",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 893 stars today",
-      "summary": "阿里开源混合架构代码审查工具，结合确定性规则与 LLM Agent，内置 XSS、SQL注入等多语言安全规则集，提供精确行级评论。",
-      "primary_category": "AI for Sec",
-      "sub_category": "code_audit",
-      "score_total": 86.66,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "结合规则与 LLM 的代码审查工具，能输出精确行级安全漏洞评论。做代码审计和安全左移的团队可直接集成试用或借鉴其混合流水线架构。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-15&since=daily",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-15&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-15T00:39:01.399559",
-      "first_seen_at": "2026-11-15T00:40:13.544976",
-      "sub_category_label": null
-    },
     {
       "id": 31291,
       "title": "FBI 警告：黑客滥用 ARTEX 安全框架，借 AI 三小时内提权",
@@ -73,31 +53,6 @@
       "published_at": "2026-11-14T23:21:09",
       "first_seen_at": "2026-11-15T04:10:43.172550",
       "sub_category_label": null
-    },
-    {
-      "id": 31266,
-      "title": "威胁情报：开源AI渗透框架ARTEX被多组织武器化",
-      "original_title": "#threatreport #LowCompleteness ARTEX and beyond: AI-enabled penetration testing platforms | 13-11-2026 Source: https://t.co/24ieQqbCrx Key details below ↓  🧑‍💻Actors/Campaigns: Gho",
-      "summary": "开源AI渗透测试框架ARTEX被VAPOR PANDA等组织用于攻击全球超200个组织，展示了自主攻击Agent结合MCP扩展在野利用的实际威胁。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI渗透工具已从研究走向在野攻击。防守方需立即关注基于多Agent和MCP协议的自动化攻击链，排查云凭证暴露和应用授权漏洞。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2121768028375277751",
-      "reader_url": "https://x.com/rst_cloud/status/2121768028375277751",
-      "image_url": "https://pbs.twimg.com/media/HXIIxnaX0AAd05c.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T00:51:33",
-      "first_seen_at": "2026-11-15T00:55:04.859026",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 31298,
@@ -247,6 +202,56 @@
       },
       "published_at": "2026-11-15T01:31:18",
       "first_seen_at": "2026-11-15T01:59:58.780206",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31288,
+      "title": "TermiX 推 C724 倡议：AI 安全代理需权限边界与人工监督",
+      "original_title": "Next challenge in crypto security might not be detecting threats.  It might be deciding what an AI security agent is allowed to do after detecting one.  TermiX's new C724 initiativ",
+      "summary": "TermiX 提出 C724 行业倡议，推动 AI 安全代理从威胁检测转向持续监控与受控响应，强调代理需限定权限、保留人工监督并留审计记录。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 63.39,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "点出了 AI 安全 Agent 落地的核心矛盾——既要能响应威胁又不能失控。对做安全自动化和 Agent 落地的人有直接参考价值，权限边界和审计设计是当前最该想清楚的问题。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ZeeshanAbid982/status/2121803658807361946",
+      "reader_url": "https://x.com/ZeeshanAbid982/status/2121803658807361946",
+      "image_url": "https://pbs.twimg.com/media/HXIn5fhXEAAFs7d.jpg",
+      "author": {
+        "username": "ZeeshanAbid982",
+        "name": "Zeeshan Abid",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T03:13:08",
+      "first_seen_at": "2026-11-15T03:38:18.401281",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31281,
+      "title": "Cloudflare：AI 渗透测试工具流量自10月以来暴增30倍",
+      "original_title": "Cloudflare (Nov 13), on traffic it observes: \"Daily requests of AI penetration testing (pentesting) and exploitation tools has grown by 30x since October 1.\" Pillar 1 of its Modern",
+      "summary": "Cloudflare 观察到自 10 月 1 日以来 AI 渗透测试与漏洞利用工具的每日请求量增长了 30 倍，建议采用具备速率限制等高级规则的 WAF 进行防御。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 62.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是给防御团队和红队的实战风向标，说明 AI 自动化攻击工具已大规模落地。安全团队应立即检查 WAF 的速率限制策略以应对自动化流量洪峰。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/YcawpSXcglIdgxP/status/2121794554244256134",
+      "reader_url": "https://x.com/YcawpSXcglIdgxP/status/2121794554244256134",
+      "image_url": null,
+      "author": {
+        "username": "YcawpSXcglIdgxP",
+        "name": "Signal Desk",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T02:36:57",
+      "first_seen_at": "2026-11-15T03:06:05.933779",
       "sub_category_label": "安全Agent"
     }
   ]
