@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T23:32:34+08:00",
+  "updated_at": "2026-11-16T00:02:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -175,29 +175,28 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 31288,
-      "title": "TermiX 推 C724 倡议：AI 安全代理需权限边界与人工监督",
-      "original_title": "Next challenge in crypto security might not be detecting threats.  It might be deciding what an AI security agent is allowed to do after detecting one.  TermiX's new C724 initiativ",
-      "summary": "TermiX 提出 C724 行业倡议，推动 AI 安全代理从威胁检测转向持续监控与受控响应，强调代理需限定权限、保留人工监督并留审计记录。",
+      "id": 31393,
+      "title": "用 Claude Code 逆向 1994 款 Jeep ECU",
+      "original_title": "HN Hot Discussion: Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "summary": "HN 热帖展示如何利用 Claude Code 和 Codex 结合 3 美元 Arduino 逆向 1994 款 Jeep 的 ECU，体现 AI 在嵌入式与逆向工程中的潜力。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 63.39,
+      "sub_category": "binary_security",
+      "score_total": 64.95,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "点出了 AI 安全 Agent 落地的核心矛盾——既要能响应威胁又不能失控。对做安全自动化和 Agent 落地的人有直接参考价值，权限边界和审计设计是当前最该想清楚的问题。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ZeeshanAbid982/status/2121803658807361946",
-      "reader_url": "https://x.com/ZeeshanAbid982/status/2121803658807361946",
-      "image_url": "https://pbs.twimg.com/media/HXIn5fhXEAAFs7d.jpg",
+      "recommendation_reason": "对二进制和硬件安全从业者极具参考价值，展示了 AI Agent 处理旧固件的真实能力与极低硬件成本。值得马上尝试复现并评估当前工具能力边界。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50463399&hn_hot_date=2026-11-15",
+      "reader_url": "https://news.ycombinator.com/item?id=50463399&hn_hot_date=2026-11-15",
+      "image_url": null,
       "author": {
-        "username": "ZeeshanAbid982",
-        "name": "Zeeshan Abid",
-        "avatar_url": null,
-        "followers_count": 0
+        "username": "envoked",
+        "name": "envoked",
+        "avatar_url": null
       },
-      "published_at": "2026-11-15T03:13:08",
-      "first_seen_at": "2026-11-15T03:38:18.401281",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-11-12T05:29:24",
+      "first_seen_at": "2026-11-15T15:59:26.929185",
+      "sub_category_label": "二进制安全"
     },
     {
       "id": 31382,
