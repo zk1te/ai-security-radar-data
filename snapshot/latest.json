@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T01:33:31+08:00",
+  "updated_at": "2026-11-16T02:03:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -48,31 +48,6 @@
       "published_at": "2026-11-15T15:01:16",
       "first_seen_at": "2026-11-15T15:19:46.976572",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31298,
-      "title": "ARTEX AI 渗透工具发布三月即遭武器化，泄露凭据成最快入侵路径",
-      "original_title": "#threatreport #MediumCompleteness ARTEX: Attackers Adopted This AI Pentesting Tool in Three Months. Leaked Secrets Are Its Fastest Way In. | 13-11-2026 Source: https://t.co/mBDjho1",
-      "summary": "开源 AI 渗透框架 ARTEX 发布数月内被中国国家关联组织和犯罪团伙广泛采用，攻击者利用其 Agent 自主扫描、搜索泄露凭据并在 5 分钟内窃取 Azure Key Vault 数据；同时出现植入后门的恶意 Docker 镜像供应链攻击，且 Agent 的软控制无法有效阻止越权行为。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透 Agent 的双刃剑效应已从理论变为实战威胁——你的工具可能直接成为攻击者的武器。立即排查是否拉取了 tomicdd/artex 或 congdonglinux/artex 镜像，轮换所有暴露在仓库和 Git 历史中的凭据，并对 AI Agent 实施硬性网络隔离而非依赖软批准提示。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2121842152405602605",
-      "reader_url": "https://x.com/rst_cloud/status/2121842152405602605",
-      "image_url": "https://pbs.twimg.com/media/HXJMMUfWQAAQqcT.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T05:46:05",
-      "first_seen_at": "2026-11-15T05:55:32.521770",
-      "sub_category_label": null
     },
     {
       "id": 31402,
@@ -247,6 +222,26 @@
       "published_at": "2026-11-15T17:00:00",
       "first_seen_at": "2026-11-15T17:33:16.515713",
       "sub_category_label": null
+    },
+    {
+      "id": 31315,
+      "title": "经验交接强化学习：实现智能体递归自我改进",
+      "original_title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "summary": "提出一种名为 Experience-Handoff 的强化学习方法，通过整理和传递环境经验（如 playbook）给后续任务，实现 LLM 智能体的递归自我改进。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 60.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "构建自动化安全Agent需从错误中反思并积累经验。本文提出的训练范式让Agent能整理并传递环境经验，为打造具备持久记忆的漏洞挖掘Agent提供了直接参考。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.16409",
+      "reader_url": "https://arxiv.org/pdf/2611.16409",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T00:00:00",
+      "first_seen_at": "2026-11-15T08:51:51.018844",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
