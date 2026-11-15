@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T02:03:38+08:00",
+  "updated_at": "2026-11-16T02:33:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -75,31 +75,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 31301,
-      "title": "Claude-BugHunter：注入681个HackerOne漏洞模式的审计技能包",
-      "original_title": "Generic LLM chatbots make terrible security auditors—until you inject 681 real HackerOne exploit patterns directly into their reasoning loop. ⚠️  ​Claude-BugHunter is a massive ope",
-      "summary": "Claude-BugHunter是一个开源技能包，将681个真实HackerOne漏洞模式注入LLM代理推理循环，结合Burp Suite MCP集成，将Claude Code等代理转化为专业漏洞挖掘工具。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "实战导向极强，把真实赏金报告转化为Agent技能包并打通Burp Suite MCP，是安全Agent落地的极佳参考。做漏洞挖掘或红队自动化的同学可以直接拿来做能力增强或横向对比。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RituWithAI/status/2121845893578035419",
-      "reader_url": "https://x.com/RituWithAI/status/2121845893578035419",
-      "image_url": "https://pbs.twimg.com/media/HXJPlrvbQAAqnX2.jpg",
-      "author": {
-        "username": "RituWithAI",
-        "name": "Rituraj",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T06:00:57",
-      "first_seen_at": "2026-11-15T06:28:53.034881",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 31340,
       "title": "PentestCode：终端内的自主 AI 渗透测试 Agent",
       "original_title": "GitHub Hidden Gem #04  PentestCode — an autonomous AI penetration testing agent that runs directly in your terminal.  What makes it interesting?  ❖ 13 specialised AI agents working",
@@ -123,6 +98,56 @@
       "published_at": "2026-11-15T10:55:09",
       "first_seen_at": "2026-11-15T11:25:15.372765",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31425,
+      "title": "Cloudflare观察到超50种AI渗透测试工具扫描客户网络",
+      "original_title": "JUST IN: Cloudflare says it saw over 50 AI penetration-testing tool families scanning its customers in three days. Daily requests from a handful of tracked tools rose more than 30-",
+      "summary": "Cloudflare 报告称在三天内监测到 50 多个 AI 渗透测试工具家族扫描其客户网络，自 10 月 1 日以来部分工具的日请求量激增超 30 倍。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.84,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这一数据表明 AI 自动化渗透工具正规模化进入实战。防守方需立即关注网络日志中激增的扫描特征，评估并调整 WAF 限频与拦截策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/namefi_io/status/2122021720190075289",
+      "reader_url": "https://x.com/namefi_io/status/2122021720190075289",
+      "image_url": null,
+      "author": {
+        "username": "namefi_io",
+        "name": "Namefi",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T17:39:38",
+      "first_seen_at": "2026-11-15T18:06:33.629202",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31417,
+      "title": "AI 漏洞挖掘的边际成本递增效应",
+      "original_title": "Unless your argument is that every codebase has an endless supply of easy bugs, the cost of finding bugs will go up. A new cyber model finds bugs, then the next, more expensive mod",
+      "summary": "随着 AI 模型不断发现简单漏洞，剩余漏洞的挖掘难度和成本将显著上升，最终仍需人类专家或更先进的工具介入。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 65.51,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 漏洞挖掘的人必看。AI 找 bug 会遇到边际效益递减，简单 bug 被扫光后，拼的还是人工审计能力和 Fuzzing harness 设计能力，别盲目迷信模型万能。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2121976626355278297",
+      "reader_url": "https://x.com/HackingLZ/status/2121976626355278297",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-11-15T14:40:26",
+      "first_seen_at": "2026-11-15T18:05:19.456901",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 31393,
@@ -222,26 +247,6 @@
       "published_at": "2026-11-15T17:00:00",
       "first_seen_at": "2026-11-15T17:33:16.515713",
       "sub_category_label": null
-    },
-    {
-      "id": 31315,
-      "title": "经验交接强化学习：实现智能体递归自我改进",
-      "original_title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-      "summary": "提出一种名为 Experience-Handoff 的强化学习方法，通过整理和传递环境经验（如 playbook）给后续任务，实现 LLM 智能体的递归自我改进。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 60.7,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "构建自动化安全Agent需从错误中反思并积累经验。本文提出的训练范式让Agent能整理并传递环境经验，为打造具备持久记忆的漏洞挖掘Agent提供了直接参考。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.16409",
-      "reader_url": "https://arxiv.org/pdf/2611.16409",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-13T00:00:00",
-      "first_seen_at": "2026-11-15T08:51:51.018844",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
