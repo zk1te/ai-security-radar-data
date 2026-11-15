@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T03:04:01+08:00",
+  "updated_at": "2026-11-16T03:34:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -219,28 +219,28 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 31435,
-      "title": "FBI 警告 ARTEX AI 黑客工具正驱动全球网络攻击",
-      "original_title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks: The FBI is warning that hackers are using an AI-powered penetration testing framework called… www.​bleepingcomputer",
-      "summary": "FBI 发布警告称，名为 ARTEX 的 AI 驱动渗透测试框架正被黑客广泛用于发起全球网络攻击。",
+      "id": 31439,
+      "title": "FBI 警告 AI 黑客工具 ARTEX 正推动全球网络攻击",
+      "original_title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyber",
+      "summary": "FBI 警告称，黑客正使用名为 ARTEX 的 AI 渗透测试框架对全球组织实施自动化网络攻击。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 63.45,
+      "score_total": 64.7,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 渗透工具流向黑产实战，安全团队需警惕对手使用自动化 Agent 提升攻击效率，并关注防御端如何应对 AI 自动化攻击。",
+      "recommendation_reason": "攻击者已将 AI 渗透框架用于实战，AI for Sec 从业者需密切关注攻防两端自动化能力的演变，评估现有防御能否抵御 AI 驱动的自动化攻击。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheCyberSecHub/status/2122035415825965146",
-      "reader_url": "https://x.com/TheCyberSecHub/status/2122035415825965146",
-      "image_url": "https://pbs.twimg.com/media/HXL79xRboAA4VGg.jpg",
+      "canonical_url": "https://x.com/jpsharada/status/2122038703048761832",
+      "reader_url": "https://x.com/jpsharada/status/2122038703048761832",
+      "image_url": null,
       "author": {
-        "username": "TheCyberSecHub",
-        "name": "The Cyber Security Hub™",
+        "username": "jpsharada",
+        "name": "ℵ ᴷᴵᵞᵁˢᴬᴹᴬ ℵ",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-15T18:34:03",
-      "first_seen_at": "2026-11-15T18:39:25.329870",
+      "published_at": "2026-11-15T18:47:07",
+      "first_seen_at": "2026-11-15T19:11:25.367120",
       "sub_category_label": "安全Agent"
     }
   ]
