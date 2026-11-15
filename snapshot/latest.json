@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-15T22:02:11+08:00",
+  "updated_at": "2026-11-15T22:32:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 31371,
+      "title": "Claude-BugHunter 红队技能包冲上 GitHub Trending",
+      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 124 stars today",
+      "summary": "Claude-BugHunter 是面向漏洞挖掘和红队的 Claude Code 技能包，包含 82 个技能、15 个命令和 681 个已披露漏洞报告模式，覆盖 24 类核心漏洞。该项目近期在 GitHub 获得大量关注。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.79,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和漏洞挖掘从业者值得关注。它把 681 个真实漏洞模式封装成 Claude Code 技能，直接验证了 LLM 技能包在实战攻防中的落地效果，可作为构建自有安全 Agent 的参考。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
+      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-15T14:17:28.026120",
+      "first_seen_at": "2026-11-15T14:18:39.624053",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 31291,
       "title": "FBI 警告：黑客滥用 ARTEX 安全框架，借 AI 三小时内提权",
@@ -228,26 +248,6 @@
       "published_at": "2026-11-15T02:36:57",
       "first_seen_at": "2026-11-15T03:06:05.933779",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31315,
-      "title": "经验交接强化学习：实现智能体递归自我改进",
-      "original_title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-      "summary": "提出一种名为 Experience-Handoff 的强化学习方法，通过整理和传递环境经验（如 playbook）给后续任务，实现 LLM 智能体的递归自我改进。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 60.7,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "构建自动化安全Agent需从错误中反思并积累经验。本文提出的训练范式让Agent能整理并传递环境经验，为打造具备持久记忆的漏洞挖掘Agent提供了直接参考。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.16409",
-      "reader_url": "https://arxiv.org/pdf/2611.16409",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-13T00:00:00",
-      "first_seen_at": "2026-11-15T08:51:51.018844",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
