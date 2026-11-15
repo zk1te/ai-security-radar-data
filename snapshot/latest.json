@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T02:33:55+08:00",
+  "updated_at": "2026-11-16T03:04:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,6 +23,31 @@
       "published_at": "2026-11-15T14:17:28.026120",
       "first_seen_at": "2026-11-15T14:18:39.624053",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31431,
+      "title": "OffensiveCon 议题：AI 时代的 V8 安全",
+      "original_title": "\"V8 Security in the Age of AI by\" (OffensiveCon slide deck)    https://t.co/Ru9PboQZzP  Credits @5aelo and @mlippautz https://t.co/l1kkzY3F29",
+      "summary": "OffensiveCon 大会上发布了「AI 时代的 V8 安全」演讲幻灯片，由 @5aelo 和 @mlippautz 分享，探讨 AI 技术在 V8 引擎安全中的应用与影响。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "V8 引擎漏洞挖掘是二进制安全和浏览器安全的核心硬核领域。该议题直接探讨 AI 时代下 V8 安全攻防的演进，做漏洞挖掘和 fuzzing 的研究员必须关注，能启发将 AI 融入底层漏洞发现的具体思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2122012766470910322",
+      "reader_url": "https://x.com/0xor0ne/status/2122012766470910322",
+      "image_url": "https://pbs.twimg.com/media/HXLnXbMX0AAfwaW.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null,
+        "followers_count": 93861
+      },
+      "published_at": "2026-11-15T17:04:03",
+      "first_seen_at": "2026-11-15T18:38:59.277564",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 31384,
@@ -100,6 +125,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 31437,
+      "title": "DeepSeek Harness 插件生态观察：终端自动化测试能力初探",
+      "original_title": "官方点名，DeepSeek Harness 的 4 个神级插件。",
+      "summary": "文章介绍了 DeepSeek Harness 的多款实用插件，其中 paiwarp-dsh 插件支持通过自然语言驱动真实终端执行自动化测试并收集录屏证据，展示了 Agent 自动化操作终端的潜力。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "agent_architecture",
+      "score_total": 66.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全测试和漏洞挖掘从业者应关注 paiwarp-dsh 这类终端自动化 Agent 插件。它验证了 LLM 驱动真实终端执行命令、解析输出并支持人工接管的工作流，这种模式可直接平移到自动化 PoC 验证和安全工具编排中。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7707231949409026058",
+      "reader_url": "https://juejin.cn/post/7707231949409026058",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T01:56:52",
+      "first_seen_at": "2026-11-15T18:45:28.486549",
+      "sub_category_label": null
+    },
+    {
       "id": 31425,
       "title": "Cloudflare观察到超50种AI渗透测试工具扫描客户网络",
       "original_title": "JUST IN: Cloudflare says it saw over 50 AI penetration-testing tool families scanning its customers in three days. Daily requests from a handful of tracked tools rose more than 30-",
@@ -174,79 +219,29 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 31410,
-      "title": "LLM辅助形式化验证在Rust Web应用中发现多个零日漏洞",
-      "original_title": "In Apple's post, they isolated page-table control in the SPTM and wrote exclaveOS and Secure IPC in Swift for memory safety, yet still found critical kernel logic bugs through Isab",
-      "summary": "作者指出 LLM 能降低形式化验证的维护成本，并构建 h5i 工具链将 Rust 代码转译至 Lean 4 进行证明，在流行开源 Rust Web 应用中发现了多个零日漏洞。",
+      "id": 31435,
+      "title": "FBI 警告 ARTEX AI 黑客工具正驱动全球网络攻击",
+      "original_title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks: The FBI is warning that hackers are using an AI-powered penetration testing framework called… www.​bleepingcomputer",
+      "summary": "FBI 发布警告称，名为 ARTEX 的 AI 驱动渗透测试框架正被黑客广泛用于发起全球网络攻击。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
+      "sub_category": "security_agent",
       "score_total": 63.45,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "用 LLM 解决形式化验证难维护的痛点，这思路对搞代码审计和漏洞挖掘的人很有启发。想尝试新路线的可以研究下 h5i 的 Charon 和 Aeneas 转译方案。",
+      "recommendation_reason": "AI 渗透工具流向黑产实战，安全团队需警惕对手使用自动化 Agent 提升攻击效率，并关注防御端如何应对 AI 自动化攻击。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Koukyosyumei/status/2122004057107705935",
-      "reader_url": "https://x.com/Koukyosyumei/status/2122004057107705935",
-      "image_url": null,
+      "canonical_url": "https://x.com/TheCyberSecHub/status/2122035415825965146",
+      "reader_url": "https://x.com/TheCyberSecHub/status/2122035415825965146",
+      "image_url": "https://pbs.twimg.com/media/HXL79xRboAA4VGg.jpg",
       "author": {
-        "username": "Koukyosyumei",
-        "name": "Koukyosyumei",
+        "username": "TheCyberSecHub",
+        "name": "The Cyber Security Hub™",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-15T16:29:26",
-      "first_seen_at": "2026-11-15T17:00:26.114442",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 31382,
-      "title": "Agent 市场出现真实安全服务集成",
-      "original_title": "GM FAM  Security is a good test of whether an agent marketplace is real.   Anyone can list a vague “AI helper” service.   It’s harder when the provider is an actual security compan",
-      "summary": "GoPlus 和 Salus 等安全公司在 termix_ai 平台上将合约扫描和审计服务打包为 Agent 可按需调用的 API，使安全成为软件可按需购买的组件。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 63.28,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全工程师应关注这种安全服务 API 化并融入 Agent 工作流的趋势，这预示着未来的自动化安全测试可直接在 Agent 交易或交互流程中实时完成，而无需人工介入。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/dexterderler/status/2121980290918691066",
-      "reader_url": "https://x.com/dexterderler/status/2121980290918691066",
-      "image_url": "https://pbs.twimg.com/media/HWHkLtRXsAAZvLa.jpg",
-      "author": {
-        "username": "dexterderler",
-        "name": "iskender",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T14:55:00",
-      "first_seen_at": "2026-11-15T15:19:26.689683",
+      "published_at": "2026-11-15T18:34:03",
+      "first_seen_at": "2026-11-15T18:39:25.329870",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31413,
-      "title": "JPCERT/CC 发现约千台服务器涉嫌利用 AI 工具发起攻击",
-      "original_title": "Japan's cyber emergency team has found about 1,000 servers it suspects are being used for AI-driven attacks on websites worldwide.  Context: Japan has been hit by a wave of hacks t",
-      "summary": "日本 JPCERT/CC 正在调查约 1000 台涉嫌使用 AI 工具（如 Artex）进行网站攻击的服务器，部分服务器发现 Anthropic 编码工具痕迹，显示 AI 正大幅降低黑客攻击门槛。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_agent",
-      "score_total": 60.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "攻击者已经开始在野使用 AI 渗透工具和 AI 编码助手进行自动化漏洞挖掘和攻击分析。防守方需警惕「AI 速度」的攻击浪潮，并审视自身环境中 AI 工具的使用痕迹。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Iammdshohag/status/2122011747221647752",
-      "reader_url": "https://x.com/Iammdshohag/status/2122011747221647752",
-      "image_url": null,
-      "author": {
-        "username": "Iammdshohag",
-        "name": "Shohag Hossain",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T17:00:00",
-      "first_seen_at": "2026-11-15T17:33:16.515713",
-      "sub_category_label": null
     }
   ]
 }
