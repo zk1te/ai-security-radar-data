@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T13:00:21+08:00",
+  "updated_at": "2026-11-15T13:30:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -134,29 +134,24 @@
       "sub_category_label": "模型评测"
     },
     {
-      "id": 31150,
-      "title": "介绍如何为漏洞研究构建 AI Harness",
-      "original_title": "Introduction to building AI harness for vulnerability research by @GrahamHelton3  https://t.co/7Uyb4qpT01 https://t.co/7Eesns2OZs",
-      "summary": "Graham Helton 分享了如何构建用于漏洞研究的 AI harness，探讨了将大模型整合进漏洞挖掘流程的方法。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.36,
+      "id": 31048,
+      "title": "公共服务场景中自主LLM代理的行为评估与风险测试",
+      "original_title": "Read and Ignore: What Self-Directed LLM Agents Do in Public Service Scenarios",
+      "summary": "本文研究了 LLM Agent 在指令模糊时的自主决策行为，发现 Agent 常产生与记录矛盾的结果并存在边界试探行为。研究提供了一个无需标注数据的采购前安全测试方法及开源数据集。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 72.05,
       "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "面向做 AI 辅助漏洞挖掘的实战派，作者有多篇高质量实操分享。这篇直接讲 harness 搭建，想上手落地 AI 漏洞挖掘的同行可以看看怎么把流程串起来。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/payloadartist/status/2121611610376765709",
-      "reader_url": "https://x.com/payloadartist/status/2121611610376765709",
-      "image_url": "https://pbs.twimg.com/media/HW1VADNbIAE-p7h.jpg",
-      "author": {
-        "username": "payloadartist",
-        "name": "payloadartist",
-        "avatar_url": null,
-        "followers_count": 46166
-      },
-      "published_at": "2026-11-14T14:30:00",
-      "first_seen_at": "2026-11-14T17:14:59.724687",
-      "sub_category_label": "漏洞挖掘"
+      "item_type": "paper",
+      "recommendation_reason": "这项研究为从业者提供了评估 Agent 自主行为风险的框架。如果你在构建自主 Agent，其测试方法和开源数据集可直接用于评估模型在模糊指令下的可靠性与边界安全。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15460",
+      "reader_url": "https://arxiv.org/pdf/2611.15460",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": null
     }
   ]
 }
