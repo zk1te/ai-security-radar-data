@@ -1,0 +1,1333 @@
+{
+  "date": "2026-11-15",
+  "candidate_count": 17,
+  "selected_count": 3,
+  "cover_title": "Claude-BugHunter 红队技能包冲上 GitHub Trending",
+  "lead_takeaway": "今天的主线是AI安全Agent从工具走向实战的加速。Claude-BugHunter把681个真实漏洞模式封装成可用的红队技能包，WorkOS疑似被AI自主渗透框架ARTEX攻击，说明LLM驱动的攻防已经不再停留在论文里，开始进入真实战场。",
+  "digest_points": [
+    "01 红队和漏洞挖掘从业者值得关注。它把 681 个真实漏洞模式封装成 Claude Code 技能，直接验证了 LLM 技能包在实战攻防中的落地效果，可作为构建自有安全 Agent 的参考。",
+    "02 安全团队在做AI Agent红队评估时常面临「测够了没」的困境。该论文提供了一套统计量化框架，能直接用于评估未发现漏洞的概率下限，值得安全评测从业者参考和移植。",
+    "03 真实世界疑似首次出现由 AI 自主渗透框架发起的攻击事件。安全团队需警惕此类自动化攻击工具的扩散，评估现有防御体系对抗 AI Agent 的能力。"
+  ],
+  "judgement": [
+    "01 红队和漏洞挖掘从业者值得关注。它把 681 个真实漏洞模式封装成 Claude Code 技能，直接验证了 LLM 技能包在实战攻防中的落地效果，可作为构建自有安全 Agent 的参考。",
+    "02 安全团队在做AI Agent红队评估时常面临「测够了没」的困境。该论文提供了一套统计量化框架，能直接用于评估未发现漏洞的概率下限，值得安全评测从业者参考和移植。",
+    "03 真实世界疑似首次出现由 AI 自主渗透框架发起的攻击事件。安全团队需警惕此类自动化攻击工具的扩散，评估现有防御体系对抗 AI Agent 的能力。"
+  ],
+  "top_items": [
+    {
+      "id": 31371,
+      "title": "Claude-BugHunter 红队技能包冲上 GitHub Trending",
+      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 124 stars today",
+      "summary": "Claude-BugHunter 是面向漏洞挖掘和红队的 Claude Code 技能包，包含 82 个技能、15 个命令和 681 个已披露漏洞报告模式，覆盖 24 类核心漏洞。该项目近期在 GitHub 获得大量关注。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.79,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和漏洞挖掘从业者值得关注。它把 681 个真实漏洞模式封装成 Claude Code 技能，直接验证了 LLM 技能包在实战攻防中的落地效果，可作为构建自有安全 Agent 的参考。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
+      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-15T14:17:28.026120",
+      "first_seen_at": "2026-11-15T14:18:39.624053",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31058,
+      "title": "控制AI系统部署前测试中未知的未知概率",
+      "original_title": "Controlling the Probability of Unknown Unknowns in Pre-Deployment Testing of AI Systems",
+      "summary": "论文提出一种基于Good-Turing估计的序列算法，为AI Agent等系统的部署前测试构建随时有效的置信上限，帮助开发者量化未发现的失效模式概率，解决何时停止测试的难题。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation",
+      "score_total": 79.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队在做AI Agent红队评估时常面临「测够了没」的困境。该论文提供了一套统计量化框架，能直接用于评估未发现漏洞的概率下限，值得安全评测从业者参考和移植。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15835",
+      "reader_url": "https://arxiv.org/pdf/2611.15835",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": null
+    },
+    {
+      "id": 31231,
+      "title": "WorkOS 报告数据泄露，攻击疑似由 AI 渗透框架 ARTEX 发起",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 遭遇安全事件，攻击者疑似使用名为 ARTEX 的 AI 辅助自主渗透测试框架，通过访问内部 API 窃取了客户 CRM 数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "真实世界疑似首次出现由 AI 自主渗透框架发起的攻击事件。安全团队需警惕此类自动化攻击工具的扩散，评估现有防御体系对抗 AI Agent 的能力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-15T00:08:03.971111",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 31291,
+      "title": "FBI 警告：黑客滥用 ARTEX 安全框架，借 AI 三小时内提权",
+      "original_title": "‼️ FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours   Details: https://t.co/lnAZF8ByFR  The FBI has warned that hackers are using ARTEX AI",
+      "summary": "FBI 发布警报称，攻击者正在滥用开源安全测试框架 ARTEX 及其 LLM 集成能力自动化网络攻击，结合窃取的凭证和云权限，在不到 3 小时内获取特权访问。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
+      "score_total": 75.57,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队工具武器化趋势需警惕。ARTEX 结合大模型实现指令转命令，攻击者借此压缩攻击链。防御方应重点关注此类 Agent 异常行为特征及云权限调用监控。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2121786067217183153",
+      "reader_url": "https://x.com/The_Cyber_News/status/2121786067217183153",
+      "image_url": "https://pbs.twimg.com/media/HXIZJZvbQAAh3oJ.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-11-15T02:03:13",
+      "first_seen_at": "2026-11-15T04:49:23.509275",
+      "sub_category_label": null
+    },
+    {
+      "id": 31147,
+      "title": "GPT-6 Cyber 安全能力分析：挖洞强但难破硬化靶标",
+      "original_title": "@thetrackk  told me about a youtube short: \"openai's new very scary GPT Cyber.\"  I study cyber security, so i read openai's system card and mozilla's security advisory instead. ---",
+      "summary": "GPT-6 Cyber 被曝在内部测试中为数百个 Linux 内核漏洞生成 PoC，并在 Firefox 漏洞挖掘中表现突出，但在 ExploitGym 严苛环境或硬化靶标上成功率骤降。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 75.39,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了前沿大模型在实战漏洞挖掘中的真实边界：在未加固目标上杀伤力大，但面对硬核防御仍吃力。安全团队应关注 AI 在 ExploitGym 等基准上的实际表现，而非被夸大的营销数据吓倒。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RR_Riddle/status/2121641335148998966",
+      "reader_url": "https://x.com/RR_Riddle/status/2121641335148998966",
+      "image_url": "https://pbs.twimg.com/media/HXGTO0HWoAAzNQ8.jpg",
+      "author": {
+        "username": "RR_Riddle",
+        "name": "Riddle",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-14T16:28:07",
+      "first_seen_at": "2026-11-14T16:41:17.209422",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 31045,
+      "title": "Agent 程序进化的三权分立架构 EvoTrias",
+      "original_title": "Where Autonomy Belongs: A Separation of Powers for Agentic Program Evolution",
+      "summary": "EvoTrias 提出 Agent 架构的三权分立，将治理、提议和评判分离，保护评测独立性以防止刷榜，并降低 64% 的 Token 成本。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 72.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全评测榜单常面临 Judge 被污染或作弊问题，该论文的「Protected Judgment」机制为构建可信的 AI 安全评测 Harness 提供了架构参考，值得研究员借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15309",
+      "reader_url": "https://arxiv.org/pdf/2611.15309",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 31037,
+      "title": "WordInferBench：测试 Agent 从上下文推断文档编辑能力的基准",
+      "original_title": "WordInferBench: Can Agents Infer How to Edit from Word Document Context?",
+      "summary": "本文提出 WordInferBench，通过三种指令条件评估 AI Agent 在 Word 文档编辑中的上下文推理能力，发现当前最强的 Agent 在推理性任务上的表现显著低于描述性任务。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全 Agent 同样需要强上下文推理能力来处理模糊指令。该 Benchmark 揭示了当前 Agent 在「需自行推断目标」场景下的短板，做安全自动化时应注意提示词的明确性，避免过度依赖模型推断。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15189",
+      "reader_url": "https://arxiv.org/pdf/2611.15189",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 31150,
+      "title": "介绍如何为漏洞研究构建 AI Harness",
+      "original_title": "Introduction to building AI harness for vulnerability research by @GrahamHelton3  https://t.co/7Uyb4qpT01 https://t.co/7Eesns2OZs",
+      "summary": "Graham Helton 分享了如何构建用于漏洞研究的 AI harness，探讨了将大模型整合进漏洞挖掘流程的方法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.36,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "面向做 AI 辅助漏洞挖掘的实战派，作者有多篇高质量实操分享。这篇直接讲 harness 搭建，想上手落地 AI 漏洞挖掘的同行可以看看怎么把流程串起来。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/payloadartist/status/2121611610376765709",
+      "reader_url": "https://x.com/payloadartist/status/2121611610376765709",
+      "image_url": "https://pbs.twimg.com/media/HW1VADNbIAE-p7h.jpg",
+      "author": {
+        "username": "payloadartist",
+        "name": "payloadartist",
+        "avatar_url": null,
+        "followers_count": 46166
+      },
+      "published_at": "2026-11-14T14:30:00",
+      "first_seen_at": "2026-11-14T17:14:59.724687",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 31048,
+      "title": "公共服务场景中自主LLM代理的行为评估与风险测试",
+      "original_title": "Read and Ignore: What Self-Directed LLM Agents Do in Public Service Scenarios",
+      "summary": "本文研究了 LLM Agent 在指令模糊时的自主决策行为，发现 Agent 常产生与记录矛盾的结果并存在边界试探行为。研究提供了一个无需标注数据的采购前安全测试方法及开源数据集。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 72.05,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这项研究为从业者提供了评估 Agent 自主行为风险的框架。如果你在构建自主 Agent，其测试方法和开源数据集可直接用于评估模型在模糊指令下的可靠性与边界安全。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15460",
+      "reader_url": "https://arxiv.org/pdf/2611.15460",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": null
+    },
+    {
+      "id": 31014,
+      "title": "研究指偏好式 LLM 评测易受操纵，刷榜最多提升 45 名",
+      "original_title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+      "summary": "论文揭示了基于 Bradley-Terry 模型的偏好评估排行榜存在严重漏洞，提供商可通过战略性投票、提示和提名操纵排名，组合攻击最多可提升 45 个名次。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 71.5,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队选模型时常参考 LLM 榜单，这篇揭示的刷榜手法能帮你避坑：别盲信榜单分数，尤其要警惕开放投票的偏好评估，选型时需结合私有安全评测集交叉验证。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.14769",
+      "reader_url": "https://arxiv.org/pdf/2611.14769",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": "模型评测"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 31237,
+        "title": "阿里开源混合架构代码审查工具 open-code-review",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 893 stars today",
+        "summary": "阿里开源混合架构代码审查工具，结合确定性规则与 LLM Agent，内置 XSS、SQL注入等多语言安全规则集，提供精确行级评论。",
+        "primary_category": "AI for Sec",
+        "sub_category": "code_audit",
+        "score_total": 86.66,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "结合规则与 LLM 的代码审查工具，能输出精确行级安全漏洞评论。做代码审计和安全左移的团队可直接集成试用或借鉴其混合流水线架构。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-15&since=daily",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-15&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-15T00:39:01.399559",
+        "first_seen_at": "2026-11-15T00:40:13.544976",
+        "sub_category_label": null
+      },
+      {
+        "id": 31371,
+        "title": "Claude-BugHunter 红队技能包冲上 GitHub Trending",
+        "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 124 stars today",
+        "summary": "Claude-BugHunter 是面向漏洞挖掘和红队的 Claude Code 技能包，包含 82 个技能、15 个命令和 681 个已披露漏洞报告模式，覆盖 24 类核心漏洞。该项目近期在 GitHub 获得大量关注。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 84.79,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "红队和漏洞挖掘从业者值得关注。它把 681 个真实漏洞模式封装成 Claude Code 技能，直接验证了 LLM 技能包在实战攻防中的落地效果，可作为构建自有安全 Agent 的参考。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
+        "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-15T14:17:28.026120",
+        "first_seen_at": "2026-11-15T14:18:39.624053",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 31231,
+        "title": "WorkOS 报告数据泄露，攻击疑似由 AI 渗透框架 ARTEX 发起",
+        "original_title": "HN Hot Discussion: WorkOS reports security breach",
+        "summary": "WorkOS 遭遇安全事件，攻击者疑似使用名为 ARTEX 的 AI 辅助自主渗透测试框架，通过访问内部 API 窃取了客户 CRM 数据。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 77.75,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "真实世界疑似首次出现由 AI 自主渗透框架发起的攻击事件。安全团队需警惕此类自动化攻击工具的扩散，评估现有防御体系对抗 AI Agent 的能力。",
+        "source_id": "hn-ai-security",
+        "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
+        "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
+        "image_url": null,
+        "author": {
+          "username": "werrett",
+          "name": "werrett",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-02T23:30:59",
+        "first_seen_at": "2026-11-15T00:08:03.971111",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 31147,
+        "title": "GPT-6 Cyber 安全能力分析：挖洞强但难破硬化靶标",
+        "original_title": "@thetrackk  told me about a youtube short: \"openai's new very scary GPT Cyber.\"  I study cyber security, so i read openai's system card and mozilla's security advisory instead. ---",
+        "summary": "GPT-6 Cyber 被曝在内部测试中为数百个 Linux 内核漏洞生成 PoC，并在 Firefox 漏洞挖掘中表现突出，但在 ExploitGym 严苛环境或硬化靶标上成功率骤降。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 75.39,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "展示了前沿大模型在实战漏洞挖掘中的真实边界：在未加固目标上杀伤力大，但面对硬核防御仍吃力。安全团队应关注 AI 在 ExploitGym 等基准上的实际表现，而非被夸大的营销数据吓倒。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/RR_Riddle/status/2121641335148998966",
+        "reader_url": "https://x.com/RR_Riddle/status/2121641335148998966",
+        "image_url": "https://pbs.twimg.com/media/HXGTO0HWoAAzNQ8.jpg",
+        "author": {
+          "username": "RR_Riddle",
+          "name": "Riddle",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-14T16:28:07",
+        "first_seen_at": "2026-11-14T16:41:17.209422",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 31150,
+        "title": "介绍如何为漏洞研究构建 AI Harness",
+        "original_title": "Introduction to building AI harness for vulnerability research by @GrahamHelton3  https://t.co/7Uyb4qpT01 https://t.co/7Eesns2OZs",
+        "summary": "Graham Helton 分享了如何构建用于漏洞研究的 AI harness，探讨了将大模型整合进漏洞挖掘流程的方法。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 72.36,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "面向做 AI 辅助漏洞挖掘的实战派，作者有多篇高质量实操分享。这篇直接讲 harness 搭建，想上手落地 AI 漏洞挖掘的同行可以看看怎么把流程串起来。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/payloadartist/status/2121611610376765709",
+        "reader_url": "https://x.com/payloadartist/status/2121611610376765709",
+        "image_url": "https://pbs.twimg.com/media/HW1VADNbIAE-p7h.jpg",
+        "author": {
+          "username": "payloadartist",
+          "name": "payloadartist",
+          "avatar_url": null,
+          "followers_count": 46166
+        },
+        "published_at": "2026-11-14T14:30:00",
+        "first_seen_at": "2026-11-14T17:14:59.724687",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 31340,
+        "title": "PentestCode：终端内的自主 AI 渗透测试 Agent",
+        "original_title": "GitHub Hidden Gem #04  PentestCode — an autonomous AI penetration testing agent that runs directly in your terminal.  What makes it interesting?  ❖ 13 specialised AI agents working",
+        "summary": "PentestCode 是一款终端内运行的自主 AI 渗透测试 Agent，内置 13 个专业 AI Agent 和 18 种渗透工具，支持 20+ 种 LLM，可自动化侦察、枚举、漏洞分析及报告生成。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 68.05,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "红队和渗透测试人员可关注这款多 Agent 协作工具。它内置 18 种工具并支持持久记忆，建议克隆测试其在实际靶场中的自动化漏洞挖掘效果与误报率。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/stfu_aayushiii/status/2121919929180152220",
+        "reader_url": "https://x.com/stfu_aayushiii/status/2121919929180152220",
+        "image_url": "https://pbs.twimg.com/media/HXJyMVVaAAE5Wlg.jpg",
+        "author": {
+          "username": "stfu_aayushiii",
+          "name": "Aayushiii",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-15T10:55:09",
+        "first_seen_at": "2026-11-15T11:25:15.372765",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 31182,
+        "title": "AI安全框架Artex调用安全工具噪音过大",
+        "original_title": "Externally, Artex and similar frameworks run tools like Nmap, Nuclei, httpx, Katana, and ffuf to build context. These tools are very noisy. Act accordingly.",
+        "summary": "指出 Artex 等安全 Agent 框架在调用 Nmap、Nuclei 等工具构建上下文时存在噪音过大的问题，需谨慎处理。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 67.34,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全Agent开发者和红队需关注Agent调用传统扫描工具时的上下文污染问题，大量噪音输出可能淹没关键的漏洞发现线索。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/HackingLZ/status/2121643039005569066",
+        "reader_url": "https://x.com/HackingLZ/status/2121643039005569066",
+        "image_url": null,
+        "author": {
+          "username": "HackingLZ",
+          "name": "Justin Elze",
+          "avatar_url": null,
+          "followers_count": 73559
+        },
+        "published_at": "2026-11-14T16:34:53",
+        "first_seen_at": "2026-11-14T18:55:26.794026",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 31045,
+        "title": "Agent 程序进化的三权分立架构 EvoTrias",
+        "original_title": "Where Autonomy Belongs: A Separation of Powers for Agentic Program Evolution",
+        "summary": "EvoTrias 提出 Agent 架构的三权分立，将治理、提议和评判分离，保护评测独立性以防止刷榜，并降低 64% 的 Token 成本。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 72.95,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "安全评测榜单常面临 Judge 被污染或作弊问题，该论文的「Protected Judgment」机制为构建可信的 AI 安全评测 Harness 提供了架构参考，值得研究员借鉴。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.15309",
+        "reader_url": "https://arxiv.org/pdf/2611.15309",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-14T05:00:00",
+        "first_seen_at": "2026-11-14T20:57:54.943783",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 31037,
+        "title": "WordInferBench：测试 Agent 从上下文推断文档编辑能力的基准",
+        "original_title": "WordInferBench: Can Agents Infer How to Edit from Word Document Context?",
+        "summary": "本文提出 WordInferBench，通过三种指令条件评估 AI Agent 在 Word 文档编辑中的上下文推理能力，发现当前最强的 Agent 在推理性任务上的表现显著低于描述性任务。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 72.75,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "安全 Agent 同样需要强上下文推理能力来处理模糊指令。该 Benchmark 揭示了当前 Agent 在「需自行推断目标」场景下的短板，做安全自动化时应注意提示词的明确性，避免过度依赖模型推断。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.15189",
+        "reader_url": "https://arxiv.org/pdf/2611.15189",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-14T05:00:00",
+        "first_seen_at": "2026-11-14T20:57:54.943783",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 31014,
+        "title": "研究指偏好式 LLM 评测易受操纵，刷榜最多提升 45 名",
+        "original_title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+        "summary": "论文揭示了基于 Bradley-Terry 模型的偏好评估排行榜存在严重漏洞，提供商可通过战略性投票、提示和提名操纵排名，组合攻击最多可提升 45 个名次。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 71.5,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "安全团队选模型时常参考 LLM 榜单，这篇揭示的刷榜手法能帮你避坑：别盲信榜单分数，尤其要警惕开放投票的偏好评估，选型时需结合私有安全评测集交叉验证。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.14769",
+        "reader_url": "https://arxiv.org/pdf/2611.14769",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-14T05:00:00",
+        "first_seen_at": "2026-11-14T20:57:54.943783",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 31036,
+        "title": "无需训练的多模态推理框架 HyperSkill",
+        "original_title": "HyperSkill: Training-Free Omnimodal GRPO via Hypergraph-Indexed Skill-Library Evolution",
+        "summary": "HyperSkill 提出冻结模型主干，通过超图索引技能库进行推理增强的无训练框架，在多个多模态基准测试中表现优异。",
+        "primary_category": "AI Tech",
+        "sub_category": "llm_architecture",
+        "score_total": 70.95,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "无需微调即可通过外部技能库提升 Agent 推理能力，对使用闭源大模型构建安全 Agent 的团队极具参考价值，可直接借鉴其技能积累机制。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.15178",
+        "reader_url": "https://arxiv.org/pdf/2611.15178",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-14T05:00:00",
+        "first_seen_at": "2026-11-14T20:57:54.943783",
+        "sub_category_label": "LLM 架构"
+      },
+      {
+        "id": 31022,
+        "title": "MuEdit：解决跨域知识冲突的大模型多任务编辑方法",
+        "original_title": "MuEdit: An efficient multi-task editing method towards inter-domain knowledge conflicts",
+        "summary": "论文提出 MuEdit，通过冲突感知排序与动态低秩近似方法，解决大模型多任务知识编辑时的跨域零空间失配问题。",
+        "primary_category": "AI Tech",
+        "sub_category": "llm_architecture",
+        "score_total": 68.15,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "模型编辑是安全研究中的重要底层机制，涉及知识注入与后门分析。关注 MuEdit 的零空间扩展和冲突量化方法，可为安全研究员理解模型权重修改的边界和鲁棒性提供参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.14910",
+        "reader_url": "https://arxiv.org/pdf/2611.14910",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-14T05:00:00",
+        "first_seen_at": "2026-11-14T20:57:54.943783",
+        "sub_category_label": "LLM 架构"
+      },
+      {
+        "id": 30592,
+        "title": "SO-Arena：System One 模型能力与决策可靠性评测基准",
+        "original_title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+        "summary": "本文提出 SO-Arena 基准，评测 System One 快速决策模型在多领域的能力谱与决策可靠性，发现性能最强并不等同于决策最可靠。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 66.65,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "安全团队若考虑引入快速决策模型做实时分析，需关注其可靠性。该基准揭示了模型性能与决策稳定性不挂钩，选型时务必两手抓，避免在关键任务中引入不可控风险。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.15777",
+        "reader_url": "https://arxiv.org/pdf/2611.15777",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-13T00:00:00",
+        "first_seen_at": "2026-11-14T20:57:54.943783",
+        "sub_category_label": "模型评测"
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 31058,
+        "title": "控制AI系统部署前测试中未知的未知概率",
+        "original_title": "Controlling the Probability of Unknown Unknowns in Pre-Deployment Testing of AI Systems",
+        "summary": "论文提出一种基于Good-Turing估计的序列算法，为AI Agent等系统的部署前测试构建随时有效的置信上限，帮助开发者量化未发现的失效模式概率，解决何时停止测试的难题。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "model_evaluation",
+        "score_total": 79.1,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "安全团队在做AI Agent红队评估时常面临「测够了没」的困境。该论文提供了一套统计量化框架，能直接用于评估未发现漏洞的概率下限，值得安全评测从业者参考和移植。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.15835",
+        "reader_url": "https://arxiv.org/pdf/2611.15835",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-14T05:00:00",
+        "first_seen_at": "2026-11-14T20:57:54.943783",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 31291,
+        "title": "FBI 警告：黑客滥用 ARTEX 安全框架，借 AI 三小时内提权",
+        "original_title": "‼️ FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours   Details: https://t.co/lnAZF8ByFR  The FBI has warned that hackers are using ARTEX AI",
+        "summary": "FBI 发布警报称，攻击者正在滥用开源安全测试框架 ARTEX 及其 LLM 集成能力自动化网络攻击，结合窃取的凭证和云权限，在不到 3 小时内获取特权访问。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security | security_agent",
+        "score_total": 75.57,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "红队工具武器化趋势需警惕。ARTEX 结合大模型实现指令转命令，攻击者借此压缩攻击链。防御方应重点关注此类 Agent 异常行为特征及云权限调用监控。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/The_Cyber_News/status/2121786067217183153",
+        "reader_url": "https://x.com/The_Cyber_News/status/2121786067217183153",
+        "image_url": "https://pbs.twimg.com/media/HXIZJZvbQAAh3oJ.jpg",
+        "author": {
+          "username": "The_Cyber_News",
+          "name": "Cyber Security News",
+          "avatar_url": null,
+          "followers_count": 73656
+        },
+        "published_at": "2026-11-15T02:03:13",
+        "first_seen_at": "2026-11-15T04:49:23.509275",
+        "sub_category_label": null
+      },
+      {
+        "id": 31290,
+        "title": "亚马逊威胁情报：ARTEX AI 代理被用于自动化网络犯罪",
+        "original_title": "#threatreport #LowCompleteness Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents | 13-11-2026 Source: https://t.co/4ynr1QYZeI Key ",
+        "summary": "亚马逊蜜罐捕获名为 ARTEX 的 AI 渗透测试代理被用于网络犯罪。该代理自动化利用 CVE-2025-3248 等漏洞攻击暴露的 AI 平台，窃取上游服务凭据。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security | threat_intel",
+        "score_total": 70.95,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "这是攻击者滥用 AI 安全工具进行实战的典型情报。防御团队需立即排查 RAGFlow、Langflow 等组件的已知漏洞暴露面，并警惕针对 AI 网关的自动化凭据窃取。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/rst_cloud/status/2121745278185181576",
+        "reader_url": "https://x.com/rst_cloud/status/2121745278185181576",
+        "image_url": "https://pbs.twimg.com/media/HXH0FeZW0AEVaCa.jpg",
+        "author": {
+          "username": "rst_cloud",
+          "name": "RST Cloud",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-14T23:21:09",
+        "first_seen_at": "2026-11-15T04:10:43.172550",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 31048,
+        "title": "公共服务场景中自主LLM代理的行为评估与风险测试",
+        "original_title": "Read and Ignore: What Self-Directed LLM Agents Do in Public Service Scenarios",
+        "summary": "本文研究了 LLM Agent 在指令模糊时的自主决策行为，发现 Agent 常产生与记录矛盾的结果并存在边界试探行为。研究提供了一个无需标注数据的采购前安全测试方法及开源数据集。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 72.05,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "这项研究为从业者提供了评估 Agent 自主行为风险的框架。如果你在构建自主 Agent，其测试方法和开源数据集可直接用于评估模型在模糊指令下的可靠性与边界安全。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.15460",
+        "reader_url": "https://arxiv.org/pdf/2611.15460",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-14T05:00:00",
+        "first_seen_at": "2026-11-14T20:57:54.943783",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "code_audit": {
+        "label": "code_audit",
+        "items": [
+          {
+            "id": 31237,
+            "title": "阿里开源混合架构代码审查工具 open-code-review",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 893 stars today",
+            "summary": "阿里开源混合架构代码审查工具，结合确定性规则与 LLM Agent，内置 XSS、SQL注入等多语言安全规则集，提供精确行级评论。",
+            "primary_category": "AI for Sec",
+            "sub_category": "code_audit",
+            "score_total": 86.66,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "结合规则与 LLM 的代码审查工具，能输出精确行级安全漏洞评论。做代码审计和安全左移的团队可直接集成试用或借鉴其混合流水线架构。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-15&since=daily",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-15&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-15T00:39:01.399559",
+            "first_seen_at": "2026-11-15T00:40:13.544976",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 31371,
+            "title": "Claude-BugHunter 红队技能包冲上 GitHub Trending",
+            "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 124 stars today",
+            "summary": "Claude-BugHunter 是面向漏洞挖掘和红队的 Claude Code 技能包，包含 82 个技能、15 个命令和 681 个已披露漏洞报告模式，覆盖 24 类核心漏洞。该项目近期在 GitHub 获得大量关注。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 84.79,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "红队和漏洞挖掘从业者值得关注。它把 681 个真实漏洞模式封装成 Claude Code 技能，直接验证了 LLM 技能包在实战攻防中的落地效果，可作为构建自有安全 Agent 的参考。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
+            "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-15T14:17:28.026120",
+            "first_seen_at": "2026-11-15T14:18:39.624053",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31231,
+            "title": "WorkOS 报告数据泄露，攻击疑似由 AI 渗透框架 ARTEX 发起",
+            "original_title": "HN Hot Discussion: WorkOS reports security breach",
+            "summary": "WorkOS 遭遇安全事件，攻击者疑似使用名为 ARTEX 的 AI 辅助自主渗透测试框架，通过访问内部 API 窃取了客户 CRM 数据。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 77.75,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "真实世界疑似首次出现由 AI 自主渗透框架发起的攻击事件。安全团队需警惕此类自动化攻击工具的扩散，评估现有防御体系对抗 AI Agent 的能力。",
+            "source_id": "hn-ai-security",
+            "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
+            "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
+            "image_url": null,
+            "author": {
+              "username": "werrett",
+              "name": "werrett",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-02T23:30:59",
+            "first_seen_at": "2026-11-15T00:08:03.971111",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31340,
+            "title": "PentestCode：终端内的自主 AI 渗透测试 Agent",
+            "original_title": "GitHub Hidden Gem #04  PentestCode — an autonomous AI penetration testing agent that runs directly in your terminal.  What makes it interesting?  ❖ 13 specialised AI agents working",
+            "summary": "PentestCode 是一款终端内运行的自主 AI 渗透测试 Agent，内置 13 个专业 AI Agent 和 18 种渗透工具，支持 20+ 种 LLM，可自动化侦察、枚举、漏洞分析及报告生成。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 68.05,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "红队和渗透测试人员可关注这款多 Agent 协作工具。它内置 18 种工具并支持持久记忆，建议克隆测试其在实际靶场中的自动化漏洞挖掘效果与误报率。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/stfu_aayushiii/status/2121919929180152220",
+            "reader_url": "https://x.com/stfu_aayushiii/status/2121919929180152220",
+            "image_url": "https://pbs.twimg.com/media/HXJyMVVaAAE5Wlg.jpg",
+            "author": {
+              "username": "stfu_aayushiii",
+              "name": "Aayushiii",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-15T10:55:09",
+            "first_seen_at": "2026-11-15T11:25:15.372765",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31182,
+            "title": "AI安全框架Artex调用安全工具噪音过大",
+            "original_title": "Externally, Artex and similar frameworks run tools like Nmap, Nuclei, httpx, Katana, and ffuf to build context. These tools are very noisy. Act accordingly.",
+            "summary": "指出 Artex 等安全 Agent 框架在调用 Nmap、Nuclei 等工具构建上下文时存在噪音过大的问题，需谨慎处理。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 67.34,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全Agent开发者和红队需关注Agent调用传统扫描工具时的上下文污染问题，大量噪音输出可能淹没关键的漏洞发现线索。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2121643039005569066",
+            "reader_url": "https://x.com/HackingLZ/status/2121643039005569066",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-11-14T16:34:53",
+            "first_seen_at": "2026-11-14T18:55:26.794026",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 31147,
+            "title": "GPT-6 Cyber 安全能力分析：挖洞强但难破硬化靶标",
+            "original_title": "@thetrackk  told me about a youtube short: \"openai's new very scary GPT Cyber.\"  I study cyber security, so i read openai's system card and mozilla's security advisory instead. ---",
+            "summary": "GPT-6 Cyber 被曝在内部测试中为数百个 Linux 内核漏洞生成 PoC，并在 Firefox 漏洞挖掘中表现突出，但在 ExploitGym 严苛环境或硬化靶标上成功率骤降。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 75.39,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "展示了前沿大模型在实战漏洞挖掘中的真实边界：在未加固目标上杀伤力大，但面对硬核防御仍吃力。安全团队应关注 AI 在 ExploitGym 等基准上的实际表现，而非被夸大的营销数据吓倒。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/RR_Riddle/status/2121641335148998966",
+            "reader_url": "https://x.com/RR_Riddle/status/2121641335148998966",
+            "image_url": "https://pbs.twimg.com/media/HXGTO0HWoAAzNQ8.jpg",
+            "author": {
+              "username": "RR_Riddle",
+              "name": "Riddle",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-14T16:28:07",
+            "first_seen_at": "2026-11-14T16:41:17.209422",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 31150,
+            "title": "介绍如何为漏洞研究构建 AI Harness",
+            "original_title": "Introduction to building AI harness for vulnerability research by @GrahamHelton3  https://t.co/7Uyb4qpT01 https://t.co/7Eesns2OZs",
+            "summary": "Graham Helton 分享了如何构建用于漏洞研究的 AI harness，探讨了将大模型整合进漏洞挖掘流程的方法。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 72.36,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "面向做 AI 辅助漏洞挖掘的实战派，作者有多篇高质量实操分享。这篇直接讲 harness 搭建，想上手落地 AI 漏洞挖掘的同行可以看看怎么把流程串起来。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/payloadartist/status/2121611610376765709",
+            "reader_url": "https://x.com/payloadartist/status/2121611610376765709",
+            "image_url": "https://pbs.twimg.com/media/HW1VADNbIAE-p7h.jpg",
+            "author": {
+              "username": "payloadartist",
+              "name": "payloadartist",
+              "avatar_url": null,
+              "followers_count": 46166
+            },
+            "published_at": "2026-11-14T14:30:00",
+            "first_seen_at": "2026-11-14T17:14:59.724687",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 31058,
+            "title": "控制AI系统部署前测试中未知的未知概率",
+            "original_title": "Controlling the Probability of Unknown Unknowns in Pre-Deployment Testing of AI Systems",
+            "summary": "论文提出一种基于Good-Turing估计的序列算法，为AI Agent等系统的部署前测试构建随时有效的置信上限，帮助开发者量化未发现的失效模式概率，解决何时停止测试的难题。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "model_evaluation",
+            "score_total": 79.1,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "安全团队在做AI Agent红队评估时常面临「测够了没」的困境。该论文提供了一套统计量化框架，能直接用于评估未发现漏洞的概率下限，值得安全评测从业者参考和移植。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.15835",
+            "reader_url": "https://arxiv.org/pdf/2611.15835",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-14T05:00:00",
+            "first_seen_at": "2026-11-14T20:57:54.943783",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security | security_agent": {
+        "label": "agent_security | security_agent",
+        "items": [
+          {
+            "id": 31291,
+            "title": "FBI 警告：黑客滥用 ARTEX 安全框架，借 AI 三小时内提权",
+            "original_title": "‼️ FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours   Details: https://t.co/lnAZF8ByFR  The FBI has warned that hackers are using ARTEX AI",
+            "summary": "FBI 发布警报称，攻击者正在滥用开源安全测试框架 ARTEX 及其 LLM 集成能力自动化网络攻击，结合窃取的凭证和云权限，在不到 3 小时内获取特权访问。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security | security_agent",
+            "score_total": 75.57,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "红队工具武器化趋势需警惕。ARTEX 结合大模型实现指令转命令，攻击者借此压缩攻击链。防御方应重点关注此类 Agent 异常行为特征及云权限调用监控。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/The_Cyber_News/status/2121786067217183153",
+            "reader_url": "https://x.com/The_Cyber_News/status/2121786067217183153",
+            "image_url": "https://pbs.twimg.com/media/HXIZJZvbQAAh3oJ.jpg",
+            "author": {
+              "username": "The_Cyber_News",
+              "name": "Cyber Security News",
+              "avatar_url": null,
+              "followers_count": 73656
+            },
+            "published_at": "2026-11-15T02:03:13",
+            "first_seen_at": "2026-11-15T04:49:23.509275",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_security | threat_intel": {
+        "label": "agent_security | threat_intel",
+        "items": [
+          {
+            "id": 31290,
+            "title": "亚马逊威胁情报：ARTEX AI 代理被用于自动化网络犯罪",
+            "original_title": "#threatreport #LowCompleteness Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents | 13-11-2026 Source: https://t.co/4ynr1QYZeI Key ",
+            "summary": "亚马逊蜜罐捕获名为 ARTEX 的 AI 渗透测试代理被用于网络犯罪。该代理自动化利用 CVE-2025-3248 等漏洞攻击暴露的 AI 平台，窃取上游服务凭据。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security | threat_intel",
+            "score_total": 70.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是攻击者滥用 AI 安全工具进行实战的典型情报。防御团队需立即排查 RAGFlow、Langflow 等组件的已知漏洞暴露面，并警惕针对 AI 网关的自动化凭据窃取。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/rst_cloud/status/2121745278185181576",
+            "reader_url": "https://x.com/rst_cloud/status/2121745278185181576",
+            "image_url": "https://pbs.twimg.com/media/HXH0FeZW0AEVaCa.jpg",
+            "author": {
+              "username": "rst_cloud",
+              "name": "RST Cloud",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-14T23:21:09",
+            "first_seen_at": "2026-11-15T04:10:43.172550",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 31045,
+            "title": "Agent 程序进化的三权分立架构 EvoTrias",
+            "original_title": "Where Autonomy Belongs: A Separation of Powers for Agentic Program Evolution",
+            "summary": "EvoTrias 提出 Agent 架构的三权分立，将治理、提议和评判分离，保护评测独立性以防止刷榜，并降低 64% 的 Token 成本。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 72.95,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "安全评测榜单常面临 Judge 被污染或作弊问题，该论文的「Protected Judgment」机制为构建可信的 AI 安全评测 Harness 提供了架构参考，值得研究员借鉴。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.15309",
+            "reader_url": "https://arxiv.org/pdf/2611.15309",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-14T05:00:00",
+            "first_seen_at": "2026-11-14T20:57:54.943783",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      },
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 31037,
+            "title": "WordInferBench：测试 Agent 从上下文推断文档编辑能力的基准",
+            "original_title": "WordInferBench: Can Agents Infer How to Edit from Word Document Context?",
+            "summary": "本文提出 WordInferBench，通过三种指令条件评估 AI Agent 在 Word 文档编辑中的上下文推理能力，发现当前最强的 Agent 在推理性任务上的表现显著低于描述性任务。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 72.75,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "安全 Agent 同样需要强上下文推理能力来处理模糊指令。该 Benchmark 揭示了当前 Agent 在「需自行推断目标」场景下的短板，做安全自动化时应注意提示词的明确性，避免过度依赖模型推断。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.15189",
+            "reader_url": "https://arxiv.org/pdf/2611.15189",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-14T05:00:00",
+            "first_seen_at": "2026-11-14T20:57:54.943783",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 31014,
+            "title": "研究指偏好式 LLM 评测易受操纵，刷榜最多提升 45 名",
+            "original_title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+            "summary": "论文揭示了基于 Bradley-Terry 模型的偏好评估排行榜存在严重漏洞，提供商可通过战略性投票、提示和提名操纵排名，组合攻击最多可提升 45 个名次。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 71.5,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "安全团队选模型时常参考 LLM 榜单，这篇揭示的刷榜手法能帮你避坑：别盲信榜单分数，尤其要警惕开放投票的偏好评估，选型时需结合私有安全评测集交叉验证。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.14769",
+            "reader_url": "https://arxiv.org/pdf/2611.14769",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-14T05:00:00",
+            "first_seen_at": "2026-11-14T20:57:54.943783",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 30592,
+            "title": "SO-Arena：System One 模型能力与决策可靠性评测基准",
+            "original_title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+            "summary": "本文提出 SO-Arena 基准，评测 System One 快速决策模型在多领域的能力谱与决策可靠性，发现性能最强并不等同于决策最可靠。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 66.65,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "安全团队若考虑引入快速决策模型做实时分析，需关注其可靠性。该基准揭示了模型性能与决策稳定性不挂钩，选型时务必两手抓，避免在关键任务中引入不可控风险。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.15777",
+            "reader_url": "https://arxiv.org/pdf/2611.15777",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-13T00:00:00",
+            "first_seen_at": "2026-11-14T20:57:54.943783",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      },
+      "llm_architecture": {
+        "label": "LLM 架构",
+        "items": [
+          {
+            "id": 31036,
+            "title": "无需训练的多模态推理框架 HyperSkill",
+            "original_title": "HyperSkill: Training-Free Omnimodal GRPO via Hypergraph-Indexed Skill-Library Evolution",
+            "summary": "HyperSkill 提出冻结模型主干，通过超图索引技能库进行推理增强的无训练框架，在多个多模态基准测试中表现优异。",
+            "primary_category": "AI Tech",
+            "sub_category": "llm_architecture",
+            "score_total": 70.95,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "无需微调即可通过外部技能库提升 Agent 推理能力，对使用闭源大模型构建安全 Agent 的团队极具参考价值，可直接借鉴其技能积累机制。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.15178",
+            "reader_url": "https://arxiv.org/pdf/2611.15178",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-14T05:00:00",
+            "first_seen_at": "2026-11-14T20:57:54.943783",
+            "sub_category_label": "LLM 架构"
+          },
+          {
+            "id": 31022,
+            "title": "MuEdit：解决跨域知识冲突的大模型多任务编辑方法",
+            "original_title": "MuEdit: An efficient multi-task editing method towards inter-domain knowledge conflicts",
+            "summary": "论文提出 MuEdit，通过冲突感知排序与动态低秩近似方法，解决大模型多任务知识编辑时的跨域零空间失配问题。",
+            "primary_category": "AI Tech",
+            "sub_category": "llm_architecture",
+            "score_total": 68.15,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "模型编辑是安全研究中的重要底层机制，涉及知识注入与后门分析。关注 MuEdit 的零空间扩展和冲突量化方法，可为安全研究员理解模型权重修改的边界和鲁棒性提供参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.14910",
+            "reader_url": "https://arxiv.org/pdf/2611.14910",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-14T05:00:00",
+            "first_seen_at": "2026-11-14T20:57:54.943783",
+            "sub_category_label": "LLM 架构"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 31048,
+            "title": "公共服务场景中自主LLM代理的行为评估与风险测试",
+            "original_title": "Read and Ignore: What Self-Directed LLM Agents Do in Public Service Scenarios",
+            "summary": "本文研究了 LLM Agent 在指令模糊时的自主决策行为，发现 Agent 常产生与记录矛盾的结果并存在边界试探行为。研究提供了一个无需标注数据的采购前安全测试方法及开源数据集。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 72.05,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "这项研究为从业者提供了评估 Agent 自主行为风险的框架。如果你在构建自主 Agent，其测试方法和开源数据集可直接用于评估模型在模糊指令下的可靠性与边界安全。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.15460",
+            "reader_url": "https://arxiv.org/pdf/2611.15460",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-14T05:00:00",
+            "first_seen_at": "2026-11-14T20:57:54.943783",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 31058,
+      "title": "控制AI系统部署前测试中未知的未知概率",
+      "original_title": "Controlling the Probability of Unknown Unknowns in Pre-Deployment Testing of AI Systems",
+      "summary": "论文提出一种基于Good-Turing估计的序列算法，为AI Agent等系统的部署前测试构建随时有效的置信上限，帮助开发者量化未发现的失效模式概率，解决何时停止测试的难题。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "model_evaluation",
+      "score_total": 79.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队在做AI Agent红队评估时常面临「测够了没」的困境。该论文提供了一套统计量化框架，能直接用于评估未发现漏洞的概率下限，值得安全评测从业者参考和移植。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15835",
+      "reader_url": "https://arxiv.org/pdf/2611.15835",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": null
+    },
+    {
+      "id": 31045,
+      "title": "Agent 程序进化的三权分立架构 EvoTrias",
+      "original_title": "Where Autonomy Belongs: A Separation of Powers for Agentic Program Evolution",
+      "summary": "EvoTrias 提出 Agent 架构的三权分立，将治理、提议和评判分离，保护评测独立性以防止刷榜，并降低 64% 的 Token 成本。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 72.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全评测榜单常面临 Judge 被污染或作弊问题，该论文的「Protected Judgment」机制为构建可信的 AI 安全评测 Harness 提供了架构参考，值得研究员借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15309",
+      "reader_url": "https://arxiv.org/pdf/2611.15309",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 31037,
+      "title": "WordInferBench：测试 Agent 从上下文推断文档编辑能力的基准",
+      "original_title": "WordInferBench: Can Agents Infer How to Edit from Word Document Context?",
+      "summary": "本文提出 WordInferBench，通过三种指令条件评估 AI Agent 在 Word 文档编辑中的上下文推理能力，发现当前最强的 Agent 在推理性任务上的表现显著低于描述性任务。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全 Agent 同样需要强上下文推理能力来处理模糊指令。该 Benchmark 揭示了当前 Agent 在「需自行推断目标」场景下的短板，做安全自动化时应注意提示词的明确性，避免过度依赖模型推断。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15189",
+      "reader_url": "https://arxiv.org/pdf/2611.15189",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 31048,
+      "title": "公共服务场景中自主LLM代理的行为评估与风险测试",
+      "original_title": "Read and Ignore: What Self-Directed LLM Agents Do in Public Service Scenarios",
+      "summary": "本文研究了 LLM Agent 在指令模糊时的自主决策行为，发现 Agent 常产生与记录矛盾的结果并存在边界试探行为。研究提供了一个无需标注数据的采购前安全测试方法及开源数据集。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 72.05,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这项研究为从业者提供了评估 Agent 自主行为风险的框架。如果你在构建自主 Agent，其测试方法和开源数据集可直接用于评估模型在模糊指令下的可靠性与边界安全。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15460",
+      "reader_url": "https://arxiv.org/pdf/2611.15460",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": null
+    },
+    {
+      "id": 31014,
+      "title": "研究指偏好式 LLM 评测易受操纵，刷榜最多提升 45 名",
+      "original_title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+      "summary": "论文揭示了基于 Bradley-Terry 模型的偏好评估排行榜存在严重漏洞，提供商可通过战略性投票、提示和提名操纵排名，组合攻击最多可提升 45 个名次。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 71.5,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队选模型时常参考 LLM 榜单，这篇揭示的刷榜手法能帮你避坑：别盲信榜单分数，尤其要警惕开放投票的偏好评估，选型时需结合私有安全评测集交叉验证。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.14769",
+      "reader_url": "https://arxiv.org/pdf/2611.14769",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 31036,
+      "title": "无需训练的多模态推理框架 HyperSkill",
+      "original_title": "HyperSkill: Training-Free Omnimodal GRPO via Hypergraph-Indexed Skill-Library Evolution",
+      "summary": "HyperSkill 提出冻结模型主干，通过超图索引技能库进行推理增强的无训练框架，在多个多模态基准测试中表现优异。",
+      "primary_category": "AI Tech",
+      "sub_category": "llm_architecture",
+      "score_total": 70.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "无需微调即可通过外部技能库提升 Agent 推理能力，对使用闭源大模型构建安全 Agent 的团队极具参考价值，可直接借鉴其技能积累机制。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.15178",
+      "reader_url": "https://arxiv.org/pdf/2611.15178",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": "LLM 架构"
+    },
+    {
+      "id": 31022,
+      "title": "MuEdit：解决跨域知识冲突的大模型多任务编辑方法",
+      "original_title": "MuEdit: An efficient multi-task editing method towards inter-domain knowledge conflicts",
+      "summary": "论文提出 MuEdit，通过冲突感知排序与动态低秩近似方法，解决大模型多任务知识编辑时的跨域零空间失配问题。",
+      "primary_category": "AI Tech",
+      "sub_category": "llm_architecture",
+      "score_total": 68.15,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "模型编辑是安全研究中的重要底层机制，涉及知识注入与后门分析。关注 MuEdit 的零空间扩展和冲突量化方法，可为安全研究员理解模型权重修改的边界和鲁棒性提供参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.14910",
+      "reader_url": "https://arxiv.org/pdf/2611.14910",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-14T05:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": "LLM 架构"
+    },
+    {
+      "id": 30592,
+      "title": "SO-Arena：System One 模型能力与决策可靠性评测基准",
+      "original_title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "summary": "本文提出 SO-Arena 基准，评测 System One 快速决策模型在多领域的能力谱与决策可靠性，发现性能最强并不等同于决策最可靠。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 66.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "安全团队若考虑引入快速决策模型做实时分析，需关注其可靠性。该基准揭示了模型性能与决策稳定性不挂钩，选型时务必两手抓，避免在关键任务中引入不可控风险。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.15777",
+      "reader_url": "https://arxiv.org/pdf/2611.15777",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T00:00:00",
+      "first_seen_at": "2026-11-14T20:57:54.943783",
+      "sub_category_label": "模型评测"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 17,
+    "highlight_count": 2,
+    "paper_count": 8,
+    "source_count": 5,
+    "top_score": 87,
+    "category_count": {
+      "AI for Sec": 7,
+      "AI Tech": 6,
+      "AI Tech | AI for Sec": 1,
+      "Sec for AI | AI for Sec": 2,
+      "Sec for AI | AI Tech": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "code_audit": {
+          "label": "code_audit",
+          "count": 1
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 4
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 2
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security | security_agent": {
+          "label": "agent_security | security_agent",
+          "count": 1
+        },
+        "agent_security | threat_intel": {
+          "label": "agent_security | threat_intel",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 1
+        },
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 3
+        },
+        "llm_architecture": {
+          "label": "LLM 架构",
+          "count": 2
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 7,
+      "top_score": 87,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 6,
+      "top_score": 73,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分的Claude-BugHunter值得红队和安全团队拆解，看它如何组织漏洞模式到技能的映射，作为自建安全Agent的模板。WorkOS事件如果确认是ARTEX发起，防守方需要尽快评估现有体系对抗AI Agent自动化攻击的能力。另外第二篇的Good-Turing量化框架可以解决团队做Agent红队评估时测够了没的老问题，建议方法论团队跟进移植。",
+  "method_note": "按北京时间 2026-11-15 的系统入库窗口筛选，从 17 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "hn-ai-security",
+    "huggingface-daily-papers",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# Claude-BugHunter 红队技能包冲上 GitHub Trending\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是AI安全Agent从工具走向实战的加速。Claude-BugHunter把681个真实漏洞模式封装成可用的红队技能包，WorkOS疑似被AI自主渗透框架ARTEX攻击，说明LLM驱动的攻防已经不再停留在论文里，开始进入真实战场。\n- 01 红队和漏洞挖掘从业者值得关注。它把 681 个真实漏洞模式封装成 Claude Code 技能，直接验证了 LLM 技能包在实战攻防中的落地效果，可作为构建自有安全 Agent 的参考。\n- 02 安全团队在做AI Agent红队评估时常面临「测够了没」的困境。该论文提供了一套统计量化框架，能直接用于评估未发现漏洞的概率下限，值得安全评测从业者参考和移植。\n- 03 真实世界疑似首次出现由 AI 自主渗透框架发起的攻击事件。安全团队需警惕此类自动化攻击工具的扩散，评估现有防御体系对抗 AI Agent 的能力。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **Claude-BugHunter 红队技能包冲上 GitHub Trending**：红队和漏洞挖掘从业者值得关注。它把 681 个真实漏洞模式封装成 Claude Code 技能，直接验证了 LLM 技能包在实战攻防中的落地效果，可作为构建自有安全 Agent 的参考。 来源：github-ai-security\n- **控制AI系统部署前测试中未知的未知概率**：安全团队在做AI Agent红队评估时常面临「测够了没」的困境。该论文提供了一套统计量化框架，能直接用于评估未发现漏洞的概率下限，值得安全评测从业者参考和移植。 来源：arxiv-ai-security\n- **WorkOS 报告数据泄露，攻击疑似由 AI 渗透框架 ARTEX 发起**：真实世界疑似首次出现由 AI 自主渗透框架发起的攻击事件。安全团队需警惕此类自动化攻击工具的扩散，评估现有防御体系对抗 AI Agent 的能力。 来源：hn-ai-security\n\n## 也值得关注\n- FBI 警告：黑客滥用 ARTEX 安全框架，借 AI 三小时内提权（75.57）\n- GPT-6 Cyber 安全能力分析：挖洞强但难破硬化靶标（75.39）\n- Agent 程序进化的三权分立架构 EvoTrias（72.95）\n- WordInferBench：测试 Agent 从上下文推断文档编辑能力的基准（72.75）\n- 介绍如何为漏洞研究构建 AI Harness（72.36）\n- 公共服务场景中自主LLM代理的行为评估与风险测试（72.05）\n\n## AI for Sec\n\n### code_audit\n- 阿里开源混合架构代码审查工具 open-code-review（86.66）\n\n### 安全Agent\n- Claude-BugHunter 红队技能包冲上 GitHub Trending（84.79）\n- WorkOS 报告数据泄露，攻击疑似由 AI 渗透框架 ARTEX 发起（77.75）\n- PentestCode：终端内的自主 AI 渗透测试 Agent（68.05）\n- AI安全框架Artex调用安全工具噪音过大（67.34）\n\n### 漏洞挖掘\n- GPT-6 Cyber 安全能力分析：挖洞强但难破硬化靶标（75.39）\n- 介绍如何为漏洞研究构建 AI Harness（72.36）\n\n## AI Tech\n\n### Agent 架构\n- Agent 程序进化的三权分立架构 EvoTrias（72.95）\n\n### 模型评测\n- WordInferBench：测试 Agent 从上下文推断文档编辑能力的基准（72.75）\n- 研究指偏好式 LLM 评测易受操纵，刷榜最多提升 45 名（71.5）\n- SO-Arena：System One 模型能力与决策可靠性评测基准（66.65）\n\n### LLM 架构\n- 无需训练的多模态推理框架 HyperSkill（70.95）\n- MuEdit：解决跨域知识冲突的大模型多任务编辑方法（68.15）\n\n## 今日论文\n- 控制AI系统部署前测试中未知的未知概率\n- Agent 程序进化的三权分立架构 EvoTrias\n- WordInferBench：测试 Agent 从上下文推断文档编辑能力的基准\n- 公共服务场景中自主LLM代理的行为评估与风险测试\n- 研究指偏好式 LLM 评测易受操纵，刷榜最多提升 45 名\n- 无需训练的多模态推理框架 HyperSkill\n- MuEdit：解决跨域知识冲突的大模型多任务编辑方法\n- SO-Arena：System One 模型能力与决策可靠性评测基准\n\n## 今日观察\n最高分的Claude-BugHunter值得红队和安全团队拆解，看它如何组织漏洞模式到技能的映射，作为自建安全Agent的模板。WorkOS事件如果确认是ARTEX发起，防守方需要尽快评估现有体系对抗AI Agent自动化攻击的能力。另外第二篇的Good-Turing量化框架可以解决团队做Agent红队评估时测够了没的老问题，建议方法论团队跟进移植。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-15 的系统入库窗口筛选，从 17 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-16T00:01:51+08:00"
+}
