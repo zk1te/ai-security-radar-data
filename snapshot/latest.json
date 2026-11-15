@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T22:32:23+08:00",
+  "updated_at": "2026-11-15T23:32:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -75,6 +75,31 @@
       "sub_category_label": null
     },
     {
+      "id": 31384,
+      "title": "FBI就LLM渗透框架ARTEX发布FLASH警报",
+      "original_title": "The @FBI just put ARTEX on an official FLASH, with some intrusions going from initial targeting to privileged access in under three hours.  ARTEX is an open source, LLM-driven pene",
+      "summary": "FBI 针对开源 LLM 渗透框架 ARTEX 发布 FLASH 警报，该工具被广泛用于金融等行业，数小时内即可获取特权，并伴随 AI 凭证窃取行为。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "FBI 首次针对 LLM 驱动的攻击工具发布警报，标志自动化攻击已工业化。安全团队须立即盘点外部暴露面，并考虑在 LLM 网关部署欺骗防御。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ResilientCyber/status/2121981868438413723",
+      "reader_url": "https://x.com/ResilientCyber/status/2121981868438413723",
+      "image_url": null,
+      "author": {
+        "username": "ResilientCyber",
+        "name": "Chris Hughes",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T15:01:16",
+      "first_seen_at": "2026-11-15T15:19:46.976572",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 31298,
       "title": "ARTEX AI 渗透工具发布三月即遭武器化，泄露凭据成最快入侵路径",
       "original_title": "#threatreport #MediumCompleteness ARTEX: Attackers Adopted This AI Pentesting Tool in Three Months. Leaked Secrets Are Its Fastest Way In. | 13-11-2026 Source: https://t.co/mBDjho1",
@@ -125,31 +150,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 31287,
-      "title": "FBI 警告开源 AI 渗透工具 Artex 被滥用为自动化攻击武器",
-      "original_title": "🚨تحذير FBI: أداة Artex تحوّل الذكاء الاصطناعي إلى سلاح اختراق آلي  #عالم_الحماية #الأمن_السيبراني #اختراق_البيانات #CyberSecurity #DataBreach #infosec #امن_المعلومات  أصدر FBI تنبي",
-      "summary": "FBI 发布紧急警告称，开源 AI 渗透测试平台 Artex 被攻击者武器化，能自动执行从侦察到数据窃取的全链路攻击，3小时内可获取高权限，目前已发现超1600个暴露面板并被用于金融机构攻击。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "FBI 的 Flash Alert 明确指出 AI Agent 正在被武器化用于全链路自动化攻击。安全团队应立即排查暴露在公网的 Artex 面板，并监控内部大模型 API Key 是否被窃取用于发起自动化攻击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/security_wd/status/2121798781779779996",
-      "reader_url": "https://x.com/security_wd/status/2121798781779779996",
-      "image_url": null,
-      "author": {
-        "username": "security_wd",
-        "name": "عالم الحماية | Security World",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T02:53:45",
-      "first_seen_at": "2026-11-15T03:06:47.123024",
-      "sub_category_label": null
-    },
-    {
       "id": 31340,
       "title": "PentestCode：终端内的自主 AI 渗透测试 Agent",
       "original_title": "GitHub Hidden Gem #04  PentestCode — an autonomous AI penetration testing agent that runs directly in your terminal.  What makes it interesting?  ❖ 13 specialised AI agents working",
@@ -172,31 +172,6 @@
       },
       "published_at": "2026-11-15T10:55:09",
       "first_seen_at": "2026-11-15T11:25:15.372765",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31279,
-      "title": "Secorizon 发布多模型安全审计工具 Swarmerz",
-      "original_title": "RT @secorizon: Today Secorizon is releasing Swarmerz, a multi-model security audit harness for local and frontier models. Parallel hunts on…",
-      "summary": "Secorizon 发布 Swarmerz，一个支持本地和前沿模型的多模型安全审计工具，可实现并行漏洞搜索。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.48,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "多模型并行审计是提升漏洞挖掘效率的新思路，安全团队可关注其多模型协同与并行策略的实际效果，评估是否引入自有流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2121789174516699353",
-      "reader_url": "https://x.com/HackingLZ/status/2121789174516699353",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-11-15T02:15:34",
-      "first_seen_at": "2026-11-15T03:05:52.367162",
       "sub_category_label": "安全Agent"
     },
     {
@@ -225,29 +200,49 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 31281,
-      "title": "Cloudflare：AI 渗透测试工具流量自10月以来暴增30倍",
-      "original_title": "Cloudflare (Nov 13), on traffic it observes: \"Daily requests of AI penetration testing (pentesting) and exploitation tools has grown by 30x since October 1.\" Pillar 1 of its Modern",
-      "summary": "Cloudflare 观察到自 10 月 1 日以来 AI 渗透测试与漏洞利用工具的每日请求量增长了 30 倍，建议采用具备速率限制等高级规则的 WAF 进行防御。",
+      "id": 31382,
+      "title": "Agent 市场出现真实安全服务集成",
+      "original_title": "GM FAM  Security is a good test of whether an agent marketplace is real.   Anyone can list a vague “AI helper” service.   It’s harder when the provider is an actual security compan",
+      "summary": "GoPlus 和 Salus 等安全公司在 termix_ai 平台上将合约扫描和审计服务打包为 Agent 可按需调用的 API，使安全成为软件可按需购买的组件。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 62.7,
+      "score_total": 63.28,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "这是给防御团队和红队的实战风向标，说明 AI 自动化攻击工具已大规模落地。安全团队应立即检查 WAF 的速率限制策略以应对自动化流量洪峰。",
+      "recommendation_reason": "安全工程师应关注这种安全服务 API 化并融入 Agent 工作流的趋势，这预示着未来的自动化安全测试可直接在 Agent 交易或交互流程中实时完成，而无需人工介入。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/YcawpSXcglIdgxP/status/2121794554244256134",
-      "reader_url": "https://x.com/YcawpSXcglIdgxP/status/2121794554244256134",
-      "image_url": null,
+      "canonical_url": "https://x.com/dexterderler/status/2121980290918691066",
+      "reader_url": "https://x.com/dexterderler/status/2121980290918691066",
+      "image_url": "https://pbs.twimg.com/media/HWHkLtRXsAAZvLa.jpg",
       "author": {
-        "username": "YcawpSXcglIdgxP",
-        "name": "Signal Desk",
+        "username": "dexterderler",
+        "name": "iskender",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-15T02:36:57",
-      "first_seen_at": "2026-11-15T03:06:05.933779",
+      "published_at": "2026-11-15T14:55:00",
+      "first_seen_at": "2026-11-15T15:19:26.689683",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31315,
+      "title": "经验交接强化学习：实现智能体递归自我改进",
+      "original_title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "summary": "提出一种名为 Experience-Handoff 的强化学习方法，通过整理和传递环境经验（如 playbook）给后续任务，实现 LLM 智能体的递归自我改进。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 60.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "构建自动化安全Agent需从错误中反思并积累经验。本文提出的训练范式让Agent能整理并传递环境经验，为打造具备持久记忆的漏洞挖掘Agent提供了直接参考。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.16409",
+      "reader_url": "https://arxiv.org/pdf/2611.16409",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T00:00:00",
+      "first_seen_at": "2026-11-15T08:51:51.018844",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
