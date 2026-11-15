@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T01:03:20+08:00",
+  "updated_at": "2026-11-16T01:33:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -224,24 +224,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 31315,
-      "title": "经验交接强化学习：实现智能体递归自我改进",
-      "original_title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
-      "summary": "提出一种名为 Experience-Handoff 的强化学习方法，通过整理和传递环境经验（如 playbook）给后续任务，实现 LLM 智能体的递归自我改进。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
+      "id": 31413,
+      "title": "JPCERT/CC 发现约千台服务器涉嫌利用 AI 工具发起攻击",
+      "original_title": "Japan's cyber emergency team has found about 1,000 servers it suspects are being used for AI-driven attacks on websites worldwide.  Context: Japan has been hit by a wave of hacks t",
+      "summary": "日本 JPCERT/CC 正在调查约 1000 台涉嫌使用 AI 工具（如 Artex）进行网站攻击的服务器，部分服务器发现 Anthropic 编码工具痕迹，显示 AI 正大幅降低黑客攻击门槛。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security | security_agent",
       "score_total": 60.7,
       "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "构建自动化安全Agent需从错误中反思并积累经验。本文提出的训练范式让Agent能整理并传递环境经验，为打造具备持久记忆的漏洞挖掘Agent提供了直接参考。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.16409",
-      "reader_url": "https://arxiv.org/pdf/2611.16409",
+      "item_type": "news",
+      "recommendation_reason": "攻击者已经开始在野使用 AI 渗透工具和 AI 编码助手进行自动化漏洞挖掘和攻击分析。防守方需警惕「AI 速度」的攻击浪潮，并审视自身环境中 AI 工具的使用痕迹。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Iammdshohag/status/2122011747221647752",
+      "reader_url": "https://x.com/Iammdshohag/status/2122011747221647752",
       "image_url": null,
-      "author": null,
-      "published_at": "2026-11-13T00:00:00",
-      "first_seen_at": "2026-11-15T08:51:51.018844",
-      "sub_category_label": "Agent 架构"
+      "author": {
+        "username": "Iammdshohag",
+        "name": "Shohag Hossain",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T17:00:00",
+      "first_seen_at": "2026-11-15T17:33:16.515713",
+      "sub_category_label": null
     }
   ]
 }
