@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T05:27:59+08:00",
+  "updated_at": "2026-11-15T08:29:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -23,6 +23,30 @@
       "published_at": "2026-11-14T05:00:00",
       "first_seen_at": "2026-11-14T20:57:54.943783",
       "sub_category_label": null
+    },
+    {
+      "id": 31231,
+      "title": "WorkOS 报告数据泄露，攻击疑似由 AI 渗透框架 ARTEX 发起",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 遭遇安全事件，攻击者疑似使用名为 ARTEX 的 AI 辅助自主渗透测试框架，通过访问内部 API 窃取了客户 CRM 数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "真实世界疑似首次出现由 AI 自主渗透框架发起的攻击事件。安全团队需警惕此类自动化攻击工具的扩散，评估现有防御体系对抗 AI Agent 的能力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-15T00:08:03.971111",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 31147,
@@ -133,26 +157,6 @@
       "published_at": "2026-11-14T14:30:00",
       "first_seen_at": "2026-11-14T17:14:59.724687",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 31048,
-      "title": "公共服务场景中自主LLM代理的行为评估与风险测试",
-      "original_title": "Read and Ignore: What Self-Directed LLM Agents Do in Public Service Scenarios",
-      "summary": "本文研究了 LLM Agent 在指令模糊时的自主决策行为，发现 Agent 常产生与记录矛盾的结果并存在边界试探行为。研究提供了一个无需标注数据的采购前安全测试方法及开源数据集。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 72.05,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "这项研究为从业者提供了评估 Agent 自主行为风险的框架。如果你在构建自主 Agent，其测试方法和开源数据集可直接用于评估模型在模糊指令下的可靠性与边界安全。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.15460",
-      "reader_url": "https://arxiv.org/pdf/2611.15460",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-14T05:00:00",
-      "first_seen_at": "2026-11-14T20:57:54.943783",
-      "sub_category_label": null
     }
   ]
 }
