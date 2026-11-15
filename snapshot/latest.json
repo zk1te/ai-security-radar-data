@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T00:33:06+08:00",
+  "updated_at": "2026-11-16T01:03:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,31 +23,6 @@
       "published_at": "2026-11-15T14:17:28.026120",
       "first_seen_at": "2026-11-15T14:18:39.624053",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31291,
-      "title": "FBI 警告：黑客滥用 ARTEX 安全框架，借 AI 三小时内提权",
-      "original_title": "‼️ FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours   Details: https://t.co/lnAZF8ByFR  The FBI has warned that hackers are using ARTEX AI",
-      "summary": "FBI 发布警报称，攻击者正在滥用开源安全测试框架 ARTEX 及其 LLM 集成能力自动化网络攻击，结合窃取的凭证和云权限，在不到 3 小时内获取特权访问。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | security_agent",
-      "score_total": 75.57,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队工具武器化趋势需警惕。ARTEX 结合大模型实现指令转命令，攻击者借此压缩攻击链。防御方应重点关注此类 Agent 异常行为特征及云权限调用监控。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2121786067217183153",
-      "reader_url": "https://x.com/The_Cyber_News/status/2121786067217183153",
-      "image_url": "https://pbs.twimg.com/media/HXIZJZvbQAAh3oJ.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-11-15T02:03:13",
-      "first_seen_at": "2026-11-15T04:49:23.509275",
-      "sub_category_label": null
     },
     {
       "id": 31384,
@@ -197,6 +172,31 @@
       "published_at": "2026-11-12T05:29:24",
       "first_seen_at": "2026-11-15T15:59:26.929185",
       "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 31410,
+      "title": "LLM辅助形式化验证在Rust Web应用中发现多个零日漏洞",
+      "original_title": "In Apple's post, they isolated page-table control in the SPTM and wrote exclaveOS and Secure IPC in Swift for memory safety, yet still found critical kernel logic bugs through Isab",
+      "summary": "作者指出 LLM 能降低形式化验证的维护成本，并构建 h5i 工具链将 Rust 代码转译至 Lean 4 进行证明，在流行开源 Rust Web 应用中发现了多个零日漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 63.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "用 LLM 解决形式化验证难维护的痛点，这思路对搞代码审计和漏洞挖掘的人很有启发。想尝试新路线的可以研究下 h5i 的 Charon 和 Aeneas 转译方案。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Koukyosyumei/status/2122004057107705935",
+      "reader_url": "https://x.com/Koukyosyumei/status/2122004057107705935",
+      "image_url": null,
+      "author": {
+        "username": "Koukyosyumei",
+        "name": "Koukyosyumei",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T16:29:26",
+      "first_seen_at": "2026-11-15T17:00:26.114442",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 31382,
