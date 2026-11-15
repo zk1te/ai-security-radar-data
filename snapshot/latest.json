@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T03:34:07+08:00",
+  "updated_at": "2026-11-16T07:34:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -75,6 +75,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 31478,
+      "title": "Claude-Red：为 Claude 打包红队与渗透测试技能库",
+      "original_title": "Claude-Red packages offensive-security methodology into reusable SKILL.md files for Claude.  The library covers web apps, APIs, authentication, cloud, Active Directory, containers,",
+      "summary": "Claude-Red 项目将 Web 应用、API、云等渗透测试方法论封装为可按需加载的 SKILL.md 文件，支持 Claude Code 进行红队评估与 Bug Bounty。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全工程师可借鉴其技能模块化思路优化 AI 安全 Agent。直接拉下来看看 SKILL.md 的写法，能帮你更好地构建 prompt 与上下文管理策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/jurlycat/status/2122102354577178814",
+      "reader_url": "https://x.com/jurlycat/status/2122102354577178814",
+      "image_url": "https://pbs.twimg.com/media/HXL2YCtasAAYFgj.jpg",
+      "author": {
+        "username": "jurlycat",
+        "name": "Jurly",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T23:00:02",
+      "first_seen_at": "2026-11-15T23:28:54.341052",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 31402,
       "title": "Unit42：攻击者利用开源AI渗透框架Cairn开展自主攻击",
       "original_title": "@PaloAltoNtwks @Unit42_Intel published a report on November 12, 2026. It says that from August to September 2026, Chinese-speaking attackers used an open-source AI penetration test",
@@ -100,31 +125,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 31340,
-      "title": "PentestCode：终端内的自主 AI 渗透测试 Agent",
-      "original_title": "GitHub Hidden Gem #04  PentestCode — an autonomous AI penetration testing agent that runs directly in your terminal.  What makes it interesting?  ❖ 13 specialised AI agents working",
-      "summary": "PentestCode 是一款终端内运行的自主 AI 渗透测试 Agent，内置 13 个专业 AI Agent 和 18 种渗透工具，支持 20+ 种 LLM，可自动化侦察、枚举、漏洞分析及报告生成。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.05,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和渗透测试人员可关注这款多 Agent 协作工具。它内置 18 种工具并支持持久记忆，建议克隆测试其在实际靶场中的自动化漏洞挖掘效果与误报率。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/stfu_aayushiii/status/2121919929180152220",
-      "reader_url": "https://x.com/stfu_aayushiii/status/2121919929180152220",
-      "image_url": "https://pbs.twimg.com/media/HXJyMVVaAAE5Wlg.jpg",
-      "author": {
-        "username": "stfu_aayushiii",
-        "name": "Aayushiii",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T10:55:09",
-      "first_seen_at": "2026-11-15T11:25:15.372765",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 31437,
       "title": "DeepSeek Harness 插件生态观察：终端自动化测试能力初探",
       "original_title": "官方点名，DeepSeek Harness 的 4 个神级插件。",
@@ -143,6 +143,31 @@
       "published_at": "2026-11-13T01:56:52",
       "first_seen_at": "2026-11-15T18:45:28.486549",
       "sub_category_label": null
+    },
+    {
+      "id": 31479,
+      "title": "Cloudflare 称 AI 渗透测试工具流量激增 30 倍",
+      "original_title": "؜🛡️ Cloudflare تقول إن أدوات الاختراق اللي يشغّلها وكلاء الـ AI Agents صارت ترسل طلبات لمواقع عملائها أكثر بـ 30 مرة من بداية أكتوبر.  ؜في 13 نوفمبر، نشر فريق Cloudforce One في Clo",
+      "summary": "Cloudflare 安全团队发现，由 AI Agent 驱动的自动化渗透测试工具对客户网站的扫描请求自 10 月初激增 30 倍，仅 3 天内就检测到超 50 种不同工具。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需警惕 AI 渗透测试工具爆发现象，其高频自动化扫描可能干扰正常流量或触发 WAF 误报，需评估现有策略能否有效识别和过滤此类 Agent 行为。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/alawbathani/status/2122102530448482776",
+      "reader_url": "https://x.com/alawbathani/status/2122102530448482776",
+      "image_url": null,
+      "author": {
+        "username": "alawbathani",
+        "name": "Alawbathani | مرعي",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T23:00:44",
+      "first_seen_at": "2026-11-15T23:28:54.656848",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 31425,
@@ -217,31 +242,6 @@
       "published_at": "2026-11-12T05:29:24",
       "first_seen_at": "2026-11-15T15:59:26.929185",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 31439,
-      "title": "FBI 警告 AI 黑客工具 ARTEX 正推动全球网络攻击",
-      "original_title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyber",
-      "summary": "FBI 警告称，黑客正使用名为 ARTEX 的 AI 渗透测试框架对全球组织实施自动化网络攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 64.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "攻击者已将 AI 渗透框架用于实战，AI for Sec 从业者需密切关注攻防两端自动化能力的演变，评估现有防御能否抵御 AI 驱动的自动化攻击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jpsharada/status/2122038703048761832",
-      "reader_url": "https://x.com/jpsharada/status/2122038703048761832",
-      "image_url": null,
-      "author": {
-        "username": "jpsharada",
-        "name": "ℵ ᴷᴵᵞᵁˢᴬᴹᴬ ℵ",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T18:47:07",
-      "first_seen_at": "2026-11-15T19:11:25.367120",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
