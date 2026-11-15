@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:02:02+08:00",
+  "updated_at": "2026-11-15T22:02:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -180,31 +180,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 31272,
-      "title": "27个AI Agent重建应用：安全Agent发现Windows文件删除漏洞",
-      "original_title": "🚨 27 AI Agents Rebuilt a Paid App in Just 3 Hours and 12 Minutes!  But one agent had a different mission: find a way to delete critical system files!  The security agent discovered",
-      "summary": "一套包含27个AI Agent的系统在3小时内重建付费应用，其中安全Agent成功发现涉及短路径「DOCUME~1」的Windows文件删除漏洞，并在发布前修复。系统强调多Agent开发需配合严格验证和人工审核。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 64.27,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可参考这种将安全Agent嵌入多Agent开发流程的实践，但要注意多Agent不等于更安全，严格验证和人工审核仍是关键防线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/marvinmary99/status/2121778034701369455",
-      "reader_url": "https://x.com/marvinmary99/status/2121778034701369455",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2121778008872902656/img/IT7cBmu58VpulRZW.jpg",
-      "author": {
-        "username": "marvinmary99",
-        "name": "Marvin Mary",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T01:31:18",
-      "first_seen_at": "2026-11-15T01:59:58.780206",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 31288,
       "title": "TermiX 推 C724 倡议：AI 安全代理需权限边界与人工监督",
       "original_title": "Next challenge in crypto security might not be detecting threats.  It might be deciding what an AI security agent is allowed to do after detecting one.  TermiX's new C724 initiativ",
@@ -253,6 +228,26 @@
       "published_at": "2026-11-15T02:36:57",
       "first_seen_at": "2026-11-15T03:06:05.933779",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31315,
+      "title": "经验交接强化学习：实现智能体递归自我改进",
+      "original_title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+      "summary": "提出一种名为 Experience-Handoff 的强化学习方法，通过整理和传递环境经验（如 playbook）给后续任务，实现 LLM 智能体的递归自我改进。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 60.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "构建自动化安全Agent需从错误中反思并积累经验。本文提出的训练范式让Agent能整理并传递环境经验，为打造具备持久记忆的漏洞挖掘Agent提供了直接参考。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.16409",
+      "reader_url": "https://arxiv.org/pdf/2611.16409",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T00:00:00",
+      "first_seen_at": "2026-11-15T08:51:51.018844",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
