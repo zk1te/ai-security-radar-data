@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T19:31:40+08:00",
+  "updated_at": "2026-11-15T20:31:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 31237,
@@ -23,30 +23,6 @@
       "published_at": "2026-11-15T00:39:01.399559",
       "first_seen_at": "2026-11-15T00:40:13.544976",
       "sub_category_label": null
-    },
-    {
-      "id": 31231,
-      "title": "WorkOS 报告数据泄露，攻击疑似由 AI 渗透框架 ARTEX 发起",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 遭遇安全事件，攻击者疑似使用名为 ARTEX 的 AI 辅助自主渗透测试框架，通过访问内部 API 窃取了客户 CRM 数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.75,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "真实世界疑似首次出现由 AI 自主渗透框架发起的攻击事件。安全团队需警惕此类自动化攻击工具的扩散，评估现有防御体系对抗 AI Agent 的能力。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-15",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-15T00:08:03.971111",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 31291,
@@ -221,6 +197,56 @@
       },
       "published_at": "2026-11-15T10:55:09",
       "first_seen_at": "2026-11-15T11:25:15.372765",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31279,
+      "title": "Secorizon 发布多模型安全审计工具 Swarmerz",
+      "original_title": "RT @secorizon: Today Secorizon is releasing Swarmerz, a multi-model security audit harness for local and frontier models. Parallel hunts on…",
+      "summary": "Secorizon 发布 Swarmerz，一个支持本地和前沿模型的多模型安全审计工具，可实现并行漏洞搜索。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.48,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "多模型并行审计是提升漏洞挖掘效率的新思路，安全团队可关注其多模型协同与并行策略的实际效果，评估是否引入自有流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2121789174516699353",
+      "reader_url": "https://x.com/HackingLZ/status/2121789174516699353",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-11-15T02:15:34",
+      "first_seen_at": "2026-11-15T03:05:52.367162",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31272,
+      "title": "27个AI Agent重建应用：安全Agent发现Windows文件删除漏洞",
+      "original_title": "🚨 27 AI Agents Rebuilt a Paid App in Just 3 Hours and 12 Minutes!  But one agent had a different mission: find a way to delete critical system files!  The security agent discovered",
+      "summary": "一套包含27个AI Agent的系统在3小时内重建付费应用，其中安全Agent成功发现涉及短路径「DOCUME~1」的Windows文件删除漏洞，并在发布前修复。系统强调多Agent开发需配合严格验证和人工审核。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 64.27,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可参考这种将安全Agent嵌入多Agent开发流程的实践，但要注意多Agent不等于更安全，严格验证和人工审核仍是关键防线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/marvinmary99/status/2121778034701369455",
+      "reader_url": "https://x.com/marvinmary99/status/2121778034701369455",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2121778008872902656/img/IT7cBmu58VpulRZW.jpg",
+      "author": {
+        "username": "marvinmary99",
+        "name": "Marvin Mary",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T01:31:18",
+      "first_seen_at": "2026-11-15T01:59:58.780206",
       "sub_category_label": "安全Agent"
     }
   ]
