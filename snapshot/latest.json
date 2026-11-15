@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T00:02:42+08:00",
+  "updated_at": "2026-11-16T00:33:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -47,31 +47,6 @@
       },
       "published_at": "2026-11-15T02:03:13",
       "first_seen_at": "2026-11-15T04:49:23.509275",
-      "sub_category_label": null
-    },
-    {
-      "id": 31290,
-      "title": "亚马逊威胁情报：ARTEX AI 代理被用于自动化网络犯罪",
-      "original_title": "#threatreport #LowCompleteness Amazon Threat Intelligence observes threat actors running cybercrime campaigns with ARTEX AI agents | 13-11-2026 Source: https://t.co/4ynr1QYZeI Key ",
-      "summary": "亚马逊蜜罐捕获名为 ARTEX 的 AI 渗透测试代理被用于网络犯罪。该代理自动化利用 CVE-2025-3248 等漏洞攻击暴露的 AI 平台，窃取上游服务凭据。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security | threat_intel",
-      "score_total": 70.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是攻击者滥用 AI 安全工具进行实战的典型情报。防御团队需立即排查 RAGFlow、Langflow 等组件的已知漏洞暴露面，并警惕针对 AI 网关的自动化凭据窃取。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2121745278185181576",
-      "reader_url": "https://x.com/rst_cloud/status/2121745278185181576",
-      "image_url": "https://pbs.twimg.com/media/HXH0FeZW0AEVaCa.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-14T23:21:09",
-      "first_seen_at": "2026-11-15T04:10:43.172550",
       "sub_category_label": null
     },
     {
@@ -123,6 +98,31 @@
       "published_at": "2026-11-15T05:46:05",
       "first_seen_at": "2026-11-15T05:55:32.521770",
       "sub_category_label": null
+    },
+    {
+      "id": 31402,
+      "title": "Unit42：攻击者利用开源AI渗透框架Cairn开展自主攻击",
+      "original_title": "@PaloAltoNtwks @Unit42_Intel published a report on November 12, 2026. It says that from August to September 2026, Chinese-speaking attackers used an open-source AI penetration test",
+      "summary": "Unit42 报告披露，中文黑客组织在2026年8至9月使用名为 Cairn 的开源 AI 渗透测试框架，针对至少19个组织自主执行了25次攻击行动。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI渗透工具正被武器化，攻击者利用开源框架Cairn实现自主攻击。防守方需警惕自动化攻击趋势，评估自身防御体系对抗AI Agent的承受力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Bobalouie41/status/2122002570176552992",
+      "reader_url": "https://x.com/Bobalouie41/status/2122002570176552992",
+      "image_url": null,
+      "author": {
+        "username": "Bobalouie41",
+        "name": "Bobby Shearer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T16:23:32",
+      "first_seen_at": "2026-11-15T16:27:39.632896",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 31301,
