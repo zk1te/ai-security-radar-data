@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T17:01:01+08:00",
+  "updated_at": "2026-11-15T19:31:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -199,28 +199,28 @@
       "sub_category_label": null
     },
     {
-      "id": 31279,
-      "title": "Secorizon 发布多模型安全审计工具 Swarmerz",
-      "original_title": "RT @secorizon: Today Secorizon is releasing Swarmerz, a multi-model security audit harness for local and frontier models. Parallel hunts on…",
-      "summary": "Secorizon 发布 Swarmerz，一个支持本地和前沿模型的多模型安全审计工具，可实现并行漏洞搜索。",
+      "id": 31340,
+      "title": "PentestCode：终端内的自主 AI 渗透测试 Agent",
+      "original_title": "GitHub Hidden Gem #04  PentestCode — an autonomous AI penetration testing agent that runs directly in your terminal.  What makes it interesting?  ❖ 13 specialised AI agents working",
+      "summary": "PentestCode 是一款终端内运行的自主 AI 渗透测试 Agent，内置 13 个专业 AI Agent 和 18 种渗透工具，支持 20+ 种 LLM，可自动化侦察、枚举、漏洞分析及报告生成。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 66.48,
+      "score_total": 68.05,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "多模型并行审计是提升漏洞挖掘效率的新思路，安全团队可关注其多模型协同与并行策略的实际效果，评估是否引入自有流程。",
+      "recommendation_reason": "红队和渗透测试人员可关注这款多 Agent 协作工具。它内置 18 种工具并支持持久记忆，建议克隆测试其在实际靶场中的自动化漏洞挖掘效果与误报率。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2121789174516699353",
-      "reader_url": "https://x.com/HackingLZ/status/2121789174516699353",
-      "image_url": null,
+      "canonical_url": "https://x.com/stfu_aayushiii/status/2121919929180152220",
+      "reader_url": "https://x.com/stfu_aayushiii/status/2121919929180152220",
+      "image_url": "https://pbs.twimg.com/media/HXJyMVVaAAE5Wlg.jpg",
       "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
+        "username": "stfu_aayushiii",
+        "name": "Aayushiii",
         "avatar_url": null,
-        "followers_count": 73559
+        "followers_count": 0
       },
-      "published_at": "2026-11-15T02:15:34",
-      "first_seen_at": "2026-11-15T03:05:52.367162",
+      "published_at": "2026-11-15T10:55:09",
+      "first_seen_at": "2026-11-15T11:25:15.372765",
       "sub_category_label": "安全Agent"
     }
   ]
