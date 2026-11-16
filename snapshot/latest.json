@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T23:11:33+08:00",
+  "updated_at": "2026-11-17T01:42:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -125,6 +125,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 31991,
+      "title": "Claude 接入 VirusTotal 威胁情报，增强 AI 辅助分析",
+      "original_title": "🛡️ Claude Gets VirusTotal TI Capabilities for AI-Assisted Malware and URL Analysis   Details: https://t.co/Z3Mtwhq0qe  Claude users can connect VirusTotal threat intelligence to th",
+      "summary": "Claude 通过 MCP 协议接入 VirusTotal AI (VTAI)，分析师可将文件、URL、域名等威胁情报引入 AI 工作流，集成采用 OAuth 认证且无需个人 API 密钥。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_intel_platform",
+      "score_total": 73.76,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全分析师可直接在 Claude 中调用 VT 情报辅助研判，无需切屏。MCP 协议是 Agent 化安全工作流的落地范例，蓝队和威胁狩猎人员值得上手试用。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/The_Cyber_News/status/2122331268478316675",
+      "reader_url": "https://x.com/The_Cyber_News/status/2122331268478316675",
+      "image_url": "https://pbs.twimg.com/media/HXQJBcbbEAAA6Hb.jpg",
+      "author": {
+        "username": "The_Cyber_News",
+        "name": "Cyber Security News",
+        "avatar_url": null,
+        "followers_count": 73656
+      },
+      "published_at": "2026-11-16T14:09:40",
+      "first_seen_at": "2026-11-16T17:29:44.810265",
+      "sub_category_label": "威胁情报平台"
+    },
+    {
       "id": 31840,
       "title": "TSBugs Explorer：TypeScript真实Bug探索与基准构建平台",
       "original_title": "TSBugs Explorer: Exploring and Benchmarking TypeScript Bugs",
@@ -168,26 +193,6 @@
       "published_at": "2026-11-16T14:05:58",
       "first_seen_at": "2026-11-16T15:10:26.678983",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31901,
-      "title": "自动化构建端侧定制小模型的 Agent 系统",
-      "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
-      "summary": "本文提出 Mobile AI Factory，一个通过 LLM 编排超参数调整、数据生成与手机实测的 Agent 系统，能自动为特定任务和手机构建微调量化的端侧小模型，在部分任务上超越前沿大模型。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 72.0,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "这是一套完整的自动化端侧模型调优 Agent 架构，对想在终端设备上部署隐私保护或轻量安全检测模型的团队有直接参考价值，且代码开源，可快速复现和借鉴其自动回滚机制。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.13509",
-      "reader_url": "https://arxiv.org/pdf/2611.13509",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-16T00:00:00",
-      "first_seen_at": "2026-11-16T13:12:09.566428",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
