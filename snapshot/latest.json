@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-16T15:07:18+08:00",
+  "updated_at": "2026-11-16T17:09:27+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
+    {
+      "id": 31647,
+      "title": "Cyber-Zero：无需运行时环境训练网络安全Agent",
+      "original_title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+      "summary": "Cyber-Zero 利用公开 CTF writeup 和 LLM 模拟合成高质量轨迹，无需真实运行时即可训练网络安全 Agent，在多个 CTF 基准上达到 SOTA。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 93.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2508.00910",
+      "reader_url": "https://arxiv.org/pdf/2508.00910",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T08:58:43.369062",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 31512,
       "title": "阿里开源混合架构代码审查工具 open-code-review",
@@ -43,6 +63,26 @@
       "published_at": "2026-11-15T11:59:53",
       "first_seen_at": "2026-11-16T00:47:59.788278",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31655,
+      "title": "REFORGE：LLM二进制逆向工程能力基准测试方法",
+      "original_title": "REFORGE: A Method for Benchmarking LLMs' Reverse Engineering Capabilities in Decompiled Binary Function Naming",
+      "summary": "论文提出 Reforge 管道，通过量化编译器优化导致的二进制到源码对齐不确定性，修正了现有 LLM 逆向工程能力基准测试的评估偏差。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 81.3,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.07738",
+      "reader_url": "https://arxiv.org/pdf/2607.07738",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T08:44:48.530801",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 31486,
@@ -160,56 +200,6 @@
       },
       "published_at": "2026-11-15T23:00:02",
       "first_seen_at": "2026-11-15T23:28:54.341052",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31484,
-      "title": "FBI 预警 ARTEX AI 渗透框架遭攻击者滥用",
-      "original_title": "Hackers finally got what everyone wanted from AI: someone to do the boring parts of the job. 🤖  The FBI has issued a FLASH advisory warning that ARTEX, an open-source AI \"penetrati",
-      "summary": "FBI 发布 FLASH 预警称开源 AI 渗透框架 ARTEX 被多个威胁组织用于自动化攻击，3小时内可完成从侦察到提权，关联 ConnectWise 供应链攻击事件。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 安全工具武器化的标杆案例。防御方应立即排查暴露的 ARTEX 控制台，监控 API 异常调用，并评估 AI 自动化攻击对现有防御体系的冲击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ageofprophet/status/2122116958564811162",
-      "reader_url": "https://x.com/ageofprophet/status/2122116958564811162",
-      "image_url": null,
-      "author": {
-        "username": "ageofprophet",
-        "name": "ageofprophet",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T23:58:04",
-      "first_seen_at": "2026-11-16T00:01:48.834975",
-      "sub_category_label": null
-    },
-    {
-      "id": 31479,
-      "title": "Cloudflare 称 AI 渗透测试工具流量激增 30 倍",
-      "original_title": "؜🛡️ Cloudflare تقول إن أدوات الاختراق اللي يشغّلها وكلاء الـ AI Agents صارت ترسل طلبات لمواقع عملائها أكثر بـ 30 مرة من بداية أكتوبر.  ؜في 13 نوفمبر، نشر فريق Cloudforce One في Clo",
-      "summary": "Cloudflare 安全团队发现，由 AI Agent 驱动的自动化渗透测试工具对客户网站的扫描请求自 10 月初激增 30 倍，仅 3 天内就检测到超 50 种不同工具。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需警惕 AI 渗透测试工具爆发现象，其高频自动化扫描可能干扰正常流量或触发 WAF 误报，需评估现有策略能否有效识别和过滤此类 Agent 行为。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/alawbathani/status/2122102530448482776",
-      "reader_url": "https://x.com/alawbathani/status/2122102530448482776",
-      "image_url": null,
-      "author": {
-        "username": "alawbathani",
-        "name": "Alawbathani | مرعي",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-15T23:00:44",
-      "first_seen_at": "2026-11-15T23:28:54.656848",
       "sub_category_label": "安全Agent"
     }
   ]
