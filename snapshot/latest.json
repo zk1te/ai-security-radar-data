@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-11-17T02:42:40+08:00",
+  "updated_at": "2026-11-17T05:13:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 31647,
-      "title": "Cyber-Zero：无需运行时环境训练网络安全Agent",
-      "original_title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
-      "summary": "Cyber-Zero 利用公开 CTF writeup 和 LLM 模拟合成高质量轨迹，无需真实运行时即可训练网络安全 Agent，在多个 CTF 基准上达到 SOTA。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 93.15,
-      "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2508.00910",
-      "reader_url": "https://arxiv.org/pdf/2508.00910",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-16T05:00:00",
-      "first_seen_at": "2026-11-16T08:58:43.369062",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 31842,
       "title": "结合 LLM Agent 与 WP 分析自动推断 Move 智能合约规范",
@@ -63,26 +43,6 @@
       "published_at": "2026-11-16T17:36:43",
       "first_seen_at": "2026-11-16T18:31:03.317751",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31655,
-      "title": "REFORGE：LLM二进制逆向工程能力基准测试方法",
-      "original_title": "REFORGE: A Method for Benchmarking LLMs' Reverse Engineering Capabilities in Decompiled Binary Function Naming",
-      "summary": "论文提出 Reforge 管道，通过量化编译器优化导致的二进制到源码对齐不确定性，修正了现有 LLM 逆向工程能力基准测试的评估偏差。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 81.3,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2607.07738",
-      "reader_url": "https://arxiv.org/pdf/2607.07738",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-16T05:00:00",
-      "first_seen_at": "2026-11-16T08:44:48.530801",
-      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 31833,
@@ -188,6 +148,51 @@
       "published_at": "2026-11-16T05:00:00",
       "first_seen_at": "2026-11-16T10:20:13.415255",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 31951,
+      "title": "Google 警告攻击者利用多代理 AI 自动化漏洞武器化",
+      "original_title": "🛑 Google warns hackers are using autonomous AI agents to turn security patches into working exploits.  Attackers are deploying multi-agent frameworks to automate hacking, weaponize",
+      "summary": "Google 警告称，攻击者正在部署多代理 AI 框架，将已知安全补丁自动转化为可用漏洞利用程序，以加速入侵过程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.31,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 驱动的 patch-to-exploit 自动化标志着攻防不对称加剧。安全团队需审视补丁管理与威胁狩猎流程，警惕漏洞利用窗口期被 AI 大幅压缩的风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2122330337334464721",
+      "reader_url": "https://x.com/TheHackersNews/status/2122330337334464721",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-11-16T14:05:58",
+      "first_seen_at": "2026-11-16T15:10:26.678983",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31901,
+      "title": "自动化构建端侧定制小模型的 Agent 系统",
+      "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+      "summary": "本文提出 Mobile AI Factory，一个通过 LLM 编排超参数调整、数据生成与手机实测的 Agent 系统，能自动为特定任务和手机构建微调量化的端侧小模型，在部分任务上超越前沿大模型。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 72.0,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这是一套完整的自动化端侧模型调优 Agent 架构，对想在终端设备上部署隐私保护或轻量安全检测模型的团队有直接参考价值，且代码开源，可快速复现和借鉴其自动回滚机制。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.13509",
+      "reader_url": "https://arxiv.org/pdf/2611.13509",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T00:00:00",
+      "first_seen_at": "2026-11-16T13:12:09.566428",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
