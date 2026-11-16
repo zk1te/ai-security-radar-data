@@ -1,0 +1,1441 @@
+{
+  "date": "2026-11-16",
+  "candidate_count": 23,
+  "selected_count": 3,
+  "cover_title": "Cyber-Zero：无需运行时环境训练网络安全Agent",
+  "lead_takeaway": "今天的安全Agent圈子里，大家都在想方设法给训练和落地降本，比如拿现成writeup合成数据省去搭靶场，或者结合静态工具省调用次数。同时也有人在给二进制逆向的能力测评挤水分，提醒大家别被虚高的跑分骗了。",
+  "digest_points": [
+    "01 训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。",
+    "02 智能合约安全审计人员应看。展示了如何用 LLM Agent 结合形式化验证工具自动生成规范，并通过 WP 分析减少 40-64% 的调用开销，为自动化代码审计提供了高可复用的落地思路。",
+    "03 关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。"
+  ],
+  "judgement": [
+    "01 训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。",
+    "02 智能合约安全审计人员应看。展示了如何用 LLM Agent 结合形式化验证工具自动生成规范，并通过 WP 分析减少 40-64% 的调用开销，为自动化代码审计提供了高可复用的落地思路。",
+    "03 关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。"
+  ],
+  "top_items": [
+    {
+      "id": 31647,
+      "title": "Cyber-Zero：无需运行时环境训练网络安全Agent",
+      "original_title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+      "summary": "Cyber-Zero 利用公开 CTF writeup 和 LLM 模拟合成高质量轨迹，无需真实运行时即可训练网络安全 Agent，在多个 CTF 基准上达到 SOTA。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 93.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2508.00910",
+      "reader_url": "https://arxiv.org/pdf/2508.00910",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T08:58:43.369062",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31842,
+      "title": "结合 LLM Agent 与 WP 分析自动推断 Move 智能合约规范",
+      "original_title": "Hybrid Mechanical and Agentic Specification Inference",
+      "summary": "该论文提出一种混合机械和智能体推断方法，利用 LLM Agent 调用 Move Prover 并通过最弱前置条件分析自动推导智能合约规范，有效降低形式验证的手动成本和 Agent 调用开销。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 92.35,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "智能合约安全审计人员应看。展示了如何用 LLM Agent 结合形式化验证工具自动生成规范，并通过 WP 分析减少 40-64% 的调用开销，为自动化代码审计提供了高可复用的落地思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.10005",
+      "reader_url": "https://arxiv.org/pdf/2605.10005",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T10:20:51.399424",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31655,
+      "title": "REFORGE：LLM二进制逆向工程能力基准测试方法",
+      "original_title": "REFORGE: A Method for Benchmarking LLMs' Reverse Engineering Capabilities in Decompiled Binary Function Naming",
+      "summary": "论文提出 Reforge 管道，通过量化编译器优化导致的二进制到源码对齐不确定性，修正了现有 LLM 逆向工程能力基准测试的评估偏差。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 81.3,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.07738",
+      "reader_url": "https://arxiv.org/pdf/2607.07738",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T08:44:48.530801",
+      "sub_category_label": "安全评测与Benchmark"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 31833,
+      "title": "研究LLM代码API误用并提出自动修复工具Dr.Fix",
+      "original_title": "Identifying and Mitigating API Misuse in Large Language Models",
+      "summary": "论文分析了StarCoder等模型生成代码中的API误用模式，分类了四种常见误用，并提出基于LLM的修复工具Dr.Fix，显著提升了修复准确率。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "code_repair",
+      "score_total": 81.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "AI 代码修复是安全自动化的重要一环。了解 LLM 代码生成的典型 API 误用模式，能帮团队在引入 AI 编程助手时针对性布防，或直接借鉴其分类法优化现有代码审计工具。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2503.22821",
+      "reader_url": "https://arxiv.org/pdf/2503.22821",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T14:58:50.370968",
+      "sub_category_label": null
+    },
+    {
+      "id": 31486,
+      "title": "WorkOS 遭遇 AI 自主渗透框架 ARTEX 攻击",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告发生数据泄露事件，攻击者使用名为 ARTEX 的 AI 辅助自主渗透测试框架访问了其内部 API 并窃取了 CRM 数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "防守方必须高度关注：AI 自主渗透框架已被真实攻击者用于实战。这标志着 AI 武器化从概念走向落地，红蓝对抗需立刻评估此类自动化 Agent 的攻防影响。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-16",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-16",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-16T00:07:30.498687",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31495,
+      "title": "Claude Code 和 Codex 成功逆向 1994 年吉普车 ECU",
+      "original_title": "HN Hot Discussion: Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "summary": "通过 3 美元的 Arduino 设备，AI 模型 Claude Code 和 Codex 成功对 1994 年吉普车的 ECU 进行了逆向工程分析。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "binary_security",
+      "score_total": 77.45,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了 AI 在硬件和固件逆向工程中的实际能力，安全团队可关注 AI 在物联网和车联网漏洞挖掘中的应用潜力。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50463399&hn_hot_date=2026-11-16",
+      "reader_url": "https://news.ycombinator.com/item?id=50463399&hn_hot_date=2026-11-16",
+      "image_url": null,
+      "author": {
+        "username": "envoked",
+        "name": "envoked",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-12T05:29:24",
+      "first_seen_at": "2026-11-16T00:40:02.841487",
+      "sub_category_label": null
+    },
+    {
+      "id": 31841,
+      "title": "Astraios：探究代码大模型参数高效微调对安全性与鲁棒性的影响",
+      "original_title": "Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models",
+      "summary": "本文系统性研究了不同参数高效微调（PEFT）方法对代码大模型的影响，发现全参数微调性能最佳，但更大模型在微调后往往表现出鲁棒性下降和安全性降低的副作用。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "使用或微调代码大模型做安全工作的团队必看。研究揭示大模型微调后安全性与鲁棒性可能反而下降，为模型选型和微调策略提供了重要的避坑参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2401.00788",
+      "reader_url": "https://arxiv.org/pdf/2401.00788",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T10:20:24.288480",
+      "sub_category_label": null
+    },
+    {
+      "id": 31431,
+      "title": "OffensiveCon 议题：AI 时代的 V8 安全",
+      "original_title": "\"V8 Security in the Age of AI by\" (OffensiveCon slide deck)    https://t.co/Ru9PboQZzP  Credits @5aelo and @mlippautz https://t.co/l1kkzY3F29",
+      "summary": "OffensiveCon 大会上发布了「AI 时代的 V8 安全」演讲幻灯片，由 @5aelo 和 @mlippautz 分享，探讨 AI 技术在 V8 引擎安全中的应用与影响。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 73.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "V8 引擎漏洞挖掘是二进制安全和浏览器安全的核心硬核领域。该议题直接探讨 AI 时代下 V8 安全攻防的演进，做漏洞挖掘和 fuzzing 的研究员必须关注，能启发将 AI 融入底层漏洞发现的具体思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2122012766470910322",
+      "reader_url": "https://x.com/0xor0ne/status/2122012766470910322",
+      "image_url": "https://pbs.twimg.com/media/HXLnXbMX0AAfwaW.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null,
+        "followers_count": 93861
+      },
+      "published_at": "2026-11-15T17:04:03",
+      "first_seen_at": "2026-11-15T18:38:59.277564",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 31840,
+      "title": "TSBugs Explorer：TypeScript真实Bug探索与基准构建平台",
+      "original_title": "TSBugs Explorer: Exploring and Benchmarking TypeScript Bugs",
+      "summary": "介绍 TSBugs Explorer 平台，基于633个TypeScript真实Bug数据集，支持可视化分析、跨仓库对比和定制化基准生成，辅助软件测试与自动化修复研究。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 72.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "漏洞挖掘和安全评测从业者可以看看，这套多维度可视化和基准生成思路值得借鉴，在需要从开源项目提取缺陷构建专属评测集时能省不少力气。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.14940",
+      "reader_url": "https://arxiv.org/pdf/2611.14940",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T10:20:13.415255",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 31951,
+      "title": "Google 警告攻击者利用多代理 AI 自动化漏洞武器化",
+      "original_title": "🛑 Google warns hackers are using autonomous AI agents to turn security patches into working exploits.  Attackers are deploying multi-agent frameworks to automate hacking, weaponize",
+      "summary": "Google 警告称，攻击者正在部署多代理 AI 框架，将已知安全补丁自动转化为可用漏洞利用程序，以加速入侵过程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.31,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 驱动的 patch-to-exploit 自动化标志着攻防不对称加剧。安全团队需审视补丁管理与威胁狩猎流程，警惕漏洞利用窗口期被 AI 大幅压缩的风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2122330337334464721",
+      "reader_url": "https://x.com/TheHackersNews/status/2122330337334464721",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-11-16T14:05:58",
+      "first_seen_at": "2026-11-16T15:10:26.678983",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 31647,
+        "title": "Cyber-Zero：无需运行时环境训练网络安全Agent",
+        "original_title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+        "summary": "Cyber-Zero 利用公开 CTF writeup 和 LLM 模拟合成高质量轨迹，无需真实运行时即可训练网络安全 Agent，在多个 CTF 基准上达到 SOTA。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 93.15,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2508.00910",
+        "reader_url": "https://arxiv.org/pdf/2508.00910",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-16T05:00:00",
+        "first_seen_at": "2026-11-16T08:58:43.369062",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 31842,
+        "title": "结合 LLM Agent 与 WP 分析自动推断 Move 智能合约规范",
+        "original_title": "Hybrid Mechanical and Agentic Specification Inference",
+        "summary": "该论文提出一种混合机械和智能体推断方法，利用 LLM Agent 调用 Move Prover 并通过最弱前置条件分析自动推导智能合约规范，有效降低形式验证的手动成本和 Agent 调用开销。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 92.35,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "智能合约安全审计人员应看。展示了如何用 LLM Agent 结合形式化验证工具自动生成规范，并通过 WP 分析减少 40-64% 的调用开销，为自动化代码审计提供了高可复用的落地思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2605.10005",
+        "reader_url": "https://arxiv.org/pdf/2605.10005",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-16T05:00:00",
+        "first_seen_at": "2026-11-16T10:20:51.399424",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 31512,
+        "title": "阿里开源混合架构代码审查工具 open-code-review",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 691 stars today",
+        "summary": "阿里开源结合确定性规则与 LLM Agent 的代码审查工具，支持行级评论并内置 XSS、SQL 注入等多语言安全规则集。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 86.2,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "用 AI 做代码审计的落地实践。混合架构兼顾了确定性和灵活性，内置的安全规则集值得安全开发团队参考，可集成进 CI/CD 流水线试水。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-16&since=daily",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-16&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-15T02:41:14",
+        "first_seen_at": "2026-11-16T00:47:31.620624",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 31515,
+        "title": "Claude-BugHunter 登顶 GitHub Trending：82 技能的红队工具包",
+        "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 98 stars today",
+        "summary": "该项目为 Claude Code 提供了一个包含 82 个技能、15 个命令和大量漏洞模式的红队与 Bug Bounty 技能包，旨在增强 AI 在外部红队任务中的能力。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 84.53,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "给所有搞 AI 红队和漏洞挖掘的人看：这是目前最火的 Claude Code 安全技能包之一，直接提供了现成的 Prompt 和知识库。可以立刻 clone 下来测试其在实际靶场或代码审计中的效果。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-16&since=daily",
+        "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-16&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-15T11:59:53",
+        "first_seen_at": "2026-11-16T00:47:59.788278",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 31655,
+        "title": "REFORGE：LLM二进制逆向工程能力基准测试方法",
+        "original_title": "REFORGE: A Method for Benchmarking LLMs' Reverse Engineering Capabilities in Decompiled Binary Function Naming",
+        "summary": "论文提出 Reforge 管道，通过量化编译器优化导致的二进制到源码对齐不确定性，修正了现有 LLM 逆向工程能力基准测试的评估偏差。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 81.3,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2607.07738",
+        "reader_url": "https://arxiv.org/pdf/2607.07738",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-16T05:00:00",
+        "first_seen_at": "2026-11-16T08:44:48.530801",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 31486,
+        "title": "WorkOS 遭遇 AI 自主渗透框架 ARTEX 攻击",
+        "original_title": "HN Hot Discussion: WorkOS reports security breach",
+        "summary": "WorkOS 报告发生数据泄露事件，攻击者使用名为 ARTEX 的 AI 辅助自主渗透测试框架访问了其内部 API 并窃取了 CRM 数据。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 78.55,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "防守方必须高度关注：AI 自主渗透框架已被真实攻击者用于实战。这标志着 AI 武器化从概念走向落地，红蓝对抗需立刻评估此类自动化 Agent 的攻防影响。",
+        "source_id": "hn-ai-security",
+        "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-16",
+        "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-16",
+        "image_url": null,
+        "author": {
+          "username": "werrett",
+          "name": "werrett",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-02T23:30:59",
+        "first_seen_at": "2026-11-16T00:07:30.498687",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 31895,
+        "title": "OpenAI Codex Security 工具跻身 GitHub Trending",
+        "original_title": "GitHub Trending: openai/codex-security gained 0 stars today",
+        "summary": "OpenAI 推出的 Codex Security CLI 与 SDK 旨在发现、验证和修复安全漏洞，近期在 GitHub 上星标增长显著。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 75.7,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "OpenAI 官方下场做 AI 漏洞挖掘与修复工具。AI for Sec 从业者应关注其实际修复漏洞的准确率，评估能否接入现有 DevSecOps 流程。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-16&since=weekly",
+        "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-16&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-16T11:02:06",
+        "first_seen_at": "2026-11-16T12:55:27.636879",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 31431,
+        "title": "OffensiveCon 议题：AI 时代的 V8 安全",
+        "original_title": "\"V8 Security in the Age of AI by\" (OffensiveCon slide deck)    https://t.co/Ru9PboQZzP  Credits @5aelo and @mlippautz https://t.co/l1kkzY3F29",
+        "summary": "OffensiveCon 大会上发布了「AI 时代的 V8 安全」演讲幻灯片，由 @5aelo 和 @mlippautz 分享，探讨 AI 技术在 V8 引擎安全中的应用与影响。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 73.46,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "V8 引擎漏洞挖掘是二进制安全和浏览器安全的核心硬核领域。该议题直接探讨 AI 时代下 V8 安全攻防的演进，做漏洞挖掘和 fuzzing 的研究员必须关注，能启发将 AI 融入底层漏洞发现的具体思路。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/0xor0ne/status/2122012766470910322",
+        "reader_url": "https://x.com/0xor0ne/status/2122012766470910322",
+        "image_url": "https://pbs.twimg.com/media/HXLnXbMX0AAfwaW.jpg",
+        "author": {
+          "username": "0xor0ne",
+          "name": "0xor0ne",
+          "avatar_url": null,
+          "followers_count": 93861
+        },
+        "published_at": "2026-11-15T17:04:03",
+        "first_seen_at": "2026-11-15T18:38:59.277564",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 31901,
+        "title": "自动化构建端侧定制小模型的 Agent 系统",
+        "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+        "summary": "本文提出 Mobile AI Factory，一个通过 LLM 编排超参数调整、数据生成与手机实测的 Agent 系统，能自动为特定任务和手机构建微调量化的端侧小模型，在部分任务上超越前沿大模型。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 72.0,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "这是一套完整的自动化端侧模型调优 Agent 架构，对想在终端设备上部署隐私保护或轻量安全检测模型的团队有直接参考价值，且代码开源，可快速复现和借鉴其自动回滚机制。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.13509",
+        "reader_url": "https://arxiv.org/pdf/2611.13509",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-16T00:00:00",
+        "first_seen_at": "2026-11-16T13:12:09.566428",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 31834,
+        "title": "BigCodeArena：基于执行环境的代码生成模型评测平台",
+        "original_title": "BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution",
+        "summary": "论文提出 BigCodeArena 代码生成评测平台，通过实时执行环境收集人类偏好，并构建了 BigCodeReward 和 AutoCodeArena 两个基准，发现 GPT-5 和 Claude 等专有模型在代码生成上仍保持领先。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 67.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "代码生成是 AI for Sec 自动化漏洞挖掘和修复的底层能力。跟踪 GPT-5 等前沿模型在真实执行环境的代码表现，有助于团队判断当前 Agent 能力上限并在选型时避坑。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2510.08697",
+        "reader_url": "https://arxiv.org/pdf/2510.08697",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-16T05:00:00",
+        "first_seen_at": "2026-11-16T10:17:31.282139",
+        "sub_category_label": "模型评测"
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 31833,
+        "title": "研究LLM代码API误用并提出自动修复工具Dr.Fix",
+        "original_title": "Identifying and Mitigating API Misuse in Large Language Models",
+        "summary": "论文分析了StarCoder等模型生成代码中的API误用模式，分类了四种常见误用，并提出基于LLM的修复工具Dr.Fix，显著提升了修复准确率。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "code_repair",
+        "score_total": 81.1,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "AI 代码修复是安全自动化的重要一环。了解 LLM 代码生成的典型 API 误用模式，能帮团队在引入 AI 编程助手时针对性布防，或直接借鉴其分类法优化现有代码审计工具。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2503.22821",
+        "reader_url": "https://arxiv.org/pdf/2503.22821",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-16T05:00:00",
+        "first_seen_at": "2026-11-16T14:58:50.370968",
+        "sub_category_label": null
+      },
+      {
+        "id": 31495,
+        "title": "Claude Code 和 Codex 成功逆向 1994 年吉普车 ECU",
+        "original_title": "HN Hot Discussion: Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+        "summary": "通过 3 美元的 Arduino 设备，AI 模型 Claude Code 和 Codex 成功对 1994 年吉普车的 ECU 进行了逆向工程分析。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "binary_security",
+        "score_total": 77.45,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "展示了 AI 在硬件和固件逆向工程中的实际能力，安全团队可关注 AI 在物联网和车联网漏洞挖掘中的应用潜力。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50463399&hn_hot_date=2026-11-16",
+        "reader_url": "https://news.ycombinator.com/item?id=50463399&hn_hot_date=2026-11-16",
+        "image_url": null,
+        "author": {
+          "username": "envoked",
+          "name": "envoked",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-12T05:29:24",
+        "first_seen_at": "2026-11-16T00:40:02.841487",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 31841,
+        "title": "Astraios：探究代码大模型参数高效微调对安全性与鲁棒性的影响",
+        "original_title": "Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models",
+        "summary": "本文系统性研究了不同参数高效微调（PEFT）方法对代码大模型的影响，发现全参数微调性能最佳，但更大模型在微调后往往表现出鲁棒性下降和安全性降低的副作用。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_security",
+        "score_total": 76.75,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "使用或微调代码大模型做安全工作的团队必看。研究揭示大模型微调后安全性与鲁棒性可能反而下降，为模型选型和微调策略提供了重要的避坑参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2401.00788",
+        "reader_url": "https://arxiv.org/pdf/2401.00788",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-16T05:00:00",
+        "first_seen_at": "2026-11-16T10:20:24.288480",
+        "sub_category_label": null
+      },
+      {
+        "id": 31590,
+        "title": "GH-AWTrace：GitHub 代理工作流执行日志大规模数据集",
+        "original_title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+        "summary": "该数据集关联了2.5万个GitHub代理工作流和400万条运行记录，日志揭示了工具拒绝、提供者故障和代理委派等执行细节，为研究代理执行失败和工具使用提供了实证基础。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 70.15,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "对研究Agent在真实环境中的执行失败和安全边界非常有价值。日志中的工具拒绝和委派失败案例是调试Agent安全性和稳定性的稀缺数据，做Agent安全防御的人应重点关注。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.06866",
+        "reader_url": "https://arxiv.org/pdf/2611.06866",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-16T00:00:00",
+        "first_seen_at": "2026-11-16T05:05:55.065072",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 31873,
+        "title": "Mozilla 借 AI 挖出 22 个 CVE，Agentic 网络操作能力与采购挑战",
+        "original_title": "Agentic Cyber Operations: Real Capabilities and the Race for Resilience  AI already supports operational cyber intrusions, reproducible vulnerability discovery and the orchestratio",
+        "summary": "Mozilla 与 Anthropic 合作确认 22 个 CVE，展示了 AI 在漏洞挖掘中的实际工业级价值。文章指出 AI 驱动的网络操作正增强但仍需人类监督，并探讨了防御采购与责任划分问题。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "vuln_discovery",
+        "score_total": 70.21,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "Mozilla 案例证明 AI 漏洞挖掘已落地。安全团队应关注如何将 AI 发现转化为去重、复现和修复的完整工程流程，同时审视 Agent 自动化操作中的权限控制与验证机制。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/debugliesnews/status/2122279794125509089",
+        "reader_url": "https://x.com/debugliesnews/status/2122279794125509089",
+        "image_url": "https://pbs.twimg.com/media/HXPaOIuXwAAQFQy.jpg",
+        "author": {
+          "username": "debugliesnews",
+          "name": "debuglies",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-16T10:45:07",
+        "first_seen_at": "2026-11-16T11:07:17.698703",
+        "sub_category_label": null
+      },
+      {
+        "id": 31859,
+        "title": "FBI 预警开源 AI 渗透框架 ARTEX 遭黑产滥用",
+        "original_title": "Singularity Watch, Day 32 — November 16, 2026  Ryan Merges 141 Pull Requests in One Day and Starts the Astrohacker Factory as the FBI Warns of AI Agent Intrusions  Work: 141 Pull R",
+        "summary": "FBI 发布预警称开源 AI 渗透框架 ARTEX 被多个威胁组织用于入侵，部分攻击在3小时内获取特权访问。此外，1Password 指出恶意指令可劫持 AI Agent，需警惕相关安全风险。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent | agent_security",
+        "score_total": 70.21,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全团队需关注 ARTEX 等 AI 渗透框架在黑产中的实战应用，并立即审查内部 AI Agent 的指令注入劫持风险。红蓝对抗与 Agent 开发者必看。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/AstrohackerLabs/status/2122274545268597143",
+        "reader_url": "https://x.com/AstrohackerLabs/status/2122274545268597143",
+        "image_url": null,
+        "author": {
+          "username": "AstrohackerLabs",
+          "name": "Astrohacker",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-16T10:24:16",
+        "first_seen_at": "2026-11-16T10:31:03.566423",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 31932,
+        "title": "亚马逊警告：攻击者利用 AI 渗透工具 Artex 窃取 AI 应用 API 密钥",
+        "original_title": "Attackers’ AI agents spent a month stealing API keys from web-exposed AI apps such as LiteLLM or Dify to keep funding their credential hunting campaigns, Amazon has warned. The age",
+        "summary": "攻击者利用开源 AI 渗透工具 Artex 自动化攻击暴露的 LiteLLM 和 Dify 等 AI 应用，窃取 API 密钥以资助后续凭据挖掘活动。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "ai_supply_chain | security_agent",
+        "score_total": 69.29,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "这是 AI 红队工具被攻击者武器化的真实案例。安全团队须立即排查 LiteLLM/Dify 等中间件暴露面，并正视 AI 渗透工具带来的自动化攻击降本效应。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Cybernews/status/2122328801136759252",
+        "reader_url": "https://x.com/Cybernews/status/2122328801136759252",
+        "image_url": null,
+        "author": {
+          "username": "Cybernews",
+          "name": "Cybernews",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-16T13:59:51",
+        "first_seen_at": "2026-11-16T14:33:52.163645",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 31647,
+            "title": "Cyber-Zero：无需运行时环境训练网络安全Agent",
+            "original_title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+            "summary": "Cyber-Zero 利用公开 CTF writeup 和 LLM 模拟合成高质量轨迹，无需真实运行时即可训练网络安全 Agent，在多个 CTF 基准上达到 SOTA。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 93.15,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2508.00910",
+            "reader_url": "https://arxiv.org/pdf/2508.00910",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T05:00:00",
+            "first_seen_at": "2026-11-16T08:58:43.369062",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31842,
+            "title": "结合 LLM Agent 与 WP 分析自动推断 Move 智能合约规范",
+            "original_title": "Hybrid Mechanical and Agentic Specification Inference",
+            "summary": "该论文提出一种混合机械和智能体推断方法，利用 LLM Agent 调用 Move Prover 并通过最弱前置条件分析自动推导智能合约规范，有效降低形式验证的手动成本和 Agent 调用开销。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 92.35,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "智能合约安全审计人员应看。展示了如何用 LLM Agent 结合形式化验证工具自动生成规范，并通过 WP 分析减少 40-64% 的调用开销，为自动化代码审计提供了高可复用的落地思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2605.10005",
+            "reader_url": "https://arxiv.org/pdf/2605.10005",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T05:00:00",
+            "first_seen_at": "2026-11-16T10:20:51.399424",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31512,
+            "title": "阿里开源混合架构代码审查工具 open-code-review",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 691 stars today",
+            "summary": "阿里开源结合确定性规则与 LLM Agent 的代码审查工具，支持行级评论并内置 XSS、SQL 注入等多语言安全规则集。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 86.2,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "用 AI 做代码审计的落地实践。混合架构兼顾了确定性和灵活性，内置的安全规则集值得安全开发团队参考，可集成进 CI/CD 流水线试水。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-16&since=daily",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-16&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-15T02:41:14",
+            "first_seen_at": "2026-11-16T00:47:31.620624",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31515,
+            "title": "Claude-BugHunter 登顶 GitHub Trending：82 技能的红队工具包",
+            "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 98 stars today",
+            "summary": "该项目为 Claude Code 提供了一个包含 82 个技能、15 个命令和大量漏洞模式的红队与 Bug Bounty 技能包，旨在增强 AI 在外部红队任务中的能力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 84.53,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "给所有搞 AI 红队和漏洞挖掘的人看：这是目前最火的 Claude Code 安全技能包之一，直接提供了现成的 Prompt 和知识库。可以立刻 clone 下来测试其在实际靶场或代码审计中的效果。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-16&since=daily",
+            "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-16&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-15T11:59:53",
+            "first_seen_at": "2026-11-16T00:47:59.788278",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31486,
+            "title": "WorkOS 遭遇 AI 自主渗透框架 ARTEX 攻击",
+            "original_title": "HN Hot Discussion: WorkOS reports security breach",
+            "summary": "WorkOS 报告发生数据泄露事件，攻击者使用名为 ARTEX 的 AI 辅助自主渗透测试框架访问了其内部 API 并窃取了 CRM 数据。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 78.55,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "防守方必须高度关注：AI 自主渗透框架已被真实攻击者用于实战。这标志着 AI 武器化从概念走向落地，红蓝对抗需立刻评估此类自动化 Agent 的攻防影响。",
+            "source_id": "hn-ai-security",
+            "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-16",
+            "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-16",
+            "image_url": null,
+            "author": {
+              "username": "werrett",
+              "name": "werrett",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-02T23:30:59",
+            "first_seen_at": "2026-11-16T00:07:30.498687",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31951,
+            "title": "Google 警告攻击者利用多代理 AI 自动化漏洞武器化",
+            "original_title": "🛑 Google warns hackers are using autonomous AI agents to turn security patches into working exploits.  Attackers are deploying multi-agent frameworks to automate hacking, weaponize",
+            "summary": "Google 警告称，攻击者正在部署多代理 AI 框架，将已知安全补丁自动转化为可用漏洞利用程序，以加速入侵过程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 72.31,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI 驱动的 patch-to-exploit 自动化标志着攻防不对称加剧。安全团队需审视补丁管理与威胁狩猎流程，警惕漏洞利用窗口期被 AI 大幅压缩的风险。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2122330337334464721",
+            "reader_url": "https://x.com/TheHackersNews/status/2122330337334464721",
+            "image_url": null,
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-11-16T14:05:58",
+            "first_seen_at": "2026-11-16T15:10:26.678983",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31559,
+            "title": "开源清单「Awesome Security Agent Harnesses」汇总",
+            "original_title": "Building a security agent? Start with a map of the tools, not another random tutorial.  Awesome Security Agent Harnesses is a curated GitHub list of harnesses, tools, and research ",
+            "summary": "该开源项目按代码审计、渗透测试和 Fuzzing 等任务分类，汇总了 AI 安全 Agent 相关的工具、沙箱、评测榜单（如 Cybench、CyberGym）和研究实现。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 71.14,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 AI 安全 Agent 的从业者必看，能省去大量找工具和评测集的时间。列表按任务分类，直接挑对应的 harness 和沙箱即可开干。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DanKornas/status/2122161723385798958",
+            "reader_url": "https://x.com/DanKornas/status/2122161723385798958",
+            "image_url": "https://pbs.twimg.com/media/HXNu1fuXMAAgcg-.jpg",
+            "author": {
+              "username": "DanKornas",
+              "name": "Dan Kornas",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-16T02:55:57",
+            "first_seen_at": "2026-11-16T03:21:10.092522",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 31874,
+            "title": "AI安全Agent竞速：OpenAI与Anthropic推安全模型，XBOW获巨额融资",
+            "original_title": "Two labs, one bet: ship an AI that patches vulnerabilities faster than attackers, human or AI, can find them first.  OpenAI's Daybreak runs Codex Security against a company's own r",
+            "summary": "OpenAI 发布 Daybreak 和 GPT-5.5-Cyber 等安全模型，Anthropic 推进 Mythos 大规模漏洞检测，XBOW 和 NodeZero 等自主渗透测试平台获大额融资并登顶榜单，AI 攻防正加速向机器速度演进。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.76,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI渗透测试已进入商业化和实战榜单验证期，安全团队应尽快评估自主Agent的实际效能，并警惕多Agent并发操作同一系统引发的协调性风险。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/stretchcloud/status/2122281524938866987",
+            "reader_url": "https://x.com/stretchcloud/status/2122281524938866987",
+            "image_url": null,
+            "author": {
+              "username": "stretchcloud",
+              "name": "Prasenjit Sarkar",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-16T10:52:00",
+            "first_seen_at": "2026-11-16T11:07:18.178779",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 31655,
+            "title": "REFORGE：LLM二进制逆向工程能力基准测试方法",
+            "original_title": "REFORGE: A Method for Benchmarking LLMs' Reverse Engineering Capabilities in Decompiled Binary Function Naming",
+            "summary": "论文提出 Reforge 管道，通过量化编译器优化导致的二进制到源码对齐不确定性，修正了现有 LLM 逆向工程能力基准测试的评估偏差。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 81.3,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2607.07738",
+            "reader_url": "https://arxiv.org/pdf/2607.07738",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T05:00:00",
+            "first_seen_at": "2026-11-16T08:44:48.530801",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 31840,
+            "title": "TSBugs Explorer：TypeScript真实Bug探索与基准构建平台",
+            "original_title": "TSBugs Explorer: Exploring and Benchmarking TypeScript Bugs",
+            "summary": "介绍 TSBugs Explorer 平台，基于633个TypeScript真实Bug数据集，支持可视化分析、跨仓库对比和定制化基准生成，辅助软件测试与自动化修复研究。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 72.4,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "漏洞挖掘和安全评测从业者可以看看，这套多维度可视化和基准生成思路值得借鉴，在需要从开源项目提取缺陷构建专属评测集时能省不少力气。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.14940",
+            "reader_url": "https://arxiv.org/pdf/2611.14940",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T05:00:00",
+            "first_seen_at": "2026-11-16T10:20:13.415255",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 31895,
+            "title": "OpenAI Codex Security 工具跻身 GitHub Trending",
+            "original_title": "GitHub Trending: openai/codex-security gained 0 stars today",
+            "summary": "OpenAI 推出的 Codex Security CLI 与 SDK 旨在发现、验证和修复安全漏洞，近期在 GitHub 上星标增长显著。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 75.7,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "OpenAI 官方下场做 AI 漏洞挖掘与修复工具。AI for Sec 从业者应关注其实际修复漏洞的准确率，评估能否接入现有 DevSecOps 流程。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-16&since=weekly",
+            "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-16&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T11:02:06",
+            "first_seen_at": "2026-11-16T12:55:27.636879",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 31431,
+            "title": "OffensiveCon 议题：AI 时代的 V8 安全",
+            "original_title": "\"V8 Security in the Age of AI by\" (OffensiveCon slide deck)    https://t.co/Ru9PboQZzP  Credits @5aelo and @mlippautz https://t.co/l1kkzY3F29",
+            "summary": "OffensiveCon 大会上发布了「AI 时代的 V8 安全」演讲幻灯片，由 @5aelo 和 @mlippautz 分享，探讨 AI 技术在 V8 引擎安全中的应用与影响。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 73.46,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "V8 引擎漏洞挖掘是二进制安全和浏览器安全的核心硬核领域。该议题直接探讨 AI 时代下 V8 安全攻防的演进，做漏洞挖掘和 fuzzing 的研究员必须关注，能启发将 AI 融入底层漏洞发现的具体思路。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xor0ne/status/2122012766470910322",
+            "reader_url": "https://x.com/0xor0ne/status/2122012766470910322",
+            "image_url": "https://pbs.twimg.com/media/HXLnXbMX0AAfwaW.jpg",
+            "author": {
+              "username": "0xor0ne",
+              "name": "0xor0ne",
+              "avatar_url": null,
+              "followers_count": 93861
+            },
+            "published_at": "2026-11-15T17:04:03",
+            "first_seen_at": "2026-11-15T18:38:59.277564",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "code_repair": {
+        "label": "code_repair",
+        "items": [
+          {
+            "id": 31833,
+            "title": "研究LLM代码API误用并提出自动修复工具Dr.Fix",
+            "original_title": "Identifying and Mitigating API Misuse in Large Language Models",
+            "summary": "论文分析了StarCoder等模型生成代码中的API误用模式，分类了四种常见误用，并提出基于LLM的修复工具Dr.Fix，显著提升了修复准确率。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "code_repair",
+            "score_total": 81.1,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "AI 代码修复是安全自动化的重要一环。了解 LLM 代码生成的典型 API 误用模式，能帮团队在引入 AI 编程助手时针对性布防，或直接借鉴其分类法优化现有代码审计工具。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2503.22821",
+            "reader_url": "https://arxiv.org/pdf/2503.22821",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T05:00:00",
+            "first_seen_at": "2026-11-16T14:58:50.370968",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "binary_security": {
+        "label": "binary_security",
+        "items": [
+          {
+            "id": 31495,
+            "title": "Claude Code 和 Codex 成功逆向 1994 年吉普车 ECU",
+            "original_title": "HN Hot Discussion: Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+            "summary": "通过 3 美元的 Arduino 设备，AI 模型 Claude Code 和 Codex 成功对 1994 年吉普车的 ECU 进行了逆向工程分析。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "binary_security",
+            "score_total": 77.45,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "展示了 AI 在硬件和固件逆向工程中的实际能力，安全团队可关注 AI 在物联网和车联网漏洞挖掘中的应用潜力。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50463399&hn_hot_date=2026-11-16",
+            "reader_url": "https://news.ycombinator.com/item?id=50463399&hn_hot_date=2026-11-16",
+            "image_url": null,
+            "author": {
+              "username": "envoked",
+              "name": "envoked",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-12T05:29:24",
+            "first_seen_at": "2026-11-16T00:40:02.841487",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "model_security": {
+        "label": "model_security",
+        "items": [
+          {
+            "id": 31841,
+            "title": "Astraios：探究代码大模型参数高效微调对安全性与鲁棒性的影响",
+            "original_title": "Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models",
+            "summary": "本文系统性研究了不同参数高效微调（PEFT）方法对代码大模型的影响，发现全参数微调性能最佳，但更大模型在微调后往往表现出鲁棒性下降和安全性降低的副作用。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_security",
+            "score_total": 76.75,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "使用或微调代码大模型做安全工作的团队必看。研究揭示大模型微调后安全性与鲁棒性可能反而下降，为模型选型和微调策略提供了重要的避坑参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2401.00788",
+            "reader_url": "https://arxiv.org/pdf/2401.00788",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T05:00:00",
+            "first_seen_at": "2026-11-16T10:20:24.288480",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 31590,
+            "title": "GH-AWTrace：GitHub 代理工作流执行日志大规模数据集",
+            "original_title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+            "summary": "该数据集关联了2.5万个GitHub代理工作流和400万条运行记录，日志揭示了工具拒绝、提供者故障和代理委派等执行细节，为研究代理执行失败和工具使用提供了实证基础。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 70.15,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "对研究Agent在真实环境中的执行失败和安全边界非常有价值。日志中的工具拒绝和委派失败案例是调试Agent安全性和稳定性的稀缺数据，做Agent安全防御的人应重点关注。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.06866",
+            "reader_url": "https://arxiv.org/pdf/2611.06866",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T00:00:00",
+            "first_seen_at": "2026-11-16T05:05:55.065072",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 31901,
+            "title": "自动化构建端侧定制小模型的 Agent 系统",
+            "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+            "summary": "本文提出 Mobile AI Factory，一个通过 LLM 编排超参数调整、数据生成与手机实测的 Agent 系统，能自动为特定任务和手机构建微调量化的端侧小模型，在部分任务上超越前沿大模型。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 72.0,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "这是一套完整的自动化端侧模型调优 Agent 架构，对想在终端设备上部署隐私保护或轻量安全检测模型的团队有直接参考价值，且代码开源，可快速复现和借鉴其自动回滚机制。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.13509",
+            "reader_url": "https://arxiv.org/pdf/2611.13509",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T00:00:00",
+            "first_seen_at": "2026-11-16T13:12:09.566428",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      },
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 31834,
+            "title": "BigCodeArena：基于执行环境的代码生成模型评测平台",
+            "original_title": "BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution",
+            "summary": "论文提出 BigCodeArena 代码生成评测平台，通过实时执行环境收集人类偏好，并构建了 BigCodeReward 和 AutoCodeArena 两个基准，发现 GPT-5 和 Claude 等专有模型在代码生成上仍保持领先。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 67.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "代码生成是 AI for Sec 自动化漏洞挖掘和修复的底层能力。跟踪 GPT-5 等前沿模型在真实执行环境的代码表现，有助于团队判断当前 Agent 能力上限并在选型时避坑。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2510.08697",
+            "reader_url": "https://arxiv.org/pdf/2510.08697",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-16T05:00:00",
+            "first_seen_at": "2026-11-16T10:17:31.282139",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "vuln_discovery": {
+        "label": "vuln_discovery",
+        "items": [
+          {
+            "id": 31873,
+            "title": "Mozilla 借 AI 挖出 22 个 CVE，Agentic 网络操作能力与采购挑战",
+            "original_title": "Agentic Cyber Operations: Real Capabilities and the Race for Resilience  AI already supports operational cyber intrusions, reproducible vulnerability discovery and the orchestratio",
+            "summary": "Mozilla 与 Anthropic 合作确认 22 个 CVE，展示了 AI 在漏洞挖掘中的实际工业级价值。文章指出 AI 驱动的网络操作正增强但仍需人类监督，并探讨了防御采购与责任划分问题。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "vuln_discovery",
+            "score_total": 70.21,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Mozilla 案例证明 AI 漏洞挖掘已落地。安全团队应关注如何将 AI 发现转化为去重、复现和修复的完整工程流程，同时审视 Agent 自动化操作中的权限控制与验证机制。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/debugliesnews/status/2122279794125509089",
+            "reader_url": "https://x.com/debugliesnews/status/2122279794125509089",
+            "image_url": "https://pbs.twimg.com/media/HXPaOIuXwAAQFQy.jpg",
+            "author": {
+              "username": "debugliesnews",
+              "name": "debuglies",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-16T10:45:07",
+            "first_seen_at": "2026-11-16T11:07:17.698703",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "security_agent | agent_security": {
+        "label": "security_agent | agent_security",
+        "items": [
+          {
+            "id": 31859,
+            "title": "FBI 预警开源 AI 渗透框架 ARTEX 遭黑产滥用",
+            "original_title": "Singularity Watch, Day 32 — November 16, 2026  Ryan Merges 141 Pull Requests in One Day and Starts the Astrohacker Factory as the FBI Warns of AI Agent Intrusions  Work: 141 Pull R",
+            "summary": "FBI 发布预警称开源 AI 渗透框架 ARTEX 被多个威胁组织用于入侵，部分攻击在3小时内获取特权访问。此外，1Password 指出恶意指令可劫持 AI Agent，需警惕相关安全风险。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent | agent_security",
+            "score_total": 70.21,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队需关注 ARTEX 等 AI 渗透框架在黑产中的实战应用，并立即审查内部 AI Agent 的指令注入劫持风险。红蓝对抗与 Agent 开发者必看。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/AstrohackerLabs/status/2122274545268597143",
+            "reader_url": "https://x.com/AstrohackerLabs/status/2122274545268597143",
+            "image_url": null,
+            "author": {
+              "username": "AstrohackerLabs",
+              "name": "Astrohacker",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-16T10:24:16",
+            "first_seen_at": "2026-11-16T10:31:03.566423",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "ai_supply_chain | security_agent": {
+        "label": "ai_supply_chain | security_agent",
+        "items": [
+          {
+            "id": 31932,
+            "title": "亚马逊警告：攻击者利用 AI 渗透工具 Artex 窃取 AI 应用 API 密钥",
+            "original_title": "Attackers’ AI agents spent a month stealing API keys from web-exposed AI apps such as LiteLLM or Dify to keep funding their credential hunting campaigns, Amazon has warned. The age",
+            "summary": "攻击者利用开源 AI 渗透工具 Artex 自动化攻击暴露的 LiteLLM 和 Dify 等 AI 应用，窃取 API 密钥以资助后续凭据挖掘活动。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "ai_supply_chain | security_agent",
+            "score_total": 69.29,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是 AI 红队工具被攻击者武器化的真实案例。安全团队须立即排查 LiteLLM/Dify 等中间件暴露面，并正视 AI 渗透工具带来的自动化攻击降本效应。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Cybernews/status/2122328801136759252",
+            "reader_url": "https://x.com/Cybernews/status/2122328801136759252",
+            "image_url": null,
+            "author": {
+              "username": "Cybernews",
+              "name": "Cybernews",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-16T13:59:51",
+            "first_seen_at": "2026-11-16T14:33:52.163645",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 31647,
+      "title": "Cyber-Zero：无需运行时环境训练网络安全Agent",
+      "original_title": "Cyber-Zero: Training Cybersecurity Agents without Runtime",
+      "summary": "Cyber-Zero 利用公开 CTF writeup 和 LLM 模拟合成高质量轨迹，无需真实运行时即可训练网络安全 Agent，在多个 CTF 基准上达到 SOTA。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 93.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2508.00910",
+      "reader_url": "https://arxiv.org/pdf/2508.00910",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T08:58:43.369062",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31842,
+      "title": "结合 LLM Agent 与 WP 分析自动推断 Move 智能合约规范",
+      "original_title": "Hybrid Mechanical and Agentic Specification Inference",
+      "summary": "该论文提出一种混合机械和智能体推断方法，利用 LLM Agent 调用 Move Prover 并通过最弱前置条件分析自动推导智能合约规范，有效降低形式验证的手动成本和 Agent 调用开销。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 92.35,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "智能合约安全审计人员应看。展示了如何用 LLM Agent 结合形式化验证工具自动生成规范，并通过 WP 分析减少 40-64% 的调用开销，为自动化代码审计提供了高可复用的落地思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.10005",
+      "reader_url": "https://arxiv.org/pdf/2605.10005",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T10:20:51.399424",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31655,
+      "title": "REFORGE：LLM二进制逆向工程能力基准测试方法",
+      "original_title": "REFORGE: A Method for Benchmarking LLMs' Reverse Engineering Capabilities in Decompiled Binary Function Naming",
+      "summary": "论文提出 Reforge 管道，通过量化编译器优化导致的二进制到源码对齐不确定性，修正了现有 LLM 逆向工程能力基准测试的评估偏差。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 81.3,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2607.07738",
+      "reader_url": "https://arxiv.org/pdf/2607.07738",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T08:44:48.530801",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 31833,
+      "title": "研究LLM代码API误用并提出自动修复工具Dr.Fix",
+      "original_title": "Identifying and Mitigating API Misuse in Large Language Models",
+      "summary": "论文分析了StarCoder等模型生成代码中的API误用模式，分类了四种常见误用，并提出基于LLM的修复工具Dr.Fix，显著提升了修复准确率。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "code_repair",
+      "score_total": 81.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "AI 代码修复是安全自动化的重要一环。了解 LLM 代码生成的典型 API 误用模式，能帮团队在引入 AI 编程助手时针对性布防，或直接借鉴其分类法优化现有代码审计工具。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2503.22821",
+      "reader_url": "https://arxiv.org/pdf/2503.22821",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T14:58:50.370968",
+      "sub_category_label": null
+    },
+    {
+      "id": 31841,
+      "title": "Astraios：探究代码大模型参数高效微调对安全性与鲁棒性的影响",
+      "original_title": "Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models",
+      "summary": "本文系统性研究了不同参数高效微调（PEFT）方法对代码大模型的影响，发现全参数微调性能最佳，但更大模型在微调后往往表现出鲁棒性下降和安全性降低的副作用。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "使用或微调代码大模型做安全工作的团队必看。研究揭示大模型微调后安全性与鲁棒性可能反而下降，为模型选型和微调策略提供了重要的避坑参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2401.00788",
+      "reader_url": "https://arxiv.org/pdf/2401.00788",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T10:20:24.288480",
+      "sub_category_label": null
+    },
+    {
+      "id": 31840,
+      "title": "TSBugs Explorer：TypeScript真实Bug探索与基准构建平台",
+      "original_title": "TSBugs Explorer: Exploring and Benchmarking TypeScript Bugs",
+      "summary": "介绍 TSBugs Explorer 平台，基于633个TypeScript真实Bug数据集，支持可视化分析、跨仓库对比和定制化基准生成，辅助软件测试与自动化修复研究。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 72.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "漏洞挖掘和安全评测从业者可以看看，这套多维度可视化和基准生成思路值得借鉴，在需要从开源项目提取缺陷构建专属评测集时能省不少力气。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.14940",
+      "reader_url": "https://arxiv.org/pdf/2611.14940",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T10:20:13.415255",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 31901,
+      "title": "自动化构建端侧定制小模型的 Agent 系统",
+      "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
+      "summary": "本文提出 Mobile AI Factory，一个通过 LLM 编排超参数调整、数据生成与手机实测的 Agent 系统，能自动为特定任务和手机构建微调量化的端侧小模型，在部分任务上超越前沿大模型。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 72.0,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这是一套完整的自动化端侧模型调优 Agent 架构，对想在终端设备上部署隐私保护或轻量安全检测模型的团队有直接参考价值，且代码开源，可快速复现和借鉴其自动回滚机制。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.13509",
+      "reader_url": "https://arxiv.org/pdf/2611.13509",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T00:00:00",
+      "first_seen_at": "2026-11-16T13:12:09.566428",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 31590,
+      "title": "GH-AWTrace：GitHub 代理工作流执行日志大规模数据集",
+      "original_title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+      "summary": "该数据集关联了2.5万个GitHub代理工作流和400万条运行记录，日志揭示了工具拒绝、提供者故障和代理委派等执行细节，为研究代理执行失败和工具使用提供了实证基础。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 70.15,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "对研究Agent在真实环境中的执行失败和安全边界非常有价值。日志中的工具拒绝和委派失败案例是调试Agent安全性和稳定性的稀缺数据，做Agent安全防御的人应重点关注。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.06866",
+      "reader_url": "https://arxiv.org/pdf/2611.06866",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T00:00:00",
+      "first_seen_at": "2026-11-16T05:05:55.065072",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 23,
+    "highlight_count": 6,
+    "paper_count": 9,
+    "source_count": 6,
+    "top_score": 93,
+    "category_count": {
+      "AI for Sec": 14,
+      "AI Tech": 2,
+      "AI for Sec | AI Tech": 2,
+      "Sec for AI | AI Tech": 2,
+      "AI for Sec | Sec for AI": 2,
+      "Sec for AI | AI for Sec": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 10
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 2
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 2
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "code_repair": {
+          "label": "code_repair",
+          "count": 1
+        },
+        "binary_security": {
+          "label": "binary_security",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "model_security": {
+          "label": "model_security",
+          "count": 1
+        },
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 1
+        },
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "vuln_discovery": {
+          "label": "vuln_discovery",
+          "count": 1
+        },
+        "security_agent | agent_security": {
+          "label": "security_agent | agent_security",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "ai_supply_chain | security_agent": {
+          "label": "ai_supply_chain | security_agent",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 14,
+      "top_score": 93,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 2,
+      "top_score": 72,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "得分最高的Cyber-Zero给出了一条很实用的捷径：用公开writeup逆向合成训练轨迹，直接免去了搭运行环境的高昂成本。建议做安全Agent的团队跟进这种合成思路来降低数据获取成本，同时在评估模型二进制分析能力时多留个心眼，把编译器优化的干扰考虑进去，别让榜单分数脱离实际。",
+  "method_note": "按北京时间 2026-11-16 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "hn-ai-security",
+    "hn-ai-tech",
+    "huggingface-daily-papers",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# Cyber-Zero：无需运行时环境训练网络安全Agent\n\n顶部图：未生成\n\n## 今日概览\n- 今天的安全Agent圈子里，大家都在想方设法给训练和落地降本，比如拿现成writeup合成数据省去搭靶场，或者结合静态工具省调用次数。同时也有人在给二进制逆向的能力测评挤水分，提醒大家别被虚高的跑分骗了。\n- 01 训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。\n- 02 智能合约安全审计人员应看。展示了如何用 LLM Agent 结合形式化验证工具自动生成规范，并通过 WP 分析减少 40-64% 的调用开销，为自动化代码审计提供了高可复用的落地思路。\n- 03 关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **Cyber-Zero：无需运行时环境训练网络安全Agent**：训练安全 Agent 痛点在于环境构建成本高，这篇论文用 writeup 逆向合成轨迹的思路极具实操参考价值。做安全 Agent 的团队可直接借鉴此法降低训练数据合成成本。 来源：arxiv-ai-security\n- **结合 LLM Agent 与 WP 分析自动推断 Move 智能合约规范**：智能合约安全审计人员应看。展示了如何用 LLM Agent 结合形式化验证工具自动生成规范，并通过 WP 分析减少 40-64% 的调用开销，为自动化代码审计提供了高可复用的落地思路。 来源：arxiv-ai-security\n- **REFORGE：LLM二进制逆向工程能力基准测试方法**：关注 AI 辅助逆向的团队必看。这篇点破了现有基准测试忽略编译器优化导致评估虚高的问题，提供了置信度量化方案，能直接指导后续如何准确评估 LLM 的二进制分析能力。 来源：arxiv-ai-security\n\n## 也值得关注\n- 研究LLM代码API误用并提出自动修复工具Dr.Fix（81.1）\n- WorkOS 遭遇 AI 自主渗透框架 ARTEX 攻击（78.55）\n- Claude Code 和 Codex 成功逆向 1994 年吉普车 ECU（77.45）\n- Astraios：探究代码大模型参数高效微调对安全性与鲁棒性的影响（76.75）\n- OffensiveCon 议题：AI 时代的 V8 安全（73.46）\n- TSBugs Explorer：TypeScript真实Bug探索与基准构建平台（72.4）\n\n## AI for Sec\n\n### 安全Agent\n- Cyber-Zero：无需运行时环境训练网络安全Agent（93.15）\n- 结合 LLM Agent 与 WP 分析自动推断 Move 智能合约规范（92.35）\n- 阿里开源混合架构代码审查工具 open-code-review（86.2）\n- Claude-BugHunter 登顶 GitHub Trending：82 技能的红队工具包（84.53）\n- WorkOS 遭遇 AI 自主渗透框架 ARTEX 攻击（78.55）\n\n### 安全评测与Benchmark\n- REFORGE：LLM二进制逆向工程能力基准测试方法（81.3）\n- TSBugs Explorer：TypeScript真实Bug探索与基准构建平台（72.4）\n\n### 漏洞挖掘\n- OpenAI Codex Security 工具跻身 GitHub Trending（75.7）\n- OffensiveCon 议题：AI 时代的 V8 安全（73.46）\n\n## AI Tech\n\n### Agent 架构\n- 自动化构建端侧定制小模型的 Agent 系统（72.0）\n\n### 模型评测\n- BigCodeArena：基于执行环境的代码生成模型评测平台（67.9）\n\n## 今日论文\n- Cyber-Zero：无需运行时环境训练网络安全Agent\n- 结合 LLM Agent 与 WP 分析自动推断 Move 智能合约规范\n- REFORGE：LLM二进制逆向工程能力基准测试方法\n- 研究LLM代码API误用并提出自动修复工具Dr.Fix\n- Astraios：探究代码大模型参数高效微调对安全性与鲁棒性的影响\n- TSBugs Explorer：TypeScript真实Bug探索与基准构建平台\n- 自动化构建端侧定制小模型的 Agent 系统\n- GH-AWTrace：GitHub 代理工作流执行日志大规模数据集\n\n## 今日观察\n得分最高的Cyber-Zero给出了一条很实用的捷径：用公开writeup逆向合成训练轨迹，直接免去了搭运行环境的高昂成本。建议做安全Agent的团队跟进这种合成思路来降低数据获取成本，同时在评估模型二进制分析能力时多留个心眼，把编译器优化的干扰考虑进去，别让榜单分数脱离实际。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-16 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-17T00:01:42+08:00"
+}
