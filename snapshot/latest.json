@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T01:42:04+08:00",
+  "updated_at": "2026-11-17T02:42:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -42,6 +42,26 @@
       "author": null,
       "published_at": "2026-11-16T05:00:00",
       "first_seen_at": "2026-11-16T10:20:51.399424",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32028,
+      "title": "FBI 称开源 AI 骇客工具 Artex 三小时内攻破网络",
+      "original_title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
+      "summary": "FBI 披露名为 Artex 的开源 AI 骇客工具被用于实战攻击，在不到三小时内攻破了美国一家 IT 巨头和韩国金融行业的网络。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 82.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "FBI 首次披露 AI 驱动的开源黑客工具在实战中展现高效破防能力。安全团队需警惕 AI 自动化攻击工具的实战化趋势，评估防御体系对加速攻击的抵抗力。",
+      "source_id": "techcrunch-ai",
+      "canonical_url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+      "reader_url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T17:36:43",
+      "first_seen_at": "2026-11-16T18:31:03.317751",
       "sub_category_label": "安全Agent"
     },
     {
@@ -168,31 +188,6 @@
       "published_at": "2026-11-16T05:00:00",
       "first_seen_at": "2026-11-16T10:20:13.415255",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 31951,
-      "title": "Google 警告攻击者利用多代理 AI 自动化漏洞武器化",
-      "original_title": "🛑 Google warns hackers are using autonomous AI agents to turn security patches into working exploits.  Attackers are deploying multi-agent frameworks to automate hacking, weaponize",
-      "summary": "Google 警告称，攻击者正在部署多代理 AI 框架，将已知安全补丁自动转化为可用漏洞利用程序，以加速入侵过程。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.31,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 驱动的 patch-to-exploit 自动化标志着攻防不对称加剧。安全团队需审视补丁管理与威胁狩猎流程，警惕漏洞利用窗口期被 AI 大幅压缩的风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2122330337334464721",
-      "reader_url": "https://x.com/TheHackersNews/status/2122330337334464721",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-11-16T14:05:58",
-      "first_seen_at": "2026-11-16T15:10:26.678983",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
