@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T06:43:57+08:00",
+  "updated_at": "2026-11-17T07:14:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -155,29 +155,29 @@
       "sub_category_label": null
     },
     {
-      "id": 31873,
-      "title": "Mozilla 借 AI 挖出 22 个 CVE，Agentic 网络操作能力与采购挑战",
-      "original_title": "Agentic Cyber Operations: Real Capabilities and the Race for Resilience  AI already supports operational cyber intrusions, reproducible vulnerability discovery and the orchestratio",
-      "summary": "Mozilla 与 Anthropic 合作确认 22 个 CVE，展示了 AI 在漏洞挖掘中的实际工业级价值。文章指出 AI 驱动的网络操作正增强但仍需人类监督，并探讨了防御采购与责任划分问题。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.21,
+      "id": 32121,
+      "title": "AI渗透测试框架ARTEX遭APT组织滥用进行全球网络间谍活动",
+      "original_title": "#threatreport #HighCompleteness ARTEX Unmasked | The Rise of AI-Powered ARTEX in Cybercrime & Espionage | 13-11-2026 Source: https://t.co/gaLDDLmhyo Key details below ↓  🧑‍💻Actors/",
+      "summary": "威胁情报显示，AI 驱动的渗透测试 Agent 框架 ARTEX 被多个 APT 组织和犯罪团伙用于自动化侦察、漏洞利用和云凭证窃取，甚至能在 5 分钟内从 GitHub 密钥突破至 Azure 密钥库。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.5,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "Mozilla 案例证明 AI 漏洞挖掘已落地。安全团队应关注如何将 AI 发现转化为去重、复现和修复的完整工程流程，同时审视 Agent 自动化操作中的权限控制与验证机制。",
+      "recommendation_reason": "防御团队需警惕自动化 AI 攻击框架的实战化，这证明了 AI 驱动的攻击已能实现端到端的高效入侵，需立即检视自身的云凭据和开源项目泄露风险。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/debugliesnews/status/2122279794125509089",
-      "reader_url": "https://x.com/debugliesnews/status/2122279794125509089",
-      "image_url": "https://pbs.twimg.com/media/HXPaOIuXwAAQFQy.jpg",
+      "canonical_url": "https://x.com/rst_cloud/status/2122458312553709954",
+      "reader_url": "https://x.com/rst_cloud/status/2122458312553709954",
+      "image_url": "https://pbs.twimg.com/media/HXR8lkgXgAAdzfz.jpg",
       "author": {
-        "username": "debugliesnews",
-        "name": "debuglies",
+        "username": "rst_cloud",
+        "name": "RST Cloud",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-16T10:45:07",
-      "first_seen_at": "2026-11-16T11:07:17.698703",
-      "sub_category_label": null
+      "published_at": "2026-11-16T22:34:29",
+      "first_seen_at": "2026-11-16T22:55:55.196989",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
