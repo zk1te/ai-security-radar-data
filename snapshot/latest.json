@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-16T21:40:50+08:00",
+  "updated_at": "2026-11-16T23:11:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 31647,
@@ -65,6 +65,26 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 31833,
+      "title": "研究LLM代码API误用并提出自动修复工具Dr.Fix",
+      "original_title": "Identifying and Mitigating API Misuse in Large Language Models",
+      "summary": "论文分析了StarCoder等模型生成代码中的API误用模式，分类了四种常见误用，并提出基于LLM的修复工具Dr.Fix，显著提升了修复准确率。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "code_repair",
+      "score_total": 81.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "AI 代码修复是安全自动化的重要一环。了解 LLM 代码生成的典型 API 误用模式，能帮团队在引入 AI 编程助手时针对性布防，或直接借鉴其分类法优化现有代码审计工具。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2503.22821",
+      "reader_url": "https://arxiv.org/pdf/2503.22821",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-16T14:58:50.370968",
+      "sub_category_label": null
+    },
+    {
       "id": 31841,
       "title": "Astraios：探究代码大模型参数高效微调对安全性与鲁棒性的影响",
       "original_title": "Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models",
@@ -125,6 +145,31 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 31951,
+      "title": "Google 警告攻击者利用多代理 AI 自动化漏洞武器化",
+      "original_title": "🛑 Google warns hackers are using autonomous AI agents to turn security patches into working exploits.  Attackers are deploying multi-agent frameworks to automate hacking, weaponize",
+      "summary": "Google 警告称，攻击者正在部署多代理 AI 框架，将已知安全补丁自动转化为可用漏洞利用程序，以加速入侵过程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.31,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 驱动的 patch-to-exploit 自动化标志着攻防不对称加剧。安全团队需审视补丁管理与威胁狩猎流程，警惕漏洞利用窗口期被 AI 大幅压缩的风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2122330337334464721",
+      "reader_url": "https://x.com/TheHackersNews/status/2122330337334464721",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-11-16T14:05:58",
+      "first_seen_at": "2026-11-16T15:10:26.678983",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 31901,
       "title": "自动化构建端侧定制小模型的 Agent 系统",
       "original_title": "Mobile AI Factory: Building Specialized Language Models for Your Mobile Device",
@@ -143,81 +188,6 @@
       "published_at": "2026-11-16T00:00:00",
       "first_seen_at": "2026-11-16T13:12:09.566428",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 31559,
-      "title": "开源清单「Awesome Security Agent Harnesses」汇总",
-      "original_title": "Building a security agent? Start with a map of the tools, not another random tutorial.  Awesome Security Agent Harnesses is a curated GitHub list of harnesses, tools, and research ",
-      "summary": "该开源项目按代码审计、渗透测试和 Fuzzing 等任务分类，汇总了 AI 安全 Agent 相关的工具、沙箱、评测榜单（如 Cybench、CyberGym）和研究实现。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.14,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 AI 安全 Agent 的从业者必看，能省去大量找工具和评测集的时间。列表按任务分类，直接挑对应的 harness 和沙箱即可开干。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DanKornas/status/2122161723385798958",
-      "reader_url": "https://x.com/DanKornas/status/2122161723385798958",
-      "image_url": "https://pbs.twimg.com/media/HXNu1fuXMAAgcg-.jpg",
-      "author": {
-        "username": "DanKornas",
-        "name": "Dan Kornas",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-16T02:55:57",
-      "first_seen_at": "2026-11-16T03:21:10.092522",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31873,
-      "title": "Mozilla 借 AI 挖出 22 个 CVE，Agentic 网络操作能力与采购挑战",
-      "original_title": "Agentic Cyber Operations: Real Capabilities and the Race for Resilience  AI already supports operational cyber intrusions, reproducible vulnerability discovery and the orchestratio",
-      "summary": "Mozilla 与 Anthropic 合作确认 22 个 CVE，展示了 AI 在漏洞挖掘中的实际工业级价值。文章指出 AI 驱动的网络操作正增强但仍需人类监督，并探讨了防御采购与责任划分问题。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.21,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Mozilla 案例证明 AI 漏洞挖掘已落地。安全团队应关注如何将 AI 发现转化为去重、复现和修复的完整工程流程，同时审视 Agent 自动化操作中的权限控制与验证机制。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/debugliesnews/status/2122279794125509089",
-      "reader_url": "https://x.com/debugliesnews/status/2122279794125509089",
-      "image_url": "https://pbs.twimg.com/media/HXPaOIuXwAAQFQy.jpg",
-      "author": {
-        "username": "debugliesnews",
-        "name": "debuglies",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-16T10:45:07",
-      "first_seen_at": "2026-11-16T11:07:17.698703",
-      "sub_category_label": null
-    },
-    {
-      "id": 31859,
-      "title": "FBI 预警开源 AI 渗透框架 ARTEX 遭黑产滥用",
-      "original_title": "Singularity Watch, Day 32 — November 16, 2026  Ryan Merges 141 Pull Requests in One Day and Starts the Astrohacker Factory as the FBI Warns of AI Agent Intrusions  Work: 141 Pull R",
-      "summary": "FBI 发布预警称开源 AI 渗透框架 ARTEX 被多个威胁组织用于入侵，部分攻击在3小时内获取特权访问。此外，1Password 指出恶意指令可劫持 AI Agent，需警惕相关安全风险。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent | agent_security",
-      "score_total": 70.21,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需关注 ARTEX 等 AI 渗透框架在黑产中的实战应用，并立即审查内部 AI Agent 的指令注入劫持风险。红蓝对抗与 Agent 开发者必看。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AstrohackerLabs/status/2122274545268597143",
-      "reader_url": "https://x.com/AstrohackerLabs/status/2122274545268597143",
-      "image_url": null,
-      "author": {
-        "username": "AstrohackerLabs",
-        "name": "Astrohacker",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-16T10:24:16",
-      "first_seen_at": "2026-11-16T10:31:03.566423",
-      "sub_category_label": null
     }
   ]
 }
