@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T09:05:37+08:00",
+  "updated_at": "2026-11-16T10:36:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -22,26 +22,6 @@
       "author": null,
       "published_at": "2026-11-15T02:41:14",
       "first_seen_at": "2026-11-16T00:47:31.620624",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 31371,
-      "title": "Claude-BugHunter 红队技能包冲上 GitHub Trending",
-      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 124 stars today",
-      "summary": "Claude-BugHunter 是面向漏洞挖掘和红队的 Claude Code 技能包，包含 82 个技能、15 个命令和 681 个已披露漏洞报告模式，覆盖 24 类核心漏洞。该项目近期在 GitHub 获得大量关注。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 84.79,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和漏洞挖掘从业者值得关注。它把 681 个真实漏洞模式封装成 Claude Code 技能，直接验证了 LLM 技能包在实战攻防中的落地效果，可作为构建自有安全 Agent 的参考。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
-      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-15&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-15T14:17:28.026120",
-      "first_seen_at": "2026-11-15T14:18:39.624053",
       "sub_category_label": "安全Agent"
     },
     {
@@ -211,6 +191,31 @@
       "published_at": "2026-11-15T23:58:04",
       "first_seen_at": "2026-11-16T00:01:48.834975",
       "sub_category_label": null
+    },
+    {
+      "id": 31402,
+      "title": "Unit42：攻击者利用开源AI渗透框架Cairn开展自主攻击",
+      "original_title": "@PaloAltoNtwks @Unit42_Intel published a report on November 12, 2026. It says that from August to September 2026, Chinese-speaking attackers used an open-source AI penetration test",
+      "summary": "Unit42 报告披露，中文黑客组织在2026年8至9月使用名为 Cairn 的开源 AI 渗透测试框架，针对至少19个组织自主执行了25次攻击行动。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI渗透工具正被武器化，攻击者利用开源框架Cairn实现自主攻击。防守方需警惕自动化攻击趋势，评估自身防御体系对抗AI Agent的承受力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Bobalouie41/status/2122002570176552992",
+      "reader_url": "https://x.com/Bobalouie41/status/2122002570176552992",
+      "image_url": null,
+      "author": {
+        "username": "Bobalouie41",
+        "name": "Bobby Shearer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-15T16:23:32",
+      "first_seen_at": "2026-11-15T16:27:39.632896",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
