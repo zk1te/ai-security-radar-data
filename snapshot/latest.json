@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T12:36:38+08:00",
+  "updated_at": "2026-11-16T13:06:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -143,6 +143,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 31590,
+      "title": "GH-AWTrace：GitHub 代理工作流执行日志大规模数据集",
+      "original_title": "GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs",
+      "summary": "该数据集关联了2.5万个GitHub代理工作流和400万条运行记录，日志揭示了工具拒绝、提供者故障和代理委派等执行细节，为研究代理执行失败和工具使用提供了实证基础。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 70.15,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "对研究Agent在真实环境中的执行失败和安全边界非常有价值。日志中的工具拒绝和委派失败案例是调试Agent安全性和稳定性的稀缺数据，做Agent安全防御的人应重点关注。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.06866",
+      "reader_url": "https://arxiv.org/pdf/2611.06866",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T00:00:00",
+      "first_seen_at": "2026-11-16T05:05:55.065072",
+      "sub_category_label": null
+    },
+    {
       "id": 31478,
       "title": "Claude-Red：为 Claude 打包红队与渗透测试技能库",
       "original_title": "Claude-Red packages offensive-security methodology into reusable SKILL.md files for Claude.  The library covers web apps, APIs, authentication, cloud, Active Directory, containers,",
@@ -190,26 +210,6 @@
       },
       "published_at": "2026-11-15T23:58:04",
       "first_seen_at": "2026-11-16T00:01:48.834975",
-      "sub_category_label": null
-    },
-    {
-      "id": 31437,
-      "title": "DeepSeek Harness 插件生态观察：终端自动化测试能力初探",
-      "original_title": "官方点名，DeepSeek Harness 的 4 个神级插件。",
-      "summary": "文章介绍了 DeepSeek Harness 的多款实用插件，其中 paiwarp-dsh 插件支持通过自然语言驱动真实终端执行自动化测试并收集录屏证据，展示了 Agent 自动化操作终端的潜力。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "agent_architecture",
-      "score_total": 66.05,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全测试和漏洞挖掘从业者应关注 paiwarp-dsh 这类终端自动化 Agent 插件。它验证了 LLM 驱动真实终端执行命令、解析输出并支持人工接管的工作流，这种模式可直接平移到自动化 PoC 验证和安全工具编排中。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7707231949409026058",
-      "reader_url": "https://juejin.cn/post/7707231949409026058",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-13T01:56:52",
-      "first_seen_at": "2026-11-15T18:45:28.486549",
       "sub_category_label": null
     }
   ]
