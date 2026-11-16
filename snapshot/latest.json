@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T18:39:37+08:00",
+  "updated_at": "2026-11-16T20:09:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -105,30 +105,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 31486,
-      "title": "WorkOS 遭遇 AI 自主渗透框架 ARTEX 攻击",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 报告发生数据泄露事件，攻击者使用名为 ARTEX 的 AI 辅助自主渗透测试框架访问了其内部 API 并窃取了 CRM 数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.55,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "防守方必须高度关注：AI 自主渗透框架已被真实攻击者用于实战。这标志着 AI 武器化从概念走向落地，红蓝对抗需立刻评估此类自动化 Agent 的攻防影响。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-16",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-16",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-16T00:07:30.498687",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 31495,
       "title": "Claude Code 和 Codex 成功逆向 1994 年吉普车 ECU",
       "original_title": "HN Hot Discussion: Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
@@ -216,6 +192,31 @@
       "published_at": "2026-11-16T02:55:57",
       "first_seen_at": "2026-11-16T03:21:10.092522",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 31873,
+      "title": "Mozilla 借 AI 挖出 22 个 CVE，Agentic 网络操作能力与采购挑战",
+      "original_title": "Agentic Cyber Operations: Real Capabilities and the Race for Resilience  AI already supports operational cyber intrusions, reproducible vulnerability discovery and the orchestratio",
+      "summary": "Mozilla 与 Anthropic 合作确认 22 个 CVE，展示了 AI 在漏洞挖掘中的实际工业级价值。文章指出 AI 驱动的网络操作正增强但仍需人类监督，并探讨了防御采购与责任划分问题。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.21,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Mozilla 案例证明 AI 漏洞挖掘已落地。安全团队应关注如何将 AI 发现转化为去重、复现和修复的完整工程流程，同时审视 Agent 自动化操作中的权限控制与验证机制。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/debugliesnews/status/2122279794125509089",
+      "reader_url": "https://x.com/debugliesnews/status/2122279794125509089",
+      "image_url": "https://pbs.twimg.com/media/HXPaOIuXwAAQFQy.jpg",
+      "author": {
+        "username": "debugliesnews",
+        "name": "debuglies",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-16T10:45:07",
+      "first_seen_at": "2026-11-16T11:07:17.698703",
+      "sub_category_label": null
     }
   ]
 }
