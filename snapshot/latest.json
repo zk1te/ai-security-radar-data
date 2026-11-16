@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T10:36:04+08:00",
+  "updated_at": "2026-11-16T11:36:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -118,28 +118,28 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 31384,
-      "title": "FBI就LLM渗透框架ARTEX发布FLASH警报",
-      "original_title": "The @FBI just put ARTEX on an official FLASH, with some intrusions going from initial targeting to privileged access in under three hours.  ARTEX is an open source, LLM-driven pene",
-      "summary": "FBI 针对开源 LLM 渗透框架 ARTEX 发布 FLASH 警报，该工具被广泛用于金融等行业，数小时内即可获取特权，并伴随 AI 凭证窃取行为。",
+      "id": 31559,
+      "title": "开源清单「Awesome Security Agent Harnesses」汇总",
+      "original_title": "Building a security agent? Start with a map of the tools, not another random tutorial.  Awesome Security Agent Harnesses is a curated GitHub list of harnesses, tools, and research ",
+      "summary": "该开源项目按代码审计、渗透测试和 Fuzzing 等任务分类，汇总了 AI 安全 Agent 相关的工具、沙箱、评测榜单（如 Cybench、CyberGym）和研究实现。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 70.5,
+      "score_total": 71.14,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "FBI 首次针对 LLM 驱动的攻击工具发布警报，标志自动化攻击已工业化。安全团队须立即盘点外部暴露面，并考虑在 LLM 网关部署欺骗防御。",
+      "recommendation_reason": "做 AI 安全 Agent 的从业者必看，能省去大量找工具和评测集的时间。列表按任务分类，直接挑对应的 harness 和沙箱即可开干。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ResilientCyber/status/2121981868438413723",
-      "reader_url": "https://x.com/ResilientCyber/status/2121981868438413723",
-      "image_url": null,
+      "canonical_url": "https://x.com/DanKornas/status/2122161723385798958",
+      "reader_url": "https://x.com/DanKornas/status/2122161723385798958",
+      "image_url": "https://pbs.twimg.com/media/HXNu1fuXMAAgcg-.jpg",
       "author": {
-        "username": "ResilientCyber",
-        "name": "Chris Hughes",
+        "username": "DanKornas",
+        "name": "Dan Kornas",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-15T15:01:16",
-      "first_seen_at": "2026-11-15T15:19:46.976572",
+      "published_at": "2026-11-16T02:55:57",
+      "first_seen_at": "2026-11-16T03:21:10.092522",
       "sub_category_label": "安全Agent"
     },
     {
