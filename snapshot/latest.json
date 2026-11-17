@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T20:48:35+08:00",
+  "updated_at": "2026-11-17T21:18:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -140,31 +140,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 32178,
-      "title": "FBI 警告开源 AI 渗透工具 Artex 被用于实战，3小时即可破网",
-      "original_title": "Under three hours: that is all an open-source AI tool needs to go from picking a target to breaching its network.  The FBI's latest advisory warns that hackers are using Artex, an ",
-      "summary": "FBI 警告黑客正使用开源 AI 渗透工具 Artex 发起自主攻击，不到3小时即可完成从选定目标到突破网络的全过程，已造成韩国金融机构和 ConnectWise 客户数据泄露。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这不仅是AI安全的阴暗面，更证实了自动化攻击Agent的实战破坏力。防守方需意识到响应窗口已被压缩至小时级，必须立即收敛弱口令等基础暴露面并强制启用 MFA。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/xiaoanlab/status/2122489898296807572",
-      "reader_url": "https://x.com/xiaoanlab/status/2122489898296807572",
-      "image_url": null,
-      "author": {
-        "username": "xiaoanlab",
-        "name": "XiaoAnLab",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-17T00:40:00",
-      "first_seen_at": "2026-11-17T01:03:07.557387",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 32264,
       "title": "中国开发者推Full Chain Sentinel：全链路AI红队自动化平台",
       "original_title": "this is the most DANGEROUS thing on internet today.  a chinese developer just built an AI hacking platform that brings an entire red team operation into one place.  it’s called ful",
@@ -190,29 +165,54 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 32181,
-      "title": "Barracuda遭攻击：攻击者滥用ARTEX AI渗透测试框架",
-      "original_title": "Barracuda confirms an AI-assisted cyberattack on its cloud environment.  Attackers reportedly used a stolen cloud access key and the ARTEX AI penetration-testing framework to acces",
-      "summary": "Barracuda确认其云环境遭网络攻击，攻击者利用第三方泄露凭证和ARTEX AI渗透测试框架，在44小时内访问了约10个云账户。",
-      "primary_category": "Sec for AI | AI for Sec",
+      "id": 32380,
+      "title": "FBI 预警开源 AI 渗透测试框架遭恶意滥用",
+      "original_title": "FBI publishes advisory on malicious use of open source AI penetration testing framework | https://t.co/2PgGf54uMr https://t.co/WwOlbN6Ddf",
+      "summary": "FBI 发布安全公告，警告攻击者正恶意利用开源 AI 渗透测试框架进行攻击，安全团队需警惕相关工具的双刃剑效应。",
+      "primary_category": "AI for Sec | Sec for AI",
       "sub_category": "security_agent",
-      "score_total": 65.5,
+      "score_total": 66.95,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "首次出现AI渗透测试框架在真实攻击中被滥用的案例。安全团队需警惕防守视角的AI工具武器化趋势，审查并收紧内部使用的AI安全工具的凭证和权限。",
+      "recommendation_reason": "AI 渗透工具不仅被防御方使用，也正被攻击方武器化。安全团队应盘点内部使用的 AI 安全 Agent，并关注 FBI 报告中提及的滥用手法与 IOC，调整自身防御策略。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/StarSnap_1/status/2122495499135852720",
-      "reader_url": "https://x.com/StarSnap_1/status/2122495499135852720",
-      "image_url": "https://pbs.twimg.com/media/HXSeZzFaoAAuHUs.jpg",
+      "canonical_url": "https://x.com/CharlieReports/status/2122666781676363944",
+      "reader_url": "https://x.com/CharlieReports/status/2122666781676363944",
+      "image_url": null,
       "author": {
-        "username": "StarSnap_1",
-        "name": "StarSnap 🌟",
+        "username": "CharlieReports",
+        "name": "Charlie Mitchell",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-17T01:02:15",
-      "first_seen_at": "2026-11-17T01:03:19.859569",
+      "published_at": "2026-11-17T12:22:52",
+      "first_seen_at": "2026-11-17T12:55:00.478978",
       "sub_category_label": null
+    },
+    {
+      "id": 32374,
+      "title": "将 Grok Bot 改造为十人 AI 安全代理团队",
+      "original_title": "this is f**king dangerous  i turned Grok Bot into a team of 10 specialized AI security agents that can help find exposed API keys, audit your code, identify vulnerabilities, and te",
+      "summary": "作者分享了一套由 10 个专门化 Grok Bot 组成的 AI 安全团队配置，涵盖红队测试、代码审计、密钥搜寻和供应链分析等角色，用于自动化完成各项安全测试工作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.21,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "给想搭自动化安全运营流水线的同行看：不用自己从零写 Prompt，直接参考这套十角色分工的 Grok Bot 配置，拿来做轻量级代码审计和资产巡检的起步模板很合适。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RealMarvelX/status/2122650376918733146",
+      "reader_url": "https://x.com/RealMarvelX/status/2122650376918733146",
+      "image_url": "https://pbs.twimg.com/media/HXUrQhwXwAAZPht.jpg",
+      "author": {
+        "username": "RealMarvelX",
+        "name": "MAIL",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T11:17:41",
+      "first_seen_at": "2026-11-17T12:53:38.052561",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
