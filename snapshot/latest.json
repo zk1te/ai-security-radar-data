@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T03:21:01+08:00",
+  "updated_at": "2026-11-18T03:51:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -55,6 +55,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 32571,
+      "title": "开源渗透测试Agent框架ARTEX遭武器化，FBI发布警告",
+      "original_title": "ARTEX is an open-source, autonomous, multi-agent penetration testing framework written in Go that translates high-level natural language tactical objectives into automated, machine",
+      "summary": "多智能体渗透测试框架 ARTEX 因被广泛滥用于攻击而遭 FBI 警告，攻击者利用其连接低成本大模型（如 DeepSeek）在 3 小时内完成从入侵到提权的过程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.01,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "渗透测试 Agent 被武器化已成现实威胁，攻击者偏爱低成本、低限制的模型。安全团队需警惕此类开源框架的滥用趋势，并评估防御侧应对自动化攻击的能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yaqeen_un/status/2122765908603273527",
+      "reader_url": "https://x.com/yaqeen_un/status/2122765908603273527",
+      "image_url": null,
+      "author": {
+        "username": "yaqeen_un",
+        "name": "Truth Seeker 🫵",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T18:56:46",
+      "first_seen_at": "2026-11-17T19:22:12.374254",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 32485,
       "title": "FBI 警告：黑客滥用 AI 渗透框架 ARTEX 自动化攻击企业",
       "original_title": "🚨FBI issues warning cybercriminals and state aligned hackers are exploiting an AI system to automate attacks against businesses and more:    “The #FBI issued a FLASH advisory warni",
@@ -77,6 +102,31 @@
       },
       "published_at": "2026-11-17T17:02:17",
       "first_seen_at": "2026-11-17T17:15:27.651402",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32577,
+      "title": "开源多智能体渗透框架 ARTEX 遭滥用，FBI 发出正式预警",
+      "original_title": "ARTEX is an open-source, autonomous, multi-agent penetration testing framework written in Go that translates high-level natural language tactical objectives into automated, machine",
+      "summary": "开源多智能体渗透测试框架 ARTEX 能将自然语言转化为攻击命令，因遭广泛滥用已被作者下线，但 FBI 警告其仍被用于针对关键基础设施的快速攻击，攻击者偏好利用安全护栏较少的 DeepSeek 模型驱动。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红蓝双方都应立刻关注此事件：防御侧需排查暴露的 ARTEX 控制台并应对 AI 驱动的极速渗透，攻击侧的工具链偏好揭示了当前大模型在安全绕过上的实际差异。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/yaqeen_un/status/2122770221069111530",
+      "reader_url": "https://x.com/yaqeen_un/status/2122770221069111530",
+      "image_url": null,
+      "author": {
+        "username": "yaqeen_un",
+        "name": "Truth Seeker 🫵",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T19:13:54",
+      "first_seen_at": "2026-11-17T19:23:24.269041",
       "sub_category_label": "安全Agent"
     },
     {
@@ -130,6 +180,31 @@
       "sub_category_label": null
     },
     {
+      "id": 32578,
+      "title": "FBI 警告 AI 渗透框架 ARTEX 可在 3 小时内破防",
+      "original_title": "🚨 FBI ISSUES MAJOR CYBERSECURITY WARNING: AI-POWERED HACKERS CAN BREACH SYSTEMS IN UNDER 3 HOURS! 🇺🇸⚠️  Something concerning is happening across the US digital infrastructure.  Ove",
+      "summary": "FBI 警告攻击者正使用名为 ARTEX 的 AI 自动化渗透框架，能在 3 小时内完成从初始访问到提权的过程，已造成 ConnectWise 等机构大规模受损。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.37,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "攻击者已开始在野使用 AI 渗透框架，大幅压缩防守方响应窗口。蓝队需立即审视横向移动防御与云身份监控策略，并排查未使用的第三方凭证与 OAuth 集成。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/akshay_vicky/status/2122770320503509462",
+      "reader_url": "https://x.com/akshay_vicky/status/2122770320503509462",
+      "image_url": null,
+      "author": {
+        "username": "akshay_vicky",
+        "name": "Akshay Kumar",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T19:14:18",
+      "first_seen_at": "2026-11-17T19:23:24.650686",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 32488,
       "title": "Claude为123个开源库生成形式化证明验证无崩溃",
       "original_title": "Claude generated formal proofs for 239 fuzzing entry points across 123 open-source libraries. The claim is narrower: under modeled Linux behavior, checked binaries do not crash on ",
@@ -153,76 +228,6 @@
       "published_at": "2026-11-17T17:09:04",
       "first_seen_at": "2026-11-17T17:15:44.177469",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 32483,
-      "title": "FBI 警报：开源 AI 渗透框架 ARTEX 被攻击者武器化",
-      "original_title": "🚨 FBI FLASH Alert: Hackers are weaponizing ARTEX — an open-source, AI-powered autonomous penetration testing framework. ARTEX (Go-based, LLM-driven multi-agent platform) turns plai",
-      "summary": "FBI 发布 FLASH 警报称，基于 LLM 的多 Agent 自主渗透框架 ARTEX 自 2026 年 8 月起被网络犯罪与国家级攻击者滥用，可在 3 小时内完成从侦察到提权全链路攻击，已波及金融、政府、科技等八大行业，韩国银行 6.7 万人数据泄露、ConnectWise 供应链遭殃。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 70.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透 Agent 不再只是研究 demo——ARTEX 已在野用于真实攻击，3 小时拿特权。安全团队要立即排查自身是否暴露在自动化攻击节奏下，同时重新审视内部同类工具的边界管控。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Faisalwaqas/status/2122736095183945944",
-      "reader_url": "https://x.com/Faisalwaqas/status/2122736095183945944",
-      "image_url": null,
-      "author": {
-        "username": "Faisalwaqas",
-        "name": "Faisal Waqas",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-17T16:58:18",
-      "first_seen_at": "2026-11-17T17:14:32.180599",
-      "sub_category_label": null
-    },
-    {
-      "id": 32322,
-      "title": "OpenAI 与北约合作：用 AI 助力防御者挖掘漏洞",
-      "original_title": "Strengthening NATO and allied cyber defenses with AI",
-      "summary": "OpenAI 宣布与北约及盟国网络机构合作，利用 AI 帮助可信防御者发现漏洞、测试修复并保护关键系统。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.3,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI 正式将 AI 能力对接国家级防御体系，意味着 AI 辅助漏洞挖掘从研究走向实战流程。安全团队应关注此类合作带来的工具和能力变化。",
-      "source_id": "openai-news",
-      "canonical_url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "reader_url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-17T00:00:00",
-      "first_seen_at": "2026-11-17T10:22:35.072661",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 32544,
-      "title": "AI 渗透框架 ARTEX 遭黑产滥用，被用于攻击韩国银行",
-      "original_title": "Thought for 15s  ARTEX is a Chinese-origin open-source AI agentic penetration testing framework released in 2026 that uses LLMs to plan and execute reconnaissance, vulnerability te",
-      "summary": "开源 AI 渗透测试框架 ARTEX 因被犯罪分子和国家级黑客滥用攻击韩国银行，其 GitHub 仓库已转为私有。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透工具武器化已成现实，安全团队需密切跟踪此类自动化 Agent 的在野利用情况，评估现有防御体系对 AI 驱动攻击的抵御能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DavidCa43182169/status/2122758620383199357",
-      "reader_url": "https://x.com/DavidCa43182169/status/2122758620383199357",
-      "image_url": null,
-      "author": {
-        "username": "DavidCa43182169",
-        "name": "John Colter",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-17T18:27:48",
-      "first_seen_at": "2026-11-17T18:52:38.442087",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
