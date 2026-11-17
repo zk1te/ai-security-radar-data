@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T01:50:28+08:00",
+  "updated_at": "2026-11-18T02:20:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -53,6 +53,31 @@
       "published_at": "2026-11-17T17:02:17",
       "first_seen_at": "2026-11-17T17:15:27.651402",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32509,
+      "title": "FBI 警告开源 AI 渗透框架 ARTEX 被武器化",
+      "original_title": "The Federal Bureau of Investigation (FBI) Flash Advisory FLASH-20261113-001 warns that cybercriminals and state-aligned actors are weaponizing ARTEX, an open-source, large language",
+      "summary": "FBI 警报显示，开源 AI 渗透框架 ARTEX 被黑客滥用，能在 3 小时内完成全自动攻击，目前仍存在上千个暴露的控制台。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 70.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队需高度警惕 AI 自动化攻击带来的高速度与规模威胁，重点监控高频自动化行为异常，并排查内网是否有暴露的 ARTEX 控制台。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/LJSudbury/status/2122747947389419564",
+      "reader_url": "https://x.com/LJSudbury/status/2122747947389419564",
+      "image_url": null,
+      "author": {
+        "username": "LJSudbury",
+        "name": "LJ Sudbury",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T17:45:24",
+      "first_seen_at": "2026-11-17T18:19:23.871501",
+      "sub_category_label": null
     },
     {
       "id": 32488,
@@ -198,31 +223,6 @@
       "published_at": "2026-11-17T12:53:33",
       "first_seen_at": "2026-11-17T13:24:15.892067",
       "sub_category_label": null
-    },
-    {
-      "id": 32500,
-      "title": "ARTEX 渗透工具被武器化，AI Agent 实现3小时内提权",
-      "original_title": "This is the clearest sign yet that the economics of hacking have changed.  ARTEX was released on GitHub in July as a legitimate penetration testing tool. Attackers turned it into a",
-      "summary": "合法渗透测试工具 ARTEX 被攻击者武器化，利用 AI Agent 几乎无人工干预完成侦察、利用和提权。FBI 指出部分入侵在 3 小时内获取特权，并将其与 ConnectWise 供应链泄露关联。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.32,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队工具 ARTEX 被直接武器化，AI Agent 自动闭环侦察到提权，3 小时拿权限。防御方别再等人工响应了，必须上自动化持续测试和异常行为监控，否则速度根本跟不上。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/nickisanders/status/2122743319948353581",
-      "reader_url": "https://x.com/nickisanders/status/2122743319948353581",
-      "image_url": null,
-      "author": {
-        "username": "nickisanders",
-        "name": "Nicki Sanders",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-17T17:27:00",
-      "first_seen_at": "2026-11-17T17:46:43.831708",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
