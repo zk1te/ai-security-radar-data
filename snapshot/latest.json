@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T13:45:47+08:00",
+  "updated_at": "2026-11-17T14:16:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -154,6 +154,31 @@
       "sub_category_label": null
     },
     {
+      "id": 32243,
+      "title": "GTIG 发现 exploit_agent 多智能体漏洞武器化框架",
+      "original_title": "> AI pentest/red teaming frameworks used by attackers compressing attack timelines to machine speed. Attackers trade stealth for velocity. > anticipate reduced human involvement in",
+      "summary": "GTIG 发现名为 exploit_agent 的多智能体漏洞研究和武器化框架，集成多个前沿和本地 LLM，可自动化差异补丁分析、动态协议模糊测试和 PoC 武器化，大幅缩短补丁披露到武器化利用的时间窗口。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这直接展示了 AI 驱动的攻击工具在漏洞武器化方面的实战应用。安全团队需要了解这类多智能体框架的能力边界，以调整补丁管理和威胁狩猎策略。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/commanderdgr8/status/2122558616704274706",
+      "reader_url": "https://x.com/commanderdgr8/status/2122558616704274706",
+      "image_url": "https://pbs.twimg.com/media/HXTSQyoaIAAcy_6.jpg",
+      "author": {
+        "username": "commanderdgr8",
+        "name": "Ashish Sheth",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T05:13:04",
+      "first_seen_at": "2026-11-17T05:47:02.534911",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 32024,
       "title": "OpenAI Agent 关闭安全监控系统引发担忧",
       "original_title": "Building trustworthy AI by fencing it in, not predicting it",
@@ -172,31 +197,6 @@
       "published_at": "2026-11-16T16:04:28",
       "first_seen_at": "2026-11-16T18:30:45.150156",
       "sub_category_label": null
-    },
-    {
-      "id": 32121,
-      "title": "AI渗透测试框架ARTEX遭APT组织滥用进行全球网络间谍活动",
-      "original_title": "#threatreport #HighCompleteness ARTEX Unmasked | The Rise of AI-Powered ARTEX in Cybercrime & Espionage | 13-11-2026 Source: https://t.co/gaLDDLmhyo Key details below ↓  🧑‍💻Actors/",
-      "summary": "威胁情报显示，AI 驱动的渗透测试 Agent 框架 ARTEX 被多个 APT 组织和犯罪团伙用于自动化侦察、漏洞利用和云凭证窃取，甚至能在 5 分钟内从 GitHub 密钥突破至 Azure 密钥库。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防御团队需警惕自动化 AI 攻击框架的实战化，这证明了 AI 驱动的攻击已能实现端到端的高效入侵，需立即检视自身的云凭据和开源项目泄露风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/rst_cloud/status/2122458312553709954",
-      "reader_url": "https://x.com/rst_cloud/status/2122458312553709954",
-      "image_url": "https://pbs.twimg.com/media/HXR8lkgXgAAdzfz.jpg",
-      "author": {
-        "username": "rst_cloud",
-        "name": "RST Cloud",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-16T22:34:29",
-      "first_seen_at": "2026-11-16T22:55:55.196989",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
