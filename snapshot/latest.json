@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-17T20:18:23+08:00",
+  "updated_at": "2026-11-17T20:48:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 32209,
@@ -25,26 +25,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 32161,
-      "title": "阿里开源 AI 代码审查工具登顶 GitHub Trending",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 951 stars today",
-      "summary": "阿里开源的 open-code-review 项目单日新增 951 star，该工具采用确定性流水线结合 LLM Agent 架构，内置 XSS、SQL 注入等多语言安全审查规则，支持 OpenAI 与 Anthropic 模型。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 85.76,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "大厂实战落地的 AI 代码审查工具，采用确定性规则加 LLM 混合架构，能精准定位安全漏洞且避免纯大模型幻觉。安全团队可借鉴其流水线设计思路，或直接集成提升代码审计效率。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-17&since=daily",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-17&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-16T12:12:40",
-      "first_seen_at": "2026-11-17T00:46:00.037548",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 32225,
       "title": "从 php2shell 看资深研究员如何用 AI 辅助漏洞挖掘",
       "original_title": "PHPocalypse: 22 years of PHP Insecurity",
@@ -62,26 +42,6 @@
       "author": null,
       "published_at": "2026-12-10T13:30:00",
       "first_seen_at": "2026-11-17T04:51:51.994759",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 32168,
-      "title": "OpenAI Codex Security 工具受关注，周增近百星",
-      "original_title": "GitHub Trending: openai/codex-security gained 0 stars today",
-      "summary": "OpenAI 开源的 Codex Security CLI 用于发现、验证和修复漏洞，目前 GitHub 星标达 1.3 万，本周增长近百。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 76.45,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "做代码安全和 DevSecOps 的同行可以关注此工具，评估将其集成到 CI/CD 流水线进行自动化漏洞修复的可行性与效果。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-17&since=weekly",
-      "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-17&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-16T22:36:36",
-      "first_seen_at": "2026-11-17T00:46:34.356121",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -178,6 +138,81 @@
       "published_at": "2026-11-17T07:34:24",
       "first_seen_at": "2026-11-17T07:57:20.859013",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32178,
+      "title": "FBI 警告开源 AI 渗透工具 Artex 被用于实战，3小时即可破网",
+      "original_title": "Under three hours: that is all an open-source AI tool needs to go from picking a target to breaching its network.  The FBI's latest advisory warns that hackers are using Artex, an ",
+      "summary": "FBI 警告黑客正使用开源 AI 渗透工具 Artex 发起自主攻击，不到3小时即可完成从选定目标到突破网络的全过程，已造成韩国金融机构和 ConnectWise 客户数据泄露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这不仅是AI安全的阴暗面，更证实了自动化攻击Agent的实战破坏力。防守方需意识到响应窗口已被压缩至小时级，必须立即收敛弱口令等基础暴露面并强制启用 MFA。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/xiaoanlab/status/2122489898296807572",
+      "reader_url": "https://x.com/xiaoanlab/status/2122489898296807572",
+      "image_url": null,
+      "author": {
+        "username": "xiaoanlab",
+        "name": "XiaoAnLab",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T00:40:00",
+      "first_seen_at": "2026-11-17T01:03:07.557387",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32264,
+      "title": "中国开发者推Full Chain Sentinel：全链路AI红队自动化平台",
+      "original_title": "this is the most DANGEROUS thing on internet today.  a chinese developer just built an AI hacking platform that brings an entire red team operation into one place.  it’s called ful",
+      "summary": "名为「Full Chain Sentinel」的 AI 红队平台发布，结合多 AI Agent 与 Kali 环境，覆盖 Web/API 渗透、移动端测试、漏洞验证及流量分析，实现从侦察到报告的全流程自动化。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.13,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和安全评测从业者必看，这是一个将 AI Agent 与 Kali 工具链深度结合的完整红队自动化方案，可作为构建内部安全 Agent 或评估现有工具能力的参考范本。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MAXdeg0/status/2122608453034053818",
+      "reader_url": "https://x.com/MAXdeg0/status/2122608453034053818",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2122608361837404161/img/DYZRBm2Bkgggy6P3.jpg",
+      "author": {
+        "username": "MAXdeg0",
+        "name": "MAX",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T08:31:06",
+      "first_seen_at": "2026-11-17T08:37:39.815805",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32181,
+      "title": "Barracuda遭攻击：攻击者滥用ARTEX AI渗透测试框架",
+      "original_title": "Barracuda confirms an AI-assisted cyberattack on its cloud environment.  Attackers reportedly used a stolen cloud access key and the ARTEX AI penetration-testing framework to acces",
+      "summary": "Barracuda确认其云环境遭网络攻击，攻击者利用第三方泄露凭证和ARTEX AI渗透测试框架，在44小时内访问了约10个云账户。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "首次出现AI渗透测试框架在真实攻击中被滥用的案例。安全团队需警惕防守视角的AI工具武器化趋势，审查并收紧内部使用的AI安全工具的凭证和权限。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/StarSnap_1/status/2122495499135852720",
+      "reader_url": "https://x.com/StarSnap_1/status/2122495499135852720",
+      "image_url": "https://pbs.twimg.com/media/HXSeZzFaoAAuHUs.jpg",
+      "author": {
+        "username": "StarSnap_1",
+        "name": "StarSnap 🌟",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T01:02:15",
+      "first_seen_at": "2026-11-17T01:03:19.859569",
+      "sub_category_label": null
     }
   ]
 }
