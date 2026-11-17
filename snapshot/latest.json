@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-17T07:14:01+08:00",
+  "updated_at": "2026-11-17T08:14:06+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 32028,
@@ -43,6 +43,30 @@
       "published_at": "2026-11-16T05:00:00",
       "first_seen_at": "2026-11-16T14:58:50.370968",
       "sub_category_label": null
+    },
+    {
+      "id": 32135,
+      "title": "WorkOS 遭遇数据泄露，疑被 AI 渗透框架攻击",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告近期发生数据泄露事件，调查表明攻击可能由名为 ARTEX 的 AI 辅助自主渗透测试框架发起，导致客户 CRM 数据被访问。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "首次出现 AI 渗透测试框架用于实际攻击的事件，值得所有安全团队警惕；应立即审查现有 AI 渗透工具的授权控制，避免被滥用。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-17",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-17",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-17T00:10:46.302951",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 31895,
