@@ -1,9 +1,34 @@
 {
-  "updated_at": "2026-11-18T02:20:35+08:00",
+  "updated_at": "2026-11-18T03:21:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
+    {
+      "id": 32535,
+      "title": "GPT-6.2 Astra 网安能力跃升，ExploitBench 得分大涨22分",
+      "original_title": "GPT-6.2 Astra is our most capable model ever for cyber. It jumps 22 points over GPT-6 Astra on ExploitBench Internal Port.  Due to increased capabilities, we’re launching GPT‑6.2 A",
+      "summary": "GPT-6.2 Astra 在 ExploitBench 内部评测中得分较前代提升22分，成为其最强网安模型；官方同步加强安全防护，并向 Daybreak 平台防御者开放以减少拒绝响应。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 81.02,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "网安人员需关注新模型在漏洞挖掘等任务上的能力跃升。防御者可期待在 Daybreak 平台利用该模型提升分析效率，但需实测其安全策略限制与真实可用性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2122750133133791592",
+      "reader_url": "https://x.com/OpenAI/status/2122750133133791592",
+      "image_url": "https://pbs.twimg.com/media/HXWDPqjbsAA501X.png",
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-17T17:54:05",
+      "first_seen_at": "2026-11-17T18:51:12.437179",
+      "sub_category_label": null
+    },
     {
       "id": 32486,
       "title": "FBI 警告：AI 渗透框架 ARTEX 被武器化加速网络攻击",
@@ -52,6 +77,31 @@
       },
       "published_at": "2026-11-17T17:02:17",
       "first_seen_at": "2026-11-17T17:15:27.651402",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32548,
+      "title": "Cisco Talos首发攻击Agent栈实战调查，发布ARTEX检测规则",
+      "original_title": "\"THE HARNESS IS NOW A SIGNATURE\": CISCO TALOS PUBLISHES THE FIRST FIELD SURVEY OF THE OFFENSIVE AGENT-STACK — AND SHIPS SNORT RULES FOR THE AGENTIC HARNESS LAYER INSIDE ARTEX, DISA",
+      "summary": "Cisco Talos发布首个AI驱动渗透测试框架实战调查，覆盖ARTEX、PentAGI、Hephaestus等工具的在野滥用情况，并为ARTEX的norma harness层发布Snort检测规则（默认关闭），指出攻击型Agent基础设施的检测是配置决策而非能力问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "防御团队必看：业界首次为攻击型AI Agent基础设施层写检测签名。关键洞察是合法Agent和攻击Agent的harness产物同源，检测是配置决策而非能力问题——跑Agent harness的团队该评估自己栈和攻击者有多少重叠。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/botnewsnetwork/status/2122761544798965923",
+      "reader_url": "https://x.com/botnewsnetwork/status/2122761544798965923",
+      "image_url": null,
+      "author": {
+        "username": "botnewsnetwork",
+        "name": "botnewsnetwork",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-17T18:39:25",
+      "first_seen_at": "2026-11-17T18:53:17.397208",
       "sub_category_label": "安全Agent"
     },
     {
@@ -150,79 +200,29 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 32259,
-      "title": "Google 首次披露全自动化漏洞挖掘攻击框架在野利用",
-      "original_title": "Google's Threat Intelligence Group published its Q4 2026 AI Threat Tracker report on November 16, 2026, documenting for the first time a fully automated cyberattack framework opera",
-      "summary": "Google 威胁情报团队报告首次发现名为「exploit_agent」的全自动化攻击框架，能自动比对补丁、挖掘漏洞并生成执行利用代码。",
+      "id": 32544,
+      "title": "AI 渗透框架 ARTEX 遭黑产滥用，被用于攻击韩国银行",
+      "original_title": "Thought for 15s  ARTEX is a Chinese-origin open-source AI agentic penetration testing framework released in 2026 that uses LLMs to plan and execute reconnaissance, vulnerability te",
+      "summary": "开源 AI 渗透测试框架 ARTEX 因被犯罪分子和国家级黑客滥用攻击韩国银行，其 GitHub 仓库已转为私有。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
       "score_total": 69.25,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "攻击侧正在用 AI Agent 实现从补丁比对到漏洞利用的全链条自动化，ARTEX 等开源框架已实战落地。防守方必须重视自动化攻防的响应速度，并关注 LLM 凭证被盗用带来的衍生风险。",
+      "recommendation_reason": "AI 渗透工具武器化已成现实，安全团队需密切跟踪此类自动化 Agent 的在野利用情况，评估现有防御体系对 AI 驱动攻击的抵御能力。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TokenandoAI/status/2122594188021604646",
-      "reader_url": "https://x.com/TokenandoAI/status/2122594188021604646",
+      "canonical_url": "https://x.com/DavidCa43182169/status/2122758620383199357",
+      "reader_url": "https://x.com/DavidCa43182169/status/2122758620383199357",
       "image_url": null,
       "author": {
-        "username": "TokenandoAI",
-        "name": "tokenando",
+        "username": "DavidCa43182169",
+        "name": "John Colter",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-17T07:34:24",
-      "first_seen_at": "2026-11-17T07:57:20.859013",
+      "published_at": "2026-11-17T18:27:48",
+      "first_seen_at": "2026-11-17T18:52:38.442087",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 32264,
-      "title": "中国开发者推Full Chain Sentinel：全链路AI红队自动化平台",
-      "original_title": "this is the most DANGEROUS thing on internet today.  a chinese developer just built an AI hacking platform that brings an entire red team operation into one place.  it’s called ful",
-      "summary": "名为「Full Chain Sentinel」的 AI 红队平台发布，结合多 AI Agent 与 Kali 环境，覆盖 Web/API 渗透、移动端测试、漏洞验证及流量分析，实现从侦察到报告的全流程自动化。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.13,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和安全评测从业者必看，这是一个将 AI Agent 与 Kali 工具链深度结合的完整红队自动化方案，可作为构建内部安全 Agent 或评估现有工具能力的参考范本。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/MAXdeg0/status/2122608453034053818",
-      "reader_url": "https://x.com/MAXdeg0/status/2122608453034053818",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2122608361837404161/img/DYZRBm2Bkgggy6P3.jpg",
-      "author": {
-        "username": "MAXdeg0",
-        "name": "MAX",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-17T08:31:06",
-      "first_seen_at": "2026-11-17T08:37:39.815805",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 32390,
-      "title": "开源AI渗透工具ARTEX遭滥用，AWS与FBI警告自动化攻击提速",
-      "original_title": "🚨 𝗢𝗽𝗲𝗻-𝗦𝗼𝘂𝗿𝗰𝗲 𝗔𝗜 𝗧𝗼𝗼𝗹 𝗔𝗥𝗧𝗘𝗫 𝗙𝘂𝗲𝗹𝘀 𝗖𝘆𝗯𝗲𝗿𝗰𝗿𝗶𝗺𝗲 𝗖𝗮𝗺𝗽𝗮𝗶𝗴𝗻𝘀, 𝗔𝗪𝗦 𝗮𝗻𝗱 𝗙𝗕𝗜 𝗪𝗮𝗿𝗻  @amazonnews's honeypot sensors caught two attack campaigns run with ARTEX, an open-source AI penetration t",
-      "summary": "AWS蜜罐捕获两起利用开源AI渗透测试框架ARTEX的攻击活动：AI Agent不仅窃取并循环利用API密钥，还搭建实时Deepfake绕过交易所KYC，FBI称从首次定位到提权不到3小时。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是AI安全工具「双刃剑」的典型案例，展示了AI Agent在真实攻击中实现自动化闭环和惊人速度。做威胁检测和蓝队防御的人必须意识到，攻击面和攻击节奏已经变了。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/SISpotlight/status/2122674503641661502",
-      "reader_url": "https://x.com/SISpotlight/status/2122674503641661502",
-      "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2122674459068788736/pu/img/RfRko5PZE00JewgX.jpg",
-      "author": {
-        "username": "SISpotlight",
-        "name": "SI Spotlight",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-17T12:53:33",
-      "first_seen_at": "2026-11-17T13:24:15.892067",
-      "sub_category_label": null
     }
   ]
 }
