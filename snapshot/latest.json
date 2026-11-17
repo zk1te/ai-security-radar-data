@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-18T05:21:41+08:00",
+  "updated_at": "2026-11-18T05:51:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
     {
       "id": 31819,
@@ -128,6 +128,26 @@
       "published_at": "2026-11-16T05:00:00",
       "first_seen_at": "2026-11-17T21:00:22.663795",
       "sub_category_label": null
+    },
+    {
+      "id": 31808,
+      "title": "交互式程序归纳结合大模型先验，大幅提升代码修复准确率",
+      "original_title": "Interactive Program Induction with Language Model Priors",
+      "summary": "论文提出一种基于贝叶斯视角的交互式程序归纳方法，利用 LLM 作为先验来指导查询选择，以解决从有限示例恢复程序的模糊性问题。在 CodeARC 基准上，该方法比仅用 LM 的智能体准确率提升 22 个百分点，且所需示例更少。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该方法展示了如何通过交互式查询显著提升 LLM 在代码生成任务上的表现，这对于安全自动化补丁生成和代码审计具有启发意义。安全工具开发者可以借鉴此思路，设计更高效的交互式安全 Agent。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.18485",
+      "reader_url": "https://arxiv.org/pdf/2611.18485",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-16T05:00:00",
+      "first_seen_at": "2026-11-17T21:00:22.663795",
+      "sub_category_label": "模型评测"
     }
   ]
 }
