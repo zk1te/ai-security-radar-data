@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T23:19:43+08:00",
+  "updated_at": "2026-11-18T00:49:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -195,29 +195,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 32380,
-      "title": "FBI 预警开源 AI 渗透测试框架遭恶意滥用",
-      "original_title": "FBI publishes advisory on malicious use of open source AI penetration testing framework | https://t.co/2PgGf54uMr https://t.co/WwOlbN6Ddf",
-      "summary": "FBI 发布安全公告，警告攻击者正恶意利用开源 AI 渗透测试框架进行攻击，安全团队需警惕相关工具的双刃剑效应。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 66.95,
+      "id": 32466,
+      "title": "Samuel Groß比较Fuzzilli与BigSleep在JS引擎上的表现",
+      "original_title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines (Samuel Groß)  https://t.co/DmfIM0Dj13  #infosec",
+      "summary": "Google Project Zero研究员Samuel Groß对比了传统覆盖率指导Fuzzer Fuzzilli和基于AI的漏洞发现工具BigSleep在JavaScript引擎上的实际效果。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 67.98,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "AI 渗透工具不仅被防御方使用，也正被攻击方武器化。安全团队应盘点内部使用的 AI 安全 Agent，并关注 FBI 报告中提及的滥用手法与 IOC，调整自身防御策略。",
+      "recommendation_reason": "BigSleep是目前最成功的真实世界AI漏洞挖掘工具之一，它与成熟Fuzzer的直接对比极具参考价值，能帮团队判断当前AI挖洞的实际能力与适用场景。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CharlieReports/status/2122666781676363944",
-      "reader_url": "https://x.com/CharlieReports/status/2122666781676363944",
+      "canonical_url": "https://x.com/0xor0ne/status/2122729451851006401",
+      "reader_url": "https://x.com/0xor0ne/status/2122729451851006401",
       "image_url": null,
       "author": {
-        "username": "CharlieReports",
-        "name": "Charlie Mitchell",
+        "username": "0xor0ne",
+        "name": "0xor0ne",
         "avatar_url": null,
-        "followers_count": 0
+        "followers_count": 93861
       },
-      "published_at": "2026-11-17T12:22:52",
-      "first_seen_at": "2026-11-17T12:55:00.478978",
-      "sub_category_label": null
+      "published_at": "2026-11-17T16:31:54",
+      "first_seen_at": "2026-11-17T16:41:23.378522",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
