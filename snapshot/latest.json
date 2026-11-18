@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T05:51:46+08:00",
+  "updated_at": "2026-11-18T08:22:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -70,6 +70,30 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 32746,
+      "title": "WorkOS 遭入侵，攻击者疑似使用 AI 自主渗透框架",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告安全事件，称攻击者疑似使用名为 ARTEX 的 AI 辅助自主渗透测试框架获取了内部 API 权限，导致 CRM 和客户支持数据泄露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "首次在真实安全事件中看到 AI 自主渗透框架被指控为攻击源头。安全团队需密切关注此类 AI 工具武器化趋势，并评估防御机制对自动化智能攻击的抵御能力。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-18",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-18",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-18T00:09:47.005870",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 31822,
       "title": "黑盒反馈驱动过程的随机建模与评估：以 Fuzzing 为例",
       "original_title": "Evaluating Feedback-Driven Black-Box Processes via Stochastic Modeling and Simulation",
@@ -128,26 +152,6 @@
       "published_at": "2026-11-16T05:00:00",
       "first_seen_at": "2026-11-17T21:00:22.663795",
       "sub_category_label": null
-    },
-    {
-      "id": 31808,
-      "title": "交互式程序归纳结合大模型先验，大幅提升代码修复准确率",
-      "original_title": "Interactive Program Induction with Language Model Priors",
-      "summary": "论文提出一种基于贝叶斯视角的交互式程序归纳方法，利用 LLM 作为先验来指导查询选择，以解决从有限示例恢复程序的模糊性问题。在 CodeARC 基准上，该方法比仅用 LM 的智能体准确率提升 22 个百分点，且所需示例更少。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 72.75,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "该方法展示了如何通过交互式查询显著提升 LLM 在代码生成任务上的表现，这对于安全自动化补丁生成和代码审计具有启发意义。安全工具开发者可以借鉴此思路，设计更高效的交互式安全 Agent。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.18485",
-      "reader_url": "https://arxiv.org/pdf/2611.18485",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-16T05:00:00",
-      "first_seen_at": "2026-11-17T21:00:22.663795",
-      "sub_category_label": "模型评测"
     }
   ]
 }
