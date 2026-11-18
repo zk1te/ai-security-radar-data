@@ -1,9 +1,49 @@
 {
-  "updated_at": "2026-11-18T08:22:09+08:00",
+  "updated_at": "2026-11-18T08:52:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
+    {
+      "id": 32789,
+      "title": "阿里开源 AI 代码审查工具 open-code-review 登顶 Trending",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 763 stars today",
+      "summary": "阿里巴巴开源混合架构代码审查工具 open-code-review，结合确定性流水线与 LLM Agent，内置 XSS、SQL 注入等安全规则集，支持 OpenAI 与 Anthropic 模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 88.63,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "结合规则与 LLM 的代码审计工具，直接落地查 SQL 注入和 XSS。做安全工具开发或代码审计的同行可直接参考其 Hybrid 架构设计，避免纯 LLM 审计的不确定性。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-18&since=daily",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-18&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T00:43:24.385630",
+      "first_seen_at": "2026-11-18T00:46:54.669966",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32787,
+      "title": "Claude-BugHunter 登 GitHub Trending，AI 红队技能包获近万星",
+      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1005 stars today",
+      "summary": "elementalsouls/Claude-BugHunter 是一套面向漏洞挖掘和外部红队的 Claude Code 技能包，含 82 个技能、15 个 slash 命令和覆盖 24 类漏洞的 681 条已披露报告模式，日增 1005 星，总星数近 9300。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 84.76,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和漏洞挖掘从业者该看：这套技能包把 Claude Code 包装成带漏洞知识库的自动化攻击助手，681 条报告模式可直接复用。现在就拉下来跑一遍，评估它在你的靶场里到底能挖到什么程度。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-18&since=daily",
+      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-18&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T00:43:24.162365",
+      "first_seen_at": "2026-11-18T00:46:54.360214",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 31819,
       "title": "SZZBench：用于诊断 SZZ 算法实现效果的受控基准",
@@ -132,26 +172,6 @@
       "published_at": "2026-11-16T05:00:00",
       "first_seen_at": "2026-11-17T21:00:22.663795",
       "sub_category_label": "威胁检测"
-    },
-    {
-      "id": 31816,
-      "title": "GraphScent：基于方向相关性信号的代码定位校准方法",
-      "original_title": "GraphScent: Calibrating Directional Relevance Signals for Bounded-Context Code Localization",
-      "summary": "提出一种无需训练的代码定位搜索控制器 GraphScent，利用运行时 AST 图传播关系条件似然比，显著提升单 GPU 下本地模型在复杂代码库中的修复目标定位准确率。",
-      "primary_category": "AI for Sec",
-      "sub_category": "code_localization",
-      "score_total": 73.5,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "代码定位是漏洞修复和代码审计的关键前置步骤。本方法展示了如何利用 AST 图和结构关系校准本地小模型的判断，对构建轻量级代码审计 Agent 有直接参考价值，适合安全工具开发者跟踪。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.17527",
-      "reader_url": "https://arxiv.org/pdf/2611.17527",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-16T05:00:00",
-      "first_seen_at": "2026-11-17T21:00:22.663795",
-      "sub_category_label": null
     }
   ]
 }
