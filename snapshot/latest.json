@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-18T08:52:30+08:00",
+  "updated_at": "2026-11-18T09:52:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 32789,
@@ -152,26 +152,6 @@
       "published_at": "2026-11-16T05:00:00",
       "first_seen_at": "2026-11-17T21:00:22.663795",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 31753,
-      "title": "工业物联网中基于过程挖掘的联邦异常检测方法",
-      "original_title": "Process Mining-Enabled Federated Anomaly Detection for the Industrial IoT",
-      "summary": "本文提出结合过程挖掘的联邦学习异常检测方法，通过动态加权本地节点数据聚合解决数据异构性问题，相比标准FedAvg误报率降低51.24%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "threat_detection",
-      "score_total": 74.15,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "用联邦学习做分布式威胁检测常被非独立同分布数据坑惨。本文用过程挖掘做节点相似度加权聚合，思路值得做IoT安全检测的同行借鉴，能直接用来优化联邦检测pipeline的误报率。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.17869",
-      "reader_url": "https://arxiv.org/pdf/2611.17869",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-16T05:00:00",
-      "first_seen_at": "2026-11-17T21:00:22.663795",
-      "sub_category_label": "威胁检测"
     }
   ]
 }
