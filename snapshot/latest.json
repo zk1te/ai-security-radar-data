@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-18T11:23:16+08:00",
+  "updated_at": "2026-11-18T14:54:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 31652,
@@ -143,31 +143,6 @@
       "published_at": "2026-11-16T05:00:00",
       "first_seen_at": "2026-11-17T21:00:22.663795",
       "sub_category_label": "代码分析"
-    },
-    {
-      "id": 32535,
-      "title": "GPT-6.2 Astra 网安能力跃升，ExploitBench 得分大涨22分",
-      "original_title": "GPT-6.2 Astra is our most capable model ever for cyber. It jumps 22 points over GPT-6 Astra on ExploitBench Internal Port.  Due to increased capabilities, we’re launching GPT‑6.2 A",
-      "summary": "GPT-6.2 Astra 在 ExploitBench 内部评测中得分较前代提升22分，成为其最强网安模型；官方同步加强安全防护，并向 Daybreak 平台防御者开放以减少拒绝响应。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 81.02,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "网安人员需关注新模型在漏洞挖掘等任务上的能力跃升。防御者可期待在 Daybreak 平台利用该模型提升分析效率，但需实测其安全策略限制与真实可用性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OpenAI/status/2122750133133791592",
-      "reader_url": "https://x.com/OpenAI/status/2122750133133791592",
-      "image_url": "https://pbs.twimg.com/media/HXWDPqjbsAA501X.png",
-      "author": {
-        "username": "OpenAI",
-        "name": "OpenAI",
-        "avatar_url": null,
-        "followers_count": 5355398
-      },
-      "published_at": "2026-11-17T17:54:05",
-      "first_seen_at": "2026-11-17T18:51:12.437179",
-      "sub_category_label": null
     },
     {
       "id": 31813,
