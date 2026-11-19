@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T20:19:46+08:00",
+  "updated_at": "2026-11-19T20:49:58+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -22,26 +22,6 @@
       "author": null,
       "published_at": "2026-11-13T08:28:42",
       "first_seen_at": "2026-11-19T07:20:50.350888",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33562,
-      "title": "阿里开源 open-code-review：融合 LLM 与确定性规则的安全代码审查 Agent",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "阿里开源的 open-code-review 采用确定性管道与 LLM Agent 混合架构，提供精准的行级代码审查，内置 NPE、XSS、SQL注入等多语言安全规则集。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.8,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "关注混合架构在代码审计中的落地效果，适合准备引入 AI 辅助代码审计的安全团队参考和二次开发。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-19&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-19&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T13:43:50",
-      "first_seen_at": "2026-11-19T00:39:20.608067",
       "sub_category_label": "安全Agent"
     },
     {
@@ -70,26 +50,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 33565,
-      "title": "NVIDIA开源Agent技能与插件评估框架SkillEvaluator",
-      "original_title": "GitHub Trending: NVIDIA/SkillEvaluator gained 312 stars today",
-      "summary": "NVIDIA开源SkillEvaluator框架，提供质量门控与实时行为评估，用于检测AI Agent技能和插件的安全影响。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 71.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "Agent插件与技能是供应链攻击的潜在入口。安全团队可参考其质量门控与行为评测机制，用于内部Agent的安全准入与评估。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
-      "reader_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T21:04:10",
-      "first_seen_at": "2026-11-19T00:39:42.729627",
-      "sub_category_label": null
-    },
-    {
       "id": 33925,
       "title": "App Store合规工具走红：含117种被拒模式及AI Agent技能",
       "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 542 stars today",
@@ -108,26 +68,6 @@
       "published_at": "2026-11-19T12:13:54.161732",
       "first_seen_at": "2026-11-19T12:14:15.436467",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33574,
-      "title": "OpenAI 开源 Codex Security 代码安全工具动态",
-      "original_title": "GitHub Trending: openai/codex-security gained 0 stars today",
-      "summary": "OpenAI 开源的 Codex Security CLI 和 SDK 可用于发现、验证和修复安全漏洞，近期在 GitHub 上保持热度。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 OpenAI 官方出品的 AI 辅助代码安全工具，从业者应关注其漏洞挖掘与修复能力，评估能否直接集成到现有的 DevSecOps 流水线中。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-19&since=weekly",
-      "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-19&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-19T00:37:11",
-      "first_seen_at": "2026-11-19T00:40:45.371502",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 33702,
@@ -228,6 +168,81 @@
       "published_at": "2026-11-19T05:27:04",
       "first_seen_at": "2026-11-19T05:39:44.718962",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33919,
+      "title": "FBI警告AI渗透框架ARTEX被滥用，3小时完成全链条攻击",
+      "original_title": "The FBI just warned about ARTEX — and it's the scariest thing in this whole week.  It's an AI-powered penetration testing framework. Built for authorized testing. Now criminals and",
+      "summary": "FBI警告原本用于授权测试的ARTEX框架被犯罪分子滥用，通过接入主流大模型实现从侦察到提权的自动化攻击，3小时内即可获取特权访问，已造成韩国银行数据泄露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 65.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "防守方必须重视AI自动化攻击在野落地的速度。该情报披露了ARTEX框架在野滥用细节和3小时打穿内网的案例，建议立刻排查相关控制台暴露面及LLM异常调用流量。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CausingPanic1/status/2123378424764932595",
+      "reader_url": "https://x.com/CausingPanic1/status/2123378424764932595",
+      "image_url": "https://pbs.twimg.com/media/HXfBXbdXQAA--02.jpg",
+      "author": {
+        "username": "CausingPanic1",
+        "name": "CausingPanic",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T11:30:41",
+      "first_seen_at": "2026-11-19T11:51:41.326066",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33860,
+      "title": "欧委会遭十天网攻，攻击者疑使用 AI 渗透工具 ARTEX",
+      "original_title": "🔻 Huge cyber attack \"hits European Commission...potentially compromised large amount of personal data.\" The attack took place over a ten day period.       \"Hackers utilized ARTEX, ",
+      "summary": "欧洲委员会遭遇持续十天的网络攻击，导致 Sysper 等内部系统受影响。报道称攻击者使用了 AI 驱动的渗透测试工具 ARTEX，印证了 FBI 此前的威胁警告。",
+      "primary_category": "AI for Sec",
+      "sub_category": "penetration_testing",
+      "score_total": 65.71,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透测试工具正在被攻击者武器化，防御方需警惕自动化攻击带来的速度与规模提升。建议立即评估现有日志监控和响应机制能否跟上 AI 驱动的多向量攻击节奏。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/FairchildL3853/status/2123355027288817818",
+      "reader_url": "https://x.com/FairchildL3853/status/2123355027288817818",
+      "image_url": null,
+      "author": {
+        "username": "FairchildL3853",
+        "name": "Linda Britton-Fairchild",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T09:57:43",
+      "first_seen_at": "2026-11-19T10:10:12.062435",
+      "sub_category_label": "渗透测试"
+    },
+    {
+      "id": 33697,
+      "title": "DeepMind Neon 在 WebExploitBench 榜单取得 SOTA 表现",
+      "original_title": "@GoogleDeepMind Securing systems also means proactively finding flaws before attackers do. Penetration testing has served as a cornerstone of enterprise cybersecurity. On WebExploi",
+      "summary": "Google DeepMind 的 Neon 模型在 WebExploitBench v1.2 安全评测中，以一半成本实现了 51.26% 的 SOTA 表现，用于主动漏洞挖掘与渗透测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 65.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec 从业者应重点关注，DeepMind 推出的 Neon 在 Web 漏洞挖掘评测榜上以低成本达到 SOTA，预示大模型在自动化渗透测试领域的落地效果正快速提升。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/galnagli/status/2123296794587394080",
+      "reader_url": "https://x.com/galnagli/status/2123296794587394080",
+      "image_url": null,
+      "author": {
+        "username": "galnagli",
+        "name": "Nagli",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T06:06:19",
+      "first_seen_at": "2026-11-19T06:14:18.273238",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
