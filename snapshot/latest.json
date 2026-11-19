@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T10:45:30+08:00",
+  "updated_at": "2026-11-19T13:17:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -92,26 +92,6 @@
       "published_at": "2026-11-18T22:10:00",
       "first_seen_at": "2026-11-19T02:31:05.181543",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 33372,
-      "title": "Artex等AI黑客工具降低攻击门槛，新手可一键扫描并利用漏洞",
-      "original_title": "Criminals Have a New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
-      "summary": "报道指出名为Artex的AI渗透测试工具被黑客滥用，新手可通过向聊天机器人输入提示词来扫描系统漏洞并实施攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.7,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这体现了AI安全工具武器化的趋势，防守方应关注此类自动化攻击工具带来的威胁面扩张，及时调整防御策略。",
-      "source_id": "wired-ai",
-      "canonical_url": "https://www.wired.com/story/artex-ai-hacking-tools",
-      "reader_url": "https://www.wired.com/story/artex-ai-hacking-tools",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T16:35:24",
-      "first_seen_at": "2026-11-18T16:59:19.709567",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 33465,
@@ -207,6 +187,26 @@
       "published_at": "2026-11-18T20:58:11",
       "first_seen_at": "2026-11-18T21:07:12.442379",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33574,
+      "title": "OpenAI 开源 Codex Security 代码安全工具动态",
+      "original_title": "GitHub Trending: openai/codex-security gained 0 stars today",
+      "summary": "OpenAI 开源的 Codex Security CLI 和 SDK 可用于发现、验证和修复安全漏洞，近期在 GitHub 上保持热度。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.95,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 OpenAI 官方出品的 AI 辅助代码安全工具，从业者应关注其漏洞挖掘与修复能力，评估能否直接集成到现有的 DevSecOps 流水线中。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-19&since=weekly",
+      "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-19&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T00:37:11",
+      "first_seen_at": "2026-11-19T00:40:45.371502",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
