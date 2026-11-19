@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-19T20:49:58+08:00",
+  "updated_at": "2026-11-19T21:21:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 33946,
+      "title": "Claude-BugHunter 爆火：82 技能的 AI 红队工具包",
+      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1353 stars today",
+      "summary": "GitHub 项目 Claude-BugHunter 获得大量关注，该工具包基于 Claude Code，包含 82 个技能和 15 个命令，覆盖 24 种核心漏洞类，用于外部红队和漏洞挖掘。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 93.3,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "红队和漏洞挖掘人员该看。它展示了如何用大模型 skill 组织安全工作流，可借鉴其 681 个报告模式和攻击矩阵，快速搭建自己的 AI 安全 Copilot。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-19&since=daily",
+      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-19&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T13:16:21.880651",
+      "first_seen_at": "2026-11-19T13:16:39.709005",
+      "sub_category_label": "漏洞挖掘"
+    },
     {
       "id": 33705,
       "title": "AI 逆向工具 REA 实测：18 分钟扒光 Electron 应用架构",
@@ -145,6 +165,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 33942,
+      "title": "AI 时代仍需掌握现代 Fuzzing：LibAFL 真机复现 CVE 实践",
+      "original_title": "Even in the AI era, it’s worth understanding what modern fuzzing can actually do and learning the techniques yourself.  Credit: CVE-2026-21096 was found by Brendon Tiszka & Mateusz",
+      "summary": "Google Project Zero 研究员强调 AI 时代掌握现代 Fuzzing 技能的重要性，并展示了在 Galaxy S25 上使用 LibAFL Frida-mode 以 30k exec/s 速度在 8 秒内复现 CVE-2026-21096 的实践。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.81,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "别盲目迷信 AI Fuzzing，这篇实操证明传统 LibAFL 在真机上也能 8 秒出洞。搞漏洞挖掘的都该学下 Frida-mode 配置，这也是评估 AI 效果的必备基线。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/MobileHackLab/status/2123394721141624952",
+      "reader_url": "https://x.com/MobileHackLab/status/2123394721141624952",
+      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HXfP6HHWMAArRzx.jpg",
+      "author": {
+        "username": "MobileHackLab",
+        "name": "MobileHackingLab",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T12:35:26",
+      "first_seen_at": "2026-11-19T13:05:41.945358",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 33685,
       "title": "开源渗透测试Agent工具ARIA-X发布v0.1.1",
       "original_title": "Another AI-powered Pentesting Tool worth watching: ARIA-X (Autonomous Reasoning & Investigation Agent – eXtended).  ARIA-X is an open-source, Python-based agentic security framewor",
@@ -193,56 +238,6 @@
       "published_at": "2026-11-19T11:30:41",
       "first_seen_at": "2026-11-19T11:51:41.326066",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33860,
-      "title": "欧委会遭十天网攻，攻击者疑使用 AI 渗透工具 ARTEX",
-      "original_title": "🔻 Huge cyber attack \"hits European Commission...potentially compromised large amount of personal data.\" The attack took place over a ten day period.       \"Hackers utilized ARTEX, ",
-      "summary": "欧洲委员会遭遇持续十天的网络攻击，导致 Sysper 等内部系统受影响。报道称攻击者使用了 AI 驱动的渗透测试工具 ARTEX，印证了 FBI 此前的威胁警告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "penetration_testing",
-      "score_total": 65.71,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透测试工具正在被攻击者武器化，防御方需警惕自动化攻击带来的速度与规模提升。建议立即评估现有日志监控和响应机制能否跟上 AI 驱动的多向量攻击节奏。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/FairchildL3853/status/2123355027288817818",
-      "reader_url": "https://x.com/FairchildL3853/status/2123355027288817818",
-      "image_url": null,
-      "author": {
-        "username": "FairchildL3853",
-        "name": "Linda Britton-Fairchild",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T09:57:43",
-      "first_seen_at": "2026-11-19T10:10:12.062435",
-      "sub_category_label": "渗透测试"
-    },
-    {
-      "id": 33697,
-      "title": "DeepMind Neon 在 WebExploitBench 榜单取得 SOTA 表现",
-      "original_title": "@GoogleDeepMind Securing systems also means proactively finding flaws before attackers do. Penetration testing has served as a cornerstone of enterprise cybersecurity. On WebExploi",
-      "summary": "Google DeepMind 的 Neon 模型在 WebExploitBench v1.2 安全评测中，以一半成本实现了 51.26% 的 SOTA 表现，用于主动漏洞挖掘与渗透测试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 65.6,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者应重点关注，DeepMind 推出的 Neon 在 Web 漏洞挖掘评测榜上以低成本达到 SOTA，预示大模型在自动化渗透测试领域的落地效果正快速提升。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/galnagli/status/2123296794587394080",
-      "reader_url": "https://x.com/galnagli/status/2123296794587394080",
-      "image_url": null,
-      "author": {
-        "username": "galnagli",
-        "name": "Nagli",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T06:06:19",
-      "first_seen_at": "2026-11-19T06:14:18.273238",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
