@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-11-19T16:18:46+08:00",
+  "updated_at": "2026-11-19T17:19:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
-    {
-      "id": 33512,
-      "title": "Black Hat 2026 预告：将开源 AI 自主攻击研究系统 HTTP Terminator",
-      "original_title": "Black Hat USA 2026 | Can AI Do Novel Security Research? Meet the HTTP Terminator",
-      "summary": "James Kettle 将在 Black Hat 2026 分享并开源 HTTP Terminator，该系统利用 AI 自主发掘并利用新型 HTTP 走私攻击链，展示了 AI 在新型漏洞研究中的能力边界。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 87.4,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "PortSwigger 研究总监的重磅预告。AI 安全研究正从「找已知漏洞」跃升为自主发明新攻击，他将开源系统 HTTP Terminator。做安全 Agent 和漏洞挖掘的从业者必看，标杆级实战案例。",
-      "source_id": "blackhat-youtube",
-      "canonical_url": "https://www.youtube.com/watch?v=bERmUEJhWFM",
-      "reader_url": "https://www.youtube.com/watch?v=bERmUEJhWFM",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T15:15:36",
-      "first_seen_at": "2026-11-18T21:13:38.150580",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 33705,
       "title": "AI 逆向工具 REA 实测：18 分钟扒光 Electron 应用架构",
@@ -159,31 +139,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 33510,
-      "title": "FBI 警告 AI 渗透工具 ARTEX 遭黑客武器化",
-      "original_title": "The FBI just warned that hackers are abusing AI pentest tool ARTEX. Here's what you need to know.  The FBI issued a FLASH advisory on Nov 17. It says cybercriminals and state-align",
-      "summary": "FBI 警告黑客组织正滥用开源 AI 渗透框架 ARTEX 自动化攻击企业。该工具结合 Planner/Worker Agent 架构与新漏洞利用，将攻击时间缩短至数小时。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 71.01,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防守方必须警惕 AI 渗透工具武器化趋势。本文披露了 ARTEX 的 Agent 架构及与 Java4Shell 漏洞链的组合手法，蓝队应立即从行为层面狩猎此类自动化攻击。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/AGTPinsights/status/2123158853055328268",
-      "reader_url": "https://x.com/AGTPinsights/status/2123158853055328268",
-      "image_url": "https://pbs.twimg.com/media/HXb5dLMWoAArRsl.jpg",
-      "author": {
-        "username": "AGTPinsights",
-        "name": "AGTP",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-18T20:58:11",
-      "first_seen_at": "2026-11-18T21:07:12.442379",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 33574,
       "title": "OpenAI 开源 Codex Security 代码安全工具动态",
       "original_title": "GitHub Trending: openai/codex-security gained 0 stars today",
@@ -201,6 +156,56 @@
       "author": null,
       "published_at": "2026-11-19T00:37:11",
       "first_seen_at": "2026-11-19T00:40:45.371502",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 33702,
+      "title": "FBI 警报：开源 LLM 渗透框架 ARTEX 被武器化",
+      "original_title": "The Federal Bureau of Investigation (@FBI) just confirmed it: attackers now pentest you faster than you do.  Last Friday, the FBI released a FLASH alert on ARTEX, an open-source, L",
+      "summary": "FBI 发布 FLASH 警报指出开源 AI 渗透测试框架 ARTEX 被犯罪分子和国家级攻击者滥用，低技能攻击者也能在 3 小时内完成从初始目标到特权访问的入侵。防御方需清点所有互联网暴露应用和 API。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "防御团队和红队必看。AI 渗透 Agent 已成实战武器，3 小时拿权限意味着传统年度渗透彻底失效。立刻清点暴露面，评估自身对抗持续自动化扫描的能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/iCarossio/status/2123302758187184323",
+      "reader_url": "https://x.com/iCarossio/status/2123302758187184323",
+      "image_url": "https://pbs.twimg.com/media/HXd8EnSaQAA8Opp.jpg",
+      "author": {
+        "username": "iCarossio",
+        "name": "Antoine Carossio",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T06:30:01",
+      "first_seen_at": "2026-11-19T06:47:24.069079",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33653,
+      "title": "AI 加速漏洞挖掘引发补丁过载与系统宕机分析",
+      "original_title": "Resilience First: Managing AI-Accelerated Cyber Risk in Critical Systems  Dr. Joel P. Rutkowski Friday, November 20, 2026 A Policy Paper  Executive Summary  In mid-November 2026, a",
+      "summary": "分析 2026 年底多起重大宕机事件，指出 AI 加速漏洞发现导致海量补丁压力是深层原因，强调需从盲目打补丁转向基于风险的弹性工程。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这篇文章点破了 AI for Sec 的反噬效应：漏洞发现速度远超系统消化能力，打补丁本身打崩了关键基础设施。安全团队必须立刻重视补丁优先级评估和分阶段部署，别被 AI 挖洞速度带节奏。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/RutkowskiDr/status/2123240785953054926",
+      "reader_url": "https://x.com/RutkowskiDr/status/2123240785953054926",
+      "image_url": "https://pbs.twimg.com/media/HXdELsJWEAAwST5.png",
+      "author": {
+        "username": "RutkowskiDr",
+        "name": "Dr. Joel P. Rutkowski- President",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T02:23:45",
+      "first_seen_at": "2026-11-19T02:32:29.774467",
       "sub_category_label": "漏洞挖掘"
     }
   ]
