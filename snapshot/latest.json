@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T03:27:26+08:00",
+  "updated_at": "2026-11-20T03:57:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -23,6 +23,31 @@
       "published_at": "2026-11-19T13:16:21.880651",
       "first_seen_at": "2026-11-19T13:16:39.709005",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 34122,
+      "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
+      "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
+      "summary": "11月17日，微软官方 PyPI 包 agent-framework 两个版本被植入恶意 .pth 文件，存活55分钟，每次启动 Python 自动窃取云与开发者密钥。Wiz 发现攻击者使用了基于 GLM 模型的开源 AI 渗透框架 Cairn。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "ai_supply_chain",
+      "score_total": 73.19,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI Agent 已开始直接攻击构建 AI 的工具链，安全团队须立刻排查是否拉取过 1.26.1/1.26.2 版本，若有则全面轮换云和开发凭据；同时这也暴露出大模型在自动化攻击链中的实战潜力，防守方需高度警惕。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/whyNexqor/status/2123494095368941709",
+      "reader_url": "https://x.com/whyNexqor/status/2123494095368941709",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123493636365000704/img/tyFr1suSQ5J03ipC.jpg",
+      "author": {
+        "username": "whyNexqor",
+        "name": "Nexqor",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T19:10:19",
+      "first_seen_at": "2026-11-19T19:33:58.672266",
+      "sub_category_label": null
     },
     {
       "id": 34116,
@@ -188,31 +213,6 @@
       "published_at": "2026-11-19T14:33:09",
       "first_seen_at": "2026-11-19T14:52:23.920353",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 34001,
-      "title": "ACSAC 2025 生成式 AI 安全专题论文与幻灯片汇总",
-      "original_title": "For this #ThrowbackThursday, we will look at #ACSAC2025's Generative AI (for) Security session. The links in this thread will lead you to the paper pdfs and the slide decks, so be ",
-      "summary": "推文回顾了 ACSAC 2025 会议的「Generative AI (for) Security」专题，并整理了相关论文 PDF 和演讲幻灯片的链接汇总。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 66.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "汇总了 ACSAC 2025 关于生成式 AI 在安全领域应用的最新学术成果，包含论文和幻灯片，适合 AI for Sec 从业者快速跟踪前沿研究方向和落地思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ACSAC_Conf/status/2123431193953649116",
-      "reader_url": "https://x.com/ACSAC_Conf/status/2123431193953649116",
-      "image_url": "https://pbs.twimg.com/media/HXfxaxMXUAAiDbe.jpg",
-      "author": {
-        "username": "ACSAC_Conf",
-        "name": "ACSAC",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T15:00:22",
-      "first_seen_at": "2026-11-19T15:30:51.757029",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
