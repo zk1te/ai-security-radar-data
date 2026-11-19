@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T23:55:51+08:00",
+  "updated_at": "2026-11-20T01:26:34+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -62,6 +62,31 @@
       "author": null,
       "published_at": "2026-11-19T12:13:54.161732",
       "first_seen_at": "2026-11-19T12:14:15.436467",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34042,
+      "title": "Agentic AI 渗透测试：AigentX 一小时内验证 PHP 漏洞利用",
+      "original_title": "Agentic AI Penetration Testing: A critical PHP flaw was disclosed. Within an hour, AigentX verified the exploit and the fix www.​komodosec.​com/post/agentic-ai-penetration-testing-",
+      "summary": "展示了 Agentic AI 在渗透测试中的实际应用，AigentX 在一个关键 PHP 漏洞披露后一小时内完成了漏洞利用和修复方案的验证。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注此案例，它展示了 Agent 如何将漏洞验证从数小时压缩到一小时以内，是评估自动化安全运营落地效果的绝佳参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Komodosec/status/2123461138251936086",
+      "reader_url": "https://x.com/Komodosec/status/2123461138251936086",
+      "image_url": "https://pbs.twimg.com/media/HXgMpwJaYAA-Yja.jpg",
+      "author": {
+        "username": "Komodosec",
+        "name": "Komodo Cyber Security",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T16:59:22",
+      "first_seen_at": "2026-11-19T17:17:36.052817",
       "sub_category_label": "安全Agent"
     },
     {
@@ -140,6 +165,31 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
+      "id": 34043,
+      "title": "使用 Devin 将 libyaml 移植至安全 Rust 并配置差分 Fuzzing",
+      "original_title": "tired of LLM wrappers so i'm putting @cognition's Devin to work on actual systems grunge work: porting libyaml's stateful C token scanner (src/scanner.c) to safe Rust gated by an A",
+      "summary": "利用 Cognition Devin 将 libyaml 的 C 语言状态机扫描器移植到安全的 Rust，并在 CI 中使用 ASan + bindgen + cargo-fuzz 构建差分模糊测试 harness 进行验证。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 68.66,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI Agent 终于开始干系统级代码重构的脏活了。做安全加固和代码移植的同学可以直接参考这个差分 Fuzzing harness 模式，用 AI 重写关键组件时拿它来兜底验证。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/johnboy232321/status/2123461198913937779",
+      "reader_url": "https://x.com/johnboy232321/status/2123461198913937779",
+      "image_url": null,
+      "author": {
+        "username": "johnboy232321",
+        "name": "John Harrison",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T16:59:36",
+      "first_seen_at": "2026-11-19T17:17:49.921269",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
       "id": 33685,
       "title": "开源渗透测试Agent工具ARIA-X发布v0.1.1",
       "original_title": "Another AI-powered Pentesting Tool worth watching: ARIA-X (Autonomous Reasoning & Investigation Agent – eXtended).  ARIA-X is an open-source, Python-based agentic security framewor",
@@ -163,56 +213,6 @@
       "published_at": "2026-11-19T05:27:04",
       "first_seen_at": "2026-11-19T05:39:44.718962",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33994,
-      "title": "FBI 警告开源 AI 渗透框架 ARTEX 被武器化",
-      "original_title": "1/ On November 13, 2026, the FBI published an advisory on ARTEX, an open-source, agentic AI penetration-testing framework that has been weaponised by threat actors.  It can coordin",
-      "summary": "FBI 发布通告称开源 AI 渗透测试框架 ARTEX 被威胁行为者武器化，可实现从侦察到提权的全流程自动化，并在 3 小时内获取特权访问。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透 Agent 在野利用的真实案例，证实了 AI 自动化攻击的惊人效率。防御团队需据此重新评估应急响应与检测体系的速度极限。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Cloud_mavin/status/2123424342579069110",
-      "reader_url": "https://x.com/Cloud_mavin/status/2123424342579069110",
-      "image_url": null,
-      "author": {
-        "username": "Cloud_mavin",
-        "name": "Ononneobazi Aquah☁️🇳🇬",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T14:33:09",
-      "first_seen_at": "2026-11-19T14:52:23.920353",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 34001,
-      "title": "ACSAC 2025 生成式 AI 安全专题论文与幻灯片汇总",
-      "original_title": "For this #ThrowbackThursday, we will look at #ACSAC2025's Generative AI (for) Security session. The links in this thread will lead you to the paper pdfs and the slide decks, so be ",
-      "summary": "推文回顾了 ACSAC 2025 会议的「Generative AI (for) Security」专题，并整理了相关论文 PDF 和演讲幻灯片的链接汇总。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 66.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "汇总了 ACSAC 2025 关于生成式 AI 在安全领域应用的最新学术成果，包含论文和幻灯片，适合 AI for Sec 从业者快速跟踪前沿研究方向和落地思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/ACSAC_Conf/status/2123431193953649116",
-      "reader_url": "https://x.com/ACSAC_Conf/status/2123431193953649116",
-      "image_url": "https://pbs.twimg.com/media/HXfxaxMXUAAiDbe.jpg",
-      "author": {
-        "username": "ACSAC_Conf",
-        "name": "ACSAC",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T15:00:22",
-      "first_seen_at": "2026-11-19T15:30:51.757029",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
