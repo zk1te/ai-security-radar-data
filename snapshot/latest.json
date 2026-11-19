@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T21:21:29+08:00",
+  "updated_at": "2026-11-19T21:22:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -140,31 +140,6 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 33615,
-      "title": "Google披露内部安全Agent PageBreak：实战捕获超500个XSS",
-      "original_title": "Google has revealed PageBreak, an internal security agent built on Gemini that has caught over 500 real XSS flaws across its web apps since January. The real breakthrough here is h",
-      "summary": "Google 内部基于 Gemini 的安全 Agent PageBreak 已发现超 500 个真实 XSS 漏洞。其核心架构是分离 LLM 推测与确定性验证，仅当验证器成功执行实际攻击时才报告漏洞，有效消除误报。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全 Agent 开发者必看。PageBreak 展示了「LLM 负责猜测，确定性代码负责验证」的架构，解决了 AI 找洞误报率高的落地痛点，是可直接借鉴的工程范式。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/kevin980606/status/2123217615992865146",
-      "reader_url": "https://x.com/kevin980606/status/2123217615992865146",
-      "image_url": null,
-      "author": {
-        "username": "kevin980606",
-        "name": "KEVIN",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T00:51:41",
-      "first_seen_at": "2026-11-19T01:22:41.104091",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 33942,
       "title": "AI 时代仍需掌握现代 Fuzzing：LibAFL 真机复现 CVE 实践",
       "original_title": "Even in the AI era, it’s worth understanding what modern fuzzing can actually do and learning the techniques yourself.  Credit: CVE-2026-21096 was found by Brendon Tiszka & Mateusz",
@@ -238,6 +213,31 @@
       "published_at": "2026-11-19T11:30:41",
       "first_seen_at": "2026-11-19T11:51:41.326066",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33938,
+      "title": "美情报官员：大规模宕机系AI驱动补丁引发",
+      "original_title": "Trump’s top intel official reveals common cause behind outages at NSA, Microsoft, JPMorgan — and why AI is involved | Josh Christenson & Jared Downing, New York Post  Widespread te",
+      "summary": "美国情报官员表示，近期NSA、微软、摩根大通等服务中断并非黑客攻击，而是企业用AI大规模挖掘漏洞后急于集中打补丁导致系统过载。文章同时提到中国相关黑客使用AI框架ARTEX加速漏洞探测。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 65.78,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec从业者必看：AI漏洞挖掘从实验室走向企业实战后，补丁疲劳和系统过载成了新运营风险，攻击侧ARTEX等工具也在降低门槛。攻防两侧正被AI同时加速，团队需关注补丁流程抗压性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OwenGregorian/status/2123391366298267673",
+      "reader_url": "https://x.com/OwenGregorian/status/2123391366298267673",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123386720741732352/img/UWEluVLRKISO6KX6.jpg",
+      "author": {
+        "username": "OwenGregorian",
+        "name": "Owen Gregorian",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T12:22:07",
+      "first_seen_at": "2026-11-19T13:05:02.952386",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
