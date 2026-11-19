@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T21:22:59+08:00",
+  "updated_at": "2026-11-19T22:53:50+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -45,31 +45,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 33643,
-      "title": "OpenAI自主模型单次发现并修复948个Linux提权漏洞",
-      "original_title": "A thousand fewer paths to root - @OpenAI  OpenAI's autonomous cyber model discovered, validated, and patched 948 Linux privilege escalation vulnerabilities in a single run, costing",
-      "summary": "OpenAI的自主网络模型在一次运行中发现、验证并修复了948个Linux提权漏洞，耗资120万美元API费用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 75.15,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是AI自主漏洞挖掘能力的重磅展示，直接证明了LLM在大规模漏洞发现与修复上的实战潜力。安全团队需密切关注此类Agent对传统代码审计流程的颠覆性影响。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pentest_swissky/status/2123176925011091946",
-      "reader_url": "https://x.com/pentest_swissky/status/2123176925011091946",
-      "image_url": null,
-      "author": {
-        "username": "pentest_swissky",
-        "name": "Swissky",
-        "avatar_url": null,
-        "followers_count": 23028
-      },
-      "published_at": "2026-11-18T22:10:00",
-      "first_seen_at": "2026-11-19T02:31:05.181543",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 33925,
       "title": "App Store合规工具走红：含117种被拒模式及AI Agent技能",
       "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 542 stars today",
@@ -113,31 +88,6 @@
       "published_at": "2026-11-19T06:30:01",
       "first_seen_at": "2026-11-19T06:47:24.069079",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33653,
-      "title": "AI 加速漏洞挖掘引发补丁过载与系统宕机分析",
-      "original_title": "Resilience First: Managing AI-Accelerated Cyber Risk in Critical Systems  Dr. Joel P. Rutkowski Friday, November 20, 2026 A Policy Paper  Executive Summary  In mid-November 2026, a",
-      "summary": "分析 2026 年底多起重大宕机事件，指出 AI 加速漏洞发现导致海量补丁压力是深层原因，强调需从盲目打补丁转向基于风险的弹性工程。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这篇文章点破了 AI for Sec 的反噬效应：漏洞发现速度远超系统消化能力，打补丁本身打崩了关键基础设施。安全团队必须立刻重视补丁优先级评估和分阶段部署，别被 AI 挖洞速度带节奏。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/RutkowskiDr/status/2123240785953054926",
-      "reader_url": "https://x.com/RutkowskiDr/status/2123240785953054926",
-      "image_url": "https://pbs.twimg.com/media/HXdELsJWEAAwST5.png",
-      "author": {
-        "username": "RutkowskiDr",
-        "name": "Dr. Joel P. Rutkowski- President",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T02:23:45",
-      "first_seen_at": "2026-11-19T02:32:29.774467",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 33942,
@@ -190,6 +140,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 33994,
+      "title": "FBI 警告开源 AI 渗透框架 ARTEX 被武器化",
+      "original_title": "1/ On November 13, 2026, the FBI published an advisory on ARTEX, an open-source, agentic AI penetration-testing framework that has been weaponised by threat actors.  It can coordin",
+      "summary": "FBI 发布通告称开源 AI 渗透测试框架 ARTEX 被威胁行为者武器化，可实现从侦察到提权的全流程自动化，并在 3 小时内获取特权访问。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 67.2,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透 Agent 在野利用的真实案例，证实了 AI 自动化攻击的惊人效率。防御团队需据此重新评估应急响应与检测体系的速度极限。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Cloud_mavin/status/2123424342579069110",
+      "reader_url": "https://x.com/Cloud_mavin/status/2123424342579069110",
+      "image_url": null,
+      "author": {
+        "username": "Cloud_mavin",
+        "name": "Ononneobazi Aquah☁️🇳🇬",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T14:33:09",
+      "first_seen_at": "2026-11-19T14:52:23.920353",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 33919,
       "title": "FBI警告AI渗透框架ARTEX被滥用，3小时完成全链条攻击",
       "original_title": "The FBI just warned about ARTEX — and it's the scariest thing in this whole week.  It's an AI-powered penetration testing framework. Built for authorized testing. Now criminals and",
@@ -238,6 +213,31 @@
       "published_at": "2026-11-19T12:22:07",
       "first_seen_at": "2026-11-19T13:05:02.952386",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 33860,
+      "title": "欧委会遭十天网攻，攻击者疑使用 AI 渗透工具 ARTEX",
+      "original_title": "🔻 Huge cyber attack \"hits European Commission...potentially compromised large amount of personal data.\" The attack took place over a ten day period.       \"Hackers utilized ARTEX, ",
+      "summary": "欧洲委员会遭遇持续十天的网络攻击，导致 Sysper 等内部系统受影响。报道称攻击者使用了 AI 驱动的渗透测试工具 ARTEX，印证了 FBI 此前的威胁警告。",
+      "primary_category": "AI for Sec",
+      "sub_category": "penetration_testing",
+      "score_total": 65.71,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 渗透测试工具正在被攻击者武器化，防御方需警惕自动化攻击带来的速度与规模提升。建议立即评估现有日志监控和响应机制能否跟上 AI 驱动的多向量攻击节奏。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/FairchildL3853/status/2123355027288817818",
+      "reader_url": "https://x.com/FairchildL3853/status/2123355027288817818",
+      "image_url": null,
+      "author": {
+        "username": "FairchildL3853",
+        "name": "Linda Britton-Fairchild",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T09:57:43",
+      "first_seen_at": "2026-11-19T10:10:12.062435",
+      "sub_category_label": "渗透测试"
     }
   ]
 }
