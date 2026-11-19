@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-19T17:19:16+08:00",
+  "updated_at": "2026-11-19T20:19:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 33705,
@@ -42,30 +42,6 @@
       "author": null,
       "published_at": "2026-11-18T13:43:50",
       "first_seen_at": "2026-11-19T00:39:20.608067",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33541,
-      "title": "WorkOS 遭遇 AI 自主渗透测试框架 ARTEX 攻击",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 报告了一起安全事件，攻击者使用名为 ARTEX 的 AI 辅助自主渗透框架，通过内部 API 访问了其 Salesforce 和 Snowflake 实例中的 CRM 数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.25,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻击者使用 AI 自主渗透框架发起实战攻击，标志着红队工具自动化达到新高度。安全团队需关注此类 Agent 的自动化突破能力，评估现有防御体系能否应对机器速度的攻击。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-19T00:11:09.793941",
       "sub_category_label": "安全Agent"
     },
     {
@@ -114,28 +90,23 @@
       "sub_category_label": null
     },
     {
-      "id": 33550,
-      "title": "ARTEX：基于多代理工作流的自主渗透测试平台",
-      "original_title": "🚨 ARTEX: a self-hosted, AI-driven penetration testing platform built around autonomous multi-agent workflows  GitHub: https://t.co/d6GAnaGUUG  ARTEX uses an LLM planner to break pe",
-      "summary": "ARTEX 是一个自托管、模型无关的渗透测试平台，利用 LLM 规划器拆解任务，通过多代理调用真实安全工具执行，并维护共享资产图谱与攻击链追踪。",
+      "id": 33925,
+      "title": "App Store合规工具走红：含117种被拒模式及AI Agent技能",
+      "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 542 stars today",
+      "summary": "开源项目提供117种App Store和Google Play被拒模式及修复方案，包含隐私清单检查及供AI编程代理使用的合规技能。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 71.06,
+      "score_total": 70.1,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "红队和渗透测试自动化从业者必看。其多代理规划结合真实工具执行与共享资产图谱的设计思路值得借鉴，且支持本地 Ollama 模型和人工审批门，落地参考价值高。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DarkWebInformer/status/2123201870789271827",
-      "reader_url": "https://x.com/DarkWebInformer/status/2123201870789271827",
-      "image_url": "https://pbs.twimg.com/media/HXcgtg0WkAAh4W_.jpg",
-      "author": {
-        "username": "DarkWebInformer",
-        "name": "Dark Web Informer",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-18T23:49:07",
-      "first_seen_at": "2026-11-19T00:12:19.980884",
+      "recommendation_reason": "工具将合规检查融入AI Agent工作流并提供可操作的playbook。做移动安全和DevSecOps的同学可参考其知识库构建方式，将合规规则前置到开发阶段。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-19&since=daily",
+      "reader_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-19&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T12:13:54.161732",
+      "first_seen_at": "2026-11-19T12:14:15.436467",
       "sub_category_label": "安全Agent"
     },
     {
@@ -207,6 +178,56 @@
       "published_at": "2026-11-19T02:23:45",
       "first_seen_at": "2026-11-19T02:32:29.774467",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 33615,
+      "title": "Google披露内部安全Agent PageBreak：实战捕获超500个XSS",
+      "original_title": "Google has revealed PageBreak, an internal security agent built on Gemini that has caught over 500 real XSS flaws across its web apps since January. The real breakthrough here is h",
+      "summary": "Google 内部基于 Gemini 的安全 Agent PageBreak 已发现超 500 个真实 XSS 漏洞。其核心架构是分离 LLM 推测与确定性验证，仅当验证器成功执行实际攻击时才报告漏洞，有效消除误报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全 Agent 开发者必看。PageBreak 展示了「LLM 负责猜测，确定性代码负责验证」的架构，解决了 AI 找洞误报率高的落地痛点，是可直接借鉴的工程范式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/kevin980606/status/2123217615992865146",
+      "reader_url": "https://x.com/kevin980606/status/2123217615992865146",
+      "image_url": null,
+      "author": {
+        "username": "kevin980606",
+        "name": "KEVIN",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T00:51:41",
+      "first_seen_at": "2026-11-19T01:22:41.104091",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33685,
+      "title": "开源渗透测试Agent工具ARIA-X发布v0.1.1",
+      "original_title": "Another AI-powered Pentesting Tool worth watching: ARIA-X (Autonomous Reasoning & Investigation Agent – eXtended).  ARIA-X is an open-source, Python-based agentic security framewor",
+      "summary": "ARIA-X是一款受ARTEX等启发的开源代理型安全框架，支持DNS枚举、端口扫描及Agent间任务委派等功能，并新增了交互式PTY会话。目前暂无威胁行为者滥用的公开证据，但其攻击潜力值得关注。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.37,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和蓝队都该看。ARIA-X整合了多Agent协作与交互式终端执行能力，意味着自动化渗透测试又往前走了一步；安全团队可基于此评估自身防御体系对自动化攻击的响应能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/CyhawkAfrica/status/2123286919006106008",
+      "reader_url": "https://x.com/CyhawkAfrica/status/2123286919006106008",
+      "image_url": null,
+      "author": {
+        "username": "CyhawkAfrica",
+        "name": "CyHawk Africa",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T05:27:04",
+      "first_seen_at": "2026-11-19T05:39:44.718962",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
