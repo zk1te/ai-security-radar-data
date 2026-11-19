@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T08:44:53+08:00",
+  "updated_at": "2026-11-19T09:14:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -184,29 +184,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 33288,
-      "title": "FBI警告：黑客利用AI渗透框架ARTEX三小时内获取特权",
-      "original_title": "AI Hackers Got Privileged Access in Under 3 Hours, FBI Says  The FBI issued a FLASH on November 13, a freely shareable cyber alert, warning that criminals and state-aligned hackers",
-      "summary": "FBI发布安全警报称，犯罪分子和国家级黑客正使用开源AI渗透测试框架ARTEX进行自动化入侵，部分攻击在3小时内即获得特权访问，并已针对金融、政府等多个行业发起攻击。",
-      "primary_category": "AI for Sec | Sec for AI",
+      "id": 33331,
+      "title": "Pentest Agent Suite 开源 AI 渗透测试框架发布",
+      "original_title": "🛡️ PENTEST AGENT SUITE — AI-POWERED SECURITY TESTING  Pentest Agent Suite is an open-source AI framework for authorized penetration testing and vulnerability research. Featuring 50",
+      "summary": "Pentest Agent Suite 是一个开源 AI 安全测试框架，包含 50 个专用 Agent 及多个命令和 CLI 工具，支持自动化侦察、漏洞验证和报告，兼容主流 AI 编程助手。",
+      "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 70.5,
+      "score_total": 70.02,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "首次出现AI自动化渗透框架在野利用的FBI官方警告。红蓝对抗从业者需警惕ARTEX等AI攻击工具的能力，同时注意Agent harness的安全边界，自查暴露面。",
+      "recommendation_reason": "这工具集成了 50 个安全 Agent 并兼容 Claude Code 等主流编程助手，适合做自动化渗透的同行拿来拆解和改造成自己的流水线。可以直接去 GitHub 看看它的 Agent 设计和 MCP 服务器实现。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/brianskellenger/status/2123031821143421407",
-      "reader_url": "https://x.com/brianskellenger/status/2123031821143421407",
-      "image_url": "https://pbs.twimg.com/media/HXaGD8Ga8AE2NjP.jpg",
+      "canonical_url": "https://x.com/Anastasis_King/status/2123069138075558222",
+      "reader_url": "https://x.com/Anastasis_King/status/2123069138075558222",
+      "image_url": "https://pbs.twimg.com/media/HXaoIEnWYAA-DBO.jpg",
       "author": {
-        "username": "brianskellenger",
-        "name": "Brian Skellenger on all Platforms",
+        "username": "Anastasis_King",
+        "name": "Cyberkid",
         "avatar_url": null,
-        "followers_count": 0
+        "followers_count": 11667
       },
-      "published_at": "2026-11-18T12:33:24",
-      "first_seen_at": "2026-11-18T13:06:43.819746",
-      "sub_category_label": null
+      "published_at": "2026-11-18T15:01:41",
+      "first_seen_at": "2026-11-18T15:26:43.564592",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
