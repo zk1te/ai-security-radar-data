@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-19T07:44:42+08:00",
+  "updated_at": "2026-11-19T08:14:46+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 33512,
@@ -22,6 +22,30 @@
       "author": null,
       "published_at": "2026-11-18T15:15:36",
       "first_seen_at": "2026-11-18T21:13:38.150580",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33541,
+      "title": "WorkOS 遭遇 AI 自主渗透测试框架 ARTEX 攻击",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告了一起安全事件，攻击者使用名为 ARTEX 的 AI 辅助自主渗透框架，通过内部 API 访问了其 Salesforce 和 Snowflake 实例中的 CRM 数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "攻击者使用 AI 自主渗透框架发起实战攻击，标志着红队工具自动化达到新高度。安全团队需关注此类 Agent 的自动化突破能力，评估现有防御体系能否应对机器速度的攻击。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-19T00:11:09.793941",
       "sub_category_label": "安全Agent"
     },
     {
@@ -95,29 +119,29 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
-      "id": 33260,
-      "title": "FBI警告AI渗透框架ARTEX可3小时内攻破网络",
-      "original_title": "🚨THE FBI WARNS AI HACKERS CAN BREACH COMPUTER NETWORKS IN UNDER THREE HOURS AS MAJOR US SERVICES CONTINUE TO EXPERIENCE OUTAGES  The FBI has issued a warning about hackers using AI",
-      "summary": "FBI发布安全公告称，AI驱动的渗透测试框架ARTEX被黑客和APT组织滥用，能在3小时内完成从探测到提权的全流程攻击，微软已将其关联至中国黑客组织Storm-0940。",
-      "primary_category": "AI for Sec | Sec for AI",
+      "id": 33550,
+      "title": "ARTEX：基于多代理工作流的自主渗透测试平台",
+      "original_title": "🚨 ARTEX: a self-hosted, AI-driven penetration testing platform built around autonomous multi-agent workflows  GitHub: https://t.co/d6GAnaGUUG  ARTEX uses an LLM planner to break pe",
+      "summary": "ARTEX 是一个自托管、模型无关的渗透测试平台，利用 LLM 规划器拆解任务，通过多代理调用真实安全工具执行，并维护共享资产图谱与攻击链追踪。",
+      "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 72.61,
+      "score_total": 71.06,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "给红蓝对抗团队提个醒：AI自动化渗透工具已落入黑产手中并实现3小时极速打穿，防守方需重新评估暴露面收敛和应急响应时效，同时排查自身是否将渗透控制台暴露在公网。",
+      "recommendation_reason": "红队和渗透测试自动化从业者必看。其多代理规划结合真实工具执行与共享资产图谱的设计思路值得借鉴，且支持本地 Ollama 模型和人工审批门，落地参考价值高。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/UAPWatchers/status/2123013330293956685",
-      "reader_url": "https://x.com/UAPWatchers/status/2123013330293956685",
-      "image_url": "https://pbs.twimg.com/media/HXZ1PsoWoAAv9oe.jpg",
+      "canonical_url": "https://x.com/DarkWebInformer/status/2123201870789271827",
+      "reader_url": "https://x.com/DarkWebInformer/status/2123201870789271827",
+      "image_url": "https://pbs.twimg.com/media/HXcgtg0WkAAh4W_.jpg",
       "author": {
-        "username": "UAPWatchers",
-        "name": "Skywatch Signal",
+        "username": "DarkWebInformer",
+        "name": "Dark Web Informer",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-18T11:19:56",
-      "first_seen_at": "2026-11-18T11:55:02.889629",
-      "sub_category_label": null
+      "published_at": "2026-11-18T23:49:07",
+      "first_seen_at": "2026-11-19T00:12:19.980884",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 33510,
@@ -193,56 +217,6 @@
       "published_at": "2026-11-18T15:01:41",
       "first_seen_at": "2026-11-18T15:26:43.564592",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33464,
-      "title": "FBI 警告：开源 LLM 渗透框架 ARTEX 遭武器化自动化攻击全球企业",
-      "original_title": "[The FBI on Tuesday issued a global FLASH advisory on cybercriminals and hackers targeting businesses with AI to automate attacks worldwide.  The FBI’s warning comes amid outages a",
-      "summary": "FBI 发布 FLASH 警报，指出开源 AI 渗透测试框架 ARTEX 被威胁行为者武器化，可在 3 小时内完成从侦察到提权的全链路自动化攻击，大幅降低了网络犯罪门槛。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent | agent_security",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队须警惕自主渗透测试 Agent 的双刃剑效应。ARTEX 被用于实战说明 AI 攻击工具已走向产业化，防守方应立刻排查相关 IOC，并审视自身对 AI Agent 的管控策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/realmseagle888/status/2123140250482376739",
-      "reader_url": "https://x.com/realmseagle888/status/2123140250482376739",
-      "image_url": null,
-      "author": {
-        "username": "realmseagle888",
-        "name": "mseagle888",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-18T19:44:16",
-      "first_seen_at": "2026-11-18T19:56:59.542123",
-      "sub_category_label": null
-    },
-    {
-      "id": 33362,
-      "title": "FBI 警报：AI 渗透测试工具 ARTEX 遭恶意组织滥用",
-      "original_title": "FBI flags it: penetration testing tool ARTEX is being used in attacks  On November 13 the FBI published alert FLASH-20261113-001 on ARTEX, an AI-driven penetration testing framewor",
-      "summary": "FBI 发布警报称 AI 驱动的渗透测试框架 ARTEX 自 8 月起被恶意组织利用。该工具流量特征明显，易在日志中留下大量重复请求和失败记录，企业应排查相关指标。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给防守方和威胁情报团队看：AI 渗透工具不仅帮红队打点，也会被攻击者直接拿来用。立刻根据 FBI 警报排查租户的登录与审计日志，别让自动化 Agent 扫穿防线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/GlobalFeedAI/status/2123090529822834917",
-      "reader_url": "https://x.com/GlobalFeedAI/status/2123090529822834917",
-      "image_url": "https://pbs.twimg.com/media/HXa7g3PWIAAs1C_.jpg",
-      "author": {
-        "username": "GlobalFeedAI",
-        "name": "Global Feed AI",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-18T16:26:42",
-      "first_seen_at": "2026-11-18T16:33:16.702669",
-      "sub_category_label": null
     }
   ]
 }
