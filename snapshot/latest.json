@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T01:26:34+08:00",
+  "updated_at": "2026-11-20T01:56:52+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -190,28 +190,28 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 33685,
-      "title": "开源渗透测试Agent工具ARIA-X发布v0.1.1",
-      "original_title": "Another AI-powered Pentesting Tool worth watching: ARIA-X (Autonomous Reasoning & Investigation Agent – eXtended).  ARIA-X is an open-source, Python-based agentic security framewor",
-      "summary": "ARIA-X是一款受ARTEX等启发的开源代理型安全框架，支持DNS枚举、端口扫描及Agent间任务委派等功能，并新增了交互式PTY会话。目前暂无威胁行为者滥用的公开证据，但其攻击潜力值得关注。",
+      "id": 33994,
+      "title": "FBI 警告开源 AI 渗透框架 ARTEX 被武器化",
+      "original_title": "1/ On November 13, 2026, the FBI published an advisory on ARTEX, an open-source, agentic AI penetration-testing framework that has been weaponised by threat actors.  It can coordin",
+      "summary": "FBI 发布通告称开源 AI 渗透测试框架 ARTEX 被威胁行为者武器化，可实现从侦察到提权的全流程自动化，并在 3 小时内获取特权访问。",
       "primary_category": "AI for Sec",
       "sub_category": "security_agent",
-      "score_total": 68.37,
+      "score_total": 67.2,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "红队和蓝队都该看。ARIA-X整合了多Agent协作与交互式终端执行能力，意味着自动化渗透测试又往前走了一步；安全团队可基于此评估自身防御体系对自动化攻击的响应能力。",
+      "recommendation_reason": "AI 渗透 Agent 在野利用的真实案例，证实了 AI 自动化攻击的惊人效率。防御团队需据此重新评估应急响应与检测体系的速度极限。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/CyhawkAfrica/status/2123286919006106008",
-      "reader_url": "https://x.com/CyhawkAfrica/status/2123286919006106008",
+      "canonical_url": "https://x.com/Cloud_mavin/status/2123424342579069110",
+      "reader_url": "https://x.com/Cloud_mavin/status/2123424342579069110",
       "image_url": null,
       "author": {
-        "username": "CyhawkAfrica",
-        "name": "CyHawk Africa",
+        "username": "Cloud_mavin",
+        "name": "Ononneobazi Aquah☁️🇳🇬",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-19T05:27:04",
-      "first_seen_at": "2026-11-19T05:39:44.718962",
+      "published_at": "2026-11-19T14:33:09",
+      "first_seen_at": "2026-11-19T14:52:23.920353",
       "sub_category_label": "安全Agent"
     }
   ]
