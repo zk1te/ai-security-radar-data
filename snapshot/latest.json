@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T01:56:52+08:00",
+  "updated_at": "2026-11-20T02:57:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -115,31 +115,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 33702,
-      "title": "FBI 警报：开源 LLM 渗透框架 ARTEX 被武器化",
-      "original_title": "The Federal Bureau of Investigation (@FBI) just confirmed it: attackers now pentest you faster than you do.  Last Friday, the FBI released a FLASH alert on ARTEX, an open-source, L",
-      "summary": "FBI 发布 FLASH 警报指出开源 AI 渗透测试框架 ARTEX 被犯罪分子和国家级攻击者滥用，低技能攻击者也能在 3 小时内完成从初始目标到特权访问的入侵。防御方需清点所有互联网暴露应用和 API。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "防御团队和红队必看。AI 渗透 Agent 已成实战武器，3 小时拿权限意味着传统年度渗透彻底失效。立刻清点暴露面，评估自身对抗持续自动化扫描的能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/iCarossio/status/2123302758187184323",
-      "reader_url": "https://x.com/iCarossio/status/2123302758187184323",
-      "image_url": "https://pbs.twimg.com/media/HXd8EnSaQAA8Opp.jpg",
-      "author": {
-        "username": "iCarossio",
-        "name": "Antoine Carossio",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T06:30:01",
-      "first_seen_at": "2026-11-19T06:47:24.069079",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 33942,
       "title": "AI 时代仍需掌握现代 Fuzzing：LibAFL 真机复现 CVE 实践",
       "original_title": "Even in the AI era, it’s worth understanding what modern fuzzing can actually do and learning the techniques yourself.  Credit: CVE-2026-21096 was found by Brendon Tiszka & Mateusz",
@@ -213,6 +188,31 @@
       "published_at": "2026-11-19T14:33:09",
       "first_seen_at": "2026-11-19T14:52:23.920353",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34001,
+      "title": "ACSAC 2025 生成式 AI 安全专题论文与幻灯片汇总",
+      "original_title": "For this #ThrowbackThursday, we will look at #ACSAC2025's Generative AI (for) Security session. The links in this thread will lead you to the paper pdfs and the slide decks, so be ",
+      "summary": "推文回顾了 ACSAC 2025 会议的「Generative AI (for) Security」专题，并整理了相关论文 PDF 和演讲幻灯片的链接汇总。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 66.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "汇总了 ACSAC 2025 关于生成式 AI 在安全领域应用的最新学术成果，包含论文和幻灯片，适合 AI for Sec 从业者快速跟踪前沿研究方向和落地思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/ACSAC_Conf/status/2123431193953649116",
+      "reader_url": "https://x.com/ACSAC_Conf/status/2123431193953649116",
+      "image_url": "https://pbs.twimg.com/media/HXfxaxMXUAAiDbe.jpg",
+      "author": {
+        "username": "ACSAC_Conf",
+        "name": "ACSAC",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T15:00:22",
+      "first_seen_at": "2026-11-19T15:30:51.757029",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
