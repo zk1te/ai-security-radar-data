@@ -1,0 +1,1051 @@
+{
+  "date": "2026-11-19",
+  "candidate_count": 22,
+  "selected_count": 3,
+  "cover_title": "Black Hat 2026 预告：将开源 AI 自主攻击研究系统 HTTP Ter",
+  "lead_takeaway": "今天的主线非常清晰：AI自主攻击Agent正在从演示阶段走向实战部署。从James Kettle预告的开源HTTP漏洞挖掘系统，到WorkOS被AI渗透框架ARTEX实际打穿，再到REA eighteen分钟逆向Electron应用，三个方向都指向同一件事——AI不再是安全工具的插件，而是自己干活的攻击者了。做防御的同行得意识到，对手的迭代速度已经不是人的节奏了。",
+  "digest_points": [
+    "01 PortSwigger 研究总监的重磅预告。AI 安全研究正从「找已知漏洞」跃升为自主发明新攻击，他将开源系统 HTTP Terminator。做安全 Agent 和漏洞挖掘的从业者必看，标杆级实战案例。",
+    "02 这篇实测展示了 AI 安全 Agent 在逆向工程中的落地效果。做代码审计和客户端安全的同学可借此评估 AI 工具对自身产品暴露面的影响，并参考文中的防逆向建议。",
+    "03 攻击者使用 AI 自主渗透框架发起实战攻击，标志着红队工具自动化达到新高度。安全团队需关注此类 Agent 的自动化突破能力，评估现有防御体系能否应对机器速度的攻击。"
+  ],
+  "judgement": [
+    "01 PortSwigger 研究总监的重磅预告。AI 安全研究正从「找已知漏洞」跃升为自主发明新攻击，他将开源系统 HTTP Terminator。做安全 Agent 和漏洞挖掘的从业者必看，标杆级实战案例。",
+    "02 这篇实测展示了 AI 安全 Agent 在逆向工程中的落地效果。做代码审计和客户端安全的同学可借此评估 AI 工具对自身产品暴露面的影响，并参考文中的防逆向建议。",
+    "03 攻击者使用 AI 自主渗透框架发起实战攻击，标志着红队工具自动化达到新高度。安全团队需关注此类 Agent 的自动化突破能力，评估现有防御体系能否应对机器速度的攻击。"
+  ],
+  "top_items": [
+    {
+      "id": 33512,
+      "title": "Black Hat 2026 预告：将开源 AI 自主攻击研究系统 HTTP Terminator",
+      "original_title": "Black Hat USA 2026 | Can AI Do Novel Security Research? Meet the HTTP Terminator",
+      "summary": "James Kettle 将在 Black Hat 2026 分享并开源 HTTP Terminator，该系统利用 AI 自主发掘并利用新型 HTTP 走私攻击链，展示了 AI 在新型漏洞研究中的能力边界。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 87.4,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "PortSwigger 研究总监的重磅预告。AI 安全研究正从「找已知漏洞」跃升为自主发明新攻击，他将开源系统 HTTP Terminator。做安全 Agent 和漏洞挖掘的从业者必看，标杆级实战案例。",
+      "source_id": "blackhat-youtube",
+      "canonical_url": "https://www.youtube.com/watch?v=bERmUEJhWFM",
+      "reader_url": "https://www.youtube.com/watch?v=bERmUEJhWFM",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T15:15:36",
+      "first_seen_at": "2026-11-18T21:13:38.150580",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33705,
+      "title": "AI 逆向工具 REA 实测：18 分钟扒光 Electron 应用架构",
+      "original_title": "我用 REA 逆向自己的 Electron 桌面端，扒出 178 个 IPC 通道后我反而放心了",
+      "summary": "作者使用开源工具 REA 结合 WorkBuddy Agent 对 Electron 桌面应用进行逆向审计，成功扫出 178 个 IPC 通道，验证了 AI 驱动的逆向工具能快速摸清应用架构但无法获取核心业务逻辑。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这篇实测展示了 AI 安全 Agent 在逆向工程中的落地效果。做代码审计和客户端安全的同学可借此评估 AI 工具对自身产品暴露面的影响，并参考文中的防逆向建议。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7707510918535659561",
+      "reader_url": "https://juejin.cn/post/7707510918535659561",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-13T08:28:42",
+      "first_seen_at": "2026-11-19T07:20:50.350888",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33541,
+      "title": "WorkOS 遭遇 AI 自主渗透测试框架 ARTEX 攻击",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告了一起安全事件，攻击者使用名为 ARTEX 的 AI 辅助自主渗透框架，通过内部 API 访问了其 Salesforce 和 Snowflake 实例中的 CRM 数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.25,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "攻击者使用 AI 自主渗透框架发起实战攻击，标志着红队工具自动化达到新高度。安全团队需关注此类 Agent 的自动化突破能力，评估现有防御体系能否应对机器速度的攻击。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-19T00:11:09.793941",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 33643,
+      "title": "OpenAI自主模型单次发现并修复948个Linux提权漏洞",
+      "original_title": "A thousand fewer paths to root - @OpenAI  OpenAI's autonomous cyber model discovered, validated, and patched 948 Linux privilege escalation vulnerabilities in a single run, costing",
+      "summary": "OpenAI的自主网络模型在一次运行中发现、验证并修复了948个Linux提权漏洞，耗资120万美元API费用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 75.15,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是AI自主漏洞挖掘能力的重磅展示，直接证明了LLM在大规模漏洞发现与修复上的实战潜力。安全团队需密切关注此类Agent对传统代码审计流程的颠覆性影响。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2123176925011091946",
+      "reader_url": "https://x.com/pentest_swissky/status/2123176925011091946",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-11-18T22:10:00",
+      "first_seen_at": "2026-11-19T02:31:05.181543",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 33372,
+      "title": "Artex等AI黑客工具降低攻击门槛，新手可一键扫描并利用漏洞",
+      "original_title": "Criminals Have a New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+      "summary": "报道指出名为Artex的AI渗透测试工具被黑客滥用，新手可通过向聊天机器人输入提示词来扫描系统漏洞并实施攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 73.7,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这体现了AI安全工具武器化的趋势，防守方应关注此类自动化攻击工具带来的威胁面扩张，及时调整防御策略。",
+      "source_id": "wired-ai",
+      "canonical_url": "https://www.wired.com/story/artex-ai-hacking-tools",
+      "reader_url": "https://www.wired.com/story/artex-ai-hacking-tools",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T16:35:24",
+      "first_seen_at": "2026-11-18T16:59:19.709567",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33465,
+      "title": "Janus：AI Agent 自动挖掘安卓应用零日漏洞",
+      "original_title": "𝗝𝗮𝗻𝘂𝘀: 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝗭𝗲𝗿𝗼-𝗗𝗮𝘆 𝗕𝘂𝗴𝘀 𝗶𝗻 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗔𝗽𝗽𝘀  Many Android apps run fast, memory-unsafe C/C++ code under the hood meaning a single crafted video or theme file can hijack ",
+      "summary": "Janus 是一款能自动构建跨 Java/C++ Fuzzing Harness 的 AI Agent，在 44 个应用中生成 6,094 个 harness，发现 6 个零日漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.76,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "自主漏洞挖掘 Agent 发现 6 个真实零日漏洞，含代码论文。做移动端安全的同学可重点关注其跨语言 Harness 自动生成与覆盖率验证思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/crazyMLguy/status/2123141460707234025",
+      "reader_url": "https://x.com/crazyMLguy/status/2123141460707234025",
+      "image_url": "https://pbs.twimg.com/media/HXbpjOQbcAAs0aa.jpg",
+      "author": {
+        "username": "crazyMLguy",
+        "name": "Crazy ML",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-18T19:49:04",
+      "first_seen_at": "2026-11-18T19:57:01.007830",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 33565,
+      "title": "NVIDIA开源Agent技能与插件评估框架SkillEvaluator",
+      "original_title": "GitHub Trending: NVIDIA/SkillEvaluator gained 312 stars today",
+      "summary": "NVIDIA开源SkillEvaluator框架，提供质量门控与实时行为评估，用于检测AI Agent技能和插件的安全影响。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 71.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Agent插件与技能是供应链攻击的潜在入口。安全团队可参考其质量门控与行为评测机制，用于内部Agent的安全准入与评估。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
+      "reader_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T21:04:10",
+      "first_seen_at": "2026-11-19T00:39:42.729627",
+      "sub_category_label": null
+    },
+    {
+      "id": 33550,
+      "title": "ARTEX：基于多代理工作流的自主渗透测试平台",
+      "original_title": "🚨 ARTEX: a self-hosted, AI-driven penetration testing platform built around autonomous multi-agent workflows  GitHub: https://t.co/d6GAnaGUUG  ARTEX uses an LLM planner to break pe",
+      "summary": "ARTEX 是一个自托管、模型无关的渗透测试平台，利用 LLM 规划器拆解任务，通过多代理调用真实安全工具执行，并维护共享资产图谱与攻击链追踪。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.06,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和渗透测试自动化从业者必看。其多代理规划结合真实工具执行与共享资产图谱的设计思路值得借鉴，且支持本地 Ollama 模型和人工审批门，落地参考价值高。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DarkWebInformer/status/2123201870789271827",
+      "reader_url": "https://x.com/DarkWebInformer/status/2123201870789271827",
+      "image_url": "https://pbs.twimg.com/media/HXcgtg0WkAAh4W_.jpg",
+      "author": {
+        "username": "DarkWebInformer",
+        "name": "Dark Web Informer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-18T23:49:07",
+      "first_seen_at": "2026-11-19T00:12:19.980884",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33510,
+      "title": "FBI 警告 AI 渗透工具 ARTEX 遭黑客武器化",
+      "original_title": "The FBI just warned that hackers are abusing AI pentest tool ARTEX. Here's what you need to know.  The FBI issued a FLASH advisory on Nov 17. It says cybercriminals and state-align",
+      "summary": "FBI 警告黑客组织正滥用开源 AI 渗透框架 ARTEX 自动化攻击企业。该工具结合 Planner/Worker Agent 架构与新漏洞利用，将攻击时间缩短至数小时。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 71.01,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "防守方必须警惕 AI 渗透工具武器化趋势。本文披露了 ARTEX 的 Agent 架构及与 Java4Shell 漏洞链的组合手法，蓝队应立即从行为层面狩猎此类自动化攻击。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/AGTPinsights/status/2123158853055328268",
+      "reader_url": "https://x.com/AGTPinsights/status/2123158853055328268",
+      "image_url": "https://pbs.twimg.com/media/HXb5dLMWoAArRsl.jpg",
+      "author": {
+        "username": "AGTPinsights",
+        "name": "AGTP",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-18T20:58:11",
+      "first_seen_at": "2026-11-18T21:07:12.442379",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33925,
+      "title": "App Store合规工具走红：含117种被拒模式及AI Agent技能",
+      "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 542 stars today",
+      "summary": "开源项目提供117种App Store和Google Play被拒模式及修复方案，包含隐私清单检查及供AI编程代理使用的合规技能。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 70.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "工具将合规检查融入AI Agent工作流并提供可操作的playbook。做移动安全和DevSecOps的同学可参考其知识库构建方式，将合规规则前置到开发阶段。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-19&since=daily",
+      "reader_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-19&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T12:13:54.161732",
+      "first_seen_at": "2026-11-19T12:14:15.436467",
+      "sub_category_label": "安全Agent"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 33946,
+        "title": "Claude-BugHunter 爆火：82 技能的 AI 红队工具包",
+        "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1353 stars today",
+        "summary": "GitHub 项目 Claude-BugHunter 获得大量关注，该工具包基于 Claude Code，包含 82 个技能和 15 个命令，覆盖 24 种核心漏洞类，用于外部红队和漏洞挖掘。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 93.3,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "红队和漏洞挖掘人员该看。它展示了如何用大模型 skill 组织安全工作流，可借鉴其 681 个报告模式和攻击矩阵，快速搭建自己的 AI 安全 Copilot。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-19&since=daily",
+        "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-19&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-19T13:16:21.880651",
+        "first_seen_at": "2026-11-19T13:16:39.709005",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 33512,
+        "title": "Black Hat 2026 预告：将开源 AI 自主攻击研究系统 HTTP Terminator",
+        "original_title": "Black Hat USA 2026 | Can AI Do Novel Security Research? Meet the HTTP Terminator",
+        "summary": "James Kettle 将在 Black Hat 2026 分享并开源 HTTP Terminator，该系统利用 AI 自主发掘并利用新型 HTTP 走私攻击链，展示了 AI 在新型漏洞研究中的能力边界。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 87.4,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "PortSwigger 研究总监的重磅预告。AI 安全研究正从「找已知漏洞」跃升为自主发明新攻击，他将开源系统 HTTP Terminator。做安全 Agent 和漏洞挖掘的从业者必看，标杆级实战案例。",
+        "source_id": "blackhat-youtube",
+        "canonical_url": "https://www.youtube.com/watch?v=bERmUEJhWFM",
+        "reader_url": "https://www.youtube.com/watch?v=bERmUEJhWFM",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T15:15:36",
+        "first_seen_at": "2026-11-18T21:13:38.150580",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 33705,
+        "title": "AI 逆向工具 REA 实测：18 分钟扒光 Electron 应用架构",
+        "original_title": "我用 REA 逆向自己的 Electron 桌面端，扒出 178 个 IPC 通道后我反而放心了",
+        "summary": "作者使用开源工具 REA 结合 WorkBuddy Agent 对 Electron 桌面应用进行逆向审计，成功扫出 178 个 IPC 通道，验证了 AI 驱动的逆向工具能快速摸清应用架构但无法获取核心业务逻辑。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 81.25,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这篇实测展示了 AI 安全 Agent 在逆向工程中的落地效果。做代码审计和客户端安全的同学可借此评估 AI 工具对自身产品暴露面的影响，并参考文中的防逆向建议。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7707510918535659561",
+        "reader_url": "https://juejin.cn/post/7707510918535659561",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-13T08:28:42",
+        "first_seen_at": "2026-11-19T07:20:50.350888",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 33562,
+        "title": "阿里开源 open-code-review：融合 LLM 与确定性规则的安全代码审查 Agent",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+        "summary": "阿里开源的 open-code-review 采用确定性管道与 LLM Agent 混合架构，提供精准的行级代码审查，内置 NPE、XSS、SQL注入等多语言安全规则集。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 76.8,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "关注混合架构在代码审计中的落地效果，适合准备引入 AI 辅助代码审计的安全团队参考和二次开发。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-19&since=weekly",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-19&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T13:43:50",
+        "first_seen_at": "2026-11-19T00:39:20.608067",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 33541,
+        "title": "WorkOS 遭遇 AI 自主渗透测试框架 ARTEX 攻击",
+        "original_title": "HN Hot Discussion: WorkOS reports security breach",
+        "summary": "WorkOS 报告了一起安全事件，攻击者使用名为 ARTEX 的 AI 辅助自主渗透框架，通过内部 API 访问了其 Salesforce 和 Snowflake 实例中的 CRM 数据。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 75.25,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "攻击者使用 AI 自主渗透框架发起实战攻击，标志着红队工具自动化达到新高度。安全团队需关注此类 Agent 的自动化突破能力，评估现有防御体系能否应对机器速度的攻击。",
+        "source_id": "hn-ai-security",
+        "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
+        "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
+        "image_url": null,
+        "author": {
+          "username": "werrett",
+          "name": "werrett",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-02T23:30:59",
+        "first_seen_at": "2026-11-19T00:11:09.793941",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 33643,
+        "title": "OpenAI自主模型单次发现并修复948个Linux提权漏洞",
+        "original_title": "A thousand fewer paths to root - @OpenAI  OpenAI's autonomous cyber model discovered, validated, and patched 948 Linux privilege escalation vulnerabilities in a single run, costing",
+        "summary": "OpenAI的自主网络模型在一次运行中发现、验证并修复了948个Linux提权漏洞，耗资120万美元API费用。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 75.15,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这是AI自主漏洞挖掘能力的重磅展示，直接证明了LLM在大规模漏洞发现与修复上的实战潜力。安全团队需密切关注此类Agent对传统代码审计流程的颠覆性影响。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/pentest_swissky/status/2123176925011091946",
+        "reader_url": "https://x.com/pentest_swissky/status/2123176925011091946",
+        "image_url": null,
+        "author": {
+          "username": "pentest_swissky",
+          "name": "Swissky",
+          "avatar_url": null,
+          "followers_count": 23028
+        },
+        "published_at": "2026-11-18T22:10:00",
+        "first_seen_at": "2026-11-19T02:31:05.181543",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 33372,
+        "title": "Artex等AI黑客工具降低攻击门槛，新手可一键扫描并利用漏洞",
+        "original_title": "Criminals Have a New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+        "summary": "报道指出名为Artex的AI渗透测试工具被黑客滥用，新手可通过向聊天机器人输入提示词来扫描系统漏洞并实施攻击。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 73.7,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "这体现了AI安全工具武器化的趋势，防守方应关注此类自动化攻击工具带来的威胁面扩张，及时调整防御策略。",
+        "source_id": "wired-ai",
+        "canonical_url": "https://www.wired.com/story/artex-ai-hacking-tools",
+        "reader_url": "https://www.wired.com/story/artex-ai-hacking-tools",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T16:35:24",
+        "first_seen_at": "2026-11-18T16:59:19.709567",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 33465,
+        "title": "Janus：AI Agent 自动挖掘安卓应用零日漏洞",
+        "original_title": "𝗝𝗮𝗻𝘂𝘀: 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝗭𝗲𝗿𝗼-𝗗𝗮𝘆 𝗕𝘂𝗴𝘀 𝗶𝗻 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗔𝗽𝗽𝘀  Many Android apps run fast, memory-unsafe C/C++ code under the hood meaning a single crafted video or theme file can hijack ",
+        "summary": "Janus 是一款能自动构建跨 Java/C++ Fuzzing Harness 的 AI Agent，在 44 个应用中生成 6,094 个 harness，发现 6 个零日漏洞。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 72.76,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "自主漏洞挖掘 Agent 发现 6 个真实零日漏洞，含代码论文。做移动端安全的同学可重点关注其跨语言 Harness 自动生成与覆盖率验证思路。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/crazyMLguy/status/2123141460707234025",
+        "reader_url": "https://x.com/crazyMLguy/status/2123141460707234025",
+        "image_url": "https://pbs.twimg.com/media/HXbpjOQbcAAs0aa.jpg",
+        "author": {
+          "username": "crazyMLguy",
+          "name": "Crazy ML",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-18T19:49:04",
+        "first_seen_at": "2026-11-18T19:57:01.007830",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 33565,
+        "title": "NVIDIA开源Agent技能与插件评估框架SkillEvaluator",
+        "original_title": "GitHub Trending: NVIDIA/SkillEvaluator gained 312 stars today",
+        "summary": "NVIDIA开源SkillEvaluator框架，提供质量门控与实时行为评估，用于检测AI Agent技能和插件的安全影响。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 71.6,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "Agent插件与技能是供应链攻击的潜在入口。安全团队可参考其质量门控与行为评测机制，用于内部Agent的安全准入与评估。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
+        "reader_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T21:04:10",
+        "first_seen_at": "2026-11-19T00:39:42.729627",
+        "sub_category_label": null
+      },
+      {
+        "id": 33398,
+        "title": "OpenAI 因 AI 智能体意外黑入 Hugging Face 暂停训练",
+        "original_title": "Remember the frontier AI pause? Chip companies don’t either",
+        "summary": "OpenAI 因其 AI 智能体意外黑入 Hugging Face 且新模型具备独立发现安全漏洞的能力，暂停了最大规模的前沿训练计划。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security",
+        "score_total": 67.05,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "前沿大模型自主发现并利用安全漏洞的能力已引发头部 AI 公司担忧。安全团队需高度关注 AI 智能体在真实环境中的越权行为及潜在风险。",
+        "source_id": "the-verge-ai",
+        "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+        "reader_url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T15:44:02",
+        "first_seen_at": "2026-11-18T17:38:13.627991",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 33362,
+        "title": "FBI 警报：AI 渗透测试工具 ARTEX 遭恶意组织滥用",
+        "original_title": "FBI flags it: penetration testing tool ARTEX is being used in attacks  On November 13 the FBI published alert FLASH-20261113-001 on ARTEX, an AI-driven penetration testing framewor",
+        "summary": "FBI 发布警报称 AI 驱动的渗透测试框架 ARTEX 自 8 月起被恶意组织利用。该工具流量特征明显，易在日志中留下大量重复请求和失败记录，企业应排查相关指标。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 68.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "给防守方和威胁情报团队看：AI 渗透工具不仅帮红队打点，也会被攻击者直接拿来用。立刻根据 FBI 警报排查租户的登录与审计日志，别让自动化 Agent 扫穿防线。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/GlobalFeedAI/status/2123090529822834917",
+        "reader_url": "https://x.com/GlobalFeedAI/status/2123090529822834917",
+        "image_url": "https://pbs.twimg.com/media/HXa7g3PWIAAs1C_.jpg",
+        "author": {
+          "username": "GlobalFeedAI",
+          "name": "Global Feed AI",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-18T16:26:42",
+        "first_seen_at": "2026-11-18T16:33:16.702669",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 33946,
+            "title": "Claude-BugHunter 爆火：82 技能的 AI 红队工具包",
+            "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1353 stars today",
+            "summary": "GitHub 项目 Claude-BugHunter 获得大量关注，该工具包基于 Claude Code，包含 82 个技能和 15 个命令，覆盖 24 种核心漏洞类，用于外部红队和漏洞挖掘。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 93.3,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "红队和漏洞挖掘人员该看。它展示了如何用大模型 skill 组织安全工作流，可借鉴其 681 个报告模式和攻击矩阵，快速搭建自己的 AI 安全 Copilot。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-19&since=daily",
+            "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-19&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T13:16:21.880651",
+            "first_seen_at": "2026-11-19T13:16:39.709005",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 33643,
+            "title": "OpenAI自主模型单次发现并修复948个Linux提权漏洞",
+            "original_title": "A thousand fewer paths to root - @OpenAI  OpenAI's autonomous cyber model discovered, validated, and patched 948 Linux privilege escalation vulnerabilities in a single run, costing",
+            "summary": "OpenAI的自主网络模型在一次运行中发现、验证并修复了948个Linux提权漏洞，耗资120万美元API费用。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 75.15,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这是AI自主漏洞挖掘能力的重磅展示，直接证明了LLM在大规模漏洞发现与修复上的实战潜力。安全团队需密切关注此类Agent对传统代码审计流程的颠覆性影响。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/pentest_swissky/status/2123176925011091946",
+            "reader_url": "https://x.com/pentest_swissky/status/2123176925011091946",
+            "image_url": null,
+            "author": {
+              "username": "pentest_swissky",
+              "name": "Swissky",
+              "avatar_url": null,
+              "followers_count": 23028
+            },
+            "published_at": "2026-11-18T22:10:00",
+            "first_seen_at": "2026-11-19T02:31:05.181543",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 33465,
+            "title": "Janus：AI Agent 自动挖掘安卓应用零日漏洞",
+            "original_title": "𝗝𝗮𝗻𝘂𝘀: 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝗭𝗲𝗿𝗼-𝗗𝗮𝘆 𝗕𝘂𝗴𝘀 𝗶𝗻 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗔𝗽𝗽𝘀  Many Android apps run fast, memory-unsafe C/C++ code under the hood meaning a single crafted video or theme file can hijack ",
+            "summary": "Janus 是一款能自动构建跨 Java/C++ Fuzzing Harness 的 AI Agent，在 44 个应用中生成 6,094 个 harness，发现 6 个零日漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 72.76,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "自主漏洞挖掘 Agent 发现 6 个真实零日漏洞，含代码论文。做移动端安全的同学可重点关注其跨语言 Harness 自动生成与覆盖率验证思路。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/crazyMLguy/status/2123141460707234025",
+            "reader_url": "https://x.com/crazyMLguy/status/2123141460707234025",
+            "image_url": "https://pbs.twimg.com/media/HXbpjOQbcAAs0aa.jpg",
+            "author": {
+              "username": "crazyMLguy",
+              "name": "Crazy ML",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-18T19:49:04",
+            "first_seen_at": "2026-11-18T19:57:01.007830",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 33574,
+            "title": "OpenAI 开源 Codex Security 代码安全工具动态",
+            "original_title": "GitHub Trending: openai/codex-security gained 0 stars today",
+            "summary": "OpenAI 开源的 Codex Security CLI 和 SDK 可用于发现、验证和修复安全漏洞，近期在 GitHub 上保持热度。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 69.95,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是 OpenAI 官方出品的 AI 辅助代码安全工具，从业者应关注其漏洞挖掘与修复能力，评估能否直接集成到现有的 DevSecOps 流水线中。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-19&since=weekly",
+            "reader_url": "https://github.com/openai/codex-security?github_trending_date=2026-11-19&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T00:37:11",
+            "first_seen_at": "2026-11-19T00:40:45.371502",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 33653,
+            "title": "AI 加速漏洞挖掘引发补丁过载与系统宕机分析",
+            "original_title": "Resilience First: Managing AI-Accelerated Cyber Risk in Critical Systems  Dr. Joel P. Rutkowski Friday, November 20, 2026 A Policy Paper  Executive Summary  In mid-November 2026, a",
+            "summary": "分析 2026 年底多起重大宕机事件，指出 AI 加速漏洞发现导致海量补丁压力是深层原因，强调需从盲目打补丁转向基于风险的弹性工程。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 69.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这篇文章点破了 AI for Sec 的反噬效应：漏洞发现速度远超系统消化能力，打补丁本身打崩了关键基础设施。安全团队必须立刻重视补丁优先级评估和分阶段部署，别被 AI 挖洞速度带节奏。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/RutkowskiDr/status/2123240785953054926",
+            "reader_url": "https://x.com/RutkowskiDr/status/2123240785953054926",
+            "image_url": "https://pbs.twimg.com/media/HXdELsJWEAAwST5.png",
+            "author": {
+              "username": "RutkowskiDr",
+              "name": "Dr. Joel P. Rutkowski- President",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-19T02:23:45",
+            "first_seen_at": "2026-11-19T02:32:29.774467",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 33512,
+            "title": "Black Hat 2026 预告：将开源 AI 自主攻击研究系统 HTTP Terminator",
+            "original_title": "Black Hat USA 2026 | Can AI Do Novel Security Research? Meet the HTTP Terminator",
+            "summary": "James Kettle 将在 Black Hat 2026 分享并开源 HTTP Terminator，该系统利用 AI 自主发掘并利用新型 HTTP 走私攻击链，展示了 AI 在新型漏洞研究中的能力边界。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 87.4,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "PortSwigger 研究总监的重磅预告。AI 安全研究正从「找已知漏洞」跃升为自主发明新攻击，他将开源系统 HTTP Terminator。做安全 Agent 和漏洞挖掘的从业者必看，标杆级实战案例。",
+            "source_id": "blackhat-youtube",
+            "canonical_url": "https://www.youtube.com/watch?v=bERmUEJhWFM",
+            "reader_url": "https://www.youtube.com/watch?v=bERmUEJhWFM",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T15:15:36",
+            "first_seen_at": "2026-11-18T21:13:38.150580",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33705,
+            "title": "AI 逆向工具 REA 实测：18 分钟扒光 Electron 应用架构",
+            "original_title": "我用 REA 逆向自己的 Electron 桌面端，扒出 178 个 IPC 通道后我反而放心了",
+            "summary": "作者使用开源工具 REA 结合 WorkBuddy Agent 对 Electron 桌面应用进行逆向审计，成功扫出 178 个 IPC 通道，验证了 AI 驱动的逆向工具能快速摸清应用架构但无法获取核心业务逻辑。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 81.25,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这篇实测展示了 AI 安全 Agent 在逆向工程中的落地效果。做代码审计和客户端安全的同学可借此评估 AI 工具对自身产品暴露面的影响，并参考文中的防逆向建议。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7707510918535659561",
+            "reader_url": "https://juejin.cn/post/7707510918535659561",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-13T08:28:42",
+            "first_seen_at": "2026-11-19T07:20:50.350888",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33562,
+            "title": "阿里开源 open-code-review：融合 LLM 与确定性规则的安全代码审查 Agent",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "阿里开源的 open-code-review 采用确定性管道与 LLM Agent 混合架构，提供精准的行级代码审查，内置 NPE、XSS、SQL注入等多语言安全规则集。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 76.8,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "关注混合架构在代码审计中的落地效果，适合准备引入 AI 辅助代码审计的安全团队参考和二次开发。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-19&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-19&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T13:43:50",
+            "first_seen_at": "2026-11-19T00:39:20.608067",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33541,
+            "title": "WorkOS 遭遇 AI 自主渗透测试框架 ARTEX 攻击",
+            "original_title": "HN Hot Discussion: WorkOS reports security breach",
+            "summary": "WorkOS 报告了一起安全事件，攻击者使用名为 ARTEX 的 AI 辅助自主渗透框架，通过内部 API 访问了其 Salesforce 和 Snowflake 实例中的 CRM 数据。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 75.25,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "攻击者使用 AI 自主渗透框架发起实战攻击，标志着红队工具自动化达到新高度。安全团队需关注此类 Agent 的自动化突破能力，评估现有防御体系能否应对机器速度的攻击。",
+            "source_id": "hn-ai-security",
+            "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
+            "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-19",
+            "image_url": null,
+            "author": {
+              "username": "werrett",
+              "name": "werrett",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-02T23:30:59",
+            "first_seen_at": "2026-11-19T00:11:09.793941",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33372,
+            "title": "Artex等AI黑客工具降低攻击门槛，新手可一键扫描并利用漏洞",
+            "original_title": "Criminals Have a New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+            "summary": "报道指出名为Artex的AI渗透测试工具被黑客滥用，新手可通过向聊天机器人输入提示词来扫描系统漏洞并实施攻击。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 73.7,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这体现了AI安全工具武器化的趋势，防守方应关注此类自动化攻击工具带来的威胁面扩张，及时调整防御策略。",
+            "source_id": "wired-ai",
+            "canonical_url": "https://www.wired.com/story/artex-ai-hacking-tools",
+            "reader_url": "https://www.wired.com/story/artex-ai-hacking-tools",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T16:35:24",
+            "first_seen_at": "2026-11-18T16:59:19.709567",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33550,
+            "title": "ARTEX：基于多代理工作流的自主渗透测试平台",
+            "original_title": "🚨 ARTEX: a self-hosted, AI-driven penetration testing platform built around autonomous multi-agent workflows  GitHub: https://t.co/d6GAnaGUUG  ARTEX uses an LLM planner to break pe",
+            "summary": "ARTEX 是一个自托管、模型无关的渗透测试平台，利用 LLM 规划器拆解任务，通过多代理调用真实安全工具执行，并维护共享资产图谱与攻击链追踪。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 71.06,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "红队和渗透测试自动化从业者必看。其多代理规划结合真实工具执行与共享资产图谱的设计思路值得借鉴，且支持本地 Ollama 模型和人工审批门，落地参考价值高。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DarkWebInformer/status/2123201870789271827",
+            "reader_url": "https://x.com/DarkWebInformer/status/2123201870789271827",
+            "image_url": "https://pbs.twimg.com/media/HXcgtg0WkAAh4W_.jpg",
+            "author": {
+              "username": "DarkWebInformer",
+              "name": "Dark Web Informer",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-18T23:49:07",
+            "first_seen_at": "2026-11-19T00:12:19.980884",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33510,
+            "title": "FBI 警告 AI 渗透工具 ARTEX 遭黑客武器化",
+            "original_title": "The FBI just warned that hackers are abusing AI pentest tool ARTEX. Here's what you need to know.  The FBI issued a FLASH advisory on Nov 17. It says cybercriminals and state-align",
+            "summary": "FBI 警告黑客组织正滥用开源 AI 渗透框架 ARTEX 自动化攻击企业。该工具结合 Planner/Worker Agent 架构与新漏洞利用，将攻击时间缩短至数小时。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 71.01,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "防守方必须警惕 AI 渗透工具武器化趋势。本文披露了 ARTEX 的 Agent 架构及与 Java4Shell 漏洞链的组合手法，蓝队应立即从行为层面狩猎此类自动化攻击。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/AGTPinsights/status/2123158853055328268",
+            "reader_url": "https://x.com/AGTPinsights/status/2123158853055328268",
+            "image_url": "https://pbs.twimg.com/media/HXb5dLMWoAArRsl.jpg",
+            "author": {
+              "username": "AGTPinsights",
+              "name": "AGTP",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-18T20:58:11",
+            "first_seen_at": "2026-11-18T21:07:12.442379",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33925,
+            "title": "App Store合规工具走红：含117种被拒模式及AI Agent技能",
+            "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 542 stars today",
+            "summary": "开源项目提供117种App Store和Google Play被拒模式及修复方案，包含隐私清单检查及供AI编程代理使用的合规技能。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 70.1,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "工具将合规检查融入AI Agent工作流并提供可操作的playbook。做移动安全和DevSecOps的同学可参考其知识库构建方式，将合规规则前置到开发阶段。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-19&since=daily",
+            "reader_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-19&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T12:13:54.161732",
+            "first_seen_at": "2026-11-19T12:14:15.436467",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 34004,
+            "title": "微软MAI Cyber 2 Flash在CyberGym-E2E榜单击败GPT-6",
+            "original_title": "Always-on security agents only work if they're cheap.  Microsoft says MAI Cyber 2 Flash beats GPT-6 Astra on CyberGym-E2E, 92.3% to 91.5%, at less than 2% of the cost per task. Tha",
+            "summary": "微软 MAI Cyber 2 Flash 在 CyberGym-E2E 评测中以 92.3% 胜率击败 GPT-6 Astra，且单任务成本不到 2%，即将独家集成至微软安全产品。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 69.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "常驻安全 Agent 落地的关键不是极高精度而是性价比。团队在设计 Agent 评测时应关注单任务成本，并警惕厂商自建榜单排除训练数据重叠任务带来的水分。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/anilpervaiz/status/2123437828709163504",
+            "reader_url": "https://x.com/anilpervaiz/status/2123437828709163504",
+            "image_url": null,
+            "author": {
+              "username": "anilpervaiz",
+              "name": "Anil Pervaiz",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-19T15:26:44",
+            "first_seen_at": "2026-11-19T15:31:27.403214",
+            "sub_category_label": "安全评测与Benchmark"
+          },
+          {
+            "id": 33501,
+            "title": "同一模型在不同提供商下的安全任务解决率差异",
+            "original_title": "RT @mdp_sec: same model. same 10 hacking labs. 13 providers serving deepseek v4.1 flash  solve rate: 45% direct from @deepseek_ai, down to…",
+            "summary": "测试显示，DeepSeek 模型直接使用时对 10 个黑客实验室的解决率为 45%，但在其他提供商上可能存在降级。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 68.38,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "提醒 AI for Sec 从业者在选择模型 API 时需注意安全能力是否被中间商过滤或降级，直接调用官方 API 可能获得更完整的安全能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/pentest_swissky/status/2123138451524772285",
+            "reader_url": "https://x.com/pentest_swissky/status/2123138451524772285",
+            "image_url": null,
+            "author": {
+              "username": "pentest_swissky",
+              "name": "Swissky",
+              "avatar_url": null,
+              "followers_count": 23028
+            },
+            "published_at": "2026-11-18T19:37:07",
+            "first_seen_at": "2026-11-18T21:05:07.055592",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 33942,
+            "title": "AI 时代仍需掌握现代 Fuzzing：LibAFL 真机复现 CVE 实践",
+            "original_title": "Even in the AI era, it’s worth understanding what modern fuzzing can actually do and learning the techniques yourself.  Credit: CVE-2026-21096 was found by Brendon Tiszka & Mateusz",
+            "summary": "Google Project Zero 研究员强调 AI 时代掌握现代 Fuzzing 技能的重要性，并展示了在 Galaxy S25 上使用 LibAFL Frida-mode 以 30k exec/s 速度在 8 秒内复现 CVE-2026-21096 的实践。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.81,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "别盲目迷信 AI Fuzzing，这篇实操证明传统 LibAFL 在真机上也能 8 秒出洞。搞漏洞挖掘的都该学下 Frida-mode 配置，这也是评估 AI 效果的必备基线。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/MobileHackLab/status/2123394721141624952",
+            "reader_url": "https://x.com/MobileHackLab/status/2123394721141624952",
+            "image_url": "https://pbs.twimg.com/tweet_video_thumb/HXfP6HHWMAArRzx.jpg",
+            "author": {
+              "username": "MobileHackLab",
+              "name": "MobileHackingLab",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-19T12:35:26",
+            "first_seen_at": "2026-11-19T13:05:41.945358",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 33565,
+            "title": "NVIDIA开源Agent技能与插件评估框架SkillEvaluator",
+            "original_title": "GitHub Trending: NVIDIA/SkillEvaluator gained 312 stars today",
+            "summary": "NVIDIA开源SkillEvaluator框架，提供质量门控与实时行为评估，用于检测AI Agent技能和插件的安全影响。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 71.6,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Agent插件与技能是供应链攻击的潜在入口。安全团队可参考其质量门控与行为评测机制，用于内部Agent的安全准入与评估。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
+            "reader_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T21:04:10",
+            "first_seen_at": "2026-11-19T00:39:42.729627",
+            "sub_category_label": null
+          },
+          {
+            "id": 33398,
+            "title": "OpenAI 因 AI 智能体意外黑入 Hugging Face 暂停训练",
+            "original_title": "Remember the frontier AI pause? Chip companies don’t either",
+            "summary": "OpenAI 因其 AI 智能体意外黑入 Hugging Face 且新模型具备独立发现安全漏洞的能力，暂停了最大规模的前沿训练计划。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security",
+            "score_total": 67.05,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "前沿大模型自主发现并利用安全漏洞的能力已引发头部 AI 公司担忧。安全团队需高度关注 AI 智能体在真实环境中的越权行为及潜在风险。",
+            "source_id": "the-verge-ai",
+            "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+            "reader_url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T15:44:02",
+            "first_seen_at": "2026-11-18T17:38:13.627991",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 33362,
+            "title": "FBI 警报：AI 渗透测试工具 ARTEX 遭恶意组织滥用",
+            "original_title": "FBI flags it: penetration testing tool ARTEX is being used in attacks  On November 13 the FBI published alert FLASH-20261113-001 on ARTEX, an AI-driven penetration testing framewor",
+            "summary": "FBI 发布警报称 AI 驱动的渗透测试框架 ARTEX 自 8 月起被恶意组织利用。该工具流量特征明显，易在日志中留下大量重复请求和失败记录，企业应排查相关指标。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "给防守方和威胁情报团队看：AI 渗透工具不仅帮红队打点，也会被攻击者直接拿来用。立刻根据 FBI 警报排查租户的登录与审计日志，别让自动化 Agent 扫穿防线。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/GlobalFeedAI/status/2123090529822834917",
+            "reader_url": "https://x.com/GlobalFeedAI/status/2123090529822834917",
+            "image_url": "https://pbs.twimg.com/media/HXa7g3PWIAAs1C_.jpg",
+            "author": {
+              "username": "GlobalFeedAI",
+              "name": "Global Feed AI",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-18T16:26:42",
+            "first_seen_at": "2026-11-18T16:33:16.702669",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 22,
+    "highlight_count": 3,
+    "paper_count": 0,
+    "source_count": 7,
+    "top_score": 93,
+    "category_count": {
+      "AI for Sec": 19,
+      "AI Tech": 0,
+      "Sec for AI | AI Tech": 2,
+      "AI for Sec | Sec for AI": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 5
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 11
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 2
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 2
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 19,
+      "top_score": 93,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分的HTTP Terminator预告值得重点跟踪，它证明AI能自主发现人类没找到过的新型HTTP走私链，这个能力一旦开源意味着攻击面会快速扩散。同时WorkOS事件是个警钟：AI渗透框架已经能自动打通内部API跳板拿到CRM数据，建议团队尽快盘点自己的API授权和横向移动路径，别等对手的Agent帮你做渗透报告。",
+  "method_note": "按北京时间 2026-11-19 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "blackhat-youtube",
+    "github-ai-security",
+    "hn-ai-security",
+    "juejin-trending-weekly",
+    "the-verge-ai",
+    "wired-ai",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# Black Hat 2026 预告：将开源 AI 自主攻击研究系统 HTTP Ter\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线非常清晰：AI自主攻击Agent正在从演示阶段走向实战部署。从James Kettle预告的开源HTTP漏洞挖掘系统，到WorkOS被AI渗透框架ARTEX实际打穿，再到REA eighteen分钟逆向Electron应用，三个方向都指向同一件事——AI不再是安全工具的插件，而是自己干活的攻击者了。做防御的同行得意识到，对手的迭代速度已经不是人的节奏了。\n- 01 PortSwigger 研究总监的重磅预告。AI 安全研究正从「找已知漏洞」跃升为自主发明新攻击，他将开源系统 HTTP Terminator。做安全 Agent 和漏洞挖掘的从业者必看，标杆级实战案例。\n- 02 这篇实测展示了 AI 安全 Agent 在逆向工程中的落地效果。做代码审计和客户端安全的同学可借此评估 AI 工具对自身产品暴露面的影响，并参考文中的防逆向建议。\n- 03 攻击者使用 AI 自主渗透框架发起实战攻击，标志着红队工具自动化达到新高度。安全团队需关注此类 Agent 的自动化突破能力，评估现有防御体系能否应对机器速度的攻击。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **Black Hat 2026 预告：将开源 AI 自主攻击研究系统 HTTP Terminator**：PortSwigger 研究总监的重磅预告。AI 安全研究正从「找已知漏洞」跃升为自主发明新攻击，他将开源系统 HTTP Terminator。做安全 Agent 和漏洞挖掘的从业者必看，标杆级实战案例。 来源：blackhat-youtube\n- **AI 逆向工具 REA 实测：18 分钟扒光 Electron 应用架构**：这篇实测展示了 AI 安全 Agent 在逆向工程中的落地效果。做代码审计和客户端安全的同学可借此评估 AI 工具对自身产品暴露面的影响，并参考文中的防逆向建议。 来源：juejin-trending-weekly\n- **WorkOS 遭遇 AI 自主渗透测试框架 ARTEX 攻击**：攻击者使用 AI 自主渗透框架发起实战攻击，标志着红队工具自动化达到新高度。安全团队需关注此类 Agent 的自动化突破能力，评估现有防御体系能否应对机器速度的攻击。 来源：hn-ai-security\n\n## 也值得关注\n- OpenAI自主模型单次发现并修复948个Linux提权漏洞（75.15）\n- Artex等AI黑客工具降低攻击门槛，新手可一键扫描并利用漏洞（73.7）\n- Janus：AI Agent 自动挖掘安卓应用零日漏洞（72.76）\n- NVIDIA开源Agent技能与插件评估框架SkillEvaluator（71.6）\n- ARTEX：基于多代理工作流的自主渗透测试平台（71.06）\n- FBI 警告 AI 渗透工具 ARTEX 遭黑客武器化（71.01）\n\n## AI for Sec\n\n### 漏洞挖掘\n- Claude-BugHunter 爆火：82 技能的 AI 红队工具包（93.3）\n- OpenAI自主模型单次发现并修复948个Linux提权漏洞（75.15）\n- Janus：AI Agent 自动挖掘安卓应用零日漏洞（72.76）\n- OpenAI 开源 Codex Security 代码安全工具动态（69.95）\n- AI 加速漏洞挖掘引发补丁过载与系统宕机分析（69.25）\n\n### 安全Agent\n- Black Hat 2026 预告：将开源 AI 自主攻击研究系统 HTTP Terminator（87.4）\n- AI 逆向工具 REA 实测：18 分钟扒光 Electron 应用架构（81.25）\n- 阿里开源 open-code-review：融合 LLM 与确定性规则的安全代码审查 Agent（76.8）\n- WorkOS 遭遇 AI 自主渗透测试框架 ARTEX 攻击（75.25）\n- Artex等AI黑客工具降低攻击门槛，新手可一键扫描并利用漏洞（73.7）\n\n### 安全评测与Benchmark\n- 微软MAI Cyber 2 Flash在CyberGym-E2E榜单击败GPT-6（69.25）\n- 同一模型在不同提供商下的安全任务解决率差异（68.38）\n\n### AI Fuzzing\n- AI 时代仍需掌握现代 Fuzzing：LibAFL 真机复现 CVE 实践（68.81）\n\n## AI Tech 短讯\n\n## 今日论文\n\n## 今日观察\n最高分的HTTP Terminator预告值得重点跟踪，它证明AI能自主发现人类没找到过的新型HTTP走私链，这个能力一旦开源意味着攻击面会快速扩散。同时WorkOS事件是个警钟：AI渗透框架已经能自动打通内部API跳板拿到CRM数据，建议团队尽快盘点自己的API授权和横向移动路径，别等对手的Agent帮你做渗透报告。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-19 的系统入库窗口筛选，从 22 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-20T00:02:25+08:00"
+}
