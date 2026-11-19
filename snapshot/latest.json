@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T03:57:30+08:00",
+  "updated_at": "2026-11-20T05:28:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -70,6 +70,26 @@
       "sub_category_label": null
     },
     {
+      "id": 33973,
+      "title": "Agent进化评估的「分辨率假说」：为何评估瓶颈阻碍自我提升",
+      "original_title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+      "summary": "论文提出「分辨率假说」，指出 Agent 进化停滞并非无法生成更优产物，而是嘈杂的评估无法可靠识别改进。大规模实验表明，候选级别的选择不如随机，方法级别的排名多靠运气。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 70.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做自动化安全 Agent 的同学必看。如果你的 Prompt 或技能库迭代效果“时好时坏”，这篇论文指出：大概率是评估环境噪音太大盖过了真实提升，别轻信几个百分点的涨点。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.23068",
+      "reader_url": "https://arxiv.org/pdf/2611.23068",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T00:00:00",
+      "first_seen_at": "2026-11-19T21:02:33.640672",
+      "sub_category_label": "模型评测"
+    },
+    {
       "id": 33925,
       "title": "App Store合规工具走红：含117种被拒模式及AI Agent技能",
       "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 542 stars today",
@@ -112,6 +132,31 @@
       },
       "published_at": "2026-11-19T16:59:22",
       "first_seen_at": "2026-11-19T17:17:36.052817",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34152,
+      "title": "ARTEX：基于多智能体LLM的自主渗透测试系统",
+      "original_title": "🔧 ARTEX is an AI-driven autonomous penetration testing system built with Go and Next.js, using a multi-agent LLM architecture. It won the Baidu Agent + Attack-Defense Challenge. 1,",
+      "summary": "ARTEX 是一款基于 Go 和 Next.js 构建的 AI 自主渗透测试系统，采用多智能体 LLM 架构，曾获百度 Agent+攻防挑战赛冠军，GitHub 已超千星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "百度攻防赛冠军项目，用多智能体做自动化渗透，开源可复现。做安全自动化和 Agent 落地的同行重点看下它的架构设计，能直接借鉴实战分工思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DistillAI1/status/2123521748813643983",
+      "reader_url": "https://x.com/DistillAI1/status/2123521748813643983",
+      "image_url": "https://pbs.twimg.com/media/HXhDxxKbAAAXFen.jpg",
+      "author": {
+        "username": "DistillAI1",
+        "name": "Distill AI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T21:00:12",
+      "first_seen_at": "2026-11-19T21:10:49.555749",
       "sub_category_label": "安全Agent"
     },
     {
@@ -163,56 +208,6 @@
       "published_at": "2026-11-19T12:35:26",
       "first_seen_at": "2026-11-19T13:05:41.945358",
       "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 34043,
-      "title": "使用 Devin 将 libyaml 移植至安全 Rust 并配置差分 Fuzzing",
-      "original_title": "tired of LLM wrappers so i'm putting @cognition's Devin to work on actual systems grunge work: porting libyaml's stateful C token scanner (src/scanner.c) to safe Rust gated by an A",
-      "summary": "利用 Cognition Devin 将 libyaml 的 C 语言状态机扫描器移植到安全的 Rust，并在 CI 中使用 ASan + bindgen + cargo-fuzz 构建差分模糊测试 harness 进行验证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.66,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI Agent 终于开始干系统级代码重构的脏活了。做安全加固和代码移植的同学可以直接参考这个差分 Fuzzing harness 模式，用 AI 重写关键组件时拿它来兜底验证。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/johnboy232321/status/2123461198913937779",
-      "reader_url": "https://x.com/johnboy232321/status/2123461198913937779",
-      "image_url": null,
-      "author": {
-        "username": "johnboy232321",
-        "name": "John Harrison",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T16:59:36",
-      "first_seen_at": "2026-11-19T17:17:49.921269",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 33994,
-      "title": "FBI 警告开源 AI 渗透框架 ARTEX 被武器化",
-      "original_title": "1/ On November 13, 2026, the FBI published an advisory on ARTEX, an open-source, agentic AI penetration-testing framework that has been weaponised by threat actors.  It can coordin",
-      "summary": "FBI 发布通告称开源 AI 渗透测试框架 ARTEX 被威胁行为者武器化，可实现从侦察到提权的全流程自动化，并在 3 小时内获取特权访问。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.2,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 渗透 Agent 在野利用的真实案例，证实了 AI 自动化攻击的惊人效率。防御团队需据此重新评估应急响应与检测体系的速度极限。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Cloud_mavin/status/2123424342579069110",
-      "reader_url": "https://x.com/Cloud_mavin/status/2123424342579069110",
-      "image_url": null,
-      "author": {
-        "username": "Cloud_mavin",
-        "name": "Ononneobazi Aquah☁️🇳🇬",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T14:33:09",
-      "first_seen_at": "2026-11-19T14:52:23.920353",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
