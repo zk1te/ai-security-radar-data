@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T08:14:46+08:00",
+  "updated_at": "2026-11-19T08:44:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -25,6 +25,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 33562,
+      "title": "阿里开源 open-code-review：融合 LLM 与确定性规则的安全代码审查 Agent",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+      "summary": "阿里开源的 open-code-review 采用确定性管道与 LLM Agent 混合架构，提供精准的行级代码审查，内置 NPE、XSS、SQL注入等多语言安全规则集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "关注混合架构在代码审计中的落地效果，适合准备引入 AI 辅助代码审计的安全团队参考和二次开发。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-19&since=weekly",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-19&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T13:43:50",
+      "first_seen_at": "2026-11-19T00:39:20.608067",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 33541,
       "title": "WorkOS 遭遇 AI 自主渗透测试框架 ARTEX 攻击",
       "original_title": "HN Hot Discussion: WorkOS reports security breach",
@@ -47,31 +67,6 @@
       "published_at": "2026-11-02T23:30:59",
       "first_seen_at": "2026-11-19T00:11:09.793941",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33273,
-      "title": "48小时网安事件汇总：GPT-6 Cyber挖洞、ARTEX滥用与AI框架投毒",
-      "original_title": "The amount of cybersecurity incidents, system failures, and critical vulnerabilities reported over the last 48 hours is getting ridiculous.  We're talking about major technology co",
-      "summary": "汇总了过去48小时内的重要安全事件，其中包括使用OpenAI GPT-6 Cyber发现Apple 35个漏洞、FBI警告ARTEX AI渗透工具被攻击者滥用、以及Microsoft AI Agent Framework在PyPI遭遇恶意投毒。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "vuln_discovery",
-      "score_total": 73.95,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队需高度关注：AI不仅在用于漏洞挖掘，其自动化渗透能力也正被攻击者武器化，防守方必须跟进AI攻防节奏。同时务必排查自身AI开发供应链中的恶意依赖包。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/OrderBookShow/status/2123023770797383833",
-      "reader_url": "https://x.com/OrderBookShow/status/2123023770797383833",
-      "image_url": "https://pbs.twimg.com/media/HXZ-1vFWAAEAEq0.jpg",
-      "author": {
-        "username": "OrderBookShow",
-        "name": "The Order Book",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-18T12:01:25",
-      "first_seen_at": "2026-11-18T12:29:56.623425",
-      "sub_category_label": null
     },
     {
       "id": 33372,
@@ -117,6 +112,26 @@
       "published_at": "2026-11-18T19:49:04",
       "first_seen_at": "2026-11-18T19:57:01.007830",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 33565,
+      "title": "NVIDIA开源Agent技能与插件评估框架SkillEvaluator",
+      "original_title": "GitHub Trending: NVIDIA/SkillEvaluator gained 312 stars today",
+      "summary": "NVIDIA开源SkillEvaluator框架，提供质量门控与实时行为评估，用于检测AI Agent技能和插件的安全影响。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 71.6,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Agent插件与技能是供应链攻击的潜在入口。安全团队可参考其质量门控与行为评测机制，用于内部Agent的安全准入与评估。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
+      "reader_url": "https://github.com/NVIDIA/SkillEvaluator?github_trending_date=2026-11-19&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T21:04:10",
+      "first_seen_at": "2026-11-19T00:39:42.729627",
+      "sub_category_label": null
     },
     {
       "id": 33550,
@@ -192,31 +207,6 @@
       "published_at": "2026-11-18T12:33:24",
       "first_seen_at": "2026-11-18T13:06:43.819746",
       "sub_category_label": null
-    },
-    {
-      "id": 33331,
-      "title": "Pentest Agent Suite 开源 AI 渗透测试框架发布",
-      "original_title": "🛡️ PENTEST AGENT SUITE — AI-POWERED SECURITY TESTING  Pentest Agent Suite is an open-source AI framework for authorized penetration testing and vulnerability research. Featuring 50",
-      "summary": "Pentest Agent Suite 是一个开源 AI 安全测试框架，包含 50 个专用 Agent 及多个命令和 CLI 工具，支持自动化侦察、漏洞验证和报告，兼容主流 AI 编程助手。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.02,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这工具集成了 50 个安全 Agent 并兼容 Claude Code 等主流编程助手，适合做自动化渗透的同行拿来拆解和改造成自己的流水线。可以直接去 GitHub 看看它的 Agent 设计和 MCP 服务器实现。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Anastasis_King/status/2123069138075558222",
-      "reader_url": "https://x.com/Anastasis_King/status/2123069138075558222",
-      "image_url": "https://pbs.twimg.com/media/HXaoIEnWYAA-DBO.jpg",
-      "author": {
-        "username": "Anastasis_King",
-        "name": "Cyberkid",
-        "avatar_url": null,
-        "followers_count": 11667
-      },
-      "published_at": "2026-11-18T15:01:41",
-      "first_seen_at": "2026-11-18T15:26:43.564592",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
