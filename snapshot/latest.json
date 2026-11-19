@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T09:14:55+08:00",
+  "updated_at": "2026-11-19T10:45:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -67,6 +67,31 @@
       "published_at": "2026-11-02T23:30:59",
       "first_seen_at": "2026-11-19T00:11:09.793941",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33643,
+      "title": "OpenAI自主模型单次发现并修复948个Linux提权漏洞",
+      "original_title": "A thousand fewer paths to root - @OpenAI  OpenAI's autonomous cyber model discovered, validated, and patched 948 Linux privilege escalation vulnerabilities in a single run, costing",
+      "summary": "OpenAI的自主网络模型在一次运行中发现、验证并修复了948个Linux提权漏洞，耗资120万美元API费用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 75.15,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这是AI自主漏洞挖掘能力的重磅展示，直接证明了LLM在大规模漏洞发现与修复上的实战潜力。安全团队需密切关注此类Agent对传统代码审计流程的颠覆性影响。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2123176925011091946",
+      "reader_url": "https://x.com/pentest_swissky/status/2123176925011091946",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-11-18T22:10:00",
+      "first_seen_at": "2026-11-19T02:31:05.181543",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 33372,
@@ -181,31 +206,6 @@
       },
       "published_at": "2026-11-18T20:58:11",
       "first_seen_at": "2026-11-18T21:07:12.442379",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33331,
-      "title": "Pentest Agent Suite 开源 AI 渗透测试框架发布",
-      "original_title": "🛡️ PENTEST AGENT SUITE — AI-POWERED SECURITY TESTING  Pentest Agent Suite is an open-source AI framework for authorized penetration testing and vulnerability research. Featuring 50",
-      "summary": "Pentest Agent Suite 是一个开源 AI 安全测试框架，包含 50 个专用 Agent 及多个命令和 CLI 工具，支持自动化侦察、漏洞验证和报告，兼容主流 AI 编程助手。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.02,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这工具集成了 50 个安全 Agent 并兼容 Claude Code 等主流编程助手，适合做自动化渗透的同行拿来拆解和改造成自己的流水线。可以直接去 GitHub 看看它的 Agent 设计和 MCP 服务器实现。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Anastasis_King/status/2123069138075558222",
-      "reader_url": "https://x.com/Anastasis_King/status/2123069138075558222",
-      "image_url": "https://pbs.twimg.com/media/HXaoIEnWYAA-DBO.jpg",
-      "author": {
-        "username": "Anastasis_King",
-        "name": "Cyberkid",
-        "avatar_url": null,
-        "followers_count": 11667
-      },
-      "published_at": "2026-11-18T15:01:41",
-      "first_seen_at": "2026-11-18T15:26:43.564592",
       "sub_category_label": "安全Agent"
     }
   ]
