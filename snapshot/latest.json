@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T09:38:01+08:00",
+  "updated_at": "2026-11-20T10:41:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -159,6 +159,31 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 34269,
+      "title": "AI 扫描掀翻十年老 Bug：五家团队同时撞车底层漏洞",
+      "original_title": "五家团队同时撞车 把这起事件和过去三十天的几场风波摆在一起，比单看这两段 C 代码更有意思。10 月 21 日 PHP2Shell 爆出，栽在 PHP 请求启动与 memory_limit 触发 setjmp/longjmp 异常撤离时跳过清场，留下半成品哈希表。11 月 17 日 Java4Shell 披露，HotSpot 底层的 AVX-512 汇编内联",
+      "summary": "五家团队同时利用 AI 代码扫描工具发现 NGINX、PHP、Java 底层潜伏多年的内存安全漏洞，表明 AI 跨函数追踪深水逻辑的漏洞挖掘范式已规模化成熟。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 扫描框架规模化复现了人肉审计极难触及的深水逻辑漏洞。安全团队需立即评估自身基础设施受影响面，并将 AI 代码扫描纳入日常审计流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/zzz6519003/status/2123598587263369375",
+      "reader_url": "https://x.com/zzz6519003/status/2123598587263369375",
+      "image_url": "https://pbs.twimg.com/media/HXiJo5CbUAAc0la.jpg",
+      "author": {
+        "username": "zzz6519003",
+        "name": "Snowmanzzz.html (寻170cm女生)",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T02:05:32",
+      "first_seen_at": "2026-11-20T02:21:16.268976",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 34152,
       "title": "ARTEX：基于多智能体LLM的自主渗透测试系统",
       "original_title": "🔧 ARTEX is an AI-driven autonomous penetration testing system built with Go and Next.js, using a multi-agent LLM architecture. It won the Baidu Agent + Attack-Defense Challenge. 1,",
@@ -182,31 +207,6 @@
       "published_at": "2026-11-19T21:00:12",
       "first_seen_at": "2026-11-19T21:10:49.555749",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 34004,
-      "title": "微软MAI Cyber 2 Flash在CyberGym-E2E榜单击败GPT-6",
-      "original_title": "Always-on security agents only work if they're cheap.  Microsoft says MAI Cyber 2 Flash beats GPT-6 Astra on CyberGym-E2E, 92.3% to 91.5%, at less than 2% of the cost per task. Tha",
-      "summary": "微软 MAI Cyber 2 Flash 在 CyberGym-E2E 评测中以 92.3% 胜率击败 GPT-6 Astra，且单任务成本不到 2%，即将独家集成至微软安全产品。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "常驻安全 Agent 落地的关键不是极高精度而是性价比。团队在设计 Agent 评测时应关注单任务成本，并警惕厂商自建榜单排除训练数据重叠任务带来的水分。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/anilpervaiz/status/2123437828709163504",
-      "reader_url": "https://x.com/anilpervaiz/status/2123437828709163504",
-      "image_url": null,
-      "author": {
-        "username": "anilpervaiz",
-        "name": "Anil Pervaiz",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T15:26:44",
-      "first_seen_at": "2026-11-19T15:31:27.403214",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
