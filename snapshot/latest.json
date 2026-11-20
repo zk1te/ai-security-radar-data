@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T08:28:41+08:00",
+  "updated_at": "2026-11-20T09:38:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -23,26 +23,6 @@
       "published_at": "2026-11-19T13:21:35",
       "first_seen_at": "2026-11-20T00:02:29.218624",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33946,
-      "title": "Claude-BugHunter 爆火：82 技能的 AI 红队工具包",
-      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1353 stars today",
-      "summary": "GitHub 项目 Claude-BugHunter 获得大量关注，该工具包基于 Claude Code，包含 82 个技能和 15 个命令，覆盖 24 种核心漏洞类，用于外部红队和漏洞挖掘。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 93.3,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "红队和漏洞挖掘人员该看。它展示了如何用大模型 skill 组织安全工作流，可借鉴其 681 个报告模式和攻击矩阵，快速搭建自己的 AI 安全 Copilot。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-19&since=daily",
-      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-19&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-19T13:16:21.880651",
-      "first_seen_at": "2026-11-19T13:16:39.709005",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 34213,
@@ -202,6 +182,31 @@
       "published_at": "2026-11-19T21:00:12",
       "first_seen_at": "2026-11-19T21:10:49.555749",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34004,
+      "title": "微软MAI Cyber 2 Flash在CyberGym-E2E榜单击败GPT-6",
+      "original_title": "Always-on security agents only work if they're cheap.  Microsoft says MAI Cyber 2 Flash beats GPT-6 Astra on CyberGym-E2E, 92.3% to 91.5%, at less than 2% of the cost per task. Tha",
+      "summary": "微软 MAI Cyber 2 Flash 在 CyberGym-E2E 评测中以 92.3% 胜率击败 GPT-6 Astra，且单任务成本不到 2%，即将独家集成至微软安全产品。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "常驻安全 Agent 落地的关键不是极高精度而是性价比。团队在设计 Agent 评测时应关注单任务成本，并警惕厂商自建榜单排除训练数据重叠任务带来的水分。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/anilpervaiz/status/2123437828709163504",
+      "reader_url": "https://x.com/anilpervaiz/status/2123437828709163504",
+      "image_url": null,
+      "author": {
+        "username": "anilpervaiz",
+        "name": "Anil Pervaiz",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T15:26:44",
+      "first_seen_at": "2026-11-19T15:31:27.403214",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
