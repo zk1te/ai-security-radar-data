@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T14:42:19+08:00",
+  "updated_at": "2026-11-20T15:12:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -89,6 +89,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 34336,
+      "title": "代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索",
+      "original_title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
+      "summary": "论文构建了更真实的仓库级代码搜索基准 Repo-Premium，发现现有基准高估了向量检索的优势。利用 LLM 生成代码标识符辅助 grep，能让 BM25 匹敌甚至超越向量检索。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 74.2,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘或代码审计 Agent 的必看，别盲目迷信向量数据库。试试让 LLM 先生成关键标识符再用 grep，往往效果更好且成本更低。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.20455",
+      "reader_url": "https://arxiv.org/pdf/2611.20455",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T00:00:00",
+      "first_seen_at": "2026-11-20T06:44:30.518120",
+      "sub_category_label": "模型评测"
+    },
+    {
       "id": 34122,
       "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
       "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
@@ -154,6 +174,26 @@
       "sub_category_label": "模型评测"
     },
     {
+      "id": 34339,
+      "title": "CompoundingKernel：从零自改进的GPU内核搜索Agent系统",
+      "original_title": "CompoundingKernel: Self-Improving from Zero to First",
+      "summary": "提出一种通过搜索编写 GPU 内核的自改进 Agent 系统，采用「LLM 控制器+外置存档+外部校验」架构，在 SOL-ExecBench 基准测试中取得第一名且代码已开源。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 70.2,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘 Agent 的人该看这文：它的「外置存档+外部校验+多智能体并行搜索」架构正好能解决 Fuzzing Agent 扩缩容瓶颈。把变异和正确性判断移出模型上下文，是跑大规模安全自动化任务的关键解法。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.19230",
+      "reader_url": "https://arxiv.org/pdf/2611.19230",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T00:00:00",
+      "first_seen_at": "2026-11-20T06:44:51.821439",
+      "sub_category_label": "Agent 架构"
+    },
+    {
       "id": 34278,
       "title": "OpenAI 发布「Daybreak Red」监督式安全调查参考架构",
       "original_title": "Deploying Daybreak Red",
@@ -172,56 +212,6 @@
       "published_at": "2026-11-19T00:00:00",
       "first_seen_at": "2026-11-20T03:16:06.201339",
       "sub_category_label": null
-    },
-    {
-      "id": 34269,
-      "title": "AI 扫描掀翻十年老 Bug：五家团队同时撞车底层漏洞",
-      "original_title": "五家团队同时撞车 把这起事件和过去三十天的几场风波摆在一起，比单看这两段 C 代码更有意思。10 月 21 日 PHP2Shell 爆出，栽在 PHP 请求启动与 memory_limit 触发 setjmp/longjmp 异常撤离时跳过清场，留下半成品哈希表。11 月 17 日 Java4Shell 披露，HotSpot 底层的 AVX-512 汇编内联",
-      "summary": "五家团队同时利用 AI 代码扫描工具发现 NGINX、PHP、Java 底层潜伏多年的内存安全漏洞，表明 AI 跨函数追踪深水逻辑的漏洞挖掘范式已规模化成熟。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 扫描框架规模化复现了人肉审计极难触及的深水逻辑漏洞。安全团队需立即评估自身基础设施受影响面，并将 AI 代码扫描纳入日常审计流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/zzz6519003/status/2123598587263369375",
-      "reader_url": "https://x.com/zzz6519003/status/2123598587263369375",
-      "image_url": "https://pbs.twimg.com/media/HXiJo5CbUAAc0la.jpg",
-      "author": {
-        "username": "zzz6519003",
-        "name": "Snowmanzzz.html (寻170cm女生)",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T02:05:32",
-      "first_seen_at": "2026-11-20T02:21:16.268976",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 34152,
-      "title": "ARTEX：基于多智能体LLM的自主渗透测试系统",
-      "original_title": "🔧 ARTEX is an AI-driven autonomous penetration testing system built with Go and Next.js, using a multi-agent LLM architecture. It won the Baidu Agent + Attack-Defense Challenge. 1,",
-      "summary": "ARTEX 是一款基于 Go 和 Next.js 构建的 AI 自主渗透测试系统，采用多智能体 LLM 架构，曾获百度 Agent+攻防挑战赛冠军，GitHub 已超千星。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "百度攻防赛冠军项目，用多智能体做自动化渗透，开源可复现。做安全自动化和 Agent 落地的同行重点看下它的架构设计，能直接借鉴实战分工思路。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DistillAI1/status/2123521748813643983",
-      "reader_url": "https://x.com/DistillAI1/status/2123521748813643983",
-      "image_url": "https://pbs.twimg.com/media/HXhDxxKbAAAXFen.jpg",
-      "author": {
-        "username": "DistillAI1",
-        "name": "Distill AI",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T21:00:12",
-      "first_seen_at": "2026-11-19T21:10:49.555749",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
