@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T02:46:09+08:00",
+  "updated_at": "2026-11-21T03:16:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 5,
@@ -45,6 +45,31 @@
       "sub_category_label": "威胁检测"
     },
     {
+      "id": 34735,
+      "title": "Cairn：自主渗透测试 AI 搜索引擎斩获腾讯云挑战赛满分",
+      "original_title": "🚨 Cairn: a general-purpose AI state-space search engine first validated on autonomous penetration testing  GitHub: https://t.co/HH01ZEYXEq  Cairn does not rely on fixed agent roles",
+      "summary": "Cairn 是一款通用 AI 状态空间搜索引擎，通过多 Agent 共享图进行自主渗透测试，在腾讯云 AI 渗透挑战赛中取得 54/54 的满分成绩。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.47,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队和自动化安全开发者必看。多 Agent 动态探索加共享图推理的架构思路非常值得借鉴，直接开源可复现，是构建自动化渗透和 CTF Agent 的优质参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
+      "reader_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
+      "image_url": "https://pbs.twimg.com/media/HXlq0nGXkAAZgBA.jpg",
+      "author": {
+        "username": "DarkWebInformer",
+        "name": "Dark Web Informer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T18:29:49",
+      "first_seen_at": "2026-11-20T19:00:05.264181",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 34398,
       "title": "基于大模型的Reddit数字隐私与安全求助行为分析",
       "original_title": "Understanding Help Seeking for Digital Privacy, Safety, and Security on Reddit",
@@ -83,26 +108,6 @@
       "published_at": "2026-11-20T05:00:00",
       "first_seen_at": "2026-11-20T11:15:56.413705",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 34598,
-      "title": "科学计算代码生成的 Agent 评测：测试覆盖与自验证成主要瓶颈",
-      "original_title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
-      "summary": "该研究扩展了 FEM-Bench 有限元分析基准，评估 15 个模型在代码和测试生成上的表现。发现引入 Agent 执行虽能解决部分难题，但测试覆盖不足和测试与实现共享错误导致自验证失效；采用独立 coder/tester 双 Agent 架构可显著提升一致性。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 71.45,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全代码生成或自动化漏洞验证 Agent 的必看。文章揭示的「Agent 自检测试与实现共享错误」陷阱，正是你用 Agent 写 PoC 或 Fuzzing harness 时会踩的坑，建议引入独立 tester Agent 做交叉验证。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.21176",
-      "reader_url": "https://arxiv.org/pdf/2611.21176",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-20T05:00:00",
-      "first_seen_at": "2026-11-20T11:15:26.399259",
-      "sub_category_label": "模型评测"
     }
   ]
 }
