@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T11:41:43+08:00",
+  "updated_at": "2026-11-20T13:41:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -134,31 +134,6 @@
       "sub_category_label": "模型评测"
     },
     {
-      "id": 34042,
-      "title": "Agentic AI 渗透测试：AigentX 一小时内验证 PHP 漏洞利用",
-      "original_title": "Agentic AI Penetration Testing: A critical PHP flaw was disclosed. Within an hour, AigentX verified the exploit and the fix www.​komodosec.​com/post/agentic-ai-penetration-testing-",
-      "summary": "展示了 Agentic AI 在渗透测试中的实际应用，AigentX 在一个关键 PHP 漏洞披露后一小时内完成了漏洞利用和修复方案的验证。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队应关注此案例，它展示了 Agent 如何将漏洞验证从数小时压缩到一小时以内，是评估自动化安全运营落地效果的绝佳参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Komodosec/status/2123461138251936086",
-      "reader_url": "https://x.com/Komodosec/status/2123461138251936086",
-      "image_url": "https://pbs.twimg.com/media/HXgMpwJaYAA-Yja.jpg",
-      "author": {
-        "username": "Komodosec",
-        "name": "Komodo Cyber Security",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T16:59:22",
-      "first_seen_at": "2026-11-19T17:17:36.052817",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 34278,
       "title": "OpenAI 发布「Daybreak Red」监督式安全调查参考架构",
       "original_title": "Deploying Daybreak Red",
@@ -226,6 +201,31 @@
       },
       "published_at": "2026-11-19T21:00:12",
       "first_seen_at": "2026-11-19T21:10:49.555749",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34256,
+      "title": "AWS Continuum 渗透测试 Agent 支持任务暂停与恢复",
+      "original_title": "AWS Continuum がペネトレーション テストで一時停止と再開をサポートするようになった  AWS Continuum for Penetration Testing（旧称：AWS Security Agent）では、実行中のペネトレーションテストジョブを一時停止し、後で最後に保存されたチェックポイントから再開できるようになりました。Continuu",
+      "summary": "AWS Continuum for Penetration Testing 新增暂停和恢复功能，允许任务中断后从检查点继续，保留已有发现并支持更换凭证或调整配置。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "使用 AI 渗透测试 Agent 的安全团队必看，任务中断后无需重头再来，省时省力。建议检查 API 集成和工作流，利用 7 天恢复窗口灵活安排测试。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/awswhatsnew_jp/status/2123584823579304210",
+      "reader_url": "https://x.com/awswhatsnew_jp/status/2123584823579304210",
+      "image_url": null,
+      "author": {
+        "username": "awswhatsnew_jp",
+        "name": "What's New on AWS (非公式)",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T01:10:50",
+      "first_seen_at": "2026-11-20T01:46:07.913451",
       "sub_category_label": "安全Agent"
     }
   ]
