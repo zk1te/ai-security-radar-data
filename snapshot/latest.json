@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T20:45:22+08:00",
+  "updated_at": "2026-11-21T02:46:09+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 5,
@@ -25,26 +25,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 34322,
-      "title": "WeVisForensics：自我进化多Agent框架用于AI生成视频检测",
-      "original_title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
-      "summary": "本文提出WeVisForensics框架，通过主Agent协调多个自我进化的取证子Agent检测AI生成视频，利用双时间尺度策略优化提升检测准确率，并构建ForenCue-30K数据集进行评估。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "deepfake_detection",
-      "score_total": 87.5,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.21373",
-      "reader_url": "https://arxiv.org/pdf/2611.21373",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-20T00:00:00",
-      "first_seen_at": "2026-11-20T06:42:04.459776",
-      "sub_category_label": null
-    },
-    {
       "id": 34397,
       "title": "基于 LLM 的 IoT 威胁检测与防御框架",
       "original_title": "LLM-Based Threat Detection and Prevention Framework for IoT Ecosystems",
@@ -65,26 +45,6 @@
       "sub_category_label": "威胁检测"
     },
     {
-      "id": 34336,
-      "title": "代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索",
-      "original_title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
-      "summary": "论文构建了更真实的仓库级代码搜索基准 Repo-Premium，发现现有基准高估了向量检索的优势。利用 LLM 生成代码标识符辅助 grep，能让 BM25 匹敌甚至超越向量检索。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 74.2,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做漏洞挖掘或代码审计 Agent 的必看，别盲目迷信向量数据库。试试让 LLM 先生成关键标识符再用 grep，往往效果更好且成本更低。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.20455",
-      "reader_url": "https://arxiv.org/pdf/2611.20455",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-20T00:00:00",
-      "first_seen_at": "2026-11-20T06:44:30.518120",
-      "sub_category_label": "模型评测"
-    },
-    {
       "id": 34398,
       "title": "基于大模型的Reddit数字隐私与安全求助行为分析",
       "original_title": "Understanding Help Seeking for Digital Privacy, Safety, and Security on Reddit",
@@ -103,6 +63,46 @@
       "published_at": "2026-11-20T05:00:00",
       "first_seen_at": "2026-11-20T09:47:56.793338",
       "sub_category_label": null
+    },
+    {
+      "id": 34600,
+      "title": "Accord：用LLM辅助构建C库机器检查保证案例的框架",
+      "original_title": "Function Contracts and Beyond: Machine-Checked Assurance Cases for Conformance of C Libraries to Their Requirements",
+      "summary": "本文提出 Accord 框架，利用 LLM 辅助构建机器检查的保证案例，验证 C 代码库的内存安全与功能正确性，在包括工业密码模块在内的多个基准中成功验证了 259 个函数定义。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 72.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "用 LLM 自动化定理证明和形式化验证是 AI 辅助代码审计的前沿方向。做代码安全和二进制审计的团队可关注其如何将 LLM 与 VST/Rocq 结合，这为大规模代码安全验证提供了新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.40119",
+      "reader_url": "https://arxiv.org/pdf/2609.40119",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T11:15:56.413705",
+      "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 34598,
+      "title": "科学计算代码生成的 Agent 评测：测试覆盖与自验证成主要瓶颈",
+      "original_title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
+      "summary": "该研究扩展了 FEM-Bench 有限元分析基准，评估 15 个模型在代码和测试生成上的表现。发现引入 Agent 执行虽能解决部分难题，但测试覆盖不足和测试与实现共享错误导致自验证失效；采用独立 coder/tester 双 Agent 架构可显著提升一致性。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 71.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全代码生成或自动化漏洞验证 Agent 的必看。文章揭示的「Agent 自检测试与实现共享错误」陷阱，正是你用 Agent 写 PoC 或 Fuzzing harness 时会踩的坑，建议引入独立 tester Agent 做交叉验证。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21176",
+      "reader_url": "https://arxiv.org/pdf/2611.21176",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T11:15:26.399259",
+      "sub_category_label": "模型评测"
     }
   ]
 }
