@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T13:41:55+08:00",
+  "updated_at": "2026-11-20T14:42:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -23,6 +23,26 @@
       "published_at": "2026-11-19T13:21:35",
       "first_seen_at": "2026-11-20T00:02:29.218624",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34322,
+      "title": "WeVisForensics：自我进化多Agent框架用于AI生成视频检测",
+      "original_title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "summary": "本文提出WeVisForensics框架，通过主Agent协调多个自我进化的取证子Agent检测AI生成视频，利用双时间尺度策略优化提升检测准确率，并构建ForenCue-30K数据集进行评估。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "deepfake_detection",
+      "score_total": 87.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.21373",
+      "reader_url": "https://arxiv.org/pdf/2611.21373",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T00:00:00",
+      "first_seen_at": "2026-11-20T06:42:04.459776",
+      "sub_category_label": null
     },
     {
       "id": 34213,
@@ -201,31 +221,6 @@
       },
       "published_at": "2026-11-19T21:00:12",
       "first_seen_at": "2026-11-19T21:10:49.555749",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 34256,
-      "title": "AWS Continuum 渗透测试 Agent 支持任务暂停与恢复",
-      "original_title": "AWS Continuum がペネトレーション テストで一時停止と再開をサポートするようになった  AWS Continuum for Penetration Testing（旧称：AWS Security Agent）では、実行中のペネトレーションテストジョブを一時停止し、後で最後に保存されたチェックポイントから再開できるようになりました。Continuu",
-      "summary": "AWS Continuum for Penetration Testing 新增暂停和恢复功能，允许任务中断后从检查点继续，保留已有发现并支持更换凭证或调整配置。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "使用 AI 渗透测试 Agent 的安全团队必看，任务中断后无需重头再来，省时省力。建议检查 API 集成和工作流，利用 7 天恢复窗口灵活安排测试。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/awswhatsnew_jp/status/2123584823579304210",
-      "reader_url": "https://x.com/awswhatsnew_jp/status/2123584823579304210",
-      "image_url": null,
-      "author": {
-        "username": "awswhatsnew_jp",
-        "name": "What's New on AWS (非公式)",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T01:10:50",
-      "first_seen_at": "2026-11-20T01:46:07.913451",
       "sub_category_label": "安全Agent"
     }
   ]
