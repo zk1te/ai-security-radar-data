@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-20T10:41:30+08:00",
+  "updated_at": "2026-11-20T11:41:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 34199,
@@ -157,6 +157,26 @@
       "published_at": "2026-11-19T16:59:22",
       "first_seen_at": "2026-11-19T17:17:36.052817",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34278,
+      "title": "OpenAI 发布「Daybreak Red」监督式安全调查参考架构",
+      "original_title": "Deploying Daybreak Red",
+      "summary": "OpenAI 介绍了 Daybreak Red 参考架构，用于执行监督式安全调查，涵盖安全控制措施、环境设置与监控。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 69.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "官方提供的安全调查参考架构对设计安全Agent和制定监控策略有直接参考价值。做AI安全运营的团队可以看看如何落地安全控制边界。",
+      "source_id": "openai-news",
+      "canonical_url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "reader_url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T00:00:00",
+      "first_seen_at": "2026-11-20T03:16:06.201339",
+      "sub_category_label": null
     },
     {
       "id": 34269,
