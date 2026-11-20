@@ -1,0 +1,1518 @@
+{
+  "date": "2026-11-20",
+  "candidate_count": 24,
+  "selected_count": 3,
+  "cover_title": "ScenarioForge：利用大模型自动生成并验证网络靶场场景",
+  "lead_takeaway": "今天的高分动态主线非常清晰：大模型正从单点检测加速向安全运营全流程的自动化落地演进。无论是自动生成靶场场景、多Agent协同做深伪检测，还是在IoT场景里直接联动防御响应，大家都在拼谁能用AI把重活累活真正接管下来。",
+  "digest_points": [
+    "01 对于需要搭建内部攻防训练环境的团队来说，这套自动化场景生成与验证流水线能极大降低靶场运维成本。其中基于 Vulhub 镜像的自动化拓扑构建与 Flag 校验逻辑值得直接借鉴。",
+    "02 深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。",
+    "03 本文探索了将 LLM 从单纯检测扩展到主动防御响应。对从事 IoT 安全或想了解 LLM 在安全自动化编排中应用的研究人员有参考价值，可借鉴其「检测+缓解」双组件架构思路。"
+  ],
+  "judgement": [
+    "01 对于需要搭建内部攻防训练环境的团队来说，这套自动化场景生成与验证流水线能极大降低靶场运维成本。其中基于 Vulhub 镜像的自动化拓扑构建与 Flag 校验逻辑值得直接借鉴。",
+    "02 深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。",
+    "03 本文探索了将 LLM 从单纯检测扩展到主动防御响应。对从事 IoT 安全或想了解 LLM 在安全自动化编排中应用的研究人员有参考价值，可借鉴其「检测+缓解」双组件架构思路。"
+  ],
+  "top_items": [
+    {
+      "id": 34410,
+      "title": "ScenarioForge：利用大模型自动生成并验证网络靶场场景",
+      "original_title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+      "summary": "该框架将高级需求转化为可部署的靶场拓扑与挑战链，并在 CORE 模拟器中自动化验证，成功生成 226 个网络攻防场景。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 89.6,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "对于需要搭建内部攻防训练环境的团队来说，这套自动化场景生成与验证流水线能极大降低靶场运维成本。其中基于 Vulhub 镜像的自动化拓扑构建与 Flag 校验逻辑值得直接借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21579",
+      "reader_url": "https://arxiv.org/pdf/2611.21579",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T10:01:24.150277",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 34322,
+      "title": "WeVisForensics：自我进化多Agent框架用于AI生成视频检测",
+      "original_title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "summary": "本文提出WeVisForensics框架，通过主Agent协调多个自我进化的取证子Agent检测AI生成视频，利用双时间尺度策略优化提升检测准确率，并构建ForenCue-30K数据集进行评估。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "deepfake_detection",
+      "score_total": 87.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.21373",
+      "reader_url": "https://arxiv.org/pdf/2611.21373",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T00:00:00",
+      "first_seen_at": "2026-11-20T06:42:04.459776",
+      "sub_category_label": null
+    },
+    {
+      "id": 34397,
+      "title": "基于 LLM 的 IoT 威胁检测与防御框架",
+      "original_title": "LLM-Based Threat Detection and Prevention Framework for IoT Ecosystems",
+      "summary": "本文提出一种基于 LLM 的 IoT 威胁检测与防御框架，利用微调 BERT Small 模型进行网络异常检测，并结合 LLM 生成自适应威胁缓解策略，在边缘云环境中测试检测准确率达 99.75%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 78.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "本文探索了将 LLM 从单纯检测扩展到主动防御响应。对从事 IoT 安全或想了解 LLM 在安全自动化编排中应用的研究人员有参考价值，可借鉴其「检测+缓解」双组件架构思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2505.00240",
+      "reader_url": "https://arxiv.org/pdf/2505.00240",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T09:47:47.940647",
+      "sub_category_label": "威胁检测"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 34213,
+      "title": "WorkOS 报告数据泄露，攻击疑由 AI 渗透框架发起",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 报告称其检测到异常流量，调查显示攻击者疑似使用名为 ARTEX 的 AI 自主渗透测试框架访问了其内部 API，并窃取了 Salesforce 和 Snowflake 中的 CRM 及客户支持数据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "攻击者疑似在野使用 AI 渗透框架（ARTEX）实施入侵，标志着自动化攻击工具正式进入实战阶段。安全团队需高度警惕针对企业内部 API 的高频自动化探测，并评估现有防御策略能否有效拦截 AI 驱动的攻击链。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-20",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-20",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-20T00:15:03.660328",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34336,
+      "title": "代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索",
+      "original_title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
+      "summary": "论文构建了更真实的仓库级代码搜索基准 Repo-Premium，发现现有基准高估了向量检索的优势。利用 LLM 生成代码标识符辅助 grep，能让 BM25 匹敌甚至超越向量检索。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 74.2,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘或代码审计 Agent 的必看，别盲目迷信向量数据库。试试让 LLM 先生成关键标识符再用 grep，往往效果更好且成本更低。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.20455",
+      "reader_url": "https://arxiv.org/pdf/2611.20455",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T00:00:00",
+      "first_seen_at": "2026-11-20T06:44:30.518120",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 34122,
+      "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
+      "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
+      "summary": "11月17日，微软官方 PyPI 包 agent-framework 两个版本被植入恶意 .pth 文件，存活55分钟，每次启动 Python 自动窃取云与开发者密钥。Wiz 发现攻击者使用了基于 GLM 模型的开源 AI 渗透框架 Cairn。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "ai_supply_chain",
+      "score_total": 73.19,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI Agent 已开始直接攻击构建 AI 的工具链，安全团队须立刻排查是否拉取过 1.26.1/1.26.2 版本，若有则全面轮换云和开发凭据；同时这也暴露出大模型在自动化攻击链中的实战潜力，防守方需高度警惕。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/whyNexqor/status/2123494095368941709",
+      "reader_url": "https://x.com/whyNexqor/status/2123494095368941709",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123493636365000704/img/tyFr1suSQ5J03ipC.jpg",
+      "author": {
+        "username": "whyNexqor",
+        "name": "Nexqor",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T19:10:19",
+      "first_seen_at": "2026-11-19T19:33:58.672266",
+      "sub_category_label": null
+    },
+    {
+      "id": 34116,
+      "title": "DeepSeek Harness 架构解析：Agent 安全边界与执行环境",
+      "original_title": "DeepSeek Harness 实战与架构解析：让 Agent 从“会聊”到“能交付”",
+      "summary": "本文详细拆解了 DeepSeek 推出的 Agent 运行环境 DSH 的六层架构，探讨了其沙箱审批机制、Super-agent 原型的 Router/Worker 分工及端云协同设计，并给出了实战应用路径。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security | agent_architecture",
+      "score_total": 72.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做安全 Agent 的人最头疼沙箱边界和长任务失控。DSH 提供了可组合的权限预设、独立巡检和端云协同方案，值得做自动化安全任务落地时参考，尤其注意别在陌生仓库关审批。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7708058421904392242",
+      "reader_url": "https://juejin.cn/post/7708058421904392242",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-15T14:14:07",
+      "first_seen_at": "2026-11-19T19:22:29.953141",
+      "sub_category_label": null
+    },
+    {
+      "id": 34398,
+      "title": "基于大模型的Reddit数字隐私与安全求助行为分析",
+      "original_title": "Understanding Help Seeking for Digital Privacy, Safety, and Security on Reddit",
+      "summary": "该研究利用大模型分析了Reddit过去五年超20亿条帖子，识别出400万条隐私与安全求助贴并自动标注主题，为优化安全支持资源提供参考。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_data_analysis",
+      "score_total": 72.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该研究展示了如何用LLM处理海量非结构化的安全数据，安全团队可借鉴此方法挖掘开源情报，发现用户真实痛点与常见威胁，从而优化安全资源与防御策略。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2601.11398",
+      "reader_url": "https://arxiv.org/pdf/2601.11398",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T09:47:56.793338",
+      "sub_category_label": null
+    },
+    {
+      "id": 34600,
+      "title": "Accord：用LLM辅助构建C库机器检查保证案例的框架",
+      "original_title": "Function Contracts and Beyond: Machine-Checked Assurance Cases for Conformance of C Libraries to Their Requirements",
+      "summary": "本文提出 Accord 框架，利用 LLM 辅助构建机器检查的保证案例，验证 C 代码库的内存安全与功能正确性，在包括工业密码模块在内的多个基准中成功验证了 259 个函数定义。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 72.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "用 LLM 自动化定理证明和形式化验证是 AI 辅助代码审计的前沿方向。做代码安全和二进制审计的团队可关注其如何将 LLM 与 VST/Rocq 结合，这为大规模代码安全验证提供了新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.40119",
+      "reader_url": "https://arxiv.org/pdf/2609.40119",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T11:15:56.413705",
+      "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 34598,
+      "title": "科学计算代码生成的 Agent 评测：测试覆盖与自验证成主要瓶颈",
+      "original_title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
+      "summary": "该研究扩展了 FEM-Bench 有限元分析基准，评估 15 个模型在代码和测试生成上的表现。发现引入 Agent 执行虽能解决部分难题，但测试覆盖不足和测试与实现共享错误导致自验证失效；采用独立 coder/tester 双 Agent 架构可显著提升一致性。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 71.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全代码生成或自动化漏洞验证 Agent 的必看。文章揭示的「Agent 自检测试与实现共享错误」陷阱，正是你用 Agent 写 PoC 或 Fuzzing harness 时会踩的坑，建议引入独立 tester Agent 做交叉验证。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21176",
+      "reader_url": "https://arxiv.org/pdf/2611.21176",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T11:15:26.399259",
+      "sub_category_label": "模型评测"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 34199,
+        "title": "Claude-BugHunter 爆火，82项技能赋能红队漏洞挖掘",
+        "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1349 stars today",
+        "summary": "开源项目 Claude-BugHunter 登顶 GitHub Trending，提供 82 个 Claude Code 技能和 15 个命令，涵盖 24 个核心漏洞类的 681 种报告模式，用于漏洞挖掘和外部红队工作。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 93.3,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "红队和漏洞挖掘从业者必看。该工具包为 Claude Code 扩展了实战红队技能矩阵，可立即拉取测试其在具体业务场景下的自动化挖掘效果，评估 AI 辅助攻防落地成熟度。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-20&since=daily",
+        "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-20&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-19T13:21:35",
+        "first_seen_at": "2026-11-20T00:02:29.218624",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 34410,
+        "title": "ScenarioForge：利用大模型自动生成并验证网络靶场场景",
+        "original_title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+        "summary": "该框架将高级需求转化为可部署的靶场拓扑与挑战链，并在 CORE 模拟器中自动化验证，成功生成 226 个网络攻防场景。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_benchmark",
+        "score_total": 89.6,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "对于需要搭建内部攻防训练环境的团队来说，这套自动化场景生成与验证流水线能极大降低靶场运维成本。其中基于 Vulhub 镜像的自动化拓扑构建与 Flag 校验逻辑值得直接借鉴。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.21579",
+        "reader_url": "https://arxiv.org/pdf/2611.21579",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T05:00:00",
+        "first_seen_at": "2026-11-20T10:01:24.150277",
+        "sub_category_label": "安全评测与Benchmark"
+      },
+      {
+        "id": 34397,
+        "title": "基于 LLM 的 IoT 威胁检测与防御框架",
+        "original_title": "LLM-Based Threat Detection and Prevention Framework for IoT Ecosystems",
+        "summary": "本文提出一种基于 LLM 的 IoT 威胁检测与防御框架，利用微调 BERT Small 模型进行网络异常检测，并结合 LLM 生成自适应威胁缓解策略，在边缘云环境中测试检测准确率达 99.75%。",
+        "primary_category": "AI for Sec",
+        "sub_category": "threat_detection",
+        "score_total": 78.95,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "本文探索了将 LLM 从单纯检测扩展到主动防御响应。对从事 IoT 安全或想了解 LLM 在安全自动化编排中应用的研究人员有参考价值，可借鉴其「检测+缓解」双组件架构思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2505.00240",
+        "reader_url": "https://arxiv.org/pdf/2505.00240",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T05:00:00",
+        "first_seen_at": "2026-11-20T09:47:47.940647",
+        "sub_category_label": "威胁检测"
+      },
+      {
+        "id": 34213,
+        "title": "WorkOS 报告数据泄露，攻击疑由 AI 渗透框架发起",
+        "original_title": "HN Hot Discussion: WorkOS reports security breach",
+        "summary": "WorkOS 报告称其检测到异常流量，调查显示攻击者疑似使用名为 ARTEX 的 AI 自主渗透测试框架访问了其内部 API，并窃取了 Salesforce 和 Snowflake 中的 CRM 及客户支持数据。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 78.55,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "攻击者疑似在野使用 AI 渗透框架（ARTEX）实施入侵，标志着自动化攻击工具正式进入实战阶段。安全团队需高度警惕针对企业内部 API 的高频自动化探测，并评估现有防御策略能否有效拦截 AI 驱动的攻击链。",
+        "source_id": "hn-ai-security",
+        "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-20",
+        "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-20",
+        "image_url": null,
+        "author": {
+          "username": "werrett",
+          "name": "werrett",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-02T23:30:59",
+        "first_seen_at": "2026-11-20T00:15:03.660328",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 34198,
+        "title": "阿里开源 AI 代码审查工具，内置安全规则集",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+        "summary": "阿里开源混合架构代码审查工具 open-code-review，结合确定性管道与 LLM Agent，内置 XSS、SQL 注入等安全规则集，提供精确行级审查。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 77.05,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全团队可借此搭建带规则引擎的 AI Code Review 流水线，内置 XSS 和 SQLi 规则集，省去手搓 prompt 的麻烦，适合大规模代码库自动化审计。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-20&since=weekly",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-20&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-19T12:28:52",
+        "first_seen_at": "2026-11-20T00:02:28.248315",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 34398,
+        "title": "基于大模型的Reddit数字隐私与安全求助行为分析",
+        "original_title": "Understanding Help Seeking for Digital Privacy, Safety, and Security on Reddit",
+        "summary": "该研究利用大模型分析了Reddit过去五年超20亿条帖子，识别出400万条隐私与安全求助贴并自动标注主题，为优化安全支持资源提供参考。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_data_analysis",
+        "score_total": 72.7,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "该研究展示了如何用LLM处理海量非结构化的安全数据，安全团队可借鉴此方法挖掘开源情报，发现用户真实痛点与常见威胁，从而优化安全资源与防御策略。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2601.11398",
+        "reader_url": "https://arxiv.org/pdf/2601.11398",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T05:00:00",
+        "first_seen_at": "2026-11-20T09:47:56.793338",
+        "sub_category_label": null
+      },
+      {
+        "id": 34600,
+        "title": "Accord：用LLM辅助构建C库机器检查保证案例的框架",
+        "original_title": "Function Contracts and Beyond: Machine-Checked Assurance Cases for Conformance of C Libraries to Their Requirements",
+        "summary": "本文提出 Accord 框架，利用 LLM 辅助构建机器检查的保证案例，验证 C 代码库的内存安全与功能正确性，在包括工业密码模块在内的多个基准中成功验证了 259 个函数定义。",
+        "primary_category": "AI for Sec",
+        "sub_category": "binary_security",
+        "score_total": 72.4,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "用 LLM 自动化定理证明和形式化验证是 AI 辅助代码审计的前沿方向。做代码安全和二进制审计的团队可关注其如何将 LLM 与 VST/Rocq 结合，这为大规模代码安全验证提供了新思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2609.40119",
+        "reader_url": "https://arxiv.org/pdf/2609.40119",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T05:00:00",
+        "first_seen_at": "2026-11-20T11:15:56.413705",
+        "sub_category_label": "二进制安全"
+      },
+      {
+        "id": 34042,
+        "title": "Agentic AI 渗透测试：AigentX 一小时内验证 PHP 漏洞利用",
+        "original_title": "Agentic AI Penetration Testing: A critical PHP flaw was disclosed. Within an hour, AigentX verified the exploit and the fix www.​komodosec.​com/post/agentic-ai-penetration-testing-",
+        "summary": "展示了 Agentic AI 在渗透测试中的实际应用，AigentX 在一个关键 PHP 漏洞披露后一小时内完成了漏洞利用和修复方案的验证。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 69.45,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全团队应关注此案例，它展示了 Agent 如何将漏洞验证从数小时压缩到一小时以内，是评估自动化安全运营落地效果的绝佳参考。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Komodosec/status/2123461138251936086",
+        "reader_url": "https://x.com/Komodosec/status/2123461138251936086",
+        "image_url": "https://pbs.twimg.com/media/HXgMpwJaYAA-Yja.jpg",
+        "author": {
+          "username": "Komodosec",
+          "name": "Komodo Cyber Security",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-19T16:59:22",
+        "first_seen_at": "2026-11-19T17:17:36.052817",
+        "sub_category_label": "安全Agent"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 34336,
+        "title": "代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索",
+        "original_title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
+        "summary": "论文构建了更真实的仓库级代码搜索基准 Repo-Premium，发现现有基准高估了向量检索的优势。利用 LLM 生成代码标识符辅助 grep，能让 BM25 匹敌甚至超越向量检索。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 74.2,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做漏洞挖掘或代码审计 Agent 的必看，别盲目迷信向量数据库。试试让 LLM 先生成关键标识符再用 grep，往往效果更好且成本更低。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.20455",
+        "reader_url": "https://arxiv.org/pdf/2611.20455",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T00:00:00",
+        "first_seen_at": "2026-11-20T06:44:30.518120",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 34598,
+        "title": "科学计算代码生成的 Agent 评测：测试覆盖与自验证成主要瓶颈",
+        "original_title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
+        "summary": "该研究扩展了 FEM-Bench 有限元分析基准，评估 15 个模型在代码和测试生成上的表现。发现引入 Agent 执行虽能解决部分难题，但测试覆盖不足和测试与实现共享错误导致自验证失效；采用独立 coder/tester 双 Agent 架构可显著提升一致性。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 71.45,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做安全代码生成或自动化漏洞验证 Agent 的必看。文章揭示的「Agent 自检测试与实现共享错误」陷阱，正是你用 Agent 写 PoC 或 Fuzzing harness 时会踩的坑，建议引入独立 tester Agent 做交叉验证。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.21176",
+        "reader_url": "https://arxiv.org/pdf/2611.21176",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T05:00:00",
+        "first_seen_at": "2026-11-20T11:15:26.399259",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 33973,
+        "title": "Agent进化评估的「分辨率假说」：为何评估瓶颈阻碍自我提升",
+        "original_title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+        "summary": "论文提出「分辨率假说」，指出 Agent 进化停滞并非无法生成更优产物，而是嘈杂的评估无法可靠识别改进。大规模实验表明，候选级别的选择不如随机，方法级别的排名多靠运气。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 70.45,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做自动化安全 Agent 的同学必看。如果你的 Prompt 或技能库迭代效果“时好时坏”，这篇论文指出：大概率是评估环境噪音太大盖过了真实提升，别轻信几个百分点的涨点。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.23068",
+        "reader_url": "https://arxiv.org/pdf/2611.23068",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-19T00:00:00",
+        "first_seen_at": "2026-11-19T21:02:33.640672",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 34339,
+        "title": "CompoundingKernel：从零自改进的GPU内核搜索Agent系统",
+        "original_title": "CompoundingKernel: Self-Improving from Zero to First",
+        "summary": "提出一种通过搜索编写 GPU 内核的自改进 Agent 系统，采用「LLM 控制器+外置存档+外部校验」架构，在 SOL-ExecBench 基准测试中取得第一名且代码已开源。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 70.2,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做漏洞挖掘 Agent 的人该看这文：它的「外置存档+外部校验+多智能体并行搜索」架构正好能解决 Fuzzing Agent 扩缩容瓶颈。把变异和正确性判断移出模型上下文，是跑大规模安全自动化任务的关键解法。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.19230",
+        "reader_url": "https://arxiv.org/pdf/2611.19230",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T00:00:00",
+        "first_seen_at": "2026-11-20T06:44:51.821439",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 34571,
+        "title": "语言模型任务建模能力探测：计数容量评估",
+        "original_title": "A minimal probe of task modeling in language models",
+        "summary": "该论文提出计数容量（CC）作为评估语言模型长周期任务能力的最小测试，发现模型上下文窗口虽大幅增长但 CC 增长有限，且推理能力并不能提升中位数 CC。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 69.5,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "长周期 Agent 是安全自动化的未来，但当前模型的任务建模能力远低于预期上下文长度。做安全 Agent 的同学务必关注这类评测指标，别盲目相信大 Context 窗口能解决多步任务的状态追踪问题。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2605.02028",
+        "reader_url": "https://arxiv.org/pdf/2605.02028",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T05:00:00",
+        "first_seen_at": "2026-11-20T11:06:02.703232",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 34582,
+        "title": "SPARK框架：提升RAG忠实度的轻量级参数知识调控方法",
+        "original_title": "SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation",
+        "summary": "SPARK框架通过动态调控FFN介导的参数知识贡献，在保持大模型冻结的情况下有效解决RAG中的知识冲突与幻觉问题。",
+        "primary_category": "AI Tech",
+        "sub_category": "rag_faithfulness",
+        "score_total": 68.2,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "安全分析 Agent 常用 RAG 接入威胁情报，模型内部知识与检索知识冲突会导致严重幻觉。做安全知识库或安全问答的团队应关注此框架，它能用极低训练成本显著提升安全问答的可靠性。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2606.27786",
+        "reader_url": "https://arxiv.org/pdf/2606.27786",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T05:00:00",
+        "first_seen_at": "2026-11-20T11:08:05.443987",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 34322,
+        "title": "WeVisForensics：自我进化多Agent框架用于AI生成视频检测",
+        "original_title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+        "summary": "本文提出WeVisForensics框架，通过主Agent协调多个自我进化的取证子Agent检测AI生成视频，利用双时间尺度策略优化提升检测准确率，并构建ForenCue-30K数据集进行评估。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "deepfake_detection",
+        "score_total": 87.5,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.21373",
+        "reader_url": "https://arxiv.org/pdf/2611.21373",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-20T00:00:00",
+        "first_seen_at": "2026-11-20T06:42:04.459776",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 34122,
+        "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
+        "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
+        "summary": "11月17日，微软官方 PyPI 包 agent-framework 两个版本被植入恶意 .pth 文件，存活55分钟，每次启动 Python 自动窃取云与开发者密钥。Wiz 发现攻击者使用了基于 GLM 模型的开源 AI 渗透框架 Cairn。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "ai_supply_chain",
+        "score_total": 73.19,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "AI Agent 已开始直接攻击构建 AI 的工具链，安全团队须立刻排查是否拉取过 1.26.1/1.26.2 版本，若有则全面轮换云和开发凭据；同时这也暴露出大模型在自动化攻击链中的实战潜力，防守方需高度警惕。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/whyNexqor/status/2123494095368941709",
+        "reader_url": "https://x.com/whyNexqor/status/2123494095368941709",
+        "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123493636365000704/img/tyFr1suSQ5J03ipC.jpg",
+        "author": {
+          "username": "whyNexqor",
+          "name": "Nexqor",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-19T19:10:19",
+        "first_seen_at": "2026-11-19T19:33:58.672266",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 34116,
+        "title": "DeepSeek Harness 架构解析：Agent 安全边界与执行环境",
+        "original_title": "DeepSeek Harness 实战与架构解析：让 Agent 从“会聊”到“能交付”",
+        "summary": "本文详细拆解了 DeepSeek 推出的 Agent 运行环境 DSH 的六层架构，探讨了其沙箱审批机制、Super-agent 原型的 Router/Worker 分工及端云协同设计，并给出了实战应用路径。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security | agent_architecture",
+        "score_total": 72.85,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "做安全 Agent 的人最头疼沙箱边界和长任务失控。DSH 提供了可组合的权限预设、独立巡检和端云协同方案，值得做自动化安全任务落地时参考，尤其注意别在陌生仓库关审批。",
+        "source_id": "juejin-trending-weekly",
+        "canonical_url": "https://juejin.cn/post/7708058421904392242",
+        "reader_url": "https://juejin.cn/post/7708058421904392242",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-15T14:14:07",
+        "first_seen_at": "2026-11-19T19:22:29.953141",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 34278,
+        "title": "OpenAI 发布「Daybreak Red」监督式安全调查参考架构",
+        "original_title": "Deploying Daybreak Red",
+        "summary": "OpenAI 介绍了 Daybreak Red 参考架构，用于执行监督式安全调查，涵盖安全控制措施、环境设置与监控。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 69.3,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "官方提供的安全调查参考架构对设计安全Agent和制定监控策略有直接参考价值。做AI安全运营的团队可以看看如何落地安全控制边界。",
+        "source_id": "openai-news",
+        "canonical_url": "https://openai.com/business/learn/deploying-daybreak-red",
+        "reader_url": "https://openai.com/business/learn/deploying-daybreak-red",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-19T00:00:00",
+        "first_seen_at": "2026-11-20T03:16:06.201339",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 34199,
+            "title": "Claude-BugHunter 爆火，82项技能赋能红队漏洞挖掘",
+            "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1349 stars today",
+            "summary": "开源项目 Claude-BugHunter 登顶 GitHub Trending，提供 82 个 Claude Code 技能和 15 个命令，涵盖 24 个核心漏洞类的 681 种报告模式，用于漏洞挖掘和外部红队工作。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 93.3,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "红队和漏洞挖掘从业者必看。该工具包为 Claude Code 扩展了实战红队技能矩阵，可立即拉取测试其在具体业务场景下的自动化挖掘效果，评估 AI 辅助攻防落地成熟度。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-20&since=daily",
+            "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-20&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T13:21:35",
+            "first_seen_at": "2026-11-20T00:02:29.218624",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 34213,
+            "title": "WorkOS 报告数据泄露，攻击疑由 AI 渗透框架发起",
+            "original_title": "HN Hot Discussion: WorkOS reports security breach",
+            "summary": "WorkOS 报告称其检测到异常流量，调查显示攻击者疑似使用名为 ARTEX 的 AI 自主渗透测试框架访问了其内部 API，并窃取了 Salesforce 和 Snowflake 中的 CRM 及客户支持数据。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 78.55,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "攻击者疑似在野使用 AI 渗透框架（ARTEX）实施入侵，标志着自动化攻击工具正式进入实战阶段。安全团队需高度警惕针对企业内部 API 的高频自动化探测，并评估现有防御策略能否有效拦截 AI 驱动的攻击链。",
+            "source_id": "hn-ai-security",
+            "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-20",
+            "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-20",
+            "image_url": null,
+            "author": {
+              "username": "werrett",
+              "name": "werrett",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-02T23:30:59",
+            "first_seen_at": "2026-11-20T00:15:03.660328",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 34198,
+            "title": "阿里开源 AI 代码审查工具，内置安全规则集",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "阿里开源混合架构代码审查工具 open-code-review，结合确定性管道与 LLM Agent，内置 XSS、SQL 注入等安全规则集，提供精确行级审查。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 77.05,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全团队可借此搭建带规则引擎的 AI Code Review 流水线，内置 XSS 和 SQLi 规则集，省去手搓 prompt 的麻烦，适合大规模代码库自动化审计。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-20&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-20&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T12:28:52",
+            "first_seen_at": "2026-11-20T00:02:28.248315",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 34042,
+            "title": "Agentic AI 渗透测试：AigentX 一小时内验证 PHP 漏洞利用",
+            "original_title": "Agentic AI Penetration Testing: A critical PHP flaw was disclosed. Within an hour, AigentX verified the exploit and the fix www.​komodosec.​com/post/agentic-ai-penetration-testing-",
+            "summary": "展示了 Agentic AI 在渗透测试中的实际应用，AigentX 在一个关键 PHP 漏洞披露后一小时内完成了漏洞利用和修复方案的验证。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队应关注此案例，它展示了 Agent 如何将漏洞验证从数小时压缩到一小时以内，是评估自动化安全运营落地效果的绝佳参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Komodosec/status/2123461138251936086",
+            "reader_url": "https://x.com/Komodosec/status/2123461138251936086",
+            "image_url": "https://pbs.twimg.com/media/HXgMpwJaYAA-Yja.jpg",
+            "author": {
+              "username": "Komodosec",
+              "name": "Komodo Cyber Security",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-19T16:59:22",
+            "first_seen_at": "2026-11-19T17:17:36.052817",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 34615,
+            "title": "ARTEX自主AI渗透平台被武器化，FBI发警告",
+            "original_title": "Found it. ARTEX is a Chinese-developed autonomous AI penetration-testing platform that has already been weaponized in major international cyberattacks.  The FBI issued a dedicated ",
+            "summary": "自主AI渗透平台ARTEX被武器化用于国际网络攻击，FBI于2026年11月13日发布专门警告。该平台协调DeepSeek、Claude等多个大模型实现攻击自动化，大幅降低攻击门槛，对防御方构成结构性挑战。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "FBI和Check Point报告披露了首个在野大规模利用的自主AI攻击Agent平台。安全团队需警惕AI驱动的自动化攻击浪潮，立即评估现有防御机制的自动化响应能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HochstatMichael/status/2123745791621681501",
+            "reader_url": "https://x.com/HochstatMichael/status/2123745791621681501",
+            "image_url": null,
+            "author": {
+              "username": "HochstatMichael",
+              "name": "Michael hochstat",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-20T11:50:28",
+            "first_seen_at": "2026-11-20T12:01:00.751964",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 34152,
+            "title": "ARTEX：基于多智能体LLM的自主渗透测试系统",
+            "original_title": "🔧 ARTEX is an AI-driven autonomous penetration testing system built with Go and Next.js, using a multi-agent LLM architecture. It won the Baidu Agent + Attack-Defense Challenge. 1,",
+            "summary": "ARTEX 是一款基于 Go 和 Next.js 构建的 AI 自主渗透测试系统，采用多智能体 LLM 架构，曾获百度 Agent+攻防挑战赛冠军，GitHub 已超千星。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "百度攻防赛冠军项目，用多智能体做自动化渗透，开源可复现。做安全自动化和 Agent 落地的同行重点看下它的架构设计，能直接借鉴实战分工思路。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DistillAI1/status/2123521748813643983",
+            "reader_url": "https://x.com/DistillAI1/status/2123521748813643983",
+            "image_url": "https://pbs.twimg.com/media/HXhDxxKbAAAXFen.jpg",
+            "author": {
+              "username": "DistillAI1",
+              "name": "Distill AI",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-19T21:00:12",
+            "first_seen_at": "2026-11-19T21:10:49.555749",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 34256,
+            "title": "AWS Continuum 渗透测试 Agent 支持任务暂停与恢复",
+            "original_title": "AWS Continuum がペネトレーション テストで一時停止と再開をサポートするようになった  AWS Continuum for Penetration Testing（旧称：AWS Security Agent）では、実行中のペネトレーションテストジョブを一時停止し、後で最後に保存されたチェックポイントから再開できるようになりました。Continuu",
+            "summary": "AWS Continuum for Penetration Testing 新增暂停和恢复功能，允许任务中断后从检查点继续，保留已有发现并支持更换凭证或调整配置。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "使用 AI 渗透测试 Agent 的安全团队必看，任务中断后无需重头再来，省时省力。建议检查 API 集成和工作流，利用 7 天恢复窗口灵活安排测试。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/awswhatsnew_jp/status/2123584823579304210",
+            "reader_url": "https://x.com/awswhatsnew_jp/status/2123584823579304210",
+            "image_url": null,
+            "author": {
+              "username": "awswhatsnew_jp",
+              "name": "What's New on AWS (非公式)",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-20T01:10:50",
+            "first_seen_at": "2026-11-20T01:46:07.913451",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "security_benchmark": {
+        "label": "安全评测与Benchmark",
+        "items": [
+          {
+            "id": 34410,
+            "title": "ScenarioForge：利用大模型自动生成并验证网络靶场场景",
+            "original_title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+            "summary": "该框架将高级需求转化为可部署的靶场拓扑与挑战链，并在 CORE 模拟器中自动化验证，成功生成 226 个网络攻防场景。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_benchmark",
+            "score_total": 89.6,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "对于需要搭建内部攻防训练环境的团队来说，这套自动化场景生成与验证流水线能极大降低靶场运维成本。其中基于 Vulhub 镜像的自动化拓扑构建与 Flag 校验逻辑值得直接借鉴。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.21579",
+            "reader_url": "https://arxiv.org/pdf/2611.21579",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T05:00:00",
+            "first_seen_at": "2026-11-20T10:01:24.150277",
+            "sub_category_label": "安全评测与Benchmark"
+          }
+        ]
+      },
+      "threat_detection": {
+        "label": "威胁检测",
+        "items": [
+          {
+            "id": 34397,
+            "title": "基于 LLM 的 IoT 威胁检测与防御框架",
+            "original_title": "LLM-Based Threat Detection and Prevention Framework for IoT Ecosystems",
+            "summary": "本文提出一种基于 LLM 的 IoT 威胁检测与防御框架，利用微调 BERT Small 模型进行网络异常检测，并结合 LLM 生成自适应威胁缓解策略，在边缘云环境中测试检测准确率达 99.75%。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 78.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "本文探索了将 LLM 从单纯检测扩展到主动防御响应。对从事 IoT 安全或想了解 LLM 在安全自动化编排中应用的研究人员有参考价值，可借鉴其「检测+缓解」双组件架构思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2505.00240",
+            "reader_url": "https://arxiv.org/pdf/2505.00240",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T05:00:00",
+            "first_seen_at": "2026-11-20T09:47:47.940647",
+            "sub_category_label": "威胁检测"
+          }
+        ]
+      },
+      "security_data_analysis": {
+        "label": "security_data_analysis",
+        "items": [
+          {
+            "id": 34398,
+            "title": "基于大模型的Reddit数字隐私与安全求助行为分析",
+            "original_title": "Understanding Help Seeking for Digital Privacy, Safety, and Security on Reddit",
+            "summary": "该研究利用大模型分析了Reddit过去五年超20亿条帖子，识别出400万条隐私与安全求助贴并自动标注主题，为优化安全支持资源提供参考。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_data_analysis",
+            "score_total": 72.7,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "该研究展示了如何用LLM处理海量非结构化的安全数据，安全团队可借鉴此方法挖掘开源情报，发现用户真实痛点与常见威胁，从而优化安全资源与防御策略。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2601.11398",
+            "reader_url": "https://arxiv.org/pdf/2601.11398",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T05:00:00",
+            "first_seen_at": "2026-11-20T09:47:56.793338",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "binary_security": {
+        "label": "二进制安全",
+        "items": [
+          {
+            "id": 34600,
+            "title": "Accord：用LLM辅助构建C库机器检查保证案例的框架",
+            "original_title": "Function Contracts and Beyond: Machine-Checked Assurance Cases for Conformance of C Libraries to Their Requirements",
+            "summary": "本文提出 Accord 框架，利用 LLM 辅助构建机器检查的保证案例，验证 C 代码库的内存安全与功能正确性，在包括工业密码模块在内的多个基准中成功验证了 259 个函数定义。",
+            "primary_category": "AI for Sec",
+            "sub_category": "binary_security",
+            "score_total": 72.4,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "用 LLM 自动化定理证明和形式化验证是 AI 辅助代码审计的前沿方向。做代码安全和二进制审计的团队可关注其如何将 LLM 与 VST/Rocq 结合，这为大规模代码安全验证提供了新思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2609.40119",
+            "reader_url": "https://arxiv.org/pdf/2609.40119",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T05:00:00",
+            "first_seen_at": "2026-11-20T11:15:56.413705",
+            "sub_category_label": "二进制安全"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 34269,
+            "title": "AI 扫描掀翻十年老 Bug：五家团队同时撞车底层漏洞",
+            "original_title": "五家团队同时撞车 把这起事件和过去三十天的几场风波摆在一起，比单看这两段 C 代码更有意思。10 月 21 日 PHP2Shell 爆出，栽在 PHP 请求启动与 memory_limit 触发 setjmp/longjmp 异常撤离时跳过清场，留下半成品哈希表。11 月 17 日 Java4Shell 披露，HotSpot 底层的 AVX-512 汇编内联",
+            "summary": "五家团队同时利用 AI 代码扫描工具发现 NGINX、PHP、Java 底层潜伏多年的内存安全漏洞，表明 AI 跨函数追踪深水逻辑的漏洞挖掘范式已规模化成熟。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 69.25,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI 扫描框架规模化复现了人肉审计极难触及的深水逻辑漏洞。安全团队需立即评估自身基础设施受影响面，并将 AI 代码扫描纳入日常审计流程。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/zzz6519003/status/2123598587263369375",
+            "reader_url": "https://x.com/zzz6519003/status/2123598587263369375",
+            "image_url": "https://pbs.twimg.com/media/HXiJo5CbUAAc0la.jpg",
+            "author": {
+              "username": "zzz6519003",
+              "name": "Snowmanzzz.html (寻170cm女生)",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-20T02:05:32",
+            "first_seen_at": "2026-11-20T02:21:16.268976",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 34043,
+            "title": "使用 Devin 将 libyaml 移植至安全 Rust 并配置差分 Fuzzing",
+            "original_title": "tired of LLM wrappers so i'm putting @cognition's Devin to work on actual systems grunge work: porting libyaml's stateful C token scanner (src/scanner.c) to safe Rust gated by an A",
+            "summary": "利用 Cognition Devin 将 libyaml 的 C 语言状态机扫描器移植到安全的 Rust，并在 CI 中使用 ASan + bindgen + cargo-fuzz 构建差分模糊测试 harness 进行验证。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.66,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI Agent 终于开始干系统级代码重构的脏活了。做安全加固和代码移植的同学可以直接参考这个差分 Fuzzing harness 模式，用 AI 重写关键组件时拿它来兜底验证。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/johnboy232321/status/2123461198913937779",
+            "reader_url": "https://x.com/johnboy232321/status/2123461198913937779",
+            "image_url": null,
+            "author": {
+              "username": "johnboy232321",
+              "name": "John Harrison",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-19T16:59:36",
+            "first_seen_at": "2026-11-19T17:17:49.921269",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 34642,
+            "title": "STITCH：LLM自动化Fuzzing全生命周期工具",
+            "original_title": "Our tool STITCH automates the whole fuzzing lifecycle with LLMs. From only a git repo, it builds a project Dockerfile, compiles with fuzz instrumentation, writes code blocks, and r",
+            "summary": "STITCH利用LLM从Git仓库自动完成构建Dockerfile、插桩编译、编写代码、运行Fuzzer及crash分类去重，并生成可复现的Docker化Bug报告。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "全自动Fuzzing闭环工具，直接把AI Fuzzing落地到Bug Report生成环节。安全研究员和漏洞挖掘团队必看，能极大降低Fuzzing前置成本和crash triage负担。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/hgarrereyn/status/2123770047839797369",
+            "reader_url": "https://x.com/hgarrereyn/status/2123770047839797369",
+            "image_url": "https://pbs.twimg.com/media/HXklmmSbsAAw4jp.png",
+            "author": {
+              "username": "hgarrereyn",
+              "name": "Harrison Green",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-20T13:26:51",
+            "first_seen_at": "2026-11-20T13:46:13.736892",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "deepfake_detection": {
+        "label": "deepfake_detection",
+        "items": [
+          {
+            "id": 34322,
+            "title": "WeVisForensics：自我进化多Agent框架用于AI生成视频检测",
+            "original_title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+            "summary": "本文提出WeVisForensics框架，通过主Agent协调多个自我进化的取证子Agent检测AI生成视频，利用双时间尺度策略优化提升检测准确率，并构建ForenCue-30K数据集进行评估。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "deepfake_detection",
+            "score_total": 87.5,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.21373",
+            "reader_url": "https://arxiv.org/pdf/2611.21373",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T00:00:00",
+            "first_seen_at": "2026-11-20T06:42:04.459776",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 34336,
+            "title": "代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索",
+            "original_title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
+            "summary": "论文构建了更真实的仓库级代码搜索基准 Repo-Premium，发现现有基准高估了向量检索的优势。利用 LLM 生成代码标识符辅助 grep，能让 BM25 匹敌甚至超越向量检索。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 74.2,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞挖掘或代码审计 Agent 的必看，别盲目迷信向量数据库。试试让 LLM 先生成关键标识符再用 grep，往往效果更好且成本更低。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.20455",
+            "reader_url": "https://arxiv.org/pdf/2611.20455",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T00:00:00",
+            "first_seen_at": "2026-11-20T06:44:30.518120",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 34598,
+            "title": "科学计算代码生成的 Agent 评测：测试覆盖与自验证成主要瓶颈",
+            "original_title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
+            "summary": "该研究扩展了 FEM-Bench 有限元分析基准，评估 15 个模型在代码和测试生成上的表现。发现引入 Agent 执行虽能解决部分难题，但测试覆盖不足和测试与实现共享错误导致自验证失效；采用独立 coder/tester 双 Agent 架构可显著提升一致性。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 71.45,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做安全代码生成或自动化漏洞验证 Agent 的必看。文章揭示的「Agent 自检测试与实现共享错误」陷阱，正是你用 Agent 写 PoC 或 Fuzzing harness 时会踩的坑，建议引入独立 tester Agent 做交叉验证。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.21176",
+            "reader_url": "https://arxiv.org/pdf/2611.21176",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T05:00:00",
+            "first_seen_at": "2026-11-20T11:15:26.399259",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 33973,
+            "title": "Agent进化评估的「分辨率假说」：为何评估瓶颈阻碍自我提升",
+            "original_title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+            "summary": "论文提出「分辨率假说」，指出 Agent 进化停滞并非无法生成更优产物，而是嘈杂的评估无法可靠识别改进。大规模实验表明，候选级别的选择不如随机，方法级别的排名多靠运气。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 70.45,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做自动化安全 Agent 的同学必看。如果你的 Prompt 或技能库迭代效果“时好时坏”，这篇论文指出：大概率是评估环境噪音太大盖过了真实提升，别轻信几个百分点的涨点。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.23068",
+            "reader_url": "https://arxiv.org/pdf/2611.23068",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T00:00:00",
+            "first_seen_at": "2026-11-19T21:02:33.640672",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 34571,
+            "title": "语言模型任务建模能力探测：计数容量评估",
+            "original_title": "A minimal probe of task modeling in language models",
+            "summary": "该论文提出计数容量（CC）作为评估语言模型长周期任务能力的最小测试，发现模型上下文窗口虽大幅增长但 CC 增长有限，且推理能力并不能提升中位数 CC。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 69.5,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "长周期 Agent 是安全自动化的未来，但当前模型的任务建模能力远低于预期上下文长度。做安全 Agent 的同学务必关注这类评测指标，别盲目相信大 Context 窗口能解决多步任务的状态追踪问题。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2605.02028",
+            "reader_url": "https://arxiv.org/pdf/2605.02028",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T05:00:00",
+            "first_seen_at": "2026-11-20T11:06:02.703232",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      },
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 34339,
+            "title": "CompoundingKernel：从零自改进的GPU内核搜索Agent系统",
+            "original_title": "CompoundingKernel: Self-Improving from Zero to First",
+            "summary": "提出一种通过搜索编写 GPU 内核的自改进 Agent 系统，采用「LLM 控制器+外置存档+外部校验」架构，在 SOL-ExecBench 基准测试中取得第一名且代码已开源。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 70.2,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞挖掘 Agent 的人该看这文：它的「外置存档+外部校验+多智能体并行搜索」架构正好能解决 Fuzzing Agent 扩缩容瓶颈。把变异和正确性判断移出模型上下文，是跑大规模安全自动化任务的关键解法。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.19230",
+            "reader_url": "https://arxiv.org/pdf/2611.19230",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T00:00:00",
+            "first_seen_at": "2026-11-20T06:44:51.821439",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      },
+      "rag_faithfulness": {
+        "label": "rag_faithfulness",
+        "items": [
+          {
+            "id": 34582,
+            "title": "SPARK框架：提升RAG忠实度的轻量级参数知识调控方法",
+            "original_title": "SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation",
+            "summary": "SPARK框架通过动态调控FFN介导的参数知识贡献，在保持大模型冻结的情况下有效解决RAG中的知识冲突与幻觉问题。",
+            "primary_category": "AI Tech",
+            "sub_category": "rag_faithfulness",
+            "score_total": 68.2,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "安全分析 Agent 常用 RAG 接入威胁情报，模型内部知识与检索知识冲突会导致严重幻觉。做安全知识库或安全问答的团队应关注此框架，它能用极低训练成本显著提升安全问答的可靠性。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2606.27786",
+            "reader_url": "https://arxiv.org/pdf/2606.27786",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-20T05:00:00",
+            "first_seen_at": "2026-11-20T11:08:05.443987",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "ai_supply_chain": {
+        "label": "ai_supply_chain",
+        "items": [
+          {
+            "id": 34122,
+            "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
+            "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
+            "summary": "11月17日，微软官方 PyPI 包 agent-framework 两个版本被植入恶意 .pth 文件，存活55分钟，每次启动 Python 自动窃取云与开发者密钥。Wiz 发现攻击者使用了基于 GLM 模型的开源 AI 渗透框架 Cairn。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "ai_supply_chain",
+            "score_total": 73.19,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI Agent 已开始直接攻击构建 AI 的工具链，安全团队须立刻排查是否拉取过 1.26.1/1.26.2 版本，若有则全面轮换云和开发凭据；同时这也暴露出大模型在自动化攻击链中的实战潜力，防守方需高度警惕。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/whyNexqor/status/2123494095368941709",
+            "reader_url": "https://x.com/whyNexqor/status/2123494095368941709",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123493636365000704/img/tyFr1suSQ5J03ipC.jpg",
+            "author": {
+              "username": "whyNexqor",
+              "name": "Nexqor",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-19T19:10:19",
+            "first_seen_at": "2026-11-19T19:33:58.672266",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "agent_security | agent_architecture": {
+        "label": "agent_security | agent_architecture",
+        "items": [
+          {
+            "id": 34116,
+            "title": "DeepSeek Harness 架构解析：Agent 安全边界与执行环境",
+            "original_title": "DeepSeek Harness 实战与架构解析：让 Agent 从“会聊”到“能交付”",
+            "summary": "本文详细拆解了 DeepSeek 推出的 Agent 运行环境 DSH 的六层架构，探讨了其沙箱审批机制、Super-agent 原型的 Router/Worker 分工及端云协同设计，并给出了实战应用路径。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security | agent_architecture",
+            "score_total": 72.85,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做安全 Agent 的人最头疼沙箱边界和长任务失控。DSH 提供了可组合的权限预设、独立巡检和端云协同方案，值得做自动化安全任务落地时参考，尤其注意别在陌生仓库关审批。",
+            "source_id": "juejin-trending-weekly",
+            "canonical_url": "https://juejin.cn/post/7708058421904392242",
+            "reader_url": "https://juejin.cn/post/7708058421904392242",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-15T14:14:07",
+            "first_seen_at": "2026-11-19T19:22:29.953141",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 34278,
+            "title": "OpenAI 发布「Daybreak Red」监督式安全调查参考架构",
+            "original_title": "Deploying Daybreak Red",
+            "summary": "OpenAI 介绍了 Daybreak Red 参考架构，用于执行监督式安全调查，涵盖安全控制措施、环境设置与监控。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 69.3,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "官方提供的安全调查参考架构对设计安全Agent和制定监控策略有直接参考价值。做AI安全运营的团队可以看看如何落地安全控制边界。",
+            "source_id": "openai-news",
+            "canonical_url": "https://openai.com/business/learn/deploying-daybreak-red",
+            "reader_url": "https://openai.com/business/learn/deploying-daybreak-red",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T00:00:00",
+            "first_seen_at": "2026-11-20T03:16:06.201339",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 34410,
+      "title": "ScenarioForge：利用大模型自动生成并验证网络靶场场景",
+      "original_title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
+      "summary": "该框架将高级需求转化为可部署的靶场拓扑与挑战链，并在 CORE 模拟器中自动化验证，成功生成 226 个网络攻防场景。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 89.6,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "对于需要搭建内部攻防训练环境的团队来说，这套自动化场景生成与验证流水线能极大降低靶场运维成本。其中基于 Vulhub 镜像的自动化拓扑构建与 Flag 校验逻辑值得直接借鉴。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21579",
+      "reader_url": "https://arxiv.org/pdf/2611.21579",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T10:01:24.150277",
+      "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 34322,
+      "title": "WeVisForensics：自我进化多Agent框架用于AI生成视频检测",
+      "original_title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "summary": "本文提出WeVisForensics框架，通过主Agent协调多个自我进化的取证子Agent检测AI生成视频，利用双时间尺度策略优化提升检测准确率，并构建ForenCue-30K数据集进行评估。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "deepfake_detection",
+      "score_total": 87.5,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.21373",
+      "reader_url": "https://arxiv.org/pdf/2611.21373",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T00:00:00",
+      "first_seen_at": "2026-11-20T06:42:04.459776",
+      "sub_category_label": null
+    },
+    {
+      "id": 34397,
+      "title": "基于 LLM 的 IoT 威胁检测与防御框架",
+      "original_title": "LLM-Based Threat Detection and Prevention Framework for IoT Ecosystems",
+      "summary": "本文提出一种基于 LLM 的 IoT 威胁检测与防御框架，利用微调 BERT Small 模型进行网络异常检测，并结合 LLM 生成自适应威胁缓解策略，在边缘云环境中测试检测准确率达 99.75%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 78.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "本文探索了将 LLM 从单纯检测扩展到主动防御响应。对从事 IoT 安全或想了解 LLM 在安全自动化编排中应用的研究人员有参考价值，可借鉴其「检测+缓解」双组件架构思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2505.00240",
+      "reader_url": "https://arxiv.org/pdf/2505.00240",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T09:47:47.940647",
+      "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 34336,
+      "title": "代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索",
+      "original_title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
+      "summary": "论文构建了更真实的仓库级代码搜索基准 Repo-Premium，发现现有基准高估了向量检索的优势。利用 LLM 生成代码标识符辅助 grep，能让 BM25 匹敌甚至超越向量检索。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 74.2,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘或代码审计 Agent 的必看，别盲目迷信向量数据库。试试让 LLM 先生成关键标识符再用 grep，往往效果更好且成本更低。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.20455",
+      "reader_url": "https://arxiv.org/pdf/2611.20455",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T00:00:00",
+      "first_seen_at": "2026-11-20T06:44:30.518120",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 34398,
+      "title": "基于大模型的Reddit数字隐私与安全求助行为分析",
+      "original_title": "Understanding Help Seeking for Digital Privacy, Safety, and Security on Reddit",
+      "summary": "该研究利用大模型分析了Reddit过去五年超20亿条帖子，识别出400万条隐私与安全求助贴并自动标注主题，为优化安全支持资源提供参考。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_data_analysis",
+      "score_total": 72.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该研究展示了如何用LLM处理海量非结构化的安全数据，安全团队可借鉴此方法挖掘开源情报，发现用户真实痛点与常见威胁，从而优化安全资源与防御策略。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2601.11398",
+      "reader_url": "https://arxiv.org/pdf/2601.11398",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T09:47:56.793338",
+      "sub_category_label": null
+    },
+    {
+      "id": 34600,
+      "title": "Accord：用LLM辅助构建C库机器检查保证案例的框架",
+      "original_title": "Function Contracts and Beyond: Machine-Checked Assurance Cases for Conformance of C Libraries to Their Requirements",
+      "summary": "本文提出 Accord 框架，利用 LLM 辅助构建机器检查的保证案例，验证 C 代码库的内存安全与功能正确性，在包括工业密码模块在内的多个基准中成功验证了 259 个函数定义。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 72.4,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "用 LLM 自动化定理证明和形式化验证是 AI 辅助代码审计的前沿方向。做代码安全和二进制审计的团队可关注其如何将 LLM 与 VST/Rocq 结合，这为大规模代码安全验证提供了新思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.40119",
+      "reader_url": "https://arxiv.org/pdf/2609.40119",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T11:15:56.413705",
+      "sub_category_label": "二进制安全"
+    },
+    {
+      "id": 34598,
+      "title": "科学计算代码生成的 Agent 评测：测试覆盖与自验证成主要瓶颈",
+      "original_title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
+      "summary": "该研究扩展了 FEM-Bench 有限元分析基准，评估 15 个模型在代码和测试生成上的表现。发现引入 Agent 执行虽能解决部分难题，但测试覆盖不足和测试与实现共享错误导致自验证失效；采用独立 coder/tester 双 Agent 架构可显著提升一致性。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 71.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全代码生成或自动化漏洞验证 Agent 的必看。文章揭示的「Agent 自检测试与实现共享错误」陷阱，正是你用 Agent 写 PoC 或 Fuzzing harness 时会踩的坑，建议引入独立 tester Agent 做交叉验证。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21176",
+      "reader_url": "https://arxiv.org/pdf/2611.21176",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T11:15:26.399259",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 33973,
+      "title": "Agent进化评估的「分辨率假说」：为何评估瓶颈阻碍自我提升",
+      "original_title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+      "summary": "论文提出「分辨率假说」，指出 Agent 进化停滞并非无法生成更优产物，而是嘈杂的评估无法可靠识别改进。大规模实验表明，候选级别的选择不如随机，方法级别的排名多靠运气。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 70.45,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做自动化安全 Agent 的同学必看。如果你的 Prompt 或技能库迭代效果“时好时坏”，这篇论文指出：大概率是评估环境噪音太大盖过了真实提升，别轻信几个百分点的涨点。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.23068",
+      "reader_url": "https://arxiv.org/pdf/2611.23068",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T00:00:00",
+      "first_seen_at": "2026-11-19T21:02:33.640672",
+      "sub_category_label": "模型评测"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 24,
+    "highlight_count": 3,
+    "paper_count": 11,
+    "source_count": 7,
+    "top_score": 93,
+    "category_count": {
+      "AI for Sec": 14,
+      "AI Tech": 6,
+      "AI for Sec | AI Tech": 1,
+      "Sec for AI | AI for Sec": 1,
+      "Sec for AI | AI Tech": 1,
+      "AI for Sec | Sec for AI": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 7
+        },
+        "security_benchmark": {
+          "label": "安全评测与Benchmark",
+          "count": 1
+        },
+        "threat_detection": {
+          "label": "威胁检测",
+          "count": 1
+        },
+        "security_data_analysis": {
+          "label": "security_data_analysis",
+          "count": 1
+        },
+        "binary_security": {
+          "label": "二进制安全",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 1
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "deepfake_detection": {
+          "label": "deepfake_detection",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 4
+        },
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 1
+        },
+        "rag_faithfulness": {
+          "label": "rag_faithfulness",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "ai_supply_chain": {
+          "label": "ai_supply_chain",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "agent_security | agent_architecture": {
+          "label": "agent_security | agent_architecture",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "把训练数据来源、LoRA/adapter 入库扫描列为今天的检查项。",
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 14,
+      "top_score": 93,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 6,
+      "top_score": 74,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "目前得分最高的ScenarioForge证明了用大模型批量生成并自动化验证靶场场景已经能跑通。建议红蓝对抗和安全培训团队重点参考它基于Vulhub镜像的拓扑构建与Flag校验逻辑，直接借鉴这套流水线来压降日常靶场搭建的运维成本；同时做检测与响应的同学也可以留意一下今天其他高分项目里多Agent协同和检测加缓解双组件的联动思路。",
+  "method_note": "按北京时间 2026-11-20 的系统入库窗口筛选，从 24 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "hn-ai-security",
+    "huggingface-daily-papers",
+    "juejin-trending-weekly",
+    "openai-news",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# ScenarioForge：利用大模型自动生成并验证网络靶场场景\n\n顶部图：未生成\n\n## 今日概览\n- 今天的高分动态主线非常清晰：大模型正从单点检测加速向安全运营全流程的自动化落地演进。无论是自动生成靶场场景、多Agent协同做深伪检测，还是在IoT场景里直接联动防御响应，大家都在拼谁能用AI把重活累活真正接管下来。\n- 01 对于需要搭建内部攻防训练环境的团队来说，这套自动化场景生成与验证流水线能极大降低靶场运维成本。其中基于 Vulhub 镜像的自动化拓扑构建与 Flag 校验逻辑值得直接借鉴。\n- 02 深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。\n- 03 本文探索了将 LLM 从单纯检测扩展到主动防御响应。对从事 IoT 安全或想了解 LLM 在安全自动化编排中应用的研究人员有参考价值，可借鉴其「检测+缓解」双组件架构思路。\n\n## 今日行动\n- 把训练数据来源、LoRA/adapter 入库扫描列为今天的检查项。\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **ScenarioForge：利用大模型自动生成并验证网络靶场场景**：对于需要搭建内部攻防训练环境的团队来说，这套自动化场景生成与验证流水线能极大降低靶场运维成本。其中基于 Vulhub 镜像的自动化拓扑构建与 Flag 校验逻辑值得直接借鉴。 来源：arxiv-ai-security\n- **WeVisForensics：自我进化多Agent框架用于AI生成视频检测**：深度伪造检测是内容安全的重要一环。该框架的多Agent协同和自我进化机制为自动取证提供了新思路，做内容安全和威胁检测的同学可以参考其架构设计与反馈闭环。 来源：huggingface-daily-papers\n- **基于 LLM 的 IoT 威胁检测与防御框架**：本文探索了将 LLM 从单纯检测扩展到主动防御响应。对从事 IoT 安全或想了解 LLM 在安全自动化编排中应用的研究人员有参考价值，可借鉴其「检测+缓解」双组件架构思路。 来源：arxiv-ai-security\n\n## 也值得关注\n- WorkOS 报告数据泄露，攻击疑由 AI 渗透框架发起（78.55）\n- 代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索（74.2）\n- 微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥（73.19）\n- DeepSeek Harness 架构解析：Agent 安全边界与执行环境（72.85）\n- 基于大模型的Reddit数字隐私与安全求助行为分析（72.7）\n- Accord：用LLM辅助构建C库机器检查保证案例的框架（72.4）\n\n## AI for Sec\n\n### 安全Agent\n- Claude-BugHunter 爆火，82项技能赋能红队漏洞挖掘（93.3）\n- WorkOS 报告数据泄露，攻击疑由 AI 渗透框架发起（78.55）\n- 阿里开源 AI 代码审查工具，内置安全规则集（77.05）\n- Agentic AI 渗透测试：AigentX 一小时内验证 PHP 漏洞利用（69.45）\n- ARTEX自主AI渗透平台被武器化，FBI发警告（69.25）\n\n### 安全评测与Benchmark\n- ScenarioForge：利用大模型自动生成并验证网络靶场场景（89.6）\n\n### 威胁检测\n- 基于 LLM 的 IoT 威胁检测与防御框架（78.95）\n\n### security_data_analysis\n- 基于大模型的Reddit数字隐私与安全求助行为分析（72.7）\n\n### 二进制安全\n- Accord：用LLM辅助构建C库机器检查保证案例的框架（72.4）\n\n### 漏洞挖掘\n- AI 扫描掀翻十年老 Bug：五家团队同时撞车底层漏洞（69.25）\n\n### AI Fuzzing\n- 使用 Devin 将 libyaml 移植至安全 Rust 并配置差分 Fuzzing（68.66）\n- STITCH：LLM自动化Fuzzing全生命周期工具（68.45）\n\n## AI Tech\n\n### 模型评测\n- 代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索（74.2）\n- 科学计算代码生成的 Agent 评测：测试覆盖与自验证成主要瓶颈（71.45）\n- Agent进化评估的「分辨率假说」：为何评估瓶颈阻碍自我提升（70.45）\n- 语言模型任务建模能力探测：计数容量评估（69.5）\n\n### Agent 架构\n- CompoundingKernel：从零自改进的GPU内核搜索Agent系统（70.2）\n\n### rag_faithfulness\n- SPARK框架：提升RAG忠实度的轻量级参数知识调控方法（68.2）\n\n## 今日论文\n- ScenarioForge：利用大模型自动生成并验证网络靶场场景\n- WeVisForensics：自我进化多Agent框架用于AI生成视频检测\n- 基于 LLM 的 IoT 威胁检测与防御框架\n- 代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索\n- 基于大模型的Reddit数字隐私与安全求助行为分析\n- Accord：用LLM辅助构建C库机器检查保证案例的框架\n- 科学计算代码生成的 Agent 评测：测试覆盖与自验证成主要瓶颈\n- Agent进化评估的「分辨率假说」：为何评估瓶颈阻碍自我提升\n\n## 今日观察\n目前得分最高的ScenarioForge证明了用大模型批量生成并自动化验证靶场场景已经能跑通。建议红蓝对抗和安全培训团队重点参考它基于Vulhub镜像的拓扑构建与Flag校验逻辑，直接借鉴这套流水线来压降日常靶场搭建的运维成本；同时做检测与响应的同学也可以留意一下今天其他高分项目里多Agent协同和检测加缓解双组件的联动思路。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-20 的系统入库窗口筛选，从 24 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-21T00:02:00+08:00"
+}
