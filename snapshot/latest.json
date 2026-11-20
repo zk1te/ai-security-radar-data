@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T06:17:36+08:00",
+  "updated_at": "2026-11-21T06:47:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -95,6 +95,31 @@
       "sub_category_label": "二进制安全"
     },
     {
+      "id": 34797,
+      "title": "用任意模型挖掘零日漏洞：编排重于前沿模型",
+      "original_title": "Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-model problem. https://t.co/yr0b2Adxhr",
+      "summary": "Niels Provos 提出漏洞发现是一个编排问题而非前沿模型问题，强调通过工程化调度而非单纯依赖大模型能力来实现零日漏洞挖掘。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 71.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent开发者必看：文章点破当前自动化漏洞挖掘的瓶颈在于任务编排而非模型智力。建议团队将精力从堆砌模型能力转向优化Agent协同与工具调用流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2123863699899174957",
+      "reader_url": "https://x.com/pentest_swissky/status/2123863699899174957",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-11-20T19:39:00",
+      "first_seen_at": "2026-11-20T22:45:56.665710",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 34598,
       "title": "科学计算代码生成的 Agent 评测：测试覆盖与自验证成主要瓶颈",
       "original_title": "Scientific Coding with Large Language Models: Evidence from Finite Element Analysis",
@@ -158,31 +183,6 @@
       "published_at": "2026-11-20T11:50:28",
       "first_seen_at": "2026-11-20T12:01:00.751964",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 34642,
-      "title": "STITCH：LLM自动化Fuzzing全生命周期工具",
-      "original_title": "Our tool STITCH automates the whole fuzzing lifecycle with LLMs. From only a git repo, it builds a project Dockerfile, compiles with fuzz instrumentation, writes code blocks, and r",
-      "summary": "STITCH利用LLM从Git仓库自动完成构建Dockerfile、插桩编译、编写代码、运行Fuzzer及crash分类去重，并生成可复现的Docker化Bug报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "全自动Fuzzing闭环工具，直接把AI Fuzzing落地到Bug Report生成环节。安全研究员和漏洞挖掘团队必看，能极大降低Fuzzing前置成本和crash triage负担。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hgarrereyn/status/2123770047839797369",
-      "reader_url": "https://x.com/hgarrereyn/status/2123770047839797369",
-      "image_url": "https://pbs.twimg.com/media/HXklmmSbsAAw4jp.png",
-      "author": {
-        "username": "hgarrereyn",
-        "name": "Harrison Green",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T13:26:51",
-      "first_seen_at": "2026-11-20T13:46:13.736892",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
