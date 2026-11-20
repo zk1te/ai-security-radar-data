@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T20:15:02+08:00",
+  "updated_at": "2026-11-20T20:45:22+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 5,
@@ -65,30 +65,6 @@
       "sub_category_label": "威胁检测"
     },
     {
-      "id": 34213,
-      "title": "WorkOS 报告数据泄露，攻击疑由 AI 渗透框架发起",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 报告称其检测到异常流量，调查显示攻击者疑似使用名为 ARTEX 的 AI 自主渗透测试框架访问了其内部 API，并窃取了 Salesforce 和 Snowflake 中的 CRM 及客户支持数据。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 78.55,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "攻击者疑似在野使用 AI 渗透框架（ARTEX）实施入侵，标志着自动化攻击工具正式进入实战阶段。安全团队需高度警惕针对企业内部 API 的高频自动化探测，并评估现有防御策略能否有效拦截 AI 驱动的攻击链。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-20",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-20",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-20T00:15:03.660328",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 34336,
       "title": "代码搜索评测反思：LLM 辅助 grep 助力 BM25 匹敌向量检索",
       "original_title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
@@ -107,6 +83,26 @@
       "published_at": "2026-11-20T00:00:00",
       "first_seen_at": "2026-11-20T06:44:30.518120",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 34398,
+      "title": "基于大模型的Reddit数字隐私与安全求助行为分析",
+      "original_title": "Understanding Help Seeking for Digital Privacy, Safety, and Security on Reddit",
+      "summary": "该研究利用大模型分析了Reddit过去五年超20亿条帖子，识别出400万条隐私与安全求助贴并自动标注主题，为优化安全支持资源提供参考。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_data_analysis",
+      "score_total": 72.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该研究展示了如何用LLM处理海量非结构化的安全数据，安全团队可借鉴此方法挖掘开源情报，发现用户真实痛点与常见威胁，从而优化安全资源与防御策略。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2601.11398",
+      "reader_url": "https://arxiv.org/pdf/2601.11398",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T05:00:00",
+      "first_seen_at": "2026-11-20T09:47:56.793338",
+      "sub_category_label": null
     }
   ]
 }
