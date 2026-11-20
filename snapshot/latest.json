@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T15:12:23+08:00",
+  "updated_at": "2026-11-20T15:43:54+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -109,51 +109,6 @@
       "sub_category_label": "模型评测"
     },
     {
-      "id": 34122,
-      "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
-      "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
-      "summary": "11月17日，微软官方 PyPI 包 agent-framework 两个版本被植入恶意 .pth 文件，存活55分钟，每次启动 Python 自动窃取云与开发者密钥。Wiz 发现攻击者使用了基于 GLM 模型的开源 AI 渗透框架 Cairn。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "ai_supply_chain",
-      "score_total": 73.19,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI Agent 已开始直接攻击构建 AI 的工具链，安全团队须立刻排查是否拉取过 1.26.1/1.26.2 版本，若有则全面轮换云和开发凭据；同时这也暴露出大模型在自动化攻击链中的实战潜力，防守方需高度警惕。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/whyNexqor/status/2123494095368941709",
-      "reader_url": "https://x.com/whyNexqor/status/2123494095368941709",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123493636365000704/img/tyFr1suSQ5J03ipC.jpg",
-      "author": {
-        "username": "whyNexqor",
-        "name": "Nexqor",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T19:10:19",
-      "first_seen_at": "2026-11-19T19:33:58.672266",
-      "sub_category_label": null
-    },
-    {
-      "id": 34116,
-      "title": "DeepSeek Harness 架构解析：Agent 安全边界与执行环境",
-      "original_title": "DeepSeek Harness 实战与架构解析：让 Agent 从“会聊”到“能交付”",
-      "summary": "本文详细拆解了 DeepSeek 推出的 Agent 运行环境 DSH 的六层架构，探讨了其沙箱审批机制、Super-agent 原型的 Router/Worker 分工及端云协同设计，并给出了实战应用路径。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security | agent_architecture",
-      "score_total": 72.85,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做安全 Agent 的人最头疼沙箱边界和长任务失控。DSH 提供了可组合的权限预设、独立巡检和端云协同方案，值得做自动化安全任务落地时参考，尤其注意别在陌生仓库关审批。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7708058421904392242",
-      "reader_url": "https://juejin.cn/post/7708058421904392242",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-15T14:14:07",
-      "first_seen_at": "2026-11-19T19:22:29.953141",
-      "sub_category_label": null
-    },
-    {
       "id": 33973,
       "title": "Agent进化评估的「分辨率假说」：为何评估瓶颈阻碍自我提升",
       "original_title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
@@ -212,6 +167,56 @@
       "published_at": "2026-11-19T00:00:00",
       "first_seen_at": "2026-11-20T03:16:06.201339",
       "sub_category_label": null
+    },
+    {
+      "id": 34269,
+      "title": "AI 扫描掀翻十年老 Bug：五家团队同时撞车底层漏洞",
+      "original_title": "五家团队同时撞车 把这起事件和过去三十天的几场风波摆在一起，比单看这两段 C 代码更有意思。10 月 21 日 PHP2Shell 爆出，栽在 PHP 请求启动与 memory_limit 触发 setjmp/longjmp 异常撤离时跳过清场，留下半成品哈希表。11 月 17 日 Java4Shell 披露，HotSpot 底层的 AVX-512 汇编内联",
+      "summary": "五家团队同时利用 AI 代码扫描工具发现 NGINX、PHP、Java 底层潜伏多年的内存安全漏洞，表明 AI 跨函数追踪深水逻辑的漏洞挖掘范式已规模化成熟。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI 扫描框架规模化复现了人肉审计极难触及的深水逻辑漏洞。安全团队需立即评估自身基础设施受影响面，并将 AI 代码扫描纳入日常审计流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/zzz6519003/status/2123598587263369375",
+      "reader_url": "https://x.com/zzz6519003/status/2123598587263369375",
+      "image_url": "https://pbs.twimg.com/media/HXiJo5CbUAAc0la.jpg",
+      "author": {
+        "username": "zzz6519003",
+        "name": "Snowmanzzz.html (寻170cm女生)",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T02:05:32",
+      "first_seen_at": "2026-11-20T02:21:16.268976",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 34152,
+      "title": "ARTEX：基于多智能体LLM的自主渗透测试系统",
+      "original_title": "🔧 ARTEX is an AI-driven autonomous penetration testing system built with Go and Next.js, using a multi-agent LLM architecture. It won the Baidu Agent + Attack-Defense Challenge. 1,",
+      "summary": "ARTEX 是一款基于 Go 和 Next.js 构建的 AI 自主渗透测试系统，采用多智能体 LLM 架构，曾获百度 Agent+攻防挑战赛冠军，GitHub 已超千星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.25,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "百度攻防赛冠军项目，用多智能体做自动化渗透，开源可复现。做安全自动化和 Agent 落地的同行重点看下它的架构设计，能直接借鉴实战分工思路。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DistillAI1/status/2123521748813643983",
+      "reader_url": "https://x.com/DistillAI1/status/2123521748813643983",
+      "image_url": "https://pbs.twimg.com/media/HXhDxxKbAAAXFen.jpg",
+      "author": {
+        "username": "DistillAI1",
+        "name": "Distill AI",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T21:00:12",
+      "first_seen_at": "2026-11-19T21:10:49.555749",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
