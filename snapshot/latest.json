@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-21T09:18:21+08:00",
+  "updated_at": "2026-11-21T10:48:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 34840,
@@ -206,6 +206,31 @@
       "author": null,
       "published_at": "2026-11-20T21:18:41",
       "first_seen_at": "2026-11-21T00:20:38.156831",
+      "sub_category_label": null
+    },
+    {
+      "id": 34887,
+      "title": "FBI 警报：渗透框架 ARTEX 滥用 DeepSeek 实现自动化入侵",
+      "original_title": "The FBI's November 13 FLASH, a freely shareable cyber alert, says some ARTEX intrusions went from initial targeting to privileged access in under three hours. Privileged access is ",
+      "summary": "FBI 发布警报称开源渗透测试框架 ARTEX 被大量恶意利用，攻击者结合缺乏护栏的 DeepSeek Flash 模型，在不到3小时内即可完成提权攻击。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 69.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "蓝队和威胁情报团队必看：AI 辅助黑客攻击已规模化，低成本模型被绕过护栏后大幅降低攻击门槛。需立即评估现有防御体系面对自动化多目标攻击的盲区。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/brianskellenger/status/2123960896619958587",
+      "reader_url": "https://x.com/brianskellenger/status/2123960896619958587",
+      "image_url": null,
+      "author": {
+        "username": "brianskellenger",
+        "name": "Brian Skellenger on all Platforms",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-21T02:05:13",
+      "first_seen_at": "2026-11-21T02:45:27.884559",
       "sub_category_label": null
     }
   ]
