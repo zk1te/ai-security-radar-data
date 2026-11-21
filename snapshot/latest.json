@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T17:20:14+08:00",
+  "updated_at": "2026-11-21T18:50:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -94,31 +94,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 34797,
-      "title": "用任意模型挖掘零日漏洞：编排重于前沿模型",
-      "original_title": "Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-model problem. https://t.co/yr0b2Adxhr",
-      "summary": "Niels Provos 提出漏洞发现是一个编排问题而非前沿模型问题，强调通过工程化调度而非单纯依赖大模型能力来实现零日漏洞挖掘。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 71.5,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全Agent开发者必看：文章点破当前自动化漏洞挖掘的瓶颈在于任务编排而非模型智力。建议团队将精力从堆砌模型能力转向优化Agent协同与工具调用流程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/pentest_swissky/status/2123863699899174957",
-      "reader_url": "https://x.com/pentest_swissky/status/2123863699899174957",
-      "image_url": null,
-      "author": {
-        "username": "pentest_swissky",
-        "name": "Swissky",
-        "avatar_url": null,
-        "followers_count": 23028
-      },
-      "published_at": "2026-11-20T19:39:00",
-      "first_seen_at": "2026-11-20T22:45:56.665710",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 34821,
       "title": "AI 辅助形式化验证：用数学证明对抗软件漏洞的新武器",
       "original_title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
@@ -136,6 +111,31 @@
       "author": null,
       "published_at": "2026-11-20T21:18:41",
       "first_seen_at": "2026-11-21T00:20:38.156831",
+      "sub_category_label": null
+    },
+    {
+      "id": 34887,
+      "title": "FBI 警报：渗透框架 ARTEX 滥用 DeepSeek 实现自动化入侵",
+      "original_title": "The FBI's November 13 FLASH, a freely shareable cyber alert, says some ARTEX intrusions went from initial targeting to privileged access in under three hours. Privileged access is ",
+      "summary": "FBI 发布警报称开源渗透测试框架 ARTEX 被大量恶意利用，攻击者结合缺乏护栏的 DeepSeek Flash 模型，在不到3小时内即可完成提权攻击。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 69.46,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "蓝队和威胁情报团队必看：AI 辅助黑客攻击已规模化，低成本模型被绕过护栏后大幅降低攻击门槛。需立即评估现有防御体系面对自动化多目标攻击的盲区。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/brianskellenger/status/2123960896619958587",
+      "reader_url": "https://x.com/brianskellenger/status/2123960896619958587",
+      "image_url": null,
+      "author": {
+        "username": "brianskellenger",
+        "name": "Brian Skellenger on all Platforms",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-21T02:05:13",
+      "first_seen_at": "2026-11-21T02:45:27.884559",
       "sub_category_label": null
     }
   ]
