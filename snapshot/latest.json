@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T18:50:43+08:00",
+  "updated_at": "2026-11-21T19:50:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -49,29 +49,29 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 34816,
-      "title": "自主渗透框架 ARTEX 被黑产滥用，FBI 发出安全警告",
-      "original_title": "\"ARTEX is an open-source, AI-driven autonomous penetration-testing framework first released on GitHub in July 2026 by a developer using the handle Autumn-27.  Written primarily in ",
-      "summary": "开源 AI 驱动的自主渗透测试框架 ARTEX 被犯罪团伙和国家级黑客广泛滥用，用于自动化入侵，FBI 已就此发布 FLASH 警报。",
+      "id": 34915,
+      "title": "AI Agent 11分钟挖出医疗软件0day并获Root权限",
+      "original_title": "🚨 Hackers used AI agents to discover a critical zero-day in medical-imaging software and gain ROOT access to a university server.  The agents found an exploit path in just 11 minut",
+      "summary": "攻击者使用 AI Agent 仅用 11 分钟就在医疗成像软件 MONAI Label 中发现一个 CVSS 9.8 的零日漏洞，并成功获取大学服务器 root 权限，目前尚无补丁。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.39,
-      "include_status": "included",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.29,
+      "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者必须关注自主渗透 Agent 被武器化的双刃剑效应。防御侧需立刻针对 LLM 编排的自动化攻击链升级检测规则，评估暴露面风险。",
+      "recommendation_reason": "11分钟拿root的实战效果表明 AI 自动化挖洞已不再是纸上谈兵。安全团队需警惕 AI 驱动的攻击面扩张速度，尽早评估自有系统的自动化漏洞发现响应能力。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/LilithDatura/status/2123924825647522125",
-      "reader_url": "https://x.com/LilithDatura/status/2123924825647522125",
-      "image_url": null,
+      "canonical_url": "https://x.com/TheHackersNews/status/2124096705532506230",
+      "reader_url": "https://x.com/TheHackersNews/status/2124096705532506230",
+      "image_url": "https://pbs.twimg.com/media/HXpOsFyaEAA5VyL.jpg",
       "author": {
-        "username": "LilithDatura",
-        "name": "Lilith Datura",
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
         "avatar_url": null,
-        "followers_count": 0
+        "followers_count": 2351119
       },
-      "published_at": "2026-11-20T23:41:53",
-      "first_seen_at": "2026-11-20T23:50:36.289572",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-11-21T11:04:53",
+      "first_seen_at": "2026-11-21T11:36:48.032674",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 34839,
