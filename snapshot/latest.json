@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T00:53:41+08:00",
+  "updated_at": "2026-11-22T02:55:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -185,29 +185,29 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 34632,
-      "title": "ARTEX：开源自主多智能体AI渗透测试系统",
-      "original_title": "AI is moving from answering questions to taking action.  Meet ARTEX.  It's an autonomous, multi-agent AI penetration testing system.  - Give it a target and AI agents can: - Map as",
-      "summary": "ARTEX是一个开源、模型不可知的自主多智能体渗透测试系统，能够自动进行资产测绘、漏洞发现、攻击链构造并捕获HTTP流量作为证据。",
+      "id": 34718,
+      "title": "黑客使用开源 AI 渗透工具 Cairn 发现零日漏洞并接管服务器",
+      "original_title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulne",
+      "summary": "威胁行为者利用开源 AI 渗透测试框架 Cairn，在医疗成像应用中发现此前未知的零日漏洞，并成功接管了目标服务器。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
+      "sub_category": "vuln_discovery",
       "score_total": 74.25,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全团队应关注此类能自主执行多步攻击路径的AI Agent。它不仅可用于红队自动化，也预示着防御侧需应对AI驱动的复合攻击，值得立即评估其能力边界。",
+      "recommendation_reason": "攻击者已开始实战使用自主 AI 渗透工具挖 0day，安全团队需警惕 AI 驱动的攻击提速，关注 Cairn 等开源安全 Agent 的双刃剑效应。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/james_base_eth/status/2123757167190909224",
-      "reader_url": "https://x.com/james_base_eth/status/2123757167190909224",
-      "image_url": "https://pbs.twimg.com/media/HXkZunGasAEibRk.png",
+      "canonical_url": "https://x.com/jpsharada/status/2123837729486344502",
+      "reader_url": "https://x.com/jpsharada/status/2123837729486344502",
+      "image_url": null,
       "author": {
-        "username": "james_base_eth",
-        "name": "unselfish.eth",
+        "username": "jpsharada",
+        "name": "ℵ ᴷᴵᵞᵁˢᴬᴹᴬ ℵ",
         "avatar_url": null,
         "followers_count": 0
       },
-      "published_at": "2026-11-20T12:35:40",
-      "first_seen_at": "2026-11-21T16:35:34.317718",
-      "sub_category_label": "安全Agent"
+      "published_at": "2026-11-20T17:55:48",
+      "first_seen_at": "2026-11-21T18:35:43.556979",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
