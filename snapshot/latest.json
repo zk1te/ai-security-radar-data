@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T15:19:18+08:00",
+  "updated_at": "2026-11-21T15:49:24+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -69,31 +69,6 @@
       "sub_category_label": null
     },
     {
-      "id": 34749,
-      "title": "FBI 警告开源 AI 攻击工具 ARTEX：15 分钟突破网络",
-      "original_title": "THE FBI IS WARNING ABOUT AN OPEN-SOURCE AI HACKING TOOL THAT GOT INTO A NETWORK IN ABOUT 15 MINUTES  ARTEX went up on GitHub in July as a penetration testing framework. by August, ",
-      "summary": "FBI 警告开源 AI 渗透测试框架 ARTEX 被武器化，6 个 AI Agent 协同可在 15 分钟内获取系统权限，攻击成本仅 145 至 1500 美元。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 73.01,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Ravlizk/status/2123856788739006605",
-      "reader_url": "https://x.com/Ravlizk/status/2123856788739006605",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123856570370887681/img/N9vAlo9cDSFLCNTl.jpg",
-      "author": {
-        "username": "Ravlizk",
-        "name": "Ravli",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T19:11:32",
-      "first_seen_at": "2026-11-20T19:31:29.824330",
-      "sub_category_label": null
-    },
-    {
       "id": 34816,
       "title": "自主渗透框架 ARTEX 被黑产滥用，FBI 发出安全警告",
       "original_title": "\"ARTEX is an open-source, AI-driven autonomous penetration-testing framework first released on GitHub in July 2026 by a developer using the handle Autumn-27.  Written primarily in ",
@@ -137,6 +112,31 @@
       "published_at": "2026-11-20T14:59:55",
       "first_seen_at": "2026-11-21T01:01:06.195293",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34797,
+      "title": "用任意模型挖掘零日漏洞：编排重于前沿模型",
+      "original_title": "Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-model problem. https://t.co/yr0b2Adxhr",
+      "summary": "Niels Provos 提出漏洞发现是一个编排问题而非前沿模型问题，强调通过工程化调度而非单纯依赖大模型能力来实现零日漏洞挖掘。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 71.5,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全Agent开发者必看：文章点破当前自动化漏洞挖掘的瓶颈在于任务编排而非模型智力。建议团队将精力从堆砌模型能力转向优化Agent协同与工具调用流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2123863699899174957",
+      "reader_url": "https://x.com/pentest_swissky/status/2123863699899174957",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-11-20T19:39:00",
+      "first_seen_at": "2026-11-20T22:45:56.665710",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
