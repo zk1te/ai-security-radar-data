@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T19:50:51+08:00",
+  "updated_at": "2026-11-21T20:20:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -22,30 +22,6 @@
       "author": null,
       "published_at": "2026-11-20T15:53:40",
       "first_seen_at": "2026-11-21T01:01:06.322474",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 34818,
-      "title": "WorkOS 遭 AI 自主渗透框架 ARTEX 攻击致数据泄露",
-      "original_title": "HN Hot Discussion: WorkOS reports security breach",
-      "summary": "WorkOS 发布安全通告称其内部系统遭到名为 ARTEX 的 AI 辅助自主渗透测试框架攻击，导致 Salesforce 和 Snowflake 中的客户 CRM 及支持工单数据泄露。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 81.05,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "首批明确被 AI 自主渗透框架在野攻击的企业事件之一。红蓝双方都应关注 AI 渗透工具的实际破坏力，蓝队需评估现有防御能否抵御 AI 节奏的自动化攻击。",
-      "source_id": "hn-ai-security",
-      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-21",
-      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-21",
-      "image_url": null,
-      "author": {
-        "username": "werrett",
-        "name": "werrett",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-02T23:30:59",
-      "first_seen_at": "2026-11-21T00:03:40.838954",
       "sub_category_label": "安全Agent"
     },
     {
@@ -94,26 +70,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 34821,
-      "title": "AI 辅助形式化验证：用数学证明对抗软件漏洞的新武器",
-      "original_title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
-      "summary": "Latent Space 讨论了如何利用 AI 和 Lean 等工具自动化传统上需要专家介入的形式化验证过程，以数学证明保证软件正确性。",
-      "primary_category": "AI for Sec",
-      "sub_category": "formal_verification",
-      "score_total": 69.9,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "形式化验证是高阶代码审计和漏洞防御手段，AI 辅助自动化证明能大幅降低门槛。安全团队应关注此趋势，评估将其引入关键组件安全审计流程的可行性。",
-      "source_id": "latent-space",
-      "canonical_url": "https://latent.space/p/formal-verification",
-      "reader_url": "https://latent.space/p/formal-verification",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-20T21:18:41",
-      "first_seen_at": "2026-11-21T00:20:38.156831",
-      "sub_category_label": null
-    },
-    {
       "id": 34887,
       "title": "FBI 警报：渗透框架 ARTEX 滥用 DeepSeek 实现自动化入侵",
       "original_title": "The FBI's November 13 FLASH, a freely shareable cyber alert, says some ARTEX intrusions went from initial targeting to privileged access in under three hours. Privileged access is ",
@@ -137,6 +93,46 @@
       "published_at": "2026-11-21T02:05:13",
       "first_seen_at": "2026-11-21T02:45:27.884559",
       "sub_category_label": null
+    },
+    {
+      "id": 33988,
+      "title": "StatePortal：用Agent合成检查点解决GUI软件深层状态测试难题",
+      "original_title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+      "summary": "本文提出StatePortal Agent，通过自然语言用例和源码访问合成可复用的状态检查点，解决交互式软件测试中难以到达深层状态的问题。系统采用混合评估机制并发布了DeepStateBench基准。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 68.8,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "自动化到达深层状态是GUI Fuzzing和自动化渗透测试的长期痛点。本文的Checkpoint合成与Hook注入方法可直接借鉴到安全测试Agent中，显著降低重复到达漏洞触发点的成本。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.23257",
+      "reader_url": "https://arxiv.org/pdf/2611.23257",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T00:00:00",
+      "first_seen_at": "2026-11-21T09:03:45.758200",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 34836,
+      "title": "GitHub热榜：CLI-Anything让所有软件原生支持Agent",
+      "original_title": "GitHub Trending: HKUDS/CLI-Anything gained 773 stars today",
+      "summary": "CLI-Anything项目近期在GitHub热榜大涨，它旨在通过包装CLI将所有软件变成Agent原生，使其能直接被AI调用。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 66.49,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "对构建自动化安全Agent的团队来说，这是一个值得关注的工具连接器，能够快速把现有的安全工具CLI（如nmap、sqlmap）无缝接入Agent生态。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/HKUDS/CLI-Anything?github_trending_date=2026-11-21&since=daily",
+      "reader_url": "https://github.com/HKUDS/CLI-Anything?github_trending_date=2026-11-21&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T10:05:15",
+      "first_seen_at": "2026-11-21T01:00:44.364020",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
