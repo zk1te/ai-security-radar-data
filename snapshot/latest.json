@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T23:21:54+08:00",
+  "updated_at": "2026-11-22T00:53:41+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -43,6 +43,31 @@
       "published_at": "2026-11-20T05:00:00",
       "first_seen_at": "2026-11-21T15:03:54.822713",
       "sub_category_label": null
+    },
+    {
+      "id": 34615,
+      "title": "ARTEX自主AI渗透平台被武器化，FBI发警告",
+      "original_title": "Found it. ARTEX is a Chinese-developed autonomous AI penetration-testing platform that has already been weaponized in major international cyberattacks.  The FBI issued a dedicated ",
+      "summary": "自主AI渗透平台ARTEX被武器化用于国际网络攻击，FBI于2026年11月13日发布专门警告。该平台协调DeepSeek、Claude等多个大模型实现攻击自动化，大幅降低攻击门槛，对防御方构成结构性挑战。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "FBI和Check Point报告披露了首个在野大规模利用的自主AI攻击Agent平台。安全团队需警惕AI驱动的自动化攻击浪潮，立即评估现有防御机制的自动化响应能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HochstatMichael/status/2123745791621681501",
+      "reader_url": "https://x.com/HochstatMichael/status/2123745791621681501",
+      "image_url": null,
+      "author": {
+        "username": "HochstatMichael",
+        "name": "Michael hochstat",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T11:50:28",
+      "first_seen_at": "2026-11-21T16:35:34.317718",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 34915,
@@ -160,44 +185,29 @@
       "sub_category_label": "AI Fuzzing"
     },
     {
-      "id": 34494,
-      "title": "签名引导的自适应对抗样本检测验证器训练",
-      "original_title": "Learning to Verify: Signature-Guided Training for Adaptive Adversarial Detection",
-      "summary": "提出一种双模型检测方法，利用内部激活签名生成对抗样本训练验证器，有效抵御自适应攻击并保持高清洁准确率。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "model_security",
-      "score_total": 73.65,
+      "id": 34632,
+      "title": "ARTEX：开源自主多智能体AI渗透测试系统",
+      "original_title": "AI is moving from answering questions to taking action.  Meet ARTEX.  It's an autonomous, multi-agent AI penetration testing system.  - Give it a target and AI agents can: - Map as",
+      "summary": "ARTEX是一个开源、模型不可知的自主多智能体渗透测试系统，能够自动进行资产测绘、漏洞发现、攻击链构造并捕获HTTP流量作为证据。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 74.25,
       "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做模型安全防御的工程师该看，提出用内部激活签名生成对抗样本并训练验证器的新范式，能有效防御自适应攻击，可借鉴其双模型架构思路。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.25271",
-      "reader_url": "https://arxiv.org/pdf/2611.25271",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-20T05:00:00",
-      "first_seen_at": "2026-11-21T15:03:54.822713",
-      "sub_category_label": null
-    },
-    {
-      "id": 34518,
-      "title": "研究：LLM Judge 的盲点如何在 RL 训练中传递",
-      "original_title": "Blind Spots Travel, Knowledge Stays Home: What RL Inherits from an LLM Judge",
-      "summary": "研究发现，用 LLM 作为强化学习的评判者时，其针对特定问题类别的偏见会被模型继承，导致模型盲目拒绝整类问题，而不仅仅是单个答案的错误。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 72.95,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "用 LLM judge 做安全评测和强化学习的团队必看。这暴露了 judge 会在 RL 中留下特定的认知盲区，导致模型在某些类别上盲目拒绝。如果你的安全 Agent 出现莫名其妙的拒答，可能不是模型变安全了，而是 judge 的盲点被继承了。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.25191",
-      "reader_url": "https://arxiv.org/pdf/2611.25191",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-20T05:00:00",
-      "first_seen_at": "2026-11-21T15:03:54.822713",
-      "sub_category_label": "模型评测"
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注此类能自主执行多步攻击路径的AI Agent。它不仅可用于红队自动化，也预示着防御侧需应对AI驱动的复合攻击，值得立即评估其能力边界。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/james_base_eth/status/2123757167190909224",
+      "reader_url": "https://x.com/james_base_eth/status/2123757167190909224",
+      "image_url": "https://pbs.twimg.com/media/HXkZunGasAEibRk.png",
+      "author": {
+        "username": "james_base_eth",
+        "name": "unselfish.eth",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T12:35:40",
+      "first_seen_at": "2026-11-21T16:35:34.317718",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
