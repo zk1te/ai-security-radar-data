@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T05:26:06+08:00",
+  "updated_at": "2026-11-22T06:56:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -88,6 +88,31 @@
       "published_at": "2026-11-20T18:29:49",
       "first_seen_at": "2026-11-21T20:35:49.528672",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34122,
+      "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
+      "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
+      "summary": "11月17日，微软官方 PyPI 包 agent-framework 两个版本被植入恶意 .pth 文件，存活55分钟，每次启动 Python 自动窃取云与开发者密钥。Wiz 发现攻击者使用了基于 GLM 模型的开源 AI 渗透框架 Cairn。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "ai_supply_chain",
+      "score_total": 81.89,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI Agent 已开始直接攻击构建 AI 的工具链，安全团队须立刻排查是否拉取过 1.26.1/1.26.2 版本，若有则全面轮换云和开发凭据；同时这也暴露出大模型在自动化攻击链中的实战潜力，防守方需高度警惕。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/whyNexqor/status/2123494095368941709",
+      "reader_url": "https://x.com/whyNexqor/status/2123494095368941709",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123493636365000704/img/tyFr1suSQ5J03ipC.jpg",
+      "author": {
+        "username": "whyNexqor",
+        "name": "Nexqor",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-19T19:10:19",
+      "first_seen_at": "2026-11-21T22:36:11.874321",
+      "sub_category_label": null
     },
     {
       "id": 34749,
@@ -192,26 +217,6 @@
       "author": null,
       "published_at": "2026-11-19T05:00:00",
       "first_seen_at": "2026-11-21T21:03:58.345618",
-      "sub_category_label": null
-    },
-    {
-      "id": 34515,
-      "title": "BuggyMLE：利用Bug注入构建难度分级的MLE基准",
-      "original_title": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
-      "summary": "论文提出代码复杂度指数CCI，并开发BuggyMLE框架通过注入Bug生成大量MLE仓库变体，构建了难度分级的BuggyMLE-Bench-Lite基准，并利用合成数据微调模型显著提升了SWE-bench等基准上的解决率。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "model_evaluation",
-      "score_total": 77.85,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "通过Bug注入自动化生成代码缺陷修复训练集并有效提升模型修复能力，这套数据合成和难度分级方法直接可迁移到自动化漏洞修复和安全Agent训练上，做代码安全的朋友值得一看。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.25088",
-      "reader_url": "https://arxiv.org/pdf/2611.25088",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-20T05:00:00",
-      "first_seen_at": "2026-11-21T15:03:54.822713",
       "sub_category_label": null
     }
   ]
