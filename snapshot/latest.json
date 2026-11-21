@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-21T21:21:18+08:00",
+  "updated_at": "2026-11-21T21:51:27+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 34915,
@@ -118,6 +118,31 @@
       "published_at": "2026-11-19T00:00:00",
       "first_seen_at": "2026-11-21T09:03:45.758200",
       "sub_category_label": "LLM 架构"
+    },
+    {
+      "id": 34888,
+      "title": "CCS 2026论文预告：用AI突破C库Fuzzing固定API序列限制",
+      "original_title": "RT @hgarrereyn: Fuzzing a C library usually means writing a fuzz harness, testing only a fixed API sequence.  In our CCS 2026 paper, we let…",
+      "summary": "该推文预告了一篇CCS 2026论文，指出传统C库Fuzzing需手写harness且仅测试固定API序列，提出了一种新的基于AI的解决方案。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 64.32,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "搞Fuzzing和漏洞挖掘的必看。手写harness和API覆盖不足一直是痛点，这篇论文提出用AI突破固定API序列限制，若能落地将直接提升自动化漏洞发现效率。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/soaphornseuo/status/2123952736622572013",
+      "reader_url": "https://x.com/soaphornseuo/status/2123952736622572013",
+      "image_url": null,
+      "author": {
+        "username": "soaphornseuo",
+        "name": "soaphorn seuo",
+        "avatar_url": null,
+        "followers_count": 2488
+      },
+      "published_at": "2026-11-21T01:32:48",
+      "first_seen_at": "2026-11-21T03:25:22.923654",
+      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
