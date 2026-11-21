@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-21T08:48:16+08:00",
+  "updated_at": "2026-11-21T09:18:21+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
+    {
+      "id": 34840,
+      "title": "Claude-BugHunter 开源：82 个技能的 AI 红队工具包",
+      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1622 stars today",
+      "summary": "该项目为 Claude Code 提供了 82 个技能、15 个斜杠命令和 681 个漏洞报告模式，覆盖 24 个核心漏洞类别，用于 bug hunting 和外部红队工作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 92.07,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "红队和安全研究员该看，这是一个现成的 Claude Code 安全技能包，能直接用于漏洞挖掘和报告编写。看看它的漏洞模式库，能直接丰富你手头 Agent 的知识储备。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-21&since=daily",
+      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-21&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T15:53:40",
+      "first_seen_at": "2026-11-21T01:01:06.322474",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 34818,
       "title": "WorkOS 遭 AI 自主渗透框架 ARTEX 攻击致数据泄露",
@@ -124,6 +144,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 34839,
+      "title": "阿里开源 AI 代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+      "summary": "alibaba/open-code-review 采用确定性流水线与 LLM Agent 结合的混合架构，提供行级代码审查，内置 XSS、SQL 注入等多种安全规则集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "阿里大规模实战检验的 AI 代码审查工具，兼顾规则确定性与 LLM 灵活性。安全团队可直接接入流水线，利用其多语言规则集和 Agent 能力辅助挖掘 XSS、SQL 注入等漏洞。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-21&since=weekly",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-21&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T14:59:55",
+      "first_seen_at": "2026-11-21T01:01:06.195293",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 34797,
       "title": "用任意模型挖掘零日漏洞：编排重于前沿模型",
       "original_title": "Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-model problem. https://t.co/yr0b2Adxhr",
@@ -167,51 +207,6 @@
       "published_at": "2026-11-20T21:18:41",
       "first_seen_at": "2026-11-21T00:20:38.156831",
       "sub_category_label": null
-    },
-    {
-      "id": 34642,
-      "title": "STITCH：LLM自动化Fuzzing全生命周期工具",
-      "original_title": "Our tool STITCH automates the whole fuzzing lifecycle with LLMs. From only a git repo, it builds a project Dockerfile, compiles with fuzz instrumentation, writes code blocks, and r",
-      "summary": "STITCH利用LLM从Git仓库自动完成构建Dockerfile、插桩编译、编写代码、运行Fuzzer及crash分类去重，并生成可复现的Docker化Bug报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "全自动Fuzzing闭环工具，直接把AI Fuzzing落地到Bug Report生成环节。安全研究员和漏洞挖掘团队必看，能极大降低Fuzzing前置成本和crash triage负担。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hgarrereyn/status/2123770047839797369",
-      "reader_url": "https://x.com/hgarrereyn/status/2123770047839797369",
-      "image_url": "https://pbs.twimg.com/media/HXklmmSbsAAw4jp.png",
-      "author": {
-        "username": "hgarrereyn",
-        "name": "Harrison Green",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T13:26:51",
-      "first_seen_at": "2026-11-20T13:46:13.736892",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 34448,
-      "title": "COTEX：实现多模态Agent工具空间的持续扩展学习",
-      "original_title": "Continual Tool-Space Extension Learning for Multimodal Agents",
-      "summary": "提出 COTEX 方法，通过 adapter 级别的参数调整和正交约束，让多模态 Agent 能高效学习新工具且不遗忘旧工具，在十个视觉语言基准上表现提升。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 68.25,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "面向 Agent 架构研究者。探讨了 Agent 如何动态挂载新工具而不破坏原有能力，为后续研究 Agent 工具滥用或注入风险提供了架构底座参考。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.23810",
-      "reader_url": "https://arxiv.org/pdf/2611.23810",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-20T05:00:00",
-      "first_seen_at": "2026-11-20T21:03:29.382452",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
