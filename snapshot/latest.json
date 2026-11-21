@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T11:18:41+08:00",
+  "updated_at": "2026-11-21T15:19:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -46,31 +46,6 @@
       },
       "published_at": "2026-11-02T23:30:59",
       "first_seen_at": "2026-11-21T00:03:40.838954",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 34735,
-      "title": "Cairn：自主渗透测试 AI 搜索引擎斩获腾讯云挑战赛满分",
-      "original_title": "🚨 Cairn: a general-purpose AI state-space search engine first validated on autonomous penetration testing  GitHub: https://t.co/HH01ZEYXEq  Cairn does not rely on fixed agent roles",
-      "summary": "Cairn 是一款通用 AI 状态空间搜索引擎，通过多 Agent 共享图进行自主渗透测试，在腾讯云 AI 渗透挑战赛中取得 54/54 的满分成绩。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 74.47,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和自动化安全开发者必看。多 Agent 动态探索加共享图推理的架构思路非常值得借鉴，直接开源可复现，是构建自动化渗透和 CTF Agent 的优质参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
-      "reader_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
-      "image_url": "https://pbs.twimg.com/media/HXlq0nGXkAAZgBA.jpg",
-      "author": {
-        "username": "DarkWebInformer",
-        "name": "Dark Web Informer",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T18:29:49",
-      "first_seen_at": "2026-11-20T19:00:05.264181",
       "sub_category_label": "安全Agent"
     },
     {
@@ -141,6 +116,26 @@
       },
       "published_at": "2026-11-20T23:41:53",
       "first_seen_at": "2026-11-20T23:50:36.289572",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34839,
+      "title": "阿里开源 AI 代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+      "summary": "alibaba/open-code-review 采用确定性流水线与 LLM Agent 结合的混合架构，提供行级代码审查，内置 XSS、SQL 注入等多种安全规则集。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.05,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "阿里大规模实战检验的 AI 代码审查工具，兼顾规则确定性与 LLM 灵活性。安全团队可直接接入流水线，利用其多语言规则集和 Agent 能力辅助挖掘 XSS、SQL 注入等漏洞。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-21&since=weekly",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-21&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T14:59:55",
+      "first_seen_at": "2026-11-21T01:01:06.195293",
       "sub_category_label": "安全Agent"
     }
   ]
