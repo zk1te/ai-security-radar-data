@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T21:51:27+08:00",
+  "updated_at": "2026-11-21T22:21:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -75,31 +75,6 @@
       "sub_category_label": "Agent 架构"
     },
     {
-      "id": 34875,
-      "title": "自主AI Agent 11分钟挖掘并利用MONAI Label零日漏洞获root权限",
-      "original_title": "An autonomous AI agent discovered and exploited a zero-day in MONAI Label — writing a Python reverse shell to gain root access — in 11 minutes flat.  Cairn's agents mapped the API,",
-      "summary": "Cairn的自主Agent在11分钟内发现MONAI Label零日漏洞（CVE-2025-49595），写入Python反向Shell获取root权限，并横向渗透至另一大学网络。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.26,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这展示了自主漏洞挖掘Agent的实战破坏力。防御团队需意识到AI已将漏洞从存在到被利用的时间压缩至分钟级，必须立即将运行时隔离与实时防护提上日程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2123930034746327267",
-      "reader_url": "https://x.com/aviatrixtrc/status/2123930034746327267",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-11-21T00:02:35",
-      "first_seen_at": "2026-11-21T02:09:58.978680",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 33990,
       "title": "QDA：基于Agent的闭环大模型量化设计系统",
       "original_title": "QDA: Closed-Loop LLM Quantization Design with Agents",
@@ -143,6 +118,26 @@
       "published_at": "2026-11-21T01:32:48",
       "first_seen_at": "2026-11-21T03:25:22.923654",
       "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 33986,
+      "title": "PReMind：视觉危险与个人记忆结合的评测框架",
+      "original_title": "PReMind: When Personal Memory Meets Visual Hazards",
+      "summary": "论文提出 PReMind-Bench 评测基准及两阶段强化学习框架，用于提升个性化视觉语言助手在结合视觉危险与个人记忆场景下的联合响应能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 63.3,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "面向做 Agent 安全评测的团队。论文探索了视觉助手在结合个人上下文与物理危险时的响应缺陷，其评测维度设计对构建安全 Agent 具有借鉴价值。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.23808",
+      "reader_url": "https://arxiv.org/pdf/2611.23808",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T00:00:00",
+      "first_seen_at": "2026-11-21T09:03:45.758200",
+      "sub_category_label": "模型评测"
     }
   ]
 }
