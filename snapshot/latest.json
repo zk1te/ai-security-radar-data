@@ -1,9 +1,33 @@
 {
-  "updated_at": "2026-11-21T07:17:57+08:00",
+  "updated_at": "2026-11-21T08:18:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
   "items": [
+    {
+      "id": 34818,
+      "title": "WorkOS 遭 AI 自主渗透框架 ARTEX 攻击致数据泄露",
+      "original_title": "HN Hot Discussion: WorkOS reports security breach",
+      "summary": "WorkOS 发布安全通告称其内部系统遭到名为 ARTEX 的 AI 辅助自主渗透测试框架攻击，导致 Salesforce 和 Snowflake 中的客户 CRM 及支持工单数据泄露。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.05,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "首批明确被 AI 自主渗透框架在野攻击的企业事件之一。红蓝双方都应关注 AI 渗透工具的实际破坏力，蓝队需评估现有防御能否抵御 AI 节奏的自动化攻击。",
+      "source_id": "hn-ai-security",
+      "canonical_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-21",
+      "reader_url": "https://news.ycombinator.com/item?id=50345712&hn_hot_date=2026-11-21",
+      "image_url": null,
+      "author": {
+        "username": "werrett",
+        "name": "werrett",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-02T23:30:59",
+      "first_seen_at": "2026-11-21T00:03:40.838954",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 34735,
       "title": "Cairn：自主渗透测试 AI 搜索引擎斩获腾讯云挑战赛满分",
@@ -75,6 +99,31 @@
       "sub_category_label": null
     },
     {
+      "id": 34816,
+      "title": "自主渗透框架 ARTEX 被黑产滥用，FBI 发出安全警告",
+      "original_title": "\"ARTEX is an open-source, AI-driven autonomous penetration-testing framework first released on GitHub in July 2026 by a developer using the handle Autumn-27.  Written primarily in ",
+      "summary": "开源 AI 驱动的自主渗透测试框架 ARTEX 被犯罪团伙和国家级黑客广泛滥用，用于自动化入侵，FBI 已就此发布 FLASH 警报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 72.39,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec 从业者必须关注自主渗透 Agent 被武器化的双刃剑效应。防御侧需立刻针对 LLM 编排的自动化攻击链升级检测规则，评估暴露面风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/LilithDatura/status/2123924825647522125",
+      "reader_url": "https://x.com/LilithDatura/status/2123924825647522125",
+      "image_url": null,
+      "author": {
+        "username": "LilithDatura",
+        "name": "Lilith Datura",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T23:41:53",
+      "first_seen_at": "2026-11-20T23:50:36.289572",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 34797,
       "title": "用任意模型挖掘零日漏洞：编排重于前沿模型",
       "original_title": "Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-model problem. https://t.co/yr0b2Adxhr",
@@ -98,31 +147,6 @@
       "published_at": "2026-11-20T19:39:00",
       "first_seen_at": "2026-11-20T22:45:56.665710",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 34615,
-      "title": "ARTEX自主AI渗透平台被武器化，FBI发警告",
-      "original_title": "Found it. ARTEX is a Chinese-developed autonomous AI penetration-testing platform that has already been weaponized in major international cyberattacks.  The FBI issued a dedicated ",
-      "summary": "自主AI渗透平台ARTEX被武器化用于国际网络攻击，FBI于2026年11月13日发布专门警告。该平台协调DeepSeek、Claude等多个大模型实现攻击自动化，大幅降低攻击门槛，对防御方构成结构性挑战。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 69.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "FBI和Check Point报告披露了首个在野大规模利用的自主AI攻击Agent平台。安全团队需警惕AI驱动的自动化攻击浪潮，立即评估现有防御机制的自动化响应能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HochstatMichael/status/2123745791621681501",
-      "reader_url": "https://x.com/HochstatMichael/status/2123745791621681501",
-      "image_url": null,
-      "author": {
-        "username": "HochstatMichael",
-        "name": "Michael hochstat",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T11:50:28",
-      "first_seen_at": "2026-11-20T12:01:00.751964",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 34642,
@@ -188,31 +212,6 @@
       "published_at": "2026-11-20T05:00:00",
       "first_seen_at": "2026-11-20T21:03:29.382452",
       "sub_category_label": null
-    },
-    {
-      "id": 34638,
-      "title": "STITCH：动态构建API序列的C/C++库自动化Fuzzing方法",
-      "original_title": "Fuzzing a C library usually means writing a fuzz harness, testing only a fixed API sequence.  In our CCS 2026 paper, we let the fuzzer build the sequence on the fly. We call this s",
-      "summary": "一篇 CCS 2026 论文提出名为 STITCH 的 Fuzzing 方法，通过动态构建 API 序列而非固定测试，已对超 1000 个 C/C++ 库进行自动化测试并促成 100 余个漏洞修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 68.16,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队必看。STITCH 解决了传统 Fuzzing 需手写 harness 且 API 序列固定的痛点，已真实挖掘上百个漏洞，极具工程落地价值，可立即跟进其方法论评估集成可能。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hgarrereyn/status/2123769832562950573",
-      "reader_url": "https://x.com/hgarrereyn/status/2123769832562950573",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123769813910892544/img/RfSXHXJGeHfs55zK.jpg",
-      "author": {
-        "username": "hgarrereyn",
-        "name": "Harrison Green",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T13:26:00",
-      "first_seen_at": "2026-11-20T13:45:07.122503",
-      "sub_category_label": "AI Fuzzing"
     }
   ]
 }
