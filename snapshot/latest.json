@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T02:55:39+08:00",
+  "updated_at": "2026-11-22T04:55:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -22,6 +22,56 @@
       "author": null,
       "published_at": "2026-11-20T05:00:00",
       "first_seen_at": "2026-11-21T15:03:54.822713",
+      "sub_category_label": null
+    },
+    {
+      "id": 34735,
+      "title": "Cairn：自主渗透测试 AI 搜索引擎斩获腾讯云挑战赛满分",
+      "original_title": "🚨 Cairn: a general-purpose AI state-space search engine first validated on autonomous penetration testing  GitHub: https://t.co/HH01ZEYXEq  Cairn does not rely on fixed agent roles",
+      "summary": "Cairn 是一款通用 AI 状态空间搜索引擎，通过多 Agent 共享图进行自主渗透测试，在腾讯云 AI 渗透挑战赛中取得 54/54 的满分成绩。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 81.97,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "红队和自动化安全开发者必看。多 Agent 动态探索加共享图推理的架构思路非常值得借鉴，直接开源可复现，是构建自动化渗透和 CTF Agent 的优质参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
+      "reader_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
+      "image_url": "https://pbs.twimg.com/media/HXlq0nGXkAAZgBA.jpg",
+      "author": {
+        "username": "DarkWebInformer",
+        "name": "Dark Web Informer",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T18:29:49",
+      "first_seen_at": "2026-11-21T20:35:49.528672",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34749,
+      "title": "FBI 警告开源 AI 攻击工具 ARTEX：15 分钟突破网络",
+      "original_title": "THE FBI IS WARNING ABOUT AN OPEN-SOURCE AI HACKING TOOL THAT GOT INTO A NETWORK IN ABOUT 15 MINUTES  ARTEX went up on GitHub in July as a penetration testing framework. by August, ",
+      "summary": "FBI 警告开源 AI 渗透测试框架 ARTEX 被武器化，6 个 AI Agent 协同可在 15 分钟内获取系统权限，攻击成本仅 145 至 1500 美元。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 81.26,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Ravlizk/status/2123856788739006605",
+      "reader_url": "https://x.com/Ravlizk/status/2123856788739006605",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123856570370887681/img/N9vAlo9cDSFLCNTl.jpg",
+      "author": {
+        "username": "Ravlizk",
+        "name": "Ravli",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T19:11:32",
+      "first_seen_at": "2026-11-21T20:35:49.528672",
       "sub_category_label": null
     },
     {
@@ -115,6 +165,31 @@
       "sub_category_label": null
     },
     {
+      "id": 34269,
+      "title": "AI 扫描掀翻十年老 Bug：五家团队同时撞车底层漏洞",
+      "original_title": "五家团队同时撞车 把这起事件和过去三十天的几场风波摆在一起，比单看这两段 C 代码更有意思。10 月 21 日 PHP2Shell 爆出，栽在 PHP 请求启动与 memory_limit 触发 setjmp/longjmp 异常撤离时跳过清场，留下半成品哈希表。11 月 17 日 Java4Shell 披露，HotSpot 底层的 AVX-512 汇编内联",
+      "summary": "五家团队同时利用 AI 代码扫描工具发现 NGINX、PHP、Java 底层潜伏多年的内存安全漏洞，表明 AI 跨函数追踪深水逻辑的漏洞挖掘范式已规模化成熟。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 76.75,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI 扫描框架规模化复现了人肉审计极难触及的深水逻辑漏洞。安全团队需立即评估自身基础设施受影响面，并将 AI 代码扫描纳入日常审计流程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/zzz6519003/status/2123598587263369375",
+      "reader_url": "https://x.com/zzz6519003/status/2123598587263369375",
+      "image_url": "https://pbs.twimg.com/media/HXiJo5CbUAAc0la.jpg",
+      "author": {
+        "username": "zzz6519003",
+        "name": "Snowmanzzz.html (寻170cm女生)",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T02:05:32",
+      "first_seen_at": "2026-11-21T20:35:49.528672",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 34480,
       "title": "长距离视频呈现攻击检测基准：1-100米多传感器评估",
       "original_title": "Long-Range Video Presentation Attack Detection: A Three-Class Benchmark Across 1-100 m and Two Sensor Types",
@@ -133,81 +208,6 @@
       "published_at": "2026-11-20T05:00:00",
       "first_seen_at": "2026-11-21T15:03:54.822713",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 34642,
-      "title": "STITCH：LLM自动化Fuzzing全生命周期工具",
-      "original_title": "Our tool STITCH automates the whole fuzzing lifecycle with LLMs. From only a git repo, it builds a project Dockerfile, compiles with fuzz instrumentation, writes code blocks, and r",
-      "summary": "STITCH利用LLM从Git仓库自动完成构建Dockerfile、插桩编译、编写代码、运行Fuzzer及crash分类去重，并生成可复现的Docker化Bug报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 75.95,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "全自动Fuzzing闭环工具，直接把AI Fuzzing落地到Bug Report生成环节。安全研究员和漏洞挖掘团队必看，能极大降低Fuzzing前置成本和crash triage负担。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hgarrereyn/status/2123770047839797369",
-      "reader_url": "https://x.com/hgarrereyn/status/2123770047839797369",
-      "image_url": "https://pbs.twimg.com/media/HXklmmSbsAAw4jp.png",
-      "author": {
-        "username": "hgarrereyn",
-        "name": "Harrison Green",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T13:26:51",
-      "first_seen_at": "2026-11-21T14:35:08.512686",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 34638,
-      "title": "STITCH：动态构建API序列的C/C++库自动化Fuzzing方法",
-      "original_title": "Fuzzing a C library usually means writing a fuzz harness, testing only a fixed API sequence.  In our CCS 2026 paper, we let the fuzzer build the sequence on the fly. We call this s",
-      "summary": "一篇 CCS 2026 论文提出名为 STITCH 的 Fuzzing 方法，通过动态构建 API 序列而非固定测试，已对超 1000 个 C/C++ 库进行自动化测试并促成 100 余个漏洞修复。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fuzzing",
-      "score_total": 75.66,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队必看。STITCH 解决了传统 Fuzzing 需手写 harness 且 API 序列固定的痛点，已真实挖掘上百个漏洞，极具工程落地价值，可立即跟进其方法论评估集成可能。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/hgarrereyn/status/2123769832562950573",
-      "reader_url": "https://x.com/hgarrereyn/status/2123769832562950573",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123769813910892544/img/RfSXHXJGeHfs55zK.jpg",
-      "author": {
-        "username": "hgarrereyn",
-        "name": "Harrison Green",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T13:26:00",
-      "first_seen_at": "2026-11-21T14:35:08.512686",
-      "sub_category_label": "AI Fuzzing"
-    },
-    {
-      "id": 34718,
-      "title": "黑客使用开源 AI 渗透工具 Cairn 发现零日漏洞并接管服务器",
-      "original_title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulne",
-      "summary": "威胁行为者利用开源 AI 渗透测试框架 Cairn，在医疗成像应用中发现此前未知的零日漏洞，并成功接管了目标服务器。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.25,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "攻击者已开始实战使用自主 AI 渗透工具挖 0day，安全团队需警惕 AI 驱动的攻击提速，关注 Cairn 等开源安全 Agent 的双刃剑效应。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/jpsharada/status/2123837729486344502",
-      "reader_url": "https://x.com/jpsharada/status/2123837729486344502",
-      "image_url": null,
-      "author": {
-        "username": "jpsharada",
-        "name": "ℵ ᴷᴵᵞᵁˢᴬᴹᴬ ℵ",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T17:55:48",
-      "first_seen_at": "2026-11-21T18:35:43.556979",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
