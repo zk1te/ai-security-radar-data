@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T08:18:01+08:00",
+  "updated_at": "2026-11-21T08:48:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -149,6 +149,26 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 34821,
+      "title": "AI 辅助形式化验证：用数学证明对抗软件漏洞的新武器",
+      "original_title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+      "summary": "Latent Space 讨论了如何利用 AI 和 Lean 等工具自动化传统上需要专家介入的形式化验证过程，以数学证明保证软件正确性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 69.9,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "形式化验证是高阶代码审计和漏洞防御手段，AI 辅助自动化证明能大幅降低门槛。安全团队应关注此趋势，评估将其引入关键组件安全审计流程的可行性。",
+      "source_id": "latent-space",
+      "canonical_url": "https://latent.space/p/formal-verification",
+      "reader_url": "https://latent.space/p/formal-verification",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-20T21:18:41",
+      "first_seen_at": "2026-11-21T00:20:38.156831",
+      "sub_category_label": null
+    },
+    {
       "id": 34642,
       "title": "STITCH：LLM自动化Fuzzing全生命周期工具",
       "original_title": "Our tool STITCH automates the whole fuzzing lifecycle with LLMs. From only a git repo, it builds a project Dockerfile, compiles with fuzz instrumentation, writes code blocks, and r",
@@ -192,26 +212,6 @@
       "published_at": "2026-11-20T05:00:00",
       "first_seen_at": "2026-11-20T21:03:29.382452",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 34469,
-      "title": "时间序列基础模型循环域增量适应方法 PACT",
-      "original_title": "Recurrent Domain Incremental Adaptation of Time-Series Foundation Models",
-      "summary": "提出 PACT 方法解决时间序列基础模型在条件变化下的适应难题，通过局部图表传输保留旧知识，在轴承故障检测中宏F1超0.95。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_adaptation",
-      "score_total": 68.2,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做工业控制或物联网异常检测的安全人员可看，PACT 能在极少标注下实现模型持续适应，有效应对安全场景中的分布漂移问题。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.24075",
-      "reader_url": "https://arxiv.org/pdf/2611.24075",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-20T05:00:00",
-      "first_seen_at": "2026-11-20T21:03:29.382452",
-      "sub_category_label": null
     }
   ]
 }
