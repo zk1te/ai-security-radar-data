@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-23T05:33:34+08:00",
+  "updated_at": "2026-11-23T06:33:39+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 32968,
@@ -133,26 +133,6 @@
       "published_at": "2026-11-22T15:04:40",
       "first_seen_at": "2026-11-22T16:33:04.642220",
       "sub_category_label": null
-    },
-    {
-      "id": 32915,
-      "title": "论文提出自改进记忆机制，解决跨模型评测优化问题",
-      "original_title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
-      "summary": "针对跨数据集和模型时评测 harness 难复用优化经验的问题，提出自改进记忆机制（SIM）记录优化历史与依据，显著提升最终评测得分。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 73.7,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "安全评测团队在更换大模型或题库时，常遇到评测 harness 失效问题。这篇提出的自改进记忆机制可直接借鉴到安全 benchmark 的脚手架维护中，避免重复调优。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.18856",
-      "reader_url": "https://arxiv.org/pdf/2611.18856",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T00:00:00",
-      "first_seen_at": "2026-11-22T15:04:14.374634",
-      "sub_category_label": "模型评测"
     }
   ]
 }
