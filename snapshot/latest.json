@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T06:33:39+08:00",
+  "updated_at": "2026-11-23T07:04:01+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -110,29 +110,29 @@
       "sub_category_label": null
     },
     {
-      "id": 35119,
-      "title": "工具「blur」用规则编译神经网络权重实现轻量级隐私和机密检测",
-      "original_title": "I've been studying how much of language you can capture with explicit rules instead of training.  So as a side project,  wrote some rules and compiled them straight into a neural n",
-      "summary": "开发者推出开源工具 blur，通过将显式规则编译为神经网络权重实现 PII 和机密信息检测，体积仅 609KB，在部分评测中表现优于 OpenAI privacy-filter 且可本地运行。",
+      "id": 34985,
+      "title": "研究员借助 AI 发现 Ghostscript 渲染漏洞",
+      "original_title": "🪲 upload2shell  @PaulosYibelo found this bug with GPT 5.6 sol  Ghostscript renders PDFs/PostScript everywhere - WordPress uploads, Roundcube email previews, CUPS print jobs, MediaW",
+      "summary": "安全研究员使用 GPT 5.6 发现 Ghostscript 在渲染 PDFs/PostScript 时存在漏洞，影响 WordPress、Roundcube 等场景。",
       "primary_category": "AI for Sec",
-      "sub_category": "secrets_detection",
-      "score_total": 73.73,
-      "include_status": "included",
+      "sub_category": "vuln_discovery",
+      "score_total": 79.83,
+      "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "安全团队在处理日志和数据脱敏时常依赖庞大的模型，这款本地运行、体积极小的工具提供了一个新思路，值得评估其检测效果和适配性。",
+      "recommendation_reason": "这是 AI 辅助漏洞挖掘又一实战案例，关注研究员如何利用前沿大模型在基础软件中挖出高危漏洞，值得漏洞团队跟进。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
-      "reader_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
-      "image_url": "https://pbs.twimg.com/media/HXvPJRoacAA2M24.jpg",
+      "canonical_url": "https://x.com/payloadartist/status/2124227313340756028",
+      "reader_url": "https://x.com/payloadartist/status/2124227313340756028",
+      "image_url": "https://pbs.twimg.com/media/HXrCgNVaMAArJT0.jpg",
       "author": {
-        "username": "0xAsm0d3us",
-        "name": "devansh ⚡️",
+        "username": "payloadartist",
+        "name": "payloadartist",
         "avatar_url": null,
-        "followers_count": 17983
+        "followers_count": 46166
       },
-      "published_at": "2026-11-22T15:04:40",
-      "first_seen_at": "2026-11-22T16:33:04.642220",
-      "sub_category_label": null
+      "published_at": "2026-11-21T19:43:52",
+      "first_seen_at": "2026-11-22T22:39:12.434843",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
