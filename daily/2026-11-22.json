@@ -1,0 +1,1333 @@
+{
+  "date": "2026-11-22",
+  "candidate_count": 23,
+  "selected_count": 3,
+  "cover_title": "决策模型在 LLM 驱动网络发现中的作用评估",
+  "lead_takeaway": "今天的主线是安全 Agent 在攻防实战中的真实表现与落地阵痛。大模型单干容易在复杂任务里拉胯，但多 Agent 协同的自动化攻击工具已经开始在野发威，红蓝两队都得正视 AI 拉平攻击门槛的现实。",
+  "digest_points": [
+    "01 做渗透测试 Agent 的安全团队必看：论文用数据证明，别让 LLM 单机扫描，会因上下文饱和崩溃。引入轻量决策模型拦截陷阱和提升召回率可行，但要注意延迟权衡。",
+    "02 真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。",
+    "03 智能合约安全团队必看。实测了 LLM 在 Solana 代码审计和攻击检测中的表现，指出其高度依赖注释且交易级检测极弱，揭示了直接用 LLM 自动化审计的局限。"
+  ],
+  "judgement": [
+    "01 做渗透测试 Agent 的安全团队必看：论文用数据证明，别让 LLM 单机扫描，会因上下文饱和崩溃。引入轻量决策模型拦截陷阱和提升召回率可行，但要注意延迟权衡。",
+    "02 真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。",
+    "03 智能合约安全团队必看。实测了 LLM 在 Solana 代码审计和攻击检测中的表现，指出其高度依赖注释且交易级检测极弱，揭示了直接用 LLM 自动化审计的局限。"
+  ],
+  "top_items": [
+    {
+      "id": 33745,
+      "title": "决策模型在 LLM 驱动网络发现中的作用评估",
+      "original_title": "When Do Decision Models Help LLM-Driven Network Discovery?",
+      "summary": "研究评估了在 LLM 驱动网络发现中插入决策模型验证动作的效果。实验表明分块批量调度比单机调度更有效，决策门控能提升小规模网络端口召回率并拦截陷阱，但会增加延迟。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 88.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做渗透测试 Agent 的安全团队必看：论文用数据证明，别让 LLM 单机扫描，会因上下文饱和崩溃。引入轻量决策模型拦截陷阱和提升召回率可行，但要注意延迟权衡。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.23947",
+      "reader_url": "https://arxiv.org/pdf/2611.23947",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T05:00:00",
+      "first_seen_at": "2026-11-22T03:04:06.735041",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 34749,
+      "title": "FBI 警告开源 AI 攻击工具 ARTEX：15 分钟突破网络",
+      "original_title": "THE FBI IS WARNING ABOUT AN OPEN-SOURCE AI HACKING TOOL THAT GOT INTO A NETWORK IN ABOUT 15 MINUTES  ARTEX went up on GitHub in July as a penetration testing framework. by August, ",
+      "summary": "FBI 警告开源 AI 渗透测试框架 ARTEX 被武器化，6 个 AI Agent 协同可在 15 分钟内获取系统权限，攻击成本仅 145 至 1500 美元。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 81.26,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Ravlizk/status/2123856788739006605",
+      "reader_url": "https://x.com/Ravlizk/status/2123856788739006605",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123856570370887681/img/N9vAlo9cDSFLCNTl.jpg",
+      "author": {
+        "username": "Ravlizk",
+        "name": "Ravli",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T19:11:32",
+      "first_seen_at": "2026-11-21T20:35:49.528672",
+      "sub_category_label": null
+    },
+    {
+      "id": 32968,
+      "title": "评估 LLM 在 Solana 跨链桥源码与交易级漏洞检测中的能力",
+      "original_title": "LLMs as Validators for Cross-Chain Bridges: Evaluating Source-Level and Transaction-Level Attack Detection on Solana",
+      "summary": "论文构建了含四种已知漏洞的 Solana 跨链桥本地验证器，评估五种大模型在源码和交易层诊断漏洞的效果。结果表明当前模型高度依赖代码注释，交易层检测能力极弱，难以独立区分真实漏洞与误报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 86.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "智能合约安全团队必看。实测了 LLM 在 Solana 代码审计和攻击检测中的表现，指出其高度依赖注释且交易级检测极弱，揭示了直接用 LLM 自动化审计的局限。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21777",
+      "reader_url": "https://arxiv.org/pdf/2611.21777",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T15:04:14.374634",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 33884,
+      "title": "Ephyra：面向 LLM 时代的属性测试框架挖掘数百个真实漏洞",
+      "original_title": "Ephyra: A Property-Based Testing Framework for the LLM Era",
+      "summary": "Ephyra 是一个用 Rust 编写的属性测试库，针对 LLM 时代的测试需求设计，在 14 个开源系统（含 SQLite、PostgreSQL 等）中发现 349 个 Bug。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 85.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "虽然标榜 LLM 时代，但核心是在真实基础设施中挖洞的硬核成果，斩获数百个漏洞。做漏洞挖掘和 Fuzzing 的安全团队可以直接关注其生成器综合和可定制循环的设计思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.23282",
+      "reader_url": "https://arxiv.org/pdf/2611.23282",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T05:00:00",
+      "first_seen_at": "2026-11-21T21:03:58.345618",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 33012,
+      "title": "ProcReverser：用于处理器漏洞分析的多智能体黑盒微架构逆向系统",
+      "original_title": "ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor Vulnerability Analysis",
+      "summary": "ProcReverser 是一个多智能体系统，通过自动化黑盒微架构逆向工程识别与 Spectre 类攻击相关的硬件属性，辅助处理器漏洞分析。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 85.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全研究员和 Agent 开发者该看。这篇验证了多智能体在黑盒逆向这种长链路任务上的可行性，直接给出了在真实 RISC-V CPU 上的高通过率，可以借鉴其 Agent 反馈调优机制做漏洞挖掘。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.20827",
+      "reader_url": "https://arxiv.org/pdf/2611.20827",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T09:04:07.722451",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33198,
+      "title": "X-LocVul：级联 C/C++ 漏洞检测与解释流水线的证据传递审计",
+      "original_title": "X-LocVul: An Evidence-Propagation Audit of Cascaded C/C++ Vulnerability Detection, Localization, and Explanation",
+      "summary": "论文审计了结合 UniXCoder、CodeT5 和 Qwen2.5-Coder 的模块化 C/C++ 漏洞检测流水线，发现级联系统常传递无效或误导性证据，且模型在真实 CWE 监督下的表现与随机对照组在统计上无显著差异。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 85.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘和代码审计的同学必看。研究揭示了 AI 流水线级联中证据传递的缺陷，提醒构建安全 Agent 时不能盲目组合模型，必须验证各阶段证据的真实有效性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21626",
+      "reader_url": "https://arxiv.org/pdf/2611.21626",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T03:04:06.735041",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 32985,
+      "title": "LLM 蜜罐叙事欺骗策略有效拖延自主攻击 Agent",
+      "original_title": "Adaptive LLM-Driven Honeypots vs. LLM-Driven Attackers: Does Narrative Coherence Improve Deception?",
+      "summary": "论文提出 narrative deception 策略，LLM 防御者实时映射攻击命令到 MITRE ATT&CK 并部署相互引用的欺骗制品，与自主 LLM 攻击者通过真实 SSH 交互。1150 场实验显示连贯场景将高级攻击者中位会话从 40 提升至 165 条命令，放弃率从 86% 降至 52%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 85.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做欺骗防御和威胁狩猎的人该看——这篇给出用 LLM 动态生成连贯蜜罐制品的完整方法与对抗数据，证明叙事连贯性能显著拖住高级 AI 攻击者，可直接指导蜜罐架构迭代。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.22589",
+      "reader_url": "https://arxiv.org/pdf/2611.22589",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T15:04:14.374634",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32994,
+      "title": "GitHub Actions 工作流安全修复缺乏回溯的实证与自动化方案",
+      "original_title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+      "summary": "论文发现大量 GitHub Actions 工作流在默认分支修复漏洞后未回溯到发布分支，并设计了结合 LLM 与符号引擎的 WorkflowBP 技术实现自动安全修复回溯。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_remediation",
+      "score_total": 83.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "首个针对 GitHub Actions 安全修复回溯的大规模实证研究，提出结合 LLM 与符号引擎的自动化方案。对关注开源供应链安全及自动化漏洞修复的团队有直接落地参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.22519",
+      "reader_url": "https://arxiv.org/pdf/2611.22519",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T09:04:07.722451",
+      "sub_category_label": null
+    },
+    {
+      "id": 33770,
+      "title": "利用LLM识别智能电网中的网络物理攻击路径",
+      "original_title": "LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids",
+      "summary": "该论文提出一种结合LLM指导的STRIDE和MITRE ATT&CK威胁建模以及级联故障影响排名的框架，用于高效识别智能电网中的网络物理攻击路径。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_modeling",
+      "score_total": 82.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "将LLM用于智能电网的威胁建模和攻击路径发现，大幅缩短分析时间且对齐物理影响，做工控安全或想用LLM做自动化攻击路径推演的同学可以参考其方法。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.24765",
+      "reader_url": "https://arxiv.org/pdf/2611.24765",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T05:00:00",
+      "first_seen_at": "2026-11-21T21:03:58.345618",
+      "sub_category_label": null
+    },
+    {
+      "id": 32975,
+      "title": "层次个性化联邦学习实现细粒度入侵检测",
+      "original_title": "Hierarchical Personalized Federated Learning for Fine-Grained Intrusion Detection: A Multi-Class Analysis in Heterogeneous Attack Environments",
+      "summary": "论文提出层次化个性化联邦学习（HPFL）方法用于非独立同分布环境下的细粒度入侵检测，在 CICIDS2017 数据集上显著提升分类效果，并将通信开销降低近一半。",
+      "primary_category": "AI for Sec",
+      "sub_category": "intrusion_detection",
+      "score_total": 82.65,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "用联邦学习做 IDS 的同学可以看。本文不仅解决非 IID 数据分布问题，还实打实减半了通信开销，并在 CICIDS2017 上做了多类细粒度评测，比常见的 FedAvg 基线有说服力。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21970",
+      "reader_url": "https://arxiv.org/pdf/2611.21970",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T15:04:14.374634",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 35015,
+        "title": "Claude-BugHunter 爆火：基于 Claude Code 的红队工具包",
+        "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1803 stars today",
+        "summary": "基于 Claude Code 的漏洞狩猎工具包 Claude-BugHunter 今日狂揽 1800+ star，内含 82 项安全技能和 681 个漏洞报告模式，覆盖 24 类核心漏洞与企业基础设施攻击矩阵。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 96.55,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "安全研究员和红队人员必看：这是将 Claude Code 武装成专业化漏洞挖掘 Agent 的一线实战范例。可以直接借鉴其安全技能包和漏洞模式设计，快速构建自己的自动化攻击流水线。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-22&since=daily",
+        "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-22&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-21T04:24:41",
+        "first_seen_at": "2026-11-22T00:15:52.076931",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 33745,
+        "title": "决策模型在 LLM 驱动网络发现中的作用评估",
+        "original_title": "When Do Decision Models Help LLM-Driven Network Discovery?",
+        "summary": "研究评估了在 LLM 驱动网络发现中插入决策模型验证动作的效果。实验表明分块批量调度比单机调度更有效，决策门控能提升小规模网络端口召回率并拦截陷阱，但会增加延迟。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 88.15,
+        "include_status": "breaking",
+        "item_type": "paper",
+        "recommendation_reason": "做渗透测试 Agent 的安全团队必看：论文用数据证明，别让 LLM 单机扫描，会因上下文饱和崩溃。引入轻量决策模型拦截陷阱和提升召回率可行，但要注意延迟权衡。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.23947",
+        "reader_url": "https://arxiv.org/pdf/2611.23947",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-19T05:00:00",
+        "first_seen_at": "2026-11-22T03:04:06.735041",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 32968,
+        "title": "评估 LLM 在 Solana 跨链桥源码与交易级漏洞检测中的能力",
+        "original_title": "LLMs as Validators for Cross-Chain Bridges: Evaluating Source-Level and Transaction-Level Attack Detection on Solana",
+        "summary": "论文构建了含四种已知漏洞的 Solana 跨链桥本地验证器，评估五种大模型在源码和交易层诊断漏洞的效果。结果表明当前模型高度依赖代码注释，交易层检测能力极弱，难以独立区分真实漏洞与误报。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 86.35,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "智能合约安全团队必看。实测了 LLM 在 Solana 代码审计和攻击检测中的表现，指出其高度依赖注释且交易级检测极弱，揭示了直接用 LLM 自动化审计的局限。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.21777",
+        "reader_url": "https://arxiv.org/pdf/2611.21777",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T05:00:00",
+        "first_seen_at": "2026-11-22T15:04:14.374634",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 33884,
+        "title": "Ephyra：面向 LLM 时代的属性测试框架挖掘数百个真实漏洞",
+        "original_title": "Ephyra: A Property-Based Testing Framework for the LLM Era",
+        "summary": "Ephyra 是一个用 Rust 编写的属性测试库，针对 LLM 时代的测试需求设计，在 14 个开源系统（含 SQLite、PostgreSQL 等）中发现 349 个 Bug。",
+        "primary_category": "AI for Sec",
+        "sub_category": "fuzzing",
+        "score_total": 85.75,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "虽然标榜 LLM 时代，但核心是在真实基础设施中挖洞的硬核成果，斩获数百个漏洞。做漏洞挖掘和 Fuzzing 的安全团队可以直接关注其生成器综合和可定制循环的设计思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.23282",
+        "reader_url": "https://arxiv.org/pdf/2611.23282",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-19T05:00:00",
+        "first_seen_at": "2026-11-21T21:03:58.345618",
+        "sub_category_label": "AI Fuzzing"
+      },
+      {
+        "id": 33012,
+        "title": "ProcReverser：用于处理器漏洞分析的多智能体黑盒微架构逆向系统",
+        "original_title": "ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor Vulnerability Analysis",
+        "summary": "ProcReverser 是一个多智能体系统，通过自动化黑盒微架构逆向工程识别与 Spectre 类攻击相关的硬件属性，辅助处理器漏洞分析。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 85.45,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "硬件安全研究员和 Agent 开发者该看。这篇验证了多智能体在黑盒逆向这种长链路任务上的可行性，直接给出了在真实 RISC-V CPU 上的高通过率，可以借鉴其 Agent 反馈调优机制做漏洞挖掘。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.20827",
+        "reader_url": "https://arxiv.org/pdf/2611.20827",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T05:00:00",
+        "first_seen_at": "2026-11-22T09:04:07.722451",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 33198,
+        "title": "X-LocVul：级联 C/C++ 漏洞检测与解释流水线的证据传递审计",
+        "original_title": "X-LocVul: An Evidence-Propagation Audit of Cascaded C/C++ Vulnerability Detection, Localization, and Explanation",
+        "summary": "论文审计了结合 UniXCoder、CodeT5 和 Qwen2.5-Coder 的模块化 C/C++ 漏洞检测流水线，发现级联系统常传递无效或误导性证据，且模型在真实 CWE 监督下的表现与随机对照组在统计上无显著差异。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 85.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做漏洞挖掘和代码审计的同学必看。研究揭示了 AI 流水线级联中证据传递的缺陷，提醒构建安全 Agent 时不能盲目组合模型，必须验证各阶段证据的真实有效性。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.21626",
+        "reader_url": "https://arxiv.org/pdf/2611.21626",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T05:00:00",
+        "first_seen_at": "2026-11-22T03:04:06.735041",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 32985,
+        "title": "LLM 蜜罐叙事欺骗策略有效拖延自主攻击 Agent",
+        "original_title": "Adaptive LLM-Driven Honeypots vs. LLM-Driven Attackers: Does Narrative Coherence Improve Deception?",
+        "summary": "论文提出 narrative deception 策略，LLM 防御者实时映射攻击命令到 MITRE ATT&CK 并部署相互引用的欺骗制品，与自主 LLM 攻击者通过真实 SSH 交互。1150 场实验显示连贯场景将高级攻击者中位会话从 40 提升至 165 条命令，放弃率从 86% 降至 52%。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 85.1,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "做欺骗防御和威胁狩猎的人该看——这篇给出用 LLM 动态生成连贯蜜罐制品的完整方法与对抗数据，证明叙事连贯性能显著拖住高级 AI 攻击者，可直接指导蜜罐架构迭代。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.22589",
+        "reader_url": "https://arxiv.org/pdf/2611.22589",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T05:00:00",
+        "first_seen_at": "2026-11-22T15:04:14.374634",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 34915,
+        "title": "AI Agent 11分钟挖出医疗软件0day并获Root权限",
+        "original_title": "🚨 Hackers used AI agents to discover a critical zero-day in medical-imaging software and gain ROOT access to a university server.  The agents found an exploit path in just 11 minut",
+        "summary": "攻击者使用 AI Agent 仅用 11 分钟就在医疗成像软件 MONAI Label 中发现一个 CVSS 9.8 的零日漏洞，并成功获取大学服务器 root 权限，目前尚无补丁。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 84.79,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "11分钟拿root的实战效果表明 AI 自动化挖洞已不再是纸上谈兵。安全团队需警惕 AI 驱动的攻击面扩张速度，尽早评估自有系统的自动化漏洞发现响应能力。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/TheHackersNews/status/2124096705532506230",
+        "reader_url": "https://x.com/TheHackersNews/status/2124096705532506230",
+        "image_url": "https://pbs.twimg.com/media/HXpOsFyaEAA5VyL.jpg",
+        "author": {
+          "username": "TheHackersNews",
+          "name": "The Hacker News",
+          "avatar_url": null,
+          "followers_count": 2351119
+        },
+        "published_at": "2026-11-21T11:04:53",
+        "first_seen_at": "2026-11-22T12:37:49.428891",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 34122,
+        "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
+        "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
+        "summary": "11月17日，微软官方 PyPI 包 agent-framework 两个版本被植入恶意 .pth 文件，存活55分钟，每次启动 Python 自动窃取云与开发者密钥。Wiz 发现攻击者使用了基于 GLM 模型的开源 AI 渗透框架 Cairn。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "ai_supply_chain",
+        "score_total": 81.89,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "AI Agent 已开始直接攻击构建 AI 的工具链，安全团队须立刻排查是否拉取过 1.26.1/1.26.2 版本，若有则全面轮换云和开发凭据；同时这也暴露出大模型在自动化攻击链中的实战潜力，防守方需高度警惕。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/whyNexqor/status/2123494095368941709",
+        "reader_url": "https://x.com/whyNexqor/status/2123494095368941709",
+        "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123493636365000704/img/tyFr1suSQ5J03ipC.jpg",
+        "author": {
+          "username": "whyNexqor",
+          "name": "Nexqor",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-19T19:10:19",
+        "first_seen_at": "2026-11-21T22:36:11.874321",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 34749,
+        "title": "FBI 警告开源 AI 攻击工具 ARTEX：15 分钟突破网络",
+        "original_title": "THE FBI IS WARNING ABOUT AN OPEN-SOURCE AI HACKING TOOL THAT GOT INTO A NETWORK IN ABOUT 15 MINUTES  ARTEX went up on GitHub in July as a penetration testing framework. by August, ",
+        "summary": "FBI 警告开源 AI 渗透测试框架 ARTEX 被武器化，6 个 AI Agent 协同可在 15 分钟内获取系统权限，攻击成本仅 145 至 1500 美元。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 81.26,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Ravlizk/status/2123856788739006605",
+        "reader_url": "https://x.com/Ravlizk/status/2123856788739006605",
+        "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123856570370887681/img/N9vAlo9cDSFLCNTl.jpg",
+        "author": {
+          "username": "Ravlizk",
+          "name": "Ravli",
+          "avatar_url": null,
+          "followers_count": 0
+        },
+        "published_at": "2026-11-20T19:11:32",
+        "first_seen_at": "2026-11-21T20:35:49.528672",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 35035,
+        "title": "HN热议LLM可逐字节读写可执行文件",
+        "original_title": "HN Hot Discussion: LLMs can read and write executables byte by byte from a hex dump",
+        "summary": "HN 热门讨论指出 LLM 能从十六进制转储中逐字节读写可执行文件，展示了其处理底层机器码的强大能力。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "binary_security | model_evaluation",
+        "score_total": 79.13,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "LLM直接读写机器码意味着能在无反编译器情况下理解二进制，为恶意软件分析和自动化安全任务提供了新思路，值得二进制安全研究员验证其能力边界。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50546587&hn_hot_date=2026-11-22",
+        "reader_url": "https://news.ycombinator.com/item?id=50546587&hn_hot_date=2026-11-22",
+        "image_url": null,
+        "author": {
+          "username": "fortran77",
+          "name": "fortran77",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-18T14:15:58",
+        "first_seen_at": "2026-11-22T00:50:25.662845",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 33024,
+        "title": "WebAgents：解耦Agent分发与执行的安全运行时架构",
+        "original_title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution for an Agent-Native Web",
+        "summary": "论文提出WebAgents，通过签名的agent.pkg解耦Agent的创建、托管与执行，在运行时验证权限并绑定用户资源，成功阻断全部716个注入违规。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "agent_security | agent_architecture",
+        "score_total": 78.75,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "提出了Agent分发与执行解耦的新范式，用包签名和运行时验证防注入。做Agent安全的同行可参考其权限边界和预算控制设计，直接借鉴其防注入实验方案。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.21978",
+        "reader_url": "https://arxiv.org/pdf/2611.21978",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-18T05:00:00",
+        "first_seen_at": "2026-11-22T09:04:07.722451",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 35015,
+            "title": "Claude-BugHunter 爆火：基于 Claude Code 的红队工具包",
+            "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1803 stars today",
+            "summary": "基于 Claude Code 的漏洞狩猎工具包 Claude-BugHunter 今日狂揽 1800+ star，内含 82 项安全技能和 681 个漏洞报告模式，覆盖 24 类核心漏洞与企业基础设施攻击矩阵。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 96.55,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "安全研究员和红队人员必看：这是将 Claude Code 武装成专业化漏洞挖掘 Agent 的一线实战范例。可以直接借鉴其安全技能包和漏洞模式设计，快速构建自己的自动化攻击流水线。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-22&since=daily",
+            "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-22&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-21T04:24:41",
+            "first_seen_at": "2026-11-22T00:15:52.076931",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33745,
+            "title": "决策模型在 LLM 驱动网络发现中的作用评估",
+            "original_title": "When Do Decision Models Help LLM-Driven Network Discovery?",
+            "summary": "研究评估了在 LLM 驱动网络发现中插入决策模型验证动作的效果。实验表明分块批量调度比单机调度更有效，决策门控能提升小规模网络端口召回率并拦截陷阱，但会增加延迟。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 88.15,
+            "include_status": "breaking",
+            "item_type": "paper",
+            "recommendation_reason": "做渗透测试 Agent 的安全团队必看：论文用数据证明，别让 LLM 单机扫描，会因上下文饱和崩溃。引入轻量决策模型拦截陷阱和提升召回率可行，但要注意延迟权衡。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.23947",
+            "reader_url": "https://arxiv.org/pdf/2611.23947",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T05:00:00",
+            "first_seen_at": "2026-11-22T03:04:06.735041",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33012,
+            "title": "ProcReverser：用于处理器漏洞分析的多智能体黑盒微架构逆向系统",
+            "original_title": "ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor Vulnerability Analysis",
+            "summary": "ProcReverser 是一个多智能体系统，通过自动化黑盒微架构逆向工程识别与 Spectre 类攻击相关的硬件属性，辅助处理器漏洞分析。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 85.45,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "硬件安全研究员和 Agent 开发者该看。这篇验证了多智能体在黑盒逆向这种长链路任务上的可行性，直接给出了在真实 RISC-V CPU 上的高通过率，可以借鉴其 Agent 反馈调优机制做漏洞挖掘。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.20827",
+            "reader_url": "https://arxiv.org/pdf/2611.20827",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T05:00:00",
+            "first_seen_at": "2026-11-22T09:04:07.722451",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 32985,
+            "title": "LLM 蜜罐叙事欺骗策略有效拖延自主攻击 Agent",
+            "original_title": "Adaptive LLM-Driven Honeypots vs. LLM-Driven Attackers: Does Narrative Coherence Improve Deception?",
+            "summary": "论文提出 narrative deception 策略，LLM 防御者实时映射攻击命令到 MITRE ATT&CK 并部署相互引用的欺骗制品，与自主 LLM 攻击者通过真实 SSH 交互。1150 场实验显示连贯场景将高级攻击者中位会话从 40 提升至 165 条命令，放弃率从 86% 降至 52%。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 85.1,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做欺骗防御和威胁狩猎的人该看——这篇给出用 LLM 动态生成连贯蜜罐制品的完整方法与对抗数据，证明叙事连贯性能显著拖住高级 AI 攻击者，可直接指导蜜罐架构迭代。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.22589",
+            "reader_url": "https://arxiv.org/pdf/2611.22589",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T05:00:00",
+            "first_seen_at": "2026-11-22T15:04:14.374634",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 34735,
+            "title": "Cairn：自主渗透测试 AI 搜索引擎斩获腾讯云挑战赛满分",
+            "original_title": "🚨 Cairn: a general-purpose AI state-space search engine first validated on autonomous penetration testing  GitHub: https://t.co/HH01ZEYXEq  Cairn does not rely on fixed agent roles",
+            "summary": "Cairn 是一款通用 AI 状态空间搜索引擎，通过多 Agent 共享图进行自主渗透测试，在腾讯云 AI 渗透挑战赛中取得 54/54 的满分成绩。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 81.97,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "红队和自动化安全开发者必看。多 Agent 动态探索加共享图推理的架构思路非常值得借鉴，直接开源可复现，是构建自动化渗透和 CTF Agent 的优质参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
+            "reader_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
+            "image_url": "https://pbs.twimg.com/media/HXlq0nGXkAAZgBA.jpg",
+            "author": {
+              "username": "DarkWebInformer",
+              "name": "Dark Web Informer",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-20T18:29:49",
+            "first_seen_at": "2026-11-21T20:35:49.528672",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 33868,
+            "title": "StatePortal：基于Agent的检查点合成测试交互式软件深层状态",
+            "original_title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+            "summary": "提出StatePortal Agent，通过自然语言测试用例和只读源码访问权限合成检查点，解决GUI软件测试中难以到达深层状态的问题，并发布了DeepStateBench基准及开源代码。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 79.7,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "对做自动化漏洞挖掘和 GUI Fuzzing 的安全人员很有启发。它用 LLM Agent 自动生成和还原复杂状态，省去重复交互历史，还开源了 DeepStateBench，可直接用作安全测试工具的评测底座。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.23257",
+            "reader_url": "https://arxiv.org/pdf/2611.23257",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T05:00:00",
+            "first_seen_at": "2026-11-21T21:03:58.345618",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 35016,
+            "title": "阿里开源混合架构代码审查 Agent 工具",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "alibaba/open-code-review 采用确定性管道结合 LLM Agent 架构进行代码审查，内置 XSS、SQL注入等安全规则集，支持行级精准注释。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 79.5,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做代码审计和 SDL 的兄弟可以看下这个阿里开源的代码审查 Agent。混合架构兼顾了规则的确定性和 LLM 的理解力，内置了常见漏洞检测，可直接评估接入安全流水线。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-22&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-22&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-21T08:41:09",
+            "first_seen_at": "2026-11-22T00:15:52.209568",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 32968,
+            "title": "评估 LLM 在 Solana 跨链桥源码与交易级漏洞检测中的能力",
+            "original_title": "LLMs as Validators for Cross-Chain Bridges: Evaluating Source-Level and Transaction-Level Attack Detection on Solana",
+            "summary": "论文构建了含四种已知漏洞的 Solana 跨链桥本地验证器，评估五种大模型在源码和交易层诊断漏洞的效果。结果表明当前模型高度依赖代码注释，交易层检测能力极弱，难以独立区分真实漏洞与误报。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 86.35,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "智能合约安全团队必看。实测了 LLM 在 Solana 代码审计和攻击检测中的表现，指出其高度依赖注释且交易级检测极弱，揭示了直接用 LLM 自动化审计的局限。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.21777",
+            "reader_url": "https://arxiv.org/pdf/2611.21777",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T05:00:00",
+            "first_seen_at": "2026-11-22T15:04:14.374634",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 33198,
+            "title": "X-LocVul：级联 C/C++ 漏洞检测与解释流水线的证据传递审计",
+            "original_title": "X-LocVul: An Evidence-Propagation Audit of Cascaded C/C++ Vulnerability Detection, Localization, and Explanation",
+            "summary": "论文审计了结合 UniXCoder、CodeT5 和 Qwen2.5-Coder 的模块化 C/C++ 漏洞检测流水线，发现级联系统常传递无效或误导性证据，且模型在真实 CWE 监督下的表现与随机对照组在统计上无显著差异。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 85.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞挖掘和代码审计的同学必看。研究揭示了 AI 流水线级联中证据传递的缺陷，提醒构建安全 Agent 时不能盲目组合模型，必须验证各阶段证据的真实有效性。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.21626",
+            "reader_url": "https://arxiv.org/pdf/2611.21626",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T05:00:00",
+            "first_seen_at": "2026-11-22T03:04:06.735041",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 34915,
+            "title": "AI Agent 11分钟挖出医疗软件0day并获Root权限",
+            "original_title": "🚨 Hackers used AI agents to discover a critical zero-day in medical-imaging software and gain ROOT access to a university server.  The agents found an exploit path in just 11 minut",
+            "summary": "攻击者使用 AI Agent 仅用 11 分钟就在医疗成像软件 MONAI Label 中发现一个 CVSS 9.8 的零日漏洞，并成功获取大学服务器 root 权限，目前尚无补丁。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 84.79,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "11分钟拿root的实战效果表明 AI 自动化挖洞已不再是纸上谈兵。安全团队需警惕 AI 驱动的攻击面扩张速度，尽早评估自有系统的自动化漏洞发现响应能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2124096705532506230",
+            "reader_url": "https://x.com/TheHackersNews/status/2124096705532506230",
+            "image_url": "https://pbs.twimg.com/media/HXpOsFyaEAA5VyL.jpg",
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-11-21T11:04:53",
+            "first_seen_at": "2026-11-22T12:37:49.428891",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 33774,
+            "title": "LLM 用于漏洞预测与优先级评估的综述与分析",
+            "original_title": "LLMs for Software Vulnerability Prediction and Prioritization: A Review",
+            "summary": "该论文系统综述了 LLM 在漏洞预测、评估和优先级排序等五个任务类别中的应用，指出当前系统应辅助分析师而非替代，并发现可复现性和解释可用性是主要短板。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 80.85,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做漏洞管理和自动化分析的安全团队必看，它帮你摸清当前 LLM 在漏洞预测和优先级评估上的真实能力和落地瓶颈，避坑「不可复现」和「解释力不足」的伪需求。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.23304",
+            "reader_url": "https://arxiv.org/pdf/2611.23304",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T05:00:00",
+            "first_seen_at": "2026-11-21T21:03:58.345618",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 33763,
+            "title": "CFVul：缓解漏洞检测中「修复逆转」现象的新方法",
+            "original_title": "Mitigating fix reversal: Counterfactual constraints for function-level vulnerability detection",
+            "summary": "论文揭示了AI漏洞检测中因代码变长导致的「修复逆转」现象，即修复版本反而被判为更高危；并提出CFVul方法，通过反事实约束削弱长度捷径，显著提升检测准确率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 80.55,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做代码审计和漏洞检测的团队必看：揭示了现有模型依赖代码长度的严重捷径，提供了一种只需现有修复对即可集成到多个预训练模型的低成本修复方案。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.24489",
+            "reader_url": "https://arxiv.org/pdf/2611.24489",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T05:00:00",
+            "first_seen_at": "2026-11-21T21:03:58.345618",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "fuzzing": {
+        "label": "AI Fuzzing",
+        "items": [
+          {
+            "id": 33884,
+            "title": "Ephyra：面向 LLM 时代的属性测试框架挖掘数百个真实漏洞",
+            "original_title": "Ephyra: A Property-Based Testing Framework for the LLM Era",
+            "summary": "Ephyra 是一个用 Rust 编写的属性测试库，针对 LLM 时代的测试需求设计，在 14 个开源系统（含 SQLite、PostgreSQL 等）中发现 349 个 Bug。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 85.75,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "虽然标榜 LLM 时代，但核心是在真实基础设施中挖洞的硬核成果，斩获数百个漏洞。做漏洞挖掘和 Fuzzing 的安全团队可以直接关注其生成器综合和可定制循环的设计思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.23282",
+            "reader_url": "https://arxiv.org/pdf/2611.23282",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T05:00:00",
+            "first_seen_at": "2026-11-21T21:03:58.345618",
+            "sub_category_label": "AI Fuzzing"
+          },
+          {
+            "id": 33221,
+            "title": "智能合约模糊测试预算分配：为何在线反馈无助于漏洞分诊",
+            "original_title": "Adaptive Budget Allocation for Smart-Contract Fuzzing: Why Online Feedback Fails to Improve Vulnerability Triage",
+            "summary": "本文通过实验发现，智能合约模糊测试中的在线反馈策略在预算分配上不如均匀分配，并提出了一种离线概率曲线分配器来提升首次漏洞报告的效率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "fuzzing",
+            "score_total": 79.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做智能合约审计和 Fuzzing 的同行该看。这篇论文用扎实数据否定了在线反馈在 fuzzing budget 分配中的效果，提出的离线预测分配器可直接借鉴到现有工具中优化资源调度。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.22430",
+            "reader_url": "https://arxiv.org/pdf/2611.22430",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T05:00:00",
+            "first_seen_at": "2026-11-22T03:04:06.735041",
+            "sub_category_label": "AI Fuzzing"
+          }
+        ]
+      },
+      "security_remediation": {
+        "label": "security_remediation",
+        "items": [
+          {
+            "id": 32994,
+            "title": "GitHub Actions 工作流安全修复缺乏回溯的实证与自动化方案",
+            "original_title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+            "summary": "论文发现大量 GitHub Actions 工作流在默认分支修复漏洞后未回溯到发布分支，并设计了结合 LLM 与符号引擎的 WorkflowBP 技术实现自动安全修复回溯。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_remediation",
+            "score_total": 83.95,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "首个针对 GitHub Actions 安全修复回溯的大规模实证研究，提出结合 LLM 与符号引擎的自动化方案。对关注开源供应链安全及自动化漏洞修复的团队有直接落地参考价值。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.22519",
+            "reader_url": "https://arxiv.org/pdf/2611.22519",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T05:00:00",
+            "first_seen_at": "2026-11-22T09:04:07.722451",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "threat_modeling": {
+        "label": "threat_modeling",
+        "items": [
+          {
+            "id": 33770,
+            "title": "利用LLM识别智能电网中的网络物理攻击路径",
+            "original_title": "LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids",
+            "summary": "该论文提出一种结合LLM指导的STRIDE和MITRE ATT&CK威胁建模以及级联故障影响排名的框架，用于高效识别智能电网中的网络物理攻击路径。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_modeling",
+            "score_total": 82.9,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "将LLM用于智能电网的威胁建模和攻击路径发现，大幅缩短分析时间且对齐物理影响，做工控安全或想用LLM做自动化攻击路径推演的同学可以参考其方法。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.24765",
+            "reader_url": "https://arxiv.org/pdf/2611.24765",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T05:00:00",
+            "first_seen_at": "2026-11-21T21:03:58.345618",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "intrusion_detection": {
+        "label": "intrusion_detection",
+        "items": [
+          {
+            "id": 32975,
+            "title": "层次个性化联邦学习实现细粒度入侵检测",
+            "original_title": "Hierarchical Personalized Federated Learning for Fine-Grained Intrusion Detection: A Multi-Class Analysis in Heterogeneous Attack Environments",
+            "summary": "论文提出层次化个性化联邦学习（HPFL）方法用于非独立同分布环境下的细粒度入侵检测，在 CICIDS2017 数据集上显著提升分类效果，并将通信开销降低近一半。",
+            "primary_category": "AI for Sec",
+            "sub_category": "intrusion_detection",
+            "score_total": 82.65,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "用联邦学习做 IDS 的同学可以看。本文不仅解决非 IID 数据分布问题，还实打实减半了通信开销，并在 CICIDS2017 上做了多类细粒度评测，比常见的 FedAvg 基线有说服力。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.21970",
+            "reader_url": "https://arxiv.org/pdf/2611.21970",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T05:00:00",
+            "first_seen_at": "2026-11-22T15:04:14.374634",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "malware_detection": {
+        "label": "恶意软件与威胁检测",
+        "items": [
+          {
+            "id": 33762,
+            "title": "面向 Windows PE 恶意软件取证分诊的漂移感知可解释优先级排序框架",
+            "original_title": "Drift-Aware Explainable Prioritization for Windows PE Malware Forensic Triage with Semantic Consistency Checks",
+            "summary": "该论文提出一个 Windows PE 恶意软件取证分诊框架，基于预提取静态特征生成可校准恶意性评分，并结合 MBC 与 MITRE ATT&CK 进行语义一致性检查和漂移检测，为调查人员输出可解释的文件优先级。评测使用 EMBER2024 时序切分和 BODMAS 家族不相交检查。",
+            "primary_category": "AI for Sec",
+            "sub_category": "malware_detection",
+            "score_total": 80.6,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "做恶意软件检测和威胁运营的团队值得看，它把模型漂移检测和可解释归因直接绑在 PE 取证流程里，比单纯刷检测分数更贴近实际。可参考其 conformal evaluation 设计来评估自己检测器的时效衰减。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.24474",
+            "reader_url": "https://arxiv.org/pdf/2611.24474",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T05:00:00",
+            "first_seen_at": "2026-11-22T03:04:06.735041",
+            "sub_category_label": "恶意软件与威胁检测"
+          }
+        ]
+      },
+      "threat_detection": {
+        "label": "威胁检测",
+        "items": [
+          {
+            "id": 33744,
+            "title": "基于平滑与学习的 RSS 欺骗检测抗移动性改进",
+            "original_title": "Smoothing and Learning for Movement-Robust RSS-Based Spoofing Detection",
+            "summary": "论文改进了基于 RSS 的物理层欺骗检测方法，通过高斯滤波平滑神经网络位置变化检测器输出，并用 XGBoost 替代固定阈值。在真实室内数据上，PCD 准确率从 0.870 提升至 0.921，分类器准确率达 0.949。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 78.65,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "用 ML 做无线物理层身份验证的同行值得看，思路是「平滑滤波 + 监督分类」替换手工阈值，可借鉴其特征工程和模型选择。不过缺乏开源代码，复现需自行补齐数据。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.23854",
+            "reader_url": "https://arxiv.org/pdf/2611.23854",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-19T05:00:00",
+            "first_seen_at": "2026-11-22T03:04:06.735041",
+            "sub_category_label": "威胁检测"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "ai_supply_chain": {
+        "label": "ai_supply_chain",
+        "items": [
+          {
+            "id": 34122,
+            "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
+            "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
+            "summary": "11月17日，微软官方 PyPI 包 agent-framework 两个版本被植入恶意 .pth 文件，存活55分钟，每次启动 Python 自动窃取云与开发者密钥。Wiz 发现攻击者使用了基于 GLM 模型的开源 AI 渗透框架 Cairn。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "ai_supply_chain",
+            "score_total": 81.89,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "AI Agent 已开始直接攻击构建 AI 的工具链，安全团队须立刻排查是否拉取过 1.26.1/1.26.2 版本，若有则全面轮换云和开发凭据；同时这也暴露出大模型在自动化攻击链中的实战潜力，防守方需高度警惕。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/whyNexqor/status/2123494095368941709",
+            "reader_url": "https://x.com/whyNexqor/status/2123494095368941709",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123493636365000704/img/tyFr1suSQ5J03ipC.jpg",
+            "author": {
+              "username": "whyNexqor",
+              "name": "Nexqor",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-19T19:10:19",
+            "first_seen_at": "2026-11-21T22:36:11.874321",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 34749,
+            "title": "FBI 警告开源 AI 攻击工具 ARTEX：15 分钟突破网络",
+            "original_title": "THE FBI IS WARNING ABOUT AN OPEN-SOURCE AI HACKING TOOL THAT GOT INTO A NETWORK IN ABOUT 15 MINUTES  ARTEX went up on GitHub in July as a penetration testing framework. by August, ",
+            "summary": "FBI 警告开源 AI 渗透测试框架 ARTEX 被武器化，6 个 AI Agent 协同可在 15 分钟内获取系统权限，攻击成本仅 145 至 1500 美元。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 81.26,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Ravlizk/status/2123856788739006605",
+            "reader_url": "https://x.com/Ravlizk/status/2123856788739006605",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123856570370887681/img/N9vAlo9cDSFLCNTl.jpg",
+            "author": {
+              "username": "Ravlizk",
+              "name": "Ravli",
+              "avatar_url": null,
+              "followers_count": 0
+            },
+            "published_at": "2026-11-20T19:11:32",
+            "first_seen_at": "2026-11-21T20:35:49.528672",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "binary_security | model_evaluation": {
+        "label": "binary_security | model_evaluation",
+        "items": [
+          {
+            "id": 35035,
+            "title": "HN热议LLM可逐字节读写可执行文件",
+            "original_title": "HN Hot Discussion: LLMs can read and write executables byte by byte from a hex dump",
+            "summary": "HN 热门讨论指出 LLM 能从十六进制转储中逐字节读写可执行文件，展示了其处理底层机器码的强大能力。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "binary_security | model_evaluation",
+            "score_total": 79.13,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "LLM直接读写机器码意味着能在无反编译器情况下理解二进制，为恶意软件分析和自动化安全任务提供了新思路，值得二进制安全研究员验证其能力边界。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50546587&hn_hot_date=2026-11-22",
+            "reader_url": "https://news.ycombinator.com/item?id=50546587&hn_hot_date=2026-11-22",
+            "image_url": null,
+            "author": {
+              "username": "fortran77",
+              "name": "fortran77",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-18T14:15:58",
+            "first_seen_at": "2026-11-22T00:50:25.662845",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "agent_security | agent_architecture": {
+        "label": "agent_security | agent_architecture",
+        "items": [
+          {
+            "id": 33024,
+            "title": "WebAgents：解耦Agent分发与执行的安全运行时架构",
+            "original_title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution for an Agent-Native Web",
+            "summary": "论文提出WebAgents，通过签名的agent.pkg解耦Agent的创建、托管与执行，在运行时验证权限并绑定用户资源，成功阻断全部716个注入违规。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "agent_security | agent_architecture",
+            "score_total": 78.75,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "提出了Agent分发与执行解耦的新范式，用包签名和运行时验证防注入。做Agent安全的同行可参考其权限边界和预算控制设计，直接借鉴其防注入实验方案。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.21978",
+            "reader_url": "https://arxiv.org/pdf/2611.21978",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-18T05:00:00",
+            "first_seen_at": "2026-11-22T09:04:07.722451",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 33745,
+      "title": "决策模型在 LLM 驱动网络发现中的作用评估",
+      "original_title": "When Do Decision Models Help LLM-Driven Network Discovery?",
+      "summary": "研究评估了在 LLM 驱动网络发现中插入决策模型验证动作的效果。实验表明分块批量调度比单机调度更有效，决策门控能提升小规模网络端口召回率并拦截陷阱，但会增加延迟。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 88.15,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做渗透测试 Agent 的安全团队必看：论文用数据证明，别让 LLM 单机扫描，会因上下文饱和崩溃。引入轻量决策模型拦截陷阱和提升召回率可行，但要注意延迟权衡。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.23947",
+      "reader_url": "https://arxiv.org/pdf/2611.23947",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T05:00:00",
+      "first_seen_at": "2026-11-22T03:04:06.735041",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32968,
+      "title": "评估 LLM 在 Solana 跨链桥源码与交易级漏洞检测中的能力",
+      "original_title": "LLMs as Validators for Cross-Chain Bridges: Evaluating Source-Level and Transaction-Level Attack Detection on Solana",
+      "summary": "论文构建了含四种已知漏洞的 Solana 跨链桥本地验证器，评估五种大模型在源码和交易层诊断漏洞的效果。结果表明当前模型高度依赖代码注释，交易层检测能力极弱，难以独立区分真实漏洞与误报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 86.35,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "智能合约安全团队必看。实测了 LLM 在 Solana 代码审计和攻击检测中的表现，指出其高度依赖注释且交易级检测极弱，揭示了直接用 LLM 自动化审计的局限。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21777",
+      "reader_url": "https://arxiv.org/pdf/2611.21777",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T15:04:14.374634",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 33884,
+      "title": "Ephyra：面向 LLM 时代的属性测试框架挖掘数百个真实漏洞",
+      "original_title": "Ephyra: A Property-Based Testing Framework for the LLM Era",
+      "summary": "Ephyra 是一个用 Rust 编写的属性测试库，针对 LLM 时代的测试需求设计，在 14 个开源系统（含 SQLite、PostgreSQL 等）中发现 349 个 Bug。",
+      "primary_category": "AI for Sec",
+      "sub_category": "fuzzing",
+      "score_total": 85.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "虽然标榜 LLM 时代，但核心是在真实基础设施中挖洞的硬核成果，斩获数百个漏洞。做漏洞挖掘和 Fuzzing 的安全团队可以直接关注其生成器综合和可定制循环的设计思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.23282",
+      "reader_url": "https://arxiv.org/pdf/2611.23282",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T05:00:00",
+      "first_seen_at": "2026-11-21T21:03:58.345618",
+      "sub_category_label": "AI Fuzzing"
+    },
+    {
+      "id": 33012,
+      "title": "ProcReverser：用于处理器漏洞分析的多智能体黑盒微架构逆向系统",
+      "original_title": "ProcReverser: Multi-Agent Black-Box Microarchitectural Reverse Engineering for Processor Vulnerability Analysis",
+      "summary": "ProcReverser 是一个多智能体系统，通过自动化黑盒微架构逆向工程识别与 Spectre 类攻击相关的硬件属性，辅助处理器漏洞分析。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 85.45,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全研究员和 Agent 开发者该看。这篇验证了多智能体在黑盒逆向这种长链路任务上的可行性，直接给出了在真实 RISC-V CPU 上的高通过率，可以借鉴其 Agent 反馈调优机制做漏洞挖掘。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.20827",
+      "reader_url": "https://arxiv.org/pdf/2611.20827",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T09:04:07.722451",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 33198,
+      "title": "X-LocVul：级联 C/C++ 漏洞检测与解释流水线的证据传递审计",
+      "original_title": "X-LocVul: An Evidence-Propagation Audit of Cascaded C/C++ Vulnerability Detection, Localization, and Explanation",
+      "summary": "论文审计了结合 UniXCoder、CodeT5 和 Qwen2.5-Coder 的模块化 C/C++ 漏洞检测流水线，发现级联系统常传递无效或误导性证据，且模型在真实 CWE 监督下的表现与随机对照组在统计上无显著差异。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 85.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞挖掘和代码审计的同学必看。研究揭示了 AI 流水线级联中证据传递的缺陷，提醒构建安全 Agent 时不能盲目组合模型，必须验证各阶段证据的真实有效性。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21626",
+      "reader_url": "https://arxiv.org/pdf/2611.21626",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T03:04:06.735041",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 32985,
+      "title": "LLM 蜜罐叙事欺骗策略有效拖延自主攻击 Agent",
+      "original_title": "Adaptive LLM-Driven Honeypots vs. LLM-Driven Attackers: Does Narrative Coherence Improve Deception?",
+      "summary": "论文提出 narrative deception 策略，LLM 防御者实时映射攻击命令到 MITRE ATT&CK 并部署相互引用的欺骗制品，与自主 LLM 攻击者通过真实 SSH 交互。1150 场实验显示连贯场景将高级攻击者中位会话从 40 提升至 165 条命令，放弃率从 86% 降至 52%。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 85.1,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做欺骗防御和威胁狩猎的人该看——这篇给出用 LLM 动态生成连贯蜜罐制品的完整方法与对抗数据，证明叙事连贯性能显著拖住高级 AI 攻击者，可直接指导蜜罐架构迭代。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.22589",
+      "reader_url": "https://arxiv.org/pdf/2611.22589",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T15:04:14.374634",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 32994,
+      "title": "GitHub Actions 工作流安全修复缺乏回溯的实证与自动化方案",
+      "original_title": "Missing Security-Fix Backporting for GitHub Actions Workflows",
+      "summary": "论文发现大量 GitHub Actions 工作流在默认分支修复漏洞后未回溯到发布分支，并设计了结合 LLM 与符号引擎的 WorkflowBP 技术实现自动安全修复回溯。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_remediation",
+      "score_total": 83.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "首个针对 GitHub Actions 安全修复回溯的大规模实证研究，提出结合 LLM 与符号引擎的自动化方案。对关注开源供应链安全及自动化漏洞修复的团队有直接落地参考价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.22519",
+      "reader_url": "https://arxiv.org/pdf/2611.22519",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T09:04:07.722451",
+      "sub_category_label": null
+    },
+    {
+      "id": 33770,
+      "title": "利用LLM识别智能电网中的网络物理攻击路径",
+      "original_title": "LLM-Guided Cyber-Physical Attack Path Identification in Smart Grids",
+      "summary": "该论文提出一种结合LLM指导的STRIDE和MITRE ATT&CK威胁建模以及级联故障影响排名的框架，用于高效识别智能电网中的网络物理攻击路径。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_modeling",
+      "score_total": 82.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "将LLM用于智能电网的威胁建模和攻击路径发现，大幅缩短分析时间且对齐物理影响，做工控安全或想用LLM做自动化攻击路径推演的同学可以参考其方法。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.24765",
+      "reader_url": "https://arxiv.org/pdf/2611.24765",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T05:00:00",
+      "first_seen_at": "2026-11-21T21:03:58.345618",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 23,
+    "highlight_count": 17,
+    "paper_count": 16,
+    "source_count": 4,
+    "top_score": 97,
+    "category_count": {
+      "AI for Sec": 19,
+      "AI Tech": 0,
+      "Sec for AI | AI for Sec": 1,
+      "AI for Sec | Sec for AI": 1,
+      "AI for Sec | AI Tech": 1,
+      "Sec for AI | AI Tech": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 7
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 5
+        },
+        "fuzzing": {
+          "label": "AI Fuzzing",
+          "count": 2
+        },
+        "security_remediation": {
+          "label": "security_remediation",
+          "count": 1
+        },
+        "threat_modeling": {
+          "label": "threat_modeling",
+          "count": 1
+        },
+        "intrusion_detection": {
+          "label": "intrusion_detection",
+          "count": 1
+        },
+        "malware_detection": {
+          "label": "恶意软件与威胁检测",
+          "count": 1
+        },
+        "threat_detection": {
+          "label": "威胁检测",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "ai_supply_chain": {
+          "label": "ai_supply_chain",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "binary_security | model_evaluation": {
+          "label": "binary_security | model_evaluation",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "agent_security | agent_architecture": {
+          "label": "agent_security | agent_architecture",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 19,
+      "top_score": 97,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 0,
+      "top_score": 0,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "结合今天最高分的网络发现评估研究，做渗透测试 Agent 的团队千万别让大模型裸跑，上下文一长就会崩溃。建议在流程里插入轻量决策模型做动作拦截，虽然会增加点延迟，但能实打实地提升召回率并避开陷阱。另外在智能合约审计场景下也别迷信大模型，它们目前看注释下菜碟，交易级漏洞检测能力极弱，暂时不能直接用来替代人工审计。",
+  "method_note": "按北京时间 2026-11-22 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "hn-ai-tech",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# 决策模型在 LLM 驱动网络发现中的作用评估\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线是安全 Agent 在攻防实战中的真实表现与落地阵痛。大模型单干容易在复杂任务里拉胯，但多 Agent 协同的自动化攻击工具已经开始在野发威，红蓝两队都得正视 AI 拉平攻击门槛的现实。\n- 01 做渗透测试 Agent 的安全团队必看：论文用数据证明，别让 LLM 单机扫描，会因上下文饱和崩溃。引入轻量决策模型拦截陷阱和提升召回率可行，但要注意延迟权衡。\n- 02 真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。\n- 03 智能合约安全团队必看。实测了 LLM 在 Solana 代码审计和攻击检测中的表现，指出其高度依赖注释且交易级检测极弱，揭示了直接用 LLM 自动化审计的局限。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **决策模型在 LLM 驱动网络发现中的作用评估**：做渗透测试 Agent 的安全团队必看：论文用数据证明，别让 LLM 单机扫描，会因上下文饱和崩溃。引入轻量决策模型拦截陷阱和提升召回率可行，但要注意延迟权衡。 来源：arxiv-ai-security\n- **FBI 警告开源 AI 攻击工具 ARTEX：15 分钟突破网络**：真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。 来源：x-manual-ai-security\n- **评估 LLM 在 Solana 跨链桥源码与交易级漏洞检测中的能力**：智能合约安全团队必看。实测了 LLM 在 Solana 代码审计和攻击检测中的表现，指出其高度依赖注释且交易级检测极弱，揭示了直接用 LLM 自动化审计的局限。 来源：arxiv-ai-security\n\n## 也值得关注\n- Ephyra：面向 LLM 时代的属性测试框架挖掘数百个真实漏洞（85.75）\n- ProcReverser：用于处理器漏洞分析的多智能体黑盒微架构逆向系统（85.45）\n- X-LocVul：级联 C/C++ 漏洞检测与解释流水线的证据传递审计（85.15）\n- LLM 蜜罐叙事欺骗策略有效拖延自主攻击 Agent（85.1）\n- GitHub Actions 工作流安全修复缺乏回溯的实证与自动化方案（83.95）\n- 利用LLM识别智能电网中的网络物理攻击路径（82.9）\n\n## AI for Sec\n\n### 安全Agent\n- Claude-BugHunter 爆火：基于 Claude Code 的红队工具包（96.55）\n- 决策模型在 LLM 驱动网络发现中的作用评估（88.15）\n- ProcReverser：用于处理器漏洞分析的多智能体黑盒微架构逆向系统（85.45）\n- LLM 蜜罐叙事欺骗策略有效拖延自主攻击 Agent（85.1）\n- Cairn：自主渗透测试 AI 搜索引擎斩获腾讯云挑战赛满分（81.97）\n\n### 漏洞挖掘\n- 评估 LLM 在 Solana 跨链桥源码与交易级漏洞检测中的能力（86.35）\n- X-LocVul：级联 C/C++ 漏洞检测与解释流水线的证据传递审计（85.15）\n- AI Agent 11分钟挖出医疗软件0day并获Root权限（84.79）\n- LLM 用于漏洞预测与优先级评估的综述与分析（80.85）\n- CFVul：缓解漏洞检测中「修复逆转」现象的新方法（80.55）\n\n### AI Fuzzing\n- Ephyra：面向 LLM 时代的属性测试框架挖掘数百个真实漏洞（85.75）\n- 智能合约模糊测试预算分配：为何在线反馈无助于漏洞分诊（79.95）\n\n### security_remediation\n- GitHub Actions 工作流安全修复缺乏回溯的实证与自动化方案（83.95）\n\n### threat_modeling\n- 利用LLM识别智能电网中的网络物理攻击路径（82.9）\n\n### intrusion_detection\n- 层次个性化联邦学习实现细粒度入侵检测（82.65）\n\n### 恶意软件与威胁检测\n- 面向 Windows PE 恶意软件取证分诊的漂移感知可解释优先级排序框架（80.6）\n\n### 威胁检测\n- 基于平滑与学习的 RSS 欺骗检测抗移动性改进（78.65）\n\n## AI Tech 短讯\n\n## 今日论文\n- 决策模型在 LLM 驱动网络发现中的作用评估\n- 评估 LLM 在 Solana 跨链桥源码与交易级漏洞检测中的能力\n- Ephyra：面向 LLM 时代的属性测试框架挖掘数百个真实漏洞\n- ProcReverser：用于处理器漏洞分析的多智能体黑盒微架构逆向系统\n- X-LocVul：级联 C/C++ 漏洞检测与解释流水线的证据传递审计\n- LLM 蜜罐叙事欺骗策略有效拖延自主攻击 Agent\n- GitHub Actions 工作流安全修复缺乏回溯的实证与自动化方案\n- 利用LLM识别智能电网中的网络物理攻击路径\n\n## 今日观察\n结合今天最高分的网络发现评估研究，做渗透测试 Agent 的团队千万别让大模型裸跑，上下文一长就会崩溃。建议在流程里插入轻量决策模型做动作拦截，虽然会增加点延迟，但能实打实地提升召回率并避开陷阱。另外在智能合约审计场景下也别迷信大模型，它们目前看注释下菜碟，交易级漏洞检测能力极弱，暂时不能直接用来替代人工审计。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-22 的系统入库窗口筛选，从 23 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-23T00:01:45+08:00"
+}
