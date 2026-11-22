@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-22T06:56:36+08:00",
+  "updated_at": "2026-11-22T08:26:42+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 35015,
+      "title": "Claude-BugHunter 爆火：基于 Claude Code 的红队工具包",
+      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1803 stars today",
+      "summary": "基于 Claude Code 的漏洞狩猎工具包 Claude-BugHunter 今日狂揽 1800+ star，内含 82 项安全技能和 681 个漏洞报告模式，覆盖 24 类核心漏洞与企业基础设施攻击矩阵。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 96.55,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "安全研究员和红队人员必看：这是将 Claude Code 武装成专业化漏洞挖掘 Agent 的一线实战范例。可以直接借鉴其安全技能包和漏洞模式设计，快速构建自己的自动化攻击流水线。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-22&since=daily",
+      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-22&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-21T04:24:41",
+      "first_seen_at": "2026-11-22T00:15:52.076931",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 34392,
       "title": "LOCA：基于 LLM Agent 的网表到 RTL 逆向恢复攻击",
@@ -198,26 +218,6 @@
       "published_at": "2026-11-19T05:00:00",
       "first_seen_at": "2026-11-21T21:03:58.345618",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 33846,
-      "title": "Agent-Native 应用架构：以 LLM 代理为核心的治理与控制模型",
-      "original_title": "Agent-Native Applications: A New Application Paradigm",
-      "summary": "本文提出以 LLM 代理为核心逻辑的 Agent 原生应用范式，并通过声明式规范、控制面和数据面架构解决运行时的行为控制与治理问题。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 78.0,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做 Agent 的人必看，它把 Agent 治理拆成了声明式规范和行为信封。落地 Agent 时面临越权和不可控问题，这里的编排器与 Agent Mesh 设计能直接借鉴用于搭建可信安全边界。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.23243",
-      "reader_url": "https://arxiv.org/pdf/2611.23243",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-19T05:00:00",
-      "first_seen_at": "2026-11-21T21:03:58.345618",
-      "sub_category_label": null
     }
   ]
 }
