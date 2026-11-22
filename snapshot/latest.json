@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T11:27:15+08:00",
+  "updated_at": "2026-11-22T16:58:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -105,31 +105,6 @@
       "sub_category_label": null
     },
     {
-      "id": 34735,
-      "title": "Cairn：自主渗透测试 AI 搜索引擎斩获腾讯云挑战赛满分",
-      "original_title": "🚨 Cairn: a general-purpose AI state-space search engine first validated on autonomous penetration testing  GitHub: https://t.co/HH01ZEYXEq  Cairn does not rely on fixed agent roles",
-      "summary": "Cairn 是一款通用 AI 状态空间搜索引擎，通过多 Agent 共享图进行自主渗透测试，在腾讯云 AI 渗透挑战赛中取得 54/54 的满分成绩。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 81.97,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "红队和自动化安全开发者必看。多 Agent 动态探索加共享图推理的架构思路非常值得借鉴，直接开源可复现，是构建自动化渗透和 CTF Agent 的优质参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
-      "reader_url": "https://x.com/DarkWebInformer/status/2123846289422950606",
-      "image_url": "https://pbs.twimg.com/media/HXlq0nGXkAAZgBA.jpg",
-      "author": {
-        "username": "DarkWebInformer",
-        "name": "Dark Web Informer",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T18:29:49",
-      "first_seen_at": "2026-11-21T20:35:49.528672",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 34122,
       "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
       "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
@@ -155,29 +130,44 @@
       "sub_category_label": null
     },
     {
-      "id": 34749,
-      "title": "FBI 警告开源 AI 攻击工具 ARTEX：15 分钟突破网络",
-      "original_title": "THE FBI IS WARNING ABOUT AN OPEN-SOURCE AI HACKING TOOL THAT GOT INTO A NETWORK IN ABOUT 15 MINUTES  ARTEX went up on GitHub in July as a penetration testing framework. by August, ",
-      "summary": "FBI 警告开源 AI 渗透测试框架 ARTEX 被武器化，6 个 AI Agent 协同可在 15 分钟内获取系统权限，攻击成本仅 145 至 1500 美元。",
-      "primary_category": "AI for Sec | Sec for AI",
-      "sub_category": "security_agent",
-      "score_total": 81.26,
+      "id": 33774,
+      "title": "LLM 用于漏洞预测与优先级评估的综述与分析",
+      "original_title": "LLMs for Software Vulnerability Prediction and Prioritization: A Review",
+      "summary": "该论文系统综述了 LLM 在漏洞预测、评估和优先级排序等五个任务类别中的应用，指出当前系统应辅助分析师而非替代，并发现可复现性和解释可用性是主要短板。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 80.85,
       "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "真实在野攻击案例！AI 自动化渗透工具已用于攻击 200+ 组织。红蓝团队须立刻了解多 Agent 协同攻击的威力和成本，蓝队需据此评估现有防御机制。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Ravlizk/status/2123856788739006605",
-      "reader_url": "https://x.com/Ravlizk/status/2123856788739006605",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123856570370887681/img/N9vAlo9cDSFLCNTl.jpg",
-      "author": {
-        "username": "Ravlizk",
-        "name": "Ravli",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-20T19:11:32",
-      "first_seen_at": "2026-11-21T20:35:49.528672",
-      "sub_category_label": null
+      "item_type": "paper",
+      "recommendation_reason": "做漏洞管理和自动化分析的安全团队必看，它帮你摸清当前 LLM 在漏洞预测和优先级评估上的真实能力和落地瓶颈，避坑「不可复现」和「解释力不足」的伪需求。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.23304",
+      "reader_url": "https://arxiv.org/pdf/2611.23304",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T05:00:00",
+      "first_seen_at": "2026-11-21T21:03:58.345618",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 33762,
+      "title": "面向 Windows PE 恶意软件取证分诊的漂移感知可解释优先级排序框架",
+      "original_title": "Drift-Aware Explainable Prioritization for Windows PE Malware Forensic Triage with Semantic Consistency Checks",
+      "summary": "该论文提出一个 Windows PE 恶意软件取证分诊框架，基于预提取静态特征生成可校准恶意性评分，并结合 MBC 与 MITRE ATT&CK 进行语义一致性检查和漂移检测，为调查人员输出可解释的文件优先级。评测使用 EMBER2024 时序切分和 BODMAS 家族不相交检查。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 80.6,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "做恶意软件检测和威胁运营的团队值得看，它把模型漂移检测和可解释归因直接绑在 PE 取证流程里，比单纯刷检测分数更贴近实际。可参考其 conformal evaluation 设计来评估自己检测器的时效衰减。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.24474",
+      "reader_url": "https://arxiv.org/pdf/2611.24474",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-19T05:00:00",
+      "first_seen_at": "2026-11-22T03:04:06.735041",
+      "sub_category_label": "恶意软件与威胁检测"
     }
   ]
 }
