@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T17:28:33+08:00",
+  "updated_at": "2026-11-22T18:59:11+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -105,31 +105,6 @@
       "sub_category_label": null
     },
     {
-      "id": 34122,
-      "title": "微软AI Agent框架遭供应链投毒，GLM模型驱动攻击窃取云密钥",
-      "original_title": "WHAT THE F*CK...  An AI agent just hacked Microsoft's AI agent framework.  On Nov 17, two poisoned versions of Microsoft's official agent-framework package hit PyPI. A package with",
-      "summary": "11月17日，微软官方 PyPI 包 agent-framework 两个版本被植入恶意 .pth 文件，存活55分钟，每次启动 Python 自动窃取云与开发者密钥。Wiz 发现攻击者使用了基于 GLM 模型的开源 AI 渗透框架 Cairn。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "ai_supply_chain",
-      "score_total": 81.89,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI Agent 已开始直接攻击构建 AI 的工具链，安全团队须立刻排查是否拉取过 1.26.1/1.26.2 版本，若有则全面轮换云和开发凭据；同时这也暴露出大模型在自动化攻击链中的实战潜力，防守方需高度警惕。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/whyNexqor/status/2123494095368941709",
-      "reader_url": "https://x.com/whyNexqor/status/2123494095368941709",
-      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2123493636365000704/img/tyFr1suSQ5J03ipC.jpg",
-      "author": {
-        "username": "whyNexqor",
-        "name": "Nexqor",
-        "avatar_url": null,
-        "followers_count": 0
-      },
-      "published_at": "2026-11-19T19:10:19",
-      "first_seen_at": "2026-11-21T22:36:11.874321",
-      "sub_category_label": null
-    },
-    {
       "id": 33762,
       "title": "面向 Windows PE 恶意软件取证分诊的漂移感知可解释优先级排序框架",
       "original_title": "Drift-Aware Explainable Prioritization for Windows PE Malware Forensic Triage with Semantic Consistency Checks",
@@ -148,6 +123,31 @@
       "published_at": "2026-11-19T05:00:00",
       "first_seen_at": "2026-11-22T03:04:06.735041",
       "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 34816,
+      "title": "自主渗透框架 ARTEX 被黑产滥用，FBI 发出安全警告",
+      "original_title": "\"ARTEX is an open-source, AI-driven autonomous penetration-testing framework first released on GitHub in July 2026 by a developer using the handle Autumn-27.  Written primarily in ",
+      "summary": "开源 AI 驱动的自主渗透测试框架 ARTEX 被犯罪团伙和国家级黑客广泛滥用，用于自动化入侵，FBI 已就此发布 FLASH 警报。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 80.19,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "AI for Sec 从业者必须关注自主渗透 Agent 被武器化的双刃剑效应。防御侧需立刻针对 LLM 编排的自动化攻击链升级检测规则，评估暴露面风险。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/LilithDatura/status/2123924825647522125",
+      "reader_url": "https://x.com/LilithDatura/status/2123924825647522125",
+      "image_url": null,
+      "author": {
+        "username": "LilithDatura",
+        "name": "Lilith Datura",
+        "avatar_url": null,
+        "followers_count": 0
+      },
+      "published_at": "2026-11-20T23:41:53",
+      "first_seen_at": "2026-11-22T00:36:16.399319",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
