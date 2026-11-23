@@ -1,9 +1,49 @@
 {
-  "updated_at": "2026-11-23T17:07:36+08:00",
+  "updated_at": "2026-11-23T19:08:12+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 7,
   "items": [
+    {
+      "id": 35303,
+      "title": "通过上下文接地进化劫持智能体工作流",
+      "original_title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
+      "summary": "该论文提出首个名为 JAW 的检测和利用框架，通过静态和动态混合分析生成恶意输入（如 GitHub issue 评论），劫持 GitHub Actions 和 n8n 平台上的 LLM 智能体工作流，可导致凭据泄露和任意命令执行。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 94.35,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "这不仅是提示注入的新实战场景，更展示了如何通过混合程序分析自动化挖掘 Agent 工作流漏洞。安全团队应立即检查 GitHub Actions 和 n8n 中使用 LLM 的节点，避免被恶意评论直接 RCE。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2605.11229",
+      "reader_url": "https://arxiv.org/pdf/2605.11229",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-23T10:46:33.021495",
+      "sub_category_label": null
+    },
+    {
+      "id": 35304,
+      "title": "SysEvolve：面向网络防御的自主攻防共进化系统",
+      "original_title": "SYSEVOLVE: Safe, Autonomous Attack-Defense Co-evolution for Evolving Cyber Defense",
+      "summary": "SysEvolve 提出攻防共进化理念，通过构建靶场(SysField)、生成攻击(SysSpear)和实时防御(SysArmor)三个组件实现大模型驱动的自动化红蓝对抗，在真实环境成功检测 APT 攻击。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 92.95,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "这篇论文提出了完整的AI攻防闭环，不仅有红队成功率提升，还有真实环境APT检测。做安全Agent和靶场建设的同学必看，能直接借鉴其拓扑驱动靶场构建和CTI融合防御方法。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2608.15012",
+      "reader_url": "https://arxiv.org/pdf/2608.15012",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-23T10:47:06.024019",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 35170,
       "title": "Claude-BugHunter 开源技能包爆火，专注红队与漏洞挖掘",
@@ -23,6 +63,26 @@
       "published_at": "2026-11-23T00:12:14.022397",
       "first_seen_at": "2026-11-23T00:12:57.032104",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 35299,
+      "title": "Mega-MMDF与DeepfakeBench-MM：多模态伪造检测基准",
+      "original_title": "Mega-MMDF and DeepfakeBench-MM: Benchmarking Multimodal Deepfake Detection Across Diverse Forgery Pipelines",
+      "summary": "提出包含120万伪造片段的多模态数据集Mega-MMDF及标准化评测基准DeepfakeBench-MM，发现基于该数据集训练的检测器性能显著提升，并揭示了跨伪造管道的泛化难题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 84.8,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "深度伪造检测是防御社工和虚假信息的关键。做内容安全和威胁检测的团队可以直接拿这个多模态基准测试现有检测器的泛化能力，别在单一数据集上过拟合了。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2510.22622",
+      "reader_url": "https://arxiv.org/pdf/2510.22622",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-23T10:45:11.320120",
+      "sub_category_label": "安全评测与Benchmark"
     },
     {
       "id": 35239,
@@ -69,31 +129,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 34985,
-      "title": "研究员借助 AI 发现 Ghostscript 渲染漏洞",
-      "original_title": "🪲 upload2shell  @PaulosYibelo found this bug with GPT 5.6 sol  Ghostscript renders PDFs/PostScript everywhere - WordPress uploads, Roundcube email previews, CUPS print jobs, MediaW",
-      "summary": "安全研究员使用 GPT 5.6 发现 Ghostscript 在渲染 PDFs/PostScript 时存在漏洞，影响 WordPress、Roundcube 等场景。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 79.83,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这是 AI 辅助漏洞挖掘又一实战案例，关注研究员如何利用前沿大模型在基础软件中挖出高危漏洞，值得漏洞团队跟进。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/payloadartist/status/2124227313340756028",
-      "reader_url": "https://x.com/payloadartist/status/2124227313340756028",
-      "image_url": "https://pbs.twimg.com/media/HXrCgNVaMAArJT0.jpg",
-      "author": {
-        "username": "payloadartist",
-        "name": "payloadartist",
-        "avatar_url": null,
-        "followers_count": 46166
-      },
-      "published_at": "2026-11-21T19:43:52",
-      "first_seen_at": "2026-11-22T22:39:12.434843",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 35183,
       "title": "阿里开源混合架构代码审查工具 open-code-review",
       "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
@@ -112,31 +147,6 @@
       "published_at": "2026-11-23T00:12:17.151178",
       "first_seen_at": "2026-11-23T00:14:27.826917",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 35032,
-      "title": "挖掘零日漏洞：任意模型皆可，编排是关键",
-      "original_title": "RT @pentest_swissky: Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-mo…",
-      "summary": "@nielsprovos 认为利用大模型发现零日漏洞的核心在于编排过程而非模型前沿能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.08,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队应将注意力从单纯追求最强模型转移到构建高效的 Agent 编排流程上。这为资源有限的团队提供了切实可行的 AI 安全落地路径，避开算力军备竞赛。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2124289641755087315",
-      "reader_url": "https://x.com/soaphornseuo/status/2124289641755087315",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null,
-        "followers_count": 2488
-      },
-      "published_at": "2026-11-21T23:51:32",
-      "first_seen_at": "2026-11-23T02:39:42.217846",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
