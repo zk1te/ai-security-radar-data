@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T12:36:29+08:00",
+  "updated_at": "2026-11-23T16:07:05+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -43,6 +43,26 @@
       "published_at": "2026-11-18T05:00:00",
       "first_seen_at": "2026-11-22T21:04:14.912308",
       "sub_category_label": null
+    },
+    {
+      "id": 35239,
+      "title": "craft-anything：AI驱动的自动化逆向与重构工具",
+      "original_title": "REA 靠边站，逆向圈又一新王诞生了",
+      "summary": "开源项目craft-anything利用纯Rust封装320+工具，支持自然语言驱动的自动化逆向工程与重构，提供Clean-Room和Deep两种模式，可联动Ghidra等反编译器。",
+      "primary_category": "AI for Sec",
+      "sub_category": "binary_security",
+      "score_total": 81.55,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "逆向与安全分析从业者值得一看。它将大量探测与反编译工具封装为MCP并交由Agent调度，大幅降低自动化逆向门槛，可直接用于遗留系统分析或二进制拆解。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7709320849258364938",
+      "reader_url": "https://juejin.cn/post/7709320849258364938",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T06:10:06",
+      "first_seen_at": "2026-11-23T07:46:31.281177",
+      "sub_category_label": "二进制安全"
     },
     {
       "id": 35167,
@@ -137,26 +157,6 @@
       "published_at": "2026-11-21T23:51:32",
       "first_seen_at": "2026-11-23T02:39:42.217846",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 32988,
-      "title": "重新评估对抗性人脸隐私保护：现有评测协议存在严重缺陷",
-      "original_title": "Wrong Input, Wrong Threshold: Re-evaluating Adversarial Facial Privacy",
-      "summary": "本文指出当前对抗性人脸隐私保护方法的评测协议存在输入和阈值两大缺陷，导致保护效果被严重高估。作者提出新的测量指标，并发现通过可微对齐操作可大幅提升真实场景下的保护效果。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "ai_adversarial",
-      "score_total": 70.7,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "如果你在做对抗样本防御或人脸隐私保护，这篇论文直接打脸了现有90%以上的保护率指标。建议立刻检查你们评测pipeline是否也犯了未对齐和固定阈值的错误。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.21923",
-      "reader_url": "https://arxiv.org/pdf/2611.21923",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T05:00:00",
-      "first_seen_at": "2026-11-22T21:04:14.912308",
-      "sub_category_label": null
     }
   ]
 }
