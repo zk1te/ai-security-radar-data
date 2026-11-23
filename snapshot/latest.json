@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-23T09:04:36+08:00",
+  "updated_at": "2026-11-23T11:04:56+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 35170,
@@ -25,26 +25,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 32968,
-      "title": "评估 LLM 在 Solana 跨链桥源码与交易级漏洞检测中的能力",
-      "original_title": "LLMs as Validators for Cross-Chain Bridges: Evaluating Source-Level and Transaction-Level Attack Detection on Solana",
-      "summary": "论文构建了含四种已知漏洞的 Solana 跨链桥本地验证器，评估五种大模型在源码和交易层诊断漏洞的效果。结果表明当前模型高度依赖代码注释，交易层检测能力极弱，难以独立区分真实漏洞与误报。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 86.35,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "智能合约安全团队必看。实测了 LLM 在 Solana 代码审计和攻击检测中的表现，指出其高度依赖注释且交易级检测极弱，揭示了直接用 LLM 自动化审计的局限。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.21777",
-      "reader_url": "https://arxiv.org/pdf/2611.21777",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T05:00:00",
-      "first_seen_at": "2026-11-22T15:04:14.374634",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 32973,
       "title": "PersonaHate：基于角色驱动的仇恨言论检测数据合成管道",
       "original_title": "PersonaHate: A Scalable Persona-Based Data Synthesis Pipeline for Hate Speech Analysis",
@@ -62,46 +42,6 @@
       "author": null,
       "published_at": "2026-11-18T05:00:00",
       "first_seen_at": "2026-11-22T21:04:14.912308",
-      "sub_category_label": null
-    },
-    {
-      "id": 32985,
-      "title": "LLM 蜜罐叙事欺骗策略有效拖延自主攻击 Agent",
-      "original_title": "Adaptive LLM-Driven Honeypots vs. LLM-Driven Attackers: Does Narrative Coherence Improve Deception?",
-      "summary": "论文提出 narrative deception 策略，LLM 防御者实时映射攻击命令到 MITRE ATT&CK 并部署相互引用的欺骗制品，与自主 LLM 攻击者通过真实 SSH 交互。1150 场实验显示连贯场景将高级攻击者中位会话从 40 提升至 165 条命令，放弃率从 86% 降至 52%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 85.1,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做欺骗防御和威胁狩猎的人该看——这篇给出用 LLM 动态生成连贯蜜罐制品的完整方法与对抗数据，证明叙事连贯性能显著拖住高级 AI 攻击者，可直接指导蜜罐架构迭代。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.22589",
-      "reader_url": "https://arxiv.org/pdf/2611.22589",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T05:00:00",
-      "first_seen_at": "2026-11-22T15:04:14.374634",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 32975,
-      "title": "层次个性化联邦学习实现细粒度入侵检测",
-      "original_title": "Hierarchical Personalized Federated Learning for Fine-Grained Intrusion Detection: A Multi-Class Analysis in Heterogeneous Attack Environments",
-      "summary": "论文提出层次化个性化联邦学习（HPFL）方法用于非独立同分布环境下的细粒度入侵检测，在 CICIDS2017 数据集上显著提升分类效果，并将通信开销降低近一半。",
-      "primary_category": "AI for Sec",
-      "sub_category": "intrusion_detection",
-      "score_total": 82.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "用联邦学习做 IDS 的同学可以看。本文不仅解决非 IID 数据分布问题，还实打实减半了通信开销，并在 CICIDS2017 上做了多类细粒度评测，比常见的 FedAvg 基线有说服力。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.21970",
-      "reader_url": "https://arxiv.org/pdf/2611.21970",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T05:00:00",
-      "first_seen_at": "2026-11-22T15:04:14.374634",
       "sub_category_label": null
     },
     {
@@ -172,6 +112,56 @@
       "published_at": "2026-11-23T00:12:17.151178",
       "first_seen_at": "2026-11-23T00:14:27.826917",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 35119,
+      "title": "工具「blur」用规则编译神经网络权重实现轻量级隐私和机密检测",
+      "original_title": "I've been studying how much of language you can capture with explicit rules instead of training.  So as a side project,  wrote some rules and compiled them straight into a neural n",
+      "summary": "开发者推出开源工具 blur，通过将显式规则编译为神经网络权重实现 PII 和机密信息检测，体积仅 609KB，在部分评测中表现优于 OpenAI privacy-filter 且可本地运行。",
+      "primary_category": "AI for Sec",
+      "sub_category": "secrets_detection",
+      "score_total": 73.73,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队在处理日志和数据脱敏时常依赖庞大的模型，这款本地运行、体积极小的工具提供了一个新思路，值得评估其检测效果和适配性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
+      "image_url": "https://pbs.twimg.com/media/HXvPJRoacAA2M24.jpg",
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null,
+        "followers_count": 17983
+      },
+      "published_at": "2026-11-22T15:04:40",
+      "first_seen_at": "2026-11-22T16:33:04.642220",
+      "sub_category_label": null
+    },
+    {
+      "id": 35032,
+      "title": "挖掘零日漏洞：任意模型皆可，编排是关键",
+      "original_title": "RT @pentest_swissky: Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-mo…",
+      "summary": "@nielsprovos 认为利用大模型发现零日漏洞的核心在于编排过程而非模型前沿能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.08,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘团队应将注意力从单纯追求最强模型转移到构建高效的 Agent 编排流程上。这为资源有限的团队提供了切实可行的 AI 安全落地路径，避开算力军备竞赛。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/soaphornseuo/status/2124289641755087315",
+      "reader_url": "https://x.com/soaphornseuo/status/2124289641755087315",
+      "image_url": null,
+      "author": {
+        "username": "soaphornseuo",
+        "name": "soaphorn seuo",
+        "avatar_url": null,
+        "followers_count": 2488
+      },
+      "published_at": "2026-11-21T23:51:32",
+      "first_seen_at": "2026-11-23T02:39:42.217846",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
