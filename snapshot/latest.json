@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T06:48:27+08:00",
+  "updated_at": "2026-11-24T07:48:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -95,6 +95,31 @@
       "sub_category_label": null
     },
     {
+      "id": 35663,
+      "title": "OpenAI 开源 Linux 运行时 Shirudo，赋能 AI Agent 零停机防御",
+      "original_title": "RT @OpenAI: We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents writ…",
+      "summary": "OpenAI 推出开源 Linux 运行时 Shirudo，允许 AI Agent 在不中断系统运行的情况下执行防御操作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 78.18,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "蓝队和防守方必看。Shirudo 为 AI Agent 参与系统防御提供了开源运行时底座，其零停机特性极具实战价值，防守团队值得立即跟进测试其能力边界与适用场景。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/viperbjk/status/2125003004437037548",
+      "reader_url": "https://x.com/viperbjk/status/2125003004437037548",
+      "image_url": null,
+      "author": {
+        "username": "viperbjk",
+        "name": "Bjoern Kerler",
+        "avatar_url": null,
+        "followers_count": 3223
+      },
+      "published_at": "2026-11-23T23:06:11",
+      "first_seen_at": "2026-11-23T23:24:47.073348",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 35568,
       "title": "ARTEX AI 黑客框架免费公开引关注",
       "original_title": "“I’m not going to remove the repository”",
@@ -138,26 +163,6 @@
       "published_at": "2026-11-22T16:40:33",
       "first_seen_at": "2026-11-23T18:42:55.306762",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 35513,
-      "title": "知识增强工作流中AI代理声明式技能与安全执行研究",
-      "original_title": "Declarative Skills for AI Agents in Knowledge-Grounded Tool-Use Workflows",
-      "summary": "评估客服工作流中声明式、命令式与基线代理发现编排不必然提升成功率，但在工具执行层强制前置条件可消除未授权写入并保持任务成功。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 69.45,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做 Agent 安全和权限设计的人该看。论文证实依赖状态机或 Agent 自主判断防不住未授权写入，必须在工具执行层强制校验前置条件才是最有效落地方案。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2606.06923",
-      "reader_url": "https://arxiv.org/pdf/2606.06923",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-23T05:00:00",
-      "first_seen_at": "2026-11-23T12:44:47.518695",
-      "sub_category_label": null
     }
   ]
 }
