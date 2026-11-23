@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-23T16:07:05+08:00",
+  "updated_at": "2026-11-23T17:07:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 35170,
@@ -23,26 +23,6 @@
       "published_at": "2026-11-23T00:12:14.022397",
       "first_seen_at": "2026-11-23T00:12:57.032104",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 32973,
-      "title": "PersonaHate：基于角色驱动的仇恨言论检测数据合成管道",
-      "original_title": "PersonaHate: A Scalable Persona-Based Data Synthesis Pipeline for Hate Speech Analysis",
-      "summary": "PersonaHate 利用多个大模型结合大规模角色池合成仇恨言论数据集，训练出的检测模型在多个基准测试中超越了 OpenAI Moderation API 和 LlamaGuard-3。",
-      "primary_category": "AI for Sec",
-      "sub_category": "content_moderation",
-      "score_total": 85.4,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做内容安全审核的同学看过来。这篇论文不仅开源了大规模仇恨言论合成数据集，还展示了微调小模型超越商业审核API的效果，可直接作为构建企业内部内容防线的参考。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.21951",
-      "reader_url": "https://arxiv.org/pdf/2611.21951",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T05:00:00",
-      "first_seen_at": "2026-11-22T21:04:14.912308",
-      "sub_category_label": null
     },
     {
       "id": 35239,
