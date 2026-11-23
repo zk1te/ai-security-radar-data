@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-23T20:08:37+08:00",
+  "updated_at": "2026-11-23T20:38:43+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 35303,
@@ -42,26 +42,6 @@
       "author": null,
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-23T10:47:06.024019",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 35170,
-      "title": "Claude-BugHunter 开源技能包爆火，专注红队与漏洞挖掘",
-      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1716 stars today",
-      "summary": "该 GitHub 仓库为 Claude Code 提供了 82 个技能和 15 个命令，涵盖 24 类漏洞模式及基础设施攻击矩阵，专为外部红队和 Bug 猎手设计。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 90.87,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "红队和漏洞挖掘人员值得一看，它将 Claude Code 包装成了具体的攻防技能集。拿走即可作为大模型辅助挖洞或代码审计的 Prompt 模板。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-23&since=daily",
-      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-23&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-23T00:12:14.022397",
-      "first_seen_at": "2026-11-23T00:12:57.032104",
       "sub_category_label": "安全Agent"
     },
     {
@@ -105,24 +85,29 @@
       "sub_category_label": "二进制安全"
     },
     {
-      "id": 35183,
-      "title": "阿里开源混合架构代码审查工具 open-code-review",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "阿里开源基于「确定性规则+LLM Agent」混合架构的代码审查工具，内置 NPE、XSS、SQL 注入等安全规则，支持行级精准评论。",
+      "id": 35032,
+      "title": "挖掘零日漏洞：任意模型皆可，编排是关键",
+      "original_title": "RT @pentest_swissky: Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-mo…",
+      "summary": "@nielsprovos 认为利用大模型发现零日漏洞的核心在于编排过程而非模型前沿能力。",
       "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 75.05,
-      "include_status": "highlight",
+      "sub_category": "vuln_discovery",
+      "score_total": 72.08,
+      "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "代码审计和安全团队值得关注，其结合静态规则与 LLM 的混合架构是当前 AI 辅助代码安全审计的主流落地范式，可作为自研工具的参考或直接试用。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-23&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-23&since=weekly",
+      "recommendation_reason": "漏洞挖掘团队应将注意力从单纯追求最强模型转移到构建高效的 Agent 编排流程上。这为资源有限的团队提供了切实可行的 AI 安全落地路径，避开算力军备竞赛。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/soaphornseuo/status/2124289641755087315",
+      "reader_url": "https://x.com/soaphornseuo/status/2124289641755087315",
       "image_url": null,
-      "author": null,
-      "published_at": "2026-11-23T00:12:17.151178",
-      "first_seen_at": "2026-11-23T00:14:27.826917",
-      "sub_category_label": "安全Agent"
+      "author": {
+        "username": "soaphornseuo",
+        "name": "soaphorn seuo",
+        "avatar_url": null,
+        "followers_count": 2488
+      },
+      "published_at": "2026-11-21T23:51:32",
+      "first_seen_at": "2026-11-23T02:39:42.217846",
+      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
