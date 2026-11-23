@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T11:04:56+08:00",
+  "updated_at": "2026-11-23T12:36:29+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 7,
@@ -114,31 +114,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 35119,
-      "title": "工具「blur」用规则编译神经网络权重实现轻量级隐私和机密检测",
-      "original_title": "I've been studying how much of language you can capture with explicit rules instead of training.  So as a side project,  wrote some rules and compiled them straight into a neural n",
-      "summary": "开发者推出开源工具 blur，通过将显式规则编译为神经网络权重实现 PII 和机密信息检测，体积仅 609KB，在部分评测中表现优于 OpenAI privacy-filter 且可本地运行。",
-      "primary_category": "AI for Sec",
-      "sub_category": "secrets_detection",
-      "score_total": 73.73,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队在处理日志和数据脱敏时常依赖庞大的模型，这款本地运行、体积极小的工具提供了一个新思路，值得评估其检测效果和适配性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
-      "reader_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
-      "image_url": "https://pbs.twimg.com/media/HXvPJRoacAA2M24.jpg",
-      "author": {
-        "username": "0xAsm0d3us",
-        "name": "devansh ⚡️",
-        "avatar_url": null,
-        "followers_count": 17983
-      },
-      "published_at": "2026-11-22T15:04:40",
-      "first_seen_at": "2026-11-22T16:33:04.642220",
-      "sub_category_label": null
-    },
-    {
       "id": 35032,
       "title": "挖掘零日漏洞：任意模型皆可，编排是关键",
       "original_title": "RT @pentest_swissky: Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-mo…",
@@ -162,6 +137,26 @@
       "published_at": "2026-11-21T23:51:32",
       "first_seen_at": "2026-11-23T02:39:42.217846",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 32988,
+      "title": "重新评估对抗性人脸隐私保护：现有评测协议存在严重缺陷",
+      "original_title": "Wrong Input, Wrong Threshold: Re-evaluating Adversarial Facial Privacy",
+      "summary": "本文指出当前对抗性人脸隐私保护方法的评测协议存在输入和阈值两大缺陷，导致保护效果被严重高估。作者提出新的测量指标，并发现通过可微对齐操作可大幅提升真实场景下的保护效果。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "ai_adversarial",
+      "score_total": 70.7,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "如果你在做对抗样本防御或人脸隐私保护，这篇论文直接打脸了现有90%以上的保护率指标。建议立刻检查你们评测pipeline是否也犯了未对齐和固定阈值的错误。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.21923",
+      "reader_url": "https://arxiv.org/pdf/2611.21923",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-18T05:00:00",
+      "first_seen_at": "2026-11-22T21:04:14.912308",
+      "sub_category_label": null
     }
   ]
 }
