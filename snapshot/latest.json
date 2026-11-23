@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T03:47:19+08:00",
+  "updated_at": "2026-11-24T05:17:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 6,
@@ -85,6 +85,26 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 35506,
+      "title": "GRAML：基于图推理与多任务学习的LLM漏洞检测框架",
+      "original_title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
+      "summary": "GRAML框架结合图基结构传播与多任务微调，并引入思维树漏洞推理生成描述，在7个数据集上显著提升LLM漏洞检测与定位F1分数。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "利用图结构过滤冗余关系并结合多任务微调，是当前提升代码大模型漏洞挖掘效果的实用解法；ToT-VR思路也可直接复用到安全Agent的代码审计推理链设计中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.09605",
+      "reader_url": "https://arxiv.org/pdf/2610.09605",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-23T21:04:47.115899",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 35119,
       "title": "工具「blur」用规则编译神经网络权重实现轻量级隐私和机密检测",
       "original_title": "I've been studying how much of language you can capture with explicit rules instead of training.  So as a side project,  wrote some rules and compiled them straight into a neural n",
@@ -108,26 +128,6 @@
       "published_at": "2026-11-22T15:04:40",
       "first_seen_at": "2026-11-23T16:42:26.363339",
       "sub_category_label": null
-    },
-    {
-      "id": 35568,
-      "title": "ARTEX AI 黑客框架免费公开引关注",
-      "original_title": "“I’m not going to remove the repository”",
-      "summary": "ARTEX 是一款造成破坏的 AI 黑客框架，现已免费公开，文章同时提及英伟达 CEO 黄仁勋回归。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.8,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "ARTEX 作为在野的 AI 黑客框架，展示了 AI 在攻击侧的低门槛滥用。红蓝对抗团队应立即跟进评估该工具的自动化攻击能力，判断现有防护体系是否需要升级。",
-      "source_id": "404-media",
-      "canonical_url": "https://www.404media.co/im-not-going-to-remove-the-repository",
-      "reader_url": "https://www.404media.co/im-not-going-to-remove-the-repository",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-23T15:35:22",
-      "first_seen_at": "2026-11-23T16:32:13.918221",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
