@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T08:34:07+08:00",
+  "updated_at": "2026-11-23T09:04:36+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -85,31 +85,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 34915,
-      "title": "AI Agent 11分钟挖出医疗软件0day并获Root权限",
-      "original_title": "🚨 Hackers used AI agents to discover a critical zero-day in medical-imaging software and gain ROOT access to a university server.  The agents found an exploit path in just 11 minut",
-      "summary": "攻击者使用 AI Agent 仅用 11 分钟就在医疗成像软件 MONAI Label 中发现一个 CVSS 9.8 的零日漏洞，并成功获取大学服务器 root 权限，目前尚无补丁。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 84.79,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "11分钟拿root的实战效果表明 AI 自动化挖洞已不再是纸上谈兵。安全团队需警惕 AI 驱动的攻击面扩张速度，尽早评估自有系统的自动化漏洞发现响应能力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2124096705532506230",
-      "reader_url": "https://x.com/TheHackersNews/status/2124096705532506230",
-      "image_url": "https://pbs.twimg.com/media/HXpOsFyaEAA5VyL.jpg",
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-11-21T11:04:53",
-      "first_seen_at": "2026-11-22T12:37:49.428891",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 32975,
       "title": "层次个性化联邦学习实现细粒度入侵检测",
       "original_title": "Hierarchical Personalized Federated Learning for Fine-Grained Intrusion Detection: A Multi-Class Analysis in Heterogeneous Attack Environments",
@@ -177,6 +152,26 @@
       "published_at": "2026-11-21T19:43:52",
       "first_seen_at": "2026-11-22T22:39:12.434843",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35183,
+      "title": "阿里开源混合架构代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+      "summary": "阿里开源基于「确定性规则+LLM Agent」混合架构的代码审查工具，内置 NPE、XSS、SQL 注入等安全规则，支持行级精准评论。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 75.05,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "代码审计和安全团队值得关注，其结合静态规则与 LLM 的混合架构是当前 AI 辅助代码安全审计的主流落地范式，可作为自研工具的参考或直接试用。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-23&since=weekly",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-23&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T00:12:17.151178",
+      "first_seen_at": "2026-11-23T00:14:27.826917",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
