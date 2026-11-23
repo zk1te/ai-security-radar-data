@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T20:38:43+08:00",
+  "updated_at": "2026-11-23T21:10:30+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 5,
@@ -23,6 +23,26 @@
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-23T10:46:33.021495",
       "sub_category_label": null
+    },
+    {
+      "id": 35503,
+      "title": "NPM恶意包检测工具大规模实证评测",
+      "original_title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
+      "summary": "研究构建了包含6400+恶意包的统一基准，评估11种NPM恶意包检测工具，指出工具性能取决于对代码能力与恶意意图的界定，且ML退化源于概念收敛而非漂移。",
+      "primary_category": "AI for Sec",
+      "sub_category": "malware_detection",
+      "score_total": 93.7,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "做供应链安全和恶意代码检测的人必看。研究不仅评测了主流工具，还拆解了它们失败的根本原因（能力与意图的歧义），并开源了6400+恶意包的统一基准，能直接拿来测自己的检测Agent或规则。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2603.27549",
+      "reader_url": "https://arxiv.org/pdf/2603.27549",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-23T12:40:50.071166",
+      "sub_category_label": "恶意软件与威胁检测"
     },
     {
       "id": 35304,
@@ -83,31 +103,6 @@
       "published_at": "2026-11-18T06:10:06",
       "first_seen_at": "2026-11-23T07:46:31.281177",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 35032,
-      "title": "挖掘零日漏洞：任意模型皆可，编排是关键",
-      "original_title": "RT @pentest_swissky: Finding Zero-Days with Any Model - @nielsprovos Vulnerability discovery is an orchestration problem, not a frontier-mo…",
-      "summary": "@nielsprovos 认为利用大模型发现零日漏洞的核心在于编排过程而非模型前沿能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.08,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘团队应将注意力从单纯追求最强模型转移到构建高效的 Agent 编排流程上。这为资源有限的团队提供了切实可行的 AI 安全落地路径，避开算力军备竞赛。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2124289641755087315",
-      "reader_url": "https://x.com/soaphornseuo/status/2124289641755087315",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null,
-        "followers_count": 2488
-      },
-      "published_at": "2026-11-21T23:51:32",
-      "first_seen_at": "2026-11-23T02:39:42.217846",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
