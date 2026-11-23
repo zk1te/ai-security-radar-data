@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-24T00:45:21+08:00",
+  "updated_at": "2026-11-24T03:47:19+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 35303,
@@ -83,26 +83,6 @@
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-23T10:45:11.320120",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 35239,
-      "title": "craft-anything：AI驱动的自动化逆向与重构工具",
-      "original_title": "REA 靠边站，逆向圈又一新王诞生了",
-      "summary": "开源项目craft-anything利用纯Rust封装320+工具，支持自然语言驱动的自动化逆向工程与重构，提供Clean-Room和Deep两种模式，可联动Ghidra等反编译器。",
-      "primary_category": "AI for Sec",
-      "sub_category": "binary_security",
-      "score_total": 81.55,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "逆向与安全分析从业者值得一看。它将大量探测与反编译工具封装为MCP并交由Agent调度，大幅降低自动化逆向门槛，可直接用于遗留系统分析或二进制拆解。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7709320849258364938",
-      "reader_url": "https://juejin.cn/post/7709320849258364938",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-18T06:10:06",
-      "first_seen_at": "2026-11-23T07:46:31.281177",
-      "sub_category_label": "二进制安全"
     },
     {
       "id": 35119,
