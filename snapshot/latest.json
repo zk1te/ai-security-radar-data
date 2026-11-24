@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-11-25T01:27:03+08:00",
+  "updated_at": "2026-11-25T01:57:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
-    {
-      "id": 35755,
-      "title": "ING银行分享AI在安全运营中的落地经验",
-      "original_title": "Making AI Work in Cybersecurity Operations - Lessons from a Global Bank",
-      "summary": "ING银行将在Black Hat Europe 2026上分享其在安全运营中应用AI的经验，重点讨论数据防泄漏、源码凭据检测以及如何处理误报和模型性能监控。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_analytics",
-      "score_total": 87.7,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "一线甲方安全团队的AI落地实录。讲透了DLP和凭据检测场景下如何处理误报和模型漂移，做安全数据分析的同学必看，能少踩很多坑。",
-      "source_id": "blackhat-public-sessions",
-      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#making-ai-work-in-cybersecurity-operations-lessons-from-a-global-bank-59253",
-      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#making-ai-work-in-cybersecurity-operations-lessons-from-a-global-bank-59253",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-12-10T11:20:00",
-      "first_seen_at": "2026-11-24T05:32:50.437514",
-      "sub_category_label": null
-    },
     {
       "id": 35845,
       "title": "黑客 AI Agent 几乎无人工干预下发现并利用 0-day",
