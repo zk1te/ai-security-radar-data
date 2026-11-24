@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T17:20:38+08:00",
+  "updated_at": "2026-11-24T18:51:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -95,31 +95,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 35657,
-      "title": "OpenAI 发布开源 Linux 运行时 Shirudo",
-      "original_title": "RT @OpenAI: We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents writ…",
-      "summary": "OpenAI 推出名为 Shirudo 的开源 Linux 运行时，支持 AI Agent 在系统无停机状态下执行防御任务。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 81.9,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "防御侧 Agent 编排与执行的新底座。做安全自动化和响应的同学应关注其如何实现在线防御而不中断系统，这能直接缓解 Agent 误操作带来的生产环境风险。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2124980896147079648",
-      "reader_url": "https://x.com/HackingLZ/status/2124980896147079648",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-11-23T21:38:20",
-      "first_seen_at": "2026-11-23T22:47:04.959535",
-      "sub_category_label": "安全Agent"
-    },
-    {
       "id": 35728,
       "title": "GPT-6 Cyber 一次运行验证 948 个 Linux 内核漏洞并生成补丁",
       "original_title": "RT @OpenAI: In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for re…",
@@ -212,6 +187,31 @@
       },
       "published_at": "2026-11-24T06:03:13",
       "first_seen_at": "2026-11-24T07:01:42.661441",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35808,
+      "title": "大语言模型用于漏洞检测的论文合集资源",
+      "original_title": "LLMs for vulnerability detection, papers collections  https://t.co/c0F7TkOvHp  #llm #infosec https://t.co/srluuJUUEv",
+      "summary": "该推文分享了一个收集使用大语言模型进行漏洞检测相关论文的合集链接。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.57,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "适合做代码审计和漏洞挖掘的从业者收藏，能快速了解当前 LLM 在漏洞检测领域的研究全景和主流方向。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2125137919681679632",
+      "reader_url": "https://x.com/0xor0ne/status/2125137919681679632",
+      "image_url": "https://pbs.twimg.com/media/HX4BrSzWgAEskJ7.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null,
+        "followers_count": 93861
+      },
+      "published_at": "2026-11-24T08:02:17",
+      "first_seen_at": "2026-11-24T10:30:42.964586",
       "sub_category_label": "漏洞挖掘"
     },
     {
