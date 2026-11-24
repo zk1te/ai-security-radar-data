@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T00:25:13+08:00",
+  "updated_at": "2026-11-25T01:27:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 35755,
@@ -117,6 +117,31 @@
       "published_at": "2026-11-24T05:04:41",
       "first_seen_at": "2026-11-24T06:55:14.477106",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 35880,
+      "title": "Black Hat Arsenal 举办 AI 兵棋推演现场活动",
+      "original_title": "An AI Wargame in the Arsenal Lab. Pedram Hayati runs it live in the Business Hall, Wednesday and Thursday. Open to every pass.  https://t.co/RZgFgYg6el https://t.co/4v84jX3Tab",
+      "summary": "Pedram Hayati 将于周三和周四在 Business Hall 现场主持 AI Wargame 活动，向所有持票者开放。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 61.51,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 Black Hat 现场的 AI 攻防演练活动。做 AI for Sec 的同行如果参会，值得去现场看看具体的战法设计，了解业内同行怎么用 AI 搞安全对抗。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/BlackHatEvents/status/2125243151602303373",
+      "reader_url": "https://x.com/BlackHatEvents/status/2125243151602303373",
+      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HX5hYQMXIAAapAu.jpg",
+      "author": {
+        "username": "BlackHatEvents",
+        "name": "Black Hat",
+        "avatar_url": null,
+        "followers_count": 428056
+      },
+      "published_at": "2026-11-24T15:00:27",
+      "first_seen_at": "2026-11-24T17:16:40.010532",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
