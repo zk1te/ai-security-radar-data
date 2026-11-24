@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-24T22:24:35+08:00",
+  "updated_at": "2026-11-25T00:25:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 35755,
@@ -117,31 +117,6 @@
       "published_at": "2026-11-24T05:04:41",
       "first_seen_at": "2026-11-24T06:55:14.477106",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 35738,
-      "title": "OpenAI 与 Cisco 推出 AI 漏洞缓解工具 Shirudo",
-      "original_title": "🛡️ OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers   Details: https://t.co/eEr80yewMd  OpenAI and Cisco launched Shirudo on November 23, 2026, a",
-      "summary": "OpenAI 与 Cisco 联合开源 Shirudo，利用 AI 生成虚拟补丁拦截 Linux 服务器上的特定漏洞利用，无需重启服务，以填补漏洞修复的时间差。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_mitigation",
-      "score_total": 66.98,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "用 AI 自动生成 Shield 拦截漏洞利用，填补补丁部署的时间窗口。安全团队可关注其如何结合 Codex 实现 0-day 或 N-day 的应急响应，评估是否能集成到现有 WAF/RASP 流程中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2125078537619304768",
-      "reader_url": "https://x.com/The_Cyber_News/status/2125078537619304768",
-      "image_url": "https://pbs.twimg.com/media/HX3Lp75bEAE6mGu.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-11-24T04:06:20",
-      "first_seen_at": "2026-11-24T04:13:39.044206",
-      "sub_category_label": null
     }
   ]
 }
