@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T03:57:22+08:00",
+  "updated_at": "2026-11-25T04:27:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 9,
   "items": [
     {
       "id": 35845,
@@ -113,6 +113,76 @@
       "published_at": "2026-11-21T10:07:21",
       "first_seen_at": "2026-11-24T19:56:19.092559",
       "sub_category_label": null
+    },
+    {
+      "id": 35939,
+      "title": "VulnCheck 用 AI 大幅提升漏洞利用产出",
+      "original_title": "RT @Junior_Baines: I joined VulnCheck to write exploits. We went from 3-5 a week to hundreds.  AI changed more than our output. It expanded…",
+      "summary": "VulnCheck 员工分享称，引入 AI 后团队漏洞利用编写量从每周 3-5 个跃升至数百个，AI 不仅提升了产能还扩展了工作边界。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 63.34,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "头部威胁情报公司内部流程 AI 化的产业实锤。如果你还在评估 AI 写 Exploit 的实战效果，这就是最直接的产能数据，建议尽快对齐评估自身工作流中哪些环节可被 AI 接管。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2125283516707434539",
+      "reader_url": "https://x.com/HackingLZ/status/2125283516707434539",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-11-24T17:40:50",
+      "first_seen_at": "2026-11-24T20:04:36.308011",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35940,
+      "title": "AI 让漏洞发现无限化，补丁模式终将失效",
+      "original_title": "RT @msuiche: Everyone's debating the cost of finding bugs.   If AI makes discovery unlimited, we'll never patch to zero.   So design for bu…",
+      "summary": "推文指出 AI 使漏洞发现成本趋近于零，传统的补丁清零模式将无法应对，安全策略必须转向设计级防御。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 62.3,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队和甲方必须看：AI 让漏洞挖掘成本趋零，依赖补丁清零的防守逻辑已死。防御思路必须转向架构级弹性设计，而非单纯堆叠补丁。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2125287250233639391",
+      "reader_url": "https://x.com/HackingLZ/status/2125287250233639391",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-11-24T17:55:41",
+      "first_seen_at": "2026-11-24T20:04:36.544929",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35935,
+      "title": "GPT-6.2 Astra 自主破解1808年历史谜题",
+      "original_title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "summary": "历史教授利用 GPT-6.2 Astra 自主检索并交叉验证多源档案，仅22分钟便成功识别出耶鲁大学馆藏1808年匿名素描本的作者，展现出强大的 Agentic 搜索与推理能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 61.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "GPT-6.2 Astra 展现了极强的自主检索、假设推演和跨源验证能力，安全研究者可关注其底层 Agent 机制对未来自动化威胁情报挖掘或漏洞溯源任务的潜在影响。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+      "reader_url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-24T16:53:59",
+      "first_seen_at": "2026-11-24T20:04:16.064407",
+      "sub_category_label": "Agent 架构"
     },
     {
       "id": 35880,
