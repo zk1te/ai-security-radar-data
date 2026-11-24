@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T02:57:14+08:00",
+  "updated_at": "2026-11-25T03:27:18+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 4,
   "items": [
     {
       "id": 35845,
@@ -22,31 +22,6 @@
       "author": null,
       "published_at": "2026-11-24T12:30:05",
       "first_seen_at": "2026-11-24T13:59:49.426671",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 35766,
-      "title": "AI Agent 11分钟挖出MONAI Label零日漏洞并获root权限",
-      "original_title": "🚨 AI agents discovered and exploited a zero-day in MONAI Label in just 11 minutes, later gaining root access.  CISA also confirms active exploitation of a critical N-able MailAssur",
-      "summary": "AI Agent 仅用 11 分钟发现并利用了 MONAI Label 零日漏洞获取 root 权限；同时 CISA 确认 N-able MailAssure 高危漏洞遭在野利用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 74.01,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI Agent 仅用11分钟便打通 RCE 到提权，自主漏洞挖掘实战效果惊人。AI for Sec 从业者需密切关注自动化挖洞工具链走向实战的进程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2125107955951669688",
-      "reader_url": "https://x.com/TheHackersNews/status/2125107955951669688",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-11-24T06:03:13",
-      "first_seen_at": "2026-11-24T07:01:42.661441",
       "sub_category_label": "漏洞挖掘"
     },
     {
