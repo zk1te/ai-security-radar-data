@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-24T20:54:28+08:00",
+  "updated_at": "2026-11-24T22:24:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 6,
   "items": [
     {
       "id": 35755,
@@ -25,28 +25,23 @@
       "sub_category_label": null
     },
     {
-      "id": 35728,
-      "title": "GPT-6 Cyber 一次运行验证 948 个 Linux 内核漏洞并生成补丁",
-      "original_title": "RT @OpenAI: In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for re…",
-      "summary": "OpenAI 称其 GPT-6 Cyber 模型在单次运行中验证了 948 个可导致本地提权的 Linux 内核漏洞，并生成了修复补丁。",
+      "id": 35845,
+      "title": "黑客 AI Agent 几乎无人工干预下发现并利用 0-day",
+      "original_title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "summary": "亚马逊表示黑客使用 Cairn AI 框架的 AI agent 在极少人工干预下发现并利用了 0-day 漏洞。这表明 AI 漏洞挖掘已成为攻防双刃剑。",
       "primary_category": "AI for Sec",
       "sub_category": "vuln_discovery",
-      "score_total": 79.28,
+      "score_total": 85.0,
       "include_status": "highlight",
       "item_type": "news",
-      "recommendation_reason": "自动化验证内核提权漏洞并生成补丁是 AI for Sec 的高阶场景。安全团队和内核维护者应关注此类能力成熟度，评估接入自动化补丁流水线的可行性。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2125008527467090408",
-      "reader_url": "https://x.com/HackingLZ/status/2125008527467090408",
+      "recommendation_reason": "这标志着 AI 漏洞挖掘正从研究演示走向实战攻击。安全团队须立即关注 Cairn 框架能力，评估自身在自动化攻防对抗中的准备差距。",
+      "source_id": "ars-technica-ai",
+      "canonical_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "reader_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
       "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-11-23T23:28:08",
-      "first_seen_at": "2026-11-24T02:15:26.084553",
+      "author": null,
+      "published_at": "2026-11-24T12:30:05",
+      "first_seen_at": "2026-11-24T13:59:49.426671",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -147,31 +142,6 @@
       "published_at": "2026-11-24T04:06:20",
       "first_seen_at": "2026-11-24T04:13:39.044206",
       "sub_category_label": null
-    },
-    {
-      "id": 35729,
-      "title": "攻击性 Agent 框架的隐蔽性与覆盖率权衡及防御策略",
-      "original_title": "Monday thoughts  I don’t see offensive agentic frameworks getting quiet anytime soon. If your endgame is deploying ransomware or stealing files and demanding payment, you only need",
-      "summary": "探讨了攻击性 Agent 框架在红队行动中隐蔽性与操作覆盖率的矛盾，指出公开框架易被 EDR 识别，并建议防御者加强默认策略来对抗这些自动化攻击。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 66.98,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红队和蓝队都该看：自动化攻击 Agent 在隐蔽性和覆盖率上存在天然矛盾，其公开的 opsec 极易被 EDR 识别。蓝队应借此加强默认拦截策略，别只指望单点防御。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2125016351383163073",
-      "reader_url": "https://x.com/HackingLZ/status/2125016351383163073",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-11-23T23:59:13",
-      "first_seen_at": "2026-11-24T02:15:27.205947",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
