@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T04:27:26+08:00",
+  "updated_at": "2026-11-25T04:57:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 35845,
@@ -140,6 +140,31 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 35952,
+      "title": "11月分拣更新：AI驱动报告量与验证速度",
+      "original_title": "Our November triage update covers AI-driven report volume, triage throughput, validation speed, and the steps we've taken to manage volume.  We're also sharing where more work and ",
+      "summary": "安全平台分享11月漏洞分拣更新，涵盖AI驱动的报告数量、分拣吞吐量、验证速度及应对报告量激增的管理措施。",
+      "primary_category": "AI for Sec",
+      "sub_category": "triage_automation",
+      "score_total": 63.16,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞赏金平台正被AI生成的报告冲击，同时用AI加速分拣验证。做SRC运营和漏洞管理的团队必须看，了解平台方如何应对报告暴增和自动化验证。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Hacker0x01/status/2125310275712643253",
+      "reader_url": "https://x.com/Hacker0x01/status/2125310275712643253",
+      "image_url": "https://pbs.twimg.com/media/HX6ebqcWMAA7FTt.jpg",
+      "author": {
+        "username": "Hacker0x01",
+        "name": "HackerOne",
+        "avatar_url": null,
+        "followers_count": 342779
+      },
+      "published_at": "2026-11-24T19:27:10",
+      "first_seen_at": "2026-11-24T20:37:14.737775",
+      "sub_category_label": null
+    },
+    {
       "id": 35940,
       "title": "AI 让漏洞发现无限化，补丁模式终将失效",
       "original_title": "RT @msuiche: Everyone's debating the cost of finding bugs.   If AI makes discovery unlimited, we'll never patch to zero.   So design for bu…",
@@ -163,51 +188,6 @@
       "published_at": "2026-11-24T17:55:41",
       "first_seen_at": "2026-11-24T20:04:36.544929",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 35935,
-      "title": "GPT-6.2 Astra 自主破解1808年历史谜题",
-      "original_title": "GPT 6.2 Astra Solves a Historical Mystery",
-      "summary": "历史教授利用 GPT-6.2 Astra 自主检索并交叉验证多源档案，仅22分钟便成功识别出耶鲁大学馆藏1808年匿名素描本的作者，展现出强大的 Agentic 搜索与推理能力。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 61.85,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "GPT-6.2 Astra 展现了极强的自主检索、假设推演和跨源验证能力，安全研究者可关注其底层 Agent 机制对未来自动化威胁情报挖掘或漏洞溯源任务的潜在影响。",
-      "source_id": "simon-willison",
-      "canonical_url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
-      "reader_url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-24T16:53:59",
-      "first_seen_at": "2026-11-24T20:04:16.064407",
-      "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 35880,
-      "title": "Black Hat Arsenal 举办 AI 兵棋推演现场活动",
-      "original_title": "An AI Wargame in the Arsenal Lab. Pedram Hayati runs it live in the Business Hall, Wednesday and Thursday. Open to every pass.  https://t.co/RZgFgYg6el https://t.co/4v84jX3Tab",
-      "summary": "Pedram Hayati 将于周三和周四在 Business Hall 现场主持 AI Wargame 活动，向所有持票者开放。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 61.51,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "这是 Black Hat 现场的 AI 攻防演练活动。做 AI for Sec 的同行如果参会，值得去现场看看具体的战法设计，了解业内同行怎么用 AI 搞安全对抗。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/BlackHatEvents/status/2125243151602303373",
-      "reader_url": "https://x.com/BlackHatEvents/status/2125243151602303373",
-      "image_url": "https://pbs.twimg.com/tweet_video_thumb/HX5hYQMXIAAapAu.jpg",
-      "author": {
-        "username": "BlackHatEvents",
-        "name": "Black Hat",
-        "avatar_url": null,
-        "followers_count": 428056
-      },
-      "published_at": "2026-11-24T15:00:27",
-      "first_seen_at": "2026-11-24T17:16:40.010532",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
