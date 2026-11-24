@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T02:27:13+08:00",
+  "updated_at": "2026-11-25T02:57:14+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 35845,
@@ -73,30 +73,6 @@
       "published_at": "2026-11-24T08:02:17",
       "first_seen_at": "2026-11-24T10:30:42.964586",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 35764,
-      "title": "Genesis Map：为 AI 编码 Agent 生成可视化风险审查图谱",
-      "original_title": "HN Hot Discussion: Show HN: Genesis Map – Visualize your agent's changes. See where they can break",
-      "summary": "Genesis Map 是一款为 AI 编码 Agent 设计的技能，通过生成业务流程图标记未测试代码和风险变更，并在基准测试中显著提升了 Claude Code 和 Codex 发现测试漏洞的能力。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.45,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做 AI 代码审计和安全 Agent 的同行可以参考其评测方法。该工具通过可视化图谱定位未测试代码，直接缓解了 AI 自动编码带来的盲改风险。",
-      "source_id": "hn-ai-tech",
-      "canonical_url": "https://news.ycombinator.com/item?id=50623965&hn_hot_date=2026-11-24",
-      "reader_url": "https://news.ycombinator.com/item?id=50623965&hn_hot_date=2026-11-24",
-      "image_url": null,
-      "author": {
-        "username": "willlzl",
-        "name": "willlzl",
-        "avatar_url": null
-      },
-      "published_at": "2026-11-24T05:04:41",
-      "first_seen_at": "2026-11-24T06:55:14.477106",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 35898,
