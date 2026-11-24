@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T01:57:08+08:00",
+  "updated_at": "2026-11-25T02:27:13+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 6,
   "items": [
     {
       "id": 35845,
@@ -97,6 +97,26 @@
       "published_at": "2026-11-24T05:04:41",
       "first_seen_at": "2026-11-24T06:55:14.477106",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 35898,
+      "title": "英国警告：AI驱动的网络攻击正暴露多年安全薄弱点",
+      "original_title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "summary": "英国网络机构指出，AI黑客工具正利用简单的安全漏洞发起攻击，凸显构建坚实基础安全防御的紧迫性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_intel",
+      "score_total": 66.8,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队应关注AI如何降低攻击门槛，利用AI快速修补简单安全缺陷是当务之急，不能只盯高级威胁而忽视基础防御。",
+      "source_id": "techcrunch-ai",
+      "canonical_url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+      "reader_url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-24T18:02:59",
+      "first_seen_at": "2026-11-24T18:05:53.994270",
+      "sub_category_label": "威胁情报"
     },
     {
       "id": 35880,
