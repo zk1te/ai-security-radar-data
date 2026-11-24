@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-24T13:50:08+08:00",
+  "updated_at": "2026-11-24T17:20:38+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 10,
   "items": [
     {
       "id": 35711,
@@ -68,26 +68,6 @@
       "published_at": "2026-12-10T11:20:00",
       "first_seen_at": "2026-11-24T05:32:50.437514",
       "sub_category_label": null
-    },
-    {
-      "id": 35506,
-      "title": "GRAML：基于图推理与多任务学习的LLM漏洞检测框架",
-      "original_title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
-      "summary": "GRAML框架结合图基结构传播与多任务微调，并引入思维树漏洞推理生成描述，在7个数据集上显著提升LLM漏洞检测与定位F1分数。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 83.75,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "利用图结构过滤冗余关系并结合多任务微调，是当前提升代码大模型漏洞挖掘效果的实用解法；ToT-VR思路也可直接复用到安全Agent的代码审计推理链设计中。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2610.09605",
-      "reader_url": "https://arxiv.org/pdf/2610.09605",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-23T05:00:00",
-      "first_seen_at": "2026-11-23T21:04:47.115899",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 35708,
@@ -187,6 +167,75 @@
       },
       "published_at": "2026-11-23T23:06:11",
       "first_seen_at": "2026-11-23T23:24:47.073348",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 35688,
+      "title": "阿里开源混合架构代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+      "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级评论，内置 XSS、SQL注入等安全规则集，支持多语言安全代码审查。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了「规则+大模型」结合的代码审计落地范式，适合安全开发者直接体验或借鉴其混合架构来增强代码漏洞挖掘能力。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-24T00:14:02.168321",
+      "first_seen_at": "2026-11-24T00:16:50.308602",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35766,
+      "title": "AI Agent 11分钟挖出MONAI Label零日漏洞并获root权限",
+      "original_title": "🚨 AI agents discovered and exploited a zero-day in MONAI Label in just 11 minutes, later gaining root access.  CISA also confirms active exploitation of a critical N-able MailAssur",
+      "summary": "AI Agent 仅用 11 分钟发现并利用了 MONAI Label 零日漏洞获取 root 权限；同时 CISA 确认 N-able MailAssure 高危漏洞遭在野利用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.01,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI Agent 仅用11分钟便打通 RCE 到提权，自主漏洞挖掘实战效果惊人。AI for Sec 从业者需密切关注自动化挖洞工具链走向实战的进程。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2125107955951669688",
+      "reader_url": "https://x.com/TheHackersNews/status/2125107955951669688",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-11-24T06:03:13",
+      "first_seen_at": "2026-11-24T07:01:42.661441",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35764,
+      "title": "Genesis Map：为 AI 编码 Agent 生成可视化风险审查图谱",
+      "original_title": "HN Hot Discussion: Show HN: Genesis Map – Visualize your agent's changes. See where they can break",
+      "summary": "Genesis Map 是一款为 AI 编码 Agent 设计的技能，通过生成业务流程图标记未测试代码和风险变更，并在基准测试中显著提升了 Claude Code 和 Codex 发现测试漏洞的能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 代码审计和安全 Agent 的同行可以参考其评测方法。该工具通过可视化图谱定位未测试代码，直接缓解了 AI 自动编码带来的盲改风险。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50623965&hn_hot_date=2026-11-24",
+      "reader_url": "https://news.ycombinator.com/item?id=50623965&hn_hot_date=2026-11-24",
+      "image_url": null,
+      "author": {
+        "username": "willlzl",
+        "name": "willlzl",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-24T05:04:41",
+      "first_seen_at": "2026-11-24T06:55:14.477106",
       "sub_category_label": "安全Agent"
     }
   ]
