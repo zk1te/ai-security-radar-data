@@ -1,28 +1,33 @@
 {
-  "updated_at": "2026-11-24T08:18:35+08:00",
+  "updated_at": "2026-11-24T08:49:04+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
   "items": [
     {
-      "id": 35503,
-      "title": "NPM恶意包检测工具大规模实证评测",
-      "original_title": "How Effective Are NPM Malicious Package Detectors? A Large-Scale Empirical Study",
-      "summary": "研究构建了包含6400+恶意包的统一基准，评估11种NPM恶意包检测工具，指出工具性能取决于对代码能力与恶意意图的界定，且ML退化源于概念收敛而非漂移。",
+      "id": 35711,
+      "title": "AI辅助验证948个Linux内核提权漏洞并生成补丁",
+      "original_title": "In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review.  Our researchers @clintgibler and @ky1ebot shar",
+      "summary": "研究人员利用 GPT-6 Cyber 在一次运行中验证了 948 个可导致本地 root 权限的 Linux 内核漏洞，并自动生成补丁与维护者合作推送上游修复。",
       "primary_category": "AI for Sec",
-      "sub_category": "malware_detection",
-      "score_total": 93.7,
+      "sub_category": "vuln_discovery",
+      "score_total": 94.0,
       "include_status": "breaking",
-      "item_type": "paper",
-      "recommendation_reason": "做供应链安全和恶意代码检测的人必看。研究不仅评测了主流工具，还拆解了它们失败的根本原因（能力与意图的歧义），并开源了6400+恶意包的统一基准，能直接拿来测自己的检测Agent或规则。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2603.27549",
-      "reader_url": "https://arxiv.org/pdf/2603.27549",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-23T05:00:00",
-      "first_seen_at": "2026-11-23T12:40:50.071166",
-      "sub_category_label": "恶意软件与威胁检测"
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘自动化 Agent 的真实大规模实战案例，展示了 AI 辅助安全从研究走向开源维护流程。安全团队应关注此类 AI 辅助提权漏洞发现和自动化修复的落地能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2125007927098699827",
+      "reader_url": "https://x.com/OpenAI/status/2125007927098699827",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg",
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-23T23:25:45",
+      "first_seen_at": "2026-11-24T00:36:07.720097",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 35675,
@@ -63,6 +68,31 @@
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-23T21:04:47.115899",
       "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35708,
+      "title": "Shirudo 开源：AI Agent 驱动的 eBPF 动态防御运行时",
+      "original_title": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploi",
+      "summary": "Cisco 与 OpenAI 联合推出开源 Linux 运行时 Shirudo，让 AI Agent 编写动态 eBPF 规则在不停机情况下防御漏洞利用，为补丁部署争取时间。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做防守和应急响应的兄弟要关注：Agent + eBPF 落地自动防御的开源标杆。如果你们在做 AI 驱动安全运营，Shirudo 的动态防护思路值得借鉴和上手研究。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2124980590717911527",
+      "reader_url": "https://x.com/OpenAI/status/2124980590717911527",
+      "image_url": "https://pbs.twimg.com/media/HX1vOUNXwAESQQN.jpg",
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-23T21:37:07",
+      "first_seen_at": "2026-11-24T00:34:54.719231",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 35657,
@@ -158,26 +188,6 @@
       "published_at": "2026-11-24T00:14:02.168321",
       "first_seen_at": "2026-11-24T00:16:50.308602",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 35568,
-      "title": "ARTEX AI 黑客框架免费公开引关注",
-      "original_title": "“I’m not going to remove the repository”",
-      "summary": "ARTEX 是一款造成破坏的 AI 黑客框架，现已免费公开，文章同时提及英伟达 CEO 黄仁勋回归。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 76.8,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "ARTEX 作为在野的 AI 黑客框架，展示了 AI 在攻击侧的低门槛滥用。红蓝对抗团队应立即跟进评估该工具的自动化攻击能力，判断现有防护体系是否需要升级。",
-      "source_id": "404-media",
-      "canonical_url": "https://www.404media.co/im-not-going-to-remove-the-repository",
-      "reader_url": "https://www.404media.co/im-not-going-to-remove-the-repository",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-23T15:35:22",
-      "first_seen_at": "2026-11-23T16:32:13.918221",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
