@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T08:49:04+08:00",
+  "updated_at": "2026-11-24T10:19:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -145,6 +145,31 @@
       "sub_category_label": null
     },
     {
+      "id": 35728,
+      "title": "GPT-6 Cyber 一次运行验证 948 个 Linux 内核漏洞并生成补丁",
+      "original_title": "RT @OpenAI: In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for re…",
+      "summary": "OpenAI 称其 GPT-6 Cyber 模型在单次运行中验证了 948 个可导致本地提权的 Linux 内核漏洞，并生成了修复补丁。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 79.28,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "自动化验证内核提权漏洞并生成补丁是 AI for Sec 的高阶场景。安全团队和内核维护者应关注此类能力成熟度，评估接入自动化补丁流水线的可行性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2125008527467090408",
+      "reader_url": "https://x.com/HackingLZ/status/2125008527467090408",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-11-23T23:28:08",
+      "first_seen_at": "2026-11-24T02:15:26.084553",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 35663,
       "title": "OpenAI 开源 Linux 运行时 Shirudo，赋能 AI Agent 零停机防御",
       "original_title": "RT @OpenAI: We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents writ…",
@@ -168,26 +193,6 @@
       "published_at": "2026-11-23T23:06:11",
       "first_seen_at": "2026-11-23T23:24:47.073348",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 35688,
-      "title": "阿里开源混合架构代码审查工具 open-code-review",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级评论，内置 XSS、SQL注入等安全规则集，支持多语言安全代码审查。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 77.3,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "展示了「规则+大模型」结合的代码审计落地范式，适合安全开发者直接体验或借鉴其混合架构来增强代码漏洞挖掘能力。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-24T00:14:02.168321",
-      "first_seen_at": "2026-11-24T00:16:50.308602",
-      "sub_category_label": "漏洞挖掘"
     }
   ]
 }
