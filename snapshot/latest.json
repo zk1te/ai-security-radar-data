@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-24T07:48:31+08:00",
+  "updated_at": "2026-11-24T08:18:35+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 35503,
@@ -23,6 +23,26 @@
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-23T12:40:50.071166",
       "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 35675,
+      "title": "Claude-BugHunter：AI 辅助漏洞挖掘与红队技能包",
+      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 2029 stars today",
+      "summary": "GitHub 热门项目 Claude-BugHunter 基于Claude Code提供82个技能与681个漏洞模式，专用于外部红队和Bug Hunting，日增超2000星。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 92.7,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "专为红队设计的 AI Agent 技能包，直接展示了 LLM 在实战漏洞挖掘中的落地形态。安全团队可借此评估如何利用 AI 扩展代码审计与渗透能力，或防御 AI 增强的攻击面。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-24&since=daily",
+      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-24&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-24T00:13:59.055243",
+      "first_seen_at": "2026-11-24T00:14:49.381154",
+      "sub_category_label": "安全Agent"
     },
     {
       "id": 35506,
@@ -120,6 +140,26 @@
       "sub_category_label": "安全Agent"
     },
     {
+      "id": 35688,
+      "title": "阿里开源混合架构代码审查工具 open-code-review",
+      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+      "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级评论，内置 XSS、SQL注入等安全规则集，支持多语言安全代码审查。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 77.3,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "展示了「规则+大模型」结合的代码审计落地范式，适合安全开发者直接体验或借鉴其混合架构来增强代码漏洞挖掘能力。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
+      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-24T00:14:02.168321",
+      "first_seen_at": "2026-11-24T00:16:50.308602",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
       "id": 35568,
       "title": "ARTEX AI 黑客框架免费公开引关注",
       "original_title": "“I’m not going to remove the repository”",
@@ -137,31 +177,6 @@
       "author": null,
       "published_at": "2026-11-23T15:35:22",
       "first_seen_at": "2026-11-23T16:32:13.918221",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 35128,
-      "title": "AI Agent自主完成API映射与路径遍历漏洞挖掘",
-      "original_title": "Sigh   “The agents identified the application’s framework, mapped its API endpoints, and found an upload endpoint with a filename parameter. They tested that parameter for path tra",
-      "summary": "安全Agent成功识别应用框架并映射API端点，自主测试出文件上传参数存在路径遍历漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 73.53,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给做自动化渗透的同行看：AI Agent 已能自主串起信息收集到漏洞验证的完整链路。这说明自主漏洞挖掘正从概念走向实战，值得立即跟进相关技术路线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2124543567511339087",
-      "reader_url": "https://x.com/HackingLZ/status/2124543567511339087",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-11-22T16:40:33",
-      "first_seen_at": "2026-11-23T18:42:55.306762",
       "sub_category_label": "安全Agent"
     }
   ]
