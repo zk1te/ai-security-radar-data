@@ -1,0 +1,1131 @@
+{
+  "date": "2026-11-24",
+  "candidate_count": 19,
+  "selected_count": 3,
+  "cover_title": "AI辅助验证948个Linux内核提权漏洞并生成补丁",
+  "lead_takeaway": "今天的主线非常清晰：AI漏洞挖掘已经脱离单点演示，全面进入大规模实战阶段。防守方一口气验证近千个内核提权漏洞并自动出补丁，攻击方也开始用Agent近乎无干预地打0day，自动化攻防的门槛正被彻底踏平。",
+  "digest_points": [
+    "01 漏洞挖掘自动化 Agent 的真实大规模实战案例，展示了 AI 辅助安全从研究走向开源维护流程。安全团队应关注此类 AI 辅助提权漏洞发现和自动化修复的落地能力。",
+    "02 一线甲方安全团队的AI落地实录。讲透了DLP和凭据检测场景下如何处理误报和模型漂移，做安全数据分析的同学必看，能少踩很多坑。",
+    "03 这标志着 AI 漏洞挖掘正从研究演示走向实战攻击。安全团队须立即关注 Cairn 框架能力，评估自身在自动化攻防对抗中的准备差距。"
+  ],
+  "judgement": [
+    "01 漏洞挖掘自动化 Agent 的真实大规模实战案例，展示了 AI 辅助安全从研究走向开源维护流程。安全团队应关注此类 AI 辅助提权漏洞发现和自动化修复的落地能力。",
+    "02 一线甲方安全团队的AI落地实录。讲透了DLP和凭据检测场景下如何处理误报和模型漂移，做安全数据分析的同学必看，能少踩很多坑。",
+    "03 这标志着 AI 漏洞挖掘正从研究演示走向实战攻击。安全团队须立即关注 Cairn 框架能力，评估自身在自动化攻防对抗中的准备差距。"
+  ],
+  "top_items": [
+    {
+      "id": 35711,
+      "title": "AI辅助验证948个Linux内核提权漏洞并生成补丁",
+      "original_title": "In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review.  Our researchers @clintgibler and @ky1ebot shar",
+      "summary": "研究人员利用 GPT-6 Cyber 在一次运行中验证了 948 个可导致本地 root 权限的 Linux 内核漏洞，并自动生成补丁与维护者合作推送上游修复。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 94.0,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘自动化 Agent 的真实大规模实战案例，展示了 AI 辅助安全从研究走向开源维护流程。安全团队应关注此类 AI 辅助提权漏洞发现和自动化修复的落地能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2125007927098699827",
+      "reader_url": "https://x.com/OpenAI/status/2125007927098699827",
+      "image_url": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg",
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-23T23:25:45",
+      "first_seen_at": "2026-11-24T00:36:07.720097",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35755,
+      "title": "ING银行分享AI在安全运营中的落地经验",
+      "original_title": "Making AI Work in Cybersecurity Operations - Lessons from a Global Bank",
+      "summary": "ING银行将在Black Hat Europe 2026上分享其在安全运营中应用AI的经验，重点讨论数据防泄漏、源码凭据检测以及如何处理误报和模型性能监控。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_analytics",
+      "score_total": 87.7,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "一线甲方安全团队的AI落地实录。讲透了DLP和凭据检测场景下如何处理误报和模型漂移，做安全数据分析的同学必看，能少踩很多坑。",
+      "source_id": "blackhat-public-sessions",
+      "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#making-ai-work-in-cybersecurity-operations-lessons-from-a-global-bank-59253",
+      "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#making-ai-work-in-cybersecurity-operations-lessons-from-a-global-bank-59253",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-12-10T11:20:00",
+      "first_seen_at": "2026-11-24T05:32:50.437514",
+      "sub_category_label": null
+    },
+    {
+      "id": 35845,
+      "title": "黑客 AI Agent 几乎无人工干预下发现并利用 0-day",
+      "original_title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "summary": "亚马逊表示黑客使用 Cairn AI 框架的 AI agent 在极少人工干预下发现并利用了 0-day 漏洞。这表明 AI 漏洞挖掘已成为攻防双刃剑。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 85.0,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "这标志着 AI 漏洞挖掘正从研究演示走向实战攻击。安全团队须立即关注 Cairn 框架能力，评估自身在自动化攻防对抗中的准备差距。",
+      "source_id": "ars-technica-ai",
+      "canonical_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "reader_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-24T12:30:05",
+      "first_seen_at": "2026-11-24T13:59:49.426671",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 35506,
+      "title": "GRAML：基于图推理与多任务学习的LLM漏洞检测框架",
+      "original_title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
+      "summary": "GRAML框架结合图基结构传播与多任务微调，并引入思维树漏洞推理生成描述，在7个数据集上显著提升LLM漏洞检测与定位F1分数。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "利用图结构过滤冗余关系并结合多任务微调，是当前提升代码大模型漏洞挖掘效果的实用解法；ToT-VR思路也可直接复用到安全Agent的代码审计推理链设计中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.09605",
+      "reader_url": "https://arxiv.org/pdf/2610.09605",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-23T21:04:47.115899",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35708,
+      "title": "Shirudo 开源：AI Agent 驱动的 eBPF 动态防御运行时",
+      "original_title": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploi",
+      "summary": "Cisco 与 OpenAI 联合推出开源 Linux 运行时 Shirudo，让 AI Agent 编写动态 eBPF 规则在不停机情况下防御漏洞利用，为补丁部署争取时间。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 83.5,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "做防守和应急响应的兄弟要关注：Agent + eBPF 落地自动防御的开源标杆。如果你们在做 AI 驱动安全运营，Shirudo 的动态防护思路值得借鉴和上手研究。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/OpenAI/status/2124980590717911527",
+      "reader_url": "https://x.com/OpenAI/status/2124980590717911527",
+      "image_url": "https://pbs.twimg.com/media/HX1vOUNXwAESQQN.jpg",
+      "author": {
+        "username": "OpenAI",
+        "name": "OpenAI",
+        "avatar_url": null,
+        "followers_count": 5355398
+      },
+      "published_at": "2026-11-23T21:37:07",
+      "first_seen_at": "2026-11-24T00:34:54.719231",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 35568,
+      "title": "ARTEX AI 黑客框架免费公开引关注",
+      "original_title": "“I’m not going to remove the repository”",
+      "summary": "ARTEX 是一款造成破坏的 AI 黑客框架，现已免费公开，文章同时提及英伟达 CEO 黄仁勋回归。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 76.8,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "ARTEX 作为在野的 AI 黑客框架，展示了 AI 在攻击侧的低门槛滥用。红蓝对抗团队应立即跟进评估该工具的自动化攻击能力，判断现有防护体系是否需要升级。",
+      "source_id": "404-media",
+      "canonical_url": "https://www.404media.co/im-not-going-to-remove-the-repository",
+      "reader_url": "https://www.404media.co/im-not-going-to-remove-the-repository",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T15:35:22",
+      "first_seen_at": "2026-11-23T16:32:13.918221",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 35808,
+      "title": "大语言模型用于漏洞检测的论文合集资源",
+      "original_title": "LLMs for vulnerability detection, papers collections  https://t.co/c0F7TkOvHp  #llm #infosec https://t.co/srluuJUUEv",
+      "summary": "该推文分享了一个收集使用大语言模型进行漏洞检测相关论文的合集链接。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.57,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "适合做代码审计和漏洞挖掘的从业者收藏，能快速了解当前 LLM 在漏洞检测领域的研究全景和主流方向。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2125137919681679632",
+      "reader_url": "https://x.com/0xor0ne/status/2125137919681679632",
+      "image_url": "https://pbs.twimg.com/media/HX4BrSzWgAEskJ7.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null,
+        "followers_count": 93861
+      },
+      "published_at": "2026-11-24T08:02:17",
+      "first_seen_at": "2026-11-24T10:30:42.964586",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35764,
+      "title": "Genesis Map：为 AI 编码 Agent 生成可视化风险审查图谱",
+      "original_title": "HN Hot Discussion: Show HN: Genesis Map – Visualize your agent's changes. See where they can break",
+      "summary": "Genesis Map 是一款为 AI 编码 Agent 设计的技能，通过生成业务流程图标记未测试代码和风险变更，并在基准测试中显著提升了 Claude Code 和 Codex 发现测试漏洞的能力。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.45,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做 AI 代码审计和安全 Agent 的同行可以参考其评测方法。该工具通过可视化图谱定位未测试代码，直接缓解了 AI 自动编码带来的盲改风险。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50623965&hn_hot_date=2026-11-24",
+      "reader_url": "https://news.ycombinator.com/item?id=50623965&hn_hot_date=2026-11-24",
+      "image_url": null,
+      "author": {
+        "username": "willlzl",
+        "name": "willlzl",
+        "avatar_url": null
+      },
+      "published_at": "2026-11-24T05:04:41",
+      "first_seen_at": "2026-11-24T06:55:14.477106",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 35659,
+      "title": "Ladybird 浏览器发布首个 Alpha，借助 AI 代理实现能力飞跃",
+      "original_title": "Ladybird's first alpha release",
+      "summary": "Ladybird 浏览器发布首个 alpha 版本并呼吁安全研究人员进行测试。该项目近期借助 AI 编码代理在两周内完成大量 Rust 代码移植，并在五天内大幅提升了 web-platform-tests 的通过率。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 68.35,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "Ladybird 呼吁安全极客来挖洞，为安全团队提供了新靶标。同时，其利用 AI 代理在几天内修复数万个测试用例的实战数据，展示了 Agent 在大型代码库自动化改造与测试中的巨大潜力，对自动化安全审计极具参考价值。",
+      "source_id": "simon-willison",
+      "canonical_url": "https://simonwillison.net/2026/Nov/23/ladybird",
+      "reader_url": "https://simonwillison.net/2026/Nov/23/ladybird",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T21:46:35",
+      "first_seen_at": "2026-11-23T22:53:10.101183",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 35502,
+      "title": "LLM生成代码检测研究：粒度差异比模型差异更关键",
+      "original_title": "Automatic Detection of LLM-Generated Code: A Comparative Case Study of Contemporary Models Across Function and Class Granularities",
+      "summary": "论文比较了GPT-3.5、Claude 3 Haiku等四模型生成代码的可检测性，发现函数级与类级检测依赖完全不同的结构特征，单一模型训练的检测器难以跨模型泛化，注释代码比是唯一通用判别指标。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.25,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做AI供应链安全和代码溯源的团队该看。研究揭示检测AI生成代码不能只拿GPT-3.5调参就上线——现代模型AUC只有0.68-0.80，且函数级和类级检测器特征几乎不重叠，设计检测管线必须按粒度分治。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2409.01382",
+      "reader_url": "https://arxiv.org/pdf/2409.01382",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-23T21:04:47.115899",
+      "sub_category_label": null
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 35711,
+        "title": "AI辅助验证948个Linux内核提权漏洞并生成补丁",
+        "original_title": "In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review.  Our researchers @clintgibler and @ky1ebot shar",
+        "summary": "研究人员利用 GPT-6 Cyber 在一次运行中验证了 948 个可导致本地 root 权限的 Linux 内核漏洞，并自动生成补丁与维护者合作推送上游修复。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 94.0,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "漏洞挖掘自动化 Agent 的真实大规模实战案例，展示了 AI 辅助安全从研究走向开源维护流程。安全团队应关注此类 AI 辅助提权漏洞发现和自动化修复的落地能力。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/OpenAI/status/2125007927098699827",
+        "reader_url": "https://x.com/OpenAI/status/2125007927098699827",
+        "image_url": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg",
+        "author": {
+          "username": "OpenAI",
+          "name": "OpenAI",
+          "avatar_url": null,
+          "followers_count": 5355398
+        },
+        "published_at": "2026-11-23T23:25:45",
+        "first_seen_at": "2026-11-24T00:36:07.720097",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 35675,
+        "title": "Claude-BugHunter：AI 辅助漏洞挖掘与红队技能包",
+        "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 2029 stars today",
+        "summary": "GitHub 热门项目 Claude-BugHunter 基于Claude Code提供82个技能与681个漏洞模式，专用于外部红队和Bug Hunting，日增超2000星。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 92.7,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "专为红队设计的 AI Agent 技能包，直接展示了 LLM 在实战漏洞挖掘中的落地形态。安全团队可借此评估如何利用 AI 扩展代码审计与渗透能力，或防御 AI 增强的攻击面。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-24&since=daily",
+        "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-24&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-24T00:13:59.055243",
+        "first_seen_at": "2026-11-24T00:14:49.381154",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 35755,
+        "title": "ING银行分享AI在安全运营中的落地经验",
+        "original_title": "Making AI Work in Cybersecurity Operations - Lessons from a Global Bank",
+        "summary": "ING银行将在Black Hat Europe 2026上分享其在安全运营中应用AI的经验，重点讨论数据防泄漏、源码凭据检测以及如何处理误报和模型性能监控。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_analytics",
+        "score_total": 87.7,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "一线甲方安全团队的AI落地实录。讲透了DLP和凭据检测场景下如何处理误报和模型漂移，做安全数据分析的同学必看，能少踩很多坑。",
+        "source_id": "blackhat-public-sessions",
+        "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#making-ai-work-in-cybersecurity-operations-lessons-from-a-global-bank-59253",
+        "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#making-ai-work-in-cybersecurity-operations-lessons-from-a-global-bank-59253",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-12-10T11:20:00",
+        "first_seen_at": "2026-11-24T05:32:50.437514",
+        "sub_category_label": null
+      },
+      {
+        "id": 35845,
+        "title": "黑客 AI Agent 几乎无人工干预下发现并利用 0-day",
+        "original_title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+        "summary": "亚马逊表示黑客使用 Cairn AI 框架的 AI agent 在极少人工干预下发现并利用了 0-day 漏洞。这表明 AI 漏洞挖掘已成为攻防双刃剑。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 85.0,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "这标志着 AI 漏洞挖掘正从研究演示走向实战攻击。安全团队须立即关注 Cairn 框架能力，评估自身在自动化攻防对抗中的准备差距。",
+        "source_id": "ars-technica-ai",
+        "canonical_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+        "reader_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-24T12:30:05",
+        "first_seen_at": "2026-11-24T13:59:49.426671",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 35506,
+        "title": "GRAML：基于图推理与多任务学习的LLM漏洞检测框架",
+        "original_title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
+        "summary": "GRAML框架结合图基结构传播与多任务微调，并引入思维树漏洞推理生成描述，在7个数据集上显著提升LLM漏洞检测与定位F1分数。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 83.75,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "利用图结构过滤冗余关系并结合多任务微调，是当前提升代码大模型漏洞挖掘效果的实用解法；ToT-VR思路也可直接复用到安全Agent的代码审计推理链设计中。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2610.09605",
+        "reader_url": "https://arxiv.org/pdf/2610.09605",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-23T05:00:00",
+        "first_seen_at": "2026-11-23T21:04:47.115899",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 35708,
+        "title": "Shirudo 开源：AI Agent 驱动的 eBPF 动态防御运行时",
+        "original_title": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploi",
+        "summary": "Cisco 与 OpenAI 联合推出开源 Linux 运行时 Shirudo，让 AI Agent 编写动态 eBPF 规则在不停机情况下防御漏洞利用，为补丁部署争取时间。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 83.5,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "做防守和应急响应的兄弟要关注：Agent + eBPF 落地自动防御的开源标杆。如果你们在做 AI 驱动安全运营，Shirudo 的动态防护思路值得借鉴和上手研究。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/OpenAI/status/2124980590717911527",
+        "reader_url": "https://x.com/OpenAI/status/2124980590717911527",
+        "image_url": "https://pbs.twimg.com/media/HX1vOUNXwAESQQN.jpg",
+        "author": {
+          "username": "OpenAI",
+          "name": "OpenAI",
+          "avatar_url": null,
+          "followers_count": 5355398
+        },
+        "published_at": "2026-11-23T21:37:07",
+        "first_seen_at": "2026-11-24T00:34:54.719231",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 35119,
+        "title": "工具「blur」用规则编译神经网络权重实现轻量级隐私和机密检测",
+        "original_title": "I've been studying how much of language you can capture with explicit rules instead of training.  So as a side project,  wrote some rules and compiled them straight into a neural n",
+        "summary": "开发者推出开源工具 blur，通过将显式规则编译为神经网络权重实现 PII 和机密信息检测，体积仅 609KB，在部分评测中表现优于 OpenAI privacy-filter 且可本地运行。",
+        "primary_category": "AI for Sec",
+        "sub_category": "secrets_detection",
+        "score_total": 81.23,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "安全团队在处理日志和数据脱敏时常依赖庞大的模型，这款本地运行、体积极小的工具提供了一个新思路，值得评估其检测效果和适配性。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
+        "reader_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
+        "image_url": "https://pbs.twimg.com/media/HXvPJRoacAA2M24.jpg",
+        "author": {
+          "username": "0xAsm0d3us",
+          "name": "devansh ⚡️",
+          "avatar_url": null,
+          "followers_count": 17983
+        },
+        "published_at": "2026-11-22T15:04:40",
+        "first_seen_at": "2026-11-23T16:42:26.363339",
+        "sub_category_label": null
+      },
+      {
+        "id": 35688,
+        "title": "阿里开源混合架构代码审查工具 open-code-review",
+        "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+        "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级评论，内置 XSS、SQL注入等安全规则集，支持多语言安全代码审查。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 77.3,
+        "include_status": "highlight",
+        "item_type": "news",
+        "recommendation_reason": "展示了「规则+大模型」结合的代码审计落地范式，适合安全开发者直接体验或借鉴其混合架构来增强代码漏洞挖掘能力。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
+        "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-24T00:14:02.168321",
+        "first_seen_at": "2026-11-24T00:16:50.308602",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 35659,
+        "title": "Ladybird 浏览器发布首个 Alpha，借助 AI 代理实现能力飞跃",
+        "original_title": "Ladybird's first alpha release",
+        "summary": "Ladybird 浏览器发布首个 alpha 版本并呼吁安全研究人员进行测试。该项目近期借助 AI 编码代理在两周内完成大量 Rust 代码移植，并在五天内大幅提升了 web-platform-tests 的通过率。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 68.35,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "Ladybird 呼吁安全极客来挖洞，为安全团队提供了新靶标。同时，其利用 AI 代理在几天内修复数万个测试用例的实战数据，展示了 Agent 在大型代码库自动化改造与测试中的巨大潜力，对自动化安全审计极具参考价值。",
+        "source_id": "simon-willison",
+        "canonical_url": "https://simonwillison.net/2026/Nov/23/ladybird",
+        "reader_url": "https://simonwillison.net/2026/Nov/23/ladybird",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-23T21:46:35",
+        "first_seen_at": "2026-11-23T22:53:10.101183",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 35710,
+        "title": "Anthropic 公开 VP ≠ VNP 形式化证明，AI 深度推理能力突破",
+        "original_title": "HN Hot Discussion: VP ≠ VNP over Every Field",
+        "summary": "Anthropic 的 formal-math 仓库公开了关于任意域上 VP ≠ VNP 的论文与形式化证明，展示了大模型在复杂代数几何与形式化验证领域的巨大潜力。",
+        "primary_category": "AI Tech",
+        "sub_category": "formal_reasoning",
+        "score_total": 65.77,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "虽然这并非直接安全工具，但 Anthropic 驱动的形式化证明成功标志着 AI 深度推理能力的跨越。对 AI 驱动的形式化安全验证、协议分析感兴趣的从业者，应密切关注此技术向安全代码审计和验证流程的迁移。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50620102&hn_hot_date=2026-11-24",
+        "reader_url": "https://news.ycombinator.com/item?id=50620102&hn_hot_date=2026-11-24",
+        "image_url": null,
+        "author": {
+          "username": "mikeryan52",
+          "name": "mikeryan52",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-23T22:09:10",
+        "first_seen_at": "2026-11-24T00:36:06.789301",
+        "sub_category_label": null
+      },
+      {
+        "id": 35704,
+        "title": "GLM-5.4 发布：首个 Loop Transformer 架构提升通用编程能力",
+        "original_title": "HN Hot Discussion: GLM-5.4: Toward generalized coding with our first loop transformer",
+        "summary": "智谱 AI 发布 GLM-5.4，采用首个 Loop Transformer 架构提升通用编程能力，在 HN 引发热议。",
+        "primary_category": "AI Tech",
+        "sub_category": "llm_architecture",
+        "score_total": 65.5,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "大模型编程能力的提升将直接影响 AI 辅助代码审计和漏洞挖掘效率，安全团队需密切关注这种新型架构带来的能力边界变化，评估是否值得替换现有工具底座。",
+        "source_id": "hn-ai-tech",
+        "canonical_url": "https://news.ycombinator.com/item?id=50609685&hn_hot_date=2026-11-24",
+        "reader_url": "https://news.ycombinator.com/item?id=50609685&hn_hot_date=2026-11-24",
+        "image_url": null,
+        "author": {
+          "username": "foohis",
+          "name": "foohis",
+          "avatar_url": null
+        },
+        "published_at": "2026-11-23T10:06:43",
+        "first_seen_at": "2026-11-24T00:34:28.794027",
+        "sub_category_label": "LLM 架构"
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 35502,
+        "title": "LLM生成代码检测研究：粒度差异比模型差异更关键",
+        "original_title": "Automatic Detection of LLM-Generated Code: A Comparative Case Study of Contemporary Models Across Function and Class Granularities",
+        "summary": "论文比较了GPT-3.5、Claude 3 Haiku等四模型生成代码的可检测性，发现函数级与类级检测依赖完全不同的结构特征，单一模型训练的检测器难以跨模型泛化，注释代码比是唯一通用判别指标。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 68.25,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做AI供应链安全和代码溯源的团队该看。研究揭示检测AI生成代码不能只拿GPT-3.5调参就上线——现代模型AUC只有0.68-0.80，且函数级和类级检测器特征几乎不重叠，设计检测管线必须按粒度分治。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2409.01382",
+        "reader_url": "https://arxiv.org/pdf/2409.01382",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-23T05:00:00",
+        "first_seen_at": "2026-11-23T21:04:47.115899",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 35711,
+            "title": "AI辅助验证948个Linux内核提权漏洞并生成补丁",
+            "original_title": "In one run, GPT-6 Cyber helped us validate 948 Linux kernel bugs that could grant local root access and generate patches for review.  Our researchers @clintgibler and @ky1ebot shar",
+            "summary": "研究人员利用 GPT-6 Cyber 在一次运行中验证了 948 个可导致本地 root 权限的 Linux 内核漏洞，并自动生成补丁与维护者合作推送上游修复。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 94.0,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "漏洞挖掘自动化 Agent 的真实大规模实战案例，展示了 AI 辅助安全从研究走向开源维护流程。安全团队应关注此类 AI 辅助提权漏洞发现和自动化修复的落地能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/OpenAI/status/2125007927098699827",
+            "reader_url": "https://x.com/OpenAI/status/2125007927098699827",
+            "image_url": "https://pbs.twimg.com/amplify_video_thumb/2125002652929196032/img/UOxIg9s51dEH3-gJ.jpg",
+            "author": {
+              "username": "OpenAI",
+              "name": "OpenAI",
+              "avatar_url": null,
+              "followers_count": 5355398
+            },
+            "published_at": "2026-11-23T23:25:45",
+            "first_seen_at": "2026-11-24T00:36:07.720097",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 35845,
+            "title": "黑客 AI Agent 几乎无人工干预下发现并利用 0-day",
+            "original_title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+            "summary": "亚马逊表示黑客使用 Cairn AI 框架的 AI agent 在极少人工干预下发现并利用了 0-day 漏洞。这表明 AI 漏洞挖掘已成为攻防双刃剑。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 85.0,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "这标志着 AI 漏洞挖掘正从研究演示走向实战攻击。安全团队须立即关注 Cairn 框架能力，评估自身在自动化攻防对抗中的准备差距。",
+            "source_id": "ars-technica-ai",
+            "canonical_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+            "reader_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-24T12:30:05",
+            "first_seen_at": "2026-11-24T13:59:49.426671",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 35506,
+            "title": "GRAML：基于图推理与多任务学习的LLM漏洞检测框架",
+            "original_title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
+            "summary": "GRAML框架结合图基结构传播与多任务微调，并引入思维树漏洞推理生成描述，在7个数据集上显著提升LLM漏洞检测与定位F1分数。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 83.75,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "利用图结构过滤冗余关系并结合多任务微调，是当前提升代码大模型漏洞挖掘效果的实用解法；ToT-VR思路也可直接复用到安全Agent的代码审计推理链设计中。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2610.09605",
+            "reader_url": "https://arxiv.org/pdf/2610.09605",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-23T05:00:00",
+            "first_seen_at": "2026-11-23T21:04:47.115899",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 35688,
+            "title": "阿里开源混合架构代码审查工具 open-code-review",
+            "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
+            "summary": "该工具结合确定性管道与 LLM Agent，提供精准行级评论，内置 XSS、SQL注入等安全规则集，支持多语言安全代码审查。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 77.3,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "展示了「规则+大模型」结合的代码审计落地范式，适合安全开发者直接体验或借鉴其混合架构来增强代码漏洞挖掘能力。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
+            "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-24&since=weekly",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-24T00:14:02.168321",
+            "first_seen_at": "2026-11-24T00:16:50.308602",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 35766,
+            "title": "AI Agent 11分钟挖出MONAI Label零日漏洞并获root权限",
+            "original_title": "🚨 AI agents discovered and exploited a zero-day in MONAI Label in just 11 minutes, later gaining root access.  CISA also confirms active exploitation of a critical N-able MailAssur",
+            "summary": "AI Agent 仅用 11 分钟发现并利用了 MONAI Label 零日漏洞获取 root 权限；同时 CISA 确认 N-able MailAssure 高危漏洞遭在野利用。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 74.01,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "AI Agent 仅用11分钟便打通 RCE 到提权，自主漏洞挖掘实战效果惊人。AI for Sec 从业者需密切关注自动化挖洞工具链走向实战的进程。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/TheHackersNews/status/2125107955951669688",
+            "reader_url": "https://x.com/TheHackersNews/status/2125107955951669688",
+            "image_url": null,
+            "author": {
+              "username": "TheHackersNews",
+              "name": "The Hacker News",
+              "avatar_url": null,
+              "followers_count": 2351119
+            },
+            "published_at": "2026-11-24T06:03:13",
+            "first_seen_at": "2026-11-24T07:01:42.661441",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 35808,
+            "title": "大语言模型用于漏洞检测的论文合集资源",
+            "original_title": "LLMs for vulnerability detection, papers collections  https://t.co/c0F7TkOvHp  #llm #infosec https://t.co/srluuJUUEv",
+            "summary": "该推文分享了一个收集使用大语言模型进行漏洞检测相关论文的合集链接。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 70.57,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "适合做代码审计和漏洞挖掘的从业者收藏，能快速了解当前 LLM 在漏洞检测领域的研究全景和主流方向。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xor0ne/status/2125137919681679632",
+            "reader_url": "https://x.com/0xor0ne/status/2125137919681679632",
+            "image_url": "https://pbs.twimg.com/media/HX4BrSzWgAEskJ7.jpg",
+            "author": {
+              "username": "0xor0ne",
+              "name": "0xor0ne",
+              "avatar_url": null,
+              "followers_count": 93861
+            },
+            "published_at": "2026-11-24T08:02:17",
+            "first_seen_at": "2026-11-24T10:30:42.964586",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 35675,
+            "title": "Claude-BugHunter：AI 辅助漏洞挖掘与红队技能包",
+            "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 2029 stars today",
+            "summary": "GitHub 热门项目 Claude-BugHunter 基于Claude Code提供82个技能与681个漏洞模式，专用于外部红队和Bug Hunting，日增超2000星。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 92.7,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "专为红队设计的 AI Agent 技能包，直接展示了 LLM 在实战漏洞挖掘中的落地形态。安全团队可借此评估如何利用 AI 扩展代码审计与渗透能力，或防御 AI 增强的攻击面。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-24&since=daily",
+            "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-24&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-24T00:13:59.055243",
+            "first_seen_at": "2026-11-24T00:14:49.381154",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 35708,
+            "title": "Shirudo 开源：AI Agent 驱动的 eBPF 动态防御运行时",
+            "original_title": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime. It lets agents write dynamic eBPF controls to shield systems from exploi",
+            "summary": "Cisco 与 OpenAI 联合推出开源 Linux 运行时 Shirudo，让 AI Agent 编写动态 eBPF 规则在不停机情况下防御漏洞利用，为补丁部署争取时间。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 83.5,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "做防守和应急响应的兄弟要关注：Agent + eBPF 落地自动防御的开源标杆。如果你们在做 AI 驱动安全运营，Shirudo 的动态防护思路值得借鉴和上手研究。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/OpenAI/status/2124980590717911527",
+            "reader_url": "https://x.com/OpenAI/status/2124980590717911527",
+            "image_url": "https://pbs.twimg.com/media/HX1vOUNXwAESQQN.jpg",
+            "author": {
+              "username": "OpenAI",
+              "name": "OpenAI",
+              "avatar_url": null,
+              "followers_count": 5355398
+            },
+            "published_at": "2026-11-23T21:37:07",
+            "first_seen_at": "2026-11-24T00:34:54.719231",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 35568,
+            "title": "ARTEX AI 黑客框架免费公开引关注",
+            "original_title": "“I’m not going to remove the repository”",
+            "summary": "ARTEX 是一款造成破坏的 AI 黑客框架，现已免费公开，文章同时提及英伟达 CEO 黄仁勋回归。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 76.8,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "ARTEX 作为在野的 AI 黑客框架，展示了 AI 在攻击侧的低门槛滥用。红蓝对抗团队应立即跟进评估该工具的自动化攻击能力，判断现有防护体系是否需要升级。",
+            "source_id": "404-media",
+            "canonical_url": "https://www.404media.co/im-not-going-to-remove-the-repository",
+            "reader_url": "https://www.404media.co/im-not-going-to-remove-the-repository",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-23T15:35:22",
+            "first_seen_at": "2026-11-23T16:32:13.918221",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 35128,
+            "title": "AI Agent自主完成API映射与路径遍历漏洞挖掘",
+            "original_title": "Sigh   “The agents identified the application’s framework, mapped its API endpoints, and found an upload endpoint with a filename parameter. They tested that parameter for path tra",
+            "summary": "安全Agent成功识别应用框架并映射API端点，自主测试出文件上传参数存在路径遍历漏洞。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 73.53,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "给做自动化渗透的同行看：AI Agent 已能自主串起信息收集到漏洞验证的完整链路。这说明自主漏洞挖掘正从概念走向实战，值得立即跟进相关技术路线。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2124543567511339087",
+            "reader_url": "https://x.com/HackingLZ/status/2124543567511339087",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-11-22T16:40:33",
+            "first_seen_at": "2026-11-23T18:42:55.306762",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 35764,
+            "title": "Genesis Map：为 AI 编码 Agent 生成可视化风险审查图谱",
+            "original_title": "HN Hot Discussion: Show HN: Genesis Map – Visualize your agent's changes. See where they can break",
+            "summary": "Genesis Map 是一款为 AI 编码 Agent 设计的技能，通过生成业务流程图标记未测试代码和风险变更，并在基准测试中显著提升了 Claude Code 和 Codex 发现测试漏洞的能力。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 68.45,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "做 AI 代码审计和安全 Agent 的同行可以参考其评测方法。该工具通过可视化图谱定位未测试代码，直接缓解了 AI 自动编码带来的盲改风险。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50623965&hn_hot_date=2026-11-24",
+            "reader_url": "https://news.ycombinator.com/item?id=50623965&hn_hot_date=2026-11-24",
+            "image_url": null,
+            "author": {
+              "username": "willlzl",
+              "name": "willlzl",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-24T05:04:41",
+            "first_seen_at": "2026-11-24T06:55:14.477106",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 35729,
+            "title": "攻击性 Agent 框架的隐蔽性与覆盖率权衡及防御策略",
+            "original_title": "Monday thoughts  I don’t see offensive agentic frameworks getting quiet anytime soon. If your endgame is deploying ransomware or stealing files and demanding payment, you only need",
+            "summary": "探讨了攻击性 Agent 框架在红队行动中隐蔽性与操作覆盖率的矛盾，指出公开框架易被 EDR 识别，并建议防御者加强默认策略来对抗这些自动化攻击。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 66.98,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "红队和蓝队都该看：自动化攻击 Agent 在隐蔽性和覆盖率上存在天然矛盾，其公开的 opsec 极易被 EDR 识别。蓝队应借此加强默认拦截策略，别只指望单点防御。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2125016351383163073",
+            "reader_url": "https://x.com/HackingLZ/status/2125016351383163073",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-11-23T23:59:13",
+            "first_seen_at": "2026-11-24T02:15:27.205947",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 35652,
+            "title": "OpenAI 公开其漏洞研究流程视频",
+            "original_title": "RT @PhiloGroves: OpenAI posted a video to YouTube breaking down its vulnerability research pipeline, but didn't share it to X for some reas…",
+            "summary": "OpenAI 在 YouTube 发布视频解析其内部的漏洞研究流程，但未在 X 平台推广，引发安全社区关注。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 66.39,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "OpenAI 罕见公开其内部漏洞研究流程，对关注大厂如何将 AI 应用于安全研究和自动化防御的从业者极具参考价值，建议直接找原视频看。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2124971493067301246",
+            "reader_url": "https://x.com/HackingLZ/status/2124971493067301246",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-11-23T21:00:58",
+            "first_seen_at": "2026-11-23T22:46:43.282653",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "security_analytics": {
+        "label": "security_analytics",
+        "items": [
+          {
+            "id": 35755,
+            "title": "ING银行分享AI在安全运营中的落地经验",
+            "original_title": "Making AI Work in Cybersecurity Operations - Lessons from a Global Bank",
+            "summary": "ING银行将在Black Hat Europe 2026上分享其在安全运营中应用AI的经验，重点讨论数据防泄漏、源码凭据检测以及如何处理误报和模型性能监控。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_analytics",
+            "score_total": 87.7,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "一线甲方安全团队的AI落地实录。讲透了DLP和凭据检测场景下如何处理误报和模型漂移，做安全数据分析的同学必看，能少踩很多坑。",
+            "source_id": "blackhat-public-sessions",
+            "canonical_url": "https://blackhat.com/europe/briefings/schedule/index.html#making-ai-work-in-cybersecurity-operations-lessons-from-a-global-bank-59253",
+            "reader_url": "https://blackhat.com/europe/briefings/schedule/index.html#making-ai-work-in-cybersecurity-operations-lessons-from-a-global-bank-59253",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-12-10T11:20:00",
+            "first_seen_at": "2026-11-24T05:32:50.437514",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "secrets_detection": {
+        "label": "secrets_detection",
+        "items": [
+          {
+            "id": 35119,
+            "title": "工具「blur」用规则编译神经网络权重实现轻量级隐私和机密检测",
+            "original_title": "I've been studying how much of language you can capture with explicit rules instead of training.  So as a side project,  wrote some rules and compiled them straight into a neural n",
+            "summary": "开发者推出开源工具 blur，通过将显式规则编译为神经网络权重实现 PII 和机密信息检测，体积仅 609KB，在部分评测中表现优于 OpenAI privacy-filter 且可本地运行。",
+            "primary_category": "AI for Sec",
+            "sub_category": "secrets_detection",
+            "score_total": 81.23,
+            "include_status": "highlight",
+            "item_type": "news",
+            "recommendation_reason": "安全团队在处理日志和数据脱敏时常依赖庞大的模型，这款本地运行、体积极小的工具提供了一个新思路，值得评估其检测效果和适配性。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
+            "reader_url": "https://x.com/0xAsm0d3us/status/2124519440020885786",
+            "image_url": "https://pbs.twimg.com/media/HXvPJRoacAA2M24.jpg",
+            "author": {
+              "username": "0xAsm0d3us",
+              "name": "devansh ⚡️",
+              "avatar_url": null,
+              "followers_count": 17983
+            },
+            "published_at": "2026-11-22T15:04:40",
+            "first_seen_at": "2026-11-23T16:42:26.363339",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 35659,
+            "title": "Ladybird 浏览器发布首个 Alpha，借助 AI 代理实现能力飞跃",
+            "original_title": "Ladybird's first alpha release",
+            "summary": "Ladybird 浏览器发布首个 alpha 版本并呼吁安全研究人员进行测试。该项目近期借助 AI 编码代理在两周内完成大量 Rust 代码移植，并在五天内大幅提升了 web-platform-tests 的通过率。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 68.35,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "Ladybird 呼吁安全极客来挖洞，为安全团队提供了新靶标。同时，其利用 AI 代理在几天内修复数万个测试用例的实战数据，展示了 Agent 在大型代码库自动化改造与测试中的巨大潜力，对自动化安全审计极具参考价值。",
+            "source_id": "simon-willison",
+            "canonical_url": "https://simonwillison.net/2026/Nov/23/ladybird",
+            "reader_url": "https://simonwillison.net/2026/Nov/23/ladybird",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-23T21:46:35",
+            "first_seen_at": "2026-11-23T22:53:10.101183",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      },
+      "formal_reasoning": {
+        "label": "formal_reasoning",
+        "items": [
+          {
+            "id": 35710,
+            "title": "Anthropic 公开 VP ≠ VNP 形式化证明，AI 深度推理能力突破",
+            "original_title": "HN Hot Discussion: VP ≠ VNP over Every Field",
+            "summary": "Anthropic 的 formal-math 仓库公开了关于任意域上 VP ≠ VNP 的论文与形式化证明，展示了大模型在复杂代数几何与形式化验证领域的巨大潜力。",
+            "primary_category": "AI Tech",
+            "sub_category": "formal_reasoning",
+            "score_total": 65.77,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "虽然这并非直接安全工具，但 Anthropic 驱动的形式化证明成功标志着 AI 深度推理能力的跨越。对 AI 驱动的形式化安全验证、协议分析感兴趣的从业者，应密切关注此技术向安全代码审计和验证流程的迁移。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50620102&hn_hot_date=2026-11-24",
+            "reader_url": "https://news.ycombinator.com/item?id=50620102&hn_hot_date=2026-11-24",
+            "image_url": null,
+            "author": {
+              "username": "mikeryan52",
+              "name": "mikeryan52",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-23T22:09:10",
+            "first_seen_at": "2026-11-24T00:36:06.789301",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "llm_architecture": {
+        "label": "LLM 架构",
+        "items": [
+          {
+            "id": 35704,
+            "title": "GLM-5.4 发布：首个 Loop Transformer 架构提升通用编程能力",
+            "original_title": "HN Hot Discussion: GLM-5.4: Toward generalized coding with our first loop transformer",
+            "summary": "智谱 AI 发布 GLM-5.4，采用首个 Loop Transformer 架构提升通用编程能力，在 HN 引发热议。",
+            "primary_category": "AI Tech",
+            "sub_category": "llm_architecture",
+            "score_total": 65.5,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "大模型编程能力的提升将直接影响 AI 辅助代码审计和漏洞挖掘效率，安全团队需密切关注这种新型架构带来的能力边界变化，评估是否值得替换现有工具底座。",
+            "source_id": "hn-ai-tech",
+            "canonical_url": "https://news.ycombinator.com/item?id=50609685&hn_hot_date=2026-11-24",
+            "reader_url": "https://news.ycombinator.com/item?id=50609685&hn_hot_date=2026-11-24",
+            "image_url": null,
+            "author": {
+              "username": "foohis",
+              "name": "foohis",
+              "avatar_url": null
+            },
+            "published_at": "2026-11-23T10:06:43",
+            "first_seen_at": "2026-11-24T00:34:28.794027",
+            "sub_category_label": "LLM 架构"
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 35502,
+            "title": "LLM生成代码检测研究：粒度差异比模型差异更关键",
+            "original_title": "Automatic Detection of LLM-Generated Code: A Comparative Case Study of Contemporary Models Across Function and Class Granularities",
+            "summary": "论文比较了GPT-3.5、Claude 3 Haiku等四模型生成代码的可检测性，发现函数级与类级检测依赖完全不同的结构特征，单一模型训练的检测器难以跨模型泛化，注释代码比是唯一通用判别指标。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 68.25,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做AI供应链安全和代码溯源的团队该看。研究揭示检测AI生成代码不能只拿GPT-3.5调参就上线——现代模型AUC只有0.68-0.80，且函数级和类级检测器特征几乎不重叠，设计检测管线必须按粒度分治。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2409.01382",
+            "reader_url": "https://arxiv.org/pdf/2409.01382",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-23T05:00:00",
+            "first_seen_at": "2026-11-23T21:04:47.115899",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 35506,
+      "title": "GRAML：基于图推理与多任务学习的LLM漏洞检测框架",
+      "original_title": "GRAML: Graph-Grounded Reasoning and Multi-Task Learning for LLM-Based Software Vulnerability Detection",
+      "summary": "GRAML框架结合图基结构传播与多任务微调，并引入思维树漏洞推理生成描述，在7个数据集上显著提升LLM漏洞检测与定位F1分数。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 83.75,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "利用图结构过滤冗余关系并结合多任务微调，是当前提升代码大模型漏洞挖掘效果的实用解法；ToT-VR思路也可直接复用到安全Agent的代码审计推理链设计中。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2610.09605",
+      "reader_url": "https://arxiv.org/pdf/2610.09605",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-23T21:04:47.115899",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35502,
+      "title": "LLM生成代码检测研究：粒度差异比模型差异更关键",
+      "original_title": "Automatic Detection of LLM-Generated Code: A Comparative Case Study of Contemporary Models Across Function and Class Granularities",
+      "summary": "论文比较了GPT-3.5、Claude 3 Haiku等四模型生成代码的可检测性，发现函数级与类级检测依赖完全不同的结构特征，单一模型训练的检测器难以跨模型泛化，注释代码比是唯一通用判别指标。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 68.25,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做AI供应链安全和代码溯源的团队该看。研究揭示检测AI生成代码不能只拿GPT-3.5调参就上线——现代模型AUC只有0.68-0.80，且函数级和类级检测器特征几乎不重叠，设计检测管线必须按粒度分治。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2409.01382",
+      "reader_url": "https://arxiv.org/pdf/2409.01382",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-23T21:04:47.115899",
+      "sub_category_label": null
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 19,
+    "highlight_count": 7,
+    "paper_count": 2,
+    "source_count": 8,
+    "top_score": 94,
+    "category_count": {
+      "AI for Sec": 15,
+      "AI Tech": 3,
+      "Sec for AI | AI Tech": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 6
+        },
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 7
+        },
+        "security_analytics": {
+          "label": "security_analytics",
+          "count": 1
+        },
+        "secrets_detection": {
+          "label": "secrets_detection",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 1
+        },
+        "formal_reasoning": {
+          "label": "formal_reasoning",
+          "count": 1
+        },
+        "llm_architecture": {
+          "label": "LLM 架构",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 15,
+      "top_score": 94,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 3,
+      "top_score": 68,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "最高分条目展示了大模型在漏洞挖掘上的恐怖效率，单次运行验证948个提权漏洞并自动出补丁，意味着海量开源代码的暗坑正被极速清理或暴露。安全团队别只当看客，立刻评估这套自动化漏洞挖掘与修复逻辑能否平移到自家代码审计流程里；同时务必盯紧内部资产，因为攻击方用同样手段找0day随时可能发生。",
+  "method_note": "按北京时间 2026-11-24 的系统入库窗口筛选，从 19 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "404-media",
+    "ars-technica-ai",
+    "arxiv-ai-security",
+    "blackhat-public-sessions",
+    "github-ai-security",
+    "hn-ai-tech",
+    "simon-willison",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# AI辅助验证948个Linux内核提权漏洞并生成补丁\n\n顶部图：未生成\n\n## 今日概览\n- 今天的主线非常清晰：AI漏洞挖掘已经脱离单点演示，全面进入大规模实战阶段。防守方一口气验证近千个内核提权漏洞并自动出补丁，攻击方也开始用Agent近乎无干预地打0day，自动化攻防的门槛正被彻底踏平。\n- 01 漏洞挖掘自动化 Agent 的真实大规模实战案例，展示了 AI 辅助安全从研究走向开源维护流程。安全团队应关注此类 AI 辅助提权漏洞发现和自动化修复的落地能力。\n- 02 一线甲方安全团队的AI落地实录。讲透了DLP和凭据检测场景下如何处理误报和模型漂移，做安全数据分析的同学必看，能少踩很多坑。\n- 03 这标志着 AI 漏洞挖掘正从研究演示走向实战攻击。安全团队须立即关注 Cairn 框架能力，评估自身在自动化攻防对抗中的准备差距。\n\n## 今日行动\n- 抽查 Agent 工具调用链，记录每个参数来自用户指令还是外部内容。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **AI辅助验证948个Linux内核提权漏洞并生成补丁**：漏洞挖掘自动化 Agent 的真实大规模实战案例，展示了 AI 辅助安全从研究走向开源维护流程。安全团队应关注此类 AI 辅助提权漏洞发现和自动化修复的落地能力。 来源：x-manual-ai-security\n- **ING银行分享AI在安全运营中的落地经验**：一线甲方安全团队的AI落地实录。讲透了DLP和凭据检测场景下如何处理误报和模型漂移，做安全数据分析的同学必看，能少踩很多坑。 来源：blackhat-public-sessions\n- **黑客 AI Agent 几乎无人工干预下发现并利用 0-day**：这标志着 AI 漏洞挖掘正从研究演示走向实战攻击。安全团队须立即关注 Cairn 框架能力，评估自身在自动化攻防对抗中的准备差距。 来源：ars-technica-ai\n\n## 也值得关注\n- GRAML：基于图推理与多任务学习的LLM漏洞检测框架（83.75）\n- Shirudo 开源：AI Agent 驱动的 eBPF 动态防御运行时（83.5）\n- ARTEX AI 黑客框架免费公开引关注（76.8）\n- 大语言模型用于漏洞检测的论文合集资源（70.57）\n- Genesis Map：为 AI 编码 Agent 生成可视化风险审查图谱（68.45）\n- Ladybird 浏览器发布首个 Alpha，借助 AI 代理实现能力飞跃（68.35）\n\n## AI for Sec\n\n### 漏洞挖掘\n- AI辅助验证948个Linux内核提权漏洞并生成补丁（94.0）\n- 黑客 AI Agent 几乎无人工干预下发现并利用 0-day（85.0）\n- GRAML：基于图推理与多任务学习的LLM漏洞检测框架（83.75）\n- 阿里开源混合架构代码审查工具 open-code-review（77.3）\n- AI Agent 11分钟挖出MONAI Label零日漏洞并获root权限（74.01）\n\n### 安全Agent\n- Claude-BugHunter：AI 辅助漏洞挖掘与红队技能包（92.7）\n- Shirudo 开源：AI Agent 驱动的 eBPF 动态防御运行时（83.5）\n- ARTEX AI 黑客框架免费公开引关注（76.8）\n- AI Agent自主完成API映射与路径遍历漏洞挖掘（73.53）\n- Genesis Map：为 AI 编码 Agent 生成可视化风险审查图谱（68.45）\n\n### security_analytics\n- ING银行分享AI在安全运营中的落地经验（87.7）\n\n### secrets_detection\n- 工具「blur」用规则编译神经网络权重实现轻量级隐私和机密检测（81.23）\n\n## AI Tech\n\n### Agent 架构\n- Ladybird 浏览器发布首个 Alpha，借助 AI 代理实现能力飞跃（68.35）\n\n### formal_reasoning\n- Anthropic 公开 VP ≠ VNP 形式化证明，AI 深度推理能力突破（65.77）\n\n### LLM 架构\n- GLM-5.4 发布：首个 Loop Transformer 架构提升通用编程能力（65.5）\n\n## 今日论文\n- GRAML：基于图推理与多任务学习的LLM漏洞检测框架\n- LLM生成代码检测研究：粒度差异比模型差异更关键\n\n## 今日观察\n最高分条目展示了大模型在漏洞挖掘上的恐怖效率，单次运行验证948个提权漏洞并自动出补丁，意味着海量开源代码的暗坑正被极速清理或暴露。安全团队别只当看客，立刻评估这套自动化漏洞挖掘与修复逻辑能否平移到自家代码审计流程里；同时务必盯紧内部资产，因为攻击方用同样手段找0day随时可能发生。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-24 的系统入库窗口筛选，从 19 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-25T00:01:55+08:00"
+}
