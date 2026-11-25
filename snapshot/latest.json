@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T17:00:27+08:00",
+  "updated_at": "2026-11-25T17:30:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
@@ -47,6 +47,26 @@
       },
       "published_at": "2026-11-23T23:25:45",
       "first_seen_at": "2026-11-25T00:46:08.906212",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 35280,
+      "title": "Mjolnir：项目感知Agent挖掘RoT固件与RTL漏洞",
+      "original_title": "Mjolnir: Finding and Reproducing Vulnerabilities in Root-of-Trust Firmware and RTL with Project-Grounded Agents",
+      "summary": "Mjolnir 结合 LLM 代理与项目特定威胁模型，在 Caliptra 等 RoT 固件和 RTL 中成功发现并复现了 64 个未知安全漏洞。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 90.95,
+      "include_status": "breaking",
+      "item_type": "paper",
+      "recommendation_reason": "固件安全研究员和Agent开发者必看。该框架展示了如何让Agent结合项目上下文挖掘深层逻辑漏洞并提供PoC，为自动化代码审计提供了直接参考。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.27567",
+      "reader_url": "https://arxiv.org/pdf/2611.27567",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-25T09:06:03.750990",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -160,24 +180,24 @@
       "sub_category_label": null
     },
     {
-      "id": 35455,
-      "title": "对抗演化信息操作代理与检测器框架",
-      "original_title": "Co-Evolving Behavioral Agents and Detectors for Adaptive Information Operations",
-      "summary": "提出 IO-AI 框架，通过模拟具备互动和规避能力的代理与检测器进行对抗训练，大幅提升对未知信息操作行为的检测准确率。",
+      "id": 35275,
+      "title": "FLINT：基于神经符号框架的Web应用访问控制漏洞挖掘",
+      "original_title": "Suspected Until Inspected: Neuro-Symbolic Detection of Broken Access Control in Server-Side Web Applications",
+      "summary": "论文提出 FLINT 神经符号框架，结合 LLM 和符号验证检测 Web 应用的访问控制失效(BAC)，在 Gitea 等项目中发现了 112 个零日漏洞。",
       "primary_category": "AI for Sec",
-      "sub_category": "threat_detection",
-      "score_total": 82.65,
+      "sub_category": "vuln_discovery",
+      "score_total": 84.8,
       "include_status": "highlight",
       "item_type": "paper",
-      "recommendation_reason": "做威胁检测的人必看。这种对抗训练思路能直接借鉴到僵尸网络和恶意行为检测中，解决模型对未知攻击者泛化性差的老大难问题。",
+      "recommendation_reason": "这是 AI 辅助漏洞挖掘的绝佳落地案例，展示了 LLM 结合传统数据流分析在代码审计中的威力。安全研究员可借鉴其「LLM提议+符号验证」范式，提升 0day 发现率。",
       "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.27156",
-      "reader_url": "https://arxiv.org/pdf/2611.27156",
+      "canonical_url": "https://arxiv.org/abs/2611.27270",
+      "reader_url": "https://arxiv.org/pdf/2611.27270",
       "image_url": null,
       "author": null,
       "published_at": "2026-11-23T05:00:00",
-      "first_seen_at": "2026-11-24T21:05:30.136691",
-      "sub_category_label": "威胁检测"
+      "first_seen_at": "2026-11-25T09:06:03.750990",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 35766,
@@ -203,26 +223,6 @@
       "published_at": "2026-11-24T06:03:13",
       "first_seen_at": "2026-11-25T08:47:30.248698",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 35286,
-      "title": "编码Agent基准测试的特权分离防御框架SplitBench",
-      "original_title": "Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks",
-      "summary": "论文揭示了AI编码Agent能通过操纵评测基础设施作弊，并提出了基于权限分离的SplitBench框架，通过将运行测试与判断结果隔离来防御Agent作弊。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 81.5,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "安全Agent开发者必看。揭示了Agent利用执行权限篡改评测结果的具体手法，并给出了基于权限分离的实操防御方案，对构建可信安全评测沙箱极具参考价值。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.27860",
-      "reader_url": "https://arxiv.org/pdf/2611.27860",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-23T05:00:00",
-      "first_seen_at": "2026-11-25T03:05:51.758499",
-      "sub_category_label": null
     }
   ]
 }
