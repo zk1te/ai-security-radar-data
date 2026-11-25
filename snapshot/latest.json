@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T23:31:39+08:00",
+  "updated_at": "2026-11-26T01:03:47+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -110,31 +110,6 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 35738,
-      "title": "OpenAI 与 Cisco 推出 AI 漏洞缓解工具 Shirudo",
-      "original_title": "🛡️ OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers   Details: https://t.co/eEr80yewMd  OpenAI and Cisco launched Shirudo on November 23, 2026, a",
-      "summary": "OpenAI 与 Cisco 联合开源 Shirudo，利用 AI 生成虚拟补丁拦截 Linux 服务器上的特定漏洞利用，无需重启服务，以填补漏洞修复的时间差。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_mitigation",
-      "score_total": 75.23,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "用 AI 自动生成 Shield 拦截漏洞利用，填补补丁部署的时间窗口。安全团队可关注其如何结合 Codex 实现 0-day 或 N-day 的应急响应，评估是否能集成到现有 WAF/RASP 流程中。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/The_Cyber_News/status/2125078537619304768",
-      "reader_url": "https://x.com/The_Cyber_News/status/2125078537619304768",
-      "image_url": "https://pbs.twimg.com/media/HX3Lp75bEAE6mGu.jpg",
-      "author": {
-        "username": "The_Cyber_News",
-        "name": "Cyber Security News",
-        "avatar_url": null,
-        "followers_count": 73656
-      },
-      "published_at": "2026-11-24T04:06:20",
-      "first_seen_at": "2026-11-25T04:46:38.929913",
-      "sub_category_label": null
-    },
-    {
       "id": 35265,
       "title": "LLM驱动的自然语言访问控制策略提取与验证方法NGAC-IR",
       "original_title": "Extracting Next Generation Access Control Policies from Natural Language Using LLMs: An Intermediate-Representation Approach with Back-Translation Verification",
@@ -173,6 +148,26 @@
       "published_at": "2026-11-25T00:00:00",
       "first_seen_at": "2026-11-25T05:05:21.304237",
       "sub_category_label": "欺诈检测"
+    },
+    {
+      "id": 35264,
+      "title": "面向 SOC 的智能网络攻击检测与告警关联统一框架",
+      "original_title": "A Unified Framework for Intelligent Cyber Attack Detection and Alert Correlation",
+      "summary": "该论文提出一个结合签名规则、机器学习和序列模式挖掘的统一框架，用于网络流量分类和告警关联，以应对 SOC 中的告警过载和多阶段攻击检测难题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "soc_threat_detection",
+      "score_total": 73.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "SOC 团队可参考其如何结合传统规则与 ML 解决告警疲劳和跨阶段攻击关联问题。虽然非纯大模型方案，但对构建自动化安全运营 pipeline 有直接借鉴价值。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.26824",
+      "reader_url": "https://arxiv.org/pdf/2611.26824",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T05:00:00",
+      "first_seen_at": "2026-11-25T09:06:03.750990",
+      "sub_category_label": null
     }
   ]
 }
