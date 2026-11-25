@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T01:33:51+08:00",
+  "updated_at": "2026-11-26T04:34:26+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -110,6 +110,31 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
+      "id": 36343,
+      "title": "OpenAI 与 Cisco 推出开源 Linux 防护工具 Shirudo",
+      "original_title": "RT @TheHackersNews: ‼️NEW - OpenAI and Cisco unveil Shirudo, an open-source #Linux security tool that lets AI agents block exploits BEFORE…",
+      "summary": "OpenAI 和 Cisco 联合发布开源 Linux 安全工具 Shirudo，利用 AI Agent 在漏洞利用发生前进行拦截。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 77.41,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "OpenAI 与 Cisco 合作的 AI 防护工具值得一看。做主机安全或 EDR 的团队可研究其开源实现，探索 AI Agent 在实时拦截利用方向的落地效果。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/TheHackersNews/status/2125631991588733101",
+      "reader_url": "https://x.com/TheHackersNews/status/2125631991588733101",
+      "image_url": null,
+      "author": {
+        "username": "TheHackersNews",
+        "name": "The Hacker News",
+        "avatar_url": null,
+        "followers_count": 2351119
+      },
+      "published_at": "2026-11-25T16:45:33",
+      "first_seen_at": "2026-11-25T20:11:26.373462",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 35265,
       "title": "LLM驱动的自然语言访问控制策略提取与验证方法NGAC-IR",
       "original_title": "Extracting Next Generation Access Control Policies from Natural Language Using LLMs: An Intermediate-Representation Approach with Back-Translation Verification",
@@ -147,26 +172,6 @@
       "author": null,
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-25T09:06:03.750990",
-      "sub_category_label": null
-    },
-    {
-      "id": 35790,
-      "title": "SWE-Gym 数据审计：修复错误标签提升代理训练效果",
-      "original_title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
-      "summary": "论文审计了 SWE-Gym 数据集，发现 74% 的难任务存在假阴性问题（测试用例拒绝正确修复），修复后训练的模型在 SWE-bench 上得分提升 2.4-2.7 分，并发布含 1,087 个审计任务的 SWE-Gym-Verified。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 72.3,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做安全评测和 Benchmark 的团队必看。论文揭示了「通过率」不等于「奖励正确」，74% 未解决任务的根因是测试用例缺陷而非模型能力不足，这对构建安全评测数据集有直接参考价值。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.30207",
-      "reader_url": "https://arxiv.org/pdf/2611.30207",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-24T00:00:00",
-      "first_seen_at": "2026-11-25T15:06:27.193132",
       "sub_category_label": null
     }
   ]
