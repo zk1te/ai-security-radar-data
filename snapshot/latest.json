@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T01:03:47+08:00",
+  "updated_at": "2026-11-26T01:33:51+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -130,26 +130,6 @@
       "sub_category_label": null
     },
     {
-      "id": 36053,
-      "title": "Antom 3-in-1 Transformer 支付风控基础模型",
-      "original_title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
-      "summary": "蚂蚁国际提出 Antom 3-in-1 Transformer 支付风险检测基础模型，融合序列、表格与图表征。在亿级支付平台的线上实验中，相比 XGBoost 基线整体损失率降低了 37.88%。",
-      "primary_category": "AI for Sec",
-      "sub_category": "fraud_detection",
-      "score_total": 74.3,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "蚂蚁分享 7B 参数支付风控基础模型，展示了融合多模态表征在风控场景的巨大潜力。风控与威胁检测团队可重点关注其跨业务迁移和小样本场景下的指标提升效果。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.25403",
-      "reader_url": "https://arxiv.org/pdf/2611.25403",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-25T00:00:00",
-      "first_seen_at": "2026-11-25T05:05:21.304237",
-      "sub_category_label": "欺诈检测"
-    },
-    {
       "id": 35264,
       "title": "面向 SOC 的智能网络攻击检测与告警关联统一框架",
       "original_title": "A Unified Framework for Intelligent Cyber Attack Detection and Alert Correlation",
@@ -167,6 +147,26 @@
       "author": null,
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-25T09:06:03.750990",
+      "sub_category_label": null
+    },
+    {
+      "id": 35790,
+      "title": "SWE-Gym 数据审计：修复错误标签提升代理训练效果",
+      "original_title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+      "summary": "论文审计了 SWE-Gym 数据集，发现 74% 的难任务存在假阴性问题（测试用例拒绝正确修复），修复后训练的模型在 SWE-bench 上得分提升 2.4-2.7 分，并发布含 1,087 个审计任务的 SWE-Gym-Verified。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 72.3,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和 Benchmark 的团队必看。论文揭示了「通过率」不等于「奖励正确」，74% 未解决任务的根因是测试用例缺陷而非模型能力不足，这对构建安全评测数据集有直接参考价值。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.30207",
+      "reader_url": "https://arxiv.org/pdf/2611.30207",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-24T00:00:00",
+      "first_seen_at": "2026-11-25T15:06:27.193132",
       "sub_category_label": null
     }
   ]
