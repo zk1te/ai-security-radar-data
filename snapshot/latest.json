@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T08:58:25+08:00",
+  "updated_at": "2026-11-25T10:28:31+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -100,26 +100,6 @@
       "sub_category_label": "安全Agent"
     },
     {
-      "id": 35845,
-      "title": "黑客 AI Agent 几乎无人工干预下发现并利用 0-day",
-      "original_title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
-      "summary": "亚马逊表示黑客使用 Cairn AI 框架的 AI agent 在极少人工干预下发现并利用了 0-day 漏洞。这表明 AI 漏洞挖掘已成为攻防双刃剑。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 85.0,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "这标志着 AI 漏洞挖掘正从研究演示走向实战攻击。安全团队须立即关注 Cairn 框架能力，评估自身在自动化攻防对抗中的准备差距。",
-      "source_id": "ars-technica-ai",
-      "canonical_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
-      "reader_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-24T12:30:05",
-      "first_seen_at": "2026-11-24T13:59:49.426671",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 35455,
       "title": "对抗演化信息操作代理与检测器框架",
       "original_title": "Co-Evolving Behavioral Agents and Detectors for Adaptive Information Operations",
@@ -178,6 +158,26 @@
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-24T21:05:30.136691",
       "sub_category_label": null
+    },
+    {
+      "id": 35999,
+      "title": "app-store-compliance：开源App合规检查手册与AI Agent技能",
+      "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 928 stars today",
+      "summary": "该项目提供124个应用商店拒绝模式及修复、隐私清单和法规追踪，并包含可集成到AI编码代理的技能。",
+      "primary_category": "AI for Sec",
+      "sub_category": "knowledge_enhanced",
+      "score_total": 75.17,
+      "include_status": "highlight",
+      "item_type": "news",
+      "recommendation_reason": "移动应用合规和隐私检查是安全工作的重要一环。该工具将合规知识结构化并提供AI Agent接口，适合做应用安全审计和自动化合规检查的团队直接集成。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-25&since=daily",
+      "reader_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-25&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-25T00:33:08.839945",
+      "first_seen_at": "2026-11-25T00:34:27.820171",
+      "sub_category_label": "知识增强安全"
     }
   ]
 }
