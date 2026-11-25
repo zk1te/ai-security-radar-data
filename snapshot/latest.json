@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-26T05:34:35+08:00",
+  "updated_at": "2026-11-26T07:05:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 36343,
@@ -178,26 +178,6 @@
       "published_at": "2026-11-25T00:00:00",
       "first_seen_at": "2026-11-25T15:06:27.193132",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 35744,
-      "title": "语言模型自我权重编程探索：缺乏可解释性的递归自我改进路径",
-      "original_title": "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
-      "summary": "探讨语言模型通过权重空间编程（WSP）改进自身，在数学推理上取得显著提升但缺乏可解释性，这为递归自我改进提供了潜在路径。",
-      "primary_category": "AI Tech",
-      "sub_category": "llm_architecture",
-      "score_total": 63.7,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "探索了 LLM 递归自我改进（RSI）的早期形态和局限性。虽非直接安全工具，但 RSI 带来的潜在失控风险值得 AI 安全团队提前跟踪其底层技术演进。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.28833",
-      "reader_url": "https://arxiv.org/pdf/2611.28833",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-24T00:00:00",
-      "first_seen_at": "2026-11-25T15:06:27.193132",
-      "sub_category_label": "LLM 架构"
     }
   ]
 }
