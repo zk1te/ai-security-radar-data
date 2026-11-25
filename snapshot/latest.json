@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T04:34:26+08:00",
+  "updated_at": "2026-11-26T05:04:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -42,31 +42,6 @@
       "author": null,
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-25T09:06:03.750990",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 35766,
-      "title": "AI Agent 11分钟挖出MONAI Label零日漏洞并获root权限",
-      "original_title": "🚨 AI agents discovered and exploited a zero-day in MONAI Label in just 11 minutes, later gaining root access.  CISA also confirms active exploitation of a critical N-able MailAssur",
-      "summary": "AI Agent 仅用 11 分钟发现并利用了 MONAI Label 零日漏洞获取 root 权限；同时 CISA 确认 N-able MailAssure 高危漏洞遭在野利用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 82.26,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "AI Agent 仅用11分钟便打通 RCE 到提权，自主漏洞挖掘实战效果惊人。AI for Sec 从业者需密切关注自动化挖洞工具链走向实战的进程。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2125107955951669688",
-      "reader_url": "https://x.com/TheHackersNews/status/2125107955951669688",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-11-24T06:03:13",
-      "first_seen_at": "2026-11-25T08:47:30.248698",
       "sub_category_label": "漏洞挖掘"
     },
     {
@@ -172,6 +147,26 @@
       "author": null,
       "published_at": "2026-11-23T05:00:00",
       "first_seen_at": "2026-11-25T09:06:03.750990",
+      "sub_category_label": null
+    },
+    {
+      "id": 35790,
+      "title": "SWE-Gym 数据审计：修复错误标签提升代理训练效果",
+      "original_title": "What Makes Good Data for Training Coding Agents? A Systematic Study on SWE-Gym",
+      "summary": "论文审计了 SWE-Gym 数据集，发现 74% 的难任务存在假阴性问题（测试用例拒绝正确修复），修复后训练的模型在 SWE-bench 上得分提升 2.4-2.7 分，并发布含 1,087 个审计任务的 SWE-Gym-Verified。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 72.3,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做安全评测和 Benchmark 的团队必看。论文揭示了「通过率」不等于「奖励正确」，74% 未解决任务的根因是测试用例缺陷而非模型能力不足，这对构建安全评测数据集有直接参考价值。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.30207",
+      "reader_url": "https://arxiv.org/pdf/2611.30207",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-24T00:00:00",
+      "first_seen_at": "2026-11-25T15:06:27.193132",
       "sub_category_label": null
     }
   ]
