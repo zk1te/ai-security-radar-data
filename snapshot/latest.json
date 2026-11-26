@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T03:12:53+08:00",
+  "updated_at": "2026-11-27T03:42:57+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -73,31 +73,6 @@
       "published_at": "2026-11-26T08:01:47",
       "first_seen_at": "2026-11-26T09:50:04.914524",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 36651,
-      "title": "开源AI渗透测试框架 Deep Eye",
-      "original_title": "🛡️ DEEP EYE — AI-POWERED SECURITY TESTING  Deep Eye is an open-source, AI-driven penetration testing framework designed for authorized security assessments. It integrates multiple ",
-      "summary": "Deep Eye 是一款开源的 AI 驱动渗透测试框架，支持集成多种大模型进行漏洞检查并自动生成合规安全报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 68.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可评估该开源工具的 AI 自动化漏洞检查和报告生成能力，看能否提升日常渗透测试效率，但需测试其真实检出率和误报情况。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Anastasis_King/status/2125841872237011284",
-      "reader_url": "https://x.com/Anastasis_King/status/2125841872237011284",
-      "image_url": "https://pbs.twimg.com/media/HYCB5yvXcAA5Ik7.jpg",
-      "author": {
-        "username": "Anastasis_King",
-        "name": "Anastasis Vasileiadis",
-        "avatar_url": null,
-        "followers_count": 11667
-      },
-      "published_at": "2026-11-26T06:39:33",
-      "first_seen_at": "2026-11-26T07:29:10.909461",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 36655,
@@ -208,6 +183,31 @@
       "published_at": "2026-11-25T17:21:03",
       "first_seen_at": "2026-11-26T18:51:32.336186",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 36301,
+      "title": "开源模型Agent群落用于漏洞研究比肩前沿模型",
+      "original_title": "Self-coordinating swarms of agents of open-weights models can match the results of many frontier models on a good variety of problems and vuln research happens to be one of them.",
+      "summary": "提出基于开源权重的自我协调Agent群落在漏洞研究等问题上可媲美前沿模型表现。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 60.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做漏洞挖掘的安全团队注意：开源模型协同Agent群落展现出实战潜力，可大幅降低对昂贵前沿API的依赖，值得跟进相关编排技术落地。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2125623958468980793",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2125623958468980793",
+      "image_url": null,
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null,
+        "followers_count": 17983
+      },
+      "published_at": "2026-11-25T16:13:38",
+      "first_seen_at": "2026-11-26T18:51:32.336186",
+      "sub_category_label": null
     }
   ]
 }
