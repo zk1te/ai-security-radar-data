@@ -1,29 +1,9 @@
 {
-  "updated_at": "2026-11-26T19:08:41+08:00",
+  "updated_at": "2026-11-26T20:38:48+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
-    {
-      "id": 36375,
-      "title": "Claude-BugHunter 红队技能包获 GitHub 高星关注",
-      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1652 stars today",
-      "summary": "该项目为 Claude Code 提供了 85 个红队与 bug hunting 技能，涵盖 24 类漏洞的真实报告模式，用于辅助漏洞挖掘。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 94.4,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "做红队和漏洞挖掘的兄弟建议关注这个高星工具。它将真实漏洞报告模式封装为 Claude Code 技能，非常适合作为构建自主漏洞挖掘 Agent 的灵感库或直接复用。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-26&since=daily",
-      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-26&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-26T00:21:40.895690",
-      "first_seen_at": "2026-11-26T00:23:01.233986",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 36637,
       "title": "揭开AI代码安全假象：AI与人类C++代码的多层级验证评测",
