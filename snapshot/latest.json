@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T02:12:24+08:00",
+  "updated_at": "2026-11-27T02:42:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -22,26 +22,6 @@
       "author": null,
       "published_at": "2026-11-26T05:00:00",
       "first_seen_at": "2026-11-26T15:07:26.755001",
-      "sub_category_label": null
-    },
-    {
-      "id": 36646,
-      "title": "SpecRead：评测大模型硬件规格理解能力的基准",
-      "original_title": "SpecRead: A Benchmark for Measuring Whether Language Models Understand Hardware Specifications",
-      "summary": "论文提出 SpecRead 基准，通过 383 个问题隔离评测大模型对硬件规格的理解能力，发现模型在规格矛盾检测和 RTL 一致性检查上表现极差。",
-      "primary_category": "AI Tech | AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 71.55,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "做硬件安全和 EDA 自动化的同行要看。该基准把「读懂规格」与「写代码」拆开评测，直接暴露了模型在发现规格与 RTL 不一致时的能力短板，指明了当前 AI 硬件审计的瓶颈。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2609.33699",
-      "reader_url": "https://arxiv.org/pdf/2609.33699",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-26T05:00:00",
-      "first_seen_at": "2026-11-26T06:18:50.061262",
       "sub_category_label": null
     },
     {
@@ -183,6 +163,26 @@
       "published_at": "2026-11-25T04:08:37",
       "first_seen_at": "2026-11-26T06:50:08.332242",
       "sub_category_label": "恶意软件与威胁检测"
+    },
+    {
+      "id": 36715,
+      "title": "传OpenAI与Anthropic攻破RSA算法",
+      "original_title": "传RSA已被OpenAI与Anthropic攻破，互联网加密要变天了？",
+      "summary": "传闻称OpenAI与Anthropic已攻破RSA加密算法，但暂无具体技术细节支撑该说法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "crypto_analysis",
+      "score_total": 61.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "若传闻属实，AI在密码破解上的突破将颠覆现有加密体系，安全团队需密切关注后续验证。但目前仅见标题，需警惕夸大宣传。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-11-26-12?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-11-26-12?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T12:48:18",
+      "first_seen_at": "2026-11-26T14:11:56.788855",
+      "sub_category_label": null
     }
   ]
 }
