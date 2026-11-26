@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-27T02:42:28+08:00",
+  "updated_at": "2026-11-27T03:12:53+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 9,
   "items": [
     {
       "id": 36635,
@@ -22,6 +22,31 @@
       "author": null,
       "published_at": "2026-11-26T05:00:00",
       "first_seen_at": "2026-11-26T15:07:26.755001",
+      "sub_category_label": null
+    },
+    {
+      "id": 36191,
+      "title": "用 GPT 和 Claude 为 V8 构建跨层形式化翻译验证器",
+      "original_title": "RT @nebusecurity: We built the first cross-tier formal translation verifier for Chromium V8 compiler using GPT and Claude.  Scalability has…",
+      "summary": "研究团队使用 GPT 和 Claude 构建了首个针对 Chromium V8 编译器的跨层形式化翻译验证器，利用大模型提升编译器验证的可扩展性。",
+      "primary_category": "AI for Sec",
+      "sub_category": "formal_verification",
+      "score_total": 69.11,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这是 LLM 辅助编译器验证的落地案例。做二进制安全或编译器 fuzzing 的研究者应关注此方向，它展示了 AI 在形式化验证中的新潜力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/soaphornseuo/status/2125623541710442931",
+      "reader_url": "https://x.com/soaphornseuo/status/2125623541710442931",
+      "image_url": null,
+      "author": {
+        "username": "soaphornseuo",
+        "name": "soaphorn seuo",
+        "avatar_url": null,
+        "followers_count": 2488
+      },
+      "published_at": "2026-11-25T16:11:59",
+      "first_seen_at": "2026-11-26T18:51:32.336186",
       "sub_category_label": null
     },
     {
@@ -140,31 +165,6 @@
       "sub_category_label": "模型评测"
     },
     {
-      "id": 36073,
-      "title": "蚂蚁国际发布 Antom 三合一支付风控基础模型",
-      "original_title": "Ant International released Antom 3-in-1 Transformer on Hugging Face  A ~7B payment foundation model fusing sequence, tabular, and graph data for risk detection, with ~1.7B paramete",
-      "summary": "蚂蚁国际发布约 7B 参数的支付基础模型 Antom 3-in-1 Transformer，融合序列、表格和图数据进行风险检测，单任务路由激活约 1.7B 参数。",
-      "primary_category": "AI for Sec",
-      "sub_category": "malware_detection",
-      "score_total": 62.21,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做风控和威胁检测的团队可以关注这个多模态融合架构，它把支付场景下的序列行为、表格特征和图关系用 MoE 路由统一处理，对设计通用安全检测模型有直接参考价值。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HuggingPapers/status/2125441502046236929",
-      "reader_url": "https://x.com/HuggingPapers/status/2125441502046236929",
-      "image_url": "https://pbs.twimg.com/media/HX8VyCYW8AEHMBi.jpg",
-      "author": {
-        "username": "HuggingPapers",
-        "name": "DailyPapers",
-        "avatar_url": null,
-        "followers_count": 21406
-      },
-      "published_at": "2026-11-25T04:08:37",
-      "first_seen_at": "2026-11-26T06:50:08.332242",
-      "sub_category_label": "恶意软件与威胁检测"
-    },
-    {
       "id": 36715,
       "title": "传OpenAI与Anthropic攻破RSA算法",
       "original_title": "传RSA已被OpenAI与Anthropic攻破，互联网加密要变天了？",
@@ -183,6 +183,31 @@
       "published_at": "2026-11-26T12:48:18",
       "first_seen_at": "2026-11-26T14:11:56.788855",
       "sub_category_label": null
+    },
+    {
+      "id": 36305,
+      "title": "某工具称其漏洞发现页击败多数 AI SAST 并邀约基准测试",
+      "original_title": "This is how findings page looks like. This alone could beat so many AI SASTs, happy to do a 1:1 benchmark and compare no of valid findings produced :) https://t.co/GpdsIuTOwT",
+      "summary": "某工具展示了其漏洞发现页面，声称能击败众多 AI SAST 工具，并提议进行一对一的有效发现数量基准测试。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 60.93,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "AI SAST 从业者值得关注，该推文暗示了当前 AI 代码审计工具在有效发现上的痛点。提议的 benchmark 思路可作为评估自有安全工具效果的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2125640923187224627",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2125640923187224627",
+      "image_url": "https://pbs.twimg.com/media/HX_K9DqbEAAjOTh.jpg",
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null,
+        "followers_count": 17983
+      },
+      "published_at": "2026-11-25T17:21:03",
+      "first_seen_at": "2026-11-26T18:51:32.336186",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
