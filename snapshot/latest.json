@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T05:13:28+08:00",
+  "updated_at": "2026-11-27T06:13:33+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -100,31 +100,6 @@
       "sub_category_label": null
     },
     {
-      "id": 36684,
-      "title": "自主化 N-day 漏洞利用流水线演讲幻灯片分享",
-      "original_title": "An autonomous N-day exploit pipeline (slide deck)  https://t.co/xE6JOET2b7  Credits @chompie1337  #infosec https://t.co/rSzUAvhjT7",
-      "summary": "安全研究员 @chompie1337 分享了一份关于自主化 N-day 漏洞利用流水线（autonomous N-day exploit pipeline）的演讲幻灯片，探讨了自动化漏洞利用的最新进展。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 68.85,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘与利用自动化是 AI for Sec 的核心落地场景之一。该幻灯片展示了完整的自主化 N-day 漏洞利用流水线设计，对研发安全 Agent 或评估大模型实战漏洞利用能力的团队具有直接参考价值，建议查阅。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xor0ne/status/2125862568598077502",
-      "reader_url": "https://x.com/0xor0ne/status/2125862568598077502",
-      "image_url": "https://pbs.twimg.com/media/HYCUvZrXsAEkWrb.jpg",
-      "author": {
-        "username": "0xor0ne",
-        "name": "0xor0ne",
-        "avatar_url": null,
-        "followers_count": 93861
-      },
-      "published_at": "2026-11-26T08:01:47",
-      "first_seen_at": "2026-11-26T09:50:04.914524",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 36708,
       "title": "OpenAI Patch the Planet 项目发布 Tor 审计新研究",
       "original_title": "RT @calif_io: As part of OpenAI's Patch the Planet, Calif audited Tor and its associated software.  Today we're releasing new research by @…",
@@ -213,6 +188,31 @@
       "published_at": "2026-11-25T17:21:03",
       "first_seen_at": "2026-11-26T18:51:32.336186",
       "sub_category_label": "安全评测与Benchmark"
+    },
+    {
+      "id": 36301,
+      "title": "开源模型Agent群落用于漏洞研究比肩前沿模型",
+      "original_title": "Self-coordinating swarms of agents of open-weights models can match the results of many frontier models on a good variety of problems and vuln research happens to be one of them.",
+      "summary": "提出基于开源权重的自我协调Agent群落在漏洞研究等问题上可媲美前沿模型表现。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_agent",
+      "score_total": 60.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "做漏洞挖掘的安全团队注意：开源模型协同Agent群落展现出实战潜力，可大幅降低对昂贵前沿API的依赖，值得跟进相关编排技术落地。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2125623958468980793",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2125623958468980793",
+      "image_url": null,
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null,
+        "followers_count": 17983
+      },
+      "published_at": "2026-11-25T16:13:38",
+      "first_seen_at": "2026-11-26T18:51:32.336186",
+      "sub_category_label": null
     }
   ]
 }
