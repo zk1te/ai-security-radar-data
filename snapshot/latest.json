@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T21:09:04+08:00",
+  "updated_at": "2026-11-26T23:11:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 5,
@@ -85,23 +85,23 @@
       "sub_category_label": "知识增强安全"
     },
     {
-      "id": 36639,
-      "title": "LLM 生成形式化程序规范能力评测：提出 Coins 框架",
-      "original_title": "How Powerful are LLMs in Generating Formal Program Specifications?",
-      "summary": "论文提出基于 Rocq 的 Coins 评测框架，通过在测试用例上实例化规范来评估 LLM 生成形式化规范的质量，发现模型规模扩大无法单独解决规范生成的挑战。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_benchmark",
-      "score_total": 73.5,
-      "include_status": "included",
+      "id": 36635,
+      "title": "AI原生软件生态中多Agent故障传播的阈值模型",
+      "original_title": "A Threshold Model of Fault Propagation in AI-Native Software Ecosystems",
+      "summary": "本文构建了多 Agent 并发开发时的故障传播分支过程模型，发现部分仓库存在缺陷自我维持传播的结构性条件，单靠单独审查 PR 无法防范此类风险。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 75.7,
+      "include_status": "highlight",
       "item_type": "paper",
-      "recommendation_reason": "形式化验证是保障软件安全的关键手段，但规范编写成本极高。本文评估了 LLM 辅助规范生成的实际能力，为代码安全和形式化验证从业者指出了当前模型瓶颈。",
+      "recommendation_reason": "本文分析了多 Agent 并发编码时代的级联错误传播风险。安全团队需警惕 Agent 提交 PR 引发的结构性风险，单点审查不足以防患，需结合全局冲突图谱评估。",
       "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2608.13077",
-      "reader_url": "https://arxiv.org/pdf/2608.13077",
+      "canonical_url": "https://arxiv.org/abs/2604.19827",
+      "reader_url": "https://arxiv.org/pdf/2604.19827",
       "image_url": null,
       "author": null,
       "published_at": "2026-11-26T05:00:00",
-      "first_seen_at": "2026-11-26T06:10:28.591255",
+      "first_seen_at": "2026-11-26T15:07:26.755001",
       "sub_category_label": null
     }
   ]
