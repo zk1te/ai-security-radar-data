@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T03:42:57+08:00",
+  "updated_at": "2026-11-27T04:13:02+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -23,6 +23,31 @@
       "published_at": "2026-11-26T05:00:00",
       "first_seen_at": "2026-11-26T15:07:26.755001",
       "sub_category_label": null
+    },
+    {
+      "id": 36764,
+      "title": "使用 Claude Code 逆向分析 Papercut NG 零日漏洞",
+      "original_title": "Claude Code to reverse engineer a zero-day in Papercut NG (@KevTheHermit)  https://t.co/oe2r95NMoH  #infosec #llm https://t.co/sCn9eDP4gU",
+      "summary": "安全研究员分享使用 Claude Code 辅助逆向分析 Papercut NG 零日漏洞的实践，展示了 AI 在实际漏洞挖掘场景中的应用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.99,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘和逆向人员必看，展示了 Claude Code 在真实 0day 逆向中的实操效果，可作为评估当前 AI 辅助安全工具能力的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2125984310247219432",
+      "reader_url": "https://x.com/0xor0ne/status/2125984310247219432",
+      "image_url": "https://pbs.twimg.com/media/HYEDdtsXIAASPI4.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null,
+        "followers_count": 93861
+      },
+      "published_at": "2026-11-26T16:05:33",
+      "first_seen_at": "2026-11-26T19:48:20.121503",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 36191,
@@ -73,26 +98,6 @@
       "published_at": "2026-11-26T08:01:47",
       "first_seen_at": "2026-11-26T09:50:04.914524",
       "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 36655,
-      "title": "AI 写码快了诊断却更难：Java 服务如何补回判断面",
-      "original_title": "系统崩了，一屋子人在等 AI 出方案",
-      "summary": "文章指出 AI Agent 天然不为系统留诊断面，导致故障时工程师过度依赖 AI 却无法判断方案对错；并通过 Java 服务实例展示了如何通过分层健康检查、变更追踪和启动自检补回判断能力。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 66.1,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全 Agent 同样面临「不留诊断面」的坑。做漏洞挖掘或渗透自动化时，别只看 Agent 跑通没，要学这里把「可诊断性」写进目标函数和工程框架里，否则出事了你连它干了啥都看不懂。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7711258065815420964",
-      "reader_url": "https://juejin.cn/post/7711258065815420964",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-24T01:02:41",
-      "first_seen_at": "2026-11-26T08:02:48.733267",
-      "sub_category_label": "Agent 架构"
     },
     {
       "id": 36708,
