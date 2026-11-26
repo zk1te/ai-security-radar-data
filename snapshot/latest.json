@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-27T01:12:12+08:00",
+  "updated_at": "2026-11-27T01:42:16+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 5,
+  "item_count": 9,
   "items": [
     {
       "id": 36637,
@@ -103,6 +103,96 @@
       "published_at": "2026-11-26T05:00:00",
       "first_seen_at": "2026-11-26T06:10:28.591255",
       "sub_category_label": null
+    },
+    {
+      "id": 36646,
+      "title": "SpecRead：评测大模型硬件规格理解能力的基准",
+      "original_title": "SpecRead: A Benchmark for Measuring Whether Language Models Understand Hardware Specifications",
+      "summary": "论文提出 SpecRead 基准，通过 383 个问题隔离评测大模型对硬件规格的理解能力，发现模型在规格矛盾检测和 RTL 一致性检查上表现极差。",
+      "primary_category": "AI Tech | AI for Sec",
+      "sub_category": "security_benchmark",
+      "score_total": 71.55,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "做硬件安全和 EDA 自动化的同行要看。该基准把「读懂规格」与「写代码」拆开评测，直接暴露了模型在发现规格与 RTL 不一致时的能力短板，指明了当前 AI 硬件审计的瓶颈。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2609.33699",
+      "reader_url": "https://arxiv.org/pdf/2609.33699",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-26T06:18:50.061262",
+      "sub_category_label": null
+    },
+    {
+      "id": 36684,
+      "title": "自主化 N-day 漏洞利用流水线演讲幻灯片分享",
+      "original_title": "An autonomous N-day exploit pipeline (slide deck)  https://t.co/xE6JOET2b7  Credits @chompie1337  #infosec https://t.co/rSzUAvhjT7",
+      "summary": "安全研究员 @chompie1337 分享了一份关于自主化 N-day 漏洞利用流水线（autonomous N-day exploit pipeline）的演讲幻灯片，探讨了自动化漏洞利用的最新进展。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 68.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘与利用自动化是 AI for Sec 的核心落地场景之一。该幻灯片展示了完整的自主化 N-day 漏洞利用流水线设计，对研发安全 Agent 或评估大模型实战漏洞利用能力的团队具有直接参考价值，建议查阅。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2125862568598077502",
+      "reader_url": "https://x.com/0xor0ne/status/2125862568598077502",
+      "image_url": "https://pbs.twimg.com/media/HYCUvZrXsAEkWrb.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null,
+        "followers_count": 93861
+      },
+      "published_at": "2026-11-26T08:01:47",
+      "first_seen_at": "2026-11-26T09:50:04.914524",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 36651,
+      "title": "开源AI渗透测试框架 Deep Eye",
+      "original_title": "🛡️ DEEP EYE — AI-POWERED SECURITY TESTING  Deep Eye is an open-source, AI-driven penetration testing framework designed for authorized security assessments. It integrates multiple ",
+      "summary": "Deep Eye 是一款开源的 AI 驱动渗透测试框架，支持集成多种大模型进行漏洞检查并自动生成合规安全报告。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 68.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可评估该开源工具的 AI 自动化漏洞检查和报告生成能力，看能否提升日常渗透测试效率，但需测试其真实检出率和误报情况。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Anastasis_King/status/2125841872237011284",
+      "reader_url": "https://x.com/Anastasis_King/status/2125841872237011284",
+      "image_url": "https://pbs.twimg.com/media/HYCB5yvXcAA5Ik7.jpg",
+      "author": {
+        "username": "Anastasis_King",
+        "name": "Anastasis Vasileiadis",
+        "avatar_url": null,
+        "followers_count": 11667
+      },
+      "published_at": "2026-11-26T06:39:33",
+      "first_seen_at": "2026-11-26T07:29:10.909461",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 36655,
+      "title": "AI 写码快了诊断却更难：Java 服务如何补回判断面",
+      "original_title": "系统崩了，一屋子人在等 AI 出方案",
+      "summary": "文章指出 AI Agent 天然不为系统留诊断面，导致故障时工程师过度依赖 AI 却无法判断方案对错；并通过 Java 服务实例展示了如何通过分层健康检查、变更追踪和启动自检补回判断能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 66.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全 Agent 同样面临「不留诊断面」的坑。做漏洞挖掘或渗透自动化时，别只看 Agent 跑通没，要学这里把「可诊断性」写进目标函数和工程框架里，否则出事了你连它干了啥都看不懂。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7711258065815420964",
+      "reader_url": "https://juejin.cn/post/7711258065815420964",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-24T01:02:41",
+      "first_seen_at": "2026-11-26T08:02:48.733267",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
