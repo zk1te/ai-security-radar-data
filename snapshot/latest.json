@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-26T14:36:34+08:00",
+  "updated_at": "2026-11-26T16:36:49+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 6,
+  "item_count": 5,
   "items": [
     {
       "id": 36375,
@@ -103,31 +103,6 @@
       "published_at": "2026-11-26T05:00:00",
       "first_seen_at": "2026-11-26T05:11:37.103253",
       "sub_category_label": "知识增强安全"
-    },
-    {
-      "id": 36343,
-      "title": "OpenAI 与 Cisco 推出开源 Linux 防护工具 Shirudo",
-      "original_title": "RT @TheHackersNews: ‼️NEW - OpenAI and Cisco unveil Shirudo, an open-source #Linux security tool that lets AI agents block exploits BEFORE…",
-      "summary": "OpenAI 和 Cisco 联合发布开源 Linux 安全工具 Shirudo，利用 AI Agent 在漏洞利用发生前进行拦截。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 77.41,
-      "include_status": "highlight",
-      "item_type": "news",
-      "recommendation_reason": "OpenAI 与 Cisco 合作的 AI 防护工具值得一看。做主机安全或 EDR 的团队可研究其开源实现，探索 AI Agent 在实时拦截利用方向的落地效果。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/TheHackersNews/status/2125631991588733101",
-      "reader_url": "https://x.com/TheHackersNews/status/2125631991588733101",
-      "image_url": null,
-      "author": {
-        "username": "TheHackersNews",
-        "name": "The Hacker News",
-        "avatar_url": null,
-        "followers_count": 2351119
-      },
-      "published_at": "2026-11-25T16:45:33",
-      "first_seen_at": "2026-11-25T20:11:26.373462",
-      "sub_category_label": "安全Agent"
     }
   ]
 }
