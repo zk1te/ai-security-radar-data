@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-26T11:36:11+08:00",
+  "updated_at": "2026-11-26T13:36:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 5,
   "items": [
     {
       "id": 36375,
@@ -23,6 +23,26 @@
       "published_at": "2026-11-26T00:21:40.895690",
       "first_seen_at": "2026-11-26T00:23:01.233986",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 36483,
+      "title": "VulCPE：基于实体识别与图建模的漏洞检索框架",
+      "original_title": "VulCPE: Context-Aware Cybersecurity Vulnerability Retrieval and Management",
+      "summary": "针对NVD中CPE数据不一致导致的漏洞误报和检索遗漏问题，论文提出VulCPE框架，利用统一CPE架构、实体识别、关系抽取和图建模标准化数据，提升了检索精度与覆盖率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "knowledge_enhanced",
+      "score_total": 85.95,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "漏洞情报和资产匹配常受NVD脏数据困扰导致大量误报。VulCPE用NLP和图建模清洗CPE数据，思路直接实用。做漏洞管理或威胁情报聚合的同学可以参考其数据清洗和实体关系抽取设计。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2505.13895",
+      "reader_url": "https://arxiv.org/pdf/2505.13895",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-26T05:11:37.103253",
+      "sub_category_label": "知识增强安全"
     },
     {
       "id": 36343,
@@ -97,101 +117,6 @@
       "published_at": "2026-11-24T06:22:36",
       "first_seen_at": "2026-11-26T00:37:37.237537",
       "sub_category_label": "二进制安全"
-    },
-    {
-      "id": 36388,
-      "title": "阿里巴巴开源混合架构代码审查工具",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "阿里开源的代码审查工具采用确定性流水线加 LLM Agent 架构，支持 NPE、XSS、SQL 注入等多语言安全规则检测。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 72.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI 安全工程师应该关注。该工具展示了如何将 LLM Agent 与确定性规则结合用于代码审查，可借鉴其混合架构来提升 SAST 精度并减少误报。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-26&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-26&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-26T00:21:46.118823",
-      "first_seen_at": "2026-11-26T00:25:13.975777",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
-      "id": 36333,
-      "title": "攻击者通过经典渗透工具扩展 ARTEX AI 代理能力",
-      "original_title": "Old reliables   \"Threat actors also commonly add exploitation frameworks and credential attack tools to extend the capabilities of ARTEX agents:  sqlmap — A specialized web-applica",
-      "summary": "威胁行为者正将 sqlmap、Metasploit 等传统安全工具整合进 ARTEX AI 代理，以增强其自动化渗透与凭据测试能力。",
-      "primary_category": "Sec for AI | AI for Sec",
-      "sub_category": "agent_security",
-      "score_total": 69.31,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "揭示了 AI Agent 结合经典黑客工具的实战化攻击趋势。防御团队需警惕自动化 Agent 驱动的复合型攻击链，并关注如何检测此类工具调用特征。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2125658166998233200",
-      "reader_url": "https://x.com/HackingLZ/status/2125658166998233200",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-11-25T18:29:34",
-      "first_seen_at": "2026-11-25T19:38:39.733745",
-      "sub_category_label": null
-    },
-    {
-      "id": 36014,
-      "title": "AI 渗透框架 ARTEX 被武器化，攻击者攻破欧盟委员会 EU Academy",
-      "original_title": "Attackers weaponized ARTEX, an AI-powered penetration testing framework, to breach the European Commission's EU Academy—automating exploitation, escalating privileges, and pivoting",
-      "summary": "攻击者将 AI 驱动的渗透测试框架 ARTEX 武器化，对欧盟委员会 EU Academy 发起攻击，自动化完成漏洞利用、提权与横向移动至 Sysper HR 平台并窃取用户数据，事件暴露内部东西向隔离不足的问题。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 67.71,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI for Sec 从业者必看——「AI pentest 工具」落入攻击者手中后能力不减反增，自动化利用+提权+横向移动一气呵成。安全团队需重新审视内部隔离策略，别让防御工具变成攻击利器。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/aviatrixtrc/status/2125380891564298575",
-      "reader_url": "https://x.com/aviatrixtrc/status/2125380891564298575",
-      "image_url": null,
-      "author": {
-        "username": "aviatrixtrc",
-        "name": "Aviatrix Threat Research Center",
-        "avatar_url": null,
-        "followers_count": 1977
-      },
-      "published_at": "2026-11-25T00:07:46",
-      "first_seen_at": "2026-11-26T02:49:40.418510",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 35952,
-      "title": "11月分拣更新：AI驱动报告量与验证速度",
-      "original_title": "Our November triage update covers AI-driven report volume, triage throughput, validation speed, and the steps we've taken to manage volume.  We're also sharing where more work and ",
-      "summary": "安全平台分享11月漏洞分拣更新，涵盖AI驱动的报告数量、分拣吞吐量、验证速度及应对报告量激增的管理措施。",
-      "primary_category": "AI for Sec",
-      "sub_category": "triage_automation",
-      "score_total": 67.66,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞赏金平台正被AI生成的报告冲击，同时用AI加速分拣验证。做SRC运营和漏洞管理的团队必须看，了解平台方如何应对报告暴增和自动化验证。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Hacker0x01/status/2125310275712643253",
-      "reader_url": "https://x.com/Hacker0x01/status/2125310275712643253",
-      "image_url": "https://pbs.twimg.com/media/HX6ebqcWMAA7FTt.jpg",
-      "author": {
-        "username": "Hacker0x01",
-        "name": "HackerOne",
-        "avatar_url": null,
-        "followers_count": 342779
-      },
-      "published_at": "2026-11-24T19:27:10",
-      "first_seen_at": "2026-11-25T20:48:59.933578",
-      "sub_category_label": null
     }
   ]
 }
