@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T04:13:02+08:00",
+  "updated_at": "2026-11-27T05:13:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -22,6 +22,31 @@
       "author": null,
       "published_at": "2026-11-26T05:00:00",
       "first_seen_at": "2026-11-26T15:07:26.755001",
+      "sub_category_label": null
+    },
+    {
+      "id": 36333,
+      "title": "攻击者通过经典渗透工具扩展 ARTEX AI 代理能力",
+      "original_title": "Old reliables   \"Threat actors also commonly add exploitation frameworks and credential attack tools to extend the capabilities of ARTEX agents:  sqlmap — A specialized web-applica",
+      "summary": "威胁行为者正将 sqlmap、Metasploit 等传统安全工具整合进 ARTEX AI 代理，以增强其自动化渗透与凭据测试能力。",
+      "primary_category": "Sec for AI | AI for Sec",
+      "sub_category": "agent_security",
+      "score_total": 73.81,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "揭示了 AI Agent 结合经典黑客工具的实战化攻击趋势。防御团队需警惕自动化 Agent 驱动的复合型攻击链，并关注如何检测此类工具调用特征。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2125658166998233200",
+      "reader_url": "https://x.com/HackingLZ/status/2125658166998233200",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-11-25T18:29:34",
+      "first_seen_at": "2026-11-26T20:51:36.416064",
       "sub_category_label": null
     },
     {
@@ -188,31 +213,6 @@
       "published_at": "2026-11-25T17:21:03",
       "first_seen_at": "2026-11-26T18:51:32.336186",
       "sub_category_label": "安全评测与Benchmark"
-    },
-    {
-      "id": 36301,
-      "title": "开源模型Agent群落用于漏洞研究比肩前沿模型",
-      "original_title": "Self-coordinating swarms of agents of open-weights models can match the results of many frontier models on a good variety of problems and vuln research happens to be one of them.",
-      "summary": "提出基于开源权重的自我协调Agent群落在漏洞研究等问题上可媲美前沿模型表现。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 60.0,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做漏洞挖掘的安全团队注意：开源模型协同Agent群落展现出实战潜力，可大幅降低对昂贵前沿API的依赖，值得跟进相关编排技术落地。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xAsm0d3us/status/2125623958468980793",
-      "reader_url": "https://x.com/0xAsm0d3us/status/2125623958468980793",
-      "image_url": null,
-      "author": {
-        "username": "0xAsm0d3us",
-        "name": "devansh ⚡️",
-        "avatar_url": null,
-        "followers_count": 17983
-      },
-      "published_at": "2026-11-25T16:13:38",
-      "first_seen_at": "2026-11-26T18:51:32.336186",
-      "sub_category_label": null
     }
   ]
 }
