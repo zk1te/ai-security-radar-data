@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-27T10:14:28+08:00",
+  "updated_at": "2026-11-27T11:14:55+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 36821,
@@ -23,26 +23,6 @@
       "published_at": "2026-11-26T04:27:01",
       "first_seen_at": "2026-11-27T00:38:42.282060",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 36635,
-      "title": "AI原生软件生态中多Agent故障传播的阈值模型",
-      "original_title": "A Threshold Model of Fault Propagation in AI-Native Software Ecosystems",
-      "summary": "本文构建了多 Agent 并发开发时的故障传播分支过程模型，发现部分仓库存在缺陷自我维持传播的结构性条件，单靠单独审查 PR 无法防范此类风险。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security",
-      "score_total": 75.7,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "本文分析了多 Agent 并发编码时代的级联错误传播风险。安全团队需警惕 Agent 提交 PR 引发的结构性风险，单点审查不足以防患，需结合全局冲突图谱评估。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2604.19827",
-      "reader_url": "https://arxiv.org/pdf/2604.19827",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-26T05:00:00",
-      "first_seen_at": "2026-11-26T15:07:26.755001",
-      "sub_category_label": null
     },
     {
       "id": 36829,
@@ -115,6 +95,56 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 36422,
+      "title": "LLM 大规模挖掘异构应用漏洞构成全新威胁模型",
+      "original_title": "AI accelerates vulnerability discovery and exploit development, but the ability to exploit a homogeneous, internet facing attack surface at enormous scale is nothing new. Many of t",
+      "summary": "作者认为 AI 加速漏洞发现并不新鲜，真正改变游戏规则的是 LLM 能够大规模发现异构定制应用的漏洞，并适应复杂的特定环境后渗透场景，这构成了根本性的新威胁模型。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.69,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "防守方需重新评估威胁模型，过去针对同质化攻击面的防御策略在面对 LLM 驱动的异构应用漏洞挖掘时可能失效。红蓝两队都应重点关注 LLM 在后渗透阶段的适应能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/HackingLZ/status/2125732144513233270",
+      "reader_url": "https://x.com/HackingLZ/status/2125732144513233270",
+      "image_url": null,
+      "author": {
+        "username": "HackingLZ",
+        "name": "Justin Elze",
+        "avatar_url": null,
+        "followers_count": 73559
+      },
+      "published_at": "2026-11-25T23:23:32",
+      "first_seen_at": "2026-11-27T02:52:02.993767",
+      "sub_category_label": "漏洞挖掘"
+    },
+    {
+      "id": 36436,
+      "title": "ARTEX AI 渗透框架攻破多情报机构非机密系统",
+      "original_title": "Attackers used the ARTEX AI-powered penetration testing framework to breach CIA, ODNI, and NGA unclassified systems — autonomously probing inter-agency interfaces, escalating privi",
+      "summary": "攻击者使用 AI 驱动的 ARTEX 渗透框架入侵 CIA、ODNI 和 NGA 非机密系统，自主完成探测、提权及横向移动并窃取数据，暴露跨机构信任边界问题。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 69.71,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "这展示了 AI 渗透 Agent 在真实复杂环境下的实战化破坏力。攻防团队需警惕 AI 在多边界环境中的自主横向移动能力，并重新评估内网东西向隔离策略的有效性。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2125744903699181854",
+      "reader_url": "https://x.com/aviatrixtrc/status/2125744903699181854",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-11-26T00:14:14",
+      "first_seen_at": "2026-11-27T02:52:02.993767",
+      "sub_category_label": "安全Agent"
+    },
+    {
       "id": 36191,
       "title": "用 GPT 和 Claude 为 V8 构建跨层形式化翻译验证器",
       "original_title": "RT @nebusecurity: We built the first cross-tier formal translation verifier for Chromium V8 compiler using GPT and Claude.  Scalability has…",
@@ -140,6 +170,31 @@
       "sub_category_label": null
     },
     {
+      "id": 36430,
+      "title": "多AI自主Agent协同攻破意大利关键基础设施",
+      "original_title": "Five parallel AI agents coordinated reconnaissance through exploitation and persistence against Italian critical infrastructure — no human intervention required.  Autonomous framew",
+      "summary": "ARTEX AI和PentAGI等框架利用弱口令、错误配置和已知CVE，实现五个AI Agent协同的侦察-利用-持久化攻击链，数小时内突破内网且无需人工干预。",
+      "primary_category": "AI for Sec | Sec for AI",
+      "sub_category": "security_agent",
+      "score_total": 68.91,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "攻防双方都该看：自主攻击Agent已从演示走向实战，防守方需立即强化东西向流量控制和运行时隔离，限制Agent群的横向移动能力。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/aviatrixtrc/status/2125742097286181367",
+      "reader_url": "https://x.com/aviatrixtrc/status/2125742097286181367",
+      "image_url": null,
+      "author": {
+        "username": "aviatrixtrc",
+        "name": "Aviatrix Threat Research Center",
+        "avatar_url": null,
+        "followers_count": 1977
+      },
+      "published_at": "2026-11-26T00:03:05",
+      "first_seen_at": "2026-11-27T02:52:02.993767",
+      "sub_category_label": null
+    },
+    {
       "id": 36820,
       "title": "阿里开源 open-code-review：LLM+规则代码审查工具",
       "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
@@ -158,26 +213,6 @@
       "published_at": "2026-11-26T02:19:51",
       "first_seen_at": "2026-11-27T00:38:41.495042",
       "sub_category_label": null
-    },
-    {
-      "id": 36495,
-      "title": "ROAM-Bench：评估具身主动空间智能的新基准",
-      "original_title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
-      "summary": "ROAM-Bench 提出了在机器人运动和碰撞约束下评估具身空间智能的基准，包含250个任务，揭示了前沿视觉语言模型在空间推理上的两类失败模式。",
-      "primary_category": "AI Tech",
-      "sub_category": "model_evaluation",
-      "score_total": 64.95,
-      "include_status": "included",
-      "item_type": "paper",
-      "recommendation_reason": "提出针对具身智能空间推理的新评测基准。安全团队若研究物理世界 Agent 安全，需关注模型在空间认知和碰撞约束上的失败模式。",
-      "source_id": "huggingface-daily-papers",
-      "canonical_url": "https://huggingface.co/papers/2611.33143",
-      "reader_url": "https://arxiv.org/pdf/2611.33143",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-26T00:00:00",
-      "first_seen_at": "2026-11-26T15:07:26.755001",
-      "sub_category_label": "模型评测"
     },
     {
       "id": 36305,
