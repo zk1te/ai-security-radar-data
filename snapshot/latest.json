@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T15:16:54+08:00",
+  "updated_at": "2026-11-27T16:17:03+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -68,31 +68,6 @@
       "published_at": "2026-11-25T18:29:34",
       "first_seen_at": "2026-11-26T20:51:36.416064",
       "sub_category_label": null
-    },
-    {
-      "id": 36764,
-      "title": "使用 Claude Code 逆向分析 Papercut NG 零日漏洞",
-      "original_title": "Claude Code to reverse engineer a zero-day in Papercut NG (@KevTheHermit)  https://t.co/oe2r95NMoH  #infosec #llm https://t.co/sCn9eDP4gU",
-      "summary": "安全研究员分享使用 Claude Code 辅助逆向分析 Papercut NG 零日漏洞的实践，展示了 AI 在实际漏洞挖掘场景中的应用。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 70.99,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "漏洞挖掘和逆向人员必看，展示了 Claude Code 在真实 0day 逆向中的实操效果，可作为评估当前 AI 辅助安全工具能力的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xor0ne/status/2125984310247219432",
-      "reader_url": "https://x.com/0xor0ne/status/2125984310247219432",
-      "image_url": "https://pbs.twimg.com/media/HYEDdtsXIAASPI4.jpg",
-      "author": {
-        "username": "0xor0ne",
-        "name": "0xor0ne",
-        "avatar_url": null,
-        "followers_count": 93861
-      },
-      "published_at": "2026-11-26T16:05:33",
-      "first_seen_at": "2026-11-26T19:48:20.121503",
-      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 36422,
@@ -168,6 +143,26 @@
       "published_at": "2026-11-26T00:03:05",
       "first_seen_at": "2026-11-27T02:52:02.993767",
       "sub_category_label": null
+    },
+    {
+      "id": 36946,
+      "title": "Antigravity 搭配 Gemini 模型的多 Agent 编排与工作流实践",
+      "original_title": "Gemini 4 Neon+Antigravity，干活真猛啊。",
+      "summary": "介绍 Antigravity 这套 Harness 搭配 Gemini 4 Neon 时的多 Agent 协作、远端 SSH 部署、动态工作流编排及上下文旁路等高级工程化能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 66.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可借鉴其 Swarm 的公告板与工作区隔离机制、以及 /run-workflow 的并发编排思路，用于构建自动化代码审计或漏洞挖掘的 Multi-Agent 系统。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7710893312785465387",
+      "reader_url": "https://juejin.cn/post/7710893312785465387",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T02:50:15",
+      "first_seen_at": "2026-11-27T08:07:37.136052",
+      "sub_category_label": "Agent 架构"
     },
     {
       "id": 36820,
