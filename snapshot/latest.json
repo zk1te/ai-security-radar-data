@@ -1,49 +1,9 @@
 {
-  "updated_at": "2026-11-27T19:18:10+08:00",
+  "updated_at": "2026-11-27T20:48:17+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
-    {
-      "id": 36821,
-      "title": "Claude-BugHunter 开源 85 个红队技能包，登顶 GitHub Trending",
-      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1597 stars today",
-      "summary": "开源工具 Claude-BugHunter 针对 Claude Code 封装 85 个技能，覆盖 24 类漏洞模式和外部红队攻击矩阵，单日涨星近 1600。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 94.65,
-      "include_status": "breaking",
-      "item_type": "news",
-      "recommendation_reason": "红队和漏洞挖掘从业者必看，这是目前将 Claude Code 落地到自动化安全任务最完整的技能包之一。建议直接 clone 验证其提示词工程和漏洞模式库。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-27&since=daily",
-      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-27&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-26T04:27:01",
-      "first_seen_at": "2026-11-27T00:38:42.282060",
-      "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 36829,
-      "title": "开源应用商店合规检查 Playbook 及 AI Agent 技能",
-      "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 562 stars today",
-      "summary": "该项目提供包含 125 种拒审模式修复、隐私清单及数据安全检查的开源 Playbook，并附带 AI 编程 Agent 技能，帮助开发者避免应用上架被拒。",
-      "primary_category": "AI for Sec",
-      "sub_category": "compliance_automation",
-      "score_total": 74.22,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "移动安全和合规团队值得关注。它直接提供了可复用的 Playbook 和 Claude Code Skill，能立即集成到开发流程自动化执行隐私合规和上架检查，省去大量人工踩坑时间。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-27&since=daily",
-      "reader_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-27&since=daily",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-26T23:21:53",
-      "first_seen_at": "2026-11-27T00:41:11.245456",
-      "sub_category_label": null
-    },
     {
       "id": 36684,
       "title": "自主化 N-day 漏洞利用流水线演讲幻灯片分享",
@@ -193,6 +153,26 @@
       "published_at": "2026-11-27T07:35:05",
       "first_seen_at": "2026-11-27T08:18:39.084644",
       "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 36946,
+      "title": "Antigravity 搭配 Gemini 模型的多 Agent 编排与工作流实践",
+      "original_title": "Gemini 4 Neon+Antigravity，干活真猛啊。",
+      "summary": "介绍 Antigravity 这套 Harness 搭配 Gemini 4 Neon 时的多 Agent 协作、远端 SSH 部署、动态工作流编排及上下文旁路等高级工程化能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 66.85,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "安全团队可借鉴其 Swarm 的公告板与工作区隔离机制、以及 /run-workflow 的并发编排思路，用于构建自动化代码审计或漏洞挖掘的 Multi-Agent 系统。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7710893312785465387",
+      "reader_url": "https://juejin.cn/post/7710893312785465387",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T02:50:15",
+      "first_seen_at": "2026-11-27T08:07:37.136052",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
