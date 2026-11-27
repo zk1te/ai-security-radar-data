@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-27T11:14:55+08:00",
+  "updated_at": "2026-11-27T14:15:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
     {
       "id": 36821,
@@ -213,31 +213,6 @@
       "published_at": "2026-11-26T02:19:51",
       "first_seen_at": "2026-11-27T00:38:41.495042",
       "sub_category_label": null
-    },
-    {
-      "id": 36305,
-      "title": "某工具称其漏洞发现页击败多数 AI SAST 并邀约基准测试",
-      "original_title": "This is how findings page looks like. This alone could beat so many AI SASTs, happy to do a 1:1 benchmark and compare no of valid findings produced :) https://t.co/GpdsIuTOwT",
-      "summary": "某工具展示了其漏洞发现页面，声称能击败众多 AI SAST 工具，并提议进行一对一的有效发现数量基准测试。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 60.93,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "AI SAST 从业者值得关注，该推文暗示了当前 AI 代码审计工具在有效发现上的痛点。提议的 benchmark 思路可作为评估自有安全工具效果的参考。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xAsm0d3us/status/2125640923187224627",
-      "reader_url": "https://x.com/0xAsm0d3us/status/2125640923187224627",
-      "image_url": "https://pbs.twimg.com/media/HX_K9DqbEAAjOTh.jpg",
-      "author": {
-        "username": "0xAsm0d3us",
-        "name": "devansh ⚡️",
-        "avatar_url": null,
-        "followers_count": 17983
-      },
-      "published_at": "2026-11-25T17:21:03",
-      "first_seen_at": "2026-11-26T18:51:32.336186",
-      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
