@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T06:13:33+08:00",
+  "updated_at": "2026-11-27T08:14:07+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -190,29 +190,28 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 36301,
-      "title": "开源模型Agent群落用于漏洞研究比肩前沿模型",
-      "original_title": "Self-coordinating swarms of agents of open-weights models can match the results of many frontier models on a good variety of problems and vuln research happens to be one of them.",
-      "summary": "提出基于开源权重的自我协调Agent群落在漏洞研究等问题上可媲美前沿模型表现。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 60.0,
+      "id": 36795,
+      "title": "GPT-6.2 Astra 首次在 Code Golf 测试中击败人类",
+      "original_title": "HN Hot Discussion: GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "summary": "开发者构建了 Code Golf 基准测试，GPT-6.2 Astra 成为首个击败 Google 员工历史记录的大模型，并展现出寻找新颖解题思路的能力。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 60.25,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "做漏洞挖掘的安全团队注意：开源模型协同Agent群落展现出实战潜力，可大幅降低对昂贵前沿API的依赖，值得跟进相关编排技术落地。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xAsm0d3us/status/2125623958468980793",
-      "reader_url": "https://x.com/0xAsm0d3us/status/2125623958468980793",
+      "recommendation_reason": "前沿模型在代码极致优化和创造性解题上的能力跃升值得关注，预示着 AI 在构造复杂 PoC 或绕过检查等需要脑洞的安全场景中潜力大增。",
+      "source_id": "hn-ai-tech",
+      "canonical_url": "https://news.ycombinator.com/item?id=50601280&hn_hot_date=2026-11-27",
+      "reader_url": "https://news.ycombinator.com/item?id=50601280&hn_hot_date=2026-11-27",
       "image_url": null,
       "author": {
-        "username": "0xAsm0d3us",
-        "name": "devansh ⚡️",
-        "avatar_url": null,
-        "followers_count": 17983
+        "username": "bjin",
+        "name": "bjin",
+        "avatar_url": null
       },
-      "published_at": "2026-11-25T16:13:38",
-      "first_seen_at": "2026-11-26T18:51:32.336186",
-      "sub_category_label": null
+      "published_at": "2026-11-22T16:44:48",
+      "first_seen_at": "2026-11-27T00:14:01.685318",
+      "sub_category_label": "模型评测"
     }
   ]
 }
