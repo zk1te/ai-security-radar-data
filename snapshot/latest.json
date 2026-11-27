@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-27T17:17:35+08:00",
+  "updated_at": "2026-11-27T18:17:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 36821,
@@ -188,26 +188,6 @@
       "published_at": "2026-11-23T02:50:15",
       "first_seen_at": "2026-11-27T08:07:37.136052",
       "sub_category_label": "Agent 架构"
-    },
-    {
-      "id": 36820,
-      "title": "阿里开源 open-code-review：LLM+规则代码审查工具",
-      "original_title": "GitHub Trending: alibaba/open-code-review gained 0 stars today",
-      "summary": "阿里开源的 open-code-review 工具采用确定性流水线结合 LLM Agent 的混合架构，支持行级代码审查并内置 XSS、SQL 注入等安全规则集。",
-      "primary_category": "AI for Sec",
-      "sub_category": "code_review",
-      "score_total": 66.55,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "给做代码审计或安全工具链的人看：大厂落地的 LLM+规则代码审查方案，兼顾确定性与上下文理解，内置常见漏洞规则，可直接集成到现有 CI/CD 流程中作为安全门禁参考。",
-      "source_id": "github-ai-security",
-      "canonical_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-27&since=weekly",
-      "reader_url": "https://github.com/alibaba/open-code-review?github_trending_date=2026-11-27&since=weekly",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-26T02:19:51",
-      "first_seen_at": "2026-11-27T00:38:41.495042",
-      "sub_category_label": null
     }
   ]
 }
