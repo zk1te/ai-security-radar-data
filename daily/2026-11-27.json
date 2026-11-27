@@ -1,0 +1,1610 @@
+{
+  "date": "2026-11-27",
+  "candidate_count": 24,
+  "selected_count": 3,
+  "cover_title": "AI辅助C到Rust迁移的性能诊断与优化",
+  "lead_takeaway": "今天的情报主线是AI正深入底层代码和硬件的安全重构环节。从C转Rust的性能调优到RTL硬件漏洞的自动化修复，AI已经不满足于只做漏洞扫描，开始帮安全团队啃代码迁移和复杂修复验证这些硬骨头了。",
+  "digest_points": [
+    "01 对推动C转Rust的安全团队极具参考价值。它揭示了Rust安全检查的性能开销并非不可接受，并展示AI辅助工具如何指导编译器优化，值得安全工程团队跟进。",
+    "02 硬件安全团队和自动化漏洞修复研究者必看。它揭示了仅靠测试通过不等同于修复成功，并给出了结合安全重扫描和形式化分析的多阶段验证落地路径。",
+    "03 对关注深度伪造和内容安全的安全团队有参考价值。该方法仅需极少量参数即可利用现有视觉大模型的高泛化能力，为低成本构建内容真实性检测工具提供了新思路。"
+  ],
+  "judgement": [
+    "01 对推动C转Rust的安全团队极具参考价值。它揭示了Rust安全检查的性能开销并非不可接受，并展示AI辅助工具如何指导编译器优化，值得安全工程团队跟进。",
+    "02 硬件安全团队和自动化漏洞修复研究者必看。它揭示了仅靠测试通过不等同于修复成功，并给出了结合安全重扫描和形式化分析的多阶段验证落地路径。",
+    "03 对关注深度伪造和内容安全的安全团队有参考价值。该方法仅需极少量参数即可利用现有视觉大模型的高泛化能力，为低成本构建内容真实性检测工具提供了新思路。"
+  ],
+  "top_items": [
+    {
+      "id": 36630,
+      "title": "AI辅助C到Rust迁移的性能诊断与优化",
+      "original_title": "Cross-Layer Characterization and AI-Assisted Diagnosis of C-to-Rust Performance",
+      "summary": "提出AI辅助性能调试器FerroScope，通过跨层信息诊断C到Rust迁移中的性能损耗，并指导LLVM编译器优化消除冗余安全检查，在保持安全的同时提升运行效率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_analysis",
+      "score_total": 83.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对推动C转Rust的安全团队极具参考价值。它揭示了Rust安全检查的性能开销并非不可接受，并展示AI辅助工具如何指导编译器优化，值得安全工程团队跟进。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33490",
+      "reader_url": "https://arxiv.org/pdf/2611.33490",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": "代码分析"
+    },
+    {
+      "id": 36632,
+      "title": "REFORGE：LLM 辅助 RTL 缺陷修复的结构化上下文与验证框架",
+      "original_title": "REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback",
+      "summary": "论文提出 REFORGE，一个 LLM 辅助的 RTL Bug 修复框架，通过多阶段验证（包括安全重扫描、形式化分析等）积累结构化修复证据，确保修复满足功能、安全与可行性等多重目标。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vulnerability_repair",
+      "score_total": 81.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全团队和自动化漏洞修复研究者必看。它揭示了仅靠测试通过不等同于修复成功，并给出了结合安全重扫描和形式化分析的多阶段验证落地路径。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33748",
+      "reader_url": "https://arxiv.org/pdf/2611.33748",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": null
+    },
+    {
+      "id": 36930,
+      "title": "ReMoT：读取冻结视觉知识以检测AI生成图像",
+      "original_title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "summary": "提出 ReMoT 框架，通过交叉视图交互从冻结的视觉基础模型中读取互补知识，仅用 3,074 个参数在八个基准上达到 91.2% 平均准确率，实现高效的 AI 生成图像检测。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 79.0,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对关注深度伪造和内容安全的安全团队有参考价值。该方法仅需极少量参数即可利用现有视觉大模型的高泛化能力，为低成本构建内容真实性检测工具提供了新思路。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.34719",
+      "reader_url": "https://arxiv.org/pdf/2611.34719",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-27T00:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": "威胁检测"
+    }
+  ],
+  "also_worth_attention": [
+    {
+      "id": 36872,
+      "title": "MindGuard2：基于短推理链的低延迟心理健康AI护栏",
+      "original_title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "summary": "提出一种新的心理健康harm分类法并训练了MindGuard2护栏模型，通过短推理链结合长度惩罚实现高效安全干预，准确率与GLM-5.3相当但延迟降低10倍。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "safety_alignment",
+      "score_total": 76.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "AI安全团队可参考其分离harm表征与干预决策的护栏架构，以及用短推理加长度惩罚RL训练低延迟模型的实操方法，解决安全过滤耗时痛点。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33263",
+      "reader_url": "https://arxiv.org/pdf/2611.33263",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-27T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": null
+    },
+    {
+      "id": 36588,
+      "title": "多语言决策模型评估：非英语场景下的过自信问题",
+      "original_title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+      "summary": "研究发现决策模型（常用于路由和护栏）在非英语任务中准确率显著下降，但置信度下降较少，导致模型过度自信；且用 LLM 翻译测试集会低估此表现差距。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "model_evaluation",
+      "score_total": 72.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "部署多语言护栏的团队需警惕：非英语输入下模型易过度自信导致误判。评测多语言安全模型时忌用 LLM 翻译测试集，会掩盖真实风险。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33307",
+      "reader_url": "https://arxiv.org/pdf/2611.33307",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": null
+    },
+    {
+      "id": 36869,
+      "title": "约束感知的LLM测试时评分框架与安全性提升",
+      "original_title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "summary": "本文提出一种结合硬约束和软约束的 LLM/VLM 候选答案评分框架，在代码生成等任务中显著提升了输出的正确性与安全性。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该方法提出一种实用的 LLM 输出筛选框架，通过硬约束过滤不安全代码，对开发代码安全审计 Agent 有直接参考价值，建议关注其 CWEval 相关实验细节。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33161",
+      "reader_url": "https://arxiv.org/pdf/2611.33161",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-27T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 36606,
+      "title": "日语视觉语言模型多模态安全评测研究",
+      "original_title": "Multimodal Safety Evaluation of Vision-Language Models in Japanese",
+      "summary": "论文将多模态安全测试套件扩展至日语，构建包含文化本地化图像的评测集，发现现有 VLM 安全表现差异大且自动化评测召回受限。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 72.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "对于构建安全评测体系的团队，本文提供了多模态本地化安全测试集构建思路，且揭示了 LLM-as-Judge 在不安全内容检测上召回率有限，自动化安全评测仍需人工介入。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33789",
+      "reader_url": "https://arxiv.org/pdf/2611.33789",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": null
+    },
+    {
+      "id": 36893,
+      "title": "TransHarness：通过可迁移进化策略破解Agent基准过拟合",
+      "original_title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+      "summary": "提出 TransHarness 方法，通过同任务成败对比演化出可迁移的 Agent 干预策略，在 DeepSWE 和 Terminal-Bench 等基准上超越 GPT-6 Astra 等强基线。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 72.0,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这篇研究对构建自动化安全Agent（如漏洞挖掘或终端运维）有直接参考价值。它揭示了如何让Agent在未知任务上泛化执行能力，避免在特定评测上刷分过拟合。做Agent落地的同学可借鉴其Harness进化思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33757",
+      "reader_url": "https://arxiv.org/pdf/2611.33757",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-27T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 36631,
+      "title": "AI 代码审查需要多大努力？基于 Claude 5.5 假补丁识别评估",
+      "original_title": "How Much Effort Does an AI Code Reviewer Need? Evidence from Claude 5.5 Models on Plausible-but-Wrong Patches",
+      "summary": "研究发现 Claude 5.5 系列模型在审查 SWE-bench 中看似合理但错误的补丁时，高努力程度能降低误判率，但没有任何设置能成为可靠的防线，至少仍接受了 45% 的错误补丁。",
+      "primary_category": "AI for Sec | AI Tech",
+      "sub_category": "security_benchmark",
+      "score_total": 71.55,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "AI for Sec 从业者需警惕盲目信任 AI 代码审查器。即便使用最新推理模型在高努力模式下，也无法有效拦截所有「假补丁」，自动化安全验证仍需结合更强的测试用例和人工审查。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33639",
+      "reader_url": "https://arxiv.org/pdf/2611.33639",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": null
+    },
+    {
+      "id": 36764,
+      "title": "使用 Claude Code 逆向分析 Papercut NG 零日漏洞",
+      "original_title": "Claude Code to reverse engineer a zero-day in Papercut NG (@KevTheHermit)  https://t.co/oe2r95NMoH  #infosec #llm https://t.co/sCn9eDP4gU",
+      "summary": "安全研究员分享使用 Claude Code 辅助逆向分析 Papercut NG 零日漏洞的实践，展示了 AI 在实际漏洞挖掘场景中的应用。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 70.99,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘和逆向人员必看，展示了 Claude Code 在真实 0day 逆向中的实操效果，可作为评估当前 AI 辅助安全工具能力的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2125984310247219432",
+      "reader_url": "https://x.com/0xor0ne/status/2125984310247219432",
+      "image_url": "https://pbs.twimg.com/media/HYEDdtsXIAASPI4.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null,
+        "followers_count": 93861
+      },
+      "published_at": "2026-11-26T16:05:33",
+      "first_seen_at": "2026-11-26T19:48:20.121503",
+      "sub_category_label": "漏洞挖掘"
+    }
+  ],
+  "groups": {
+    "AI for Sec": [
+      {
+        "id": 36821,
+        "title": "Claude-BugHunter 开源 85 个红队技能包，登顶 GitHub Trending",
+        "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1597 stars today",
+        "summary": "开源工具 Claude-BugHunter 针对 Claude Code 封装 85 个技能，覆盖 24 类漏洞模式和外部红队攻击矩阵，单日涨星近 1600。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 94.65,
+        "include_status": "breaking",
+        "item_type": "news",
+        "recommendation_reason": "红队和漏洞挖掘从业者必看，这是目前将 Claude Code 落地到自动化安全任务最完整的技能包之一。建议直接 clone 验证其提示词工程和漏洞模式库。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-27&since=daily",
+        "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-27&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-26T04:27:01",
+        "first_seen_at": "2026-11-27T00:38:42.282060",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 36630,
+        "title": "AI辅助C到Rust迁移的性能诊断与优化",
+        "original_title": "Cross-Layer Characterization and AI-Assisted Diagnosis of C-to-Rust Performance",
+        "summary": "提出AI辅助性能调试器FerroScope，通过跨层信息诊断C到Rust迁移中的性能损耗，并指导LLVM编译器优化消除冗余安全检查，在保持安全的同时提升运行效率。",
+        "primary_category": "AI for Sec",
+        "sub_category": "code_analysis",
+        "score_total": 83.4,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "对推动C转Rust的安全团队极具参考价值。它揭示了Rust安全检查的性能开销并非不可接受，并展示AI辅助工具如何指导编译器优化，值得安全工程团队跟进。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33490",
+        "reader_url": "https://arxiv.org/pdf/2611.33490",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-26T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": "代码分析"
+      },
+      {
+        "id": 36632,
+        "title": "REFORGE：LLM 辅助 RTL 缺陷修复的结构化上下文与验证框架",
+        "original_title": "REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback",
+        "summary": "论文提出 REFORGE，一个 LLM 辅助的 RTL Bug 修复框架，通过多阶段验证（包括安全重扫描、形式化分析等）积累结构化修复证据，确保修复满足功能、安全与可行性等多重目标。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vulnerability_repair",
+        "score_total": 81.9,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "硬件安全团队和自动化漏洞修复研究者必看。它揭示了仅靠测试通过不等同于修复成功，并给出了结合安全重扫描和形式化分析的多阶段验证落地路径。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33748",
+        "reader_url": "https://arxiv.org/pdf/2611.33748",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-26T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": null
+      },
+      {
+        "id": 36930,
+        "title": "ReMoT：读取冻结视觉知识以检测AI生成图像",
+        "original_title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+        "summary": "提出 ReMoT 框架，通过交叉视图交互从冻结的视觉基础模型中读取互补知识，仅用 3,074 个参数在八个基准上达到 91.2% 平均准确率，实现高效的 AI 生成图像检测。",
+        "primary_category": "AI for Sec",
+        "sub_category": "threat_detection",
+        "score_total": 79.0,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "对关注深度伪造和内容安全的安全团队有参考价值。该方法仅需极少量参数即可利用现有视觉大模型的高泛化能力，为低成本构建内容真实性检测工具提供了新思路。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.34719",
+        "reader_url": "https://arxiv.org/pdf/2611.34719",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-27T00:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": "威胁检测"
+      },
+      {
+        "id": 36829,
+        "title": "开源应用商店合规检查 Playbook 及 AI Agent 技能",
+        "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 562 stars today",
+        "summary": "该项目提供包含 125 种拒审模式修复、隐私清单及数据安全检查的开源 Playbook，并附带 AI 编程 Agent 技能，帮助开发者避免应用上架被拒。",
+        "primary_category": "AI for Sec",
+        "sub_category": "compliance_automation",
+        "score_total": 74.22,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "移动安全和合规团队值得关注。它直接提供了可复用的 Playbook 和 Claude Code Skill，能立即集成到开发流程自动化执行隐私合规和上架检查，省去大量人工踩坑时间。",
+        "source_id": "github-ai-security",
+        "canonical_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-27&since=daily",
+        "reader_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-27&since=daily",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-26T23:21:53",
+        "first_seen_at": "2026-11-27T00:41:11.245456",
+        "sub_category_label": null
+      },
+      {
+        "id": 36684,
+        "title": "自主化 N-day 漏洞利用流水线演讲幻灯片分享",
+        "original_title": "An autonomous N-day exploit pipeline (slide deck)  https://t.co/xE6JOET2b7  Credits @chompie1337  #infosec https://t.co/rSzUAvhjT7",
+        "summary": "安全研究员 @chompie1337 分享了一份关于自主化 N-day 漏洞利用流水线（autonomous N-day exploit pipeline）的演讲幻灯片，探讨了自动化漏洞利用的最新进展。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 74.1,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "漏洞挖掘与利用自动化是 AI for Sec 的核心落地场景之一。该幻灯片展示了完整的自主化 N-day 漏洞利用流水线设计，对研发安全 Agent 或评估大模型实战漏洞利用能力的团队具有直接参考价值，建议查阅。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/0xor0ne/status/2125862568598077502",
+        "reader_url": "https://x.com/0xor0ne/status/2125862568598077502",
+        "image_url": "https://pbs.twimg.com/media/HYCUvZrXsAEkWrb.jpg",
+        "author": {
+          "username": "0xor0ne",
+          "name": "0xor0ne",
+          "avatar_url": null,
+          "followers_count": 93861
+        },
+        "published_at": "2026-11-26T08:01:47",
+        "first_seen_at": "2026-11-27T10:52:44.713209",
+        "sub_category_label": "漏洞挖掘"
+      },
+      {
+        "id": 36651,
+        "title": "开源AI渗透测试框架 Deep Eye",
+        "original_title": "🛡️ DEEP EYE — AI-POWERED SECURITY TESTING  Deep Eye is an open-source, AI-driven penetration testing framework designed for authorized security assessments. It integrates multiple ",
+        "summary": "Deep Eye 是一款开源的 AI 驱动渗透测试框架，支持集成多种大模型进行漏洞检查并自动生成合规安全报告。",
+        "primary_category": "AI for Sec",
+        "sub_category": "security_agent",
+        "score_total": 72.6,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "安全团队可评估该开源工具的 AI 自动化漏洞检查和报告生成能力，看能否提升日常渗透测试效率，但需测试其真实检出率和误报情况。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/Anastasis_King/status/2125841872237011284",
+        "reader_url": "https://x.com/Anastasis_King/status/2125841872237011284",
+        "image_url": "https://pbs.twimg.com/media/HYCB5yvXcAA5Ik7.jpg",
+        "author": {
+          "username": "Anastasis_King",
+          "name": "Anastasis Vasileiadis",
+          "avatar_url": null,
+          "followers_count": 11667
+        },
+        "published_at": "2026-11-26T06:39:33",
+        "first_seen_at": "2026-11-27T08:52:44.479566",
+        "sub_category_label": "安全Agent"
+      },
+      {
+        "id": 36764,
+        "title": "使用 Claude Code 逆向分析 Papercut NG 零日漏洞",
+        "original_title": "Claude Code to reverse engineer a zero-day in Papercut NG (@KevTheHermit)  https://t.co/oe2r95NMoH  #infosec #llm https://t.co/sCn9eDP4gU",
+        "summary": "安全研究员分享使用 Claude Code 辅助逆向分析 Papercut NG 零日漏洞的实践，展示了 AI 在实际漏洞挖掘场景中的应用。",
+        "primary_category": "AI for Sec",
+        "sub_category": "vuln_discovery",
+        "score_total": 70.99,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "漏洞挖掘和逆向人员必看，展示了 Claude Code 在真实 0day 逆向中的实操效果，可作为评估当前 AI 辅助安全工具能力的参考。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/0xor0ne/status/2125984310247219432",
+        "reader_url": "https://x.com/0xor0ne/status/2125984310247219432",
+        "image_url": "https://pbs.twimg.com/media/HYEDdtsXIAASPI4.jpg",
+        "author": {
+          "username": "0xor0ne",
+          "name": "0xor0ne",
+          "avatar_url": null,
+          "followers_count": 93861
+        },
+        "published_at": "2026-11-26T16:05:33",
+        "first_seen_at": "2026-11-26T19:48:20.121503",
+        "sub_category_label": "漏洞挖掘"
+      }
+    ],
+    "AI Tech": [
+      {
+        "id": 36869,
+        "title": "约束感知的LLM测试时评分框架与安全性提升",
+        "original_title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+        "summary": "本文提出一种结合硬约束和软约束的 LLM/VLM 候选答案评分框架，在代码生成等任务中显著提升了输出的正确性与安全性。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 72.75,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "该方法提出一种实用的 LLM 输出筛选框架，通过硬约束过滤不安全代码，对开发代码安全审计 Agent 有直接参考价值，建议关注其 CWEval 相关实验细节。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33161",
+        "reader_url": "https://arxiv.org/pdf/2611.33161",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-27T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 36893,
+        "title": "TransHarness：通过可迁移进化策略破解Agent基准过拟合",
+        "original_title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+        "summary": "提出 TransHarness 方法，通过同任务成败对比演化出可迁移的 Agent 干预策略，在 DeepSWE 和 Terminal-Bench 等基准上超越 GPT-6 Astra 等强基线。",
+        "primary_category": "AI Tech",
+        "sub_category": "agent_architecture",
+        "score_total": 72.0,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "这篇研究对构建自动化安全Agent（如漏洞挖掘或终端运维）有直接参考价值。它揭示了如何让Agent在未知任务上泛化执行能力，避免在特定评测上刷分过拟合。做Agent落地的同学可借鉴其Harness进化思路。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33757",
+        "reader_url": "https://arxiv.org/pdf/2611.33757",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-27T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": "Agent 架构"
+      },
+      {
+        "id": 36870,
+        "title": "AutoformBench：高级数学Lean形式化基准测试",
+        "original_title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+        "summary": "该研究提出 AutoformBench 基准测试，评估前沿模型在 Lean 4 环境下完成高级数学形式化的能力，发现模型在构建缺失的形式化基础设施时面临共同困难。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 70.65,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "这是评估前沿大模型形式化推理能力的新基准。对于 AI 安全从业者而言，模型在构建复杂中间步骤和基础设施上的表现，可作为评估其在复杂自动化安全任务中逻辑推理与代码生成能力的参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33165",
+        "reader_url": "https://arxiv.org/pdf/2611.33165",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-27T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 36912,
+        "title": "LLM用户模拟器在多步工作流中的可靠性评测与优化",
+        "original_title": "Reliable User Simulation in Complex Multi-Step Workflows",
+        "summary": "研究发现 LLM 用户模拟器在复杂多步工作流中易发生目标漂移，导致评估误判。本文提出基于 HTN 的 500 个工作流基准，并设计 ReUST 提示策略以维护跨轮状态信息，将目标成功率提升 12 点以上。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 69.5,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "做安全 Agent 评测或对抗模拟的同学需注意，多步工作流中的 LLM 模拟器易发生目标漂移导致误判，可参考其 ReUST 策略维护状态追踪，避免评估失真。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.34044",
+        "reader_url": "https://arxiv.org/pdf/2611.34044",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-27T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 36923,
+        "title": "OS-Omni：评估跨平台通用计算机使用Agent的长周期基准",
+        "original_title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+        "summary": "OS-Omni提出首个跨Windows、Ubuntu、macOS、iOS、Android及Web环境的长周期通用计算机使用Agent基准，首版包含300个任务，发现表现最好的Claude Opus 5.5在iOS和macOS上仍落后人类超25分。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 68.75,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "跨平台Agent是安全自动化的基础设施，该基准揭示了模型在多系统状态跟踪下的真实能力边界。安全团队在设计多平台自动化任务时可参考其评测结果，避免在macOS/iOS等弱项环境过度信任模型。",
+        "source_id": "huggingface-daily-papers",
+        "canonical_url": "https://huggingface.co/papers/2611.34232",
+        "reader_url": "https://arxiv.org/pdf/2611.34232",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-27T00:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": "模型评测"
+      },
+      {
+        "id": 36884,
+        "title": "Merlin-Bench：评估LLM Agent生成可验证证明能力的框架",
+        "original_title": "Interactive Proofs as a Unified Framework for Evaluating and Leveraging Verifiable Proof Generation by LLM Agents",
+        "summary": "提出基于交互式证明的 Merlin-Bench，评估 LLM Agent 与形式化验证工具交互生成可验证证明的能力，发现该任务仍具挑战性且高度依赖工具与知识引导。",
+        "primary_category": "AI Tech",
+        "sub_category": "model_evaluation",
+        "score_total": 68.35,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "若团队想用 LLM 辅助程序验证或代码安全审计，这篇给出的能力基线和评测结论很务实：纯靠模型不靠谱，必须结合工具调用和知识注入。可作为构建安全验证 Agent 的参考。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33676",
+        "reader_url": "https://arxiv.org/pdf/2611.33676",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-27T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": "模型评测"
+      }
+    ],
+    "Sec for AI | AI Tech": [
+      {
+        "id": 36872,
+        "title": "MindGuard2：基于短推理链的低延迟心理健康AI护栏",
+        "original_title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+        "summary": "提出一种新的心理健康harm分类法并训练了MindGuard2护栏模型，通过短推理链结合长度惩罚实现高效安全干预，准确率与GLM-5.3相当但延迟降低10倍。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "safety_alignment",
+        "score_total": 76.15,
+        "include_status": "highlight",
+        "item_type": "paper",
+        "recommendation_reason": "AI安全团队可参考其分离harm表征与干预决策的护栏架构，以及用短推理加长度惩罚RL训练低延迟模型的实操方法，解决安全过滤耗时痛点。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33263",
+        "reader_url": "https://arxiv.org/pdf/2611.33263",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-27T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": null
+      },
+      {
+        "id": 36606,
+        "title": "日语视觉语言模型多模态安全评测研究",
+        "original_title": "Multimodal Safety Evaluation of Vision-Language Models in Japanese",
+        "summary": "论文将多模态安全测试套件扩展至日语，构建包含文化本地化图像的评测集，发现现有 VLM 安全表现差异大且自动化评测召回受限。",
+        "primary_category": "Sec for AI | AI Tech",
+        "sub_category": "model_security",
+        "score_total": 72.65,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "对于构建安全评测体系的团队，本文提供了多模态本地化安全测试集构建思路，且揭示了 LLM-as-Judge 在不安全内容检测上召回率有限，自动化安全评测仍需人工介入。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33789",
+        "reader_url": "https://arxiv.org/pdf/2611.33789",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-26T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": null
+      }
+    ],
+    "Sec for AI | AI for Sec": [
+      {
+        "id": 36333,
+        "title": "攻击者通过经典渗透工具扩展 ARTEX AI 代理能力",
+        "original_title": "Old reliables   \"Threat actors also commonly add exploitation frameworks and credential attack tools to extend the capabilities of ARTEX agents:  sqlmap — A specialized web-applica",
+        "summary": "威胁行为者正将 sqlmap、Metasploit 等传统安全工具整合进 ARTEX AI 代理，以增强其自动化渗透与凭据测试能力。",
+        "primary_category": "Sec for AI | AI for Sec",
+        "sub_category": "agent_security",
+        "score_total": 73.81,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "揭示了 AI Agent 结合经典黑客工具的实战化攻击趋势。防御团队需警惕自动化 Agent 驱动的复合型攻击链，并关注如何检测此类工具调用特征。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/HackingLZ/status/2125658166998233200",
+        "reader_url": "https://x.com/HackingLZ/status/2125658166998233200",
+        "image_url": null,
+        "author": {
+          "username": "HackingLZ",
+          "name": "Justin Elze",
+          "avatar_url": null,
+          "followers_count": 73559
+        },
+        "published_at": "2026-11-25T18:29:34",
+        "first_seen_at": "2026-11-26T20:51:36.416064",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | Sec for AI": [
+      {
+        "id": 36588,
+        "title": "多语言决策模型评估：非英语场景下的过自信问题",
+        "original_title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+        "summary": "研究发现决策模型（常用于路由和护栏）在非英语任务中准确率显著下降，但置信度下降较少，导致模型过度自信；且用 LLM 翻译测试集会低估此表现差距。",
+        "primary_category": "AI Tech | Sec for AI",
+        "sub_category": "model_evaluation",
+        "score_total": 72.95,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "部署多语言护栏的团队需警惕：非英语输入下模型易过度自信导致误判。评测多语言安全模型时忌用 LLM 翻译测试集，会掩盖真实风险。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33307",
+        "reader_url": "https://arxiv.org/pdf/2611.33307",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-26T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | AI Tech": [
+      {
+        "id": 36631,
+        "title": "AI 代码审查需要多大努力？基于 Claude 5.5 假补丁识别评估",
+        "original_title": "How Much Effort Does an AI Code Reviewer Need? Evidence from Claude 5.5 Models on Plausible-but-Wrong Patches",
+        "summary": "研究发现 Claude 5.5 系列模型在审查 SWE-bench 中看似合理但错误的补丁时，高努力程度能降低误判率，但没有任何设置能成为可靠的防线，至少仍接受了 45% 的错误补丁。",
+        "primary_category": "AI for Sec | AI Tech",
+        "sub_category": "security_benchmark",
+        "score_total": 71.55,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "AI for Sec 从业者需警惕盲目信任 AI 代码审查器。即便使用最新推理模型在高努力模式下，也无法有效拦截所有「假补丁」，自动化安全验证仍需结合更强的测试用例和人工审查。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33639",
+        "reader_url": "https://arxiv.org/pdf/2611.33639",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-26T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": null
+      }
+    ],
+    "AI Tech | AI for Sec": [
+      {
+        "id": 36874,
+        "title": "部分路由：基于历史轨迹的 Agent 任务委托优化",
+        "original_title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+        "summary": "提出一种部分路由方法，让主导模型将子任务委托给廉价工作模型，在 ViBench 和 Terminal-Bench 上提升了 Agent 性能并降低成本。",
+        "primary_category": "AI Tech | AI for Sec",
+        "sub_category": "agent_architecture | security_agent",
+        "score_total": 69.9,
+        "include_status": "included",
+        "item_type": "paper",
+        "recommendation_reason": "如果你在搭自动化漏洞挖掘或渗透测试 Agent，执行成本是绕不开的坎。这篇论文的子任务路由法在 Terminal-Bench 上提分又省钱，值得借鉴用于优化安全 Agent 工作流。",
+        "source_id": "arxiv-ai-security",
+        "canonical_url": "https://arxiv.org/abs/2611.33402",
+        "reader_url": "https://arxiv.org/pdf/2611.33402",
+        "image_url": null,
+        "author": null,
+        "published_at": "2026-11-27T05:00:00",
+        "first_seen_at": "2026-11-27T15:08:32.922118",
+        "sub_category_label": null
+      }
+    ],
+    "AI for Sec | Sec for AI": [
+      {
+        "id": 36430,
+        "title": "多AI自主Agent协同攻破意大利关键基础设施",
+        "original_title": "Five parallel AI agents coordinated reconnaissance through exploitation and persistence against Italian critical infrastructure — no human intervention required.  Autonomous framew",
+        "summary": "ARTEX AI和PentAGI等框架利用弱口令、错误配置和已知CVE，实现五个AI Agent协同的侦察-利用-持久化攻击链，数小时内突破内网且无需人工干预。",
+        "primary_category": "AI for Sec | Sec for AI",
+        "sub_category": "security_agent",
+        "score_total": 68.91,
+        "include_status": "included",
+        "item_type": "news",
+        "recommendation_reason": "攻防双方都该看：自主攻击Agent已从演示走向实战，防守方需立即强化东西向流量控制和运行时隔离，限制Agent群的横向移动能力。",
+        "source_id": "x-manual-ai-security",
+        "canonical_url": "https://x.com/aviatrixtrc/status/2125742097286181367",
+        "reader_url": "https://x.com/aviatrixtrc/status/2125742097286181367",
+        "image_url": null,
+        "author": {
+          "username": "aviatrixtrc",
+          "name": "Aviatrix Threat Research Center",
+          "avatar_url": null,
+          "followers_count": 1977
+        },
+        "published_at": "2026-11-26T00:03:05",
+        "first_seen_at": "2026-11-27T02:52:02.993767",
+        "sub_category_label": null
+      }
+    ]
+  },
+  "subgroups": {
+    "AI for Sec": {
+      "security_agent": {
+        "label": "安全Agent",
+        "items": [
+          {
+            "id": 36821,
+            "title": "Claude-BugHunter 开源 85 个红队技能包，登顶 GitHub Trending",
+            "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1597 stars today",
+            "summary": "开源工具 Claude-BugHunter 针对 Claude Code 封装 85 个技能，覆盖 24 类漏洞模式和外部红队攻击矩阵，单日涨星近 1600。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 94.65,
+            "include_status": "breaking",
+            "item_type": "news",
+            "recommendation_reason": "红队和漏洞挖掘从业者必看，这是目前将 Claude Code 落地到自动化安全任务最完整的技能包之一。建议直接 clone 验证其提示词工程和漏洞模式库。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-27&since=daily",
+            "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-27&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-26T04:27:01",
+            "first_seen_at": "2026-11-27T00:38:42.282060",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 36651,
+            "title": "开源AI渗透测试框架 Deep Eye",
+            "original_title": "🛡️ DEEP EYE — AI-POWERED SECURITY TESTING  Deep Eye is an open-source, AI-driven penetration testing framework designed for authorized security assessments. It integrates multiple ",
+            "summary": "Deep Eye 是一款开源的 AI 驱动渗透测试框架，支持集成多种大模型进行漏洞检查并自动生成合规安全报告。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 72.6,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "安全团队可评估该开源工具的 AI 自动化漏洞检查和报告生成能力，看能否提升日常渗透测试效率，但需测试其真实检出率和误报情况。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/Anastasis_King/status/2125841872237011284",
+            "reader_url": "https://x.com/Anastasis_King/status/2125841872237011284",
+            "image_url": "https://pbs.twimg.com/media/HYCB5yvXcAA5Ik7.jpg",
+            "author": {
+              "username": "Anastasis_King",
+              "name": "Anastasis Vasileiadis",
+              "avatar_url": null,
+              "followers_count": 11667
+            },
+            "published_at": "2026-11-26T06:39:33",
+            "first_seen_at": "2026-11-27T08:52:44.479566",
+            "sub_category_label": "安全Agent"
+          },
+          {
+            "id": 36436,
+            "title": "ARTEX AI 渗透框架攻破多情报机构非机密系统",
+            "original_title": "Attackers used the ARTEX AI-powered penetration testing framework to breach CIA, ODNI, and NGA unclassified systems — autonomously probing inter-agency interfaces, escalating privi",
+            "summary": "攻击者使用 AI 驱动的 ARTEX 渗透框架入侵 CIA、ODNI 和 NGA 非机密系统，自主完成探测、提权及横向移动并窃取数据，暴露跨机构信任边界问题。",
+            "primary_category": "AI for Sec",
+            "sub_category": "security_agent",
+            "score_total": 69.71,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这展示了 AI 渗透 Agent 在真实复杂环境下的实战化破坏力。攻防团队需警惕 AI 在多边界环境中的自主横向移动能力，并重新评估内网东西向隔离策略的有效性。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/aviatrixtrc/status/2125744903699181854",
+            "reader_url": "https://x.com/aviatrixtrc/status/2125744903699181854",
+            "image_url": null,
+            "author": {
+              "username": "aviatrixtrc",
+              "name": "Aviatrix Threat Research Center",
+              "avatar_url": null,
+              "followers_count": 1977
+            },
+            "published_at": "2026-11-26T00:14:14",
+            "first_seen_at": "2026-11-27T02:52:02.993767",
+            "sub_category_label": "安全Agent"
+          }
+        ]
+      },
+      "code_analysis": {
+        "label": "代码分析",
+        "items": [
+          {
+            "id": 36630,
+            "title": "AI辅助C到Rust迁移的性能诊断与优化",
+            "original_title": "Cross-Layer Characterization and AI-Assisted Diagnosis of C-to-Rust Performance",
+            "summary": "提出AI辅助性能调试器FerroScope，通过跨层信息诊断C到Rust迁移中的性能损耗，并指导LLVM编译器优化消除冗余安全检查，在保持安全的同时提升运行效率。",
+            "primary_category": "AI for Sec",
+            "sub_category": "code_analysis",
+            "score_total": 83.4,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "对推动C转Rust的安全团队极具参考价值。它揭示了Rust安全检查的性能开销并非不可接受，并展示AI辅助工具如何指导编译器优化，值得安全工程团队跟进。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33490",
+            "reader_url": "https://arxiv.org/pdf/2611.33490",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-26T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": "代码分析"
+          }
+        ]
+      },
+      "vulnerability_repair": {
+        "label": "vulnerability_repair",
+        "items": [
+          {
+            "id": 36632,
+            "title": "REFORGE：LLM 辅助 RTL 缺陷修复的结构化上下文与验证框架",
+            "original_title": "REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback",
+            "summary": "论文提出 REFORGE，一个 LLM 辅助的 RTL Bug 修复框架，通过多阶段验证（包括安全重扫描、形式化分析等）积累结构化修复证据，确保修复满足功能、安全与可行性等多重目标。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vulnerability_repair",
+            "score_total": 81.9,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "硬件安全团队和自动化漏洞修复研究者必看。它揭示了仅靠测试通过不等同于修复成功，并给出了结合安全重扫描和形式化分析的多阶段验证落地路径。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33748",
+            "reader_url": "https://arxiv.org/pdf/2611.33748",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-26T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "threat_detection": {
+        "label": "威胁检测",
+        "items": [
+          {
+            "id": 36930,
+            "title": "ReMoT：读取冻结视觉知识以检测AI生成图像",
+            "original_title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+            "summary": "提出 ReMoT 框架，通过交叉视图交互从冻结的视觉基础模型中读取互补知识，仅用 3,074 个参数在八个基准上达到 91.2% 平均准确率，实现高效的 AI 生成图像检测。",
+            "primary_category": "AI for Sec",
+            "sub_category": "threat_detection",
+            "score_total": 79.0,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "对关注深度伪造和内容安全的安全团队有参考价值。该方法仅需极少量参数即可利用现有视觉大模型的高泛化能力，为低成本构建内容真实性检测工具提供了新思路。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.34719",
+            "reader_url": "https://arxiv.org/pdf/2611.34719",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-27T00:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": "威胁检测"
+          }
+        ]
+      },
+      "compliance_automation": {
+        "label": "compliance_automation",
+        "items": [
+          {
+            "id": 36829,
+            "title": "开源应用商店合规检查 Playbook 及 AI Agent 技能",
+            "original_title": "GitHub Trending: mjmirza/app-store-compliance gained 562 stars today",
+            "summary": "该项目提供包含 125 种拒审模式修复、隐私清单及数据安全检查的开源 Playbook，并附带 AI 编程 Agent 技能，帮助开发者避免应用上架被拒。",
+            "primary_category": "AI for Sec",
+            "sub_category": "compliance_automation",
+            "score_total": 74.22,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "移动安全和合规团队值得关注。它直接提供了可复用的 Playbook 和 Claude Code Skill，能立即集成到开发流程自动化执行隐私合规和上架检查，省去大量人工踩坑时间。",
+            "source_id": "github-ai-security",
+            "canonical_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-27&since=daily",
+            "reader_url": "https://github.com/mjmirza/app-store-compliance?github_trending_date=2026-11-27&since=daily",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-26T23:21:53",
+            "first_seen_at": "2026-11-27T00:41:11.245456",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "vuln_discovery": {
+        "label": "漏洞挖掘",
+        "items": [
+          {
+            "id": 36684,
+            "title": "自主化 N-day 漏洞利用流水线演讲幻灯片分享",
+            "original_title": "An autonomous N-day exploit pipeline (slide deck)  https://t.co/xE6JOET2b7  Credits @chompie1337  #infosec https://t.co/rSzUAvhjT7",
+            "summary": "安全研究员 @chompie1337 分享了一份关于自主化 N-day 漏洞利用流水线（autonomous N-day exploit pipeline）的演讲幻灯片，探讨了自动化漏洞利用的最新进展。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 74.1,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "漏洞挖掘与利用自动化是 AI for Sec 的核心落地场景之一。该幻灯片展示了完整的自主化 N-day 漏洞利用流水线设计，对研发安全 Agent 或评估大模型实战漏洞利用能力的团队具有直接参考价值，建议查阅。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xor0ne/status/2125862568598077502",
+            "reader_url": "https://x.com/0xor0ne/status/2125862568598077502",
+            "image_url": "https://pbs.twimg.com/media/HYCUvZrXsAEkWrb.jpg",
+            "author": {
+              "username": "0xor0ne",
+              "name": "0xor0ne",
+              "avatar_url": null,
+              "followers_count": 93861
+            },
+            "published_at": "2026-11-26T08:01:47",
+            "first_seen_at": "2026-11-27T10:52:44.713209",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 36764,
+            "title": "使用 Claude Code 逆向分析 Papercut NG 零日漏洞",
+            "original_title": "Claude Code to reverse engineer a zero-day in Papercut NG (@KevTheHermit)  https://t.co/oe2r95NMoH  #infosec #llm https://t.co/sCn9eDP4gU",
+            "summary": "安全研究员分享使用 Claude Code 辅助逆向分析 Papercut NG 零日漏洞的实践，展示了 AI 在实际漏洞挖掘场景中的应用。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 70.99,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "漏洞挖掘和逆向人员必看，展示了 Claude Code 在真实 0day 逆向中的实操效果，可作为评估当前 AI 辅助安全工具能力的参考。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/0xor0ne/status/2125984310247219432",
+            "reader_url": "https://x.com/0xor0ne/status/2125984310247219432",
+            "image_url": "https://pbs.twimg.com/media/HYEDdtsXIAASPI4.jpg",
+            "author": {
+              "username": "0xor0ne",
+              "name": "0xor0ne",
+              "avatar_url": null,
+              "followers_count": 93861
+            },
+            "published_at": "2026-11-26T16:05:33",
+            "first_seen_at": "2026-11-26T19:48:20.121503",
+            "sub_category_label": "漏洞挖掘"
+          },
+          {
+            "id": 36422,
+            "title": "LLM 大规模挖掘异构应用漏洞构成全新威胁模型",
+            "original_title": "AI accelerates vulnerability discovery and exploit development, but the ability to exploit a homogeneous, internet facing attack surface at enormous scale is nothing new. Many of t",
+            "summary": "作者认为 AI 加速漏洞发现并不新鲜，真正改变游戏规则的是 LLM 能够大规模发现异构定制应用的漏洞，并适应复杂的特定环境后渗透场景，这构成了根本性的新威胁模型。",
+            "primary_category": "AI for Sec",
+            "sub_category": "vuln_discovery",
+            "score_total": 70.69,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "防守方需重新评估威胁模型，过去针对同质化攻击面的防御策略在面对 LLM 驱动的异构应用漏洞挖掘时可能失效。红蓝两队都应重点关注 LLM 在后渗透阶段的适应能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2125732144513233270",
+            "reader_url": "https://x.com/HackingLZ/status/2125732144513233270",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-11-25T23:23:32",
+            "first_seen_at": "2026-11-27T02:52:02.993767",
+            "sub_category_label": "漏洞挖掘"
+          }
+        ]
+      },
+      "formal_verification": {
+        "label": "formal_verification",
+        "items": [
+          {
+            "id": 36191,
+            "title": "用 GPT 和 Claude 为 V8 构建跨层形式化翻译验证器",
+            "original_title": "RT @nebusecurity: We built the first cross-tier formal translation verifier for Chromium V8 compiler using GPT and Claude.  Scalability has…",
+            "summary": "研究团队使用 GPT 和 Claude 构建了首个针对 Chromium V8 编译器的跨层形式化翻译验证器，利用大模型提升编译器验证的可扩展性。",
+            "primary_category": "AI for Sec",
+            "sub_category": "formal_verification",
+            "score_total": 69.11,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "这是 LLM 辅助编译器验证的落地案例。做二进制安全或编译器 fuzzing 的研究者应关注此方向，它展示了 AI 在形式化验证中的新潜力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/soaphornseuo/status/2125623541710442931",
+            "reader_url": "https://x.com/soaphornseuo/status/2125623541710442931",
+            "image_url": null,
+            "author": {
+              "username": "soaphornseuo",
+              "name": "soaphorn seuo",
+              "avatar_url": null,
+              "followers_count": 2488
+            },
+            "published_at": "2026-11-25T16:11:59",
+            "first_seen_at": "2026-11-26T18:51:32.336186",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI Tech": {
+      "safety_alignment": {
+        "label": "safety_alignment",
+        "items": [
+          {
+            "id": 36872,
+            "title": "MindGuard2：基于短推理链的低延迟心理健康AI护栏",
+            "original_title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+            "summary": "提出一种新的心理健康harm分类法并训练了MindGuard2护栏模型，通过短推理链结合长度惩罚实现高效安全干预，准确率与GLM-5.3相当但延迟降低10倍。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "safety_alignment",
+            "score_total": 76.15,
+            "include_status": "highlight",
+            "item_type": "paper",
+            "recommendation_reason": "AI安全团队可参考其分离harm表征与干预决策的护栏架构，以及用短推理加长度惩罚RL训练低延迟模型的实操方法，解决安全过滤耗时痛点。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33263",
+            "reader_url": "https://arxiv.org/pdf/2611.33263",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-27T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": null
+          }
+        ]
+      },
+      "model_security": {
+        "label": "model_security",
+        "items": [
+          {
+            "id": 36606,
+            "title": "日语视觉语言模型多模态安全评测研究",
+            "original_title": "Multimodal Safety Evaluation of Vision-Language Models in Japanese",
+            "summary": "论文将多模态安全测试套件扩展至日语，构建包含文化本地化图像的评测集，发现现有 VLM 安全表现差异大且自动化评测召回受限。",
+            "primary_category": "Sec for AI | AI Tech",
+            "sub_category": "model_security",
+            "score_total": 72.65,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "对于构建安全评测体系的团队，本文提供了多模态本地化安全测试集构建思路，且揭示了 LLM-as-Judge 在不安全内容检测上召回率有限，自动化安全评测仍需人工介入。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33789",
+            "reader_url": "https://arxiv.org/pdf/2611.33789",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-26T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "Sec for AI | AI for Sec": {
+      "agent_security": {
+        "label": "agent_security",
+        "items": [
+          {
+            "id": 36333,
+            "title": "攻击者通过经典渗透工具扩展 ARTEX AI 代理能力",
+            "original_title": "Old reliables   \"Threat actors also commonly add exploitation frameworks and credential attack tools to extend the capabilities of ARTEX agents:  sqlmap — A specialized web-applica",
+            "summary": "威胁行为者正将 sqlmap、Metasploit 等传统安全工具整合进 ARTEX AI 代理，以增强其自动化渗透与凭据测试能力。",
+            "primary_category": "Sec for AI | AI for Sec",
+            "sub_category": "agent_security",
+            "score_total": 73.81,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "揭示了 AI Agent 结合经典黑客工具的实战化攻击趋势。防御团队需警惕自动化 Agent 驱动的复合型攻击链，并关注如何检测此类工具调用特征。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/HackingLZ/status/2125658166998233200",
+            "reader_url": "https://x.com/HackingLZ/status/2125658166998233200",
+            "image_url": null,
+            "author": {
+              "username": "HackingLZ",
+              "name": "Justin Elze",
+              "avatar_url": null,
+              "followers_count": 73559
+            },
+            "published_at": "2026-11-25T18:29:34",
+            "first_seen_at": "2026-11-26T20:51:36.416064",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | Sec for AI": {
+      "model_evaluation": {
+        "label": "model_evaluation",
+        "items": [
+          {
+            "id": 36588,
+            "title": "多语言决策模型评估：非英语场景下的过自信问题",
+            "original_title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+            "summary": "研究发现决策模型（常用于路由和护栏）在非英语任务中准确率显著下降，但置信度下降较少，导致模型过度自信；且用 LLM 翻译测试集会低估此表现差距。",
+            "primary_category": "AI Tech | Sec for AI",
+            "sub_category": "model_evaluation",
+            "score_total": 72.95,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "部署多语言护栏的团队需警惕：非英语输入下模型易过度自信导致误判。评测多语言安全模型时忌用 LLM 翻译测试集，会掩盖真实风险。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33307",
+            "reader_url": "https://arxiv.org/pdf/2611.33307",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-26T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech": {
+      "model_evaluation": {
+        "label": "模型评测",
+        "items": [
+          {
+            "id": 36869,
+            "title": "约束感知的LLM测试时评分框架与安全性提升",
+            "original_title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+            "summary": "本文提出一种结合硬约束和软约束的 LLM/VLM 候选答案评分框架，在代码生成等任务中显著提升了输出的正确性与安全性。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 72.75,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "该方法提出一种实用的 LLM 输出筛选框架，通过硬约束过滤不安全代码，对开发代码安全审计 Agent 有直接参考价值，建议关注其 CWEval 相关实验细节。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33161",
+            "reader_url": "https://arxiv.org/pdf/2611.33161",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-27T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 36870,
+            "title": "AutoformBench：高级数学Lean形式化基准测试",
+            "original_title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+            "summary": "该研究提出 AutoformBench 基准测试，评估前沿模型在 Lean 4 环境下完成高级数学形式化的能力，发现模型在构建缺失的形式化基础设施时面临共同困难。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 70.65,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "这是评估前沿大模型形式化推理能力的新基准。对于 AI 安全从业者而言，模型在构建复杂中间步骤和基础设施上的表现，可作为评估其在复杂自动化安全任务中逻辑推理与代码生成能力的参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33165",
+            "reader_url": "https://arxiv.org/pdf/2611.33165",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-27T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 36912,
+            "title": "LLM用户模拟器在多步工作流中的可靠性评测与优化",
+            "original_title": "Reliable User Simulation in Complex Multi-Step Workflows",
+            "summary": "研究发现 LLM 用户模拟器在复杂多步工作流中易发生目标漂移，导致评估误判。本文提出基于 HTN 的 500 个工作流基准，并设计 ReUST 提示策略以维护跨轮状态信息，将目标成功率提升 12 点以上。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 69.5,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "做安全 Agent 评测或对抗模拟的同学需注意，多步工作流中的 LLM 模拟器易发生目标漂移导致误判，可参考其 ReUST 策略维护状态追踪，避免评估失真。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.34044",
+            "reader_url": "https://arxiv.org/pdf/2611.34044",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-27T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 36923,
+            "title": "OS-Omni：评估跨平台通用计算机使用Agent的长周期基准",
+            "original_title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+            "summary": "OS-Omni提出首个跨Windows、Ubuntu、macOS、iOS、Android及Web环境的长周期通用计算机使用Agent基准，首版包含300个任务，发现表现最好的Claude Opus 5.5在iOS和macOS上仍落后人类超25分。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 68.75,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "跨平台Agent是安全自动化的基础设施，该基准揭示了模型在多系统状态跟踪下的真实能力边界。安全团队在设计多平台自动化任务时可参考其评测结果，避免在macOS/iOS等弱项环境过度信任模型。",
+            "source_id": "huggingface-daily-papers",
+            "canonical_url": "https://huggingface.co/papers/2611.34232",
+            "reader_url": "https://arxiv.org/pdf/2611.34232",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-27T00:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": "模型评测"
+          },
+          {
+            "id": 36884,
+            "title": "Merlin-Bench：评估LLM Agent生成可验证证明能力的框架",
+            "original_title": "Interactive Proofs as a Unified Framework for Evaluating and Leveraging Verifiable Proof Generation by LLM Agents",
+            "summary": "提出基于交互式证明的 Merlin-Bench，评估 LLM Agent 与形式化验证工具交互生成可验证证明的能力，发现该任务仍具挑战性且高度依赖工具与知识引导。",
+            "primary_category": "AI Tech",
+            "sub_category": "model_evaluation",
+            "score_total": 68.35,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "若团队想用 LLM 辅助程序验证或代码安全审计，这篇给出的能力基线和评测结论很务实：纯靠模型不靠谱，必须结合工具调用和知识注入。可作为构建安全验证 Agent 的参考。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33676",
+            "reader_url": "https://arxiv.org/pdf/2611.33676",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-27T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": "模型评测"
+          }
+        ]
+      },
+      "agent_architecture": {
+        "label": "Agent 架构",
+        "items": [
+          {
+            "id": 36893,
+            "title": "TransHarness：通过可迁移进化策略破解Agent基准过拟合",
+            "original_title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+            "summary": "提出 TransHarness 方法，通过同任务成败对比演化出可迁移的 Agent 干预策略，在 DeepSWE 和 Terminal-Bench 等基准上超越 GPT-6 Astra 等强基线。",
+            "primary_category": "AI Tech",
+            "sub_category": "agent_architecture",
+            "score_total": 72.0,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "这篇研究对构建自动化安全Agent（如漏洞挖掘或终端运维）有直接参考价值。它揭示了如何让Agent在未知任务上泛化执行能力，避免在特定评测上刷分过拟合。做Agent落地的同学可借鉴其Harness进化思路。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33757",
+            "reader_url": "https://arxiv.org/pdf/2611.33757",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-27T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": "Agent 架构"
+          }
+        ]
+      }
+    },
+    "AI for Sec | AI Tech": {
+      "security_benchmark": {
+        "label": "security_benchmark",
+        "items": [
+          {
+            "id": 36631,
+            "title": "AI 代码审查需要多大努力？基于 Claude 5.5 假补丁识别评估",
+            "original_title": "How Much Effort Does an AI Code Reviewer Need? Evidence from Claude 5.5 Models on Plausible-but-Wrong Patches",
+            "summary": "研究发现 Claude 5.5 系列模型在审查 SWE-bench 中看似合理但错误的补丁时，高努力程度能降低误判率，但没有任何设置能成为可靠的防线，至少仍接受了 45% 的错误补丁。",
+            "primary_category": "AI for Sec | AI Tech",
+            "sub_category": "security_benchmark",
+            "score_total": 71.55,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "AI for Sec 从业者需警惕盲目信任 AI 代码审查器。即便使用最新推理模型在高努力模式下，也无法有效拦截所有「假补丁」，自动化安全验证仍需结合更强的测试用例和人工审查。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33639",
+            "reader_url": "https://arxiv.org/pdf/2611.33639",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-26T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI Tech | AI for Sec": {
+      "agent_architecture | security_agent": {
+        "label": "agent_architecture | security_agent",
+        "items": [
+          {
+            "id": 36874,
+            "title": "部分路由：基于历史轨迹的 Agent 任务委托优化",
+            "original_title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+            "summary": "提出一种部分路由方法，让主导模型将子任务委托给廉价工作模型，在 ViBench 和 Terminal-Bench 上提升了 Agent 性能并降低成本。",
+            "primary_category": "AI Tech | AI for Sec",
+            "sub_category": "agent_architecture | security_agent",
+            "score_total": 69.9,
+            "include_status": "included",
+            "item_type": "paper",
+            "recommendation_reason": "如果你在搭自动化漏洞挖掘或渗透测试 Agent，执行成本是绕不开的坎。这篇论文的子任务路由法在 Terminal-Bench 上提分又省钱，值得借鉴用于优化安全 Agent 工作流。",
+            "source_id": "arxiv-ai-security",
+            "canonical_url": "https://arxiv.org/abs/2611.33402",
+            "reader_url": "https://arxiv.org/pdf/2611.33402",
+            "image_url": null,
+            "author": null,
+            "published_at": "2026-11-27T05:00:00",
+            "first_seen_at": "2026-11-27T15:08:32.922118",
+            "sub_category_label": null
+          }
+        ]
+      }
+    },
+    "AI for Sec | Sec for AI": {
+      "security_agent": {
+        "label": "security_agent",
+        "items": [
+          {
+            "id": 36430,
+            "title": "多AI自主Agent协同攻破意大利关键基础设施",
+            "original_title": "Five parallel AI agents coordinated reconnaissance through exploitation and persistence against Italian critical infrastructure — no human intervention required.  Autonomous framew",
+            "summary": "ARTEX AI和PentAGI等框架利用弱口令、错误配置和已知CVE，实现五个AI Agent协同的侦察-利用-持久化攻击链，数小时内突破内网且无需人工干预。",
+            "primary_category": "AI for Sec | Sec for AI",
+            "sub_category": "security_agent",
+            "score_total": 68.91,
+            "include_status": "included",
+            "item_type": "news",
+            "recommendation_reason": "攻防双方都该看：自主攻击Agent已从演示走向实战，防守方需立即强化东西向流量控制和运行时隔离，限制Agent群的横向移动能力。",
+            "source_id": "x-manual-ai-security",
+            "canonical_url": "https://x.com/aviatrixtrc/status/2125742097286181367",
+            "reader_url": "https://x.com/aviatrixtrc/status/2125742097286181367",
+            "image_url": null,
+            "author": {
+              "username": "aviatrixtrc",
+              "name": "Aviatrix Threat Research Center",
+              "avatar_url": null,
+              "followers_count": 1977
+            },
+            "published_at": "2026-11-26T00:03:05",
+            "first_seen_at": "2026-11-27T02:52:02.993767",
+            "sub_category_label": null
+          }
+        ]
+      }
+    }
+  },
+  "papers": [
+    {
+      "id": 36630,
+      "title": "AI辅助C到Rust迁移的性能诊断与优化",
+      "original_title": "Cross-Layer Characterization and AI-Assisted Diagnosis of C-to-Rust Performance",
+      "summary": "提出AI辅助性能调试器FerroScope，通过跨层信息诊断C到Rust迁移中的性能损耗，并指导LLVM编译器优化消除冗余安全检查，在保持安全的同时提升运行效率。",
+      "primary_category": "AI for Sec",
+      "sub_category": "code_analysis",
+      "score_total": 83.4,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对推动C转Rust的安全团队极具参考价值。它揭示了Rust安全检查的性能开销并非不可接受，并展示AI辅助工具如何指导编译器优化，值得安全工程团队跟进。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33490",
+      "reader_url": "https://arxiv.org/pdf/2611.33490",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": "代码分析"
+    },
+    {
+      "id": 36632,
+      "title": "REFORGE：LLM 辅助 RTL 缺陷修复的结构化上下文与验证框架",
+      "original_title": "REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback",
+      "summary": "论文提出 REFORGE，一个 LLM 辅助的 RTL Bug 修复框架，通过多阶段验证（包括安全重扫描、形式化分析等）积累结构化修复证据，确保修复满足功能、安全与可行性等多重目标。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vulnerability_repair",
+      "score_total": 81.9,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "硬件安全团队和自动化漏洞修复研究者必看。它揭示了仅靠测试通过不等同于修复成功，并给出了结合安全重扫描和形式化分析的多阶段验证落地路径。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33748",
+      "reader_url": "https://arxiv.org/pdf/2611.33748",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": null
+    },
+    {
+      "id": 36930,
+      "title": "ReMoT：读取冻结视觉知识以检测AI生成图像",
+      "original_title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "summary": "提出 ReMoT 框架，通过交叉视图交互从冻结的视觉基础模型中读取互补知识，仅用 3,074 个参数在八个基准上达到 91.2% 平均准确率，实现高效的 AI 生成图像检测。",
+      "primary_category": "AI for Sec",
+      "sub_category": "threat_detection",
+      "score_total": 79.0,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "对关注深度伪造和内容安全的安全团队有参考价值。该方法仅需极少量参数即可利用现有视觉大模型的高泛化能力，为低成本构建内容真实性检测工具提供了新思路。",
+      "source_id": "huggingface-daily-papers",
+      "canonical_url": "https://huggingface.co/papers/2611.34719",
+      "reader_url": "https://arxiv.org/pdf/2611.34719",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-27T00:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": "威胁检测"
+    },
+    {
+      "id": 36872,
+      "title": "MindGuard2：基于短推理链的低延迟心理健康AI护栏",
+      "original_title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "summary": "提出一种新的心理健康harm分类法并训练了MindGuard2护栏模型，通过短推理链结合长度惩罚实现高效安全干预，准确率与GLM-5.3相当但延迟降低10倍。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "safety_alignment",
+      "score_total": 76.15,
+      "include_status": "highlight",
+      "item_type": "paper",
+      "recommendation_reason": "AI安全团队可参考其分离harm表征与干预决策的护栏架构，以及用短推理加长度惩罚RL训练低延迟模型的实操方法，解决安全过滤耗时痛点。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33263",
+      "reader_url": "https://arxiv.org/pdf/2611.33263",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-27T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": null
+    },
+    {
+      "id": 36588,
+      "title": "多语言决策模型评估：非英语场景下的过自信问题",
+      "original_title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+      "summary": "研究发现决策模型（常用于路由和护栏）在非英语任务中准确率显著下降，但置信度下降较少，导致模型过度自信；且用 LLM 翻译测试集会低估此表现差距。",
+      "primary_category": "AI Tech | Sec for AI",
+      "sub_category": "model_evaluation",
+      "score_total": 72.95,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "部署多语言护栏的团队需警惕：非英语输入下模型易过度自信导致误判。评测多语言安全模型时忌用 LLM 翻译测试集，会掩盖真实风险。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33307",
+      "reader_url": "https://arxiv.org/pdf/2611.33307",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": null
+    },
+    {
+      "id": 36869,
+      "title": "约束感知的LLM测试时评分框架与安全性提升",
+      "original_title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "summary": "本文提出一种结合硬约束和软约束的 LLM/VLM 候选答案评分框架，在代码生成等任务中显著提升了输出的正确性与安全性。",
+      "primary_category": "AI Tech",
+      "sub_category": "model_evaluation",
+      "score_total": 72.75,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "该方法提出一种实用的 LLM 输出筛选框架，通过硬约束过滤不安全代码，对开发代码安全审计 Agent 有直接参考价值，建议关注其 CWEval 相关实验细节。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33161",
+      "reader_url": "https://arxiv.org/pdf/2611.33161",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-27T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": "模型评测"
+    },
+    {
+      "id": 36606,
+      "title": "日语视觉语言模型多模态安全评测研究",
+      "original_title": "Multimodal Safety Evaluation of Vision-Language Models in Japanese",
+      "summary": "论文将多模态安全测试套件扩展至日语，构建包含文化本地化图像的评测集，发现现有 VLM 安全表现差异大且自动化评测召回受限。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "model_security",
+      "score_total": 72.65,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "对于构建安全评测体系的团队，本文提供了多模态本地化安全测试集构建思路，且揭示了 LLM-as-Judge 在不安全内容检测上召回率有限，自动化安全评测仍需人工介入。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33789",
+      "reader_url": "https://arxiv.org/pdf/2611.33789",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": null
+    },
+    {
+      "id": 36893,
+      "title": "TransHarness：通过可迁移进化策略破解Agent基准过拟合",
+      "original_title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+      "summary": "提出 TransHarness 方法，通过同任务成败对比演化出可迁移的 Agent 干预策略，在 DeepSWE 和 Terminal-Bench 等基准上超越 GPT-6 Astra 等强基线。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 72.0,
+      "include_status": "included",
+      "item_type": "paper",
+      "recommendation_reason": "这篇研究对构建自动化安全Agent（如漏洞挖掘或终端运维）有直接参考价值。它揭示了如何让Agent在未知任务上泛化执行能力，避免在特定评测上刷分过拟合。做Agent落地的同学可借鉴其Harness进化思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33757",
+      "reader_url": "https://arxiv.org/pdf/2611.33757",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-27T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": "Agent 架构"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Claude Mythos 与 AI 网络能力跃迁",
+      "slug": "claude-mythos-cyber-capability"
+    },
+    {
+      "name": "Black Hat",
+      "slug": "black-hat"
+    }
+  ],
+  "metrics": {
+    "candidate_count": 24,
+    "highlight_count": 3,
+    "paper_count": 14,
+    "source_count": 4,
+    "top_score": 95,
+    "category_count": {
+      "AI for Sec": 11,
+      "AI Tech": 6,
+      "Sec for AI | AI Tech": 2,
+      "Sec for AI | AI for Sec": 1,
+      "AI Tech | Sec for AI": 1,
+      "AI for Sec | AI Tech": 1,
+      "AI Tech | AI for Sec": 1,
+      "AI for Sec | Sec for AI": 1
+    },
+    "subcategory_count": {
+      "AI for Sec": {
+        "security_agent": {
+          "label": "安全Agent",
+          "count": 3
+        },
+        "code_analysis": {
+          "label": "代码分析",
+          "count": 1
+        },
+        "vulnerability_repair": {
+          "label": "vulnerability_repair",
+          "count": 1
+        },
+        "threat_detection": {
+          "label": "威胁检测",
+          "count": 1
+        },
+        "compliance_automation": {
+          "label": "compliance_automation",
+          "count": 1
+        },
+        "vuln_discovery": {
+          "label": "漏洞挖掘",
+          "count": 3
+        },
+        "formal_verification": {
+          "label": "formal_verification",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI Tech": {
+        "safety_alignment": {
+          "label": "safety_alignment",
+          "count": 1
+        },
+        "model_security": {
+          "label": "model_security",
+          "count": 1
+        }
+      },
+      "Sec for AI | AI for Sec": {
+        "agent_security": {
+          "label": "agent_security",
+          "count": 1
+        }
+      },
+      "AI Tech | Sec for AI": {
+        "model_evaluation": {
+          "label": "model_evaluation",
+          "count": 1
+        }
+      },
+      "AI Tech": {
+        "model_evaluation": {
+          "label": "模型评测",
+          "count": 5
+        },
+        "agent_architecture": {
+          "label": "Agent 架构",
+          "count": 1
+        }
+      },
+      "AI for Sec | AI Tech": {
+        "security_benchmark": {
+          "label": "security_benchmark",
+          "count": 1
+        }
+      },
+      "AI Tech | AI for Sec": {
+        "agent_architecture | security_agent": {
+          "label": "agent_architecture | security_agent",
+          "count": 1
+        }
+      },
+      "AI for Sec | Sec for AI": {
+        "security_agent": {
+          "label": "security_agent",
+          "count": 1
+        }
+      }
+    }
+  },
+  "action_items": [
+    "先读前三条高分项，确认是否需要同步给模型平台、AppSec 或 SOC 团队。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。",
+    "把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。"
+  ],
+  "risk_lanes": [
+    {
+      "name": "AI for Sec",
+      "count": 11,
+      "top_score": 95,
+      "note": "用 AI 做安全检测或响应，重点看误报、可解释性和真实落地效果。"
+    },
+    {
+      "name": "AI Tech",
+      "count": 6,
+      "top_score": 73,
+      "note": "底层模型、评测和工程动态，主要用来判断后续风险会从哪里冒出来。"
+    }
+  ],
+  "today_observation": "得分最高的那篇C转Rust优化文章很值得一看，它证明了AI不仅能做安全分析，还能指导编译器干掉冗余的安全检查来解决性能痛点。建议团队跟进这种跨层优化思路，并在自己的自动化漏洞修复流程里引入多阶段验证，别光看测试跑通了就以为Bug真修好了。",
+  "method_note": "按北京时间 2026-11-27 的系统入库窗口筛选，从 24 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "source_list": [
+    "arxiv-ai-security",
+    "github-ai-security",
+    "huggingface-daily-papers",
+    "x-manual-ai-security"
+  ],
+  "hero_image_svg_path": null,
+  "hero_image_png_path": null,
+  "hero_image_path": null,
+  "markdown": "# AI辅助C到Rust迁移的性能诊断与优化\n\n顶部图：未生成\n\n## 今日概览\n- 今天的情报主线是AI正深入底层代码和硬件的安全重构环节。从C转Rust的性能调优到RTL硬件漏洞的自动化修复，AI已经不满足于只做漏洞扫描，开始帮安全团队啃代码迁移和复杂修复验证这些硬骨头了。\n- 01 对推动C转Rust的安全团队极具参考价值。它揭示了Rust安全检查的性能开销并非不可接受，并展示AI辅助工具如何指导编译器优化，值得安全工程团队跟进。\n- 02 硬件安全团队和自动化漏洞修复研究者必看。它揭示了仅靠测试通过不等同于修复成功，并给出了结合安全重扫描和形式化分析的多阶段验证落地路径。\n- 03 对关注深度伪造和内容安全的安全团队有参考价值。该方法仅需极少量参数即可利用现有视觉大模型的高泛化能力，为低成本构建内容真实性检测工具提供了新思路。\n\n## 今日行动\n- 先读前三条高分项，确认是否需要同步给模型平台、AppSec 或 SOC 团队。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n- 把相关论文的攻击条件、复现成本和可落地防护拆成一页内部笔记。\n\n## 重点关注\n- **AI辅助C到Rust迁移的性能诊断与优化**：对推动C转Rust的安全团队极具参考价值。它揭示了Rust安全检查的性能开销并非不可接受，并展示AI辅助工具如何指导编译器优化，值得安全工程团队跟进。 来源：arxiv-ai-security\n- **REFORGE：LLM 辅助 RTL 缺陷修复的结构化上下文与验证框架**：硬件安全团队和自动化漏洞修复研究者必看。它揭示了仅靠测试通过不等同于修复成功，并给出了结合安全重扫描和形式化分析的多阶段验证落地路径。 来源：arxiv-ai-security\n- **ReMoT：读取冻结视觉知识以检测AI生成图像**：对关注深度伪造和内容安全的安全团队有参考价值。该方法仅需极少量参数即可利用现有视觉大模型的高泛化能力，为低成本构建内容真实性检测工具提供了新思路。 来源：huggingface-daily-papers\n\n## 也值得关注\n- MindGuard2：基于短推理链的低延迟心理健康AI护栏（76.15）\n- 多语言决策模型评估：非英语场景下的过自信问题（72.95）\n- 约束感知的LLM测试时评分框架与安全性提升（72.75）\n- 日语视觉语言模型多模态安全评测研究（72.65）\n- TransHarness：通过可迁移进化策略破解Agent基准过拟合（72.0）\n- AI 代码审查需要多大努力？基于 Claude 5.5 假补丁识别评估（71.55）\n\n## AI for Sec\n\n### 安全Agent\n- Claude-BugHunter 开源 85 个红队技能包，登顶 GitHub Trending（94.65）\n- 开源AI渗透测试框架 Deep Eye（72.6）\n- ARTEX AI 渗透框架攻破多情报机构非机密系统（69.71）\n\n### 代码分析\n- AI辅助C到Rust迁移的性能诊断与优化（83.4）\n\n### vulnerability_repair\n- REFORGE：LLM 辅助 RTL 缺陷修复的结构化上下文与验证框架（81.9）\n\n### 威胁检测\n- ReMoT：读取冻结视觉知识以检测AI生成图像（79.0）\n\n### compliance_automation\n- 开源应用商店合规检查 Playbook 及 AI Agent 技能（74.22）\n\n### 漏洞挖掘\n- 自主化 N-day 漏洞利用流水线演讲幻灯片分享（74.1）\n- 使用 Claude Code 逆向分析 Papercut NG 零日漏洞（70.99）\n- LLM 大规模挖掘异构应用漏洞构成全新威胁模型（70.69）\n\n### formal_verification\n- 用 GPT 和 Claude 为 V8 构建跨层形式化翻译验证器（69.11）\n\n## AI Tech\n\n### 模型评测\n- 约束感知的LLM测试时评分框架与安全性提升（72.75）\n- AutoformBench：高级数学Lean形式化基准测试（70.65）\n- LLM用户模拟器在多步工作流中的可靠性评测与优化（69.5）\n- OS-Omni：评估跨平台通用计算机使用Agent的长周期基准（68.75）\n- Merlin-Bench：评估LLM Agent生成可验证证明能力的框架（68.35）\n\n### Agent 架构\n- TransHarness：通过可迁移进化策略破解Agent基准过拟合（72.0）\n\n## 今日论文\n- AI辅助C到Rust迁移的性能诊断与优化\n- REFORGE：LLM 辅助 RTL 缺陷修复的结构化上下文与验证框架\n- ReMoT：读取冻结视觉知识以检测AI生成图像\n- MindGuard2：基于短推理链的低延迟心理健康AI护栏\n- 多语言决策模型评估：非英语场景下的过自信问题\n- 约束感知的LLM测试时评分框架与安全性提升\n- 日语视觉语言模型多模态安全评测研究\n- TransHarness：通过可迁移进化策略破解Agent基准过拟合\n\n## 今日观察\n得分最高的那篇C转Rust优化文章很值得一看，它证明了AI不仅能做安全分析，还能指导编译器干掉冗余的安全检查来解决性能痛点。建议团队跟进这种跨层优化思路，并在自己的自动化漏洞修复流程里引入多阶段验证，别光看测试跑通了就以为Bug真修好了。\n\n## 值得跟踪的专题\n- Claude Mythos 与 AI 网络能力跃迁\n- Black Hat\n\n方法说明：按北京时间 2026-11-27 的系统入库窗口筛选，从 24 条候选中选出重点；论文按今天抓取/入库计入，不等同于论文当天发表。",
+  "exported_at": "2026-11-28T00:01:39+08:00"
+}
