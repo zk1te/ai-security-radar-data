@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-27T20:48:17+08:00",
+  "updated_at": "2026-11-27T22:50:15+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 36684,
@@ -173,6 +173,31 @@
       "published_at": "2026-11-23T02:50:15",
       "first_seen_at": "2026-11-27T08:07:37.136052",
       "sub_category_label": "Agent 架构"
+    },
+    {
+      "id": 37006,
+      "title": "开源AI红队Agent「Decepticon」发布，支持自动化渗透测试",
+      "original_title": "🔥 Decepticon – AI-Powered Red Team Agent  An open-source AI security framework featuring automated security assessments, vulnerability research, multiple AI model integrations, and",
+      "summary": "开源AI安全框架Decepticon发布，集成多AI模型与隔离测试环境，用于自动化安全评估与漏洞研究。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 63.87,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "渗透测试团队可直接试用该开源框架，评估AI在红队自动化任务中的实际效果与集成成本。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/Anastasis_King/status/2126311135896867195",
+      "reader_url": "https://x.com/Anastasis_King/status/2126311135896867195",
+      "image_url": "https://pbs.twimg.com/media/HYIstOBXoAA1UsY.jpg",
+      "author": {
+        "username": "Anastasis_King",
+        "name": "Anastasis Vasileiadis",
+        "avatar_url": null,
+        "followers_count": 11667
+      },
+      "published_at": "2026-11-27T13:44:14",
+      "first_seen_at": "2026-11-27T14:39:14.299358",
+      "sub_category_label": "安全Agent"
     }
   ]
 }
