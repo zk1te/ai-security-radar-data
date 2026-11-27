@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T18:17:40+08:00",
+  "updated_at": "2026-11-27T19:18:10+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 8,
@@ -43,6 +43,31 @@
       "published_at": "2026-11-26T23:21:53",
       "first_seen_at": "2026-11-27T00:41:11.245456",
       "sub_category_label": null
+    },
+    {
+      "id": 36684,
+      "title": "自主化 N-day 漏洞利用流水线演讲幻灯片分享",
+      "original_title": "An autonomous N-day exploit pipeline (slide deck)  https://t.co/xE6JOET2b7  Credits @chompie1337  #infosec https://t.co/rSzUAvhjT7",
+      "summary": "安全研究员 @chompie1337 分享了一份关于自主化 N-day 漏洞利用流水线（autonomous N-day exploit pipeline）的演讲幻灯片，探讨了自动化漏洞利用的最新进展。",
+      "primary_category": "AI for Sec",
+      "sub_category": "vuln_discovery",
+      "score_total": 74.1,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "漏洞挖掘与利用自动化是 AI for Sec 的核心落地场景之一。该幻灯片展示了完整的自主化 N-day 漏洞利用流水线设计，对研发安全 Agent 或评估大模型实战漏洞利用能力的团队具有直接参考价值，建议查阅。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xor0ne/status/2125862568598077502",
+      "reader_url": "https://x.com/0xor0ne/status/2125862568598077502",
+      "image_url": "https://pbs.twimg.com/media/HYCUvZrXsAEkWrb.jpg",
+      "author": {
+        "username": "0xor0ne",
+        "name": "0xor0ne",
+        "avatar_url": null,
+        "followers_count": 93861
+      },
+      "published_at": "2026-11-26T08:01:47",
+      "first_seen_at": "2026-11-27T10:52:44.713209",
+      "sub_category_label": "漏洞挖掘"
     },
     {
       "id": 36651,
@@ -168,26 +193,6 @@
       "published_at": "2026-11-27T07:35:05",
       "first_seen_at": "2026-11-27T08:18:39.084644",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 36946,
-      "title": "Antigravity 搭配 Gemini 模型的多 Agent 编排与工作流实践",
-      "original_title": "Gemini 4 Neon+Antigravity，干活真猛啊。",
-      "summary": "介绍 Antigravity 这套 Harness 搭配 Gemini 4 Neon 时的多 Agent 协作、远端 SSH 部署、动态工作流编排及上下文旁路等高级工程化能力。",
-      "primary_category": "AI Tech",
-      "sub_category": "agent_architecture",
-      "score_total": 66.85,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可借鉴其 Swarm 的公告板与工作区隔离机制、以及 /run-workflow 的并发编排思路，用于构建自动化代码审计或漏洞挖掘的 Multi-Agent 系统。",
-      "source_id": "juejin-trending-weekly",
-      "canonical_url": "https://juejin.cn/post/7710893312785465387",
-      "reader_url": "https://juejin.cn/post/7710893312785465387",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-23T02:50:15",
-      "first_seen_at": "2026-11-27T08:07:37.136052",
-      "sub_category_label": "Agent 架构"
     }
   ]
 }
