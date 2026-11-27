@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T23:22:06+08:00",
+  "updated_at": "2026-11-28T04:52:59+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -170,29 +170,24 @@
       "sub_category_label": null
     },
     {
-      "id": 36651,
-      "title": "开源AI渗透测试框架 Deep Eye",
-      "original_title": "🛡️ DEEP EYE — AI-POWERED SECURITY TESTING  Deep Eye is an open-source, AI-driven penetration testing framework designed for authorized security assessments. It integrates multiple ",
-      "summary": "Deep Eye 是一款开源的 AI 驱动渗透测试框架，支持集成多种大模型进行漏洞检查并自动生成合规安全报告。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 72.6,
+      "id": 36893,
+      "title": "TransHarness：通过可迁移进化策略破解Agent基准过拟合",
+      "original_title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+      "summary": "提出 TransHarness 方法，通过同任务成败对比演化出可迁移的 Agent 干预策略，在 DeepSWE 和 Terminal-Bench 等基准上超越 GPT-6 Astra 等强基线。",
+      "primary_category": "AI Tech",
+      "sub_category": "agent_architecture",
+      "score_total": 72.0,
       "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "安全团队可评估该开源工具的 AI 自动化漏洞检查和报告生成能力，看能否提升日常渗透测试效率，但需测试其真实检出率和误报情况。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/Anastasis_King/status/2125841872237011284",
-      "reader_url": "https://x.com/Anastasis_King/status/2125841872237011284",
-      "image_url": "https://pbs.twimg.com/media/HYCB5yvXcAA5Ik7.jpg",
-      "author": {
-        "username": "Anastasis_King",
-        "name": "Anastasis Vasileiadis",
-        "avatar_url": null,
-        "followers_count": 11667
-      },
-      "published_at": "2026-11-26T06:39:33",
-      "first_seen_at": "2026-11-27T08:52:44.479566",
-      "sub_category_label": "安全Agent"
+      "item_type": "paper",
+      "recommendation_reason": "这篇研究对构建自动化安全Agent（如漏洞挖掘或终端运维）有直接参考价值。它揭示了如何让Agent在未知任务上泛化执行能力，避免在特定评测上刷分过拟合。做Agent落地的同学可借鉴其Harness进化思路。",
+      "source_id": "arxiv-ai-security",
+      "canonical_url": "https://arxiv.org/abs/2611.33757",
+      "reader_url": "https://arxiv.org/pdf/2611.33757",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-27T05:00:00",
+      "first_seen_at": "2026-11-27T15:08:32.922118",
+      "sub_category_label": "Agent 架构"
     }
   ]
 }
