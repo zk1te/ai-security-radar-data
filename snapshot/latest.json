@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T08:44:10+08:00",
+  "updated_at": "2026-11-27T09:14:23+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -160,31 +160,6 @@
       "sub_category_label": null
     },
     {
-      "id": 36708,
-      "title": "OpenAI Patch the Planet 项目发布 Tor 审计新研究",
-      "original_title": "RT @calif_io: As part of OpenAI's Patch the Planet, Calif audited Tor and its associated software.  Today we're releasing new research by @…",
-      "summary": "OpenAI 旗下的 Patch the Planet 项目利用 AI 对 Tor 及其相关软件进行了安全审计，并发布了最新研究成果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 65.58,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "代码审计和漏洞挖掘研究员必看。这是大模型在真实复杂开源项目上做自动化审计的最新公开实践，能直接反映当前 AI for Sec 在工程落地中的实际能力边界。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2125900408669557089",
-      "reader_url": "https://x.com/soaphornseuo/status/2125900408669557089",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null,
-        "followers_count": 2488
-      },
-      "published_at": "2026-11-26T10:32:09",
-      "first_seen_at": "2026-11-26T13:11:57.969567",
-      "sub_category_label": "漏洞挖掘"
-    },
-    {
       "id": 36495,
       "title": "ROAM-Bench：评估具身主动空间智能的新基准",
       "original_title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
@@ -203,6 +178,26 @@
       "published_at": "2026-11-26T00:00:00",
       "first_seen_at": "2026-11-26T15:07:26.755001",
       "sub_category_label": "模型评测"
+    },
+    {
+      "id": 36715,
+      "title": "传OpenAI与Anthropic攻破RSA算法",
+      "original_title": "传RSA已被OpenAI与Anthropic攻破，互联网加密要变天了？",
+      "summary": "传闻称OpenAI与Anthropic已攻破RSA加密算法，但暂无具体技术细节支撑该说法。",
+      "primary_category": "AI for Sec",
+      "sub_category": "crypto_analysis",
+      "score_total": 61.0,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "若传闻属实，AI在密码破解上的突破将颠覆现有加密体系，安全团队需密切关注后续验证。但目前仅见标题，需警惕夸大宣传。",
+      "source_id": "jiqizhixin-rss",
+      "canonical_url": "https://www.jiqizhixin.com/articles/2026-11-26-12?source=rss",
+      "reader_url": "https://www.jiqizhixin.com/articles/2026-11-26-12?source=rss",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-26T12:48:18",
+      "first_seen_at": "2026-11-26T14:11:56.788855",
+      "sub_category_label": null
     }
   ]
 }
