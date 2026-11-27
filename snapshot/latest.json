@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T09:14:23+08:00",
+  "updated_at": "2026-11-27T10:14:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 9,
@@ -180,24 +180,29 @@
       "sub_category_label": "模型评测"
     },
     {
-      "id": 36715,
-      "title": "传OpenAI与Anthropic攻破RSA算法",
-      "original_title": "传RSA已被OpenAI与Anthropic攻破，互联网加密要变天了？",
-      "summary": "传闻称OpenAI与Anthropic已攻破RSA加密算法，但暂无具体技术细节支撑该说法。",
+      "id": 36305,
+      "title": "某工具称其漏洞发现页击败多数 AI SAST 并邀约基准测试",
+      "original_title": "This is how findings page looks like. This alone could beat so many AI SASTs, happy to do a 1:1 benchmark and compare no of valid findings produced :) https://t.co/GpdsIuTOwT",
+      "summary": "某工具展示了其漏洞发现页面，声称能击败众多 AI SAST 工具，并提议进行一对一的有效发现数量基准测试。",
       "primary_category": "AI for Sec",
-      "sub_category": "crypto_analysis",
-      "score_total": 61.0,
+      "sub_category": "security_benchmark",
+      "score_total": 60.93,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "若传闻属实，AI在密码破解上的突破将颠覆现有加密体系，安全团队需密切关注后续验证。但目前仅见标题，需警惕夸大宣传。",
-      "source_id": "jiqizhixin-rss",
-      "canonical_url": "https://www.jiqizhixin.com/articles/2026-11-26-12?source=rss",
-      "reader_url": "https://www.jiqizhixin.com/articles/2026-11-26-12?source=rss",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-26T12:48:18",
-      "first_seen_at": "2026-11-26T14:11:56.788855",
-      "sub_category_label": null
+      "recommendation_reason": "AI SAST 从业者值得关注，该推文暗示了当前 AI 代码审计工具在有效发现上的痛点。提议的 benchmark 思路可作为评估自有安全工具效果的参考。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/0xAsm0d3us/status/2125640923187224627",
+      "reader_url": "https://x.com/0xAsm0d3us/status/2125640923187224627",
+      "image_url": "https://pbs.twimg.com/media/HX_K9DqbEAAjOTh.jpg",
+      "author": {
+        "username": "0xAsm0d3us",
+        "name": "devansh ⚡️",
+        "avatar_url": null,
+        "followers_count": 17983
+      },
+      "published_at": "2026-11-25T17:21:03",
+      "first_seen_at": "2026-11-26T18:51:32.336186",
+      "sub_category_label": "安全评测与Benchmark"
     }
   ]
 }
