@@ -1,34 +1,9 @@
 {
-  "updated_at": "2026-11-29T04:33:37+08:00",
+  "updated_at": "2026-11-29T05:03:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 10,
+  "item_count": 9,
   "items": [
-    {
-      "id": 36951,
-      "title": "跑Swarm智能体扫honojs，3美元挖出漏洞",
-      "original_title": "&gt; ran swarm on honojs &gt; set budget of $3 &gt; vuln popped out https://t.co/sL09cvGym8",
-      "summary": "推文展示了使用Swarm智能体以仅3美元的API预算对honojs框架进行自动化漏洞挖掘，并成功发现漏洞。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 70.82,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "极低成本的Agent漏洞挖掘实战案例，证明了多智能体协同在开源项目安全审计中的经济性和有效性，安全团队应关注此类工具的自动化落地潜力。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/0xAsm0d3us/status/2126218235490300135",
-      "reader_url": "https://x.com/0xAsm0d3us/status/2126218235490300135",
-      "image_url": "https://pbs.twimg.com/media/HYHYHLBbMAAzKGG.jpg",
-      "author": {
-        "username": "0xAsm0d3us",
-        "name": "devansh ⚡️",
-        "avatar_url": null,
-        "followers_count": 17983
-      },
-      "published_at": "2026-11-27T07:35:05",
-      "first_seen_at": "2026-11-28T08:55:27.621258",
-      "sub_category_label": "安全Agent"
-    },
     {
       "id": 37006,
       "title": "开源AI红队Agent「Decepticon」发布，支持自动化渗透测试",
