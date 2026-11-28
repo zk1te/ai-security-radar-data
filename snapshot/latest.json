@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-28T23:59:28+08:00",
+  "updated_at": "2026-11-29T01:00:08+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 8,
+  "item_count": 7,
   "items": [
     {
       "id": 36951,
@@ -28,31 +28,6 @@
       "published_at": "2026-11-27T07:35:05",
       "first_seen_at": "2026-11-28T08:55:27.621258",
       "sub_category_label": "安全Agent"
-    },
-    {
-      "id": 37141,
-      "title": "将2B LLM置于Ring -1的裸机Hypervisor：内核崩溃时仍可运行的安全分析Agent",
-      "original_title": "RT @superalesha: I built a 74 KB bare-metal hypervisor that puts a 2B LLM BELOW Linux in Ring -1, catches a fatal Kernel panic mid-crash, p…",
-      "summary": "开发者构建了一个仅74KB的裸机hypervisor，将2B参数LLM部署在Linux之下的Ring -1层级，在内核发生致命panic时仍能捕获并处理崩溃信息，实现比OS更底层的AI安全调试能力。",
-      "primary_category": "AI for Sec | AI Tech",
-      "sub_category": "security_agent",
-      "score_total": 70.22,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "做内核安全调试和Agent落地的人都该看：把LLM放到Ring -1意味着分析Agent不受宿主OS崩溃影响，这种架构思路比在OS内部跑安全Agent更鲁棒。可以借鉴这个思路设计自己的崩溃分析流水线。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/HackingLZ/status/2126523332837232935",
-      "reader_url": "https://x.com/HackingLZ/status/2126523332837232935",
-      "image_url": null,
-      "author": {
-        "username": "HackingLZ",
-        "name": "Justin Elze",
-        "avatar_url": null,
-        "followers_count": 73559
-      },
-      "published_at": "2026-11-28T03:47:26",
-      "first_seen_at": "2026-11-28T04:53:12.707004",
-      "sub_category_label": null
     },
     {
       "id": 37006,
@@ -130,29 +105,29 @@
       "sub_category_label": "安全评测与Benchmark"
     },
     {
-      "id": 36850,
-      "title": "推文分享 AI 辅助 Alpenglow 漏洞赏金挖洞实战",
-      "original_title": "RT @_0xarno_: Look into the details of how I found bugs in the Alpenglow bug bounty contest using AI in a short amount of time through pure…",
-      "summary": "@_0xarno_ 在推文中分享了其在 Alpenglow 漏洞赏金比赛中，利用 AI 在短时间内快速发现漏洞的具体过程与方法。",
+      "id": 37021,
+      "title": "使用小型模型猜测子域名",
+      "original_title": "We trained a small model to guess subdomains - @ElS1carius @profundisio https://t.co/uGXpZbnswv",
+      "summary": "安全研究员分享训练小型模型来猜测子域名的方法，探索 AI 在资产发现和攻击面侦察中的应用。",
       "primary_category": "AI for Sec",
-      "sub_category": "vuln_discovery",
-      "score_total": 62.31,
+      "sub_category": "asset_discovery",
+      "score_total": 61.55,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "安全研究员分享了实战中用 AI 快速挖洞的过程。对于关注 AI 辅助漏洞挖掘落地的团队，这种真实赏金比赛经验比纯理论更有参考价值，值得跟进后续细节。",
+      "recommendation_reason": "子域名发现是攻击面管理的第一步，用小模型替代传统字典爆破很有实用价值。做资产管理和红队的同学可以关注其效果，看能否直接集成到现有工具链中。",
       "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2126144906905432389",
-      "reader_url": "https://x.com/soaphornseuo/status/2126144906905432389",
+      "canonical_url": "https://x.com/pentest_swissky/status/2126330215542509806",
+      "reader_url": "https://x.com/pentest_swissky/status/2126330215542509806",
       "image_url": null,
       "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
+        "username": "pentest_swissky",
+        "name": "Swissky",
         "avatar_url": null,
-        "followers_count": 2488
+        "followers_count": 23028
       },
-      "published_at": "2026-11-27T02:43:42",
-      "first_seen_at": "2026-11-28T04:54:35.201640",
-      "sub_category_label": "漏洞挖掘"
+      "published_at": "2026-11-27T15:00:03",
+      "first_seen_at": "2026-11-28T16:56:01.395207",
+      "sub_category_label": null
     },
     {
       "id": 37193,
