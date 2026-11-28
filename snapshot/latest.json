@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-28T23:29:21+08:00",
+  "updated_at": "2026-11-28T23:59:28+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 8,
   "items": [
     {
       "id": 36951,
@@ -103,31 +103,6 @@
       "published_at": "2026-11-28T13:05:27",
       "first_seen_at": "2026-11-28T14:01:29.571154",
       "sub_category_label": null
-    },
-    {
-      "id": 37138,
-      "title": "安全团队实测 FBI 关注的 AI 渗透工具 ARTEX",
-      "original_title": "RT @AikidoSecurity: We ran ARTEX, the open-source AI pentesting tool the FBI says criminals have been using, and Aikido's external network…",
-      "summary": "Aikido Security 团队实测了 FBI 称已被犯罪分子使用的开源 AI 渗透测试工具 ARTEX，并评估了其对外部网络的测试效果。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_agent",
-      "score_total": 65.61,
-      "include_status": "included",
-      "item_type": "news",
-      "recommendation_reason": "红蓝双方都该关注。了解攻击者正在使用的自动化 AI 渗透工具能力边界，有助于评估自身外部暴露面并调整防御策略。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2126521076616437918",
-      "reader_url": "https://x.com/soaphornseuo/status/2126521076616437918",
-      "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null,
-        "followers_count": 2488
-      },
-      "published_at": "2026-11-28T03:38:28",
-      "first_seen_at": "2026-11-28T03:40:17.358539",
-      "sub_category_label": "安全Agent"
     },
     {
       "id": 37158,
