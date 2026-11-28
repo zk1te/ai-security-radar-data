@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-28T05:23:12+08:00",
+  "updated_at": "2026-11-28T08:23:20+08:00",
   "window_hours": 12,
   "min_score": 60.0,
   "item_count": 10,
   "items": [
+    {
+      "id": 37072,
+      "title": "Claude-BugHunter 漏洞挖掘技能包爆火单日涨星超1600",
+      "original_title": "GitHub Trending: elementalsouls/Claude-BugHunter gained 1608 stars today",
+      "summary": "Claude-BugHunter 是专为漏洞挖掘与红队工作设计的 Claude Code 技能包，集成了 85 项技能与 681 个漏洞报告模式，近期在 GitHub 上爆火。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 94.36,
+      "include_status": "breaking",
+      "item_type": "news",
+      "recommendation_reason": "红队和安全研究人员可直接复用其漏洞挖掘技能包，该工具将大量实战报告模式与攻击矩阵结构化，能快速集成进现有的 Claude 工作流中。",
+      "source_id": "github-ai-security",
+      "canonical_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-28&since=daily",
+      "reader_url": "https://github.com/elementalsouls/Claude-BugHunter?github_trending_date=2026-11-28&since=daily",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-28T00:04:43.802566",
+      "first_seen_at": "2026-11-28T00:05:25.249304",
+      "sub_category_label": "安全Agent"
+    },
     {
       "id": 36468,
       "title": "SecID：基于LLM的硬件安全次级资产识别框架",
@@ -181,26 +201,6 @@
       "image_url": null,
       "author": null,
       "published_at": "2026-11-26T05:00:00",
-      "first_seen_at": "2026-11-27T21:08:46.942341",
-      "sub_category_label": null
-    },
-    {
-      "id": 36275,
-      "title": "SecondChance：首个 AI Agent 错误恢复能力评测基准",
-      "original_title": "SecondChance: Benchmarking Reliable Error Recovery in AI Agents",
-      "summary": "SecondChance 提出评测 AI Agent 错误恢复行为的新方法，通过在特定错误点重新启动并提供不同程度辅助，发现最佳模型无辅助恢复率仅 16%，且纠正错误不等于完成任务，揭示了现有评测的盲区。",
-      "primary_category": "Sec for AI | AI Tech",
-      "sub_category": "agent_security | model_evaluation",
-      "score_total": 76.65,
-      "include_status": "highlight",
-      "item_type": "paper",
-      "recommendation_reason": "做 AI Agent 安全和可靠性评估的同学必看。它揭示了「纠正错误不等于任务成功」的残酷现实，提醒设计安全 Agent 时别光盯任务成功率，错误恢复才是真考验。",
-      "source_id": "arxiv-ai-security",
-      "canonical_url": "https://arxiv.org/abs/2611.31586",
-      "reader_url": "https://arxiv.org/pdf/2611.31586",
-      "image_url": null,
-      "author": null,
-      "published_at": "2026-11-25T05:00:00",
       "first_seen_at": "2026-11-27T21:08:46.942341",
       "sub_category_label": null
     }
