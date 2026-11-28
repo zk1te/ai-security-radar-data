@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-29T01:00:08+08:00",
+  "updated_at": "2026-11-29T01:31:40+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 7,
+  "item_count": 8,
   "items": [
     {
       "id": 36951,
@@ -52,6 +52,31 @@
       },
       "published_at": "2026-11-27T13:44:14",
       "first_seen_at": "2026-11-28T14:55:44.027292",
+      "sub_category_label": "安全Agent"
+    },
+    {
+      "id": 37226,
+      "title": "Sage：集成于 Mythic 的突破后 AI 操作工具",
+      "original_title": "Sage: AI for Assumed-Breach Operations, Built Into Mythic - Russel Van Tuyl @SpecterOps  https://t.co/4I3YXSgE0V",
+      "summary": "SpecterOps 推出 Sage，这是一个集成在 Mythic 框架中的 AI 工具，旨在辅助红队进行 Assumed-Breach（假设被攻破）操作。",
+      "primary_category": "AI for Sec",
+      "sub_category": "security_agent",
+      "score_total": 66.55,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "红队与紫队人员必看。将 AI 融入 Mythic 进行突破后操作，可能大幅提升后渗透效率与自动化程度，防守方需警惕这种自动化的红队行为新模式。",
+      "source_id": "x-manual-ai-security",
+      "canonical_url": "https://x.com/pentest_swissky/status/2126716497930367140",
+      "reader_url": "https://x.com/pentest_swissky/status/2126716497930367140",
+      "image_url": null,
+      "author": {
+        "username": "pentest_swissky",
+        "name": "Swissky",
+        "avatar_url": null,
+        "followers_count": 23028
+      },
+      "published_at": "2026-11-28T16:35:00",
+      "first_seen_at": "2026-11-28T17:25:39.367694",
       "sub_category_label": "安全Agent"
     },
     {
