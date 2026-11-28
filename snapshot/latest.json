@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-29T03:03:30+08:00",
+  "updated_at": "2026-11-29T04:33:37+08:00",
   "window_hours": 12,
   "min_score": 60.0,
-  "item_count": 9,
+  "item_count": 10,
   "items": [
     {
       "id": 36951,
@@ -80,6 +80,26 @@
       "sub_category_label": "漏洞挖掘"
     },
     {
+      "id": 37246,
+      "title": "A2UI 1.0 协议发布：用 Catalog 护栏防 Agent 代码注入",
+      "original_title": "A2UI 1.0：Agent 画的 UI，6 端都能原生渲染了！",
+      "summary": "Google 发布 A2UI 1.0，定义 Agent 与 App 间的 UI 契约。Agent 仅输出 JSON 交由原生渲染，并通过 Catalog 组件目录校验防止注入可执行代码。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 68.35,
+      "include_status": "included",
+      "item_type": "news",
+      "recommendation_reason": "开发交互型 Agent 必看：A2UI 用组件白名单做护栏，比纯限制更灵活。其「描述与渲染解耦+Schema 校验」的设计可直接帮你防住前端代码注入，值得借鉴。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7711033019449262130",
+      "reader_url": "https://juejin.cn/post/7711033019449262130",
+      "image_url": null,
+      "author": null,
+      "published_at": "2026-11-23T02:52:48",
+      "first_seen_at": "2026-11-28T20:13:58.382999",
+      "sub_category_label": null
+    },
+    {
       "id": 37226,
       "title": "Sage：集成于 Mythic 的突破后 AI 操作工具",
       "original_title": "Sage: AI for Assumed-Breach Operations, Built Into Mythic - Russel Van Tuyl @SpecterOps  https://t.co/4I3YXSgE0V",
@@ -130,29 +150,24 @@
       "sub_category_label": null
     },
     {
-      "id": 37158,
-      "title": "评测 Claude Code 等 AI 在盲测安全靶场的实战能力",
-      "original_title": "RT @yeswehack: How far can AI really go once it finds a bug? 👀  We tested Claude Code, Codex and Gemini CLI on blind PortSwigger labs.  The…",
-      "summary": "YesWeHack 测试了 Claude Code、Codex 和 Gemini CLI 在盲测 PortSwigger 实验室中的表现，探索 AI 在发现漏洞后能走多远。",
-      "primary_category": "AI for Sec",
-      "sub_category": "security_benchmark",
-      "score_total": 63.26,
+      "id": 37248,
+      "title": "Skyvern 浏览器自动化 Agent 架构与防注入设计解析",
+      "original_title": "写 UI 自动化的同学，这个 2.3万 Star 的自动化Agent 让浏览器自己测试！",
+      "summary": "本文详细解析开源浏览器自动化 Agent Skyvern 的架构设计，特别是其防提示注入和元素 ID 寻址机制。",
+      "primary_category": "Sec for AI | AI Tech",
+      "sub_category": "agent_security",
+      "score_total": 66.1,
       "include_status": "included",
       "item_type": "news",
-      "recommendation_reason": "红队和安全团队必看。直接展示了主流 AI 编码助手在盲测漏洞利用场景下的实战天花板，有助于校准安全 Agent 能力预期与自动化流程设计。",
-      "source_id": "x-manual-ai-security",
-      "canonical_url": "https://x.com/soaphornseuo/status/2126586790811484396",
-      "reader_url": "https://x.com/soaphornseuo/status/2126586790811484396",
+      "recommendation_reason": "做 Agent 开发和自动化的同学值得一看。文章不仅拆解了 Skyvern 的执行循环，还点出了一个实用的防提示注入技巧：在 prompt 开头声明安全边界，将网页内容视为不可信数据，这在任何需要解析外部内容的 Agent 场景都适用。",
+      "source_id": "juejin-trending-weekly",
+      "canonical_url": "https://juejin.cn/post/7711658681012174883",
+      "reader_url": "https://juejin.cn/post/7711658681012174883",
       "image_url": null,
-      "author": {
-        "username": "soaphornseuo",
-        "name": "soaphorn seuo",
-        "avatar_url": null,
-        "followers_count": 2488
-      },
-      "published_at": "2026-11-28T07:59:35",
-      "first_seen_at": "2026-11-28T08:16:40.442810",
-      "sub_category_label": "安全评测与Benchmark"
+      "author": null,
+      "published_at": "2026-11-25T00:58:16",
+      "first_seen_at": "2026-11-28T20:14:18.176538",
+      "sub_category_label": null
     },
     {
       "id": 37021,
